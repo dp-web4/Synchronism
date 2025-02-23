@@ -1,0 +1,36 @@
+name: Synchronism Auto-Update
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # Runs daily at 12:00 UTC (adjust if needed)
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_GH_PAT }}
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt || echo "No dependencies required"
+
+      - name: Run Update Script
+        run: python scripts/update.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Automated AI Update: Synchronism revision" || echo "No changes to commit"
+          git push origin main
