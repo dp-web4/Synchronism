@@ -32,7 +32,7 @@ def modify_text(content):
 
 def modify_code(content):
     """Placeholder for AI-driven code improvements."""
-    content = re.sub(r'# TODO', '# AI-Completed Task', content)
+    content = re.sub(r'# AI-Completed Task', '# AI-Completed Task', content)
     return content
 
 def process_file(filepath):
