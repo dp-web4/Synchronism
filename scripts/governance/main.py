@@ -130,7 +130,8 @@ class SynchronismGovernanceSystem:
         
         # 1. Process new contributions
         print("\n1. Processing new contributions...")
-        contribution_result = self.contribution_system.process_new_contributions()
+        pending_contributions = self.validation_system.get_pending_contributions()
+        contribution_result = self.contribution_system.process_new_contributions(pending_contributions)
         print(f"Contribution result: {contribution_result['status']} - {contribution_result['message']}")
         
         # 2. Assign reviewers to pending contributions

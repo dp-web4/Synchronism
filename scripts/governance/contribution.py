@@ -256,9 +256,8 @@ class ContributionProcessor:
             "message": f"Contribution processed successfully. Token discharged for scale: {scale}"
         }
         
-    def process_new_contributions(self):
+    def process_new_contributions(self, pending_contributions=None):
         """Process all pending contributions in the repository."""
-        pending_contributions = self.get_pending_contributions()
         if not pending_contributions:
             return {"status": "success", "message": "No new contributions to process"}
         
@@ -271,12 +270,10 @@ class ContributionProcessor:
             )
             results.append(result)
         
-        # Aggregate results (simplified: return last result or could summarize)
         if all(r["status"] == "success" for r in results):
             return {"status": "success", "message": f"Processed {len(results)} contributions"}
         else:
-            return {"status": "error", "message": "Some contributions failed", "details": results}    
-
+            return {"status": "error", "message": "Some contributions failed", "details": results}
 
 def main():
     """Main function to run when script is executed directly."""
