@@ -35,12 +35,12 @@ class TokenSystem:
     """Manages the ATP/ADP token system for contributions."""
     
     def __init__(self):
-        """Initialize the token system."""
+        """Initialize the contribution system."""
         self.tokens = self._load_tokens()
         self.contributions = self._load_contributions()
         
     def _load_tokens(self):
-        """Load token data from file or create if not exists."""
+        """Load token data from file if exists"""
         os.makedirs(CONFIG_PATH, exist_ok=True)
         
         if os.path.exists(TOKENS_PATH):
@@ -51,17 +51,8 @@ class TokenSystem:
             tokens = {
                 "contributors": {}
             }
-            self._save_tokens(tokens)
-            return tokens
-    
-    def _save_tokens(self, tokens=None):
-        """Save token data to file."""
-        if tokens is None:
-            tokens = self.tokens
-            
-        with open(TOKENS_PATH, 'w') as f:
-            json.dump(tokens, f, indent=2)
-    
+            return tokens  
+ 
     def _load_contributions(self):
         """Load contribution data from file or create if not exists."""
         if os.path.exists(CONTRIBUTIONS_PATH):

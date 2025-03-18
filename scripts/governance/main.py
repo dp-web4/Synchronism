@@ -54,11 +54,12 @@ class SynchronismGovernanceSystem:
         # Create necessary directories
         os.makedirs(CONFIG_PATH, exist_ok=True)
         
-        # Initialize subsystems
+        # Initialize subsystems in order: token, contribution, validation,
+        # integration, review, branch
+        self.token_system = TokenSystem()  #initialize first!
         self.contribution_system = ContributionProcessor()
         self.validation_system = ValidationSystem()
         self.integration_system = IntegrationSystem()
-        self.token_system = TokenSystem()
         self.review_system = ReviewSystem()
         self.branch_system = FractalBranchSystem()
         
