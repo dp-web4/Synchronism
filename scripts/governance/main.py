@@ -136,7 +136,7 @@ class SynchronismGovernanceSystem:
         
         # 2. Assign reviewers to pending contributions
         print("\n2. Assigning reviewers to pending contributions...")
-        pending_contributions = self.contribution_system.get_pending_contributions()
+        pending_contributions = self.validation_system.get_pending_contributions()
         for contribution in pending_contributions:
             if not contribution.get("review_status") == "assigned":
                 review_result = self.review_system.assign_reviewers(contribution["id"])
@@ -329,7 +329,7 @@ class SynchronismGovernanceSystem:
         print("\nTesting review system...")
         try:
             # Get pending contributions
-            pending = self.contribution_system.get_pending_contributions()
+            pending = self.validation_system.get_pending_contributions()
             
             if not pending:
                 return {
@@ -365,7 +365,7 @@ class SynchronismGovernanceSystem:
             }
             
             # Get pending contributions
-            pending = self.contribution_system.get_pending_contributions()
+            pending = self.validation_system.get_pending_contributions()
             
             if not pending:
                 return {
