@@ -1,0 +1,8 @@
+{
+  "name": "scale-biospheric",
+  "parent": "main",
+  "scale": "biospheric",
+  "type": "exploration",
+  "description": "Branch for Biological systems and ecosystems",
+  "created_at": "2025-03-18T12:13:18.782047"
+}
