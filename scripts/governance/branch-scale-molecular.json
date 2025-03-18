@@ -1,0 +1,8 @@
+{
+  "name": "scale-molecular",
+  "parent": "main",
+  "scale": "molecular",
+  "type": "exploration",
+  "description": "Branch for Molecular scale interactions and structures",
+  "created_at": "2025-03-18T12:13:17.262161"
+}
