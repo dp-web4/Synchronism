@@ -1,0 +1,8 @@
+{
+  "name": "scale-galactic",
+  "parent": "main",
+  "scale": "galactic",
+  "type": "exploration",
+  "description": "Branch for Cosmic scale phenomena and models",
+  "created_at": "2025-03-18T12:13:21.579020"
+}
