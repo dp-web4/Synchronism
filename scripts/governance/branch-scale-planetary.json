@@ -1,0 +1,8 @@
+{
+  "name": "scale-planetary",
+  "parent": "main",
+  "scale": "planetary",
+  "type": "exploration",
+  "description": "Branch for Planetary scale processes and systems",
+  "created_at": "2025-03-18T12:13:20.203971"
+}
