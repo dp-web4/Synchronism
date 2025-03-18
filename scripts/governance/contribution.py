@@ -255,6 +255,27 @@ class ContributionProcessor:
             "scale": scale,
             "message": f"Contribution processed successfully. Token discharged for scale: {scale}"
         }
+        
+    def process_new_contributions(self):
+        """Process all pending contributions in the repository."""
+        pending_contributions = self.get_pending_contributions()
+        if not pending_contributions:
+            return {"status": "success", "message": "No new contributions to process"}
+        
+        results = []
+        for contrib in pending_contributions:
+            result = self.process_contribution(
+                contributor_id=contrib["contributor_id"],
+                content=contrib["content"],
+                scale=contrib["scale"]
+            )
+            results.append(result)
+        
+        # Aggregate results (simplified: return last result or could summarize)
+        if all(r["status"] == "success" for r in results):
+            return {"status": "success", "message": f"Processed {len(results)} contributions"}
+        else:
+            return {"status": "error", "message": "Some contributions failed", "details": results}    
 
 
 def main():
