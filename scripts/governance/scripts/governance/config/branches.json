@@ -1,0 +1,30 @@
+{
+  "branches": [
+    {
+      "name": "main",
+      "parent": null,
+      "scale": null,
+      "type": null,
+      "description": "Main branch of the Synchronism repository",
+      "created_at": "2025-03-18T12:36:10.778870",
+      "status": "active",
+      "children": []
+    }
+  ],
+  "branch_metrics": {
+    "total_branches": 1,
+    "branches_by_scale": {
+      "quantum": 0,
+      "molecular": 0,
+      "biospheric": 0,
+      "planetary": 0,
+      "galactic": 0
+    },
+    "branches_by_type": {
+      "exploration": 0,
+      "refinement": 0,
+      "integration": 0,
+      "application": 0
+    }
+  }
+}

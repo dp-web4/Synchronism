@@ -14,7 +14,9 @@ import math
 from pathlib import Path
 
 # Constants
-REPO_PATH = os.getenv("REPO_PATH", os.getcwd())
+# this script is run from Synchronism/scripts/governance so the paths are accordingly
+REPO_PATH = os.getenv("REPO_PATH", os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 CONFIG_PATH = os.path.join(REPO_PATH, "scripts", "governance", "config")
 TOKENS_PATH = os.path.join(CONFIG_PATH, "tokens.json")
 CONTRIBUTIONS_PATH = os.path.join(CONFIG_PATH, "contributions.json")

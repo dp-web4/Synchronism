@@ -14,7 +14,9 @@ import unittest
 from pathlib import Path
 
 # Add the governance scripts directory to the Python path
-REPO_PATH = os.getenv("REPO_PATH", os.getcwd())
+# this script is run from Synchronism/scripts/governance so the paths are accordingly
+REPO_PATH = os.getenv("REPO_PATH", os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 SCRIPTS_PATH = os.path.join(REPO_PATH, "scripts", "governance")
 sys.path.append(SCRIPTS_PATH)
 

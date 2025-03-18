@@ -1,0 +1,86 @@
+{
+  "branches": [
+    {
+      "name": "main",
+      "parent": null,
+      "scale": null,
+      "type": null,
+      "description": "Main branch of the Synchronism repository",
+      "created_at": "2025-03-18T12:12:48.976541",
+      "status": "active",
+      "children": [
+        "scale-quantum",
+        "scale-molecular",
+        "scale-biospheric",
+        "scale-planetary",
+        "scale-galactic"
+      ]
+    },
+    {
+      "name": "scale-quantum",
+      "parent": "main",
+      "scale": "quantum",
+      "type": "exploration",
+      "description": "Branch for Quantum scale phenomena and models",
+      "created_at": "2025-03-18T12:13:17.196116",
+      "status": "active",
+      "children": []
+    },
+    {
+      "name": "scale-molecular",
+      "parent": "main",
+      "scale": "molecular",
+      "type": "exploration",
+      "description": "Branch for Molecular scale interactions and structures",
+      "created_at": "2025-03-18T12:13:18.726399",
+      "status": "active",
+      "children": []
+    },
+    {
+      "name": "scale-biospheric",
+      "parent": "main",
+      "scale": "biospheric",
+      "type": "exploration",
+      "description": "Branch for Biological systems and ecosystems",
+      "created_at": "2025-03-18T12:13:20.147067",
+      "status": "active",
+      "children": []
+    },
+    {
+      "name": "scale-planetary",
+      "parent": "main",
+      "scale": "planetary",
+      "type": "exploration",
+      "description": "Branch for Planetary scale processes and systems",
+      "created_at": "2025-03-18T12:13:21.521939",
+      "status": "active",
+      "children": []
+    },
+    {
+      "name": "scale-galactic",
+      "parent": "main",
+      "scale": "galactic",
+      "type": "exploration",
+      "description": "Branch for Cosmic scale phenomena and models",
+      "created_at": "2025-03-18T12:13:22.947708",
+      "status": "active",
+      "children": []
+    }
+  ],
+  "branch_metrics": {
+    "total_branches": 6,
+    "branches_by_scale": {
+      "quantum": 1,
+      "molecular": 1,
+      "biospheric": 1,
+      "planetary": 1,
+      "galactic": 1
+    },
+    "branches_by_type": {
+      "exploration": 5,
+      "refinement": 0,
+      "integration": 0,
+      "application": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "reviews": [],
+  "review_assignments": {},
+  "review_metrics": {
+    "total_reviews": 0,
+    "reviews_by_scale": {
+      "quantum": 0,
+      "molecular": 0,
+      "biospheric": 0,
+      "planetary": 0,
+      "galactic": 0
+    },
+    "reviews_by_type": {
+      "human": 0,
+      "ai": 0
+    }
+  }
+}

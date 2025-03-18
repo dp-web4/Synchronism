@@ -15,13 +15,14 @@ import subprocess
 from pathlib import Path
 
 # Add the governance scripts directory to the Python path
-REPO_PATH = os.getenv("REPO_PATH", os.getcwd())
+# this script is run from Synchronism/scripts/governance so the paths are accordingly
+REPO_PATH = os.getenv("REPO_PATH", os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 SCRIPTS_PATH = os.path.join(REPO_PATH, "scripts", "governance")
 sys.path.append(SCRIPTS_PATH)
 
 # Import governance modules
 try:
-    from contribution import ContributionSystem
+    from contribution import ContributionProcessor
     from validation import ValidationSystem
     from integration import IntegrationSystem
     from token_system import TokenSystem
@@ -54,7 +55,7 @@ class SynchronismGovernanceSystem:
         os.makedirs(CONFIG_PATH, exist_ok=True)
         
         # Initialize subsystems
-        self.contribution_system = ContributionSystem()
+        self.contribution_system = ContributionProcessor()
         self.validation_system = ValidationSystem()
         self.integration_system = IntegrationSystem()
         self.token_system = TokenSystem()
