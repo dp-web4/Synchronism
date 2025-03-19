@@ -9,22 +9,22 @@ The Synchronism Governance System is designed as a modular, interconnected syste
 The governance system consists of several interconnected modules, each responsible for a specific aspect of the governance process:
 
 ```ascii
-┌──────────────────────────────────────────────────────────┐
-│                  Synchronism Governance System           │
-│                                                          │
-│  ┌───────────────┐   ┌───────────────┐   ┌───────────────┐ │
-│  │  Contribution  │   │   Validation   │   │    Review     │ │
-│  │    System      │◄─►│    System     │◄─►│    System     │ │
-│  └───────┬───────┘   └───────┬───────┘   └───────┬───────┘ │
-│            │                   │                   │        │
-│            │                   │                   │        │
-│            ▼                   ▼                   ▼        │
-│  ┌───────────────┐   ┌───────────────┐   ┌───────────────┐ │
-│  │  Integration   │   │     Token     │   │    Fractal    │ │
-│  │    System      │◄─►│    System     │◄─►│  Branch System│ │
-│  └───────────────┘   └───────────────┘   └───────────────┘ │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                 Synchronism Governance System             │
+│                                                           │
+│ ┌───────────────┐   ┌───────────────┐   ┌───────────────┐ │
+│ │  Contribution │   │   Validation  │   │    Review     │ │
+│ │    System     │◄─►│    System     │◄─►│    System     │ │
+│ └───────┬───────┘   └───────┬───────┘   └───────┬───────┘ │
+│         │                   │                   │         │
+│         │                   │                   │         │
+│         ▼                   ▼                   ▼         │
+│ ┌───────────────┐   ┌───────────────┐   ┌───────────────┐ │
+│ │  Integration  │   │     Token     │   │    Fractal    │ │
+│ │    System     │◄─►│    System     │◄─►│  Branch System│ │
+│ └───────────────┘   └───────────────┘   └───────────────┘ │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
 ```
 
 ### Core Components
