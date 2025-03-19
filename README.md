@@ -36,7 +36,7 @@ print(f"Post-evolution coherence: {grid.calculate_coherence():.2f}")
 | Concept | Description | Document Reference |
 |---------|-------------|---------------------|
 | MRH | Markov Relevancy Horizon - optimal analysis scale selector | [§4.9](/Documentation/Synchronism_0.pdf) |
-| Spectral Existence | Entity presence as interaction spectrum | [§4.10](/Documentation/patterns.pdfSynchronism_0.pdf) |
+| Spectral Existence | Entity presence as interaction spectrum | [§4.10](/Documentation/Synchronism_0.pdf) |
 | Embryogenic Phase | Planetary development stages analog | [patterns.pdf](/Documentation/patterns.pdf) |
 | Intent Genomics | DNA as environmental interaction recorder | [Appendix A.10](/Documentation/Synchronism_0.pdf) |
 
