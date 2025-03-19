@@ -10,9 +10,9 @@
 Synchronism is a comprehensive model of reality that seeks to unify and transcend existing belief systems, including religions and scientific theories. It offers a perspective that aims to encompass all aspects of existence, providing a framework for understanding the universe and its phenomena. 
 
 ## All models are wrong, some are useful
-Synchronism is a model of the universe, a tool for understanding our experience in it.  Synchronism does not claim "this is what universe is", but rather "this is how we can think of the universe".  The Synchronism model is rooted in Hermetic Principles, Information Theory, and many other perspectives - while offering some novel interpretations.
+Synchronism is a model of the universe, a tool for understanding our experience in it.  Synchronism does not claim "this is what universe is", but rather "this is how we can think of the universe".  The Synchronism model is rooted in Hermetic Principles, Information Theory, and many other perspectives - while offering some novel interpretations and perspectives of its own.  The goal is to shed new light on various "mysteries" in current belief systems, from quantum superposition and entanglement to nature of consciousness and intelligence in a useful, actionable way.
 
-## "intent" as Reification of "Greater Force"
+## "Intent" as reification of "Greater Force"
 The key concept of Synchronism is the reification of the abstract “greater force” into the quantifiable and transferable concept of “intent”. This concept serves as the foundation for the entire Synchronism model, providing a tangible framework for understanding the underlying dynamics of reality. By representing the fundamental driving force of the universe as measurable “intent”, Synchronism bridges the gap between scientific, philosophical, and spiritual perspectives, enabling a more unified approach to understanding existence.
 
 ## Key Features
