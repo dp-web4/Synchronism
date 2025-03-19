@@ -35,10 +35,10 @@ print(f"Post-evolution coherence: {grid.calculate_coherence():.2f}")
 ## Key Concepts
 | Concept | Description | Document Reference |
 |---------|-------------|---------------------|
-| MRH | Markov Relevancy Horizon - optimal analysis scale selector | [§4.9](Synchronism_0.pdf) |
-| Spectral Existence | Entity presence as interaction spectrum | [§4.10](Synchronism_0.pdf) |
-| Embryogenic Phase | Planetary development stages analog | [patterns.pdf](patterns.pdf) |
-| Intent Genomics | DNA as environmental interaction recorder | [Appendix A.10](Synchronism_0.pdf) |
+| MRH | Markov Relevancy Horizon - optimal analysis scale selector | [§4.9](/Documentation/Synchronism_0.pdf) |
+| Spectral Existence | Entity presence as interaction spectrum | [§4.10](/Documentation/patterns.pdfSynchronism_0.pdf) |
+| Embryogenic Phase | Planetary development stages analog | [patterns.pdf](/Documentation/patterns.pdf) |
+| Intent Genomics | DNA as environmental interaction recorder | [Appendix A.10](/Documentation/Synchronism_0.pdf) |
 
 ## Roadmap
 1. **Mathematical Formalization** (Q2 2025)  
@@ -63,9 +63,10 @@ print(f"Post-evolution coherence: {grid.calculate_coherence():.2f}")
 - Validate across 3+ complexity scales
 
 ## Documentation
-- [Core Framework](https://dpcars.net/Synchronism_0.pdf)  
-- [Philosophical Foundation](patterns.pdf)  
+- [Core Framework](/Documentation/Synchronism_0.pdf)  
+- [Philosophical Foundation](/Documentation/patterns.pdf)  
 - [Mathematical Appendix](/Documentation/Appendix_A.pdf)
+- [Alternative Mathematical Appendix](/Documentation/Appendix_R1.pdf)
 
 ## Core Tenets
 1. **Fractal Ontology Principle**  
@@ -87,13 +88,13 @@ D --> A
 
 ## FAQ
 **Q: How does this relate to existing physics?**  
-A: Synchronism proposes a foundational layer beneath QFT/GR - see [§5](Synchronism_0.pdf)
+A: Synchronism proposes a foundational layer beneath QFT/GR - see [§5](/Documentation/Synchronism_0.pdf)
 
 **Q: Can I implement specific Hermetic principles?**  
 A: Yes - see [§3](Synchronism_0.pdf) for Mentalism↔Intent mappings
 
 **Q: What about quantum gravity?**  
-A: Currently addressed through tension field gradients - [§5.14](Synchronism_0.pdf)
+A: Currently addressed through tension field gradients - [§5.14](/Documentation/Synchronism_0.pdf)
 
 
 # Automated Update
@@ -103,13 +104,4 @@ A: Currently addressed through tension field gradients - [§5.14](Synchronism_0.
 
 ## Recent Contributions
 
-No recent contributions.
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
 
