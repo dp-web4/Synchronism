@@ -6,6 +6,15 @@
 [![Version](https://img.shields.io/badge/version-0.24.09.28.11.00-blue)](https://dpcars.net/Synchronism_0.pdf)
 [![License: CC0](https://img.shields.io/badge/license-CC0-green)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+## Summary
+Synchronism is a comprehensive model of reality that seeks to unify and transcend existing belief systems, including religions and scientific theories. It offers a perspective that aims to encompass all aspects of existence, providing a framework for understanding the universe and its phenomena. 
+
+## All models are wrong, some are useful
+Synchronism is a model of the universe, a tool for understanding our experience in it.  Synchronism does not claim "this is what universe is", but rather "this is how we can think of the universe".  The Synchronism model is rooted in Hermetic Principles, Information Theory, and many other perspectives - while offering some novel interpretations.
+
+## "intent" as Reification of "Greater Force"
+The key concept of Synchronism is the reification of the abstract “greater force” into the quantifiable and transferable concept of “intent”. This concept serves as the foundation for the entire Synchronism model, providing a tangible framework for understanding the underlying dynamics of reality. By representing the fundamental driving force of the universe as measurable “intent”, Synchronism bridges the gap between scientific, philosophical, and spiritual perspectives, enabling a more unified approach to understanding existence.
+
 ## Key Features
 - **Fractal Ontology Engine**  
   Implements Markov Blankets as scale-specific reality lenses
@@ -21,7 +30,7 @@ git clone https://github.com/dp-web4/Synchronism.git
 cd Synchronism
 pip install -r requirements.txt
 
-## Quick Start
+## Quick Start (Work In Progress/Preliminary)
 from Mathematical_Frameworks import IntentTransferModels
 Initialize Planck-scale grid
 grid = IntentTransferModels.PlanckGrid3D((32,32,32))
@@ -38,7 +47,7 @@ print(f"Post-evolution coherence: {grid.calculate_coherence():.2f}")
 | MRH | Markov Relevancy Horizon - optimal analysis scale selector | [§4.9](/Documentation/Synchronism_0.pdf) |
 | Spectral Existence | Entity presence as interaction spectrum | [§4.10](/Documentation/Synchronism_0.pdf) |
 | Embryogenic Phase | Planetary development stages analog | [patterns.pdf](/Documentation/patterns.pdf) |
-| Intent Genomics | DNA as environmental interaction recorder | [Appendix A.10](/Documentation/Synchronism_0.pdf) |
+| Intent Genomics | DNA as environmental interaction recorder | [Appendix A.10](/Documentation/Appendix_A.pdf) |
 
 ## Roadmap
 1. **Mathematical Formalization** (Q2 2025)  
