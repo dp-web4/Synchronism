@@ -54,19 +54,18 @@ print(f"Post-evolution coherence: {grid.calculate_coherence():.2f}")
    - Multi-scale coherence analysis pipelines
 
 ## Contributing
-1. Reference relevant document sections in all PRs:
-[1:PART3] - For Markov Blanket hierarchy proposals
-[2:A.23] - Simulation environment enhancements
-2. Follow fractal development protocol:
-- Create feature branches from `develop`
-- Maintain quantum↔cosmic equation symmetry
-- Validate across 3+ complexity scales
+A fully autonomous contribution governance system is being developed.
+The goal is to allow humans and agentic AI to contribute via a self-governing mechanism
+based on Synchronism principles.
+
+Rev_0 is now live.  See [Governance System Documentation](/Documentation/governance/README.md)
 
 ## Documentation
 - [Core Framework](/Documentation/Synchronism_0.pdf)  
 - [Philosophical Foundation](/Documentation/patterns.pdf)  
 - [Mathematical Appendix](/Documentation/Appendix_A.pdf)
 - [Alternative Mathematical Appendix](/Documentation/Appendix_R1.pdf)
+- [Governance System Documentation](/Documentation/governance/README.md)
 
 ## Core Tenets
 1. **Fractal Ontology Principle**  
