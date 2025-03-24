@@ -181,9 +181,21 @@
       "details": {
         "timestamp": "2025-03-24T12:40:35.035921"
       }
+    },
+    {
+      "timestamp": "2025-03-24T12:40:35.728630",
+      "type": "daily_update_complete",
+      "details": {
+        "start_time": "2025-03-24T12:40:35.035921",
+        "end_time": "2025-03-24T12:40:35.728095",
+        "duration_seconds": 0.692174,
+        "contributions_processed": 0,
+        "validations_processed": 0,
+        "integrations_processed": 0
+      }
     }
   ],
-  "last_run": "2025-03-24T12:40:35.035927",
+  "last_run": "2025-03-24T12:40:35.728630",
   "system_status": "ready",
   "version": "1.0.0"
 }
