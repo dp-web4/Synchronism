@@ -580,9 +580,21 @@
       "details": {
         "timestamp": "2025-04-14T12:41:07.281771"
       }
+    },
+    {
+      "timestamp": "2025-04-14T12:41:07.872852",
+      "type": "daily_update_complete",
+      "details": {
+        "start_time": "2025-04-14T12:41:07.281771",
+        "end_time": "2025-04-14T12:41:07.872312",
+        "duration_seconds": 0.590541,
+        "contributions_processed": 0,
+        "validations_processed": 0,
+        "integrations_processed": 0
+      }
     }
   ],
-  "last_run": "2025-04-14T12:41:07.281777",
+  "last_run": "2025-04-14T12:41:07.872852",
   "system_status": "ready",
   "version": "1.0.0"
 }
