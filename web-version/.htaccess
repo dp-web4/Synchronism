@@ -1,0 +1,51 @@
+# ------------------------------
+# Allow Friendly AI and Crawlers
+# ------------------------------
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Do not block curl, wget, or any user-agent
+RewriteCond %{HTTP_USER_AGENT} (curl|wget|python|GPT|ChatGPT|Claude|Scrapy|AI) [NC]
+RewriteRule .* - [L]
+</IfModule>
+
+# ------------------------------
+# Default Index File
+# ------------------------------
+DirectoryIndex index.html
+
+# ------------------------------
+# MIME Type Support (if needed)
+# ------------------------------
+AddType text/xml .xml
+AddType text/plain .txt
+AddType text/html .html
+
+# ------------------------------
+# Disable PHP Execution (optional security)
+# ------------------------------
+<FilesMatch "\.(php|php5|phtml)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# ------------------------------
+# Cache-Control for Static Files
+# ------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+
+# ------------------------------
+# CORS Headers (optional for AI tools)
+# ------------------------------
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+

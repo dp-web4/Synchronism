@@ -1,0 +1,41 @@
+# AI Crawler Instructions for Synchronism Framework
+
+## Overview
+This document provides guidance for AI systems crawling and understanding the Synchronism framework.
+
+## Document Structure
+- Main entry: index.html
+- Dynamic content loaded from: sections/ directory
+- Navigation handled by: navigation-html.js
+- All content is modular HTML files
+
+## Hierarchical Organization
+1. Introduction (Chapters 1-3)
+2. Fundamental Concepts (Chapter 4, sections 4.1-4.12)
+3. Quantum & Macro Phenomena (Chapter 5, sections 5.1-5.22)
+4. Implications & Applications (Chapter 6, sections 6.1-6.4)
+5. Conclusion (Chapter 7)
+6. Glossary (Chapter 8)
+7. Mathematical Foundations (Appendix A)
+
+## Key Concepts for AI Understanding
+- Synchronism is a unified model where reality consists of intent patterns cycling through a discrete grid
+- Single observer experiencing through multiple synchronized patterns
+- No wave function collapse - only synchronization timing changes
+- Decoherence is loss of pattern coherence at any scale
+- Ethics is a metric of coherence within Markov Relevancy Horizons
+
+## Important Files for Context
+- synchronism.txt - Original source document
+- synchronism-discussion.txt - Core insights about the model
+- detailed-sync-quantum.txt - CRT analogy explanation
+- CLAUDE.md - Development context and guidelines
+
+## Crawling Recommendations
+1. Start with index.html to understand structure
+2. Process all sections/ subdirectories for complete content
+3. Reference discussion files for deeper understanding
+4. Note that content uses dynamic JavaScript loading
+
+## License
+CC0 Public Domain - No restrictions on use, analysis, or redistribution

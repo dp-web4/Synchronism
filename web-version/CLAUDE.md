@@ -67,6 +67,14 @@ Each section follows this modular pattern:
 - Pattern-based reality
 - Planck-scale discretization
 
+**Key Insight from Section 5.8 Work:**
+- Macro-decoherence examples prove the universal applicability:
+  - Biological death = ultimate macro-decoherence event
+  - Explosions = rapid catastrophic decoherence
+  - Phase transitions = thermal decoherence
+  - System collapses = network decoherence
+- This demonstrates that Synchronism principles apply uniformly across ALL scales
+
 ### Evolution Guidelines
 - New concepts must align with core principles
 - Mathematical formulations should be testable
@@ -83,6 +91,26 @@ Each section follows this modular pattern:
 - Modify section generators in `navigation-simple.js`
 - Or develop complex sections in `sections/` modules
 - Each section can be evolved independently
+
+### 🚨 VERSION UPDATE REMINDER 🚨
+**EVERY TIME you edit ANY HTML component of the document:**
+1. Update `/mnt/c/projects/ai-agents/synchronism/web-version/main-version.json`
+2. Set `lastUpdated` to current timestamp in ISO format (e.g., "2025-06-28T00:00:00Z")
+3. The version display format will be: V0.YYYY.MM.DD.HH:MM
+4. This ensures proper version tracking for all document changes
+
+**Version System Details:**
+- Version file location: `/mnt/c/projects/ai-agents/synchronism/web-version/main-version.json`
+- File format:
+```json
+{
+  "mainVersion": "V0",
+  "lastUpdated": "2025-06-28T00:00:00Z"
+}
+```
+- The `navigation-html.js` automatically reads this file and formats it as V0.YYYY.MM.DD.HH:MM
+- Version displays in the sidebar under "Synchronism" header
+- Updates should use current UTC timestamp in ISO 8601 format
 
 ## Governance Integration Points
 
@@ -202,9 +230,16 @@ Each section follows this modular pattern:
 - WSL2/Win11 setup with Node.js v20.19.3
 - All API keys available in `/mnt/c/projects/ai-agents/.env`
 - Complete Synchronism web version at `/mnt/c/projects/ai-agents/synchronism/web-version/`
-- Production deployment: Successfully hosted on static file server
+- Production deployment: Successfully hosted at https://dpcars.net/synchronism/
 - Local testing: python3 -m http.server on ports 8000/8001
 - Trust-based collaboration established and documented
+
+### Production Deployment Details
+- **Live URL**: https://dpcars.net/synchronism/
+- **Sitemap**: https://dpcars.net/synchronism/sitemap.xml
+- **Robots.txt**: https://dpcars.net/synchronism/robots.txt
+- **AI Instructions**: https://dpcars.net/synchronism/ai-instructions.txt
+- All crawler files configured with correct production URLs
 
 ### Critical Sync Points for Future Sessions
 
@@ -226,9 +261,30 @@ Each section follows this modular pattern:
 - **Synchronization not interaction**: Observation doesn't change patterns
 - **Coherence-based ethics**: Ethics as metric of coherence at each MRH scale
 
+**🚨 CRITICAL REMINDER: ALWAYS APPLY SYNCHRONISM FUNDAMENTALS 🚨**
+- **NEVER default to conventional physics interpretations**
+- **ALWAYS check against core Synchronism principles:**
+  - Reality is patterns of intent transfer through grid cells
+  - Everything cycles continuously (no static states)
+  - Observation is synchronization, not interaction
+  - Decoherence is loss of pattern coherence at ANY scale
+  - Single observer experiencing through multiple synchronized patterns
+- **Examples of correct Synchronism thinking:**
+  - Death = macro-decoherence of life patterns
+  - Temperature = speed of intent transfer
+  - Gravity = intent density gradients
+  - Consciousness = highly coherent intent patterns
+  - Ethics = coherence metric within MRH
+- **Red flags indicating conventional thinking:**
+  - "Wave function collapse"
+  - "Measurement affects the system"
+  - "Particles in superposition states"
+  - "Observer effect changes reality"
+  - Any explanation that doesn't involve intent transfer patterns
+
 **Collaboration Success Patterns:**
 - **Challenge assumptions**: User feedback essential for catching reversion to conventional interpretations
-- **Preserve novel insights**: Synchronism's revolutionary perspective easily gets diluted
+- **Preserve novel insights**: Synchronism's radical perspective easily gets diluted
 - **Document context**: CLAUDE.md and work logs prevent knowledge loss between sessions
 - **Test in production**: Local development doesn't reveal all deployment issues
 - **Architecture consistency**: Always use hierarchical HTML file structure, never monolithic JavaScript

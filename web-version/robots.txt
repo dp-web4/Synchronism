@@ -1,0 +1,60 @@
+# Synchronism Framework - robots.txt
+# Full access granted to all AI and automated crawlers
+# This knowledge is in the public domain (CC0)
+
+# Allow all user agents full access
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Specific allowances for major search engines and AI crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI and LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Academic and research crawlers
+User-agent: Scrapy
+Allow: /
+
+User-agent: Wget
+Allow: /
+
+User-agent: curl
+Allow: /
+
+# Sitemap location
+Sitemap: https://dpcars.net/synchronism/sitemap.xml
+
+# No restrictions on any content
+# All sections are freely accessible
+# Encourage indexing of all hierarchical content
