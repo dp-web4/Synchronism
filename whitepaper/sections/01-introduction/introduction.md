@@ -29,13 +29,3 @@
  ### Mathematical Formalism
 
  For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a).
-
----
-
- #### Continue Reading
-
- - [Next: Importance of Perspective →](#perspective)
-- [Understanding the Hermetic Foundation →](#hermetic-principles)
-- [Explore Core Concepts →](#fundamental-concepts-header)
-
----

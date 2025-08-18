@@ -30,13 +30,3 @@
  Synchronism aims to provide a broader perspective that integrates various viewpoints, allowing for a more complete understanding of reality. It encourages stepping back to see the bigger picture while also delving into the details of how the universe operates at its most fundamental level.
 
  Synchronism does not dismiss witness experience models as invalid. Rather, it provides a perspective and a method for determining whether a particular model or frame of reference is sufficient and optimal for the analysis being contemplated, and adjusting the model for the task or selecting a different one.
-
----
-
- #### Continue Reading
-
- - [Next: Relation to Hermetic Principles →](#hermetic-principles)
-- [Understanding Markov Relevancy Horizon →](#mrh)
-- [Explore Witness Effect →](#witness-effect)
-
----
