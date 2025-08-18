@@ -106,7 +106,4 @@
 
 ---
 
- - [Next: 5.17 Permeability →](#permeability)
-- [Related: 5.9 Temperature & Phase Transitions →](#temperature-phases)
-- [Related: 5.2 Quantum Superposition →](#quantum-superposition)
 

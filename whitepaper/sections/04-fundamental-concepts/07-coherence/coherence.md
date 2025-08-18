@@ -70,7 +70,4 @@
 
 ---
 
- - [Next: 4.8 Markov Blankets →](#markov-blankets)
-- [Related: Macro-Decoherence →](#macro-decoherence)
-- [Application: Life and Cognition →](#life-cognition)
 

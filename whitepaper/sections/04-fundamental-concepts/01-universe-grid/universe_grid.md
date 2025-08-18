@@ -45,7 +45,4 @@
 
 ---
 
- - [Next: 4.2 Time as Planck Slices →](#time-slices)
-- [Jump to: 4.3 Intent Transfer →](#intent-transfer)
-- [Application: Speed Limits →](#speed-limits)
 

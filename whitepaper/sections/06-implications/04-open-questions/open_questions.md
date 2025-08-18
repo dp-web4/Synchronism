@@ -102,7 +102,4 @@
 
 ---
 
- - [Next: 7. Conclusion →](#conclusion)
-- [Previous: 6.3 Ethical Considerations →](#ethical-philosophical)
-- [Return to Chapter 6 Overview →](#unified-understanding)
 

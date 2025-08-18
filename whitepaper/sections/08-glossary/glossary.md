@@ -124,7 +124,4 @@
 
 ---
 
- - [Next: Appendix A - Mathematical Foundations →](#appendix-mathematical)
-- [Previous: 7. Conclusion →](#conclusion)
-- [Return to Introduction →](#introduction)
 

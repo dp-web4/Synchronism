@@ -123,7 +123,4 @@
 
 ---
 
- - [Next: 5.19 Energy Refinement →](#energy-refinement)
-- [Related: 5.17 Permeability →](#permeability)
-- [Related: 5.11 Universal Field →](#universal-field)
 

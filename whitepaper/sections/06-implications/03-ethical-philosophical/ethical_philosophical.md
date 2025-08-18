@@ -134,7 +134,4 @@
 
 ---
 
- - [Next: 6.4 Open Questions & Future Directions →](#open-questions)
-- [Previous: 6.2 Scientific Inquiry →](#scientific-inquiry)
-- [Related: 5.13 Life & Cognition →](#life-cognition)
 

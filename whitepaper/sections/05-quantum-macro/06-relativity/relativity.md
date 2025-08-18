@@ -88,9 +88,6 @@
 
 ---
 
- - [Next: 5.7 Speed Limits & Time Dilation →](#speed-limits)
-- [Related: 5.11 Universal Field →](#universal-field)
-- [Related: 5.14 Gravity →](#gravity)
 
  *These relativistic patterns play directly into the emergence of coherence and field behavior, explored next.*
 

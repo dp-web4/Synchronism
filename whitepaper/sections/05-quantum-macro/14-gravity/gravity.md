@@ -100,7 +100,4 @@
 
 ---
 
- - [Next: 5.15 Black Holes & Dark Matter →](#dark-matter)
-- [Related: 5.6 Alternative View of Relativity →](#relativity-view)
-- [Related: 5.11 Universal Field →](#universal-field)
 

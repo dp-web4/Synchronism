@@ -255,8 +255,5 @@
 
  #### Reference Complete
 
- - [Return to Introduction →](#introduction)
-- [Previous: Glossary →](#glossary)
-- [Review Conclusion →](#conclusion)
 
 ---

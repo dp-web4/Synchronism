@@ -78,7 +78,4 @@
 
 ---
 
- - [Next: 4.7 Coherence and Feedback →](#coherence-feedback)
-- [Related: Entity Interactions →](#entity-interactions)
-- [Application: Quantum Superposition →](#quantum-superposition)
 

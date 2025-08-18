@@ -68,7 +68,4 @@
 
 ---
 
- - [Next: 4.9 Markov Relevancy Horizon →](#mrh)
-- [Related: Witness Effect →](#witness-effect)
-- [Application: Life and Cognition →](#life-cognition)
 

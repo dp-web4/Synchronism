@@ -82,7 +82,4 @@
 
 ---
 
- - [Next: 5.5 Witness Effect →](#witness-effect)
-- [Related: 5.2 Quantum Superposition →](#quantum-superposition)
-- [Related: 5.8 Macro-Decoherence →](#macro-decoherence)
 

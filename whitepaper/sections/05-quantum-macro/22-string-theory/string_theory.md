@@ -120,8 +120,5 @@
 
  #### Chapter 5 Complete!
 
- - [Next: Chapter 6 - Implications & Applications →](#unified-understanding)
-- [Return to Chapter 5 Overview →](#quantum-macro-header)
-- [Related: 5.11 Universal Field →](#universal-field)
 
 ---

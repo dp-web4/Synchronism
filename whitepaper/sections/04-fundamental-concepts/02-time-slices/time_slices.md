@@ -38,7 +38,4 @@
 
 ---
 
- - [Next: 4.3 Intent Transfer →](#intent-transfer)
-- [Application: Speed Limits →](#speed-limits)
-- [Philosophy: Free Will Questions →](#open-questions)
 

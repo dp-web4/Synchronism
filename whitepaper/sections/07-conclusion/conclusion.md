@@ -77,7 +77,4 @@
 
 ---
 
- - [Next: Glossary →](#glossary)
-- [Previous: 6.4 Open Questions →](#open-questions)
-- [Return to Beginning →](#introduction)
 

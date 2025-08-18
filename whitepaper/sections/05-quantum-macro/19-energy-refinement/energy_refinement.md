@@ -109,7 +109,4 @@
 
 ---
 
- - [Next: 5.20 Temperature Refinement →](#temperature-refinement)
-- [Related: 5.10 Energy in Synchronism →](#energy)
-- [Related: 5.13 Life & Cognition →](#life-cognition)
 

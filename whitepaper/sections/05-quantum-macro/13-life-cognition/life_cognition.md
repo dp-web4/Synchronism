@@ -109,7 +109,4 @@
 
 ---
 
- - [Next: 5.14 Gravity →](#gravity)
-- [Related: 5.12 Chemistry →](#chemistry)
-- [Related: 5.11 Universal Field →](#universal-field)
 

@@ -96,7 +96,4 @@
 
 ---
 
- - [Next: 6.2 Scientific Inquiry →](#scientific-inquiry)
-- [Return to Chapter 6 Overview →](#unified-understanding)
-- [Related: 3. Hermetic Principles →](#hermetic-principles)
 

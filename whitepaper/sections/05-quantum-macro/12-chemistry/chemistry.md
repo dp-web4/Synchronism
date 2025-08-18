@@ -106,7 +106,4 @@
 
 ---
 
- - [Next: 5.13 Life & Cognition →](#life-cognition)
-- [Related: 5.9 Temperature & Phase Transitions →](#temperature-phases)
-- [Related: 5.10 Energy in Synchronism →](#energy)
 

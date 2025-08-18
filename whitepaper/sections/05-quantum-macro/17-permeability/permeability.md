@@ -109,7 +109,4 @@
 
 ---
 
- - [Next: 5.18 Electromagnetic Phenomena →](#electromagnetic)
-- [Related: 5.2 Quantum Superposition →](#quantum-superposition)
-- [Related: 5.11 Universal Field →](#universal-field)
 

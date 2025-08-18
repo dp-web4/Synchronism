@@ -75,7 +75,4 @@
 
 ---
 
- - [Next: 4.6 Interaction Modes →](#interaction-modes)
-- [Related: Universal Field →](#universal-field)
-- [Application: Gravitational Phenomena →](#gravitational-phenomena)
 

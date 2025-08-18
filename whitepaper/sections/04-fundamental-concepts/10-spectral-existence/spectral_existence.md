@@ -74,7 +74,4 @@
 
 ---
 
- - [Next: 4.11 Abstraction →](#abstraction)
-- [Related: Quantum Superposition →](#quantum-superposition)
-- [Application: Life and Cognition →](#life-cognition)
 

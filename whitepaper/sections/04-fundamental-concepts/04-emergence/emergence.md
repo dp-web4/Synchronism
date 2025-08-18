@@ -69,7 +69,4 @@
 
 ---
 
- - [Next: 4.5 Field Effects →](#field-effects)
-- [Related: Coherence and Feedback →](#coherence-feedback)
-- [Application: Life and Cognition →](#life-cognition)
 

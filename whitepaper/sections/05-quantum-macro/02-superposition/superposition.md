@@ -70,7 +70,4 @@
 
 ---
 
- - [Next: 5.3 Wave-Particle Duality →](#wave-particle)
-- [Related: 5.4 Quantum Entanglement →](#entanglement)
-- [Related: 5.8 Macro-Decoherence →](#macro-decoherence)
 

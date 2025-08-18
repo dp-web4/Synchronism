@@ -72,7 +72,4 @@
 
 ---
 
- - [Next: 4.10 Spectral Existence →](#spectral-existence)
-- [Related: Abstraction →](#abstraction)
-- [Application: Scientific Inquiry →](#scientific-inquiry)
 

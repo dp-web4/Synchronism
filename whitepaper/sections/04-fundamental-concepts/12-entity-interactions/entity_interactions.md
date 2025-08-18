@@ -95,7 +95,4 @@
 
 ---
 
- - [Next: Chapter 5 - Quantum & Macro Phenomena →](#crt-analogy)
-- [Related: Life and Cognition →](#life-cognition)
-- [Application: Unified Understanding →](#unified-understanding)
 
