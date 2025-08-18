@@ -15,17 +15,37 @@ mkdir -p "$OUTPUT_DIR"
 # Clear output file if it exists
 > "$OUTPUT_FILE"
 
-# Function to add section with spacing
-add_section() {
-    local file=$1
-    if [ -f "$SECTIONS_DIR/$file" ]; then
-        cat "$SECTIONS_DIR/$file" >> "$OUTPUT_FILE"
-        echo "" >> "$OUTPUT_FILE"  # Add blank line between sections
-        echo "" >> "$OUTPUT_FILE"  # Add another for spacing
-        echo "  ✓ Added $file"
-    else
-        echo "  ⚠ Warning: $file not found"
-    fi
+# Function to process markdown files recursively
+process_section() {
+    local dir=$1
+    local depth=$2
+    
+    # Process all .md files in directory (except index.md)
+    for file in "$dir"/*.md; do
+        if [ -f "$file" ] && [ "$(basename "$file")" != "index.md" ]; then
+            # Add section separator for clarity
+            if [ $depth -eq 1 ]; then
+                echo "" >> "$OUTPUT_FILE"
+                echo "---" >> "$OUTPUT_FILE"
+                echo "" >> "$OUTPUT_FILE"
+            fi
+            
+            cat "$file" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            
+            # Report progress
+            local rel_path=${file#$SECTIONS_DIR/}
+            echo "  ✓ Added $rel_path"
+        fi
+    done
+    
+    # Process subdirectories in sorted order
+    for subdir in $(ls -d "$dir"/*/ 2>/dev/null | sort); do
+        if [ -d "$subdir" ]; then
+            process_section "$subdir" $((depth + 1))
+        fi
+    done
 }
 
 echo "Combining sections..."
@@ -36,20 +56,32 @@ cat > "$OUTPUT_FILE" << 'TITLE'
 
 **Unified Model of Reality Through Intent Dynamics**
 
-Version: 0.24.09.28.11.00
+Version: 1.0-clean
 
 ---
 
 TITLE
 
-# Add sections in proper order
-add_section "00-executive-summary.md"
-add_section "01-introduction.md"
+# Process sections in specific order
+sections=(
+    "00-executive-summary"
+    "01-introduction"
+    "02-perspective"
+    "03-hermetic-principles"
+    "04-fundamental-concepts"
+    "05-quantum-macro"
+    "06-implications"
+    "07-conclusion"
+    "08-glossary"
+    "09-appendix-mathematical"
+)
 
-# Add remaining sections in order, skipping the old introduction
-for file in $(ls "$SECTIONS_DIR" | grep -E '^[0-9]{2}-' | sort); do
-    if [[ "$file" != "00-executive-summary.md" && "$file" != "01-introduction.md" && "$file" != "00-introduction.md" ]]; then
-        add_section "$file"
+for section in "${sections[@]}"; do
+    if [ -d "$SECTIONS_DIR/$section" ]; then
+        echo "Processing $section..."
+        process_section "$SECTIONS_DIR/$section" 1
+    else
+        echo "  ⚠ Warning: $section directory not found"
     fi
 done
 

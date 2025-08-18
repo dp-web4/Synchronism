@@ -1,4 +1,4 @@
-/* Synchronism Whitepaper Styles */
+/* Synchronism Whitepaper Styles - Flattened Navigation */
 :root {
     --primary-color: #374151;
     --secondary-color: #64748b;
@@ -6,7 +6,7 @@
     --text-color: #1e293b;
     --border-color: #e2e8f0;
     --code-bg: #f8fafc;
-    --sidebar-width: 320px;
+    --sidebar-width: 280px;
 }
 
 * {
@@ -54,34 +54,7 @@ body {
     margin-bottom: 0;
 }
 
-.nav-list a {
-    color: var(--text-color);
-    text-decoration: none;
-    padding: 0.2rem 0.6rem;
-    display: block;
-    border-radius: 4px;
-    transition: all 0.2s;
-    font-size: 0.9rem;
-    line-height: 1.3;
-}
-
-.nav-list a:hover {
-    background: white;
-    color: var(--primary-color);
-}
-
-.nav-list a.active {
-    background: var(--primary-color);
-    color: white;
-}
-
-/* Nested navigation */
-.nav-list .nav-list {
-    margin-left: 1rem;
-    margin-top: 0;
-    font-size: 0.85rem;
-}
-
+/* Main sections */
 .nav-section {
     margin-bottom: 0.5rem;
 }
@@ -114,12 +87,35 @@ body {
     transform: rotate(90deg);
 }
 
-.nav-section > .nav-list {
+/* Subsection links */
+.nav-subsection {
     display: none;
+    margin-left: 0.5rem;
 }
 
-.nav-section.expanded > .nav-list {
+.nav-section.expanded .nav-subsection {
     display: block;
+}
+
+.nav-subsection a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.2rem 0.6rem;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.2s;
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.nav-subsection a:hover {
+    background: white;
+    color: var(--primary-color);
+}
+
+.nav-subsection a.active {
+    background: var(--primary-color);
+    color: white;
 }
 
 /* Main Content */
@@ -133,16 +129,10 @@ body {
 /* Section Pages */
 .section {
     display: none;
-    animation: fadeIn 0.3s;
 }
 
 .section.active {
     display: block;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
 }
 
 /* Typography */
@@ -158,6 +148,7 @@ h2 {
     font-size: 1.6rem;
     margin: 1.5rem 0 0.75rem;
     color: var(--text-color);
+    padding-top: 1rem;
 }
 
 h3 {
@@ -195,6 +186,18 @@ pre {
     border: 1px solid var(--border-color);
 }
 
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section divider */
+.section-divider {
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 2px solid var(--border-color);
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .sidebar {
@@ -228,7 +231,7 @@ pre {
         background: #1e293b;
     }
     
-    .nav-list a:hover {
+    .nav-subsection a:hover {
         background: #334155;
     }
 }
