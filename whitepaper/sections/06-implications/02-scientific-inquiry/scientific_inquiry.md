@@ -91,10 +91,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 6.3 Ethical & Philosophical Considerations →](#ethical-philosophical)
 - [Previous: 6.1 Unified Understanding →](#unified-understanding-detail)
 - [Related: Chapter 5 - Quantum Phenomena →](#quantum-macro-header)
 
----

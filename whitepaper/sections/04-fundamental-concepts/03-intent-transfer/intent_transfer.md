@@ -50,10 +50,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 4.4 Emergence and Patterns →](#emergence-patterns)
 - [Application: Energy in Synchronism →](#energy)
 - [Related: Universal Field →](#universal-field)
 
----

@@ -4,7 +4,7 @@ Foundations</h2>
 <p>This appendix provides the mathematical formulations underlying the
 Synchronism framework. These equations describe the fundamental dynamics
 of intent patterns cycling through the universe grid.</p>
-<p>### Foundational Principles</p>
+<p><strong>Foundational Principles</strong></p>
 <p>All Synchronism mathematics builds on these core principles:</p>
 <ul>
 <li><strong>Discrete grid:</strong> Space consists of discrete cells
@@ -16,7 +16,7 @@ during transfers</li>
 <li><strong>Deterministic cycling:</strong> Pattern behavior is fully
 deterministic</li>
 </ul>
-<p>### A.1 Basic Intent Transfer</p>
+<p><strong>A.1 Basic Intent Transfer</strong></p>
 <p>The fundamental equation governing intent movement between adjacent
 cells:</p>
 <p><strong>Intent Transfer Function:</strong></p>
@@ -28,7 +28,7 @@ cells:</p>
 (x,y,z)</li>
 <li>The sum includes all six adjacent cells in 3D space</li>
 </ul>
-<p>### A.2 Coherence Measure</p>
+<p><strong>A.2 Coherence Measure</strong></p>
 <p>Quantifying pattern stability and coherence:</p>
 <p><strong>Coherence Function:</strong></p>
 <p>C(P,t) = 1 - (∑|I(x,y,z,t) - I_expected(x,y,z,t)|) / I_total</p>
@@ -40,25 +40,25 @@ cycle</li>
 <li>I_total = Total intent in the pattern</li>
 <li>C(P,t) = 1 for perfect coherence, 0 for complete decoherence</li>
 </ul>
-<p>### A.3 Saturation Effects</p>
+<p><strong>A.3 Saturation Effects</strong></p>
 <p>Modeling cell saturation and overflow dynamics:</p>
 <p><strong>Saturation Transfer:</strong></p>
 <p>If I(x,y,z,t) &gt; I_max, then:</p>
 <p>Overflow = I(x,y,z,t) - I_max</p>
 <p>T_overflow = Overflow / N_adjacent</p>
 <p>Where N_adjacent = number of adjacent cells</p>
-<p>### A.4 Pattern Recognition</p>
+<p><strong>A.4 Pattern Recognition</strong></p>
 <p>Mathematical identification of stable cycling patterns:</p>
 <p><strong>Pattern Period Detection:</strong></p>
 <p>P(T) = 1 if I(x,y,z,t) = I(x,y,z,t+T) for all (x,y,z) in pattern</p>
 <p>Pattern period = minimum T where P(T) = 1</p>
-<p>### A.5 Field Gradient</p>
+<p><strong>A.5 Field Gradient</strong></p>
 <p>Computing field effects from intent distributions:</p>
 <p><strong>Tension Field:</strong></p>
 <p>∇I(x,y,z,t) = [∂I/∂x, ∂I/∂y, ∂I/∂z]</p>
 <p>Field strength = |∇I(x,y,z,t)|</p>
 <p>Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|</p>
-<p>### A.6 Emergence Threshold</p>
+<p><strong>A.6 Emergence Threshold</strong></p>
 <p>Determining when collective patterns create emergent behavior:</p>
 <p><strong>Emergence Function:</strong></p>
 <p>E(System) = C(System) × log(N_patterns) × I(System)</p>
@@ -69,14 +69,14 @@ cycle</li>
 <li>I(System) = Information content of system</li>
 </ul>
 <p>Emergence occurs when E(System) &gt; E_threshold</p>
-<p>### A.7 Synchronization Quality</p>
+<p><strong>A.7 Synchronization Quality</strong></p>
 <p>Measuring how well patterns synchronize:</p>
 <p><strong>Sync Quality:</strong></p>
 <p>S(P1,P2,t) = cos(θ(P1,t) - θ(P2,t))</p>
 <p>Where θ(P,t) = phase of pattern P at time t</p>
 <p>S = 1 for perfect sync, S = -1 for anti-sync, S = 0 for no
 correlation</p>
-<p>### A.8 Decoherence Rate</p>
+<p><strong>A.8 Decoherence Rate</strong></p>
 <p>Calculating pattern degradation over time:</p>
 <p><strong>Decoherence Function:</strong></p>
 <p>dC/dt = -γ × C(t) × N_interactions</p>
@@ -86,7 +86,7 @@ correlation</p>
 <li>N_interactions = number of external pattern interactions</li>
 </ul>
 <p>Solution: C(t) = C₀ × e^(-γN_interactions × t)</p>
-<p>### A.9 Markov Relevancy Horizon</p>
+<p><strong>A.9 Markov Relevancy Horizon</strong></p>
 <p>Defining the boundary of relevant information:</p>
 <p><strong>MRH Radius:</strong></p>
 <p>R_MRH = √(I_pattern / I_background)</p>
@@ -96,7 +96,7 @@ correlation</p>
 <li>I_background = Average background information density</li>
 </ul>
 <p>Beyond R_MRH, statistical approximation is sufficient</p>
-<p>### A.10 Abstraction Function</p>
+<p><strong>A.10 Abstraction Function</strong></p>
 <p>Mathematical description of pattern abstraction:</p>
 <p><strong>Abstraction Mapping:</strong></p>
 <p>A(P_detailed) → P_abstract</p>
@@ -104,7 +104,7 @@ correlation</p>
 E(P_detailed)</p>
 <p>Successful abstraction preserves emergent properties while reducing
 information load</p>
-<p>### A.11 Quantum Correspondence</p>
+<p><strong>A.11 Quantum Correspondence</strong></p>
 <p>Connecting Synchronism to quantum mechanics:</p>
 <p><strong>Wave Function Analog:</strong></p>
 <p>ψ(x,t) ≈ √(I(x,t)) × e^(iθ(x,t))</p>
@@ -114,7 +114,7 @@ information load</p>
 <li>θ(x,t) = Pattern phase (complex phase)</li>
 </ul>
 <p>No collapse - only synchronization timing changes</p>
-<p>### A.12 Gravity Model</p>
+<p><strong>A.12 Gravity Model</strong></p>
 <p>Gravitational effects from intent density gradients:</p>
 <p><strong>Gravitational Acceleration:</strong></p>
 <p>g = -∇(I_density × G_sync)</p>
@@ -124,7 +124,7 @@ information load</p>
 <li>G_sync = Gravitational synchronization constant</li>
 </ul>
 <p>Massive objects = high intent density patterns</p>
-<p>### A.13 Consciousness Measure</p>
+<p><strong>A.13 Consciousness Measure</strong></p>
 <p>Quantifying awareness in pattern systems:</p>
 <p><strong>Consciousness Index:</strong></p>
 <p>Φ = ∫∫ C(P_i,P_j) × I(P_i) × I(P_j) dP_i dP_j</p>
@@ -134,7 +134,7 @@ information load</p>
 <li>Integration over all pattern pairs in system</li>
 </ul>
 <p>High Φ indicates integrated conscious experience</p>
-<p>### A.14 Pattern Evolution</p>
+<p><strong>A.14 Pattern Evolution</strong></p>
 <p>Mathematical description of pattern development:</p>
 <p><strong>Evolution Function:</strong></p>
 <p>P(t+1) = F(P(t), Environment(t), Random(t))</p>
@@ -144,7 +144,7 @@ information load</p>
 <li>Environmental interactions</li>
 <li>Quantum randomness from grid discreteness</li>
 </ul>
-<p>### A.15 Universal Constants</p>
+<p><strong>A.15 Universal Constants</strong></p>
 <p>Key constants in the Synchronism framework:</p>
 <p><strong>Grid Constants:</strong></p>
 <ul>
@@ -154,7 +154,7 @@ information load</p>
 <li>c = L_cell / T_slice = Speed of light</li>
 <li>ħ = I_max × L_cell² / T_slice = Reduced Planck constant</li>
 </ul>
-<p>### A.16 Integrated Model</p>
+<p><strong>A.16 Integrated Model</strong></p>
 <p>Complete system dynamics combining all elements:</p>
 <p><strong>Master Equation:</strong></p>
 <p>∂I/∂t = -∇·J + S_coherence - D_decoherence</p>
@@ -165,7 +165,7 @@ information load</p>
 <li>D_decoherence = Decoherence loss terms</li>
 </ul>
 <p>This master equation governs all pattern dynamics in Synchronism</p>
-<p>### A.17 Computational Implementation</p>
+<p><strong>A.17 Computational Implementation</strong></p>
 <p>Guidelines for simulating Synchronism dynamics:</p>
 <ul>
 <li><strong>Grid discretization:</strong> Use finite difference methods
@@ -179,7 +179,7 @@ time evolution</li>
 <li><strong>Coherence monitoring:</strong> Continuous coherence
 calculation for stability analysis</li>
 </ul>
-<p>### A.18 Open Mathematical Questions</p>
+<p><strong>A.18 Open Mathematical Questions</strong></p>
 <ul>
 <li><strong>Convergence proofs:</strong> Mathematical proof of pattern
 stability conditions</li>

@@ -88,10 +88,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 4.12 Entity Interactions →](#entity-interactions)
 - [Related: Scientific Inquiry →](#scientific-inquiry)
 - [Application: Life and Cognition →](#life-cognition)
 
----

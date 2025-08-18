@@ -116,10 +116,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.22 String Theory Interpretation →](#string-theory)
 - [Related: 5.13 Life & Cognition →](#life-cognition)
 - [Related: 5.19 Energy Refinement →](#energy-refinement)
 
----

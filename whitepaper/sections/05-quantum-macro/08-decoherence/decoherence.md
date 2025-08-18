@@ -67,12 +67,9 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.9 Temperature & Phase Transitions →](#temperature-phases)
 - [Related: 5.7 Speed Limits & Time Dilation →](#speed-limits)
 - [Related: 4.7 Coherence & Feedback →](#coherence-feedback)
 
  *Some patterns can recover coherence after disruption—this process of recoherence will be explored in later sections.*
 
----

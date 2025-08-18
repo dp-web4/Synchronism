@@ -87,10 +87,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.4 Quantum Entanglement →](#entanglement)
 - [Related: 5.1 CRT Analogy →](#crt-analogy)
 - [Related: 5.5 Witness Effect →](#witness-effect)
 
----

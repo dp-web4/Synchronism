@@ -100,10 +100,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.12 Chemistry →](#chemistry)
 - [Related: 5.10 Energy in Synchronism →](#energy)
 - [Related: 5.14 Gravity →](#gravity)
 
----

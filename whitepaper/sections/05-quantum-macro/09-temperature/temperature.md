@@ -89,12 +89,9 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.10 Energy in Synchronism →](#energy)
 - [Related: 5.8 Macro-Decoherence →](#macro-decoherence)
 - [Related: 5.12 Chemistry →](#chemistry)
 
  *Temperature and phase transitions illustrate how energy, as dynamic intent, affects structural coherence.*
 
----

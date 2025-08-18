@@ -8,7 +8,7 @@
 
  The model proposes a fundamental structure for the universe based on discrete units of space and time, with a unique concept of "intent" as the driving force behind all interactions and emergent phenomena. By offering a new lens through which to view reality, Synchronism challenges conventional thinking and invites a reevaluation of our understanding of existence, consciousness, and the nature of the universe itself.
 
- ### Single Observer Model
+**Single Observer Model**
 
  Synchronism is inherently a single-observer model, meaning that all phenomena are interpreted from the standpoint of a singular, unified observer. This "observer" is not a person or entity, but rather the unified consciousness experiencing reality through multiple synchronized perspectives—the single awareness witnessing all intent patterns cycling through the universe grid.
 
@@ -20,12 +20,12 @@
 
  This approach contrasts with relativistic models, which allow for multiple "observers" with potentially conflicting perceptions of time and space. In Synchronism, time and space are absolute within the single observer's framework, providing a consistent reference for understanding the universe's evolution. This singular viewpoint is crucial for maintaining coherence within the model and ensuring that emergent phenomena are uniformly interpretable. (Note: This divergence from relativity is a modeling choice within Synchronism's MRH, not a rejection of relativistic effects at appropriate scales.)
 
- ### Limitations and Perspectives
+**Limitations and Perspectives**
 
  The limitations of individual perspectives, as highlighted in the parable of the blind men and the elephant, underscore the need for a comprehensive model like Synchronism that strives for a holistic understanding of reality. However, Synchronism acknowledges the practical usefulness of limited-perspective analysis.
 
  This is addressed with concepts like [Markov Relevancy Horizon](#mrh), [Abstraction](#abstraction), [Witness](#witness-effect) and Experience as part of the Synchronism model. These tools are not replacements for traditional scientific methods but extensions that accommodate multi-scale coherence and fractal analysis.
 
- ### Mathematical Formalism
+**Mathematical Formalism**
 
  For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a).

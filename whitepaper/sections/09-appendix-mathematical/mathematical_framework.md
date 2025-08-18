@@ -2,7 +2,7 @@
 
  This appendix provides the mathematical formulations underlying the Synchronism framework. These equations describe the fundamental dynamics of intent patterns cycling through the universe grid.
 
- ### Foundational Principles
+**Foundational Principles**
 
  All Synchronism mathematics builds on these core principles:
 
@@ -11,7 +11,7 @@
 - **Intent conservation:** Total intent is conserved during transfers
 - **Deterministic cycling:** Pattern behavior is fully deterministic
 
- ### A.1 Basic Intent Transfer
+**A.1 Basic Intent Transfer**
 
  The fundamental equation governing intent movement between adjacent cells:
 
@@ -25,7 +25,7 @@
 - T(x',y',z' → x,y,z,t) = Transfer from adjacent cell (x',y',z') to (x,y,z)
 - The sum includes all six adjacent cells in 3D space
 
- ### A.2 Coherence Measure
+**A.2 Coherence Measure**
 
  Quantifying pattern stability and coherence:
 
@@ -40,7 +40,7 @@
 - I_total = Total intent in the pattern
 - C(P,t) = 1 for perfect coherence, 0 for complete decoherence
 
- ### A.3 Saturation Effects
+**A.3 Saturation Effects**
 
  Modeling cell saturation and overflow dynamics:
 
@@ -54,7 +54,7 @@
 
  Where N_adjacent = number of adjacent cells
 
- ### A.4 Pattern Recognition
+**A.4 Pattern Recognition**
 
  Mathematical identification of stable cycling patterns:
 
@@ -64,7 +64,7 @@
 
  Pattern period = minimum T where P(T) = 1
 
- ### A.5 Field Gradient
+**A.5 Field Gradient**
 
  Computing field effects from intent distributions:
 
@@ -76,7 +76,7 @@
 
  Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|
 
- ### A.6 Emergence Threshold
+**A.6 Emergence Threshold**
 
  Determining when collective patterns create emergent behavior:
 
@@ -92,7 +92,7 @@
 
  Emergence occurs when E(System) > E_threshold
 
- ### A.7 Synchronization Quality
+**A.7 Synchronization Quality**
 
  Measuring how well patterns synchronize:
 
@@ -104,7 +104,7 @@
 
  S = 1 for perfect sync, S = -1 for anti-sync, S = 0 for no correlation
 
- ### A.8 Decoherence Rate
+**A.8 Decoherence Rate**
 
  Calculating pattern degradation over time:
 
@@ -119,7 +119,7 @@
 
  Solution: C(t) = C₀ × e^(-γN_interactions × t)
 
- ### A.9 Markov Relevancy Horizon
+**A.9 Markov Relevancy Horizon**
 
  Defining the boundary of relevant information:
 
@@ -134,7 +134,7 @@
 
  Beyond R_MRH, statistical approximation is sufficient
 
- ### A.10 Abstraction Function
+**A.10 Abstraction Function**
 
  Mathematical description of pattern abstraction:
 
@@ -146,7 +146,7 @@
 
  Successful abstraction preserves emergent properties while reducing information load
 
- ### A.11 Quantum Correspondence
+**A.11 Quantum Correspondence**
 
  Connecting Synchronism to quantum mechanics:
 
@@ -161,7 +161,7 @@
 
  No collapse - only synchronization timing changes
 
- ### A.12 Gravity Model
+**A.12 Gravity Model**
 
  Gravitational effects from intent density gradients:
 
@@ -176,7 +176,7 @@
 
  Massive objects = high intent density patterns
 
- ### A.13 Consciousness Measure
+**A.13 Consciousness Measure**
 
  Quantifying awareness in pattern systems:
 
@@ -191,7 +191,7 @@
 
  High Φ indicates integrated conscious experience
 
- ### A.14 Pattern Evolution
+**A.14 Pattern Evolution**
 
  Mathematical description of pattern development:
 
@@ -205,7 +205,7 @@
 - Environmental interactions
 - Quantum randomness from grid discreteness
 
- ### A.15 Universal Constants
+**A.15 Universal Constants**
 
  Key constants in the Synchronism framework:
 
@@ -217,7 +217,7 @@
 - c = L_cell / T_slice = Speed of light
 - ħ = I_max × L_cell² / T_slice = Reduced Planck constant
 
- ### A.16 Integrated Model
+**A.16 Integrated Model**
 
  Complete system dynamics combining all elements:
 
@@ -233,7 +233,7 @@
 
  This master equation governs all pattern dynamics in Synchronism
 
- ### A.17 Computational Implementation
+**A.17 Computational Implementation**
 
  Guidelines for simulating Synchronism dynamics:
 
@@ -243,7 +243,7 @@
 - **Pattern tracking:** Maintain pattern identity across time evolution
 - **Coherence monitoring:** Continuous coherence calculation for stability analysis
 
- ### A.18 Open Mathematical Questions
+**A.18 Open Mathematical Questions**
 
  - **Convergence proofs:** Mathematical proof of pattern stability conditions
 - **Computational complexity:** Scaling laws for large-scale simulations

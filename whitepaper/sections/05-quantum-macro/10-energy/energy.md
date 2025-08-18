@@ -96,12 +96,9 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.11 Universal Field →](#universal-field)
 - [Related: 5.9 Temperature & Phase Transitions →](#temperature-phases)
 - [Related: 5.7 Speed Limits & Time Dilation →](#speed-limits)
 
  *This dynamic framework sets the stage for understanding field effects and macro-scale coherence.*
 
----

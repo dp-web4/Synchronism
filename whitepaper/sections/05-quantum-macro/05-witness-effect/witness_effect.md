@@ -95,10 +95,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.6 Alternative View of Relativity →](#relativity-view)
 - [Related: 5.2 Quantum Superposition →](#quantum-superposition)
 - [Related: 5.1 CRT Analogy →](#crt-analogy)
 
----

@@ -61,10 +61,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.2 Quantum Superposition →](#quantum-superposition)
 - [Related: 5.5 Witness Effect →](#witness-effect)
 - [Related: 5.3 Wave-Particle Duality →](#wave-particle)
 
----

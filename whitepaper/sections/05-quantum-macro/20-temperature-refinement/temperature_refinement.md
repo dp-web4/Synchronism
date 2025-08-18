@@ -116,10 +116,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.21 Cognition Refinement →](#cognition-refinement)
 - [Related: 5.9 Temperature & Phase Transitions →](#temperature-phases)
 - [Related: 5.19 Energy Refinement →](#energy-refinement)
 
----

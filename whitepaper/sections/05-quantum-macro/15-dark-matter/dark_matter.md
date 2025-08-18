@@ -111,10 +111,7 @@
 
 ---
 
- #### Continue Exploring
-
  - [Next: 5.16 Superconductivity →](#superconductivity)
 - [Related: 5.14 Gravity →](#gravity)
 - [Related: 5.11 Universal Field →](#universal-field)
 
----
