@@ -1,5 +1,7 @@
 # Synchronism Self-Governing Repository Management System
 
+> **Latest Updates**: See [GOVERNANCE_UPDATES.md](GOVERNANCE_UPDATES.md) for recent enhancements (Aug 19, 2025)
+
 This system implements a comprehensive governance framework for the Synchronism repository, enabling AI models and human contributors to propose, review, and integrate modifications to the Synchronism model of reality.
 
 ## Overview
@@ -76,7 +78,39 @@ To test the system:
 python scripts/governance/test.py
 ```
 
+Additional test scripts for specific features:
+```bash
+python scripts/governance/test_arbiter_selection.py  # Test arbiter fallback
+python scripts/governance/test_mini_cycle.py         # Test governance cycle
+python scripts/governance/test_review_counter.py     # Test counter-proposals
+```
+
 This will run unit tests for all components of the system.
+
+## Enhanced Review System (Aug 2025)
+
+The governance system now features an enhanced collaborative review process:
+
+### Review Actions
+- **Accept**: Proposal is ready for implementation
+- **Hold-for-Counter**: Proposal needs enhancement or discussion
+
+### Acceptance Criteria
+- Proposals are accepted only with **unanimous "accept" reviews**
+- Mixed reviews or holds defer the proposal to the next cycle
+- No reviews automatically defer the proposal
+
+### Counter-Proposal Mechanism
+- Participants who request "hold" can submit enhanced versions in the next cycle
+- Counter-proposals create multi-participant conversation threads
+- Each iteration builds on previous contributions without destroying them
+- Reviews are cleared for fresh evaluation of enhanced proposals
+
+### Arbiter Selection
+- Automatic fallback to AI arbiters when human unavailable
+- Preference hierarchy: Claude > GPT > Deepseek
+- Load balancing among qualified arbiters
+- Any available AI can serve as last-resort arbiter
 
 ## Fractal Structure
 

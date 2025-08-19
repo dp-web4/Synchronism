@@ -37,7 +37,8 @@ class ReviewAction(Enum):
 class GovernanceCycle:
     """Manages a single governance cycle"""
     
-    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 1):
+    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 1,
+                 held_proposals: Dict = None):
         self.cycle_id = cycle_id
         self.sections = sections
         self.max_proposals_per_participant = max_proposals_per_participant
@@ -51,6 +52,10 @@ class GovernanceCycle:
         self.holds = {}                # proposal_id -> lct_id (who wants to counter)
         self.decisions = {}            # proposal_id -> decision_data
         
+        # Track held proposals for counter-proposal mechanism
+        self.held_proposals = held_proposals or {}  # proposal_id -> original_data
+        self.counter_proposals = {}    # original_id -> enhanced_proposal
+        
         # Initialize components
         self.governance = WhitepaperGovernance()
         self.registry = LCTRegistry()
@@ -61,10 +66,21 @@ class GovernanceCycle:
         results = {
             'phase': 'proposal',
             'participants': [],
-            'proposals_created': []
+            'proposals_created': [],
+            'counter_proposals': []
         }
         
-        # Get eligible participants
+        # First, handle counter-proposals for held items
+        for proposal_id, holder_id in self.held_proposals.items():
+            holder = self.registry.get_participant(holder_id)
+            if holder and holder.check_availability():
+                # Create counter-proposal that enhances the original
+                counter = self._create_counter_proposal(holder, proposal_id)
+                if counter:
+                    self.counter_proposals[proposal_id] = counter
+                    results['counter_proposals'].append(counter['id'])
+        
+        # Get eligible participants for new proposals
         participants = self.registry.get_participants_for_cycle()
         
         for participant in participants:
@@ -279,7 +295,10 @@ class GovernanceCycle:
         reviews = []
         
         for proposal_id in proposal_ids:
-            # Check if participant wants to counter-propose
+            # Simulate review decision based on participant preferences
+            # In production, this would call actual AI API
+            
+            # Check if participant wants to counter-propose (simulated logic)
             wants_counter = (participant.type == ParticipantType.AI_CLAUDE and "Mathematical" in proposal_id) or \
                           (participant.type == ParticipantType.AI_GPT and "Conceptual" in proposal_id)
             
@@ -287,45 +306,115 @@ class GovernanceCycle:
                 # Request hold for counter-proposal
                 review = {
                     'proposal_id': proposal_id,
-                    'reviewer': f"{participant.name} (LCT: {participant.id[:8]})",
+                    'reviewer': participant.name,
+                    'reviewer_id': participant.id,
                     'action': ReviewAction.HOLD_FOR_COUNTER.value,
                     'comment': "Requesting hold to prepare counter-proposal in next cycle",
                     'strengths': ["Addresses important topic"],
                     'concerns': ["Alternative approach may be better"],
-                    'recommendation': ReviewRecommendation.REVISE_AND_RESUBMIT.value
+                    'signed': participant.id,  # Digital signature
+                    'timestamp': datetime.now().isoformat()
                 }
             else:
-                # Normal review
+                # Normal review - simplified to accept or hold
                 review = {
                     'proposal_id': proposal_id,
-                    'reviewer': f"{participant.name} (LCT: {participant.id[:8]})",
-                    'action': ReviewAction.ACCEPT_WITH_REVISIONS.value,
+                    'reviewer': participant.name,
+                    'reviewer_id': participant.id,
+                    'action': ReviewAction.ACCEPT.value,
+                    'comment': "Well-structured proposal with clear impact",
                     'strengths': ["Good approach", "Well reasoned"],
-                    'concerns': ["Needs clarification"],
-                    'recommendation': ReviewRecommendation.ACCEPT_WITH_REVISIONS.value
+                    'concerns': [],
+                    'signed': participant.id,  # Digital signature
+                    'timestamp': datetime.now().isoformat()
                 }
             
             reviews.append(review)
         
         return reviews
     
+    def _create_counter_proposal(self, participant: LCT, original_proposal_id: str) -> Dict:
+        """Create a counter-proposal that enhances/modifies the original
+        
+        This creates a collaborative enhancement where the counter-proposer
+        adds to the original without removing review tags, enabling
+        multi-participant conversation.
+        """
+        
+        # In production, would fetch original proposal from storage
+        original = self.held_proposals.get(original_proposal_id, {})
+        
+        # Create enhanced version with participant's modifications
+        counter_proposal = {
+            'id': f"{original_proposal_id}_counter_{participant.id[:8]}",
+            'original_id': original_proposal_id,
+            'type': 'counter_proposal',
+            'author': participant.name,
+            'author_id': participant.id,
+            'conversation': [
+                {
+                    'participant': original.get('author', 'Unknown'),
+                    'content': original.get('content', 'Original proposal content')
+                },
+                {
+                    'participant': participant.name,
+                    'content': f"Enhancement: Building on the original proposal with additional considerations",
+                    'modifications': [
+                        "Added mathematical framework",
+                        "Clarified implementation details",
+                        "Addressed edge cases"
+                    ]
+                }
+            ],
+            'metadata': {
+                'title': f"Enhanced: {original.get('title', 'Untitled')}",
+                'section': original.get('section', 'Unknown'),
+                'iteration': len(original.get('conversation', [])) + 1
+            },
+            'timestamp': datetime.now().isoformat(),
+            'signed': participant.id
+        }
+        
+        # Remove review tags so it appears fresh to new reviewers
+        counter_proposal['reviews_cleared'] = True
+        counter_proposal['previous_reviews'] = original.get('reviews', [])
+        
+        return counter_proposal
+    
     def _make_arbiter_decision(self, arbiter: LCT, proposal_id: str, reviews: List[Dict]) -> Dict:
-        """Make arbiter decision on a proposal"""
+        """Make arbiter decision on a proposal
         
-        # Count review recommendations
-        accept_count = sum(1 for r in reviews if 'accept' in r.get('action', '').lower())
-        reject_count = sum(1 for r in reviews if 'reject' in r.get('action', '').lower())
+        Rules:
+        - Accept only if there's at least one review AND all reviews are 'accept'
+        - Otherwise defer for next cycle
+        """
         
-        # Determine decision
-        if accept_count > reject_count:
-            status = ProposalStatus.ACCEPTED
-            rationale = f"Accepted based on {accept_count} positive reviews"
-        elif reject_count > accept_count:
-            status = ProposalStatus.REJECTED
-            rationale = f"Rejected based on {reject_count} negative reviews"
-        else:
+        if not reviews:
+            # No reviews = no decision
             status = ProposalStatus.SUBMITTED
-            rationale = "Requires further review"
+            rationale = "No reviews received - deferred to next cycle"
+        else:
+            # Check if all reviews are accept
+            all_accept = all(
+                r.get('action') == ReviewAction.ACCEPT.value 
+                for r in reviews
+            )
+            
+            if all_accept:
+                status = ProposalStatus.ACCEPTED
+                rationale = f"Unanimously accepted by {len(reviews)} reviewer(s)"
+                # Record signatures of accepting reviewers
+                signatures = [r.get('signed', 'unsigned') for r in reviews]
+                rationale += f" [Signed: {', '.join(signatures[:3])}...]"
+            else:
+                # At least one hold or other action
+                hold_count = sum(1 for r in reviews if r.get('action') == ReviewAction.HOLD_FOR_COUNTER.value)
+                if hold_count > 0:
+                    status = ProposalStatus.SUBMITTED
+                    rationale = f"Held for counter-proposal by {hold_count} reviewer(s)"
+                else:
+                    status = ProposalStatus.SUBMITTED
+                    rationale = "Mixed reviews - requires further discussion"
         
         return {
             'proposal_id': proposal_id,
@@ -333,6 +422,7 @@ class GovernanceCycle:
             'arbiter_lct': arbiter.id,
             'status': status.value,
             'rationale': rationale,
+            'reviews_count': len(reviews),
             'timestamp': datetime.now().isoformat()
         }
 
@@ -344,6 +434,7 @@ class GovernanceOrchestrator:
         self.cycles_file = self.base_path / "scripts" / "governance" / "config" / "cycles.json"
         self.current_cycle_id = 0
         self.cycles_history = []
+        self.held_proposals = {}  # Track proposals held for counter across cycles
         self.load_history()
     
     def load_history(self):
@@ -374,7 +465,8 @@ class GovernanceOrchestrator:
         cycle = GovernanceCycle(
             cycle_id=self.current_cycle_id,
             sections=sections,
-            max_proposals_per_participant=max_proposals
+            max_proposals_per_participant=max_proposals,
+            held_proposals=self.held_proposals  # Pass held proposals from previous cycle
         )
         
         print(f"\n{'='*60}")
@@ -409,6 +501,17 @@ class GovernanceOrchestrator:
         # Complete cycle
         completion = cycle.complete_cycle()
         results['summary'] = completion
+        
+        # Update held proposals for next cycle
+        # Collect proposals that were held for counter
+        self.held_proposals.clear()
+        for proposal_id, holder_id in cycle.holds.items():
+            # In production, would fetch full proposal data from storage
+            self.held_proposals[proposal_id] = holder_id
+        
+        # Add counter-proposals info to results
+        if cycle.counter_proposals:
+            results['counter_proposals'] = cycle.counter_proposals
         
         # Save to history
         self.cycles_history.append(results)
