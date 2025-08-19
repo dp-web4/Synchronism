@@ -25,6 +25,9 @@ jobs:
           pip install -r requirements.txt || echo "No dependencies required"
 
       - name: Run Update Script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_API }}
+          OPENAI_API_KEY: ${{ secrets.GPT_API }}
         run: python scripts/governance/main.py update
 
       - name: Commit and Push Changes

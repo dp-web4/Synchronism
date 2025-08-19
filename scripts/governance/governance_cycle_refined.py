@@ -484,12 +484,13 @@ class GovernanceCycleRefined:
 
 def initialize_updated_participants():
     """Initialize participants with updated model versions"""
+    import os
     registry = LCTRegistry()
     
     # Clear existing and create new
     registry.participants.clear()
     
-    # Human participant
+    # Human participant - Currently unavailable (testing AI-only)
     human_lct = LCT.create(
         name="Dennis",
         participant_type=ParticipantType.HUMAN,
@@ -497,39 +498,43 @@ def initialize_updated_participants():
         access_endpoint="dennis@example.com",
         timeout_seconds=86400
     )
+    human_lct.availability = 0.0  # Mark as unavailable for testing
     registry.register_participant(human_lct)
     
-    # Claude-4.1 (Opus)
+    # Claude-4.1 (Opus) - Use environment variable
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY", "placeholder_key")
     claude_lct = LCT.create(
         name="Claude-4.1",
         participant_type=ParticipantType.AI_CLAUDE,
         access_method=AccessMethod.API,
         access_endpoint="https://api.anthropic.com/v1/messages",
         timeout_seconds=300,
-        access_credentials={"api_key": "placeholder_key", "model": "claude-opus-4-1"}
+        access_credentials={"api_key": anthropic_key, "model": "claude-opus-4-1"}
     )
     registry.register_participant(claude_lct)
     
-    # GPT-5
+    # GPT-5 - Use environment variable
+    openai_key = os.getenv("OPENAI_API_KEY", "placeholder_key")
     gpt_lct = LCT.create(
         name="GPT-5",
         participant_type=ParticipantType.AI_GPT,
         access_method=AccessMethod.API,
         access_endpoint="https://api.openai.com/v1/chat/completions",
         timeout_seconds=300,
-        access_credentials={"api_key": "placeholder_key", "model": "gpt-5"}
+        access_credentials={"api_key": openai_key, "model": "gpt-5"}
     )
     registry.register_participant(gpt_lct)
     
-    # Deepseek-3
+    # Deepseek-3 - Currently unavailable (no API key)
     deepseek_lct = LCT.create(
-        name="Deepseek-3",
+        name="Deepseek-3", 
         participant_type=ParticipantType.AI_DEEPSEEK,
         access_method=AccessMethod.API,
         access_endpoint="https://api.deepseek.com/v1/chat",
         timeout_seconds=300,
-        access_credentials={"api_key": "placeholder_key", "model": "deepseek-3"}
+        access_credentials={"api_key": "unavailable", "model": "deepseek-3"}
     )
+    deepseek_lct.availability = 0.0  # Mark as unavailable
     registry.register_participant(deepseek_lct)
     
     print(f"Initialized {len(registry.participants)} participants with updated versions:")

@@ -1,0 +1,18 @@
+{
+  "section_id": "02-perspective",
+  "section_type": "fractal",
+  "maintainers": [],
+  "last_modified": "2025-08-19T17:54:12Z",
+  "status": "active",
+  "dependencies": [],
+  "tags": [],
+  "governance": {
+    "review_required": true,
+    "min_reviewers": 2,
+    "arbitration_threshold": 0.7
+  },
+  "archive_policy": {
+    "trigger": "significant_changes",
+    "description": "Archive previous version when making substantial removals or structural changes"
+  }
+}

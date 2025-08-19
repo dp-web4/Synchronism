@@ -28,6 +28,7 @@ try:
     from token_system import TokenSystem
     from review import ReviewSystem
     from fractal_branches import FractalBranchSystem
+    from whitepaper_builder import WhitepaperBuilder
 except ImportError as e:
     print(f"Error importing governance modules: {e}")
     print(f"Make sure all required scripts are in {SCRIPTS_PATH}")
@@ -176,6 +177,20 @@ class SynchronismGovernanceSystem:
         commit_result = self.integration_system.commit_changes()
         print(f"Commit result: {commit_result['status']} - {commit_result['message']}")
         
+        # 8. Check for whitepaper rebuilds if fractal files changed
+        print("\n8. Checking for whitepaper rebuild...")
+        builder = WhitepaperBuilder(REPO_PATH)
+        build_result = builder.rebuild_if_changed()
+        
+        if build_result:
+            print(f"Whitepaper rebuilt: {build_result['timestamp']}")
+            # Log successful formats
+            for fmt, info in build_result.get('formats', {}).items():
+                if info['success']:
+                    print(f"  ✅ {fmt}: {info['message']}")
+        else:
+            print("No fractal file changes - whitepaper rebuild skipped")
+        
         # End time
         end_time = datetime.datetime.now()
         duration = (end_time - start_time).total_seconds()
@@ -193,7 +208,8 @@ class SynchronismGovernanceSystem:
             "duration_seconds": duration,
             "contributions_processed": len(pending_contributions),
             "validations_processed": len(pending_validations),
-            "integrations_processed": len(certified_contributions)
+            "integrations_processed": len(certified_contributions),
+            "whitepaper_rebuilt": build_result is not None
         })
         
         return {
