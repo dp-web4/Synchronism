@@ -1,4 +1,4 @@
-/* Synchronism Whitepaper Styles */
+/* Synchronism Whitepaper Styles - Clean Structure */
 :root {
     --primary-color: #374151;
     --secondary-color: #64748b;
@@ -6,7 +6,7 @@
     --text-color: #1e293b;
     --border-color: #e2e8f0;
     --code-bg: #f8fafc;
-    --sidebar-width: 280px;
+    --sidebar-width: 300px;
 }
 
 * {
@@ -33,41 +33,119 @@ body {
     width: var(--sidebar-width);
     background: #f8fafc;
     border-right: 1px solid var(--border-color);
-    padding: 2rem 1rem;
+    padding: 1rem;
     position: fixed;
     height: 100vh;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Download Links */
+.download-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: auto;
+    padding: 0.75rem;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    position: sticky;
+    bottom: 1rem;
+}
+
+.download-links a {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    font-size: 0.9rem;
+}
+
+.download-links a:hover {
+    background-color: #f1f5f9;
     color: var(--primary-color);
 }
 
 .nav-list {
     list-style: none;
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 1rem;
 }
 
-.nav-list li {
+.nav-section {
     margin-bottom: 0.5rem;
 }
 
-.nav-list a {
-    color: var(--text-color);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+.nav-section-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: 0.4rem 0.6rem;
     border-radius: 4px;
-    transition: all 0.2s;
+    margin-bottom: 0.2rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav-list a:hover {
-    background: white;
+.nav-section-title:hover {
+    background: rgba(55, 65, 81, 0.05);
+}
+
+/* Only show arrow for sections with subsections */
+.nav-section.has-subsections .nav-section-title::after {
+    content: '▼';
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-section.has-subsections.collapsed .nav-section-title::after {
+    transform: rotate(-90deg);
+}
+
+.nav-subsections {
+    list-style: none;
+    margin-left: 1rem;
+    overflow: hidden;
+    max-height: 500px;
+    transition: max-height 0.3s ease;
+}
+
+.nav-section.collapsed .nav-subsections {
+    max-height: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.3rem 0.6rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    background: rgba(55, 65, 81, 0.05);
     color: var(--primary-color);
 }
 
-.nav-list a.active {
+.nav-link.active {
     background: var(--primary-color);
     color: white;
 }
@@ -76,23 +154,23 @@ body {
 .main-content {
     margin-left: var(--sidebar-width);
     flex: 1;
-    padding: 3rem;
+    padding: 2rem 3rem;
     max-width: 900px;
 }
 
-/* Section Pages */
-.section {
+/* Content Sections */
+.content-section {
     display: none;
-    animation: fadeIn 0.3s;
+    animation: fadeIn 0.3s ease;
 }
 
-.section.active {
+.content-section.active {
     display: block;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* Typography */
@@ -100,25 +178,43 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: var(--primary-color);
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 0.5rem;
 }
 
 h2 {
     font-size: 2rem;
-    margin: 2rem 0 1rem;
-    color: var(--text-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
 }
 
 h3 {
     font-size: 1.5rem;
-    margin: 1.5rem 0 0.75rem;
-    color: var(--text-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: var(--primary-color);
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    color: var(--primary-color);
 }
 
 p {
     margin-bottom: 1rem;
-    line-height: 1.8;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
 }
 
 /* Code */
@@ -126,17 +222,21 @@ code {
     background: var(--code-bg);
     padding: 0.2rem 0.4rem;
     border-radius: 3px;
-    font-family: 'Courier New', monospace;
+    font-family: 'Consolas', 'Monaco', monospace;
     font-size: 0.9em;
 }
 
 pre {
     background: var(--code-bg);
     padding: 1rem;
-    border-radius: 6px;
+    border-radius: 5px;
     overflow-x: auto;
-    margin: 1rem 0;
-    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+pre code {
+    background: none;
+    padding: 0;
 }
 
 /* Blockquotes */
@@ -144,8 +244,8 @@ blockquote {
     border-left: 4px solid var(--primary-color);
     padding-left: 1rem;
     margin: 1rem 0;
-    color: var(--secondary-color);
     font-style: italic;
+    color: var(--secondary-color);
 }
 
 /* Links */
@@ -158,40 +258,38 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Mobile Responsive */
+/* Key Concepts */
+.key-concept {
+    background: #f0f4f8;
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Navigation Hints */
+.navigation-hints {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Responsive */
 @media (max-width: 768px) {
     .sidebar {
         width: 100%;
-        height: auto;
         position: relative;
+        height: auto;
         border-right: none;
         border-bottom: 1px solid var(--border-color);
     }
     
     .main-content {
         margin-left: 0;
-        padding: 2rem 1rem;
+        padding: 1rem;
     }
     
     .container {
         flex-direction: column;
-    }
-}
-
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0f172a;
-        --text-color: #e2e8f0;
-        --border-color: #334155;
-        --code-bg: #1e293b;
-    }
-    
-    .sidebar {
-        background: #1e293b;
-    }
-    
-    .nav-list a:hover {
-        background: #334155;
     }
 }

@@ -3,6 +3,31 @@
 # make-web-clean.sh - Generate interactive web version from clean structure
 # Usage: ./make-web-clean.sh
 
+# Pull latest changes before building to avoid conflicts
+echo "Checking for updates..."
+git fetch
+
+# Check if we're behind the remote
+LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse @{u})
+BASE=$(git merge-base @ @{u})
+
+if [ $LOCAL = $REMOTE ]; then
+    echo "Already up to date."
+elif [ $LOCAL = $BASE ]; then
+    echo "Pulling latest changes..."
+    git pull
+else
+    echo "❌ Error: Your branch has diverged from the remote branch."
+    echo "Please resolve conflicts manually before building:"
+    echo "  1. Review changes with: git status"
+    echo "  2. Either stash your changes: git stash"
+    echo "  3. Or commit them: git add . && git commit -m 'your message'"
+    echo "  4. Then pull: git pull"
+    echo "  5. Run this script again"
+    exit 1
+fi
+
 echo "Building Synchronism whitepaper web version from clean structure..."
 
 OUTPUT_DIR="build/web-clean"
@@ -738,7 +763,15 @@ echo "  ✓ Created main HTML file"
 DOCS_DIR="../docs/whitepaper"
 # Note: Don't create directory as it should already exist with MD and PDF
 
+# Copy all web files including assets
 cp -r "$OUTPUT_DIR"/* "$DOCS_DIR/"
+echo "  ✓ Copied web files to docs"
+
+# Explicitly ensure assets are copied
+if [ -d "$OUTPUT_DIR/assets" ]; then
+    cp -r "$OUTPUT_DIR/assets" "$DOCS_DIR/"
+    echo "  ✓ Copied assets (navigation.js, style.css) to docs"
+fi
 
 # Also copy PDF and Markdown files if they exist
 if [ -f "build/Synchronism_Whitepaper.pdf" ]; then
