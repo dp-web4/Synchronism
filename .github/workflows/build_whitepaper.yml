@@ -59,7 +59,7 @@ jobs:
           echo "---" >> "$OUTPUT_FILE"
           echo "" >> "$OUTPUT_FILE"
           
-          # Process sections in order
+          # Process sections in order (only content.md files)
           for section in "$SECTIONS_DIR"/*; do
               if [ -d "$section" ]; then
                   section_name=$(basename "$section")
@@ -73,6 +73,40 @@ jobs:
                   fi
               fi
           done
+          
+          # Add Appendix B with proposals
+          echo "" >> "$OUTPUT_FILE"
+          echo "---" >> "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          echo "# Appendix B: Current Proposals" >> "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          echo "*Active proposals for whitepaper improvements (not yet integrated):*" >> "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          
+          # Collect all proposals
+          proposals_found=false
+          for section_dir in "$SECTIONS_DIR"/*; do
+              if [ -d "$section_dir/meta/proposals" ]; then
+                  section_name=$(basename "$section_dir")
+                  for proposal in "$section_dir/meta/proposals"/*.md 2>/dev/null; do
+                      if [ -f "$proposal" ]; then
+                          if [ "$proposals_found" = false ]; then
+                              proposals_found=true
+                          fi
+                          echo "## $section_name - $(basename "$proposal" .md)" >> "$OUTPUT_FILE"
+                          echo "" >> "$OUTPUT_FILE"
+                          cat "$proposal" >> "$OUTPUT_FILE"
+                          echo "" >> "$OUTPUT_FILE"
+                          echo "---" >> "$OUTPUT_FILE"
+                          echo "" >> "$OUTPUT_FILE"
+                      fi
+                  done
+              fi
+          done
+          
+          if [ "$proposals_found" = false ]; then
+              echo "*No active proposals at this time.*" >> "$OUTPUT_FILE"
+          fi
           
           echo "✅ Markdown generation complete!"
           echo "   Output: $OUTPUT_FILE"
