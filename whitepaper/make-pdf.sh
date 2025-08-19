@@ -21,14 +21,78 @@ if [ ! -f "$MD_FILE" ]; then
     bash make-md.sh
 fi
 
+# Reorder the document to put TOC after Executive Summary
+echo "Reordering document structure..."
+TEMP_MD="build/Synchronism_Whitepaper_Reordered.md"
+
+python3 << 'PYTHON_SCRIPT'
+import re
+
+# Read the complete markdown
+with open('build/Synchronism_Whitepaper_Complete.md', 'r') as f:
+    content = f.read()
+
+# Split into sections
+lines = content.split('\n')
+sections = []
+current_section = []
+current_title = ""
+
+for line in lines:
+    if line.startswith('# '):
+        if current_section:
+            sections.append((current_title, '\n'.join(current_section)))
+        current_title = line
+        current_section = [line]
+    else:
+        current_section.append(line)
+
+# Add the last section
+if current_section:
+    sections.append((current_title, '\n'.join(current_section)))
+
+# Find Executive Summary
+exec_summary = None
+other_sections = []
+
+for title, content in sections:
+    if 'Executive Summary' in title:
+        exec_summary = (title, content)
+    else:
+        other_sections.append((title, content))
+
+# Rebuild document with custom order
+with open('build/Synchronism_Whitepaper_Reordered.md', 'w') as f:
+    # Start with title
+    f.write('# Synchronism: A Comprehensive Model of Reality\n\n')
+    f.write('*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*\n\n')
+    f.write('---\n\n')
+    
+    # Executive Summary (without its own title since we have main title)
+    if exec_summary:
+        # Change # Executive Summary to ## Executive Summary
+        exec_content = exec_summary[1].replace('# Executive Summary', '## Executive Summary')
+        f.write(exec_content + '\n\n')
+    
+    # Add TOC on new page
+    f.write('\\newpage\n\n')
+    f.write('\\tableofcontents\n\n')
+    f.write('\\newpage\n\n')
+    
+    # All other sections
+    for title, content in other_sections:
+        f.write(content + '\n\n')
+
+print("✓ Document reordered with TOC after Executive Summary")
+PYTHON_SCRIPT
+
 echo "Generating PDF..."
 
-# Generate PDF with pandoc
-pandoc "$MD_FILE" -o "$PDF_FILE" \
-    --from markdown \
+# Generate PDF with pandoc (note: no --toc flag since we're manually placing it)
+pandoc "$TEMP_MD" -o "$PDF_FILE" \
+    --from markdown+raw_tex \
     --to pdf \
     --pdf-engine=xelatex \
-    --toc \
     --toc-depth=3 \
     --highlight-style=tango \
     -V documentclass=article \
@@ -41,11 +105,14 @@ pandoc "$MD_FILE" -o "$PDF_FILE" \
     2>/dev/null
 
 if [ -f "$PDF_FILE" ]; then
-    echo "✅ PDF created: $PDF_FILE"
+    echo "✅ PDF created with TOC after Executive Summary: $PDF_FILE"
     echo ""
     echo "📊 PDF Statistics:"
     echo "   Size: $(du -h $PDF_FILE | cut -f1)"
     echo "   Location: $PDF_FILE"
+    
+    # Clean up temp file
+    rm -f "$TEMP_MD"
     
     # Copy to docs for GitHub Pages access
     DOCS_DIR="../docs/whitepaper"
@@ -58,4 +125,6 @@ if [ -f "$PDF_FILE" ]; then
     echo "📄 Copied PDF to GitHub Pages location: $DOCS_DIR/Synchronism_Whitepaper.pdf"
 else
     echo "❌ PDF generation failed"
+    # Clean up temp file even on failure
+    rm -f "$TEMP_MD"
 fi
