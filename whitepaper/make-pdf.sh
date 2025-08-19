@@ -32,72 +32,66 @@ import re
 with open('build/Synchronism_Whitepaper_Complete.md', 'r') as f:
     content = f.read()
 
-# Split into sections
+# Split by Executive Summary to preserve all content
 lines = content.split('\n')
-sections = []
-current_section = []
-current_title = ""
+before_exec = []
+exec_summary_content = []
+after_exec = []
+current_section = 'before'
 
 for line in lines:
-    if line.startswith('# '):
-        if current_section:
-            sections.append((current_title, '\n'.join(current_section)))
-        current_title = line
-        current_section = [line]
+    if line == '# Executive Summary':
+        current_section = 'exec'
+        exec_summary_content.append(line)
+    elif current_section == 'exec' and line.startswith('## ') and 'Synchronism' not in line:
+        # Found start of next section after exec summary
+        current_section = 'after'
+        after_exec.append(line)
+    elif current_section == 'before':
+        before_exec.append(line)
+    elif current_section == 'exec':
+        exec_summary_content.append(line)
     else:
-        current_section.append(line)
+        after_exec.append(line)
 
-# Add the last section
-if current_section:
-    sections.append((current_title, '\n'.join(current_section)))
-
-# Find Executive Summary
-exec_summary = None
-other_sections = []
-
-for title, content in sections:
-    if 'Executive Summary' in title:
-        exec_summary = (title, content)
-    else:
-        other_sections.append((title, content))
-
-# Rebuild document with custom order
+# Rebuild document with custom order for TOC placement
 with open('build/Synchronism_Whitepaper_Reordered.md', 'w') as f:
-    # Check if first section already has the main title
-    has_main_title = False
-    for title, content in sections:
-        if 'Synchronism: A Comprehensive Model' in content:
-            has_main_title = True
-            break
+    # Start with title page (from before_exec content)
+    # Skip any empty lines at the start
+    title_written = False
+    for line in before_exec:
+        if line.strip():
+            if not title_written and line.startswith('# Synchronism'):
+                f.write(line + '\n\n')
+                f.write('*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*\n\n')
+                f.write('---\n\n')
+                title_written = True
+            elif title_written:
+                break  # Don't include other content before exec summary
     
-    if not has_main_title:
-        # Add title if not present
-        f.write('# Synchronism: A Comprehensive Model of Reality\n\n')
-        f.write('*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*\n\n')
-        f.write('---\n\n')
+    # Executive Summary (change # to ## so it's not a chapter)
+    if exec_summary_content:
+        # Replace the # with ## for executive summary
+        for line in exec_summary_content:
+            if line == '# Executive Summary':
+                f.write('## Executive Summary\n')
+            else:
+                f.write(line + '\n')
+        f.write('\n')
     
-    # Executive Summary
-    if exec_summary:
-        # Write executive summary as-is (it already has proper formatting)
-        f.write(exec_summary[1] + '\n\n')
+    # Add TOC after Executive Summary (no newpage before, just after)
+    f.write('\\tableofcontents\n')
+    f.write('\\newpage\n')
     
-    # Add TOC marker for pandoc to generate it here
-    f.write('\\newpage\n\n')
-    f.write('\\tableofcontents\n\n')
-    f.write('\\newpage\n\n')
-    
-    # All other sections
-    for title, content in other_sections:
-        # Skip any duplicate title sections
-        if 'Synchronism: A Comprehensive Model' not in title:
-            f.write(content + '\n\n')
+    # All content after Executive Summary
+    f.write('\n'.join(after_exec) + '\n')
 
 print("✓ Document reordered with TOC after Executive Summary")
 PYTHON_SCRIPT
 
 echo "Generating PDF..."
 
-# Generate PDF with pandoc (note: no --toc flag since we're manually placing it)
+# Generate PDF with pandoc (matching web4 approach exactly)
 pandoc "$TEMP_MD" -o "$PDF_FILE" \
     --from markdown+raw_tex \
     --to pdf \
@@ -120,9 +114,6 @@ if [ -f "$PDF_FILE" ]; then
     echo "   Size: $(du -h $PDF_FILE | cut -f1)"
     echo "   Location: $PDF_FILE"
     
-    # Clean up temp file
-    rm -f "$TEMP_MD"
-    
     # Copy to docs for GitHub Pages access
     DOCS_DIR="../docs/whitepaper"
     if [ ! -d "$DOCS_DIR" ]; then
@@ -134,6 +125,7 @@ if [ -f "$PDF_FILE" ]; then
     echo "📄 Copied PDF to GitHub Pages location: $DOCS_DIR/Synchronism_Whitepaper.pdf"
 else
     echo "❌ PDF generation failed"
-    # Clean up temp file even on failure
-    rm -f "$TEMP_MD"
 fi
+
+# Always clean up temp file
+rm -f "$TEMP_MD"
