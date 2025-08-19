@@ -89,38 +89,38 @@ collect_proposals() {
     echo "*This appendix contains all active proposals for improvements to the Synchronism whitepaper. These are suggestions under review and not yet integrated into the main text.*" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
     
-    # Find all proposal files across all sections
-    for section_dir in "$SECTIONS_DIR"/*; do
-        if [ -d "$section_dir" ]; then
-            local section_name=$(basename "$section_dir")
-            local proposals_dir="$section_dir/meta/proposals"
+    # Find ALL proposal files recursively
+    local proposal_files=$(find "$SECTIONS_DIR" -path "*/meta/proposals/*.md" -type f 2>/dev/null | sort)
+    
+    if [ -n "$proposal_files" ]; then
+        proposals_found=true
+        local current_section=""
+        
+        while IFS= read -r proposal_file; do
+            # Extract section path relative to SECTIONS_DIR
+            local rel_path="${proposal_file#$SECTIONS_DIR/}"
+            local section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
             
-            if [ -d "$proposals_dir" ] && [ "$(ls -A "$proposals_dir"/*.md 2>/dev/null)" ]; then
-                if [ "$proposals_found" = false ]; then
-                    proposals_found=true
-                fi
-                
+            # Print section header if it's a new section
+            if [ "$section_path" != "$current_section" ]; then
+                current_section="$section_path"
                 echo "" >> "$OUTPUT_FILE"
-                echo "## Proposals for Section: $section_name" >> "$OUTPUT_FILE"
+                echo "## Proposals for: $section_path" >> "$OUTPUT_FILE"
                 echo "" >> "$OUTPUT_FILE"
-                
-                # Process each proposal file
-                for proposal in "$proposals_dir"/*.md; do
-                    if [ -f "$proposal" ]; then
-                        local proposal_name=$(basename "$proposal" .md)
-                        echo "### $proposal_name" >> "$OUTPUT_FILE"
-                        echo "" >> "$OUTPUT_FILE"
-                        cat "$proposal" >> "$OUTPUT_FILE"
-                        echo "" >> "$OUTPUT_FILE"
-                        echo "---" >> "$OUTPUT_FILE"
-                        echo "" >> "$OUTPUT_FILE"
-                        
-                        echo "  ✓ Added proposal: $section_name/$proposal_name"
-                    fi
-                done
             fi
-        fi
-    done
+            
+            # Add the proposal
+            local proposal_name=$(basename "$proposal_file" .md)
+            echo "### $proposal_name" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            cat "$proposal_file" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            echo "---" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            
+            echo "  ✓ Added proposal: $section_path/$proposal_name"
+        done <<< "$proposal_files"
+    fi
     
     if [ "$proposals_found" = false ]; then
         echo "*No active proposals at this time.*" >> "$OUTPUT_FILE"

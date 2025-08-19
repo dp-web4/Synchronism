@@ -83,25 +83,23 @@ jobs:
           echo "*Active proposals for whitepaper improvements (not yet integrated):*" >> "$OUTPUT_FILE"
           echo "" >> "$OUTPUT_FILE"
           
-          # Collect all proposals
+          # Collect all proposals recursively
           proposals_found=false
-          for section_dir in "$SECTIONS_DIR"/*; do
-              if [ -d "$section_dir/meta/proposals" ]; then
-                  section_name=$(basename "$section_dir")
-                  for proposal in "$section_dir/meta/proposals"/*.md 2>/dev/null; do
-                      if [ -f "$proposal" ]; then
-                          if [ "$proposals_found" = false ]; then
-                              proposals_found=true
-                          fi
-                          echo "## $section_name - $(basename "$proposal" .md)" >> "$OUTPUT_FILE"
-                          echo "" >> "$OUTPUT_FILE"
-                          cat "$proposal" >> "$OUTPUT_FILE"
-                          echo "" >> "$OUTPUT_FILE"
-                          echo "---" >> "$OUTPUT_FILE"
-                          echo "" >> "$OUTPUT_FILE"
-                      fi
-                  done
+          for proposal in $(find "$SECTIONS_DIR" -path "*/meta/proposals/*.md" -type f 2>/dev/null | sort); do
+              if [ "$proposals_found" = false ]; then
+                  proposals_found=true
               fi
+              # Extract section path
+              rel_path="${proposal#$SECTIONS_DIR/}"
+              section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
+              proposal_name=$(basename "$proposal" .md)
+              
+              echo "## $section_path - $proposal_name" >> "$OUTPUT_FILE"
+              echo "" >> "$OUTPUT_FILE"
+              cat "$proposal" >> "$OUTPUT_FILE"
+              echo "" >> "$OUTPUT_FILE"
+              echo "---" >> "$OUTPUT_FILE"
+              echo "" >> "$OUTPUT_FILE"
           done
           
           if [ "$proposals_found" = false ]; then
@@ -172,16 +170,21 @@ jobs:
           
       - name: Build PDF Version
         working-directory: ./whitepaper
-        run: bash make-pdf-ci.sh || echo "PDF build had issues, continuing..."
+        run: |
+          echo "Building PDF version..."
+          bash make-pdf-ci.sh || echo "PDF build had issues, continuing..."
           
-      - name: Build Web Version (using original script)
+      - name: Build Web Version
         working-directory: ./whitepaper
         run: |
+          echo "Building Web version..."
           # Skip git operations in CI
           export CI=true
-          # Modify the script temporarily to skip git operations
-          sed -i '7,29d' make-web-clean.sh  # Remove lines 7-29 (git fetch/pull section)
-          bash make-web-clean.sh
+          # Create a CI-safe version of the web script
+          cp make-web-clean.sh make-web-ci.sh
+          # Remove the git fetch/pull section (lines 7-29)
+          sed -i '7,29d' make-web-ci.sh
+          bash make-web-ci.sh
           
       - name: Upload Markdown Artifact
         uses: actions/upload-artifact@v3
