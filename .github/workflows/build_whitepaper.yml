@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'whitepaper/**'
-      - '.github/workflows/build_whitepaper_ci.yml'
+      - '.github/workflows/build_whitepaper.yml'
   pull_request:
     branches: [ main ]
     paths:
