@@ -113,10 +113,11 @@ build_all() {
     fi
     
     echo ""
-    echo "📤 GitHub Pages Locations:"
-    echo "  • Markdown: ../docs/whitepaper/Synchronism_Whitepaper_Complete.md"
-    echo "  • PDF:      ../docs/whitepaper/Synchronism_Whitepaper.pdf"
-    echo "  • Web:      ../docs/whitepaper-web/index.html"
+    echo "📤 GitHub Pages Location:"
+    echo "  • ../docs/whitepaper/"
+    echo "    - Markdown: Synchronism_Whitepaper_Complete.md"
+    echo "    - PDF:      Synchronism_Whitepaper.pdf"
+    echo "    - Web:      index.html"
 }
 
 # Main script logic

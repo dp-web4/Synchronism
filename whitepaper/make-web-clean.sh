@@ -696,11 +696,8 @@ HTML
 echo "  ✓ Created main HTML file"
 
 # Copy to docs directory for GitHub Pages
-DOCS_DIR="../docs/whitepaper-web"
-if [ ! -d "$DOCS_DIR" ]; then
-    mkdir -p "$DOCS_DIR"
-    echo "  ✓ Created docs/whitepaper-web directory"
-fi
+DOCS_DIR="../docs/whitepaper"
+# Note: Don't create directory as it should already exist with MD and PDF
 
 cp -r "$OUTPUT_DIR"/* "$DOCS_DIR/"
 echo "  ✓ Copied to GitHub Pages location"
@@ -708,7 +705,7 @@ echo "  ✓ Copied to GitHub Pages location"
 echo ""
 echo "✅ Web version generated successfully!"
 echo "   Output: $OUTPUT_DIR/index.html"
-echo "   GitHub Pages: $DOCS_DIR/index.html"
+echo "   GitHub Pages: ../docs/whitepaper/index.html"
 echo ""
 echo "To view locally, run:"
 echo "   cd $OUTPUT_DIR && python3 -m http.server 8000"
