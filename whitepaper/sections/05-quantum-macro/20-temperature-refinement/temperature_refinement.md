@@ -113,7 +113,3 @@
 - **Thermal coherence:** Maintaining pattern stability through thermal control
 - **Intent-directed cooling/heating:** Conscious control over thermal energy distribution
 - **Emergent thermal intelligence:** Systems developing sophisticated thermal management capabilities
-
----
-
-

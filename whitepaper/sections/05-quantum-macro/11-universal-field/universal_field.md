@@ -97,7 +97,3 @@
 - **Relational reality:** Reality consists of relationships rather than objects
 - **Dynamic cosmos:** Universe is process rather than collection of things
 - **Observer participation:** Consciousness participates in field dynamics
-
----
-
-

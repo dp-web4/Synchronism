@@ -75,7 +75,3 @@
  Interaction modes reflect the [Hermetic principle](#hermetic-principles) of **Polarity** - "Everything is dual; everything has poles" - showing how phenomena can reinforce or oppose each other across all scales.
 
  Understanding interaction modes is crucial for predicting how complex systems will behave when different patterns come into contact or influence each other's evolution.
-
----
-
-

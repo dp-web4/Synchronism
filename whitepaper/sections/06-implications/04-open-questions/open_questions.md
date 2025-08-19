@@ -99,7 +99,3 @@
 - **Infinite potential:** Each answer reveals new questions to explore
 
  Each open question should be examined within its Markov Relevancy Horizon. Coherence emerges locally first.
-
----
-
-

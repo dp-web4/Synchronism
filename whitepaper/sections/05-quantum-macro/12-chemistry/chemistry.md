@@ -103,7 +103,3 @@
 - **Materials science:** Creating materials with desired properties
 - **Catalysis:** Developing efficient industrial processes
 - **Environmental chemistry:** Understanding and controlling pollution
-
----
-
-

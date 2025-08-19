@@ -113,7 +113,3 @@
 - **Multiscale coherence:** Advanced cognition maintains coherence across spatial and temporal scales—predicting not just events, but the timing of resonance shifts
 - **Conscious pattern control:** Awareness developing recursive ability to tune its own resonance patterns
 - **Witness to intent:** Refined cognition is not just a processor—it is a witness to intent, echoing and shaping the field through recursive alignment
-
----
-
-

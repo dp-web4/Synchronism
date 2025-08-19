@@ -106,7 +106,3 @@
 - **Observer participation:** Conscious observers participate in creating reality
 - **Information fundamental:** Information processing underlies life and mind
 - **Continuity of nature:** No sharp boundary between living and non-living
-
----
-
-

@@ -35,7 +35,3 @@
 - **Universal Heartbeat:** Each tick drives the universe forward
 
  This discrete time model allows for a precise description of how the universe evolves from one state to the next, with each tick representing a fundamental unit of change.
-
----
-
-

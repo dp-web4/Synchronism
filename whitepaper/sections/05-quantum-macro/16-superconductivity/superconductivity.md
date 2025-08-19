@@ -103,7 +103,3 @@
 - **Collective intent:** Individual patterns merge into unified collective
 - **Resistance elimination:** Coherent patterns face no internal friction
 - **Macroscopic quantum state:** Quantum effects scaled up to visible size
-
----
-
-

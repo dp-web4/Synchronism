@@ -47,7 +47,3 @@
  Intent transfer embodies the [Hermetic principle](#hermetic-principles) of **Mentalism** - the universe as a vast mental network where intent (mental energy) flows between cells, creating the physical manifestations we observe.
 
  This fundamental process creates the substrate from which all complexity emerges, from the simplest quantum interactions to the most elaborate cosmic structures. These mechanics are not limited to any single scale—the same rules apply fractally, from quantum coherence to galactic formation. All transfers are meaningful only in the context of a witness pattern (entity)—there is no change without interaction.
-
----
-
-

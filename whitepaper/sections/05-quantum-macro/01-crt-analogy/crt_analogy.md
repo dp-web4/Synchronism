@@ -58,7 +58,3 @@
 **The CRT Bridge to Synchronism**
 
  Just as your perception of the CRT changes with synchronization timing, so too does all witnessed reality arise from synchronization with ongoing intent patterns. The electron beam scanning the phosphor screen is a perfect metaphor for intent patterns continuously cycling through the universal grid. What you witness depends not on changing the patterns, but on when and how your awareness synchronizes with them.
-
----
-
-

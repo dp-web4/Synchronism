@@ -106,7 +106,3 @@
 - **Resonance domain expansion:** Refinement increases the domain of resonance, reduces dissonant waste, and renders indifferent environments progressively interactive
 - **Fractal coherence maintenance:** Life systems refine energy by maintaining multi-scale coherence across the tension field
 - **Recursive field coherence:** Energy refinement is the field's own recursive echo, seeking self-coherence at ever finer scales
-
----
-
-

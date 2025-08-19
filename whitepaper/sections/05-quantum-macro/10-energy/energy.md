@@ -98,4 +98,3 @@
 
 
  *This dynamic framework sets the stage for understanding field effects and macro-scale coherence.*
-

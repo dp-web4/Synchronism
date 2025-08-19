@@ -108,7 +108,3 @@
 - **Extreme physics:** Nature operates in regimes beyond everyday experience
 - **Information processing:** Reality may be fundamentally computational
 - **Unity of forces:** Gravity connects to all other physical phenomena
-
----
-
-

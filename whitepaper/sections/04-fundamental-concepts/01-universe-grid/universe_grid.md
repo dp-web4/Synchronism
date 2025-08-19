@@ -42,7 +42,3 @@
  This grid is an abstraction intended for modeling and understanding phenomena—it does not assert the existence of literal cells. Rather, it provides a predictive and interpretive framework for understanding how intent patterns create all observable reality.
 
  This grid model provides a discrete, quantized structure for the universe, allowing for the precise description of locations, interactions, and the transfer of intent between adjacent cells.
-
----
-
-

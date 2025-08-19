@@ -90,4 +90,3 @@
 
 
  *These relativistic patterns play directly into the emergence of coherence and field behavior, explored next.*
-

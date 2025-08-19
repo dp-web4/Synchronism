@@ -93,7 +93,3 @@
 - **Harmonious civilization:** Society organized around synchronization principles
 
  All disciplines, all interpretations, and all observers are participants—fractal reflections of the one cycling source.
-
----
-
-

@@ -69,7 +69,3 @@
 - **Multi-Scale Integration:** Combining insights from different horizons
 
  The MRH concept is fundamental to making Synchronism practically useful, providing a principled way to limit analysis scope while maintaining accuracy and insight.
-
----
-
-

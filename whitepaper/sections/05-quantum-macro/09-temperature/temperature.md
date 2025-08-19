@@ -91,4 +91,3 @@
 
 
  *Temperature and phase transitions illustrate how energy, as dynamic intent, affects structural coherence.*
-

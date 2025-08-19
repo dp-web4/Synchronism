@@ -92,7 +92,3 @@
 - **Sync ≠ Collapse:** Synchronization reveals existing phase, doesn't collapse states
 - **Cycle ≠ State:** Patterns cycle continuously, not discrete static states
 - **Synchronization Event ≠ Measurement:** No disturbance, just timing alignment
-
----
-
-

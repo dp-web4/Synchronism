@@ -121,7 +121,3 @@
 **Witnessing**
 
  The act of consciousness synchronizing with and experiencing pattern cycles. Passive observation that doesn't alter the patterns themselves.
-
----
-
-

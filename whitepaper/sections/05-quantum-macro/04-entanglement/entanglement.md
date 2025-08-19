@@ -79,7 +79,3 @@
 - **No observer effect:** Patterns exist and cycle independently - observation is just synchronization
 - **Distance irrelevance:** Spatial separation doesn't affect witness synchronization with patterns
 - **Pattern autonomy:** Reality continues regardless of whether it's witnessed or how it's witnessed
-
----
-
-

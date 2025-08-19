@@ -84,7 +84,3 @@
 - **CRT analogy:** Perfect for intuition
 - **Observer irrelevant:** Pattern cycles regardless
 - **Witnessing = timing filter:** Perspective shapes outcome
-
----
-
-

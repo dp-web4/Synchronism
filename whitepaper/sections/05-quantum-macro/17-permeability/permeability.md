@@ -106,7 +106,3 @@
 - **Selective resonance:** Patterns interact through specific resonance frequencies while remaining indifferent to others
 - **Dynamic resonance boundaries:** Permeability varies as resonance conditions change across space and time
 - **Perceptual resonance:** Permeability governs not only physical interaction but also what becomes visible, audible, or sensible—resonance grants presence
-
----
-
-

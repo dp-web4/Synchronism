@@ -69,4 +69,3 @@
 
 
  *Some patterns can recover coherence after disruption—this process of recoherence will be explored in later sections.*
-

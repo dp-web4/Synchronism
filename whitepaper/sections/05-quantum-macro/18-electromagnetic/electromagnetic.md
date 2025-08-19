@@ -120,7 +120,3 @@
 - **Coherent energy transport:** Efficient mechanism for moving energy through resonant field coupling
 - **Intent field responsiveness:** All EM interactions take place within a pre-tensioned field, responding differentially to incoming intent based on local alignment
 - **Coherence engineering potential:** Understanding EM coherence enables synchronization-based transmission, shielding, and energy redirection
-
----
-
-

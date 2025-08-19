@@ -65,7 +65,3 @@
  Markov blankets are fundamental to understanding how entities maintain their identity in a constantly changing environment. They provide the mechanism by which "self" is distinguished from "other" at every scale of existence.
 
  The concept of Markov blankets helps explain how complex systems can maintain coherence and autonomy while remaining open to environmental information and influence.
-
----
-
-
