@@ -118,6 +118,12 @@ class LCT:
     
     def check_availability(self) -> bool:
         """Check if participant is still available based on timeout"""
+        # Humans are assumed available unless explicitly marked unavailable
+        if self.type == ParticipantType.HUMAN:
+            # For now, assume human is not available for automated cycles
+            # This can be changed when human interaction is implemented
+            return False
+        
         if not self.last_heartbeat:
             return True  # Never pinged, assume available
         
@@ -282,6 +288,14 @@ class LCTRegistry:
         """Get available participants who can serve as arbiters"""
         arbiters = []
         for lct in self.participants.values():
+            # Special handling for human arbiters
+            if lct.type == ParticipantType.HUMAN:
+                # Check if human is explicitly available (would need manual flagging)
+                if getattr(lct, 'manually_available', False):
+                    arbiters.append(lct)
+                continue
+            
+            # For AI participants, check availability
             if not lct.check_availability():
                 continue
             
@@ -289,12 +303,12 @@ class LCTRegistry:
             if lct.trust_scores.aggregate() > 0.7:
                 arbiters.append(lct)
             
-            # Humans can always be arbiters
-            elif lct.type == ParticipantType.HUMAN:
-                arbiters.append(lct)
-            
             # Participants with enough history
             elif lct.history.total_cycles_participated > 5:
+                arbiters.append(lct)
+            
+            # For initial cycles, allow any available AI to be arbiter
+            elif lct.history.total_cycles_participated == 0:
                 arbiters.append(lct)
         
         return arbiters
@@ -305,22 +319,48 @@ class LCTRegistry:
         # Try preferred arbiter first
         if preferred_id:
             arbiter = self.get_participant(preferred_id)
-            if arbiter and arbiter.check_availability():
-                return arbiter
+            if arbiter:
+                # Check if it's a human who might be available
+                if arbiter.type == ParticipantType.HUMAN:
+                    if getattr(arbiter, 'manually_available', False):
+                        return arbiter
+                # Check if it's an available AI
+                elif arbiter.check_availability():
+                    return arbiter
         
         # Fallback to available arbiters
         available = self.get_available_arbiters()
         if not available:
+            # Last resort: any available AI participant
+            print("Warning: No qualified arbiters, selecting any available AI")
+            for lct in self.participants.values():
+                if lct.type != ParticipantType.HUMAN and lct.check_availability():
+                    return lct
             return None
         
-        # Sort by trust score and least recent activity
-        available.sort(key=lambda x: (
-            -x.trust_scores.aggregate(),  # Higher trust first
-            x.history.arbiter_decisions,  # Fewer decisions first (spread load)
-            x.history.last_active or "0"  # Least recently active first
-        ))
+        # Sort by preference
+        def arbiter_sort_key(lct):
+            # Prefer certain AI types for arbitration
+            type_preference = {
+                ParticipantType.AI_CLAUDE: 0,  # Claude preferred for nuanced decisions
+                ParticipantType.AI_GPT: 1,
+                ParticipantType.AI_DEEPSEEK: 2,
+                ParticipantType.AI_OTHER: 3,
+                ParticipantType.HUMAN: 4  # Human last (usually unavailable)
+            }
+            
+            return (
+                type_preference.get(lct.type, 5),  # Type preference
+                -lct.trust_scores.aggregate(),     # Higher trust better
+                lct.history.arbiter_decisions,     # Fewer decisions (spread load)
+                lct.history.last_active or "0"     # Least recently active
+            )
         
-        return available[0]
+        available.sort(key=arbiter_sort_key)
+        
+        selected = available[0]
+        print(f"Selected arbiter: {selected.name} (trust: {selected.trust_scores.aggregate():.2f})")
+        return selected
     
     def get_participants_for_cycle(self, max_participants: int = 10) -> List[LCT]:
         """Get participants eligible for current cycle"""
