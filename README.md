@@ -1,5 +1,7 @@
 # Synchronism Framework
 
+**Last meaningful change**: 2025-08-18T22:10:48 - Add Consciousness Field Integration
+
 **Unified Model of Reality Through Intent Dynamics**  
 *Bridging Quantum Mechanics, Cosmology, and Consciousness*
 
@@ -105,11 +107,30 @@ A: Yes - see [§3](Synchronism_0.pdf) for Mentalism↔Intent mappings
 A: Currently addressed through tension field gradients - [§5.14](/Documentation/Synchronism_0.pdf)
 
 
-# Automated Update
+## Whitepaper Governance System
 
+The Synchronism whitepaper evolves as a living document through structured governance:
 
+### 🔄 Living Document Architecture
+- **Fractal Files**: Core content in `whitepaper/sections/`
+- **Meta Files**: Proposals and reviews in `meta/` subdirectories
+- **Governance**: LCT-based participant identity and trust tracking
+- **Changelog**: Only noteworthy changes to fractal files are logged
 
+### 📋 Governance Documentation
+- [Governance Rules](scripts/governance/governance_rules.md) - Complete ruleset for participants
+- [Whitepaper Governance](scripts/governance/WHITEPAPER_GOVERNANCE.md) - Technical implementation
+- [Global Changelog](whitepaper/CHANGELOG.md) - Noteworthy content changes only
 
-## Recent Contributions
+### 🤖 Participants
+- **Claude-4.1**: Philosophical coherence and conceptual clarity
+- **GPT-5**: Mathematical rigor and technical precision  
+- **Deepseek-3**: Implementation details and optimization
+- **Human Arbiters**: Final decision authority
 
+### 📊 Governance Status
+- **System**: Rev_0 Autonomous Governance LIVE
+- **Token System**: ATP/ADP energy-based value tracking
+- **Trust Metrics**: T3/V3 tensor frameworks active
 
+For participation details, see [LCT Registry](scripts/governance/config/lct_registry.json).
