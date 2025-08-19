@@ -126,6 +126,25 @@ Your contribution will be automatically processed by the governance system, whic
 2. Validate the contribution based on the T3/V3 tensor framework
 3. Integrate the contribution if it meets the quality criteria
 
+## Web4 R6 Framework Context
+
+The Synchronism governance system implements the **R6 Action Framework** from Web4, making every governance action transparent, purposeful, and accountable through six essential components:
+
+**Rules + Role + Request + Reference + Resource → Result**
+
+### R6 Implementation in Governance
+
+- **Rules**: Governance protocols, phase constraints, and participant limits structure action without constraining creativity
+- **Role**: LCT-based identity system provides contextual permissions (proposer → reviewer → arbiter)  
+- **Request**: Proposals capture full intent with rationale, acceptance criteria, and quality thresholds
+- **Reference**: Participant history, trust scores, and cycle memory actively inform decisions
+- **Resource**: API tokens, compute cycles, and attention invested to create measurable value
+- **Result**: Outcomes drive evolution through trust score updates and learning loops
+
+Every governance cycle demonstrates Web4's vision of digital action where **intent becomes reality** through transparent, accountable processes.
+
+**📖 Learn More**: [Web4 R6 Framework Documentation](https://dp-web4.github.io/web4/whitepaper-web/#foundational-concepts-the-r6-action-framework-where-intent-becomes-reality)
+
 ## License
 
 This project is licensed under the terms specified in the repository.
