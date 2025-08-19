@@ -1,0 +1,237 @@
+name: Build Synchronism Whitepaper (CI-Safe)
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'whitepaper/**'
+      - '.github/workflows/build_whitepaper_ci.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'whitepaper/**'
+  workflow_dispatch:  # Allow manual trigger
+
+env:
+  CI: true  # Set CI environment variable
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper git operations
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+          
+      - name: Create CI-safe build scripts
+        working-directory: ./whitepaper
+        run: |
+          # Create CI versions of scripts that skip git operations
+          
+          # CI version of make-md.sh
+          cat > make-md-ci.sh << 'EOF'
+          #!/bin/bash
+          echo "Building monolithic Synchronism whitepaper markdown (CI mode)..."
+          
+          OUTPUT_DIR="build"
+          OUTPUT_FILE="$OUTPUT_DIR/Synchronism_Whitepaper_Complete.md"
+          SECTIONS_DIR="sections"
+          
+          mkdir -p "$OUTPUT_DIR"
+          
+          # Start with title
+          echo "# Synchronism: A Comprehensive Model of Reality" > "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          echo "*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*" >> "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          echo "---" >> "$OUTPUT_FILE"
+          echo "" >> "$OUTPUT_FILE"
+          
+          # Process sections in order
+          for section in "$SECTIONS_DIR"/*; do
+              if [ -d "$section" ]; then
+                  section_name=$(basename "$section")
+                  content_file="$section/content.md"
+                  
+                  if [ -f "$content_file" ]; then
+                      echo "  Adding $section_name..."
+                      cat "$content_file" >> "$OUTPUT_FILE"
+                      echo "" >> "$OUTPUT_FILE"
+                      echo "" >> "$OUTPUT_FILE"
+                  fi
+              fi
+          done
+          
+          echo "✅ Markdown generation complete!"
+          echo "   Output: $OUTPUT_FILE"
+          echo "   Size: $(du -h $OUTPUT_FILE | cut -f1)"
+          
+          # Copy to docs for GitHub Pages
+          DOCS_DIR="../docs/whitepaper"
+          if [ -d "$DOCS_DIR" ]; then
+              cp "$OUTPUT_FILE" "$DOCS_DIR/"
+              echo "📄 Copied to GitHub Pages location"
+          fi
+          EOF
+          chmod +x make-md-ci.sh
+          
+          # CI version of make-pdf.sh (simplified)
+          cat > make-pdf-ci.sh << 'EOF'
+          #!/bin/bash
+          echo "Building Synchronism whitepaper PDF (CI mode)..."
+          
+          MD_FILE="build/Synchronism_Whitepaper_Complete.md"
+          PDF_FILE="build/Synchronism_Whitepaper.pdf"
+          
+          if [ ! -f "$MD_FILE" ]; then
+              echo "⚠️  Markdown file not found. Running make-md-ci.sh first..."
+              bash make-md-ci.sh
+          fi
+          
+          echo "Generating PDF..."
+          pandoc "$MD_FILE" -o "$PDF_FILE" \
+              --from markdown \
+              --to pdf \
+              --pdf-engine=xelatex \
+              --toc \
+              --toc-depth=3 \
+              --highlight-style=tango \
+              -V documentclass=article \
+              -V geometry:margin=1in \
+              -V fontsize=11pt \
+              -V linkcolor=blue \
+              -V urlcolor=blue \
+              -V toccolor=black \
+              -V colorlinks=true \
+              2>/dev/null || true
+          
+          if [ -f "$PDF_FILE" ]; then
+              echo "✅ PDF created: $PDF_FILE"
+              echo "   Size: $(du -h $PDF_FILE | cut -f1)"
+              
+              DOCS_DIR="../docs/whitepaper"
+              if [ -d "$DOCS_DIR" ]; then
+                  cp "$PDF_FILE" "$DOCS_DIR/"
+                  echo "📄 Copied PDF to GitHub Pages"
+              fi
+          else
+              echo "⚠️ PDF generation had issues but continuing..."
+          fi
+          EOF
+          chmod +x make-pdf-ci.sh
+          
+      - name: Build Markdown Version
+        working-directory: ./whitepaper
+        run: bash make-md-ci.sh
+          
+      - name: Build PDF Version
+        working-directory: ./whitepaper
+        run: bash make-pdf-ci.sh || echo "PDF build had issues, continuing..."
+          
+      - name: Build Web Version (using original script)
+        working-directory: ./whitepaper
+        run: |
+          # Skip git operations in CI
+          export CI=true
+          # Modify the script temporarily to skip git operations
+          sed -i '7,29d' make-web-clean.sh  # Remove lines 7-29 (git fetch/pull section)
+          bash make-web-clean.sh
+          
+      - name: Upload Markdown Artifact
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: synchronism-markdown
+          path: whitepaper/build/Synchronism_Whitepaper_Complete.md
+          if-no-files-found: warn
+          
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: synchronism-pdf
+          path: whitepaper/build/Synchronism_Whitepaper.pdf
+          if-no-files-found: warn
+          
+      - name: Upload Web Artifact
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: synchronism-web
+          path: whitepaper/build/web-clean/
+          if-no-files-found: warn
+          
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          # Configure git
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          # Check if there are changes in docs
+          if [ -n "$(git status --porcelain docs/)" ]; then
+            echo "Changes detected in docs/, committing..."
+            git add docs/
+            git commit -m "Deploy whitepaper builds to GitHub Pages [skip ci]"
+            git push
+          else
+            echo "No changes in docs/, skipping commit"
+          fi
+          
+  summary:
+    needs: build
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        continue-on-error: true
+        
+      - name: Generate Build Summary
+        run: |
+          echo "# 📚 Synchronism Whitepaper Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Build Status" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Check Markdown
+          if [ -f "synchronism-markdown/Synchronism_Whitepaper_Complete.md" ]; then
+            echo "✅ **Markdown**: Successfully built ($(du -h synchronism-markdown/Synchronism_Whitepaper_Complete.md | cut -f1))" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Markdown**: Build failed or file not found" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Check PDF
+          if [ -f "synchronism-pdf/Synchronism_Whitepaper.pdf" ]; then
+            echo "✅ **PDF**: Successfully built ($(du -h synchronism-pdf/Synchronism_Whitepaper.pdf | cut -f1))" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **PDF**: Build issues or file not found (this is often due to LaTeX dependencies)" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Check Web
+          if [ -d "synchronism-web" ] && [ -f "synchronism-web/index.html" ]; then
+            echo "✅ **Web**: Successfully built" >> $GITHUB_STEP_SUMMARY
+            echo "  - Files: $(find synchronism-web -type f | wc -l)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Web**: Build failed or files not found" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## View Online" >> $GITHUB_STEP_SUMMARY
+          echo "[📖 Read the Whitepaper](https://dp-web4.github.io/Synchronism/whitepaper/)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "*Generated from commit: ${{ github.sha }}*" >> $GITHUB_STEP_SUMMARY
