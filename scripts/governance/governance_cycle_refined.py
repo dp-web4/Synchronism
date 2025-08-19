@@ -37,7 +37,7 @@ class ReviewAction(Enum):
 class GovernanceCycleRefined:
     """Refined governance cycle with exclusive holds"""
     
-    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 3):
+    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 1):
         self.cycle_id = cycle_id
         self.sections = sections
         self.max_proposals_per_participant = max_proposals_per_participant

@@ -37,7 +37,7 @@ class ReviewAction(Enum):
 class GovernanceCycle:
     """Manages a single governance cycle"""
     
-    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 3):
+    def __init__(self, cycle_id: int, sections: List[str], max_proposals_per_participant: int = 1):
         self.cycle_id = cycle_id
         self.sections = sections
         self.max_proposals_per_participant = max_proposals_per_participant
@@ -367,7 +367,7 @@ class GovernanceOrchestrator:
         with open(self.cycles_file, 'w') as f:
             json.dump(data, f, indent=2)
     
-    def run_cycle(self, sections: List[str], max_proposals: int = 3) -> Dict:
+    def run_cycle(self, sections: List[str], max_proposals: int = 1) -> Dict:
         """Run a complete governance cycle"""
         
         self.current_cycle_id += 1
