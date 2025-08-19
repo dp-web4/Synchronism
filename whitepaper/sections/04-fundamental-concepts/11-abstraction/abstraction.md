@@ -2,7 +2,7 @@
 
  In Synchronism, abstraction is not merely simplification—it is the coherent stabilization of intent distributions across scales. It emerges when the aggregate resonance of lower-level patterns sustains higher-order coherence with reduced informational load. This dynamic process is fundamental to how coherent patterns maintain stability across different scales of witness frames.
 
- ### Abstraction as Coherence Stabilization
+**Abstraction as Coherence Stabilization**
 
  Abstraction manifests through resonance-based processes:
 
@@ -11,7 +11,7 @@
 - **Scale-Bridging:** Intent patterns achieving coherence across fractal boundaries
 - **Dynamic Stabilization:** Maintaining coherence through contextual resonance adaptation
 
- ### Hierarchical Abstraction
+**Hierarchical Abstraction**
 
  - **Level 0 - Raw Data:** Direct intent patterns in individual cells
 - **Level 1 - Local Patterns:** Simple aggregations of nearby cells
@@ -20,7 +20,7 @@
 - **Level 4 - Concepts:** Abstract representations of system behaviors
 - **Level 5 - Meta-Concepts:** Abstractions about abstractions
 
- ### Abstraction Mathematics
+**Abstraction Mathematics**
 
  Abstraction can be formalized through:
 
@@ -29,7 +29,7 @@
 - **Pattern Relationships:** Mathematical structures describing intent pattern hierarchies
 - **Stabilization Dynamics:** Understanding coherence maintenance across abstractions
 
- ### How Abstraction Works
+**How Abstraction Works**
 
  - **Coarse-Graining:** Grouping fine details into larger units
 - **Filtering:** Removing noise and irrelevant information
@@ -37,7 +37,7 @@
 - **Symbolization:** Creating symbols to represent complex patterns
 - **Modeling:** Building simplified representations of complex systems
 
- ### Abstraction as Witnessed Coherence
+**Abstraction as Witnessed Coherence**
 
  In witness frames, abstraction manifests as:
 
@@ -47,7 +47,7 @@
 - **Pattern Extraction:** Witnessing stable resonances from variable experiences
 - **Resonance Navigation:** Finding coherent pathways through pattern space
 
- ### Applications of Abstraction
+**Applications of Abstraction**
 
  - **Scientific Models:** Simplified representations of complex phenomena
 - **Computer Science:** Programming languages as abstractions over machine code
@@ -55,7 +55,7 @@
 - **Art:** Artistic representations that capture essential features
 - **Engineering:** Blueprints and designs as abstractions of physical systems
 
- ### Benefits and Limitations
+**Benefits and Limitations**
 
  **Benefits:**
 
@@ -71,7 +71,7 @@
 - Abstractions may not generalize to new contexts
 - Multiple valid abstractions may conflict with each other
 
- ### Adaptive Abstraction
+**Adaptive Abstraction**
 
  Effective abstraction systems can:
 
@@ -80,7 +80,7 @@
 - **Error Detection:** Recognizing when abstractions are inadequate
 - **Refinement:** Improving abstractions based on feedback
 
- ### Relationship to MRH
+**Relationship to MRH**
 
  Abstraction is closely related to the [Markov Relevancy Horizon](#mrh) - both involve determining the optimal scope and level of detail for understanding phenomena. Effective abstraction respects the MRH by including relevant information while excluding irrelevant details.
 

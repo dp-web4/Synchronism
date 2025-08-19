@@ -2,7 +2,7 @@
 
  What physics calls "quantum superposition" doesn't exist in Synchronism. In the Synchronism grid model, intent patterns are never in static "states" - they are always cycling through their sequences. What appears as "superposition" is simply incomplete information about where in its cycle the pattern currently is and which phase you're synchronized with. The pattern continues cycling, witnessed or not, and what is observed depends solely on when the witness syncs with it.
 
- ### Always Cycling, Never Static
+**Always Cycling, Never Static**
 
  What appears as superposition is actually:
 
@@ -11,14 +11,14 @@
 - **Multiplicity of synchronization outcomes:** You don't know which phase of the cycle you'll sync with
 - **Perceived "state" = sync moment:** What you call a "state" is just the moment you happened to sync with the cycling pattern
 
- ### Witness Synchronization Effects
+**Witness Synchronization Effects**
 
  - **Multiple sync possibilities:** Witness can potentially synchronize with different phases of the pattern
 - **Sync timing variability:** Between synchronizations, witness doesn't know which phase is current
 - **Pattern persistence:** The pattern keeps cycling through its states continuously
 - **Experience determination:** Which sync occurs determines what the witness experiences
 
- ### Mathematical Representation
+**Mathematical Representation**
 
  The mathematical notation for overlapping patterns in Synchronism (used illustratively - this should not be conflated with quantum state probabilities):
 
@@ -27,7 +27,7 @@
 - **Grid cell states:** Sum of all overlapping intent patterns
 - **Normalization:** Total intent conserved across all patterns
 
- ### Witness Synchronization Process
+**Witness Synchronization Process**
 
  When witness synchronization occurs:
 
@@ -36,14 +36,14 @@
 - **Information acquisition:** Witness learns which phase of the cycle is current
 - **Experience crystallization:** Multiplicity of sync possibilities resolves into definite experience
 
- ### Reinterpreting "Superposition" Examples
+**Reinterpreting "Superposition" Examples**
 
  - **Electron orbitals:** Electrons continuously cycle through position sequences - "orbital" is the cycling pattern, not a static location
 - **Photon polarization:** Polarization continuously cycles through orientations - witness synchronization occurs with whatever phase is current
 - **Particle spin:** Spin continuously cycles through orientation sequence - "spin up/down" just means which phase you synced with
 - **Quantum computers:** Qubits continuously cycle through computational sequences - parallel cycling processes enable multiple calculations
 
- ### Schrödinger's Cat Dissolved
+**Schrödinger's Cat Dissolved**
 
  The famous paradox disappears in Synchronism:
 
@@ -52,14 +52,14 @@
 - **Cat has definite state:** Cat is always either alive or dead - never in "superposition"
 - **No paradox:** The mystery only exists if you believe in actual superposition rather than witness synchronization
 
- ### Factors Affecting Superposition
+**Factors Affecting Superposition**
 
  - **Environmental interaction:** External intent patterns disrupt superposition
 - **System complexity:** More complex patterns decohere faster
 - **Temperature:** Higher intent transfer speeds increase decoherence
 - **System size:** Larger systems interact more with environment
 
- ### Definite Reality
+**Definite Reality**
 
  Synchronism reveals reality is always definite:
 

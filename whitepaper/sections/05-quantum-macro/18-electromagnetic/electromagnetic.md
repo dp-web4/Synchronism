@@ -2,7 +2,7 @@
 
  Electromagnetic phenomena in Synchronism represent cycling intent patterns where electric and magnetic components are phase-aligned expressions of the same propagating intent. These patterns sustain one another through resonant coupling, creating coherent energy and information transmission across the universal field.
 
- ### Electromagnetic Fields as Intent Patterns
+**Electromagnetic Fields as Intent Patterns**
 
  EM fields represent:
 
@@ -11,7 +11,7 @@
 - **Information bearers:** Modulated patterns carrying encoded information
 - **Force mediators:** Patterns that enable electromagnetic interactions
 
- ### Maxwell's Equations as Resonance Rules
+**Maxwell's Equations as Resonance Rules**
 
  These are not forces but resonance equations—conditions under which intent patterns sustain mutual cycling:
 
@@ -20,7 +20,7 @@
 - **Faraday's law:** Changing magnetic patterns create electric patterns through resonant coupling
 - **Ampère's law:** Electric currents and changing electric patterns create magnetic patterns via synchronized cycling
 
- ### The Electromagnetic Spectrum
+**The Electromagnetic Spectrum**
 
  Different frequencies represent different intent cycle rates:
 
@@ -32,7 +32,7 @@
 - **X-rays:** High-energy patterns penetrating matter
 - **Gamma rays:** Ultra-tight cycling—extremely high-frequency intent manifestations
 
- ### Wave Properties
+**Wave Properties**
 
  - **Wavelength:** Spatial extent of one complete pattern oscillation
 - **Frequency:** Temporal rate of pattern oscillation
@@ -40,7 +40,7 @@
 - **Phase:** Timing relationship between pattern components
 - **Polarization:** Orientation of pattern oscillations
 
- ### Photons as Discrete Patterns
+**Photons as Discrete Patterns**
 
  The particle aspect emerges from witnessing scale alignment:
 
@@ -49,14 +49,14 @@
 - **Spin properties:** Photons are spin-1 particles
 - **Virtual photons:** Force-mediating patterns in electromagnetic interactions
 
- ### Electromagnetic Interactions
+**Electromagnetic Interactions**
 
  - **Coulomb force:** Static electric force between charged patterns
 - **Magnetic force:** Force on moving charged patterns
 - **Lorentz force:** Combined electric and magnetic forces
 - **Radiation pressure:** Momentum transfer from electromagnetic patterns
 
- ### Wave Propagation and Interference
+**Wave Propagation and Interference**
 
  - **Superposition:** Multiple patterns can occupy same space
 - **Constructive interference:** Patterns adding to increase amplitude
@@ -64,7 +64,7 @@
 - **Standing waves:** Stationary interference patterns
 - **Diffraction:** Pattern bending around obstacles
 
- ### Electromagnetic Induction
+**Electromagnetic Induction**
 
  How changing patterns create other patterns:
 
@@ -73,21 +73,21 @@
 - **Mutual inductance:** Changing currents in one circuit affect another
 - **Eddy currents:** Induced circular current patterns
 
- ### Antenna Theory and Radiation
+**Antenna Theory and Radiation**
 
  - **Accelerating charges:** Moving charges create radiating patterns
 - **Dipole radiation:** Oscillating dipoles radiate electromagnetic patterns
 - **Antenna patterns:** Directional characteristics of radiated patterns
 - **Near and far fields:** Different pattern behaviors at different distances
 
- ### Plasma and Electromagnetic Phenomena
+**Plasma and Electromagnetic Phenomena**
 
  - **Plasma frequency:** Natural oscillation frequency of electron patterns
 - **Magnetohydrodynamics:** Plasma motion in magnetic fields
 - **Magnetic reconnection:** Magnetic field pattern restructuring
 - **Auroras:** Atmospheric light patterns from particle interactions
 
- ### Technological Applications
+**Technological Applications**
 
  - **Radio communication:** Information transmission via modulated EM patterns
 - **Radar systems:** Object detection using reflected EM patterns
@@ -95,7 +95,7 @@
 - **Energy transfer:** Wireless power transmission using EM patterns
 - **Optical fibers:** Guiding light patterns for communication
 
- ### Quantum Electrodynamics (QED)
+**Quantum Electrodynamics (QED)**
 
  Quantum theory of electromagnetic interactions:
 
@@ -104,14 +104,14 @@
 - **Lamb shift:** Quantum corrections to atomic energy levels
 - **Anomalous magnetic moment:** Quantum corrections to particle magnetism
 
- ### Biological Electromagnetic Effects
+**Biological Electromagnetic Effects**
 
  - **Photosynthesis:** Plants using light patterns for energy conversion
 - **Vision:** Biological detection of visible light patterns
 - **Magnetic navigation:** Animals using Earth's magnetic patterns for navigation
 - **Bioelectricity:** Electrical patterns in nervous systems
 
- ### Synchronism View of Electromagnetism
+**Synchronism View of Electromagnetism**
 
  In Synchronism, EM phenomena represent:
 

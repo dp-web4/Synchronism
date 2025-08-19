@@ -2,7 +2,7 @@
 
  Markov blankets in Synchronism are intent modulation membranes that define the boundaries between entities and their environment—where environment consists of all spatially and temporally concurrent intent patterns that do not directly contribute to the entity's coherence. They represent the regulated intent exchange interface through which entities maintain their coherent pattern cycling while participating in broader intent transfer dynamics.
 
- ### Boundary Definition
+**Boundary Definition**
 
  A Markov blanket consists of:
 
@@ -11,21 +11,21 @@
 - **Internal States:** Grid locations maintaining the entity's coherent intent cycling
 - **External States:** All concurrent intent patterns beyond the membrane that don't directly contribute to entity coherence
 
- ### Key Properties
+**Key Properties**
 
  - **Intent Modulation:** Internal patterns maintain coherence through regulated intent transfer at the membrane
 - **Intent Absorption/Transfer:** The membrane selectively absorbs and transfers intent patterns
 - **Boundary Regulation:** Active modulation of intent transfer rates and patterns
 - **Coherence Preservation:** Maintaining stable intent cycling despite environmental fluctuations
 
- ### Functional Roles
+**Functional Roles**
 
  - **Pattern Stabilization:** Maintaining coherent intent cycling within variable conditions
 - **Selective Transfer:** Modulating which intent patterns cross the membrane
 - **Transfer Regulation:** Controlling the rate and resonance of intent exchange
 - **Dynamic Modulation:** Adjusting membrane properties to maintain coherence
 
- ### Intent Transfer Framework
+**Intent Transfer Framework**
 
  Markov blankets can be described through:
 
@@ -34,7 +34,7 @@
 - **Membrane Evolution:** How modulation properties adapt over time slices
 - **Coherence Stabilization:** Blankets that stabilize coherent intent transfer under variable conditions
 
- ### Nested Blankets
+**Nested Blankets**
 
  Markov blankets exist at multiple scales:
 
@@ -43,7 +43,7 @@
 - **Social Level:** Group boundaries and communication interfaces
 - **Witness Boundaries:** Contextual modulation boundaries at various scales
 
- ### Blanket Examples
+**Blanket Examples**
 
  - **Cell Membranes:** Controlling molecular transport
 - **Immune Systems:** Distinguishing self from non-self
@@ -51,7 +51,7 @@
 - **Organizations:** Institutional boundaries and interfaces
 - **Ecosystems:** Boundaries between ecological communities
 
- ### Adaptive Boundaries
+**Adaptive Boundaries**
 
  Markov blankets can:
 
@@ -60,7 +60,7 @@
 - **Strengthen Defense:** Becoming more selective under threat
 - **Reorganize Structure:** Changing organization to optimize function
 
- ### Identity and Existence
+**Identity and Existence**
 
  Markov blankets are fundamental to understanding how entities maintain their identity in a constantly changing environment. They provide the mechanism by which "self" is distinguished from "other" at every scale of existence.
 

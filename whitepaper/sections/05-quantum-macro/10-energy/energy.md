@@ -2,7 +2,7 @@
 
  Energy in Synchronism is the dynamic aspect of intent patterns - their capacity to cause change, perform work, and drive transformations within the universal grid. Energy is the observable effect of intent in action—intent gives rise to energy through synchronization and transfer. Understanding energy through intent patterns provides insight into conservation laws and energy transformations.
 
- ### Energy as Intent Dynamics
+**Energy as Intent Dynamics**
 
  Energy represents:
 
@@ -11,7 +11,7 @@
 - **Stored information:** Organized pattern structures containing potential
 - **Transformation capacity:** Ability to reorganize reality structures
 
- ### Forms of Energy
+**Forms of Energy**
 
  These represent coherent configurations of distributed intent within the tension grid, not separable fields acting upon it:
 
@@ -22,7 +22,7 @@
 - **Electromagnetic energy:** Energy carried by photon patterns
 - **Nuclear energy:** Energy stored in atomic nucleus patterns
 
- ### Conservation of Energy
+**Conservation of Energy**
 
  Energy conservation emerges because:
 
@@ -32,14 +32,14 @@
 - **Universal symmetry:** Time translation symmetry leads to energy conservation
 - **Coherence budget:** Energy availability is determined by how much coherent intent a pattern can maintain and transfer without decoherence
 
- ### Energy Transformations
+**Energy Transformations**
 
  - **Pattern restructuring:** Intent patterns reorganize to different energy forms
 - **Efficiency limits:** Some energy always becomes thermal (unusable)
 - **Reversible processes:** Ideal transformations preserve energy quality
 - **Irreversible processes:** Real transformations increase entropy
 
- ### Quantum Energy Levels
+**Quantum Energy Levels**
 
  Quantized energy emerges from:
 
@@ -48,21 +48,21 @@
 - **Quantum jumps:** Discrete transitions between allowed energy states
 - **Zero-point energy:** Minimum energy due to quantum uncertainty
 
- ### Mass-Energy Equivalence (E=mc²)
+**Mass-Energy Equivalence (E=mc²)**
 
  - **Concentrated intent:** Mass represents highly concentrated intent patterns
 - **Pattern binding:** Energy required to maintain stable matter patterns
 - **Conversion processes:** Mass patterns can convert to energy patterns
 - **Relativistic scaling:** c² represents the conversion factor
 
- ### Thermodynamic Energy Relations
+**Thermodynamic Energy Relations**
 
  - **First law:** Energy conservation in thermodynamic processes
 - **Internal energy:** Total kinetic and potential energy of pattern collection
 - **Heat and work:** Different modes of energy transfer
 - **Enthalpy:** Energy including pattern volume effects
 
- ### Electromagnetic Energy
+**Electromagnetic Energy**
 
  Energy carried by electromagnetic patterns:
 
@@ -71,14 +71,14 @@
 - **Radiation pressure:** Momentum carried by electromagnetic energy
 - **Energy density:** Concentration of energy in field patterns
 
- ### Nuclear Energy
+**Nuclear Energy**
 
  - **Binding energy:** Energy required to hold nuclear patterns together
 - **Fission:** Heavy nucleus patterns split, releasing binding energy
 - **Fusion:** Light nucleus patterns combine, releasing binding energy
 - **Mass defect:** Difference between constituent and bound masses
 
- ### Dark Energy as Pattern Expansion
+**Dark Energy as Pattern Expansion**
 
  The mysterious dark energy may represent:
 
@@ -87,7 +87,7 @@
 - **Pattern pressure:** Negative pressure driving cosmic acceleration
 - **Intent dynamics:** Large-scale intent flow patterns
 
- ### Energy Applications
+**Energy Applications**
 
  - **Power generation:** Converting energy forms for human use
 - **Energy storage:** Maintaining energy in stable pattern configurations

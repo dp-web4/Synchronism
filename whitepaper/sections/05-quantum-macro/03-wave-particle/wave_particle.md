@@ -2,7 +2,7 @@
 
  There is no wave-particle duality in Synchronism. What physics calls "wave" and "particle" behavior are simply different witness synchronization timings of the same continuously cycling intent pattern. This reframing parallels decoherence interpretations in standard quantum mechanics but goes further - the pattern itself never changes, only the witness's temporal perspective shifts. The double-slit experiment perfectly demonstrates this - just like a CRT where you can see a smooth picture (wave-like) or a single scanning dot (particle-like) depending on your sync timing, with the same electron beam cycling continuously.
 
- ### Sampling Determines Witnessed Behavior
+**Sampling Determines Witnessed Behavior**
 
  In Synchronism, there is no wave-particle mystery:
 
@@ -12,7 +12,7 @@
 - **Same pattern:** Wave and particle are not dual states, just different witness timings
 - **No discrete switching:** Pattern never toggles between "states"—it simply cycles
 
- ### Wave-like Behavior
+**Wave-like Behavior**
 
  When intent patterns exhibit wave characteristics:
 
@@ -22,7 +22,7 @@
 - **Wavelength:** Distance between repeating pattern features
 - **Frequency:** Rate of pattern oscillation in time
 
- ### Particle-like Behavior
+**Particle-like Behavior**
 
  When intent patterns exhibit particle characteristics:
 
@@ -32,7 +32,7 @@
 - **Momentum:** Directed intent transfer through grid
 - **Position:** Specific grid cell location
 
- ### Measurement Timing and Witnessing
+**Measurement Timing and Witnessing**
 
  What you detect depends on when you synchronize with the pattern:
 
@@ -41,7 +41,7 @@
 - **Measurement doesn't influence pattern:** It filters witness view - the system evolves independently, and the recorded result depends on sampling
 - **Complementarity via timing:** Can't observe both at once
 
- ### Double-Slit Experiment Reframed
+**Double-Slit Experiment Reframed**
 
  The famous experiment demonstrates Synchronism perfectly:
 
@@ -51,7 +51,7 @@
 - **Discrete hits:** Screen samples show quantized positions
 - **Path detection = timing shift:** Not decoherence but resampling - "which-path" measurements change the observer's synchronization frame, not the pattern's coherence
 
- ### Mathematical Framework
+**Mathematical Framework**
 
  The wave-particle relationship links to observable physics through:
 
@@ -60,14 +60,14 @@
 - **Intent momentum:** Transfer rate
 - **Planck constant:** Quantum of intent transfer
 
- ### Scale-Dependent Manifestation
+**Scale-Dependent Manifestation**
 
  - **Quantum:** Duality evident
 - **Atomic:** Wave aspects diminish
 - **Molecular:** Mostly particle-like
 - **Macroscopic:** Wave aspects fade out - comparable to coherence length scale in standard QM
 
- ### Technological Applications
+**Technological Applications**
 
  Synchronism explains why current technology works - it doesn't dispute results, it reframes their interpretation:
 
@@ -76,7 +76,7 @@
 - Quantum tunneling
 - Interferometry
 
- ### Philosophical Resolution
+**Philosophical Resolution**
 
  Synchronism shows there never was a paradox - one of the most elegant demonstrations of the model's explanatory power:
 

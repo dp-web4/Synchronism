@@ -2,7 +2,7 @@
 
  Black holes and dark matter represent extreme manifestations of intent pattern dynamics. Black holes are regions where grid distortion becomes so severe that normal pattern propagation breaks down, while dark matter consists of intent patterns that interact primarily through gravitational effects.
 
- ### Black Holes as Grid Extremes
+**Black Holes as Grid Extremes**
 
  Black holes form when:
 
@@ -11,14 +11,14 @@
 - **Information bottleneck:** Pattern processing capacity overwhelmed
 - **Causal disconnection:** Interior patterns cannot communicate outward
 
- ### Event Horizon Properties
+**Event Horizon Properties**
 
  - **Information boundary:** Threshold for synchronization - information can enter but not propagate outward
 - **One-way membrane:** Patterns can enter but not exit
 - **Holographic surface:** Intent states projected onto the last coherent grid boundary
 - **Dynamic boundary:** Horizon grows as more mass falls in
 
- ### The Central Singularity
+**The Central Singularity**
 
  At the center of black holes - representing intent compression beyond coherent representation rather than physical infinity:
 
@@ -27,14 +27,14 @@
 - **Spacetime curvature:** Grid distortion becomes infinite
 - **Physical breakdown:** Known physics no longer applies
 
- ### Hawking Radiation
+**Hawking Radiation**
 
  - **Vacuum fluctuations:** Tension field oscillations near event horizon - coherence leakage
 - **Particle separation:** One partner falls in, other escapes
 - **Black hole evaporation:** Radiation carries away mass-energy
 - **Temperature inversion:** Smaller black holes are hotter
 
- ### Black Hole Information Paradox
+**Black Hole Information Paradox**
 
  The tension between general relativity and quantum mechanics:
 
@@ -43,7 +43,7 @@
 - **Holographic principle:** Information may be stored on horizon surface
 - **Firewall hypothesis:** High-energy barrier at event horizon
 
- ### Dark Matter as Hidden Patterns
+**Dark Matter as Hidden Patterns**
 
  Dark matter consists of:
 
@@ -52,21 +52,21 @@
 - **Hidden sector:** Separate family of patterns with different properties
 - **Primordial remnants:** Patterns left over from early universe
 
- ### Evidence for Dark Matter
+**Evidence for Dark Matter**
 
  - **Galaxy rotation curves:** Orbital speeds require more mass than observed
 - **Gravitational lensing:** Light bending indicates hidden mass
 - **Cosmic microwave background:** Early universe patterns require dark matter
 - **Large-scale structure:** Galaxy formation needs dark matter scaffolding
 
- ### Dark Matter Candidates
+**Dark Matter Candidates**
 
  - **WIMPs:** Weakly Interacting Massive Particles
 - **Axions:** Ultra-light pseudoscalar particles
 - **Sterile neutrinos:** Heavy neutrinos that don't interact weakly
 - **Primordial black holes:** Small black holes from early universe
 
- ### Modified Gravity Alternatives
+**Modified Gravity Alternatives**
 
  Alternative explanations without dark matter:
 
@@ -75,7 +75,7 @@
 - **Grid modifications:** Changes to underlying grid properties
 - **Emergent gravity:** Gravity as emergent phenomenon
 
- ### Dark Energy and Cosmic Acceleration
+**Dark Energy and Cosmic Acceleration**
 
  Just as dark matter warps the grid through silent coherence, dark energy may stretch it via distributed tension gradients:
 
@@ -84,14 +84,14 @@
 - **Quintessence:** Dynamic field causing acceleration
 - **Grid expansion:** Intrinsic tendency of grid to expand
 
- ### Detection Experiments
+**Detection Experiments**
 
  - **Direct detection:** Underground detectors searching for dark matter collisions
 - **Indirect detection:** Looking for dark matter annihilation products
 - **Collider searches:** Creating dark matter particles in accelerators
 - **Gravitational effects:** Observing dark matter through gravitational influence
 
- ### Role in Cosmic Evolution
+**Role in Cosmic Evolution**
 
  Dark matter and black holes shape the universe:
 
@@ -100,7 +100,7 @@
 - **Cosmic web:** Dark matter forms large-scale filamentary structure
 - **Energy balance:** Dark energy dominates current cosmic expansion
 
- ### Implications for Understanding
+**Implications for Understanding**
 
  These phenomena reveal:
 

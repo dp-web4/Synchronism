@@ -2,7 +2,7 @@
 
  The Markov Relevancy Horizon (MRH) represents the optimal scope of analysis for understanding any given phenomenon in Synchronism. It defines the spatial and temporal boundaries within which information is relevant for predicting or explaining a system's behavior.
 
- ### Defining the Horizon
+**Defining the Horizon**
 
  The MRH encompasses:
 
@@ -11,14 +11,14 @@
 - **Causal Boundary:** The limit of meaningful causal relationships
 - **Information Boundary:** The scope within which information significantly affects outcomes
 
- ### Core Principles
+**Core Principles**
 
  - **Locality:** Most relevant information is found nearby in space and time
 - **Decay:** Influence decreases with distance and time
 - **Optimization:** Including more information beyond MRH provides diminishing returns
 - **Context Dependence:** MRH varies based on the phenomenon being studied
 
- ### Mathematical Framework
+**Mathematical Framework**
 
  MRH can be quantified through:
 
@@ -27,7 +27,7 @@
 - **Prediction Accuracy:** Testing how far information remains useful
 - **Computational Efficiency:** Optimizing accuracy vs. computational cost
 
- ### Scale-Dependent Horizons
+**Scale-Dependent Horizons**
 
  - **Quantum Scale:** MRH measured in femtometers and attoseconds
 - **Atomic Scale:** MRH spans angstroms and picoseconds
@@ -38,7 +38,7 @@
 - **Planetary Scale:** MRH spans continents and years to millennia
 - **Cosmic Scale:** MRH encompasses light-years and cosmic ages
 
- ### MRH Applications
+**MRH Applications**
 
  - **Scientific Modeling:** Choosing appropriate scales for analysis
 - **Computational Efficiency:** Limiting simulation scope for optimal performance
@@ -46,7 +46,7 @@
 - **System Design:** Understanding interaction boundaries
 - **Decision Making:** Determining relevant factors for choices
 
- ### Adaptive Horizons
+**Adaptive Horizons**
 
  MRH can change based on:
 
@@ -55,11 +55,11 @@
 - **Available Resources:** Computational or observational limitations
 - **Accuracy Requirements:** Higher precision may require larger horizons
 
- ### Connection to Perspective
+**Connection to Perspective**
 
  MRH provides a formal framework for the [perspective problem](#perspective) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
 
- ### Optimizing Analysis
+**Optimizing Analysis**
 
  Effective use of MRH involves:
 

@@ -2,7 +2,7 @@
 
  Field effects in Synchronism arise from a fundamental duality: while 'matter' represents concentrations of intent moving cyclically through locally resonant patterns over time slices, 'fields' represent the complementary depletions of intent that move in complementary cyclical fashion. This depletion/concentration wave dynamic provides elegant explanations for field behaviors and their selective interactions with different patterns of intent concentration.
 
- ### The Depletion-Concentration Duality
+**The Depletion-Concentration Duality**
 
  Every wave has peaks and valleys—concentrations and depletions. In Synchronism's intent transfer model:
 
@@ -11,7 +11,7 @@
 - **Complementary Propagation:** Concentrations and depletions cycle together as wave phenomena
 - **Mutual Reinforcement:** Depletions 'invite' intent concentrations into depleted cells, sustaining cyclical wave formation
 
- ### Field Formation Through Depletion Patterns
+**Field Formation Through Depletion Patterns**
 
  Depletion waves can manifest in several forms:
 
@@ -20,7 +20,7 @@
 - **Desaturation Boundaries:** Regions of complete intent depletion forming impermeable barriers
 - **Gradient Depletion:** Smooth transitions from high to low intent density
 
- ### Gravitational Effects Through Bulk Depletion
+**Gravitational Effects Through Bulk Depletion**
 
  Gravity emerges naturally from this depletion model:
 
@@ -31,7 +31,7 @@
 
  This explains why gravity increases with mass—more concentrated intent patterns create deeper, more extensive depletion zones that exert stronger 'invitation' forces on surrounding intent concentrations.
 
- ### Selective Field-Matter Coupling
+**Selective Field-Matter Coupling**
 
  Different field types interact selectively with intent concentration patterns based on resonance matching:
 
@@ -42,7 +42,7 @@
 
  This selectivity arises because different depletion patterns operate at different scales and frequencies, coupling only with intent concentration patterns that cycle at compatible scales and timings.
 
- ### Depletion Wave Mathematics
+**Depletion Wave Mathematics**
 
  Field effects can be described through depletion wave equations:
 
@@ -51,7 +51,7 @@
 - **Propagation Velocity:** Speed at which depletion waves travel
 - **Resonance Coupling:** Strength of depletion-matter interaction based on frequency matching
 
- ### Depletion Barriers and Permeability
+**Depletion Barriers and Permeability**
 
  Complete desaturation creates impermeable barriers:
 
@@ -60,14 +60,14 @@
 - **Interference Effects:** Depletion waves can reinforce or cancel each other
 - **Tunneling Phenomena:** Intent concentration patterns can traverse thin depletion barriers under certain conditions
 
- ### Observable Consequences
+**Observable Consequences**
 
  - **Gravitational Attraction:** Intent concentration patterns respond to depletion invitation from other intent concentrations
 - **Electromagnetic Radiation:** Oscillating depletion patterns propagating through space
 - **Field Shielding:** Intent concentration patterns can block certain depletion patterns but not others
 - **Action at a Distance:** Depletion patterns provide the medium for instantaneous field effects
 
- ### Hermetic Connections
+**Hermetic Connections**
 
  The depletion-concentration duality embodies the [Hermetic principle](#hermetic-principles) of **Polarity** - "Everything is dual; everything has poles; everything has its pair of opposites." Fields and matter are not separate phenomena but complementary aspects of the same underlying cyclical intent transfer dynamics.
 

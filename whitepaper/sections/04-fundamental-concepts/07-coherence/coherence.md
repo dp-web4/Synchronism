@@ -2,7 +2,7 @@
 
  Coherence is not a static property but a dynamic expression of maintained alignment among interacting intent distributions. Feedback is not imposed from above but arises fractally from local imbalances that seek re-equilibration. This ongoing coherence negotiation allows complex systems to persist and evolve while adapting to changing conditions.
 
- ### Understanding Coherence
+**Understanding Coherence**
 
  Coherence manifests as continuous dynamic alignment:
 
@@ -11,14 +11,14 @@
 - **Resonant Coupling:** Strong cyclical connections between pattern components
 - **Coherent Resonance Preservation:** Ability to maintain and transmit coherent resonance structures
 
- ### Types of Coherence
+**Types of Coherence**
 
  - **Spatial Coherence:** Pattern organization across space
 - **Temporal Coherence:** Pattern stability across time
 - **Functional Coherence:** Coordinated behavior within systems
 - **Hierarchical Coherence:** Organization across different scales
 
- ### Feedback as Coherence Negotiation
+**Feedback as Coherence Negotiation**
 
  Feedback emerges as coherence negotiation mechanisms:
 
@@ -27,7 +27,7 @@
 - **Self-Equilibration:** Automatic rebalancing to maintain coherent alignment
 - **Adaptive Realignment:** Dynamic coherence adjustments to environmental changes
 
- ### Recursive and Fractal Feedback
+**Recursive and Fractal Feedback**
 
  Feedback propagates recursively across scales:
 
@@ -36,7 +36,7 @@
 - **Scale-Relative Resonance:** Feedback influenced by intent resonance at compatible scales
 - **Fractal Propagation:** Feedback loops that operate similarly at all organizational levels
 
- ### Coherence Mathematics
+**Coherence Mathematics**
 
  Coherence can be quantified through:
 
@@ -45,7 +45,7 @@
 - **Correlation Coefficients:** Quantifying pattern relationships
 - **Entropy Measures:** Quantifying pattern disorder
 
- ### Decoherence
+**Decoherence**
 
  Loss of coherence occurs through:
 
@@ -54,7 +54,7 @@
 - **System Overload:** Complexity exceeding organizational capacity
 - **Feedback Failure:** Breakdown of corrective mechanisms
 
- ### Coherence Examples
+**Coherence Examples**
 
  - **Laser Light:** Highly coherent electromagnetic patterns
 - **Superconductors:** Coherent electron patterns with zero resistance
@@ -62,7 +62,7 @@
 - **Consciousness:** Coherent neural patterns creating awareness
 - **Ecosystems:** Coherent interactions maintaining ecological balance
 
- ### Hermetic Connections
+**Hermetic Connections**
 
  Coherence embodies the [Hermetic principle](#hermetic-principles) of **Rhythm** - "Everything flows, out and in" - showing how patterns maintain stability through dynamic equilibrium and adaptive feedback.
 

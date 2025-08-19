@@ -24,7 +24,7 @@
 
 **Philosophical Implications**
 
- #### Determinism and Free Will
+**Determinism and Free Will**
 
  While each slice is determined by the preceding one, the universe is deterministic in structure but probabilistic in experience, since the universe cannot predict its next state until it "lives" it.
 

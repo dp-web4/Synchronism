@@ -2,7 +2,7 @@
 
  Interaction modes in Synchronism describe the different ways that intent patterns can interact with each other. In Synchronism, resonance, dissonance, and indifference are not fixed classifications but relational states emergent from local alignment and coherence depth. Their manifestation is a function of relative intent alignment across fractal scales. These modeling primitives help analyze how coherent transfer manifests across different contexts.
 
- ### Three Primary Modes
+**Three Primary Modes**
 
  All interactions in Synchronism fall into three dynamic relational states:
 
@@ -10,7 +10,7 @@
 - **Dissonance:** Patterns with intent vector divergence that create interference
 - **Indifference:** Patterns with contextual irrelevance that maintain non-altering interaction
 
- ### Resonance
+**Resonance**
 
  Resonant interactions occur when intent patterns align in ways that amplify their collective effect:
 
@@ -21,7 +21,7 @@
 
  *Examples:* Laser coherence, superconductivity, synchronized heartbeats, group consciousness
 
- ### Dissonance
+**Dissonance**
 
  Dissonant interactions occur when intent patterns conflict in ways that reduce their collective effect:
 
@@ -32,7 +32,7 @@
 
  *Examples:* Noise cancellation, chemical inhibition, immune responses, competing ideologies
 
- ### Indifference
+**Indifference**
 
  Indifferent interactions are non-altering interactions—not the absence of interaction, but interactions that don't alter the participating patterns. This distinction aligns with Synchronism's notion that every interaction conveys some form of witness:
 
@@ -43,7 +43,7 @@
 
  *Examples:* Most distant galaxies, many chemical reactions, parallel thought processes
 
- ### Scale-Relative Interactions
+**Scale-Relative Interactions**
 
  These interaction modes operate at all fractal scales and are scale-relative:
 
@@ -52,7 +52,7 @@
 - **Observer Context:** The same patterns may exhibit different interaction modes from different witness perspectives
 - **Multi-Scale Dynamics:** Patterns can simultaneously resonate at some scales while being dissonant at others
 
- ### Interaction Mathematics
+**Interaction Mathematics**
 
  Interaction modes can be quantified through:
 
@@ -61,7 +61,7 @@
 - **Interference Patterns:** Spatial and temporal superposition effects
 - **Coupling Constants:** Strength of interaction between patterns
 
- ### Dynamic Mode Changes
+**Dynamic Mode Changes**
 
  Interaction modes can shift over time:
 
@@ -70,7 +70,7 @@
 - **Amplitude Modulation:** Varying strength of interactions
 - **Context Dependence:** External conditions affecting interaction modes
 
- ### Hermetic Connections
+**Hermetic Connections**
 
  Interaction modes reflect the [Hermetic principle](#hermetic-principles) of **Polarity** - "Everything is dual; everything has poles" - showing how phenomena can reinforce or oppose each other across all scales.
 
