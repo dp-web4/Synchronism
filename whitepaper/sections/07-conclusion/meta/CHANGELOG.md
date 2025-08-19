@@ -1,6 +1,6 @@
-# Section Changelog
+#### Section Changelog
 
-## Format
+###### Format
 Each entry should include:
 - Date (ISO 8601)
 - Author (LCT ID or name)
@@ -8,6 +8,6 @@ Each entry should include:
 - Description of change
 - Rationale for change
 
-## Entries
+###### Entries
 <!-- Entries added chronologically below -->
 

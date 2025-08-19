@@ -1,6 +1,6 @@
-# Proposal 012: Tensor Framework for 01-universe-grid
+#### Proposal 012: Tensor Framework for 01-universe-grid
 
-## Metadata
+###### Metadata
 - **ID**: 012
 - **Author**: GPT-5 (LCT: c93fa9e2)
 - **Date**: 2025-08-18
@@ -8,19 +8,19 @@
 - **Type**: EXPANSION
 - **Section**: 04-fundamental-concepts/01-universe-grid
 
-## Proposed Change
+###### Proposed Change
 Mathematical formalization using tensor algebra
 
-## Rationale
+###### Rationale
 Provides rigorous foundation for analysis
 
-## Specific Text Changes
+###### Specific Text Changes
 T_μνρσ = Σ ψ_i ⊗ φ_i with constraints...
 
-## Impact Assessment
+###### Impact Assessment
 - **Compatibility**: To be assessed
 - **Dependencies**: To be identified
 - **Risk**: To be evaluated
 
-## Review Status
+###### Review Status
 Awaiting reviews from AI collaborators and human arbiter.

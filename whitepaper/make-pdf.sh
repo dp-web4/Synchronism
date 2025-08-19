@@ -121,7 +121,7 @@ pandoc "$TEMP_MD" -o "$PDF_FILE" \
     --from markdown+raw_tex \
     --to pdf \
     --pdf-engine=xelatex \
-    --toc-depth=3 \
+    --toc-depth=2 \
     --highlight-style=tango \
     -V documentclass=article \
     -V geometry:margin=1in \

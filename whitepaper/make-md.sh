@@ -96,24 +96,53 @@ collect_proposals() {
         proposals_found=true
         local current_section=""
         
+        # First, create a local navigation
+        echo "## Navigation" >> "$OUTPUT_FILE"
+        echo "" >> "$OUTPUT_FILE"
+        
+        # Build navigation list
+        local nav_sections=""
+        while IFS= read -r proposal_file; do
+            local rel_path="${proposal_file#$SECTIONS_DIR/}"
+            local section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
+            local proposal_name=$(basename "$proposal_file" .md)
+            
+            if [ "$section_path" != "$nav_sections" ]; then
+                if [ -n "$nav_sections" ]; then
+                    echo "" >> "$OUTPUT_FILE"
+                fi
+                nav_sections="$section_path"
+                echo "**$section_path:**" >> "$OUTPUT_FILE"
+            fi
+            echo "- $proposal_name" >> "$OUTPUT_FILE"
+        done <<< "$proposal_files"
+        
+        echo "" >> "$OUTPUT_FILE"
+        echo "---" >> "$OUTPUT_FILE"
+        echo "" >> "$OUTPUT_FILE"
+        
+        # Now add the actual proposals with deeper heading levels (to stay out of main TOC)
+        current_section=""
         while IFS= read -r proposal_file; do
             # Extract section path relative to SECTIONS_DIR
             local rel_path="${proposal_file#$SECTIONS_DIR/}"
             local section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
             
-            # Print section header if it's a new section
+            # Print section header if it's a new section (using #### to stay out of TOC)
             if [ "$section_path" != "$current_section" ]; then
                 current_section="$section_path"
                 echo "" >> "$OUTPUT_FILE"
-                echo "## Proposals for: $section_path" >> "$OUTPUT_FILE"
+                echo "#### Proposals for: $section_path" >> "$OUTPUT_FILE"
                 echo "" >> "$OUTPUT_FILE"
             fi
             
-            # Add the proposal
+            # Add the proposal (using ##### to stay out of TOC)
             local proposal_name=$(basename "$proposal_file" .md)
-            echo "### $proposal_name" >> "$OUTPUT_FILE"
+            echo "##### $proposal_name" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
-            cat "$proposal_file" >> "$OUTPUT_FILE"
+            # Downgrade headers as safety measure (h1->h4, h2->h5, h3->h6)
+            # Process in correct order to avoid double-replacement
+            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$proposal_file" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
             echo "---" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
@@ -164,6 +193,35 @@ done
 # Add Appendix B with all proposals
 echo "Collecting proposals for Appendix B..."
 collect_proposals
+
+# Add Appendix C with changelog
+echo "Creating Appendix C for changelog..."
+echo "" >> "$OUTPUT_FILE"
+echo "---" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+echo "# Appendix C: Change Log" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+echo "*Version history and evolution of the Synchronism whitepaper.*" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+
+# Collect all changelog entries
+for section in "$SECTIONS_DIR"/*; do
+    if [ -d "$section" ]; then
+        changelog_file="$section/meta/CHANGELOG.md"
+        if [ -f "$changelog_file" ]; then
+            section_name=$(basename "$section")
+            echo "#### $section_name" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            # Downgrade headers as safety measure (h1->h4, h2->h5, h3->h6)
+            # Process in correct order to avoid double-replacement
+            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$changelog_file" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            echo "---" >> "$OUTPUT_FILE"
+            echo "" >> "$OUTPUT_FILE"
+            echo "  ✓ Added changelog for $section_name"
+        fi
+    fi
+done
 
 # Document complete - no footer needed
 

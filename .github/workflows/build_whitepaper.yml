@@ -38,131 +38,19 @@ jobs:
       - name: Create CI-safe build scripts
         working-directory: ./whitepaper
         run: |
-          # Create CI versions of scripts that skip git operations
+          # Create CI versions by copying real scripts and removing git operations
           
-          # CI version of make-md.sh
-          cat > make-md-ci.sh << 'EOF'
-          #!/bin/bash
-          echo "Building monolithic Synchronism whitepaper markdown (CI mode)..."
-          
-          OUTPUT_DIR="build"
-          OUTPUT_FILE="$OUTPUT_DIR/Synchronism_Whitepaper_Complete.md"
-          SECTIONS_DIR="sections"
-          
-          mkdir -p "$OUTPUT_DIR"
-          
-          # Start with title
-          echo "# Synchronism: A Comprehensive Model of Reality" > "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          echo "*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*" >> "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          echo "---" >> "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          
-          # Process sections in order (only content.md files)
-          for section in "$SECTIONS_DIR"/*; do
-              if [ -d "$section" ]; then
-                  section_name=$(basename "$section")
-                  content_file="$section/content.md"
-                  
-                  if [ -f "$content_file" ]; then
-                      echo "  Adding $section_name..."
-                      cat "$content_file" >> "$OUTPUT_FILE"
-                      echo "" >> "$OUTPUT_FILE"
-                      echo "" >> "$OUTPUT_FILE"
-                  fi
-              fi
-          done
-          
-          # Add Appendix B with proposals
-          echo "" >> "$OUTPUT_FILE"
-          echo "---" >> "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          echo "# Appendix B: Current Proposals" >> "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          echo "*Active proposals for whitepaper improvements (not yet integrated):*" >> "$OUTPUT_FILE"
-          echo "" >> "$OUTPUT_FILE"
-          
-          # Collect all proposals recursively
-          proposals_found=false
-          for proposal in $(find "$SECTIONS_DIR" -path "*/meta/proposals/*.md" -type f 2>/dev/null | sort); do
-              if [ "$proposals_found" = false ]; then
-                  proposals_found=true
-              fi
-              # Extract section path
-              rel_path="${proposal#$SECTIONS_DIR/}"
-              section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
-              proposal_name=$(basename "$proposal" .md)
-              
-              echo "## $section_path - $proposal_name" >> "$OUTPUT_FILE"
-              echo "" >> "$OUTPUT_FILE"
-              cat "$proposal" >> "$OUTPUT_FILE"
-              echo "" >> "$OUTPUT_FILE"
-              echo "---" >> "$OUTPUT_FILE"
-              echo "" >> "$OUTPUT_FILE"
-          done
-          
-          if [ "$proposals_found" = false ]; then
-              echo "*No active proposals at this time.*" >> "$OUTPUT_FILE"
-          fi
-          
-          echo "✅ Markdown generation complete!"
-          echo "   Output: $OUTPUT_FILE"
-          echo "   Size: $(du -h $OUTPUT_FILE | cut -f1)"
-          
-          # Copy to docs for GitHub Pages
-          DOCS_DIR="../docs/whitepaper"
-          if [ -d "$DOCS_DIR" ]; then
-              cp "$OUTPUT_FILE" "$DOCS_DIR/"
-              echo "📄 Copied to GitHub Pages location"
-          fi
-          EOF
+          # CI version of make-md.sh - remove git operations (lines 6-29)
+          sed '6,29d' make-md.sh > make-md-ci.sh
           chmod +x make-md-ci.sh
           
-          # CI version of make-pdf.sh (simplified)
-          cat > make-pdf-ci.sh << 'EOF'
-          #!/bin/bash
-          echo "Building Synchronism whitepaper PDF (CI mode)..."
-          
-          MD_FILE="build/Synchronism_Whitepaper_Complete.md"
-          PDF_FILE="build/Synchronism_Whitepaper.pdf"
-          
-          if [ ! -f "$MD_FILE" ]; then
-              echo "⚠️  Markdown file not found. Running make-md-ci.sh first..."
-              bash make-md-ci.sh
-          fi
-          
-          echo "Generating PDF..."
-          pandoc "$MD_FILE" -o "$PDF_FILE" \
-              --from markdown \
-              --to pdf \
-              --pdf-engine=xelatex \
-              --toc \
-              --toc-depth=3 \
-              --highlight-style=tango \
-              -V documentclass=article \
-              -V geometry:margin=1in \
-              -V fontsize=11pt \
-              -V linkcolor=blue \
-              -V urlcolor=blue \
-              -V toccolor=black \
-              -V colorlinks=true \
-              2>/dev/null || true
-          
-          if [ -f "$PDF_FILE" ]; then
-              echo "✅ PDF created: $PDF_FILE"
-              echo "   Size: $(du -h $PDF_FILE | cut -f1)"
-              
-              DOCS_DIR="../docs/whitepaper"
-              if [ -d "$DOCS_DIR" ]; then
-                  cp "$PDF_FILE" "$DOCS_DIR/"
-                  echo "📄 Copied PDF to GitHub Pages"
-              fi
-          else
-              echo "⚠️ PDF generation had issues but continuing..."
-          fi
-          EOF
+          # CI version of make-pdf.sh - remove git operations (lines 6-29) and update TOC depth
+          sed '6,29d' make-pdf.sh | sed 's/--toc-depth=3/--toc-depth=2/' > make-pdf-ci.sh
           chmod +x make-pdf-ci.sh
+          
+          # CI version of make-web-clean.sh - remove git operations (lines 7-29)
+          sed '7,29d' make-web-clean.sh > make-web-ci.sh
+          chmod +x make-web-ci.sh
           
       - name: Build Markdown Version
         working-directory: ./whitepaper
@@ -178,12 +66,6 @@ jobs:
         working-directory: ./whitepaper
         run: |
           echo "Building Web version..."
-          # Skip git operations in CI
-          export CI=true
-          # Create a CI-safe version of the web script
-          cp make-web-clean.sh make-web-ci.sh
-          # Remove the git fetch/pull section (lines 7-29)
-          sed -i '7,29d' make-web-ci.sh
           bash make-web-ci.sh
           
       - name: Upload Markdown Artifact
