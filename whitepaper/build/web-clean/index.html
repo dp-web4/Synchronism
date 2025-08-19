@@ -148,7 +148,34 @@
                         }
                     });
                     // Toggle current section
+                    const wasCollapsed = navSection.classList.contains('collapsed');
                     navSection.classList.toggle('collapsed');
+                    
+                    // If we're expanding (was collapsed, now open), load first subsection
+                    if (wasCollapsed) {
+                        // Get the first subsection's anchor
+                        const firstSub = section.subsections[0];
+                        let anchorId = firstSub.toLowerCase().replace(/[&\s]/g, '-').replace(/--+/g, '-');
+                        
+                        // Apply special case mappings
+                        const anchorMappings = {
+                            'time-slices': 'time-as-planck-timed-slices',
+                            'entity-interactions': 'entity-interaction-effects'
+                        };
+                        
+                        if (anchorMappings[anchorId]) {
+                            anchorId = anchorMappings[anchorId];
+                        }
+                        
+                        // Load the section with first subsection anchor
+                        loadSection(section.id, section.file, anchorId);
+                        
+                        // Highlight the first subsection link
+                        const firstLink = navSection.querySelector('.nav-subsections .nav-link');
+                        if (firstLink) {
+                            highlightNav(firstLink);
+                        }
+                    }
                 } else {
                     // Collapse all sections when clicking a non-expandable item
                     document.querySelectorAll('.nav-section').forEach(otherSection => {
