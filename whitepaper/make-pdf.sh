@@ -63,25 +63,34 @@ for title, content in sections:
 
 # Rebuild document with custom order
 with open('build/Synchronism_Whitepaper_Reordered.md', 'w') as f:
-    # Start with title
-    f.write('# Synchronism: A Comprehensive Model of Reality\n\n')
-    f.write('*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*\n\n')
-    f.write('---\n\n')
+    # Check if first section already has the main title
+    has_main_title = False
+    for title, content in sections:
+        if 'Synchronism: A Comprehensive Model' in content:
+            has_main_title = True
+            break
     
-    # Executive Summary (without its own title since we have main title)
+    if not has_main_title:
+        # Add title if not present
+        f.write('# Synchronism: A Comprehensive Model of Reality\n\n')
+        f.write('*A Framework Unifying Scientific, Philosophical, and Spiritual Perspectives*\n\n')
+        f.write('---\n\n')
+    
+    # Executive Summary
     if exec_summary:
-        # Change # Executive Summary to ## Executive Summary
-        exec_content = exec_summary[1].replace('# Executive Summary', '## Executive Summary')
-        f.write(exec_content + '\n\n')
+        # Write executive summary as-is (it already has proper formatting)
+        f.write(exec_summary[1] + '\n\n')
     
-    # Add TOC on new page
+    # Add TOC marker for pandoc to generate it here
     f.write('\\newpage\n\n')
     f.write('\\tableofcontents\n\n')
     f.write('\\newpage\n\n')
     
     # All other sections
     for title, content in other_sections:
-        f.write(content + '\n\n')
+        # Skip any duplicate title sections
+        if 'Synchronism: A Comprehensive Model' not in title:
+            f.write(content + '\n\n')
 
 print("✓ Document reordered with TOC after Executive Summary")
 PYTHON_SCRIPT
