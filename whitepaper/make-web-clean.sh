@@ -463,9 +463,32 @@ if [ -n "$proposal_files" ]; then
             echo "<h4>Proposals for: $section_path</h4>" >> "$output_file"
         fi
         
-        echo "<h5 id=\"$anchor_id\">$proposal_name</h5>" >> "$output_file"
-        # Downgrade headers before converting to HTML (h1->h4, h2->h5, h3->h6)
-        sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$proposal_file" > "$OUTPUT_DIR/temp_proposal.md"
+        # Extract key info from the proposal file
+        proposal_id=$(grep "ID\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        title=$(grep -m1 "^#### Proposal" "$proposal_file" | sed 's/^#### Proposal [0-9]*: //')
+        author=$(grep "Author\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        date=$(grep "Date\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        status=$(grep "Status\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        type=$(grep "Type\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        
+        # Compressed single-line header with anchor
+        echo "<p id=\"$anchor_id\"><strong>${proposal_id}. ${title}</strong> — ${author} | ${date} | ${status} | ${type}</p>" >> "$output_file"
+        
+        # Extract and convert just the content sections
+        {
+            awk '
+                /^###### Proposed Change/,/^###### Rationale/ { 
+                    if (!/^######/) print 
+                }
+                /^###### Specific Text Changes/,/^###### Impact Assessment/ { 
+                    if (!/^###### Impact Assessment/) {
+                        gsub(/^######/, "###", $0)
+                        print
+                    }
+                }
+            ' "$proposal_file"
+        } > "$OUTPUT_DIR/temp_proposal.md"
+        
         md_to_html "$OUTPUT_DIR/temp_proposal.md" "$OUTPUT_DIR/temp.html"
         cat "$OUTPUT_DIR/temp.html" >> "$output_file"
         rm -f "$OUTPUT_DIR/temp_proposal.md"

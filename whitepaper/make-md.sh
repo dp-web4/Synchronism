@@ -136,13 +136,32 @@ collect_proposals() {
                 echo "" >> "$OUTPUT_FILE"
             fi
             
-            # Add the proposal (using ##### to stay out of TOC)
-            local proposal_name=$(basename "$proposal_file" .md)
-            echo "##### $proposal_name" >> "$OUTPUT_FILE"
+            # Extract key info from the proposal file
+            local proposal_id=$(grep "ID" "$proposal_file" | head -1 | sed 's/.*: //')
+            local title=$(grep -m1 "^#### Proposal" "$proposal_file" | sed 's/^#### Proposal [0-9]*: //')
+            local author=$(grep "Author" "$proposal_file" | head -1 | sed 's/.*: //')
+            local date=$(grep "Date" "$proposal_file" | head -1 | sed 's/.*: //')
+            local status=$(grep "Status" "$proposal_file" | head -1 | sed 's/.*: //')
+            local type=$(grep "Type" "$proposal_file" | head -1 | sed 's/.*: //')
+            
+            # Single line with all metadata
+            echo "**${proposal_id}. ${title}** — ${author} | ${date} | ${status} | ${type}" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
-            # Downgrade headers as safety measure (h1->h4, h2->h5, h3->h6)
-            # Process in correct order to avoid double-replacement
-            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$proposal_file" >> "$OUTPUT_FILE"
+            
+            # Extract just the content sections, skip metadata and current state
+            awk '
+                /^###### Proposed Change/,/^###### Rationale/ { 
+                    if (!/^######/) print 
+                }
+                /^###### Specific Text Changes/,/^###### Impact Assessment/ { 
+                    if (!/^###### Impact Assessment/) {
+                        gsub(/^######/, "**", $0)
+                        gsub(/:$/, ":**", $0)
+                        print
+                    }
+                }
+            ' "$proposal_file" >> "$OUTPUT_FILE"
+            
             echo "" >> "$OUTPUT_FILE"
             echo "---" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
