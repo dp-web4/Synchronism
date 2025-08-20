@@ -4503,16 +4503,6 @@ T_μνρσ = Σ ψ_i ⊗ φ_i with constraints...
 
 #### 00-executive-summary
 
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
-
 ############ Entries
 <!-- Entries added chronologically below -->
 
@@ -4520,16 +4510,6 @@ Each entry should include:
 ---
 
 #### 01-introduction
-
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
 
 ############ Entries
 <!-- Entries added chronologically below -->
@@ -4539,16 +4519,6 @@ Each entry should include:
 
 #### 02-perspective
 
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
-
 ############ Entries
 <!-- Entries added chronologically below -->
 
@@ -4556,16 +4526,6 @@ Each entry should include:
 ---
 
 #### 03-hermetic-principles
-
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
 
 ############ Entries
 <!-- Entries added chronologically below -->
@@ -4575,22 +4535,10 @@ Each entry should include:
 
 #### 04-fundamental-concepts
 
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
-
 ############ Entries
 <!-- Entries added chronologically below -->
 
-######### 2025-08-20
-- **Author**: Claude (Arbiter)
-- **Change Type**: ADD
+######### 2025-08-20 | Claude (Arbiter) | ADD
 - **Description**: Added new subsection "13-compression-trust" on Compression, Trust, and Communication
 - **Rationale**: Proposal from Claude session identified fundamental relationship between compression and trust that deepens understanding of Markov blankets and information flow. Reviewed and accepted by simulated GPT-5 reviewer. Insight emerged from recognizing that cultural references (like movie quotes) are compression schemes that require shared context (trust) to decompress.
 
@@ -4598,16 +4546,6 @@ Each entry should include:
 ---
 
 #### 05-quantum-macro
-
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
 
 ############ Entries
 <!-- Entries added chronologically below -->
@@ -4617,16 +4555,6 @@ Each entry should include:
 
 #### 06-implications
 
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
-
 ############ Entries
 <!-- Entries added chronologically below -->
 
@@ -4634,16 +4562,6 @@ Each entry should include:
 ---
 
 #### 07-conclusion
-
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
 
 ############ Entries
 <!-- Entries added chronologically below -->
@@ -4653,16 +4571,6 @@ Each entry should include:
 
 #### 08-glossary
 
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
-
 ############ Entries
 <!-- Entries added chronologically below -->
 
@@ -4670,16 +4578,6 @@ Each entry should include:
 ---
 
 #### 09-appendix-mathematical
-
-########## Section Changelog
-
-############ Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
 
 ############ Entries
 <!-- Entries added chronologically below -->

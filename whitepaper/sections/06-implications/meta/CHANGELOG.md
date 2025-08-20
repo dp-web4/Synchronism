@@ -1,12 +1,9 @@
 #### Section Changelog
 
 ###### Format
-Each entry should include:
-- Date (ISO 8601)
-- Author (LCT ID or name)
-- Change type (ADD/MODIFY/DELETE/ARCHIVE)
-- Description of change
-- Rationale for change
+Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELETE/ARCHIVE)
+- **Description**: Brief description of change
+- **Rationale**: Explanation for why the change was made
 
 ###### Entries
 <!-- Entries added chronologically below -->

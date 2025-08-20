@@ -517,11 +517,13 @@ for section in "$SECTIONS_DIR"/*; do
             section_name=$(basename "$section")
             echo "<h2>$section_name</h2>" >> "$output_file"
             
-            # Process changelog, removing redundant "Section Changelog" and styling Format/Entries
+            # Process changelog, removing redundant title and format section
             awk '
                 /^#### Section Changelog/ { next }  # Skip redundant title
-                /^###### Format/ { print "<h4><strong>Format</strong></h4>"; next }
-                /^###### Entries/ { print "<h4><strong>Entries</strong></h4>"; next }
+                /^###### Format/,/^###### Entries/ { 
+                    if (/^###### Entries/) print "<h4><strong>Entries</strong></h4>"
+                    next 
+                }  # Skip entire Format section
                 { print }
             ' "$changelog_file" > "$OUTPUT_DIR/temp_changelog_clean.md"
             

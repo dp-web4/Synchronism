@@ -210,9 +210,11 @@ for section in "$SECTIONS_DIR"/*; do
             section_name=$(basename "$section")
             echo "#### $section_name" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
-            # Downgrade headers as safety measure (h1->h4, h2->h5, h3->h6)
-            # Process in correct order to avoid double-replacement
-            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$changelog_file" >> "$OUTPUT_FILE"
+            # Skip format section and downgrade headers as safety measure
+            # Extract only the Entries section onwards (skip Format section)
+            awk '/^###### Entries/,EOF' "$changelog_file" | \
+            # Downgrade headers (h1->h4, h2->h5, h3->h6)
+            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"
             echo "---" >> "$OUTPUT_FILE"
             echo "" >> "$OUTPUT_FILE"

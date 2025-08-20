@@ -1,6 +1,7 @@
 # Universe Grid Section Changelog
 
 ## Format
+Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELETE/ARCHIVE)
 Each entry follows: `[Date] [Author] [Type] Description`
 - Date: ISO 8601 format (YYYY-MM-DD)
 - Author: Human name or AI model identifier
