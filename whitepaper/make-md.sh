@@ -108,6 +108,7 @@ collect_proposals() {
                 echo "" >> "$OUTPUT_FILE"
                 echo "#### Proposals for: $section_path" >> "$OUTPUT_FILE"
                 echo "" >> "$OUTPUT_FILE"
+                echo "" >> "$OUTPUT_FILE"  # Extra line for better PDF separation
             fi
             
             # Extract key info from the proposal file
