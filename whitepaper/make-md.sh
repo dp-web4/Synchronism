@@ -96,33 +96,7 @@ collect_proposals() {
         proposals_found=true
         local current_section=""
         
-        # First, create a local navigation
-        echo "## Navigation" >> "$OUTPUT_FILE"
-        echo "" >> "$OUTPUT_FILE"
-        
-        # Build navigation list
-        local nav_sections=""
-        while IFS= read -r proposal_file; do
-            local rel_path="${proposal_file#$SECTIONS_DIR/}"
-            local section_path=$(echo "$rel_path" | sed 's|/meta/proposals/.*||')
-            local proposal_name=$(basename "$proposal_file" .md)
-            
-            if [ "$section_path" != "$nav_sections" ]; then
-                if [ -n "$nav_sections" ]; then
-                    echo "" >> "$OUTPUT_FILE"
-                fi
-                nav_sections="$section_path"
-                echo "**$section_path:**" >> "$OUTPUT_FILE"
-            fi
-            echo "- $proposal_name" >> "$OUTPUT_FILE"
-        done <<< "$proposal_files"
-        
-        echo "" >> "$OUTPUT_FILE"
-        echo "---" >> "$OUTPUT_FILE"
-        echo "" >> "$OUTPUT_FILE"
-        
-        # Now add the actual proposals with deeper heading levels (to stay out of main TOC)
-        current_section=""
+        # Skip navigation for markdown/PDF - go straight to proposals
         while IFS= read -r proposal_file; do
             # Extract section path relative to SECTIONS_DIR
             local rel_path="${proposal_file#$SECTIONS_DIR/}"
@@ -156,8 +130,11 @@ collect_proposals() {
                 }
                 /^###### Specific Text Changes/,/^###### Impact Assessment/ { 
                     if (!/^###### Impact Assessment/) {
-                        gsub(/^######/, "**", $0)
-                        gsub(/:$/, ":**", $0)
+                        if (/^######/) {
+                            # Convert heading to bold text
+                            gsub(/^###### /, "**", $0)
+                            gsub(/:?$/, ":**", $0)
+                        }
                         print
                     }
                 }
