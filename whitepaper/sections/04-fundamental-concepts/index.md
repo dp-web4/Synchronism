@@ -14,3 +14,4 @@
 - [Spectral Existence](10-spectral-existence/)
 - [Abstraction](11-abstraction/)
 - [Entity Interactions](12-entity-interactions/)
+- [Compression, Trust, and Communication](13-compression-trust/)
