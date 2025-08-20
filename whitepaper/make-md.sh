@@ -137,12 +137,13 @@ collect_proposals() {
             fi
             
             # Extract key info from the proposal file
-            local proposal_id=$(grep "ID" "$proposal_file" | head -1 | sed 's/.*: //')
+            local proposal_id=$(grep "\*\*ID\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
             local title=$(grep -m1 "^#### Proposal" "$proposal_file" | sed 's/^#### Proposal [0-9]*: //')
-            local author=$(grep "Author" "$proposal_file" | head -1 | sed 's/.*: //')
-            local date=$(grep "Date" "$proposal_file" | head -1 | sed 's/.*: //')
-            local status=$(grep "Status" "$proposal_file" | head -1 | sed 's/.*: //')
-            local type=$(grep "Type" "$proposal_file" | head -1 | sed 's/.*: //')
+            # Extract author - handle both formats: "Author" and "Author (LCT: hash)"
+            local author=$(grep "\*\*Author\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //' | sed 's/ (LCT:.*)$//')
+            local date=$(grep "\*\*Date\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
+            local status=$(grep "\*\*Status\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
+            local type=$(grep "\*\*Type\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
             
             # Single line with all metadata
             echo "**${proposal_id}. ${title}** — ${author} | ${date} | ${status} | ${type}" >> "$OUTPUT_FILE"
