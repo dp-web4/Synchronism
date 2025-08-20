@@ -482,7 +482,7 @@ if [ -n "$proposal_files" ]; then
                 }
                 /^###### Specific Text Changes/,/^###### Impact Assessment/ { 
                     if (!/^###### Impact Assessment/) {
-                        gsub(/^######/, "###", $0)
+                        gsub(/^######/, "####", $0)
                         print
                     }
                 }
