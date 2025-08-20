@@ -69,7 +69,7 @@ jobs:
           bash make-web-ci.sh
           
       - name: Upload Markdown Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: synchronism-markdown
@@ -77,7 +77,7 @@ jobs:
           if-no-files-found: warn
           
       - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: synchronism-pdf
@@ -85,7 +85,7 @@ jobs:
           if-no-files-found: warn
           
       - name: Upload Web Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: synchronism-web
@@ -116,7 +116,7 @@ jobs:
     
     steps:
       - name: Download all artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         continue-on-error: true
         
       - name: Generate Build Summary
