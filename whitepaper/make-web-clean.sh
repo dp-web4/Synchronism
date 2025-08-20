@@ -516,11 +516,20 @@ for section in "$SECTIONS_DIR"/*; do
         if [ -f "$changelog_file" ]; then
             section_name=$(basename "$section")
             echo "<h2>$section_name</h2>" >> "$output_file"
-            # Downgrade headers before converting to HTML (h1->h4, h2->h5, h3->h6)
-            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$changelog_file" > "$OUTPUT_DIR/temp_changelog.md"
+            
+            # Process changelog, removing redundant "Section Changelog" and styling Format/Entries
+            awk '
+                /^#### Section Changelog/ { next }  # Skip redundant title
+                /^###### Format/ { print "<h4><strong>Format</strong></h4>"; next }
+                /^###### Entries/ { print "<h4><strong>Entries</strong></h4>"; next }
+                { print }
+            ' "$changelog_file" > "$OUTPUT_DIR/temp_changelog_clean.md"
+            
+            # Downgrade remaining headers before converting to HTML
+            sed 's/^###/######/g; s/^##/#####/g; s/^#\([^#]\)/####\1/g' "$OUTPUT_DIR/temp_changelog_clean.md" > "$OUTPUT_DIR/temp_changelog.md"
             md_to_html "$OUTPUT_DIR/temp_changelog.md" "$OUTPUT_DIR/temp.html"
             cat "$OUTPUT_DIR/temp.html" >> "$output_file"
-            rm -f "$OUTPUT_DIR/temp_changelog.md"
+            rm -f "$OUTPUT_DIR/temp_changelog.md" "$OUTPUT_DIR/temp_changelog_clean.md"
             echo "<hr>" >> "$output_file"
         fi
     fi
