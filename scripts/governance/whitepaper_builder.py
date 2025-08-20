@@ -27,21 +27,21 @@ class WhitepaperBuilder:
         self.build_scripts = {
             'markdown': self.whitepaper_path / "make-md.sh",
             'pdf': self.whitepaper_path / "make-pdf.sh",
-            'web': self.whitepaper_path / "make-web.sh"
+            'web': self.whitepaper_path / "make-web-clean.sh"
         }
         
         # Build outputs (actual filenames in build directory)
         self.build_outputs = {
             'markdown': self.build_path / "Synchronism_Whitepaper_Complete.md",
             'pdf': self.build_path / "Synchronism_Whitepaper.pdf",
-            'web': self.build_path / "web"  # Web is a directory
+            'web': self.build_path / "web-clean"  # Web is a directory
         }
         
         # Final destinations in docs/whitepaper
         self.final_destinations = {
             'markdown': self.docs_path / "Synchronism_Whitepaper_Complete.md",
             'pdf': self.docs_path / "Synchronism_Whitepaper.pdf",
-            'web': self.docs_path / "web"
+            'web': self.docs_path  # Web files go directly into docs/whitepaper
         }
         
         # Track build history
@@ -163,11 +163,13 @@ class WhitepaperBuilder:
         
         try:
             if format_name == 'web':
-                # Web is a directory - copy entire directory
-                if destination.exists():
-                    shutil.rmtree(destination)
-                shutil.copytree(source, destination)
-                return f"Copied to {destination.relative_to(self.base_path)}"
+                # Web files are already copied by make-web-clean.sh
+                # Just verify they exist
+                index_file = destination / "index.html"
+                if index_file.exists():
+                    return f"Web files in {destination.relative_to(self.base_path)}"
+                else:
+                    return "Web files may not have been copied correctly"
             else:
                 # Single file copy
                 shutil.copy2(source, destination)
