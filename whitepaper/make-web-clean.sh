@@ -464,12 +464,13 @@ if [ -n "$proposal_files" ]; then
         fi
         
         # Extract key info from the proposal file
-        proposal_id=$(grep "ID\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        proposal_id=$(grep "\*\*ID\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
         title=$(grep -m1 "^#### Proposal" "$proposal_file" | sed 's/^#### Proposal [0-9]*: //')
-        author=$(grep "Author\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
-        date=$(grep "Date\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
-        status=$(grep "Status\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
-        type=$(grep "Type\*\*:" "$proposal_file" | head -1 | sed 's/.*: //')
+        # Extract author - handle both formats: "Author" and "Author (LCT: hash)"
+        author=$(grep "\*\*Author\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //' | sed 's/ (LCT:.*)$//')
+        date=$(grep "\*\*Date\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
+        status=$(grep "\*\*Status\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
+        type=$(grep "\*\*Type\*\*:" "$proposal_file" | head -1 | sed 's/.*\*\*: //')
         
         # Compressed single-line header with anchor
         echo "<p id=\"$anchor_id\"><strong>${proposal_id}. ${title}</strong> — ${author} | ${date} | ${status} | ${type}</p>" >> "$output_file"
@@ -482,7 +483,7 @@ if [ -n "$proposal_files" ]; then
                 }
                 /^###### Specific Text Changes/,/^###### Impact Assessment/ { 
                     if (!/^###### Impact Assessment/) {
-                        gsub(/^######/, "####", $0)
+                        gsub(/^######/, "#####", $0)
                         print
                     }
                 }
