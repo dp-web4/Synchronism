@@ -1,1 +1,38 @@
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+*_env/
+*env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Synchronization files
 *.ffs_db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
