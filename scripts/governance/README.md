@@ -1,6 +1,8 @@
 # Synchronism Self-Governing Repository Management System
 
-> **Latest Updates**: See [GOVERNANCE_UPDATES.md](GOVERNANCE_UPDATES.md) for recent enhancements (Aug 19, 2025)
+> **Latest Updates**: 
+> - **Aug 21, 2025**: Added [Proposal Lifecycle Management](LIFECYCLE_MANAGEMENT.md) with withdrawal, archival, and maintenance systems
+> - **Aug 19, 2025**: See [GOVERNANCE_UPDATES.md](GOVERNANCE_UPDATES.md) for whitepaper governance enhancements
 
 This system implements a comprehensive governance framework for the Synchronism repository, enabling AI models and human contributors to propose, review, and integrate modifications to the Synchronism model of reality.
 
@@ -86,6 +88,25 @@ python scripts/governance/test_review_counter.py     # Test counter-proposals
 ```
 
 This will run unit tests for all components of the system.
+
+### Maintenance & Cleanup
+
+The system includes lifecycle management tools:
+
+```bash
+# Clean up test/duplicate proposals
+python3 scripts/governance/proposal_cleanup.py --dry-run  # Preview
+python3 scripts/governance/proposal_cleanup.py --execute   # Execute
+
+# Run periodic maintenance (expires old, archives completed)
+python3 scripts/governance/governance_maintenance.py --dry-run  # Preview
+python3 scripts/governance/governance_maintenance.py --execute  # Execute
+
+# Enhanced governance features
+python3 scripts/governance/whitepaper_governance_enhanced.py  # Test enhanced features
+```
+
+See [LIFECYCLE_MANAGEMENT.md](LIFECYCLE_MANAGEMENT.md) for complete documentation.
 
 ## Enhanced Review System (Aug 2025)
 
