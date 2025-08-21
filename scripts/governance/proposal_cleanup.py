@@ -2,6 +2,7 @@
 """
 Proposal Cleanup and Archive Management
 Handles cleanup of test proposals and archival of historical proposals
+Now with synchronized JSON and markdown cleanup
 """
 
 import json
@@ -10,6 +11,12 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from enum import Enum
+
+# Import sync system
+try:
+    from proposal_sync import ProposalSync
+except ImportError:
+    ProposalSync = None
 
 class ArchiveReason(Enum):
     """Reasons for archiving proposals"""
@@ -205,6 +212,13 @@ class ProposalCleanup:
             self.proposals = proposals_to_keep
             self.save_proposals()
             self.save_archive()
+            
+            # Sync markdown files if sync system available
+            if ProposalSync:
+                print("\nSyncing markdown files...")
+                sync = ProposalSync()
+                sync_results = sync.sync_proposals(dry_run=False)
+                print(f"  Deleted {len(sync_results['deleted_markdown'])} orphaned markdown files")
         
         return results
     
