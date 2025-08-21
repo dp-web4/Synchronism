@@ -1,5 +1,9 @@
 # Claude Context for Synchronism
 
+## Authentication
+**GitHub PAT Location**: `../.env` (GITHUB_PAT variable)
+- Use for pushing: `git push https://dp-web4:$(grep GITHUB_PAT ../.env | cut -d= -f2)@github.com/dp-web4/Synchronism.git`
+
 ## Project Context System
 
 **IMPORTANT**: A comprehensive context system exists at `/mnt/c/projects/ai-agents/misc/context-system/`
