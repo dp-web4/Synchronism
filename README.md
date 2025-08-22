@@ -97,6 +97,33 @@ C --> D[Consciousness Scaffolding]
 D --> A
 
 
+## Relationship to Web4
+
+Synchronism provides the **universal philosophical foundation** that Web4 implements at Earth-scale for human-AI interaction. Key connections:
+
+### Philosophical → Implementation
+- **Synchronism**: Defines entities, intent, MRH, and fractal scales as universal principles
+- **Web4**: Implements these as LCTs, ATP, Trust Tensors, and governance protocols
+- **This Whitepaper**: Uses Web4's LRC governance model as a live testing ground
+
+### Governance Recursion
+The Synchronism whitepaper's governance system **is itself a Web4 implementation**, creating a beautiful recursion where:
+1. Synchronism describes universal principles
+2. Web4 implements those principles for Earth-scale systems
+3. Synchronism's governance uses Web4 to govern itself
+4. The system evolves using the principles it describes
+
+### LRC Parameters for This Document
+Different sections have different change resistance (see `governance/section_rules.json`):
+- **Hermetic Principles**: L=0.9, C=0.15, R=0.8 (highly protected)
+- **Core Concepts**: L=0.7, C=0.35, R=0.6 (balanced stability)
+- **Implementation Details**: L=0.4, C=0.6, R=0.35 (experimental)
+
+### Learn More
+- [Web4 Protocol](https://github.com/dp-web4/web4) - Earth-scale implementation
+- [LRC Governance Model](https://github.com/dp-web4/web4/blob/main/LRC_GOVERNANCE.md) - Physics-inspired governance
+- [Governance System Docs](Documentation/governance/README.md) - Local implementation
+
 ## FAQ
 **Q: How does this relate to existing physics?**  
 A: Synchronism proposes a foundational layer beneath QFT/GR - see [§5](/Documentation/Synchronism_0.pdf)
