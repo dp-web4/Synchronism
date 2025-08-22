@@ -1,0 +1,227 @@
+{
+  "governance_rules": {
+    "default": {
+      "change_threshold": 0.6,
+      "review_period_days": 3,
+      "min_reviewers": 2,
+      "token_cost": 50,
+      "approval_weight": {
+        "arbiter": 0.4,
+        "reviewer": 0.3,
+        "community": 0.3
+      }
+    },
+    "sections": {
+      "00-executive-summary": {
+        "change_threshold": 0.7,
+        "review_period_days": 5,
+        "min_reviewers": 2,
+        "token_cost": 75,
+        "description": "Executive summary requires moderate consensus",
+        "resonance": "medium-high"
+      },
+      "01-introduction": {
+        "change_threshold": 0.8,
+        "review_period_days": 7,
+        "min_reviewers": 3,
+        "token_cost": 100,
+        "description": "Introduction sets fundamental tone - high inertia",
+        "resonance": "high"
+      },
+      "02-perspective": {
+        "change_threshold": 0.85,
+        "review_period_days": 7,
+        "min_reviewers": 3,
+        "token_cost": 150,
+        "description": "Core perspective requires strong consensus",
+        "resonance": "very-high"
+      },
+      "03-hermetic-principles": {
+        "change_threshold": 0.9,
+        "review_period_days": 14,
+        "min_reviewers": 4,
+        "token_cost": 200,
+        "description": "Foundational principles - maximum inertia",
+        "resonance": "maximum",
+        "special_rules": ["requires_philosophical_review"]
+      },
+      "04-fundamental-concepts": {
+        "change_threshold": 0.75,
+        "review_period_days": 7,
+        "min_reviewers": 3,
+        "token_cost": 100,
+        "description": "Core concepts - high stability with room for refinement",
+        "resonance": "high",
+        "subsection_rules": {
+          "01-universe-grid": {
+            "change_threshold": 0.85,
+            "description": "Most fundamental concept - extra protection"
+          },
+          "13-compression-trust": {
+            "change_threshold": 0.5,
+            "review_period_days": 2,
+            "description": "Implementation-adjacent - more fluid"
+          }
+        }
+      },
+      "05-quantum-macro": {
+        "change_threshold": 0.6,
+        "review_period_days": 3,
+        "min_reviewers": 2,
+        "token_cost": 50,
+        "description": "Scientific mappings - moderate fluidity for discoveries",
+        "resonance": "medium"
+      },
+      "06-implications": {
+        "change_threshold": 0.5,
+        "review_period_days": 2,
+        "min_reviewers": 2,
+        "token_cost": 25,
+        "description": "Evolving implications - high fluidity",
+        "resonance": "low"
+      },
+      "07-conclusion": {
+        "change_threshold": 0.6,
+        "review_period_days": 3,
+        "min_reviewers": 2,
+        "token_cost": 50,
+        "description": "Synthesis section - moderate stability",
+        "resonance": "medium"
+      },
+      "08-glossary": {
+        "change_threshold": 0.4,
+        "review_period_days": 1,
+        "min_reviewers": 1,
+        "token_cost": 10,
+        "description": "Reference material - easy updates",
+        "resonance": "very-low"
+      },
+      "09-appendix-mathematical": {
+        "change_threshold": 0.7,
+        "review_period_days": 5,
+        "min_reviewers": 2,
+        "token_cost": 75,
+        "description": "Mathematical rigor requires careful review",
+        "resonance": "medium-high",
+        "special_rules": ["requires_mathematical_validation"]
+      }
+    },
+    "proposal_types": {
+      "typo_fix": {
+        "threshold_modifier": -0.2,
+        "token_modifier": 0.2,
+        "fast_track": true
+      },
+      "clarification": {
+        "threshold_modifier": -0.1,
+        "token_modifier": 0.5
+      },
+      "addition": {
+        "threshold_modifier": 0,
+        "token_modifier": 1.0
+      },
+      "restructure": {
+        "threshold_modifier": 0.1,
+        "token_modifier": 1.5
+      },
+      "fundamental_change": {
+        "threshold_modifier": 0.2,
+        "token_modifier": 2.0,
+        "requires_quorum": true
+      }
+    },
+    "resonance_bands": {
+      "maximum": {
+        "L": 10,
+        "C": 1,
+        "R": 8,
+        "Q_factor": 1.25,
+        "damping": "critical",
+        "frequency": 0.05,
+        "rejection_rate": 0.7,
+        "description": "Foundational - high rejection of noise, critical damping prevents oscillation"
+      },
+      "very-high": {
+        "L": 7,
+        "C": 2,
+        "R": 5,
+        "Q_factor": 1.87,
+        "damping": "slightly-underdamped",
+        "frequency": 0.1,
+        "rejection_rate": 0.6
+      },
+      "high": {
+        "L": 5,
+        "C": 3,
+        "R": 3,
+        "Q_factor": 2.36,
+        "damping": "underdamped",
+        "frequency": 0.2,
+        "rejection_rate": 0.5
+      },
+      "medium-high": {
+        "L": 4,
+        "C": 4,
+        "R": 2,
+        "Q_factor": 2.0,
+        "damping": "underdamped",
+        "frequency": 0.3,
+        "rejection_rate": 0.4
+      },
+      "medium": {
+        "L": 3,
+        "C": 5,
+        "R": 2,
+        "Q_factor": 1.73,
+        "damping": "underdamped",
+        "frequency": 0.5,
+        "rejection_rate": 0.3
+      },
+      "low": {
+        "L": 2,
+        "C": 7,
+        "R": 1,
+        "Q_factor": 2.65,
+        "damping": "lightly-damped",
+        "frequency": 1.0,
+        "rejection_rate": 0.2
+      },
+      "very-low": {
+        "L": 1,
+        "C": 10,
+        "R": 0.5,
+        "Q_factor": 3.16,
+        "damping": "very-lightly-damped",
+        "frequency": 2.0,
+        "rejection_rate": 0.1,
+        "description": "Reference material - low rejection allows rapid updates"
+      }
+    },
+    "rejection_mechanisms": {
+      "immediate_rejection": {
+        "description": "Proposals that violate basic rules are immediately dissipated",
+        "energy_loss": 1.0,
+        "token_return": 0.0
+      },
+      "review_rejection": {
+        "description": "Proposals rejected during review lose energy based on R",
+        "energy_loss": 0.5,
+        "token_return": 0.5
+      },
+      "timeout_decay": {
+        "description": "Proposals that don't reach quorum decay over time",
+        "energy_loss": 0.3,
+        "token_return": 0.7
+      },
+      "implementation_failure": {
+        "description": "Approved proposals that fail implementation",
+        "energy_loss": 0.2,
+        "token_return": 0.8
+      }
+    },
+    "stability_analysis": {
+      "critical_damping_ratio": 1.0,
+      "notes": "R = 2*sqrt(L/C) for critical damping. Higher R = overdamped (slow), Lower R = underdamped (oscillatory)"
+    }
+  }
+}

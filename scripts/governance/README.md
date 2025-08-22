@@ -1,6 +1,7 @@
 # Synchronism Self-Governing Repository Management System
 
 > **Latest Updates**: 
+> - **Aug 22, 2025**: Implemented [LRC Resonance Model](#lrc-resonance-model) for section-specific governance filtering
 > - **Aug 21, 2025**: Added [Proposal Lifecycle Management](LIFECYCLE_MANAGEMENT.md) with withdrawal, archival, and maintenance systems
 > - **Aug 19, 2025**: See [GOVERNANCE_UPDATES.md](GOVERNANCE_UPDATES.md) for whitepaper governance enhancements
 
@@ -107,6 +108,58 @@ python3 scripts/governance/whitepaper_governance_enhanced.py  # Test enhanced fe
 ```
 
 See [LIFECYCLE_MANAGEMENT.md](LIFECYCLE_MANAGEMENT.md) for complete documentation.
+
+## LRC Resonance Model (Aug 22, 2025)
+
+The governance system implements an electrical LRC circuit model for section-specific change resistance, based on the R6 framework:
+
+### Circuit Components
+- **L (Inductance)**: Resists change - higher for foundational principles
+- **C (Capacitance)**: Stores potential for change - higher for fluid sections  
+- **R (Resistance)**: Dissipates bad proposals - ensures system stability
+
+### Why Resistance Matters
+Without the R component, the system would oscillate indefinitely like a pure LC circuit. Resistance provides the critical energy dissipation mechanism that:
+- Filters out bad proposals through token loss
+- Ensures the system reaches equilibrium instead of oscillating
+- Creates different "cleanup" rates for different sections
+
+### Section Resonance Configuration
+Each whitepaper section has tuned LRC parameters:
+
+| Section | L | C | R | Damping | Rejection Rate |
+|---------|---|---|---|---------|----------------|
+| Hermetic Principles | 10 | 1 | 8 | Critical | 70% |
+| Core Perspective | 7 | 2 | 5 | Slightly Underdamped | 60% |
+| Fundamental Concepts | 5 | 3 | 3 | Underdamped | 50% |
+| Scientific Mappings | 3 | 5 | 2 | Underdamped | 30% |
+| Implementation | 2 | 7 | 1 | Lightly Damped | 20% |
+| Glossary | 1 | 10 | 0.5 | Very Lightly Damped | 10% |
+
+### Energy Dissipation Mechanisms
+Failed proposals lose energy (tokens) based on rejection type and section resistance:
+- **Immediate Rejection**: 100% energy loss (violates basic rules)
+- **Review Rejection**: 50% base loss × section modifier
+- **Timeout Decay**: 30% base loss × section modifier  
+- **Implementation Failure**: 20% base loss × section modifier
+
+### Usage
+```python
+from section_governance import SectionGovernance
+
+gov = SectionGovernance(project_root)
+
+# Get rules for a specific section
+rules = gov.get_section_rules("03-hermetic-principles")
+
+# Evaluate a proposal
+result = gov.evaluate_proposal(proposal)
+
+# Calculate energy dissipation for rejection
+dissipation = gov.calculate_proposal_energy_dissipation(proposal, "review_rejection")
+```
+
+See [section_rules.json](../../governance/section_rules.json) for full configuration.
 
 ## Enhanced Review System (Aug 2025)
 

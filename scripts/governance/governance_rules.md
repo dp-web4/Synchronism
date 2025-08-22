@@ -1,144 +1,125 @@
-# Synchronism Whitepaper Governance Rules
+# Governance Rules (R6 Framework)
 
 ## Overview
-The Synchronism whitepaper evolves as a living document through structured governance cycles. Each participant is represented by a Linked Context Token (LCT) that tracks identity, access, and accumulated trust.
+The governance system uses section-specific rules that encode different
+levels of 'inertia' or filtering for changes. Core principles have high
+inertia (resistant to change), while implementation details are fluid.
 
-## Participant Roles
-- **Proposers**: Submit improvements to whitepaper sections
-- **Reviewers**: Evaluate proposals from other participants  
-- **Arbiters**: Make final decisions on proposal acceptance
+## Section-Specific Thresholds
 
-## Governance Cycle Structure
+### 00-executive-summary
+- **Approval Threshold**: 70.0%
+- **Review Period**: 5 days
+- **Token Cost**: 75
+- **Description**: Executive summary requires moderate consensus
 
-### Phase 1: Proposal Phase
-- **Duration**: Determined by participant timeouts
-- **Rules**:
-  - Each participant gets ONE proposal opportunity per cycle
-  - Participants can submit 0 to `max_proposals` proposals
-  - If you held a proposal for counter in the previous cycle, you have EXCLUSIVE right to counter-propose for that specific proposal
-  - Counter-proposals count toward your proposal limit
-  - After counter-proposing, you MUST remove your hold
+### 01-introduction
+- **Approval Threshold**: 80.0%
+- **Review Period**: 7 days
+- **Token Cost**: 100
+- **Description**: Introduction sets fundamental tone - high inertia
 
-### Phase 2: Review Phase  
-- **Duration**: Determined by participant timeouts
-- **Rules**:
-  - Each participant gets ONE review opportunity per cycle
-  - Participants can review ANY NUMBER of proposals (no limit)
-  - Cannot review your own proposals
-  - Review actions available:
-    - `ACCEPT`: Proposal should be accepted as-is
-    - `ACCEPT_WITH_REVISIONS`: Accept with suggested changes
-    - `REVISE_AND_RESUBMIT`: Needs major revision
-    - `REJECT`: Proposal should not be accepted
-    - `HOLD_FOR_COUNTER`: Request exclusive right to counter-propose in next cycle
+### 02-perspective
+- **Approval Threshold**: 85.0%
+- **Review Period**: 7 days
+- **Token Cost**: 150
+- **Description**: Core perspective requires strong consensus
 
-### Phase 3: Arbitration Phase
-- **Duration**: Immediate after reviews collected
-- **Rules**:
-  - Arbiter selected based on availability and trust score
-  - If preferred arbiter times out, fallback arbiter selected
-  - Proposals with `HOLD_FOR_COUNTER` are DEFERRED to next cycle
-  - Arbiter evaluates all reviews and makes final decision
-  - Decisions: `ACCEPTED`, `REJECTED`, `DEFERRED`
+### 03-hermetic-principles
+- **Approval Threshold**: 90.0%
+- **Review Period**: 14 days
+- **Token Cost**: 200
+- **Description**: Foundational principles - maximum inertia
 
-### Phase 4: Implementation Phase
-- **Duration**: As needed
-- **Rules**:
-  - Only arbiters can modify actual content files
-  - Accepted proposals are implemented
-  - Changelog updated with modifications
-  - Future considerations list updated
+### 04-fundamental-concepts
+- **Approval Threshold**: 75.0%
+- **Review Period**: 7 days
+- **Token Cost**: 100
+- **Description**: Core concepts - high stability with room for refinement
 
-## Hold for Counter Rules
+### 05-quantum-macro
+- **Approval Threshold**: 60.0%
+- **Review Period**: 3 days
+- **Token Cost**: 50
+- **Description**: Scientific mappings - moderate fluidity for discoveries
 
-### Requesting a Hold
-- During review phase, submit review with action `HOLD_FOR_COUNTER`
-- Provides exclusive right to counter-propose in next cycle
-- Proposal is deferred from arbitration
+### 06-implications
+- **Approval Threshold**: 50.0%
+- **Review Period**: 2 days
+- **Token Cost**: 25
+- **Description**: Evolving implications - high fluidity
 
-### Counter-Proposal Rights
-- **EXCLUSIVE**: Only the hold requestor can counter-propose for that specific proposal
-- **MANDATORY**: If you hold, you MUST either:
-  1. Submit a counter-proposal in the next cycle, OR
-  2. Release the hold without counter-proposing
-- **AUTOMATIC RELEASE**: Hold released after counter-proposal submitted
-- **TIMEOUT**: Hold expires after 2 cycles if not acted upon
+### 07-conclusion
+- **Approval Threshold**: 60.0%
+- **Review Period**: 3 days
+- **Token Cost**: 50
+- **Description**: Synthesis section - moderate stability
 
-## Trust Score System
+### 08-glossary
+- **Approval Threshold**: 40.0%
+- **Review Period**: 1 days
+- **Token Cost**: 10
+- **Description**: Reference material - easy updates
 
-### Components (T3 Tensor simplified)
-- **Proposal Quality** (30%): Acceptance rate of proposals
-- **Review Quality** (30%): Helpfulness of reviews
-- **Timeliness** (20%): Response within timeout periods
-- **Consistency** (10%): Reliability across cycles
-- **Collaboration** (10%): Willingness to iterate
+### 09-appendix-mathematical
+- **Approval Threshold**: 70.0%
+- **Review Period**: 5 days
+- **Token Cost**: 75
+- **Description**: Mathematical rigor requires careful review
 
-### Trust Score Effects
-- **Arbiter Eligibility**: Trust > 0.7 allows arbiter role
-- **Priority**: Higher trust participants get priority in conflicts
-- **Token Rewards**: Trust influences governance token distribution
+## Proposal Types
 
-## Timeout Rules
-- **Default Timeout**: 300 seconds (5 minutes) for AI participants
-- **Human Timeout**: 86400 seconds (24 hours)
-- **Timeout Consequences**:
-  - Marked as unavailable
-  - Skipped in current cycle
-  - Trust score `timeliness` component reduced
+Different types of changes have different requirements:
 
-## API Context Information
+### Typo Fix
+- Threshold adjustment: -20.0%
+- Token cost multiplier: 0.2x
+- ⚡ Fast-track available
 
-When called, participants receive:
-- **Current Phase**: Which phase of the cycle (proposal/review/arbitration)
-- **Cycle Number**: Sequential cycle identifier
-- **Your Status**: Whether you've already proposed/reviewed this cycle
-- **Your Holds**: List of proposals you're holding for counter
-- **Available Sections**: Which sections are open for proposals
-- **Max Proposals**: Your proposal limit for this cycle
-- **Previous Decisions**: Recent arbiter decisions for context
+### Clarification
+- Threshold adjustment: -10.0%
+- Token cost multiplier: 0.5x
 
-## Model Version Tracking
-- Participant LCTs include model version
-- Currently active:
-  - Claude-4.1 (Opus)
-  - GPT-5
-  - Deepseek-3
-  - Others as registered
+### Addition
+- Threshold adjustment: +0%
+- Token cost multiplier: 1.0x
 
-## Meta File Access Rules
-- **Participants**: Can ONLY modify meta files (proposals, reviews)
-- **Arbiters**: Can modify both meta files AND content files
-- **Read Access**: All files readable by all participants
-- **Append-Only**: Changelog is append-only for all
+### Restructure
+- Threshold adjustment: +10.0%
+- Token cost multiplier: 1.5x
 
-## Quality Standards
+### Fundamental Change
+- Threshold adjustment: +20.0%
+- Token cost multiplier: 2.0x
+- 🏛️ Requires quorum
 
-### Proposal Requirements
-- Clear title and description
-- Specific text changes or additions
-- Rationale linking to Synchronism philosophy
-- Impact assessment
+## Resonance Model
 
-### Review Requirements  
-- Specific strengths and concerns
-- Actionable suggestions
-- Clear recommendation
-- Justification for holds
+Sections have different 'resonance frequencies' that determine
+how quickly they can change:
 
-### Counter-Proposal Requirements
-- Must address original proposal's topic
-- Provide clear alternative approach
-- Explain why alternative is superior
-- Reference original proposal ID
+- **Maximum** (f=0.05): Foundational principles, very slow change
+- **High** (f=0.2): Core concepts, careful evolution
+- **Medium** (f=0.5): Standard content, balanced change
+- **Low** (f=1.0): Implementation details, rapid iteration
 
-## Conflict Resolution
-1. **Competing Proposals**: Arbiter decides based on reviews and trust
-2. **Multiple Holds**: First hold request takes precedence
-3. **Timeout Conflicts**: Higher trust participant gets priority
-4. **Tied Decisions**: Human arbiter breaks ties
+## Review Weights
 
-## Evolution of Rules
-These governance rules themselves can be modified through the proposal system. Meta-governance proposals require:
-- Supermajority of positive reviews (>66%)
-- Human arbiter approval
-- One cycle waiting period before implementation
+Reviews are weighted by role:
+- Arbiter: 40%
+- Reviewer: 30%
+- Community: 30%
+
+## Token Economy
+
+- Base allocation: 1000 tokens per participant
+- Successful proposals: Return stake + 20% bonus
+- Failed proposals: Lose 50% of stake
+- Reviewing: Earn 10-25 tokens based on quality
+
+## Special Rules
+
+Some sections have special requirements:
+- **Hermetic Principles**: Requires philosophical justification
+- **Mathematical Appendix**: Requires mathematical validation
+- **Fundamental Changes**: Requires quorum of active participants
