@@ -1,6 +1,6 @@
 ## 4.13 Information System Dynamics
 
-#### Emergent Properties of Information Exchange
+**Emergent Properties of Information Exchange**
 
 Information systems at all scales naturally evolve two complementary mechanisms:
 
@@ -9,7 +9,7 @@ Information systems at all scales naturally evolve two complementary mechanisms:
 
 These properties emerge from the fundamental tension between information preservation and resource constraints, manifesting differently within each Markov Relevancy Horizon.
 
-#### Scale-Invariant Pattern
+**Scale-Invariant Pattern**
 
 This pattern appears across all scales:
 - **Quantum**: Entanglement as ultimate compression (shared state)
@@ -19,7 +19,7 @@ This pattern appears across all scales:
 
 The specific implementation varies by MRH, but the underlying principle remains constant: systems that efficiently compress while maintaining trust propagate more successfully than those that don't.
 
-#### Relationship to Entity Interactions
+**Relationship to Entity Interactions**
 
 Within the context of entity interactions (4.12), compression and validation serve as the primary mechanisms through which entities negotiate their boundaries and exchange intent across Markov blankets. Higher compression ratios indicate stronger coupling and greater shared context between entities.
 

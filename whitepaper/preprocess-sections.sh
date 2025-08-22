@@ -20,10 +20,10 @@ find sections -type f -name "*.md" \
     # Create temp file
     temp_file="${section_file}.tmp"
     
-    # Process the file - only demote ### headers to prevent TOC expansion
+    # Process the file - convert ### headers to bold text to match other sections
     # - Keep ## headers (main section headers)
-    # - Demote ### to #### (subsection headers)
-    # - Keep all other headers as-is (they're already demoted or don't affect TOC)
+    # - Convert ### headers to **bold text**
+    # - Keep all other lines as-is
     awk '
         # Match headers but preserve the top-level ## headers
         /^##[^#]/ { 
@@ -31,12 +31,14 @@ find sections -type f -name "*.md" \
             print
             next
         }
-        /^###[^#]/ { 
-            # Demote ### to #### to prevent TOC expansion
-            print "####" substr($0, 4)
+        /^### / { 
+            # Convert ### header to bold text
+            # Extract the header text after "### "
+            header_text = substr($0, 5)
+            print "**" header_text "**"
             next
         }
-        # All other headers and lines pass through unchanged
+        # All other lines pass through unchanged
         { print }
     ' "$section_file" > "$temp_file"
     
