@@ -28,6 +28,9 @@ else
     exit 1
 fi
 
+# Preprocess proposals to demote headers
+./preprocess-proposals.sh
+
 echo "Building Synchronism whitepaper PDF..."
 
 # Check if pandoc is installed

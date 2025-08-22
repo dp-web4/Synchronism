@@ -28,6 +28,9 @@ else
     exit 1
 fi
 
+# Preprocess proposals to demote headers
+./preprocess-proposals.sh
+
 echo "Building Synchronism whitepaper web version from clean structure..."
 
 OUTPUT_DIR="build/web-clean"
