@@ -1,0 +1,61 @@
+{
+  "proposal_id": "004",
+  "title": "Relocate Compression-Trust from Synchronism to Web4 Context",
+  "proposer": "human",
+  "submitted_at": "2025-08-22T10:30:00Z",
+  "status": "implemented",
+  "implemented_at": "2025-08-22T10:45:00Z",
+  "implementation_notes": "Content archived, replaced with principle-only statement",
+  "type": "restructure",
+  "section": "04-fundamental-concepts/13-compression-trust",
+  "rationale": {
+    "philosophical": "Compression-trust patterns, while emergent in all information systems, are presented with implementation-specific framing (web trust, digital signatures) that belongs in Web4 engineering rather than Synchronism's universal principles.",
+    "mrh_alignment": "Synchronism describes MRH-transcendent patterns. Web4 implements these patterns within our specific MRH (human-AI, Earth, 2025). The current presentation conflates universal principle with specific implementation.",
+    "clarity": "Removing implementation-specific content from foundational philosophy improves clarity and prevents readers from conflating engineering choices with universal laws."
+  },
+  "proposal": {
+    "action": "relocate_and_archive",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Archive section 4.13 content to preserve the work",
+        "location": "whitepaper/sections/04-fundamental-concepts/13-compression-trust/archive/"
+      },
+      {
+        "step": 2,
+        "action": "Add brief note in section 4 about information system properties",
+        "content": "Information systems naturally evolve mechanisms for compression (efficiency) and validation (trust), manifesting differently at each scale and within each MRH."
+      },
+      {
+        "step": 3,
+        "action": "Create Web4 documentation entry",
+        "location": "../Web4/docs/compression-trust-implementation.md",
+        "note": "Full treatment of compression-trust as implemented in Web4 architecture"
+      },
+      {
+        "step": 4,
+        "action": "Update cross-references",
+        "details": "Ensure any references to compression-trust point to appropriate context"
+      }
+    ]
+  },
+  "impact_analysis": {
+    "benefits": [
+      "Cleaner separation between science (Synchronism) and engineering (Web4)",
+      "Reduced confusion about what is fundamental vs implementation",
+      "Better alignment with MRH principles"
+    ],
+    "risks": [
+      "Loss of important insight if not properly preserved",
+      "Need to ensure Web4 documentation exists to receive content"
+    ]
+  },
+  "governance_requirements": {
+    "section": "04-fundamental-concepts",
+    "change_type": "restructure",
+    "expected_threshold": 0.85,
+    "expected_review_period": 7,
+    "token_cost": 150,
+    "special_notes": "Higher threshold due to removal of existing content"
+  }
+}

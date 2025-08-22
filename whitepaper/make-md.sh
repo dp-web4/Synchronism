@@ -28,8 +28,9 @@ else
     exit 1
 fi
 
-# Preprocess proposals to demote headers
+# Preprocess proposals and sections to demote headers
 ./preprocess-proposals.sh
+./preprocess-sections.sh
 
 echo "Building monolithic Synchronism whitepaper markdown..."
 

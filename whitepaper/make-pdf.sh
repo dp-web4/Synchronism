@@ -30,6 +30,7 @@ fi
 
 # Preprocess proposals to demote headers
 ./preprocess-proposals.sh
+./preprocess-sections.sh
 
 echo "Building Synchronism whitepaper PDF..."
 

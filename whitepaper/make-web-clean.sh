@@ -30,6 +30,7 @@ fi
 
 # Preprocess proposals to demote headers
 ./preprocess-proposals.sh
+./preprocess-sections.sh
 
 echo "Building Synchronism whitepaper web version from clean structure..."
 
@@ -620,7 +621,7 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
                 "Spectral Existence",
                 "Abstraction",
                 "Entity Interactions",
-                "Compression-Trust"
+                "Information System Dynamics"
             ]
         },
         {

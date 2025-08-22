@@ -10,6 +10,7 @@ Only actual modifications to fractal files are logged here.
 
 ## 2025
 
+- [2025-08-22] [Content Relocation] 04-fundamental-concepts/13 - Relocated implementation details to Web4, kept universal principle only (#004)
 - [2025-08-22] [Governance Enhancement] All Sections - Implemented LRC resonance model for section-specific change filtering (#gov-lrc-001)
 - [2025-08-22] [Content Reorganization] 04-fundamental-concepts - Moved Compression-Trust from opening to section 4.13 after Entity Interactions (#003)
 - [2025-08-19] [Initial] All Sections - Whitepaper governance system established with LCT-based participants (#gov-001)
