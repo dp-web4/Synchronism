@@ -391,15 +391,19 @@ process_content() {
         fi
     done
     
-    # Process subdirectories
+    # Process subdirectories (excluding archive and meta)
     for subdir in "$section_dir"/*; do
         if [ -d "$subdir" ]; then
-            for md_file in "$subdir"/*.md; do
-                if [ -f "$md_file" ] && [ "$(basename "$md_file")" != "index.md" ]; then
-                    md_to_html "$md_file" "$OUTPUT_DIR/temp.html"
-                    cat "$OUTPUT_DIR/temp.html" >> "$output_file"
-                fi
-            done
+            dirname=$(basename "$subdir")
+            # Skip archive and meta directories
+            if [ "$dirname" != "archive" ] && [ "$dirname" != "meta" ]; then
+                for md_file in "$subdir"/*.md; do
+                    if [ -f "$md_file" ] && [ "$(basename "$md_file")" != "index.md" ]; then
+                        md_to_html "$md_file" "$OUTPUT_DIR/temp.html"
+                        cat "$OUTPUT_DIR/temp.html" >> "$output_file"
+                    fi
+                done
+            fi
         fi
     done
     
@@ -615,7 +619,8 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
                 "Markov Relevancy",
                 "Spectral Existence",
                 "Abstraction",
-                "Entity Interactions"
+                "Entity Interactions",
+                "Compression-Trust"
             ]
         },
         {

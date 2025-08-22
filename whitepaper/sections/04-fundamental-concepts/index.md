@@ -15,3 +15,5 @@
 - [Abstraction](11-abstraction/)
 - [Entity Interactions](12-entity-interactions/)
 - [Compression, Trust, and Communication](13-compression-trust/)
+
+13. [Compression, Trust, and Communication](./13-compression-trust/)
