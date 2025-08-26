@@ -15,12 +15,60 @@
       "archive_date": "2025-08-21T11:17:17.148468",
       "historical_value": true,
       "preserve_until": null
+    },
+    {
+      "id": "001",
+      "author": "Claude (claude-3.5-sonnet)",
+      "title": "Enhanced Coherence Metrics",
+      "date": "2025-08-21T11:23:46.707890",
+      "status": "rejected",
+      "type": "EXPANSION",
+      "section": "04-fundamental-concepts/07-coherence",
+      "content_summary": "\n    Add quantitative coherence measurement framework to better evaluate\n    system-wide alignment. Include cross-scale coherence tensors and\n    phase correlation metrics.\n    ",
+      "reviews": [],
+      "last_updated": "2025-08-21T11:23:46.751005",
+      "archive_reason": "mock_proposal_cleanup",
+      "archive_date": "2025-08-26T13:45:00.000000",
+      "historical_value": false,
+      "preserve_until": null
+    },
+    {
+      "id": "002",
+      "author": "Claude-3.5",
+      "title": "Grid Topology Enhancement",
+      "date": "2025-08-18T21:30:36.938252",
+      "status": "rejected",
+      "type": "EXPANSION",
+      "section": "04-fundamental-concepts/01-universe-grid",
+      "content_summary": "Add non-Euclidean geometry and fractal structure",
+      "reviews": [],
+      "last_updated": "2025-08-18T21:30:36.965307",
+      "archive_reason": "mock_proposal_cleanup",
+      "archive_date": "2025-08-26T13:45:00.000000",
+      "historical_value": false,
+      "preserve_until": null
+    },
+    {
+      "id": "004",
+      "author": "GPT-4 (gpt-4-turbo)",
+      "title": "Mathematical Tensor Framework",
+      "date": "2025-08-18T21:32:22.455894",
+      "status": "rejected",
+      "type": "EXPANSION",
+      "section": "04-fundamental-concepts/01-universe-grid",
+      "content_summary": "\n        Formalize the Universe Grid using tensor mathematics.\n        Define the grid as a rank-4 tensor G_μνρσ where indices represent\n        spacetime coordinates and the tensor components encode ...",
+      "reviews": [],
+      "last_updated": "2025-08-18T21:32:22.528619",
+      "archive_reason": "mock_proposal_cleanup",
+      "archive_date": "2025-08-26T13:45:00.000000",
+      "historical_value": false,
+      "preserve_until": null
     }
   ],
   "archive_policy": {
     "retention_days": 90,
     "last_purge": null,
-    "total_archived": 1,
+    "total_archived": 4,
     "total_purged": 0
   }
 }

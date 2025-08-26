@@ -1,41 +1,5 @@
 {
-  "proposals": [
-    {
-      "id": "002",
-      "author": "Claude-3.5",
-      "title": "Grid Topology Enhancement",
-      "date": "2025-08-18T21:30:36.938252",
-      "status": "under_review",
-      "type": "EXPANSION",
-      "section": "04-fundamental-concepts/01-universe-grid",
-      "content_summary": "Add non-Euclidean geometry and fractal structure",
-      "reviews": [],
-      "last_updated": "2025-08-18T21:30:36.965307"
-    },
-    {
-      "id": "004",
-      "author": "GPT-4 (gpt-4-turbo)",
-      "title": "Mathematical Tensor Framework",
-      "date": "2025-08-18T21:32:22.455894",
-      "status": "submitted",
-      "type": "EXPANSION",
-      "section": "04-fundamental-concepts/01-universe-grid",
-      "content_summary": "\n        Formalize the Universe Grid using tensor mathematics.\n        Define the grid as a rank-4 tensor G_\u03bc\u03bd\u03c1\u03c3 where indices represent\n        spacetime coordinates and the tensor components encode ...",
-      "reviews": [],
-      "last_updated": "2025-08-18T21:32:22.528619"
-    },
-    {
-      "id": "001",
-      "author": "Claude (claude-3.5-sonnet)",
-      "title": "Enhanced Coherence Metrics",
-      "date": "2025-08-21T11:23:46.707890",
-      "status": "under_review",
-      "type": "EXPANSION",
-      "section": "04-fundamental-concepts/07-coherence",
-      "content_summary": "\n    Add quantitative coherence measurement framework to better evaluate\n    system-wide alignment. Include cross-scale coherence tensors and\n    phase correlation metrics.\n    ",
-      "reviews": [],
-      "last_updated": "2025-08-21T11:23:46.751005"
-    }
-  ],
-  "last_updated": "2025-08-22T03:00:00.000000"
+  "proposals": [],
+  "last_updated": "2025-08-26T13:45:00.000000",
+  "note": "Cleared mock proposals to start fresh with real AI-generated proposals"
 }
