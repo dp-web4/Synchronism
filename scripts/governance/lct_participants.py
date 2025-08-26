@@ -236,7 +236,11 @@ class LCT:
 class LCTRegistry:
     """Manages all participant LCTs"""
     
-    def __init__(self, base_path: str = "/mnt/c/exe/projects/ai-agents/Synchronism"):
+    def __init__(self, base_path: Optional[str] = None):
+        if base_path is None:
+            # Use relative path from current script location
+            import os
+            base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
         self.base_path = Path(base_path)
         self.registry_file = self.base_path / "scripts" / "governance" / "config" / "lct_registry.json"
         self.participants: Dict[str, LCT] = {}

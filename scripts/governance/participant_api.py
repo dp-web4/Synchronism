@@ -126,13 +126,22 @@ class ClaudeAPI(ParticipantAPI):
     
     def _analyze_section_conceptual(self, section: str) -> Dict:
         """Analyze section for conceptual improvements"""
-        # Simulate analysis
+        # Mock implementation - only propose for some sections to avoid flooding
+        import random
+        random.seed(section)  # Deterministic based on section name
+        
+        # Only propose improvements 20% of the time
+        if random.random() > 0.2:
+            return {'needs_improvement': False}
+        
+        # Simulate finding an improvement
+        section_name = section.split('/')[-1].replace('-', ' ').title()
         return {
-            'needs_improvement': True,  # For demo, always find something
-            'improvement_title': f"Consciousness Integration for {section.split('/')[-1]}",
-            'improvement_content': "Enhance connection to consciousness field theory",
+            'needs_improvement': True,
+            'improvement_title': f"Consciousness Integration Enhancement for {section_name}",
+            'improvement_content': f"Enhance {section_name} with deeper consciousness field theory connections",
             'rationale': "Strengthens philosophical coherence with Synchronism framework",
-            'changes': "Add subsection on consciousness emergence patterns"
+            'changes': f"Add subsection on consciousness emergence patterns specific to {section_name}"
         }
     
     def _evaluate_philosophical_coherence(self, proposal: Dict) -> Dict:
@@ -264,12 +273,22 @@ class GPTAPI(ParticipantAPI):
     
     def _analyze_section_mathematical(self, section: str) -> Dict:
         """Analyze section for mathematical improvements"""
+        # Mock implementation - only propose for some sections to avoid flooding
+        import random
+        random.seed(section + "gpt")  # Different seed than Claude
+        
+        # Only propose improvements 20% of the time
+        if random.random() > 0.2:
+            return {'needs_formalization': False}
+        
+        # Simulate finding a need for formalization
+        section_name = section.split('/')[-1].replace('-', ' ').title()
         return {
             'needs_formalization': True,
-            'formalization_title': f"Tensor Framework for {section.split('/')[-1]}",
-            'formalization_content': "Mathematical formalization using tensor algebra",
-            'rationale': "Provides rigorous foundation for analysis",
-            'equations': "T_μνρσ = Σ ψ_i ⊗ φ_i with constraints..."
+            'formalization_title': f"Mathematical Formalization for {section_name}",
+            'formalization_content': f"Rigorous tensor framework for {section_name}",
+            'rationale': "Provides mathematical foundation for precise analysis",
+            'equations': f"Define tensor space T_{{{section_name}}} with appropriate constraints"
         }
     
     def _evaluate_mathematical_rigor(self, proposal: Dict) -> Dict:

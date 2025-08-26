@@ -180,7 +180,12 @@ class SynchronismGovernanceSystem:
         # 0. AI Participants generate proposals
         print("\n0. AI Participants generating proposals...")
         proposals_created = []
-        ai_participants = self._get_ai_participants()
+        ai_participants = []
+        
+        try:
+            ai_participants = self._get_ai_participants()
+        except Exception as e:
+            print(f"  ⚠ Error initializing AI participants: {str(e)}")
         
         if ai_participants:
             # Define sections that can be analyzed for proposals
