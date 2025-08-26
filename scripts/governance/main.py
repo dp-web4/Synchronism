@@ -29,6 +29,10 @@ try:
     from review import ReviewSystem
     from fractal_branches import FractalBranchSystem
     from whitepaper_builder import WhitepaperBuilder
+    # Import AI participant modules
+    from lct_participants import LCT, LCTRegistry, ParticipantType, AccessMethod
+    from participant_api import ClaudeAPI, GPTAPI
+    from whitepaper_governance import WhitepaperGovernance
 except ImportError as e:
     print(f"Error importing governance modules: {e}")
     print(f"Make sure all required scripts are in {SCRIPTS_PATH}")
@@ -63,6 +67,12 @@ class SynchronismGovernanceSystem:
         self.integration_system = IntegrationSystem()
         self.review_system = ReviewSystem()
         self.branch_system = FractalBranchSystem()
+        
+        # Initialize whitepaper governance
+        self.whitepaper_governance = WhitepaperGovernance()
+        
+        # Initialize LCT registry
+        self.lct_registry = LCTRegistry()
         
         # Initialize log
         self.log = self._load_log()
@@ -104,11 +114,48 @@ class SynchronismGovernanceSystem:
         
         self._save_log()
     
+    def _get_ai_participants(self):
+        """Initialize and return AI participants for proposal generation."""
+        participants = []
+        
+        # Check for Claude API key
+        claude_key = os.getenv("ANTHROPIC_API_KEY")
+        if claude_key:
+            claude_lct = self.lct_registry.get_or_create(
+                name="Claude-4.1",
+                participant_type=ParticipantType.AI_CLAUDE,
+                access_method=AccessMethod.API,
+                access_endpoint="https://api.anthropic.com",
+                access_credentials={"api_key": claude_key}
+            )
+            participants.append(ClaudeAPI(claude_lct))
+            print("  ✓ Claude participant initialized")
+        else:
+            print("  ⚠ Claude API key not found - skipping Claude participant")
+        
+        # Check for GPT API key
+        gpt_key = os.getenv("OPENAI_API_KEY")
+        if gpt_key:
+            gpt_lct = self.lct_registry.get_or_create(
+                name="GPT-5",
+                participant_type=ParticipantType.AI_GPT,
+                access_method=AccessMethod.API,
+                access_endpoint="https://api.openai.com",
+                access_credentials={"api_key": gpt_key}
+            )
+            participants.append(GPTAPI(gpt_lct))
+            print("  ✓ GPT participant initialized")
+        else:
+            print("  ⚠ GPT API key not found - skipping GPT participant")
+        
+        return participants
+    
     def run_daily_update(self):
         """
         Run the daily update process for the governance system.
         
         This function orchestrates the entire governance workflow:
+        0. AI participants generate proposals
         1. Process new contributions
         2. Assign reviewers to pending contributions
         3. Process reviews and determine consensus
@@ -129,6 +176,60 @@ class SynchronismGovernanceSystem:
         self._log_event("daily_update_start", {
             "timestamp": start_time.isoformat()
         })
+        
+        # 0. AI Participants generate proposals
+        print("\n0. AI Participants generating proposals...")
+        proposals_created = []
+        ai_participants = self._get_ai_participants()
+        
+        if ai_participants:
+            # Define sections that can be analyzed for proposals
+            whitepaper_sections = [
+                "01-hermetic-principles",
+                "02-introductory-summary",
+                "03-historical-evolution",
+                "04-fundamental-concepts",
+                "05-mathematical-frameworks",
+                "06-universe-as-consciousness-network",
+                "07-scale-specific-implementations",
+                "08-emergent-properties",
+                "09-governance-structure",
+                "glossary"
+            ]
+            
+            # Each participant generates up to 1 proposal
+            max_proposals_per_participant = 1
+            
+            for participant in ai_participants:
+                try:
+                    print(f"\n  {participant.lct.name} analyzing sections...")
+                    # Generate proposals (the API will handle the actual analysis)
+                    proposals = participant.generate_proposals(
+                        sections=whitepaper_sections,
+                        max_proposals=max_proposals_per_participant,
+                        context={
+                            "cycle_id": self.log.get("cycle_count", 0) + 1,
+                            "existing_proposals": proposals_created
+                        }
+                    )
+                    
+                    if proposals:
+                        proposals_created.extend(proposals)
+                        print(f"  {participant.lct.name} created {len(proposals)} proposal(s)")
+                        for proposal in proposals:
+                            print(f"    - {proposal.get('title', 'Untitled')}")
+                    else:
+                        print(f"  {participant.lct.name} chose not to create any proposals")
+                    
+                    # Update participant activity
+                    participant.update_activity()
+                    
+                except Exception as e:
+                    print(f"  ⚠ Error generating proposals for {participant.lct.name}: {str(e)}")
+        else:
+            print("  ⚠ No AI participants available for proposal generation")
+        
+        print(f"\nTotal proposals created: {len(proposals_created)}")
         
         # 1. Process new contributions
         print("\n1. Processing new contributions...")
@@ -206,10 +307,12 @@ class SynchronismGovernanceSystem:
             "start_time": start_time.isoformat(),
             "end_time": end_time.isoformat(),
             "duration_seconds": duration,
+            "proposals_generated": len(proposals_created),
             "contributions_processed": len(pending_contributions),
             "validations_processed": len(pending_validations),
             "integrations_processed": len(certified_contributions),
-            "whitepaper_rebuilt": build_result is not None
+            "whitepaper_rebuilt": build_result is not None,
+            "ai_participants": len(ai_participants) if ai_participants else 0
         })
         
         return {
