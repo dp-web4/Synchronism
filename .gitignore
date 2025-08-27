@@ -36,3 +36,4 @@ dist/
 # Logs
 *.log
 logs/
+/scripts/governance/__pycache__
