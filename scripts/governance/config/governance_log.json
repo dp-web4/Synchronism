@@ -3810,9 +3810,24 @@
       "details": {
         "timestamp": "2025-09-25T12:45:14.818196"
       }
+    },
+    {
+      "timestamp": "2025-09-25T12:45:15.745298",
+      "type": "daily_update_complete",
+      "details": {
+        "start_time": "2025-09-25T12:45:14.818196",
+        "end_time": "2025-09-25T12:45:15.744932",
+        "duration_seconds": 0.926736,
+        "proposals_generated": 0,
+        "contributions_processed": 0,
+        "validations_processed": 0,
+        "integrations_processed": 0,
+        "whitepaper_rebuilt": false,
+        "ai_participants": 0
+      }
     }
   ],
-  "last_run": "2025-09-25T12:45:14.818205",
+  "last_run": "2025-09-25T12:45:15.745298",
   "system_status": "ready",
   "version": "1.0.0"
 }
