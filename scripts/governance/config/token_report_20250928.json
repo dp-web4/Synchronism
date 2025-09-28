@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-09-28T12:41:32.872597",
+  "total_supply": {
+    "quantum": 100,
+    "molecular": 100,
+    "biospheric": 100,
+    "planetary": 100,
+    "galactic": 100
+  },
+  "last_distribution": "2025-09-28T12:41:32.276052",
+  "contributor_count": 0,
+  "total_charged_tokens": {
+    "quantum": 0,
+    "molecular": 0,
+    "biospheric": 0,
+    "planetary": 0,
+    "galactic": 0
+  },
+  "total_discharged_tokens": {
+    "quantum": 0,
+    "molecular": 0,
+    "biospheric": 0,
+    "planetary": 0,
+    "galactic": 0
+  },
+  "scale_activity": {
+    "quantum": 0,
+    "molecular": 0,
+    "biospheric": 0,
+    "planetary": 0,
+    "galactic": 0
+  }
+}
