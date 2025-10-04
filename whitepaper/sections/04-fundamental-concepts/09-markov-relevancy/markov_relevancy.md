@@ -55,17 +55,33 @@
 - **Available Resources:** Computational or observational limitations
 - **Accuracy Requirements:** Higher precision may require larger horizons
 
+**MRH-Bounded Existence**
+
+Entities exist only within their MRH—the scope of meaningful interaction:
+
+- An **organism** exists contextually to its cells (cells can witness it through chemical signals, mechanical forces)
+- A **cell** exists contextually to molecules within it (molecules can witness it through electromagnetic interactions)
+- A **galaxy** exists contextually to stars within it (stars can witness it through gravitational interactions)
+
+**No Universal Existence**
+
+There is no absolute existence across all scales. Each entity's existence is bounded by its interaction horizon. Outside that horizon, spectral existence → 0.
+
+- An atom doesn't "exist" to a galaxy (no witnessing interaction at that scale)
+- A galaxy doesn't "exist" to an atom (no witnessing interaction at that scale)
+- They occupy different MRHs—different interaction contexts
+
 **Connection to Perspective**
 
- MRH provides a formal framework for the [perspective problem](#perspective) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
+MRH provides a formal framework for the [perspective problem](#perspective) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
 
 **Optimizing Analysis**
 
- Effective use of MRH involves:
+Effective use of MRH involves:
 
- - **Scope Assessment:** Determining the minimal adequate horizon
+- **Scope Assessment:** Determining the minimal adequate horizon
 - **Boundary Testing:** Verifying that important effects aren't excluded
 - **Iterative Refinement:** Adjusting horizon based on initial results
 - **Multi-Scale Integration:** Combining insights from different horizons
 
- The MRH concept is fundamental to making Synchronism practically useful, providing a principled way to limit analysis scope while maintaining accuracy and insight.
+The MRH concept is fundamental to making Synchronism practically useful, providing a principled way to limit analysis scope while maintaining accuracy and insight.
