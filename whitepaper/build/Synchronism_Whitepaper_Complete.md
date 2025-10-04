@@ -254,19 +254,31 @@ This document introduces core concepts, mathematical frameworks, and practical i
 Before exploring intent transfer mechanics, it is critical to establish precisely what the Synchronism model means by "intent" - a term deliberately chosen despite its potential for misinterpretation. This clarification prevents epistemic drift toward anthropocentric or consciousness-based interpretations.
 
 **What Intent IS in the Synchronism Model:**
+
 - **A fundamental property** - Like electric charge or mass in physics models, intent is a basic property assigned to each Planck-scale cell
+
 - **Non-conscious influence** - A quantifiable factor affecting state transitions without awareness, thought, or sentience
+
 - **Conserved quantity** - The total intent across the system remains constant, following conservation principles
+
 - **Transferable between cells** - Intent moves between adjacent cells according to defined rules, similar to energy transfer
+
 - **Scale-invariant property** - Operating consistently across all fractal levels from Planck scale to cosmic structures
+
 - **Directional without purpose** - Intent has magnitude and can create gradients, like momentum, without implying goals or desires
 
 **What Intent IS NOT:**
+
 - **NOT consciousness or awareness** - Intent requires no sentience, experience, or subjective states
+
 - **NOT will, desire, or purpose** - No teleological direction, goals, or anthropomorphic motivation
+
 - **NOT mental or psychological** - Completely independent of minds, thoughts, or cognitive processes
+
 - **NOT exclusive to living systems** - Present equally in all cells regardless of whether they comprise living or non-living patterns
+
 - **NOT an emergent property** - Intent is fundamental to the model, not arising from complexity
+
 - **NOT making ontological claims** - This model proposes intent as a useful framework, not as ultimate reality
 
 **Physical Analogy:** Consider electric charge - it creates fields, transfers between particles, follows conservation laws, and drives interactions, all without requiring consciousness or purpose. The Synchronism model treats intent similarly: as a fundamental property that drives dynamics through purely mechanical (though probabilistic) processes. Just as charge creates electromagnetic tension, intent creates what we term "tension" in the grid, driving pattern formation and evolution without requiring any form of awareness or purposefulness.
@@ -4235,6 +4247,9 @@ No specific changes provided
 ############ Entries
 <!-- Entries added chronologically below -->
 
+######### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
+- **Description**: Removed "mental energy" interpretation from Mentalism principle, replaced with "pattern processing dynamics"
+- **Rationale**: Epistemic consistency review identified drift toward consciousness-based interpretation of intent. Intent is a non-conscious property like electric charge, not mental or psychological. Clarified that mentalism connection comes through pattern processing dynamics, not through consciousness or mental properties.
 
 ---
 
@@ -4242,6 +4257,10 @@ No specific changes provided
 
 ############ Entries
 <!-- Entries added chronologically below -->
+
+######### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
+- **Description**: Added "What Intent Is/Isn't" foundational clarification to 03-intent-transfer, removed "mental energy" references throughout, changed "controlling" to "modulating" in 08-markov-blankets
+- **Rationale**: Comprehensive epistemic drift corrections. Added explicit section defining intent as non-conscious property (like electric charge) to prevent anthropocentric misinterpretation. Replaced consciousness-based language ("mental energy", "controlling") with mechanistic language ("pattern processing", "modulating"). Ensures consistent non-anthropocentric framing of fundamental properties.
 
 ######### 2025-08-22 | Claude (Arbiter) | REORGANIZE
 - **Description**: Moved Compression-Trust-Communication from opening position to section 4.13
@@ -4259,6 +4278,11 @@ No specific changes provided
 ############ Entries
 <!-- Entries added chronologically below -->
 
+######### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
+- **Description**: Multiple epistemic consistency corrections in 05-witness-effect and 13-life-cognition subsections
+- **Rationale**: Comprehensive review identified critical drift instances:
+  - 05-witness-effect: Replaced "consciousness chooses" with "consciousness synchronizes with aspects determined by interaction patterns" to remove agency implication. Changed "No reality construction" to "Reality independence" for positive framing without QM terminology.
+  - 13-life-cognition: Changed "Observer participation: Conscious observers participate in creating reality" to "Witness synchronization" - critical fix contradicting single-observer model. Changed "Intentionality" to "Pattern directedness" and "Intentional behavior" to "Pattern-directed behavior" to avoid consciousness-loaded philosophical terminology. Maintains distinction between witnessing (passive synchronization) and observation (active/creative).
 
 ---
 
