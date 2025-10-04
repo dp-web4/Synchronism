@@ -76,6 +76,32 @@ All human knowledge systems share a common foundation: the anthropocentric premi
 
 Just as heliocentrism didn't refine epicycles but made them irrelevant, Synchronism doesn't refine observer-based physics—it makes the observer premise itself secondary to pattern dynamics.
 
+**The CRT Analogy: Measurement as Synchronization**
+
+Consider a CRT (Cathode Ray Tube) display. An electron beam continuously scans across a phosphor screen. When you observe it at human frame rates (~30 Hz), you see a stable picture. Speed up your observation and the picture flickers, breaks into bands. Observe at pixel-duration timing and you see a single moving dot at unpredictable locations.
+
+**Nothing about the screen changed.** Only your synchronization timing with the ongoing process changed.
+
+Anthropocentric physics treats this as mysterious: "How does observation affect what we see?" Synchronism reveals it as trivial: patterns cycle continuously; what you witness depends on when/how you synchronize with them.
+
+**The Pendulum Clock Analogy: Instrument Effects vs. Reality**
+
+Relativistic time dilation was proven by flying atomic clocks on airplanes in opposite directions. They diverged by the predicted amount, confirming Einstein's theory.
+
+Now try this: Put a pendulum clock in a centrifuge and run it. Compare it to a stationary pendulum clock. They will diverge by a readily predictable amount based on centrifugal force affecting the pendulum's swing period.
+
+**Would that prove "centrifuge time dilation"?**
+
+Of course not. It would prove that the variable we're controlling (centrifugal force) has a predictable effect on the instrument we're using to measure "passage of time."
+
+If we were forced to rely exclusively on pendulum clocks in centrifuges, accounting for "centrifuge time dilation" would be essential for accurate timekeeping. We'd build elaborate mathematical frameworks to predict and correct for it. We might even call it fundamental to reality.
+
+**But it's just an instrument effect.**
+
+Anthropocentric physics assumes atomic clocks measure "time itself." Synchronism suggests they measure pattern synchronization—and like pendulum clocks affected by centrifugal force, atomic clocks are affected by velocity and gravity because these alter the fundamental pattern dynamics they synchronize with.
+
+The measurements are real. The predictions work. But what's being measured might not be what we think.
+
 **Intent as Computational Reification**
 
 The key concept in Synchronism is "Intent"—a reification of the abstract "greater force" for computational tractability. Intent is NOT the force itself, nor is it ontologically real. It is a modeling abstraction that makes the underlying dynamics computable and testable.
