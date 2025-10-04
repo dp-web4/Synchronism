@@ -1,10 +1,26 @@
-## 2. Importance of Perspective
+## 2. Perspective and Belief Systems
 
- The significance of perspective in understanding reality is illustrated by the "Six Blind Men and the Elephant" analogy, an ancient parable that highlights the limitations of individual perception and the importance of holistic understanding.
+**All Knowledge as Belief Systems**
+
+Every framework for understanding reality—science, religion, philosophy—is a belief system built on unprovable axioms. Science assumes causality, repeatability, and mathematical describability. Religion assumes divine purpose, moral order, or transcendent truth. Philosophy assumes logical consistency and rational inquiry.
+
+None of these axioms can be proven from first principles. They are articles of faith that enable useful models.
+
+**The Anthropocentric Axiom**
+
+The most pervasive unexamined axiom in human knowledge is anthropocentrism: the assumption that human perception, consciousness, and observation are somehow fundamental to reality. This manifests as:
+
+- **In Physics**: The "observer" as a fundamental concept (QM measurement, relativistic frames)
+- **In Philosophy**: Consciousness as the primary mystery requiring explanation
+- **In Religion**: Human purpose or divine attention as central
+
+Synchronism challenges this axiom. What if reality operates entirely independent of human (or any) observation? What if the "observer" premise is the epicycle we've been preserving?
 
 **The Six Blind Men and the Elephant**
 
- In this story, six blind men encounter an elephant for the first time. Each man touches a different part of the elephant and describes what he believes the elephant to be based on his limited experience:
+This significance of perspective in understanding reality is illustrated by an ancient parable that highlights the limitations of individual perception and the importance of holistic understanding.
+
+In this story, six blind men encounter an elephant for the first time. Each man touches a different part of the elephant and describes what he believes the elephant to be based on his limited experience:
 
  - The man who feels the leg says the elephant is like a pillar
 - The one who touches the tail describes it as a rope

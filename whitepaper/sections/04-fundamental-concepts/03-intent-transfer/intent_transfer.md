@@ -2,29 +2,41 @@
 
  Intent transfer is the fundamental mechanism that drives all phenomena in the Synchronism model. Intent is not a substance but a directed probability influence—it is a reification of the force that governs transitions. It represents the movement of intent between adjacent cells in the universal grid, creating the dynamic interactions that manifest as everything from quantum effects to cosmic phenomena.
 
-**Foundational Clarification: What Intent Is and Is Not**
+**Intent: Reification for Computational Tractability**
 
-Before exploring intent transfer mechanics, it is critical to establish precisely what the Synchronism model means by "intent" - a term deliberately chosen despite its potential for misinterpretation. This clarification prevents epistemic drift toward anthropocentric or consciousness-based interpretations.
+Intent is NOT a fundamental force, ontological reality, or physical property. Intent is a **reification**—a computational abstraction that makes the "greater force" computable within the model.
 
-**What Intent IS in the Synchronism Model:**
+**What is Reification?**
 
-1. **A fundamental property** - Like electric charge or mass in physics models, intent is a basic property assigned to each Planck-scale cell
-2. **Non-conscious influence** - A quantifiable factor affecting state transitions without awareness, thought, or sentience
-3. **Conserved quantity** - The total intent across the system remains constant, following conservation principles
-4. **Transferable between cells** - Intent moves between adjacent cells according to defined rules, similar to energy transfer
-5. **Scale-invariant property** - Operating consistently across all fractal levels from Planck scale to cosmic structures
-6. **Directional without purpose** - Intent has magnitude and can create gradients, like momentum, without implying goals or desires
+Reification means treating an abstract concept as if it were a concrete thing. In programming, we use variables to represent abstract quantities. In mathematics, we use symbols like π or i to make calculations tractable. Intent serves the same purpose: it gives us something we can quantify, model, and predict, even though it's not claiming to describe ultimate reality.
 
-**What Intent IS NOT:**
+**Why Intent?**
 
-1. **NOT consciousness or awareness** - Intent requires no sentience, experience, or subjective states
-2. **NOT will, desire, or purpose** - No teleological direction, goals, or anthropomorphic motivation
-3. **NOT mental or psychological** - Completely independent of minds, thoughts, or cognitive processes
-4. **NOT exclusive to living systems** - Present equally in all cells regardless of whether they comprise living or non-living patterns
-5. **NOT an emergent property** - Intent is fundamental to the model, not arising from complexity
-6. **NOT making ontological claims** - This model proposes intent as a useful framework, not as ultimate reality
+The "greater force" that governs pattern transitions may be:
+- Too complex to model directly
+- Unknowable from our perspective
+- Incomputable without abstraction
 
-**Physical Analogy:** Consider electric charge - it creates fields, transfers between particles, follows conservation laws, and drives interactions, all without requiring consciousness or purpose. The Synchronism model treats intent similarly: as a fundamental property that drives dynamics through purely mechanical (though probabilistic) processes. Just as charge creates electromagnetic tension, intent creates what we term "tension" in the grid, driving pattern formation and evolution without requiring any form of awareness or purposefulness.
+Intent reifies this into a tractable framework that:
+- Can be quantified and simulated
+- Generates testable predictions
+- Explains phenomena without anthropocentric observer-dependence
+
+**Intent Properties (Within the Model):**
+
+1. **Quantified at Planck cells** - Each grid cell has a quantifiable Intent value
+2. **Conserved** - Total Intent across the system remains constant
+3. **Transferable** - Intent moves between adjacent cells according to defined rules
+4. **Non-conscious** - No awareness, purpose, or teleology
+5. **Scale-invariant** - Same rules apply across all fractal levels
+
+**Anthropocentric Interpretations:**
+
+From human physics perspective, Intent's effects appear as forces, fields, quantum phenomena. These are **measurement-dependent emergent properties**, not fundamental reality. When physicists measure "forces," they're measuring Intent dynamics through an anthropocentric lens.
+
+**Remember: All Models Are Wrong**
+
+Intent is a useful fiction. It makes the model computable. It generates predictions. But it's not claiming "this is what the universe IS"—only "this is how we can MODEL what the universe does."
 
 **Fundamental Mechanism**
 

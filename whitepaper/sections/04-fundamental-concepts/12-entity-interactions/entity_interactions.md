@@ -1,39 +1,43 @@
-## 4.12 Entity Interaction Effects
+## 4.12 Entity Interactions
 
- Entity interaction effects describe how complex patterns (entities) engage in intent negotiation across coherence boundaries. All interaction is fundamentally the reconfiguration of resonance pathways between adjacent or overlapping intent fields, measured by persistence and alignment rather than strategy or utility.
+**Three Interaction Modes**
 
-**Intent Negotiation Mechanisms**
+Entities (repeating Intent patterns) interact with each other in three fundamental ways:
 
- Entity interactions are different facets of the same phenomenon—intent overlap and coherence negotiation:
+1. **Resonant**: Patterns align and amplify each other
+2. **Dissonant**: Patterns interfere and cancel each other
+3. **Indifferent**: Patterns don't significantly affect each other
 
- - **Boundary Resonance:** Overlapping intent modulation membranes creating shared coherence zones
-- **Field Resonance:** Intent depletion/concentration patterns mediating coherence
-- **Pattern Transfer:** Intent pattern alignment across boundaries
-- **Network Coherence:** Multiple entities achieving collective resonance alignment
+That's it. No complex negotiation, no strategy, no utility. Just pattern dynamics.
 
-**Dynamic Relational Flows**
+**Resonance**
 
- Interactions evolve dynamically through tension resolution and intent negotiation within and across MRHs:
+When Intent patterns align—same frequencies, compatible phases—they reinforce each other. The combined pattern persists more strongly than either alone.
 
- - **Coherence Enhancement:** Intent patterns mutually reinforcing stability
-- **Coherence Competition:** Intent patterns creating interference zones
-- **Asymmetric Transfer:** Phases of unbalanced intent flow between entities
-- **Mutual Stabilization:** Co-evolution toward shared coherence patterns
-- **Pattern Absorption:** One coherence pattern incorporating another
-- **Independent Cycling:** Entities maintaining separate coherence without interaction
+Examples: Laser coherence, synchronized heartbeats, molecular bonds
 
- These are not static categories but dynamic phases in longer arcs of co-evolution, dissolution, or transformation.
+**Dissonance**
 
-**Coherence Dynamics Mathematics**
+When Intent patterns conflict—opposite phases, incompatible frequencies—they interfere destructively. The patterns weaken or cancel.
 
- Intent negotiation can be analyzed through (optional overlays for simulation):
+Examples: Noise cancellation, chemical inhibition, immune responses
 
- - **Resonance Matrices:** Quantifying coherence alignment between entities
-- **Pattern Networks:** Analyzing intent transfer pathways
-- **Coherence Evolution:** Modeling dynamic relational flows
-- **Temporal Dynamics:** Understanding coherence negotiation over time slices
+**Indifference**
 
- Note: These are human analytical tools, not core to Synchronism itself.
+When Intent patterns operate at different scales, frequencies, or spatial locations—they pass through each other without significant interaction.
+
+Examples: Most distant galaxies to each other, neutrinos through matter, orthogonal thought processes
+
+**Fractal Interactions**
+
+These three modes apply at ALL scales:
+- Quantum: particle interactions
+- Molecular: chemical reactions
+- Cellular: cell signaling
+- Organism: behavioral interactions
+- Cosmic: gravitational clustering
+
+Same principles, different scales.
 
 **Emergent Group Behaviors**
 
