@@ -255,31 +255,21 @@ Before exploring intent transfer mechanics, it is critical to establish precisel
 
 **What Intent IS in the Synchronism Model:**
 
-- **A fundamental property** - Like electric charge or mass in physics models, intent is a basic property assigned to each Planck-scale cell
-
-- **Non-conscious influence** - A quantifiable factor affecting state transitions without awareness, thought, or sentience
-
-- **Conserved quantity** - The total intent across the system remains constant, following conservation principles
-
-- **Transferable between cells** - Intent moves between adjacent cells according to defined rules, similar to energy transfer
-
-- **Scale-invariant property** - Operating consistently across all fractal levels from Planck scale to cosmic structures
-
-- **Directional without purpose** - Intent has magnitude and can create gradients, like momentum, without implying goals or desires
+1. **A fundamental property** - Like electric charge or mass in physics models, intent is a basic property assigned to each Planck-scale cell
+2. **Non-conscious influence** - A quantifiable factor affecting state transitions without awareness, thought, or sentience
+3. **Conserved quantity** - The total intent across the system remains constant, following conservation principles
+4. **Transferable between cells** - Intent moves between adjacent cells according to defined rules, similar to energy transfer
+5. **Scale-invariant property** - Operating consistently across all fractal levels from Planck scale to cosmic structures
+6. **Directional without purpose** - Intent has magnitude and can create gradients, like momentum, without implying goals or desires
 
 **What Intent IS NOT:**
 
-- **NOT consciousness or awareness** - Intent requires no sentience, experience, or subjective states
-
-- **NOT will, desire, or purpose** - No teleological direction, goals, or anthropomorphic motivation
-
-- **NOT mental or psychological** - Completely independent of minds, thoughts, or cognitive processes
-
-- **NOT exclusive to living systems** - Present equally in all cells regardless of whether they comprise living or non-living patterns
-
-- **NOT an emergent property** - Intent is fundamental to the model, not arising from complexity
-
-- **NOT making ontological claims** - This model proposes intent as a useful framework, not as ultimate reality
+1. **NOT consciousness or awareness** - Intent requires no sentience, experience, or subjective states
+2. **NOT will, desire, or purpose** - No teleological direction, goals, or anthropomorphic motivation
+3. **NOT mental or psychological** - Completely independent of minds, thoughts, or cognitive processes
+4. **NOT exclusive to living systems** - Present equally in all cells regardless of whether they comprise living or non-living patterns
+5. **NOT an emergent property** - Intent is fundamental to the model, not arising from complexity
+6. **NOT making ontological claims** - This model proposes intent as a useful framework, not as ultimate reality
 
 **Physical Analogy:** Consider electric charge - it creates fields, transfers between particles, follows conservation laws, and drives interactions, all without requiring consciousness or purpose. The Synchronism model treats intent similarly: as a fundamental property that drives dynamics through purely mechanical (though probabilistic) processes. Just as charge creates electromagnetic tension, intent creates what we term "tension" in the grid, driving pattern formation and evolution without requiring any form of awareness or purposefulness.
 
