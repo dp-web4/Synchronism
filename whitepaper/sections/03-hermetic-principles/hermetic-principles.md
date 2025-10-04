@@ -6,7 +6,7 @@
 
 **3.1 Mentalism: "The All is Mind; the Universe is Mental."**
 
- **Synchronism:** The universe is modeled as a vast array of interconnected "cells" that contain and transfer "intent," which can be modeled as a pattern of intent transfer, which observers may interpret as mental energy depending on their MRH. The model can also be viewed as a fundamental neural network, furthering the mentalism connection.
+ **Synchronism:** The universe is modeled as a vast array of interconnected "cells" that contain and transfer "intent," which manifests as patterns of force-like transfer at the Planck scale. The model can also be viewed as a fundamental neural network, furthering the mentalism connection through its pattern processing dynamics rather than through consciousness or mental properties.
 
 **3.2 Correspondence: "As above, so below; as below, so above."**
 

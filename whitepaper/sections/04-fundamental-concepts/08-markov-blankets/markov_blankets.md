@@ -22,7 +22,7 @@
 
  - **Pattern Stabilization:** Maintaining coherent intent cycling within variable conditions
 - **Selective Transfer:** Modulating which intent patterns cross the membrane
-- **Transfer Regulation:** Controlling the rate and resonance of intent exchange
+- **Transfer Regulation:** Modulating the rate and resonance of intent exchange
 - **Dynamic Modulation:** Adjusting membrane properties to maintain coherence
 
 **Intent Transfer Framework**

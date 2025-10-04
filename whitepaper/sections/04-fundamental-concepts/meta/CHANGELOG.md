@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
+- **Description**: Added "What Intent Is/Isn't" foundational clarification to 03-intent-transfer, removed "mental energy" references throughout, changed "controlling" to "modulating" in 08-markov-blankets
+- **Rationale**: Comprehensive epistemic drift corrections. Added explicit section defining intent as non-conscious property (like electric charge) to prevent anthropocentric misinterpretation. Replaced consciousness-based language ("mental energy", "controlling") with mechanistic language ("pattern processing", "modulating"). Ensures consistent non-anthropocentric framing of fundamental properties.
+
 ### 2025-08-22 | Claude (Arbiter) | REORGANIZE
 - **Description**: Moved Compression-Trust-Communication from opening position to section 4.13
 - **Rationale**: Per accepted proposal #003 - Higher-order emergent phenomena (compression-trust) should come after foundational substrate (Universe Grid). Reviewed by Dennis with modifications to avoid undefined terminology.

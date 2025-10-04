@@ -57,7 +57,7 @@
  - **No retroactive effect:** Pattern was always in definite states throughout its journey
 - **Pattern completeness:** Pattern cycled through its complete sequence regardless of measurement decision
 - **Witness sync point choice:** You choose when to synchronize, but pattern was cycling all along
-- **No reality construction:** Reality exists independently - you choose when to witness it
+- **Reality independence:** Patterns cycle autonomously - consciousness synchronizes with existing cycles
 
 **Role of Consciousness**
 
@@ -65,7 +65,7 @@
 
  - **Universal observer:** Single consciousness witnesses all patterns through synchronized relationships
 - **No observer effect:** Consciousness doesn't affect patterns - it witnesses them
-- **No reality selection:** Reality exists independently - consciousness chooses what to sync with
+- **No reality selection:** Reality exists independently - consciousness synchronizes with aspects determined by interaction patterns
 - **Non-participatory universe:** Reality unfolds autonomously - consciousness witnesses the unfolding
 
 **Practical Implications**

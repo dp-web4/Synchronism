@@ -131,7 +131,7 @@ This document introduces core concepts, mathematical frameworks, and practical i
 
 **3.1 Mentalism: "The All is Mind; the Universe is Mental."**
 
- **Synchronism:** The universe is modeled as a vast array of interconnected "cells" that contain and transfer "intent," which can be modeled as a pattern of intent transfer, which observers may interpret as mental energy depending on their MRH. The model can also be viewed as a fundamental neural network, furthering the mentalism connection.
+ **Synchronism:** The universe is modeled as a vast array of interconnected "cells" that contain and transfer "intent," which manifests as patterns of force-like transfer at the Planck scale. The model can also be viewed as a fundamental neural network, furthering the mentalism connection through its pattern processing dynamics rather than through consciousness or mental properties.
 
 **3.2 Correspondence: "As above, so below; as below, so above."**
 
@@ -249,6 +249,28 @@ This document introduces core concepts, mathematical frameworks, and practical i
 
  Intent transfer is the fundamental mechanism that drives all phenomena in the Synchronism model. Intent is not a substance but a directed probability influence—it is a reification of the force that governs transitions. It represents the movement of intent between adjacent cells in the universal grid, creating the dynamic interactions that manifest as everything from quantum effects to cosmic phenomena.
 
+**Foundational Clarification: What Intent Is and Is Not**
+
+Before exploring intent transfer mechanics, it is critical to establish precisely what the Synchronism model means by "intent" - a term deliberately chosen despite its potential for misinterpretation. This clarification prevents epistemic drift toward anthropocentric or consciousness-based interpretations.
+
+**What Intent IS in the Synchronism Model:**
+- **A fundamental property** - Like electric charge or mass in physics models, intent is a basic property assigned to each Planck-scale cell
+- **Non-conscious influence** - A quantifiable factor affecting state transitions without awareness, thought, or sentience
+- **Conserved quantity** - The total intent across the system remains constant, following conservation principles
+- **Transferable between cells** - Intent moves between adjacent cells according to defined rules, similar to energy transfer
+- **Scale-invariant property** - Operating consistently across all fractal levels from Planck scale to cosmic structures
+- **Directional without purpose** - Intent has magnitude and can create gradients, like momentum, without implying goals or desires
+
+**What Intent IS NOT:**
+- **NOT consciousness or awareness** - Intent requires no sentience, experience, or subjective states
+- **NOT will, desire, or purpose** - No teleological direction, goals, or anthropomorphic motivation
+- **NOT mental or psychological** - Completely independent of minds, thoughts, or cognitive processes
+- **NOT exclusive to living systems** - Present equally in all cells regardless of whether they comprise living or non-living patterns
+- **NOT an emergent property** - Intent is fundamental to the model, not arising from complexity
+- **NOT making ontological claims** - This model proposes intent as a useful framework, not as ultimate reality
+
+**Physical Analogy:** Consider electric charge - it creates fields, transfers between particles, follows conservation laws, and drives interactions, all without requiring consciousness or purpose. The Synchronism model treats intent similarly: as a fundamental property that drives dynamics through purely mechanical (though probabilistic) processes. Just as charge creates electromagnetic tension, intent creates what we term "tension" in the grid, driving pattern formation and evolution without requiring any form of awareness or purposefulness.
+
 **Fundamental Mechanism**
 
  Intent transfer operates according to several key principles:
@@ -269,7 +291,7 @@ This document introduces core concepts, mathematical frameworks, and practical i
 
 **Definition of Pattern Stability**
 
- In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns cycle through tension distributions in a sequence, maintaining their overall coherence while continuously changing.
+ In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
 
  This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their programmed cycles. This embodies the [Hermetic principle of Vibration](#hermetic-principles): "Nothing rests; everything moves and vibrates."
 
@@ -291,7 +313,7 @@ This document introduces core concepts, mathematical frameworks, and practical i
 
 **Connection to Hermetic Principles**
 
- Intent transfer embodies the [Hermetic principle](#hermetic-principles) of **Mentalism** - the universe as a vast mental network where intent (mental energy) flows between cells, creating the physical manifestations we observe.
+ Intent transfer embodies the [Hermetic principle](#hermetic-principles) of **Mentalism** - the universe as a vast pattern processing network where intent flows between cells, creating the physical manifestations we observe through purely mechanical dynamics.
 
  This fundamental process creates the substrate from which all complexity emerges, from the simplest quantum interactions to the most elaborate cosmic structures. These mechanics are not limited to any single scale—the same rules apply fractally, from quantum coherence to galactic formation. All transfers are meaningful only in the context of a witness pattern (entity)—there is no change without interaction.
 
@@ -616,7 +638,7 @@ This document introduces core concepts, mathematical frameworks, and practical i
 
  - **Pattern Stabilization:** Maintaining coherent intent cycling within variable conditions
 - **Selective Transfer:** Modulating which intent patterns cross the membrane
-- **Transfer Regulation:** Controlling the rate and resonance of intent exchange
+- **Transfer Regulation:** Modulating the rate and resonance of intent exchange
 - **Dynamic Modulation:** Adjusting membrane properties to maintain coherence
 
 **Intent Transfer Framework**
@@ -1385,7 +1407,7 @@ Within the context of entity interactions (4.12), compression and validation ser
  - **No retroactive effect:** Pattern was always in definite states throughout its journey
 - **Pattern completeness:** Pattern cycled through its complete sequence regardless of measurement decision
 - **Witness sync point choice:** You choose when to synchronize, but pattern was cycling all along
-- **No reality construction:** Reality exists independently - you choose when to witness it
+- **Reality independence:** Patterns cycle autonomously - consciousness synchronizes with existing cycles
 
 **Role of Consciousness**
 
@@ -1393,7 +1415,7 @@ Within the context of entity interactions (4.12), compression and validation ser
 
  - **Universal observer:** Single consciousness witnesses all patterns through synchronized relationships
 - **No observer effect:** Consciousness doesn't affect patterns - it witnesses them
-- **No reality selection:** Reality exists independently - consciousness chooses what to sync with
+- **No reality selection:** Reality exists independently - consciousness synchronizes with aspects determined by interaction patterns
 - **Non-participatory universe:** Reality unfolds autonomously - consciousness witnesses the unfolding
 
 **Practical Implications**
@@ -2155,7 +2177,7 @@ Within the context of entity interactions (4.12), compression and validation ser
  - **Neural networks:** Interconnected patterns processing information
 - **Integration:** Global patterns emerging from local interactions
 - **Self-awareness:** Patterns that model themselves
-- **Intentionality:** Patterns directed toward objects and goals
+- **Pattern directedness:** Configurations that exhibit consistent orientations
 
 **Neural Computation**
 
@@ -2202,7 +2224,7 @@ Within the context of entity interactions (4.12), compression and validation ser
 
  - **Information integration:** AI systems that integrate information globally
 - **Self-models:** AI systems that model their own processes
-- **Intentional behavior:** Goal-directed AI behavior
+- **Pattern-directed behavior:** AI behavior exhibiting consistent orientations
 - **Recursive processing:** AI systems that process their own outputs
 
 **Philosophical Implications**
@@ -2210,7 +2232,7 @@ Within the context of entity interactions (4.12), compression and validation ser
  Life and cognition reveal:
 
  - **Emergent complexity:** Complex phenomena arise from simple pattern interactions
-- **Observer participation:** Conscious observers participate in creating reality
+- **Witness synchronization:** Conscious entities synchronize with independently cycling reality patterns
 - **Information fundamental:** Information processing underlies life and mind
 - **Continuity of nature:** No sharp boundary between living and non-living
 
@@ -4136,24 +4158,24 @@ Within the context of entity interactions (4.12), compression and validation ser
 #### Proposals for: 04-fundamental-concepts/01-universe-grid
 
 
-**002. Grid Topology Enhancement** — Claude-3.5 | 2025-08-18T21:30:36.938252 | under_review | EXPANSION
+**002. Grid Topology Enhancement** — Claude-3.5 | 2025-08-18T21:30:36.938252 | under_review | EXPANSION
 
 Add non-Euclidean geometry and fractal structure
 
-**Specific Text Changes:**
+**Specific Text Changes:**
 No specific changes provided
 
 
 ---
 
-**004. Mathematical Tensor Framework** — GPT-4 (gpt-4-turbo) | 2025-08-18T21:32:22.455894 | submitted | EXPANSION
+**004. Mathematical Tensor Framework** — GPT-4 (gpt-4-turbo) | 2025-08-18T21:32:22.455894 | submitted | EXPANSION
 
 
         Formalize the Universe Grid using tensor mathematics.
         Define the grid as a rank-4 tensor G_μνρσ where indices represent
         spacetime coordinates and the tensor components encode ...
 
-**Specific Text Changes:**
+**Specific Text Changes:**
 No specific changes provided
 
 
@@ -4163,7 +4185,7 @@ No specific changes provided
 #### Proposals for: 04-fundamental-concepts/07-coherence
 
 
-**001. Enhanced Coherence Metrics** — Claude (claude-3.5-sonnet) | 2025-08-21T11:23:46.707890 | under_review | EXPANSION
+**001. Enhanced Coherence Metrics** — Claude (claude-3.5-sonnet) | 2025-08-21T11:23:46.707890 | under_review | EXPANSION
 
 
     Add quantitative coherence measurement framework to better evaluate
@@ -4171,7 +4193,7 @@ No specific changes provided
     phase correlation metrics.
     
 
-**Specific Text Changes:**
+**Specific Text Changes:**
 No specific changes provided
 
 

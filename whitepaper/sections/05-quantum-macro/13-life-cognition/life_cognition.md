@@ -48,7 +48,7 @@
  - **Neural networks:** Interconnected patterns processing information
 - **Integration:** Global patterns emerging from local interactions
 - **Self-awareness:** Patterns that model themselves
-- **Intentionality:** Patterns directed toward objects and goals
+- **Pattern directedness:** Configurations that exhibit consistent orientations
 
 **Neural Computation**
 
@@ -95,7 +95,7 @@
 
  - **Information integration:** AI systems that integrate information globally
 - **Self-models:** AI systems that model their own processes
-- **Intentional behavior:** Goal-directed AI behavior
+- **Pattern-directed behavior:** AI behavior exhibiting consistent orientations
 - **Recursive processing:** AI systems that process their own outputs
 
 **Philosophical Implications**
@@ -103,6 +103,6 @@
  Life and cognition reveal:
 
  - **Emergent complexity:** Complex phenomena arise from simple pattern interactions
-- **Observer participation:** Conscious observers participate in creating reality
+- **Witness synchronization:** Conscious entities synchronize with independently cycling reality patterns
 - **Information fundamental:** Information processing underlies life and mind
 - **Continuity of nature:** No sharp boundary between living and non-living
