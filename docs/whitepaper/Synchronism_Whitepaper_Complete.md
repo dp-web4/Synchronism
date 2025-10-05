@@ -1,6 +1,6 @@
-# Synchronism: A Comprehensive Model of Reality
+# Synchronism: A Computational Framework for Pattern Dynamics
 
-**Unified Model of Reality Through Intent Dynamics**
+**Non-Anthropocentric Model of Reality (Working Draft)**
 
 
 ---
