@@ -421,7 +421,7 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synchronism: A Comprehensive Model of Reality</title>
+    <title>Synchronism: A Computational Framework for Pattern Dynamics</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -490,7 +490,7 @@ cat >> "$OUTPUT_DIR/index.html" << 'HTML'
         <!-- Main Content Area -->
         <main class="main-content">
             <header style="margin-bottom: 1.5rem; padding: 1rem 0; border-bottom: 2px solid var(--border-color);">
-                <h1 style="font-size: 1.8rem; margin-bottom: 0.25rem; padding-bottom: 0; border-bottom: none;">Synchronism: A Comprehensive Model of Reality</h1>
+                <h1 style="font-size: 1.8rem; margin-bottom: 0.25rem; padding-bottom: 0; border-bottom: none;">Synchronism: A Computational Framework for Pattern Dynamics</h1>
             </header>
             
             <!-- Content Sections (dynamically populated) -->

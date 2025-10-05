@@ -43,11 +43,11 @@ process_directory() {
 
 # Add title page
 cat > "$OUTPUT_FILE" << 'TITLE'
-# Synchronism: A Comprehensive Model of Reality
+# Synchronism: A Computational Framework for Pattern Dynamics
 
-**Unified Model of Reality Through Intent Dynamics**
+**Non-Anthropocentric Model of Reality (Working Draft)**
 
-Version: 0.24.09.28.11.00
+Version: 0.24.10.04.18.45
 
 ---
 
