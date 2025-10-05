@@ -1,25 +1,25 @@
 {
-  "last_content_hash": "69e04c90cc4f778fa326befe05067f0a51b6a83ed4b934bef1f304b6ab5c8c6d",
-  "last_build_check": "2025-08-23T12:41:33.350680",
+  "last_content_hash": "e3673e074de05fd531f594e0976aa6369aa3a2d74ffd667a821a83f08a2ab676",
+  "last_build_check": "2025-10-05T12:41:04.796783",
   "builds": [
     {
-      "timestamp": "2025-08-23T12:41:33.350836",
+      "timestamp": "2025-10-05T12:41:04.796951",
       "trigger": "fractal_file_changes",
       "formats": {
         "markdown": {
-          "success": false,
-          "message": "Build error: [Errno 2] No such file or directory: '/home/runner/work/Synchronism/Synchronism/whitepaper/make-md.sh'"
+          "success": true,
+          "message": "Built markdown: Synchronism_Whitepaper_Complete.md (215.3 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper_Complete.md"
         },
         "pdf": {
-          "success": false,
-          "message": "Build error: [Errno 2] No such file or directory: '/home/runner/work/Synchronism/Synchronism/whitepaper/make-pdf.sh'"
+          "success": true,
+          "message": "Built pdf: Synchronism_Whitepaper.pdf (287.3 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper.pdf"
         },
         "web": {
-          "success": false,
-          "message": "Build error: [Errno 2] No such file or directory: '/home/runner/work/Synchronism/Synchronism/whitepaper/make-web-clean.sh'"
+          "success": true,
+          "message": "Built web: web directory (12.6 KB index.html) - Web files in docs/whitepaper"
         }
       }
     }
   ],
-  "last_build": "2025-08-23T12:41:33.350836"
+  "last_build": "2025-10-05T12:41:04.796951"
 }
