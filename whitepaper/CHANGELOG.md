@@ -10,6 +10,24 @@ Only actual modifications to fractal files are logged here.
 
 ## 2025
 
+- [2025-10-04] [Brutal Honesty Pass] Sections 0-7, Appendix A - Comprehensive epistemic cleanup removing all grandiose claims (#brutal-honesty-001)
+  - **Executive Summary (0)**: Complete rewrite - removed "achieves unified understanding," added explicit limitations, changed from marketing to honest positioning
+  - **Hermetic Principles (3)**: Reframed from "validation/alignment" to "inspiration/reverse-engineering," heavy epistemic hedging
+  - **Fundamental Concepts (4.1-4.12)**: Removed all "Connection to Hermetic Principles" sections, emphasized computational abstractions
+  - **Unified Understanding (6.1)**: Complete rewrite - "impossible goal worth pursuing" vs. "achieved unification"
+  - **Scientific Inquiry (6.2)**: Complete rewrite - "alternative perspective" vs. "revolutionary transformation"
+  - **Ethical & Philosophical (6.3)**: Complete rewrite - ethics as experimental domain (Web4 testing) vs. metaphysical speculation
+  - **Open Questions (6.4)**: Reorganized by testability (testable/speculative/untestable), removed ontological assumptions
+  - **Conclusion (7)**: Complete rewrite - removed ALL spiritual/inspirational framing, pure epistemic honesty
+  - **Mathematical Appendix (A)**: Added epistemic status system (✅ Computational / ⚠️ Speculative / ❌ Failed), marked gravity model as failed, acknowledged IIT borrowing
+  - **Key Addition**: Web4 (https://dp-web4.github.io/web4/) positioned as concrete experimental validation path for coherence ethics
+  - **Final Line**: "All models are wrong. This one too. Let's find out how wrong."
+
+- [2025-10-04] [Content Enhancement] Introduction (1) - Added CRT and pendulum clock analogies (#analogies-001)
+  - CRT analogy: Measurement as synchronization timing (nothing about screen changes)
+  - Pendulum clock analogy: Instrument effects vs. reality (centrifuge time dilation thought experiment)
+  - Core insight: Measurements are real, predictions work, but what's measured might not be what we think
+
 - [2025-10-04] [Radical Paradigm Shift] Multiple Sections - Complete radicalization of Synchronism as non-anthropocentric framework (#radicalization-001)
   - Introduction: Geocentric vs heliocentric framing; all models are wrong principle; Intent as computational reification
   - Perspective: All knowledge systems (including science) as belief systems with anthropocentric axiom
