@@ -1,6 +1,8 @@
 ## 4.1 Universe as a Grid of Planck Cells
 
- Synchronism models the universe as an infinite three-dimensional grid of discrete cells. This concept provides a fundamental structure for understanding the nature of space and the interactions that occur within it.
+**Computational Abstraction**
+
+Synchronism models the universe as an infinite three-dimensional grid of discrete cells. This is a computational abstraction—not a claim about literal cells existing in reality, but a framework that makes pattern dynamics tractable for modeling and prediction.
 
 **Grid Structure**
 
@@ -8,7 +10,7 @@
 
  - Each cell is the size of a Planck length (approximately 1.616 × 10⁻³⁵ meters) in each dimension. The Planck length is theorized to be the smallest meaningful measurement of distance in the universe.
 - The grid extends infinitely in all directions, encompassing the entire universe.
-- Each cell contains a quantized amount of "[intent](#intent-transfer)," a fundamental quantized measure representing the basis of interaction—not energy, but the precursor to all observable effects.
+- Each cell contains a quantized amount of "[intent](#intent-transfer)," a computational abstraction representing pattern dynamics—not energy, but a reification enabling modeling of underlying forces.
 - The amount of intent in each cell is limited by a saturation maximum, beyond which no more intent can be added to that cell.
 
 **Mathematical Foundation**
@@ -22,23 +24,13 @@
 
  *See [Appendix A.1: Basic Intent Transfer](#appendix-a) for mathematical details.*
 
-**Connection to Hermetic Principles**
-
- The grid embodies several [Hermetic principles](#hermetic-principles):
-
- - **Mentalism:** Grid as vast neural network
-- **Correspondence:** Same structure across all scales
-- **Vibration:** Intent patterns create oscillations
-
 **Understanding Through Analogy**
 
  - **3D Cellular Automaton:** Like Conway's Game of Life in 3D
 - **Computer Memory:** Each cell stores and processes information
-- **Neural Network:** Cells communicate with neighbors
-- **Spacetime Fabric:** Grid provides the fabric of reality
+- **Neural Network:** Cells communicate with neighbors (structural analogy, not consciousness claim)
+- **Spacetime Fabric:** Grid provides computational substrate for modeling reality
 
-**Model as Framework**
+**Remember the Abstraction**
 
- This grid is an abstraction intended for modeling and understanding phenomena—it does not assert the existence of literal cells. Rather, it provides a predictive and interpretive framework for understanding how intent patterns create all observable reality.
-
- This grid model provides a discrete, quantized structure for the universe, allowing for the precise description of locations, interactions, and the transfer of intent between adjacent cells.
+The grid is a modeling tool—it enables computation and prediction without claiming literal discrete cells exist in reality. Like a coordinate system lets us do calculations without claiming reality has literal grid lines, the Planck cell grid makes pattern dynamics computable without asserting ontological discreteness.

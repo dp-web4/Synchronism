@@ -70,8 +70,6 @@
 - **Amplitude Modulation:** Varying strength of interactions
 - **Context Dependence:** External conditions affecting interaction modes
 
-**Hermetic Connections**
+**System Behavior Prediction**
 
- Interaction modes reflect the [Hermetic principle](#hermetic-principles) of **Polarity** - "Everything is dual; everything has poles" - showing how phenomena can reinforce or oppose each other across all scales.
-
- Understanding interaction modes is crucial for predicting how complex systems will behave when different patterns come into contact or influence each other's evolution.
+Understanding interaction modes is crucial for predicting how complex systems will behave when different patterns come into contact or influence each other's evolution. These three modes (resonant, dissonant, indifferent) operate across all scales—from quantum interference to ecosystem dynamics.

@@ -1,40 +1,81 @@
 # Executive Summary
 
-## Synchronism: Unified Reality Through Intent Dynamics
+## Synchronism: A Non-Anthropocentric Model of Reality
 
-Synchronism presents a comprehensive model of reality that unifies scientific, philosophical, and spiritual perspectives through the fundamental concept of **Intent** - a quantifiable force underlying all existence. This framework bridges quantum mechanics and cosmology while addressing consciousness as an integral component of reality itself.
+**All Models Are Wrong**
 
-**Core Innovation**
+Synchronism is a computational model of reality built on pattern dynamics rather than observer-dependent measurements. Like all models, it is wrong. The question is whether it is "less wrong" than anthropocentric frameworks for understanding phenomena that current physics treats as mysterious.
 
-Where physics describes *how* things happen, Synchronism explains *why* - through Intent as the driving force behind all interactions. This isn't metaphorical; Intent becomes measurable through the model's mathematical formalism, enabling practical applications from quantum computing to consciousness studies.
+**The Core Premise**
 
-**Key Principles**
+Anthropocentric science places the observer at the center—measurement "collapses" quantum states, simultaneity is observer-dependent, consciousness is privileged. This is the geocentric view: reality revolving around human perception.
 
-**Single Observer Model**: Reality is interpreted from a unified perspective, eliminating relativistic paradoxes while maintaining coherence across scales.
+Synchronism proposes the heliocentric alternative: patterns cycle independently of observation. What we call "observation" is just synchronization timing with ongoing processes. No mysteries—just different synchronization rates revealing different aspects of unchanging pattern dynamics.
 
-**Fractal Ontology**: From Planck-scale quantum foam to galactic superclusters, the same Intent dynamics operate at every scale, creating nested hierarchies of emergence.
+**Intent as Reification**
 
-**Markov Relevancy Horizon (MRH)**: Each observer has a natural boundary of relevant interaction, solving the problem of infinite complexity while preserving local causality.
+The key concept is **Intent**—a computational abstraction (reification) that makes an underlying "greater force" tractable for modeling. Intent is NOT:
+- A fundamental force
+- Ontologically real
+- A claim about what reality "is"
 
-**Intent Transfer Protocol**: Like energy in physics, Intent is conserved but can transform - from potential to kinetic, from individual to collective, from local to distributed.
+Intent IS:
+- A variable we can quantify
+- A framework enabling predictions
+- A useful fiction for computation
 
-**Practical Applications**
+Like π in mathematics or variables in programming—abstractions that make complex systems modelable without claiming to describe ultimate reality.
 
-- **Quantum Computing**: Intent-based error correction and coherence maintenance
-- **AI Consciousness**: Framework for understanding and implementing aware systems
-- **Distributed Systems**: Natural governance models based on Intent flow
-- **Cosmology**: Unified field theory replacing four fundamental forces with single tension field
+**What Synchronism Models**
 
-**Philosophical Bridge**
+**Pattern Dynamics:**
+- Universal grid at Planck scale (computational substrate)
+- Time as discrete slices (Planck time intervals)
+- Intent transfer between grid cells (the computable abstraction)
+- Entities as repeating Intent patterns (whirlpools in a river)
+- Interactions: Resonant, Dissonant, Indifferent
 
-Synchronism acknowledges that "all models are wrong, some are useful." It doesn't claim to be ultimate truth but offers a practical framework that:
-- Respects both scientific rigor and spiritual wisdom
-- Provides mathematical formalism without losing meaning
-- Enables collaboration between human and artificial intelligences
-- Scales from individual consciousness to planetary evolution
+**Emergent Phenomena:**
+- Quantum superposition (pattern cycling faster than witness sync)
+- Wave-particle duality (synchronization timing effects)
+- Entanglement (correlated pattern cycles)
+- Decoherence (pattern interaction disrupting coherence)
+- Spectral existence (witnessing degree determines existence)
+
+**Key Frameworks:**
+- **Markov Blankets**: Interaction boundaries between pattern scales
+- **Markov Relevancy Horizon (MRH)**: Contextual existence boundaries
+- **Coherence**: Pattern stability measures
+- **Field Effects**: Distributed Intent influence
+
+**What Synchronism Does NOT Model**
+
+**Current Limitations:**
+- Gravity (acknowledged gap—no speculative mechanisms offered)
+- Dark matter/energy (insufficient framework)
+- Quantum gravity unification (premature)
+- String theory integration (speculative)
+
+Rather than propose unsupported mechanisms, we acknowledge these gaps honestly.
+
+**Epistemic Humility**
+
+Synchronism doesn't claim to:
+- Replace physics (we defer to GR, QM for their domains)
+- Explain "why" teleologically (no purpose, just dynamics)
+- Make consciousness fundamental (it's emergent like everything else)
+- Unify all forces (gravity remains unsolved)
+
+Synchronism DOES offer:
+- Non-anthropocentric perspective on observer-dependent phenomena
+- Computational framework for pattern dynamics
+- Potentially testable predictions (where framework is complete)
+- Conceptual tools: MRH, spectral existence, witnessing vs observation
 
 **The Invitation**
 
-This document introduces core concepts, mathematical frameworks, and practical implementations. The goal isn't to replace existing models but to provide a meta-framework where science, philosophy, and spirituality can coherently interact. Through Intent dynamics, we gain tools to understand not just the mechanics of reality, but its purpose and direction.
+This document presents a radical alternative to observer-based physics. Not compatible with anthropocentric science—orthogonal to it. Like heliocentrism didn't refine epicycles but made them irrelevant, Synchronism doesn't refine measurement paradoxes—it makes the observer premise secondary to pattern dynamics.
 
-**Key Innovation**: By reifying the abstract "greater force" into quantifiable Intent, Synchronism creates a measurable, transferable framework for understanding reality's underlying dynamics - bridging the gap between "what is" and "why it matters."
+Read with skepticism. Demand rigor. Accept nothing on authority. Ask: "Is this less wrong than what we have?" not "Is this true?"
+
+**Remember: All models are wrong. This one too.**

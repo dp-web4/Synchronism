@@ -58,7 +58,7 @@ Think of Intent as a variable in a computer program: it represents something dee
 
 **Scope and Purpose**
 
-Synchronism proposes a non-anthropocentric foundation from which quantum mechanics, relativity, consciousness, and other phenomena emerge as observer-dependent interpretations. It is comprehensive in scope but acknowledges its status as a model—a useful fiction that may be "less wrong" than anthropocentric frameworks for certain mysteries.
+Synchronism proposes a non-anthropocentric foundation from which quantum mechanics, relativity, consciousness, and other phenomena emerge as observer-dependent interpretations. It is broad but incomplete, acknowledging its status as a model—a useful fiction that may be "less wrong" than anthropocentric frameworks for certain mysteries.
 
 **Beyond Multiple Observers**
 
@@ -76,9 +76,9 @@ Synchronism's single-frame approach is a modeling choice for computational tract
 
 **Limitations and Perspectives**
 
- The limitations of individual perspectives, as highlighted in the parable of the blind men and the elephant, underscore the need for a comprehensive model like Synchronism that strives for a holistic understanding of reality. However, Synchronism acknowledges the practical usefulness of limited-perspective analysis.
+Individual perspectives are inherently limited—as illustrated by the parable of the blind men and the elephant. Synchronism offers conceptual tools for reasoning across scales and perspectives without claiming to achieve complete understanding.
 
- This is addressed with concepts like [Markov Relevancy Horizon](#mrh), [Abstraction](#abstraction), [Witness](#witness-effect) and Experience as part of the Synchronism model. These tools are not replacements for traditional scientific methods but extensions that accommodate multi-scale coherence and fractal analysis.
+Key concepts like [Markov Relevancy Horizon](#mrh), [Abstraction](#abstraction), and [Witness](#witness-effect) provide frameworks for analyzing pattern dynamics at different scales. These are modeling tools, not replacements for empirical science—they complement measurement-based physics by offering a non-anthropocentric interpretive layer.
 
 **Mathematical Formalism**
 

@@ -1,10 +1,10 @@
 ## 4.2 Time as Planck-Timed Slices
 
- In the Synchronism model, time is not merely a backdrop or a dimension in which events unfold but is the fundamental substrate of reality itself. Time progresses as a series of discrete moments or "ticks," each representing the transition of the universe from one state to the next. This quantization of time provides not only a framework for understanding how the universe evolves but also suggests that time is the medium through which all phenomena are manifested, with each tick bringing forth a new slice of reality.
+**Computational Time Model**
 
-**Time as Fundamental Substrate**
+In Synchronism, time is modeled as a series of discrete computational steps or "ticks"—each representing a state transition in the pattern dynamics. This is a modeling choice for tractability, not a claim about time's ontological nature.
 
- This perspective emphasizes that time is the driving force behind all existence, with every entity and event being a ripple within this time substrate. The cessation of time, therefore, implies a cessation of all existence, as nothing can manifest without the passage of time. Time is the universal "Mind" that governs and sustains the universe's evolution, aligning with the Hermetic principle that "The All is Mind."
+Think of it like frame updates in a simulation: each tick advances the universe state by one computational cycle. Whether reality "actually" operates this way remains unknown—but discrete time makes the model computable.
 
 **Discrete Time Model**
 
@@ -22,11 +22,9 @@
 - **Deterministic Evolution:** Future states determined by current state
 - **Conservation Laws:** Total intent preserved across transitions
 
-**Philosophical Implications**
+**Determinism Note**
 
-**Determinism and Free Will**
-
- While each slice is determined by the preceding one, the universe is deterministic in structure but probabilistic in experience, since the universe cannot predict its next state until it "lives" it.
+The model uses deterministic state transitions: U(t+1) = F(U(t)). Each state follows from the previous state according to Intent transfer rules. This doesn't make metaphysical claims about "free will"—it's simply how the computational model operates.
 
 **Understanding Through Analogies**
 

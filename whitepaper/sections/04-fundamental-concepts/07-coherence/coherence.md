@@ -62,8 +62,6 @@
 - **Consciousness:** Coherent neural patterns creating awareness
 - **Ecosystems:** Coherent interactions maintaining ecological balance
 
-**Hermetic Connections**
+**Dynamic Stability**
 
- Coherence embodies the [Hermetic principle](#hermetic-principles) of **Rhythm** - "Everything flows, out and in" - showing how patterns maintain stability through dynamic equilibrium and adaptive feedback.
-
- Understanding coherence and feedback is essential for explaining how complex systems maintain their identity while continuously evolving and adapting to their environment.
+Understanding coherence and feedback is essential for explaining how complex systems maintain their identity while continuously evolving and adapting to their environment. Coherence is the measure of pattern stability through dynamic equilibrium—not static persistence, but cyclical repetition with adaptive feedback.

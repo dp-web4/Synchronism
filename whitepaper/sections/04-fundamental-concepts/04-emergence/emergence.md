@@ -69,8 +69,6 @@ Entities are the same: persistent patterns of Intent transfer that other pattern
 - **Weather:** Emerges from atmospheric pattern dynamics
 - **Galaxies:** Emerge from gravitational pattern formation
 
-**Hermetic Connections**
+**Fractal Pattern Dynamics**
 
- Emergence reflects the [Hermetic principle](#hermetic-principles) of **Correspondence** - "As above, so below" - showing how similar patterns and processes manifest across all scales of reality. This reflects fractal behavior in intent propagation—macro patterns mirror micro not due to mystical cause, but through shared coherence rules operating at every scale.
-
- Understanding emergence helps explain how the universe generates the rich complexity we observe, from fundamental particles to conscious beings, all following the same underlying principles of intent transfer and pattern formation.
+Understanding emergence helps explain how the universe generates the rich complexity we observe, from fundamental particles to conscious beings, all following the same underlying principles of Intent transfer and pattern formation. Macro patterns mirror micro patterns not due to mystical correspondence, but through shared coherence rules operating at every scale.

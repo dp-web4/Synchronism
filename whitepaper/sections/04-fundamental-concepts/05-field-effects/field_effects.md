@@ -67,8 +67,6 @@
 - **Field Shielding:** Intent concentration patterns can block certain depletion patterns but not others
 - **Action at a Distance:** Depletion patterns provide the medium for instantaneous field effects
 
-**Hermetic Connections**
+**Wave-Particle Unity**
 
- The depletion-concentration duality embodies the [Hermetic principle](#hermetic-principles) of **Polarity** - "Everything is dual; everything has poles; everything has its pair of opposites." Fields and matter are not separate phenomena but complementary aspects of the same underlying cyclical intent transfer dynamics.
-
- This depletion model elegantly explains why fields exhibit both wave-like propagation and particle-like interactions, why some fields affect all matter while others are selective, and how gravitational effects emerge naturally from the concentration-depletion wave dynamics inherent in intent transfer.
+Fields and matter are not separate phenomena but complementary aspects of the same underlying cyclical Intent transfer dynamics. The depletion model explains why fields exhibit both wave-like propagation and particle-like interactions, why some fields affect all matter while others are selective, and how gravitational effects might emerge from concentration-depletion wave dynamics inherent in Intent transfer.

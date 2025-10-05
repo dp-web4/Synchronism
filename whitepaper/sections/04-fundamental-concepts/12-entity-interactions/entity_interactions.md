@@ -91,8 +91,6 @@ Same principles, different scales.
 
  Entity interactions may be fundamental to consciousness emergence. The complex interplay between neural entities (neurons, neural circuits) through their interaction effects might give rise to the unified experience of consciousness that transcends individual components.
 
-**Connection to Hermetic Principles**
+**Emergent Complexity**
 
- Entity interactions embody the [Hermetic principle](#hermetic-principles) of **Gender** - the generative-discriminative duality that drives evolution and adaptation through the interplay of entities proposing new patterns and evaluating existing ones.
-
- Understanding entity interaction effects is crucial for comprehending how complex systems self-organize, evolve, and give rise to emergent properties that cannot be understood by studying individual components in isolation.
+Understanding entity interaction effects is crucial for comprehending how complex systems self-organize, evolve, and give rise to emergent properties that cannot be understood by studying individual components in isolation. The interplay between entities creates the generative-discriminative dynamics that drive pattern evolution and adaptation.

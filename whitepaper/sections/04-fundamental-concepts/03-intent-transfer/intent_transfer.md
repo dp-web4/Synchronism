@@ -1,6 +1,6 @@
 ## 4.3 Intent Transfer and Tension
 
- Intent transfer is the fundamental mechanism that drives all phenomena in the Synchronism model. Intent is not a substance but a directed probability influence—it is a reification of the force that governs transitions. It represents the movement of intent between adjacent cells in the universal grid, creating the dynamic interactions that manifest as everything from quantum effects to cosmic phenomena.
+Intent transfer is the core computational mechanism in the Synchronism model. It represents the movement of Intent (the reified abstraction) between adjacent cells in the universal grid, creating the pattern dynamics that we model as everything from quantum effects to cosmic phenomena.
 
 **Intent: Reification for Computational Tractability**
 
@@ -58,9 +58,9 @@ Intent is a useful fiction. It makes the model computable. It generates predicti
 
 **Definition of Pattern Stability**
 
- In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
+In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
 
- This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their programmed cycles. This embodies the [Hermetic principle of Vibration](#hermetic-principles): "Nothing rests; everything moves and vibrates."
+This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their cyclic updates.
 
 **Emergent Phenomena**
 
@@ -78,8 +78,6 @@ Intent is a useful fiction. It makes the model computable. It generates predicti
 - **Pressure Waves:** Intent patterns propagate as waves
 - **Thermal Diffusion:** Intent spreads to reduce concentration gradients
 
-**Connection to Hermetic Principles**
+**Scale Invariance**
 
- Intent transfer embodies the [Hermetic principle](#hermetic-principles) of **Mentalism** - the universe as a vast pattern processing network where intent flows between cells, creating the physical manifestations we observe through purely mechanical dynamics.
-
- This fundamental process creates the substrate from which all complexity emerges, from the simplest quantum interactions to the most elaborate cosmic structures. These mechanics are not limited to any single scale—the same rules apply fractally, from quantum coherence to galactic formation. All transfers are meaningful only in the context of a witness pattern (entity)—there is no change without interaction.
+This fundamental process creates the substrate from which all complexity emerges, from the simplest quantum interactions to the most elaborate cosmic structures. These mechanics are not limited to any single scale—the same rules apply fractally, from quantum coherence to galactic formation. All transfers are meaningful only in the context of a witness pattern (entity)—there is no change without interaction.
