@@ -120,9 +120,10 @@ PYTHON_SCRIPT
 
 echo "Generating PDF..."
 
-# Generate PDF with pandoc (matching web4 approach exactly)
+# Generate PDF with pandoc
+# Using markdown-compact_definition_lists to ensure proper list spacing
 pandoc "$TEMP_MD" -o "$PDF_FILE" \
-    --from markdown+raw_tex \
+    --from markdown+raw_tex-compact_definition_lists \
     --to pdf \
     --pdf-engine=xelatex \
     --toc-depth=2 \

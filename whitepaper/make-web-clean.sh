@@ -351,9 +351,10 @@ echo "  ✓ Created CSS file"
 md_to_html() {
     local input=$1
     local output=$2
-    
+
     if command -v pandoc &> /dev/null; then
-        pandoc "$input" -f markdown -t html5 --no-highlight -o "$output" 2>/dev/null
+        # Using markdown-compact_definition_lists to ensure proper list spacing
+        pandoc "$input" -f markdown-compact_definition_lists -t html5 --no-highlight -o "$output" 2>/dev/null
     else
         # Fallback: basic conversion
         echo "<div class='content-section'>" > "$output"
