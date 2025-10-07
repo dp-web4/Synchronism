@@ -1,10 +1,14 @@
-## 4.4 Entities as Repeating Patterns
+## 4.4 Emergence
 
-**What Are Entities?**
+**Foundational Concept**
+
+Emergence is a foundational concept in Synchronism: entities come to exist through emergent processes, not as pre-existing "things." The apparent stability of an entity's existence arises through coherence—the continuous reinforcement of repeating Intent patterns.
+
+**Entities as Emergent Patterns**
 
 Entities are patterns of Intent transfer that repeat substantially the same cycles over long sequences. Like whirlpools in a river—they only "exist" as patterns of interaction with other entities.
 
-An entity is NOT a thing. It's a repeating pattern. Remove the pattern repetition, the entity ceases to exist.
+An entity is NOT a thing. It's an emergent repeating pattern. Remove the pattern repetition, the entity ceases to exist.
 
 **Pattern Repetition as Existence**
 
