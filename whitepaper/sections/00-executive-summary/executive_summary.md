@@ -14,12 +14,16 @@ Synchronism proposes the heliocentric alternative: patterns cycle independently 
 
 **Intent as Reification**
 
-The key concept is **Intent**—a computational abstraction (reification) that makes an underlying "greater force" tractable for modeling. Intent is NOT:
+The key concept is **Intent**—a computational abstraction (reification) that makes an underlying "greater force" tractable for modeling.
+
+**Intent is NOT:**
+
 - A fundamental force
 - Ontologically real
 - A claim about what reality "is"
 
-Intent IS:
+**Intent IS:**
+
 - A variable we can quantify
 - A framework enabling predictions
 - A useful fiction for computation
@@ -29,6 +33,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 **What Synchronism Models**
 
 **Pattern Dynamics:**
+
 - Universal grid at Planck scale (computational substrate)
 - Time as discrete slices (Planck time intervals)
 - Intent transfer between grid cells (the computable abstraction)
@@ -36,6 +41,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 - Interactions: Resonant, Dissonant, Indifferent
 
 **Emergent Phenomena:**
+
 - Quantum superposition (pattern cycling faster than witness sync)
 - Wave-particle duality (synchronization timing effects)
 - Entanglement (correlated pattern cycles)
@@ -43,6 +49,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 - Spectral existence (witnessing degree determines existence)
 
 **Key Frameworks:**
+
 - **Markov Blankets**: Interaction boundaries between pattern scales
 - **Markov Relevancy Horizon (MRH)**: Contextual existence boundaries
 - **Coherence**: Pattern stability measures
@@ -51,6 +58,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 **What Synchronism Does NOT Model**
 
 **Current Limitations:**
+
 - Gravity (acknowledged gap—no speculative mechanisms offered)
 - Dark matter/energy (insufficient framework)
 - Quantum gravity unification (premature)
@@ -61,12 +69,14 @@ Rather than propose unsupported mechanisms, we acknowledge these gaps honestly.
 **Epistemic Humility**
 
 Synchronism doesn't claim to:
+
 - Replace physics (we defer to GR, QM for their domains)
 - Explain "why" teleologically (no purpose, just dynamics)
 - Make consciousness fundamental (it's emergent like everything else)
 - Unify all forces (gravity remains unsolved)
 
 Synchronism DOES offer:
+
 - Non-anthropocentric perspective on observer-dependent phenomena
 - Computational framework for pattern dynamics
 - Potentially testable predictions (where framework is complete)
