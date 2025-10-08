@@ -21,12 +21,16 @@ Synchronism proposes the heliocentric alternative: patterns cycle independently 
 
 **Intent as Reification**
 
-The key concept is **Intent**—a computational abstraction (reification) that makes an underlying "greater force" tractable for modeling. Intent is NOT:
+The key concept is **Intent**—a computational abstraction (reification) that makes an underlying "greater force" tractable for modeling.
+
+**Intent is NOT:**
+
 - A fundamental force
 - Ontologically real
 - A claim about what reality "is"
 
-Intent IS:
+**Intent IS:**
+
 - A variable we can quantify
 - A framework enabling predictions
 - A useful fiction for computation
@@ -36,6 +40,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 **What Synchronism Models**
 
 **Pattern Dynamics:**
+
 - Universal grid at Planck scale (computational substrate)
 - Time as discrete slices (Planck time intervals)
 - Intent transfer between grid cells (the computable abstraction)
@@ -43,6 +48,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 - Interactions: Resonant, Dissonant, Indifferent
 
 **Emergent Phenomena:**
+
 - Quantum superposition (pattern cycling faster than witness sync)
 - Wave-particle duality (synchronization timing effects)
 - Entanglement (correlated pattern cycles)
@@ -50,6 +56,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 - Spectral existence (witnessing degree determines existence)
 
 **Key Frameworks:**
+
 - **Markov Blankets**: Interaction boundaries between pattern scales
 - **Markov Relevancy Horizon (MRH)**: Contextual existence boundaries
 - **Coherence**: Pattern stability measures
@@ -58,6 +65,7 @@ Like π in mathematics or variables in programming—abstractions that make comp
 **What Synchronism Does NOT Model**
 
 **Current Limitations:**
+
 - Gravity (acknowledged gap—no speculative mechanisms offered)
 - Dark matter/energy (insufficient framework)
 - Quantum gravity unification (premature)
@@ -68,12 +76,14 @@ Rather than propose unsupported mechanisms, we acknowledge these gaps honestly.
 **Epistemic Humility**
 
 Synchronism doesn't claim to:
+
 - Replace physics (we defer to GR, QM for their domains)
 - Explain "why" teleologically (no purpose, just dynamics)
 - Make consciousness fundamental (it's emergent like everything else)
 - Unify all forces (gravity remains unsolved)
 
 Synchronism DOES offer:
+
 - Non-anthropocentric perspective on observer-dependent phenomena
 - Computational framework for pattern dynamics
 - Potentially testable predictions (where framework is complete)
@@ -446,13 +456,17 @@ This stability is therefore a dynamic, cyclical phenomenon rather than a static 
 This fundamental process creates the substrate from which all complexity emerges, from the simplest quantum interactions to the most elaborate cosmic structures. These mechanics are not limited to any single scale—the same rules apply fractally, from quantum coherence to galactic formation. All transfers are meaningful only in the context of a witness pattern (entity)—there is no change without interaction.
 
 
-## 4.4 Entities as Repeating Patterns
+## 4.4 Emergence
 
-**What Are Entities?**
+**Foundational Concept**
+
+Emergence is a foundational concept in Synchronism: entities come to exist through emergent processes, not as pre-existing "things." The apparent stability of an entity's existence arises through coherence—the continuous reinforcement of repeating Intent patterns.
+
+**Entities as Emergent Patterns**
 
 Entities are patterns of Intent transfer that repeat substantially the same cycles over long sequences. Like whirlpools in a river—they only "exist" as patterns of interaction with other entities.
 
-An entity is NOT a thing. It's a repeating pattern. Remove the pattern repetition, the entity ceases to exist.
+An entity is NOT a thing. It's an emergent repeating pattern. Remove the pattern repetition, the entity ceases to exist.
 
 **Pattern Repetition as Existence**
 

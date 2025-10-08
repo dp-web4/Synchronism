@@ -1,18 +1,18 @@
 {
-  "last_content_hash": "e3673e074de05fd531f594e0976aa6369aa3a2d74ffd667a821a83f08a2ab676",
-  "last_build_check": "2025-10-05T12:41:04.796783",
+  "last_content_hash": "e5a1b100caa1aba925b587f40ce0f3f0bb5604d47590ce90598294b54f34f451",
+  "last_build_check": "2025-10-08T12:45:04.189923",
   "builds": [
     {
-      "timestamp": "2025-10-05T12:41:04.796951",
+      "timestamp": "2025-10-08T12:45:04.190117",
       "trigger": "fractal_file_changes",
       "formats": {
         "markdown": {
           "success": true,
-          "message": "Built markdown: Synchronism_Whitepaper_Complete.md (215.3 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper_Complete.md"
+          "message": "Built markdown: Synchronism_Whitepaper_Complete.md (215.6 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper_Complete.md"
         },
         "pdf": {
           "success": true,
-          "message": "Built pdf: Synchronism_Whitepaper.pdf (287.3 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper.pdf"
+          "message": "Built pdf: Synchronism_Whitepaper.pdf (287.8 KB) - Copied to docs/whitepaper/Synchronism_Whitepaper.pdf"
         },
         "web": {
           "success": true,
@@ -21,5 +21,5 @@
       }
     }
   ],
-  "last_build": "2025-10-05T12:41:04.796951"
+  "last_build": "2025-10-08T12:45:04.190117"
 }
