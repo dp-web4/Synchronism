@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-10-10T12:46:10.688731",
+  "total_reviews": 0,
+  "reviews_by_scale": {
+    "quantum": 0,
+    "molecular": 0,
+    "biospheric": 0,
+    "planetary": 0,
+    "galactic": 0
+  },
+  "reviews_by_type": {
+    "human": 0,
+    "ai": 0
+  },
+  "pending_reviews": 0,
+  "review_recommendations": {
+    "accept": 0,
+    "revise": 0,
+    "reject": 0,
+    "neutral": 0
+  }
+}
