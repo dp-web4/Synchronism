@@ -40,21 +40,48 @@ Intent is a useful fiction. It makes the model computable. It generates predicti
 
 **Fundamental Mechanism**
 
- Intent transfer operates according to several key principles:
+Intent transfer operates according to several key principles:
 
- - **Adjacent Cell Transfer:** Intent can only move between directly adjacent cells in the grid
+- **Adjacent Cell Transfer:** Intent can only move between directly adjacent cells in the grid
 - **Conservation:** Total intent in the universe remains constant
-- **Tension Gradients:** Intent flows from areas of higher concentration to lower concentration
-- **Quantized Transfer:** Intent moves in discrete, quantized amounts
+- **Gradient Driving:** Intent flows from areas of higher concentration to lower concentration
+- **Saturation Resistance:** Transfer rate decreases as destination cell approaches I_max
+- **Quantized Transfer:** Intent moves in discrete, quantized amounts per time slice
 
-**Transfer Mechanics**
+**Transfer Mechanics with Saturation**
 
- The transfer of intent creates "tension" in the grid - areas where intent concentration differs between adjacent cells. This tension drives the fundamental dynamics of reality:
+The transfer of Intent creates "tension" in the grid—areas where Intent concentration differs between adjacent cells. But unlike simple diffusion, **saturation resistance fundamentally alters transfer dynamics**:
 
- - **Intent Gradient:** Difference in intent levels between adjacent cells
-- **Transfer Rate:** Proportional to the intent gradient
-- **Coherence Patterns:** Transfer patterns favor locally stable configurations but may retain global tension for higher-scale coherence
-- **Pattern Formation:** Stable configurations emerge from transfer dynamics
+**Basic Transfer Equation:**
+```
+Transfer_rate = k × ∇I × R(I_dest)
+```
+
+Where:
+- `k` = base transfer coefficient
+- `∇I` = Intent gradient between cells
+- `R(I_dest)` = resistance function of destination cell saturation
+
+**Resistance Function:**
+As destination cell Intent approaches saturation maximum:
+```
+R(I) = [1 - (I/I_max)^n]
+```
+
+Where `n` determines how rapidly resistance increases near saturation.
+
+**Key Properties:**
+- `R(I) ≈ 1` when `I << I_max` (minimal resistance, free transfer)
+- `R(I) → 0` as `I → I_max` (extreme resistance, transfer blocked)
+- Creates nonlinear diffusion that supports standing waves
+
+**Transfer Dynamics:**
+
+- **Intent Gradient:** Difference in Intent levels between adjacent cells drives transfer direction
+- **Saturation Pressure:** High-saturation cells resist accepting more Intent
+- **Dynamic Equilibrium:** Patterns form where inflow balances outflow through saturation resistance
+- **Standing Waves:** Saturation enables Intent to cycle through cells without dissipating
+- **Pattern Stability:** Entities maintain coherence through saturation-limited transfer
 
 **Definition of Pattern Stability**
 
@@ -62,14 +89,31 @@ In Synchronism, a pattern is considered "stable" when its intent distribution re
 
 This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their cyclic updates.
 
+**Why Saturation Matters for Transfer**
+
+Without saturation resistance, Intent transfer would be simple linear diffusion—concentrations would dissipate immediately. With saturation:
+
+**Stable Concentrations Possible:**
+High-Intent regions resist accepting more → creates persistent gradients → enables entity formation
+
+**Standing Waves Form:**
+Intent cycles through saturated cells at characteristic frequencies → creates stable repeating patterns → the basis of all entities
+
+**Multiple Equilibria:**
+Different saturation levels support different pattern types → explains diversity of matter forms → quantum particles to macroscopic objects
+
+**Field Effects Emerge:**
+Saturation gradients around stable patterns → other patterns experience directional transfer bias → appears as "force" or "field"
+
 **Emergent Phenomena**
 
- Intent transfer gives rise to all observable phenomena:
+Intent transfer with saturation gives rise to all observable phenomena:
 
- - **Matter:** Stable patterns of intent concentration
-- **Energy:** Energy is not a substance but an emergent measure of the rate and scale of intent transitions
-- **Forces:** Directed patterns of intent flow
-- **Fields:** Fields are collective expressions of long-range coherence, manifesting as stable directional preferences for intent transfer
+- **Matter:** Stable patterns of Intent concentration maintained by saturation resistance
+- **Energy:** Emergent measure of Intent transfer rate and saturation cycling frequency
+- **Forces:** Directional Intent transfer bias created by saturation gradients
+- **Fields:** Saturation gradient envelopes around matter concentrations
+- **Particles:** Quantized standing wave modes in saturated regions
 
 **Understanding Through Analogy**
 

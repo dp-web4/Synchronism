@@ -24,7 +24,8 @@ These are computational conveniences, not ontological claims.
 
 ---
 
-**✅ A.1 Basic Intent Transfer**
+**✅ A.1 Basic Intent Transfer
+**
 
 **Intent Update Rule:**
 
@@ -41,7 +42,8 @@ Where:
 
 ---
 
-**✅ A.2 Coherence Measure**
+**✅ A.2 Coherence Measure
+**
 
 **Pattern Coherence:**
 
@@ -56,25 +58,107 @@ Where:
 
 **Status:** Testable metric. Web4 experiments will determine if this correlates with useful outcomes.
 
----
+**✅ A.3 Saturation Dynamics**
 
-**✅ A.3 Saturation Effects**
+**Fundamental Mechanism for Pattern Stability**
 
-**Cell Overflow:**
+Saturation is THE foundational mechanism enabling stable patterns in Synchronism. This appendix provides mathematical framework for saturation resistance and resulting nonlinear dynamics.
+
+**Saturation Maximum:**
+```
+I_max = maximum Intent per cell
+```
+
+**Fundamental parameter of the model.** Not arbitrary—represents physical limit on Intent concentration density.
+
+**Resistance Function:**
+
+Intent transfer rate depends on destination cell saturation:
+```
+R(I) = [1 - (I/I_max)^n]
+```
+
+Where:
+- `I` = current Intent in destination cell
+- `I_max` = saturation maximum
+- `n` = resistance exponent (determines sharpness)
+
+**Properties:**
+- `R(0) = 1` (no resistance when cell empty)
+- `R(I_max) = 0` (infinite resistance at saturation)
+- `R(I)` decreases monotonically as `I → I_max`
+
+**Transfer Equation with Saturation:**
 
 ```
-If I(x,y,z,t) > I_max:
-    Overflow = I(x,y,z,t) - I_max
-    T_overflow = Overflow / N_adjacent
+∂I/∂t = ∇ · [D(I) × ∇I]
 ```
 
-Where `N_adjacent` = number of neighboring cells.
+Where saturation-dependent diffusion coefficient:
+```
+D(I) = D₀ × R(I) = D₀ × [1 - (I/I_max)^n]
+```
 
-**Status:** Computational constraint preventing unbounded Intent accumulation. Arbitrary but necessary for stable simulation.
+**This is nonlinear diffusion equation**—well-studied in physics and known to support stable localized patterns (solitons), standing waves, and discrete quantized modes.
+
+**Why This Enables Patterns:**
+
+Without saturation (linear diffusion): All concentrations dissipate exponentially. No stable patterns possible.
+
+With saturation (nonlinear): Self-limiting behavior creates stable equilibria. Patterns can persist.
+
+**Field Gradient Mathematics:**
+
+Gradient field around saturated core:
+```
+Φ(r) = I(r) - I_baseline
+```
+
+For point-like source with total Intent M:
+```
+Φ(r) ∝ M/r
+```
+
+Transfer bias (apparent force):
+```
+F_apparent = -∇Φ(r) ∝ M/r²
+```
+
+Inverse-square law emerges naturally from 3D spherical geometry.
+
+**Computational Implementation:**
+
+Discrete grid update:
+```
+I(x,y,z, t+Δt) = I(x,y,z,t) + Δt × Σ[neighbors] k × [I_n - I] × R(I)
+```
+
+If update exceeds I_max:
+```
+I_new = min(I_computed, I_max)
+Overflow → redistribute to neighbors
+```
+
+**Parameter Relationships:**
+
+If I_max is fundamental constant, dimensional analysis suggests:
+```
+I_max ~ ℏc/L_planck ~ 10^-8 J/m
+G ~ (D₀ × L_planck²) / I_max
+```
+
+**Can potentially calculate G from grid parameters.**
+
+**Status:** Fundamental mechanism (not computational convenience). Enables pattern stability, explains field effects, potentially unifies forces.
+
 
 ---
 
-**✅ A.4 Pattern Period Detection**
+
+---
+
+**✅ A.4 Pattern Period Detection
+**
 
 **Cyclic Pattern Identification:**
 
@@ -87,7 +171,8 @@ Pattern period = minimum T where P(T) = 1
 
 ---
 
-**✅ A.5 Field Gradient**
+**✅ A.5 Field Gradient
+**
 
 **Intent Gradient (Tension Field):**
 
@@ -102,7 +187,8 @@ Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|
 
 ---
 
-**⚠️ A.6 Synchronization Quality**
+**⚠️ A.6 Synchronization Quality
+**
 
 **Phase Correlation:**
 
@@ -118,7 +204,8 @@ Where:
 
 ---
 
-**⚠️ A.7 Decoherence Rate**
+**⚠️ A.7 Decoherence Rate
+**
 
 **Exponential Decoherence:**
 
@@ -136,7 +223,8 @@ Where:
 
 ---
 
-**⚠️ A.8 Markov Relevancy Horizon**
+**⚠️ A.8 Markov Relevancy Horizon
+**
 
 **MRH Radius (Speculative):**
 
@@ -154,7 +242,8 @@ Where:
 
 ---
 
-**⚠️ A.9 Emergence Threshold**
+**⚠️ A.9 Emergence Threshold
+**
 
 **Emergence Function:**
 
@@ -170,7 +259,8 @@ Where emergence occurs when `E(System) > E_threshold`.
 
 ---
 
-**⚠️ A.10 Quantum Correspondence**
+**⚠️ A.10 Quantum Correspondence
+**
 
 **Wavefunction Mapping:**
 
@@ -188,7 +278,8 @@ Where:
 
 ---
 
-**⚠️ A.11 Universal Constants**
+**⚠️ A.11 Universal Constants
+**
 
 **Dimensional Relationships:**
 
@@ -207,7 +298,8 @@ c = L_cell / T_slice ≈ 3 × 10⁸ m/s (speed of light)
 
 ---
 
-**❌ A.12 Gravity Model (FAILED)**
+**❌ A.12 Gravity Model (FAILED)
+**
 
 **Attempted Gravitational Formulation:**
 
@@ -221,7 +313,8 @@ g = -∇(I_density × G_sync)
 
 ---
 
-**❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)**
+**❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)
+**
 
 **Integrated Information (Φ):**
 
@@ -237,7 +330,8 @@ g = -∇(I_density × G_sync)
 
 ---
 
-**✅ A.14 Master Equation (Incomplete)**
+**✅ A.14 Master Equation (Incomplete)
+**
 
 **System Dynamics:**
 
@@ -254,7 +348,8 @@ Where:
 
 ---
 
-**✅ A.15 Computational Implementation**
+**✅ A.15 Computational Implementation
+**
 
 **Simulation Guidelines:**
 
