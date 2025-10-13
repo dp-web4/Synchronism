@@ -30,6 +30,31 @@ The key concept is **Intent**—a computational abstraction (reification) that m
 
 Like π in mathematics or variables in programming—abstractions that make complex systems modelable without claiming to describe ultimate reality.
 
+**Saturation: The Missing Piece**
+
+Here's the problem with pattern dynamics: **why don't patterns dissipate?**
+
+If Intent flows down gradients (from high to low concentration), any concentration should immediately spread out and vanish. No stable patterns. No entities. No universe as we observe it.
+
+**Saturation is the answer.**
+
+Each grid cell has a maximum Intent capacity (I_max). As a cell approaches saturation, **Intent transfer resistance increases dramatically**. Incoming Intent encounters growing difficulty entering the cell.
+
+This creates:
+
+**Self-limiting behavior** - Concentrations can't grow unboundedly
+**Transfer pressure** - Saturated regions resist further Intent influx
+**Standing waves** - Intent cycles through saturated regions without dissipating
+**Pattern stability** - The foundation enabling entity existence
+
+**Without saturation:** Intent dissipates, no stable patterns, no reality as we know it.
+
+**With saturation:** Transfer resistance enables standing waves, stable patterns form, entities emerge, fields arise naturally, gravity becomes explicable.
+
+**Saturation is not an implementation detail—it's THE foundational mechanism that makes everything else possible.**
+
+This insight transforms Synchronism from philosophical framework to computational model with testable predictions. Saturation dynamics are mathematically equivalent to nonlinear diffusion equations—well-studied in physics and known to support stable localized patterns (solitons, standing waves, discrete quantized modes).
+
 **What Synchronism Models**
 
 **Pattern Dynamics:**
@@ -53,34 +78,53 @@ Like π in mathematics or variables in programming—abstractions that make comp
 - **Markov Blankets**: Interaction boundaries between pattern scales
 - **Markov Relevancy Horizon (MRH)**: Contextual existence boundaries
 - **Coherence**: Pattern stability measures
-- **Field Effects**: Distributed Intent influence
+- **Saturation Resistance**: Transfer resistance enabling pattern stability
+- **Field Effects**: Saturation gradients around stable patterns
 
-**What Synchronism Does NOT Model**
+**Breakthrough: Fields and Gravity from Saturation**
+
+Stable patterns maintain saturated cores (Intent near I_max). These create **saturation gradients**—declining Intent concentration spreading spherically outward. Other patterns in these gradients experience **transfer bias**—statistically more likely to drift toward saturation cores than away.
+
+This IS what we experience as "gravitational attraction." Not a force pulling, but asymmetric Intent transfer probability in saturation gradients.
+
+**Why this matters:**
+
+- **Explains universality:** All matter creates saturation gradients, all patterns experience transfer bias
+- **Inverse-square law emerges:** Natural consequence of spherical gradient spreading
+- **Time dilation follows:** Pattern cycling rates affected by local saturation level
+- **Field unification possible:** Gravity, EM, nuclear forces as different saturation regimes
+
+**Mechanistically promising but mathematically incomplete.** Requires rigorous derivation to validate predictions.
+
+**What Synchronism Does NOT Yet Model**
 
 **Current Limitations:**
 
-- Gravity (acknowledged gap—no speculative mechanisms offered)
-- Dark matter/energy (insufficient framework)
-- Quantum gravity unification (premature)
-- String theory integration (speculative)
+- **Gravity:** Mechanistically promising (saturation gradients) but needs mathematical development to derive gravitational constant G and prove correspondence with General Relativity
+- **Dark matter/energy:** Insufficient framework (might be saturation effects we don't directly witness?)
+- **Quantum gravity unification:** Promising direction (same saturation dynamics at all scales) but years of work required
+- **Black hole physics:** Extreme saturation regime undefined
 
-Rather than propose unsupported mechanisms, we acknowledge these gaps honestly.
+Rather than claim to have "solved" these, we acknowledge: promising mechanisms identified, rigorous development required.
 
 **Epistemic Humility**
 
 Synchronism doesn't claim to:
 
-- Replace physics (we defer to GR, QM for their domains)
+- Replace physics (we defer to GR, QM for their domains—they work beautifully)
 - Explain "why" teleologically (no purpose, just dynamics)
 - Make consciousness fundamental (it's emergent like everything else)
-- Unify all forces (gravity remains unsolved)
+- Have "solved" gravity (mechanism proposed, mathematical validation required)
+- Unify all forces (promising saturation framework, years of development needed)
 
 Synchronism DOES offer:
 
 - Non-anthropocentric perspective on observer-dependent phenomena
-- Computational framework for pattern dynamics
-- Potentially testable predictions (where framework is complete)
-- Conceptual tools: MRH, spectral existence, witnessing vs observation
+- Computational framework for pattern dynamics built on saturation resistance
+- Testable predictions (saturation-aware grid simulation can validate or falsify)
+- Mechanistic explanation for gravity (saturation gradients → transfer bias)
+- Potential force unification (all from saturation regimes)
+- Conceptual tools: MRH, spectral existence, witnessing vs observation, saturation dynamics
 
 **The Invitation**
 
