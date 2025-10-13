@@ -1,0 +1,7 @@
+experiment,parameter,retention,notes
+4,radius=5,0.4501929158119894,Size dependence
+4,radius=10,0.9779875236444582,Size dependence
+4,radius=15,0.9998815848125213,Size dependence
+4,radius=20,0.9999998217680417,Size dependence
+5,3D_estimate,,Predicted more stable than 2D
+6,random_noise,,Max reached 0.05 from 0.60
