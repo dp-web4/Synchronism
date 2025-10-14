@@ -5,7 +5,7 @@
 
 ## What Was Created
 
-### 1. Section 4.X: Scale
+**1. Section 4.X: Scale**
 
 **Location:** `NEW-scale/scale.md`
 **Length:** ~5000 words
@@ -51,7 +51,7 @@ At each scale, emerged patterns become elements for the next scale.
 - Explains hierarchical organization everywhere
 - Universal principle (applies to all complex systems)
 
-### 2. Section 4.X: Temperature
+**2. Section 4.X: Temperature**
 
 **Location:** `NEW-temperature/temperature.md`
 **Length:** ~6000 words
