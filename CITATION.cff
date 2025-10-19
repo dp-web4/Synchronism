@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+type: software
+title: "Synchronism: Unified Model of Reality Through Intent Dynamics"
+abstract: "Comprehensive framework bridging quantum phenomena, cosmology, and emergent complexity through the reification of abstract force into quantifiable intent. Implements fractal ontology, Markov Relevancy Horizons, and embryogenic cosmology to unify scientific, philosophical, and spiritual perspectives on existence."
+authors:
+  - family-names: "Palatov"
+    given-names: "Dennis"
+    orcid: "https://orcid.org/0009-0006-5510-6445"
+    affiliation: "Metalinxx Inc."
+repository-code: "https://github.com/dp-web4/Synchronism"
+url: "https://github.com/dp-web4/Synchronism"
+keywords:
+  - philosophy
+  - cosmology
+  - quantum-mechanics
+  - consciousness
+  - information-theory
+  - hermetic-principles
+  - markov-blanket
+  - markov-relevancy-horizon
+  - fractal-ontology
+  - embryogenic-cosmology
+  - unified-field-theory
+  - intent-dynamics
+  - distributed-intelligence
+  - governance
+  - lrc-resonance
+  - web4
+  - emergence
+  - complexity-theory
+  - scale-invariance
+  - spectral-existence
+license: CC0-1.0
+license-url: "https://github.com/dp-web4/Synchronism/blob/main/LICENSE"
+version: "0.24.09.28.11.00"
+date-released: "2024-09-28"
+references:
+  - type: software
+    title: "Web4: Trust-Native Internet Architecture"
+    repository-code: "https://github.com/dp-web4/web4"
+  - type: software
+    title: "ModBatt Battery Management (Production Validation)"
+    repository-code: "https://github.com/dp-web4/CellCPU"
+  - type: article
+    title: "Synchronism Whitepaper"
+    url: "https://dpcars.net/Synchronism_0.pdf"
+identifiers:
+  - type: url
+    value: "https://github.com/dp-web4/Synchronism"
+    description: "GitHub Repository"
+  - type: url
+    value: "https://dpcars.net/Synchronism_0.pdf"
+    description: "Core Framework Documentation"
