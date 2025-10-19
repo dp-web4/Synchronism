@@ -124,6 +124,17 @@ Different sections have different change resistance (see `governance/section_rul
 - [LRC Governance Model](https://github.com/dp-web4/web4/blob/main/LRC_GOVERNANCE.md) - Physics-inspired governance
 - [Governance System Docs](Documentation/governance/README.md) - Local implementation
 
+### Production Validation: ModBatt Battery Management
+Synchronism's principles of hierarchical autonomy and scale-specific Markov blankets are validated in production hardware through the ModBatt battery management system. Each tier demonstrates fractal intelligence: autonomous cell controllers, module coordination, and pack-level orchestration—with each level maintaining its own reality while participating in emergent system behavior.
+
+**Open-Source Implementation**:
+- [CellCPU](https://github.com/dp-web4/CellCPU) - Cell-level autonomy (ATtiny45)
+- [ModuleCPU](https://github.com/dp-web4/ModuleCPU) - Module coordination (ATmega64M1)
+- [Pack-Controller](https://github.com/dp-web4/Pack-Controller-EEPROM) - System orchestration (STM32WB55)
+- [modbatt-CAN](https://github.com/dp-web4/modbatt-CAN) - Configuration and monitoring utility
+
+Released October 2025 under AGPL-3.0 to demonstrate how theoretical principles manifest in real-world embedded systems.
+
 ## FAQ
 **Q: How does this relate to existing physics?**  
 A: Synchronism proposes a foundational layer beneath QFT/GR - see [§5](/Documentation/Synchronism_0.pdf)
