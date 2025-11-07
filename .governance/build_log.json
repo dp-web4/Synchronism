@@ -1,9 +1,9 @@
 {
-  "last_content_hash": "6668891b23b91ab1e962784574779e7fad2fe608da438e1e8dcb2b50323561f6",
-  "last_build_check": "2025-10-15T12:49:20.743955",
+  "last_content_hash": "bf53200baadc5c28dd338581e1ffcf22342286dc5da8ed61b21866a18cffafcc",
+  "last_build_check": "2025-11-07T12:45:18.732994",
   "builds": [
     {
-      "timestamp": "2025-10-15T12:49:20.744170",
+      "timestamp": "2025-11-07T12:45:18.733150",
       "trigger": "fractal_file_changes",
       "formats": {
         "markdown": {
@@ -21,5 +21,5 @@
       }
     }
   ],
-  "last_build": "2025-10-15T12:49:20.744170"
+  "last_build": "2025-11-07T12:45:18.733150"
 }
