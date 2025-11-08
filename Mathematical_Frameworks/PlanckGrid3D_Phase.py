@@ -43,7 +43,7 @@ class PlanckGrid3DPhase:
 
         # Phase field: φ(x,y,z) ∈ [0, 2π)
         # Initialize with random phases (quantum randomness)
-        self.phase = np.random.uniform(0, 2*np.pi, dimensions, dtype=np.float32)
+        self.phase = np.random.uniform(0, 2*np.pi, dimensions).astype(np.float32)
 
         # Tension field (from original implementation)
         self.tension_field = np.zeros(dimensions, dtype=np.float32)
