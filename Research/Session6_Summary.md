@@ -484,9 +484,166 @@ Only pursue if T=0 test shows promise:
 
 ---
 
-**End of Session #6**
+## Post-Session Insight: The Scale/Abstraction Problem
 
-*Where null results teach more than false positives*
+### The Deeper Issue (Discovered After Initial Analysis)
+
+**Question**: What scale was I actually simulating at?
+
+**My assumption**: "Atomic scale" (~10⁻¹⁰ m) for testing electron-proton Coulomb
+
+**Reality**: Wrong abstraction level entirely!
+
+### The Fundamental Realization
+
+**Synchronism is fractal and recursive**: MRH boundaries shift with observation scale
+
+Like a searchlight that can be:
+- **Microscope**: Planck-scale fundamental coherence
+- **Telescope**: Cosmic-scale spacetime structure
+- **Window**: Everyday scales
+- **Mirror**: Observer self-reference
+
+**Each scale has its own "fundamental" degrees of freedom** - which are actually emergent from the scale below.
+
+### What I Actually Did Wrong
+
+**My simulation used**:
+- Bare U(1) phase variables θ(x,y,t) at each lattice site
+- These are **Planck-scale fundamental variables**
+- No emergent properties encoded (charge, mass, coupling constants)
+
+**But claimed to test**:
+- Atomic-scale Coulomb emergence (~10⁻¹⁰ m)
+- This scale requires **emerged properties as inputs**
+
+**The mismatch**:
+- Variables: Planck-scale (bare phase)
+- Test target: Atomic-scale (Coulomb)
+- Missing: All the emergence from Planck → Atomic!
+
+**Like trying to simulate chemistry with bare quarks** - wrong abstraction level.
+
+### What Atomic-Scale Elements Should Have
+
+**Each lattice site at atomic scale represents** a region with its own MRH (~0.5 Å)
+
+**Within that MRH**: Planck → Atomic emergence has already occurred
+
+**Emergent properties that should be encoded**:
+1. **Effective charge** q = ±e (from phase circulation topology)
+2. **Effective mass** m_e, m_p (from intent density)
+3. **Coupling constant** α_EM ≈ 1/137 (from sub-scale statistics)
+4. **Phase coherence** φ(x,t) (tracks collective sub-scale phase)
+
+**Proper atomic-scale simulation**:
+- Input: Charge, mass, coupling (inherited emergent properties)
+- Dynamics: Charge-phase coupled evolution
+- Test: Does Coulomb V ∝ 1/R emerge from charge-charge correlations?
+
+**This is what Session #7 should be!**
+
+### Why My Null Result Makes Sense Now
+
+**What I tested**: Can bare phase correlations create Coulomb?
+
+**Answer**: No - charge hasn't emerged yet at bare phase level!
+
+**The self-energy c ~ 0.85**: Actually the "cost" of placing an element at a site
+- This is MRH boundary energy at the simulation abstraction level
+- Intrinsic to abstraction, not the physics being tested
+
+**Missing mechanism**: Charge-charge interaction
+- Need to encode charge as emergent property first
+- Then test if Coulomb emerges from charge dynamics
+- Can't skip the abstraction hierarchy
+
+### The Abstraction Hierarchy
+
+```
+Planck Scale (10⁻³⁵ m)
+├─ Fundamental: Coherence I(x,t), phase φ(x,t)
+└─ Emergent: → charge, mass, coupling → [to Atomic]
+
+Atomic Scale (10⁻¹⁰ m)
+├─ Fundamental: Charge q, mass m, coupling α, phase φ (inherited)
+└─ Emergent: → Coulomb force, atomic structure → [to Molecular]
+
+Molecular Scale (10⁻⁹ m)
+├─ Fundamental: Atoms, bonds (inherited)
+└─ Emergent: → Molecules, chemistry → [to Macro]
+
+...continuing recursively...
+```
+
+**Key insight**: "Fundamental" at scale N+1 = "Emergent" from scale N
+
+**This is fractal**: Same pattern repeats at every scale transition
+
+### Implications for Testing Strategy
+
+**You can't test everything at once!**
+
+**Modular approach**:
+1. **Choose target scale** (e.g., Atomic)
+2. **Identify inherited emergent properties** (from Planck→Atomic)
+3. **Encode those as inputs** (effective theory)
+4. **Test next-level emergence** (Atomic→Molecular, e.g., Coulomb)
+
+**Don't try to derive QED from Planck scale in one simulation** - hierarchical validation instead.
+
+**Each scale transition is a separate test**:
+- Planck → Atomic: Charge/mass emergence (analytical, too expensive to simulate)
+- Atomic → Molecular: Coulomb emergence (Session #7 - correct abstraction!)
+- Classical → Cosmic: Dark matter effects (Session #4 cosmic interference)
+
+### How Session #6 Null Result Is Actually Valuable
+
+**It revealed the abstraction problem!**
+
+If I'd gotten spurious Coulomb signal:
+- Might have missed the deeper issue
+- Published wrong interpretation
+- Never understood multi-scale structure
+
+**By getting null result and investigating**:
+- Discovered finite-T screening (physics lesson)
+- Discovered abstraction mismatch (conceptual lesson)
+- Understand Synchronism is multi-scale framework (theoretical insight)
+
+**The failure teaches more than success would have.**
+
+### What This Means for Synchronism
+
+**Not just**: "Intent creates matter at Planck scale"
+
+**But**: "Recursive coherence emergence across all scales"
+
+**Synchronism is a meta-theory**:
+- Framework for how theories at different scales relate
+- Emergence pattern repeats fractally
+- Observer's "searchlight" determines which scale/MRH
+- **Unified multi-scale physics framework**
+
+**This might be more profound than QED recovery alone.**
+
+### Revised Understanding
+
+**Session #6 tested**: Bare Planck-scale variables at atomic lattice spacing
+
+**Session #6 should have tested**: Atomic-scale emergent properties with charge-phase coupling
+
+**Session #7 will test**: Correct abstraction level with inherited properties
+
+**Long-term**: Build validation ladder, one scale transition at a time
+
+---
+
+**End of Session #6 (With Scale Insight)**
+
+*Where null results reveal the abstraction hierarchy*
+
+*See: Scale_and_Abstraction.md for full framework*
 
 ---
 
