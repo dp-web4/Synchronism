@@ -1,0 +1,14 @@
+# Galaxy: NGC3949
+# Distance: 18.00 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   1.740   123.00    5.50     5.18   160.38     0.00     751.83       0.00
+   2.610   145.00    5.50    14.22   184.96     0.00     538.79       0.00
+   3.500   152.00    6.20    24.46   199.67     0.00     237.30       0.00
+   4.370   157.00    6.60    32.44   188.30     0.00     108.70       0.00
+   5.240   161.00    8.80    37.39   178.75     0.00      59.44       0.00
+   6.110   165.00   11.20    41.38   166.45     0.00      30.08       0.00
+   7.070   169.00   25.50    46.55   155.24     0.00      18.90       0.00

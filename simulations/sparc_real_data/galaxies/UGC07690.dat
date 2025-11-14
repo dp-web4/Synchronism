@@ -1,0 +1,14 @@
+# Galaxy: UGC07690
+# Distance: 8.11 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   0.590    45.30    4.31     4.24    45.76     0.00     180.60       0.00
+   1.180    59.80    4.31    11.75    48.85     0.00      41.99       0.00
+   1.770    60.70    4.31    15.81    45.20     0.00      16.24       0.00
+   2.360    58.80    4.31    19.15    42.05     0.00       6.57       0.00
+   2.950    57.90    4.31    20.97    38.14     0.00       2.06       0.00
+   3.540    56.90    4.31    21.99    34.50     0.00       0.42       0.00
+   4.130    55.90    4.31    22.39    31.16     0.00       0.00       0.00

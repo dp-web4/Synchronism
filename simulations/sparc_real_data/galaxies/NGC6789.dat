@@ -1,0 +1,11 @@
+# Galaxy: NGC6789
+# Distance: 3.52 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   0.100    13.90    3.84     2.80     7.62     0.00     126.29       0.00
+   0.300    29.90    3.92     7.72    17.26     0.00      62.07       0.00
+   0.510    46.70    4.10    11.07    20.43     0.00      30.50       0.00
+   0.710    60.40    9.40    11.87    21.37     0.00      16.58       0.00

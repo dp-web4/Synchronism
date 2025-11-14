@@ -1,0 +1,13 @@
+# Galaxy: NGC4389
+# Distance: 18.00 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   0.870    27.30    5.80     3.85    86.56     0.00     794.32       0.00
+   1.740    52.70    6.70     8.29   117.08     0.00     389.02       0.00
+   2.710    69.20    6.70    12.50   131.94     0.00     274.26       0.00
+   3.580    83.50    6.40    15.95   142.69     0.00     183.26       0.00
+   4.450    95.90    6.30    20.91   152.97     0.00      86.39       0.00
+   5.320   110.00    7.60    21.98   140.24     0.00      23.61       0.00
