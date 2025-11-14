@@ -1,0 +1,11 @@
+# Galaxy: D512-2
+# Distance: 15.20 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   0.960    22.90    2.71     4.08    14.85     0.00      16.45       0.00
+   1.920    33.50    2.71     6.24    21.20     0.00       7.40       0.00
+   2.880    37.20    4.19     7.45    20.56     0.00       2.72       0.00
+   3.830    35.90    5.98     8.09    20.08     0.00       1.79       0.00

@@ -1,0 +1,12 @@
+# Galaxy: F567-2
+# Distance: 79.00 Mpc
+# Source: SPARC (Lelli et al. 2016)
+# Data: Real observational rotation curves
+# Columns: Rad Vobs errV Vgas Vdisk Vbul SBdisk SBbul
+# Units: kpc km/s km/s km/s km/s km/s L_☉/pc² L_☉/pc²
+# Note: Vdisk, Vbul for M/L=1 at 3.6μm
+   1.920    26.90    8.00    -8.25    24.52     0.00      22.17       0.00
+   3.830    46.80    5.00   -11.91    32.41     0.00      10.50       0.00
+   5.750    47.60    5.00    -2.02    32.86     0.00       5.00       0.00
+   7.670    48.10    8.00    17.45    32.97     0.00       3.29       0.00
+   9.590    52.20   10.00    24.22    33.05     0.00       1.99       0.00
