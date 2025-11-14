@@ -183,10 +183,11 @@ def main():
     # Load real SPARC data
     loader = RealSPARCLoader()
 
-    # Start with subset for initial testing
-    print("Phase 1: Testing on 20 representative galaxies...")
+    # Run on FULL SPARC database - Session #28
+    print("Session #28: Testing on ALL 175 SPARC galaxies...")
+    print("This is the complete validation of Synchronism dark matter predictions.")
     print()
-    galaxies = loader.load_all_galaxies(limit=20)
+    galaxies = loader.load_all_galaxies(limit=None)  # No limit - all galaxies!
 
     if len(galaxies) == 0:
         print("ERROR: No galaxies loaded!")
