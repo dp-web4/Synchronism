@@ -1,6 +1,6 @@
 # Synchronism Framework
 
-**Last meaningful change**: 2025-08-22 - Implement LRC Governance Model with Section-Specific Resonance
+**Last meaningful change**: 2025-11-14 - SPARC Database Validation Research
 
 **Unified Model of Reality Through Intent Dynamics**
 *Bridging Quantum Phenomena, Cosmology, and Emergent Complexity*
@@ -10,7 +10,18 @@
 [![Governance](https://img.shields.io/badge/governance-LRC--resonance-purple)](governance/section_rules.json)
 
 ## Summary
-Synchronism is a comprehensive model of reality that seeks to unify and transcend existing belief systems, including religions and scientific theories. It offers a perspective that aims to encompass all aspects of existence, providing a framework for understanding the universe and its phenomena. 
+Synchronism is a comprehensive model of reality that seeks to unify and transcend existing belief systems, including religions and scientific theories. It offers a perspective that aims to encompass all aspects of existence, providing a framework for understanding the universe and its phenomena.
+
+## Current Research (November 2025)
+
+We are now actively testing Synchronism's falsifiable predictions against publicly available scientific data. Recent work focuses on:
+
+**Galaxy Rotation Curves (SPARC Database)**
+- Testing dark matter predictions against observed rotation curves from 20+ galaxies
+- Validating theoretical parameters derived from first principles (γ = β = 0.3 ± 0.05)
+- All code and data available in `simulations/` and `Research/Session15_SPARC_Validation.md`
+
+**Approach**: Rather than claiming Synchronism is "correct", we're exploring whether its mathematical framework produces predictions that align with empirical observations. This is early-stage investigation - the goal is falsifiability, not confirmation bias.
 
 ## All models are wrong, some are useful
 Synchronism is a model of the universe, a tool for understanding our experience in it.  Synchronism does not claim "this is what universe is", but rather "this is how we can think of the universe".  The Synchronism model is rooted in Hermetic Principles, Information Theory, and many other perspectives - while offering some novel interpretations and perspectives of its own.  The goal is to shed new light on various "mysteries" in current belief systems, from quantum superposition and entanglement to nature of consciousness and intelligence in a useful, actionable way.
@@ -286,271 +297,4 @@ For participation details, see [LCT Registry](scripts/governance/config/lct_regi
 
 ## Recent Contributions
 
-No recent contributions.
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
-
-This line was added by the AI agent.
-
+See `Research/` directory for detailed session logs and validation results.
