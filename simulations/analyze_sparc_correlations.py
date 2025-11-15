@@ -30,58 +30,19 @@ sys.path.insert(0, os.path.dirname(__file__))
 from synchronism_real_sparc_validation import RealSPARCLoader, SynchronismPredictor, SPARCValidator
 
 
-def load_sparc_metadata(data_dir="sparc_real_data"):
+def load_sparc_metadata(metadata_file="sparc_galaxy_metadata.json"):
     """
-    Load SPARC galaxy metadata from MassModels table.
+    Load SPARC galaxy metadata from JSON file.
 
-    Returns dict: galaxy_name -> {mass, distance, etc.}
+    Returns dict: galaxy_name -> {distance, v_max, luminosity, etc.}
     """
-    import re
+    if not os.path.exists(metadata_file):
+        print(f"Warning: Could not find {metadata_file}")
+        print("Run extract_sparc_metadata.py first to generate metadata file.")
+        return {}
 
-    metadata = {}
-    mrt_file = os.path.join(data_dir, "MassModels_Lelli2016c.mrt")
-
-    if not os.path.exists(mrt_file):
-        print(f"Warning: Could not find {mrt_file}")
-        return metadata
-
-    # Parse MRT table (CDS format)
-    with open(mrt_file, 'r') as f:
-        in_data = False
-        for line in f:
-            # Look for start of data
-            if line.startswith("--------"):
-                in_data = True
-                continue
-
-            if not in_data:
-                continue
-
-            # Skip empty lines
-            if not line.strip():
-                continue
-
-            # Parse data line
-            parts = line.split()
-            if len(parts) < 5:
-                continue
-
-            try:
-                galaxy = parts[0]
-                T_type = int(parts[1])  # Morphological type
-                D = float(parts[2])  # Distance (Mpc)
-                Inc = float(parts[3])  # Inclination (deg)
-                L = float(parts[4])  # Luminosity (10^9 L_sun at 3.6um)
-
-                metadata[galaxy] = {
-                    'morphological_type': T_type,
-                    'distance_mpc': D,
-                    'inclination_deg': Inc,
-                    'luminosity_36um': L,
-                    'log_luminosity': np.log10(L + 1e-10)  # Avoid log(0)
-                }
-            except (ValueError, IndexError):
-                continue
+    with open(metadata_file, 'r') as f:
+        metadata = json.load(f)
 
     return metadata
 
@@ -135,11 +96,14 @@ def analyze_correlations():
             'M_DM': result.get('M_DM', 0),
             'M_vis': result.get('M_vis', 0),
             'M_DM_Mvis': result.get('M_DM', 0) / result.get('M_vis', 1) if result.get('M_vis', 0) > 0 else 0,
-            'luminosity': meta.get('luminosity_36um', np.nan),
+            'v_max': meta.get('v_max', np.nan),
+            'r_last': meta.get('r_last', np.nan),
+            'luminosity_estimate': meta.get('luminosity_estimate', np.nan),
             'log_luminosity': meta.get('log_luminosity', np.nan),
-            'morphological_type': meta.get('morphological_type', np.nan),
+            'mass_proxy': meta.get('mass_proxy', np.nan),
+            'morphology': meta.get('morphology', 'unknown'),
             'distance': meta.get('distance_mpc', np.nan),
-            'inclination': meta.get('inclination_deg', np.nan),
+            'n_points': meta.get('n_points', np.nan),
         })
 
     print(f"Analyzed {len(galaxy_results)} galaxies with complete data")
@@ -147,23 +111,55 @@ def analyze_correlations():
 
     # Convert to arrays for correlation analysis
     chi2_reds = np.array([g['chi2_red'] for g in galaxy_results])
+    v_maxes = np.array([g['v_max'] for g in galaxy_results])
     log_lums = np.array([g['log_luminosity'] for g in galaxy_results])
-    morph_types = np.array([g['morphological_type'] for g in galaxy_results])
+    mass_proxies = np.array([g['mass_proxy'] for g in galaxy_results])
+    r_lasts = np.array([g['r_last'] for g in galaxy_results])
     alphas = np.array([g['alpha'] for g in galaxy_results])
 
     # Remove NaN values for correlation
     valid_lum = ~np.isnan(log_lums) & ~np.isnan(chi2_reds)
-    valid_morph = ~np.isnan(morph_types) & ~np.isnan(chi2_reds)
+    valid_vmax = ~np.isnan(v_maxes) & ~np.isnan(chi2_reds)
+    valid_mass = ~np.isnan(mass_proxies) & ~np.isnan(chi2_reds)
+    valid_rlast = ~np.isnan(r_lasts) & ~np.isnan(chi2_reds)
 
     print("=" * 70)
     print("CORRELATION ANALYSIS")
     print("=" * 70)
     print()
 
-    # Correlation 1: χ²_red vs Luminosity (proxy for mass)
+    # Correlation 1: χ²_red vs V_max (mass proxy)
+    if np.sum(valid_vmax) > 10:
+        corr_vmax, p_vmax = spearmanr(v_maxes[valid_vmax], chi2_reds[valid_vmax])
+        print(f"χ²_red vs V_max (velocity):")
+        print(f"  Spearman ρ = {corr_vmax:.3f} (p = {p_vmax:.4f})")
+        if p_vmax < 0.05:
+            if corr_vmax < 0:
+                print(f"  ✓ SIGNIFICANT: Faster-rotating galaxies fit BETTER")
+            else:
+                print(f"  ✓ SIGNIFICANT: Faster-rotating galaxies fit WORSE")
+        else:
+            print(f"  No significant correlation")
+        print()
+
+    # Correlation 2: χ²_red vs Mass proxy (V²R)
+    if np.sum(valid_mass) > 10:
+        corr_mass, p_mass = spearmanr(np.log10(mass_proxies[valid_mass] + 1), chi2_reds[valid_mass])
+        print(f"χ²_red vs log(Mass proxy) [V²R]:")
+        print(f"  Spearman ρ = {corr_mass:.3f} (p = {p_mass:.4f})")
+        if p_mass < 0.05:
+            if corr_mass < 0:
+                print(f"  ✓ SIGNIFICANT: More massive galaxies fit BETTER")
+            else:
+                print(f"  ✓ SIGNIFICANT: More massive galaxies fit WORSE")
+        else:
+            print(f"  No significant correlation")
+        print()
+
+    # Correlation 3: χ²_red vs Luminosity (proxy for mass)
     if np.sum(valid_lum) > 10:
         corr_lum, p_lum = spearmanr(log_lums[valid_lum], chi2_reds[valid_lum])
-        print(f"χ²_red vs log(Luminosity):")
+        print(f"χ²_red vs log(Luminosity estimate):")
         print(f"  Spearman ρ = {corr_lum:.3f} (p = {p_lum:.4f})")
         if p_lum < 0.05:
             if corr_lum < 0:
@@ -174,14 +170,16 @@ def analyze_correlations():
             print(f"  No significant correlation")
         print()
 
-    # Correlation 2: χ²_red vs Morphological Type
-    if np.sum(valid_morph) > 10:
-        corr_morph, p_morph = spearmanr(morph_types[valid_morph], chi2_reds[valid_morph])
-        print(f"χ²_red vs Morphological Type:")
-        print(f"  Spearman ρ = {corr_morph:.3f} (p = {p_morph:.4f})")
-        print(f"  (T < 0: ellipticals, T ~ 3-7: spirals, T > 8: irregulars)")
-        if p_morph < 0.05:
-            print(f"  ✓ SIGNIFICANT correlation detected")
+    # Correlation 4: χ²_red vs R_last (galaxy size)
+    if np.sum(valid_rlast) > 10:
+        corr_rlast, p_rlast = spearmanr(r_lasts[valid_rlast], chi2_reds[valid_rlast])
+        print(f"χ²_red vs R_last (galaxy size):")
+        print(f"  Spearman ρ = {corr_rlast:.3f} (p = {p_rlast:.4f})")
+        if p_rlast < 0.05:
+            if corr_rlast < 0:
+                print(f"  ✓ SIGNIFICANT: Larger galaxies fit BETTER")
+            else:
+                print(f"  ✓ SIGNIFICANT: Larger galaxies fit WORSE")
         else:
             print(f"  No significant correlation")
         print()
@@ -209,22 +207,18 @@ def analyze_correlations():
         print(f"  Poor fits: log(L) = {np.mean(lum_poor):.2f} ± {np.std(lum_poor):.2f}")
         print()
 
-    if np.sum(good_fits & valid_morph) > 0 and np.sum(poor_fits & valid_morph) > 0:
-        morph_good = morph_types[good_fits & valid_morph]
-        morph_poor = morph_types[poor_fits & valid_morph]
-
-        print("Morphological type comparison:")
-        print(f"  Good fits: T = {np.median(morph_good):.1f} (median)")
-        print(f"  Poor fits: T = {np.median(morph_poor):.1f} (median)")
-        print()
+    # Morphology comparison removed - using string categories now
+    # Could add morphology distribution analysis later
 
     # Create visualization
     create_correlation_plots(galaxy_results)
 
     # Save results
     save_correlation_results(galaxy_results, {
+        'chi2_vs_vmax': (corr_vmax, p_vmax) if np.sum(valid_vmax) > 10 else (np.nan, np.nan),
+        'chi2_vs_mass': (corr_mass, p_mass) if np.sum(valid_mass) > 10 else (np.nan, np.nan),
         'chi2_vs_luminosity': (corr_lum, p_lum) if np.sum(valid_lum) > 10 else (np.nan, np.nan),
-        'chi2_vs_morphology': (corr_morph, p_morph) if np.sum(valid_morph) > 10 else (np.nan, np.nan),
+        'chi2_vs_rlast': (corr_rlast, p_rlast) if np.sum(valid_rlast) > 10 else (np.nan, np.nan),
     })
 
     print("=" * 70)
@@ -241,7 +235,7 @@ def create_correlation_plots(galaxy_results):
 
     chi2_reds = np.array([g['chi2_red'] for g in galaxy_results])
     log_lums = np.array([g['log_luminosity'] for g in galaxy_results])
-    morph_types = np.array([g['morphological_type'] for g in galaxy_results])
+    v_maxes = np.array([g['v_max'] for g in galaxy_results])
     alphas = np.array([g['alpha'] for g in galaxy_results])
 
     # Plot 1: χ²_red vs Luminosity
@@ -250,26 +244,23 @@ def create_correlation_plots(galaxy_results):
     ax.scatter(log_lums[valid], chi2_reds[valid], alpha=0.6, s=30)
     ax.axhline(y=2, color='g', linestyle='--', label='χ²_red = 2 (good fit)')
     ax.axhline(y=5, color='orange', linestyle='--', label='χ²_red = 5 (acceptable)')
-    ax.set_xlabel('log(Luminosity) [log(10⁹ L☉)]')
+    ax.set_xlabel('log(Luminosity estimate)')
     ax.set_ylabel('χ²_red')
     ax.set_yscale('log')
     ax.set_title('Fit Quality vs Galaxy Luminosity')
     ax.legend()
     ax.grid(True, alpha=0.3)
 
-    # Plot 2: χ²_red vs Morphological Type
+    # Plot 2: χ²_red vs V_max
     ax = axes[0, 1]
-    valid = ~np.isnan(morph_types) & ~np.isnan(chi2_reds)
-    ax.scatter(morph_types[valid], chi2_reds[valid], alpha=0.6, s=30)
+    valid = ~np.isnan(v_maxes) & ~np.isnan(chi2_reds)
+    ax.scatter(v_maxes[valid], chi2_reds[valid], alpha=0.6, s=30)
     ax.axhline(y=2, color='g', linestyle='--')
     ax.axhline(y=5, color='orange', linestyle='--')
-    ax.set_xlabel('Morphological Type T')
+    ax.set_xlabel('V_max (km/s)')
     ax.set_ylabel('χ²_red')
     ax.set_yscale('log')
-    ax.set_title('Fit Quality vs Morphology')
-    ax.text(0.05, 0.95, 'T<0: E/S0\nT~3-7: Spirals\nT>8: Irregulars',
-            transform=ax.transAxes, va='top', fontsize=8,
-            bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+    ax.set_title('Fit Quality vs Maximum Velocity')
     ax.grid(True, alpha=0.3)
 
     # Plot 3: Histogram of χ²_red
@@ -308,14 +299,11 @@ def save_correlation_results(galaxy_results, correlations):
     output = {
         'n_galaxies': len(galaxy_results),
         'correlations': {
-            'chi2_vs_luminosity': {
-                'rho': correlations['chi2_vs_luminosity'][0],
-                'p_value': correlations['chi2_vs_luminosity'][1]
-            },
-            'chi2_vs_morphology': {
-                'rho': correlations['chi2_vs_morphology'][0],
-                'p_value': correlations['chi2_vs_morphology'][1]
+            key: {
+                'rho': value[0] if isinstance(value, tuple) else value,
+                'p_value': value[1] if isinstance(value, tuple) and len(value) > 1 else None
             }
+            for key, value in correlations.items()
         },
         'summary_statistics': {
             'median_chi2_red': float(np.median([g['chi2_red'] for g in galaxy_results])),
