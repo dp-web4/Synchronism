@@ -30,219 +30,124 @@ import json
 
 # Import SPARC parsing utilities
 sys.path.append(str(Path(__file__).parent))
-from synchronism_real_sparc_validation import (
-    load_sparc_galaxy,
-    calculate_visible_density,
-    fit_alpha_parameter
-)
+from synchronism_sparc_validation import SynchronismPredictor, SPARCValidator, SPARCGalaxy
+from synchronism_real_sparc_validation import RealSPARCLoader
 
-def coherence_original(rho_vis, rho_0=1.0, gamma=0.30):
+class RefinedCoherencePredictor(SynchronismPredictor):
     """
-    Original coherence formula from Session #14-17.
-
-    Problem: Saturates to 1 for high density.
-    """
-    return (rho_vis / rho_0) ** gamma
-
-
-def coherence_refined(rho_vis, rho_crit=1.0, gamma=0.30):
-    """
-    Refined coherence formula that avoids full saturation.
+    Extended predictor with refined coherence formula.
 
     C_vis = 1 - exp(-(ρ_vis/ρ_crit)^γ)
 
-    Properties:
-    - C → 0 as ρ_vis → 0 (no coherence in vacuum)
-    - C → 1 as ρ_vis → ∞ but NEVER reaches 1 exactly
-    - Always leaves room for dark matter: (1 - C_vis) > 0
-
-    Parameters:
-    -----------
-    rho_vis : float or ndarray
-        Visible matter density (M_sun / pc^3)
-    rho_crit : float
-        Critical density scale (fit parameter)
-    gamma : float
-        Power law exponent (0.30 from theory)
-
-    Returns:
-    --------
-    C_vis : float or ndarray
-        Visible matter coherence [0, 1)
+    Never saturates to 1, maintains quantum residual.
     """
-    return 1.0 - np.exp(-(rho_vis / rho_crit) ** gamma)
+
+    def __init__(self, rho_crit: float = 1.0, gamma: float = 0.30, beta: float = 0.30):
+        """Initialize with critical density parameter."""
+        super().__init__(gamma=gamma, beta=beta)
+        self.rho_crit = rho_crit
+
+    def compute_coherence(self, rho_vis: np.ndarray, rho_0=None) -> np.ndarray:
+        """
+        Compute refined coherence: C_vis = 1 - exp(-(ρ_vis/ρ_crit)^γ)
+
+        Properties:
+        - C → 0 as ρ_vis → 0 (no coherence in vacuum)
+        - C → 1 as ρ_vis → ∞ but NEVER reaches 1 exactly
+        - Always leaves room for dark matter: (1 - C_vis) > 0
+        """
+        # Use instance's rho_crit instead of rho_0
+        C_vis = 1.0 - np.exp(-(rho_vis / self.rho_crit) ** self.gamma)
+
+        # Ensure 0 ≤ C < 1
+        C_vis = np.clip(C_vis, 0.0, 0.99999)
+
+        return C_vis
 
 
-def dark_matter_density(rho_vis, alpha, beta=0.30, coherence_func=coherence_original, **coherence_params):
+def fit_galaxy_refined(galaxy: SPARCGalaxy, rho_crit_values=np.logspace(-2, 2, 30)):
     """
-    Dark matter density from Synchronism coherence.
+    Fit refined coherence model to galaxy with grid search over rho_crit.
 
-    ρ_DM = α(1 - C_vis) × ρ_vis^β
-
-    Parameters:
-    -----------
-    rho_vis : ndarray
-        Visible matter density profile
-    alpha : float
-        Normalization parameter (fit per galaxy)
-    beta : float
-        Scaling exponent (0.30 from theory)
-    coherence_func : callable
-        Coherence function (original or refined)
-    coherence_params : dict
-        Parameters for coherence function
-
-    Returns:
-    --------
-    rho_DM : ndarray
-        Dark matter density profile
+    Returns best-fit parameters and chi2.
     """
-    C_vis = coherence_func(rho_vis, **coherence_params)
-    return alpha * (1.0 - C_vis) * (rho_vis ** beta)
-
-
-def rotation_curve_from_density(r, rho_vis, rho_DM):
-    """
-    Calculate rotation velocity from density profiles.
-
-    v_rot^2 = G M(<r) / r
-
-    where M(<r) = ∫[0 to r] 4πr'^2 (ρ_vis + ρ_DM) dr'
-    """
-    G = 4.302e-6  # Gravitational constant (kpc (km/s)^2 / M_sun)
-
-    # Numerical integration (trapezoidal rule)
-    r_kpc = r / 1000.0  # Convert pc to kpc
-
-    # Calculate enclosed mass at each radius
-    M_enc = np.zeros_like(r)
-    for i in range(1, len(r)):
-        # Integrate from 0 to r[i]
-        r_int = r[:i+1] / 1000.0  # kpc
-        rho_tot = (rho_vis[:i+1] + rho_DM[:i+1]) * 1e9  # Convert to M_sun/kpc^3
-        integrand = 4 * np.pi * r_int**2 * rho_tot
-        M_enc[i] = np.trapz(integrand, r_int)
-
-    # Avoid division by zero
-    M_enc[0] = M_enc[1] if len(M_enc) > 1 else 0
-
-    # Calculate rotation velocity
-    v_rot = np.sqrt(G * M_enc / np.maximum(r_kpc, 1e-10))
-
-    return v_rot
-
-
-def fit_galaxy_refined(galaxy_data, rho_crit_values=np.logspace(-2, 2, 50)):
-    """
-    Fit refined coherence model to galaxy rotation curve.
-
-    Free parameters:
-    - alpha: DM normalization (fit per galaxy)
-    - rho_crit: Critical density scale for coherence
-
-    Fixed parameters:
-    - gamma = 0.30 (theory prediction)
-    - beta = 0.30 (theory prediction)
-
-    Returns:
-    --------
-    best_params : dict
-        Best-fit parameters and statistics
-    """
-    r = galaxy_data['r']  # pc
-    v_obs = galaxy_data['v']  # km/s
-    dv = galaxy_data['dv']  # km/s
-
-    # Calculate visible matter density
-    rho_vis = calculate_visible_density(galaxy_data)
-
     best_chi2 = np.inf
-    best_params = None
+    best_alpha = None
+    best_rho_crit = None
+    best_result = None
 
     # Grid search over rho_crit
     for rho_crit in rho_crit_values:
-        # For each rho_crit, fit alpha
-        C_vis = coherence_refined(rho_vis, rho_crit=rho_crit, gamma=0.30)
+        # Create predictor with this rho_crit
+        predictor = RefinedCoherencePredictor(rho_crit=rho_crit)
+        validator = SPARCValidator(predictor)
 
-        # Fit alpha (same method as Session #17)
-        result = fit_alpha_parameter(galaxy_data, rho_vis, C_vis, beta=0.30)
+        # Fit alpha for this galaxy
+        result = validator.fit_single_galaxy(galaxy)
 
-        if result['chi2'] < best_chi2:
-            best_chi2 = result['chi2']
-            best_params = {
-                'alpha': result['alpha'],
-                'rho_crit': rho_crit,
-                'chi2': result['chi2'],
-                'chi2_red': result['chi2_red'],
-                'M_DM': result['M_DM'],
-                'M_vis': result['M_vis'],
-                'M_DM_M_vis': result['M_DM'] / result['M_vis'] if result['M_vis'] > 0 else 0
-            }
+        if result['chi2_red'] < best_chi2:
+            best_chi2 = result['chi2_red']
+            best_alpha = result['alpha_best']
+            best_rho_crit = rho_crit
+            best_result = result
 
-    return best_params
+    # Add rho_crit to result
+    best_result['rho_crit'] = best_rho_crit
+
+    return best_result
 
 
-def compare_models(galaxy_name, galaxy_data):
+def compare_models(galaxy: SPARCGalaxy):
     """
     Compare original vs refined coherence for single galaxy.
     """
-    r = galaxy_data['r']
-    v_obs = galaxy_data['v']
-    dv = galaxy_data['dv']
-
-    rho_vis = calculate_visible_density(galaxy_data)
-
     # Original model
-    C_orig = coherence_original(rho_vis, rho_0=1.0, gamma=0.30)
-    result_orig = fit_alpha_parameter(galaxy_data, rho_vis, C_orig, beta=0.30)
+    predictor_orig = SynchronismPredictor()
+    validator_orig = SPARCValidator(predictor_orig)
+    result_orig = validator_orig.fit_single_galaxy(galaxy)
 
-    # Refined model
-    result_refined = fit_galaxy_refined(galaxy_data)
+    # Refined model (grid search)
+    result_refined = fit_galaxy_refined(galaxy)
 
     return {
-        'galaxy': galaxy_name,
+        'name': galaxy.name,
         'original': result_orig,
         'refined': result_refined,
         'improvement': result_orig['chi2_red'] - result_refined['chi2_red']
     }
 
 
-def run_full_sparc_comparison(data_dir='sparc_real_data', max_galaxies=None):
+def run_full_sparc_comparison(max_galaxies=None):
     """
     Run comparison on all available SPARC galaxies.
     """
-    data_path = Path(data_dir)
-    if not data_path.exists():
-        print(f"Error: {data_dir} not found")
-        return None
+    loader = RealSPARCLoader()
+    galaxies = loader.load_all_galaxies(limit=max_galaxies)
 
-    galaxy_files = sorted(data_path.glob('*.dat'))
-    if max_galaxies:
-        galaxy_files = galaxy_files[:max_galaxies]
+    if not galaxies:
+        print("Error: No SPARC galaxies loaded")
+        return None
 
     results = []
 
     print("\n" + "="*80)
     print("SESSION #38: REFINED COHERENCE FORMULA TEST")
     print("="*80)
-    print(f"\nTesting on {len(galaxy_files)} SPARC galaxies")
+    print(f"\nTesting on {len(galaxies)} SPARC galaxies")
     print("Original: C_vis = (ρ_vis/ρ_0)^0.30")
     print("Refined:  C_vis = 1 - exp(-(ρ_vis/ρ_crit)^0.30)")
     print("\n" + "-"*80)
 
-    for i, galaxy_file in enumerate(galaxy_files, 1):
-        galaxy_name = galaxy_file.stem
-
+    for i, galaxy in enumerate(galaxies, 1):
         try:
-            galaxy_data = load_sparc_galaxy(str(galaxy_file))
-            comparison = compare_models(galaxy_name, galaxy_data)
+            comparison = compare_models(galaxy)
             results.append(comparison)
 
-            if i % 10 == 0 or i == len(galaxy_files):
-                print(f"Processed {i}/{len(galaxy_files)} galaxies...")
+            if i % 10 == 0 or i == len(galaxies):
+                print(f"Processed {i}/{len(galaxies)} galaxies...")
 
         except Exception as e:
-            print(f"  Error processing {galaxy_name}: {e}")
+            print(f"  Error processing {galaxy.name}: {e}")
             continue
 
     return results
@@ -328,12 +233,25 @@ def analyze_results(results):
 
 def save_results(results, filename='session38_refined_coherence_results.json'):
     """Save results to JSON file."""
+    # Convert numpy types to Python types for JSON serialization
+    serializable_results = []
+    for r in results:
+        serializable_results.append({
+            'name': r['name'],
+            'original_chi2_red': float(r['original']['chi2_red']),
+            'original_alpha': float(r['original']['alpha_best']),
+            'refined_chi2_red': float(r['refined']['chi2_red']),
+            'refined_alpha': float(r['refined']['alpha_best']),
+            'refined_rho_crit': float(r['refined']['rho_crit']),
+            'improvement': float(r['improvement'])
+        })
+
     output = {
         'session': 38,
         'date': '2025-11-22',
         'formula': 'C_vis = 1 - exp(-(ρ_vis/ρ_crit)^0.30)',
         'n_galaxies': len(results),
-        'results': results
+        'results': serializable_results
     }
 
     with open(filename, 'w') as f:
