@@ -80,10 +80,9 @@ def fit_galaxy_refined(galaxy: SPARCGalaxy, rho_crit_values=np.logspace(-2, 2, 3
     for rho_crit in rho_crit_values:
         # Create predictor with this rho_crit
         predictor = RefinedCoherencePredictor(rho_crit=rho_crit)
-        validator = SPARCValidator(predictor)
 
-        # Fit alpha for this galaxy
-        result = validator.fit_single_galaxy(galaxy)
+        # Fit alpha for this galaxy using the predictor's fit_alpha method
+        result = predictor.fit_alpha(galaxy)
 
         if result['chi2_red'] < best_chi2:
             best_chi2 = result['chi2_red']
@@ -103,8 +102,7 @@ def compare_models(galaxy: SPARCGalaxy):
     """
     # Original model
     predictor_orig = SynchronismPredictor()
-    validator_orig = SPARCValidator(predictor_orig)
-    result_orig = validator_orig.fit_single_galaxy(galaxy)
+    result_orig = predictor_orig.fit_alpha(galaxy)
 
     # Refined model (grid search)
     result_refined = fit_galaxy_refined(galaxy)
@@ -211,7 +209,7 @@ def analyze_results(results):
     for i in range(min(10, len(results))):
         idx = sorted_idx[i]
         r = results[idx]
-        print(f"{i+1}. {r['galaxy']}: Δχ² = {improvements[idx]:.2f} "
+        print(f"{i+1}. {r['name']}: Δχ² = {improvements[idx]:.2f} "
               f"({r['original']['chi2_red']:.2f} → {r['refined']['chi2_red']:.2f})")
 
     # Top worsenings
@@ -219,7 +217,7 @@ def analyze_results(results):
     for i in range(min(10, len(results))):
         idx = sorted_idx[-(i+1)]
         r = results[idx]
-        print(f"{i+1}. {r['galaxy']}: Δχ² = {improvements[idx]:.2f} "
+        print(f"{i+1}. {r['name']}: Δχ² = {improvements[idx]:.2f} "
               f"({r['original']['chi2_red']:.2f} → {r['refined']['chi2_red']:.2f})")
 
     return {
