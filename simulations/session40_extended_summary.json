@@ -1,0 +1,62 @@
+{
+  "session": 40,
+  "date": "2025-11-22",
+  "description": "Extended \u03c1_crit grid search [0.01, 10000] M\u2609/pc\u00b2",
+  "rho_crit_range": {
+    "min": 0.01,
+    "max": 10000,
+    "n_points": 40
+  },
+  "n_tested": 84,
+  "n_hit_s38_bound": 84,
+  "n_hit_s40_bound": 55,
+  "n_improved": 80,
+  "n_significant": 50,
+  "avg_improvement": 23.686,
+  "total_chi2_reduction": 1989.6,
+  "success_rate_s38": 36.9,
+  "success_rate_s40": 53.6,
+  "success_improvement_pp": 16.7,
+  "top_improvements": [
+    {
+      "name": "UGC02953",
+      "delta_chi2": 401.46
+    },
+    {
+      "name": "UGC06787",
+      "delta_chi2": 298.58
+    },
+    {
+      "name": "UGC11914",
+      "delta_chi2": 163.84
+    },
+    {
+      "name": "UGC06786",
+      "delta_chi2": 114.26
+    },
+    {
+      "name": "NGC5985",
+      "delta_chi2": 107.92
+    },
+    {
+      "name": "NGC7814",
+      "delta_chi2": 105.09
+    },
+    {
+      "name": "UGC02487",
+      "delta_chi2": 84.33
+    },
+    {
+      "name": "NGC5055",
+      "delta_chi2": 66.24
+    },
+    {
+      "name": "UGC09133",
+      "delta_chi2": 60.9
+    },
+    {
+      "name": "NGC2841",
+      "delta_chi2": 57.22
+    }
+  ]
+}

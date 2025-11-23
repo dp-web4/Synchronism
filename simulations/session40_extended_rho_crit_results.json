@@ -1,0 +1,68 @@
+{
+  "session": 40,
+  "date": "2025-11-22",
+  "description": "Extended \u03c1_crit grid search [0.01, 10000] M\u2609/pc\u00b2",
+  "rho_crit_range": {
+    "min": 0.01,
+    "max": 10000,
+    "n_points": 40
+  },
+  "analysis": {
+    "n_total": 84,
+    "n_improved": 80,
+    "n_significant": 50,
+    "avg_improvement": 23.68626524766995,
+    "success_rate_s38": 36.904761904761905,
+    "success_rate_s40": 53.57142857142857,
+    "success_improvement": 16.666666666666668,
+    "top_improvements": [
+      {
+        "name": "UGC02953",
+        "delta_chi2": 401.4576412297116
+      },
+      {
+        "name": "UGC06787",
+        "delta_chi2": 298.5809511122841
+      },
+      {
+        "name": "UGC11914",
+        "delta_chi2": 163.84293087232388
+      },
+      {
+        "name": "UGC06786",
+        "delta_chi2": 114.25557618847347
+      },
+      {
+        "name": "NGC5985",
+        "delta_chi2": 107.92486997987434
+      },
+      {
+        "name": "NGC7814",
+        "delta_chi2": 105.0896088524925
+      },
+      {
+        "name": "UGC02487",
+        "delta_chi2": 84.32719711604713
+      },
+      {
+        "name": "NGC5055",
+        "delta_chi2": 66.2376549643746
+      },
+      {
+        "name": "UGC09133",
+        "delta_chi2": 60.89565537163958
+      },
+      {
+        "name": "NGC2841",
+        "delta_chi2": 57.220237831450135
+      }
+    ]
+  },
+  "results": [
+    {
+      "name": "DDO161",
+      "session38": {
+        "alpha_best": 20.715848866615787,
+        "chi2": 112.13982816329218,
+        "chi2_red": 3.7379942721097392,
+        "v_sync": 
