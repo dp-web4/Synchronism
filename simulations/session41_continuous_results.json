@@ -1,0 +1,1601 @@
+{
+  "session": 41,
+  "date": "2025-11-23",
+  "description": "Continuous \u03c1_crit optimization (no grid bounds)",
+  "method": "scipy.optimize.minimize_scalar (bounded Brent)",
+  "rho_crit_range": {
+    "min": 0.01,
+    "max": 100000
+  },
+  "analysis": {
+    "n_total": 175,
+    "n_success": 175,
+    "n_at_bound": 53,
+    "success_rate": 56.0,
+    "rho_crit_stats": {
+      "median": 52.72782380115622,
+      "mean": 30657.474326256044,
+      "std": 45747.273986454755,
+      "min": 0.044306947514808716,
+      "max": 99999.99768395034
+    },
+    "avg_nfev": 30.731428571428573
+  },
+  "results": [
+    {
+      "name": "CamB",
+      "rho_crit": 0.05821256950888794,
+      "alpha": 99.99999215890347,
+      "chi2_red": 8.404014389642239,
+      "success": true,
+      "nfev": 35,
+      "at_bound": false
+    },
+    {
+      "name": "D512-2",
+      "rho_crit": 0.48025027256085107,
+      "alpha": 90.1028771614228,
+      "chi2_red": 0.8010102295789326,
+      "success": true,
+      "nfev": 35,
+      "at_bound": false
+    },
+    {
+      "name": "D564-8",
+      "rho_crit": 0.09002803131275879,
+      "alpha": 99.99999097303318,
+      "chi2_red": 1.4469344698711981,
+      "success": true,
+      "nfev": 39,
+      "at_bound": false
+    },
+    {
+      "name": "D631-7",
+      "rho_crit": 0.8795185229068553,
+      "alpha": 99.99999217073047,
+      "chi2_red": 6.8549439791974125,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "DDO064",
+      "rho_crit": 3.0759664958453623,
+      "alpha": 99.99999119279008,
+      "chi2_red": 1.3817669821064453,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "DDO154",
+      "rho_crit": 23.928212130213474,
+      "alpha": 38.57614421243804,
+      "chi2_red": 26.05126592640437,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "DDO161",
+      "rho_crit": 733.6383930884574,
+      "alpha": 17.142177140963692,
+      "chi2_red": 3.6842924792723033,
+      "success": true,
+      "nfev": 21,
+      "at_bound": false
+    },
+    {
+      "name": "DDO168",
+      "rho_crit": 2.334965171709012,
+      "alpha": 99.99999402897781,
+      "chi2_red": 11.559372904190894,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "DDO170",
+      "rho_crit": 99999.9970046684,
+      "alpha": 14.524634051932482,
+      "chi2_red": 8.154737260404383,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "ESO079-G014",
+      "rho_crit": 45.274410813987124,
+      "alpha": 99.99999194541276,
+      "chi2_red": 8.235945327583977,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "ESO116-G012",
+      "rho_crit": 24.34065299231992,
+      "alpha": 99.99999093364542,
+      "chi2_red": 8.18649652718672,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "ESO444-G084",
+      "rho_crit": 9.181571553316003,
+      "alpha": 99.99999468424059,
+      "chi2_red": 3.7451647742384466,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "ESO563-G021",
+      "rho_crit": 681.4926526330853,
+      "alpha": 99.99999175744964,
+      "chi2_red": 41.32407284774356,
+      "success": true,
+      "nfev": 23,
+      "at_bound": false
+    },
+    {
+      "name": "F561-1",
+      "rho_crit": 1.9415639145973345,
+      "alpha": 25.51332067395355,
+      "chi2_red": 0.4756522464695724,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "F563-1",
+      "rho_crit": 72.70013148843108,
+      "alpha": 51.14836148674552,
+      "chi2_red": 2.0752190200845804,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "F563-V1",
+      "rho_crit": 0.41672786451063004,
+      "alpha": 14.831530249241922,
+      "chi2_red": 0.5715478816340445,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "F563-V2",
+      "rho_crit": 30.966643468575082,
+      "alpha": 99.9999909455165,
+      "chi2_red": 1.9728957704521903,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "F565-V2",
+      "rho_crit": 2.1923296179914353,
+      "alpha": 99.99999471987844,
+      "chi2_red": 0.909729853951715,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "F567-2",
+      "rho_crit": 2.4089222666449635,
+      "alpha": 33.22949869136934,
+      "chi2_red": 0.6478016433206353,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "F568-1",
+      "rho_crit": 49.76835550905967,
+      "alpha": 99.99999087840204,
+      "chi2_red": 1.838936426449816,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "F568-3",
+      "rho_crit": 2.3480652157202453,
+      "alpha": 99.99999038123099,
+      "chi2_red": 5.7670439685077985,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "F568-V1",
+      "rho_crit": 99999.9970046684,
+      "alpha": 59.64057658160827,
+      "chi2_red": 1.0217051129290748,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "F571-8",
+      "rho_crit": 25.292361430677982,
+      "alpha": 99.99999215890347,
+      "chi2_red": 37.86621611911742,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "F571-V1",
+      "rho_crit": 3.4522172347902362,
+      "alpha": 65.10728065576536,
+      "chi2_red": 0.869060904184936,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "F574-1",
+      "rho_crit": 9.293322865627191,
+      "alpha": 83.54371024834316,
+      "chi2_red": 4.027372475949999,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "F574-2",
+      "rho_crit": 0.044306947514808716,
+      "alpha": 99.99999215890347,
+      "chi2_red": 0.6169007697408891,
+      "success": true,
+      "nfev": 38,
+      "at_bound": false
+    },
+    {
+      "name": "F579-V1",
+      "rho_crit": 99999.9970046684,
+      "alpha": 38.10462431518688,
+      "chi2_red": 0.9235969829557682,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "F583-1",
+      "rho_crit": 2.169624767168395,
+      "alpha": 99.9999950599081,
+      "chi2_red": 2.685111187744185,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "F583-4",
+      "rho_crit": 1.4428188001874642,
+      "alpha": 99.9999906992771,
+      "chi2_red": 0.44002037816304534,
+      "success": true,
+      "nfev": 37,
+      "at_bound": false
+    },
+    {
+      "name": "IC2574",
+      "rho_crit": 0.27064835018878985,
+      "alpha": 99.99999055922873,
+      "chi2_red": 122.57058752594868,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "IC4202",
+      "rho_crit": 170.3566142443915,
+      "alpha": 99.9999923423424,
+      "chi2_red": 83.63572084831682,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "KK98-251",
+      "rho_crit": 99999.9970046684,
+      "alpha": 11.565992903082623,
+      "chi2_red": 4.526240938059379,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC0024",
+      "rho_crit": 99999.9970046684,
+      "alpha": 47.264262524385224,
+      "chi2_red": 3.806184574150938,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC0055",
+      "rho_crit": 2.164079045954693,
+      "alpha": 99.99999425586513,
+      "chi2_red": 8.83696679654233,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "NGC0100",
+      "rho_crit": 5.203071589741723,
+      "alpha": 99.9999917213817,
+      "chi2_red": 2.55775544637485,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "NGC0247",
+      "rho_crit": 4.396483700455703,
+      "alpha": 99.99999372189751,
+      "chi2_red": 12.620373541410117,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "NGC0289",
+      "rho_crit": 99999.9970046684,
+      "alpha": 27.720460392088864,
+      "chi2_red": 11.429537937590167,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC0300",
+      "rho_crit": 16.855912589762855,
+      "alpha": 73.98328143227783,
+      "chi2_red": 2.355176756835611,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "NGC0801",
+      "rho_crit": 366.5604756419389,
+      "alpha": 33.598386582253035,
+      "chi2_red": 38.395003270160224,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC0891",
+      "rho_crit": 132.84928613755943,
+      "alpha": 99.99999302834655,
+      "chi2_red": 7.006680001649789,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "NGC1003",
+      "rho_crit": 99999.9970046684,
+      "alpha": 25.27481043064962,
+      "chi2_red": 4.477096556633,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC1090",
+      "rho_crit": 7476.440628304819,
+      "alpha": 31.701496807318183,
+      "chi2_red": 11.945227425651588,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC1705",
+      "rho_crit": 99999.9970046684,
+      "alpha": 59.01086938147437,
+      "chi2_red": 1.1045894884736023,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC2366",
+      "rho_crit": 1.563006730566903,
+      "alpha": 99.99999132366321,
+      "chi2_red": 6.904916971734635,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "NGC2403",
+      "rho_crit": 99999.99715129033,
+      "alpha": 47.90219073043584,
+      "chi2_red": 74.80378245045779,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC2683",
+      "rho_crit": 99999.9970046684,
+      "alpha": 45.06199638125938,
+      "chi2_red": 3.4989290943020874,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC2841",
+      "rho_crit": 99999.9970046684,
+      "alpha": 71.89465476641404,
+      "chi2_red": 41.266551461888675,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC2903",
+      "rho_crit": 19222.53436171953,
+      "alpha": 59.281839408871186,
+      "chi2_red": 25.275892309540374,
+      "success": true,
+      "nfev": 16,
+      "at_bound": false
+    },
+    {
+      "name": "NGC2915",
+      "rho_crit": 1273.0590852775879,
+      "alpha": 58.187482531715446,
+      "chi2_red": 2.2115878119430885,
+      "success": true,
+      "nfev": 20,
+      "at_bound": false
+    },
+    {
+      "name": "NGC2955",
+      "rho_crit": 48.916711757748836,
+      "alpha": 99.99999136559178,
+      "chi2_red": 24.9594538910967,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "NGC2976",
+      "rho_crit": 14.118400604336934,
+      "alpha": 99.99999215890347,
+      "chi2_red": 13.210406834568978,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "NGC2998",
+      "rho_crit": 99999.9970046684,
+      "alpha": 36.12285107691473,
+      "chi2_red": 6.238314821104846,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC3109",
+      "rho_crit": 1.1891635858737424,
+      "alpha": 99.99999077687386,
+      "chi2_red": 17.02834217327491,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3198",
+      "rho_crit": 99999.9970046684,
+      "alpha": 32.372690839567376,
+      "chi2_red": 28.312538954687305,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC3521",
+      "rho_crit": 323.763239318208,
+      "alpha": 95.128825130612,
+      "chi2_red": 1.3201754446196068,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3726",
+      "rho_crit": 26.191864247725555,
+      "alpha": 58.45380293749707,
+      "chi2_red": 7.750594001923725,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3741",
+      "rho_crit": 4.062106872173206,
+      "alpha": 55.085989576246206,
+      "chi2_red": 0.7271290139462978,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3769",
+      "rho_crit": 99999.9970046684,
+      "alpha": 27.061870634039835,
+      "chi2_red": 4.1103848328302695,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC3877",
+      "rho_crit": 50.716656024983905,
+      "alpha": 94.2342081752913,
+      "chi2_red": 6.796695896699472,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3893",
+      "rho_crit": 316.4643862413661,
+      "alpha": 78.79508464828002,
+      "chi2_red": 5.07534440610462,
+      "success": true,
+      "nfev": 21,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3917",
+      "rho_crit": 21.267894807463836,
+      "alpha": 99.99999296033275,
+      "chi2_red": 12.472420257646032,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3949",
+      "rho_crit": 35.61888696755461,
+      "alpha": 99.99999215890347,
+      "chi2_red": 4.426659551761226,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3953",
+      "rho_crit": 389.70263077419287,
+      "alpha": 74.03971371523349,
+      "chi2_red": 1.0248253264510694,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3972",
+      "rho_crit": 35.97052258109761,
+      "alpha": 99.99999215147893,
+      "chi2_red": 6.199411935442496,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "NGC3992",
+      "rho_crit": 99999.9970046684,
+      "alpha": 43.5197900330828,
+      "chi2_red": 2.977975665164514,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC4010",
+      "rho_crit": 13.829543436072225,
+      "alpha": 99.99999392885792,
+      "chi2_red": 6.757120065949028,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4013",
+      "rho_crit": 1075.3228996315163,
+      "alpha": 48.929673005605764,
+      "chi2_red": 1.0713228233863858,
+      "success": true,
+      "nfev": 20,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4051",
+      "rho_crit": 404.1888797334593,
+      "alpha": 37.39824891183649,
+      "chi2_red": 0.8766576205577868,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4068",
+      "rho_crit": 0.8655216692867408,
+      "alpha": 99.99999050851044,
+      "chi2_red": 4.600124388372506,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4085",
+      "rho_crit": 23.203319382987566,
+      "alpha": 99.99999215890347,
+      "chi2_red": 20.79454775883658,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4088",
+      "rho_crit": 12.664118336181119,
+      "alpha": 78.59817735725748,
+      "chi2_red": 3.806700538212836,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4100",
+      "rho_crit": 99999.9970046684,
+      "alpha": 46.66102727617033,
+      "chi2_red": 3.5522832776247797,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC4138",
+      "rho_crit": 99999.9970046684,
+      "alpha": 63.342260640112094,
+      "chi2_red": 2.4393425066822565,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC4157",
+      "rho_crit": 189.62887975009014,
+      "alpha": 53.70632601180035,
+      "chi2_red": 3.611154118956534,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4183",
+      "rho_crit": 99999.9970046684,
+      "alpha": 26.848321169859346,
+      "chi2_red": 1.730979267301489,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC4214",
+      "rho_crit": 2251.6555223719924,
+      "alpha": 66.46598383883848,
+      "chi2_red": 0.12630825110496197,
+      "success": true,
+      "nfev": 18,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4217",
+      "rho_crit": 22.697595096440534,
+      "alpha": 99.99999215890347,
+      "chi2_red": 54.53902343805816,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4389",
+      "rho_crit": 0.41973153172862854,
+      "alpha": 99.99999215890347,
+      "chi2_red": 43.35980600222873,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "NGC4559",
+      "rho_crit": 375.42993903897326,
+      "alpha": 37.72744242660764,
+      "chi2_red": 1.7456095201266482,
+      "success": true,
+      "nfev": 20,
+      "at_bound": false
+    },
+    {
+      "name": "NGC5005",
+      "rho_crit": 128.9891617526959,
+      "alpha": 99.99999215890347,
+      "chi2_red": 2.6175048168083457,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "NGC5033",
+      "rho_crit": 99999.9970046684,
+      "alpha": 50.29737491612639,
+      "chi2_red": 49.00176412614579,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC5055",
+      "rho_crit": 1865.4172341608314,
+      "alpha": 33.29924106192621,
+      "chi2_red": 93.76330145627544,
+      "success": true,
+      "nfev": 20,
+      "at_bound": false
+    },
+    {
+      "name": "NGC5371",
+      "rho_crit": 99999.9970046684,
+      "alpha": 23.846438680435885,
+      "chi2_red": 5.321547524361516,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC5585",
+      "rho_crit": 4.261876507610441,
+      "alpha": 99.99999139714247,
+      "chi2_red": 21.19393802614415,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "NGC5907",
+      "rho_crit": 99999.9970046684,
+      "alpha": 34.35086518597127,
+      "chi2_red": 13.948692630063578,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC5985",
+      "rho_crit": 99999.9970046684,
+      "alpha": 79.05831340288425,
+      "chi2_red": 13.44521668115731,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC6015",
+      "rho_crit": 99999.9970046684,
+      "alpha": 45.366523259129515,
+      "chi2_red": 28.153868558571013,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC6195",
+      "rho_crit": 93.30636300569992,
+      "alpha": 63.21001240992202,
+      "chi2_red": 4.000897567048057,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "NGC6503",
+      "rho_crit": 99999.9970046684,
+      "alpha": 37.67000069201948,
+      "chi2_red": 15.685262314972762,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC6674",
+      "rho_crit": 99999.9970046684,
+      "alpha": 43.166961629983774,
+      "chi2_red": 29.13454576716089,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "NGC6789",
+      "rho_crit": 88.41766716244925,
+      "alpha": 99.99999479713424,
+      "chi2_red": 4.5982095132772836,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "NGC6946",
+      "rho_crit": 1611.4807382593797,
+      "alpha": 53.030130844837345,
+      "chi2_red": 4.7628952435523315,
+      "success": true,
+      "nfev": 18,
+      "at_bound": false
+    },
+    {
+      "name": "NGC7331",
+      "rho_crit": 85.29952187695169,
+      "alpha": 76.67387844140062,
+      "chi2_red": 3.1866852283008957,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "NGC7793",
+      "rho_crit": 102.17187600204682,
+      "alpha": 70.3997417542726,
+      "chi2_red": 3.5085721053355527,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "NGC7814",
+      "rho_crit": 99999.9970046684,
+      "alpha": 95.72861128805431,
+      "chi2_red": 1.0641391797943607,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "PGC51017",
+      "rho_crit": 99999.9970046684,
+      "alpha": 1.7686446438137053,
+      "chi2_red": 0.37646895060831276,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC00128",
+      "rho_crit": 99999.9970046684,
+      "alpha": 28.197370299954542,
+      "chi2_red": 120.8330297347086,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC00191",
+      "rho_crit": 48.92740254781086,
+      "alpha": 42.12547853272404,
+      "chi2_red": 19.20822823990813,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "UGC00634",
+      "rho_crit": 99999.9970046684,
+      "alpha": 26.37408392633203,
+      "chi2_red": 6.565706151290864,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC00731",
+      "rho_crit": 1.5283921911165892,
+      "alpha": 99.99999468288043,
+      "chi2_red": 2.5417957799574307,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "UGC00891",
+      "rho_crit": 0.9416434708902276,
+      "alpha": 97.52429636914765,
+      "chi2_red": 7.436804212661449,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "UGC01230",
+      "rho_crit": 99999.9970046684,
+      "alpha": 18.671616431019856,
+      "chi2_red": 4.7365711510616135,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC01281",
+      "rho_crit": 1.822526239203442,
+      "alpha": 99.99999141542293,
+      "chi2_red": 2.1281236953267024,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "UGC02023",
+      "rho_crit": 0.9450954772948227,
+      "alpha": 99.99999215890347,
+      "chi2_red": 1.4494829772312579,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "UGC02259",
+      "rho_crit": 99999.9970046684,
+      "alpha": 41.548380762544255,
+      "chi2_red": 3.7756889792761994,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC02455",
+      "rho_crit": 0.17670252905368927,
+      "alpha": 99.99999215890347,
+      "chi2_red": 38.07839728471422,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "UGC02487",
+      "rho_crit": 99999.9970046684,
+      "alpha": 68.43305701291627,
+      "chi2_red": 36.28308070813882,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC02885",
+      "rho_crit": 99999.9970046684,
+      "alpha": 45.53100699357944,
+      "chi2_red": 2.6832851251209626,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC02916",
+      "rho_crit": 145.22705626346308,
+      "alpha": 99.99999215890347,
+      "chi2_red": 40.98250317234721,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "UGC02953",
+      "rho_crit": 99999.9970046684,
+      "alpha": 76.13242684077866,
+      "chi2_red": 34.39050953997293,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC03205",
+      "rho_crit": 99999.9970046684,
+      "alpha": 51.43128538160127,
+      "chi2_red": 11.700266264421515,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC03546",
+      "rho_crit": 99999.9970046684,
+      "alpha": 55.09134433983796,
+      "chi2_red": 2.9526021533461213,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC03580",
+      "rho_crit": 25.686071610728586,
+      "alpha": 59.39692420045233,
+      "chi2_red": 24.89990618688334,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "UGC04278",
+      "rho_crit": 5.665883815453963,
+      "alpha": 99.99999204790178,
+      "chi2_red": 2.8268064753630164,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "UGC04305",
+      "rho_crit": 28.547662098206903,
+      "alpha": 10.162542442966494,
+      "chi2_red": 2.665912732650369,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "UGC04325",
+      "rho_crit": 3951.7451477760324,
+      "alpha": 54.42342314447231,
+      "chi2_red": 6.712297366641002,
+      "success": true,
+      "nfev": 21,
+      "at_bound": false
+    },
+    {
+      "name": "UGC04483",
+      "rho_crit": 1.0759695195877725,
+      "alpha": 91.36964993793383,
+      "chi2_red": 1.3309456007261757,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "UGC04499",
+      "rho_crit": 5.222524784232674,
+      "alpha": 72.78336029329776,
+      "chi2_red": 3.071580096289936,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05005",
+      "rho_crit": 2.9357739699981464,
+      "alpha": 48.35880803444813,
+      "chi2_red": 0.6861238380844793,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05253",
+      "rho_crit": 15970.173882569656,
+      "alpha": 63.19547836900246,
+      "chi2_red": 21.01336864174277,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05414",
+      "rho_crit": 2.085634120687642,
+      "alpha": 99.99999215982383,
+      "chi2_red": 7.392568010532456,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05716",
+      "rho_crit": 99999.9970046684,
+      "alpha": 27.806681800945444,
+      "chi2_red": 32.533076352544555,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC05721",
+      "rho_crit": 99999.9970046684,
+      "alpha": 57.08187809960276,
+      "chi2_red": 5.556712442790232,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC05750",
+      "rho_crit": 2.843643206193008,
+      "alpha": 43.77056977816771,
+      "chi2_red": 2.283832951347978,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05764",
+      "rho_crit": 12.907498442761053,
+      "alpha": 99.99999439546433,
+      "chi2_red": 25.57415505922781,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05829",
+      "rho_crit": 1.209425341214215,
+      "alpha": 99.9999905147465,
+      "chi2_red": 0.8755064745631115,
+      "success": true,
+      "nfev": 35,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05918",
+      "rho_crit": 0.6773700602398692,
+      "alpha": 99.9999949976768,
+      "chi2_red": 0.411989472428282,
+      "success": true,
+      "nfev": 40,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05986",
+      "rho_crit": 52.72782380115622,
+      "alpha": 99.99999167644565,
+      "chi2_red": 18.51627800178408,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "UGC05999",
+      "rho_crit": 1.1461908421572502,
+      "alpha": 99.99999093459532,
+      "chi2_red": 3.0094364251126122,
+      "success": true,
+      "nfev": 35,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06399",
+      "rho_crit": 6.285026526845864,
+      "alpha": 99.99999082971031,
+      "chi2_red": 1.8877509452049481,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06446",
+      "rho_crit": 99999.9970046684,
+      "alpha": 39.82833018861875,
+      "chi2_red": 1.811966679177086,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC06614",
+      "rho_crit": 437.75432949684915,
+      "alpha": 49.033174911071804,
+      "chi2_red": 0.8724095974953959,
+      "success": true,
+      "nfev": 22,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06628",
+      "rho_crit": 5.662236767992456,
+      "alpha": 10.726195116952024,
+      "chi2_red": 0.16044548721027765,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06667",
+      "rho_crit": 99999.9970046684,
+      "alpha": 42.297498784365324,
+      "chi2_red": 2.966845668578566,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC06786",
+      "rho_crit": 99999.9970046684,
+      "alpha": 77.68116914160677,
+      "chi2_red": 3.251808915748188,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC06787",
+      "rho_crit": 99999.9970046684,
+      "alpha": 91.37961038984595,
+      "chi2_red": 37.25605926080159,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC06818",
+      "rho_crit": 1.3479684360795048,
+      "alpha": 99.99999064793802,
+      "chi2_red": 4.081918763467658,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06917",
+      "rho_crit": 10.741860943164891,
+      "alpha": 99.999991651432,
+      "chi2_red": 2.492640433479767,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06923",
+      "rho_crit": 7.463843625565277,
+      "alpha": 99.99999453795496,
+      "chi2_red": 1.6696749881020394,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06930",
+      "rho_crit": 99999.99768395034,
+      "alpha": 26.975588808041397,
+      "chi2_red": 1.142492200937867,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC06973",
+      "rho_crit": 14.56356737784344,
+      "alpha": 99.99999215890347,
+      "chi2_red": 34.659791487882124,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "UGC06983",
+      "rho_crit": 2974.216434723234,
+      "alpha": 44.045475126924394,
+      "chi2_red": 2.2618897993233844,
+      "success": true,
+      "nfev": 21,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07089",
+      "rho_crit": 1.418297013328173,
+      "alpha": 99.99999209350122,
+      "chi2_red": 1.7119390687777079,
+      "success": true,
+      "nfev": 33,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07125",
+      "rho_crit": 5.565604441651965,
+      "alpha": 27.093175018078714,
+      "chi2_red": 3.8692251697526925,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07151",
+      "rho_crit": 7.895393544019116,
+      "alpha": 99.99999378568657,
+      "chi2_red": 10.388100529589654,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07232",
+      "rho_crit": 8.914069179393278,
+      "alpha": 99.99999215890347,
+      "chi2_red": 5.957130075123755,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07261",
+      "rho_crit": 31.36629128569775,
+      "alpha": 58.77198252369942,
+      "chi2_red": 0.3894695249425051,
+      "success": true,
+      "nfev": 26,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07323",
+      "rho_crit": 4.6482712992302515,
+      "alpha": 99.9999915637972,
+      "chi2_red": 5.840387811711593,
+      "success": true,
+      "nfev": 29,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07399",
+      "rho_crit": 244.3473276482751,
+      "alpha": 99.99999039216569,
+      "chi2_red": 5.835372814041971,
+      "success": true,
+      "nfev": 24,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07524",
+      "rho_crit": 4.441984931649834,
+      "alpha": 79.80571735964614,
+      "chi2_red": 1.8156118452512127,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07559",
+      "rho_crit": 0.4239403558234512,
+      "alpha": 99.99999481661476,
+      "chi2_red": 1.2203588478646268,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07577",
+      "rho_crit": 0.05961211363947612,
+      "alpha": 99.99999215890347,
+      "chi2_red": 0.5885130050886939,
+      "success": true,
+      "nfev": 36,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07603",
+      "rho_crit": 10.295314360087092,
+      "alpha": 99.9999905595896,
+      "chi2_red": 4.279200754667135,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07608",
+      "rho_crit": 3.7811660275658343,
+      "alpha": 99.999990383127,
+      "chi2_red": 1.2452501745261597,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGC07690",
+      "rho_crit": 99999.99685844171,
+      "alpha": 26.220373615482647,
+      "chi2_red": 1.6687931052979812,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC07866",
+      "rho_crit": 0.5704043190355331,
+      "alpha": 99.99999280437319,
+      "chi2_red": 0.2561529257851313,
+      "success": true,
+      "nfev": 36,
+      "at_bound": false
+    },
+    {
+      "name": "UGC08286",
+      "rho_crit": 99999.9970046684,
+      "alpha": 42.67621743746135,
+      "chi2_red": 8.534447735048165,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC08490",
+      "rho_crit": 99999.9970046684,
+      "alpha": 37.71713344854079,
+      "chi2_red": 5.049162375854254,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC08550",
+      "rho_crit": 63.18649841806361,
+      "alpha": 47.58764934781126,
+      "chi2_red": 3.9889546608426363,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "UGC08699",
+      "rho_crit": 99999.9970046684,
+      "alpha": 58.86362856849396,
+      "chi2_red": 5.728071256465528,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC08837",
+      "rho_crit": 0.3855284216718711,
+      "alpha": 99.99999215890347,
+      "chi2_red": 12.289714239899732,
+      "success": true,
+      "nfev": 34,
+      "at_bound": false
+    },
+    {
+      "name": "UGC09037",
+      "rho_crit": 5.193074286215067,
+      "alpha": 99.9999931445961,
+      "chi2_red": 11.074643083211035,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC09133",
+      "rho_crit": 99999.9970046684,
+      "alpha": 33.47185134291128,
+      "chi2_red": 66.95784204783885,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC09992",
+      "rho_crit": 99999.9970046684,
+      "alpha": 8.713763445846315,
+      "chi2_red": 0.04007457788196617,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC10310",
+      "rho_crit": 4.6726614770799735,
+      "alpha": 77.70625440335631,
+      "chi2_red": 1.6118167367025649,
+      "success": true,
+      "nfev": 30,
+      "at_bound": false
+    },
+    {
+      "name": "UGC11455",
+      "rho_crit": 55.00651206894252,
+      "alpha": 99.67772008926032,
+      "chi2_red": 38.80327222539175,
+      "success": true,
+      "nfev": 28,
+      "at_bound": false
+    },
+    {
+      "name": "UGC11557",
+      "rho_crit": 1.1085481670091613,
+      "alpha": 99.99999215890347,
+      "chi2_red": 5.013009937436564,
+      "success": true,
+      "nfev": 32,
+      "at_bound": false
+    },
+    {
+      "name": "UGC11820",
+      "rho_crit": 277.9785676333221,
+      "alpha": 23.863140124354782,
+      "chi2_red": 2.4398953836338113,
+      "success": true,
+      "nfev": 23,
+      "at_bound": false
+    },
+    {
+      "name": "UGC11914",
+      "rho_crit": 99999.99657065667,
+      "alpha": 99.99999215890347,
+      "chi2_red": 5.904721309621398,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC12506",
+      "rho_crit": 99999.9970046684,
+      "alpha": 50.47666427647479,
+      "chi2_red": 3.4818277445708663,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC12632",
+      "rho_crit": 99999.9970046684,
+      "alpha": 24.790173763406376,
+      "chi2_red": 1.483211873275877,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    },
+    {
+      "name": "UGC12732",
+      "rho_crit": 44.91368223040915,
+      "alpha": 45.95953838245092,
+      "chi2_red": 1.5760462554300345,
+      "success": true,
+      "nfev": 25,
+      "at_bound": false
+    },
+    {
+      "name": "UGCA281",
+      "rho_crit": 2.139499900984118,
+      "alpha": 99.99999051826165,
+      "chi2_red": 3.296966863536819,
+      "success": true,
+      "nfev": 31,
+      "at_bound": false
+    },
+    {
+      "name": "UGCA442",
+      "rho_crit": 538.9000325319907,
+      "alpha": 24.81973787851704,
+      "chi2_red": 4.867091133399444,
+      "success": true,
+      "nfev": 27,
+      "at_bound": false
+    },
+    {
+      "name": "UGCA444",
+      "rho_crit": 99999.9970046684,
+      "alpha": 22.05870986306067,
+      "chi2_red": 0.12291905851617031,
+      "success": true,
+      "nfev": 36,
+      "at_bound": true
+    }
+  ]
+}
