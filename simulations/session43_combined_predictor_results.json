@@ -1,0 +1,66 @@
+{
+  "session": 43,
+  "track": "C - Combined Predictor",
+  "date": "2025-11-24T12:05:11.700101",
+  "virial_params": {
+    "A": 0.2486629283954698,
+    "B": 1.6155337127026153,
+    "A_err": 0.9766266527334617,
+    "B_err": 0.7345585878514131,
+    "pearson_r": 0.6889504139531455,
+    "spearman_rho": 0.6994428619923497,
+    "r_squared": 0.0709537139553087,
+    "n_fit": 122,
+    "n_excluded": 53
+  },
+  "configurations": {
+    "Tanh + \u03b3=0.30": {
+      "coherence_type": "tanh",
+      "gamma": 0.3,
+      "success_rate": 48.0,
+      "median_chi2": 5.446718544709504,
+      "n_galaxies": 175
+    },
+    "Tanh + \u03b3=0.50": {
+      "coherence_type": "tanh",
+      "gamma": 0.5,
+      "success_rate": 47.42857142857143,
+      "median_chi2": 5.364263316778171,
+      "n_galaxies": 175
+    },
+    "Tanh + \u03b3=1.00": {
+      "coherence_type": "tanh",
+      "gamma": 1.0,
+      "success_rate": 48.57142857142857,
+      "median_chi2": 5.15389534260637,
+      "n_galaxies": 175
+    },
+    "Tanh + \u03b3=2.00": {
+      "coherence_type": "tanh",
+      "gamma": 2.0,
+      "success_rate": 53.714285714285715,
+      "median_chi2": 4.748881795877776,
+      "n_galaxies": 175
+    },
+    "Tanh + \u03b3=5.00": {
+      "coherence_type": "tanh",
+      "gamma": 5.0,
+      "success_rate": 50.285714285714285,
+      "median_chi2": 4.940724816774237,
+      "n_galaxies": 175
+    },
+    "Exponential + \u03b3=0.30 (Session #42 virial)": {
+      "coherence_type": "exponential",
+      "gamma": 0.3,
+      "success_rate": 44.57142857142857,
+      "median_chi2": 5.588820002751922,
+      "n_galaxies": 175
+    }
+  },
+  "best_config": {
+    "label": "Tanh + \u03b3=2.00",
+    "success_rate": 53.714285714285715,
+    "median_chi2": 4.748881795877776,
+    "gamma": 2.0
+  }
+}

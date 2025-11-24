@@ -1,0 +1,66 @@
+{
+  "session": 43,
+  "track": "A - \u03b3 Parameter Analysis",
+  "date": "2025-11-24T12:02:27.827453",
+  "correlations": {
+    "v_max": {
+      "spearman_rho": -0.42987012987012985,
+      "p_value": 0.051781881711895524,
+      "label": "Maximum velocity [km/s]"
+    },
+    "rho_vis_max": {
+      "spearman_rho": -0.36103896103896105,
+      "p_value": 0.10784449874176322,
+      "label": "Max visible density [M\u2609/pc\u00b2]"
+    },
+    "compactness": {
+      "spearman_rho": -0.5415584415584416,
+      "p_value": 0.011225759601972758,
+      "label": "Compactness (\u03c1_max/\u03c1_mean)"
+    },
+    "density_spread": {
+      "spearman_rho": -0.34155844155844156,
+      "p_value": 0.1296778641559596,
+      "label": "Density spread [decades]"
+    }
+  },
+  "predictors": {
+    "v_max": {
+      "params": [
+        23.91904200361603,
+        -0.7973345226887409
+      ],
+      "r2": 0.2534652293882045
+    },
+    "compactness": {
+      "params": [
+        1.1566031127778325,
+        -0.5437852751606884
+      ],
+      "r2": 0.17901390049186494
+    },
+    "density_spread": {
+      "params": [
+        0.652846472693143,
+        -0.5250988371918858
+      ],
+      "r2": 0.09714693574664401
+    }
+  },
+  "gamma_stats": {
+    "median": 0.32427879270059673,
+    "mean": 0.5454673915340198,
+    "std": 0.49408689169640135,
+    "min": 0.11597242065116033,
+    "max": 1.8852244835187264
+  },
+  "failure_analysis": {
+    "success_v_max_median": 85.7,
+    "failure_v_max_median": 141.0,
+    "v_max_ttest_pval": 6.909630133616504e-05,
+    "success_gamma_median": 2.0,
+    "failure_gamma_median": 2.0,
+    "success_at_bound_frac": 0.8849557522123894,
+    "failure_at_bound_frac": 0.8709677419354839
+  }
+}
