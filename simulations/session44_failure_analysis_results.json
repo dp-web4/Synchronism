@@ -1,0 +1,303 @@
+{
+  "session": 44,
+  "track": "A - Failure Population Analysis",
+  "date": "2025-11-24T18:03:05.519055",
+  "summary": {
+    "total_galaxies": 175,
+    "success_count": 94,
+    "failure_count": 81,
+    "success_rate": 53.714285714285715
+  },
+  "property_comparison": {
+    "v_max": {
+      "success_median": 84.375,
+      "failure_median": 134.0,
+      "p_value": 6.593383781234312e-05,
+      "significant": true
+    },
+    "v_flat": {
+      "success_median": 82.11666666666667,
+      "failure_median": 128.66666666666666,
+      "p_value": 4.890772933993134e-05,
+      "significant": true
+    },
+    "v_decline": {
+      "success_median": 0.9706659668881532,
+      "failure_median": 0.9576470588235293,
+      "p_value": 0.05681898472152606,
+      "significant": false
+    },
+    "rho_max": {
+      "success_median": 37.90816088952491,
+      "failure_median": 200.99806869779715,
+      "p_value": 1.4604311515442949e-05,
+      "significant": true
+    },
+    "compactness": {
+      "success_median": 3.207971942617644,
+      "failure_median": 4.095000828040253,
+      "p_value": 0.007237159900569846,
+      "significant": true
+    },
+    "density_spread": {
+      "success_median": 1.0079216758712821,
+      "failure_median": 1.6316548307437744,
+      "p_value": 0.00010984415282499329,
+      "significant": true
+    },
+    "r_max": {
+      "success_median": 10.345,
+      "failure_median": 14.86,
+      "p_value": 0.004841166092910376,
+      "significant": true
+    },
+    "n_points": {
+      "success_median": 11.5,
+      "failure_median": 19.0,
+      "p_value": 9.27588249776757e-05,
+      "significant": true
+    }
+  },
+  "threshold_analysis": {
+    "50": {
+      "n_below": 22,
+      "n_above": 153,
+      "success_below": 81.81818181818181,
+      "success_above": 49.673202614379086
+    },
+    "75": {
+      "n_below": 55,
+      "n_above": 120,
+      "success_below": 70.9090909090909,
+      "success_above": 45.833333333333336
+    },
+    "100": {
+      "n_below": 88,
+      "n_above": 87,
+      "success_below": 67.04545454545455,
+      "success_above": 40.229885057471265
+    },
+    "125": {
+      "n_below": 109,
+      "n_above": 66,
+      "success_below": 65.13761467889908,
+      "success_above": 34.84848484848485
+    },
+    "150": {
+      "n_below": 119,
+      "n_above": 56,
+      "success_below": 61.34453781512605,
+      "success_above": 37.5
+    },
+    "175": {
+      "n_below": 126,
+      "n_above": 49,
+      "success_below": 59.523809523809526,
+      "success_above": 38.775510204081634
+    },
+    "200": {
+      "n_below": 137,
+      "n_above": 38,
+      "success_below": 59.12408759124087,
+      "success_above": 34.21052631578947
+    }
+  },
+  "optimal_cutoff": {
+    "v_max_cutoff": 50,
+    "n_below": 22,
+    "n_above": 153,
+    "success_below": 81.81818181818181,
+    "success_above": 49.673202614379086
+  },
+  "cutoff_curve": [
+    {
+      "cutoff": 50.0,
+      "n_galaxies": 22,
+      "success_rate": 81.81818181818181
+    },
+    {
+      "cutoff": 60.0,
+      "n_galaxies": 33,
+      "success_rate": 75.75757575757575
+    },
+    {
+      "cutoff": 70.0,
+      "n_galaxies": 48,
+      "success_rate": 70.83333333333333
+    },
+    {
+      "cutoff": 80.0,
+      "n_galaxies": 59,
+      "success_rate": 71.1864406779661
+    },
+    {
+      "cutoff": 90.0,
+      "n_galaxies": 79,
+      "success_rate": 68.35443037974683
+    },
+    {
+      "cutoff": 100.0,
+      "n_galaxies": 88,
+      "success_rate": 67.04545454545455
+    },
+    {
+      "cutoff": 110.0,
+      "n_galaxies": 94,
+      "success_rate": 63.829787234042556
+    },
+    {
+      "cutoff": 120.0,
+      "n_galaxies": 107,
+      "success_rate": 65.42056074766356
+    },
+    {
+      "cutoff": 130.0,
+      "n_galaxies": 111,
+      "success_rate": 64.86486486486487
+    },
+    {
+      "cutoff": 140.0,
+      "n_galaxies": 117,
+      "success_rate": 61.53846153846154
+    },
+    {
+      "cutoff": 150.0,
+      "n_galaxies": 119,
+      "success_rate": 61.34453781512605
+    },
+    {
+      "cutoff": 160.0,
+      "n_galaxies": 121,
+      "success_rate": 60.33057851239669
+    },
+    {
+      "cutoff": 170.0,
+      "n_galaxies": 125,
+      "success_rate": 60.0
+    },
+    {
+      "cutoff": 180.0,
+      "n_galaxies": 129,
+      "success_rate": 58.13953488372093
+    },
+    {
+      "cutoff": 190.0,
+      "n_galaxies": 131,
+      "success_rate": 58.778625954198475
+    },
+    {
+      "cutoff": 200.0,
+      "n_galaxies": 137,
+      "success_rate": 59.12408759124087
+    },
+    {
+      "cutoff": 210.0,
+      "n_galaxies": 141,
+      "success_rate": 58.86524822695036
+    }
+  ],
+  "worst_failures": [
+    {
+      "name": "IC2574",
+      "v_max": 67.5,
+      "chi2": 200.83410041654588
+    },
+    {
+      "name": "UGC00128",
+      "v_max": 134.0,
+      "chi2": 120.919585641853
+    },
+    {
+      "name": "IC4202",
+      "v_max": 250.0,
+      "chi2": 78.78070840730257
+    },
+    {
+      "name": "NGC2403",
+      "v_max": 136.0,
+      "chi2": 75.72973906645798
+    },
+    {
+      "name": "UGC09133",
+      "v_max": 289.0,
+      "chi2": 75.05457386138204
+    },
+    {
+      "name": "NGC5055",
+      "v_max": 206.0,
+      "chi2": 62.9248201317875
+    },
+    {
+      "name": "UGC02953",
+      "v_max": 319.0,
+      "chi2": 61.49911493104128
+    },
+    {
+      "name": "NGC4217",
+      "v_max": 191.0,
+      "chi2": 56.743304422937065
+    },
+    {
+      "name": "NGC5033",
+      "v_max": 225.0,
+      "chi2": 55.21817178810984
+    },
+    {
+      "name": "F571-8",
+      "v_max": 144.0,
+      "chi2": 49.136892720456736
+    }
+  ],
+  "best_successes": [
+    {
+      "name": "UGC09992",
+      "v_max": 34.3,
+      "chi2": 0.08750759961810504
+    },
+    {
+      "name": "UGCA444",
+      "v_max": 38.3,
+      "chi2": 0.13395750943999266
+    },
+    {
+      "name": "UGC06628",
+      "v_max": 42.3,
+      "chi2": 0.15374328490694034
+    },
+    {
+      "name": "UGC07261",
+      "v_max": 76.1,
+      "chi2": 0.42796091495683575
+    },
+    {
+      "name": "F561-1",
+      "v_max": 50.4,
+      "chi2": 0.4975137325256777
+    },
+    {
+      "name": "NGC4214",
+      "v_max": 80.6,
+      "chi2": 0.5132829821340503
+    },
+    {
+      "name": "UGC07866",
+      "v_max": 33.1,
+      "chi2": 0.5288904949584835
+    },
+    {
+      "name": "F563-V1",
+      "v_max": 29.5,
+      "chi2": 0.5799923023998551
+    },
+    {
+      "name": "UGC05918",
+      "v_max": 44.5,
+      "chi2": 0.6241435652983082
+    },
+    {
+      "name": "PGC51017",
+      "v_max": 20.5,
+      "chi2": 0.7050907380407565
+    }
+  ]
+}
