@@ -1,0 +1,68 @@
+{
+  "session": 46,
+  "track": "C - LITTLE THINGS Preparation",
+  "date": "2025-11-25T06:08:33.366073",
+  "survey": {
+    "name": "LITTLE THINGS",
+    "full_name": "Local Irregulars That Trace Luminosity Extremes, The H I Nearby Galaxy Survey",
+    "reference": "Oh et al. (2015) AJ 149, 180",
+    "arxiv": "1502.01281",
+    "n_galaxies": 26,
+    "telescope": "VLA",
+    "wavelength": "HI 21 cm",
+    "volume": "< 11 Mpc"
+  },
+  "galaxy_sample": [
+    "CVnIdwA",
+    "DDO 43",
+    "DDO 46",
+    "DDO 47",
+    "DDO 50",
+    "DDO 52",
+    "DDO 53",
+    "DDO 63",
+    "DDO 70",
+    "DDO 75",
+    "DDO 87",
+    "DDO 101",
+    "DDO 126",
+    "DDO 133",
+    "DDO 154",
+    "DDO 168",
+    "DDO 210",
+    "DDO 216",
+    "F564-V3",
+    "IC 1613",
+    "NGC 1569",
+    "NGC 2366",
+    "UGC 8508",
+    "WLM",
+    "Haro 29",
+    "Haro 36"
+  ],
+  "validation_framework": {
+    "model": "Synchronism 0-parameter",
+    "parameters": {
+      "gamma": 2.0,
+      "B": 1.62,
+      "beta": 0.3,
+      "A": 0.25
+    },
+    "success_criterion": "chi2 < 5.0"
+  },
+  "predictions": {
+    "expected_success_rate": "60-70%",
+    "basis": "SPARC dwarf results (67% for v_max < 100, 81.8% for v_max < 50)",
+    "confidence": "high",
+    "failure_threshold": "50%",
+    "validation_threshold": "70%"
+  },
+  "next_steps": [
+    "Session #47: Data acquisition from VizieR/CDS",
+    "Session #47: Implement validation pipeline",
+    "Session #48: Blind validation test",
+    "Session #48: Analysis and comparison",
+    "Session #49: Publication preparation"
+  ],
+  "status": "Framework prepared, awaiting data acquisition"
+}

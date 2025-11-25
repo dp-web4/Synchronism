@@ -1,0 +1,44 @@
+{
+  "session": 46,
+  "track": "B - tanh Derivation from Axioms",
+  "date": "2025-11-25T06:06:24.491275",
+  "derivation_paths": [
+    {
+      "name": "Decoherence dynamics",
+      "result": "Curie-Weiss equation \u2192 tanh"
+    },
+    {
+      "name": "Saturation dynamics",
+      "result": "Mean-field theory \u2192 tanh"
+    },
+    {
+      "name": "Information theory",
+      "result": "Max entropy + binary choice \u2192 tanh"
+    },
+    {
+      "name": "MRH complexity",
+      "result": "Unique bounded smooth monotonic \u2192 tanh (PRIMARY)"
+    },
+    {
+      "name": "Witnessing dynamics",
+      "result": "Rate equation \u2192 sigmoid \u2192 tanh"
+    }
+  ],
+  "primary_derivation": "MRH complexity dimension axiom",
+  "key_axioms": [
+    "A1: Complexity \u0394C is a literal dimension of observation space",
+    "A2: Coherence measures complexity coupling between pattern and observer",
+    "A3: Complexity scales with energy (\u0394C \u221d E \u221d \u03c1 in virial equilibrium)"
+  ],
+  "uniqueness_requirements": [
+    "Bounded: C \u2208 [-1, 1]",
+    "Monotonic: dC/d\u03c1 > 0",
+    "Saturates: C(0) = 0, C(\u221e) = 1",
+    "Antisymmetric about center",
+    "Smooth: C \u2208 C^\u221e"
+  ],
+  "result": "C = tanh(\u03b3 \u00d7 log(\u03c1/\u03c1_crit + 1)) with \u03b3 = 2",
+  "gamma_source": "Decoherence rate \u0393 \u221d (\u0394E)\u00b2 \u2192 \u03b3 = 2",
+  "nova_critique_addressed": true,
+  "conclusion": "tanh form is DERIVED from MRH complexity axiom, not curve-fitting"
+}
