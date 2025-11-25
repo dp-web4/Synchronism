@@ -1,0 +1,132 @@
+{
+  "session": 45,
+  "track": "C - Compactness Correction",
+  "date": "2025-11-25T00:06:41.504408",
+  "analysis": {
+    "compactness_median": 3.5728759489013275,
+    "spearman_chi2": 0.31674876847290645,
+    "p_chi2": 1.9490411045499597e-05,
+    "spearman_vmax": 0.7054327400514561,
+    "success_low_compact": 60.22727272727273,
+    "success_high_compact": 47.12643678160919
+  },
+  "kappa_optimization": [
+    {
+      "kappa": -0.5,
+      "success_rate": 39.42857142857143,
+      "median_chi2": 8.954186699816802
+    },
+    {
+      "kappa": -0.45,
+      "success_rate": 39.42857142857143,
+      "median_chi2": 8.93739131795771
+    },
+    {
+      "kappa": -0.4,
+      "success_rate": 40.0,
+      "median_chi2": 8.656740885135473
+    },
+    {
+      "kappa": -0.35,
+      "success_rate": 40.57142857142857,
+      "median_chi2": 8.277664267045402
+    },
+    {
+      "kappa": -0.3,
+      "success_rate": 41.714285714285715,
+      "median_chi2": 8.199263052393997
+    },
+    {
+      "kappa": -0.25,
+      "success_rate": 42.857142857142854,
+      "median_chi2": 7.802981237565888
+    },
+    {
+      "kappa": -0.19999999999999996,
+      "success_rate": 44.57142857142857,
+      "median_chi2": 6.11500758198297
+    },
+    {
+      "kappa": -0.14999999999999997,
+      "success_rate": 46.857142857142854,
+      "median_chi2": 5.567457015554704
+    },
+    {
+      "kappa": -0.09999999999999998,
+      "success_rate": 49.714285714285715,
+      "median_chi2": 5.04990827922427
+    },
+    {
+      "kappa": -0.04999999999999999,
+      "success_rate": 52.0,
+      "median_chi2": 4.8478429569593064
+    },
+    {
+      "kappa": 0.0,
+      "success_rate": 53.714285714285715,
+      "median_chi2": 4.748881795877776
+    },
+    {
+      "kappa": 0.050000000000000044,
+      "success_rate": 53.714285714285715,
+      "median_chi2": 4.7542835621286
+    },
+    {
+      "kappa": 0.10000000000000009,
+      "success_rate": 53.714285714285715,
+      "median_chi2": 4.765854794583831
+    },
+    {
+      "kappa": 0.15000000000000002,
+      "success_rate": 53.142857142857146,
+      "median_chi2": 4.807840977412963
+    },
+    {
+      "kappa": 0.20000000000000007,
+      "success_rate": 52.0,
+      "median_chi2": 4.878329175811128
+    },
+    {
+      "kappa": 0.25,
+      "success_rate": 51.42857142857143,
+      "median_chi2": 4.932798271289735
+    },
+    {
+      "kappa": 0.30000000000000004,
+      "success_rate": 50.857142857142854,
+      "median_chi2": 4.901507133925916
+    },
+    {
+      "kappa": 0.3500000000000001,
+      "success_rate": 50.285714285714285,
+      "median_chi2": 4.980148847935961
+    },
+    {
+      "kappa": 0.4,
+      "success_rate": 48.57142857142857,
+      "median_chi2": 5.145335837800531
+    },
+    {
+      "kappa": 0.45000000000000007,
+      "success_rate": 48.57142857142857,
+      "median_chi2": 5.2056334988309
+    },
+    {
+      "kappa": 0.5,
+      "success_rate": 45.142857142857146,
+      "median_chi2": 5.7062520594420105
+    }
+  ],
+  "best_kappa": {
+    "kappa": 0.0,
+    "success_rate": 53.714285714285715,
+    "median_chi2": 4.748881795877776
+  },
+  "baseline": {
+    "kappa": 0.0,
+    "success_rate": 53.714285714285715,
+    "median_chi2": 4.748881795877776
+  },
+  "conclusion": "Marginal improvement, not recommended",
+  "recommendation": "Keep 0-parameter model, acknowledge massive galaxy limitation"
+}
