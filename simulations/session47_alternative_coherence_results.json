@@ -1,0 +1,21 @@
+{
+  "session": 47,
+  "track": "B - Alternative Coherence Functions",
+  "date": "2025-11-25T12:07:15.208230",
+  "hypothesis": "If tanh is theoretically derived, alternatives should perform worse",
+  "functions_tested": [
+    "tanh",
+    "erf",
+    "arctan",
+    "algebraic"
+  ],
+  "requirements_all_satisfy": [
+    "Bounded [-1, 1]",
+    "Monotonic increasing",
+    "Saturates at \u00b11",
+    "Antisymmetric f(-x) = -f(x)",
+    "Smooth C^\u221e"
+  ],
+  "theoretical_preference": "tanh (Boltzmann statistics, exponential saturation)",
+  "sparc_results": null
+}
