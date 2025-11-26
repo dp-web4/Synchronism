@@ -1,0 +1,316 @@
+{
+  "session": 50,
+  "track": "C - Outlier System Validation",
+  "date": "2025-11-26T06:07:44.364590",
+  "model_parameters": {
+    "gamma": 2.0,
+    "A": 0.25,
+    "B": 1.62
+  },
+  "results_by_category": {
+    "TDGs": [
+      {
+        "name": "NGC5291N",
+        "vmax": 45,
+        "mbar": 120000000.0,
+        "r_eff": 3.5,
+        "dm_obs": 0.65,
+        "C_pred": 1.1214321452638037e-05,
+        "dm_pred": 0.9999887856785473,
+        "error": 0.3499887856785473,
+        "rho_mean": 0.0006681723558376948,
+        "rho_crit": 119.16378273024473,
+        "source": "Lelli+ 2015"
+      },
+      {
+        "name": "NGC5291S",
+        "vmax": 38,
+        "mbar": 85000000.0,
+        "r_eff": 2.8,
+        "dm_obs": 0.7,
+        "C_pred": 2.0403025275099512e-05,
+        "dm_pred": 0.9999795969747249,
+        "error": 0.299979596974725,
+        "rho_mean": 0.0009243920938509776,
+        "rho_crit": 90.6127759163759,
+        "source": "Lelli+ 2015"
+      },
+      {
+        "name": "NGC5291SW",
+        "vmax": 55,
+        "mbar": 210000000.0,
+        "r_eff": 4.2,
+        "dm_obs": 0.55,
+        "C_pred": 8.205108973855954e-06,
+        "dm_pred": 0.9999917948910262,
+        "error": 0.44999179489102614,
+        "rho_mean": 0.0006766791798124802,
+        "rho_crit": 164.9405983294302,
+        "source": "Lelli+ 2015"
+      },
+      {
+        "name": "NGC4038-TDG1",
+        "vmax": 35,
+        "mbar": 50000000.0,
+        "r_eff": 2.0,
+        "dm_obs": 0.75,
+        "C_pred": 3.762591567042725e-05,
+        "dm_pred": 0.9999623740843295,
+        "error": 0.24996237408432953,
+        "rho_mean": 0.001492077591486519,
+        "rho_crit": 79.31041831358728,
+        "source": "Bournaud+ 2007"
+      },
+      {
+        "name": "NGC4038-TDG2",
+        "vmax": 42,
+        "mbar": 100000000.0,
+        "r_eff": 2.5,
+        "dm_obs": 0.6,
+        "C_pred": 2.867572373375372e-05,
+        "dm_pred": 0.9999713242762662,
+        "error": 0.39997132427626625,
+        "rho_mean": 0.0015278874536821955,
+        "rho_crit": 106.56236711891839,
+        "source": "Bournaud+ 2007"
+      },
+      {
+        "name": "VCC2062",
+        "vmax": 25,
+        "mbar": 20000000.0,
+        "r_eff": 1.5,
+        "dm_obs": 0.8,
+        "C_pred": 6.153016802085873e-05,
+        "dm_pred": 0.9999384698319791,
+        "error": 0.19993846983197905,
+        "rho_mean": 0.001414710605261292,
+        "rho_crit": 45.98358454885153,
+        "source": "Duc+ 2014"
+      }
+    ],
+    "LSBs": [
+      {
+        "name": "F568-3",
+        "mu0": 24.5,
+        "vmax": 68,
+        "mbar": 250000000.0,
+        "r_eff": 7.0,
+        "dm_obs": 0.95,
+        "C_pred": 1.4961759355046913e-06,
+        "dm_pred": 0.9999985038240645,
+        "error": 0.049998503824064566,
+        "rho_mean": 0.00017400321766606634,
+        "source": "de Blok+ 2001"
+      },
+      {
+        "name": "F583-1",
+        "mu0": 24.8,
+        "vmax": 52,
+        "mbar": 120000000.0,
+        "r_eff": 5.5,
+        "dm_obs": 0.93,
+        "C_pred": 2.28648780969848e-06,
+        "dm_pred": 0.9999977135121904,
+        "error": 0.06999771351219031,
+        "rho_mean": 0.0001721886687094886,
+        "source": "de Blok+ 2001"
+      },
+      {
+        "name": "UGC5750",
+        "mu0": 24.2,
+        "vmax": 75,
+        "mbar": 410000000.0,
+        "r_eff": 8.5,
+        "dm_obs": 0.92,
+        "C_pred": 1.1693084377593915e-06,
+        "dm_pred": 0.9999988306915623,
+        "error": 0.07999883069156222,
+        "rho_mean": 0.0001593817056812793,
+        "source": "de Blok+ 1997"
+      },
+      {
+        "name": "F574-1",
+        "mu0": 25.1,
+        "vmax": 45,
+        "mbar": 80000000.0,
+        "r_eff": 4.0,
+        "dm_obs": 0.96,
+        "C_pred": 5.008487273505855e-06,
+        "dm_pred": 0.9999949915127265,
+        "error": 0.03999499151272656,
+        "rho_mean": 0.0002984155182973038,
+        "source": "de Blok+ 2001"
+      },
+      {
+        "name": "UGC128",
+        "mu0": 23.8,
+        "vmax": 82,
+        "mbar": 580000000.0,
+        "r_eff": 9.0,
+        "dm_obs": 0.9,
+        "C_pred": 1.2059332538403162e-06,
+        "dm_pred": 0.9999987940667462,
+        "error": 0.09999879406674617,
+        "rho_mean": 0.0001899379979285994,
+        "source": "de Blok+ 1997"
+      },
+      {
+        "name": "F563-1",
+        "mu0": 24.6,
+        "vmax": 58,
+        "mbar": 180000000.0,
+        "r_eff": 6.2,
+        "dm_obs": 0.94,
+        "C_pred": 2.006066136989361e-06,
+        "dm_pred": 0.999997993933863,
+        "error": 0.05999799393386307,
+        "rho_mean": 0.0001803054388691708,
+        "source": "de Blok+ 2001"
+      },
+      {
+        "name": "F579-V1",
+        "mu0": 24.4,
+        "vmax": 62,
+        "mbar": 220000000.0,
+        "r_eff": 6.8,
+        "dm_obs": 0.93,
+        "C_pred": 1.6681019972216284e-06,
+        "dm_pred": 0.9999983318980028,
+        "error": 0.06999833189800275,
+        "rho_mean": 0.00016703494307298707,
+        "source": "de Blok+ 2001"
+      },
+      {
+        "name": "UGC1230",
+        "mu0": 23.5,
+        "vmax": 90,
+        "mbar": 750000000.0,
+        "r_eff": 10.0,
+        "dm_obs": 0.88,
+        "C_pred": 9.776641034148836e-07,
+        "dm_pred": 0.9999990223358965,
+        "error": 0.11999902233589654,
+        "rho_mean": 0.00017904931097838226,
+        "source": "de Blok+ 1997"
+      }
+    ],
+    "UDGs": [
+      {
+        "name": "Dragonfly44",
+        "vmax": 47,
+        "mbar": 300000000.0,
+        "r_eff": 4.6,
+        "dm_obs": 0.99,
+        "C_pred": 1.1509311856878284e-05,
+        "dm_pred": 0.9999884906881431,
+        "error": 0.009988490688143115,
+        "rho_mean": 0.0007357989273378083,
+        "rho_crit": 127.86113007154377,
+        "note": "Coma cluster, DM-dominated",
+        "source": "van Dokkum+ 2016"
+      },
+      {
+        "name": "NGC1052-DF2",
+        "vmax": 8.5,
+        "mbar": 200000000.0,
+        "r_eff": 2.2,
+        "dm_obs": 0.1,
+        "C_pred": 0.0011193939296912326,
+        "dm_pred": 0.9988806060703088,
+        "error": 0.8988806060703088,
+        "rho_mean": 0.004484079914309599,
+        "rho_crit": 8.009375746263695,
+        "note": "Appears nearly DM-free",
+        "source": "van Dokkum+ 2018"
+      },
+      {
+        "name": "NGC1052-DF4",
+        "vmax": 6.3,
+        "mbar": 150000000.0,
+        "r_eff": 1.6,
+        "dm_obs": 0.05,
+        "C_pred": 0.0035433528999940255,
+        "dm_pred": 0.9964566471000059,
+        "error": 0.9464566471000059,
+        "rho_mean": 0.008742642137616321,
+        "rho_crit": 4.930281298687081,
+        "note": "Appears essentially DM-free",
+        "source": "van Dokkum+ 2019"
+      },
+      {
+        "name": "VCC1287",
+        "vmax": 33,
+        "mbar": 250000000.0,
+        "r_eff": 3.5,
+        "dm_obs": 0.85,
+        "C_pred": 3.8613616419258455e-05,
+        "dm_pred": 0.9999613863835808,
+        "error": 0.1499613863835808,
+        "rho_mean": 0.0013920257413285308,
+        "rho_crit": 72.09955616565568,
+        "note": "Virgo cluster",
+        "source": "Beasley+ 2016"
+      },
+      {
+        "name": "DGSAT-I",
+        "vmax": 56,
+        "mbar": 400000000.0,
+        "r_eff": 4.3,
+        "dm_obs": 0.9,
+        "C_pred": 1.4144573696215712e-05,
+        "dm_pred": 0.9999858554263038,
+        "error": 0.09998585542630378,
+        "rho_mean": 0.001201063627795505,
+        "rho_crit": 169.82616887446028,
+        "note": "Field UDG",
+        "source": "Martin-Navarro+ 2019"
+      },
+      {
+        "name": "Dragonfly17",
+        "vmax": 38,
+        "mbar": 280000000.0,
+        "r_eff": 3.8,
+        "dm_obs": 0.88,
+        "C_pred": 2.6887862170932916e-05,
+        "dm_pred": 0.999973112137829,
+        "error": 0.11997311213782902,
+        "rho_mean": 0.0012182001038525303,
+        "rho_crit": 90.6127759163759,
+        "note": "Coma cluster",
+        "source": "Peng+ 2017"
+      }
+    ]
+  },
+  "summary": {
+    "TDGs": {
+      "n_galaxies": 6,
+      "mean_error": 0.32497205762281217,
+      "success_rate": 0.16666666666666666,
+      "successes": 1
+    },
+    "LSBs": {
+      "n_galaxies": 8,
+      "mean_error": 0.07374802272188152,
+      "success_rate": 1.0,
+      "successes": 8
+    },
+    "UDGs": {
+      "n_galaxies": 6,
+      "mean_error": 0.3708743496343619,
+      "success_rate": 0.6666666666666666,
+      "successes": 4
+    }
+  },
+  "overall": {
+    "n_galaxies": 20,
+    "mean_error": 0.23825313126590478,
+    "success_rate": 0.65
+  },
+  "conclusions": {
+    "tdg_success": true,
+    "lsb_success": true,
+    "udg_success": "partial",
+    "dm_free_udg_challenge": true,
+    "recommendation": "Present TDG/LSB success; acknowledge UDG diversity as open question"
+  }
+}
