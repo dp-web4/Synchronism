@@ -1,0 +1,33 @@
+{
+  "session": 51,
+  "track": "A - TDG Discrepancy Investigation",
+  "date": "2025-11-26T12:03:13.385792",
+  "hypotheses": {
+    "inherited_coherence": {
+      "mean_C_inherited": 0.32497205762281217,
+      "plausible": true
+    },
+    "effective_density": {
+      "mean_f_needed": "NaN",
+      "plausible": false
+    },
+    "age_dependence": {
+      "mean_tau_gyr": 1.6112398710282128,
+      "plausible": true,
+      "testable_prediction": "Older TDGs should have higher DM fractions"
+    }
+  },
+  "resolution": {
+    "primary": "Combination of inherited coherence and age-dependent decoherence",
+    "formula": "C(t) = C_intrinsic + C_inherited \u00d7 exp(-t/\u03c4)",
+    "parameters": {
+      "C_inherited": "0.2-0.4 (from parent disk)",
+      "tau_gyr": "1-3 Gyr"
+    }
+  },
+  "testable_predictions": [
+    "TDG DM fraction should correlate positively with age",
+    "TDG DM fraction should correlate with parent morphology",
+    "TDG DM fraction should correlate with formation radius"
+  ]
+}

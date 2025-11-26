@@ -1,0 +1,96 @@
+{
+  "session": 51,
+  "track": "C - Transition Regime Analysis",
+  "date": "2025-11-26T12:07:47.004198",
+  "key_finding": "Even dense ETGs have C \u2248 0 with current parameters",
+  "atlas3d_results": [
+    {
+      "name": "NGC2549",
+      "f_dm_obs": 0.25,
+      "f_dm_pred": 0.9960298787616667,
+      "C": 0.003970121238333252,
+      "error": 0.7460298787616667
+    },
+    {
+      "name": "NGC3156",
+      "f_dm_obs": 0.3,
+      "f_dm_pred": 0.9884165880802683,
+      "C": 0.011583411919731654,
+      "error": 0.6884165880802684
+    },
+    {
+      "name": "NGC4697",
+      "f_dm_obs": 0.22,
+      "f_dm_pred": 0.9996796976089356,
+      "C": 0.0003203023910643853,
+      "error": 0.7796796976089356
+    },
+    {
+      "name": "NGC4278",
+      "f_dm_obs": 0.15,
+      "f_dm_pred": 0.9988115192408481,
+      "C": 0.0011884807591518492,
+      "error": 0.8488115192408481
+    },
+    {
+      "name": "NGC4473",
+      "f_dm_obs": 0.12,
+      "f_dm_pred": 0.9988922652038487,
+      "C": 0.0011077347961513553,
+      "error": 0.8788922652038487
+    },
+    {
+      "name": "NGC3379",
+      "f_dm_obs": 0.1,
+      "f_dm_pred": 0.9991497416062923,
+      "C": 0.0008502583937077253,
+      "error": 0.8991497416062924
+    },
+    {
+      "name": "NGC4374",
+      "f_dm_obs": 0.08,
+      "f_dm_pred": 0.9998373011147811,
+      "C": 0.00016269888521889457,
+      "error": 0.9198373011147811
+    },
+    {
+      "name": "NGC4486",
+      "f_dm_obs": 0.05,
+      "f_dm_pred": 0.9998883925241141,
+      "C": 0.00011160747588586066,
+      "error": 0.9498883925241141
+    },
+    {
+      "name": "NGC4889",
+      "f_dm_obs": 0.04,
+      "f_dm_pred": 0.9999582775900179,
+      "C": 4.1722409982100255e-05,
+      "error": 0.9599582775900178
+    },
+    {
+      "name": "NGC4486B",
+      "f_dm_obs": 0.02,
+      "f_dm_pred": 0.6937499110000998,
+      "C": 0.3062500889999002,
+      "error": 0.6737499110000997
+    },
+    {
+      "name": "M32",
+      "f_dm_obs": 0.01,
+      "f_dm_pred": 0.09335514632665509,
+      "C": 0.9066448536733449,
+      "error": 0.0833551463266551
+    }
+  ],
+  "regime_distribution": {
+    "DM-dominated": 9,
+    "Transition": 1,
+    "Baryon-dominated": 1
+  },
+  "parameter_sensitivity": 0.0027252697553573845,
+  "implications": {
+    "current_issue": "\u03c1_crit too high - all galaxies DM-dominated",
+    "suggested_fix": "Re-calibrate A and B parameters",
+    "arxiv_note": "Acknowledge ETG predictions need refinement"
+  }
+}

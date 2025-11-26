@@ -1,0 +1,36 @@
+{
+  "session": 51,
+  "track": "B - DF2/DF4 Literature Review",
+  "date": "2025-11-26T12:05:43.774878",
+  "key_findings": {
+    "df2": {
+      "distance_controversy": true,
+      "at_19mpc_dm_fraction": 0.1,
+      "at_13mpc_dm_fraction": 0.5,
+      "synchronism_prediction": 1.0,
+      "discrepancy_at_far_distance": true
+    },
+    "df4": {
+      "tidal_stripping_confirmed": true,
+      "dm_fraction": 0.05,
+      "synchronism_prediction": 1.0,
+      "explanation": "External stripping, not intrinsic coherence failure"
+    }
+  },
+  "formation_scenarios": {
+    "tidal_stripping": {
+      "synchronism_compatible": true
+    },
+    "bullet_dwarf": {
+      "synchronism_compatible": "partial"
+    },
+    "distance_error": {
+      "synchronism_compatible": true
+    }
+  },
+  "conclusions": {
+    "df4_resolved": "Tidal stripping explains low DM - compatible with Synchronism",
+    "df2_open": "Distance controversy unresolved; if anomaly real, requires explanation",
+    "arxiv_recommendation": "Acknowledge as open challenge, note tidal/formation history complications"
+  }
+}
