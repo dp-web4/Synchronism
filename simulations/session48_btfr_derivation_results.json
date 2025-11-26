@@ -1,0 +1,39 @@
+{
+  "session": 48,
+  "track": "B - BTFR Derivation",
+  "date": "2025-11-25T18:05:49.403348",
+  "derivation_attempts": {
+    "virial_only": {
+      "result": "Cannot derive (needs R(v) relation)",
+      "btfr_slope": null
+    },
+    "mrh_boundary": {
+      "result": "Wrong (gives n=0)",
+      "btfr_slope": 0
+    },
+    "coherence_threshold": {
+      "result": "n = 3 - B/2",
+      "btfr_slope": 2.19,
+      "for_B": 1.62
+    },
+    "mond_limit": {
+      "result": "Suggestive but not rigorous",
+      "btfr_slope": 4,
+      "status": "Further investigation needed"
+    }
+  },
+  "key_relation": {
+    "formula": "n = 3 - B/2",
+    "interpretation": "B and n are linked through coherence threshold condition",
+    "for_B_1.62": "n = 2.19",
+    "for_n_4": "B = -2 (unphysical)"
+  },
+  "conclusion": "BTFR not yet derivable from Synchronism",
+  "insight": "Empirical B = 1.62 is consistent with derived n = 2.2 (baryonic contribution)",
+  "future_work": [
+    "Investigate MOND limit more carefully",
+    "Galaxy formation simulations with Synchronism dark matter",
+    "Include angular momentum conservation",
+    "Consider that observed n\u22484 includes dark matter"
+  ]
+}
