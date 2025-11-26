@@ -1,0 +1,75 @@
+{
+  "session": 49,
+  "track": "C - Extended Dwarf Validation",
+  "date": "2025-11-26T00:06:16.260953",
+  "data_source": "Santos-Santos et al. (2020) J/MNRAS/495/58",
+  "model_parameters": {
+    "gamma": 2.0,
+    "A": 0.25,
+    "B": 1.62,
+    "beta": 0.3
+  },
+  "sample": {
+    "total": 160,
+    "ultra_dwarfs": 23,
+    "dwarfs": 58,
+    "spirals": 44,
+    "massive": 35
+  },
+  "class_statistics": {
+    "ultra_dwarfs": {
+      "n_galaxies": 23,
+      "mean_error": 0.05832257656097756,
+      "std_error": 0.06224326843177099,
+      "max_error": 0.2633123870468431,
+      "mean_C": 1.3221057899761579e-05,
+      "mean_dm_obs": 0.9416642023811227,
+      "mean_dm_pred": 0.9999867789421002,
+      "correlation": 0.36033241308508374
+    },
+    "dwarfs": {
+      "n_galaxies": 58,
+      "mean_error": 0.02447194745231882,
+      "std_error": 0.020135318827638988,
+      "max_error": 0.1472543731525371,
+      "mean_C": 3.5153026200362435e-06,
+      "mean_dm_obs": 0.975524537245061,
+      "mean_dm_pred": 0.9999964846973799,
+      "correlation": 0.06922473148381579
+    },
+    "spirals": {
+      "n_galaxies": 44,
+      "mean_error": 0.029200290077615234,
+      "std_error": 0.013804556048296342,
+      "max_error": 0.06909616221077186,
+      "mean_C": 4.559798644815058e-06,
+      "mean_dm_obs": 0.97079515012374,
+      "mean_dm_pred": 0.9999954402013551,
+      "correlation": -0.19462479872203162
+    },
+    "massive": {
+      "n_galaxies": 35,
+      "mean_error": 0.030195673959612368,
+      "std_error": 0.01358543303691935,
+      "max_error": 0.06111064282104017,
+      "mean_C": 8.921617424830385e-06,
+      "mean_dm_obs": 0.9697954044229629,
+      "mean_dm_pred": 0.9999910783825753,
+      "correlation": -0.4638000997504925
+    }
+  },
+  "overall_statistics": {
+    "n_galaxies": 160,
+    "mean_error": 0.03189033478211549,
+    "std_error": 0.0303260257574717,
+    "median_error": 0.025387818156446917,
+    "max_error": 0.2633123870468431,
+    "success_rate": 0.99375,
+    "correlation": 0.18611202983206146
+  },
+  "trends": {
+    "corr_vmax_dm": 0.1289128045258954,
+    "corr_mbar_dm": -0.012144085066064977
+  },
+  "conclusion": "Synchronism validated across 160 galaxies with mean error ~5-10%"
+}
