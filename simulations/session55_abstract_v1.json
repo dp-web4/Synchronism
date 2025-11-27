@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "session": 55,
+  "word_count": 298,
+  "key_claims": [
+    "10 orders of magnitude validation (10\u00b2 to 10\u00b9\u00b2 M_sun)",
+    "99.4% success on 160 rotation curve galaxies",
+    "70% success on 10 ETGs with central density method",
+    "100% success on 19 star clusters (predicted DM-free)",
+    "5 of 6 parameters derived from theory",
+    "Complementary to MOND, not equivalent"
+  ],
+  "testable_predictions": [
+    "Older TDGs should have higher f_DM",
+    "UDGs should be maximally DM-dominated",
+    "Compact ellipticals should have f_DM \u2248 0"
+  ],
+  "backing_sessions": {
+    "gamma_derivation": 27,
+    "tanh_uniqueness": 19,
+    "beta_derivation": [
+      21,
+      48
+    ],
+    "A_B_derivation": 53,
+    "cross_scale_validation": 54,
+    "rotation_curve_validation": 49,
+    "ETG_validation": 52
+  }
+}
