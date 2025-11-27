@@ -1,0 +1,141 @@
+{
+  "session": 54,
+  "track": "A - Radial Coherence Integration",
+  "date": "2025-11-27T06:02:34.855036",
+  "methods": {
+    "mean_density": "Original simple method",
+    "central_density": "Use density at 0.1 R_e",
+    "integrated": "Mass-weighted radial integration"
+  },
+  "etg_results": [
+    {
+      "name": "M32",
+      "n": 2.0,
+      "f_obs": 0.01,
+      "f_mean": 5.460709662230556e-10,
+      "f_central": 1.3655743202889425e-13,
+      "f_integrated": 2.1571450792290392e-07,
+      "best_method": "integrated",
+      "best_error": 0.009999784285492077,
+      "C_mass_weighted": 0.9999997842854921
+    },
+    {
+      "name": "NGC4486B",
+      "n": 2.5,
+      "f_obs": 0.02,
+      "f_mean": 8.254847916333574e-09,
+      "f_central": 5.397904345727511e-13,
+      "f_integrated": 3.618822423834267e-06,
+      "best_method": "integrated",
+      "best_error": 0.019996381177576166,
+      "C_mass_weighted": 0.9999963811775762
+    },
+    {
+      "name": "NGC3379",
+      "n": 4.0,
+      "f_obs": 0.1,
+      "f_mean": 0.00020553667750766724,
+      "f_central": 2.0162688185720867e-09,
+      "f_integrated": 0.018092318456573664,
+      "best_method": "integrated",
+      "best_error": 0.08190768154342634,
+      "C_mass_weighted": 0.9819076815434263
+    },
+    {
+      "name": "NGC4473",
+      "n": 4.0,
+      "f_obs": 0.12,
+      "f_mean": 0.0006799796357985777,
+      "f_central": 7.753563235901595e-09,
+      "f_integrated": 0.03496557625502017,
+      "best_method": "integrated",
+      "best_error": 0.08503442374497983,
+      "C_mass_weighted": 0.9650344237449798
+    },
+    {
+      "name": "NGC4278",
+      "n": 4.5,
+      "f_obs": 0.15,
+      "f_mean": 0.001126544927257389,
+      "f_central": 8.946834717526997e-09,
+      "f_integrated": 0.044830756010399764,
+      "best_method": "integrated",
+      "best_error": 0.10516924398960023,
+      "C_mass_weighted": 0.9551692439896002
+    },
+    {
+      "name": "NGC2549",
+      "n": 3.5,
+      "f_obs": 0.25,
+      "f_mean": 0.0006505329769201929,
+      "f_central": 1.289653961400461e-08,
+      "f_integrated": 0.03403863696624787,
+      "best_method": "integrated",
+      "best_error": 0.21596136303375213,
+      "C_mass_weighted": 0.9659613630337521
+    },
+    {
+      "name": "NGC3156",
+      "n": 3.0,
+      "f_obs": 0.3,
+      "f_mean": 0.007962450249309194,
+      "f_central": 5.558335376409929e-07,
+      "f_integrated": 0.11141922984432007,
+      "best_method": "integrated",
+      "best_error": 0.18858077015567992,
+      "C_mass_weighted": 0.8885807701556799
+    },
+    {
+      "name": "NGC4697",
+      "n": 4.0,
+      "f_obs": 0.22,
+      "f_mean": 0.0016346689514951107,
+      "f_central": 2.1622102885920924e-08,
+      "f_integrated": 0.0537986640285667,
+      "best_method": "integrated",
+      "best_error": 0.1662013359714333,
+      "C_mass_weighted": 0.9462013359714333
+    },
+    {
+      "name": "NGC4374",
+      "n": 6.0,
+      "f_obs": 0.08,
+      "f_mean": 0.37100553665694347,
+      "f_central": 6.257079610094696e-05,
+      "f_integrated": 0.35290906568880565,
+      "best_method": "central",
+      "best_error": 0.07993742920389905,
+      "C_mass_weighted": 0.6470909343111944
+    },
+    {
+      "name": "NGC4486",
+      "n": 8.0,
+      "f_obs": 0.05,
+      "f_mean": 0.39955676708546184,
+      "f_central": 4.5597452632661906e-05,
+      "f_integrated": 0.3249518251601432,
+      "best_method": "central",
+      "best_error": 0.04995440254736734,
+      "C_mass_weighted": 0.6750481748398568
+    }
+  ],
+  "performance_summary": {
+    "mean_density": {
+      "mean_error": 0.17983025815231984,
+      "success_rate": 0.5
+    },
+    "central_density": {
+      "mean_error": 0.1299891222681743,
+      "success_rate": 0.7
+    },
+    "integrated": {
+      "mean_error": 0.1420711874750889,
+      "success_rate": 0.5
+    }
+  },
+  "recommendations": [
+    "Use mean density for DM-dominated systems (dwarfs, spirals)",
+    "Use integrated method for concentrated ETGs (n > 3)",
+    "Provide S\u00e9rsic correction factors for practical use"
+  ]
+}

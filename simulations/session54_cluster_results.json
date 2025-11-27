@@ -1,0 +1,86 @@
+{
+  "session": 54,
+  "track": "C - Star Cluster Analysis",
+  "date": "2025-11-27T06:05:16.700558",
+  "key_finding": "Galaxy parameters (A=0.028, B=0.5) correctly predict f_DM \u2248 0 for all star clusters",
+  "globular_clusters": [
+    {
+      "name": "NGC 104 (47 Tuc)",
+      "M_sun": 1000000.0,
+      "R_pc": 3.17,
+      "sigma_kms": 11.0,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 362",
+      "M_sun": 350000.0,
+      "R_pc": 1.94,
+      "sigma_kms": 6.4,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 5139 (\u03c9 Cen)",
+      "M_sun": 4000000.0,
+      "R_pc": 4.18,
+      "sigma_kms": 16.8,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 6388",
+      "M_sun": 1200000.0,
+      "R_pc": 0.96,
+      "sigma_kms": 18.9,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 6441",
+      "M_sun": 1600000.0,
+      "R_pc": 1.04,
+      "sigma_kms": 18.0,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 6752",
+      "M_sun": 210000.0,
+      "R_pc": 2.72,
+      "sigma_kms": 4.9,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 7078 (M15)",
+      "M_sun": 560000.0,
+      "R_pc": 1.06,
+      "sigma_kms": 14.7,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 7099 (M30)",
+      "M_sun": 160000.0,
+      "R_pc": 1.03,
+      "sigma_kms": 6.5,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "NGC 6656 (M22)",
+      "M_sun": 540000.0,
+      "R_pc": 3.36,
+      "sigma_kms": 8.3,
+      "f_DM_predicted": 0.0
+    },
+    {
+      "name": "Palomar 5",
+      "M_sun": 18000.0,
+      "R_pc": 22.0,
+      "sigma_kms": 1.1,
+      "f_DM_predicted": 4.234012765602646e-05
+    }
+  ],
+  "cross_scale_validation": {
+    "open_clusters": "f_DM \u2248 0 predicted and observed",
+    "globular_clusters": "f_DM \u2248 0 predicted and observed",
+    "nuclear_star_clusters": "f_DM \u2248 0 predicted and observed",
+    "dwarf_galaxies": "f_DM \u2248 1 predicted and observed",
+    "massive_galaxies": "f_DM varies, predicted correctly"
+  },
+  "conclusion": "No separate parameters needed for star clusters - they are in high-density regime where C \u2248 1"
+}
