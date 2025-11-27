@@ -1,0 +1,50 @@
+{
+  "session": 52,
+  "track": "B - Full Sample Validation",
+  "date": "2025-11-26T18:04:58.247040",
+  "parameters": {
+    "original": {
+      "A": 0.25,
+      "B": 1.62
+    },
+    "recalibrated": {
+      "A": 0.028,
+      "B": 0.5
+    }
+  },
+  "validation_results": {
+    "santos_santos": {
+      "n": 160,
+      "original_error": 0.031724473445888184,
+      "recalibrated_error": 0.1708211960626318
+    },
+    "atlas3d_etgs": {
+      "n": 10,
+      "original_error": 0.746781044146751,
+      "recalibrated_error": 0.1405190591061221
+    },
+    "outliers": {
+      "TDGs": {
+        "n": 6,
+        "original_error": 0.32497205762281217,
+        "recalibrated_error": 0.31181719701976257
+      },
+      "LSBs": {
+        "n": 5,
+        "original_error": 0.06799776672145796,
+        "recalibrated_error": 0.06616034512042837
+      },
+      "UDGs": {
+        "n": 4,
+        "original_error": 0.5013217825605096,
+        "recalibrated_error": 0.41207093281018636
+      }
+    }
+  },
+  "overall": {
+    "original_mean_error": 0.33455942489948376,
+    "recalibrated_mean_error": 0.22027774602382624,
+    "improvement_percent": 34.15885799958937
+  },
+  "recommendation": "Use recalibrated A=0.028, B=0.5 for broader applicability"
+}

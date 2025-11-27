@@ -1,0 +1,74 @@
+{
+  "session": 52,
+  "track": "A - Parameter Recalibration",
+  "date": "2025-11-26T18:02:31.861665",
+  "current_parameters": {
+    "A": 0.25,
+    "B": 1.62
+  },
+  "calibration_results": {
+    "approach_1_equal_weights": {
+      "A": 0.028372622923500856,
+      "B": 0.500000000449952,
+      "rms": 0.11726515894037692
+    },
+    "approach_2_etg_weighted": {
+      "A": 0.02499887274797813,
+      "B": 0.500000001719985,
+      "rms": 0.1197300405832694
+    },
+    "approach_3_by_regime": {
+      "etgs": {
+        "A": 0.17225993259735972,
+        "B": 0.10000000158440714,
+        "rms": 0.15844070876981373
+      },
+      "dwarfs": {
+        "A": 0.042149332151769414,
+        "B": 0.10000000039500545,
+        "rms": 0.009524468581067619
+      },
+      "spirals": {
+        "A": 0.02577668591001725,
+        "B": 0.5419120928162826,
+        "rms": 0.03705440286050055
+      }
+    },
+    "approach_4_formulas": {
+      "Standard (A\u00d7V^B)": {
+        "params": [
+          0.23820248006501168,
+          0.11598175965616125
+        ],
+        "rms": 0.1140590263112749
+      },
+      "Fixed \u03c1_0": {
+        "params": [
+          0.4546119847541322
+        ],
+        "rms": 0.11431170533199086
+      },
+      "Log V": {
+        "params": [
+          0.24884524027776014,
+          0.5064493435963862
+        ],
+        "rms": 0.11389130956938975
+      },
+      "Power+offset": {
+        "params": [
+          0.4895474941362955,
+          0.11706955204249232,
+          495.5215232491398
+        ],
+        "rms": 0.11405900315123346
+      }
+    }
+  },
+  "key_finding": "A varies by ~1000x between ETGs and dwarfs - single formula is challenging",
+  "recommendations": [
+    "Model works well within regimes",
+    "Universal formula needs theoretical work",
+    "Report shape validation, acknowledge normalization varies"
+  ]
+}
