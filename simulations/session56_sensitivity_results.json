@@ -1,0 +1,54 @@
+{
+  "session": 56,
+  "track": "C - Parameter Sensitivity Analysis",
+  "date": "2025-11-27T18:04:47.954852",
+  "perturbation": 0.2,
+  "nominal_params": {
+    "A": 0.028,
+    "B": 0.5,
+    "gamma": 2.0
+  },
+  "key_finding": "Predictions robust in saturated regimes (high/low density), sensitive only in transition regime (ellipticals)",
+  "regime_summary": {
+    "high_density": {
+      "avg_A": 5.9861822906034e-10,
+      "avg_B": 1.948560498140258e-09,
+      "avg_gamma": 2.582426609591219e-08
+    },
+    "transition": {
+      "avg_A": 0.09270521818910604,
+      "avg_B": 0.2715792083674875,
+      "avg_gamma": 0.1326169214479631
+    },
+    "low_density": {
+      "avg_A": 0.019526119716310797,
+      "avg_B": 0.05287074174966122,
+      "avg_gamma": 0.018990991146863756
+    },
+    "extreme_low": {
+      "avg_A": 0.001881959502350002,
+      "avg_B": 0.0032065455057425827,
+      "avg_gamma": 0.0018114504970813867
+    }
+  },
+  "parameter_ranking": [
+    {
+      "param": "B",
+      "total_sensitivity": 0.3276564975714518
+    },
+    {
+      "param": "\u03b3",
+      "total_sensitivity": 0.15341938891617435
+    },
+    {
+      "param": "A",
+      "total_sensitivity": 0.11411329800638507
+    }
+  ],
+  "implications": [
+    "99.4% rotation curve success is ROBUST to \u00b120% parameter changes",
+    "ETG 70% success is sensitive - future work should constrain A, B",
+    "Cross-scale validation works because extremes are saturated",
+    "\u03b3 = 2 derivation provides theoretical stability"
+  ]
+}

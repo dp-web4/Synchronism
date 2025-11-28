@@ -1,0 +1,187 @@
+{
+  "session": 56,
+  "track": "B - ICM Coherence Analysis",
+  "date": "2025-11-27T18:03:37.377105",
+  "key_finding": "ICM coherence partially explains cluster over-prediction (76.6% improvement)",
+  "icm_results": [
+    {
+      "name": "Virgo",
+      "M": 120000000000000.0,
+      "f_icm": 0.1,
+      "T": 25000000.0,
+      "n_e": 0.001,
+      "B": 2,
+      "R_200": 1689.951949502813,
+      "C_icm": 0.971212605008096,
+      "C_effective": 0.0971212605008096,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 2.5388546247426065e-14,
+          "ratio": 6.656355716602494e+16,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 10920.969651317599,
+          "N_D": 5455972969004627.0,
+          "C_contribution": 0.917610285519882
+        },
+        "thermal": {
+          "c_s_km_s": 586.78051880197,
+          "tau_sound_Gyr": 2.816161759211955,
+          "C_contribution": 0.998354219968327
+        }
+      }
+    },
+    {
+      "name": "Fornax",
+      "M": 70000000000000.0,
+      "f_icm": 0.08,
+      "T": 15000000.0,
+      "n_e": 0.0005,
+      "B": 1,
+      "R_200": 1437.6375068650236,
+      "C_icm": 0.969705743320776,
+      "C_effective": 0.07757645946566208,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 3.9331766720279173e-14,
+          "ratio": 3.6551561924214e+16,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 11963.322855711955,
+          "N_D": 3586031361914722.5,
+          "C_contribution": 0.9146821174911471
+        },
+        "thermal": {
+          "c_s_km_s": 454.51823543979555,
+          "tau_sound_Gyr": 3.092836840846566,
+          "C_contribution": 0.996895682311239
+        }
+      }
+    },
+    {
+      "name": "Coma",
+      "M": 1000000000000000.0,
+      "f_icm": 0.15,
+      "T": 85000000.0,
+      "n_e": 0.003,
+      "B": 5,
+      "R_200": 3192.4197039502073,
+      "C_icm": 0.9740638821365621,
+      "C_effective": 0.14610958232048432,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 1.8725666466734487e-14,
+          "ratio": 1.7048363590270246e+17,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 11626.260012359951,
+          "N_D": 1.9748311011135136e+16,
+          "C_contribution": 0.925997897206743
+        },
+        "thermal": {
+          "c_s_km_s": 1081.9698159536292,
+          "tau_sound_Gyr": 2.8851192240408707,
+          "C_contribution": 0.9980500485604735
+        }
+      }
+    },
+    {
+      "name": "Perseus",
+      "M": 600000000000000.0,
+      "f_icm": 0.12,
+      "T": 60000000.0,
+      "n_e": 0.02,
+      "B": 10,
+      "R_200": 2738.831775055528,
+      "C_icm": 0.9705660840276459,
+      "C_effective": 0.1164679300833175,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 7.866353344055836e-15,
+          "ratio": 3.4817044890630426e+17,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 3783.134860799969,
+          "N_D": 4536010745778444.0,
+          "C_contribution": 0.9163338582991105
+        },
+        "thermal": {
+          "c_s_km_s": 909.0364708795911,
+          "tau_sound_Gyr": 2.9460694279062904,
+          "C_contribution": 0.9977496845702919
+        }
+      }
+    },
+    {
+      "name": "A1689",
+      "M": 2000000000000000.0,
+      "f_icm": 0.14,
+      "T": 100000000.0,
+      "n_e": 0.004,
+      "B": 3,
+      "R_200": 3930.329683570529,
+      "C_icm": 0.97346786790285,
+      "C_effective": 0.136285501506399,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 3.385139499656808e-14,
+          "ratio": 1.1610539784162494e+17,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 10920.969651317599,
+          "N_D": 2.1823891876018508e+16,
+          "C_contribution": 0.9266140201484626
+        },
+        "thermal": {
+          "c_s_km_s": 1173.56103760394,
+          "tau_sound_Gyr": 3.274780729482665,
+          "C_contribution": 0.9955566917282327
+        }
+      }
+    },
+    {
+      "name": "A2142",
+      "M": 1300000000000000.0,
+      "f_icm": 0.13,
+      "T": 90000000.0,
+      "n_e": 0.003,
+      "B": 4,
+      "R_200": 3453.8461510745274,
+      "C_icm": 0.9739935855186299,
+      "C_effective": 0.12661916611742188,
+      "mechanisms": {
+        "magnetic": {
+          "L_larmor_kpc": 2.408568978671615e-14,
+          "ratio": 1.4339826601019366e+17,
+          "C_contribution": 1.0
+        },
+        "plasma": {
+          "lambda_D_m": 11963.322855711953,
+          "N_D": 2.1516188171488324e+16,
+          "C_contribution": 0.9265267791517554
+        },
+        "thermal": {
+          "c_s_km_s": 1113.3377556176886,
+          "tau_sound_Gyr": 3.033436990664114,
+          "C_contribution": 0.9972643955014083
+        }
+      }
+    }
+  ],
+  "prediction_comparison": {
+    "mean_error_original": 0.13833333333333334,
+    "mean_error_corrected": 0.03243504460994542,
+    "improvement_percent": 76.55297980003945
+  },
+  "mechanisms": {
+    "magnetic": "Weak but non-zero (Larmor radius << cluster)",
+    "plasma": "Moderate (N_D ~ 10^10)",
+    "thermal": "Moderate (sound crossing < Hubble time)"
+  },
+  "conclusion": "ICM coherence is a valid correction but doesn't fully explain discrepancy. Additional factors: BCG cores, substructure, measurement errors."
+}

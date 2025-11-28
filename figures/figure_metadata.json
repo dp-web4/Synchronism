@@ -1,0 +1,16 @@
+{
+  "session": 56,
+  "date": "2025-11-27T18:02:12.248264",
+  "figures": [
+    "figure1_cross_scale_validation",
+    "figure2_coherence_function",
+    "figure3_galaxy_validation",
+    "figure4_density_regimes"
+  ],
+  "parameters": {
+    "A": 0.028,
+    "B": 0.5,
+    "gamma": 2.0
+  },
+  "purpose": "arXiv preprint submission figures"
+}
