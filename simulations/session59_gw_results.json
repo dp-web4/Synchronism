@@ -1,0 +1,64 @@
+{
+  "los_analysis": {
+    "event": "GW170817",
+    "distance_Mpc": 40.0,
+    "total_path_kpc": 40000.0,
+    "rho_igm": 1e-07,
+    "rho_crit_igm": 1.4816207341961707,
+    "C_igm": 1.34987307439511e-07,
+    "rho_host": 0.007161972439135291,
+    "rho_crit_host": 0.39597979746446665,
+    "C_host": 0.03583483523665313,
+    "igm_fraction": 0.99975,
+    "host_fraction": 0.00025,
+    "C_avg": 9.093662369775935e-06,
+    "1_minus_C_avg": 0.9999909063376302
+  },
+  "constraint": {
+    "event": "GW170817",
+    "observed_delta_c_limit": 3e-15,
+    "C_avg": 9.093662369775935e-06,
+    "1_minus_C_avg": 0.9999909063376302,
+    "alpha_max": 3.0000272812351957e-15,
+    "constraint": "\u03b1 < 3.00e-15"
+  },
+  "speed_at_limit": {
+    "alpha": 3.0000272812351957e-15,
+    "C_avg": 9.093662369775935e-06,
+    "1_minus_C": 0.9999909063376302,
+    "delta_c_over_c": 3e-15,
+    "c_g_km_s": 299792.4580000009,
+    "c_g_minus_c_km_s": 9.313225746154785e-10
+  },
+  "ringdown": {
+    "event": "GW170817",
+    "host_fdm": 0.3,
+    "delta": 0.0001,
+    "f_ringdown_GR_Hz": 2000,
+    "f_modification": 3e-05,
+    "f_ringdown_sync_Hz": 2000.06,
+    "delta_f_Hz": 0.05999999999994543
+  },
+  "predictions": {
+    "GW_speed_vs_DM_column": {
+      "prediction": "c_g/c = 1 + \u03b1(1-C_avg)",
+      "constraint": "\u03b1 < 3.00e-15",
+      "test": "Correlation of \u0394t with DM column across multi-messenger events",
+      "required_events": "20-50 for 3\u03c3 detection",
+      "falsification": "No correlation to 10^-16 level"
+    },
+    "ringdown_anomaly": {
+      "prediction": "f_ring = f_GR \u00d7 (1 + \u03b4 \u00d7 f_DM)",
+      "estimate": "\u03b4 ~ 10^-4 to 10^-5",
+      "test": "Compare ringdown in high-DM vs low-DM host galaxies",
+      "required_events": "~100 with identified hosts",
+      "falsification": "Ringdown exactly matches GR independent of host"
+    },
+    "stochastic_background": {
+      "prediction": "SGWB anisotropic following DM distribution",
+      "test": "Correlate SGWB with large-scale structure",
+      "instrument": "LISA, Einstein Telescope",
+      "falsification": "SGWB isotropic to arcminute scales"
+    }
+  }
+}
