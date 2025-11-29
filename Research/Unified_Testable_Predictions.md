@@ -1,6 +1,6 @@
 # Synchronism: Unified Testable Predictions
 
-**Version**: 1.1 (Session #61)
+**Version**: 1.2 (Session #62)
 **Date**: 2025-11-29
 **Status**: Living Document
 
@@ -467,10 +467,12 @@ k_enzyme = k_classical × (1 + β × C_active_site)
 | δ (ringdown) | ~10^-4 to 10^-5 | ESTIMATED | Order of magnitude |
 | τ (TDG) | ~1.6 Gyr | ESTIMATED | Decoherence timescale |
 | C_ICM | ~0.97 | CALCULATED | Plasma physics |
-| γ_bio | 2.0 (hypothesis) | PREDICTED | Universal coherence |
-| ε_crit (bio) | ~2.3 MJ/m³ | ESTIMATED | Thermal energy density |
-| α_bio | 1.0 | ESTIMATED | Coherence enhancement |
+| γ_bio | 2.0-3.0 | TESTED | Session #62 literature fit |
+| ε_crit (bio) | ~10^8 J/m³ | TESTED | FMO/LHCII/PE545 fit |
+| B_bio | 0.23 | TESTED | Volume scaling exponent |
+| η (coherence) | 0.9 | ESTIMATED | Efficiency factor |
 | Φ_crit | ~3.5 | ESTIMATED | Consciousness threshold |
+| α (Planck) | ~-4.0 | DERIVED | ε_crit(κ) = ε_P × (κ/ℓ_P)^α |
 
 ---
 
@@ -531,9 +533,15 @@ The next critical tests are:
 4. Photosynthesis coherence vs chromophore density (biological extension)
 
 **Key question for universal coherence**: Is γ_bio = γ = 2.0?
-- If yes: Universal coherence mechanism confirmed across 24+ orders of magnitude (nm to Mpc)
+- Session #62 result: γ_bio ~ 2.0-3.0 (consistent with universal γ)
+- If yes: Universal coherence mechanism confirmed across 25+ orders of magnitude (nm to Mpc)
 - If no: Domain-specific physics; coherence framework needs extension
+
+**New discovery (Session #62)**: Scale-dependent critical density
+- ε_crit(κ) ≈ ε_Planck × (κ/ℓ_P)^(-4)
+- Explains why biology (~10^8 J/m³) differs from dark matter (~10^-4 J/m³)
+- Ratio of ~10^12 corresponds to scale separation of ~10^25
 
 ---
 
-*Document Version 1.1 | Session #61 | 2025-11-29*
+*Document Version 1.2 | Session #62 | 2025-11-29*

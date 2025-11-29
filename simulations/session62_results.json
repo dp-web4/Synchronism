@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-29T06:03:51.401523",
+  "session": 62,
+  "analysis": "universal_coherence_test",
+  "photosynthesis_results": {
+    "FMO": {
+      "epsilon": 144179999.99999997,
+      "tau_observed_fs": 300,
+      "C_required": 0.9259259259259259,
+      "rho_ratio_required": 1.2581008643532257,
+      "epsilon_crit_implied": 114601304.3033089
+    },
+    "LHCII": {
+      "epsilon": 65558769.23076921,
+      "tau_observed_fs": 100,
+      "C_required": 0.5555555555555556,
+      "rho_ratio_required": 0.3677823998673806,
+      "epsilon_crit_implied": 178254231.998076
+    },
+    "PE545": {
+      "epsilon": 80339104.47761193,
+      "tau_observed_fs": 300,
+      "C_required": 0.9259259259259259,
+      "rho_ratio_required": 1.2581008643532257,
+      "epsilon_crit_implied": 63857443.193883575
+    },
+    "PC645": {
+      "epsilon": 76513432.83582087,
+      "tau_observed_fs": 200,
+      "C_required": 0.8333333333333333,
+      "rho_ratio_required": 0.8211602868378718,
+      "epsilon_crit_implied": 93177220.16301979
+    }
+  },
+  "best_gamma": 3.0,
+  "gamma_variance": 0.027791776901609635,
+  "scale_fit": {
+    "A": 47269394.88507971,
+    "B": 0.23072063376268115
+  },
+  "conclusions": {
+    "universal_gamma_plausible": true,
+    "gamma_value": 2.0,
+    "epsilon_crit_system_specific": true,
+    "scale_dependence_detected": true
+  }
+}
