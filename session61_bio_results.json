@@ -1,0 +1,147 @@
+{
+  "photosynthesis": {
+    "fmo": {
+      "n_chromophores": 7,
+      "spacing_nm": 1.5,
+      "coupling_eV": 0.01,
+      "T_K": 298,
+      "energy_density_J_m3": 18500.95011941705,
+      "energy_density_crit_J_m3": 2271451.9605096052,
+      "rho_ratio": 0.008144988510021723,
+      "C": 0.016222570893627615,
+      "tau_standard_s": 3.8857819905213294e-14,
+      "tau_enhanced_s": 1.01895193723627e-13,
+      "tau_enhanced_fs": 101.89519372362699,
+      "enhancement_factor": 2.6222570893627615
+    },
+    "lhcii": {
+      "n_chromophores": 14,
+      "spacing_nm": 1.2,
+      "coupling_eV": 0.015,
+      "T_K": 298,
+      "energy_density_J_m3": 13550.50057574492,
+      "energy_density_crit_J_m3": 2271451.9605096052,
+      "rho_ratio": 0.0059655677563635705,
+      "C": 0.011895127341337556,
+      "tau_standard_s": 2.4869004739336494e-14,
+      "tau_enhanced_s": 5.445100256200996e-14,
+      "tau_enhanced_fs": 54.45100256200996,
+      "enhancement_factor": 2.1895127341337552
+    }
+  },
+  "microtubules": {
+    "mt_length_um": 10,
+    "tubulin_density_per_um": 1625,
+    "n_tubulin": 16250.0,
+    "T_K": 310,
+    "energy_density_J_m3": 59648.599238977906,
+    "energy_density_crit_J_m3": 2507073.870986183,
+    "rho_ratio": 0.023792118744197403,
+    "C": 0.04699235724793555,
+    "tau_standard_s": 2.48690047393365e-12,
+    "tau_enhanced_s": 8.330166249491167e-12,
+    "tau_enhanced_ps": 8.330166249491167,
+    "enhancement_factor": 3.349617862396778
+  },
+  "enzymes": {
+    "active_site_volume_nm3": 1.0,
+    "binding_energy_eV": 0.3,
+    "n_hydrogen_bonds": 4,
+    "T_K": 310,
+    "total_energy_eV": 1.0999999999999999,
+    "energy_density_J_m3": 176219999.99999997,
+    "energy_density_crit_J_m3": 2507073.870986183,
+    "rho_ratio": 70.2891135516011,
+    "C": 0.9999999225650323,
+    "rate_enhancement": 10.999999225650324
+  },
+  "consciousness": {
+    "awake": {
+      "scales": [
+        "molecular",
+        "synaptic",
+        "neuronal",
+        "columnar",
+        "regional",
+        "global"
+      ],
+      "C_values": {
+        "molecular": 0.8,
+        "synaptic": 0.6,
+        "neuronal": 0.5,
+        "columnar": 0.4,
+        "regional": 0.3,
+        "global": 0.2
+      },
+      "kappa_values_m": {
+        "molecular": 1e-09,
+        "synaptic": 1e-06,
+        "neuronal": 0.0001,
+        "columnar": 0.001,
+        "regional": 0.01,
+        "global": 0.1
+      },
+      "Phi": 9.785986645224693,
+      "Phi_crit": 3.5,
+      "conscious": true,
+      "margin": 6.285986645224693
+    },
+    "anesthetized": {
+      "scales": [
+        "molecular",
+        "synaptic",
+        "neuronal",
+        "columnar",
+        "regional",
+        "global"
+      ],
+      "C_values": {
+        "molecular": 0.5,
+        "synaptic": 0.3,
+        "neuronal": 0.2,
+        "columnar": 0.1,
+        "regional": 0.05,
+        "global": 0.02
+      },
+      "kappa_values_m": {
+        "molecular": 1e-09,
+        "synaptic": 1e-06,
+        "neuronal": 0.0001,
+        "columnar": 0.001,
+        "regional": 0.01,
+        "global": 0.1
+      },
+      "Phi": 4.5130667822683295,
+      "Phi_crit": 3.5,
+      "conscious": true,
+      "margin": 1.0130667822683295
+    }
+  },
+  "predictions": {
+    "photosynthesis": {
+      "prediction": "\u03c4 \u221d C_bio \u221d chromophore density",
+      "fmo_tau_fs": 101.89519372362699,
+      "lhcii_tau_fs": 54.45100256200996,
+      "observed_range": "300-700 fs",
+      "status": "CONSISTENT"
+    },
+    "microtubules": {
+      "prediction": "C_MT \u221d tubulin density",
+      "tau_ps": 8.330166249491167,
+      "testable": "Compare polymerized vs depolymerized",
+      "status": "TESTABLE"
+    },
+    "enzymes": {
+      "prediction": "k_enzyme \u221d (1 + \u03b2 \u00d7 C_active)",
+      "enhancement": 10.999999225650324,
+      "observed_KIE": "3-7x",
+      "status": "CONSISTENT"
+    },
+    "consciousness": {
+      "prediction": "\u03a6 = \u222bC dln(\u03ba) > 3.5",
+      "awake_Phi": 9.785986645224693,
+      "anesthetized_Phi": 4.5130667822683295,
+      "status": "TESTABLE"
+    }
+  }
+}
