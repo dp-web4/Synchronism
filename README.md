@@ -58,6 +58,28 @@ Early sessions established methodology through rigorous testing:
 
 ---
 
+## 🔬 Active Research Track: Compression-Action-Threshold Pattern
+
+**[COMPRESSION_ACTION_THRESHOLD.md](COMPRESSION_ACTION_THRESHOLD.md)** - Universal information-processing framework
+
+**Core Insight**: Action is ultimately binary (quantum/classical, fire/don't, act/don't), but information is high-dimensional. Therefore **compression is necessary, not optional**.
+
+**Pattern**: `Multi-dimensional input → Compression → Scalar salience → Context-dependent threshold → Binary action`
+
+**Why This Matters for Synchronism**:
+- **Observation compresses intent**: High-dimensional intent field → scalar coherence state
+- **Decoherence is threshold crossing**: Binary quantum/classical outcome
+- **MRH determines threshold**: Same coherence, different observational contexts
+- **Explains tanh ansatz**: Smooth saturation is signature of compression for binary decision
+
+**Current Investigation**: Does compression emerge from Synchronism axioms (intent dynamics + observation + MRH) or is it additional assumption? If derivable, coherence function comes from first principles. If not, coherence is phenomenological tool (still useful, different interpretation).
+
+**Substrate-Independent**: Same pattern appears in physics (coherence), neural networks (activation), trust systems (decision), and attention (salience) - not coincidence, but information-theoretic necessity.
+
+**Status**: Framework documented (Nov 29, 2025), autonomous sessions investigating compression necessity and coherence properties.
+
+---
+
 ## 📄 arXiv Submission: Dark Matter Model
 
 **Manuscript**: "Dark Matter as Incomplete Decoherence: A Synchronism-Based Model"
