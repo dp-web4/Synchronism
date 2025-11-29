@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-11-29T12:03:41.884824",
+  "session": 63,
+  "analysis": "enzyme_KIE_coherence",
+  "best_gamma_discrete": 4.0,
+  "best_gamma_continuous": 9.999994871845992,
+  "enzyme_results": {
+    "ADH_H": {
+      "observed": 3.5,
+      "predicted": 1.102086940281456,
+      "coherence": 0.1884973248533665,
+      "rho_ratio": 0.10008707758360383
+    },
+    "SLO": {
+      "observed": 80,
+      "predicted": 1.0239080392140345,
+      "coherence": 0.08918812940150721,
+      "rho_ratio": 0.0457275609719289
+    },
+    "AADH": {
+      "observed": 55,
+      "predicted": 1.044670003923656,
+      "coherence": 0.11569028258501396,
+      "rho_ratio": 0.05982659474549704
+    },
+    "methylamine_DH": {
+      "observed": 17,
+      "predicted": 1.0826250325821023,
+      "coherence": 0.13658103139663863,
+      "rho_ratio": 0.07113621882296428
+    },
+    "liver_ADH": {
+      "observed": 4.0,
+      "predicted": 1.0868914616833918,
+      "coherence": 0.16704173206886527,
+      "rho_ratio": 0.0879671580324643
+    }
+  },
+  "comparison": {
+    "photosynthesis_gamma": [
+      2.0,
+      3.0
+    ],
+    "dark_matter_gamma": 2.0,
+    "enzyme_gamma": 9.999994871845992,
+    "consistent": false
+  }
+}

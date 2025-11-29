@@ -1,6 +1,6 @@
 # Synchronism: Unified Testable Predictions
 
-**Version**: 1.2 (Session #62)
+**Version**: 1.3 (Session #63)
 **Date**: 2025-11-29
 **Status**: Living Document
 
@@ -473,6 +473,8 @@ k_enzyme = k_classical × (1 + β × C_active_site)
 | η (coherence) | 0.9 | ESTIMATED | Efficiency factor |
 | Φ_crit | ~3.5 | ESTIMATED | Consciousness threshold |
 | α (Planck) | ~-4.0 | DERIVED | ε_crit(κ) = ε_P × (κ/ℓ_P)^α |
+| κ_transition | ~30 km | DERIVED | Session #63 quantum-gravity transition |
+| α (gravity) | +2.0 | DERIVED | Gravitational regime scaling |
 
 ---
 
@@ -542,6 +544,12 @@ The next critical tests are:
 - Explains why biology (~10^8 J/m³) differs from dark matter (~10^-4 J/m³)
 - Ratio of ~10^12 corresponds to scale separation of ~10^25
 
+**New discovery (Session #63)**: Two-regime coherence model
+- **Quantum regime** (κ < 30 km): ε_crit = ℏc/κ^4 (α = -4)
+- **Gravitational regime** (κ > 30 km): ε_crit = G ρ² κ² (α = +2)
+- Transition scale κ_trans ~ 30 km separates physics
+- Enzyme KIE test reveals: γ applies to electronic coherence, not nuclear tunneling
+
 ---
 
-*Document Version 1.2 | Session #62 | 2025-11-29*
+*Document Version 1.3 | Session #63 | 2025-11-29*
