@@ -1,0 +1,13 @@
+{
+  "session": 66,
+  "track": "C",
+  "topic": "tanh_derivation",
+  "coherence_formula": "C = tanh(\u03b3 \u00d7 log(\u03c1/\u03c1_crit + 1))",
+  "derivation_source": "Mean-field theory of coupled systems",
+  "tanh_origin": "Self-consistent order parameter equation",
+  "log_origin": "Phase space volume / entropy scaling",
+  "gamma_origin": "6D phase space minus 4 constraints = 2",
+  "plus_one_origin": "Regularization to prevent divergence at \u03c1=0",
+  "status": "DERIVED from first principles",
+  "timestamp": "2025-11-30T06:06:21.262813"
+}
