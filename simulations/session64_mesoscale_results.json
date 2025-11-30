@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-11-29T18:02:58.286235",
+  "session": 64,
+  "analysis": "mesoscale_coherence",
+  "systems": {
+    "LIGO_arm": {
+      "name": "LIGO Detector Arm",
+      "scale_m": 4000,
+      "transition_scale_m": 0.002627871772902399,
+      "regime": "GRAVITY",
+      "epsilon_crit": 0.0015376895864528063,
+      "coherence_C": 1.0
+    },
+    "Lake": {
+      "name": "Large Lake",
+      "scale_m": 10000,
+      "transition_scale_m": 0.00027925304581878353,
+      "regime": "GRAVITY",
+      "epsilon_crit": 6673.99999903971,
+      "coherence_C": 0.9999999999873287
+    },
+    "Mountain": {
+      "name": "Mountain",
+      "scale_m": 5000,
+      "transition_scale_m": 0.00020054414973635012,
+      "regime": "GRAVITY",
+      "epsilon_crit": 12163.364997194967,
+      "coherence_C": 0.9999999999956435
+    },
+    "Atmosphere_layer": {
+      "name": "Atmospheric Layer",
+      "scale_m": 30000,
+      "transition_scale_m": 0.01296177819224823,
+      "regime": "GRAVITY",
+      "epsilon_crit": 6.00659996934626e-06,
+      "coherence_C": 1.0
+    },
+    "Small_asteroid": {
+      "name": "Small Asteroid",
+      "scale_m": 1000,
+      "transition_scale_m": 0.0002216432893490304,
+      "regime": "GRAVITY",
+      "epsilon_crit": 266.9599994290347,
+      "coherence_C": 0.9999999999999899
+    },
+    "Earth_core": {
+      "name": "Earth's Core",
+      "scale_m": 3480000,
+      "transition_scale_m": 0.00011876363125892327,
+      "regime": "GRAVITY",
+      "epsilon_crit": 136593928223.99683,
+      "coherence_C": 0.9995828966614925
+    },
+    "Neutron_star_surface": {
+      "name": "Neutron Star Surface Layer",
+      "scale_m": 1000,
+      "transition_scale_m": 6.016324492090507e-08,
+      "regime": "GRAVITY",
+      "epsilon_crit": 6.673999999999677e+23,
+      "coherence_C": 1.0
+    }
+  },
+  "predictions": [
+    {
+      "id": "M-1",
+      "system": "LIGO",
+      "prediction": "Quantum coherence effects may modulate sensitivity at 10^-19 level",
+      "test": "Look for non-Gaussian noise correlations"
+    },
+    {
+      "id": "M-2",
+      "system": "Large-scale interferometers",
+      "prediction": "km-scale interferometers should show transition effects",
+      "test": "Compare noise spectra at different arm lengths"
+    },
+    {
+      "id": "M-3",
+      "system": "Earth atmosphere",
+      "prediction": "Stratospheric coherence differs from tropospheric",
+      "test": "Quantum communication tests at different altitudes"
+    },
+    {
+      "id": "M-4",
+      "system": "Deep mines",
+      "prediction": "Underground coherence different from surface",
+      "test": "Quantum sensing at different depths"
+    }
+  ],
+  "key_findings": {
+    "transition_density_dependent": true,
+    "earth_surface_transition": "30 km",
+    "ligo_in_transition": true
+  }
+}

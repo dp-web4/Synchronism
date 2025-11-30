@@ -1,6 +1,6 @@
 # Synchronism: Unified Testable Predictions
 
-**Version**: 1.3 (Session #63)
+**Version**: 1.4 (Session #64)
 **Date**: 2025-11-29
 **Status**: Living Document
 
@@ -545,11 +545,18 @@ The next critical tests are:
 - Ratio of ~10^12 corresponds to scale separation of ~10^25
 
 **New discovery (Session #63)**: Two-regime coherence model
-- **Quantum regime** (κ < 30 km): ε_crit = ℏc/κ^4 (α = -4)
-- **Gravitational regime** (κ > 30 km): ε_crit = G ρ² κ² (α = +2)
+- **Quantum regime** (κ < κ_trans): ε_crit = ℏc/κ^4 (α = -4)
+- **Gravitational regime** (κ > κ_trans): ε_crit = G ρ² κ² (α = +2)
 - Transition scale κ_trans ~ 30 km separates physics
 - Enzyme KIE test reveals: γ applies to electronic coherence, not nuclear tunneling
 
+**New discovery (Session #64)**: Density-dependent transition scale
+- κ_trans = (ℏc / G ρ²)^(1/6) - depends on local density!
+- Intergalactic (ρ~10^-20): κ_trans ~ 13 km
+- Earth surface (ρ~1): κ_trans ~ 3 mm
+- Neutron star (ρ~10^14): κ_trans ~ μm
+- **γ = 2.0 derived**: From 6D phase space (3x + 3p - 4 correlations = 2)
+
 ---
 
-*Document Version 1.3 | Session #63 | 2025-11-29*
+*Document Version 1.4 | Session #64 | 2025-11-29*
