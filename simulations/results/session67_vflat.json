@@ -1,0 +1,19 @@
+{
+  "session": 67,
+  "track": "A",
+  "topic": "V_flat mechanism",
+  "hypotheses": {
+    "H1_NFW_halo": "NFW naturally flattens - but why?",
+    "H2_C_min": "Cosmic floor too low - doesn't work directly",
+    "H3_C_floor": "Local coherence floor from accumulated field - WORKS",
+    "H4_virial": "Global virial equilibrium - WORKS"
+  },
+  "key_insight": "V_flat emerges from coherence floor, not a free parameter",
+  "C_global_MW": 0.5093579358428382,
+  "physical_picture": {
+    "inner": "High rho -> high C -> V ~ V_baryon",
+    "transition": "rho ~ rho_crit -> C ~ 0.5 -> V rises",
+    "outer": "Low rho -> C_floor -> V -> V_flat"
+  },
+  "derivation": "C_floor = G M_baryon / (V_flat\u00b2 R)"
+}

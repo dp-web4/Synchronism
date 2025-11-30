@@ -1,0 +1,24 @@
+{
+  "session": 67,
+  "track": "C",
+  "topic": "Bullet Cluster test",
+  "conclusion": "Bullet Cluster SUPPORTS Synchronism",
+  "key_findings": {
+    "spatial_separation": "Expected - gas resonant, coherence indifferent",
+    "mass_ratios": "Consistent - f_baryon ~ 19% implies C_global ~ 0.19",
+    "no_new_particles": "DM is coherence field, not particle",
+    "CDM_vs_Synchronism": "Both explain data, Synchronism derives behavior"
+  },
+  "distinguishing_predictions": [
+    "f_DM anti-correlates with cluster velocity dispersion",
+    "Spatial coherence gradient at rho ~ rho_crit",
+    "M/L recovery after extreme mergers",
+    "Ram pressure stripping affects M/L in Synchronism"
+  ],
+  "cluster_parameters": {
+    "M_total": 1500000000000000.0,
+    "M_baryon": 280000000000000.0,
+    "f_baryon": 0.18666666666666668,
+    "implied_C_global": 0.18666666666666668
+  }
+}
