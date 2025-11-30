@@ -1,0 +1,36 @@
+{
+  "session": 65,
+  "track": "C",
+  "topic": "local_rotation_curves",
+  "galaxies": {
+    "MW_like": {
+      "r_trans_kpc": 7.142424242424243,
+      "V_flat_predicted": 190.13277679233957,
+      "inner_C": 0.9634888908536896,
+      "outer_f_DM": 0.9983404859555024
+    },
+    "Dwarf": {
+      "r_trans_kpc": 0.9777777777777777,
+      "V_flat_predicted": 27.442975017536284,
+      "inner_C": 0.5050731508184673,
+      "outer_f_DM": 0.9994283260411757
+    },
+    "Compact_E": {
+      "mean_C": 0.7164307361918066,
+      "mean_f_DM": 0.28356926380819336,
+      "V_ratio": 0.8141253643546986
+    }
+  },
+  "key_findings": [
+    "Local coherence model produces realistic rotation curves",
+    "Transition at \u03c1 ~ \u03c1_crit naturally emerges",
+    "Dwarf galaxies more DM-dominated as expected",
+    "Compact ellipticals nearly baryon-dominated"
+  ],
+  "predictions": [
+    "Transition radius correlates with \u03a3_0/\u03c1_crit",
+    "Compact ellipticals should have V \u2248 V_baryon",
+    "Inner slope of V(r) controlled by exponential disk"
+  ],
+  "timestamp": "2025-11-30T00:09:42.941600"
+}
