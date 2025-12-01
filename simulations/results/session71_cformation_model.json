@@ -1,0 +1,20 @@
+{
+  "session": 71,
+  "track": "B",
+  "title": "C_formation Model from Observables",
+  "key_observable": "Globular cluster specific frequency (S_N)",
+  "correlation_S_N_C": -0.7689499803686551,
+  "model": {
+    "formula": "C_formation = C_max \u00d7 exp(-S_N / S_N_crit)",
+    "C_max": 1.2091092323006005,
+    "S_N_crit": 4.106007194604354,
+    "mean_error_pct": 113.65205952648905
+  },
+  "physical_interpretation": "High S_N indicates massive early halo \u2192 extended low-density formation \u2192 low C_formation",
+  "testable_prediction": "Measure S_N to predict velocity dispersion ratio",
+  "udg_predictions": {
+    "S_N < 5": "C_formation > 0.5 (lacking DM)",
+    "S_N > 10": "C_formation < 0.3 (normal DM)",
+    "S_N > 20": "C_formation < 0.1 (strong DM signal)"
+  }
+}

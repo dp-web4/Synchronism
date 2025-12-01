@@ -1,0 +1,45 @@
+{
+  "session": 71,
+  "track": "A",
+  "title": "GW170817 Constraint Resolution",
+  "constraint": {
+    "delta_c_over_c": 4.128703650356448e-16,
+    "C_min_required": 0.9999999999999992
+  },
+  "resolutions_explored": [
+    {
+      "name": "Conformal invariance",
+      "verdict": "WORKS",
+      "preferred": true
+    },
+    {
+      "name": "Coherence floor",
+      "verdict": "FAILS"
+    },
+    {
+      "name": "Path averaging",
+      "verdict": "FAILS (makes worse)"
+    },
+    {
+      "name": "Bimetric/matter-geometry split",
+      "verdict": "WORKS (philosophically)"
+    },
+    {
+      "name": "Frequency dependence",
+      "verdict": "WORKS (testable)"
+    }
+  ],
+  "recommended_resolution": "Conformal invariance / matter-geometry distinction",
+  "key_insight": "Coherence affects matter, not geometry propagation",
+  "updated_equations": {
+    "matter": "g = g_Newton / C",
+    "GW_speed": "c_GW = c (unmodified)",
+    "GW_amplitude": "h \u221d T_eff \u221d T/C (enhanced)",
+    "GW_equation": "\u25a1h_\u03bc\u03bd = 0 (standard wave equation)"
+  },
+  "testable_predictions": [
+    "GW amplitude enhanced in low-C regions",
+    "PTAs may see frequency-dependent effects at nHz",
+    "Solar system GW tests: standard GR (C=1)"
+  ]
+}
