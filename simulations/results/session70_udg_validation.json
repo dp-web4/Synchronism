@@ -1,0 +1,70 @@
+{
+  "session": 70,
+  "track": "A",
+  "title": "UDG Validation - C_floor Hypothesis",
+  "udg_data": {
+    "NGC1052-DF2": {
+      "M_stellar": 200000000.0,
+      "R_eff": 2.2,
+      "sigma_obs": 8.5,
+      "sigma_bar": 11.417689624597278,
+      "ratio": 0.7444588423290417,
+      "category": "lacking"
+    },
+    "NGC1052-DF4": {
+      "M_stellar": 150000000.0,
+      "R_eff": 1.6,
+      "sigma_obs": 4.2,
+      "sigma_bar": 11.594718625305228,
+      "ratio": 0.36223388731776457,
+      "category": "lacking"
+    },
+    "VCC1287": {
+      "M_stellar": 440000000.0,
+      "R_eff": 3.3,
+      "sigma_obs": 33.0,
+      "sigma_bar": 13.827508813954884,
+      "ratio": 2.386547023329033,
+      "category": "intermediate"
+    },
+    "Dragonfly44": {
+      "M_stellar": 300000000.0,
+      "R_eff": 4.6,
+      "sigma_obs": 47.0,
+      "sigma_bar": 9.670663841248686,
+      "ratio": 4.860059327005964,
+      "category": "normal"
+    },
+    "DF17": {
+      "M_stellar": 90000000.0,
+      "R_eff": 1.8,
+      "sigma_obs": 26.0,
+      "sigma_bar": 8.467585252006618,
+      "ratio": 3.0705330063064453,
+      "category": "normal"
+    },
+    "DGSAT_I": {
+      "M_stellar": 30000000.0,
+      "R_eff": 4.7,
+      "sigma_obs": 56.0,
+      "sigma_bar": 3.0254241833768867,
+      "ratio": 18.50980114051131,
+      "category": "normal"
+    },
+    "UDG1": {
+      "M_stellar": 100000000.0,
+      "R_eff": 3.0,
+      "sigma_obs": 25.0,
+      "sigma_bar": 6.913754406977442,
+      "ratio": 3.615980338377323,
+      "category": "normal"
+    }
+  },
+  "conclusions": {
+    "c_floor_hypothesis": "Partially supported",
+    "optimal_c_floor": 0.55,
+    "key_finding": "UDGs show diversity - C_floor depends on formation history",
+    "df2_df4_c_floor": 0.6,
+    "dragonfly44_c_required": 0.3
+  }
+}
