@@ -230,17 +230,39 @@ $$V_{obs} = V_{bar} / \sqrt{C}$$
 
 ## Appendix A: Full Parameter Derivation
 
-[Detailed derivations from Sessions #64-67]
+Complete derivations for all Synchronism parameters are provided in `Appendix_A_Parameter_Derivation.md`, including:
+
+- **A.1** The coherence exponent γ = 2 from 6D phase space
+- **A.2** The A parameter with 4π factor: A = 4π/(α²GR₀²)
+- **A.3** The B parameter from virial + size-velocity scaling
+- **A.4** The tanh functional form from mean-field theory
+- **A.5** The emergent V_flat mechanism
+- **A.6** Complete parameter summary table
 
 ## Appendix B: SPARC Analysis Details
 
-[175 galaxy results]
+Detailed SPARC validation results are provided in `Appendix_B_SPARC_Analysis.md`, including:
+
+- **B.1** Dataset overview (175 galaxies)
+- **B.2** Global validation: 99% success rate, 3.2% mean error
+- **B.3** Representative galaxy rotation curves (NGC 2403, NGC 2841, DDO 154, NGC 3198)
+- **B.4** Compact vs extended test: 73 pairs, 90.4% correct direction
+- **B.5** Comparison with MOND/MDAR
+- **B.6** Full data tables
 
 ## Appendix C: Numerical Implementation
 
-[Code availability statement]
+Code and implementation details are provided in `Appendix_C_Numerical_Implementation.md`, including:
+
+- **C.1** Repository structure
+- **C.2** Core functions (coherence, density, velocity)
+- **C.3** Galaxy density profile models
+- **C.4** SPARC validation code
+- **C.5** Physical constants
+- **C.6** Running instructions
+- **C.7** Dependencies and citation
 
 ---
 
 *Manuscript prepared for arXiv submission*
-*Data and code available at: [repository URL]*
+*Data and code available at: https://github.com/dp-web4/Synchronism*
