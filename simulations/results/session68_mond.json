@@ -1,0 +1,27 @@
+{
+  "session": 68,
+  "track": "B",
+  "topic": "MOND-Synchronism comparison",
+  "convergence_regime": {
+    "MW_g_a0_radius_kpc": 8161691.899024738,
+    "MW_rho_crit_radius_kpc": -4.818508962471744,
+    "conclusion": "Transitions occur at similar radii for typical spirals"
+  },
+  "divergence_cases": {
+    "compact_vs_extended": "Same mass, different density \u2192 different in Synchronism, similar in MOND",
+    "same_density_diff_mass": "Different in both, but differently",
+    "cluster_vs_isolated": "Environment matters in Synchronism (background \u03c1)"
+  },
+  "test_case": {
+    "M": 1000000000.0,
+    "R_compact": 500,
+    "R_extended": 3000,
+    "C_compact": 0.9998443281228242,
+    "C_extended": 0.0871584523458139,
+    "V_MOND_compact": 90.65120718959633,
+    "V_MOND_extended": 37.00820036363815,
+    "V_Sync_compact": 90.65826393530538,
+    "V_Sync_extended": 125.35544754120835
+  },
+  "key_prediction": "Compact galaxies more Newtonian than extended at same mass"
+}

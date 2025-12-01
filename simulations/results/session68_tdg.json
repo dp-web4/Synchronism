@@ -1,0 +1,41 @@
+{
+  "session": 68,
+  "track": "A",
+  "topic": "Tidal Dwarf Galaxies",
+  "conclusion": "TDGs test shows both MOND and Synchronism predict missing mass",
+  "key_findings": {
+    "LCDM_prediction": "No DM in TDGs - contradicted by observations",
+    "MOND_prediction": "Universal V^4 = GMa_0 - consistent with TDG data",
+    "Synchronism_prediction": "Density-dependent C(rho) - also consistent",
+    "DF2_challenge": "Very low dispersion inconsistent with low C prediction"
+  },
+  "distinguishing_test": "Same M, different rho: Synchronism predicts different V/V_bar",
+  "tdg_data": {
+    "NGC5291N": {
+      "M_baryon": 1000000000.0,
+      "r_half": 2.0,
+      "V_rot_obs": 40,
+      "rho_avg": 0.02984155182973038
+    },
+    "NGC5291S": {
+      "M_baryon": 800000000.0,
+      "r_half": 1.5,
+      "V_rot_obs": 35,
+      "rho_avg": 0.05658842421045168
+    },
+    "NGC5291SW": {
+      "M_baryon": 500000000.0,
+      "r_half": 1.2,
+      "V_rot_obs": 30,
+      "rho_avg": 0.06907766627252403
+    }
+  },
+  "DF2_analysis": {
+    "M_stellar": 200000000.0,
+    "r_eff_kpc": 2.2,
+    "rho_avg": 0.004484079914309599,
+    "sigma_obs": 8.5,
+    "C_predicted": 0.1065420341139432,
+    "challenge": "Low sigma inconsistent with expected missing mass"
+  }
+}

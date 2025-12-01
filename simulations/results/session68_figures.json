@@ -1,0 +1,12 @@
+{
+  "session": 68,
+  "track": "C",
+  "figures_created": [
+    "fig1_coherence_function.png",
+    "fig2_parameter_derivation.png",
+    "fig3_rotation_curve.png",
+    "fig4_mond_vs_synchronism.png",
+    "fig5_validation_summary.png"
+  ],
+  "purpose": "arXiv preprint preparation"
+}
