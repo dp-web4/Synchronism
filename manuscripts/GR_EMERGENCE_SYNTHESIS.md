@@ -5,6 +5,27 @@
 
 ---
 
+## Reference Documents
+
+This synthesis draws on and coordinates the following documents:
+
+| Document | Purpose |
+|----------|---------|
+| `Research/Relativistic_Reframing_Single_Observer.md` | Ontological foundation - coherence, not geometry |
+| `manuscripts/nova-notes-on-GR-reframing.md` | Nova's review proposing GR-as-emergent synthesis |
+| `manuscripts/Appendix_D_Synchronism_in_General_Relativistic_Form.md` | **Working scaffold** - effective equations and toy models |
+| `manuscripts/PREPRINT_EDITORIAL_GUIDANCE.md` | What to incorporate vs. hold back in the preprint |
+
+**Appendix D is the primary working document for autonomous sessions developing the GR connection.** It provides:
+- Effective modified Poisson equation (D.2)
+- Effective Einstein-like equations (D.3)
+- GW/light as simple patterns (D.4)
+- Coherence gradient → geodesics bridge (D.5)
+- Spherically symmetric toy model (D.6)
+- Open tasks list (D.7)
+
+---
+
 ## The Key Insight
 
 Nova's review of the relativistic reframing (`nova-notes-on-GR-reframing.md`) resolves the apparent tension between:
@@ -85,26 +106,42 @@ Keep the GW = c result. Remove "geometry sector" framing. Rewrite in terms of:
 
 ## Concrete Tasks for Next Sessions
 
-### Priority 1: Toy Model
-Derive a 1D coherence gradient → effective acceleration model:
-- C(x) produces acceleration
-- Test pattern trajectory matches Newtonian limit of GR
+**Use Appendix D (D.6, D.7) as the starting point.** The scaffold is in place; the work is to:
 
-### Priority 2: Spherically Symmetric Case
-For a simple mass distribution:
-- Start with C(ρ(r))
-- Propose mapping to g_tt(r), g_rr(r) in terms of C
-- Calibrate against Schwarzschild weak-field behavior
+### Priority 1: Complete the Spherically Symmetric Toy Model (D.6)
+Appendix D provides the setup. Next steps:
+- For a given ρ(r), compute C(ρ(r)) explicitly
+- Derive φ(r) and λ(r) metric functions
+- Compare weak-field limit to Schwarzschild
+- Show V_obs(r) matches the main text predictions
 
-### Priority 3: Formalize the Ansätze
-Either:
-- Derive v_max(C) from grid/MRH principles, or
-- Replace with whatever form actually emerges from first principles
+### Priority 2: Covariant Definition of ρ and C(ρ) (D.7 Task 1)
+The effective equations use ρ as if it's a scalar. For full GR compatibility:
+- Define ρ via scalar invariants of T_μν (e.g., ρ = T_μν u^μ u^ν for some u^μ)
+- Ensure C(ρ) is frame-independent
+- Check consistency in boosted frames
+
+### Priority 3: Energy-Momentum Conservation (D.7 Task 2)
+With G_μν = 8πG T_μν/C(ρ):
+- Does ∇_μ T^μν = 0 still hold?
+- If not, what additional fields/dynamics restore conservation?
+- This may require coherence to have its own stress-energy contribution
+
+### Priority 4: Formalize Complexity Speed Limit
+The ansatz v_max(C) = c·exp(-αC) is illustrative. Either:
+- Derive from grid/MRH principles, or
+- Replace with whatever form emerges from first principles
 
 Constraints to satisfy:
 - High-energy cosmic ray observations
 - Binary pulsar timing
 - Accelerator results
+
+### Priority 5: Strong-Field Predictions (D.7 Task 4)
+Once the toy model works:
+- Binary pulsar orbital decay
+- Black hole shadows (does Synchronism predict different shadow size?)
+- Gravitational lensing in clusters
 
 ---
 
