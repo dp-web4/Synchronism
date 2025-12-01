@@ -1,0 +1,39 @@
+{
+  "session": 69,
+  "track": "A",
+  "topic": "NGC 1052-DF2 investigation",
+  "puzzle": "Low \u03c3 despite low density contradicts Synchronism prediction",
+  "resolutions_explored": [
+    "Nuclear star cluster (partial)",
+    "Non-equilibrium (possible)",
+    "Tidal stripping (plausible)",
+    "Pressure support difference (unlikely)",
+    "C_floor for UDGs (PROMISING)"
+  ],
+  "proposed_resolution": {
+    "mechanism": "UDGs retain formation-epoch coherence",
+    "C_floor_UDG": 0.5,
+    "formula_modification": "C = max(C(\u03c1_local), C_formation)",
+    "testable_prediction": "Other UDGs should show \u03c3_obs/\u03c3_bar ~ 1-1.5"
+  },
+  "van_dokkum_results": {
+    "M": 200000000.0,
+    "r_eff": 2200.0,
+    "rho_avg": 0.0018225188901324386,
+    "rho_crit": 0.08163332652783421,
+    "C": 0.044131521781895625,
+    "sigma_bar": 16.633949063451297,
+    "sigma_pred": 79.1809878307344,
+    "sigma_obs": 8.5
+  },
+  "trujillo_results": {
+    "M": 80000000.0,
+    "r_eff": 1400.0,
+    "rho_avg": 0.0028288893793192707,
+    "rho_crit": 0.10588295424665861,
+    "C": 0.05268410782754178,
+    "sigma_bar": 13.187810120173022,
+    "sigma_pred": 57.455666973292814,
+    "sigma_obs": 14.3
+  }
+}
