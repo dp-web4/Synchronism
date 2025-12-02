@@ -1,0 +1,38 @@
+{
+  "session": 74,
+  "track": "C",
+  "title": "Binary Pulsar Orbital Decay Predictions",
+  "hulse_taylor": {
+    "M1_Msun": 1.4398,
+    "M2_Msun": 1.3886,
+    "P_b_hours": 7.752,
+    "e": 0.6171,
+    "a_meters": 1949327050.2842803,
+    "chirp_mass_kg": 2.448241275278917e+30,
+    "eccentricity_factor": 11.853275191022924
+  },
+  "predictions": {
+    "dPdt_GR": -2.4030078390828075e-12,
+    "dPdt_observed": -2.4184e-12,
+    "dPdt_observed_err": 9e-16,
+    "ratio_GR_obs": 0.9936353949234236,
+    "dPdt_Sync_scenario1": -2.4030078390828075e-12,
+    "dPdt_Sync_scenario2": -2.4030078390828075e-12,
+    "C_at_orbit": 1.0
+  },
+  "analysis": {
+    "GR_agreement": "GR/obs = 0.9936 (should be ~1.0)",
+    "Sync_scenario1": "Sync(C~1)/obs = 0.9936",
+    "Sync_scenario2": "Sync(C_orbit)/obs = 0.9936",
+    "interpretation": "\nBinary pulsar orbital decay analysis:\n\nSCENARIO 1: No Synchronism modification\n- Assume GW emission occurs in high-density region (neutron star)\n- C ~ 1 inside NS \u2192 G_eff = G\n- Prediction matches GR exactly\n\nSCENARIO 2: Orbit-averaged coherence\n- Assume effective G averaged over orbit\n- C at orbital separation ~ 0.9-1.0\n- Small modification to GR prediction\n\nKEY INSIGHT:\nFor binary pulsars, density at orbital separation is STILL very high\ncompared to \u03c1_crit. Even at a ~ 2\u00d710^9 m:\n\n\u03c1_avg ~ M_total/V_orbit ~ 10^-12 kg/m\u00b3\n\nThis is >> \u03c1_crit = 10^-22 kg/m\u00b3!\n\nSo C ~ tanh(2 \u00d7 log(10^10)) ~ 1.000\n\nCONCLUSION:\nSynchronism predicts IDENTICAL orbital decay to GR for binary pulsars.\nThis is because:\n1. Source region (NS) has C ~ 1\n2. Even orbital region has C ~ 1 due to high gravity\n3. Only in GALACTIC OUTSKIRTS (\u03c1 ~ \u03c1_crit) does C differ from 1\n\nBinary pulsars are NOT a discriminating test between GR and Synchronism.\nNeed low-density environments to see coherence effects.\n        "
+  },
+  "threshold_analysis": {
+    "rho_for_C_99": 2.154434690031878e-22,
+    "interpretation": "C > 0.99 for \u03c1 > 2.15e-22 kg/m\u00b3",
+    "galactic_comparison": "Galactic outskirts: \u03c1 ~ 10^-24 kg/m\u00b3 \u2192 C ~ 0.7-0.9"
+  },
+  "discriminating_tests": {
+    "title": "Discriminating Tests for Synchronism vs GR",
+    "tests": "\nDISCRIMINATING TESTS: Where Synchronism differs from GR\n\nBinary pulsars are NOT discriminating because C ~ 1 everywhere.\nNeed LOW DENSITY environments where C << 1.\n\nPROMISING TESTS:\n\n1. WIDE BINARY STARS (separation > 1 kpc)\n   - Very low average density in system\n   - Orbital dynamics should show G_eff = G/C effects\n   - Prediction: Wider binaries deviate more from Kepler\n\n2. GALAXY CLUSTER LENSING\n   - Low-density intracluster medium\n   - Lensing probes M_true, dynamics probe M/C\n   - Prediction: Lensing mass > dynamical mass in outer regions\n\n3. VOID GALAXY DYNAMICS\n   - Galaxies in cosmic voids have lower external density\n   - C_formation should differ from cluster galaxies\n   - Prediction: Different Tully-Fisher relation in voids\n\n4. GRAVITATIONAL WAVE FROM MERGERS IN LOW-DENSITY\n   - Binary black holes in voids vs clusters\n   - Different C \u2192 different chirp mass inference\n   - Prediction: Mass discrepancy depending on environment\n\n5. COSMOLOGICAL PERTURBATION GROWTH\n   - From Session #72: Voids grow faster than clusters\n   - Different structure formation history\n   - Prediction: Scale-dependent \u03c3_8\n\nCURRENT STATUS:\n- Binary pulsars: NOT discriminating (C ~ 1)\n- Solar system: NOT discriminating (C ~ 1)\n- Galaxy rotation curves: DISCRIMINATING (C varies from 1 to 0.3)\n- Cosmology: POTENTIALLY discriminating (need detailed calculation)\n    "
+  }
+}
