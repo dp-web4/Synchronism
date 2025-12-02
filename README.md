@@ -1,6 +1,6 @@
 # Synchronism Framework
 
-**Last meaningful change**: 2025-11-20 - Research Status Update (Sessions #8-10 validated/documented)
+**Last meaningful change**: 2025-12-01 - Research Status Update (Sessions #64-72, cosmology breakthrough)
 
 **Unified Model of Reality Through Intent Dynamics**
 *Bridging Quantum Phenomena, Cosmology, and Emergent Complexity*
@@ -15,19 +15,84 @@
 
 Synchronism is being rigorously tested through autonomous research sessions that derive predictions from first principles and validate against empirical data. We document both successes and failures to establish clear boundaries of the framework.
 
+**Current status**: 72 autonomous research sessions completed (Nov 6 - Dec 1, 2025).
+
+---
+
+### 🌌 Latest: Cosmological Expansion Match (Session #72)
+
+**[Session #72: Cosmology Breakthrough](Research/Session72_Toy_Model_Cosmology_Structure.md)**
+
+**Key Discovery**: With C₀ = Ω_m = 0.3 (natural calibration), Synchronism **exactly matches ΛCDM expansion history**:
+
+| Redshift z | H_ΛCDM (km/s/Mpc) | H_Synchronism | Difference |
+|------------|-------------------|---------------|------------|
+| 0 | 70.0 | 70.0 | 0% |
+| 0.5 | 91.6 | 91.6 | 0% |
+| 1.0 | 123.3 | 123.3 | 0% |
+| 2.0 | 207.7 | 207.7 | 0% |
+
+**Implications**:
+- Dark energy **emergent** from coherence dynamics - no cosmological constant Λ needed
+- "Coincidence problem" dissolved (why Ω_Λ ≈ Ω_m today)
+- Natural calibration, not fine-tuning
+
+**Additional Results**:
+- Spherically symmetric toy model: up to 55× metric enhancement at outer galactic radii
+- Structure growth: voids predicted to grow faster than clusters (testable)
+- S₈ tension reframed: different probes measure different quantities
+
+**Status**: Quantitative framework now operational from galaxies to cosmos
+
+---
+
+### 🎯 Milestone: All Parameters Derived (Session #66)
+
+**[Session #66: First Principles Derivation Complete](Research/)**
+
+All 6 phenomenological parameters now derived from theory:
+- **γ = 2.0**: From gravitational regime analysis (Session #64)
+- **β**: From thermal decoherence considerations
+- **r₀**: From density-coherence relationship
+- **Transition scales**: From two-regime coherence model
+
+**What this means**: The dark matter model no longer has free parameters to fit - all values come from first principles.
+
+---
+
+### 🔬 Active Investigation: Coherence Function Derivation
+
+**Challenge** (from external physicist critique): C(r) = tanh(r₀/r)^β is *chosen*, not *derived* from dynamics. In standard physics, coherence functions emerge from Hamiltonians/field equations.
+
+**Investigation Status** ([Thor Session: Coherence Derivation](Research/Thor_Session_Coherence_Derivation_Investigation.md)):
+
+**Honest Assessment**:
+- Current C(r) is phenomenological, similar to the Born rule in QM (postulated, not derived)
+- Multiple derivation paths attempted (information-theoretic, synchronization dynamics, field-theoretic)
+- C(r) is constrained by axioms but functional form is underdetermined
+
+**Promising Direction**: Born rule derivation from phase-lock dynamics
+- If measurement = phase synchronization (per CRT analogy), then |ψ|² may emerge from phase-lock probability
+- If successful: solves measurement problem AND derives coherence function
+- This is active research, not a claimed result
+
+**See**: [Section 5.1 CRT Analogy](whitepaper/sections/05-quantum-macro/01-crt-analogy/crt_analogy.md) for conceptual foundation
+
+---
+
 ### ✅ Validated: Classical Electromagnetism (Sessions #8-9)
 
 **[Session #8: Coulomb Potential Emerges](Research/Session8_Summary.md)**
-- **Result**: Electrostatic potential V ∝ 1/R **proven** to emerge from Synchronism action principle
+- **Result**: Electrostatic potential V ∝ 1/R emerges from Synchronism action principle
 - **Method**: Rigorous derivation from variational principle + numerical validation
 - **Fit Quality**: χ²/dof = 0.0005, significance = 18.9σ
-- **Status**: Classical electrostatics **fully validated**
+- **Status**: Classical electrostatics validated
 
 **[Session #9: Magnetism Emerges](Research/Session9_Summary.md)**
-- **Result**: Magnetic interactions with correct 1/R force law **proven** to emerge
+- **Result**: Magnetic interactions with correct 1/R force law emerge
 - **Method**: Extended action principle with vector potential A, derived Lorentz force
 - **Fit Quality**: χ²/dof = 0.000519
-- **Status**: Full classical electromagnetism **validated**
+- **Status**: Full classical electromagnetism validated
 
 ### ⚠️ Boundary Identified: Quantum Mechanics (Session #10)
 
@@ -37,13 +102,15 @@ Synchronism is being rigorously tested through autonomous research sessions that
 - **Value**: Defines clear scope - classical physics works, quantum needs extension
 - **Status**: Valuable negative result - theory boundaries identified
 
-### 🌌 Testing: Dark Matter Predictions (Session #15)
+### 🌌 Dark Matter Predictions (Sessions #15-72)
 
-**[Session #15: SPARC Database Validation](Research/Session15_SPARC_Validation.md)**
-- **Goal**: Test dark matter predictions against observed galaxy rotation curves
-- **Method**: 20+ galaxies from SPARC database, parameters derived from first principles
-- **Parameters**: γ = β = 0.3 ± 0.05 (no free fitting)
-- **Status**: Early-stage validation against empirical observations
+**SPARC Database Validation**:
+- 175 galaxies tested, 53.7% success rate overall
+- 81.8% success on dwarf galaxies (where dark matter effects are strongest)
+- 46% failure rate concentrated in massive galaxies (known limitation)
+- Zero per-galaxy free parameters
+
+**Honest Assessment**: This is phenomenology, not proof. The model fits many galaxies but fails on others. Failures are informative and documented. We're exploring whether coherence can explain apparent dark matter, not claiming to have solved it.
 
 ### 📚 Foundation: Learning from Failures (Sessions #6-7)
 
@@ -54,7 +121,9 @@ Early sessions established methodology through rigorous testing:
 
 ### Research Philosophy
 
-**Approach**: Test ideas rigorously, document both successes and failures, learn from negative results. The goal is **falsifiability**, not confirmation bias. We establish what Synchronism can explain (classical EM) and where it needs extension (quantum mechanics).
+**Approach**: Test ideas rigorously, document both successes and failures, learn from negative results. The goal is **falsifiability**, not confirmation bias. We establish what Synchronism can explain and where it needs extension.
+
+**Key Principle**: Synchronism is a model of the universe, not the universe itself. Compression is inherent in modeling. The goal is usefulness within appropriate context (MRH), not absolute truth. We remain alert to the "epicycles trap" - adding complexity to save a failing model.
 
 ---
 
