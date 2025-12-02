@@ -1,0 +1,57 @@
+{
+  "session": 72,
+  "track": "B",
+  "title": "Cosmological Expansion History",
+  "calibration": {
+    "C_0": 0.3,
+    "interpretation": "C_0 = Omega_m naturally matches LCDM"
+  },
+  "H_comparison": {
+    "z_values": [
+      0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "H_LCDM": [
+      70.00314992912818,
+      91.6159514631595,
+      123.27633998460533,
+      162.52992512918968,
+      207.73955088042334
+    ],
+    "H_Synch": [
+      70.00314992912818,
+      91.6159514631595,
+      123.27633998460533,
+      162.52992512918968,
+      207.73955088042334
+    ]
+  },
+  "luminosity_distance": {
+    "z_values": [
+      0.1,
+      0.5,
+      1.0,
+      1.5
+    ],
+    "dL_LCDM_Mpc": [
+      469489.3900179538,
+      2844043.341191917,
+      6620271.4100129055,
+      10923200.906191781
+    ],
+    "dL_Synch_Mpc": [
+      469489.3900179538,
+      2844043.341191917,
+      6620271.4100129055,
+      10923200.906191781
+    ]
+  },
+  "conclusions": {
+    "dark_energy": "Emergent from coherence, not fundamental",
+    "coincidence_problem": "Dissolved - C_0 = Omega_m by construction",
+    "high_z_behavior": "Matches LCDM (C -> 1)"
+  }
+}

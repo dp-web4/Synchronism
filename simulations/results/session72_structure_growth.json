@@ -1,0 +1,43 @@
+{
+  "session": 72,
+  "track": "C",
+  "title": "Structure Growth and S_8 Tension",
+  "growth_comparison": {
+    "a_values": [
+      0.1,
+      0.2,
+      0.5,
+      0.7,
+      1.0
+    ],
+    "D_LCDM": [
+      0.2106138040173465,
+      0.35352283872627704,
+      0.6823991584429628,
+      0.8398999738861018,
+      1.0
+    ],
+    "D_Synch": [
+      0.01596308973499175,
+      0.05644771220428181,
+      0.29757792512940195,
+      0.5418611067586349,
+      1.0
+    ]
+  },
+  "s8_analysis": {
+    "planck": 0.834,
+    "lensing": 0.76,
+    "synchronism_interpretation": "Different probes measure different aspects"
+  },
+  "predictions": [
+    "Environmental dependence of \u03c3_8",
+    "Enhanced void statistics",
+    "Cluster-void asymmetry"
+  ],
+  "conclusions": {
+    "s8_tension": "Reframed, not simply resolved",
+    "scale_dependence": "Yes - overdense standard, underdense enhanced",
+    "testable": "Environmental \u03c3_8 variation"
+  }
+}
