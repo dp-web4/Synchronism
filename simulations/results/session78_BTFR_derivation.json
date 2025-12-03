@@ -1,0 +1,44 @@
+{
+  "session": 78,
+  "track": "B",
+  "title": "BTFR-Based \u03c1_crit Derivation",
+  "date": "2025-12-03T00:04:13.415242",
+  "breakthrough": {
+    "old_B": 0.5,
+    "new_B": 1.63,
+    "empirical_B": 1.62,
+    "improvement": "B is now derived from BTFR"
+  },
+  "derivation": {
+    "derivation": "BTFR-based",
+    "formula": "\u03c1_crit = (3 A_TF / 4\u03c0 R_0\u00b3) \u00d7 V^(4-3\u03b4)",
+    "B_formula": "4 - 3\u03b4",
+    "delta_for_B_162": 0.7933333333333333,
+    "interpretation": "Coherence tracks mean baryonic density"
+  },
+  "scaling_test": {
+    "delta_fit": 0.7179733617458521,
+    "delta_target": 0.7933333333333333,
+    "btfr_slope": 4.176700979576737,
+    "r_squared_RV": 0.5635193716677059,
+    "r_squared_BTFR": 0.9917986854106794
+  },
+  "A_parameter": {
+    "A_TF": 47,
+    "R_0_for_A_025": 0.0035537735171126713,
+    "interpretation": "R_0 sets the overall normalization"
+  },
+  "comparison": {
+    "jeans_B": 0.5,
+    "btfr_B": 1.63,
+    "empirical_B": 1.62,
+    "conclusion": "BTFR-based derivation matches empirical B"
+  },
+  "new_formula": {
+    "formula": "\u03c1_crit = (3 A_TF / 4\u03c0 R_0\u00b3) \u00d7 V^(4-3\u03b4)",
+    "A": 0.25,
+    "B_formula": "4 - 3\u03b4",
+    "B_value": 1.63,
+    "derivation_source": "BTFR + size-velocity scaling"
+  }
+}

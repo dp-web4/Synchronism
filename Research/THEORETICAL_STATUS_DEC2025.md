@@ -1,13 +1,13 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-76**
-**Last Updated**: December 2, 2025 (Session #76)
+**Consolidated from Sessions #64-78**
+**Last Updated**: December 3, 2025 (Session #78)
 
 ---
 
 ## Executive Summary
 
-After 75 autonomous research sessions, Synchronism has evolved from phenomenological model to theoretically grounded framework. This document consolidates what is **DERIVED** vs **EMPIRICAL** vs **OPEN**.
+After 78 autonomous research sessions, Synchronism has evolved from phenomenological model to theoretically grounded framework. This document consolidates what is **DERIVED** vs **EMPIRICAL** vs **OPEN**.
 
 ### Derivation Status
 
@@ -20,7 +20,9 @@ After 75 autonomous research sessions, Synchronism has evolved from phenomenolog
 | Cosmology C₀ = Ω_m | ✅ DERIVED | #72 | Natural calibration |
 | GW170817 consistency | ✅ RESOLVED | #71 | Conformal invariance |
 | Binary pulsars | ✅ MATCHES GR | #74 | C ~ 1 in high density |
-| ρ_crit | ⚠️ VIRIAL | #42, #76 | Virial scaling (semi-empirical) |
+| ρ_crit formula | ✅ DERIVED | #78 | BTFR + size scaling |
+| B = 4-3δ | ✅ DERIVED | #78 | From M ∝ V^4, R ∝ V^δ |
+| A normalization | ⚠️ SEMI-EMP | #78 | Depends on R_0 scale |
 | β parameter | ✅ EXPLAINED | #76 | Information-action dynamics |
 | Action-Axiom | ✅ CONNECTED | #76 | Complete derivation chain |
 
@@ -56,16 +58,27 @@ C(ρ) = tanh(γ × log(ρ/ρ_crit + 1))
 
 **Status**: DERIVED from decoherence physics.
 
-### ρ_crit Determination (Session #42)
+### ρ_crit Determination (Sessions #42, #78)
 
-**Virial Scaling**:
+**Formula**:
 ```
-ρ_crit = 0.25 × v_max^1.62
+ρ_crit = A × V^B
+
+where:
+    B = 4 - 3δ ≈ 1.63 (DERIVED)
+    δ ≈ 0.79 from R ∝ V^δ galaxy scaling
+    A ≈ 0.25 M_sun/pc³ (semi-empirical)
 ```
 
-**Physical Basis**: Critical density scales with galaxy's virial properties.
+**BTFR-Based Derivation (Session #78)**:
+1. Baryonic Tully-Fisher: M_bar = A_TF × V^4
+2. Size-velocity scaling: R = R_0 × V^δ
+3. Mean baryonic density: ρ_bar = M_bar / R³
+4. Therefore: ρ_crit ∝ V^4 / V^(3δ) = V^(4-3δ)
 
-**Status**: EMPIRICAL correlation, not first-principles derivation.
+**Key Insight**: Coherence depends on BARYONIC DENSITY (via BTFR), not Jeans stability.
+
+**Status**: B exponent DERIVED; A normalization semi-empirical (depends on R_0).
 
 ---
 

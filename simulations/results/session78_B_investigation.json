@@ -1,0 +1,47 @@
+{
+  "session": 78,
+  "track": "A",
+  "title": "B Parameter Discrepancy Investigation",
+  "date": "2025-12-03T00:02:32.429623",
+  "findings": {
+    "scaling_analysis": {
+      "derived_delta": 0.75,
+      "derived_B": 0.5,
+      "empirical_B": 1.62,
+      "required_delta": 0.19,
+      "interpretation": "Empirical B requires nearly constant R_half vs V"
+    },
+    "galaxy_fit": {
+      "delta_fit": 0.5554581636709938,
+      "implied_B": 0.8890836726580125,
+      "r_squared": 0.3869834369002826,
+      "n_galaxies": 15
+    },
+    "alternative_derivations": {
+      "hypothesis_1": "Dynamical time - gives B = -2 (wrong)",
+      "hypothesis_2": "Surface density - gives \u03a3_crit \u221d V\u00b2, connects to MOND",
+      "hypothesis_3": "BTFR - gives \u03b4 \u2248 0.79, close to 0.75"
+    },
+    "jeans_reexamination": {
+      "issue": "R in Jeans formula - which scale?",
+      "possibilities": [
+        "R_half (stars)",
+        "R_disk (total)",
+        "R_vir (halo)"
+      ],
+      "insight": "\u03b4 may not be constant across galaxy types"
+    },
+    "numerical_investigation": {
+      "finding": "\u03a3_crit \u221d V^2/R with R \u221d V^0.4 gives B \u2248 1.6",
+      "interpretation": "Surface density interpretation, flat R-V relation"
+    },
+    "summary": {
+      "B_derived": 0.5,
+      "B_empirical": 1.62,
+      "explanation_1": "Wrong R-V scaling (0.75 vs needed 0.19-0.4)",
+      "explanation_2": "Wrong scale R used (R_half vs coherence scale)",
+      "explanation_3": "Surface vs volume density",
+      "explanation_4": "Galaxy population bias"
+    }
+  }
+}
