@@ -15,13 +15,26 @@
 
 Synchronism is being rigorously tested through autonomous research sessions that derive predictions from first principles and validate against empirical data. We document both successes and failures to establish clear boundaries of the framework.
 
-**Current status**: 76 autonomous research sessions completed (Nov 6 - Dec 2, 2025).
+**Current status**: 79 autonomous research sessions completed (Nov 6 - Dec 3, 2025).
 
 ---
 
-### 🎯 Milestone: Theoretical Framework Complete (Session #76)
+### 🎯 Milestone: B Parameter Breakthrough (Sessions #77-79)
 
-After 76 sessions, the Synchronism theoretical framework is now:
+**Critical Discovery**: Session #77 revealed that the original B=0.5 derivation (from Jeans criterion) failed catastrophically on SPARC (2.9% success vs 52.6% for empirical B=1.62).
+
+**Resolution**: Sessions #78-79 derived B from the Baryonic Tully-Fisher Relation (BTFR):
+- **B = 4 - 3δ** where δ ≈ 0.79 is the size-velocity scaling exponent
+- **Result**: B_derived = 1.63 vs B_empirical = 1.62 (**0.6% agreement!**)
+- **Validation**: 52.0% SPARC success with derived parameters (vs 52.6% empirical)
+
+**Key Insight**: Coherence tracks **baryonic density** (from BTFR), not Jeans stability. The Jeans derivation asked the wrong question.
+
+**MOND Connection**: Both theories inherit tight scaling from BTFR - they may be complementary descriptions of the same phenomenon.
+
+### 🏆 Theoretical Framework Complete (Session #76)
+
+After 79 sessions, the Synchronism theoretical framework is now:
 - **Theoretically grounded**: Axioms → Intent Pattern → Coherence → Conservation → Action → Dynamics
 - **Observationally testable**: Void galaxies, rotation curves, 130% Tully-Fisher offset prediction
 - **Falsifiable**: Specific predictions that can be checked against data
@@ -43,8 +56,10 @@ After 76 sessions, the Synchronism theoretical framework is now:
 | tanh form | ✅ Derived | Physical bounding requirement (coherence ∈ [0,1]) |
 | log(ρ) scaling | ✅ Derived | Shannon information of N particles scales as log(N) |
 | γ = 2.0 | ✅ Derived | Gravitational regime analysis ([Session #64](Research/)) |
+| **B = 4-3δ** | ✅ **Derived** | BTFR + size scaling ([Sessions #78-79](Research/Session78_B_Parameter_Breakthrough.md)) |
 | β discrepancy | ✅ Explained | Information-action dynamics: 0.20 × 1.5 ≈ 0.30 ([Session #76](Research/)) |
 | ρ_crit | ⚠️ Semi-empirical | Scale calibrated (like MOND's a₀), form derived |
+| R₀ (A norm) | ⚠️ Semi-empirical | ~3.5 kpc baryonic scale (like MOND's a₀) |
 
 **Key Insight**: Coherence measures information content of matter distribution. The tanh(log(ρ)) form is not arbitrary - it emerges from bounded information scaling.
 
