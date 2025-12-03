@@ -1,0 +1,115 @@
+{
+  "session": 80,
+  "track": "B",
+  "title": "Void Galaxy Test Methodology",
+  "date": "2025-12-03T12:05:21.116884",
+  "key_prediction": {
+    "sync_V_enhancement": 2.3,
+    "delta_logV": 0.36,
+    "testable": true,
+    "data_exists": true
+  },
+  "implementation_time": "~2 weeks",
+  "results": {
+    "void_criteria": {
+      "distance_criterion": {
+        "description": "Distance to nearest L* (M_r < -20) neighbor",
+        "void_threshold": "> 5 Mpc",
+        "field_threshold": "2-5 Mpc",
+        "cluster_threshold": "< 2 Mpc"
+      },
+      "density_criterion": {
+        "description": "Local overdensity \u03b4 = n/n\u0304 - 1",
+        "void_threshold": "< -0.5",
+        "field_threshold": "-0.5 to 0.5",
+        "cluster_threshold": "> 0.5"
+      }
+    },
+    "data_sources": {
+      "alfalfa": {
+        "N_galaxies": 31502,
+        "provides": [
+          "HI_width",
+          "M_gas",
+          "redshift"
+        ],
+        "coverage": "7000 deg\u00b2",
+        "url": "http://egg.astro.cornell.edu/alfalfa/"
+      },
+      "sparc": {
+        "N_galaxies": 175,
+        "provides": [
+          "V(r)",
+          "M_bar",
+          "surface_brightness"
+        ],
+        "coverage": "heterogeneous",
+        "url": "http://astroweb.cwru.edu/SPARC/"
+      },
+      "sdss": {
+        "provides": [
+          "positions",
+          "M_star",
+          "environment"
+        ],
+        "void_catalogs": [
+          "Pan2012",
+          "VIDE"
+        ]
+      }
+    },
+    "sample_selection": {
+      "redshift": [
+        0.002,
+        0.05
+      ],
+      "inclination": ">45 deg",
+      "signal_quality": "S/N > 6",
+      "mass_range": [
+        100000000.0,
+        100000000000.0
+      ],
+      "morphology": "T > 0 (late-type)",
+      "expected_void": 2000,
+      "expected_cluster": 3000,
+      "expected_field": 10000
+    },
+    "btfr_methodology": {
+      "C_void": 0.19,
+      "C_cluster": 0.9999,
+      "V_enhancement": 2.294042627970842,
+      "delta_logV": 0.3606014837136817,
+      "delta_logM": 1.442405934854727
+    },
+    "statistics": {
+      "predicted_offset_dex": 0.36,
+      "intrinsic_scatter_dex": 0.1,
+      "detection_significance": "Very high (>10\u03c3 with ~1000 galaxies)",
+      "null_hypothesis": "MOND: No environment offset",
+      "alternative": "Sync: Void offset by ~1.5 dex in M"
+    },
+    "systematics": {
+      "systematics": [
+        "selection_effects",
+        "measurement_bias",
+        "stellar_mass",
+        "gas_mass",
+        "inclination"
+      ],
+      "robustness_checks": [
+        "vary_void_def",
+        "vary_mass_bins",
+        "vary_inclination_cut",
+        "compare_estimators"
+      ]
+    },
+    "implementation": {
+      "phase_1": "Data preparation (2-3 days)",
+      "phase_2": "Sample selection (1 day)",
+      "phase_3": "BTFR analysis (1-2 days)",
+      "phase_4": "Systematics (2-3 days)",
+      "phase_5": "Publication (ongoing)",
+      "total_time": "~2 weeks"
+    }
+  }
+}

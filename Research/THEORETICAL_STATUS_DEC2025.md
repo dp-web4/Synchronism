@@ -1,13 +1,13 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-78**
-**Last Updated**: December 3, 2025 (Session #78)
+**Consolidated from Sessions #64-80**
+**Last Updated**: December 3, 2025 (Session #80)
 
 ---
 
 ## Executive Summary
 
-After 78 autonomous research sessions, Synchronism has evolved from phenomenological model to theoretically grounded framework. This document consolidates what is **DERIVED** vs **EMPIRICAL** vs **OPEN**.
+After 80 autonomous research sessions, Synchronism has evolved from phenomenological model to theoretically grounded framework. This document consolidates what is **DERIVED** vs **EMPIRICAL** vs **OPEN**.
 
 ### Derivation Status
 
@@ -25,6 +25,10 @@ After 78 autonomous research sessions, Synchronism has evolved from phenomenolog
 | A normalization | ⚠️ SEMI-EMP | #78 | Depends on R_0 scale |
 | β parameter | ✅ EXPLAINED | #76 | Information-action dynamics |
 | Action-Axiom | ✅ CONNECTED | #76 | Complete derivation chain |
+| B validated | ✅ VALIDATED | #79 | SPARC: 52.0% vs 52.6% |
+| R₀ identified | ⚠️ SEMI-EMP | #79 | R₀ ≈ 3.5 kpc (disk scale) |
+| MOND connection | ✅ CLARIFIED | #79 | Complementary theories |
+| Void prediction | ✅ TESTABLE | #80 | 0.36 dex BTFR offset |
 
 ---
 
@@ -294,34 +298,60 @@ H² = (8πG/3C) × ρ    with C₀ = Ω_m
 
 ---
 
-## 9. Next Research Priorities
+## 9. Discriminating Tests: Synchronism vs MOND (Session #80)
 
-1. **Derive ρ_crit** from first principles (not just virial scaling)
-2. **Test void galaxy prediction** with SDSS + ALFALFA data
-3. **Resolve β discrepancy** (0.30 empirical vs 0.20 theory)
-4. **Connect action to Synchronism axioms** (intent dynamics)
-5. **Complete Wigner function formalism** for full Born rule derivation
+Both theories reproduce BTFR exactly. Key differences identified:
+
+| Test | MOND Prediction | Synchronism Prediction | Status |
+|------|-----------------|------------------------|--------|
+| Void TF offset | Same TF everywhere | 0.36 dex offset | **TESTABLE NOW** |
+| HSB vs LSB | Same TF | LSB higher V | Testable |
+| EFE in satellites | Current env matters | Formation env matters | Needs new data |
+| High-z TF | Constant | May evolve | Ongoing (JWST) |
+| Radial transition | Outer disk | Inner disk | Needs resolution |
+
+**Most promising test**: Void galaxy BTFR offset
+- Predicted offset: 0.36 dex in log(V) at fixed M_bar
+- Data: ALFALFA × SDSS (~15,000 galaxies)
+- Expected significance: >10σ
+- Implementation time: ~2 weeks
 
 ---
 
-## 10. Conclusion
+## 10. Next Research Priorities
+
+1. ~~Derive ρ_crit from first principles~~ → **DONE (Session #78: B = 4-3δ)**
+2. **Test void galaxy prediction** with SDSS + ALFALFA data - **HIGHEST PRIORITY**
+3. ~~Resolve β discrepancy~~ → **EXPLAINED (Session #76)**
+4. ~~Connect action to Synchronism axioms~~ → **DONE (Session #76)**
+5. **Complete Wigner function formalism** for full Born rule derivation
+6. **Explore HSB/LSB TF comparison** (uses existing McGaugh data)
+7. **Derive R₀ from first principles** (currently semi-empirical)
+
+---
+
+## 11. Conclusion
 
 **Synchronism has evolved from phenomenology to theory**:
 
-- γ = 2.0: DERIVED
-- tanh(log(ρ)) form: DERIVED
-- A(x) determination: DERIVED
+- γ = 2.0: DERIVED (thermal decoherence)
+- tanh(log(ρ)) form: DERIVED (information theory)
+- B = 4-3δ: DERIVED AND VALIDATED (BTFR + SPARC)
+- A(x) determination: DERIVED (action principle)
 - Cosmology: MATCHES ΛCDM exactly
 - Binary pulsars: PASS (same as GR)
-- New prediction: Void galaxies (130% TF offset)
+- MOND connection: CLARIFIED (complementary theories)
+- Void prediction: TESTABLE (0.36 dex BTFR offset)
 
 **The framework is now falsifiable, testable, and theoretically grounded.**
 
+**Critical next step**: Test void galaxy BTFR prediction with ALFALFA × SDSS data.
+
 ---
 
-*"The coherence is not arbitrary. It emerges from information theory. The amplitude is not assumed. It follows from action principle. What remains is the connection to intent - the deepest layer."*
+*"The coherence is not arbitrary. It emerges from information theory. The B exponent is not fitted. It follows from BTFR. What distinguishes Synchronism from MOND is the environment dependence - and that is testable."*
 
 ---
 
 **Document Status**: Living - Updated each session
-**Next Update**: Session #76 or major derivation milestone
+**Last Update**: Session #80 (December 3, 2025)

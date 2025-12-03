@@ -1,0 +1,59 @@
+{
+  "session": 80,
+  "track": "A",
+  "title": "Discriminating Tests: Synchronism vs MOND",
+  "date": "2025-12-03T12:03:19.750001",
+  "results": {
+    "test_1": {
+      "test": "radial_transition",
+      "mond_r_transition_kpc": 7624.640000362976,
+      "sync_r_transition_kpc": 39.09751229159635,
+      "discriminating_region": "2-10 kpc",
+      "observable": "rotation curve curvature in transition zone"
+    },
+    "test_2": {
+      "test": "mass_dependence",
+      "mond_prediction": "Enhancement ~ 1/M (fixed r)",
+      "sync_prediction": "Enhancement varies with environment",
+      "discriminating_test": "TF relation in voids vs clusters",
+      "mond_expects": "Same TF in all environments",
+      "sync_expects": "TF offset in voids (130% higher V)"
+    },
+    "test_3": {
+      "test": "external_field_effect",
+      "mond_mechanism": "Current external acceleration matters",
+      "sync_mechanism": "Formation environment imprinted in \u03c1_crit",
+      "discriminating_test": "Infalling void dwarfs vs native satellites",
+      "mond_expects": "Infalling dwarfs show EFE (Newtonian-like)",
+      "sync_expects": "Infalling dwarfs retain void signature (enhanced)"
+    },
+    "test_4": {
+      "test": "stellar_vs_gas",
+      "mond_prediction": "Same TF for HSB and LSB at fixed M_bar",
+      "sync_prediction": "LSB have higher V_flat at fixed M_bar",
+      "reason": "Lower density \u2192 lower C \u2192 more enhancement",
+      "data_source": "McGaugh LSB + HSB samples",
+      "observable": "TF offset between HSB and LSB"
+    },
+    "test_5": {
+      "test": "time_evolution",
+      "mond_prediction": "TF constant with redshift (a_0 fundamental)",
+      "sync_prediction": "TF may evolve (\u03c1_crit ~ C_formation)",
+      "current_data": "TF appears stable to z~2.5",
+      "implication": "Constrains C_formation evolution in Synchronism",
+      "future_test": "JWST/ALMA high-z rotation curves"
+    },
+    "summary": {
+      "most_promising": [
+        "void_TF",
+        "HSB_LSB_TF",
+        "high_z_TF"
+      ],
+      "less_feasible": [
+        "EFE_satellites",
+        "inner_curvature"
+      ],
+      "immediate_action": "Analyze ALFALFA void galaxies for TF offset"
+    }
+  }
+}
