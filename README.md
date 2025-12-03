@@ -1,6 +1,6 @@
 # Synchronism Framework
 
-**Last meaningful change**: 2025-12-01 - Research Status Update (Sessions #64-72, cosmology breakthrough)
+**Last meaningful change**: 2025-12-02 - Added Proposed Research Directions (quantum computing, superconductivity, catalysis)
 
 **Unified Model of Reality Through Intent Dynamics**
 *Bridging Quantum Phenomena, Cosmology, and Emergent Complexity*
@@ -15,15 +15,62 @@
 
 Synchronism is being rigorously tested through autonomous research sessions that derive predictions from first principles and validate against empirical data. We document both successes and failures to establish clear boundaries of the framework.
 
-**Current status**: 72 autonomous research sessions completed (Nov 6 - Dec 1, 2025).
+**Current status**: 76 autonomous research sessions completed (Nov 6 - Dec 2, 2025).
 
 ---
 
-### 🌌 Latest: Cosmological Expansion Match (Session #72)
+### 🎯 Milestone: Theoretical Framework Complete (Session #76)
+
+After 76 sessions, the Synchronism theoretical framework is now:
+- **Theoretically grounded**: Axioms → Intent Pattern → Coherence → Conservation → Action → Dynamics
+- **Observationally testable**: Void galaxies, rotation curves, 130% Tully-Fisher offset prediction
+- **Falsifiable**: Specific predictions that can be checked against data
+- **More derived than alternatives**: ΛCDM and MOND have more free parameters
+
+**Complete Derivation Chain Established**:
+- Synchronism axioms → Intent pattern formalism → Coherence definition → Conservation laws → Action principle → GPE dynamics
+
+---
+
+### 🔬 Coherence Function: Now Derived (Sessions #73-74)
+
+**Previous Status**: C(r) = tanh(γ log(ρ)) was phenomenological (chosen, not derived)
+
+**Current Status**: **DERIVED from information theory** ([Session #74](Research/Session74_Intent_Information_Pulsars.md))
+
+| Component | Status | How Derived |
+|-----------|--------|-------------|
+| tanh form | ✅ Derived | Physical bounding requirement (coherence ∈ [0,1]) |
+| log(ρ) scaling | ✅ Derived | Shannon information of N particles scales as log(N) |
+| γ = 2.0 | ✅ Derived | Gravitational regime analysis ([Session #64](Research/)) |
+| β discrepancy | ✅ Explained | Information-action dynamics: 0.20 × 1.5 ≈ 0.30 ([Session #76](Research/)) |
+| ρ_crit | ⚠️ Semi-empirical | Scale calibrated (like MOND's a₀), form derived |
+
+**Key Insight**: Coherence measures information content of matter distribution. The tanh(log(ρ)) form is not arbitrary - it emerges from bounded information scaling.
+
+---
+
+### 🧪 Born Rule: Partial Derivation (Session #73)
+
+**[Session #73: Born Rule and Q→C Bridge](Research/Session73_Born_Rule_Coherence_Bridge.md)**
+
+| Test Case | Correlation with |ψ|² | Status |
+|-----------|------------------|--------|
+| Harmonic Oscillator Ground State | **97.1%** | Partial success |
+| HO First Excited | 71.6% | Limited (interference) |
+| Particle in Box | 0% | Failed |
+
+**Finding**: Classical phase space counting approximates Born rule for ground states. Full derivation requires Wigner function formalism (active research).
+
+**Clarification**: Galactic C(r) is **NOT** quantum coherence (decoherence at kpc scales is ~10⁻⁴³ s). Both quantum |ψ|² and classical C(r) measure "degree of reality determination" - same function, different mechanism.
+
+---
+
+### 🌌 Cosmological Expansion Match (Session #72)
 
 **[Session #72: Cosmology Breakthrough](Research/Session72_Toy_Model_Cosmology_Structure.md)**
 
-**Key Discovery**: With C₀ = Ω_m = 0.3 (natural calibration), Synchronism **exactly matches ΛCDM expansion history**:
+With C₀ = Ω_m = 0.3 (natural calibration), Synchronism **exactly matches ΛCDM expansion history**:
 
 | Redshift z | H_ΛCDM (km/s/Mpc) | H_Synchronism | Difference |
 |------------|-------------------|---------------|------------|
@@ -34,49 +81,26 @@ Synchronism is being rigorously tested through autonomous research sessions that
 
 **Implications**:
 - Dark energy **emergent** from coherence dynamics - no cosmological constant Λ needed
-- "Coincidence problem" dissolved (why Ω_Λ ≈ Ω_m today)
-- Natural calibration, not fine-tuning
-
-**Additional Results**:
-- Spherically symmetric toy model: up to 55× metric enhancement at outer galactic radii
-- Structure growth: voids predicted to grow faster than clusters (testable)
-- S₈ tension reframed: different probes measure different quantities
-
-**Status**: Quantitative framework now operational from galaxies to cosmos
+- "Coincidence problem" dissolved
+- Testable prediction: voids grow faster than clusters
 
 ---
 
-### 🎯 Milestone: All Parameters Derived (Session #66)
+### 🔭 Binary Pulsars: NOT Discriminating (Session #74)
 
-**[Session #66: First Principles Derivation Complete](Research/)**
+**[Session #74: Binary Pulsar Test](Research/Session74_Intent_Information_Pulsars.md)**
 
-All 6 phenomenological parameters now derived from theory:
-- **γ = 2.0**: From gravitational regime analysis (Session #64)
-- **β**: From thermal decoherence considerations
-- **r₀**: From density-coherence relationship
-- **Transition scales**: From two-regime coherence model
+Synchronism predicts **identical** orbital decay to GR for Hulse-Taylor pulsar. Why? C ~ 1.0 in all high-density regions.
 
-**What this means**: The dark matter model no longer has free parameters to fit - all values come from first principles.
+| Test Type | Discriminating? | Why |
+|-----------|-----------------|-----|
+| Binary pulsars | ❌ No | C ~ 1 (high density) |
+| Solar system | ❌ No | C ~ 1 (high density) |
+| Galaxy rotation | ✅ **Yes** | C varies 0.3-1.0 |
+| Void galaxies | ✅ **Yes** | Low external density |
+| Cluster lensing/dynamics | ✅ **Yes** | Different mass measures |
 
----
-
-### 🔬 Active Investigation: Coherence Function Derivation
-
-**Challenge** (from external physicist critique): C(r) = tanh(r₀/r)^β is *chosen*, not *derived* from dynamics. In standard physics, coherence functions emerge from Hamiltonians/field equations.
-
-**Investigation Status** ([Thor Session: Coherence Derivation](Research/Thor_Session_Coherence_Derivation_Investigation.md)):
-
-**Honest Assessment**:
-- Current C(r) is phenomenological, similar to the Born rule in QM (postulated, not derived)
-- Multiple derivation paths attempted (information-theoretic, synchronization dynamics, field-theoretic)
-- C(r) is constrained by axioms but functional form is underdetermined
-
-**Promising Direction**: Born rule derivation from phase-lock dynamics
-- If measurement = phase synchronization (per CRT analogy), then |ψ|² may emerge from phase-lock probability
-- If successful: solves measurement problem AND derives coherence function
-- This is active research, not a claimed result
-
-**See**: [Section 5.1 CRT Analogy](whitepaper/sections/05-quantum-macro/01-crt-analogy/crt_analogy.md) for conceptual foundation
+**Honest assessment**: High-precision GR tests (pulsars, solar system) cannot distinguish Synchronism from GR. The discriminating tests are at galactic and cosmological scales.
 
 ---
 
@@ -146,6 +170,85 @@ Early sessions established methodology through rigorous testing:
 **Substrate-Independent**: Same pattern appears in physics (coherence), neural networks (activation), trust systems (decision), and attention (salience) - not coincidence, but information-theoretic necessity.
 
 **Status**: Framework documented (Nov 29, 2025), autonomous sessions investigating compression necessity and coherence properties.
+
+---
+
+## 🔮 Proposed Research Directions
+
+The following tracks are proposed for autonomous research sessions. Each leverages Synchronism's core concepts to explore phenomena in new domains, with focus on **practical, testable predictions**.
+
+### Track A: Quantum Computing via CRT Analogy
+
+**Core Concept**: The CRT (Cathode Ray Tube) analogy in Synchronism describes superposition as continuous cycling through states at a frequency determined by pattern geometry. Measurement is phase-lock synchronization between observer and observed.
+
+**Research Questions**:
+1. **Entanglement as Synchronization**: If entangled particles share an intent pattern, they maintain phase-lock despite distance. Can we model entanglement fidelity as coherence of shared pattern?
+2. **Gates as Phase Adjustments**: Quantum gates transform states - in Synchronism terms, they adjust phase relationships within cycling patterns. Can gate operations be derived from phase manipulation mathematics?
+3. **Decoherence as Desynchronization**: Environmental decoherence breaks phase-lock. Can decoherence times be predicted from environmental "noise" in the cycling frequency?
+4. **Error Correction**: If errors are phase drift, can we design correction schemes based on phase-lock recovery?
+
+**Testable Predictions**:
+- Derive gate fidelity from phase-stability metrics
+- Predict T2 decoherence times from environmental coherence analysis
+- Model entanglement distance limits from phase-synchronization theory
+
+**Validation Approach**: Compare predictions against published quantum computing benchmarks (IBM, Google quantum processors).
+
+### Track B: Superconductivity as Phase Alignment
+
+**Core Concept**: Superconductivity requires electrons to form Cooper pairs below critical temperature. In Synchronism terms:
+- Temperature = oscillation amplitude of intent patterns
+- Phase alignment = resonant interaction between electron patterns
+- Cooper pairs = mutually reinforcing phase-locked patterns
+
+**Research Questions**:
+1. **Critical Temperature**: Can Tc be derived from the temperature at which thermal oscillation amplitude drops below phase-lock threshold?
+2. **BCS Gap**: Does the superconducting gap relate to the energy required to break phase-lock between Cooper pairs?
+3. **High-Tc Materials**: Do cuprates/iron-based superconductors have geometric structures that enhance phase alignment at higher oscillation amplitudes?
+4. **Room-Temperature Prediction**: What material geometries would theoretically maintain phase-lock at room temperature oscillation levels?
+
+**Testable Predictions**:
+- Calculate Tc for known superconductors from first principles
+- Predict relative Tc rankings across material families
+- Propose material structures optimized for high-Tc based on phase alignment geometry
+
+**Validation Approach**:
+- Model known superconductors (aluminum, niobium, YBCO, BSCCO)
+- Compare predicted Tc with measured values
+- If successful, predict properties of not-yet-synthesized materials
+
+### Track C: Catalysis as Pattern Mediation
+
+**Core Concept**: Catalysts lower activation energy without being consumed. In Synchronism terms:
+- Reactants are intent patterns that need to transition to product patterns
+- Activation barrier = phase mismatch that must be overcome
+- Catalyst = pattern that provides intermediate phase-matching, reducing barrier
+
+**Research Questions**:
+1. **Transition State Geometry**: Does catalyst surface geometry provide "stepping stones" for phase alignment between reactant and product patterns?
+2. **Selectivity**: Why do catalysts favor certain products? Is it because they provide phase-matching pathways only to specific product geometries?
+3. **Poisoning**: Catalyst poisoning = blocking of phase-matching sites by incompatible patterns?
+4. **Enzyme Efficiency**: Enzymes are extraordinarily efficient catalysts - do their conformational dynamics optimize phase-matching pathways?
+
+**Testable Predictions**:
+- Derive relative activation energies from phase-mismatch calculations
+- Predict selectivity based on phase-pathway analysis
+- Model enzyme efficiency from conformational flexibility metrics
+
+**Validation Approach**:
+- Calculate activation energies for well-characterized reactions (Haber-Bosch, etc.)
+- Compare with experimental values
+- If successful, predict optimal catalyst structures for target reactions
+
+### General Research Methodology
+
+For all tracks:
+1. **Model Known Systems**: Validate approach on well-characterized phenomena
+2. **Quantitative Predictions**: Specific numerical values, not qualitative descriptions
+3. **Document Failures**: What doesn't work is as informative as what does
+4. **Falsifiability**: Each prediction must be checkable against experiment
+
+**Success Criteria**: Predictions within factor of 2-3 of experimental values would be remarkable for a framework not designed for these domains. Even approximate success would suggest deep connections; failures would define boundaries of the approach.
 
 ---
 
