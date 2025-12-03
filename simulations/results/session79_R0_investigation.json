@@ -1,0 +1,28 @@
+{
+  "session": 79,
+  "track": "B",
+  "title": "R_0 Investigation",
+  "date": "2025-12-03T08:08:51.263441",
+  "A_optimal": 0.2,
+  "A_empirical": 0.25,
+  "R0_optimal_kpc": 3.828186472892078,
+  "R0_empirical_kpc": 3.5537735171126714,
+  "conclusion": "R_0 is semi-empirical, represents baryonic condensation scale",
+  "velocity_dependence": {
+    "delta": 0.79,
+    "V_ref": 200,
+    "R_ref": 3.5,
+    "conclusion": "R_0 is a reference scale; V-dependence captured by B"
+  },
+  "cosmological": {
+    "conclusion": "R_0 likely from galaxy formation, not cosmology"
+  },
+  "summary": {
+    "R0_optimal_kpc": 3.828186472892078,
+    "R0_empirical_kpc": 3.5537735171126714,
+    "physical_meaning": "Characteristic baryonic scale",
+    "status": "SEMI-EMPIRICAL (like MOND a_0)",
+    "form_derived": true,
+    "scale_empirical": true
+  }
+}
