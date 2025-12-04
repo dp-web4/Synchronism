@@ -1,0 +1,32 @@
+{
+  "session": 82,
+  "track": "C",
+  "title": "SPARC Environment Proxy Analysis",
+  "date": "2025-12-04T00:04:59.900293",
+  "conclusion": "SPARC lacks environment data - cannot directly test void prediction",
+  "results": {
+    "galaxies_loaded": 175,
+    "hsb_count": 88,
+    "lsb_count": 87,
+    "sb_median": 132.25,
+    "btfr_comparison": {
+      "hsb": {
+        "count": 88,
+        "mean_log_v": 2.221576132315045,
+        "std_log_v": 0.2027167927265541,
+        "mean_log_r": 1.2911698106782086,
+        "mean_sb": 1023.2355681818182
+      },
+      "lsb": {
+        "count": 87,
+        "mean_log_v": 1.814313650697427,
+        "std_log_v": 0.20599904701423832,
+        "mean_log_r": 0.8753919879312607,
+        "mean_sb": 48.85103448275863
+      },
+      "delta_log_v": -0.407262481617618
+    },
+    "conclusion": "SPARC lacks environment data - cannot directly test void prediction",
+    "alternative": "Cross-match SPARC with void catalogs or use ALFALFA+SDSS"
+  }
+}

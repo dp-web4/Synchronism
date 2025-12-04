@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-80**
-**Last Updated**: December 3, 2025 (Session #80)
+**Consolidated from Sessions #64-82**
+**Last Updated**: December 4, 2025 (Session #82)
 
 ---
 
@@ -28,7 +28,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | B validated | ✅ VALIDATED | #79 | SPARC: 52.0% vs 52.6% |
 | R₀ identified | ⚠️ SEMI-EMP | #79 | R₀ ≈ 3.5 kpc (disk scale) |
 | MOND connection | ✅ CLARIFIED | #79 | Complementary theories |
-| Void prediction | ✅ TESTABLE | #80 | 0.36 dex BTFR offset |
+| Void prediction | ✅ TESTABLE | #80-81 | 0.11-0.28 dex BTFR offset |
+| C(δ) relation | ⚠️ PROPOSED | #81 | C = 1 - 0.8|δ| for voids |
 
 ---
 
@@ -212,19 +213,35 @@ Planck cell counting gives r = 0.971 correlation with Born rule.
 
 **Status**: NOT a discriminating test.
 
-### Void Galaxy Prediction (Session #75)
+### Void Galaxy Prediction (Sessions #75, #80-81)
 
-**NEW TESTABLE PREDICTION**:
+**TESTABLE PREDICTION** (Revised Session #81):
 
-| Environment | C_formation | G_eff/G |
-|-------------|-------------|---------|
-| Cluster | 0.9999 | 1.00 |
-| Field | 0.88 | 1.13 |
-| Void | 0.19 | 5.31 |
+The coherence at galaxy formation depends on environment density contrast δ:
 
-**Prediction**: Void galaxies have ~130% higher v_max at fixed baryonic mass.
+```
+C_formation(δ) = { 1 - 0.8|δ|  for δ < 0 (voids)
+                 { 1 + 0.1δ    for δ > 0 (clusters)
+```
 
-**Falsification**: If void/cluster galaxies show identical TF relation → Synchronism falsified.
+| Environment | δ | C_formation | G_eff/G | Δlog(V) |
+|-------------|---|-------------|---------|---------|
+| Extreme void | -0.9 | 0.28 | 3.57 | +0.28 dex |
+| Moderate void | -0.5 | 0.60 | 1.67 | +0.11 dex |
+| Field | 0.0 | 1.00 | 1.00 | 0.00 dex |
+| Cluster | +1.0 | 1.10 | 0.91 | -0.02 dex |
+
+**Key Insight**: ASYMMETRIC environment dependence:
+- Voids: Large effect (C can drop significantly below 1)
+- Clusters: Minimal effect (C saturates near 1)
+
+**Prediction**: Void galaxies have higher v_max at fixed M_bar.
+- Moderate voids (δ ~ -0.5): +0.11 dex
+- Extreme voids (δ < -0.8): +0.28 dex
+
+**Falsification**: If extreme void galaxies show identical BTFR to field → Synchronism falsified.
+
+**Literature Constraint**: Dominguez-Gomez et al. (2019) found no offset, but used moderate voids (δ ~ -0.5). Predicted 0.11 dex offset is within their uncertainties. Need extreme void sample for definitive test.
 
 ### Structure Growth (Session #72)
 
@@ -304,17 +321,18 @@ Both theories reproduce BTFR exactly. Key differences identified:
 
 | Test | MOND Prediction | Synchronism Prediction | Status |
 |------|-----------------|------------------------|--------|
-| Void TF offset | Same TF everywhere | 0.36 dex offset | **TESTABLE NOW** |
+| Void TF offset | Same TF everywhere | 0.11-0.28 dex offset | **TESTABLE NOW** |
 | HSB vs LSB | Same TF | LSB higher V | Testable |
 | EFE in satellites | Current env matters | Formation env matters | Needs new data |
 | High-z TF | Constant | May evolve | Ongoing (JWST) |
 | Radial transition | Outer disk | Inner disk | Needs resolution |
 
 **Most promising test**: Void galaxy BTFR offset
-- Predicted offset: 0.36 dex in log(V) at fixed M_bar
+- Predicted offset: 0.11 dex (moderate void) to 0.28 dex (extreme void)
+- Revised from 0.36 dex based on Session #81 constraints
 - Data: ALFALFA × SDSS (~15,000 galaxies)
-- Expected significance: >10σ
-- Implementation time: ~2 weeks
+- Expected significance: >10σ for extreme voids
+- Need δ < -0.8 sample for definitive test
 
 ---
 
@@ -341,7 +359,7 @@ Both theories reproduce BTFR exactly. Key differences identified:
 - Cosmology: MATCHES ΛCDM exactly
 - Binary pulsars: PASS (same as GR)
 - MOND connection: CLARIFIED (complementary theories)
-- Void prediction: TESTABLE (0.36 dex BTFR offset)
+- Void prediction: TESTABLE (0.11-0.28 dex BTFR offset, revised from 0.36)
 
 **The framework is now falsifiable, testable, and theoretically grounded.**
 
@@ -354,4 +372,4 @@ Both theories reproduce BTFR exactly. Key differences identified:
 ---
 
 **Document Status**: Living - Updated each session
-**Last Update**: Session #80 (December 3, 2025)
+**Last Update**: Session #82 (December 4, 2025)

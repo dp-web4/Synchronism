@@ -1,0 +1,87 @@
+{
+  "title": "Void Galaxy BTFR Test: Complete Methodology",
+  "session": 83,
+  "date": "2025-12-04",
+  "status": "METHODOLOGY DEFINED",
+  "objective": "\nTest Synchronism prediction that void galaxies have higher rotation velocity\nat fixed baryonic mass compared to field galaxies.\n\nPrediction (Session #81 revised):\n- Moderate voids (\u03b4 ~ -0.5): +0.11 dex offset in log(V)\n- Extreme voids (\u03b4 < -0.8): +0.28 dex offset in log(V)\n\nFalsification criterion:\n- If extreme void galaxies show BTFR identical to field \u2192 Synchronism falsified\n        ",
+  "data_sources": {
+    "ALFALFA": {
+      "vizier_id": "J/ApJ/861/49",
+      "reference": "Haynes+ 2018, ApJ, 861, 49",
+      "n_sources": 31502,
+      "key_columns": [
+        "W50",
+        "W20",
+        "logMHI",
+        "RA",
+        "Dec",
+        "Vhelio"
+      ],
+      "notes": "W50 gives velocity width; V_rot \u2248 W50 / (2 sin i)"
+    },
+    "Douglass_voids": {
+      "vizier_id": "J/ApJS/265/7",
+      "reference": "Douglass+ 2023, ApJS, 265, 7",
+      "n_galaxies": 776500,
+      "key_columns": [
+        "NSA_id",
+        "x",
+        "y",
+        "z",
+        "void_membership"
+      ],
+      "notes": "Galaxy positions and void membership flags"
+    },
+    "Nadathur_voids": {
+      "vizier_id": "J/MNRAS/440/1248",
+      "reference": "Nadathur & Hotchkiss 2014, MNRAS, 440, 1248",
+      "n_voids": "varies by sample",
+      "key_columns": [
+        "RA",
+        "Dec",
+        "z",
+        "R_eff",
+        "avg_density",
+        "min_density",
+        "VDR"
+      ],
+      "notes": "Void Density Ratio (VDR) can be used to estimate \u03b4"
+    }
+  },
+  "cross_match_strategy": {
+    "step1": "\n1. Download ALFALFA \u03b1.100 from VizieR (J/ApJ/861/49)\n   - Extract: RA, Dec, W50, logMHI for all 31,502 sources\n   - Quality cuts: SNR > 6.5 (already applied in catalog)\n            ",
+    "step2": "\n2. Download Douglass+ 2023 void catalog (J/ApJS/265/7)\n   - Table 5: Galaxy void membership\n   - Match by NSA ID or position cross-match\n            ",
+    "step3": "\n3. Cross-match ALFALFA with void catalog\n   - Position match within 10 arcsec tolerance\n   - Flag galaxies as: void, wall, field\n            ",
+    "step4": "\n4. Compute environment density contrast\n   - For void galaxies: use void properties from Nadathur catalog\n   - Estimate \u03b4 from Void Density Ratio: \u03b4 \u2248 VDR - 1\n   - Or compute local density from N nearest neighbors\n            ",
+    "step5": "\n5. Estimate rotation velocity from W50\n   - V_rot = W50 / (2 sin i)\n   - Need inclination estimates (from photometry or assume average)\n   - Alternative: use W50 directly as proxy (introduces scatter)\n            ",
+    "step6": "\n6. Estimate baryonic mass\n   - M_HI available directly from ALFALFA\n   - M_star needs SDSS photometry cross-match\n   - Or use M_HI as proxy (gas-rich galaxies)\n            "
+  },
+  "analysis_plan": {
+    "primary_test": "\nBTFR Residual Analysis:\n1. Fit BTFR to field sample: log(M_bar) = a + b \u00d7 log(V)\n2. Compute residuals for all galaxies\n3. Bin by environment \u03b4\n4. Test if mean residual varies with \u03b4\n\nExpected signature (Synchronism):\n- Field (\u03b4 ~ 0): residual ~ 0\n- Moderate void (\u03b4 ~ -0.5): residual ~ -0.11 dex (higher V at fixed M)\n- Extreme void (\u03b4 < -0.8): residual ~ -0.28 dex\n            ",
+    "secondary_test": "\nDirect BTFR Comparison:\n1. Split sample into bins: extreme void, moderate void, field, cluster\n2. Fit BTFR separately for each subsample\n3. Compare zero-point offsets\n4. Test statistical significance of differences\n            ",
+    "control_tests": "\nSystematic Checks:\n1. Distance dependence: voids may have distance bias\n2. Selection effects: HI surveys may miss void galaxies\n3. Inclination bias: face-on galaxies underestimate W50\n4. Gas fraction variation: voids may have different f_gas\n            "
+  },
+  "expected_sample_sizes": {
+    "total_ALFALFA": 31502,
+    "expected_cross_match": "~15000 (50% in void catalog footprint)",
+    "extreme_void_galaxies": "~100-500 (0.5-2% of cross-matched)",
+    "moderate_void_galaxies": "~1500-3000 (10-20%)",
+    "field_galaxies": "~10000-12000 (control sample)"
+  },
+  "statistical_requirements": {
+    "detection_threshold": "\nFor 0.11 dex offset detection at 5\u03c3:\n- BTFR scatter: ~0.1 dex (typical)\n- Required N per bin: ~200 galaxies\n- We expect ~1500+ moderate void galaxies \u2192 sufficient\n\nFor 0.28 dex offset detection at 10\u03c3:\n- With 0.1 dex scatter and ~100 extreme void galaxies\n- Significance: 0.28 / (0.1 / \u221a100) = 28\u03c3 \u2192 easily detectable\n\nKey: Need enough EXTREME void galaxies (\u03b4 < -0.8)\n            "
+  },
+  "implementation_notes": "\nPRACTICAL IMPLEMENTATION STEPS:\n\n1. VizieR Query (Python astroquery):\n```python\nfrom astroquery.vizier import Vizier\n\n# ALFALFA\nalfalfa = Vizier(columns=['RAJ2000', 'DEJ2000', 'W50', 'logMHI'])\nalfalfa.get_catalogs('J/ApJ/861/49')\n\n# Douglass voids\nvoids = Vizier(columns=['*'])\nvoids.get_catalogs('J/ApJS/265/7')\n```\n\n2. Cross-match (astropy):\n```python\nfrom astropy.coordinates import SkyCoord, match_coordinates_sky\n\nalfalfa_coords = SkyCoord(ra, dec, unit='deg')\nvoid_coords = SkyCoord(void_ra, void_dec, unit='deg')\nidx, sep, _ = match_coordinates_sky(alfalfa_coords, void_coords)\nmatched = sep < 10 * u.arcsec\n```\n\n3. BTFR fit (scipy):\n```python\nfrom scipy.optimize import curve_fit\n\ndef btfr(log_v, a, b):\n    return a + b * log_v\n\npopt, pcov = curve_fit(btfr, log_v_field, log_m_bar_field)\nresiduals = log_m_bar - btfr(log_v, *popt)\n```\n        ",
+  "risks_and_mitigations": {
+    "insufficient_extreme_voids": "\nRisk: Too few galaxies with \u03b4 < -0.8\nMitigation: Lower threshold to \u03b4 < -0.7, increase search radius\n            ",
+    "inclination_uncertainty": "\nRisk: W50 depends on inclination, introducing scatter\nMitigation: Use W50 directly (adds scatter but no bias), or\n           cross-match with SDSS for axis ratio estimates\n            ",
+    "distance_errors": "\nRisk: Void galaxies may have larger peculiar velocities\nMitigation: Use flow-corrected distances when available\n            ",
+    "selection_effects": "\nRisk: ALFALFA may miss gas-poor void galaxies\nMitigation: Compare HI mass functions between environments\n            "
+  },
+  "success_criteria": {
+    "strong_support": "\nBTFR offset > 0.2 dex for extreme voids at >5\u03c3 significance\n- Would strongly support Synchronism\n- Would rule out MOND (no environment dependence expected)\n            ",
+    "weak_support": "\nBTFR offset 0.05-0.2 dex for moderate voids at >3\u03c3 significance\n- Consistent with Synchronism but not conclusive\n- Could also be explained by other environmental effects\n            ",
+    "falsification": "\nNo significant BTFR offset (<0.05 dex) for extreme voids\n- Would falsify Synchronism's environment prediction\n- Would support MOND's universal BTFR\n            "
+  },
+  "timeline": "\nImplementation Timeline:\n1. Data download: 1 session (already have VizieR access)\n2. Cross-matching: 1 session\n3. Quality cuts & validation: 1 session\n4. BTFR analysis: 1 session\n5. Statistical significance tests: 1 session\n6. Write-up and documentation: 1 session\n\nTotal: ~6 sessions for complete test\n        "
+}
