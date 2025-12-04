@@ -1,0 +1,62 @@
+{
+  "session": 81,
+  "track": "A",
+  "title": "ALFALFA Data Analysis for Void Galaxy Test",
+  "date": "2025-12-03T18:02:40.041412",
+  "data_source": "https://egg.astro.cornell.edu/alfalfa/data/",
+  "expected_significance": 497.5499583083098,
+  "next_steps": [
+    "Download full ALFALFA-SDSS dataset",
+    "Implement quality cuts",
+    "Compute V_rot and M_bar",
+    "Classify environments",
+    "Fit BTFR by environment",
+    "Measure offset significance"
+  ],
+  "results": {
+    "catalog": {
+      "status": "expected_structure",
+      "columns": {
+        "AGCNr": "Galaxy ID",
+        "RAdeg": "RA (deg)",
+        "DEdeg": "Dec (deg)",
+        "Vhelio": "Heliocentric velocity (km/s)",
+        "W50": "HI width at 50% (km/s)",
+        "W20": "HI width at 20% (km/s)",
+        "Fc": "HI flux (Jy km/s)",
+        "SNR": "Signal-to-noise",
+        "Dist": "Distance (Mpc)",
+        "logMHI": "Log HI mass (M_sun)"
+      }
+    },
+    "void_fraction": {
+      "total_alfalfa": 31500,
+      "after_quality_cuts": 15000,
+      "void_fraction": 0.13,
+      "expected_void_galaxies": 2000,
+      "expected_cluster_galaxies": 3000,
+      "expected_field_galaxies": 10000
+    },
+    "plan": {
+      "step1": "Data loading and quality cuts",
+      "step2": "Compute V_rot, M_HI, M_bar",
+      "step3": "Environment classification",
+      "step4": "BTFR fitting by environment",
+      "step5": "Statistical comparison"
+    },
+    "expected": {
+      "N_cluster": 3000,
+      "N_void": 2000,
+      "predicted_offset": -1.44,
+      "expected_significance": 497.5499583083098,
+      "scatter": 0.1
+    },
+    "status": {
+      "status": "in_progress",
+      "data_identified": true,
+      "methodology_ready": true,
+      "implementation_started": true,
+      "next": "Download full dataset and implement pipeline"
+    }
+  }
+}

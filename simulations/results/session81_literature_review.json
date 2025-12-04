@@ -1,0 +1,67 @@
+{
+  "session": 81,
+  "track": "B",
+  "title": "Literature Review - Environment-Dependent BTFR",
+  "date": "2025-12-03T18:06:21.810635",
+  "key_finding": "Original 0.36 dex prediction may be too extreme",
+  "revised_prediction": "0.11 dex for moderate voids, 0.28 dex for extreme voids",
+  "literature_gap": "No environment-split BTFR analysis exists",
+  "opportunity": "Test with extreme void sample",
+  "results": {
+    "dominguez_gomez": {
+      "paper": "Dominguez-Gomez et al. 2019",
+      "arxiv": "1906.08327",
+      "finding": "No M_halo/M_star offset in voids",
+      "n_void": 642,
+      "n_dense": 938,
+      "synchronism_prediction": "Higher M_halo/M_star in voids",
+      "tension": "Potential, but depends on void definition",
+      "resolution": "Need extreme void sample and BTFR test"
+    },
+    "btfr_studies": {
+      "btfr_papers_reviewed": 4,
+      "environment_btfr_studies": 0,
+      "gap": "No environment-split BTFR analysis",
+      "opportunity": "Synchronism provides first prediction"
+    },
+    "constraints": {
+      "btfr_scatter_observed": 0.1,
+      "sync_prediction_offset": 0.36,
+      "additional_scatter_expected": 0.10800000000000001,
+      "total_scatter_expected": 0.1471869559437928,
+      "constraint": "Offset likely smaller than 0.36 dex for typical voids"
+    },
+    "revised_prediction": [
+      {
+        "environment": "Extreme void",
+        "delta": -0.9,
+        "C_formation": 0.2799999999999999,
+        "delta_logV": 0.27642098432889045
+      },
+      {
+        "environment": "Moderate void",
+        "delta": -0.5,
+        "C_formation": 0.6,
+        "delta_logV": 0.11092437480817818
+      },
+      {
+        "environment": "Field",
+        "delta": 0.0,
+        "C_formation": 1.0,
+        "delta_logV": 0.0
+      },
+      {
+        "environment": "Mod. cluster",
+        "delta": 0.5,
+        "C_formation": 1.05,
+        "delta_logV": -0.010594649534969048
+      },
+      {
+        "environment": "Cluster",
+        "delta": 1.0,
+        "C_formation": 1.1,
+        "delta_logV": -0.02069634257911253
+      }
+    ]
+  }
+}
