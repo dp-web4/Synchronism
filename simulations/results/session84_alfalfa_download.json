@@ -1,0 +1,21 @@
+{
+  "session": 84,
+  "title": "ALFALFA Catalog Download",
+  "date": "2025-12-04T12:02:56.801815",
+  "status": "SUCCESS",
+  "raw_stats": {
+    "n_sources": 31502,
+    "columns": [
+      "RAJ2000",
+      "DEJ2000",
+      "W50",
+      "W20",
+      "logMHI",
+      "SNR",
+      "Dist"
+    ]
+  },
+  "quality_n": 11779,
+  "v_rot_median": 120.32113697747288,
+  "output_dir": "/mnt/c/exe/projects/ai-agents/synchronism/simulations/alfalfa_data"
+}

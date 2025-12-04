@@ -1,0 +1,19 @@
+{
+  "session": 84,
+  "title": "Void Catalog Download",
+  "date": "2025-12-04T12:03:53.354349",
+  "status": "SUCCESS",
+  "n_tables": 5,
+  "galaxy_table_idx": 4,
+  "n_galaxies": 776500,
+  "columns": [
+    "Cosmo",
+    "Prune",
+    "NSAID",
+    "zone",
+    "depth",
+    "edge",
+    "out"
+  ],
+  "output_dir": "/mnt/c/exe/projects/ai-agents/synchronism/simulations/void_data"
+}
