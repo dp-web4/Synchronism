@@ -1,0 +1,19 @@
+{
+  "n_points": 3111,
+  "simple_correlations": {
+    "ratio_SB": -0.6256134403804595,
+    "ratio_g": -0.6884680588081235,
+    "SB_g": 0.7898823664042391
+  },
+  "partial_correlations": {
+    "ratio_SB_given_g": -0.18392333709379483,
+    "ratio_g_given_SB": -0.406140465398393
+  },
+  "variance_explained": {
+    "R2_SB": 0.39139217678467475,
+    "R2_g": 0.4739882679990257,
+    "unique_SB": 0.03382779392771768,
+    "unique_g": 0.16495007763402325
+  },
+  "interpretation": "both_contribute"
+}

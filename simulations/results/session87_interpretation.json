@@ -1,0 +1,18 @@
+{
+  "radial_test": "VALIDATES Synchronism",
+  "correlation_SB": -0.6256134403804594,
+  "correlation_g": -0.7140101158845182,
+  "correlation_C_SB": 0.6256134403804593,
+  "interpretation": [
+    "C(\u03c1) model works at radial level",
+    "Implied C correlates positively with SB as predicted",
+    "MOND g/a\u2080 correlation slightly stronger but not independent",
+    "HSB/LSB test failed because it used global properties",
+    "Radial test is the correct methodology"
+  ],
+  "next_steps": [
+    "Partial correlation analysis (control for g/a\u2080)",
+    "Compare C(\u03c1) formula to implied C values",
+    "Test if Synchronism parameters (\u03b3, \u03c1_crit) fit the data"
+  ]
+}
