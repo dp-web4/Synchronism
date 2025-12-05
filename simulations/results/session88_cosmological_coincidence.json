@@ -1,0 +1,20 @@
+{
+  "session": 88,
+  "analysis": "Cosmological Coincidence",
+  "milgrom_coincidence": {
+    "cH0": 6.800388852883993e-10,
+    "a0": 1.2e-10,
+    "ratio": 5.666990710736661
+  },
+  "derived_a0": {
+    "from_2pi": 1.0823155008835114e-10,
+    "from_synchronism": 2.4352098769879002e-11,
+    "observed": 1.2e-10
+  },
+  "conclusions": [
+    "a\u2080 is not fundamental - emerges from cosmology",
+    "Synchronism connects local and cosmic physics",
+    "Predicts a\u2080 evolution with H\u2080",
+    "Testable with high-z BTFR"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "session": 88,
+  "title": "MOND-Synchronism Unification",
+  "g_sigma_relation": {
+    "slope": 0.4676417340885989,
+    "correlation": 0.9956684298024374,
+    "interpretation": "g \u221d \u03a3^0.47 in exponential disk"
+  },
+  "scales": {
+    "a0": 1.2e-10,
+    "Sigma_crit_Msun_pc2": 137.01630002667505,
+    "Freeman_Sigma0": 140,
+    "agreement_percent": 2.1312142666606757
+  },
+  "connections": {
+    "a0": 1.2e-10,
+    "cH0": 6.804925469863901e-10,
+    "a0_over_cH0": 0.17634285714285713,
+    "Sigma_crit_Msun_pc2": 137.01630002667505,
+    "rho_crit_Msun_pc3": 0.45672100008891686,
+    "rho_crit_SI": 3.0909928390221564e-20
+  },
+  "session87_SB_g_correlation": 0.79,
+  "conclusions": [
+    "MOND and Synchronism parameterize same physics",
+    "Both use surface density as fundamental scale",
+    "a\u2080 = 2\u03c0G \u00d7 \u03a3\u2080 connects the scales",
+    "Deeper question: why does \u03a3\u2080 exist?"
+  ]
+}
