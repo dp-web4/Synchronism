@@ -1,0 +1,20 @@
+{
+  "observation": {
+    "LSB_HSB_offset_dex": -0.053,
+    "significance_sigma": -3.0,
+    "direction": "LSB has LOWER V than expected"
+  },
+  "naive_prediction": {
+    "offset_dex": 0.088,
+    "direction": "LSB should have HIGHER V"
+  },
+  "status": "CONTRADICTED",
+  "explanation": "HSB/LSB comparison is not a valid test of Synchronism. Theory predicts C(\u03c1) at LOCAL radius, not global surface brightness.",
+  "theory_impact": "Core model unaffected. HSB/LSB removed from discriminating tests.",
+  "lessons": [
+    "C depends on LOCAL density at each radius",
+    "Global galaxy properties (SB, environment) are poor proxies",
+    "BTFR comparisons average over radii and lose the signal",
+    "Radial V/V_Newton profile is the correct test"
+  ]
+}

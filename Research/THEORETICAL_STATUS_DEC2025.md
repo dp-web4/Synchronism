@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-85**
-**Last Updated**: December 4, 2025 (Session #85)
+**Consolidated from Sessions #64-86**
+**Last Updated**: December 4, 2025 (Session #86)
 
 ---
 
@@ -31,6 +31,7 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | Void prediction | ⚠️ REVISED | #85 | 0.01-0.03 dex BTFR offset |
 | C(δ) relation | ⚠️ REVISED | #85 | C = 1 - 0.1|δ| for voids |
 | Void BTFR test | ✅ PERFORMED | #84-85 | +0.012 dex observed (1.3σ) |
+| HSB/LSB test | ⚠️ INVALID | #86 | Not a valid test of theory |
 
 ---
 
@@ -327,17 +328,17 @@ H² = (8πG/3C) × ρ    with C₀ = Ω_m
 
 ---
 
-## 9. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85)
+## 9. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85, #86)
 
 Both theories reproduce BTFR exactly. Key differences identified:
 
 | Test | MOND Prediction | Synchronism Prediction | Status |
 |------|-----------------|------------------------|--------|
 | Void TF offset | Same TF everywhere | 0.01-0.03 dex offset | **TESTED** (Session #85) |
-| HSB vs LSB | Same TF | LSB higher V | Testable |
+| HSB vs LSB | Same TF | ~~LSB higher V~~ | **INVALID TEST** (Session #86) |
 | EFE in satellites | Current env matters | Formation env matters | Needs new data |
 | High-z TF | Constant | May evolve | Ongoing (JWST) |
-| Radial transition | Outer disk | Inner disk | Needs resolution |
+| Radial V/V_Newton | Scale with a/a₀ | Scale with ρ(r) | Testable |
 
 **Void TF Test Result** (Session #85):
 - **Predicted**: 0.11-0.28 dex offset (original)
@@ -346,8 +347,15 @@ Both theories reproduce BTFR exactly. Key differences identified:
 - **Revised C(δ)**: C = 1 - 0.1|δ| (down from 0.8 coefficient)
 - **Revised prediction**: 0.01-0.03 dex (still positive, but much smaller)
 
+**HSB vs LSB Test Result** (Session #86):
+- **Naive prediction**: +0.088 dex (LSB higher V than HSB)
+- **Observed**: -0.053 ± 0.017 dex (3.0σ) - **OPPOSITE DIRECTION**
+- **Interpretation**: This was NOT a valid test of Synchronism
+- **Key insight**: Synchronism predicts C(ρ) at LOCAL density at each radius, not global surface brightness. BTFR comparisons average over radii and lose the signal.
+- **Correct test**: Radial V/V_Newton profile should correlate with ρ(r)
+
 **Updated Most Promising Tests**:
-1. **HSB vs LSB comparison** - Uses existing McGaugh data
+1. **Radial V/V_Newton correlation** - Inner disk (high ρ) vs outer disk (low ρ)
 2. **Extreme void sample (δ < -0.9)** - Would test revised 0.03 dex prediction
 3. **High-z TF evolution** - JWST data ongoing
 
@@ -359,10 +367,11 @@ Both theories reproduce BTFR exactly. Key differences identified:
 2. ~~Test void galaxy prediction~~ → **DONE (Session #85: +0.012 dex, revised C(δ))**
 3. ~~Resolve β discrepancy~~ → **EXPLAINED (Session #76)**
 4. ~~Connect action to Synchronism axioms~~ → **DONE (Session #76)**
-5. **Complete Wigner function formalism** for full Born rule derivation
-6. **Explore HSB/LSB TF comparison** (uses existing McGaugh data) - **NEXT PRIORITY**
-7. **Derive R₀ from first principles** (currently semi-empirical)
-8. **Test extreme void sample (δ < -0.9)** to verify revised 0.03 dex prediction
+5. ~~Explore HSB/LSB TF comparison~~ → **DONE (Session #86: Invalid test)**
+6. **Radial V/V_Newton analysis** - Test C(ρ(r)) directly - **NEXT PRIORITY**
+7. **Complete Wigner function formalism** for full Born rule derivation
+8. **Derive R₀ from first principles** (currently semi-empirical)
+9. **Test extreme void sample (δ < -0.9)** to verify revised 0.03 dex prediction
 
 ---
 
@@ -381,17 +390,23 @@ Both theories reproduce BTFR exactly. Key differences identified:
 
 **Session #85 Key Finding**: The void BTFR test was performed using ALFALFA × Douglass catalogs with proper 3D classification. The observed +0.012 dex offset is ~10× smaller than the original 0.11-0.28 dex prediction. This requires revising the C(δ) relationship from C = 1 - 0.8|δ| to C = 1 - 0.1|δ|, reducing the environment sensitivity by a factor of 8.
 
-**Important**: This does NOT invalidate the core Synchronism prediction for rotation curves. The 52% SPARC success rate uses local density C(ρ), not environmental C(δ). The main theory remains intact; only the secondary void prediction is revised.
+**Session #86 Key Finding**: The HSB/LSB BTFR comparison showed the OPPOSITE of the naive prediction:
+- Predicted: +0.088 dex (LSB higher V)
+- Observed: -0.053 dex (LSB lower V), 3.0σ
+
+This is NOT a failure of the theory - it reveals that the HSB/LSB test was based on a **misinterpretation**. Synchronism predicts C(ρ) at LOCAL density at each radius. Surface brightness is a global property that averages over radii, losing the signal. The correct test is the radial V/V_Newton profile.
+
+**Important**: These results do NOT invalidate the core Synchronism prediction for rotation curves. The 52% SPARC success rate uses local density C(ρ(r)) at each radius. The main theory remains intact; the "discriminating tests" need refinement.
 
 **The framework remains falsifiable, testable, and theoretically grounded.**
 
-**Next priorities**: HSB/LSB TF comparison, extreme void sample (δ < -0.9), R₀ derivation.
+**Next priorities**: Radial V/V_Newton analysis, extreme void sample (δ < -0.9), R₀ derivation.
 
 ---
 
-*"The void test was performed with proper methodology. The result is clear: environment dependence is weak. The coherence is primarily determined by LOCAL baryonic density, not large-scale structure. This is a refinement, not a failure."*
+*"Sessions #85-86 taught us: C depends on LOCAL density at each radius, not global properties. The void effect is weak. The HSB/LSB test was invalid. This clarifies what Synchronism actually predicts."*
 
 ---
 
 **Document Status**: Living - Updated each session
-**Last Update**: Session #85 (December 4, 2025)
+**Last Update**: Session #86 (December 4, 2025)

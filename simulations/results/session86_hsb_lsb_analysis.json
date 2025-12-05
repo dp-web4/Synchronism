@@ -1,0 +1,51 @@
+{
+  "HSB": {
+    "n_galaxies": 70,
+    "mean_SBdisk": 2956.8418571428574,
+    "median_SBdisk": 1595.275,
+    "sample_zp": 1.6261327363699547,
+    "mean_residual_dex": 0.017194870416730405,
+    "std_residual_dex": 0.05267750352791537,
+    "sem_residual_dex": 0.00629616592848779,
+    "significance": 2.731006554152276
+  },
+  "ISB": {
+    "n_galaxies": 38,
+    "mean_SBdisk": 226.55684210526314,
+    "median_SBdisk": 179.91000000000003,
+    "sample_zp": 1.7431285137125518,
+    "mean_residual_dex": -0.012054073918918738,
+    "std_residual_dex": 0.08632189924583243,
+    "sem_residual_dex": 0.014003261170365437,
+    "significance": -0.8608047634238453
+  },
+  "LSB": {
+    "n_galaxies": 21,
+    "mean_SBdisk": 72.7342857142857,
+    "median_SBdisk": 73.25,
+    "sample_zp": 1.8369286218944425,
+    "mean_residual_dex": -0.035504100964391376,
+    "std_residual_dex": 0.07381645619323614,
+    "sem_residual_dex": 0.016108071335185544,
+    "significance": -2.2041186822185383
+  },
+  "LSB_HSB_offset": {
+    "offset_dex": -0.052698971381121784,
+    "offset_err_dex": 0.017294845114613683,
+    "significance": -3.04709125938298
+  },
+  "synchronism_prediction": {
+    "density_ratio": 40.652655458223684,
+    "C_hsb_estimate": 0.6,
+    "C_lsb_estimate": 0.4,
+    "predicted_offset_dex": 0.08804562952784059,
+    "observed_offset_dex": -0.052698971381121784,
+    "ratio": -0.5985415933048447
+  },
+  "continuous_correlation": {
+    "n_galaxies": 129,
+    "pearson_r": 0.32246671301597785,
+    "linear_slope": 0.03437998061680425,
+    "linear_intercept": -0.09507081527085083
+  }
+}
