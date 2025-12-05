@@ -1,0 +1,8 @@
+{
+  "observed_offset": 0.012,
+  "observed_error": 0.009,
+  "pred_moderate": 0.11,
+  "pred_extreme": 0.28,
+  "implied_k": 0.108,
+  "status": "PREDICTION NEEDS REVISION"
+}
