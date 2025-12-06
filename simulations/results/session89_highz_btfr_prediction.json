@@ -1,0 +1,64 @@
+{
+  "session": 89,
+  "title": "High-z BTFR Evolution Prediction",
+  "predictions": [
+    {
+      "z": 0.0,
+      "H_ratio": 1.0,
+      "delta_log_V": 0.0,
+      "V_change_percent": 0.0
+    },
+    {
+      "z": 0.5,
+      "H_ratio": 1.3086252328302401,
+      "delta_log_V": 0.029203822520557903,
+      "V_change_percent": 6.955672441953631
+    },
+    {
+      "z": 1.0,
+      "H_ratio": 1.7606816861659007,
+      "delta_log_V": 0.06142021172928407,
+      "V_change_percent": 15.191441149499774
+    },
+    {
+      "z": 1.5,
+      "H_ratio": 2.321098877687032,
+      "delta_log_V": 0.0914234103960985,
+      "V_change_percent": 23.430762079043266
+    },
+    {
+      "z": 2.0,
+      "H_ratio": 2.966479394838265,
+      "delta_log_V": 0.11806033401877106,
+      "V_change_percent": 31.238220801972695
+    },
+    {
+      "z": 3.0,
+      "H_ratio": 4.460941604639093,
+      "delta_log_V": 0.16235663455121335,
+      "V_change_percent": 45.33045543823915
+    },
+    {
+      "z": 4.0,
+      "H_ratio": 6.180614856144977,
+      "delta_log_V": 0.19775792036396359,
+      "V_change_percent": 57.67321400803678
+    }
+  ],
+  "observational_requirements": {
+    "delta_log_V_z1": 0.06142021172928407,
+    "N_galaxies_1sigma": 2.650802561355783,
+    "N_galaxies_3sigma": 23.857223052202045
+  },
+  "discriminating_test": {
+    "synchronism": "BTFR evolves with H(z)",
+    "standard_mond": "BTFR constant",
+    "status": "testable with JWST"
+  },
+  "conclusions": [
+    "\u0394log(V) = +0.06 dex at z=1",
+    "Need ~25 galaxies for 1\u03c3 detection",
+    "Existing data marginal, JWST decisive",
+    "This discriminates Synchronism vs standard MOND"
+  ]
+}

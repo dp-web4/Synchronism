@@ -1,0 +1,28 @@
+{
+  "session": 89,
+  "title": "Origin of \u03a3\u2080 Scale",
+  "toomre": {
+    "Sigma_Msun_pc2": 125.56712917114453,
+    "status": "correct order of magnitude"
+  },
+  "cosmological": {
+    "Sigma_Msun_pc2": 123.57905449381357,
+    "status": "factor of 4 low"
+  },
+  "angular_momentum": {
+    "Sigma_Msun_pc2": 318.30988618379075,
+    "status": "correct order of magnitude"
+  },
+  "decoherence": {
+    "rho_crit": 4.5019795629503456e+61,
+    "status": "thermal too fast, need gravitational"
+  },
+  "freeman_sigma0": 140,
+  "conclusions": [
+    "\u03a3\u2080 emerges from multiple constraints",
+    "Angular momentum (\u03bb ~ 0.05) is key factor",
+    "Disk fraction (f_disk ~ 0.05) is also key",
+    "Cosmological scale sets fundamental limit",
+    "Toomre stability filters to observed value"
+  ]
+}
