@@ -1,0 +1,18 @@
+{
+  "session": 92,
+  "title": "V_ref and Factor of 3 Derivation Attempts",
+  "date": "2025-12-06T12:03:53.042136",
+  "V_ref_status": "EMPIRICAL",
+  "V_ref_value": 200,
+  "factor_3_status": "APPROXIMATE",
+  "factor_3_theoretical": 2.5066282746310002,
+  "factor_3_empirical": 3.0,
+  "conclusion": "V_ref cannot be derived - set by galaxy population",
+  "derivation_chain": {
+    "H0": "observed",
+    "a0": "derived (cH0/2pi)",
+    "Sigma0": "derived (a0/2piG)",
+    "R_MOND": "derived (V^2/a0) but V empirical",
+    "R0": "approximate (R_MOND/3)"
+  }
+}

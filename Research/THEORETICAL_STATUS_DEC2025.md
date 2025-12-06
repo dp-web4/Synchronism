@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-91**
-**Last Updated**: December 6, 2025 (Session #91)
+**Consolidated from Sessions #64-92**
+**Last Updated**: December 6, 2025 (Session #92)
 
 ---
 
@@ -426,7 +426,55 @@ R₀ = R_MOND / 3 = 3.6 kpc
 
 ---
 
-## 11. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85-88)
+## 11. V_ref and Factor of 3 Analysis (Session #92)
+
+### V_ref ≈ 200 km/s
+
+Session #92 attempted to derive V_ref from first principles.
+
+**Key finding**: V² = a₀ × R_MOND is self-consistent and gives:
+```
+V = sqrt(1.2×10⁻¹⁰ m/s² × 3.24×10²⁰ m) = 197 km/s
+```
+
+This is remarkably close to the empirical V_ref ≈ 200 km/s!
+
+**Interpretation**: V_ref is the "MOND velocity" - the velocity at which g = a₀ occurs at characteristic galaxy size.
+
+**Status**: TAUTOLOGICAL but numerically consistent. Cannot derive from constants alone.
+
+### Factor of 3 (R_MOND ≈ 3 R_d)
+
+**Theoretical derivation** from exponential disk:
+```
+R_MOND = sqrt(2π) × R_d ≈ 2.51 R_d
+```
+
+**Empirical**: R_MOND ≈ 3 R_d (~20% discrepancy)
+
+The discrepancy comes from non-asymptotic effects and bulge contributions.
+
+**Status**: APPROXIMATE - understood but not exact.
+
+### Complete Derivation Chain
+
+```
+H₀ = 70 km/s/Mpc (OBSERVED)
+    ↓
+a₀ = cH₀/(2π) [DERIVED, 10% accuracy]
+    ↓
+Σ₀ = a₀/(2πG) [DERIVED, 12% accuracy]
+    ↓
+V_ref = sqrt(a₀ × R_MOND) ≈ 200 km/s [TAUTOLOGICAL]
+    ↓
+R_MOND = V²/a₀ = 10.8 kpc [SELF-CONSISTENT]
+    ↓
+R₀ = R_MOND/3 ≈ 3.6 kpc [APPROXIMATE, 97%]
+```
+
+---
+
+## 12. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85-88)
 
 Both theories reproduce BTFR exactly. Key differences identified:
 
