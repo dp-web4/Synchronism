@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-89**
-**Last Updated**: December 5, 2025 (Session #89)
+**Consolidated from Sessions #64-90**
+**Last Updated**: December 6, 2025 (Session #90)
 
 ---
 
@@ -37,6 +37,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | Void BTFR test | ✅ PERFORMED | #84-85 | +0.012 dex observed (1.3σ) |
 | HSB/LSB test | ⚠️ INVALID | #86 | Not a valid test of theory |
 | Radial C(ρ) test | ✅ VALIDATED | #87 | r = +0.626 (C vs SB at each radius) |
+| TDG analysis | ✅ ANALYZED | #90 | NOT discriminating (similar Σ) |
+| UDG prediction | ✅ FORMULATED | #90 | V/V_bar 30% higher (discriminating) |
 
 ---
 
@@ -464,9 +466,9 @@ This is NOT a failure of the theory - it reveals that the HSB/LSB test was based
 
 ---
 
-*"Sessions #85-89 taught us: (1) C depends on LOCAL density at each radius, (2) MOND and Synchronism measure the same physics, (3) a₀ = cH₀/(2π) derives MOND's scale from cosmology, (4) Freeman's Law (Σ₀ = 140 M_sun/pc²) emerges from both cosmology AND disk stability."*
+*"Sessions #85-90 taught us: (1) C depends on LOCAL density, (2) MOND and Synchronism are unified for disks, (3) a₀ = cH₀/(2π) derives MOND's scale, (4) Best discriminating tests: High-z BTFR and UDG kinematics."*
 
 ---
 
 **Document Status**: Living - Updated each session
-**Last Update**: Session #89 (December 5, 2025)
+**Last Update**: Session #90 (December 6, 2025)

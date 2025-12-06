@@ -1,0 +1,56 @@
+{
+  "session": 90,
+  "title": "All Discriminating Tests Summary",
+  "tests": [
+    {
+      "name": "High-z BTFR Evolution",
+      "synchronism_prediction": "BTFR evolves with H(z)",
+      "mond_prediction": "BTFR constant",
+      "quantitative": "+0.06 dex at z=1",
+      "status": "NOT TESTED",
+      "difficulty": "Medium - requires z>1 rotation curves"
+    },
+    {
+      "name": "Ultra-Diffuse Galaxies",
+      "synchronism_prediction": "Higher V/V_bar than normal",
+      "mond_prediction": "Same BTFR as normal",
+      "quantitative": "V/V_bar ~ 1.3\u00d7 higher",
+      "status": "PARTIALLY TESTABLE",
+      "difficulty": "High - UDG kinematics challenging"
+    },
+    {
+      "name": "Radial V/V_bar Correlation",
+      "synchronism_prediction": "Correlates with SB",
+      "mond_prediction": "Correlates with g/a\u2080",
+      "quantitative": "r = -0.626 (SB), -0.688 (g/a\u2080)",
+      "status": "TESTED - BOTH VALIDATED",
+      "difficulty": "Low - uses SPARC data"
+    },
+    {
+      "name": "Void Galaxies",
+      "synchronism_prediction": "+0.01-0.03 dex offset (revised)",
+      "mond_prediction": "No offset",
+      "quantitative": "+0.012 dex observed",
+      "status": "TESTED - MARGINALLY CONSISTENT",
+      "difficulty": "Medium - requires void catalog"
+    },
+    {
+      "name": "Freeman's Law",
+      "synchronism_prediction": "\u03a3\u2080 = 124 M_sun/pc\u00b2",
+      "mond_prediction": "\u03a3\u2080 = 137 M_sun/pc\u00b2",
+      "quantitative": "Observed 140 M_sun/pc\u00b2",
+      "status": "TESTED - BOTH CONSISTENT",
+      "difficulty": "Low - well-established observation"
+    }
+  ],
+  "best_tests": [
+    "High-z BTFR",
+    "UDGs"
+  ],
+  "conclusions": [
+    "MOND and Synchronism mostly equivalent for disks",
+    "High-z BTFR and UDGs are best discriminating tests",
+    "Both not yet definitively tested",
+    "JWST and UDG kinematics are observational priorities"
+  ]
+}

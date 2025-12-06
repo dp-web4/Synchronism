@@ -1,0 +1,21 @@
+{
+  "session": 90,
+  "title": "TDGs and UDGs as Discriminating Tests",
+  "tdg_analysis": {
+    "Sigma_pc2": 7.957747154594767,
+    "prediction": "Same BTFR as normal galaxies",
+    "discriminating": false
+  },
+  "udg_analysis": {
+    "Sigma_pc2": 1.061032953945969,
+    "delta_log_ratio": 0.1238198437494863,
+    "prediction": "Higher V/V_bar than normal galaxies",
+    "discriminating": true
+  },
+  "conclusions": [
+    "TDGs: Not discriminating (similar \u03a3 to normal dwarfs)",
+    "UDGs: Potentially discriminating (extremely low \u03a3)",
+    "UDG test: If V/V_bar higher, Synchronism supported",
+    "Need UDG rotation curve data for test"
+  ]
+}
