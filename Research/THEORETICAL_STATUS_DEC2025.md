@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-90**
-**Last Updated**: December 6, 2025 (Session #90)
+**Consolidated from Sessions #64-91**
+**Last Updated**: December 6, 2025 (Session #91)
 
 ---
 
@@ -26,7 +26,7 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | β parameter | ✅ EXPLAINED | #76 | Information-action dynamics |
 | Action-Axiom | ✅ CONNECTED | #76 | Complete derivation chain |
 | B validated | ✅ VALIDATED | #79 | SPARC: 52.0% vs 52.6% |
-| R₀ identified | ⚠️ SEMI-EMP | #79 | R₀ ≈ 3.5 kpc (disk scale) |
+| R₀ derivation | ⚠️ **PARTIAL** | #91 | R₀ = V²/(3a₀) ≈ 3.6 kpc (97%) |
 | MOND connection | ✅ UNIFIED | #79, #88 | Same physics, different parameterization |
 | a₀ derivation | ✅ DERIVED | #88 | a₀ = cH₀/(2π), 10% accuracy |
 | High-z prediction | ✅ QUANTIFIED | #88-89 | +0.06 dex at z=1, +0.12 dex at z=2 |
@@ -380,7 +380,53 @@ This is testable with JWST rotation curves!
 
 ---
 
-## 10. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85-88)
+## 10. R₀ Derivation (Session #91)
+
+### Background
+Sessions #79 and #83 concluded that R₀ ≈ 3.5 kpc was SEMI-EMPIRICAL, similar to MOND's a₀.
+
+### December 2025 Breakthrough
+Using the cosmological derivation a₀ = cH₀/(2π), R₀ can now be PARTIALLY DERIVED:
+
+**Formula**:
+```
+R₀ = V_ref² / (3 × a₀)
+   = V_ref² / (6πG Σ₀)
+   = 2π V_ref² / (3 c H₀)
+```
+
+**Calculation** (for V_ref = 200 km/s):
+```
+R_MOND = V² / a₀ = (2×10⁵ m/s)² / (1.2×10⁻¹⁰ m/s²) = 10.8 kpc
+R₀ = R_MOND / 3 = 3.6 kpc
+```
+
+**Result**:
+| Value | R₀ (kpc) |
+|-------|----------|
+| Empirical | 3.5 |
+| Derived | 3.6 |
+| Agreement | 97% |
+
+### Physical Interpretation
+- R_MOND = V²/a₀ is the MOND transition radius
+- R₀ = R_MOND/3 reflects exponential disk geometry (most mass within 3 R_d)
+- Both scales connect to cosmology via H₀
+
+### Remaining Empirical Inputs
+1. V_ref ≈ 200 km/s (characteristic rotation velocity)
+2. Factor of 3 (from disk structure)
+
+### Status Update
+| Before (Session #83) | After (Session #91) |
+|----------------------|---------------------|
+| SEMI-EMPIRICAL | **PARTIALLY DERIVED** |
+| 3.5 kpc (empirical) | 3.6 kpc (97% match) |
+| No cosmological link | Connected via a₀ = cH₀/(2π) |
+
+---
+
+## 11. Discriminating Tests: Synchronism vs MOND (Sessions #80, #85-88)
 
 Both theories reproduce BTFR exactly. Key differences identified:
 

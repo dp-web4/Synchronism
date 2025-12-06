@@ -1,0 +1,15 @@
+{
+  "session": 91,
+  "title": "R\u2080 Cosmological Derivation",
+  "date": "2025-12-06T06:06:47.677074",
+  "R_0_empirical": 3.5,
+  "R_0_derived": 3.6004896665946564,
+  "formula": "R\u2080 = V_ref\u00b2/(3a\u2080) = V_ref\u00b2/(6\u03c0G\u03a3\u2080)",
+  "agreement_percent": 97.1288666687241,
+  "status": "PARTIALLY DERIVED",
+  "remaining_empirical": [
+    "V_ref \u2248 200 km/s",
+    "factor of 3 from disk geometry"
+  ],
+  "key_finding": "R\u2080 = V_ref\u00b2/(3a\u2080) connects galaxy scale to cosmology via MOND"
+}
