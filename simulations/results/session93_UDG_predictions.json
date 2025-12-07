@@ -1,0 +1,51 @@
+{
+  "session": 93,
+  "title": "UDG Kinematic Predictions",
+  "date": "2025-12-06T18:03:54.006885",
+  "synchronism": {
+    "Sigma_UDG": 10.61032953945969,
+    "Sigma_normal": 63.66197723675814,
+    "slope_method": {
+      "slope": -0.22,
+      "V_ratio": 1.4831780004519013
+    },
+    "coherence_method": {
+      "C_normal": 0.8600762659697491,
+      "C_udg": 0.2749983483722142,
+      "V_ratio": 1.768493381949064
+    }
+  },
+  "mond": {
+    "prediction": "Same BTFR for all",
+    "V_ratio": 1.0
+  },
+  "observations": {
+    "DF2": {
+      "sigma_km_s": "3-8",
+      "status": "controversial"
+    },
+    "DF4": {
+      "sigma_km_s": "low",
+      "status": "controversial"
+    },
+    "Dragonfly44": {
+      "sigma_km_s": 47,
+      "status": "high V"
+    },
+    "VCC1287": {
+      "sigma_km_s": 19,
+      "status": "normal"
+    },
+    "summary": "Heterogeneous - no clear pattern"
+  },
+  "synthesis": {
+    "synchronism_prediction": "V ~30% higher at fixed M_bar for UDGs",
+    "mond_prediction": "Same BTFR for UDGs",
+    "current_status": "Inconclusive - heterogeneous data",
+    "recommendations": [
+      "HI rotation curves for UDG sample",
+      "Control for environment (field vs cluster)",
+      "Careful distance measurements"
+    ]
+  }
+}

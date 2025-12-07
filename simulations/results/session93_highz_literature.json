@@ -1,0 +1,65 @@
+{
+  "session": 93,
+  "title": "High-z BTFR Literature Analysis",
+  "date": "2025-12-06T18:02:21.454183",
+  "kross": {
+    "survey": "KROSS",
+    "reference": "Tiley et al. (2019)",
+    "z_mean": 0.9,
+    "N_galaxies": 586,
+    "prediction_delta_log_V": 0.05506837738955519,
+    "observed_slope": 3.6,
+    "local_slope": 4.0,
+    "zero_point_evolution": "not detected",
+    "interpretation": "Slope shallower - complicates zero-point comparison"
+  },
+  "kmos3d": {
+    "survey": "KMOS3D",
+    "reference": "\u00dcbler et al. (2017)",
+    "z_range": [
+      0.9,
+      2.3
+    ],
+    "N_galaxies": 240,
+    "N_rotation": 35,
+    "prediction_z1": 0.06142021172928407,
+    "prediction_z2": 0.11806033401877106,
+    "observed_evolution": "V ~0.08-0.12 dex higher at z~1.5",
+    "interpretation": "CONSISTENT with Synchronism prediction!"
+  },
+  "mosdef": {
+    "survey": "MOSDEF",
+    "reference": "Price et al. (2020)",
+    "z_range": [
+      1.4,
+      2.6
+    ],
+    "prediction_delta_log_V": 0.11806033401877106,
+    "observed_evolution": "~0.1-0.2 dex higher V at fixed M*",
+    "interpretation": "Consistent with Synchronism prediction"
+  },
+  "di_teodoro": {
+    "survey": "Di Teodoro et al.",
+    "reference": "Di Teodoro et al. (2016)",
+    "N_galaxies": 10,
+    "interpretation": "High quality but small sample"
+  },
+  "synthesis": {
+    "stellar_tfr_evolution_detected": true,
+    "magnitude": "~0.1 dex at z~1-2",
+    "consistent_with_synchronism": true,
+    "definitive": false,
+    "reason_not_definitive": [
+      "Stellar TFR, not baryonic",
+      "Gas fraction evolution not accounted",
+      "Selection effects",
+      "Slope evolution complicates comparison"
+    ],
+    "requirements_for_definitive_test": [
+      "Baryonic TFR at z > 1",
+      "Gas masses from ALMA",
+      "~100 galaxies with rotation curves",
+      "Control for selection effects"
+    ]
+  }
+}
