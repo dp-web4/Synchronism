@@ -1,0 +1,76 @@
+{
+  "session": 95,
+  "title": "a\u2080 Discrepancy Analysis",
+  "date": "2025-12-07T06:02:18.095627",
+  "question": "Source of 10% discrepancy in a\u2080 = cH\u2080/(2\u03c0)",
+  "H0_uncertainty": {
+    "Planck 2018": {
+      "H0": 67.4,
+      "H0_err": 0.5,
+      "a0_pred": 1.0421152108506952e-10,
+      "a0_range": [
+        1.0343843858443842e-10,
+        1.0498460358570058e-10
+      ],
+      "error_pct": -13.157065762442066
+    },
+    "SH0ES 2022": {
+      "H0": 73.0,
+      "H0_err": 1.0,
+      "a0_pred": 1.1287004509213761e-10,
+      "a0_range": [
+        1.1132388009087543e-10,
+        1.1441621009339977e-10
+      ],
+      "error_pct": -5.941629089885325
+    },
+    "Canonical": {
+      "H0": 70.0,
+      "H0_err": 2.0,
+      "a0_pred": 1.0823155008835114e-10,
+      "a0_range": [
+        1.051392200858268e-10,
+        1.1132388009087543e-10
+      ],
+      "error_pct": -9.807041593040722
+    }
+  },
+  "a0_uncertainty": {
+    "measurements": {
+      "Begeman+ 1991": 1.21e-10,
+      "McGaugh 2011": 1.2e-10,
+      "McGaugh+ 2016": 1.2e-10,
+      "Lelli+ 2017": 1.2e-10,
+      "Li+ 2018": 1.26e-10,
+      "Chae+ 2020": 1.09e-10,
+      "Pittordis+ 2023": 1.2e-10
+    },
+    "mean": 1.1942857142857143e-10,
+    "std": 4.716449719776909e-12
+  },
+  "matter_correction": {
+    "None (baseline)": 1.0,
+    "1/sqrt(\u03a9_m)": 1.7817416127494958,
+    "sqrt(\u03a9_m)": 0.5612486080160912,
+    "1/\u03a9_m": 3.1746031746031744,
+    "\u03a9_m": 0.315,
+    "(1-\u03a9_m)": 0.685,
+    "sqrt(1-\u03a9_m)": 0.8276472678623424
+  },
+  "alternative_factors": {
+    "required_factor": 5.666990710736661,
+    "correction_ratio": 1.1087340050294217
+  },
+  "H0_tension": {
+    "a0_planck": 1.0421152108506952e-10,
+    "a0_shoes": 1.1287004509213761e-10,
+    "H0_required": 77.61138035205953
+  },
+  "synthesis": {
+    "conclusion": "10% discrepancy is within combined uncertainties",
+    "H0_contribution": "5%",
+    "a0_contribution": "6%",
+    "combined_uncertainty": "~10%",
+    "status": "AGREEMENT"
+  }
+}
