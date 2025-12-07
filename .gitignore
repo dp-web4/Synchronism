@@ -43,3 +43,9 @@ simulations/alfalfa_data/
 simulations/void_data/
 simulations/*.csv
 *.csv
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.log
+*.synctex.gz
