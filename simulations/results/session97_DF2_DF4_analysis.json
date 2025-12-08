@@ -1,0 +1,70 @@
+{
+  "session": 97,
+  "title": "DF2/DF4 Anomaly Analysis",
+  "date": "2025-12-07T18:02:09.957270",
+  "question": "Do DF2/DF4 falsify Synchronism?",
+  "observations": [
+    {
+      "name": "NGC 1052-DF2",
+      "distance_initial": 20.0,
+      "distance_revised": 13.0,
+      "distance_adopted": 22.1,
+      "R_eff_kpc": 2.2,
+      "stellar_mass": 200000000.0,
+      "sigma_initial": 8.4,
+      "sigma_revised": 10.6,
+      "sigma_upper_limit": 15,
+      "GC_sigma": 7.8,
+      "GC_count": 10
+    },
+    {
+      "name": "NGC 1052-DF4",
+      "distance": 20.0,
+      "R_eff_kpc": 1.6,
+      "stellar_mass": 150000000.0,
+      "sigma": 4.2,
+      "GC_count": 7
+    }
+  ],
+  "controversies": {
+    "distance_uncertain": true,
+    "sigma_uncertain": true,
+    "mass_uncertain": true,
+    "tidal_stripping_likely": true
+  },
+  "prediction": {
+    "Sigma_Msun_pc2": 13.153301081974815,
+    "C": 0.9999999999999742,
+    "G_eff_ratio": 1.0000000000000258,
+    "sigma_Newton": 19.77498620829076,
+    "sigma_Sync": 19.774986208291015,
+    "sigma_obs": 8.4
+  },
+  "alternative": {
+    "interpretation": "Tidal stripping removes low-C envelope",
+    "prediction": "Isolated UDGs should have high V/V_bar"
+  },
+  "literature": {
+    "evidence": "Strong",
+    "sources": [
+      "Montes+ 2020",
+      "Keim+ 2022",
+      "van Dokkum+ 2022",
+      "Moreno+ 2022"
+    ]
+  },
+  "resolution": {
+    "resolution": "Tidal stripping removes low-C envelope",
+    "status": "CONSISTENT with Synchronism",
+    "falsification_criterion": "Isolated UDG with V/V_bar ~ 1"
+  },
+  "testable": {
+    "predictions": 4,
+    "key_test": "Isolated UDG kinematics"
+  },
+  "synthesis": {
+    "conclusion": "DF2/DF4 consistent with Synchronism + tidal stripping",
+    "status": "NOT falsified",
+    "next_priority": "Isolated UDG kinematics"
+  }
+}

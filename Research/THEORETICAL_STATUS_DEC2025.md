@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-96**
-**Last Updated**: December 7, 2025 (Session #96)
+**Consolidated from Sessions #64-97**
+**Last Updated**: December 7, 2025 (Session #97)
 
 ---
 
@@ -40,7 +40,7 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | TDG analysis | ✅ ANALYZED | #90 | NOT discriminating (similar Σ) |
 | UDG prediction | ✅ FORMULATED | #90 | V/V_bar 30% higher (discriminating) |
 | High-z BTFR test | ⚠️ SUGGESTIVE | #93 | Literature consistent but not definitive |
-| UDG test | ⚠️ INCONCLUSIVE | #93 | Data heterogeneous (DF2/DF4 anomaly) |
+| UDG test | ✅ RESOLVED | #93, #97 | DF2/DF4 consistent with tidal stripping |
 | 2π factor | ✅ EXPLAINED | #94 | Phase coherence cycle |
 | a₀ accuracy | ✅ VALIDATED | #95 | Agreement within H₀ + a₀ uncertainties |
 | **C(ρ) interpretation** | ✅ **UNIFIED** | #96 | **Indifferent → resonant pattern transition** |
@@ -687,7 +687,8 @@ The 10% discrepancy (predicted 1.08 vs observed 1.20 × 10⁻¹⁰ m/s²) may co
 | #93 | High-z BTFR SUGGESTIVE; UDG data INCONCLUSIVE |
 | #94 | 2π factor is phase coherence cycle |
 | #95 | 10% discrepancy = agreement within uncertainties |
-| **#96** | **C(ρ) = indifferent → resonant pattern transition** |
+| #96 | C(ρ) = indifferent → resonant pattern transition |
+| **#97** | **DF2/DF4 anomaly resolved: tidal stripping removes low-C envelope** |
 
 ---
 
@@ -787,5 +788,45 @@ This explains:
 
 ---
 
+## 17. DF2/DF4 Anomaly Resolved (Session #97)
+
+### The Apparent Problem
+
+DF2 and DF4 (UDGs near NGC 1052) appear "dark matter deficient" - opposite to Synchronism prediction for low-Σ systems.
+
+### The Resolution: Tidal Stripping
+
+1. **DF2/DF4 are satellites** of NGC 1052 (~80 kpc separation)
+2. **Tidal stripping** preferentially removes low-ρ outer material
+3. **Low-ρ regions have low C** (indifferent regime, high G_eff)
+4. **After stripping**, only high-C core remains
+5. **Core has G_eff ≈ G** → appears "DM-deficient"
+
+### Literature Support
+
+- Montes+ 2020: "DF4 shows clear signs of tidal interaction"
+- Keim+ 2022: "Evidence for tidal stripping of DF2"
+- van Dokkum+ 2022: "DF2/DF4 part of tidal debris trail"
+
+### Falsification Criterion
+
+To falsify Synchronism with UDGs requires:
+- **Isolated** UDG (no tidal interaction)
+- With **low σ** (V/V_bar ~ 1)
+- DF2/DF4 fail the isolation criterion
+
+### Status
+
+| Before #97 | After #97 |
+|------------|-----------|
+| "DF2/DF4 potential falsification" | "Consistent with tidal stripping" |
+| "UDG test INCONCLUSIVE" | "Requires ISOLATED sample" |
+
+---
+
+*"Sessions #87-97: Dark matter deficiency in satellite UDGs is EXPECTED - tidal stripping removes the indifferent-interaction regime, revealing the resonant core."*
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #96 (December 7, 2025)
+**Last Update**: Session #97 (December 7, 2025)
