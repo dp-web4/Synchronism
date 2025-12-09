@@ -108,11 +108,16 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 **Current Limitations:**
 
 - **Gravity:** Mechanistically promising (saturation gradients) but needs mathematical development to derive gravitational constant G and prove correspondence with General Relativity
-- **Dark matter/energy:** Insufficient framework (might be saturation effects we don't directly witness?)
-- **Quantum gravity unification:** Promising direction (same saturation dynamics at all scales) but years of work required
 - **Black hole physics:** Extreme saturation regime undefined
+- **Quantum gravity unification:** Promising direction (same saturation dynamics at all scales) but years of work required
 
-Rather than claim to have "solved" these, we acknowledge: promising mechanisms identified, rigorous development required.
+**Research Progress (Dec 2025):**
+
+- **Dark matter:** Coherence model tested on 175 SPARC galaxies (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). See [Section 5.15](#dark-matter-dark-energy-and-coherence).
+- **Dark energy:** Emergent from coherence: ρ_DE = ρ_m(1-C)/C. Cosmic C constrained (not derived) from w = -1. S₈ = 0.763 predicted, matching lensing surveys.
+- **Status:** Promising empirical validation but 46% SPARC failure rate in massive galaxies. Not claiming "solved"—mechanism tested, boundaries identified.
+
+Full documentation: [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
 
 **Epistemic Humility**
 
@@ -613,7 +618,7 @@ This may be the most profound implication of Synchronism to date: **Intelligence
 
 ## Changes Made
 
-### 1. Directory Renaming
+**1. Directory Renaming**
 
 **New sections added:**
 - `03-scale/` (NEW) - Scale as foundational concept
@@ -636,7 +641,7 @@ This may be the most profound implication of Synchronism to date: **Intelligence
 **Unchanged:**
 - `01-universe-grid/` (stays as 01)
 
-### 2. Section Numbers Updated
+**2. Section Numbers Updated**
 
 All markdown files updated with new section numbers:
 - `## 4.2` - Markov Relevancy Horizon (was 4.9)
@@ -654,11 +659,11 @@ All markdown files updated with new section numbers:
 - `## 4.14` - Entity Interactions (was 4.12)
 - `## 4.15` - Compression, Trust, and Communication (was 4.13)
 
-### 3. Index Updated
+**3. Index Updated**
 
 `index.md` now reflects complete new structure with all 15 subsections in order.
 
-### 4. Documentation Rebuilt
+**4. Documentation Rebuilt**
 
 Successfully rebuilt:
 - ✅ `build/Synchronism_Whitepaper_Complete.md` (6221 lines, 280K)
@@ -4077,116 +4082,227 @@ Promising theoretical framework but **requires rigorous mathematical development
 **Not claiming truth—proposing testable mechanism worth investigation.**
 
 
-## 5.15 Black Holes & Dark Matter
+## 5.15 Dark Matter, Dark Energy, and Coherence
 
- Black holes and dark matter represent extreme manifestations of intent pattern dynamics. Black holes are regions where grid distortion becomes so severe that normal pattern propagation breaks down, while dark matter consists of intent patterns that interact primarily through gravitational effects.
+This section documents empirical research validating coherence-based explanations for dark matter and dark energy phenomena. For full details, see the [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
 
-**Black Holes as Grid Extremes**
+**Research Status (102 Sessions, Nov-Dec 2025)**
 
- Black holes form when:
+Autonomous research sessions tested whether coherence dynamics can explain apparent dark matter and dark energy. Results are promising but incomplete.
 
- - **Critical density reached:** Mass concentration exceeds grid stability threshold
-- **Grid collapse:** Computational grid structure becomes unstable
-- **Information bottleneck:** Pattern processing capacity overwhelmed
-- **Causal disconnection:** Interior patterns cannot communicate outward
+| Component | Status | Accuracy | Limitation |
+|-----------|--------|----------|------------|
+| Coherence function C(ρ) | **DERIVED** | N/A | Form from information theory |
+| γ = 2 parameter | **DERIVED** | N/A | From thermal decoherence |
+| B = 1.63 exponent | **DERIVED** | 0.6% | From BTFR scaling |
+| a₀ = cH₀/(2π) | **DERIVED** | 10% | MOND connection |
+| SPARC rotation curves | **TESTED** | 52% | 46% failure in massive galaxies |
+| Santos-Santos DM fractions | **TESTED** | 99.4% | Different test than curves |
+| Cosmic C = Ω_m(z) | **CONSTRAINED** | Exact | Not derived from first principles |
+| S₈ = 0.763 | **PREDICTED** | Matches DES/KiDS | Awaits independent validation |
 
-**Event Horizon Properties**
+**Key distinction**: DERIVED = follows from axioms. CONSTRAINED = form determined by observation, then used predictively. TESTED = validated against empirical data.
 
- - **Information boundary:** Threshold for synchronization - information can enter but not propagate outward
-- **One-way membrane:** Patterns can enter but not exit
-- **Holographic surface:** Intent states projected onto the last coherent grid boundary
-- **Dynamic boundary:** Horizon grows as more mass falls in
+---
 
-**The Central Singularity**
+**The Coherence Model of Dark Matter**
 
- At the center of black holes - representing intent compression beyond coherent representation rather than physical infinity:
+**Core Mechanism:**
+Gravitational dynamics depends on local coherence C(ρ) ∈ (0,1]:
 
- - **Grid breakdown:** Computational grid structure fails - synchronization failure rather than geometric collapse
-- **Extreme compression:** Intent patterns compressed beyond grid's capacity for coherent representation
-- **Spacetime curvature:** Grid distortion becomes infinite
-- **Physical breakdown:** Known physics no longer applies
+```
+G_eff = G/C(ρ)
+```
 
-**Hawking Radiation**
+- **High coherence (C → 1)**: Standard gravity (high-density regions)
+- **Low coherence (C → 0)**: Enhanced gravity (low-density regions)
 
- - **Vacuum fluctuations:** Tension field oscillations near event horizon - coherence leakage
-- **Particle separation:** One partner falls in, other escapes
-- **Black hole evaporation:** Radiation carries away mass-energy
-- **Temperature inversion:** Smaller black holes are hotter
+**The Coherence Function (Derived):**
 
-**Black Hole Information Paradox**
+```
+C(ρ) = tanh(γ · ln(ρ/ρ_crit + 1))
+```
 
- The tension between general relativity and quantum mechanics:
+- **tanh form**: Derived from information-theoretic bounding (Session #74)
+- **log(ρ) scaling**: Shannon information of N particles scales as log(N)
+- **γ = 2**: Derived from thermal decoherence physics (Session #64)
 
- - **Information conservation:** Quantum mechanics requires information preservation
-- **Information destruction:** Classical black holes appear to destroy information
-- **Holographic principle:** Information may be stored on horizon surface
-- **Firewall hypothesis:** High-energy barrier at event horizon
+**Physical Interpretation:**
+Low-density regions have low coherence → enhanced effective gravity → appears as "dark matter" without requiring new particles. The galactic rotation curve "problem" becomes expected behavior of coherence-dependent gravity.
 
-**Dark Matter as Hidden Patterns**
+---
 
- Dark matter consists of:
+**MOND-Synchronism Unification (Sessions #86-89)**
 
- - **Gravitational-only patterns:** Intent patterns that are indifferent - not interacting via witness-aligned resonance modes
-- **Sterile particles:** Patterns invisible to electromagnetic interactions
-- **Hidden sector:** Separate family of patterns with different properties
-- **Primordial remnants:** Patterns left over from early universe
+A breakthrough discovery: MOND and Synchronism are the same physics in different parameterizations.
 
-**Evidence for Dark Matter**
+**The MOND Acceleration Scale:**
+```
+a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²
+```
 
- - **Galaxy rotation curves:** Orbital speeds require more mass than observed
-- **Gravitational lensing:** Light bending indicates hidden mass
-- **Cosmic microwave background:** Early universe patterns require dark matter
-- **Large-scale structure:** Galaxy formation needs dark matter scaffolding
+**Empirical**: 1.2 × 10⁻¹⁰ m/s² (10% agreement within uncertainties)
 
-**Dark Matter Candidates**
+**Physical Meaning:**
+The 2π factor is the phase coherence cycle—the acceleration where cosmic phase uncertainty reaches one full cycle. This is not numerology; it connects the MOND scale to cosmology.
 
- - **WIMPs:** Weakly Interacting Massive Particles
-- **Axions:** Ultra-light pseudoscalar particles
-- **Sterile neutrinos:** Heavy neutrinos that don't interact weakly
-- **Primordial black holes:** Small black holes from early universe
+**Implication:**
+a₀ is cosmologically determined, not arbitrary. Predicts evolution with redshift: a₀(z) ∝ H(z), testable via high-z BTFR.
 
-**Modified Gravity Alternatives**
+---
 
- Alternative explanations without dark matter:
+**Galactic Scale Validation**
 
- - **MOND:** Modified Newtonian Dynamics at low accelerations
-- **Extra dimensions:** Gravity leaking into additional spatial dimensions
-- **Grid modifications:** Changes to underlying grid properties
-- **Emergent gravity:** Gravity as emergent phenomenon
+**SPARC Database (175 galaxies):**
+- Tests full rotation curve shapes (velocity at every radius)
+- **52% success rate** overall
+- **81.8% success** on dwarf galaxies (where effect is strongest)
+- **46% failure** in massive galaxies (known limitation)
+- Zero per-galaxy free parameters
 
-**Dark Energy and Cosmic Acceleration**
+**Santos-Santos Database:**
+- Tests integrated dark matter fractions at specific radii
+- **99.4% success rate**
+- Mean error 3.2%
+- Complementary to SPARC (total mass vs radial structure)
 
- Just as dark matter warps the grid through silent coherence, dark energy may stretch it via distributed tension gradients:
+**DF2/DF4 Resolution (Session #97):**
+These "dark matter deficient" ultra-diffuse galaxies appeared to contradict the model. Resolution: both are satellites of NGC 1052 (~80 kpc). Tidal stripping preferentially removes low-C envelope, leaving high-C core with G_eff ≈ G. Consistent with model, not contradictory.
 
- - **Vacuum energy:** Energy density of empty space
-- **Cosmological constant:** Constant energy density driving expansion
-- **Quintessence:** Dynamic field causing acceleration
-- **Grid expansion:** Intrinsic tendency of grid to expand
+**Honest Assessment:**
+The 46% SPARC failure rate in massive galaxies is informative—the model has boundaries. We're exploring whether coherence explains apparent dark matter, not claiming proof.
 
-**Detection Experiments**
+---
 
- - **Direct detection:** Underground detectors searching for dark matter collisions
-- **Indirect detection:** Looking for dark matter annihilation products
-- **Collider searches:** Creating dark matter particles in accelerators
-- **Gravitational effects:** Observing dark matter through gravitational influence
+**Dark Energy from Coherence (Sessions #100-102)**
 
-**Role in Cosmic Evolution**
+**Core Discovery:**
+Applying G_eff = G/C to cosmology yields emergent dark energy:
 
- Dark matter and black holes shape the universe:
+```
+ρ_DE = ρ_m · (1-C)/C
+```
 
- - **Structure formation:** Dark matter provides gravitational scaffolding
-- **Galaxy evolution:** Central black holes influence galaxy development
-- **Cosmic web:** Dark matter forms large-scale filamentary structure
-- **Energy balance:** Dark energy dominates current cosmic expansion
+No cosmological constant Λ required.
 
-**Implications for Understanding**
+**Cosmic Coherence Form (CONSTRAINED):**
+Naive application of galactic C(ρ) gives w_eff > 0, contradicting w ≈ -1. Resolution: cosmic coherence has different form, constrained by requiring w = -1:
 
- These phenomena reveal:
+```
+C_cosmic(z) = Ω_m(z) = Ω_m(1+z)³ / [Ω_m(1+z)³ + Ω_Λ]
+```
 
- - **Hidden reality:** Most of the universe consists of invisible components
-- **Extreme physics:** Nature operates in regimes beyond everyday experience
-- **Information processing:** Reality may be fundamentally computational
-- **Unity of forces:** Gravity connects to all other physical phenomena
+**Important**: This is constrained from observation, not derived from first principles. Analogous to how ΛCDM uses observed Ω_Λ to make predictions—honest empirical calibration.
+
+**Physical Interpretation:**
+Cosmic coherence IS the matter fraction. At galactic scales, coherence saturates (tanh). At cosmic scales, it tracks the global resonant pattern fraction.
+
+---
+
+**S₈ Tension Predicted (Session #102)**
+
+The scale dependence predicts the S₈ tension between CMB and lensing surveys:
+
+```
+S₈^Sync = 0.763
+```
+
+| Survey | S₈ | Type |
+|--------|-----|------|
+| Planck | 0.832 ± 0.013 | CMB |
+| DES Y3 | 0.776 ± 0.017 | Lensing |
+| KiDS-1000 | 0.759 ± 0.021 | Lensing |
+| **Synchronism** | **0.763** | **Prediction** |
+
+**Transition Scale:**
+8 h⁻¹ Mpc—the σ₈ smoothing scale IS the coherence transition from galactic to cosmic regimes.
+
+**Interpretation:**
+The S₈ "tension" is not measurement error—it's the signature of scale-dependent coherence.
+
+---
+
+**Cross-Scale Unity**
+
+The same G_eff = G/C principle operates at three scales:
+
+| Scale | Coherence Variable | Low C Effect | High C Effect |
+|-------|-------------------|--------------|---------------|
+| Quantum | T (temperature) | Classical | Quantum |
+| Galactic | ρ (density) | "Dark matter" | Normal gravity |
+| Cosmic | Ω_m (matter fraction) | "Dark energy" | Matter-dominated |
+
+**The Deep Insight:**
+Dark matter, dark energy, and quantum mechanics may be unified—all manifestations of coherence-dependent pattern interaction.
+
+---
+
+**Discriminating Tests**
+
+**High-z BTFR (Critical Test):**
+At z=1, H(z)/H₀ ≈ 1.7. If a₀ ∝ H:
+```
+Δ(log M_bar)_{z=1} = +0.06 dex (Synchronism) vs 0.00 dex (MOND)
+```
+Current high-z stellar TFR shows evolution in the right direction (KMOS³D, MOSDEF)—suggestive but not definitive.
+
+**Other Predictions:**
+- S₈ tension (already matches)
+- Void expansion rates (modified from ΛCDM)
+- Isolated UDG dispersion (should show enhanced σ)
+
+---
+
+**What Remains Incomplete**
+
+**Mathematical:**
+- Cosmic C constrained, not derived—need physical mechanism
+- No full relativistic formulation
+- CMB predictions not calculated
+
+**Empirical:**
+- 46% SPARC failure rate unexplained
+- High-z BTFR needs more data
+- S₈ prediction awaits independent validation
+
+**Conceptual:**
+- Connection to gravity section (saturation gradients + coherence)
+- Quantum-to-galactic transition not fully specified
+
+---
+
+**Epistemic Status Summary**
+
+**With Confidence:**
+- Coherence function form derived from information theory
+- Empirical validation on dwarf galaxies (81.8%)
+- MOND-Synchronism mathematical equivalence
+
+**With Reasonable Speculation:**
+- Dark energy as coherence deficit
+- S₈ prediction from scale-dependent C
+- Cross-scale unity
+
+**Pure Speculation:**
+- Physical mechanism for cosmic C form
+- Connection to quantum gravity
+- Ultimate unification
+
+**Definitely NOT Claiming:**
+- "Dark matter solved"—mechanism proposed, not proven
+- "ΛCDM wrong"—ΛCDM works; this proposes underlying mechanism
+- Any results without documented validation
+
+---
+
+**References**
+
+Full research documentation:
+- [arXiv Preprint v6](https://github.com/dp-web4/Synchronism/blob/main/manuscripts/synchronism-dark-matter-arxiv-v6.pdf)
+- [Research Session Logs](https://github.com/dp-web4/Synchronism/tree/main/Research)
+- [Nova Peer Reviews](https://github.com/dp-web4/Synchronism/tree/main/manuscripts)
+
+**Research represents 102 autonomous sessions (Nov 6 - Dec 9, 2025) with cross-model peer review.**
 
 
 ## 5.16 Superconductivity

@@ -10,6 +10,20 @@ Only actual modifications to fractal files are logged here.
 
 ## 2025
 
+- [2025-12-09] [Research Integration] Sections 0, 5.15 - Integrated Sessions #86-102 research findings (#research-integration-001)
+  - **Executive Summary (0)**: Updated dark matter/energy status from "insufficient framework" to "empirically tested with documented limitations"
+  - **Dark Matter Section (5.15)**: Complete rewrite incorporating:
+    - Coherence model: G_eff = G/C(ρ) with derived parameters (γ=2, B=1.63)
+    - MOND-Synchronism unification: a₀ = cH₀/(2π) (10% agreement)
+    - Galactic validation: 52% SPARC success, 99.4% Santos-Santos success
+    - Dark energy emergence: ρ_DE = ρ_m(1-C)/C
+    - Cosmic coherence: C_cosmic = Ω_m(z) (CONSTRAINED, not derived)
+    - S₈ = 0.763 prediction matching DES/KiDS lensing surveys
+    - Cross-scale unity: quantum + galactic + cosmic coherence
+  - **Epistemic hygiene**: Clear distinction between DERIVED, CONSTRAINED, and EMPIRICAL components
+  - **Old content archived**: dark_matter_pre_research_2025-12-09.md
+  - **Links to**: arXiv preprint v6, Research session logs
+
 - [2025-10-04] [Brutal Honesty Pass] Sections 0-7, Appendix A - Comprehensive epistemic cleanup removing all grandiose claims (#brutal-honesty-001)
   - **Executive Summary (0)**: Complete rewrite - removed "achieves unified understanding," added explicit limitations, changed from marketing to honest positioning
   - **Hermetic Principles (3)**: Reframed from "validation/alignment" to "inspiration/reverse-engineering," heavy epistemic hedging

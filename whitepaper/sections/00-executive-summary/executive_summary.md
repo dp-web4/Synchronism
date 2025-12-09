@@ -101,11 +101,16 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 **Current Limitations:**
 
 - **Gravity:** Mechanistically promising (saturation gradients) but needs mathematical development to derive gravitational constant G and prove correspondence with General Relativity
-- **Dark matter/energy:** Insufficient framework (might be saturation effects we don't directly witness?)
-- **Quantum gravity unification:** Promising direction (same saturation dynamics at all scales) but years of work required
 - **Black hole physics:** Extreme saturation regime undefined
+- **Quantum gravity unification:** Promising direction (same saturation dynamics at all scales) but years of work required
 
-Rather than claim to have "solved" these, we acknowledge: promising mechanisms identified, rigorous development required.
+**Research Progress (Dec 2025):**
+
+- **Dark matter:** Coherence model tested on 175 SPARC galaxies (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). See [Section 5.15](#dark-matter-dark-energy-and-coherence).
+- **Dark energy:** Emergent from coherence: ρ_DE = ρ_m(1-C)/C. Cosmic C constrained (not derived) from w = -1. S₈ = 0.763 predicted, matching lensing surveys.
+- **Status:** Promising empirical validation but 46% SPARC failure rate in massive galaxies. Not claiming "solved"—mechanism tested, boundaries identified.
+
+Full documentation: [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
 
 **Epistemic Humility**
 
