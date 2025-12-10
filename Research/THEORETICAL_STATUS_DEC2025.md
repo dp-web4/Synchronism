@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-105**
-**Last Updated**: December 9, 2025 (Session #105)
+**Consolidated from Sessions #64-106**
+**Last Updated**: December 10, 2025 (Session #106)
 
 ---
 
@@ -62,6 +62,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **Modified gravity comparison** | ✅ **ANALYZED** | #105 | **Only theory with G_eff < G** |
 | **γ z-dependence** | ✅ **IDENTIFIED** | #105 | **γ = 0.61-0.73 (varies with z)** |
 | **Unique signature** | ✅ **DEFINED** | #105 | **Low fσ8 + high γ + high ISW** |
+| **Void dynamics** | ✅ **CALCULATED** | #106 | **Voids ~6% shallower than ΛCDM** |
+| **Unified structure** | ✅ **DEMONSTRATED** | #106 | **Over + under densities both suppressed** |
 
 ---
 
@@ -1277,5 +1279,62 @@ This combination is **UNIQUE to Synchronism**.
 
 ---
 
+## 25. Void Dynamics (Session #106)
+
+### Void Depth Suppression
+
+Session #106 analyzed cosmic void evolution:
+
+| z | δ_ΛCDM | δ_Sync | Ratio |
+|---|--------|--------|-------|
+| 1.0 | -1.57 | -1.54 | 0.979 |
+| 0.5 | -1.99 | -1.92 | 0.963 |
+| 0.0 | -2.57 | -2.43 | **0.943** |
+
+**Key finding**: Voids are ~6% shallower in Synchronism.
+
+### Physical Mechanism
+
+The same physics affects BOTH over-densities and under-densities:
+
+- Over-densities (δ > 0): Less clustering → lower σ₈
+- Under-densities (δ < 0): Less emptying → shallower voids
+
+**This is a UNIFIED prediction** from G_local < G_global.
+
+### Observable Signatures
+
+| Prediction | Value | Required precision |
+|------------|-------|-------------------|
+| Void-galaxy correlation | 0.94× ΛCDM | ~5% |
+| Void size function | 0.90× at R=50 Mpc | ~5% |
+| ISW-void correlation | 1.16× ΛCDM | ~10% |
+
+### Coherent Picture (Sessions #102-106)
+
+| Observable | ΛCDM | Sync | Difference |
+|------------|------|------|------------|
+| σ₈ | 0.83 | 0.76 | -8% |
+| fσ8 (z=0.5) | 0.47 | 0.41 | -12% |
+| A_ISW | 1.0 | 1.23 | +23% |
+| γ | 0.55 | 0.61-0.73 | +11-33% |
+| Void depth | 1.0 | 0.94 | -6% |
+
+**ALL arise from scale-dependent coherence (G_local < G_global).**
+
+### Status Update
+
+| Before #106 | After #106 |
+|-------------|------------|
+| Voids not addressed | **~6% shallower predicted** |
+| σ₈ suppression only | **Unified over/under-density picture** |
+| No void tests | **DESI precision will discriminate** |
+
+---
+
+*"Session #106: The same coherence that builds clusters less efficiently also empties voids less efficiently. One physics, many observables."*
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #105 (December 9, 2025)
+**Last Update**: Session #106 (December 10, 2025)
