@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-103**
-**Last Updated**: December 9, 2025 (Session #103)
+**Consolidated from Sessions #64-104**
+**Last Updated**: December 9, 2025 (Session #104)
 
 ---
 
@@ -57,6 +57,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **Growth rate f(z)** | ✅ **CALCULATED** | #103 | **f suppressed ~8% at z=0.5** |
 | **Effective γ** | ✅ **DERIVED** | #103 | **γ = 0.73 (vs 0.55 GR)** |
 | **fσ8 prediction** | ✅ **COMPARED** | #103 | **0.41 at z=0.5, matches WiggleZ** |
+| **ISW effect** | ✅ **CALCULATED** | #104 | **A_ISW = 1.23 (23% enhanced)** |
+| **ISW consistency** | ✅ **VERIFIED** | #104 | **Growth suppression → ISW enhancement** |
 
 ---
 
@@ -1150,5 +1152,69 @@ DESI (~2% precision) will definitively test this.
 
 ---
 
+## 23. ISW Effect Analysis (Session #104)
+
+### The Counter-Intuitive Result
+
+Session #104 analyzed the Integrated Sachs-Wolfe effect. The key finding:
+
+**Synchronism predicts ~23% ENHANCED ISW relative to ΛCDM.**
+
+This is counter-intuitive but physical:
+- Growth is SUPPRESSED by 5.8%
+- This means potentials don't grow as much
+- Relative to high-z, potentials "decay faster"
+- Faster decay → MORE ISW signal
+
+### Numerical Results
+
+| z | D - D' (ΛCDM) | D - D' (Sync) | Ratio |
+|---|---------------|---------------|-------|
+| 0.3 | 0.281 | 0.334 | 1.19 |
+| 0.5 | 0.193 | 0.246 | 1.27 |
+| 1.0 | 0.080 | 0.115 | 1.44 |
+
+Integrated ISW amplitude ratio: **A_ISW = 1.23**
+
+### Observational Status
+
+Current ISW measurements: A_ISW = 1.0 ± 0.4 (40% precision)
+
+Synchronism prediction (1.23) is **CONSISTENT** within errors.
+
+### Future Tests
+
+| Survey | Precision | Detection |
+|--------|-----------|-----------|
+| Euclid + Planck | ~15% | 1.5σ |
+| LSST + CMB-S4 | ~10% | 2.3σ |
+| Combined | ~8% | 3σ |
+
+### Coherent Picture
+
+Sessions #102-104 form a consistent prediction set:
+
+| Observable | ΛCDM | Sync | Difference |
+|------------|------|------|------------|
+| S₈ | 0.832 | 0.763 | -8% |
+| fσ8 (z=0.5) | 0.47 | 0.41 | -12% |
+| A_ISW | 1.00 | 1.23 | +23% |
+
+ALL arise from G_local < G_global during peak structure formation (z ~ 0.5-1.5).
+
+### Status Update
+
+| Before #104 | After #104 |
+|-------------|------------|
+| ISW not addressed | **A_ISW = 1.23 calculated** |
+| No consistency check | **Growth → ISW chain verified** |
+| Future tests unclear | **Euclid/LSST will test at 2-3σ** |
+
+---
+
+*"Session #104: The ISW enhancement is counter-intuitive but physical. Less growth means faster potential decay. Combined with S₈ and fσ8, this forms a coherent observational signature."*
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #103 (December 9, 2025)
+**Last Update**: Session #104 (December 9, 2025)
