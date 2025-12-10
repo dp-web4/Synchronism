@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-107**
-**Last Updated**: December 10, 2025 (Session #107)
+**Consolidated from Sessions #64-108**
+**Last Updated**: December 10, 2025 (Session #108)
 
 ---
 
@@ -66,6 +66,9 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **Unified structure** | ✅ **DEMONSTRATED** | #106 | **Over + under densities both suppressed** |
 | **DESI predictions** | ✅ **QUANTIFIED** | #107 | **fσ8 bin-by-bin, BAO unchanged** |
 | **Falsification criteria** | ✅ **DEFINED** | #107 | **fσ8(z=0.5) > 0.45 rules out at 5σ** |
+| **CMB primary unchanged** | ✅ **VERIFIED** | #108 | **G_ratio = 1.0 at z = 1089** |
+| **CMB lensing unchanged** | ✅ **CALCULATED** | #108 | **A_lens ~ 1.0 (z > 1 dominated)** |
+| **ISW-CMB consistency** | ✅ **CONFIRMED** | #108 | **A_ISW = 1.23, adds power at l < 20** |
 
 ---
 
@@ -1388,5 +1391,70 @@ This combination is **UNIQUE to Synchronism**.
 
 ---
 
+## 27. CMB Power Spectrum Analysis (Session #108)
+
+### Primary CMB Unchanged
+
+At recombination (z = 1089):
+- C_galactic = 1.0000
+- C_cosmic = 1.0000
+- **G_ratio = 1.0000** (zero deviation from GR)
+
+Therefore:
+- Sound horizon: UNCHANGED (147 Mpc)
+- Peak positions: UNCHANGED (l_peak ~ 220)
+- Primary anisotropies: UNCHANGED
+
+### CMB Lensing Nearly Unchanged
+
+| z | C_gal | C_cos | G_ratio |
+|---|-------|-------|---------|
+| 0.5 | 0.73 | 0.61 | 0.83 |
+| 1.0 | 0.94 | 0.79 | 0.83 |
+| 2.0 | 1.00 | 0.93 | 0.93 |
+
+CMB lensing is dominated by z ~ 2, where G_ratio ~ 0.93-1.0.
+Result: **A_lens ~ 1.0** (nearly unchanged from ΛCDM).
+
+### ISW Effect Confirmed
+
+Consistent with Session #104:
+- **A_ISW = 1.23** (23% enhanced)
+- Adds power at large scales (l < 20)
+- Currently consistent with ISW-galaxy cross-correlations
+
+### Planck Anomalies Not Explained
+
+| Anomaly | Synchronism | Status |
+|---------|-------------|--------|
+| Low quadrupole | ISW adds power | NOT EXPLAINED |
+| Hemispherical asymmetry | Isotropic | NOT EXPLAINED |
+| Cold spot | Void ISW | PARTIALLY RELEVANT |
+
+### Redshift-Dependent Effects
+
+| Observable | z_peak | Sync/ΛCDM |
+|------------|--------|-----------|
+| Primary CMB | 1089 | 1.00 |
+| CMB lensing | ~2 | ~1.00 |
+| ISW | 0.5-1 | **1.23** |
+| RSD/fσ8 | 0.5-1 | **0.88** |
+
+**Key insight**: Synchronism is a theory of **late-time modified growth** (z < 2), not early-universe new physics.
+
+### Status Update
+
+| Before #108 | After #108 |
+|-------------|------------|
+| CMB status unknown | **Primary unchanged, ISW enhanced** |
+| Lensing expected suppressed | **Lensing unchanged (z > 1)** |
+| No z-dependence analysis | **Coherent z-dependent picture** |
+
+---
+
+*"Session #108: The CMB remembers z = 1089 when Synchronism effects were zero. The ISW remembers z ~ 0.5-1 when growth was suppressed. Different probes, different redshifts, consistent physics."*
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #107 (December 10, 2025)
+**Last Update**: Session #108 (December 10, 2025)
