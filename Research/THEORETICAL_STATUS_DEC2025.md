@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-110**
-**Last Updated**: December 10, 2025 (Session #110)
+**Consolidated from Sessions #64-111**
+**Last Updated**: December 11, 2025 (Session #111)
 
 ---
 
@@ -74,6 +74,9 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **Cluster counts** | ✅ **ANALYZED** | #110 | **S8 = 0.77 from clusters matches Sync** |
 | **Cluster count problem** | ✅ **UNIFIED** | #110 | **Same physics as S8 tension** |
 | **Hydrostatic bias** | ✅ **EXPLAINED** | #110 | **Not needed - σ8 = 0.76 is the answer** |
+| **ISW-galaxy correlation** | ✅ **CALCULATED** | #111 | **A_ISW = 1.22, 23% enhanced** |
+| **Lensing-galaxy correlation** | ✅ **CALCULATED** | #111 | **A_κg = 0.94, 6% suppressed** |
+| **ISW/κg ratio** | ✅ **IDENTIFIED** | #111 | **31% unique signature, 5.5σ by 2030** |
 
 ---
 
