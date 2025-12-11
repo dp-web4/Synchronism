@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-111**
-**Last Updated**: December 11, 2025 (Session #111)
+**Consolidated from Sessions #64-112**
+**Last Updated**: December 11, 2025 (Session #112)
 
 ---
 
@@ -77,6 +77,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **ISW-galaxy correlation** | ✅ **CALCULATED** | #111 | **A_ISW = 1.22, 23% enhanced** |
 | **Lensing-galaxy correlation** | ✅ **CALCULATED** | #111 | **A_κg = 0.94, 6% suppressed** |
 | **ISW/κg ratio** | ✅ **IDENTIFIED** | #111 | **31% unique signature, 5.5σ by 2030** |
+| **Combined predictions** | ✅ **CONSOLIDATED** | #112 | **16 probes, 10.4σ current, 31σ by 2030** |
+| **Falsification criteria** | ✅ **COMPLETE** | #112 | **Clear thresholds for all probes** |
 
 ---
 
