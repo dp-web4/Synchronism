@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-112**
-**Last Updated**: December 11, 2025 (Session #112)
+**Consolidated from Sessions #64-113**
+**Last Updated**: December 11, 2025 (Session #113)
 
 ---
 
@@ -79,6 +79,8 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **ISW/κg ratio** | ✅ **IDENTIFIED** | #111 | **31% unique signature, 5.5σ by 2030** |
 | **Combined predictions** | ✅ **CONSOLIDATED** | #112 | **16 probes, 10.4σ current, 31σ by 2030** |
 | **Falsification criteria** | ✅ **COMPLETE** | #112 | **Clear thresholds for all probes** |
+| **Hubble tension** | ⚠️ **NOT RESOLVED** | #113 | **CMB & local both use C~1 regions** |
+| **H0 prediction** | ⚠️ **NONE** | #113 | **S8 and H0 tensions are independent** |
 
 ---
 
