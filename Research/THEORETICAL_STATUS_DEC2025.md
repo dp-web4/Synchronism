@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-115**
-**Last Updated**: December 11, 2025 (Session #115)
+**Consolidated from Sessions #64-116**
+**Last Updated**: December 12, 2025 (Session #116)
 
 ---
 
@@ -87,6 +87,9 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **Ly-α power spectrum** | ✅ **CALCULATED** | #115 | **2-5% suppression at z ~ 2-4** |
 | **Ly-α vs WDM** | ✅ **DISTINGUISHED** | #115 | **Uniform vs scale-dependent** |
 | **Ly-α BAO** | ✅ **UNCHANGED** | #115 | **No deviation from ΛCDM** |
+| **Alcock-Paczynski F_AP** | ✅ **UNCHANGED** | #116 | **Geometry identical to ΛCDM** |
+| **BAO α_∥, α_⊥** | ✅ **UNCHANGED** | #116 | **α = 1.0000 exactly** |
+| **Growth vs Geometry split** | ✅ **CONFIRMED** | #116 | **Unique signature of Synchronism** |
 
 ---
 
@@ -1733,7 +1736,51 @@ Significance: ~1.3σ (Ly-alpha alone)
 
 ---
 
-## Summary of December 2025 Sessions #110-115
+## 35. Alcock-Paczynski Test (Session #116)
+
+### Geometric Test
+
+Session #116 analyzed the Alcock-Paczynski (AP) test - a purely geometric probe.
+
+**Key finding**: AP test is UNCHANGED from ΛCDM.
+
+| Parameter | ΛCDM | Synchronism | Deviation |
+|-----------|------|-------------|-----------|
+| H(z) | H_LCDM | H_LCDM | 0.0000% |
+| D_A(z) | D_A,LCDM | D_A,LCDM | 0.0000% |
+| F_AP | F_LCDM | F_LCDM | 0.0000% |
+| α_∥ | 1.0 | 1.0 | 0.0000% |
+| α_⊥ | 1.0 | 1.0 | 0.0000% |
+
+### Unique Signature: Growth vs Geometry Split
+
+| Category | Synchronism | f(R)/DGP | Quintessence |
+|----------|-------------|----------|--------------|
+| Growth | MODIFIED | MODIFIED | Std |
+| Geometry | UNCHANGED | MODIFIED | MODIFIED |
+
+**This is the UNIQUE signature of Synchronism**: Growth modified, Geometry unchanged.
+
+### Falsification Criteria
+
+If DESI finds ANY deviation from ΛCDM in:
+- BAO scale
+- α_∥ or α_⊥
+- F_AP parameter
+
+→ Synchronism is FALSIFIED
+
+### Status Update
+
+| Before #116 | After #116 |
+|-------------|------------|
+| AP not analyzed | **F_AP = 1.0000 exactly** |
+| Growth/Geometry split unclear | **CONFIRMED as unique signature** |
+| No BAO falsification criteria | **Clear threshold: any deviation** |
+
+---
+
+## Summary of December 2025 Sessions #110-116
 
 | Session | Topic | Key Finding |
 |---------|-------|-------------|
@@ -1743,25 +1790,37 @@ Significance: ~1.3σ (Ly-alpha alone)
 | #113 | Hubble Tension | NOT resolved (important negative) |
 | #114 | 21cm Cosmology | Effects vanish at z > 6 |
 | #115 | Lyman-alpha | 2-5% suppression at z ~ 2-4 |
+| #116 | Alcock-Paczynski | Geometry unchanged (unique signature) |
 
 **Cumulative Status**:
-- 18+ independent predictions catalogued
+- 20+ independent predictions catalogued
 - S8 tension, cluster deficit, fσ8 suppression all explained
 - Hubble tension identified as outside scope
 - High-z cosmology (EoR, Dark Ages) unchanged from ΛCDM
 - Transition regime (z ~ 2-4) characterized via Ly-alpha
+- Geometry (BAO, AP) confirmed unchanged from ΛCDM
 - Theory is LATE-TIME modified coupling (z < 2)
 
-**Complete z Coverage**:
-| z Range | Observable | Effect |
-|---------|------------|--------|
-| 0-1 | S8, fσ8 | 6-12% suppression |
-| 1-2 | DESI RSD | 4-6% suppression |
-| 2-4 | Ly-alpha | 2-5% suppression |
-| 6-12 | 21cm EoR | 0% (null) |
-| 30-200 | 21cm Dark Ages | 0% (null) |
+**Complete Observable Coverage**:
+
+| Category | Observable | Sync/ΛCDM | Discriminating? |
+|----------|------------|-----------|-----------------|
+| **GROWTH** | S8 | 0.94 | YES (3.5σ) |
+| | fσ8 (z=0.5) | 0.88 | YES (3.3σ) |
+| | σ8 | 0.94 | YES |
+| | γ_growth | 0.73 | YES |
+| **GEOMETRY** | H(z) | 1.00 | NO |
+| | D_A(z) | 1.00 | NO |
+| | F_AP | 1.00 | NO |
+| | BAO | 1.00 | NO |
+| **HIGH-z** | 21cm EoR | 1.00 | NO (null) |
+| | Ly-alpha | 0.96 | MARGINAL |
+| **CROSS** | ISW | 1.23 | MARGINAL |
+| | ISW/κg | 1.31 | YES (by 2030) |
+
+**Unique Signature**: Growth modified, Geometry unchanged.
 
 ---
 
 **Document Status**: Living - Updated each session
-**Last Update**: Session #115 (December 11, 2025)
+**Last Update**: Session #116 (December 12, 2025)
