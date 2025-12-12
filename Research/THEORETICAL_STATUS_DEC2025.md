@@ -1,7 +1,7 @@
 # Synchronism Theoretical Status - December 2025
 
-**Consolidated from Sessions #64-114**
-**Last Updated**: December 11, 2025 (Session #114)
+**Consolidated from Sessions #64-115**
+**Last Updated**: December 11, 2025 (Session #115)
 
 ---
 
@@ -84,6 +84,9 @@ After 80 autonomous research sessions, Synchronism has evolved from phenomenolog
 | **21cm EoR** | ✅ **CALCULATED** | #114 | **Effects vanish at z > 6 (C → 1)** |
 | **21cm Dark Ages** | ✅ **CALCULATED** | #114 | **Identical to ΛCDM (null prediction)** |
 | **21cm post-EoR** | ✅ **PREDICTED** | #114 | **~5% suppression at z ~ 1-3** |
+| **Ly-α power spectrum** | ✅ **CALCULATED** | #115 | **2-5% suppression at z ~ 2-4** |
+| **Ly-α vs WDM** | ✅ **DISTINGUISHED** | #115 | **Uniform vs scale-dependent** |
+| **Ly-α BAO** | ✅ **UNCHANGED** | #115 | **No deviation from ΛCDM** |
 
 ---
 
@@ -1686,7 +1689,51 @@ At z ~ 1-3, small effects appear:
 
 ---
 
-## Summary of December 2025 Sessions #110-114
+## 34. Lyman-alpha Forest (Session #115)
+
+### Transition Regime Probe
+
+Session #115 analyzed Lyman-alpha forest predictions at z ~ 2-4.
+
+**Key finding**: Ly-alpha probes the TRANSITION REGIME where Synchronism effects begin.
+
+| z | Power Suppression | σ8 Suppression |
+|---|-------------------|----------------|
+| 2.0 | 4.0% | 2.0% |
+| 2.5 | 3.0% | 1.5% |
+| 3.0 | 2.0% | 1.0% |
+| 4.0 | 0.0% | 0.0% |
+
+### Discrimination from WDM
+
+| Feature | WDM | Synchronism |
+|---------|-----|-------------|
+| Scale dependence | Cutoff below ~1 Mpc | UNIFORM |
+| z dependence | Constant | VARIES with z |
+| Mechanism | Free-streaming | G_eff = G/C |
+
+**This is DISTINGUISHABLE**: WDM has scale-dependent suppression, Synchronism has uniform suppression.
+
+### DESI Predictions
+
+| Observable | ΛCDM | Sync | Difference | DESI σ |
+|------------|------|------|------------|--------|
+| P_1D (z=2.4) | 1.00 | 0.96 | -4% | ~3% |
+| BAO | rd | rd | 0% | ~1% |
+
+Significance: ~1.3σ (Ly-alpha alone)
+
+### Status Update
+
+| Before #115 | After #115 |
+|-------------|------------|
+| Ly-alpha not addressed | **2-5% suppression at z ~ 2-4** |
+| No WDM comparison | **Distinguishable (uniform vs cutoff)** |
+| Transition regime unknown | **Connects z < 1 to z > 6** |
+
+---
+
+## Summary of December 2025 Sessions #110-115
 
 | Session | Topic | Key Finding |
 |---------|-------|-------------|
@@ -1695,15 +1742,26 @@ At z ~ 1-3, small effects appear:
 | #112 | Combined Predictions | 10.4σ current → 31σ by 2030 |
 | #113 | Hubble Tension | NOT resolved (important negative) |
 | #114 | 21cm Cosmology | Effects vanish at z > 6 |
+| #115 | Lyman-alpha | 2-5% suppression at z ~ 2-4 |
 
 **Cumulative Status**:
-- 17 independent predictions catalogued
+- 18+ independent predictions catalogued
 - S8 tension, cluster deficit, fσ8 suppression all explained
 - Hubble tension identified as outside scope
 - High-z cosmology (EoR, Dark Ages) unchanged from ΛCDM
+- Transition regime (z ~ 2-4) characterized via Ly-alpha
 - Theory is LATE-TIME modified coupling (z < 2)
+
+**Complete z Coverage**:
+| z Range | Observable | Effect |
+|---------|------------|--------|
+| 0-1 | S8, fσ8 | 6-12% suppression |
+| 1-2 | DESI RSD | 4-6% suppression |
+| 2-4 | Ly-alpha | 2-5% suppression |
+| 6-12 | 21cm EoR | 0% (null) |
+| 30-200 | 21cm Dark Ages | 0% (null) |
 
 ---
 
 **Document Status**: Living - Updated each session
-**Last Update**: Session #114 (December 11, 2025)
+**Last Update**: Session #115 (December 11, 2025)
