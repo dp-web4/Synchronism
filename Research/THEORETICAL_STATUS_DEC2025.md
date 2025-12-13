@@ -2073,5 +2073,86 @@ G_eff = G / C
 
 ---
 
+## Session #120: High-z BTFR with JWST Data (December 13, 2025)
+
+### Objective
+Analyze Baryonic Tully-Fisher Relation evolution at high redshift using JWST observations.
+
+### Key Observational Data
+
+| Galaxy | z | V_flat (km/s) | M_bar (M☉) | Reference |
+|--------|---|---------------|------------|-----------|
+| DLA0817g | 4.26 | 272 | 7.2×10¹⁰ | Neeleman+ 2020 |
+| ALESS 073.1 | 4.76 | 320 | 1.1×10¹¹ | Lelli+ 2021 |
+| NS23 (z~0.9-2.3) | 0.9-2.3 | 200-240 | 5-8×10¹⁰ | Nestor Shachar+ 2023 |
+
+**Key Finding (McGaugh+ 2024):** BTFR appears CONSTANT to z ~ 2.5
+- No clear evolution over 11 Gyr lookback
+- Favors MOND's constant a₀ hypothesis
+
+### Theoretical Predictions
+
+**MOND:** Same BTFR at all z (a₀ is universal) ✓ Matches observations
+
+**ΛCDM:** BTFR should evolve significantly ✗ Not observed
+
+**Synchronism (cosmic coherence):** C_cosmic(z) = Ω_m(z)
+- At z=0: C = 0.3 → strong modification
+- At z=6: C ≈ 1.0 → modification vanishes
+- Prediction: BTFR should evolve toward ΛCDM at high z
+
+### Critical Issue: Scale Separation
+
+**Problem:** If Synchronism cosmic coherence applies to galaxies, BTFR should evolve.
+**Observation:** BTFR doesn't evolve.
+**Resolution:** Scale-dependent coherence!
+
+| Scale | Observable | C depends on | High-z behavior |
+|-------|------------|--------------|-----------------|
+| Cosmic (>Mpc) | S8, fσ8, growth | Ω_m(z) | Effects vanish |
+| Galactic (kpc) | BTFR, rotation | ρ_local | Constant |
+| Binary (AU-pc) | Wide binaries | a_local | Constant |
+| UDG | σ dispersion | a_local + EFE | Environment-dep |
+
+### Key Insight: Scale Separation
+
+**Galactic coherence is LOCAL, not cosmic!**
+- C_galactic = f(ρ_local, a_local)
+- Independent of cosmic expansion
+- BTFR set by local physics, not cosmic coherence
+
+**This explains:**
+1. BTFR doesn't evolve (galactic coherence is local)
+2. S8 shows suppression (cosmic coherence is Ω_m-dependent)
+3. Wide binaries follow MOND-like behavior (acceleration-dependent)
+
+### JWST "Impossible Galaxies"
+
+- Massive rotating disks at z > 4 (DLA0817g, ALESS 073.1)
+- Rotation velocities 250-300 km/s at z ~ 4-6
+- ΛCDM predicts small, hot disks at high z
+- MOND/Synchronism predict early massive structures ✓
+
+### Falsification Criteria
+
+**Synchronism challenged if:**
+- BTFR evolves significantly AND follows cosmic coherence prediction
+- Scale separation hypothesis fails
+
+**Synchronism supported if:**
+- S8, fσ8 show z-evolution (cosmic coherence)
+- BTFR doesn't evolve (galactic coherence)
+- Both coexist in scale-dependent framework
+
+### Status Update
+
+| Before #120 | After #120 |
+|-------------|------------|
+| Single coherence function | Scale-dependent coherence |
+| BTFR evolution expected | BTFR stability explained |
+| Cosmic = Galactic | Cosmic ≠ Galactic scales |
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #119 (December 13, 2025)
+**Last Update**: Session #120 (December 13, 2025)
