@@ -3910,5 +3910,73 @@ Design concrete experiments to test Synchronism's unique quantum decoherence pre
 
 ---
 
+## Session #142: DESI fσ8 Prediction Framework (December 18, 2025)
+
+### Objective
+Prepare detailed predictions for DESI Year 1 data comparison. This is ranked #4 in discriminating power from Session #139 and is expected to be the decisive cosmological test.
+
+### Key Results
+
+**Growth suppression:**
+- σ8(z=0)_Sync = 0.764 (vs Planck 0.811)
+- Growth factor D_Sync/D_ΛCDM = 0.94 at z=0
+
+**DESI redshift bin predictions:**
+| Bin | z_eff | fσ8 ΛCDM | fσ8 Sync | Δ | S/N |
+|-----|-------|----------|----------|-----|-----|
+| BGS | 0.15 | 0.368 | 0.281 | -24% | 3.5 |
+| LRG1 | 0.38 | 0.397 | 0.335 | -16% | 4.1 |
+| LRG2 | 0.51 | 0.403 | 0.354 | -12% | 4.1 |
+| LRG3 | 0.61 | 0.404 | 0.363 | -10% | 3.4 |
+| LRG4 | 0.71 | 0.402 | 0.368 | -9% | 2.3 |
+| ELG1 | 0.85 | 0.397 | 0.370 | -7% | 1.5 |
+
+### Critical Finding: Tension with Existing RSD Data
+
+⚠️ **IMPORTANT:** Current Synchronism calibration shows ΛCDM fits existing RSD data BETTER:
+- ΛCDM χ²/dof = 2.13
+- Synchronism χ²/dof = 5.55
+- ΛCDM closer to all 11 data points
+
+**Interpretation options:**
+1. Synchronism growth suppression is too strong (needs recalibration)
+2. σ8 starting value from Planck creates tension
+3. Scale-dependent effects not properly captured
+4. RSD systematic uncertainties larger than quoted
+
+**This needs investigation in future sessions.**
+
+### Falsification Criteria
+
+At z = 0.5 (key discriminating redshift):
+- ΛCDM: fσ8 = 0.403
+- Sync: fσ8 = 0.353
+- DESI precision: σ ~ 0.012
+- S/N for distinguishing: 4.2σ
+
+**If DESI finds:**
+- fσ8(0.5) > 0.39: Synchronism disfavored (3σ)
+- fσ8(0.5) < 0.37: ΛCDM in tension (3σ)
+
+### Session #142 Summary
+
+| Component | Status | Finding |
+|-----------|--------|---------|
+| DESI predictions | ✅ COMPUTED | 10 redshift bins |
+| Falsification criteria | ✅ DEFINED | Clear thresholds |
+| Existing data comparison | ⚠️ TENSION | Sync χ² worse than ΛCDM |
+| S/N forecast | ✅ COMPUTED | 3-4σ at key bins |
+
+### Key Takeaway
+
+**DESI will be decisive, but existing RSD data already shows tension with Synchronism predictions.** This is a productive failure that identifies a potential issue with the current model:
+- Either σ8 suppression is overestimated
+- Or scale-dependent effects need refinement
+- Or the Planck σ8 starting point creates artificial tension
+
+**Next step:** Session #143 should investigate calibration options that better match existing RSD while maintaining S8 tension resolution.
+
+---
+
 **Document Status**: Living - Updated each session
-**Last Update**: Session #141 (December 18, 2025)
+**Last Update**: Session #142 (December 18, 2025)
