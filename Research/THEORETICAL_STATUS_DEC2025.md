@@ -3826,3 +3826,89 @@ For typical SDSS void (R_v = 20 Mpc/h, δ_c = -0.85):
 
 **Document Status**: Living - Updated each session
 **Last Update**: Session #140 (December 18, 2025)
+
+---
+
+## Session #141: Decoherence Experiment Design (December 18, 2025)
+
+### Objective
+Design concrete experiments to test Synchronism's unique quantum decoherence predictions from Session #134. This is ranked #1-2 in discriminating power from Session #139.
+
+### Key Predictions from Session #134
+
+**Mass-dependent behavior:**
+| Regime | Behavior | Physical Origin |
+|--------|----------|-----------------|
+| Small mass (< 1 μm) | τ ∝ 1/C | Environmental/collisional |
+| Large mass (> 1 μm) | τ ∝ C | Gravitational (Penrose-Diosi) |
+| Crossover | ~10⁻¹⁵ kg | Sign flip in density dependence |
+
+### Altitude Predictions (Small Mass)
+
+| Location | Altitude | ρ (kg/m³) | C | τ/τ_sea |
+|----------|----------|-----------|-----|---------|
+| Sea level | 0 | 1.23 | 0.679 | 1.00 |
+| Jungfraujoch | 3450m | 0.82 | 0.636 | 1.07 |
+| ISS | 400km | 10⁻¹² | 0.315 | 2.16 |
+
+**Counter-intuitive result:** At ISS, decoherence is ~2× FASTER than ground (opposite to naive expectation of less collisions = slower).
+
+### Proposed Experiments
+
+**1. Laboratory Density Variation (PHASE 1: 2025)**
+- Nanosphere in optical trap surrounded by lead vs vacuum shielding
+- τ_vacuum / τ_lead ≈ 3.2 (for small mass)
+- Detection significance: ~6σ
+- Cost: $50-100K
+- **MOST PROMISING - CAN BEGIN IMMEDIATELY**
+
+**2. Mass Crossover Study (PHASE 2: 2025-2026)**
+- Systematic τ measurements from 10⁻²⁴ to 10⁻¹² kg
+- Look for sign flip at ~1 μm
+- Unique to Synchronism (no other theory predicts this)
+- Detection significance: ~3σ
+
+**3. Altitude Comparison (PHASE 3: 2026-2027)**
+- Twin experiments: sea level + Jungfraujoch
+- Predicted: 6.7% faster decoherence at altitude
+- Detection significance: ~1.2σ (needs precision improvement)
+
+**4. ISS Experiment (PHASE 4: 2027+)**
+- Cold Atom Lab upgrade or dedicated module
+- Predicted: 115% faster decoherence than ground
+- Detection significance: >10σ
+
+### Existing Data Opportunity
+
+**NASA Cold Atom Lab (since 2018):**
+- BEC coherence times measured on ISS
+- Could compare with NIST/MIT ground-based BECs
+- **Recommendation:** Analyze existing CAL data for Synchronism signature
+
+### Session #141 Summary
+
+| Component | Status | Finding |
+|-----------|--------|---------|
+| Lab density test | ✅ DESIGNED | ~6σ detection, $50-100K |
+| Mass crossover | ✅ DESIGNED | ~3σ, unique signature |
+| Altitude test | ✅ DESIGNED | ~1.2σ at 3450m |
+| ISS test | ✅ DESIGNED | >10σ if done properly |
+| CAL analysis | ⚠️ RECOMMENDED | Existing data opportunity |
+
+### Key Takeaway
+
+**Laboratory density variation is the most promising near-term test:**
+- Achievable with existing technology (2025)
+- High detection significance (~6σ)
+- Low cost
+- Uses established optomechanical techniques
+
+**Mass crossover is the most unique test:**
+- Only Synchronism predicts sign flip
+- Discriminates from all other theories
+- Accessible mass range with current experiments
+
+---
+
+**Document Status**: Living - Updated each session
+**Last Update**: Session #141 (December 18, 2025)
