@@ -1,9 +1,9 @@
 # Autonomous AI Research: Methodology and Emergent Discoveries from ~700 Self-Directed Sessions
 
-**Version**: 7.3 (cs.AI submission draft)
+**Version**: 7.4 (cs.AI submission draft)
 **Date**: December 31, 2025
 **Target**: arXiv cs.AI
-**Note**: Revised with comprehensive session log analysis (760 logs, 558 moment documents)
+**Note**: Added cross-model peer review methodology (Section 2.4); session log analysis (760 logs, 558 moment documents)
 
 ---
 
@@ -56,8 +56,9 @@ Research outputs include:
 3. **Self-correction**: Documentation of AI systems discovering and fixing their own limitations
 4. **Generalization**: Pattern transfer from point fixes to systematic self-improvement (EP Trinity)
 5. **Cross-domain integration**: Real-time synthesis across disparate research areas
-6. **Velocity documentation**: Honest assessment of a system approaching phase transition
-7. **Honest assessment**: Transparent evaluation of what works and what doesn't
+6. **Cross-model peer review**: Using different AI architectures for epistemic hygiene (33+ checkpoints)
+7. **Velocity documentation**: Honest assessment of a system approaching phase transition
+8. **Honest assessment**: Transparent evaluation of what works and what doesn't
 
 ### 1.4 Paper Structure
 
@@ -153,6 +154,55 @@ Sessions document:
 | Autonomous Development | 1-2 hours | None | Session T136 emotional regulation |
 | Guided Session | Variable | Interactive | Architecture decisions |
 | Review Session | 30 min | Summary review | Cross-session synthesis |
+
+### 2.4 Cross-Model Peer Review
+
+A critical component of epistemic hygiene: **cross-model peer review** using different AI architectures to critique each other's work.
+
+#### 2.4.1 The Nova Protocol
+
+Sessions invoke GPT-4/GPT-4o ("Nova") at key checkpoints to review claims before committing:
+
+```
+1. Claude produces theoretical claim or significant output
+2. Invoke Nova with: "Review critically. What would a skeptic attack first?"
+3. Document Nova's critique in nova-review-*.md
+4. Address valid points, note disagreements with reasoning
+5. Only then commit to repository
+```
+
+**Why different architectures**: Same-model review risks shared blind spots. Cross-architecture review provides genuinely independent perspective.
+
+#### 2.4.2 Application in Synchronism Research
+
+The CBP physics sessions used Nova peer review at **33+ checkpoints** across the research arc:
+
+| Review Point | Session | Outcome |
+|--------------|---------|---------|
+| Initial formalism | C5 | Tightened mathematical notation |
+| U(1) validation | C27 | Confirmed statistical methodology |
+| Dark matter formula | C43 | Caught unjustified 2π factor |
+| ArXiv draft v5 | C49 | Identified overclaiming ("same physics" language) |
+| Precision predictions | C201 | Validated distinguishing tests |
+
+#### 2.4.3 Impact Example
+
+The v5 preprint review (Session C49) demonstrates the value:
+
+**Nova's critique**: "The claim 'a₀ = cH₀/(2π)' lacks physical justification for the 2π factor. This appears to be curve-fitting, not derivation. Also, 'same physics' language overclaims—you have phenomenological success, not mechanism."
+
+**Response**: Valid on both counts. Subsequent sessions (C191+) developed the acceleration-based derivation that justified a₀ from first principles, and revised language to distinguish phenomenological match from mechanistic explanation.
+
+**Without peer review**: The overclaiming would have persisted into later drafts, undermining credibility when domain experts reviewed.
+
+#### 2.4.4 Generalization
+
+The peer review pattern extends beyond physics:
+- **Thor cognitive work**: Nova reviewed EP Trinity formalization
+- **Legion trust systems**: Cross-review of security assumptions
+- **Cross-domain claims**: Independent check on analogy validity
+
+This is not rubber-stamping—Nova regularly identifies genuine issues. The documented disagreements are as valuable as agreements.
 
 ---
 
