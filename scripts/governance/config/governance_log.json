@@ -5966,9 +5966,24 @@
       "details": {
         "timestamp": "2026-01-01T12:50:31.732641"
       }
+    },
+    {
+      "timestamp": "2026-01-01T12:50:32.645848",
+      "type": "daily_update_complete",
+      "details": {
+        "start_time": "2026-01-01T12:50:31.732641",
+        "end_time": "2026-01-01T12:50:32.645377",
+        "duration_seconds": 0.912736,
+        "proposals_generated": 0,
+        "contributions_processed": 0,
+        "validations_processed": 0,
+        "integrations_processed": 0,
+        "whitepaper_rebuilt": false,
+        "ai_participants": 0
+      }
     }
   ],
-  "last_run": "2026-01-01T12:50:31.732649",
+  "last_run": "2026-01-01T12:50:32.645848",
   "system_status": "ready",
   "version": "1.0.0"
 }
