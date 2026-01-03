@@ -6010,9 +6010,24 @@
       "details": {
         "timestamp": "2026-01-03T12:46:07.327947"
       }
+    },
+    {
+      "timestamp": "2026-01-03T12:46:07.991600",
+      "type": "daily_update_complete",
+      "details": {
+        "start_time": "2026-01-03T12:46:07.327947",
+        "end_time": "2026-01-03T12:46:07.991103",
+        "duration_seconds": 0.663156,
+        "proposals_generated": 0,
+        "contributions_processed": 0,
+        "validations_processed": 0,
+        "integrations_processed": 0,
+        "whitepaper_rebuilt": false,
+        "ai_participants": 0
+      }
     }
   ],
-  "last_run": "2026-01-03T12:46:07.327956",
+  "last_run": "2026-01-03T12:46:07.991600",
   "system_status": "ready",
   "version": "1.0.0"
 }
