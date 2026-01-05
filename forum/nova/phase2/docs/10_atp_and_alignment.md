@@ -1,6 +1,6 @@
 # 10. ATP and Alignment in the Field Model
 
-This document sketches how **ATP (Alignment Transfer Protocol)** can be expressed
+This document sketches how **ATP (Allocation Transfer Packet)** can be expressed
 in field-theoretic terms.
 
 ## 10.1 Energy as Phase Stability
