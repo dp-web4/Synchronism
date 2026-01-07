@@ -83,4 +83,65 @@
       },
       "Phi": 9.785986645224693,
       "Phi_crit": 3.5,
-      "conscious": 
+      "conscious": true,
+      "margin": 6.285986645224693
+    },
+    "anesthetized": {
+      "scales": [
+        "molecular",
+        "synaptic",
+        "neuronal",
+        "columnar",
+        "regional",
+        "global"
+      ],
+      "C_values": {
+        "molecular": 0.5,
+        "synaptic": 0.3,
+        "neuronal": 0.2,
+        "columnar": 0.1,
+        "regional": 0.05,
+        "global": 0.02
+      },
+      "kappa_values_m": {
+        "molecular": 1e-09,
+        "synaptic": 1e-06,
+        "neuronal": 0.0001,
+        "columnar": 0.001,
+        "regional": 0.01,
+        "global": 0.1
+      },
+      "Phi": 4.5130667822683295,
+      "Phi_crit": 3.5,
+      "conscious": true,
+      "margin": 1.0130667822683295
+    }
+  },
+  "predictions": {
+    "photosynthesis": {
+      "prediction": "\u03c4 \u221d C_bio \u221d chromophore density",
+      "fmo_tau_fs": 101.89519372362699,
+      "lhcii_tau_fs": 54.45100256200996,
+      "observed_range": "300-700 fs",
+      "status": "CONSISTENT"
+    },
+    "microtubules": {
+      "prediction": "C_MT \u221d tubulin density",
+      "tau_ps": 8.330166249491167,
+      "testable": "Compare polymerized vs depolymerized",
+      "status": "TESTABLE"
+    },
+    "enzymes": {
+      "prediction": "k_enzyme \u221d (1 + \u03b2 \u00d7 C_active)",
+      "enhancement": 10.999999225650324,
+      "observed_KIE": "3-7x",
+      "status": "CONSISTENT"
+    },
+    "consciousness": {
+      "prediction": "\u03a6 = \u222bC dln(\u03ba) > 3.5",
+      "awake_Phi": 9.785986645224693,
+      "anesthetized_Phi": 4.5130667822683295,
+      "status": "TESTABLE"
+    }
+  }
+}
