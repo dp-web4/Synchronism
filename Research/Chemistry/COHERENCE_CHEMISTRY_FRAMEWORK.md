@@ -1,8 +1,8 @@
 # The Coherence Chemistry Framework
 
-**Synthesis Document - Chemistry Sessions #1-5**
-**Date**: 2025-01-10
-**Status**: Living Document (will evolve with future sessions)
+**Synthesis Document - Chemistry Sessions #1-7**
+**Date**: 2026-01-10
+**Status**: Living Document (updated Session #7)
 
 ---
 
@@ -41,20 +41,29 @@ Phase difference Δφ is the fundamental order parameter:
 | π/2 | Partial coherence | Transition state |
 | π | Anti-coherence | Antibonding orbital |
 
-### 1.3 The Coherence Parameter γ
+### 1.3 The Coherence Parameter γ (Updated Session #7)
 
-γ is determined by phase space dimensionality:
+γ reflects EFFECTIVE phase space dimensionality after collective correlations:
 
 ```
-γ = d_positions + d_momenta - d_constraints
+γ_eff = (d_phase - n_constraints) / √N_corr
 ```
 
-| System | Calculation | γ |
-|--------|-------------|---|
-| 3D gravity | 3 + 3 - 4 = 2 | 2 |
-| Superconductor | 2 + 2 - 2 = 2 | ~2 |
-| Bonding | 2 + 2 - 2 = 2 | ~2 |
-| Catalysis | 1 + 1 - 1 = 1 | ~1 |
+Where:
+- d_phase = phase space dimensionality (positions + momenta)
+- n_constraints = number of conserved quantities
+- N_corr = number of collectively correlated degrees of freedom
+
+| System | d - n_c | N_corr | γ_eff |
+|--------|---------|--------|-------|
+| Galaxy rotation | 2 | 1 | 2.0 |
+| BCS superconductor | 2 | 1 | ~2.0 |
+| Cuprate (YBCO) | 2 | 3.3 | 1.1 |
+| Covalent bonding | 2 | 1 | ~2.0 |
+| Enzyme catalysis | 1 | 1 | ~1.0 |
+
+**Key insight (Session #7)**: Collective correlations REDUCE γ by sharing phase space.
+Materials with γ < 2 have enhanced coherence from collective behavior.
 
 ### 1.4 Temperature Dependence
 
