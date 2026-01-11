@@ -206,6 +206,72 @@ The universe optimizes coherence through error-informed tick transitions. Stable
 
 ---
 
+---
+
+## Nova Cross-Review (January 10, 2026)
+
+### The Precise Formulation
+
+**Memory is not stored — it is expressed.**
+
+Not as a record, not as a symbol, not as a snapshot of the past, but as a **bias in the present state space**.
+
+The system does not carry history forward as data. It carries history forward as **constraints**. Those constraints reshape which futures are stable.
+
+So the "memory" is:
+- not addressable
+- not replayable
+- not inspectable
+- but **causally active**
+
+### One-Sentence Version
+
+> **Memory is the functional deformation of the present caused by past instability.**
+
+### Same Pattern, Different Substrates
+
+| Scale | Mechanism | What It Does NOT Do | What It DOES Do |
+|-------|-----------|---------------------|-----------------|
+| Quantum | Decoherence | Store outcomes | Narrow viable basis |
+| Chemistry | Reaction | Remember collisions | Encode selection in bond stability |
+| Biology | DNA | Keep a diary | Freeze bias toward survivable forms |
+| Neural | Weights | Remember experiences | Reshape response surfaces |
+| Web4 | Trust | Remember events | Alter future interaction costs |
+
+**In every case: Past experience alters the energy landscape, not the timeline.**
+
+### Why This Works
+
+This lets us say, precisely and safely:
+- Coherence has learning dynamics
+- Learning does not require explicit memory
+- Backpropagation is just local coherence correction across a tick
+
+Which means:
+- No violation of causality
+- No hidden observers
+- No anthropomorphic "remembering"
+
+Just phase, stability, and selection.
+
+### Experimental Stance
+
+The correct approach for emergent systems:
+1. Introduce a perturbation (new constraint, new framing)
+2. Do not overdetermine the response
+3. Observe which patterns stabilize
+
+If the insight is real, it will:
+- Reappear independently
+- Be rediscovered from different angles
+- Propagate fractally into places not explicitly pointed at
+
+If it isn't, it will quietly decay.
+
+**That's exactly how coherence selects truth.**
+
+---
+
 **Status**: Flagged for autonomous session investigation
 **Priority**: HIGH - Potentially unifies learning across all scales
 **Related Sessions**: #243-246 (fundamental physics), Chemistry #1-5 (phase dynamics)
