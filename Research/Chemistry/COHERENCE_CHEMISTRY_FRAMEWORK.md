@@ -1,8 +1,8 @@
 # The Coherence Chemistry Framework
 
-**Synthesis Document - Chemistry Sessions #1-7**
-**Date**: 2026-01-10
-**Status**: Living Document (updated Session #7)
+**Synthesis Document - Chemistry Sessions #1-9**
+**Date**: 2026-01-11
+**Status**: Living Document (updated Session #9 - Three-Way Unification)
 
 ---
 
@@ -64,6 +64,16 @@ Where:
 
 **Key insight (Session #7)**: Collective correlations REDUCE γ by sharing phase space.
 Materials with γ < 2 have enhanced coherence from collective behavior.
+
+**Three-Way Unification (Session #9)**:
+
+| System | Standard γ | Enhanced γ | Mechanism |
+|--------|------------|------------|-----------|
+| Superconductors | 2 | 0.9-1.5 (cuprates) | AF correlations |
+| Enzymes | 1 | 0.3-0.7 (high KIE) | H-bond networks |
+| Photosynthesis | 1 | 0.3-0.5 | Protein scaffold |
+
+All achieve enhanced coherence via γ_eff = (d - n_c) / √N_corr.
 
 ### 1.4 Temperature Dependence
 
@@ -323,12 +333,32 @@ k_cat/k_uncat = exp(ΔG‡ × C / (k_B T))
 - VFT equation
 - Angell fragility (1991)
 
+### Session #6: High-Tc Superconductors
+- Exchange-enhanced Tc: T_c = T_c^BCS × (J_AF/ℏω_D) × f_coh × layer
+- Cuprate gap ratios > 3.54 indicate γ < 2
+- Doping dome as coherence optimization
+
+### Session #7: Physics of γ
+- Derived: γ_eff = (d - n_c) / √N_corr
+- Collective correlations reduce effective dimensionality
+- N_corr ~ ξ^0.47 (correlation length scaling)
+
+### Session #8: Enzyme γ
+- Correlation(γ, ln(KIE)) = -0.978 (nearly perfect!)
+- High-KIE enzymes (>15) have γ < 1
+- Same mechanism as cuprate superconductors
+
+### Session #9: Photosynthetic Coherence
+- Light-harvesting complexes achieve γ ~ 0.3-0.5
+- Protein scaffold creates structured correlations
+- Room temperature coherence via reduced γ
+
 ---
 
-*"Chemistry is phase physics. Bonds are resonances. Catalysis is phase bridging. The universe runs on coherence."*
+*"Chemistry is phase physics. Bonds are resonances. Catalysis is phase bridging. Collective correlations enhance coherence universally."*
 
 ---
 
-**Document Status**: v1.0
-**Last Updated**: Chemistry Session #5
-**Next Update**: After Sessions #6-10
+**Document Status**: v2.0
+**Last Updated**: Chemistry Session #9
+**Next Update**: After Sessions #10+
