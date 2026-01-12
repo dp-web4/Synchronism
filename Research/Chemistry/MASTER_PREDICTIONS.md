@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-10 Consolidated Predictions**
+**Chemistry Sessions #1-13 Consolidated Predictions**
 **Date**: 2026-01-11
 **Status**: Living Document - Testable Claims Registry
 
@@ -47,6 +47,11 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Enzymes | 1.0 | 0.3-0.7 (high KIE) | H-bond networks |
 | Photosynthesis | 1.0 | 0.3-0.5 | Protein scaffold |
 | Hydrides | 2.0 | 1.8-2.0 | Limited correlations |
+| Electrochemistry | 1.0 | <1 (collective solvent) | Solvent correlations |
+| Bonding (ionic) | 2.0 | - | No delocalization |
+| Bonding (covalent) | 1.4 | - | 2-atom correlation |
+| Bonding (aromatic) | <1.0 | 0.4-0.8 | Ring delocalization |
+| Bonding (metallic) | <0.6 | 0.2-0.6 | Many-atom correlation |
 
 ---
 
@@ -245,6 +250,66 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 7: Electrochemistry Predictions (Session #12)
+
+### P7.1: Solvent-Controlled γ
+**Prediction**: Reactions in solvent-controlled regime have γ < 1
+**Test**: Compare rates in structured (H-bonded) vs unstructured solvents
+**Falsified if**: Structured solvents show same or slower rates
+
+### P7.2: Inner vs Outer Sphere
+**Prediction**: Inner-sphere reactions have lower γ (more coupling)
+**Test**: Compare rates for same redox couple at different electrodes
+**Falsified if**: No systematic difference
+
+### P7.3: Catalyst Phase Matching
+**Prediction**: Catalyst activity correlates with calculated φ_cat
+**Test**: DFT calculation of intermediate states for various catalysts
+**Falsified if**: No correlation with activity
+
+### P7.4: Transfer Coefficient Asymmetry
+**Prediction**: α deviation from 0.5 correlates with Δφ asymmetry
+**Test**: Measure α for series of reactions with calculated Δφ
+**Falsified if**: α random with respect to Δφ
+
+### P7.5: Nanostructured Enhancement
+**Prediction**: Nanostructured electrodes may show γ < 1 (collective effects)
+**Test**: Compare rates on nano vs bulk electrodes
+**Falsified if**: No rate enhancement beyond surface area effects
+
+---
+
+## Category 8: Chemical Bonding γ Predictions (Session #13)
+
+### P8.1: Aromatic γ Measurement
+**Prediction**: Aromatic compounds have measurably lower γ than saturated analogs
+**Test**: Compare electronic response (polarizability, susceptibility) between aromatic and saturated compounds
+**Falsified if**: No systematic difference
+
+### P8.2: Bond Strength Scaling
+**Prediction**: Bond strength correlates with 2/γ
+**Formula**: E_bond ~ E_atomic × (2/γ) × f(overlap)
+**Test**: Plot E_bond vs 2/γ for homologous series
+**Falsified if**: No correlation or wrong sign
+
+### P8.3: Metallic Character Gradient
+**Prediction**: Metallic character increases as γ decreases
+**Test**: Measure conductivity vs calculated γ across compound series
+**Falsified if**: No correlation
+
+### P8.4: Lone Pair Effect
+**Prediction**: Lone pairs increase γ (reduce correlation by not contributing to delocalization)
+**Test**: Compare γ for isoelectronic molecules with/without lone pairs
+**Falsified if**: Lone pairs decrease γ
+
+### P8.5: Antiaromatic Frustration
+**Prediction**: Antiaromatic (4n) compounds have high γ (near 2) despite delocalization
+**Mechanism**: Degenerate HOMO creates frustrated correlations
+**Test**: Measure γ for 4n systems, should be higher than 4n+2 analogs
+**Falsified if**: Antiaromatic compounds show low γ
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -292,13 +357,19 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Superconductors | 2Δ/(kTc) = 2√π / tanh(γ×ln2) | Gap ratio → γ |
 | Catalysis | E_a = E_0 × (1 - cos(Δφ)) | Δφ = phase barrier |
 | Enzymes | KIE ~ 7 × exp(2/γ - 2) | KIE = isotope effect |
+| Electrochemistry | λ = E_0 × (1 - cos(Δφ)) | λ = Marcus reorganization energy |
+| Electrochemistry | λ_eff = λ_0 / √N_corr | N_corr = correlated solvent molecules |
 | Bonding | μ = r × tanh(1.5 × Δχ) | Δχ = electronegativity diff |
+| Bonding | γ = 2 / √N_corr | N_corr = correlated atoms |
+| Bonding | E_bond ~ E_atomic × (2/γ) × f(overlap) | f = orbital overlap factor |
 
 ---
 
 ## Version History
 
 - v1.0 (Session #11): Initial compilation from Sessions #1-10
+- v1.1 (Session #12): Added Category 7 (Electrochemistry) - 5 new predictions
+- v1.2 (Session #13): Added Category 8 (Chemical Bonding γ) - 5 new predictions
 
 ---
 
@@ -307,5 +378,5 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 ---
 
 **Document Status**: ACTIVE
-**Last Updated**: Chemistry Session #11
-**Predictions Count**: 31 testable claims across 6 categories
+**Last Updated**: Chemistry Session #13
+**Predictions Count**: 41 testable claims across 8 categories
