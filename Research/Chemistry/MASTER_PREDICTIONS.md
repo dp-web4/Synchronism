@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-18 Consolidated Predictions**
+**Chemistry Sessions #1-19 Consolidated Predictions**
 **Date**: 2026-01-12
 **Status**: Living Document - Testable Claims Registry
 
@@ -60,6 +60,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Biology (protein) | 2.0 | 0.5-0.8 | Active ATP maintenance |
 | Biology (cell) | 2.0 | 1.0-1.5 | Reduced correlation length |
 | Biology (cancer) | 0.7 | 1.2-1.5 | Dysregulated γ pump |
+| Information (uncorrelated) | 2.0 | - | Full entropy |
+| Information (correlated) | 2.0 | 0.5-1.5 | Concentrated information |
+| Neural processing | 2.0 | 0.3-0.8 | Synchronized patterns |
 
 ---
 
@@ -479,6 +482,40 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 14: Information Theory Predictions (Session #19)
+
+### P14.1: Effective Entropy Scaling
+**Prediction**: H_eff = H_raw × (γ/2)
+**Mechanism**: Correlations reduce effective degrees of freedom
+**Test**: Measure entropy in systems with known γ
+**Falsified if**: H_eff independent of γ
+
+### P14.2: Channel Capacity Enhancement
+**Prediction**: C_eff = C_raw × (2/γ) at fixed bandwidth
+**Mechanism**: Correlated noise is predictable, can be subtracted
+**Test**: Compare capacity in structured vs random noise channels
+**Falsified if**: No capacity increase with correlations
+
+### P14.3: Error Correction Efficiency
+**Prediction**: n_required ~ (γ/2)² for fixed target error rate
+**Formula**: P_logical = P_physical^(√n × 2/γ)
+**Test**: Compare redundancy needs in correlated vs uncorrelated systems
+**Falsified if**: Same redundancy needed regardless of γ
+
+### P14.4: Neural Information Concentration
+**Prediction**: Correlated (synchronized) neural activity carries more information per spike
+**Mechanism**: Pattern-based encoding increases effective capacity
+**Test**: Measure mutual information in synchronized vs desynchronized states
+**Falsified if**: Random firing maximizes information
+
+### P14.5: Information-Entropy Unification
+**Prediction**: Shannon entropy H and Boltzmann entropy S have same γ dependence
+**Formula**: Both scale as (γ/2) × log(N_states)
+**Test**: Compare H_eff and S scaling across systems
+**Falsified if**: Different γ scaling for H vs S
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -544,6 +581,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Biology | dγ/dt = (γ_eq - γ)/τ - P_met × η | P_met = metabolic power |
 | Biology | γ_ss = γ_eq - P_met × η × τ | Steady-state γ |
 | Biology | γ(t) = γ_eq - (γ_eq - γ₀)e^(-t/τ) | Death relaxation, τ ~ 6 hr |
+| Information | H_eff = H_raw × (γ/2) | H = Shannon entropy |
+| Information | C_eff = B × log₂(1 + SNR × 2/γ) | C = channel capacity |
+| Information | P_logical = P_physical^(√n × 2/γ) | Error correction efficiency |
 
 ---
 
@@ -557,6 +597,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.5 (Session #16): Added Category 11 (Magnetism) - 5 new predictions; Cuprate-AF connection explained
 - v1.6 (Session #17): Added Category 12 (Thermodynamics) - 5 new predictions; γ as thermodynamic control parameter
 - v1.7 (Session #18): Added Category 13 (Biology) - 5 new predictions; Life as active γ maintenance
+- v1.8 (Session #19): Added Category 14 (Information Theory) - 5 new predictions; Shannon-Boltzmann unification
 
 ---
 
@@ -564,7 +605,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY
-**Last Updated**: Chemistry Session #18
-**Predictions Count**: 66 testable claims across 13 categories
-**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, AND biology
+**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION
+**Last Updated**: Chemistry Session #19
+**Predictions Count**: 71 testable claims across 14 categories
+**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, AND information theory
