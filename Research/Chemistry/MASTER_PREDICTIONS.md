@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-14 Consolidated Predictions**
+**Chemistry Sessions #1-15 Consolidated Predictions**
 **Date**: 2026-01-11
 **Status**: Living Document - Testable Claims Registry
 
@@ -52,6 +52,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Bonding (covalent) | 1.4 | - | 2-atom correlation |
 | Bonding (aromatic) | <1.0 | 0.4-0.8 | Ring delocalization |
 | Bonding (metallic) | <0.6 | 0.2-0.6 | Many-atom correlation |
+| Qubits (transmon) | 2.0 | - | Standard decoherence |
+| Qubits (error corrected) | 2.0 | <1 (with n qubits) | Collective encoding |
+| Qubits (topological) | 2.0 | <0.1 (large L) | Global correlation |
 
 ---
 
@@ -344,6 +347,37 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 10: Quantum Computing Predictions (Session #15)
+
+### P10.1: Error Correction Scaling
+**Prediction**: Logical T₂ scales as T₂_physical × √n, not exponentially
+**Test**: Measure T₂ for surface codes with varying distance
+**Falsified if**: T₂ scales faster than √n
+
+### P10.2: Temperature Exponent
+**Prediction**: T₂ ~ T^(-d/2) where d is bath dimensionality
+**Values**: d=1 (chains), d=2 (surfaces), d=3 (bulk)
+**Test**: Measure T₂(T) across wide temperature range
+**Falsified if**: Exponent doesn't match bath geometry
+
+### P10.3: Material Purity Effect
+**Prediction**: T₂ ~ 1/√(defect density)
+**Test**: Measure T₂ for samples with controlled defect levels
+**Falsified if**: T₂ scales differently with defects
+
+### P10.4: Topological Size Limit
+**Prediction**: Topological protection degrades above L ~ 400 sites
+**Reason**: γ_topo = 2/√L falls below stability bound γ > 0.1
+**Test**: Measure qubit lifetime vs system size for topological qubits
+**Falsified if**: Protection continues improving above L ~ 400
+
+### P10.5: Cross-Qubit Correlation Enhancement
+**Prediction**: Coupled qubits can share N_corr, enhancing coherence
+**Test**: Measure T₂ for pairs of coupled qubits vs isolated
+**Falsified if**: No enhancement from coupling
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -396,6 +430,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Bonding | μ = r × tanh(1.5 × Δχ) | Δχ = electronegativity diff |
 | Bonding | γ = 2 / √N_corr | N_corr = correlated atoms |
 | Bonding | E_bond ~ E_atomic × (2/γ) × f(overlap) | f = orbital overlap factor |
+| Quantum Computing | T₂ ~ T₀ / √N_env | N_env = environmental modes |
+| Quantum Computing | T₂_logical = T₂_physical × √n | n = physical qubits in code |
+| Quantum Computing | T₂ ~ T^(-d/2) | d = bath dimensionality |
 
 ---
 
@@ -405,6 +442,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.1 (Session #12): Added Category 7 (Electrochemistry) - 5 new predictions
 - v1.2 (Session #13): Added Category 8 (Chemical Bonding γ) - 5 new predictions
 - v1.3 (Session #14): Added Category 9 (Universal Synthesis) - 5 new predictions; FRAMEWORK SYNTHESIS COMPLETE
+- v1.4 (Session #15): Added Category 10 (Quantum Computing) - 5 new predictions
 
 ---
 
@@ -412,7 +450,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - INITIAL PROGRAM COMPLETE
-**Last Updated**: Chemistry Session #14
-**Predictions Count**: 46 testable claims across 9 categories
-**Framework Status**: UNIFIED - Universal scaling γ = 2/√N_corr confirmed across all domains
+**Document Status**: ACTIVE - EXPANDING TO NEW DOMAINS
+**Last Updated**: Chemistry Session #15
+**Predictions Count**: 51 testable claims across 10 categories
+**Framework Status**: UNIFIED - Universal scaling γ = 2/√N_corr now covers 9 physical domains
