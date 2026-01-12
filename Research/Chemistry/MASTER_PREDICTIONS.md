@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-16 Consolidated Predictions**
+**Chemistry Sessions #1-17 Consolidated Predictions**
 **Date**: 2026-01-11
 **Status**: Living Document - Testable Claims Registry
 
@@ -412,6 +412,35 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 12: Thermodynamics Predictions (Session #17)
+
+### P12.1: Heat Capacity Scaling
+**Prediction**: Specific heat jump ΔC/C scales with (2 - γ)/γ
+**Test**: Measure ΔC/C across materials with known γ
+**Falsified if**: No correlation between ΔC/C and γ
+
+### P12.2: Entropy Reduction
+**Prediction**: Entropy per mode scales as S = S₀ × γ/2
+**Test**: Measure entropy in correlated vs uncorrelated systems
+**Falsified if**: Entropy doesn't scale with γ
+
+### P12.3: Free Energy Scaling
+**Prediction**: Effective free energy F_eff = F / √N_corr
+**Test**: Calculate binding energies from partition functions
+**Falsified if**: Free energy scales differently
+
+### P12.4: Chemical Potential Enhancement
+**Prediction**: μ_coh = μ₀ × (2/γ) for correlated systems
+**Test**: Measure μ across systems with varying γ
+**Falsified if**: μ doesn't scale with 2/γ
+
+### P12.5: Entropy Production Rate
+**Prediction**: dS/dt ∝ (γ - γ_eq) near equilibrium
+**Test**: Measure relaxation rates vs γ
+**Falsified if**: Relaxation rate doesn't correlate with γ
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -470,6 +499,10 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Magnetism | Tc ~ z × J × (2/γ) | z = coordination, J = exchange |
 | Magnetism | β = 1/(2γ) | β = critical exponent |
 | Magnetism | γ ~ 2/ξ | ξ = AF correlation length (2D) |
+| Thermodynamics | S = S₀ × γ/2 | S = entropy per mode |
+| Thermodynamics | F_eff = F / √N_corr | F = free energy |
+| Thermodynamics | Z_eff = Z^(1/√N_corr) | Z = partition function |
+| Thermodynamics | μ_coh = μ₀ × (2/γ) | μ = chemical potential |
 
 ---
 
@@ -481,6 +514,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.3 (Session #14): Added Category 9 (Universal Synthesis) - 5 new predictions; FRAMEWORK SYNTHESIS COMPLETE
 - v1.4 (Session #15): Added Category 10 (Quantum Computing) - 5 new predictions
 - v1.5 (Session #16): Added Category 11 (Magnetism) - 5 new predictions; Cuprate-AF connection explained
+- v1.6 (Session #17): Added Category 12 (Thermodynamics) - 5 new predictions; γ as thermodynamic control parameter
 
 ---
 
@@ -488,7 +522,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - EXPANDING TO NEW DOMAINS
-**Last Updated**: Chemistry Session #16
-**Predictions Count**: 56 testable claims across 11 categories
-**Framework Status**: UNIFIED - Universal scaling γ = 2/√N_corr now covers 10 physical domains
+**Document Status**: ACTIVE - FOUNDATIONAL CONNECTIONS ESTABLISHED
+**Last Updated**: Chemistry Session #17
+**Predictions Count**: 61 testable claims across 12 categories
+**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, and thermodynamics
