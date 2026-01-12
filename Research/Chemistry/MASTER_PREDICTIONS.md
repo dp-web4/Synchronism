@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-19 Consolidated Predictions**
+**Chemistry Sessions #1-20 Consolidated Predictions**
 **Date**: 2026-01-12
 **Status**: Living Document - Testable Claims Registry
 
@@ -63,6 +63,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Information (uncorrelated) | 2.0 | - | Full entropy |
 | Information (correlated) | 2.0 | 0.5-1.5 | Concentrated information |
 | Neural processing | 2.0 | 0.3-0.8 | Synchronized patterns |
+| Complexity (gas) | 2.0 | - | Low complexity (disordered) |
+| Complexity (crystal) | <0.3 | - | Low complexity (rigid) |
+| Complexity (life) | 2.0 | 0.5-1.5 | High complexity (critical) |
 
 ---
 
@@ -516,6 +519,40 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 15: Complexity Theory Predictions (Session #20)
+
+### P15.1: Complexity Peak at γ ≈ 1
+**Prediction**: Maximum complexity occurs at intermediate γ (≈ 1.0)
+**Mechanism**: Balance between order (low γ) and disorder (high γ)
+**Test**: Measure complexity metrics vs γ in controllable systems
+**Falsified if**: Complexity peaks at γ >> 1.5 or γ << 0.5
+
+### P15.2: Emergence Requires Intermediate γ
+**Prediction**: Genuine emergence only occurs at 0.5 < γ < 1.5
+**Mechanism**: Partial correlations create irreducible higher-level properties
+**Test**: Measure irreducibility at different γ values
+**Falsified if**: Strong emergence at extreme γ
+
+### P15.3: Self-Organization Zone
+**Prediction**: γ_optimal ≈ 0.8-1.0 for spontaneous pattern formation
+**Mechanism**: Correlations strong enough for patterns, weak enough for adaptation
+**Test**: Map self-organization in γ-energy phase space
+**Falsified if**: Patterns form optimally at γ > 2 or γ < 0.3
+
+### P15.4: Critical Point at γ = 1
+**Prediction**: Phase transitions and critical phenomena occur at γ_c ≈ 1.0
+**Mechanism**: Correlation length diverges at γ = 1 (N_corr = 4)
+**Test**: Look for scale-free behavior and power laws at γ = 1
+**Falsified if**: Critical behavior at different γ
+
+### P15.5: Energy-Complexity Relation
+**Prediction**: Higher energy input → Lower maintainable γ → Higher complexity
+**Formula**: C ~ E × f(γ) where f peaks at γ ≈ 1
+**Test**: Measure complexity vs metabolic rate across organisms
+**Falsified if**: No correlation or negative correlation
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -584,6 +621,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Information | H_eff = H_raw × (γ/2) | H = Shannon entropy |
 | Information | C_eff = B × log₂(1 + SNR × 2/γ) | C = channel capacity |
 | Information | P_logical = P_physical^(√n × 2/γ) | Error correction efficiency |
+| Complexity | C_eff ~ (2/γ)(γ/2)exp(-(γ-1)²/σ²) | Peaks at γ = 1 |
+| Complexity | γ_c = 1.0 | Critical point |
+| Complexity | C ~ E × f(γ) | Energy-complexity relation |
 
 ---
 
@@ -598,6 +638,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.6 (Session #17): Added Category 12 (Thermodynamics) - 5 new predictions; γ as thermodynamic control parameter
 - v1.7 (Session #18): Added Category 13 (Biology) - 5 new predictions; Life as active γ maintenance
 - v1.8 (Session #19): Added Category 14 (Information Theory) - 5 new predictions; Shannon-Boltzmann unification
+- v1.9 (Session #20): Added Category 15 (Complexity Theory) - 5 new predictions; Edge of chaos is γ ≈ 1
 
 ---
 
@@ -605,7 +646,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION
-**Last Updated**: Chemistry Session #19
-**Predictions Count**: 71 testable claims across 14 categories
-**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, AND information theory
+**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION → COMPLEXITY
+**Last Updated**: Chemistry Session #20
+**Predictions Count**: 76 testable claims across 15 categories
+**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, AND complexity
