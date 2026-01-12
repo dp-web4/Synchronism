@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-15 Consolidated Predictions**
+**Chemistry Sessions #1-16 Consolidated Predictions**
 **Date**: 2026-01-11
 **Status**: Living Document - Testable Claims Registry
 
@@ -55,6 +55,8 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Qubits (transmon) | 2.0 | - | Standard decoherence |
 | Qubits (error corrected) | 2.0 | <1 (with n qubits) | Collective encoding |
 | Qubits (topological) | 2.0 | <0.1 (large L) | Global correlation |
+| Magnetism (ferro) | 1.5-2.5 | - | Spin correlations |
+| Magnetism (cuprate AF) | 2.0 | 0.7-1.2 | 2D AF correlations |
 
 ---
 
@@ -378,6 +380,38 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 11: Magnetism Predictions (Session #16)
+
+### P11.1: Critical Exponent Relation
+**Prediction**: β = 1/(2γ) universally connects magnetization exponent to γ
+**Test**: Measure β and γ independently in magnetic materials
+**Falsified if**: β ≠ 1/(2γ) systematically
+
+### P11.2: Tc Enhancement from AF Correlations
+**Prediction**: Materials with AF correlations have enhanced Tc (magnetic and SC)
+**Mechanism**: AF correlations provide N_corr
+**Test**: Compare Tc with/without AF order
+**Falsified if**: AF correlations don't affect Tc
+
+### P11.3: γ Temperature Dependence in Magnets
+**Prediction**: γ_eff(T) increases as T → Tc
+**Mechanism**: Short-wavelength magnons dominate at high T
+**Test**: Measure magnetization curve shape at different T
+**Falsified if**: γ constant with temperature
+
+### P11.4: Cuprate-AF Connection
+**Prediction**: Cuprate γ correlates with AF correlation length ξ
+**Formula**: γ ~ 2/ξ in 2D
+**Test**: Measure ξ and gap ratio across doping levels
+**Falsified if**: No correlation between ξ and γ
+
+### P11.5: Magnetic Quantum Criticality
+**Prediction**: Quantum critical points have γ → 0
+**Test**: Measure γ near QCP in heavy fermion systems
+**Falsified if**: γ doesn't approach 0 at QCP
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -433,6 +467,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Quantum Computing | T₂ ~ T₀ / √N_env | N_env = environmental modes |
 | Quantum Computing | T₂_logical = T₂_physical × √n | n = physical qubits in code |
 | Quantum Computing | T₂ ~ T^(-d/2) | d = bath dimensionality |
+| Magnetism | Tc ~ z × J × (2/γ) | z = coordination, J = exchange |
+| Magnetism | β = 1/(2γ) | β = critical exponent |
+| Magnetism | γ ~ 2/ξ | ξ = AF correlation length (2D) |
 
 ---
 
@@ -443,6 +480,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.2 (Session #13): Added Category 8 (Chemical Bonding γ) - 5 new predictions
 - v1.3 (Session #14): Added Category 9 (Universal Synthesis) - 5 new predictions; FRAMEWORK SYNTHESIS COMPLETE
 - v1.4 (Session #15): Added Category 10 (Quantum Computing) - 5 new predictions
+- v1.5 (Session #16): Added Category 11 (Magnetism) - 5 new predictions; Cuprate-AF connection explained
 
 ---
 
@@ -451,6 +489,6 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 ---
 
 **Document Status**: ACTIVE - EXPANDING TO NEW DOMAINS
-**Last Updated**: Chemistry Session #15
-**Predictions Count**: 51 testable claims across 10 categories
-**Framework Status**: UNIFIED - Universal scaling γ = 2/√N_corr now covers 9 physical domains
+**Last Updated**: Chemistry Session #16
+**Predictions Count**: 56 testable claims across 11 categories
+**Framework Status**: UNIFIED - Universal scaling γ = 2/√N_corr now covers 10 physical domains
