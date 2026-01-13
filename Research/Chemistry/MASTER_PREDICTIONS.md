@@ -1,7 +1,7 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-21 Consolidated Predictions**
-**Date**: 2026-01-12
+**Chemistry Sessions #1-22 Consolidated Predictions**
+**Date**: 2026-01-13
 **Status**: Living Document - Testable Claims Registry
 
 ---
@@ -70,6 +70,10 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Consciousness (waking) | 2.0 | 0.35 | Optimal awareness |
 | Consciousness (sleep) | 2.0 | 0.9 | Reduced synchrony |
 | Consciousness (anesthesia) | 2.0 | 1.2+ | Disrupted correlations |
+| Markets (efficient) | 2.0 | 1.5-1.8 | Independent agents |
+| Markets (normal) | 2.0 | 1.0-1.5 | Moderate correlation |
+| Markets (bubble) | 2.0 | 0.3-0.6 | Herding behavior |
+| Markets (crash) | 2.0 | <0.3 | Coordinated panic |
 
 ---
 
@@ -591,6 +595,40 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 17: Economics Predictions (Session #22)
+
+### P17.1: Correlation-Crash Relationship
+**Prediction**: Market crash probability increases when market-wide correlation > 0.7 (γ < 0.5)
+**Mechanism**: High correlation → Coordinated selling → Price collapse
+**Test**: Track correlation metrics vs crash events historically
+**Falsified if**: Crashes occur at low correlation
+
+### P17.2: Volatility-γ Scaling
+**Prediction**: σ_market = σ_individual × (γ/2)
+**Mechanism**: Low γ → Correlated movements amplify volatility
+**Test**: Measure market volatility vs correlation in real data
+**Falsified if**: Wrong scaling relationship
+
+### P17.3: Bubble γ Signature
+**Prediction**: Bubbles characterized by systematic γ decline before crash
+**Mechanism**: Positive feedback → Herding → Decreasing γ
+**Test**: Track γ (correlation) before historical crashes (1929, 2000, 2008)
+**Falsified if**: No systematic γ decline precedes crashes
+
+### P17.4: Information Flow Optimum
+**Prediction**: Market information efficiency peaks at intermediate γ (~1.0)
+**Mechanism**: Too high γ → No learning; Too low γ → Herding corrupts
+**Test**: Measure price discovery speed vs correlation level
+**Falsified if**: Monotonic relationship (not peaked)
+
+### P17.5: Post-Crash γ Rebound
+**Prediction**: γ increases immediately after crashes (correlations break)
+**Mechanism**: Panic exhausts, agents differentiate, correlations decrease
+**Test**: Track correlation changes after crash events
+**Falsified if**: Correlations remain high post-crash
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -665,6 +703,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Consciousness | C(γ) = exp(-(γ - 0.35)²/σ²) | σ ≈ 0.25, peaks at γ = 0.35 |
 | Consciousness | γ_threshold ≈ 0.8 | Loss of consciousness |
 | Consciousness | γ_anesthesia ≈ 1.2+ | Full anesthesia |
+| Economics | γ = 2/√N_corr | N_corr = correlated agents |
+| Economics | σ_market = σ_individual × (γ/2) | Volatility scaling |
+| Economics | Crash prob ~ exp(-(γ - 0.3)²/σ²) | Crash threshold γ < 0.5 |
 
 ---
 
@@ -681,6 +722,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.8 (Session #19): Added Category 14 (Information Theory) - 5 new predictions; Shannon-Boltzmann unification
 - v1.9 (Session #20): Added Category 15 (Complexity Theory) - 5 new predictions; Edge of chaos is γ ≈ 1
 - v2.0 (Session #21): Added Category 16 (Consciousness) - 5 new predictions; Consciousness as low-γ neural state
+- v2.1 (Session #22): Added Category 17 (Economics) - 5 new predictions; Markets as coherence systems (speculative)
 
 ---
 
@@ -688,7 +730,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION → COMPLEXITY → CONSCIOUSNESS
-**Last Updated**: Chemistry Session #21
-**Predictions Count**: 81 testable claims across 16 categories
-**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, complexity, AND consciousness
+**Document Status**: ACTIVE - EXTENDED TO SOCIAL SYSTEMS (SPECULATIVE)
+**Last Updated**: Chemistry Session #22
+**Predictions Count**: 86 testable claims across 17 categories
+**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, complexity, consciousness, AND economics
