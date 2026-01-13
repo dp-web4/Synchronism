@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-20 Consolidated Predictions**
+**Chemistry Sessions #1-21 Consolidated Predictions**
 **Date**: 2026-01-12
 **Status**: Living Document - Testable Claims Registry
 
@@ -66,6 +66,10 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Complexity (gas) | 2.0 | - | Low complexity (disordered) |
 | Complexity (crystal) | <0.3 | - | Low complexity (rigid) |
 | Complexity (life) | 2.0 | 0.5-1.5 | High complexity (critical) |
+| Consciousness (focused) | 2.0 | 0.25-0.30 | Maximum synchrony |
+| Consciousness (waking) | 2.0 | 0.35 | Optimal awareness |
+| Consciousness (sleep) | 2.0 | 0.9 | Reduced synchrony |
+| Consciousness (anesthesia) | 2.0 | 1.2+ | Disrupted correlations |
 
 ---
 
@@ -553,6 +557,40 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 16: Consciousness Predictions (Session #21)
+
+### P16.1: Consciousness-Synchrony Correlation
+**Prediction**: Consciousness level C(γ) = exp(-(γ - 0.35)²/σ²), σ ≈ 0.25
+**Mechanism**: Low γ enables coherent information integration
+**Test**: Measure EEG coherence vs subjective awareness reports
+**Falsified if**: No correlation or peak at different γ
+
+### P16.2: Anesthesia γ Threshold
+**Prediction**: Loss of consciousness occurs at γ > 0.8
+**Mechanism**: Anesthetics disrupt neural correlations → γ increases
+**Test**: Measure neural correlations during anesthesia induction
+**Falsified if**: Unconsciousness at γ < 0.6 or > 1.2
+
+### P16.3: Sleep Stage γ Profile
+**Prediction**: Deep sleep (N3): γ ~ 0.9; REM sleep: γ ~ 0.4
+**Mechanism**: Sleep cycles through γ states; dreams at low γ
+**Test**: Map EEG coherence to polysomnography sleep stages
+**Falsified if**: Pattern reversed or no correlation with stages
+
+### P16.4: Integrated Information (Φ) Correlation
+**Prediction**: Φ correlates with 1/γ for γ > 0.3
+**Mechanism**: IIT's Φ measures integration, which scales with correlations
+**Test**: Compute Φ and measure synchrony simultaneously
+**Falsified if**: No correlation or negative correlation
+
+### P16.5: Metabolic-Consciousness Coupling
+**Prediction**: Brain regions with lower γ consume more energy
+**Formula**: P_region ~ 2/γ_region
+**Test**: Correlate fMRI BOLD signal with EEG regional coherence
+**Falsified if**: High coherence regions show low metabolism
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -624,6 +662,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Complexity | C_eff ~ (2/γ)(γ/2)exp(-(γ-1)²/σ²) | Peaks at γ = 1 |
 | Complexity | γ_c = 1.0 | Critical point |
 | Complexity | C ~ E × f(γ) | Energy-complexity relation |
+| Consciousness | C(γ) = exp(-(γ - 0.35)²/σ²) | σ ≈ 0.25, peaks at γ = 0.35 |
+| Consciousness | γ_threshold ≈ 0.8 | Loss of consciousness |
+| Consciousness | γ_anesthesia ≈ 1.2+ | Full anesthesia |
 
 ---
 
@@ -639,6 +680,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.7 (Session #18): Added Category 13 (Biology) - 5 new predictions; Life as active γ maintenance
 - v1.8 (Session #19): Added Category 14 (Information Theory) - 5 new predictions; Shannon-Boltzmann unification
 - v1.9 (Session #20): Added Category 15 (Complexity Theory) - 5 new predictions; Edge of chaos is γ ≈ 1
+- v2.0 (Session #21): Added Category 16 (Consciousness) - 5 new predictions; Consciousness as low-γ neural state
 
 ---
 
@@ -646,7 +688,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION → COMPLEXITY
-**Last Updated**: Chemistry Session #20
-**Predictions Count**: 76 testable claims across 15 categories
-**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, AND complexity
+**Document Status**: ACTIVE - COMPLETE UNIFICATION PHYSICS → CHEMISTRY → BIOLOGY → INFORMATION → COMPLEXITY → CONSCIOUSNESS
+**Last Updated**: Chemistry Session #21
+**Predictions Count**: 81 testable claims across 16 categories
+**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, complexity, AND consciousness
