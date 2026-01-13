@@ -1,6 +1,6 @@
 # Coherence Chemistry Framework: Master Predictions Document
 
-**Chemistry Sessions #1-22 Consolidated Predictions**
+**Chemistry Sessions #1-23 Consolidated Predictions**
 **Date**: 2026-01-13
 **Status**: Living Document - Testable Claims Registry
 
@@ -629,6 +629,40 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
+## Category 18: Reaction Kinetics Predictions (Session #23)
+
+### P18.1: Rate-γ Scaling
+**Prediction**: k_eff / k_TST = (2/γ)^α with α ~ 1 for typical reactions
+**Mechanism**: Collective motion enhances rate through coordinated barrier crossing
+**Test**: Measure rates in controlled environments with varying correlation
+**Falsified if**: No correlation between rate enhancement and γ
+
+### P18.2: Effective Barrier Lowering
+**Prediction**: Ea_eff = Ea_0 × (γ/2)^coupling
+**Mechanism**: Correlated environments reduce effective barrier height
+**Test**: Compare activation energies in gas vs solution vs enzyme
+**Falsified if**: Barriers don't decrease with decreasing γ
+
+### P18.3: Non-Arrhenius Curvature
+**Prediction**: Curvature in Arrhenius plot correlates with γ(T) dependence
+**Mechanism**: γ decreases at low T → Enhanced rate above Arrhenius
+**Test**: Measure rates over wide T range for reactions with varying γ
+**Falsified if**: Curvature uncorrelated with γ(T)
+
+### P18.4: Transmission Coefficient
+**Prediction**: κ = 2/γ for reactions with collective motion
+**Mechanism**: Low γ → Coordinated motion → Reduced recrossing
+**Test**: Calculate κ from trajectory simulations, compare to γ
+**Falsified if**: κ independent of correlation structure
+
+### P18.5: Catalytic γ Reduction
+**Prediction**: All catalysts work by reducing γ in transition state region
+**Mechanism**: Correlated environment lowers effective barrier and enhances transmission
+**Test**: Measure correlation lengths in catalyzed vs uncatalyzed reactions
+**Falsified if**: No γ difference between catalyzed/uncatalyzed
+
+---
+
 ## Priority Rankings
 
 ### Tier 1: High Impact, Feasible Now
@@ -706,6 +740,9 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 | Economics | γ = 2/√N_corr | N_corr = correlated agents |
 | Economics | σ_market = σ_individual × (γ/2) | Volatility scaling |
 | Economics | Crash prob ~ exp(-(γ - 0.3)²/σ²) | Crash threshold γ < 0.5 |
+| Kinetics | k_eff = k_TST × (2/γ)^α | α = collectivity exponent |
+| Kinetics | Ea_eff = Ea_0 × (γ/2)^coupling | Effective barrier lowering |
+| Kinetics | κ = 2/γ | Transmission coefficient |
 
 ---
 
@@ -723,6 +760,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 - v1.9 (Session #20): Added Category 15 (Complexity Theory) - 5 new predictions; Edge of chaos is γ ≈ 1
 - v2.0 (Session #21): Added Category 16 (Consciousness) - 5 new predictions; Consciousness as low-γ neural state
 - v2.1 (Session #22): Added Category 17 (Economics) - 5 new predictions; Markets as coherence systems (speculative)
+- v2.2 (Session #23): Added Category 18 (Reaction Kinetics) - 5 new predictions; γ-modified TST, catalysis as γ reduction
 
 ---
 
@@ -730,7 +768,7 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ---
 
-**Document Status**: ACTIVE - EXTENDED TO SOCIAL SYSTEMS (SPECULATIVE)
-**Last Updated**: Chemistry Session #22
-**Predictions Count**: 86 testable claims across 17 categories
-**Framework Status**: UNIFIED - γ bridges quantum mechanics, statistical mechanics, thermodynamics, biology, information theory, complexity, consciousness, AND economics
+**Document Status**: ACTIVE - CORE CHEMISTRY GROUNDED
+**Last Updated**: Chemistry Session #23
+**Predictions Count**: 91 testable claims across 18 categories
+**Framework Status**: UNIFIED - γ bridges kinetics with all previous domains
