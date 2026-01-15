@@ -475,10 +475,13 @@ if __name__ == "__main__":
     print("=" * 70)
 
     # Locate trust network simulation results
-    # Try multiple possible locations
+    # Try multiple possible locations and simulation types
+    import sys
+    simulation_file = sys.argv[1] if len(sys.argv) > 1 else "trust_network_evolution.json"
+
     possible_paths = [
-        Path(__file__).parent.parent.parent / "4-life" / "public" / "trust_network_evolution.json",
-        Path.home() / "ai-workspace" / "4-life" / "public" / "trust_network_evolution.json"
+        Path(__file__).parent.parent.parent / "4-life" / "public" / simulation_file,
+        Path.home() / "ai-workspace" / "4-life" / "public" / simulation_file
     ]
 
     results_path = None
