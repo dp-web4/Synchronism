@@ -1,0 +1,177 @@
+{
+  "simulation_info": {
+    "num_ticks": 30,
+    "num_agents": 5,
+    "num_snapshots": 7,
+    "num_events": 76
+  },
+  "coherence_evolution": {
+    "ticks": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      30
+    ],
+    "network_coherence": [
+      0.3952851056108232,
+      0.39980740517585855,
+      0.39442381757758155,
+      0.3918987269687079,
+      0.3898017725304626,
+      0.3921359376229566,
+      0.3921359376229566
+    ],
+    "gamma": [
+      1.7753546231292516,
+      1.743104,
+      1.6568105733333334,
+      1.6449480137396122,
+      1.6324075552,
+      1.6286269627999999,
+      1.6286269627999999
+    ],
+    "entropy_ratio": [
+      0.8876773115646258,
+      0.871552,
+      0.8284052866666667,
+      0.8224740068698061,
+      0.8162037776,
+      0.8143134813999999,
+      0.8143134813999999
+    ],
+    "d_eff": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "avg_trust": [
+      0.4828571428571428,
+      0.5,
+      0.4816666666666667,
+      0.4747368421052631,
+      0.469,
+      0.47850000000000004,
+      0.47850000000000004
+    ]
+  },
+  "prediction_validation": {
+    "P_THOR_1": {
+      "description": "Network coherence correlates with trust",
+      "correlation": 0.9810585493366679,
+      "validated": true,
+      "threshold": 0.7
+    },
+    "P_THOR_2": {
+      "description": "\u03b3 in valid range [1,2] for S/S\u2080 = \u03b3/2",
+      "gamma_range": [
+        1.6286269627999999,
+        1.7753546231292516
+      ],
+      "validated": true,
+      "threshold": "[1.0, 2.0]"
+    },
+    "P_THOR_3": {
+      "description": "Coalition formation at C ~ 0.5",
+      "avg_coalition_coherence": null,
+      "validated": false,
+      "threshold": "0.5 \u00b1 0.2"
+    },
+    "P_THOR_4": {
+      "description": "Effective dimension d_eff < spatial dimension",
+      "d_eff_range": [
+        0.0,
+        0.0
+      ],
+      "validated": true,
+      "threshold": "< 2.0"
+    },
+    "P_THOR_5": {
+      "description": "Trust cascade events (rapid \u03b3 changes)",
+      "num_cascades": 0,
+      "cascade_ticks": [],
+      "validated": false,
+      "threshold": "> 0"
+    }
+  },
+  "summary_statistics": {
+    "avg_network_coherence": 0.3936412433013353,
+    "final_network_coherence": 0.3921359376229566,
+    "avg_gamma": 1.672839813000314,
+    "final_gamma": 1.6286269627999999,
+    "avg_entropy_ratio": 0.836419906500157,
+    "avg_d_eff": 0.0,
+    "num_coalitions_formed": 0
+  },
+  "snapshots_analyzed": [
+    {
+      "tick": 5,
+      "network_coherence": 0.3952851056108232,
+      "gamma": 1.7753546231292516,
+      "entropy_ratio": 0.8876773115646258,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 10,
+      "network_coherence": 0.39980740517585855,
+      "gamma": 1.743104,
+      "entropy_ratio": 0.871552,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 15,
+      "network_coherence": 0.39442381757758155,
+      "gamma": 1.6568105733333334,
+      "entropy_ratio": 0.8284052866666667,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 20,
+      "network_coherence": 0.3918987269687079,
+      "gamma": 1.6449480137396122,
+      "entropy_ratio": 0.8224740068698061,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 25,
+      "network_coherence": 0.3898017725304626,
+      "gamma": 1.6324075552,
+      "entropy_ratio": 0.8162037776,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 30,
+      "network_coherence": 0.3921359376229566,
+      "gamma": 1.6286269627999999,
+      "entropy_ratio": 0.8143134813999999,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    },
+    {
+      "tick": 30,
+      "network_coherence": 0.3921359376229566,
+      "gamma": 1.6286269627999999,
+      "entropy_ratio": 0.8143134813999999,
+      "d_eff": 0.0,
+      "num_coalitions": 0,
+      "coalition_coherences": []
+    }
+  ]
+}
