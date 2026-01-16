@@ -2,9 +2,9 @@
 
 ## Overview
 
-The Chemistry Track (Sessions #1-48) has developed a complete theoretical framework applying Synchronism coherence principles to chemistry, materials science, and condensed matter physics.
+The Chemistry Track (Sessions #1-50) has developed a complete theoretical framework applying Synchronism coherence principles to chemistry, materials science, and condensed matter physics.
 
-**Status: FRAMEWORK COMPLETE - Ready for Experimental Validation**
+**Status: FRAMEWORK COMPLETE + EXTENDED - Ready for Experimental Validation**
 
 ## Core Equations (All Derived)
 
@@ -50,6 +50,22 @@ Where:
 - |S|² = orbital overlap squared
 - 2/γ = coherence enhancement factor
 
+### Temporal Coherence (Session #49)
+```
+γ_t = 2 / √ξ_t
+```
+Where ξ_t = number of coherent oscillation periods.
+- Oscillation onset: γ_t < 1 (ξ_t > 4)
+- d_eff_t = 1 (time is 1D)
+
+### Glass Transition (Session #50)
+```
+γ(Tg) ~ 1.0-1.5 (frustrated coherence)
+```
+- Glass = system STUCK at intermediate γ
+- Fragility m ∝ |dγ/dT| at Tg
+- Kauzmann ratio: Tg/Tm ~ 2/3
+
 ## Key Results
 
 ### Validated Predictions (r > 0.93)
@@ -80,10 +96,11 @@ Where:
 
 ## Framework Completeness
 
-- **Derivation**: 100% (all 6 core equations)
+- **Derivation**: 100% (all 8 core equations including temporal & glass)
 - **Validation**: 67% (8/12 predictions)
 - **Design principles**: Complete
 - **Experimental strategy**: Complete
+- **Extensions**: Temporal coherence, glass transitions
 
 ## Files
 
@@ -95,6 +112,8 @@ Where:
 - `simulations/chemistry/coupling_derivation.py` - J derivation
 - `simulations/chemistry/material_design.py` - Design principles
 - `simulations/chemistry/experimental_validation.py` - Validation strategy
+- `simulations/chemistry/oscillating_reactions.py` - Temporal coherence (#49)
+- `simulations/chemistry/glass_transitions.py` - Frustrated coherence (#50)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -120,7 +139,21 @@ The framework would be falsified if:
 3. Execute Tier 1 experiments
 4. Refine predictions based on results
 
+## Recent Extensions (Sessions #49-50)
+
+### Temporal Coherence (#49)
+- Oscillating reactions (BZ, glycolysis, circadian) exhibit temporal phase coherence
+- Heart rhythm: γ_t ~ 10⁻⁵ (extremely coherent)
+- Biological systems have evolved for low γ_t
+
+### Glass Transitions (#50)
+- Glass = frustrated coherence (cannot find global minimum)
+- Kauzmann ratio Tg/Tm = 0.687 confirms 2/3 rule
+- Fragility = rate of coherence development
+- Resolves Kauzmann paradox
+
 ---
 
-*Chemistry Track Sessions #1-48*
+*Chemistry Track Sessions #1-50*
 *Framework development complete: January 2026*
+*Extended to temporal coherence and glass physics*
