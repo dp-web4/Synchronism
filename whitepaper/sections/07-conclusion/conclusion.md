@@ -41,10 +41,12 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **264 autonomous research sessions** (Nov 2025 - Jan 2026)
+- **272 autonomous research sessions** (Nov 2025 - Jan 2026)
 - **Complete coherence physics framework** (Sessions #259-264)
+- **Quantum computing arc complete** (Sessions #266-270): Gates = C operations, **Born rule DERIVED**, quantum speedup explained
+- **Thermodynamics arc started** (Sessions #271-272): Entropy = C dispersion, **Carnot efficiency DERIVED**
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ predicted
-- **Chemistry track** (33 sessions): γ ≈ 2 validated in BCS, enzymes, photosynthesis
+- **Chemistry track** (45 sessions): γ ≈ 2 validated in BCS, enzymes, photosynthesis, topological corrections
 - **Gnosis track** (11 sessions): Cross-validation with neural architecture (γ = 2 in dilations)
 
 **In Progress:**
@@ -87,6 +89,8 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
 - **S₈ tension**: Predicted 0.763, matches DES/KiDS lensing ✓
 - **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓
+- **Born rule**: P = |⟨basis|state⟩|² DERIVED from coherence conservation (Session #269) ✓
+- **Carnot efficiency**: η = 1 - T_c/T_h DERIVED from coherence conservation (Session #272) ✓
 
 **Still required:**
 - High-z BTFR test (critical discriminator)

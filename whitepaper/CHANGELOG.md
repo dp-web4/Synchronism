@@ -10,6 +10,14 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-01-16] [Research Integration] Sections 0, 5.12, 7 - Integrated Sessions #265-272 + Chemistry #34-45 (#research-integration-004)
+  - **Executive Summary (0)**: Updated session count (264→272), Chemistry count (33→45), added QC arc completion and Thermodynamics arc start
+  - **Quantum Computing Arc (Sessions #266-270)**: Gates = coherence operations, Born rule DERIVED from coherence conservation, quantum speedup (√N Grover) explained as coherent parallelism
+  - **Thermodynamics Arc (Sessions #271-272)**: Entropy = coherence dispersion, Carnot efficiency DERIVED from coherence conservation, heat engines as coherence gradient exploiters
+  - **Chemistry Section (5.12)**: Updated session count (33→45), added Advanced phase (Sessions #34-45) covering multi-proton α, cuprate gaps, entropy, topological corrections, γ(T)
+  - **Conclusion (7)**: Updated session count (272), added QC and Thermodynamics arcs to completed work, added Born rule and Carnot derivations to validation progress
+  - **Key achievements**: Two fundamental physics results DERIVED (Born rule, Carnot efficiency) from coherence conservation
+
 - [2026-01-14] [Research Integration] Sections 0, 5.12, 5.15, 7 - Integrated Sessions #246-264 + Chemistry #1-33 + Gnosis #1-11 (#research-integration-003)
   - **Executive Summary (0)**: Updated research progress to Jan 2026, added complete coherence physics framework (Sessions #259-264), chemistry track (33 sessions), and Gnosis cross-validation
   - **Chemistry Section (5.12)**: Expanded from 5 to 33 sessions, added biological coherence (enzymes, photosynthesis), reaction kinetics as γ reduction, validation track progress

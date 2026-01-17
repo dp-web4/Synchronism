@@ -107,10 +107,12 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 **Research Progress (Jan 2026):**
 
 - **Complete Coherence Physics (Sessions #259-264):** Unified framework achieved—Matter = Topology (solitons), Gravity = Geometry (metric coupling), Quantum = Dynamics (C flow). Three pillars from single coherence field.
+- **Quantum Computing Arc (Sessions #266-270):** Complete framework achieved—Gates = coherence operations, qubits = coherence partition. **Born rule DERIVED** from coherence conservation (not postulated). Quantum speedup (√N Grover) explained as coherent parallelism. Decoherence thresholds quantified.
+- **Thermodynamics Arc (Sessions #271-272):** Entropy = coherence dispersion, Temperature = coherence exchange rate. **Carnot efficiency η = 1 - T_c/T_h DERIVED** from coherence conservation. Second Law as coherence statistics. Heat engines as coherence gradient exploiters.
 - **Dark matter/energy:** Coherence model tested on 175 SPARC galaxies (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ = (1 - Ω_m) DERIVED from coherence floor. S₈ = 0.763 predicted, matching lensing surveys. See [Section 5.15](#dark-matter-dark-energy-and-coherence).
-- **Chemistry track (33 sessions):** γ ≈ 2 validated across superconductivity, enzymes, and photosynthetic coherence. Catalysis = γ reduction. See [Section 5.12](#chemistry).
+- **Chemistry track (45 sessions):** γ ≈ 2 validated across superconductivity, enzymes, and photosynthetic coherence. Catalysis = γ reduction. Novel material predictions. Framework extended to topological corrections and temperature dependence. See [Section 5.12](#chemistry).
 - **Cross-domain validation:** The Gnosis self-awareness architecture (arXiv:2512.20578) independently uses γ = 2 (dilations [1,2,4]) and φ decay in gates—same coherence physics appearing in neural architectures without explicit design.
-- **Status:** Promising empirical validation but 46% SPARC failure rate in massive galaxies. 15 physics predictions, 6 high testability, 3 confirmed. Not claiming "solved"—mechanism tested, boundaries identified.
+- **Status (272 sessions):** Promising empirical validation but 46% SPARC failure rate in massive galaxies. 15 physics predictions, 6 high testability, 3 confirmed. Two fundamental results DERIVED (Born rule, Carnot limit). Not claiming "solved"—mechanism tested, boundaries identified.
 
 Full documentation: [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts), [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research), [Chemistry track](https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry), and [Gnosis track](https://github.com/dp-web4/Synchronism/tree/main/Research/Gnosis).
 
