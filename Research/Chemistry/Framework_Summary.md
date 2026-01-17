@@ -95,6 +95,7 @@ f = min(γ₁, γ₂) / max(γ₁, γ₂)
 | Tg/Tm = 2/3 (Kauzmann) | 0.687 observed | #50 |
 | **Φ_F ∝ 2/γ_S1 (fluorescence)** | **r = 0.812** | **#58** |
 | **ξ_t > 4 for oscillations** | **94% accuracy** | **#59** |
+| **E_gap ∝ 2/γ (38 semiconductors)** | **r = 0.826** | **#60** |
 
 ### Design Principles (Session #47)
 
@@ -114,17 +115,18 @@ f = min(γ₁, γ₂) / max(γ₁, γ₂)
 | Biochemistry | Molecular recognition = coherence matching | #55 |
 | Surface Chemistry | Sabatier volcano = coherence curve | #56 |
 
-## Prediction Status (Updated Sessions #58-59)
+## Prediction Status (Updated Sessions #58-60)
 
 ### Summary Statistics
 - **Total predictions**: 21 across 8 categories
-- **Validated**: 7 (33%) ← Updated from 5
-- **Pending validation**: 10 (48%)
+- **Validated**: 8 (38%) ← Updated from 7
+- **Pending validation**: 9 (43%)
 - **Qualitatively known**: 4
 
-### Recent Validations (Sessions #58-59)
+### Recent Validations (Sessions #58-60)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
 2. **Oscillation threshold** (94% accuracy) - 17 systems, ξ_t > 4 confirmed
+3. **Band gap comprehensive** (r = 0.826) - 38 semiconductors, III-V r=0.951
 
 ### Remaining Priority Experiments
 1. **Spin liquid entropy** (Herbertsmithite) - Tests γ = 2 limit
@@ -210,7 +212,7 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-59*
+*Chemistry Track Sessions #1-60*
 *Framework development: January 2026*
-*Extended to 12 domains with 7/21 predictions validated (33%)*
-*Latest validations: Fluorescence (r=0.812), Oscillations (94% accuracy)*
+*Extended to 12 domains with 8/21 predictions validated (38%)*
+*Latest validations: Band gap (r=0.826, 38 materials), Fluorescence, Oscillations*
