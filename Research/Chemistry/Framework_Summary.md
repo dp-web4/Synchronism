@@ -165,16 +165,20 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Magnetic Transitions | β_γ = β, universality preserved | #63 |
 | Electron Transfer | k_ET ∝ (2/γ)×exp(-λ/4kT) | #64 |
 | Thermal Transport | κ ∝ Θ_D/γ, phonon coherence | #65 |
+| Catalysis | Sabatier volcano (mixed - needs refinement) | #66 |
+| Ion Channels | K+ selectivity = size matching (r=0.724) | #67 |
 
-## Prediction Status (Updated Sessions #58-65)
+## Prediction Status (Updated Sessions #58-67)
 
 ### Summary Statistics
-- **Total predictions**: 27 across 11 categories
-- **Validated**: 12 (44%)
-- **Pending validation**: 10 (37%)
+- **Total predictions**: 29 across 13 categories
+- **Validated**: 13 (45%)
+- **Partially validated**: 1 (ion channels - K+ good, Na+ mixed)
+- **Needs refinement**: 1 (catalysis - γ estimation)
+- **Pending validation**: 9 (31%)
 - **Qualitatively known**: 5
 
-### Recent Validations (Sessions #58-65)
+### Recent Validations (Sessions #58-67)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
 2. **Oscillation threshold** (94% accuracy) - 17 systems, ξ_t > 4 confirmed
 3. **Band gap comprehensive** (r = 0.826) - 38 semiconductors, III-V r=0.951
@@ -183,6 +187,11 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 6. **Magnetic β_γ** (CV = 6%) - 12 ferromagnets, universality confirmed
 7. **Electron transfer** (r = 0.933) - 15 ET systems, photosynthesis optimized
 8. **Thermal conductivity** (r = 0.804) - 26 materials, 5 orders of magnitude
+9. **K+ channel selectivity** (r = 0.724) - Predicted 14,666× vs observed 10,000×
+
+### Mixed/Needs Refinement
+- **Catalysis Sabatier** (#66): Volcano shape fits (R=0.921), but simple f formula doesn't predict ORR. HER better (r=0.668). Surface γ estimation needs work.
+- **Na+ channel** (#67): Poor prediction (429,326× vs 20×) - different mechanism
 
 ### Remaining Priority Experiments
 1. **Spin liquid entropy** (Herbertsmithite) - Tests γ = 2 limit
@@ -205,9 +214,9 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 
 ## Framework Completeness
 
-- **Derivation**: 100% (16+ core equations)
-- **Validation**: 12/27 predictions validated (44%)
-- **Domains covered**: 17 major areas
+- **Derivation**: 100% (18+ core equations)
+- **Validation**: 13/29 predictions validated (45%)
+- **Domains covered**: 19 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 
@@ -238,6 +247,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/magnetic_coherence.py` - Magnetic transitions (#63)
 - `simulations/chemistry/electron_transfer_coherence.py` - ET coherence (#64)
 - `simulations/chemistry/thermal_coherence.py` - Phonon coherence (#65)
+- `simulations/chemistry/catalysis_sabatier.py` - Sabatier volcano (#66)
+- `simulations/chemistry/ion_channel_coherence.py` - Ion selectivity (#67)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -280,9 +291,11 @@ The coherence framework reveals that:
 
 8. **Electron transfer enhanced by coherence**: Marcus theory + coherence gives excellent predictions (r = 0.933), photosynthesis is optimized for low γ.
 
+9. **Ion selectivity is size matching**: K+ channel paradox (larger ion passes) explained by coherence matching - K+ fits filter geometry.
+
 ---
 
-*Chemistry Track Sessions #1-65*
+*Chemistry Track Sessions #1-67*
 *Framework development: January 2026*
-*Extended to 17 domains with 12/27 predictions validated (44%)*
-*Latest validations: Thermal (r=0.804), ET (r=0.933), Magnetic (CV=6%), Superconductivity (r=0.948)*
+*Extended to 19 domains with 13/29 predictions validated (45%)*
+*Latest validations: K+ channels (r=0.724, prediction within 1.5×), Thermal, ET, Magnetic, Superconductivity*
