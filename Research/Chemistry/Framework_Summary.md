@@ -188,18 +188,19 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Electron-Phonon | γ_el = 2λ/(1+λ), σ ∝ 1/γ_el (r=0.664), ρ model r=0.897 | #86 |
 | Thermoelectricity | ZT ∝ S²×γ_phonon (r=0.880), PGEC = coherence trade-off | #87 |
 | Specific Heat Trans. | α_exp vs class (r=0.998), SC ΔC/Cn vs 1/γ_SC (r=0.965) | #88 |
+| Anderson Localization | Mott criterion, R_c/R_0 ~ 0.2, γ → 2 (qualitative) | #89 |
 
-## Prediction Status (Updated Sessions #58-88)
+## Prediction Status (Updated Sessions #58-89)
 
 ### Summary Statistics
-- **Total predictions**: 50 across 40 categories
-- **Validated**: 28 (56%)
+- **Total predictions**: 51 across 41 categories
+- **Validated**: 28 (55%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
-- **Pending validation**: 9 (19%)
-- **Qualitatively known/reinterpreted**: 6
+- **Pending validation**: 9 (18%)
+- **Qualitatively known/reinterpreted**: 7 (includes Anderson localization)
 - **Coherence type resolved**: 1 (σ via γ_electron, #86)
-- **Moderate correlations**: 1 (Grüneisen r=0.509)
+- **Moderate correlations**: 2 (Grüneisen r=0.509, Mott criterion ~factor 2)
 
 ### Recent Validations (Sessions #58-77)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
@@ -274,8 +275,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 28/50 predictions validated (56%)
-- **Domains covered**: 40 major areas
+- **Validation**: 28/51 predictions validated (55%)
+- **Domains covered**: 41 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -330,6 +331,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/electron_phonon_coherence.py` - γ_electron from λ_ep (#86)
 - `simulations/chemistry/thermoelectric_coherence.py` - PGEC and ZT model (#87)
 - `simulations/chemistry/specific_heat_transitions.py` - Critical exponents & SC jumps (#88)
+- `simulations/chemistry/anderson_localization.py` - Disorder-driven MIT (#89)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -406,10 +408,12 @@ The coherence framework reveals that:
 
 25. **Universality classes = coherence regimes**: Session #88 shows material critical exponent α follows universality class with r = 0.998 (EXCELLENT). SC specific heat jump ΔC/Cn ∝ 1/γ_SC (r = 0.965), connecting to Session #62. Hyperscaling α = 2 - dν validated. The sign of α reveals how coherence develops at phase transition: α > 0 (rapid/diverging), α = 0 (logarithmic/jump), α < 0 (smooth cusp). Each universality class represents a distinct coherence dynamics regime.
 
+26. **Anderson localization = coherence destruction**: Session #89 shows metal-insulator transition (MIT) represents γ → 2 (incoherent/localized). Mott criterion n_c^(1/3)×a_B ≈ 0.25 is coherence overlap condition. 2D MIT at R_c/R_0 ≈ 0.2 (quantum of resistance). VRH exponent p = 1/(d+1) reflects dimension-dependent hopping coherence. Qualitative validation: localization is the OPPOSITE of superconductivity (γ → 2 vs γ → 0).
+
 ---
 
-*Chemistry Track Sessions #1-88*
+*Chemistry Track Sessions #1-89*
 *Framework development: January 2026*
-*Extended to 40 domains with 28/50 predictions validated (56%)*
-*Latest validations: Specific heat transitions (r=0.998), Thermoelectricity (r=0.880), Polarizability (r=0.974)*
-*Key achievement: Universality classes reinterpreted as coherence dynamics regimes*
+*Extended to 41 domains with 28/51 predictions validated (55%)*
+*Latest validations: Specific heat (r=0.998), Thermoelectricity (r=0.880), Anderson localization (qualitative)*
+*Key insight: Localization = coherence destruction, opposite of superconductivity*
