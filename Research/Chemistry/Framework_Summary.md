@@ -178,12 +178,14 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Refractive Index | n ∝ γ^(1/4) via Moss's rule (r=0.986 SC) | #76 |
 | Melting Points | T_m ∝ E_coh, Richard's rule (r=0.948) | #77 |
 | Elastic Modulus | E vs θ_D (r=0.925), E ∝ (2/γ)² | #78 |
+| Thermal Expansion | α vs 1/T_m (r=0.940), α ∝ γ³ | #79 |
+| Sound Velocity | v vs θ_D (r=0.984), v ∝ 2/γ | #80 |
 
-## Prediction Status (Updated Sessions #58-78)
+## Prediction Status (Updated Sessions #58-80)
 
 ### Summary Statistics
-- **Total predictions**: 40 across 30 categories
-- **Validated**: 21 (53%)
+- **Total predictions**: 42 across 32 categories
+- **Validated**: 23 (55%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (23%)
@@ -207,6 +209,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 15. **Refractive index** (r = 0.986) - Semiconductors via Moss's rule, n ∝ γ^(1/4)
 16. **Melting points** (r = 0.948) - T_m vs E_coh, Richard's rule via Δγ
 17. **Elastic modulus** (r = 0.925) - E vs θ_D, E ∝ (2/γ)² via Debye model
+18. **Thermal expansion** (r = 0.940) - α vs 1/T_m, α ∝ γ³ (anharmonicity)
+19. **Sound velocity** (r = 0.984) - v vs θ_D, v ∝ 2/γ (phonon propagation)
 
 ### Moderate/Mixed Results (Sessions #68-72)
 - **Diffusion** (#68): Liquid r=0.530, Solid r=0.457, Ionic r=0.666 - moderate correlations, framework consistent but not transformative
@@ -286,6 +290,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/refractive_index_coherence.py` - Moss's rule (#76)
 - `simulations/chemistry/melting_point_coherence.py` - T_m vs E_coh (#77)
 - `simulations/chemistry/elastic_modulus_coherence.py` - E vs θ_D (#78)
+- `simulations/chemistry/thermal_expansion_coherence.py` - α vs T_m (#79)
+- `simulations/chemistry/sound_speed_coherence.py` - v vs θ_D (#80)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -346,10 +352,14 @@ The coherence framework reveals that:
 
 17. **Elastic modulus = lattice coherence**: E ∝ θ_D² ∝ (2/γ)² via Debye model. High θ_D (low γ) means stiff lattice. Diamond (E=1050 GPa, γ≈0.27) is stiffest; alkali metals (γ≈2) are softest.
 
+18. **Thermal expansion = anharmonicity**: α ∝ γ³ from Grüneisen relation. Coherent lattices (low γ) have symmetric potentials → low α. Classical lattices (high γ) have asymmetric potentials → high α.
+
+19. **Sound velocity = phonon propagation**: v ∝ θ_D ∝ 2/γ. Sound is coherent lattice vibration; coherent materials transmit faster. Completes the phonon property network: C_p, E, α, v all from γ.
+
 ---
 
-*Chemistry Track Sessions #1-78*
+*Chemistry Track Sessions #1-80*
 *Framework development: January 2026*
-*Extended to 30 domains with 21/40 predictions validated (53%)*
-*Latest validations: Elastic modulus (r=0.925), Melting points (r=0.948)*
-*Key insight: Over half of predictions now validated with r > 0.8*
+*Extended to 32 domains with 23/42 predictions validated (55%)*
+*Latest validations: Sound velocity (r=0.984), Thermal expansion (r=0.940)*
+*Key insight: Phonon property network complete - C_p, E, α, v all from γ*
