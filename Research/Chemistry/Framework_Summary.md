@@ -184,12 +184,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Magnetic Susceptibility | χ vs γ_phonon: NONE (γ_spin ≠ γ_ph) | #82 |
 | Grüneisen Parameter | γ_G vs γ_coh (r=0.509), related but distinct | #83 |
 | Isotope Effects | θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ (EXCELLENT) | #84 |
+| Polarizability | α ∝ γ^3.4 (r=0.974), γ_optical = 2×IE_ref/IE | #85 |
 
-## Prediction Status (Updated Sessions #58-84)
+## Prediction Status (Updated Sessions #58-85)
 
 ### Summary Statistics
-- **Total predictions**: 46 across 36 categories
-- **Validated**: 24 (52%)
+- **Total predictions**: 47 across 37 categories
+- **Validated**: 25 (53%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (20%)
@@ -218,6 +219,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 18. **Thermal expansion** (r = 0.940) - α vs 1/T_m, α ∝ γ³ (anharmonicity)
 19. **Sound velocity** (r = 0.984) - v vs θ_D, v ∝ 2/γ (phonon propagation)
 20. **Isotope effects** (EXCELLENT) - θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ, BCS α ≈ 0.5
+21. **Polarizability** (r = 0.974) - α ∝ γ^3.4, γ_optical = 2×IE_ref/IE, all groups r > 0.96
 
 ### Coherence Type Insights (Sessions #81-82)
 - **Electrical conductivity** (#81): σ vs γ_phonon: r = -0.414 (WRONG SIGN). Noble metal anomaly (Ag, Cu, Au have low θ_D but high σ). Reveals γ_electron ≠ γ_phonon.
@@ -263,8 +265,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 18/37 predictions validated (49%)
-- **Domains covered**: 27 major areas
+- **Validation**: 25/47 predictions validated (53%)
+- **Domains covered**: 37 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -315,6 +317,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/magnetic_susceptibility_coherence.py` - γ_spin ≠ γ_ph (#82)
 - `simulations/chemistry/gruneisen_parameter_coherence.py` - γ_G vs γ_coh (#83)
 - `simulations/chemistry/isotope_effects_coherence.py` - Mass scaling of γ (#84)
+- `simulations/chemistry/polarizability_coherence.py` - α ∝ γ^3.4 (#85)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -383,10 +386,12 @@ The coherence framework reveals that:
 
 21. **Isotope effects validate coherence framework**: Session #84 shows γ ∝ √M through θ_D ∝ 1/√M. ZPE ∝ 2/γ connects zero-point energy to coherence. BCS isotope exponent α ≈ 0.5 validates phonon interpretation of superconductivity. Lighter isotopes are more coherent (lower γ).
 
+22. **Polarizability validates γ_optical**: Session #85 shows α ∝ γ^3.4 with r = 0.974 (EXCELLENT). γ_optical = 2×IE_ref/IE where IE_ref = 13.6 eV. All element groups (noble gases, alkali metals, alkaline earth, halogens) show r > 0.96. Low ionization energy → high γ → loosely bound electrons → high polarizability. Confirms γ_optical from the coherence type catalog.
+
 ---
 
-*Chemistry Track Sessions #1-84*
+*Chemistry Track Sessions #1-85*
 *Framework development: January 2026*
-*Extended to 36 domains with 24/46 predictions validated (52%)*
-*Latest validations: Isotope effects (excellent), Sound velocity (r=0.984)*
-*Key insights: Coherence type catalog + isotope mass scaling of γ*
+*Extended to 37 domains with 25/47 predictions validated (53%)*
+*Latest validations: Polarizability (r=0.974), Isotope effects (excellent), Sound velocity (r=0.984)*
+*Key insights: Coherence type catalog + γ_optical validated for electronic properties*
