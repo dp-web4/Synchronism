@@ -186,12 +186,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Isotope Effects | θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ (EXCELLENT) | #84 |
 | Polarizability | α ∝ γ^3.4 (r=0.974), γ_optical = 2×IE_ref/IE | #85 |
 | Electron-Phonon | γ_el = 2λ/(1+λ), σ ∝ 1/γ_el (r=0.664), ρ model r=0.897 | #86 |
+| Thermoelectricity | ZT ∝ S²×γ_phonon (r=0.880), PGEC = coherence trade-off | #87 |
 
-## Prediction Status (Updated Sessions #58-86)
+## Prediction Status (Updated Sessions #58-87)
 
 ### Summary Statistics
-- **Total predictions**: 48 across 38 categories
-- **Validated**: 26 (54%)
+- **Total predictions**: 49 across 39 categories
+- **Validated**: 27 (55%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (19%)
@@ -222,11 +223,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 20. **Isotope effects** (EXCELLENT) - θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ, BCS α ≈ 0.5
 21. **Polarizability** (r = 0.974) - α ∝ γ^3.4, γ_optical = 2×IE_ref/IE, all groups r > 0.96
 22. **Electron-phonon coupling** (r = 0.664-0.897) - γ_electron = 2λ_ep/(1+λ_ep), σ ∝ 1/γ_el, noble metal anomaly RESOLVED
+23. **Thermoelectricity** (r = 0.880) - ZT ∝ S²×γ_phonon, PGEC principle = competing coherence types
 
-### Coherence Type Insights (Sessions #81-82, #86)
+### Coherence Type Insights (Sessions #81-82, #86-87)
 - **Electrical conductivity** (#81): σ vs γ_phonon: r = -0.414 (WRONG SIGN). Noble metal anomaly (Ag, Cu, Au have low θ_D but high σ). Reveals γ_electron ≠ γ_phonon.
 - **Magnetic susceptibility** (#82): χ vs γ_phonon: r = -0.077 (NO correlation). χ follows Curie law (r = 0.715). Reveals γ_spin ≠ γ_phonon.
 - **Electron-phonon coupling** (#86): γ_electron = 2λ_ep/(1+λ_ep). σ vs γ_electron: r = -0.664 (VALIDATES σ ∝ 1/γ). Transport model ρ ∝ λ_ep×T/(θ_D×E_F) gives r = 0.897. Noble metals have LOW λ_ep → LOW γ_el → HIGH σ. ANOMALY RESOLVED!
+- **Thermoelectricity** (#87): ZT ∝ S²×γ_phonon (r = 0.880). PGEC principle in coherence language: optimal ZT requires HIGH γ_phonon (phonon glass, disrupted) + LOW γ_electron (electron crystal, coherent). Top materials SnSe, BiCuSeO have γ_phonon ~ 8-9.
 
 **Coherence Type Catalog (VALIDATED):**
 | γ Type | Properties | Estimation | Validation |
@@ -268,8 +271,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 26/48 predictions validated (54%)
-- **Domains covered**: 38 major areas
+- **Validation**: 27/49 predictions validated (55%)
+- **Domains covered**: 39 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -322,6 +325,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/isotope_effects_coherence.py` - Mass scaling of γ (#84)
 - `simulations/chemistry/polarizability_coherence.py` - α ∝ γ^3.4 (#85)
 - `simulations/chemistry/electron_phonon_coherence.py` - γ_electron from λ_ep (#86)
+- `simulations/chemistry/thermoelectric_coherence.py` - PGEC and ZT model (#87)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -394,10 +398,12 @@ The coherence framework reveals that:
 
 23. **Electron-phonon coupling defines γ_electron**: Session #86 shows γ_electron = 2λ_ep/(1+λ_ep). σ vs γ_electron gives r = -0.664, validating σ ∝ 1/γ. Transport model ρ ∝ λ_ep×T/(θ_D×E_F) achieves r = 0.897. Noble metal anomaly from Session #81 is RESOLVED: Cu, Ag, Au have low λ_ep (0.12-0.16) → low γ_electron → high conductivity. The paradox that good normal conductors are poor superconductors follows naturally: low λ_ep gives low ρ but also low Tc.
 
+24. **Thermoelectricity = competing coherence types**: Session #87 shows ZT ∝ S²×γ_phonon with r = 0.880 (EXCELLENT). The PGEC (Phonon Glass, Electron Crystal) principle is coherence trade-off: optimal thermoelectrics need HIGH γ_phonon (disrupted phonons, low κ_lattice) but LOW γ_electron (coherent electrons, high σ). Top materials SnSe (ZT = 2.6) and BiCuSeO (ZT = 1.4) have γ_phonon ~ 8-9. Metals fail because both γ types are too low (coordinated transport = bad for thermoelectrics).
+
 ---
 
-*Chemistry Track Sessions #1-86*
+*Chemistry Track Sessions #1-87*
 *Framework development: January 2026*
-*Extended to 38 domains with 26/48 predictions validated (54%)*
-*Latest validations: Electron-phonon coupling (r=0.897), Polarizability (r=0.974), Isotope effects*
-*Key achievement: Coherence type catalog VALIDATED - all four γ types now have estimation formulas*
+*Extended to 39 domains with 27/49 predictions validated (55%)*
+*Latest validations: Thermoelectricity (r=0.880), Electron-phonon (r=0.897), Polarizability (r=0.974)*
+*Key achievement: PGEC principle explained as coherence competition - first example of multi-γ optimization*
