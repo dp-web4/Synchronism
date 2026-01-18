@@ -263,6 +263,11 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/thermal_coherence.py` - Phonon coherence (#65)
 - `simulations/chemistry/catalysis_sabatier.py` - Sabatier volcano (#66)
 - `simulations/chemistry/ion_channel_coherence.py` - Ion selectivity (#67)
+- `simulations/chemistry/diffusion_coherence.py` - Transport coefficients (#68)
+- `simulations/chemistry/bond_coherence.py` - Bond strength (mixed) (#69)
+- `simulations/chemistry/reaction_kinetics_coherence.py` - E_a and rates (#70)
+- `simulations/chemistry/solubility_coherence.py` - Like dissolves like (#71)
+- `simulations/chemistry/redox_coherence.py` - Reduction potentials (#72)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -307,9 +312,16 @@ The coherence framework reveals that:
 
 9. **Ion selectivity is size matching**: K+ channel paradox (larger ion passes) explained by coherence matching - K+ fits filter geometry.
 
+10. **Solubility is coherence matching**: "Like dissolves like" means γ_solute ≈ γ_solvent. Hildebrand parameters ARE coherence parameters.
+
+11. **Electronegativity IS coherence**: EN measures how tightly atoms hold electrons = electronic coherence. The framework reveals EN has always been a coherence parameter.
+
+12. **γ estimation must be independent**: Session #70 revealed that correlations are meaningless if γ is derived from the quantity being tested. Proper validation requires independent γ estimation.
+
 ---
 
-*Chemistry Track Sessions #1-67*
+*Chemistry Track Sessions #1-72*
 *Framework development: January 2026*
-*Extended to 19 domains with 13/29 predictions validated (45%)*
-*Latest validations: K+ channels (r=0.724, prediction within 1.5×), Thermal, ET, Magnetic, Superconductivity*
+*Extended to 24 domains with 15/34 predictions validated (44%)*
+*Latest validations: Solubility (r=-0.809), Redox (r=0.961)*
+*Key methodological lesson: γ must be estimated independently of test quantity*
