@@ -187,12 +187,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Polarizability | α ∝ γ^3.4 (r=0.974), γ_optical = 2×IE_ref/IE | #85 |
 | Electron-Phonon | γ_el = 2λ/(1+λ), σ ∝ 1/γ_el (r=0.664), ρ model r=0.897 | #86 |
 | Thermoelectricity | ZT ∝ S²×γ_phonon (r=0.880), PGEC = coherence trade-off | #87 |
+| Specific Heat Trans. | α_exp vs class (r=0.998), SC ΔC/Cn vs 1/γ_SC (r=0.965) | #88 |
 
-## Prediction Status (Updated Sessions #58-87)
+## Prediction Status (Updated Sessions #58-88)
 
 ### Summary Statistics
-- **Total predictions**: 49 across 39 categories
-- **Validated**: 27 (55%)
+- **Total predictions**: 50 across 40 categories
+- **Validated**: 28 (56%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (19%)
@@ -224,12 +225,14 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 21. **Polarizability** (r = 0.974) - α ∝ γ^3.4, γ_optical = 2×IE_ref/IE, all groups r > 0.96
 22. **Electron-phonon coupling** (r = 0.664-0.897) - γ_electron = 2λ_ep/(1+λ_ep), σ ∝ 1/γ_el, noble metal anomaly RESOLVED
 23. **Thermoelectricity** (r = 0.880) - ZT ∝ S²×γ_phonon, PGEC principle = competing coherence types
+24. **Specific heat transitions** (r = 0.965-0.998) - Universality classes validated, SC ΔC/Cn ∝ 1/γ_SC
 
-### Coherence Type Insights (Sessions #81-82, #86-87)
+### Coherence Type Insights (Sessions #81-82, #86-88)
 - **Electrical conductivity** (#81): σ vs γ_phonon: r = -0.414 (WRONG SIGN). Noble metal anomaly (Ag, Cu, Au have low θ_D but high σ). Reveals γ_electron ≠ γ_phonon.
 - **Magnetic susceptibility** (#82): χ vs γ_phonon: r = -0.077 (NO correlation). χ follows Curie law (r = 0.715). Reveals γ_spin ≠ γ_phonon.
 - **Electron-phonon coupling** (#86): γ_electron = 2λ_ep/(1+λ_ep). σ vs γ_electron: r = -0.664 (VALIDATES σ ∝ 1/γ). Transport model ρ ∝ λ_ep×T/(θ_D×E_F) gives r = 0.897. Noble metals have LOW λ_ep → LOW γ_el → HIGH σ. ANOMALY RESOLVED!
 - **Thermoelectricity** (#87): ZT ∝ S²×γ_phonon (r = 0.880). PGEC principle in coherence language: optimal ZT requires HIGH γ_phonon (phonon glass, disrupted) + LOW γ_electron (electron crystal, coherent). Top materials SnSe, BiCuSeO have γ_phonon ~ 8-9.
+- **Specific heat transitions** (#88): Material α_exp vs universality class: r = 0.998 (EXCELLENT). SC ΔC/Cn ∝ 1/γ_SC (r = 0.965). Universality classes = coherence regimes: α > 0 (rapid onset), α < 0 (smooth onset), α = 0 (logarithmic or jump).
 
 **Coherence Type Catalog (VALIDATED):**
 | γ Type | Properties | Estimation | Validation |
@@ -271,8 +274,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 27/49 predictions validated (55%)
-- **Domains covered**: 39 major areas
+- **Validation**: 28/50 predictions validated (56%)
+- **Domains covered**: 40 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -326,6 +329,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/polarizability_coherence.py` - α ∝ γ^3.4 (#85)
 - `simulations/chemistry/electron_phonon_coherence.py` - γ_electron from λ_ep (#86)
 - `simulations/chemistry/thermoelectric_coherence.py` - PGEC and ZT model (#87)
+- `simulations/chemistry/specific_heat_transitions.py` - Critical exponents & SC jumps (#88)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -400,10 +404,12 @@ The coherence framework reveals that:
 
 24. **Thermoelectricity = competing coherence types**: Session #87 shows ZT ∝ S²×γ_phonon with r = 0.880 (EXCELLENT). The PGEC (Phonon Glass, Electron Crystal) principle is coherence trade-off: optimal thermoelectrics need HIGH γ_phonon (disrupted phonons, low κ_lattice) but LOW γ_electron (coherent electrons, high σ). Top materials SnSe (ZT = 2.6) and BiCuSeO (ZT = 1.4) have γ_phonon ~ 8-9. Metals fail because both γ types are too low (coordinated transport = bad for thermoelectrics).
 
+25. **Universality classes = coherence regimes**: Session #88 shows material critical exponent α follows universality class with r = 0.998 (EXCELLENT). SC specific heat jump ΔC/Cn ∝ 1/γ_SC (r = 0.965), connecting to Session #62. Hyperscaling α = 2 - dν validated. The sign of α reveals how coherence develops at phase transition: α > 0 (rapid/diverging), α = 0 (logarithmic/jump), α < 0 (smooth cusp). Each universality class represents a distinct coherence dynamics regime.
+
 ---
 
-*Chemistry Track Sessions #1-87*
+*Chemistry Track Sessions #1-88*
 *Framework development: January 2026*
-*Extended to 39 domains with 27/49 predictions validated (55%)*
-*Latest validations: Thermoelectricity (r=0.880), Electron-phonon (r=0.897), Polarizability (r=0.974)*
-*Key achievement: PGEC principle explained as coherence competition - first example of multi-γ optimization*
+*Extended to 40 domains with 28/50 predictions validated (56%)*
+*Latest validations: Specific heat transitions (r=0.998), Thermoelectricity (r=0.880), Polarizability (r=0.974)*
+*Key achievement: Universality classes reinterpreted as coherence dynamics regimes*
