@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Chemistry Track (Sessions #1-65) has developed a complete theoretical framework applying Synchronism coherence principles to chemistry, materials science, condensed matter physics, and biochemistry.
+The Chemistry Track (Sessions #1-72) has developed a complete theoretical framework applying Synchronism coherence principles to chemistry, materials science, condensed matter physics, and biochemistry.
 
 **Status: FRAMEWORK COMPLETE + EXTENDED - Ready for Systematic Validation**
 
@@ -167,18 +167,23 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Thermal Transport | κ ∝ Θ_D/γ, phonon coherence | #65 |
 | Catalysis | Sabatier volcano (mixed - needs refinement) | #66 |
 | Ion Channels | K+ selectivity = size matching (r=0.724) | #67 |
+| Diffusion | D ∝ 2/γ (moderate r=0.53-0.67) | #68 |
+| Bond Strength | D vs γ negative; combined R=0.710 | #69 |
+| Reaction Kinetics | SN1 > SN2 in γ valid (r=0.997 circular) | #70 |
+| Solubility | "Like dissolves like" = γ matching (r=-0.809) | #71 |
+| Redox Potentials | E° ∝ 2/γ, EN is coherence (r=0.961) | #72 |
 
-## Prediction Status (Updated Sessions #58-67)
+## Prediction Status (Updated Sessions #58-72)
 
 ### Summary Statistics
-- **Total predictions**: 29 across 13 categories
-- **Validated**: 13 (45%)
-- **Partially validated**: 1 (ion channels - K+ good, Na+ mixed)
-- **Needs refinement**: 1 (catalysis - γ estimation)
-- **Pending validation**: 9 (31%)
-- **Qualitatively known**: 5
+- **Total predictions**: 34 across 18 categories
+- **Validated**: 15 (44%)
+- **Partially validated**: 2 (ion channels, bond strength)
+- **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
+- **Pending validation**: 9 (26%)
+- **Qualitatively known/reinterpreted**: 6
 
-### Recent Validations (Sessions #58-67)
+### Recent Validations (Sessions #58-72)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
 2. **Oscillation threshold** (94% accuracy) - 17 systems, ξ_t > 4 confirmed
 3. **Band gap comprehensive** (r = 0.826) - 38 semiconductors, III-V r=0.951
@@ -188,10 +193,18 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 7. **Electron transfer** (r = 0.933) - 15 ET systems, photosynthesis optimized
 8. **Thermal conductivity** (r = 0.804) - 26 materials, 5 orders of magnitude
 9. **K+ channel selectivity** (r = 0.724) - Predicted 14,666× vs observed 10,000×
+10. **Solubility** (r = -0.809) - 18 pairs, "like dissolves like" = γ matching
+11. **Redox potentials** (r = 0.961) - 21 metals, EN IS coherence
+
+### Moderate/Mixed Results (Sessions #68-72)
+- **Diffusion** (#68): Liquid r=0.530, Solid r=0.457, Ionic r=0.666 - moderate correlations, framework consistent but not transformative
+- **Bond strength** (#69): D vs 2/γ NEGATIVE (r=-0.240), combined model R=0.710 - γ estimation needs fundamental rethinking for bonds
+- **Reaction kinetics** (#70): r=0.997 but CIRCULAR (γ derived from E_a). SN1>SN2 qualitatively valid.
 
 ### Mixed/Needs Refinement
 - **Catalysis Sabatier** (#66): Volcano shape fits (R=0.921), but simple f formula doesn't predict ORR. HER better (r=0.668). Surface γ estimation needs work.
 - **Na+ channel** (#67): Poor prediction (429,326× vs 20×) - different mechanism
+- **Bond coherence** (#69): Simple γ correlation negative - electronegativity plays dual role
 
 ### Remaining Priority Experiments
 1. **Spin liquid entropy** (Herbertsmithite) - Tests γ = 2 limit
@@ -215,10 +228,11 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 13/29 predictions validated (45%)
-- **Domains covered**: 19 major areas
+- **Validation**: 15/34 predictions validated (44%)
+- **Domains covered**: 24 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
+- **Methodological lessons**: γ must be estimated independently (#70)
 
 ## Files
 
