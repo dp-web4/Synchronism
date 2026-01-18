@@ -182,17 +182,20 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Sound Velocity | v vs θ_D (r=0.984), v ∝ 2/γ | #80 |
 | Electrical Conductivity | σ vs γ_phonon: WEAK (γ_e ≠ γ_ph) | #81 |
 | Magnetic Susceptibility | χ vs γ_phonon: NONE (γ_spin ≠ γ_ph) | #82 |
+| Grüneisen Parameter | γ_G vs γ_coh (r=0.509), related but distinct | #83 |
+| Isotope Effects | θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ (EXCELLENT) | #84 |
 
-## Prediction Status (Updated Sessions #58-82)
+## Prediction Status (Updated Sessions #58-84)
 
 ### Summary Statistics
-- **Total predictions**: 44 across 34 categories
-- **Validated**: 23 (52%)
+- **Total predictions**: 46 across 36 categories
+- **Validated**: 24 (52%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (20%)
 - **Qualitatively known/reinterpreted**: 6
 - **Coherence type mismatch**: 2 (σ, χ need different γ types)
+- **Moderate correlations**: 1 (Grüneisen r=0.509)
 
 ### Recent Validations (Sessions #58-77)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
@@ -214,6 +217,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 17. **Elastic modulus** (r = 0.925) - E vs θ_D, E ∝ (2/γ)² via Debye model
 18. **Thermal expansion** (r = 0.940) - α vs 1/T_m, α ∝ γ³ (anharmonicity)
 19. **Sound velocity** (r = 0.984) - v vs θ_D, v ∝ 2/γ (phonon propagation)
+20. **Isotope effects** (EXCELLENT) - θ_D ∝ 1/√M, γ ∝ √M, ZPE ∝ 2/γ, BCS α ≈ 0.5
 
 ### Coherence Type Insights (Sessions #81-82)
 - **Electrical conductivity** (#81): σ vs γ_phonon: r = -0.414 (WRONG SIGN). Noble metal anomaly (Ag, Cu, Au have low θ_D but high σ). Reveals γ_electron ≠ γ_phonon.
@@ -309,6 +313,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/sound_speed_coherence.py` - v vs θ_D (#80)
 - `simulations/chemistry/electrical_conductivity_coherence.py` - γ_e ≠ γ_ph (#81)
 - `simulations/chemistry/magnetic_susceptibility_coherence.py` - γ_spin ≠ γ_ph (#82)
+- `simulations/chemistry/gruneisen_parameter_coherence.py` - γ_G vs γ_coh (#83)
+- `simulations/chemistry/isotope_effects_coherence.py` - Mass scaling of γ (#84)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -375,10 +381,12 @@ The coherence framework reveals that:
 
 20. **Different coherence types for different properties**: Sessions #81-82 establish that γ_phonon, γ_electron, γ_spin, and γ_optical are distinct. The master equation γ = 2/√N_corr is universal, but N_corr differs: phonon modes, electron states, spin orientations, dipole moments. Correct γ estimation is essential - using γ_phonon for electronic or magnetic properties gives zero correlation.
 
+21. **Isotope effects validate coherence framework**: Session #84 shows γ ∝ √M through θ_D ∝ 1/√M. ZPE ∝ 2/γ connects zero-point energy to coherence. BCS isotope exponent α ≈ 0.5 validates phonon interpretation of superconductivity. Lighter isotopes are more coherent (lower γ).
+
 ---
 
-*Chemistry Track Sessions #1-82*
+*Chemistry Track Sessions #1-84*
 *Framework development: January 2026*
-*Extended to 34 domains with 23/44 predictions validated (52%)*
-*Latest insights: Coherence type catalog (γ_phonon, γ_electron, γ_spin, γ_optical)*
-*Key insight: Universal framework, but γ estimation must match property physics*
+*Extended to 36 domains with 24/46 predictions validated (52%)*
+*Latest validations: Isotope effects (excellent), Sound velocity (r=0.984)*
+*Key insights: Coherence type catalog + isotope mass scaling of γ*
