@@ -180,16 +180,19 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Elastic Modulus | E vs θ_D (r=0.925), E ∝ (2/γ)² | #78 |
 | Thermal Expansion | α vs 1/T_m (r=0.940), α ∝ γ³ | #79 |
 | Sound Velocity | v vs θ_D (r=0.984), v ∝ 2/γ | #80 |
+| Electrical Conductivity | σ vs γ_phonon: WEAK (γ_e ≠ γ_ph) | #81 |
+| Magnetic Susceptibility | χ vs γ_phonon: NONE (γ_spin ≠ γ_ph) | #82 |
 
-## Prediction Status (Updated Sessions #58-80)
+## Prediction Status (Updated Sessions #58-82)
 
 ### Summary Statistics
-- **Total predictions**: 42 across 32 categories
-- **Validated**: 23 (55%)
+- **Total predictions**: 44 across 34 categories
+- **Validated**: 23 (52%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
-- **Pending validation**: 9 (23%)
+- **Pending validation**: 9 (20%)
 - **Qualitatively known/reinterpreted**: 6
+- **Coherence type mismatch**: 2 (σ, χ need different γ types)
 
 ### Recent Validations (Sessions #58-77)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
@@ -211,6 +214,18 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 17. **Elastic modulus** (r = 0.925) - E vs θ_D, E ∝ (2/γ)² via Debye model
 18. **Thermal expansion** (r = 0.940) - α vs 1/T_m, α ∝ γ³ (anharmonicity)
 19. **Sound velocity** (r = 0.984) - v vs θ_D, v ∝ 2/γ (phonon propagation)
+
+### Coherence Type Insights (Sessions #81-82)
+- **Electrical conductivity** (#81): σ vs γ_phonon: r = -0.414 (WRONG SIGN). Noble metal anomaly (Ag, Cu, Au have low θ_D but high σ). Reveals γ_electron ≠ γ_phonon.
+- **Magnetic susceptibility** (#82): χ vs γ_phonon: r = -0.077 (NO correlation). χ follows Curie law (r = 0.715). Reveals γ_spin ≠ γ_phonon.
+
+**Coherence Type Catalog:**
+| γ Type | Properties | Estimation |
+|--------|------------|------------|
+| γ_phonon | E, C_p, α, v, κ_lattice, T_m | θ_D |
+| γ_electron | σ, κ_electron | λ_ep (e-ph coupling) |
+| γ_spin | χ (magnetic) | μ, T (Curie law) |
+| γ_optical | n, ε | Polarizability |
 
 ### Moderate/Mixed Results (Sessions #68-72)
 - **Diffusion** (#68): Liquid r=0.530, Solid r=0.457, Ionic r=0.666 - moderate correlations, framework consistent but not transformative
@@ -292,6 +307,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/elastic_modulus_coherence.py` - E vs θ_D (#78)
 - `simulations/chemistry/thermal_expansion_coherence.py` - α vs T_m (#79)
 - `simulations/chemistry/sound_speed_coherence.py` - v vs θ_D (#80)
+- `simulations/chemistry/electrical_conductivity_coherence.py` - γ_e ≠ γ_ph (#81)
+- `simulations/chemistry/magnetic_susceptibility_coherence.py` - γ_spin ≠ γ_ph (#82)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -356,10 +373,12 @@ The coherence framework reveals that:
 
 19. **Sound velocity = phonon propagation**: v ∝ θ_D ∝ 2/γ. Sound is coherent lattice vibration; coherent materials transmit faster. Completes the phonon property network: C_p, E, α, v all from γ.
 
+20. **Different coherence types for different properties**: Sessions #81-82 establish that γ_phonon, γ_electron, γ_spin, and γ_optical are distinct. The master equation γ = 2/√N_corr is universal, but N_corr differs: phonon modes, electron states, spin orientations, dipole moments. Correct γ estimation is essential - using γ_phonon for electronic or magnetic properties gives zero correlation.
+
 ---
 
-*Chemistry Track Sessions #1-80*
+*Chemistry Track Sessions #1-82*
 *Framework development: January 2026*
-*Extended to 32 domains with 23/42 predictions validated (55%)*
-*Latest validations: Sound velocity (r=0.984), Thermal expansion (r=0.940)*
-*Key insight: Phonon property network complete - C_p, E, α, v all from γ*
+*Extended to 34 domains with 23/44 predictions validated (52%)*
+*Latest insights: Coherence type catalog (γ_phonon, γ_electron, γ_spin, γ_optical)*
+*Key insight: Universal framework, but γ estimation must match property physics*
