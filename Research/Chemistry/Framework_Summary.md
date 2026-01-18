@@ -175,18 +175,20 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Viscosity | η ∝ γ_flow (r=0.949, Stokes-Einstein) | #73 |
 | Surface Tension | γ_ST ∝ 2/γ_bulk (r=0.864) | #74 |
 | Heat Capacity | C_p/C_classical = γ/2 (r=-0.988 Debye) | #75 |
+| Refractive Index | n ∝ γ^(1/4) via Moss's rule (r=0.986 SC) | #76 |
+| Melting Points | T_m ∝ E_coh, Richard's rule (r=0.948) | #77 |
 
-## Prediction Status (Updated Sessions #58-75)
+## Prediction Status (Updated Sessions #58-77)
 
 ### Summary Statistics
-- **Total predictions**: 37 across 27 categories
-- **Validated**: 18 (49%)
+- **Total predictions**: 39 across 29 categories
+- **Validated**: 20 (51%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
-- **Pending validation**: 9 (24%)
+- **Pending validation**: 9 (23%)
 - **Qualitatively known/reinterpreted**: 6
 
-### Recent Validations (Sessions #58-75)
+### Recent Validations (Sessions #58-77)
 1. **Fluorescence quantum yield** (r = 0.812) - 21 molecules, GFP case 790×
 2. **Oscillation threshold** (94% accuracy) - 17 systems, ξ_t > 4 confirmed
 3. **Band gap comprehensive** (r = 0.826) - 38 semiconductors, III-V r=0.951
@@ -201,6 +203,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 12. **Viscosity** (r = 0.949) - 19 liquids, η ∝ γ_flow validates Stokes-Einstein
 13. **Surface tension** (r = 0.864) - 20 liquids, γ_ST ∝ 2/γ_bulk (cohesion)
 14. **Heat capacity** (r = -0.988) - Debye model recovered via γ_phonon = 2T/θ_D
+15. **Refractive index** (r = 0.986) - Semiconductors via Moss's rule, n ∝ γ^(1/4)
+16. **Melting points** (r = 0.948) - T_m vs E_coh, Richard's rule via Δγ
 
 ### Moderate/Mixed Results (Sessions #68-72)
 - **Diffusion** (#68): Liquid r=0.530, Solid r=0.457, Ionic r=0.666 - moderate correlations, framework consistent but not transformative
@@ -331,10 +335,14 @@ The coherence framework reveals that:
 
 14. **Heat capacity = accessible degrees of freedom**: C_p/C_classical = γ/2 recovers Debye model via γ_phonon = 2(T/θ_D). Quantum freezing (γ → 0) and classical limit (γ → 2) emerge naturally.
 
+15. **Refractive index via Moss's rule**: n ∝ γ^(1/4) for semiconductors. Moss's rule (E_g × n^4 ≈ constant) follows from E_g ∝ 2/γ. Polarizability measures electron "looseness" (higher γ).
+
+16. **Melting = coherence transition**: T_m = ΔH_m / ΔS_m where ΔS_m ∝ Δγ (disorder change). Richard's rule (ΔS_m ≈ R) means Δγ ≈ constant for similar materials.
+
 ---
 
-*Chemistry Track Sessions #1-75*
+*Chemistry Track Sessions #1-77*
 *Framework development: January 2026*
-*Extended to 27 domains with 18/37 predictions validated (49%)*
-*Latest validations: Viscosity (r=0.949), Surface tension (r=0.864), Heat capacity (r=-0.988)*
-*Key insight: Debye model is coherence model with γ_phonon = 2T/θ_D*
+*Extended to 29 domains with 20/39 predictions validated (51%)*
+*Latest validations: Refractive index (r=0.986), Melting points (r=0.948)*
+*Key insight: Over half of predictions now validated with r > 0.8*
