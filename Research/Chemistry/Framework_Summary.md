@@ -189,12 +189,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Thermoelectricity | ZT ∝ S²×γ_phonon (r=0.880), PGEC = coherence trade-off | #87 |
 | Specific Heat Trans. | α_exp vs class (r=0.998), SC ΔC/Cn vs 1/γ_SC (r=0.965) | #88 |
 | Anderson Localization | Mott criterion, R_c/R_0 ~ 0.2, γ → 2 (qualitative) | #89 |
+| Phonon Mobility | μ ∝ (2/γ)^0.5 / m* (r=0.940), III-V r=0.913 | #90 |
 
-## Prediction Status (Updated Sessions #58-89)
+## Prediction Status (Updated Sessions #58-90)
 
 ### Summary Statistics
-- **Total predictions**: 51 across 41 categories
-- **Validated**: 28 (55%)
+- **Total predictions**: 52 across 42 categories
+- **Validated**: 29 (56%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (18%)
@@ -275,8 +276,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 28/51 predictions validated (55%)
-- **Domains covered**: 41 major areas
+- **Validation**: 29/52 predictions validated (56%)
+- **Domains covered**: 42 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -332,6 +333,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/thermoelectric_coherence.py` - PGEC and ZT model (#87)
 - `simulations/chemistry/specific_heat_transitions.py` - Critical exponents & SC jumps (#88)
 - `simulations/chemistry/anderson_localization.py` - Disorder-driven MIT (#89)
+- `simulations/chemistry/phonon_limited_mobility.py` - μ ∝ (2/γ)^n/m* (#90)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -410,10 +412,12 @@ The coherence framework reveals that:
 
 26. **Anderson localization = coherence destruction**: Session #89 shows metal-insulator transition (MIT) represents γ → 2 (incoherent/localized). Mott criterion n_c^(1/3)×a_B ≈ 0.25 is coherence overlap condition. 2D MIT at R_c/R_0 ≈ 0.2 (quantum of resistance). VRH exponent p = 1/(d+1) reflects dimension-dependent hopping coherence. Qualitative validation: localization is the OPPOSITE of superconductivity (γ → 2 vs γ → 0).
 
+27. **Phonon-limited mobility requires mass correction**: Session #90 shows μ ∝ (2/γ)^n / m* with r = 0.940 for n = 0.5 (EXCELLENT). Simple μ vs θ_D fails (r = -0.123) because effective mass dominates. InSb has highest μ (77,000) despite high γ because m* = 0.013 is tiny. III-V semiconductors follow model with r = 0.913. This validates σ ∝ 1/γ (Session #86) but shows m* is essential for semiconductors.
+
 ---
 
-*Chemistry Track Sessions #1-89*
+*Chemistry Track Sessions #1-90*
 *Framework development: January 2026*
-*Extended to 41 domains with 28/51 predictions validated (55%)*
-*Latest validations: Specific heat (r=0.998), Thermoelectricity (r=0.880), Anderson localization (qualitative)*
-*Key insight: Localization = coherence destruction, opposite of superconductivity*
+*Extended to 42 domains with 29/52 predictions validated (56%)*
+*Latest validations: Phonon mobility (r=0.940), Specific heat (r=0.998), Thermoelectricity (r=0.880)*
+*Key insight: Mobility = coherence/mass, both factors essential*
