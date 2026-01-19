@@ -194,12 +194,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Glass Thermal κ | γ → 2 classical limit, κ_glass ~ 0.5 W/m·K (universal) | #92 |
 | Piezoelectricity | d_33 ∝ γ × ε (r=0.940), ANOMALOUS - incoherence helps! | #93 |
 | Magnetostriction | λ_s vs γ: r=0.685 overall, r~0.1 within class (SOC dominates) | #94 |
+| Electrooptic | r ∝ ε (r=0.811), within-class vs γ_ph: r=0.80-0.96 | #95 |
 
-## Prediction Status (Updated Sessions #58-94)
+## Prediction Status (Updated Sessions #58-95)
 
 ### Summary Statistics
-- **Total predictions**: 56 across 46 categories
-- **Validated**: 32 (57%)
+- **Total predictions**: 57 across 47 categories
+- **Validated**: 33 (58%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (16%)
@@ -344,6 +345,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/glass_thermal_conductivity.py` - Glass γ → 2 universality (#92)
 - `simulations/chemistry/piezoelectric_coherence.py` - d ∝ γ × ε (ANOMALOUS) (#93)
 - `simulations/chemistry/magnetostriction_coherence.py` - λ_s dominated by SOC (#94)
+- `simulations/chemistry/electrooptic_coherence.py` - r ∝ ε, γ_ph within-class (#95)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -437,10 +439,12 @@ The coherence framework reveals that:
     - **Atomic coherence** (γ from atomic property): γ_optical = IE_ref/IE, γ_electron = f(λ_ep)
     - **Atomic-dominated** (weakly γ-dependent): magnetostriction (SOC), nuclear effects
 
+32. **Electrooptic coefficient shows hybrid behavior**: Session #95 shows r_33 ∝ ε^0.72 with r = 0.811 overall (permittivity dominates), BUT within material classes γ_phonon shows EXCELLENT correlation: ferroelectrics r = 0.902, semiconductors r = 0.802, KDP family r = 0.961. This contrasts with magnetostriction (#94) where within-class r ~ 0.1. Best combined model: r ∝ ε/γ_optical (r = 0.840). The physics: EO effect has electronic (∝ 1/γ_optical) and ionic (∝ γ_phonon × ε) contributions. Comparison to piezoelectricity (#93): piezo is strongly γ_phonon-dependent, EO works through ε but γ_phonon helps within classes.
+
 ---
 
-*Chemistry Track Sessions #1-94*
+*Chemistry Track Sessions #1-95*
 *Framework development: January 2026*
-*Extended to 46 domains with 32/56 predictions validated (57%)*
-*Latest validations: Magnetostriction (atomic), Piezoelectricity (r=0.940), Glass κ (r=0.940)*
-*Key insight: THREE categories - collective, atomic-coherence, atomic-dominated*
+*Extended to 47 domains with 33/57 predictions validated (58%)*
+*Latest validations: Electrooptic (r=0.811, within-class 0.80-0.96), Piezo (r=0.940)*
+*Key insight: EO has hybrid behavior - ε dominates overall, γ_phonon within classes*
