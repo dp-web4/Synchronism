@@ -678,9 +678,14 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
             file: "section_8.html"
         },
         {
-            title: "Mathematical Appendix",
+            title: "Appendices",
             id: "appendix-mathematical",
-            file: "section_9.html"
+            file: "section_9.html",
+            subsections: [
+                "A: Mathematical Framework",
+                "B: Chemistry Framework",
+                "C: Consciousness Framework"
+            ]
         },
         {
             title: "Appendix D: Proposals",
@@ -735,7 +740,10 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
                         // Apply special case mappings
                         const anchorMappings = {
                             'time-slices': 'time-as-planck-timed-slices',
-                            'entity-interactions': 'entity-interaction-effects'
+                            'entity-interactions': 'entity-interaction-effects',
+                            'a:-mathematical-framework': 'appendix-a-mathematical-formalization',
+                            'b:-chemistry-framework': 'appendix-b-chemistry-framework',
+                            'c:-consciousness-framework': 'appendix-c-consciousness-framework'
                         };
                         
                         if (anchorMappings[anchorId]) {
@@ -780,7 +788,10 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
                     // Special case mappings for mismatched IDs
                     const anchorMappings = {
                         'time-slices': 'time-as-planck-timed-slices',
-                        'entity-interactions': 'entity-interaction-effects'
+                        'entity-interactions': 'entity-interaction-effects',
+                        'a:-mathematical-framework': 'appendix-a-mathematical-formalization',
+                        'b:-chemistry-framework': 'appendix-b-chemistry-framework',
+                        'c:-consciousness-framework': 'appendix-c-consciousness-framework'
                     };
                     
                     if (anchorMappings[anchorId]) {
