@@ -520,10 +520,12 @@ The coherence framework reveals that:
 
 48. **Thermal diffusivity validates metal coherence, shows composite behavior**: Session #111 shows α vs 1/γ_electron (metals): r = 0.932 (EXCELLENT), α vs κ: r = 0.957 (κ dominates). For insulators: log(α) vs θ_D/γ_G²: r = 0.104 (weak). Diamond has highest α (1100 mm²/s), glass lowest (0.5 mm²/s). α = κ/(ρ×Cp) is a COMPOSITE property: metals follow coherence (via κ), but insulators depend on both κ (coherence) and ρ×Cp (not coherence). Heat diffusion length L = √(α×t): in 1 ms, diamond spreads 1.05 mm vs glass 0.02 mm (50× difference).
 
+49. **Specific heat ratio γ_ad identifies THERMODYNAMIC BOUNDARY**: Session #112 shows γ_ad vs γ_G²: r = -0.174 (weak), γ_ad vs γ_phonon: r = 0.760 (moderate but not coherence). Thermodynamic identity (γ_ad-1) = α²VTB/Cv: r = 0.816. Grüneisen definition γ_G = αVB/Cv validated: r = 0.959. Gas equipartition γ = (f+2)/f: r = 0.983. γ_ad = Cp/Cv is THERMODYNAMIC, not coherence. Solids: γ_ad ≈ 1 (range 1.01-1.20). This establishes thermodynamic degrees of freedom as OUTSIDE the coherence framework, joining other boundaries: thermionic emission (#98), SOC properties (#94, #99), band structure (#102).
+
 ---
 
-*Chemistry Track Sessions #1-111*
+*Chemistry Track Sessions #1-112*
 *Framework development: January 2026*
-*Extended to 56 domains with 41/68 predictions validated (60%)*
-*Latest: Thermal diffusivity #111 - metals follow coherence, insulators are composite*
-*Key insight: Composite properties like α = κ/(ρ×Cp) show mixed coherence behavior*
+*Extended to 57 domains with 42/69 predictions validated (61%)*
+*Latest: Specific heat ratio #112 - thermodynamic boundary identified*
+*Key insight: γ_ad = Cp/Cv is THERMODYNAMIC, not coherence-related*
