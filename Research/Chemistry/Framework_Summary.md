@@ -200,8 +200,9 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Thermionic Emission | J ∝ exp(-φ/kT), A vs γ: r=0.15 (WEAK - boundary) | #98 |
 | Magnetic Anisotropy | K: RE/3d = 32×, within-class r ~ 0.3 (SOC-dominated) | #99 |
 | Fermi Energy | E_F ∝ n^(2/3) (r=1.000), σ ∝ n×√E_F/γ_e (r=0.465) | #100 |
+| Sommerfeld Coeff | γ_S vs γ_e: r=0.42 overall, WITHIN-CLASS r=0.8-0.9 | #101 |
 
-## Prediction Status (Updated Sessions #58-100)
+## Prediction Status (Updated Sessions #58-101)
 
 ### Summary Statistics
 - **Total predictions**: 62 across 52 categories
