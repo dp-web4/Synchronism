@@ -423,11 +423,11 @@ for section in "$SECTIONS_DIR"/*; do
     fi
 done
 
-# Generate Appendix B: Proposals
-echo "  Processing Appendix B: Proposals..."
+# Generate Appendix D: Proposals
+echo "  Processing Appendix D: Proposals..."
 output_file="$WEB_SECTIONS_DIR/section_${section_counter}.html"
 echo "<section id='section-$section_counter' class='content-section'>" > "$output_file"
-echo "<h1>Appendix B: Current Proposals</h1>" >> "$output_file"
+echo "<h1>Appendix D: Current Proposals</h1>" >> "$output_file"
 echo "<p><em>This appendix contains all active proposals for improvements to the Synchronism whitepaper. These are suggestions under review and not yet integrated into the main text.</em></p>" >> "$output_file"
 
 # Find and add all proposals
@@ -511,11 +511,11 @@ fi
 echo "</section>" >> "$output_file"
 ((section_counter++))
 
-# Generate Appendix C: Change Log
-echo "  Processing Appendix C: Change Log..."
+# Generate Appendix E: Change Log
+echo "  Processing Appendix E: Change Log..."
 output_file="$WEB_SECTIONS_DIR/section_${section_counter}.html"
 echo "<section id='section-$section_counter' class='content-section'>" > "$output_file"
-echo "<h1>Appendix C: Change Log</h1>" >> "$output_file"
+echo "<h1>Appendix E: Change Log</h1>" >> "$output_file"
 echo "<p><em>Version history and evolution of the Synchronism whitepaper.</em></p>" >> "$output_file"
 
 # Collect all changelog entries
@@ -683,12 +683,12 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
             file: "section_9.html"
         },
         {
-            title: "Appendix B: Proposals",
+            title: "Appendix D: Proposals",
             id: "appendix-proposals",
             file: "section_10.html"
         },
         {
-            title: "Appendix C: Change Log",
+            title: "Appendix E: Change Log",
             id: "appendix-changelog",
             file: "section_11.html"
         }

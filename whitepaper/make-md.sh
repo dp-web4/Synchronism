@@ -81,14 +81,14 @@ process_section() {
     done
 }
 
-# Function to collect all proposals for Appendix B
+# Function to collect all proposals for Appendix D
 collect_proposals() {
     local proposals_found=false
     
     echo "" >> "$OUTPUT_FILE"
     echo "---" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
-    echo "# Appendix B: Current Proposals" >> "$OUTPUT_FILE"
+    echo "# Appendix D: Current Proposals" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
     echo "*This appendix contains all active proposals for improvements to the Synchronism whitepaper. These are suggestions under review and not yet integrated into the main text.*" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
@@ -192,16 +192,16 @@ for section in "${sections[@]}"; do
     fi
 done
 
-# Add Appendix B with all proposals
-echo "Collecting proposals for Appendix B..."
+# Add Appendix D with all proposals
+echo "Collecting proposals for Appendix D..."
 collect_proposals
 
-# Add Appendix C with changelog
-echo "Creating Appendix C for changelog..."
+# Add Appendix E with changelog
+echo "Creating Appendix E for changelog..."
 echo "" >> "$OUTPUT_FILE"
 echo "---" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
-echo "# Appendix C: Change Log" >> "$OUTPUT_FILE"
+echo "# Appendix E: Change Log" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
 echo "*Version history and evolution of the Synchronism whitepaper.*" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
