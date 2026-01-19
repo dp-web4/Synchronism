@@ -518,10 +518,12 @@ The coherence framework reveals that:
 
 47. **Shear modulus G is best coherence indicator among elastic constants**: Session #110 shows G vs 1/γ_phonon: r = 0.936 (EXCELLENT), E vs 1/γ_phonon: r = 0.920, B vs 1/γ_phonon: r = 0.712. Debye model validated: E/ρ vs θ_D²: r = 0.984, √(E/ρ) vs θ_D: r = 0.979. Poisson ratio ν reflects bonding geometry (not coherence): r = 0.580. Pugh ratio B/G predicts ductility: B/G > 1.75 ductile, B/G < 1.75 brittle. Cauchy pressure (C12-C44) indicates bonding character: positive = metallic, negative = covalent. Framework insight: Moduli are EXTENSIVE (scale), coherence γ is INTENSIVE (quality). Connection: κ_ph ∝ (E/ρ) / (γ_G² × γ_phonon).
 
+48. **Thermal diffusivity validates metal coherence, shows composite behavior**: Session #111 shows α vs 1/γ_electron (metals): r = 0.932 (EXCELLENT), α vs κ: r = 0.957 (κ dominates). For insulators: log(α) vs θ_D/γ_G²: r = 0.104 (weak). Diamond has highest α (1100 mm²/s), glass lowest (0.5 mm²/s). α = κ/(ρ×Cp) is a COMPOSITE property: metals follow coherence (via κ), but insulators depend on both κ (coherence) and ρ×Cp (not coherence). Heat diffusion length L = √(α×t): in 1 ms, diamond spreads 1.05 mm vs glass 0.02 mm (50× difference).
+
 ---
 
-*Chemistry Track Sessions #1-110*
+*Chemistry Track Sessions #1-111*
 *Framework development: January 2026*
-*Extended to 55 domains with 40/67 predictions validated (60%)*
-*Latest: Elastic moduli #110 - G best correlates with coherence*
-*Key insight: Moduli are EXTENSIVE (scale), γ is INTENSIVE (quality)*
+*Extended to 56 domains with 41/68 predictions validated (60%)*
+*Latest: Thermal diffusivity #111 - metals follow coherence, insulators are composite*
+*Key insight: Composite properties like α = κ/(ρ×Cp) show mixed coherence behavior*
