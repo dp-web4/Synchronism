@@ -202,8 +202,9 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Fermi Energy | E_F ∝ n^(2/3) (r=1.000), σ ∝ n×√E_F/γ_e (r=0.465) | #100 |
 | Sommerfeld Coeff | γ_S vs γ_e: r=0.42 overall, WITHIN-CLASS r=0.8-0.9 | #101 |
 | Hall Coefficient | R_H vs γ_e: r=0.001 (NONE), alkali free electron r=0.996 | #102 |
+| Plasma/Drude | ω_p∝√n (r=0.852), Γ vs γ_e: r=0.867 (EXCELLENT), Q vs 1/γ: r=0.833 | #103 |
 
-## Prediction Status (Updated Sessions #58-102)
+## Prediction Status (Updated Sessions #58-103)
 
 ### Summary Statistics
 - **Total predictions**: 62 across 52 categories
