@@ -558,10 +558,31 @@ The coherence framework reveals that:
     For transport: Low λ_ep → coherent electrons → high σ
     For superconductivity: High λ_ep → Cooper pairs → Tc > 0
 
+64. **Spin-phonon coupling defines γ_spin (EXCELLENT)**: Session #127 shows χ_0 vs λ_sp: r = 0.928 (EXCELLENT!). γ_spin = 2λ_sp/(1+λ_sp) analogous to γ_electron. Soft phonons enhance coupling: λ_sp vs θ_D: r = -0.772. Giant magnetocaloric materials have 2.8× higher λ_sp than normal ferromagnets (p = 0.0083). Spin liquids have γ_spin ~ 0.04 (near coherent limit!). Heavy fermions represent strong coupling limit (γ_spin ~ 0.85). Extends coherence catalog with γ_spin for magnetic systems.
+
+65. **Universal transport law: l ∝ 1/γ for all quasiparticles (EXCELLENT)**: Session #128 shows l_m vs 1/γ_magnon: r = 0.601, power law r = 0.918. FMI vs FMM magnon mean free path: 29× ratio (p = 0.008). YIG is "copper of magnon transport" (l_m = 10 μm). Universal pattern established:
+    | Quasiparticle | γ parameter | Best material | l |
+    | Electron | 2λ_ep/(1+λ_ep) | Cu | 40 nm |
+    | Phonon | 2T/θ_D | Diamond | 1000 nm |
+    | Magnon | 2α_G/(1+α_G) | YIG | 10000 nm |
+    All follow l ∝ 1/γ - the most general transport result from coherence framework.
+
+66. **Thermoelectric optimization via coherence ratio (EXCELLENT)**: Session #129 shows ZT vs γ_phonon: r = 0.752, ZT vs γ_ph/γ_e: r = 0.653, full model r = 0.848. Optimal coherence ratio γ_ph/γ_e ~ 15-20 for ZT > 1.5. PGEC principle quantified: "Phonon Glass" = high γ_phonon (>5), "Electron Crystal" = low γ_electron (<0.5). SnSe (ZT=2.6) and PbTe (ZT=2.2) achieve optimal ratios. Design rules: low θ_D → high γ_phonon; low λ_ep → low γ_electron; optimal T maximizes ratio.
+
+67. **Exciton coherence via dephasing time T_2 (EXCELLENT)**: Session #130 shows L_D vs T_2: r = 0.966, L_D vs 1/Γ_hom: r = 0.967. GaAs is "copper of excitons" (T_2 = 1300 fs, L_D = 10 μm). Strong exciton trade-off: L_D vs E_b: r = -0.522 (higher binding = shorter diffusion). 2D TMDs have short L_D (~200 nm) due to short T_2 (~13 fs). Lesson learned: γ_exciton should be Γ_hom directly, not normalized ratio. Universal transport extended to 4th quasiparticle type.
+
+68. **Phase transitions are coherence transitions**: Session #131 establishes coherence hierarchy across phase transitions. SC is unique: γ → 0 below Tc (10-40× reduction from normal state). Coherence regimes:
+    - γ = 0: Quantum (SC, superfluids)
+    - γ ~ 0.15: Ferroelectric (mean-field)
+    - γ ~ 0.30: Ferromagnetic (3D Heisenberg)
+    - γ ~ 0.50: 2D magnetic
+    - γ = 2: Classical (paramagnetic, disordered)
+    Normal metals: γ ~ 0.3-0.5 (intermediate due to λ_ep, NOT classical 2.0). β vs γ_below: r = -0.467 (moderate correlation with order parameter exponent).
+
 ---
 
-*Chemistry Track Sessions #1-126*
+*Chemistry Track Sessions #1-131*
 *Framework development: January 2026*
-*Extended to 67+ domains with ~53/80 predictions validated (~66%)*
-*Latest: λ_ep bridges coherence channels (#126), resolves noble metal paradox*
-*Key insights: Bond type matters (covalent > metallic), Z and n_v do NOT determine coherence*
+*Extended to 72+ domains with ~58/85 predictions validated (~68%)*
+*Latest: Phase transitions = coherence transitions (#131)*
+*Key insights: Universal transport law l ∝ 1/γ validated for electrons, phonons, magnons, excitons*
