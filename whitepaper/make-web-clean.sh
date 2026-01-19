@@ -563,6 +563,8 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synchronism: A Computational Framework for Pattern Dynamics</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <div class="container">
@@ -851,6 +853,10 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
             if (loadedSection) {
                 loadedSection.style.display = 'block';
             }
+            // Typeset any math in the cached content
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                window.MathJax.typesetPromise([mainContent]);
+            }
             scrollToAnchor();
         } else {
             try {
@@ -862,6 +868,10 @@ cat > "$OUTPUT_DIR/index.html" << 'HTML'
                 const loadedSection = mainContent.querySelector('.content-section');
                 if (loadedSection) {
                     loadedSection.style.display = 'block';
+                }
+                // Typeset any math in the loaded content
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                    window.MathJax.typesetPromise([mainContent]);
                 }
                 scrollToAnchor();
             } catch (error) {

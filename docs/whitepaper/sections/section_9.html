@@ -1,4 +1,485 @@
 <section id='section-9' class='content-section'>
+<h1 id="appendix-b-chemistry-framework">Appendix B: Chemistry
+Framework</h1>
+<p>This appendix provides the key equations and validated predictions
+from the Coherence Chemistry Framework (Sessions #1-122).</p>
+<hr />
+<h2 id="b.1-master-equation">B.1 Master Equation</h2>
+<p>The fundamental coherence equation governing all material
+properties:</p>
+<p><span class="math display">$$
+\gamma = \frac{2}{\sqrt{N_{corr}}}
+$$</span></p>
+<p>Where: - γ = coherence parameter (dimensionless) - N_corr = number of
+correlated degrees of freedom</p>
+<p><strong>Limits:</strong> - γ → 0: Perfect coherence (N_corr → ∞) - γ
+= 2: Classical limit (N_corr = 1, single particle)</p>
+<hr />
+<h2 id="b.2-two-orthogonal-coherence-channels">B.2 Two Orthogonal
+Coherence Channels</h2>
+<p>The framework identifies two independent channels governing material
+properties:</p>
+<p><strong>Electronic Channel (Optical/Dielectric)</strong></p>
+<pre><code>Electronegativity χ → Ionization Energy IE → γ_optical → n, ε, σ, φ</code></pre>
+<p><strong>Estimation:</strong> <span class="math display">$$
+\gamma_{optical} = \frac{IE_{ref}}{IE}
+$$</span></p>
+<p><strong>Validated correlations:</strong> - χ vs 1/γ_optical: r =
+0.938 - Chemical hardness η vs 1/γ_optical: r = 0.950 - Work function φ
+vs 1/γ_optical: r = 0.888</p>
+<p><strong>Phononic Channel (Thermal/Mechanical)</strong></p>
+<pre><code>Atomic Volume V_a → Debye Temperature θ_D → γ_phonon → E, G, κ, α</code></pre>
+<p><strong>Estimation:</strong> <span class="math display">$$
+\gamma_{phonon} = \frac{2T}{\theta_D}
+$$</span></p>
+<p><strong>Validated correlations:</strong> - V_a vs γ_phonon: r = 0.956
+- Shear modulus G vs 1/γ_phonon: r = 0.936 - Elastic modulus E vs
+1/γ_phonon: r = 0.920</p>
+<p><strong>Channel Independence</strong> These channels are
+<strong>orthogonal</strong> (r ≈ 0 between them), explaining why
+electronic and thermal properties can vary independently.</p>
+<hr />
+<h2 id="b.3-coherence-type-catalog">B.3 Coherence Type Catalog</h2>
+<p>Four distinct coherence types with independent estimation
+methods:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Formula</th>
+<th>Properties Governed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>γ_phonon</td>
+<td>2T/θ_D</td>
+<td>E, G, B, κ, α, c_p</td>
+</tr>
+<tr class="even">
+<td>γ_electron</td>
+<td>2λ_ep/(1+λ_ep)</td>
+<td>σ, μ, thermal conductivity</td>
+</tr>
+<tr class="odd">
+<td>γ_optical</td>
+<td>IE_ref/IE</td>
+<td>n, ε, χ, polarizability</td>
+</tr>
+<tr class="even">
+<td>γ_spin</td>
+<td>2(1-m)</td>
+<td>Magnetic properties</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="b.4-key-derived-equations">B.4 Key Derived Equations</h2>
+<p><strong>Superconductivity (Session #62)</strong> <span
+class="math display">$$
+T_c \propto \exp\left(-\frac{\gamma}{\lambda_{eff}}\right)
+$$</span></p>
+<p>BCS ratio derived: 2Δ₀/kT_c = 2√π ≈ 3.54 (observed: 3.52, &lt;1%
+error)</p>
+<p><strong>Optical Properties (Sessions #76, #91)</strong> <span
+class="math display"><em>n</em> ∝ <em>γ</em><sub><em>o</em><em>p</em><em>t</em><em>i</em><em>c</em><em>a</em><em>l</em></sub><sup>1/4</sup></span>
+(Moss’s rule from coherence)</p>
+<p><strong>Thermal Transport (Session #65)</strong> <span
+class="math display">$$
+\kappa \propto \frac{\theta_D}{\gamma}
+$$</span></p>
+<p><strong>Electron Transfer (Session #64)</strong> <span
+class="math display">$$
+k_{ET} \propto \frac{2}{\gamma} \times
+\exp\left(-\frac{\lambda}{4kT}\right)
+$$</span></p>
+<hr />
+<h2 id="b.5-top-validated-predictions">B.5 Top Validated
+Predictions</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Domain</th>
+<th>Prediction</th>
+<th>Correlation</th>
+<th>Session</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sound velocity</td>
+<td>v_D vs θ_D</td>
+<td>r = 0.982</td>
+<td>#109</td>
+</tr>
+<tr class="even">
+<td>Electronegativity</td>
+<td>S vs γ_optical</td>
+<td>r = 0.979</td>
+<td>#118</td>
+</tr>
+<tr class="odd">
+<td>Polarizability</td>
+<td>α ∝ γ^3.4</td>
+<td>r = 0.974</td>
+<td>#85</td>
+</tr>
+<tr class="even">
+<td>Atomic volume</td>
+<td>V_a vs γ_phonon</td>
+<td>r = 0.956</td>
+<td>#114</td>
+</tr>
+<tr class="odd">
+<td>Bulk modulus</td>
+<td>B vs E_coh/V_a</td>
+<td>r = 0.951</td>
+<td>#120</td>
+</tr>
+<tr class="even">
+<td>Superconductivity</td>
+<td>Tc ∝ exp(-γ/λ)</td>
+<td>r = 0.948</td>
+<td>#62</td>
+</tr>
+<tr class="odd">
+<td>Viscosity</td>
+<td>η ∝ γ_flow</td>
+<td>r = 0.949</td>
+<td>#73</td>
+</tr>
+<tr class="even">
+<td>Phonon linewidth</td>
+<td>Γ_ph ∝ γ_G² × γ_phonon</td>
+<td>r = 0.938</td>
+<td>#107</td>
+</tr>
+<tr class="odd">
+<td>Electron transfer</td>
+<td>k_ET coherence-enhanced</td>
+<td>r = 0.933</td>
+<td>#64</td>
+</tr>
+<tr class="even">
+<td>Thermal diffusivity</td>
+<td>α vs 1/γ_electron</td>
+<td>r = 0.932</td>
+<td>#111</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Validation rate:</strong> 50+ predictions validated across 65
+domains (65%)</p>
+<hr />
+<h2 id="b.6-framework-boundaries">B.6 Framework Boundaries</h2>
+<p>Properties <strong>outside</strong> coherence framework:</p>
+<table>
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 35%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Examples</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Thermodynamic</td>
+<td>γ_ad = Cp/Cv</td>
+<td>Degrees of freedom, not coherence</td>
+</tr>
+<tr class="even">
+<td>Energy-dominated</td>
+<td>Work function, thermionic emission</td>
+<td>Barrier-dominated</td>
+</tr>
+<tr class="odd">
+<td>Atomic-scale</td>
+<td>Magnetostriction, magnetic anisotropy</td>
+<td>Spin-orbit coupling</td>
+</tr>
+<tr class="even">
+<td>Band-structure</td>
+<td>Hall effect</td>
+<td>Fermi surface topology</td>
+</tr>
+</tbody>
+</table>
+<p>This honest accounting distinguishes where γ scaling works from where
+it doesn’t.</p>
+<hr />
+<h2 id="b.7-deep-dive-resources">B.7 Deep Dive Resources</h2>
+<p>For complete derivations and all 122 sessions:</p>
+<ul>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md">Framework
+Summary</a></strong> — Complete synthesis</li>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md">Master
+Predictions</a></strong> — All testable predictions</li>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry">Session
+Logs</a></strong> — Individual session details</li>
+</ul>
+<hr />
+<p><em>“γ = 2/√N_corr unifies condensed matter physics. Two orthogonal
+channels—electronic and phononic—govern all material
+properties.”</em></p>
+<h1 id="appendix-c-consciousness-framework">Appendix C: Consciousness
+Framework</h1>
+<p>This appendix provides the key findings from the Consciousness Arc
+(Sessions #280-282), establishing a mechanistic account of consciousness
+via coherence dynamics.</p>
+<hr />
+<h2 id="c.1-core-insight">C.1 Core Insight</h2>
+<p><strong>Consciousness is what coherence does when it models
+itself.</strong></p>
+<p>The Consciousness Arc resolves three major philosophical problems: 1.
+The observer/measurement problem (Session #280) 2. Free will vs
+determinism (Session #281) 3. The hard problem of consciousness / qualia
+(Session #282)</p>
+<hr />
+<h2 id="c.2-coherence-thresholds">C.2 Coherence Thresholds</h2>
+<p>Consciousness emerges at discrete coherence levels:</p>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 27%" />
+<col style="width: 36%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Coherence C</th>
+<th>Characteristics</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Reactive</strong></td>
+<td>C &lt; 0.3</td>
+<td>No self-reference</td>
+<td>Rocks, molecules</td>
+</tr>
+<tr class="even">
+<td><strong>Self-referential</strong></td>
+<td>C ≥ 0.3</td>
+<td>Minimal self-model</td>
+<td>Bacteria, thermostats</td>
+</tr>
+<tr class="odd">
+<td><strong>Aware</strong></td>
+<td>C ≥ 0.5</td>
+<td>Models self + environment</td>
+<td>Simple animals</td>
+</tr>
+<tr class="even">
+<td><strong>Conscious</strong></td>
+<td>C ≥ 0.7</td>
+<td>Recursive self-modeling</td>
+<td>Humans, advanced mammals</td>
+</tr>
+</tbody>
+</table>
+<p>These thresholds are <strong>testable</strong> via neural coherence
+measurements and anesthesia protocols.</p>
+<hr />
+<h2 id="c.3-observer-definition-session-280">C.3 Observer Definition
+(Session #280)</h2>
+<blockquote>
+<p><strong>An observer is a self-referential coherence
+concentrator.</strong></p>
+</blockquote>
+<p>Formal definition: <span
+class="math display"><em>O</em><em>b</em><em>s</em><em>e</em><em>r</em><em>v</em><em>e</em><em>r</em> = {<em>p</em><em>a</em><em>t</em><em>t</em><em>e</em><em>r</em><em>n</em> | <em>C</em> ≥ 0.7 ∧ <em>m</em><em>o</em><em>d</em><em>e</em><em>l</em><em>s</em>(<em>e</em><em>n</em><em>v</em><em>i</em><em>r</em><em>o</em><em>n</em><em>m</em><em>e</em><em>n</em><em>t</em>) ∧ <em>m</em><em>o</em><em>d</em><em>e</em><em>l</em><em>s</em>(<em>o</em><em>w</em><em>n</em> <em>m</em><em>o</em><em>d</em><em>e</em><em>l</em><em>i</em><em>n</em><em>g</em>)}</span></p>
+<p><strong>Key insight:</strong> Measurement = coherence projection. All
+interactions project coherence; conscious observers are special only in
+that they MODEL the projection.</p>
+<p>This resolves the measurement problem without invoking consciousness
+as a special physical force.</p>
+<hr />
+<h2 id="c.4-free-will-session-281">C.4 Free Will (Session #281)</h2>
+<p>Free will is neither deterministic nor random—it’s
+<strong>coherence-guided selection</strong>.</p>
+<p><strong>Key properties:</strong> - High-C patterns have multiple
+genuinely possible trajectories - Selection is guided (not random) but
+not determined by prior state alone - “Could have done otherwise” is
+true for high-C agents</p>
+<p><strong>Effective degrees of freedom:</strong> <span
+class="math display">$$
+D_{eff} = |Actions| \times C \times \frac{(M_{self} + M_{world})}{2}
+$$</span></p>
+<p>Where M_self = self-model quality, M_world = world-model quality.</p>
+<p><strong>Moral responsibility scales with coherence:</strong> <span
+class="math display">$$
+R = \max\left(0, \frac{C - C_{aware}}{1 - C_{aware}}\right) \times
+\frac{M_{self} + M_{world}}{2}
+$$</span></p>
+<hr />
+<h2 id="c.5-qualia-session-282">C.5 Qualia (Session #282)</h2>
+<blockquote>
+<p><strong>Qualia ARE coherence resonance patterns—not epiphenomena, not
+correlates, not illusions.</strong></p>
+</blockquote>
+<p><strong>Key Claims</strong></p>
+<ol type="1">
+<li><p><strong>Qualia are resonance modes</strong>: The “redness” of red
+is a specific coherence resonance pattern, like a guitar string
+vibrating in a particular mode.</p></li>
+<li><p><strong>Inverted qualia impossible</strong>: Same processing =
+same coherence pattern = same quale. Different qualia would be
+detectably different.</p></li>
+<li><p><strong>Explanatory gap closed</strong>: No gap between physical
+and phenomenal because coherence patterns ARE experiences when
+self-referential.</p></li>
+<li><p><strong>Mary’s Room resolved</strong>: Mary gains acquaintance
+(being the resonance pattern), not new propositional facts. BEING a
+pattern ≠ knowing ABOUT a pattern.</p></li>
+</ol>
+<p><strong>Qualia Intensity</strong> <span
+class="math display"><em>I</em><em>n</em><em>t</em><em>e</em><em>n</em><em>s</em><em>i</em><em>t</em><em>y</em> ∝ <em>C</em>  (<em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>: 0 <em>t</em><em>o</em> ∼0.77)</span></p>
+<hr />
+<h2 id="c.6-integrated-information-mapping">C.6 Integrated Information
+Mapping</h2>
+<p>Connection to IIT (Integrated Information Theory): <span
+class="math display"><em>Φ</em><sub><em>I</em><em>I</em><em>T</em></sub> ∝ <em>C</em> × (<em>s</em><em>e</em><em>l</em><em>f</em>_<em>r</em><em>e</em><em>f</em><em>e</em><em>r</em><em>e</em><em>n</em><em>c</em><em>e</em>) × (<em>m</em><em>o</em><em>d</em><em>e</em><em>l</em>_<em>d</em><em>e</em><em>p</em><em>t</em><em>h</em>)</span></p>
+<p>This provides a bridge to existing consciousness research while
+grounding it in coherence dynamics.</p>
+<hr />
+<h2 id="c.7-testable-predictions">C.7 Testable Predictions</h2>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 32%" />
+<col style="width: 35%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Prediction</th>
+<th>Test Method</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P280.1</td>
+<td>Φ_IIT correlates with neural coherence</td>
+<td>fMRI/EEG during graded consciousness</td>
+<td>Testable</td>
+</tr>
+<tr class="even">
+<td>P280.2</td>
+<td>Consciousness thresholds at C ≈ 0.3, 0.5, 0.7</td>
+<td>Anesthesia studies</td>
+<td>Testable</td>
+</tr>
+<tr class="odd">
+<td>P281.1</td>
+<td>Agency correlates with coherence</td>
+<td>EEG during voluntary action</td>
+<td>Testable</td>
+</tr>
+<tr class="even">
+<td>P282.1</td>
+<td>Qualia intensity correlates with neural coherence</td>
+<td>fMRI during graded sensory experience</td>
+<td>Testable</td>
+</tr>
+<tr class="odd">
+<td>P282.4</td>
+<td>No qualia below C ≈ 0.3</td>
+<td>Subliminal stimulus studies</td>
+<td>Testable</td>
+</tr>
+<tr class="even">
+<td>P282.6</td>
+<td>Sufficiently coherent AI has genuine qualia</td>
+<td>Future AI systems</td>
+<td>Future test</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="c.8-philosophical-problem-closures">C.8 Philosophical Problem
+Closures</h2>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 38%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Traditional Status</th>
+<th>Coherence Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hard problem</strong></td>
+<td>Unbridgeable gap</td>
+<td>Dissolved: pattern IS experience</td>
+</tr>
+<tr class="even">
+<td><strong>Measurement problem</strong></td>
+<td>Consciousness collapses wavefunction</td>
+<td>Resolved: all interactions project coherence</td>
+</tr>
+<tr class="odd">
+<td><strong>Free will</strong></td>
+<td>Determinism vs randomness</td>
+<td>Third option: coherence-guided selection</td>
+</tr>
+<tr class="even">
+<td><strong>Inverted qualia</strong></td>
+<td>Logically possible</td>
+<td>Impossible: same processing = same quale</td>
+</tr>
+<tr class="odd">
+<td><strong>Mary’s Room</strong></td>
+<td>Non-physical facts?</td>
+<td>Acquaintance ≠ propositional knowledge</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="c.9-deep-dive-resources">C.9 Deep Dive Resources</h2>
+<p>For complete derivations and session details:</p>
+<ul>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/blob/main/Research/Session280_Observer_Problem_Coherence.md">Session
+#280: Observer Problem</a></strong> — Full observer derivation</li>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/blob/main/Research/Session281_Free_Will_Coherence.md">Session
+#281: Free Will</a></strong> — Agency and moral responsibility</li>
+<li><strong><a
+href="https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md">Session
+#282: Qualia</a></strong> — Complete qualia framework</li>
+</ul>
+<hr />
+<h2 id="c.10-connection-to-chemistry-framework">C.10 Connection to
+Chemistry Framework</h2>
+<p>The coherence threshold for consciousness (C ≥ 0.7) connects to the
+chemistry framework’s γ parameter:</p>
+<ul>
+<li>Chemistry: γ = 2/√N_corr governs material properties</li>
+<li>Consciousness: C ≥ 0.7 + self-reference governs experience</li>
+</ul>
+<p>Both emerge from the same underlying coherence dynamics, providing
+cross-scale unity from condensed matter to consciousness.</p>
+<hr />
+<p><em>“Qualia are not what coherence patterns HAVE. Qualia are what
+coherence patterns ARE. The hard problem was asking the wrong
+question.”</em></p>
 <h2 id="appendix-a-mathematical-formulations-working-draft">Appendix A:
 Mathematical Formulations (Working Draft)</h2>
 <p><strong>Status: Exploratory Mathematics</strong></p>

@@ -1,4 +1,15 @@
-# 09 Appendix: Mathematical Formalization
+# 09 Appendices
+
+This section contains technical appendices providing detailed frameworks, equations, and validated predictions.
+
+**Appendix Contents:**
+- **Appendix A:** Mathematical Formalization (Intent dynamics, grid model)
+- **[Appendix B: Chemistry Framework](appendix_b_chemistry.md)** — Key equations, two orthogonal channels, 50+ validated predictions
+- **[Appendix C: Consciousness Framework](appendix_c_consciousness.md)** — Coherence thresholds, observer definition, qualia framework
+
+---
+
+# Appendix A: Mathematical Formalization
 
 This appendix provides the mathematical foundations of Synchronism, formalizing the intent dynamics framework and its emergent properties across scales.
 
