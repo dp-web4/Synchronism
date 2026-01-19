@@ -531,10 +531,20 @@ The coherence framework reveals that:
     - **Phononic channel**: V_a → θ_D → γ_phonon → thermal/mechanical properties
     These channels are INDEPENDENT - electronegativity (electronic binding) does not predict phonon coherence (lattice dynamics). Halogen/noble gas trend (high χ, low γ_optical) contrasts with alkali trend (low χ, high γ_optical, high γ_phonon). Framework architecture clarified: each coherence type has its own causal chain.
 
+53. **Cohesive energy is THERMODYNAMIC, not coherence**: Session #116 shows E_coh vs 1/γ_phonon: r = 0.441 (WEAK), E_coh vs T_m: r = 0.953 (EXCELLENT). BUT E_coh/V_a (energy density) vs 1/γ_phonon: r = 0.863 (GOOD). Cohesive energy measures total bond strength - it's extensive-like (scales with bonds). Coherence (γ) is intensive (quality factor). Dividing by volume normalizes for size effects and recovers coherence correlation. This extends the thermodynamic boundary: γ_ad (#112), φ (#98 emission), E_coh (#116) are outside direct coherence framework.
+
+54. **Work function IS electronic coherence**: Session #117 shows φ vs IE: r = 0.888 (EXCELLENT), φ vs EN: r = 0.892 (EXCELLENT), φ vs 1/γ_optical: r = 0.888. Clarifies Session #98: thermionic EMISSION is barrier-limited (J ∝ exp(-φ/kT)), but work function φ ITSELF is an electronic coherence parameter. Extended coherence hierarchy: EN → IE → γ_optical → φ, n, ε, σ. All measure electron binding = electronic coherence.
+
+55. **Chemical hardness IS electronic coherence (EXCELLENT)**: Session #118 shows η = (IE-EA)/2 vs 1/γ_optical: r = 0.950 (EXCELLENT), softness S = 1/(2η) vs γ_optical: r = 0.979 (EXCELLENT). EA alone gives r = 0.595 (moderate). The HSAB principle (Hard-Soft Acid-Base) is COHERENCE MATCHING: "hard likes hard" = "coherent likes coherent". This connects to coherence matching (Sessions #52, #55). Chemical hardness joins the electronic coherence hierarchy.
+
+56. **Atomic radius sets phonon coherence scale**: Session #119 shows r_cov vs γ_phonon: r = 0.796 (GOOD), r_met vs γ_phonon: r = 0.871 (EXCELLENT). Power law θ_D ∝ r^-2.67 × M^-0.16: r = 0.955 (EXCELLENT). Periodic trends excellent: alkali r = 0.948, alkaline earth r = 0.978. The exponent α = -2.67 is steeper than simple α = -1, suggesting k ~ 1/r^5 rather than k ~ 1/r². Validates Session #114 with finer atomic radius analysis.
+
+57. **Bulk modulus = cohesive energy density (EXCELLENT)**: Session #120 shows B vs E_coh/V_a: r = 0.951 (EXCELLENT), much better than B vs 1/γ_phonon: r = 0.719. Within-class: ceramics r = 0.995, alkali r = 0.993, semiconductors r = 0.996. This bridges thermodynamic (E_coh) and coherence (γ) domains: B = E_coh/V_a where coherence enters via the E_coh-θ_D relationship. Clarifies Session #110 (B showed lower coherence correlation than G or E).
+
 ---
 
-*Chemistry Track Sessions #1-115*
+*Chemistry Track Sessions #1-120*
 *Framework development: January 2026*
-*Extended to 60 domains with 45/72 predictions validated (63%)*
-*Latest: Electronegativity #115 - two independent coherence channels*
-*Key insight: Electronic (χ→IE→γ_optical) and Phononic (V_a→θ_D→γ_phonon) are ORTHOGONAL*
+*Extended to 65 domains with 50/77 predictions validated (65%)*
+*Latest: Bulk modulus #120 - B = E_coh/V_a bridges thermodynamics and coherence*
+*Key insights: Chemical hardness = coherence, HSAB = coherence matching*
