@@ -491,10 +491,33 @@ The coherence framework reveals that:
     - **Intensive properties** (γ types): Modulate efficiency
     Full transport requires BOTH: σ ∝ (carrier reservoir) × (Fermi velocity) × (coherence factor)
 
+38. **Electronic heat capacity shows WITHIN-CLASS γ correlation**: Session #101 shows γ_S vs γ_electron: r = 0.42 overall, BUT within-class correlations are excellent: 3d TM r = 0.835, 4d TM r = 0.807, 5d TM r = 0.918, simple metals r = 0.849. This is the OPPOSITE pattern to magnetostriction (#94) where within-class r ~ 0.1. γ_S ∝ m*/n^(2/3) is enhanced by electron-phonon coupling (mass renormalization m* = m(1+λ)). Overall correlation fails because absolute γ_S varies 30× across classes (alkali ~1.5 vs 3d ~10 mJ/mol·K²), but within each class the γ_electron modulation is visible.
+
+39. **Hall coefficient identifies BAND STRUCTURE BOUNDARY**: Session #102 shows R_H vs γ_electron: r = 0.001 (NO correlation). Even 1/n_eff vs 1/γ_electron gives r = -0.164. BUT alkali metals (free electron limit) show R_H vs -1/n: r = 0.996 (PERFECT). Multi-band metals (Co, Fe, Ni) have POSITIVE R_H despite being hole-poor - this is a band structure effect (anomalous Hall). Band structure deviations (n_eff/n ratio) show: Fe = 0.084, Co = 0.056, Bi = -0.003. This establishes BAND STRUCTURE as a framework boundary - when Fermi surface topology dominates, simple γ scaling fails.
+
+40. **Drude damping VALIDATES γ_electron (EXCELLENT)**: Session #103 shows Γ vs γ_electron: r = 0.867, optical quality factor Q = ω_p/Γ vs 1/γ: r = 0.833, Γ vs λ_ep: r = 0.864. Also validates ω_p ∝ √n: r = 0.852. Key insight: Q × γ_electron ≈ constant within material classes. Ag has highest Q (44) due to lowest γ_electron (0.21). This is the OPTICAL DOMAIN validation of γ_electron, complementing conductivity (#86).
+
+41. **Mean free path IS the coherence length (EXCELLENT)**: Session #104 shows l vs 1/γ_electron: r = 0.829. Physical interpretation: N_corr = l/a gives γ = 2/√N_corr ~ 0.15-0.6, matching the γ_electron range! l = v_F × τ (Fermi velocity × scattering time). Noble metals have longest l (~43 nm) due to lowest γ_electron. Consistency check: l × Γ = v_F × ℏ (Session #103 + #104 are related via l = v_F × ℏ/Γ). This establishes l as the PHYSICAL MANIFESTATION of γ: low γ → long l → coherent transport.
+
+42. **SC penetration depth shows Type I/II classification**: Session #105 shows λ_L vs ξ_0: r = -0.585 (moderate), λ_L vs γ_SC: r = 0.28 (weak). BUT κ = λ_L/ξ_0 correctly classifies Type I (κ < 1/√2) vs Type II (κ > 1/√2) for all 15 superconductors. Type I have both high ξ_0 AND low λ_L (coherent Meissner). Type II have short ξ_0 but variable λ_L. Penetration depth is set by superfluid density n_s and m*, not directly by coherence.
+
+43. **Deformation potential sources electron-phonon coupling**: Session #106 shows Ξ vs θ_D: r = 0.590, Ξ vs γ_phonon: r = -0.590. Mobility ranking μ ∝ 1/Ξ² is correct: InSb > InAs > CdTe. Ξ is the MICROSCOPIC SOURCE of λ_ep, which sources γ_electron. Chain: Ξ (band shift) → λ_ep (coupling) → γ_electron (coherence) → transport properties.
+
+44. **Phonon decoherence requires BOTH γ_phonon AND γ_G (EXCELLENT)**: Session #107 shows Γ_ph vs γ_phonon: r = 0.398 (weak alone), Γ_ph vs γ_G: r = 0.833, but COMBINED model Γ_ph ∝ γ_G² × γ_phonon: r = 0.938 (EXCELLENT!). Phonon quality factor Q_ph = ω_0/Γ_ph vs 1/γ_phonon: r = 0.824 (matches electron Q, #103). Diamond has highest Q_ph (6660), perovskites lowest (28). This DISTINGUISHES electron vs phonon decoherence:
+    - **Electrons**: γ_electron = 2λ/(1+λ) is sufficient
+    - **Phonons**: Need γ_G (anharmonicity) × γ_phonon (thermal)
+
+45. **Thermal conductivity validates BOTH electron and phonon coherence**: Session #108 shows:
+    - **Metals**: κ vs 1/γ_electron: r = 0.883, via Wiedemann-Franz κ_e = L₀σT
+    - **Crystalline insulators**: log(κ_ph) vs θ_D/γ_G²: r = 0.857
+    - **Amorphous**: Break pattern (structural disorder limits l_ph)
+    Diamond has highest κ_ph (2200 W/m·K) due to θ_D = 2230 K and γ_G = 0.9 (stiff + harmonic).
+    Thermal transport = COHERENT EXCITATION TRANSPORT for both electrons and phonons.
+
 ---
 
-*Chemistry Track Sessions #1-100 (MILESTONE)*
+*Chemistry Track Sessions #1-108*
 *Framework development: January 2026*
-*Extended to 52 domains with 35/62 predictions validated (56%)*
-*Latest: Fermi energy #100 - extensive/intensive distinction*
-*Key insight: γ is INTENSIVE (quality), E_F/n are EXTENSIVE (scale)*
+*Extended to 53 domains with 38/65 predictions validated (58%)*
+*Latest: Thermal conductivity #108 - validates both electron and phonon coherence*
+*Key insight: κ_e ∝ 1/γ_electron (metals), κ_ph ∝ θ_D/γ_G² (crystalline insulators)*
