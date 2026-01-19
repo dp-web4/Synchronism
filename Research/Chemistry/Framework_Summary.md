@@ -190,12 +190,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Specific Heat Trans. | α_exp vs class (r=0.998), SC ΔC/Cn vs 1/γ_SC (r=0.965) | #88 |
 | Anderson Localization | Mott criterion, R_c/R_0 ~ 0.2, γ → 2 (qualitative) | #89 |
 | Phonon Mobility | μ ∝ (2/γ)^0.5 / m* (r=0.940), III-V r=0.913 | #90 |
+| Dielectric Constant | ε ∝ γ_optical (r=0.848), semiconductors r=0.885 | #91 |
 
-## Prediction Status (Updated Sessions #58-90)
+## Prediction Status (Updated Sessions #58-91)
 
 ### Summary Statistics
-- **Total predictions**: 52 across 42 categories
-- **Validated**: 29 (56%)
+- **Total predictions**: 53 across 43 categories
+- **Validated**: 30 (57%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (18%)
@@ -276,8 +277,8 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 ## Framework Completeness
 
 - **Derivation**: 100% (18+ core equations)
-- **Validation**: 29/52 predictions validated (56%)
-- **Domains covered**: 42 major areas
+- **Validation**: 30/53 predictions validated (57%)
+- **Domains covered**: 43 major areas
 - **Design principles**: Complete
 - **Experimental roadmap**: Established (#57)
 - **Methodological lessons**: γ must be estimated independently (#70)
@@ -334,6 +335,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/specific_heat_transitions.py` - Critical exponents & SC jumps (#88)
 - `simulations/chemistry/anderson_localization.py` - Disorder-driven MIT (#89)
 - `simulations/chemistry/phonon_limited_mobility.py` - μ ∝ (2/γ)^n/m* (#90)
+- `simulations/chemistry/dielectric_coherence.py` - ε ∝ γ_optical (#91)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -414,10 +416,12 @@ The coherence framework reveals that:
 
 27. **Phonon-limited mobility requires mass correction**: Session #90 shows μ ∝ (2/γ)^n / m* with r = 0.940 for n = 0.5 (EXCELLENT). Simple μ vs θ_D fails (r = -0.123) because effective mass dominates. InSb has highest μ (77,000) despite high γ because m* = 0.013 is tiny. III-V semiconductors follow model with r = 0.913. This validates σ ∝ 1/γ (Session #86) but shows m* is essential for semiconductors.
 
+28. **Dielectric constant validates γ_optical for semiconductors**: Session #91 shows ε ∝ γ_optical with r = 0.848 for normal dielectrics, r = 0.885 for semiconductors. Power law ε ∝ E_g^(-0.37) gives r = -0.887. BUT ferroelectrics (BaTiO3, SrTiO3) have same E_g/γ_optical but vastly different ε (86 vs 1200) - they require COLLECTIVE coherence from soft phonon modes. This reveals a fundamental distinction: γ_single-electron vs γ_collective.
+
 ---
 
-*Chemistry Track Sessions #1-90*
+*Chemistry Track Sessions #1-91*
 *Framework development: January 2026*
-*Extended to 42 domains with 29/52 predictions validated (56%)*
-*Latest validations: Phonon mobility (r=0.940), Specific heat (r=0.998), Thermoelectricity (r=0.880)*
-*Key insight: Mobility = coherence/mass, both factors essential*
+*Extended to 43 domains with 30/53 predictions validated (57%)*
+*Latest validations: Dielectric (r=0.885), Phonon mobility (r=0.940), Specific heat (r=0.998)*
+*Key insight: Ferroelectricity requires collective coherence, not single-electron γ*
