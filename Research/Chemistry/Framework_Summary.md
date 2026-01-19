@@ -206,8 +206,9 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Mean Free Path | l ∝ 1/γ_e (r=0.829), l IS coherence length, N_corr=l/a | #104 |
 | SC Penetration | λ_L vs ξ_0: r=-0.585, κ=λ_L/ξ_0 gives Type I/II, λ_L vs γ_SC: r=0.28 (weak) | #105 |
 | Deformation Pot. | Ξ vs θ_D: r=0.590, μ ∝ 1/(Ξ²×m*) ranking correct, Ξ sources λ_ep | #106 |
+| Phonon Linewidth | Γ_ph ∝ γ_G²×γ_phonon (r=0.938!), Q_ph vs 1/γ_phonon (r=0.824) | #107 |
 
-## Prediction Status (Updated Sessions #58-106)
+## Prediction Status (Updated Sessions #58-107)
 
 ### Summary Statistics
 - **Total predictions**: 62 across 52 categories
