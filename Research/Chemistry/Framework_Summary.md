@@ -526,10 +526,15 @@ The coherence framework reveals that:
 
 51. **Atomic volume is FUNDAMENTAL coherence determinant (EXCELLENT)**: Session #114 shows V_a vs γ_phonon: r = 0.956 (EXCELLENT), log(V_a) vs log(θ_D): r = -0.898, r_cov vs γ_phonon: r = 0.836. Alkali metals show perfect periodic trend: V_a vs γ_phonon: r = 0.970 (Li → Na → K → Rb → Cs). Diamond (V_a = 5.7 Å³, γ = 0.27) vs Cs (V_a = 115 Å³, γ = 15.8) - 20× volume → 60× decoherence. Causal chain: V_a → bond length → spring constant → θ_D → γ_phonon. Atomic volume is the MICROSCOPIC ORIGIN of phonon coherence, connecting coherence framework directly to periodic table structure.
 
+52. **Electronegativity reveals TWO INDEPENDENT coherence channels (EXCELLENT)**: Session #115 shows χ vs 1/γ_optical: r = 0.938 (EXCELLENT), χ vs γ_phonon: r = -0.078 (essentially ZERO). Chemical hardness η = (IE-EA)/2 vs 1/γ_optical: r = 0.947. This confirms TWO ORTHOGONAL coherence channels:
+    - **Electronic channel**: χ → IE → γ_optical → optical/dielectric properties
+    - **Phononic channel**: V_a → θ_D → γ_phonon → thermal/mechanical properties
+    These channels are INDEPENDENT - electronegativity (electronic binding) does not predict phonon coherence (lattice dynamics). Halogen/noble gas trend (high χ, low γ_optical) contrasts with alkali trend (low χ, high γ_optical, high γ_phonon). Framework architecture clarified: each coherence type has its own causal chain.
+
 ---
 
-*Chemistry Track Sessions #1-114*
+*Chemistry Track Sessions #1-115*
 *Framework development: January 2026*
-*Extended to 59 domains with 44/71 predictions validated (62%)*
-*Latest: Atomic volume #114 - fundamental coherence determinant*
-*Key insight: V_a → r_bond → k → θ_D → γ_phonon (complete chain)*
+*Extended to 60 domains with 45/72 predictions validated (63%)*
+*Latest: Electronegativity #115 - two independent coherence channels*
+*Key insight: Electronic (χ→IE→γ_optical) and Phononic (V_a→θ_D→γ_phonon) are ORTHOGONAL*
