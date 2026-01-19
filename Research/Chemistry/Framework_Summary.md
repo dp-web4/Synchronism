@@ -514,10 +514,12 @@ The coherence framework reveals that:
     Diamond has highest κ_ph (2200 W/m·K) due to θ_D = 2230 K and γ_G = 0.9 (stiff + harmonic).
     Thermal transport = COHERENT EXCITATION TRANSPORT for both electrons and phonons.
 
+46. **Sound velocity sets phonon coherence scale (EXCELLENT)**: Session #109 shows v_D vs θ_D: r = 0.982 (EXCELLENT), v_D vs 1/γ_phonon: r = 0.982 (EXCELLENT), v_L vs √(E/ρ): r = 0.984. The Debye model is validated: θ_D ∝ v_D. Since γ_phonon = 2T/θ_D ∝ 1/v_D, sound velocity SETS the phonon coherence scale. Diamond (v_D = 13,300 m/s) has lowest γ_phonon (0.27), Pb (v_D = 970 m/s) has highest (5.7). Material hierarchy: ceramics > semiconductors > metals > soft metals. Combined with #107-108: κ_ph ∝ v_D² / (γ_G² × γ_phonon) ∝ v_D³ / γ_G² (complete phonon transport model).
+
 ---
 
-*Chemistry Track Sessions #1-108*
+*Chemistry Track Sessions #1-109*
 *Framework development: January 2026*
-*Extended to 53 domains with 38/65 predictions validated (58%)*
-*Latest: Thermal conductivity #108 - validates both electron and phonon coherence*
-*Key insight: κ_e ∝ 1/γ_electron (metals), κ_ph ∝ θ_D/γ_G² (crystalline insulators)*
+*Extended to 54 domains with 39/66 predictions validated (59%)*
+*Latest: Sound velocity #109 - v_D sets phonon coherence scale*
+*Key insight: v_D → θ_D → γ_phonon → transport (complete chain)*
