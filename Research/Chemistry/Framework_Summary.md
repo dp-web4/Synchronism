@@ -195,12 +195,13 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Piezoelectricity | d_33 ∝ γ × ε (r=0.940), ANOMALOUS - incoherence helps! | #93 |
 | Magnetostriction | λ_s vs γ: r=0.685 overall, r~0.1 within class (SOC dominates) | #94 |
 | Electrooptic | r ∝ ε (r=0.811), within-class vs γ_ph: r=0.80-0.96 | #95 |
+| Nonlinear Optics χ² | d ∝ χ¹³ ∝ γ_opt³ (r=0.914), Miller validated | #96 |
 
-## Prediction Status (Updated Sessions #58-95)
+## Prediction Status (Updated Sessions #58-96)
 
 ### Summary Statistics
-- **Total predictions**: 57 across 47 categories
-- **Validated**: 33 (58%)
+- **Total predictions**: 58 across 48 categories
+- **Validated**: 34 (59%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (16%)
@@ -346,6 +347,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/piezoelectric_coherence.py` - d ∝ γ × ε (ANOMALOUS) (#93)
 - `simulations/chemistry/magnetostriction_coherence.py` - λ_s dominated by SOC (#94)
 - `simulations/chemistry/electrooptic_coherence.py` - r ∝ ε, γ_ph within-class (#95)
+- `simulations/chemistry/nonlinear_optics_coherence.py` - χ² ∝ γ³ via Miller (#96)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -441,10 +443,18 @@ The coherence framework reveals that:
 
 32. **Electrooptic coefficient shows hybrid behavior**: Session #95 shows r_33 ∝ ε^0.72 with r = 0.811 overall (permittivity dominates), BUT within material classes γ_phonon shows EXCELLENT correlation: ferroelectrics r = 0.902, semiconductors r = 0.802, KDP family r = 0.961. This contrasts with magnetostriction (#94) where within-class r ~ 0.1. Best combined model: r ∝ ε/γ_optical (r = 0.840). The physics: EO effect has electronic (∝ 1/γ_optical) and ionic (∝ γ_phonon × ε) contributions. Comparison to piezoelectricity (#93): piezo is strongly γ_phonon-dependent, EO works through ε but γ_phonon helps within classes.
 
+33. **Nonlinear optical χ² shows CUBIC γ_optical scaling**: Session #96 validates Miller's rule d ∝ χ¹³ with r = 0.914 (EXCELLENT). Since χ¹ = n² - 1 ∝ γ_optical (Session #91), this gives χ² ∝ γ_optical³. Also found: d ∝ n^7.38 (r = 0.911), d ∝ E_g^(-2.12) (r = -0.840). Materials with small E_g (InSb: γ = 160, InAs: γ = 76) have highest d (>350 pm/V). This establishes the OPTICAL COHERENCE HIERARCHY:
+    - n: γ^(1/4) via Moss (#76)
+    - ε: γ (#91)
+    - χ¹: γ (#91)
+    - r (EO): ε^0.7 ≈ γ^0.7 (#95)
+    - χ²: γ³ via Miller (#96)
+    Higher-order susceptibilities predicted: χⁿ ∝ γ^(n+1)
+
 ---
 
-*Chemistry Track Sessions #1-95*
+*Chemistry Track Sessions #1-96*
 *Framework development: January 2026*
-*Extended to 47 domains with 33/57 predictions validated (58%)*
-*Latest validations: Electrooptic (r=0.811, within-class 0.80-0.96), Piezo (r=0.940)*
-*Key insight: EO has hybrid behavior - ε dominates overall, γ_phonon within classes*
+*Extended to 48 domains with 34/58 predictions validated (59%)*
+*Latest validations: χ² (r=0.914), EO (r=0.811), Piezo (r=0.940)*
+*Key insight: OPTICAL COHERENCE HIERARCHY established - n to χ² scales γ^(1/4) to γ³*
