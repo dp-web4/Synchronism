@@ -522,10 +522,12 @@ The coherence framework reveals that:
 
 49. **Specific heat ratio γ_ad identifies THERMODYNAMIC BOUNDARY**: Session #112 shows γ_ad vs γ_G²: r = -0.174 (weak), γ_ad vs γ_phonon: r = 0.760 (moderate but not coherence). Thermodynamic identity (γ_ad-1) = α²VTB/Cv: r = 0.816. Grüneisen definition γ_G = αVB/Cv validated: r = 0.959. Gas equipartition γ = (f+2)/f: r = 0.983. γ_ad = Cp/Cv is THERMODYNAMIC, not coherence. Solids: γ_ad ≈ 1 (range 1.01-1.20). This establishes thermodynamic degrees of freedom as OUTSIDE the coherence framework, joining other boundaries: thermionic emission (#98), SOC properties (#94, #99), band structure (#102).
 
+50. **Compressibility shows INVERSE coherence relationship (EXCELLENT)**: Session #113 shows κ_T vs γ_phonon: r = 0.918 (STRONG). Since κ_T = 1/B, this confirms B vs 1/γ_phonon from #110. Cs is most compressible (κ_T = 0.625 GPa⁻¹), Diamond least (0.0023 GPa⁻¹), ratio 270×. Class hierarchy: Alkali >> Simple > Semiconductors > Noble > Ceramics > 3d TM > Refractory. Key insight: Compressibility is INVERSE to coherence (κ_T ∝ γ), unlike transport (∝ 1/γ). Coherent lattices resist compression because well-defined phase relationships resist disruption. Fermi gas model B vs n^(5/3): r = 0.514 (moderate).
+
 ---
 
-*Chemistry Track Sessions #1-112*
+*Chemistry Track Sessions #1-113*
 *Framework development: January 2026*
-*Extended to 57 domains with 42/69 predictions validated (61%)*
-*Latest: Specific heat ratio #112 - thermodynamic boundary identified*
-*Key insight: γ_ad = Cp/Cv is THERMODYNAMIC, not coherence-related*
+*Extended to 58 domains with 43/70 predictions validated (61%)*
+*Latest: Compressibility #113 - inverse coherence relationship*
+*Key insight: κ_T ∝ γ (inverse), while transport ∝ 1/γ*
