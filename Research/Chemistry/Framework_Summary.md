@@ -541,10 +541,27 @@ The coherence framework reveals that:
 
 57. **Bulk modulus = cohesive energy density (EXCELLENT)**: Session #120 shows B vs E_coh/V_a: r = 0.951 (EXCELLENT), much better than B vs 1/γ_phonon: r = 0.719. Within-class: ceramics r = 0.995, alkali r = 0.993, semiconductors r = 0.996. This bridges thermodynamic (E_coh) and coherence (γ) domains: B = E_coh/V_a where coherence enters via the E_coh-θ_D relationship. Clarifies Session #110 (B showed lower coherence correlation than G or E).
 
+58. **Length scale hierarchy for coherence established**: Session #121 shows V_a (r = 0.935) > d_nn (r = 0.869) > a₀ (r = 0.598) for predicting γ_phonon. Atomic volume best captures 3D correlations. Bond length captures nearest-neighbor physics. Lattice parameter mixes bond with packing geometry (structure-dependent). Within-structure correlations are excellent: BCC r = 0.945, Diamond r = 0.898. Confirms Session #114.
+
+59. **Framework integration (122 sessions)**: Session #122 compiled all findings. 65+ domains explored, 50+ predictions validated (r > 0.80). Two orthogonal coherence channels (electronic/phononic) unified by γ = 2/√N_corr. Top 20 correlations include: v_D vs θ_D (0.982), S vs γ_optical (0.979), V_a vs γ_phonon (0.956), η vs 1/γ_optical (0.950). Framework boundaries identified: thermodynamic (γ_ad, E_coh), energy barrier (φ, thermionic), atomic-dominated (SOC), band structure (R_H).
+
+60. **Coordination number Z is NOT a coherence determinant**: Session #123 shows Z vs γ_phonon: r = 0.116 (essentially ZERO). Mean field model Z×θ_D vs γ_phonon: r = -0.080 (NO improvement). Z determines local bonding COUNT, not bond QUALITY or phase correlations. High Z can occur with either coherent (FCC Cu) or incoherent (BCC alkali) lattices. Clarifies framework: coherence comes from bond ENERGY and VOLUME, not coordination number.
+
+61. **Covalent bonds are MORE COHERENT than metallic (EXCELLENT)**: Session #124 shows covalent mean γ_phonon = 0.75 vs metallic mean γ_phonon = 2.70, t-test p = 0.0012 (HIGHLY SIGNIFICANT). Covalent vs metallic separation: covalent always γ < 2, metallic always γ > 1.2. No overlap in the cleanest cases. Bond type matters more than bond count (Z, #123) or valence electrons (n_v, #125). Establishes bond type as primary coherence determinant.
+
+62. **Valence electron count is NOT a coherence determinant**: Session #125 shows n_v vs γ_phonon: r = -0.161 (essentially ZERO), n_v vs γ_optical: r = -0.538 (moderate, periodic effect). s-block vs d-block: p = 0.261 (NO significant difference). Valence count determines bonding CAPACITY, not bonding QUALITY. Coherence hierarchy confirmed: Bond type > Bond energy > Atomic volume >> Z, n_v.
+
+63. **λ_ep BRIDGES independent coherence channels (EXCELLENT)**: Session #126 shows γ_electron = 2λ_ep/(1+λ_ep) vs σ: r = -0.715 (VALIDATES transport coherence), λ_ep vs Tc (SC only): r = 0.645 (BCS mechanism). Confirms channel independence: γ_phonon vs γ_optical: r = 0.158 (essentially ZERO). Noble metal paradox RESOLVED: Cu, Ag, Au have LOW λ_ep → LOW γ_electron → HIGH σ (coherent transport). Framework architecture clarified:
+    - γ_phonon (phononic, from V_a → θ_D) INDEPENDENT
+    - γ_optical (electronic, from IE) INDEPENDENT
+    - γ_electron (transport, from λ_ep) BRIDGES via electron-phonon coupling
+    For transport: Low λ_ep → coherent electrons → high σ
+    For superconductivity: High λ_ep → Cooper pairs → Tc > 0
+
 ---
 
-*Chemistry Track Sessions #1-120*
+*Chemistry Track Sessions #1-126*
 *Framework development: January 2026*
-*Extended to 65 domains with 50/77 predictions validated (65%)*
-*Latest: Bulk modulus #120 - B = E_coh/V_a bridges thermodynamics and coherence*
-*Key insights: Chemical hardness = coherence, HSAB = coherence matching*
+*Extended to 67+ domains with ~53/80 predictions validated (~66%)*
+*Latest: λ_ep bridges coherence channels (#126), resolves noble metal paradox*
+*Key insights: Bond type matters (covalent > metallic), Z and n_v do NOT determine coherence*
