@@ -193,18 +193,20 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Dielectric Constant | ε ∝ γ_optical (r=0.848), semiconductors r=0.885 | #91 |
 | Glass Thermal κ | γ → 2 classical limit, κ_glass ~ 0.5 W/m·K (universal) | #92 |
 | Piezoelectricity | d_33 ∝ γ × ε (r=0.940), ANOMALOUS - incoherence helps! | #93 |
+| Magnetostriction | λ_s vs γ: r=0.685 overall, r~0.1 within class (SOC dominates) | #94 |
 
-## Prediction Status (Updated Sessions #58-93)
+## Prediction Status (Updated Sessions #58-94)
 
 ### Summary Statistics
-- **Total predictions**: 55 across 45 categories
-- **Validated**: 32 (58%)
+- **Total predictions**: 56 across 46 categories
+- **Validated**: 32 (57%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (16%)
 - **Qualitatively known/reinterpreted**: 8 (includes Anderson localization, glass universality)
 - **Coherence type resolved**: 1 (σ via γ_electron, #86)
 - **ANOMALOUS (γ helps)**: 1 (piezoelectricity - soft modes, #93)
+- **Atomic-dominated**: 1 (magnetostriction - SOC dominates, #94)
 - **Moderate correlations**: 2 (Grüneisen r=0.509, Mott criterion ~factor 2)
 
 ### Recent Validations (Sessions #58-77)
@@ -341,6 +343,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/dielectric_coherence.py` - ε ∝ γ_optical (#91)
 - `simulations/chemistry/glass_thermal_conductivity.py` - Glass γ → 2 universality (#92)
 - `simulations/chemistry/piezoelectric_coherence.py` - d ∝ γ × ε (ANOMALOUS) (#93)
+- `simulations/chemistry/magnetostriction_coherence.py` - λ_s dominated by SOC (#94)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -429,10 +432,15 @@ The coherence framework reveals that:
     - **Coherence regime** (2/γ): transport, gaps, stability
     - **Incoherence regime** (γ): soft modes, phase transitions, domain motion
 
+31. **Magnetostriction is dominated by ATOMIC property (spin-orbit coupling)**: Session #94 shows |λ_s| vs γ_phonon: r = 0.685 overall BUT within-class r ~ 0.1 (essentially no correlation). The overall correlation is driven by CLASS SEPARATION: rare earths (4f electrons, |λ_s| ~ 1000-9000 ppm) vs 3d metals (quenched orbital moment, |λ_s| ~ 1-100 ppm). The 100× difference comes from spin-orbit coupling (SOC ∝ Z^4, unquenched L in 4f), not from phonon softness. This reveals THREE categories in the framework:
+    - **Collective coherence** (γ scaling): transport, soft modes, gaps
+    - **Atomic coherence** (γ from atomic property): γ_optical = IE_ref/IE, γ_electron = f(λ_ep)
+    - **Atomic-dominated** (weakly γ-dependent): magnetostriction (SOC), nuclear effects
+
 ---
 
-*Chemistry Track Sessions #1-93*
+*Chemistry Track Sessions #1-94*
 *Framework development: January 2026*
-*Extended to 45 domains with 32/55 predictions validated (58%)*
-*Latest validations: Piezoelectricity (r=0.940), Glass κ (r=0.940), Phonon mobility (r=0.940)*
-*Key insight: TWO REGIMES discovered - coherence (2/γ) vs incoherence (γ) phenomena*
+*Extended to 46 domains with 32/56 predictions validated (57%)*
+*Latest validations: Magnetostriction (atomic), Piezoelectricity (r=0.940), Glass κ (r=0.940)*
+*Key insight: THREE categories - collective, atomic-coherence, atomic-dominated*
