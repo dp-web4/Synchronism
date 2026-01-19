@@ -203,8 +203,9 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Sommerfeld Coeff | γ_S vs γ_e: r=0.42 overall, WITHIN-CLASS r=0.8-0.9 | #101 |
 | Hall Coefficient | R_H vs γ_e: r=0.001 (NONE), alkali free electron r=0.996 | #102 |
 | Plasma/Drude | ω_p∝√n (r=0.852), Γ vs γ_e: r=0.867 (EXCELLENT), Q vs 1/γ: r=0.833 | #103 |
+| Mean Free Path | l ∝ 1/γ_e (r=0.829), l IS coherence length, N_corr=l/a | #104 |
 
-## Prediction Status (Updated Sessions #58-103)
+## Prediction Status (Updated Sessions #58-104)
 
 ### Summary Statistics
 - **Total predictions**: 62 across 52 categories
