@@ -198,19 +198,20 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | Nonlinear Optics χ² | d ∝ χ¹³ ∝ γ_opt³ (r=0.914), Miller validated | #96 |
 | SC Gap/Coherence | ξ_0 ∝ Δ^(-1.02) (r=-0.830), BCS VALIDATED | #97 |
 | Thermionic Emission | J ∝ exp(-φ/kT), A vs γ: r=0.15 (WEAK - boundary) | #98 |
+| Magnetic Anisotropy | K: RE/3d = 32×, within-class r ~ 0.3 (SOC-dominated) | #99 |
 
-## Prediction Status (Updated Sessions #58-98)
+## Prediction Status (Updated Sessions #58-99)
 
 ### Summary Statistics
-- **Total predictions**: 60 across 50 categories
-- **Validated**: 35 (58%)
+- **Total predictions**: 61 across 51 categories
+- **Validated**: 35 (57%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
 - **Pending validation**: 9 (16%)
 - **Qualitatively known/reinterpreted**: 8 (includes Anderson localization, glass universality)
 - **Coherence type resolved**: 1 (σ via γ_electron, #86)
 - **ANOMALOUS (γ helps)**: 1 (piezoelectricity - soft modes, #93)
-- **Atomic-dominated**: 1 (magnetostriction - SOC dominates, #94)
+- **Atomic-dominated**: 2 (magnetostriction #94, anisotropy #99 - both SOC)
 - **Energy-barrier dominated**: 1 (thermionic emission - φ dominates, #98)
 - **Moderate correlations**: 2 (Grüneisen r=0.509, Mott criterion ~factor 2)
 
@@ -353,6 +354,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/nonlinear_optics_coherence.py` - χ² ∝ γ³ via Miller (#96)
 - `simulations/chemistry/superconducting_gap_coherence.py` - ξ_0 ∝ 1/Δ BCS (#97)
 - `simulations/chemistry/thermionic_emission_coherence.py` - φ dominates, weak γ (#98)
+- `simulations/chemistry/magnetic_anisotropy_coherence.py` - K ∝ SOC, like λ_s (#99)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -461,12 +463,17 @@ The coherence framework reveals that:
 35. **Thermionic emission identifies FRAMEWORK BOUNDARY**: Session #98 shows J/T² vs φ: r = -0.997 (emission dominated by work function exponential). Richardson constant A vs γ_phonon: r = 0.154 (WEAK). A/A_0 vs γ_work: r = 0.000 (NO correlation). This establishes that ENERGY BARRIER phenomena are NOT coherence-dependent. Work function φ sets the barrier; once electrons have E > φ they emit regardless of coherence. Coherence matters for TRANSPORT (scattering), not ESCAPE (energy). This defines a framework boundary:
     - **Coherence-dominant**: transport (σ, κ, μ), optical (n, ε, χ), soft modes (d, r)
     - **Energy-dominant**: thermionic emission (φ), field emission, tunneling
-    - **Atomic-dominant**: magnetostriction (SOC), nuclear effects
+    - **Atomic-dominant**: magnetostriction (SOC), magnetic anisotropy (SOC)
+
+36. **Magnetic anisotropy confirms SOC-dominated category**: Session #99 shows |K₁| vs γ_phonon: r = 0.417 overall, BUT within-class RE: r = -0.434 (NEGATIVE), 3d: r = 0.313 (weak). RE/3d ratio = 32× (similar to magnetostriction ~100×), confirming spin-orbit coupling is primary determinant. Crystal structure provides secondary modulation: cubic (0.056 MJ/m³ mean) < hexagonal (3.86) < tetragonal (4.62). Both magnetostriction (#94) and anisotropy (#99) show:
+    1. Overall correlation driven by material CLASS separation
+    2. Within-class correlations are WEAK or NEGATIVE
+    3. Spin-orbit coupling (atomic property ∝ Z^4) dominates
 
 ---
 
-*Chemistry Track Sessions #1-98*
+*Chemistry Track Sessions #1-99*
 *Framework development: January 2026*
-*Extended to 50 domains with 35/60 predictions validated (58%)*
-*Latest validations: ξ_0 ∝ Δ^(-1) (r=-0.830), χ² (r=0.914); boundary: thermionic (weak γ)*
-*Key insight: Energy barrier phenomena (thermionic) are OUTSIDE coherence framework*
+*Extended to 51 domains with 35/61 predictions validated (57%)*
+*Latest validations: χ² (r=0.914), ξ_0 (r=-0.830); boundary: SOC (λ, K), energy (φ)*
+*Key insight: SOC phenomena (magnetostriction, anisotropy) form ATOMIC-DOMINATED category*
