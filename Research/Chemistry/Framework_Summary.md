@@ -199,20 +199,22 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | SC Gap/Coherence | ξ_0 ∝ Δ^(-1.02) (r=-0.830), BCS VALIDATED | #97 |
 | Thermionic Emission | J ∝ exp(-φ/kT), A vs γ: r=0.15 (WEAK - boundary) | #98 |
 | Magnetic Anisotropy | K: RE/3d = 32×, within-class r ~ 0.3 (SOC-dominated) | #99 |
+| Fermi Energy | E_F ∝ n^(2/3) (r=1.000), σ ∝ n×√E_F/γ_e (r=0.465) | #100 |
 
-## Prediction Status (Updated Sessions #58-99)
+## Prediction Status (Updated Sessions #58-100)
 
 ### Summary Statistics
-- **Total predictions**: 61 across 51 categories
-- **Validated**: 35 (57%)
+- **Total predictions**: 62 across 52 categories
+- **Validated**: 35 (56%)
 - **Partially validated**: 2 (ion channels, bond strength)
 - **Needs refinement**: 2 (catalysis, reaction kinetics γ estimation)
-- **Pending validation**: 9 (16%)
+- **Pending validation**: 9 (15%)
 - **Qualitatively known/reinterpreted**: 8 (includes Anderson localization, glass universality)
 - **Coherence type resolved**: 1 (σ via γ_electron, #86)
 - **ANOMALOUS (γ helps)**: 1 (piezoelectricity - soft modes, #93)
 - **Atomic-dominated**: 2 (magnetostriction #94, anisotropy #99 - both SOC)
 - **Energy-barrier dominated**: 1 (thermionic emission - φ dominates, #98)
+- **Extensive property**: 1 (Fermi energy #100 - E_F scales with n, γ modulates)
 - **Moderate correlations**: 2 (Grüneisen r=0.509, Mott criterion ~factor 2)
 
 ### Recent Validations (Sessions #58-77)
@@ -255,6 +257,12 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 | γ_electron | σ, κ_electron | λ_ep = 2λ/(1+λ) | #86 (r=0.664-0.897) |
 | γ_spin | χ (magnetic) | μ, T (Curie law) | #82 (Curie r=0.715) |
 | γ_optical | n, ε, α | IE_ref/IE | #85 (r=0.974) |
+
+**Extensive vs Intensive Properties (Session #100):**
+| Type | Properties | Scaling | Role |
+|------|------------|---------|------|
+| Extensive | E_F, n, N(E_F) | n^(2/3) | Sets scale |
+| Intensive | γ (all types) | 2/√N_corr | Modulates efficiency |
 
 ### Moderate/Mixed Results (Sessions #68-72)
 - **Diffusion** (#68): Liquid r=0.530, Solid r=0.457, Ionic r=0.666 - moderate correlations, framework consistent but not transformative
@@ -355,6 +363,7 @@ k_ET ∝ (2/γ) × exp(-λ/4kT)
 - `simulations/chemistry/superconducting_gap_coherence.py` - ξ_0 ∝ 1/Δ BCS (#97)
 - `simulations/chemistry/thermionic_emission_coherence.py` - φ dominates, weak γ (#98)
 - `simulations/chemistry/magnetic_anisotropy_coherence.py` - K ∝ SOC, like λ_s (#99)
+- `simulations/chemistry/fermi_energy_coherence.py` - E_F extensive vs γ intensive (#100)
 
 ### Documentation
 - Session logs in `private-context/autonomous-sessions/`
@@ -470,10 +479,15 @@ The coherence framework reveals that:
     2. Within-class correlations are WEAK or NEGATIVE
     3. Spin-orbit coupling (atomic property ∝ Z^4) dominates
 
+37. **Fermi energy distinguishes EXTENSIVE from INTENSIVE properties (MILESTONE)**: Session #100 shows E_F ∝ n^(2/3) with r = 1.000 (PERFECT free electron validation). Combined conductivity model σ ∝ n×√E_F/γ_electron gives r = 0.465 (moderate). Key insight: E_F is EXTENSIVE (scales with system size), while γ is INTENSIVE (quality factor). Noble metals (Cu, Ag, Au) have highest σ despite moderate E_F because they have LOWEST γ_electron (~0.2). This establishes:
+    - **Extensive properties** (E_F, n, N(E_F)): Set the scale
+    - **Intensive properties** (γ types): Modulate efficiency
+    Full transport requires BOTH: σ ∝ (carrier reservoir) × (Fermi velocity) × (coherence factor)
+
 ---
 
-*Chemistry Track Sessions #1-99*
+*Chemistry Track Sessions #1-100 (MILESTONE)*
 *Framework development: January 2026*
-*Extended to 51 domains with 35/61 predictions validated (57%)*
-*Latest validations: χ² (r=0.914), ξ_0 (r=-0.830); boundary: SOC (λ, K), energy (φ)*
-*Key insight: SOC phenomena (magnetostriction, anisotropy) form ATOMIC-DOMINATED category*
+*Extended to 52 domains with 35/62 predictions validated (56%)*
+*Latest: Fermi energy #100 - extensive/intensive distinction*
+*Key insight: γ is INTENSIVE (quality), E_F/n are EXTENSIVE (scale)*
