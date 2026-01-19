@@ -524,10 +524,12 @@ The coherence framework reveals that:
 
 50. **Compressibility shows INVERSE coherence relationship (EXCELLENT)**: Session #113 shows κ_T vs γ_phonon: r = 0.918 (STRONG). Since κ_T = 1/B, this confirms B vs 1/γ_phonon from #110. Cs is most compressible (κ_T = 0.625 GPa⁻¹), Diamond least (0.0023 GPa⁻¹), ratio 270×. Class hierarchy: Alkali >> Simple > Semiconductors > Noble > Ceramics > 3d TM > Refractory. Key insight: Compressibility is INVERSE to coherence (κ_T ∝ γ), unlike transport (∝ 1/γ). Coherent lattices resist compression because well-defined phase relationships resist disruption. Fermi gas model B vs n^(5/3): r = 0.514 (moderate).
 
+51. **Atomic volume is FUNDAMENTAL coherence determinant (EXCELLENT)**: Session #114 shows V_a vs γ_phonon: r = 0.956 (EXCELLENT), log(V_a) vs log(θ_D): r = -0.898, r_cov vs γ_phonon: r = 0.836. Alkali metals show perfect periodic trend: V_a vs γ_phonon: r = 0.970 (Li → Na → K → Rb → Cs). Diamond (V_a = 5.7 Å³, γ = 0.27) vs Cs (V_a = 115 Å³, γ = 15.8) - 20× volume → 60× decoherence. Causal chain: V_a → bond length → spring constant → θ_D → γ_phonon. Atomic volume is the MICROSCOPIC ORIGIN of phonon coherence, connecting coherence framework directly to periodic table structure.
+
 ---
 
-*Chemistry Track Sessions #1-113*
+*Chemistry Track Sessions #1-114*
 *Framework development: January 2026*
-*Extended to 58 domains with 43/70 predictions validated (61%)*
-*Latest: Compressibility #113 - inverse coherence relationship*
-*Key insight: κ_T ∝ γ (inverse), while transport ∝ 1/γ*
+*Extended to 59 domains with 44/71 predictions validated (62%)*
+*Latest: Atomic volume #114 - fundamental coherence determinant*
+*Key insight: V_a → r_bond → k → θ_D → γ_phonon (complete chain)*
