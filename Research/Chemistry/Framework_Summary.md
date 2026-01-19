@@ -516,10 +516,12 @@ The coherence framework reveals that:
 
 46. **Sound velocity sets phonon coherence scale (EXCELLENT)**: Session #109 shows v_D vs θ_D: r = 0.982 (EXCELLENT), v_D vs 1/γ_phonon: r = 0.982 (EXCELLENT), v_L vs √(E/ρ): r = 0.984. The Debye model is validated: θ_D ∝ v_D. Since γ_phonon = 2T/θ_D ∝ 1/v_D, sound velocity SETS the phonon coherence scale. Diamond (v_D = 13,300 m/s) has lowest γ_phonon (0.27), Pb (v_D = 970 m/s) has highest (5.7). Material hierarchy: ceramics > semiconductors > metals > soft metals. Combined with #107-108: κ_ph ∝ v_D² / (γ_G² × γ_phonon) ∝ v_D³ / γ_G² (complete phonon transport model).
 
+47. **Shear modulus G is best coherence indicator among elastic constants**: Session #110 shows G vs 1/γ_phonon: r = 0.936 (EXCELLENT), E vs 1/γ_phonon: r = 0.920, B vs 1/γ_phonon: r = 0.712. Debye model validated: E/ρ vs θ_D²: r = 0.984, √(E/ρ) vs θ_D: r = 0.979. Poisson ratio ν reflects bonding geometry (not coherence): r = 0.580. Pugh ratio B/G predicts ductility: B/G > 1.75 ductile, B/G < 1.75 brittle. Cauchy pressure (C12-C44) indicates bonding character: positive = metallic, negative = covalent. Framework insight: Moduli are EXTENSIVE (scale), coherence γ is INTENSIVE (quality). Connection: κ_ph ∝ (E/ρ) / (γ_G² × γ_phonon).
+
 ---
 
-*Chemistry Track Sessions #1-109*
+*Chemistry Track Sessions #1-110*
 *Framework development: January 2026*
-*Extended to 54 domains with 39/66 predictions validated (59%)*
-*Latest: Sound velocity #109 - v_D sets phonon coherence scale*
-*Key insight: v_D → θ_D → γ_phonon → transport (complete chain)*
+*Extended to 55 domains with 40/67 predictions validated (60%)*
+*Latest: Elastic moduli #110 - G best correlates with coherence*
+*Key insight: Moduli are EXTENSIVE (scale), γ is INTENSIVE (quality)*
