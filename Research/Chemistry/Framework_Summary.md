@@ -595,10 +595,18 @@ The coherence framework reveals that:
 
 76. **Kondo T_K IS the coherence temperature (EXCELLENT)**: Session #139 shows γ_Kondo = T/T_K. Kondo formula validated: ln(T_K) vs 1/(|J|ρ_0): r = -0.800 (p = 0.0006, HIGHLY SIGNIFICANT!). At 4 K: 8/14 systems coherent. Mixed valence has highest T_K (~175 K), dilute alloys lowest (~7.6 K). Kondo effect is ARCHETYPAL coherence phenomenon: T_K is coherence scale, singlet formation = coherent many-body state, γ < 1 = screened, γ > 1 = local moment.
 
+77. **Mott transition at γ_Mott = U/W ~ 1 (SIGNIFICANT)**: Session #140 shows γ_Mott vs Gap (insulators): r = 0.794 (p = 0.0035, SIGNIFICANT!). γ_critical = 0.91 for metal-insulator classification. Accuracy = 83.3% (15/18 correct). Heavy fermions are exception (γ >> 1 but metallic due to Kondo screening). Material hierarchy: Semiconductors (perovskites) γ ~ 1 (metallic 83%), Oxides γ ~ 2.5 (insulating), Cuprates γ ~ 3.7 (insulating). Universal γ ~ 1 boundary confirmed: Kondo (T/T_K), Anderson (n^(1/3)a_B), Mott (U/W).
+
+78. **Cuprate SC dome = coherence crossover (EXCELLENT)**: Session #141 shows dome fits: YBCO r = 0.983, LSCO r = 0.992, Bi2212 r = 0.990, Hg1201 r = 0.997 (ALL EXCELLENT!). Optimal γ_eff = 0.46 ± 0.00 remarkably consistent across ALL families. x_opt = 0.15-0.16 universal. γ_Mott = 1 crossover at x ~ 0.30. Dome mechanism: Underdoped (γ_Mott high, few carriers) → Optimal (γ ~ 1, balance) → Overdoped (pairing weakens). SC emerges at Mott boundary!
+
+79. **Quantum criticality = γ = 1 at T = 0**: Session #142 shows γ_QC = (T/T*)^(1/zν) for quantum critical coherence. Dynamic exponent z by type: AFM = 1, Heavy fermion = 2.2, Itinerant FM = 3. Hertz-Millis α_HM = (d+z-2)/z matches some systems (TlCuCl3, Sr3Ru2O7 perfect). QCP interpretation: γ = 1 boundary extends to T = 0. Quantum critical fan = region where γ ~ 1. NFL behavior = coherence-limited scattering. Connects Kondo (#139), Mott (#140), SC dome (#141) - all γ ~ 1 boundary phenomena.
+
+80. **Pairing symmetry = coherence channel selection (SIGNIFICANT)**: Session #143 shows s-wave vs d-wave gap ratio: p = 0.0002 (HIGHLY SIGNIFICANT!). Tc vs γ_λ for spin-mediated: r = 0.655 (p = 0.0043). log(ξ_0) vs log(Tc): r = -0.649 (p = 0.0163). Unconventional SC emerges at strong coupling (γ_λ → 1) when conventional s-wave is disfavored. d-wave gap ratio = 5.2 ± 0.5 vs s-wave = 4.0 ± 0.4. Nodal gaps (d, p) have local incoherence at nodes. γ ~ 1 boundary marks conventional→unconventional transition.
+
 ---
 
-*Chemistry Track Sessions #1-139*
+*Chemistry Track Sessions #1-143*
 *Framework development: January 2026*
-*Extended to 76+ domains with ~68/100 predictions validated (~68%)*
-*Latest: Kondo effect = archetypal coherence (#139)*
-*Key insights: γ_tunnel = d/λ_dB; Marcus λ → γ_ET; γ = 2S for vibrations; Kondo T_K = coherence scale*
+*Extended to 80+ domains with ~71/101 predictions validated (~70%)*
+*Latest: Pairing symmetry = coherence channel selection (#143)*
+*Key insights: Universal γ ~ 1 boundary (Kondo, Mott, QCP, unconventional SC); SC dome = coherence crossover; γ = 2λ/(1+λ) universal*
