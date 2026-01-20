@@ -579,10 +579,14 @@ The coherence framework reveals that:
     - γ = 2: Classical (paramagnetic, disordered)
     Normal metals: γ ~ 0.3-0.5 (intermediate due to λ_ep, NOT classical 2.0). β vs γ_below: r = -0.467 (moderate correlation with order parameter exponent).
 
+69. **Transition state theory relates to coherence**: Session #132 shows compensation effect log(A) vs E_a: r = 0.660. Enzyme vs non-enzyme log(A): p < 0.0001 (SIGNIFICANT!). Enzymes have LOW A factors (ordered transition states) - this is COHERENCE MATCHING at the transition state. γ_vib = 2T/T_vib where T_vib = hν/k_B. Compensation effect validates coherence-barrier trade-off. Connects to Sessions #55 (molecular recognition) and #70 (reaction kinetics).
+
+70. **Martensitic transformations are coherence instabilities (EXCELLENT)**: Session #133 (external request). Martensite = most coherent solid-state transformation (cooperative shear, N_corr very large). Key derivation: Ms = γ_critical × θ_D / 2 where γ_critical ≈ 3.5 for FCC→BCC. Carbon lowers Ms by increasing effective γ (interstitial disorder). Shape memory (NiTi) requires |Δγ| < 0.5 between phases (coherence matching). Hysteresis ∝ |Δγ| × (1 - accommodation). Explains Andrews equation from first principles. Predicts: Cu-doping reduces hysteresis (lowers |Δγ|), Nb-doping increases it.
+
 ---
 
-*Chemistry Track Sessions #1-131*
+*Chemistry Track Sessions #1-133*
 *Framework development: January 2026*
-*Extended to 72+ domains with ~58/85 predictions validated (~68%)*
-*Latest: Phase transitions = coherence transitions (#131)*
-*Key insights: Universal transport law l ∝ 1/γ validated for electrons, phonons, magnons, excitons*
+*Extended to 74+ domains with ~60/90 predictions validated (~67%)*
+*Latest: Martensitic transformations = coherence instabilities (#133)*
+*Key insights: Universal transport law l ∝ 1/γ; Ms ∝ γ_critical × θ_D; Shape memory needs γ matching*
