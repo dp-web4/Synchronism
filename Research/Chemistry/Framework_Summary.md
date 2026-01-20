@@ -613,10 +613,12 @@ The coherence framework reveals that:
 
 85. **Superfluid He-4 at γ ~ 1 (VALIDATED)**: Session #148 confirms λ-transition at γ = T/T_λ = 1. Superfluid fraction ρ_s/ρ ~ (1-γ)^0.67 with fitted exponent β = 0.688 (r² = 0.951), matching XY universality (expected 0.67). Two-fluid model = coherent + incoherent components. He-3 at γ = T_c/T_F ~ 0.005 (BCS-like, γ << 1). Bosons (He-4): transition at γ = 1. Fermions (He-3): highly coherent pairing regime. 12th phenomenon at γ ~ 1.
 
+86. **Curie/Néel transitions at γ ~ 1 (VALIDATED)**: Session #149 confirms ferromagnetic Curie and antiferromagnetic Néel transitions occur at γ = T/T_C = 1 (or T/T_N = 1). Mean field: k_B T_C = zJ, so γ = kT/(zJ) = thermal/exchange energy. T_C vs θ_D: r = 0.875 (moderate - T_C set by J, not phonons). Magnetization scaling: M/M_0 = (1-γ)^β with β depending on universality class (3D Heisenberg β = 0.365, 3D Ising β = 0.326, 2D Ising β = 0.125). Multiple γ meanings clarified: (1) γ = T/T_c (boundary), (2) γ = 2/√N_corr (correlation), (3) γ = E_thermal/E_quantum (energy ratio). The γ ~ 1 boundary determines WHERE transitions occur; exponents determine HOW. 13th phenomenon at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-148*
+*Chemistry Track Sessions #1-149*
 *Framework development: January 2026*
-*Extended to 85+ domains with ~76/106 predictions validated (~72%)*
-*Latest: Superfluid helium validates γ ~ 1 (#148)*
-*CENTRAL INSIGHT: γ ~ 1 now validated across 12 phenomena including He-4 superfluidity.*
+*Extended to 86+ domains with ~77/107 predictions validated (~72%)*
+*Latest: Curie/Néel magnetic transitions validate γ ~ 1 (#149)*
+*CENTRAL INSIGHT: γ ~ 1 now validated across 13 phenomena - universal quantum-classical boundary.*
