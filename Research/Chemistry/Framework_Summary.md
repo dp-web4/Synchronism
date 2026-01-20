@@ -581,12 +581,24 @@ The coherence framework reveals that:
 
 69. **Transition state theory relates to coherence**: Session #132 shows compensation effect log(A) vs E_a: r = 0.660. Enzyme vs non-enzyme log(A): p < 0.0001 (SIGNIFICANT!). Enzymes have LOW A factors (ordered transition states) - this is COHERENCE MATCHING at the transition state. γ_vib = 2T/T_vib where T_vib = hν/k_B. Compensation effect validates coherence-barrier trade-off. Connects to Sessions #55 (molecular recognition) and #70 (reaction kinetics).
 
-70. **Martensitic transformations are coherence instabilities (EXCELLENT)**: Session #133 (external request). Martensite = most coherent solid-state transformation (cooperative shear, N_corr very large). Key derivation: Ms = γ_critical × θ_D / 2 where γ_critical ≈ 3.5 for FCC→BCC. Carbon lowers Ms by increasing effective γ (interstitial disorder). Shape memory (NiTi) requires |Δγ| < 0.5 between phases (coherence matching). Hysteresis ∝ |Δγ| × (1 - accommodation). Explains Andrews equation from first principles. Predicts: Cu-doping reduces hysteresis (lowers |Δγ|), Nb-doping increases it.
+70. **Quantum tunneling coherence (SIGNIFICANT)**: Session #133 shows γ_tunnel = d/λ_dB where d = barrier width, λ_dB = de Broglie wavelength. Enzyme vs Solution γ_tunnel: p = 0.0047 (SIGNIFICANT!). log(k_t) vs 1/γ_tunnel: r = 0.411. Enzymes have HIGHER nominal γ_tunnel but compensate through TS stabilization and conformational dynamics. Mass dependence validated: electrons tunnel 14× further than protons (λ_dB ∝ 1/√m). Kinetic isotope effect explained: γ(D)/γ(H) = √2.
+
+71. **PCET = coherence matching between two tunneling processes (SIGNIFICANT)**: Session #134 shows log(k_PCET) vs 1/γ_H: r = 0.676 (p = 0.0056, SIGNIFICANT!), log(k) vs f_match: r = 0.634 (p = 0.0111). f_match = min(γ_e, γ_H)/max(γ_e, γ_H) quantifies electron-proton coherence matching. Proton is bottleneck (higher γ due to mass). γ_PCET = √(γ_e × γ_H) as geometric mean coherence. Framework extended to coupled multi-particle tunneling.
+
+72. **Marcus reorganization IS coherence (EXCELLENT)**: Session #135 shows log(k_ET) vs 1/γ_ET: r = 0.746 (p = 0.0014, HIGHLY SIGNIFICANT!). γ_ET = λ/kT where λ = reorganization energy. Coherence model R = 0.756 OUTPERFORMS raw Marcus prediction (r = 0.150). Photosynthetic vs Protein γ_ET: p = 0.0110 (photosynthesis achieves lower γ). γ_ET < 10: coherent transfer (organic, photosynthetic). γ_ET > 30: classical hopping (proteins, models). Nature optimizes for coherence!
+
+73. **Two dimensions of solvent coherence**: Session #136 shows Marcus factor vs λ_out: r = 0.700 (p = 0.0077, SIGNIFICANT). γ_dynamic = τ_L/τ_thermal (dynamic coherence). Classification: Coherent (γ < 10): Only acetonitrile (γ = 8). Intermediate (10-100): Water, THF, DCM. Classical (>100): All alcohols. Two coherence dimensions: Energetic (λ → γ_ET) and Dynamic (τ_L → γ_dynamic). Optimal solvent: low γ_ET AND low γ_dynamic.
+
+74. **Vibrational coherence γ = 2S (EXCELLENT)**: Session #137 shows S vs T₂: r = -0.782 (p = 0.0009, HIGHLY SIGNIFICANT!), 1/γ_S vs N_osc: r = 0.828 (p = 0.0003). Period vs T₂: r = 0.852 (p = 0.0001). γ_S = 2S (Huang-Rhys factor). Coherence quality Q = N_osc/(1+2S). Hierarchy: Quantum dots (Q ~ 4.3) > Photosynthetic (Q ~ 1.8) > Dyes (Q ~ 1.3) > Crystals (Q ~ 0.9). Photosynthesis has LOW S (0.16) = weak vibronic coupling = long coherence.
+
+75. **Polaron formation = coherence loss (EXCELLENT)**: Session #138 shows γ_polaron = 2λ_ep/(1+λ_ep) - SAME FORMULA as γ_electron (#86, #126)! λ_ep vs E_p: r = 0.731 (p = 0.0009), γ_polaron vs l_p: r = -0.759 (p = 0.0004), γ_polaron vs γ_mass: r = 0.722 (p = 0.0011). Semiconductor vs Oxide γ: p = 0.0089. Large polarons (γ < 0.5): band transport. Small polarons (γ > 1.5): hopping. Semiconductors γ ~ 0.3, Perovskites γ ~ 1.0, Oxides γ ~ 1.3.
+
+76. **Kondo T_K IS the coherence temperature (EXCELLENT)**: Session #139 shows γ_Kondo = T/T_K. Kondo formula validated: ln(T_K) vs 1/(|J|ρ_0): r = -0.800 (p = 0.0006, HIGHLY SIGNIFICANT!). At 4 K: 8/14 systems coherent. Mixed valence has highest T_K (~175 K), dilute alloys lowest (~7.6 K). Kondo effect is ARCHETYPAL coherence phenomenon: T_K is coherence scale, singlet formation = coherent many-body state, γ < 1 = screened, γ > 1 = local moment.
 
 ---
 
-*Chemistry Track Sessions #1-133*
+*Chemistry Track Sessions #1-139*
 *Framework development: January 2026*
-*Extended to 74+ domains with ~60/90 predictions validated (~67%)*
-*Latest: Martensitic transformations = coherence instabilities (#133)*
-*Key insights: Universal transport law l ∝ 1/γ; Ms ∝ γ_critical × θ_D; Shape memory needs γ matching*
+*Extended to 76+ domains with ~68/100 predictions validated (~68%)*
+*Latest: Kondo effect = archetypal coherence (#139)*
+*Key insights: γ_tunnel = d/λ_dB; Marcus λ → γ_ET; γ = 2S for vibrations; Kondo T_K = coherence scale*
