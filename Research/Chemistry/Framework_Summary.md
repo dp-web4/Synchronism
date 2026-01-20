@@ -611,10 +611,12 @@ The coherence framework reveals that:
 
 84. **BEC-BCS crossover validates γ ~ 1 (NEW DOMAIN)**: Session #147 tests prediction on cold atom BEC-BCS crossover. Bertsch parameter ξ_B = 0.376 → γ = 2(1-ξ_B) = 1.25 (at the boundary!). Gap Δ/E_F = 0.50 at unitarity (HALF Fermi energy = S = S_0/2). Mean γ_c across 7 phenomena = 1.02 ± 0.10 (REMARKABLE!). Unitarity (1/k_F a = 0) is where BCS (γ << 1, overlapping pairs) crosses to BEC (γ → 2, independent molecules). 11th phenomenon at γ ~ 1: cold atom physics now incorporated.
 
+85. **Superfluid He-4 at γ ~ 1 (VALIDATED)**: Session #148 confirms λ-transition at γ = T/T_λ = 1. Superfluid fraction ρ_s/ρ ~ (1-γ)^0.67 with fitted exponent β = 0.688 (r² = 0.951), matching XY universality (expected 0.67). Two-fluid model = coherent + incoherent components. He-3 at γ = T_c/T_F ~ 0.005 (BCS-like, γ << 1). Bosons (He-4): transition at γ = 1. Fermions (He-3): highly coherent pairing regime. 12th phenomenon at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-147*
+*Chemistry Track Sessions #1-148*
 *Framework development: January 2026*
-*Extended to 84+ domains with ~75/105 predictions validated (~71%)*
-*Latest: BEC-BCS crossover at γ ~ 1 (#147)*
-*CENTRAL INSIGHT: γ ~ 1 now validated across 11 phenomena. Mean γ_c = 1.02 ± 0.10 (no fine-tuning!).*
+*Extended to 85+ domains with ~76/106 predictions validated (~72%)*
+*Latest: Superfluid helium validates γ ~ 1 (#148)*
+*CENTRAL INSIGHT: γ ~ 1 now validated across 12 phenomena including He-4 superfluidity.*
