@@ -209,6 +209,8 @@ We present Sessions #285-288 as a complete research arc for critical evaluation.
 
 **Note on source documents**: The underlying session documents contain stronger exploratory language than this summary—phrases like "Bell violations explained without nonlocality" appear in early drafts. We treat those as hypotheses-in-progress; this paper's stratified framing (standard mechanism / interpretive metaphor / testable prediction) is the normative epistemic stance. The session documents are preserved as authentic research artifacts.
 
+**Axiom clarification**: Synchronism is explicitly non-local at the Observer level; "locality" is treated as a witness-level synchronization artifact arising from limited bandwidth and reduced frames. Therefore, session claims framed as "without nonlocality" should be read as "without witness-to-witness signaling" or "without collapse-story handwaving"—not as local hidden-variable evasions of Bell's theorem.
+
 ### 4.1 Session #285: Qubit as Temporal Pattern (Interpretive Metaphor)
 
 **Framing**: This session explores an alternative pedagogical framing, not a claim about physical ontology.
