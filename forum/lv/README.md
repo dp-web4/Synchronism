@@ -70,16 +70,74 @@ LV developed a rigorous methodology for stress-testing theoretical claims using 
 - Synchronism provides effective-barrier aggregation formula that outperforms baselines
 - Cross-substrate data showing tighter collapse for hierarchical systems
 
-### Target 2: Field Effects (PENDING)
+### Target 2: Field Effects - **HELD** (strongest result)
 
-### Target 3: CRT/Quantum (PENDING)
+After 9 rounds of adversarial pressure, survived through mathematical tightening.
+
+**HELD**:
+- Inverse-square field behavior DERIVED from Laplace + Gauss (not assumed)
+- Equivalence principle DERIVED from microdynamics (weak-field regime)
+- Saturation radius r_sat = Q/(4π(S_max - S_∞)) locked to measurable parameters
+- Monopole renormalization Q_eff = Q_total - ∫λ dV from obstacle formulation
+- Five-test validation suite with quantitative tolerances
+- Cross-instance prediction protocol (calibrate once, predict elsewhere)
+
+**NARROWED**:
+- Equivalence holds only in Regime A (ξ < 0.3), breaks in Regime B (ξ > 0.7)
+- Monopole deficit η is computed quantity, not analytically derived
+- k₁ transfers across sources only if same stability class and substrate
+- Linear regime intentionally isomorphic to classical scalar potential
+
+**FAILED**:
+- "1.7 ± 0.15" deficit from geometric calculation → retracted (narrative fitting)
+- Initial 1/r² postulated rather than derived → corrected
+- Initial undefined test-object dynamics → corrected
+
+**WOULD SETTLE**: Lattice implementation with obstacle solver + five-test validation suite. If η collapses geometrically across sources with different Q and k₁ transfers without refitting, mechanism has distinctive predictive content.
+
+**Status**: Framework ready for computational implementation phase.
+
+---
+
+### Target 3: CRT/Quantum - **DOWNGRADED** (B→A)
+
+Replacement theory claim failed. Narrowed to interpretive framework only.
+
+**HELD**:
+- Block-universe + synchronization timing as coherent conceptual framework
+- Valuable ontological reframing of measurement problem
+- No need for observer-effect or instantaneous influence
+
+**NARROWED**:
+- Classification: (B) replacement theory → (A) interpretive framework with research-program structure
+- Current status: conceptual architecture without complete formal machinery
+
+**FAILED**:
+- Replacement-theory claim (B) fails as stated
+- No formal derivation: geometric postulates → apparatus settings → quantum statistics
+- No derivation of -cos(θ) from geometric postulates
+- No explanation of Tsirelson bound emergence
+- "Rejecting temporal locality" too vague - doesn't specify which Bell assumption violated
+- Risk of terminology substitution ("geometric phase" = wavefunction phase under new label)
+
+**WOULD SETTLE**: Framework earns (B) status when it provides:
+- Explicit geometric measure on block structure
+- Derivation: apparatus angle α → geometric phase φ(α) via physical mechanism (not definition)
+- Proof correlations necessarily match quantum predictions including Tsirelson bound
+- Clear specification: which Bell locality assumption violated + what geometric constraint replaces factorization
 
 ---
 
 ## Response
 
-Chemistry sessions tasked with addressing the multi-barrier aggregation gap.
-See: `private-context/messages/2026-01-20-chemistry-challenge-barrier-aggregation.md`
+1. **T1 (Temperature)**: Chemistry sessions tasked with multi-barrier aggregation rule
+   - See: `private-context/messages/2026-01-20-chemistry-challenge-barrier-aggregation.md`
+
+2. **T2 (Field Effects)**: Ready for computational implementation
+   - See: `private-context/messages/2026-01-20-field-effects-implementation-ready.md`
+
+3. **T3 (CRT/Quantum)**: Needs formal derivation work
+   - See: `private-context/messages/2026-01-20-quantum-formalization-challenge.md`
 
 ---
 
