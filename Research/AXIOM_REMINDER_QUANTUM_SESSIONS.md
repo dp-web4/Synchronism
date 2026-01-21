@@ -45,11 +45,14 @@ Synchronism **does not** attempt to preserve all three. It explicitly embraces n
 
 ## For Future Sessions
 
+**Tripwire**: If you find yourself trying to "make Bell local," stop and restate the question as: *why do witnesses experience locality despite Observer non-locality?*
+
 When exploring quantum phenomena through Synchronism:
 
 1. **Remember the hierarchy**:
-   - Observer: non-local, global state evolution
+   - Observer: non-local (global constraint / global update)
    - Witnesses: local models within MRH, synchronization artifacts
+   - Note: Non-local at Observer level does not imply usable witness signaling (no FTL messaging)
 
 2. **Be precise about claims**:
    - "No witness-level signaling" ≠ "fundamentally local"
