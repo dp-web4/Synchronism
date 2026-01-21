@@ -40,8 +40,8 @@ Our primary contributions are:
 
 1. **Architecture**: A minimal viable architecture for persistent autonomous AI research
 2. **Statistics**: Quantitative data on session volume, distribution, and emergent specialization
-3. **Case Study**: A complete research arc (quantum computing reinterpretation) presented for expert review
-4. **Methodology**: Protocols for quality control including cross-model review
+3. **Case Study**: A complete research arc presented as structured hypotheses with explicit predictions for expert review
+4. **Methodology**: Artifact hygiene protocols including cross-model review and claim stratification
 
 We explicitly invite domain experts to critique the case study on its merits, independent of its AI origin.
 
@@ -61,6 +61,8 @@ The system operates across four machines:
 | **Sprout** | Jetson Orin Nano, 8GB | SAGE raising | 233 |
 
 Total: ~1,400 logged autonomous sessions.
+
+**Session Definition**: A session is one continuous Claude Code invocation with autonomous research activity, producing at minimum one committed artifact (document, code, or log entry). Sessions range from 15 minutes to 4 hours. Excluded from counts: failed runs that produced no artifact, manual debugging sessions, and brief check-ins under 10 minutes. Retries of the same task count as separate sessions if they produce distinct artifacts.
 
 ### 2.2 Coordination Mechanism
 
@@ -100,6 +102,55 @@ The review process produces:
 - **Signal vs. Artifact analysis**: What's robust vs. what's speculative
 - **Hardening recommendations**: Minimal edits to make claims testable
 - **Three-layer classification**: Standard mechanism / Interpretive metaphor / Testable prediction
+
+### 2.5 Reproducibility Capsule
+
+**Session Invocation**: Sessions are launched via system timer (cron/systemd) invoking Claude Code with autonomous flags:
+
+```bash
+claude -c --dangerously-skip-permissions -p "$(cat primer.md)"
+```
+
+The `-c` flag continues from existing context; `--dangerously-skip-permissions` allows file operations without interactive confirmation (appropriate for autonomous research on isolated machines).
+
+**Minimal State Required**:
+- Git repositories pulled to known state
+- Primer prompt file (see below)
+- Access to epistemic memory database (SQLite)
+- CLAUDE.md context file in project root
+
+**Generic Primer Template**:
+
+```markdown
+# Autonomous Research Session
+
+You are conducting autonomous research session #{N} on {TRACK}.
+
+## Context
+- Review recent session logs in `autonomous-sessions/`
+- Check epistemic memory for relevant prior discoveries
+- Continue from where previous session ended
+
+## Session Protocol
+1. Document what you're investigating and why
+2. Record discoveries, failures, and open questions
+3. Update memory database if significant findings
+4. Commit all work before session ends
+
+## Current Focus
+{SPECIFIC_RESEARCH_DIRECTION}
+
+## Constraints
+- Commit and push all work (session_end.sh)
+- Document uncertainties explicitly
+- Distinguish speculation from established findings
+```
+
+**Expected Artifacts**: Each session produces at minimum:
+- Session log entry (`autonomous-sessions/session_{N}.md`)
+- One or more research documents or code changes
+- Git commit with descriptive message
+- Optional: epistemic memory database update
 
 ---
 
@@ -156,29 +207,25 @@ This specialization was not designed but emerged from the interaction of capabil
 
 We present Sessions #285-288 as a complete research arc for critical evaluation. This represents 4 sessions conducted over 2 days, reinterpreting quantum computing through a coherence lens.
 
-### 4.1 Session #285: Qubit as Temporal Pattern
+### 4.1 Session #285: Qubit as Temporal Pattern (Interpretive Metaphor)
 
-**Core Claim**: A qubit can be reinterpreted as a temporal coherence pattern rather than a "superposition of states."
+**Framing**: This session explores an alternative pedagogical framing, not a claim about physical ontology.
 
-**Analogy**: Like a CRT beam that creates the illusion of a full image through rapid sequential visitation of pixels, a qubit may "visit" basis states in rapid succession while maintaining phase coherence.
+**Metaphor**: A qubit can be thought of as maintaining temporal coherence across basis states, analogous to how a CRT beam creates a full image through rapid sequential pixel visitation. This is offered as intuition-building, not as established physics.
 
-**Proposed Distinction**:
-- Standard view: Qubit IS in both states; collapse is fundamental
-- Coherence view: Qubit VISITS both states; "collapse" is sampling
+**Motivated Prediction**: If the temporal framing has engineering value, there should exist an optimal coherence C* < 1 that balances quantum advantage with stability—maximum coherence being fragile.
 
-**Prediction**: There exists an optimal coherence C* < 1 that balances quantum advantage with stability. Maximum coherence is fragile; some "decoherence" may be beneficial.
+**Status**: Interpretive metaphor motivating a testable prediction shape. The metaphor itself is not claimed as physical mechanism.
 
-**Status**: Interpretive metaphor with testable prediction shape.
+### 4.2 Session #286: Entanglement as Coherence Coupling (Most Speculative)
 
-### 4.2 Session #286: Entanglement as Coherence Coupling
+**Framing**: This is the most speculative session. We explicitly do not claim to evade Bell's theorem or explain away nonlocality. This is offered as dynamical intuition, not physical mechanism.
 
-**Core Claim**: Entanglement can be understood as maintained phase correlation between coupled temporal patterns, rather than requiring nonlocal connections.
+**Intuition**: Entanglement might be usefully conceptualized as maintained phase correlation between systems that once shared a common reference. This framing may suggest engineering approaches without requiring ontological commitment.
 
-**Mechanism**: When two "oscillators" share a common phase reference and are then separated, their correlation persists until environmental noise destroys the phase relationship.
+**Motivated Question**: Does temporal structure in entangled correlations offer any experimental signature beyond what static models predict? This is posed as a research question, not a claim.
 
-**Prediction**: Temporal structure should be detectable in entangled correlations beyond what static hidden variable models predict.
-
-**Status**: Most speculative session. Does not claim to evade Bell's theorem, but offers dynamical intuition for correlation persistence.
+**Status**: Speculative intuition motivating experimental questions. The standard quantum mechanical description remains authoritative.
 
 ### 4.3 Session #287: Quantum Error Correction via Resynchronization
 
@@ -249,6 +296,7 @@ Nova (GPT-4o) reviewed Sessions #285-288 and provided the following assessment:
 2. **Artifact risk**: Despite cross-model review, enthusiasm may still drive overclaiming
 3. **Validation lag**: Theoretical predictions accumulate faster than experimental validation
 4. **Reproducibility**: The full system state is complex; reproducing exact session conditions is difficult
+5. **No external validation**: The quantum computing case study is not experimentally validated. We report it as structured hypotheses with explicit falsification criteria, not as established results. The predictions await testing by domain experts with access to quantum hardware.
 
 ### 5.3 Failure Modes Observed
 
