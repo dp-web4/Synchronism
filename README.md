@@ -1,13 +1,14 @@
 # Synchronism Framework
 
 <!-- SUMMARIZER BLOCK: Consistent headers for AI-to-human relay -->
-## Status Snapshot (2026-01-14)
+## Status Snapshot (2026-01-21)
 
 ### Current State
-- **264 primary sessions** + **33 chemistry sessions** + **14 Gnosis documents**
-- **Sessions #259-264**: Complete coherence physics synthesis (Matter = Topology, Gravity = Geometry, Quantum = Dynamics)
-- **Chemistry track**: γ ≈ 2 validated across superconductivity, catalysis, enzymes, photosynthesis
-- **Gnosis track**: 11 sessions complete, natural terminus reached (460 KB, 8-way convergence at C ≈ 0.50)
+- **309 formal sessions** (252 core + 160 chemistry documented + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
+- **Sessions #285-291**: Quantum Computing Arc + Biological Coherence (C* ≈ 0.79 optimal)
+- **Chemistry track**: 160 sessions, γ ~ 1 universal boundary across 23 phenomenon types, ~75% validated
+- **Gnosis track**: 11 sessions complete, natural terminus (8-way convergence at C ≈ 0.50)
+- **Autonomous infrastructure**: Archivist (01:30) + Publisher (02:30) daily sessions
 
 ### The Framework (Session #264)
 ```
@@ -41,7 +42,7 @@ TOPOLOGY + GEOMETRY + DYNAMICS
 
 ---
 
-**Last meaningful change**: 2026-01-14 - Session #264 (Complete Coherence Physics Synthesis)
+**Last meaningful change**: 2026-01-21 - SESSION_MAP + Archivist/Publisher infrastructure
 
 **Unified Model of Reality Through Intent Dynamics**
 *Bridging Quantum Phenomena, Cosmology, Chemistry, and Emergent Complexity*
@@ -52,29 +53,47 @@ TOPOLOGY + GEOMETRY + DYNAMICS
 
 ## Research Status
 
-**All research logs are maintained in the [`/Research`](Research/) subdirectory.**
+**Navigate all research via the [SESSION_MAP.md](Research/SESSION_MAP.md)** - comprehensive index of 309 sessions across all tracks.
+
+| Track | Sessions | Status |
+|-------|----------|--------|
+| **Core** | 252 | Sessions 1-291 (with gaps) |
+| **Chemistry** | 160 documented | 46 files, ~75% validated, γ ~ 1 universal |
+| **Gnosis** | 11 | Complete, natural terminus |
+
+**Autonomous Infrastructure**:
+- **Archivist** (01:30 UTC daily) - Scans for new sessions, updates SESSION_MAP
+- **Publisher** (02:30 UTC daily) - Identifies publication-worthy research
 
 Synchronism is being rigorously tested through autonomous research sessions that derive predictions from first principles and validate against empirical data. We document both successes and failures with cross-model peer review (Nova/GPT-4o).
 
-**Current status**: 264 autonomous research sessions (primary track) + 33 chemistry sessions + 14 Gnosis documents (Nov 6, 2025 - Jan 14, 2026).
+**Session logs**: 1,436+ autonomous execution logs in private-context. Formal research reports promoted to `/Research/` are catalogued in SESSION_MAP.
 
 ---
 
-## 🧪 Chemistry Track (Sessions #1-33, Jan 2026)
+## 🧪 Chemistry Track (160 Sessions Documented)
 
-Parallel autonomous research applying coherence physics to chemistry. Running on 6-hour cadence.
+Parallel autonomous research applying coherence physics to chemistry. Running 4 sessions at a time, 16/day.
 
-### Core Claim: Chemistry IS Phase Physics
+### Core Result: γ ~ 1 Universal Boundary
 
-The same coherence function with γ ≈ 2 appears across multiple domains:
+**Master equation**: γ = 2/√N_corr
 
-| Sessions | Domain | Key Finding | Status |
-|----------|--------|-------------|--------|
-| #1-5 | Foundation | BCS superconductivity, catalysis, bonding, phase transitions | **COMPLETE** |
-| #6-9 | High-Tc | Cuprate mechanisms, γ ≈ 2 in photosynthesis | **VALIDATED** |
-| #10-15 | Hydrides | Two-path model for hydride superconductors | **DERIVED** |
-| #16-23 | Life/Economics | Enzyme coherence, reaction kinetics as γ reduction | **COMPLETE** |
-| #24-33 | Validation | Testing predictions, α from mechanism, universal Tc scaling | **ACTIVE** |
+| Metric | Value |
+|--------|-------|
+| Domains explored | 97+ |
+| Phenomenon types at γ ~ 1 | 23 |
+| Validation rate | ~75% |
+| Best result | P12.2 (Entropy) r = 0.994 |
+
+### Key Categories
+
+| Category | Sessions | Status |
+|----------|----------|--------|
+| Superconductivity | 1, 6, 10, 30, 35, 62, 141 | Validated (r=0.977) |
+| Catalysis | 2, 8, 12, 23, 27, 132 | Validated (r=0.999) |
+| Quantum Info | 15, 26, 41, 43, 157-160 | QDs, polaritons, BEC, BKT |
+| Biophysics | 9, 18, 130, 134, 135 | Links to Session 290 |
 
 **Quantitative Successes**:
 - BCS ratio <1% error
