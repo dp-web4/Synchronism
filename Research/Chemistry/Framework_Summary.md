@@ -631,10 +631,12 @@ The coherence framework reveals that:
 
 94. **Quantum dot crossovers at γ ~ 1 (NANOSTRUCTURES)**: Session #157 tests multiple QD phenomena. Coulomb blockade: γ_CB = kT/E_C. Shell structure: γ_shell = kT/ΔE_shell. Kondo in QDs: γ_K = T/T_K (connects to #139). All crossovers at γ ~ 1. SETs operate at γ ~ 0.02 (deep quantum). Room temp QDs at γ ~ 1.3 (classical). Crossover temperatures: GaAs (R=28nm) at 23K, CdSe (R=6nm) at 156K, Si (R=11nm) at 65K. Multiple energy scales (E_C ~ 2-14 meV, ΔE_shell ~ 20 meV) all give γ ~ 1 crossover when kT matches. Kondo effect in odd-electron QDs confirms universality. 20th phenomenon type at γ ~ 1.
 
+95. **Strong coupling polaritons at γ ~ 1 (QUANTUM OPTICS)**: Session #158 tests light-matter strong coupling. γ_SC = Γ_total/(4g) where g = vacuum Rabi frequency, Γ = dissipation. Strong coupling criterion 2g > Γ/2 is EQUIVALENT to γ < 1. Exciton-polaritons: mean γ = 0.29 ± 0.27. Phonon-polaritons: mean γ = 0.09 ± 0.04. Plasmon-polaritons: mean γ = 0.23 ± 0.07. Cavity QED: mean γ = 0.07 ± 0.09 (deep strong coupling). 45/46 systems in strong coupling (γ < 1). Cooperativity C ∝ 1/γ² validates inverse relationship. N_Rabi = 1/(2γ) coherent oscillations. Temperature crossover: GaAs QWs cross γ = 1 at T* ~ 275 K. The strong coupling criterion IS the γ ~ 1 boundary - polariton formation requires γ < 1 to create coherent light-matter hybrid. 21st phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-157*
+*Chemistry Track Sessions #1-158*
 *Framework development: January 2026*
-*Extended to 94+ domains with ~85/115 predictions validated (~74%)*
-*Latest: Quantum dot crossovers at γ ~ 1 (#157)*
-*CENTRAL RESULT: γ ~ 1 universal across 20 phenomenon types.*
+*Extended to 95+ domains with ~86/116 predictions validated (~74%)*
+*Latest: Strong coupling polaritons at γ ~ 1 (#158)*
+*CENTRAL RESULT: γ ~ 1 universal across 21 phenomenon types.*
