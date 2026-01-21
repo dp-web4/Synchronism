@@ -427,6 +427,6 @@ This work emerges from a collaboration between human (DP) and AI (Claude, Nova) 
 
 ---
 
-*Code and Documentation*: Full source code, session logs, and documentation are publicly available at https://github.com/dp-web4/ under the AGPL-3.0 license.
+*Code and Documentation*: Full source code, session logs, and documentation are publicly available at https://github.com/dp-web4/ under the AGPL-3.0 license. The quantum computing session files (Sessions #285-288) are located at https://github.com/dp-web4/Synchronism/tree/main/Research.
 
 *Review Invitation*: Domain experts are invited to critique Sessions #285-288.
