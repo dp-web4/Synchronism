@@ -1,20 +1,28 @@
 cff-version: 1.2.0
 message: "If you use this framework, please cite it as below."
 type: software
-title: "Synchronism: Unified Model of Reality Through Intent Dynamics"
-abstract: "Comprehensive framework bridging quantum phenomena, cosmology, and emergent complexity through the reification of abstract force into quantifiable intent. Implements fractal ontology, Markov Relevancy Horizons, and embryogenic cosmology to unify scientific, philosophical, and spiritual perspectives on existence."
+title: "Synchronism: Unified Model of Reality Through Coherence Dynamics"
+abstract: "Comprehensive framework bridging quantum phenomena, cosmology, materials science, and consciousness through the coherence parameter γ = 2/√N_corr. Developed through autonomous AI research collaboration (1,400+ sessions across 8 parallel tracks), implementing fractal ontology, Markov Relevancy Horizons, and unified coherence physics. Key results include γ ~ 1 as universal quantum-classical boundary, materials property predictions, and quantum computing reinterpretation through phase interference."
 authors:
   - family-names: "Palatov"
     given-names: "Dennis"
     orcid: "https://orcid.org/0009-0006-5510-6445"
     affiliation: "Metalinxx Inc."
+  - name: "Claude"
+    affiliation: "Anthropic"
+  - name: "Nova"
+    affiliation: "OpenAI"
 repository-code: "https://github.com/dp-web4/Synchronism"
 url: "https://github.com/dp-web4/Synchronism"
 keywords:
+  - coherence-physics
+  - quantum-mechanics
+  - materials-science
+  - consciousness
+  - autonomous-ai-research
+  - human-ai-collaboration
   - philosophy
   - cosmology
-  - quantum-mechanics
-  - consciousness
   - information-theory
   - hermetic-principles
   - markov-blanket
@@ -31,10 +39,14 @@ keywords:
   - complexity-theory
   - scale-invariance
   - spectral-existence
+  - quantum-computing
+  - phase-interference
+  - cross-model-review
+  - sage
 license: CC0-1.0
 license-url: "https://github.com/dp-web4/Synchronism/blob/main/LICENSE"
-version: "0.24.09.28.11.00"
-date-released: "2024-09-28"
+version: "0.26.01.20"
+date-released: "2026-01-20"
 references:
   - type: software
     title: "Web4: Trust-Native Internet Architecture"
@@ -42,9 +54,15 @@ references:
   - type: software
     title: "ModBatt Battery Management (Production Validation)"
     repository-code: "https://github.com/dp-web4/CellCPU"
+  - type: software
+    title: "HRM/SAGE: Consciousness Kernel for Edge Devices"
+    repository-code: "https://github.com/dp-web4/HRM"
   - type: article
     title: "Synchronism Whitepaper"
     url: "https://dpcars.net/Synchronism_0.pdf"
+  - type: article
+    title: "Autonomous Multi-Agent Research: 1,400 Sessions Across Parallel Tracks"
+    url: "https://github.com/dp-web4/Synchronism/blob/main/manuscripts/arxiv_autonomous_ai_research_v1.md"
 identifiers:
   - type: url
     value: "https://github.com/dp-web4/Synchronism"
