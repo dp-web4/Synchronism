@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 298 | **Last Updated**: January 21, 2026 | **Archivist v1.0**
+**Total Sessions**: 309 (263 core + 46 chemistry files/160 documented + 11 gnosis) | **Last Updated**: January 22, 2026 | **Archivist v1.0**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -11,7 +11,7 @@
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
 - [Core Track (252 sessions)](#core-track)
-- [Chemistry Track (46 sessions)](#chemistry-track)
+- [Chemistry Track (160 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -145,32 +145,42 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Total**: 46 sessions | **Status**: 82% complete, 67% validated
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 160 | **Status**: ~75% validated, 97+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md)
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 23 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
+
+### Latest Sessions (January 21, 2026)
+
+| Session | Title | Key Finding |
+|---------|-------|-------------|
+| 157 | Quantum Dot Crossovers | Coulomb blockade, shell structure at γ ~ 1 |
+| 158 | Strong Coupling Polaritons | Light-matter hybridization requires γ < 1 |
+| 159 | Atomic BEC Threshold | Phase space density criterion IS γ = 1 |
+| 160 | Topological Phase Transitions | BKT transitions also at γ ~ 1 |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Mean correlation | r = 0.990 |
-| Strong validations | 6 |
-| Success rate | 83% |
+| Domains explored | 97+ |
+| Phenomenon types at γ ~ 1 | 23 |
+| Validation rate | ~75% |
 | Best result | P12.2 (Entropy) r = 0.994 |
 
 ### Categories
 
 | Category | Sessions | Themes | Status |
 |----------|----------|--------|--------|
-| Superconductivity | 1, 6, 10, 30, 35 | BCS mapping, cuprates, hydrides | Validated (r=0.977) |
-| Catalysis | 2, 8, 12, 23, 27 | Enzymes, KIE, transfer coefficients | Validated (r=0.999) |
+| Superconductivity | 1, 6, 10, 30, 35, 62, 141 | BCS mapping, cuprates, dome | Validated (r=0.977) |
+| Catalysis | 2, 8, 12, 23, 27, 132 | Enzymes, KIE, transition states | Validated (r=0.999) |
 | Bonding | 3, 13, 39 | Phase-locking, electronegativity | Validated |
-| Phase Transitions | 4, 17, 29 | Glass, critical exponents | Partial |
-| Biophysics | 9, 18 | Photosynthesis, ATP | Links to Session 290 |
-| Magnetism | 16, 30, 42 | Ordering, spin liquids | Complete |
-| Quantum Info | 15, 26, 41, 43 | Qubits, topological | Links to 285-289 |
+| Phase Transitions | 4, 17, 29, 50, 131 | Glass, coherence hierarchy | Complete |
+| Biophysics | 9, 18, 130, 134, 135 | Excitons, PCET, Marcus | Links to Session 290 |
+| Magnetism | 16, 30, 42, 139, 140 | Ordering, Kondo, heavy fermions | Complete |
+| Quantum Info | 15, 26, 41, 43, 157, 158, 159 | Qubits, QDs, polaritons, BEC | Links to 285-289 |
+| Topological | 61, 145, 160 | Topological indicator, BKT | NEW |
 
 ### Top Validated Predictions
 
