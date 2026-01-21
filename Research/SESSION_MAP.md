@@ -277,7 +277,8 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 
 | Metric | Value |
 |--------|-------|
-| Total sessions | 298 |
+| Formal research sessions | ~400 |
+| Total autonomous session logs | 1,436+ |
 | Active arcs | 2 |
 | Complete arcs | 6 |
 | Total predictions | 200+ |
@@ -286,6 +287,8 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 | Confirmed | 6 |
 | Proposed experiments | 15 |
 | Hardware architectures | 2 |
+
+**Note**: This map tracks formal research reports in `/Research/` directories. Full autonomous session logs are maintained separately in `private-context/autonomous-sessions/` (private repo). Individual sessions promote notable findings to `/Research/` for cataloguing.
 
 ---
 
