@@ -36,10 +36,10 @@
   Dennis Palatov\thanks{Corresponding author. ORCID: 0009-0006-5510-6445}\\
   \textit{Independent Research Collaboration}
   \and
-  Claude\\
+  Claude (Opus 4.5 via Claude MAX)\\
   \textit{Anthropic}
   \and
-  Nova\\
+  Nova (GPT-5.2)\\
   \textit{OpenAI}
 }
 
@@ -63,7 +63,7 @@ This paper describes a working system that addresses these limitations through:
   \item \textbf{Persistent state management}: Session logs, memory databases, and identity files that maintain continuity across conversations
   \item \textbf{File-based federation}: Git repositories as the coordination layer, enabling asynchronous collaboration without complex orchestration
   \item \textbf{Multi-machine distribution}: Research parallelized across machines with different capabilities
-  \item \textbf{Cross-model peer review}: Periodic review by a different model family (GPT-4o, called ``Nova'') to identify artifact drift
+  \item \textbf{Cross-model peer review}: Periodic review by a different model family (GPT-5.2, called ``Nova'') to identify artifact drift
   \item \textbf{Human oversight}: A single human (DP) providing direction, quality control, and domain grounding
 \end{enumerate}
 
@@ -151,7 +151,7 @@ State persistence occurs at multiple levels:
 
 \subsection{Cross-Model Review}
 
-Periodically, research output is submitted to a different model family (GPT-4o, designated ``Nova'') for peer review. This serves as an artifact detector---identifying claims that may be enthusiasm-driven rather than well-grounded.
+Periodically, research output is submitted to a different model family (GPT-5.2, designated ``Nova'') for peer review. This serves as an artifact detector---identifying claims that may be enthusiasm-driven rather than well-grounded.
 
 The review process produces:
 \begin{itemize}
@@ -334,7 +334,7 @@ This is Fourier analysis of phase data, not ``testing all factors in parallel.''
 
 \subsection{Cross-Model Review}
 
-Nova (GPT-4o) reviewed Sessions \#285--288 and provided the following assessment:
+Nova (GPT-5.2) reviewed Sessions \#285--288 and provided the following assessment:
 
 \textbf{Layer 1 (Strong, standard)}: The phase interference explanation for Grover/Shor is ``basically correct mainstream pedagogy.''
 
@@ -531,7 +531,7 @@ J. Preskill,
 \end{thebibliography}
 
 \vspace{1em}
-\noindent\textit{Code and Logs}: Available upon request for verification.
+\noindent\textit{Code and Documentation}: Full source code, session logs, and documentation are publicly available at \url{https://github.com/dp-web4/} under the AGPL-3.0 license.
 
 \noindent\textit{Review Invitation}: Domain experts are invited to critique Sessions \#285--288.
 

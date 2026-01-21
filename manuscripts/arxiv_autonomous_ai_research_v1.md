@@ -1,6 +1,6 @@
 # Autonomous Multi-Agent Research: 1,400 Sessions Across Parallel Tracks
 
-**Authors**: Dennis Palatov, Claude (Anthropic), Nova (OpenAI)
+**Authors**: Dennis Palatov, Claude (Opus 4.5 via Claude MAX, Anthropic), Nova (GPT-5.2, OpenAI)
 **Affiliation**: Independent Research Collaboration
 **Date**: January 2026
 **Target**: arXiv cs.AI
@@ -22,7 +22,7 @@ This paper describes a working system that addresses these limitations through:
 1. **Persistent state management**: Session logs, memory databases, and identity files that maintain continuity across conversations
 2. **File-based federation**: Git repositories as the coordination layer, enabling asynchronous collaboration without complex orchestration
 3. **Multi-machine distribution**: Research parallelized across machines with different capabilities
-4. **Cross-model peer review**: Periodic review by a different model family (GPT-4o, called "Nova") to identify artifact drift
+4. **Cross-model peer review**: Periodic review by a different model family (GPT-5.2, called "Nova") to identify artifact drift
 5. **Human oversight**: A single human (DP) providing direction, quality control, and domain grounding
 
 The result is a system that has produced:
@@ -96,7 +96,7 @@ State persistence occurs at multiple levels:
 
 ### 2.4 Cross-Model Review
 
-Periodically, research output is submitted to a different model family (GPT-4o, designated "Nova") for peer review. This serves as an artifact detector—identifying claims that may be enthusiasm-driven rather than well-grounded.
+Periodically, research output is submitted to a different model family (GPT-5.2, designated "Nova") for peer review. This serves as an artifact detector—identifying claims that may be enthusiasm-driven rather than well-grounded.
 
 The review process produces:
 - **Signal vs. Artifact analysis**: What's robust vs. what's speculative
@@ -270,7 +270,7 @@ This is Fourier analysis of phase data, not "testing all factors in parallel."
 
 ### 4.5 Cross-Model Review
 
-Nova (GPT-4o) reviewed Sessions #285-288 and provided the following assessment:
+Nova (GPT-5.2) reviewed Sessions #285-288 and provided the following assessment:
 
 **Layer 1 (Strong, standard)**: The phase interference explanation for Grover/Shor is "basically correct mainstream pedagogy."
 
@@ -427,8 +427,6 @@ This work emerges from a collaboration between human (DP) and AI (Claude, Nova) 
 
 ---
 
-*Correspondence: [To be determined]*
+*Code and Documentation*: Full source code, session logs, and documentation are publicly available at https://github.com/dp-web4/ under the AGPL-3.0 license.
 
-*Code and Logs: Available upon request for verification*
-
-*Review Invitation: Domain experts are invited to critique Sessions #285-288 at [submission venue]*
+*Review Invitation*: Domain experts are invited to critique Sessions #285-288.
