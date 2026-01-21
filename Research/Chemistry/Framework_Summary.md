@@ -633,10 +633,12 @@ The coherence framework reveals that:
 
 95. **Strong coupling polaritons at γ ~ 1 (QUANTUM OPTICS)**: Session #158 tests light-matter strong coupling. γ_SC = Γ_total/(4g) where g = vacuum Rabi frequency, Γ = dissipation. Strong coupling criterion 2g > Γ/2 is EQUIVALENT to γ < 1. Exciton-polaritons: mean γ = 0.29 ± 0.27. Phonon-polaritons: mean γ = 0.09 ± 0.04. Plasmon-polaritons: mean γ = 0.23 ± 0.07. Cavity QED: mean γ = 0.07 ± 0.09 (deep strong coupling). 45/46 systems in strong coupling (γ < 1). Cooperativity C ∝ 1/γ² validates inverse relationship. N_Rabi = 1/(2γ) coherent oscillations. Temperature crossover: GaAs QWs cross γ = 1 at T* ~ 275 K. The strong coupling criterion IS the γ ~ 1 boundary - polariton formation requires γ < 1 to create coherent light-matter hybrid. 21st phenomenon type at γ ~ 1.
 
+96. **Atomic BEC threshold at γ ~ 1 (ULTRACOLD ATOMS)**: Session #159 tests BEC criterion. γ_BEC = ζ(3/2)/(n×λ_dB³) where PSD = n×λ_dB³ is phase space density. Ideal BEC requires PSD = ζ(3/2) = 2.612, exactly γ = 1. Multiple γ ~ 1 boundaries in BEC physics: (1) BEC threshold γ_BEC = 1, (2) SF-MI transition γ_Mott = U/W ~ 1.4, (3) Miscibility γ_misc = √(g₁₁g₂₂)/g₁₂ = 1, (4) Vortex entry γ_vortex = Ω/Ω_c = 1. Condensate fraction N₀/N = 1 - γ^(3/2) where γ = T/T_c. Connects to He-4 (#148), Fermi gas (#147): ALL superfluid transitions at γ = T/T_c = 1. The BEC criterion - phase space density exceeding threshold - is EXACTLY the γ = 1 boundary. Macroscopic quantum coherence emerges when γ < 1. 22nd phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-158*
+*Chemistry Track Sessions #1-159*
 *Framework development: January 2026*
-*Extended to 95+ domains with ~86/116 predictions validated (~74%)*
-*Latest: Strong coupling polaritons at γ ~ 1 (#158)*
-*CENTRAL RESULT: γ ~ 1 universal across 21 phenomenon types.*
+*Extended to 96+ domains with ~87/117 predictions validated (~74%)*
+*Latest: Atomic BEC threshold at γ ~ 1 (#159)*
+*CENTRAL RESULT: γ ~ 1 universal across 22 phenomenon types.*
