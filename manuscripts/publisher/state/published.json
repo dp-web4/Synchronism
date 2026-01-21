@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-22T00:00:00Z",
+  "publications": [
+    {
+      "id": "PUB-2025-001",
+      "title": "Synchronism Dark Matter Preprint",
+      "sessions_approximate": "10-100",
+      "track": "core",
+      "venue": "arXiv astro-ph",
+      "versions": ["v1", "v2", "v3", "v4", "v5", "v6"],
+      "date_first": "2025-11-25",
+      "date_latest": "2025-12-09",
+      "pdf_path": "synchronism-dark-matter-arxiv-v6.pdf",
+      "notes": "Dark matter phenomenology through coherence dynamics. 6 iterations with Nova reviews."
+    },
+    {
+      "id": "PUB-2026-001",
+      "title": "Autonomous Multi-Agent Research: 1,400 Sessions Across Parallel Tracks",
+      "sessions_approximate": "1-288",
+      "track": "meta",
+      "venue": "arXiv cs.AI",
+      "versions": ["v1"],
+      "date_first": "2026-01-20",
+      "date_latest": "2026-01-20",
+      "pdf_path": "arxiv_autonomous_ai_research_v1.pdf",
+      "notes": "Meta-paper documenting the autonomous research system itself."
+    }
+  ]
+}
