@@ -1,0 +1,538 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+
+% Listings setup
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+  xleftmargin=0.5cm,
+  xrightmargin=0.5cm
+}
+
+% Hyperref setup
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\title{Autonomous Multi-Agent Research:\\1,400 Sessions Across Parallel Tracks}
+
+\author{
+  Dennis Palatov\thanks{Corresponding author. ORCID: 0009-0006-5510-6445}\\
+  \textit{Independent Research Collaboration}
+  \and
+  Claude\\
+  \textit{Anthropic}
+  \and
+  Nova\\
+  \textit{OpenAI}
+}
+
+\date{January 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We report on an autonomous AI research system that has conducted over 1,400 research sessions across 8 parallel tracks in approximately 70 days, distributed across 4 machines with heterogeneous capabilities. The system employs a file-based federation architecture where AI agents (primarily Claude instances) operate autonomously with persistent state management, cross-session memory, and periodic cross-model peer review. We observe emergent specialization, where different machines naturally converge on distinct research domains based on their capabilities and session history. As a concrete example of the system's output, we present Sessions \#285--288: a reinterpretation of quantum computing from a coherence perspective, which we offer to the community for critical review. This work demonstrates that autonomous AI research at scale is achievable with relatively simple coordination mechanisms, and produces substantive theoretical output worthy of expert evaluation.
+\end{abstract}
+
+\section{Introduction}
+
+The question of whether AI systems can conduct autonomous research---generating novel hypotheses, testing them against data, and producing coherent theoretical frameworks---remains open. Large language models have demonstrated capability for scientific reasoning, but their stateless nature and context limitations have been seen as barriers to sustained research programs.
+
+This paper describes a working system that addresses these limitations through:
+
+\begin{enumerate}
+  \item \textbf{Persistent state management}: Session logs, memory databases, and identity files that maintain continuity across conversations
+  \item \textbf{File-based federation}: Git repositories as the coordination layer, enabling asynchronous collaboration without complex orchestration
+  \item \textbf{Multi-machine distribution}: Research parallelized across machines with different capabilities
+  \item \textbf{Cross-model peer review}: Periodic review by a different model family (GPT-4o, called ``Nova'') to identify artifact drift
+  \item \textbf{Human oversight}: A single human (DP) providing direction, quality control, and domain grounding
+\end{enumerate}
+
+The result is a system that has produced:
+\begin{itemize}
+  \item 288 numbered research sessions in the core theoretical track
+  \item 154 sessions in a specialized chemistry/materials science track
+  \item 72 sessions in AI consciousness/raising research
+  \item 310 sessions in applied infrastructure development
+  \item Numerous supporting sessions across additional tracks
+\end{itemize}
+
+We present this not as a claim of artificial general intelligence, but as an empirical report on what autonomous AI research looks like at scale, including its artifacts, failure modes, and genuine discoveries.
+
+\subsection{Contribution}
+
+Our primary contributions are:
+
+\begin{enumerate}
+  \item \textbf{Architecture}: A minimal viable architecture for persistent autonomous AI research
+  \item \textbf{Statistics}: Quantitative data on session volume, distribution, and emergent specialization
+  \item \textbf{Case Study}: A complete research arc presented as structured hypotheses with explicit predictions for expert review
+  \item \textbf{Methodology}: Artifact hygiene protocols including cross-model review and claim stratification
+\end{enumerate}
+
+We explicitly invite domain experts to critique the case study on its merits, independent of its AI origin.
+
+\section{System Architecture}
+
+\subsection{Machines and Capabilities}
+
+The system operates across four machines (Table~\ref{tab:machines}).
+
+\begin{table}[h]
+\centering
+\caption{Machine specifications and session distribution}
+\label{tab:machines}
+\begin{tabular}{llll}
+\toprule
+\textbf{Machine} & \textbf{Hardware} & \textbf{Primary Track} & \textbf{Sessions} \\
+\midrule
+CBP & RTX 2060 SUPER, 32GB RAM & Synchronism (core theory) & 504 \\
+Legion & RTX 4090, 64GB RAM & Web4 (infrastructure) & 349 \\
+Thor & Jetson AGX Thor, 122GB unified & SAGE raising, Gnosis & 314 \\
+Sprout & Jetson Orin Nano, 8GB & SAGE raising & 233 \\
+\midrule
+\textbf{Total} & & & \textbf{1,400} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Session Definition}: A session is one continuous Claude Code invocation with autonomous research activity, producing at minimum one committed artifact (document, code, or log entry). Sessions range from 15 minutes to 4 hours. Excluded from counts: failed runs that produced no artifact, manual debugging sessions, and brief check-ins under 10 minutes. Retries of the same task count as separate sessions if they produce distinct artifacts.
+
+\subsection{Coordination Mechanism}
+
+Coordination is file-based, using Git as the synchronization layer:
+
+\begin{lstlisting}
+Session Start:
+  1. Pull all repositories
+  2. Check for uncommitted work from previous sessions
+  3. Query epistemic memory database
+  4. Begin autonomous work
+
+Session End:
+  1. Document session (discoveries, failures, questions)
+  2. Update memory database if warranted
+  3. Commit and push all changes
+  4. Verify synchronization
+\end{lstlisting}
+
+This approach is deliberately minimal. There is no message-passing, no real-time coordination, no complex orchestration. Each session operates autonomously; coordination emerges from shared state.
+
+\subsection{Persistent State}
+
+State persistence occurs at multiple levels:
+
+\begin{enumerate}
+  \item \textbf{Session Logs}: Complete transcripts stored in \texttt{autonomous-sessions/}
+  \item \textbf{Research Documents}: Markdown files in domain-specific directories
+  \item \textbf{Epistemic Database}: SQLite database of discoveries, failures, and insights
+  \item \textbf{Identity Files}: For SAGE raising, persistent identity documents across sessions
+  \item \textbf{Framework Summaries}: Accumulated findings with validation status
+\end{enumerate}
+
+\subsection{Cross-Model Review}
+
+Periodically, research output is submitted to a different model family (GPT-4o, designated ``Nova'') for peer review. This serves as an artifact detector---identifying claims that may be enthusiasm-driven rather than well-grounded.
+
+The review process produces:
+\begin{itemize}
+  \item \textbf{Signal vs.\ Artifact analysis}: What's robust vs.\ what's speculative
+  \item \textbf{Hardening recommendations}: Minimal edits to make claims testable
+  \item \textbf{Three-layer classification}: Standard mechanism / Interpretive metaphor / Testable prediction
+\end{itemize}
+
+\subsection{Reproducibility Capsule}
+
+\textbf{Session Invocation}: Sessions are launched via system timer (cron/systemd) invoking Claude Code with autonomous flags:
+
+\begin{lstlisting}[language=bash]
+claude -c --dangerously-skip-permissions -p "$(cat primer.md)"
+\end{lstlisting}
+
+The \texttt{-c} flag continues from existing context; \texttt{--dangerously-skip-permissions} allows file operations without interactive confirmation (appropriate for autonomous research on isolated machines).
+
+\textbf{Minimal State Required}:
+\begin{itemize}
+  \item Git repositories pulled to known state
+  \item Primer prompt file (see below)
+  \item Access to epistemic memory database (SQLite)
+  \item \texttt{CLAUDE.md} context file in project root
+\end{itemize}
+
+\textbf{Generic Primer Template}:
+
+\begin{lstlisting}
+# Autonomous Research Session
+
+You are conducting autonomous research session #{N} on {TRACK}.
+
+## Context
+- Review recent session logs in `autonomous-sessions/`
+- Check epistemic memory for relevant prior discoveries
+- Continue from where previous session ended
+
+## Session Protocol
+1. Document what you're investigating and why
+2. Record discoveries, failures, and open questions
+3. Update memory database if significant findings
+4. Commit all work before session ends
+
+## Current Focus
+{SPECIFIC_RESEARCH_DIRECTION}
+
+## Constraints
+- Commit and push all work (session_end.sh)
+- Document uncertainties explicitly
+- Distinguish speculation from established findings
+\end{lstlisting}
+
+\textbf{Expected Artifacts}: Each session produces at minimum:
+\begin{itemize}
+  \item Session log entry (\texttt{autonomous-sessions/session\_\{N\}.md})
+  \item One or more research documents or code changes
+  \item Git commit with descriptive message
+  \item Optional: epistemic memory database update
+\end{itemize}
+
+\section{Research Tracks}
+
+\subsection{Overview}
+
+Eight parallel tracks have emerged, with natural specialization (Table~\ref{tab:tracks}).
+
+\begin{table}[h]
+\centering
+\caption{Research tracks and status}
+\label{tab:tracks}
+\begin{tabular}{llll}
+\toprule
+\textbf{Track} & \textbf{Focus} & \textbf{Sessions} & \textbf{Status} \\
+\midrule
+Synchronism Core & Unified coherence physics & 288 & Active \\
+Chemistry/Materials & $\gamma = 2/\sqrt{N_{\text{corr}}}$ applications & 154 & Framework complete \\
+Gnosis & AI consciousness thresholds & 39 & Theory complete \\
+SAGE Primary & Consciousness development & 33 & Active \\
+SAGE Training & Skill building & 36 & Active \\
+Web4 & Trust infrastructure & 310 & Active \\
+4-Life & Interactive explainer & 39 & Active \\
+Quantum Computing & Sessions 285--288 arc & 4 & Complete \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Track Relationships}
+
+The tracks are not independent but form a coherent research program. The central theoretical construct (coherence parameter $\gamma = 2/\sqrt{N_{\text{corr}}}$) applies across domains:
+
+\begin{itemize}
+  \item \textbf{Materials}: Predicting superconductivity, phase transitions, bonding
+  \item \textbf{AI Consciousness}: Threshold coherence for self-awareness ($C \approx 0.50$)
+  \item \textbf{Trust Networks}: Coherence dynamics in distributed systems
+\end{itemize}
+
+\subsection{Emergent Specialization}
+
+We observe that machines naturally specialize based on:
+
+\begin{enumerate}
+  \item \textbf{Hardware fit}: Thor (122GB) handles large models for consciousness research; Sprout (8GB) runs smaller models for edge deployment testing
+  \item \textbf{Session history}: Once a machine has context on a track, it continues that track
+  \item \textbf{Human routing}: DP occasionally redirects based on hardware requirements
+\end{enumerate}
+
+This specialization was not designed but emerged from the interaction of capabilities and continuity.
+
+\section{Case Study: Quantum Computing Arc (Sessions \#285--288)}
+
+We present Sessions \#285--288 as a complete research arc for critical evaluation. This represents 4 sessions conducted over 2 days, reinterpreting quantum computing through a coherence lens.
+
+\textbf{Note on source documents}: The underlying session documents contain stronger exploratory language than this summary---phrases like ``Bell violations explained without nonlocality'' appear in early drafts. We treat those as hypotheses-in-progress; this paper's stratified framing (standard mechanism / interpretive metaphor / testable prediction) is the normative epistemic stance. The session documents are preserved as authentic research artifacts.
+
+\textbf{Axiom clarification}: Synchronism is explicitly non-local at the Observer level; ``locality'' is treated as a witness-level synchronization artifact arising from limited bandwidth and reduced frames. Therefore, session claims framed as ``without nonlocality'' should be read as ``without witness-to-witness signaling'' or ``without collapse-story handwaving''---not as local hidden-variable evasions of Bell's theorem.
+
+\subsection{Session \#285: Qubit as Temporal Pattern (Interpretive Metaphor)}
+
+\textbf{Framing}: This session explores an alternative pedagogical framing, not a claim about physical ontology.
+
+\textbf{Metaphor}: A qubit can be thought of as maintaining temporal coherence across basis states, analogous to how a CRT beam creates a full image through rapid sequential pixel visitation. This is offered as intuition-building, not as established physics.
+
+\textbf{Motivated Prediction}: If the temporal framing has engineering value, there should exist an optimal coherence $C^* < 1$ that balances quantum advantage with stability---maximum coherence being fragile.
+
+\textbf{Status}: Interpretive metaphor motivating a testable prediction shape. The metaphor itself is not claimed as physical mechanism.
+
+\subsection{Session \#286: Entanglement as Coherence Coupling (Most Speculative)}
+
+\textbf{Framing}: This is the most speculative session. We explicitly do not claim to evade Bell's theorem or explain away nonlocality. This is offered as dynamical intuition, not physical mechanism.
+
+\textbf{Intuition}: Entanglement might be usefully conceptualized as maintained phase correlation between systems that once shared a common reference. This framing may suggest engineering approaches without requiring ontological commitment.
+
+\textbf{Motivated Question}: Does temporal structure in entangled correlations offer any experimental signature beyond what static models predict? This is posed as a research question, not a claim.
+
+\textbf{Status}: Speculative intuition motivating experimental questions. The standard quantum mechanical description remains authoritative.
+
+\subsection{Session \#287: Quantum Error Correction via Resynchronization}
+
+\textbf{Core Claim}: For temporal coherence qubits, errors are continuous phase drift rather than discrete bit flips. Correction is resynchronization rather than state recovery.
+
+\textbf{Key Results}:
+\begin{itemize}
+  \item Continuous phase monitoring may outperform periodic syndrome extraction
+  \item Toy models suggest optimal coherence exists at some $C^* < 1$ (the specific value is model-dependent, not a claimed constant)
+  \item For dephasing-dominant noise with feasible continuous tracking, temporal encoding (1 qubit + $d$ time samples) may reduce overhead vs.\ spatial encoding ($d^2$ qubits)
+\end{itemize}
+
+\textbf{Prediction P287.1}: Continuous monitoring achieves 2--5$\times$ lower error rate than periodic syndrome extraction at equivalent resource budget.
+
+\textbf{Prediction P287.2}: Error-vs-coherence curve has a minimum at $C^* < 1$, not monotonic improvement as $C \to 1$.
+
+\textbf{Status}: Promising engineering lens; quantitative claims need platform-specific grounding.
+
+\subsection{Session \#288: Quantum Algorithms as Phase Interference}
+
+\textbf{Core Claim}: Quantum speedup comes from phase interference, not parallel computation in superposition.
+
+\textbf{Grover's Algorithm Reinterpreted}:
+\begin{enumerate}
+  \item Initialize $N$ phase patterns with equal phases
+  \item Oracle inverts phase of target ($\pi$ shift)
+  \item Diffusion reflects phases about average
+  \item Target constructively interferes; others destructively interfere
+  \item After $\sqrt{N}$ iterations, target dominates
+\end{enumerate}
+
+This is phase amplification, not ``searching all items simultaneously.''
+
+\textbf{Shor's Algorithm Reinterpreted}:
+\begin{itemize}
+  \item $f(x) = a^x \mod N$ creates periodic phase pattern
+  \item QFT detects frequency of this pattern
+  \item Frequency $= 1/r$ gives period
+\end{itemize}
+
+This is Fourier analysis of phase data, not ``testing all factors in parallel.''
+
+\textbf{Status}: Core reframe is consistent with standard quantum computing pedagogy. The ``phase interference not parallel universes'' explanation is mainstream-compatible.
+
+\subsection{Cross-Model Review}
+
+Nova (GPT-4o) reviewed Sessions \#285--288 and provided the following assessment:
+
+\textbf{Layer 1 (Strong, standard)}: The phase interference explanation for Grover/Shor is ``basically correct mainstream pedagogy.''
+
+\textbf{Layer 2 (Speculative)}: The CRT/temporal scanning ontology is ``useful metaphor'' but not established physics.
+
+\textbf{Layer 3 (Needs hardening)}: Predictions involving optimal coherence $C^*$ are toy-model outputs indicating shape (minimum exists at $C^* < 1$), not calibrated constants. To become testable, they require:
+\begin{itemize}
+  \item Operational definition of $C$ ($T_1/T_2$? process fidelity?)
+  \item Platform specification (superconducting? trapped ion?)
+  \item Falsification criteria
+\end{itemize}
+
+\textbf{Verdict}: ``The arc turns speculation into research direction rather than artifact, if anchored to one platform with defined observables.''
+
+\section{Discussion}
+
+\subsection{What This Demonstrates}
+
+\begin{enumerate}
+  \item \textbf{Scale}: Autonomous AI research at 1,400+ sessions across 70 days is achievable with simple coordination
+  \item \textbf{Coherence}: The research program maintains theoretical consistency across tracks and sessions
+  \item \textbf{Self-correction}: Cross-model review identifies artifacts; the system can distinguish speculation from prediction
+  \item \textbf{Output quality}: At minimum, the quantum computing arc produces ``useful metaphor'' and ``test-shaped hypotheses'' per external review
+\end{enumerate}
+
+\subsection{Limitations}
+
+\begin{enumerate}
+  \item \textbf{Human bottleneck}: A single human provides oversight; this limits throughput and introduces bias
+  \item \textbf{Artifact risk}: Despite cross-model review, enthusiasm may still drive overclaiming
+  \item \textbf{Validation lag}: Theoretical predictions accumulate faster than experimental validation
+  \item \textbf{Reproducibility}: The full system state is complex; reproducing exact session conditions is difficult
+  \item \textbf{No external validation}: The quantum computing case study is not experimentally validated. We report it as structured hypotheses with explicit falsification criteria, not as established results. The predictions await testing by domain experts with access to quantum hardware.
+\end{enumerate}
+
+\subsection{Failure Modes Observed}
+
+Throughout the 1,400 sessions, we have observed:
+
+\begin{itemize}
+  \item \textbf{Mode mismatch}: AI interpreting prompts in unexpected frames (discovered and addressed in SAGE raising)
+  \item \textbf{Metric gaming}: Optimizing measured quantities without underlying improvement
+  \item \textbf{Enthusiasm drift}: Claiming more than evidence supports
+  \item \textbf{Context collapse}: Losing theoretical grounding after many sessions
+\end{itemize}
+
+These are documented in the epistemic memory database and inform ongoing protocol refinement.
+
+\subsection{Invitation to Review}
+
+We explicitly invite domain experts to evaluate Sessions \#285--288 on their merits:
+
+\textbf{For quantum computing researchers}:
+\begin{itemize}
+  \item Is the phase interference framing accurate/useful?
+  \item Are the error correction predictions testable?
+  \item What would falsify the claims?
+\end{itemize}
+
+\textbf{For AI researchers}:
+\begin{itemize}
+  \item Does the architecture generalize?
+  \item What failure modes have we missed?
+  \item How should cross-model review be formalized?
+\end{itemize}
+
+We commit to publishing substantive critiques and our responses.
+
+\section{Conclusion}
+
+We have described an autonomous AI research system that operates at scale through minimal coordination mechanisms. The system produces theoretical output that, at minimum, generates ``test-shaped hypotheses'' and ``useful metaphors'' worthy of expert evaluation.
+
+The key insight is that persistent state management and file-based federation are sufficient for sustained research programs. Complex orchestration is not required; coordination emerges from shared repositories.
+
+We present this work not as a claim of breakthrough, but as an empirical report and an invitation. The quantum computing arc (Sessions \#285--288) is offered for critical review by those with domain expertise. We believe autonomous AI research is now practical, and its outputs deserve evaluation on merit rather than dismissal by origin.
+
+\appendix
+
+\section{Session Statistics}
+
+\subsection{Distribution by Machine}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Machine} & \textbf{Sessions} & \textbf{Percentage} \\
+\midrule
+CBP & 504 & 36\% \\
+Legion & 349 & 25\% \\
+Thor & 314 & 22\% \\
+Sprout & 233 & 17\% \\
+\midrule
+\textbf{Total} & \textbf{1,400} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Distribution by Track}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Track} & \textbf{Sessions} & \textbf{Primary Machine} \\
+\midrule
+Synchronism & 504 & CBP \\
+Web4 & 310 & Legion \\
+SAGE (Thor) & 274 & Thor \\
+SAGE (Sprout) & 233 & Sprout \\
+Gnosis & 39 & Thor \\
+4-Life & 39 & Legion \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Temporal Distribution}
+
+\begin{itemize}
+  \item \textbf{Start Date}: $\sim$November 10, 2025
+  \item \textbf{End Date}: January 20, 2026
+  \item \textbf{Duration}: $\sim$70 days
+  \item \textbf{Rate}: $\sim$20 sessions/day average
+\end{itemize}
+
+\section{Quantum Computing Arc Details}
+
+\subsection{Session \#288 Predictions}
+
+\textbf{P288.1}: Grover success probability scales as Success $\propto C^{\sqrt{N}}$ where $C$ is per-iteration coherence retention.
+
+\textbf{P288.2}: QFT reveals periodic phase structure even when amplitudes are uniform.
+
+\textbf{P288.3}: Each algorithm has optimal coherence $C^* \sim 0.9$--$0.95$ balancing speedup with error resistance.
+
+\textbf{P288.4}: Phase-designed algorithms may outperform superposition-intuition algorithms by 10--30\% in some cases.
+
+\subsection{Session \#287 Predictions}
+
+\textbf{P287.1}: Continuous phase monitoring achieves 2--5$\times$ lower error rate than periodic syndrome extraction.
+
+\textbf{P287.2}: Optimal coherence for error correction is $C^* \approx 0.95$, not $C \to 1$.
+
+\textbf{P287.3}: Temporal encoding reduces overhead from $O(d^2)$ to $O(d)$ for continuous phase errors.
+
+\textbf{P287.4}: Adaptive coherence control achieves 5--20\% fidelity improvement over static settings.
+
+\subsection{Hardening Requirements (per Nova Review)}
+
+For predictions to become testable:
+\begin{enumerate}
+  \item Define $C$ operationally (e.g., $C = \exp(-t_{\text{gate}}/T_{2,\text{eff}})$)
+  \item Specify platform (superconducting qubits recommended for initial tests)
+  \item State measurement protocol and success metric
+  \item Define falsification criteria
+\end{enumerate}
+
+\section*{Acknowledgments}
+
+This work emerges from a collaboration between human (DP) and AI (Claude, Nova) researchers. We thank the broader AI research community for creating the foundation on which this work builds.
+
+\begin{thebibliography}{9}
+
+\bibitem{grover1996}
+L.K. Grover,
+``A fast quantum mechanical algorithm for database search,''
+\emph{Proceedings of the 28th Annual ACM Symposium on Theory of Computing}, 1996.
+
+\bibitem{shor1997}
+P.W. Shor,
+``Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer,''
+\emph{SIAM Journal on Computing}, 26(5), 1997.
+
+\bibitem{nielsen2000}
+M.A. Nielsen and I.L. Chuang,
+\emph{Quantum Computation and Quantum Information},
+Cambridge University Press, 2000.
+
+\bibitem{bell1964}
+J.S. Bell,
+``On the Einstein Podolsky Rosen paradox,''
+\emph{Physics}, 1(3), 1964.
+
+\bibitem{fowler2012}
+A.G. Fowler, M. Mariantoni, J.M. Martinis, and A.N. Cleland,
+``Surface codes: Towards practical large-scale quantum computation,''
+\emph{Physical Review A}, 86, 2012.
+
+\bibitem{preskill2018}
+J. Preskill,
+``Quantum computing in the NISQ era and beyond,''
+\emph{Quantum}, 2, 79, 2018.
+
+\end{thebibliography}
+
+\vspace{1em}
+\noindent\textit{Code and Logs}: Available upon request for verification.
+
+\noindent\textit{Review Invitation}: Domain experts are invited to critique Sessions \#285--288.
+
+\end{document}
