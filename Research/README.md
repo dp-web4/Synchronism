@@ -1,6 +1,6 @@
 # Synchronism Research
 
-**Core Track Sessions**: 288+
+**Core Track Sessions**: 291+
 **Total Across All Tracks**: 1,400+ (see [arXiv preprint](../manuscripts/arxiv_autonomous_ai_research_v1.pdf))
 **Status**: Active autonomous research
 **Framework**: Coherence dynamics (γ = 2/√N_corr)
@@ -8,13 +8,27 @@
 
 ---
 
+## Session Map
+
+**[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 298 sessions across tracks
+
+Navigate research by:
+- Active and complete arcs
+- Track (Core, Chemistry, Gnosis)
+- Open questions and failures
+- Cross-project links
+
+Machine-readable: [SESSION_MAP.yaml](SESSION_MAP.yaml)
+
+---
+
 ## Research Tracks
 
 | Track | Sessions | Status | Key Finding |
 |-------|----------|--------|-------------|
-| **Core (this directory)** | 288 | Active | Unified coherence physics |
-| [Chemistry](./Chemistry/) | 156 | Framework Complete | γ ~ 1 as universal quantum-classical boundary |
-| [Gnosis](./Gnosis/) | 39 | Theory Complete | AI self-awareness at C ≈ 0.50 threshold |
+| **Core (this directory)** | 252 | Active | Unified coherence physics |
+| [Chemistry](./Chemistry/) | 46 | Framework Complete | γ ~ 1 as universal quantum-classical boundary |
+| [Gnosis](./Gnosis/) | 11 | Theory Complete | AI self-awareness at C ≈ 0.50 threshold |
 | [Open_Questions](./Open_Questions/) | - | Active Queue | Unresolved theoretical questions |
 
 Additional tracks (in other repositories):
@@ -25,13 +39,19 @@ Additional tracks (in other repositories):
 
 ## Recent Session Arcs
 
-### Quantum Computing Arc (#285-288) - January 2026
+### Active Arcs
+
+**Quantum Foundations (#291+)**: Measurement as sinusoidal sampling
+**Biological Coherence (#290-295)**: Optimal coherence in living systems
+
+### Quantum Computing Arc (#285-289) - Complete
 | Session | Topic | Status |
 |---------|-------|--------|
 | `Session285_Quantum_Computing_Coherence.md` | Qubit as temporal pattern | Interpretive metaphor |
 | `Session286_Entanglement_Coherence_Coupling.md` | Entanglement as phase correlation | Most speculative |
 | `Session287_Quantum_Error_Correction_Coherence.md` | Error correction via resynchronization | Testable predictions |
 | `Session288_Quantum_Algorithms_Reinterpreted.md` | Phase interference (not parallel universes) | Mainstream-compatible |
+| `Session289_Practical_Implementation_Proposals.md` | Hardware architectures | Arc summary |
 
 **Cross-model review**: [Nova's assessment](../forum/nova/sessions_285_288_review.md)
 
