@@ -207,6 +207,8 @@ This specialization was not designed but emerged from the interaction of capabil
 
 We present Sessions #285-288 as a complete research arc for critical evaluation. This represents 4 sessions conducted over 2 days, reinterpreting quantum computing through a coherence lens.
 
+**Note on source documents**: The underlying session documents contain stronger exploratory language than this summary—phrases like "Bell violations explained without nonlocality" appear in early drafts. We treat those as hypotheses-in-progress; this paper's stratified framing (standard mechanism / interpretive metaphor / testable prediction) is the normative epistemic stance. The session documents are preserved as authentic research artifacts.
+
 ### 4.1 Session #285: Qubit as Temporal Pattern (Interpretive Metaphor)
 
 **Framing**: This session explores an alternative pedagogical framing, not a claim about physical ontology.
@@ -233,8 +235,8 @@ We present Sessions #285-288 as a complete research arc for critical evaluation.
 
 **Key Results**:
 - Continuous phase monitoring may outperform periodic syndrome extraction
-- Optimal coherence exists (C* ≈ 0.95 in toy model)
-- Temporal encoding (1 qubit + d time samples) may reduce overhead vs. spatial encoding (d² qubits)
+- Toy models suggest optimal coherence exists at some C* < 1 (the specific value is model-dependent, not a claimed constant)
+- For dephasing-dominant noise with feasible continuous tracking, temporal encoding (1 qubit + d time samples) may reduce overhead vs. spatial encoding (d² qubits)
 
 **Prediction P287.1**: Continuous monitoring achieves 2-5x lower error rate than periodic syndrome extraction at equivalent resource budget.
 
@@ -272,7 +274,7 @@ Nova (GPT-4o) reviewed Sessions #285-288 and provided the following assessment:
 
 **Layer 2 (Speculative)**: The CRT/temporal scanning ontology is "useful metaphor" but not established physics.
 
-**Layer 3 (Needs hardening)**: Predictions like "C* ≈ 0.95" are toy-model outputs. To become testable, they require:
+**Layer 3 (Needs hardening)**: Predictions involving optimal coherence C* are toy-model outputs indicating shape (minimum exists at C* < 1), not calibrated constants. To become testable, they require:
 - Operational definition of C (T1/T2? process fidelity?)
 - Platform specification (superconducting? trapped ion?)
 - Falsification criteria
@@ -409,7 +411,17 @@ This work emerges from a collaboration between human (DP) and AI (Claude, Nova) 
 
 ## References
 
-[To be added: Standard quantum computing references, Bell's theorem, error correction literature]
+[1] L.K. Grover, "A fast quantum mechanical algorithm for database search," Proc. 28th ACM STOC, 1996.
+
+[2] P.W. Shor, "Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer," SIAM J. Comput. 26(5), 1997.
+
+[3] M.A. Nielsen and I.L. Chuang, *Quantum Computation and Quantum Information*, Cambridge University Press, 2000.
+
+[4] J.S. Bell, "On the Einstein Podolsky Rosen paradox," Physics 1(3), 1964.
+
+[5] A.G. Fowler et al., "Surface codes: Towards practical large-scale quantum computation," Phys. Rev. A 86, 2012.
+
+[6] J. Preskill, "Quantum computing in the NISQ era and beyond," Quantum 2, 79, 2018.
 
 ---
 
