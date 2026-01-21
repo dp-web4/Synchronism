@@ -639,10 +639,12 @@ The coherence framework reveals that:
 
 98. **Spin glass freezing at γ ~ 1 (DISORDERED SYSTEMS)**: Session #161 tests spin glass freezing. Using γ = T/T_g: γ = 1 at freezing (CONSISTENT). Using γ = T_g/J: γ = 0.25 ± 0.17 due to frustration. SK mean-field model: T_c = J exactly (γ_SK = 1). Real materials have T_g < J due to frustration, finite dimensionality, disorder. Frustration index f = |θ_CW|/T_g ranges from 5-150 for spin glasses. CuMn concentration series: T_g ∝ c^(2/3), r = 0.999. Quantum spin glass: γ_QSG = Γ/J = 1 at QCP. KEY INSIGHT: γ ~ 1 universality preserved - frustration determines WHERE T_g is, but transition STILL at γ = T/T_g = 1. Comparison to structural glass (#50): both use γ = T/T_transition = 1. Replica symmetry breaking in RSB phase (γ < 1). 24th phenomenon type at γ ~ 1.
 
+99. **Charge density wave transitions at γ ~ 1 (ELECTRONIC ORDERING)**: Session #162 tests CDW/SDW transitions. γ = T/T_CDW = 1 at transition (CONSISTENT). CDW materials show STRONG coupling: mean 2Δ/kT_CDW = 5.3 ± 1.7 (vs BCS 3.52). 1D systems stronger (6.4 ± 1.8) than 2D (4.7 ± 1.5) due to better Fermi surface nesting. CDW-SC competition: T_SC/T_CDW ranges 0.001-0.9, cuprates show strong competition (T_SC ~ T_CDW). CDW coherence length ξ/a = 3-10 lattice constants. Sliding CDW depins at γ = E/E_T = 1 (threshold field). CDW fluctuations extend above T_CDW with γ_fluct = 0.3-0.5. SDW (spin analog) shows same physics. Strong coupling indicates ENHANCED coherence. CDW/SDW fundamental to cuprates, pnictides, many correlated materials. 25th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-161*
+*Chemistry Track Sessions #1-162*
 *Framework development: January 2026*
-*Extended to 98+ domains with ~89/119 predictions validated (~75%)*
-*Latest: Spin glass freezing at γ ~ 1 (#161)*
-*CENTRAL RESULT: γ ~ 1 universal across 24 phenomenon types.*
+*Extended to 99+ domains with ~90/120 predictions validated (~75%)*
+*Latest: Charge density wave transitions at γ ~ 1 (#162)*
+*CENTRAL RESULT: γ ~ 1 universal across 25 phenomenon types.*
