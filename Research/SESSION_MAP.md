@@ -250,6 +250,9 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 | OQ002 | Can C* ≈ 0.79 be derived analytically? | #285 | Partial |
 | OQ003 | Physical meaning of φ in coherence equations? | #240 | Open |
 | OQ004 | Can Gnosis be experimentally validated? | Gnosis #8 | Blocked |
+| OQ005 | Is 50C+ ambient superconductor possible? Design one. | Discussion | Open |
+
+**[OQ005 Detail](OPEN_QUESTION_Hot_Superconductor.md)**: Framework says yes (energy scales sufficient), but γ_SC ~ 0.5 at 323K leaves little margin. Need N_corr ~ 10-30 with Δ ~ 80 meV. Hydrides prove regime exists under pressure. Challenge: ambient pressure stabilization.
 
 ---
 
