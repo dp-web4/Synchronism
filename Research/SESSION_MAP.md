@@ -21,41 +21,53 @@
 
 ## Active Research Arcs
 
-### Quantum Foundations Arc (Session 291+)
-**Status**: Active | **Started**: January 21, 2026
+### Hot Superconductor Arc (Session 292+) - NEW
+**Status**: Active | **Started**: January 22, 2026 | **Question**: OQ005
+
+**Primary Goal**: Design principles for T > 323K (50°C) ambient-pressure superconductivity
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 291 | Measurement as Sinusoidal Sampling | Two-state statistics from arcsine distribution |
+| 292+ | TBD | Applying coherence framework to hot SC design |
 
-**Key Insights**:
-- Measurement as sinusoidal sampling (pendulum model)
-- Two-state statistics from arcsine distribution P(s) = 1/(π√(A² - s²))
-- Phase-locking explains measurement, not collapse
-- C* < 1 allows sampling near extremes without fragile locking
+**Background Documents**:
+- [OPEN_QUESTION_Hot_Superconductor.md](OPEN_QUESTION_Hot_Superconductor.md) - Main analysis
+- [OPEN_QUESTION_Hot_Superconductor_Speculative.md](OPEN_QUESTION_Hot_Superconductor_Speculative.md) - Phase transition approaches
+- [OPEN_QUESTION_Hot_Superconductor_Synchronism.md](OPEN_QUESTION_Hot_Superconductor_Synchronism.md) - Synchronism lens with η formalization
 
-**Predictions**: P291.1-P291.4 (autocorrelation, timing, weak measurement, coupling dependence)
+**Key Framework Insights**:
+- γ_SC = 1/ZT; at ZT = 1, γ_SC = 1 (boundary!)
+- High Tc → large Δ → short ξ → small N_corr → γ approaches 1
+- Need N_corr ~ 10-30 at 323K (ξ ~ 2-4 lattice spacings)
+- Hydrides at γ_SC ~ 0.3-0.4 demonstrate regime exists
 
-**Crosslinks**: Chemistry Sessions #49, #59, #65 (temporal coherence γ_t = 2/√ξ_t)
+**Four Engineering Pathways**:
+1. Brute force: Δ >> kT (traditional)
+2. Propagation > scrambling: sync outpaces noise
+3. Metastable container: kinetically trapped high-ω modes
+4. **Dissonance with noise**: η → 0 via symmetry/topology (most promising)
+
+**Research Program**:
+- Map γ_SC vs Tc trend in hydrides
+- Test η (reachability factor) in cuprates vs conventional SC
+- Identify materials with symmetry-protected pairing modes
+- Formalize "dissonance pathway" engineering handles
+
+**Crosslinks**: Chemistry #62, #97, #141, #143, #146 (superconductivity coherence)
 
 ---
 
-### Biological Coherence Arc (Sessions 290-295)
-**Status**: Active | **Started**: January 21, 2026
+### Recently Completed: Biological Coherence (Sessions 290-291)
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 290 | Biological Coherence Arc Beginning | Biology evolved to C* ≈ 0.79 |
+| 290 | Biological Coherence Arc | Biology evolved to C* ≈ 0.79 |
+| 291 | Measurement as Sinusoidal Sampling | Two-state statistics from arcsine distribution |
 
 **Key Insights**:
-- Biology evolved to operate at C* ≈ 0.79, not maximum coherence
-- Photosynthesis achieves 94% efficiency at optimal coherence (vs 67% classical)
-- Universal biological coherence: C_bio = tanh(γ × log(ε/ε_crit + 1))
-- γ_bio = γ_galactic = 2.0 (universal)
-
-**Predictions**: P290.1-P290.4 (LHC efficiency, enzyme tunneling, neural coherence)
-
-**Roadmap**: Sessions 290-295 complete biological coherence theory
+- Biology operates at C* ≈ 0.79, not maximum coherence
+- Measurement as sinusoidal sampling (pendulum model)
+- Phase-locking explains measurement, not collapse
 
 ---
 

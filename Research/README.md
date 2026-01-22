@@ -41,8 +41,16 @@ Additional tracks (in other repositories):
 
 ### Active Arcs
 
-**Quantum Foundations (#291+)**: Measurement as sinusoidal sampling
-**Biological Coherence (#290-295)**: Optimal coherence in living systems
+**Hot Superconductor Arc (#292+)**: Design principles for T > 323K ambient-pressure superconductivity
+- See: [OQ005 Main Document](OPEN_QUESTION_Hot_Superconductor.md)
+- See: [Speculative Approaches](OPEN_QUESTION_Hot_Superconductor_Speculative.md)
+- See: [Synchronism Lens](OPEN_QUESTION_Hot_Superconductor_Synchronism.md)
+
+Key question: Can we achieve SC at 50°C+ via the "dissonance pathway" (η → 0)?
+
+### Recently Completed
+
+**Biological Coherence (#290-291)**: Measurement as sinusoidal sampling
 
 ### Quantum Computing Arc (#285-289) - Complete
 | Session | Topic | Status |

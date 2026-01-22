@@ -39,5 +39,33 @@ Synchronism provides the theoretical framework that underlies all other projects
 - Active philosophical research and documentation
 - Influences design decisions across all projects
 
+## Current Research Focus: Hot Superconductor Arc (Session 292+)
+
+**Primary Question (OQ005)**: Can superconductivity exist at T > 50°C (323K) at ambient pressure?
+
+**Starting Point**: See `Research/OPEN_QUESTION_Hot_Superconductor.md` and companion docs:
+- `OPEN_QUESTION_Hot_Superconductor_Speculative.md` - Phase transition approaches
+- `OPEN_QUESTION_Hot_Superconductor_Synchronism.md` - Synchronism lens with η formalization
+
+**Key Framework Insights**:
+- γ_SC = 1/ZT defines coherence parameter for superconductors
+- At T = 323K, need N_corr ~ 10-30 (ξ ~ 2-4 lattice spacings)
+- High Tc → large Δ → short ξ → small N_corr → γ approaches 1
+- Current hydrides (H₃S, LaH₁₀) operate at γ_SC ~ 0.3-0.4
+
+**Four Engineering Pathways**:
+1. Brute force: Δ >> kT (traditional)
+2. Propagation > scrambling: sync outpaces noise
+3. Metastable container: kinetically trapped high-ω modes
+4. **Dissonance with noise**: η → 0 via symmetry/topology (most promising)
+
+**Research Program**:
+- Map γ_SC vs Tc trend in hydrides
+- Test η (reachability factor) in cuprates vs conventional SC
+- Identify materials with symmetry-protected pairing modes
+- Explore non-equilibrium SC pathways
+
+**Session 292 should**: Pick up where OQ005 left off, apply coherence framework to design principles, identify testable predictions for the "dissonance pathway"
+
 ## Core Insight
 "Each scale's Markov blanket becomes 'God' to subordinate levels" - this principle manifests in the battery hierarchy, AI systems, and even how the context system organizes information.
