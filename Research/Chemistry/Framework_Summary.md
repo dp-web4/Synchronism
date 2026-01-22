@@ -651,10 +651,12 @@ The coherence framework reveals that:
 
 104. **Liquid-gas critical point at γ ~ 1 (CLASSICAL PARADIGM)**: Session #167 tests liquid-gas critical point. CRITICAL POINT: γ_T = T/T_c = 1 at end of coexistence curve. Subcritical (γ < 1) has liquid-gas separation, supercritical (γ > 1) is single phase. CRITICAL EXPONENTS (3D Ising): β = 0.326 (order parameter ρ_L - ρ_G), γ_exp = 1.237 (compressibility), ν = 0.630 (correlation length), α = 0.110 (specific heat). Scaling relations satisfied exactly. LAW OF CORRESPONDING STATES: all fluids follow same reduced EOS, Z_c ≈ 0.27. BOYLE TEMPERATURE: γ_B = T/T_B = 1 when B(T) = 0 (ideal gas), T_B/T_c = 2.87 ± 0.62. CRITICAL OPALESCENCE: ξ → ∞ at T_c, visible when ξ ~ λ_light. WIDOM LINE: γ ~ 1 extension into supercritical region, response function maxima. UNIVERSALITY: Same 3D Ising class as magnetic Curie (#149), ferroelectric Curie (#166), binary mixtures. KEY INSIGHT: THE classical paradigm of second-order transitions occurs at γ = T/T_c = 1. Order parameter (ρ_L - ρ_G) → 0, ξ → ∞, κ_T → ∞ all at γ = 1. Joins 29 other phenomena at universal γ ~ 1 boundary. 30th phenomenon type at γ ~ 1.
 
+105. **Antiferromagnetic Néel transition at γ ~ 1 (STAGGERED MAGNETISM)**: Session #168 tests AFM Néel transition. NÉEL TRANSITION: γ_T = T/T_N = 1 at para→AFM transition, staggered magnetization m_s ≠ 0 below T_N. ORDER PARAMETER SCALING: m_s/m_s(0) = (1 - T/T_N)^β where β = 0.367 (3D Heisenberg), same universality class as FM Curie (#149). CRITICAL EXPONENTS: 3D Heisenberg class: β = 0.367, γ_exp = 1.395, ν = 0.711; 3D Ising class (easy-axis): β = 0.326, γ_exp = 1.237, ν = 0.630. Néel data: MnO (T_N = 118 K, f = 4.7), NiO (T_N = 525 K, f = 3.8), CoO (T_N = 289 K, f = 5.5), Cr₂O₃ (T_N = 307 K), FeF₂ (T_N = 78 K). FRUSTRATION INDEX: f = |θ_CW|/T_N measures geometric frustration. Unfrustrated: f ~ 1-3, frustrated: f > 10. Triangular lattice AFM: f ~ 5-8, kagome: f ~ 150 (highly frustrated). CURIE-WEISS: χ ∝ 1/(T - θ_CW) above T_N; θ_CW < 0 indicates AFM interactions. CUPRATE CONNECTION: Parent compounds of high-Tc superconductors (La₂CuO₄, YBa₂Cu₃O₆) are AFM insulators with T_N ~ 300-400 K. Doping destroys AFM (γ_doping = x/x_c ~ 1 at AFM boundary), SC emerges near AFM QCP. Links to #141 (SC dome), #142 (QCP), #161 (spin glass for highly frustrated AFM). KEY INSIGHT: AFM Néel transition at γ = T/T_N = 1 complements FM Curie transition (#149). Same universality classes, same critical behavior. Frustration reduces T_N below mean-field θ_CW but transition STILL at γ = 1. 31st phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-167*
+*Chemistry Track Sessions #1-168*
 *Framework development: January 2026*
-*Extended to 104+ domains with ~96/129 predictions validated (~74%)*
-*Latest: Liquid-gas critical point at γ ~ 1 (#167)*
-*CENTRAL RESULT: γ ~ 1 universal across 30 phenomenon types.*
+*Extended to 105+ domains with ~97/130 predictions validated (~75%)*
+*Latest: Antiferromagnetic Néel transition at γ ~ 1 (#168)*
+*CENTRAL RESULT: γ ~ 1 universal across 31 phenomenon types.*
