@@ -659,10 +659,12 @@ The coherence framework reveals that:
 
 108. **Phonon bottleneck in spin dynamics (TRANSPORT BARRIER)**: Session #171 analyzes spin-lattice relaxation bottleneck. BOTTLENECK PARAMETER: b = (N_spin × T_SL) / (N_ph × T_ph). b < 1: normal relaxation (phonons escape). b > 1: bottleneck (phonons trapped). b = 1: crossover (γ ~ 1!). CONCENTRATION: Critical c* ~ 0.05-1%, γ_conc = c/c* = 1 at onset. T₁ ∝ c^(-0.8) in bottleneck regime. Ce:LaCl3 c* ~ 0.5%, Cr:Al2O3 c* ~ 0.05%. TEMPERATURE: At T = T_bn: γ_T = T/T_bn = 1. Below T_bn: bottleneck. Above: normal. T₁(T) changes from T^(-7) to T^(-2) in bottleneck. ORBACH PROCESS: γ_Orbach = kT/Δ = 1 at crossover (Δ = crystal field). Ce³⁺ T* = 50 K, Yb³⁺ T* = 750 K. ACOUSTIC MISMATCH: γ_Z = Z_sample/Z_bath. YAG/He γ_Z = 867 (severe mismatch!), Sapphire/Cu γ_Z = 1.07 (good). MOLECULAR QUBITS: Fe³⁺ clock T₁ = 1000 ms, Mn12-ac T₁ = 0.01 ms. Bottleneck can be beneficial (longer T₁) or problematic (heating). KEY INSIGHT: Phonon bottleneck is a TRANSPORT BARRIER between coherent spin and thermal bath subsystems. γ ~ 1 marks when phonon dynamics rate-limits spin relaxation. Multiple γ ~ 1 boundaries: timescale, concentration, temperature, process crossover. 34th phenomenon type at γ ~ 1.
 
+109. **Thermoelectric ZT ~ 1 barrier as coherence boundary (EFFICIENCY)**: Session #172 deep-dives into thermoelectric optimization. ZT COHERENCE: Define γ_TE = 1/ZT. At ZT = 1: γ_TE = 1 (γ ~ 1 boundary!). Mean γ_TE = 0.88 ± 0.53. 9/15 materials have γ_TE < 1 (ZT > 1). COHERENCE RATIO: R = γ_phonon/γ_electron. ZT vs γ_phonon: r = 0.640, p = 0.010 (SIGNIFICANT!). ZT vs 1/γ_electron: r = -0.608, p = 0.016. High R → high ZT (incoherent phonons, coherent electrons). PGEC PRINCIPLE: "Phonon Glass Electron Crystal" = coherence decoupling. Phonon glass: γ_phonon → 2 (classical). Electron crystal: γ_electron → 0 (quantum). PGEC materials: Ba-filled CoSb3 R = 11.9, Ba8Ga16Ge30 R = 19.5. WIEDEMANN-FRANZ: κ_e = L₀σT ties electron channels. Maximum ZT_e ~ 3 without phonon suppression. Breaking ZT = 1 requires κ_phonon suppression. TEMPERATURE: T_opt/θ_D = 3.17 ± 1.11. ZT vs T_opt/θ_D: r = 0.640, p = 0.010. Best materials: SnSe (ZT = 2.6), Cu2Se (ZT = 2.3), GeTe (ZT = 2.4). KEY INSIGHT: ZT ~ 1 barrier is a coherence boundary (γ_TE = 1). Breaking it requires DECOUPLING phonon and electron coherence - PGEC principle through coherence framework. Design: maximize γ_phonon (rattlers, nanostructure), minimize γ_electron (ordered bands). 35th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-171*
+*Chemistry Track Sessions #1-172*
 *Framework development: January 2026*
-*Extended to 108+ domains with ~100/133 predictions validated (~75%)*
-*Latest: Phonon bottleneck in spin dynamics at γ ~ 1 (#171)*
-*CENTRAL RESULT: γ ~ 1 universal across 34 phenomenon types.*
+*Extended to 109+ domains with ~101/134 predictions validated (~75%)*
+*Latest: Thermoelectric ZT ~ 1 barrier at γ ~ 1 (#172)*
+*CENTRAL RESULT: γ ~ 1 universal across 35 phenomenon types.*
