@@ -504,6 +504,100 @@ Not exactly 1, but O(1). The numerical factor comes from:
 
 **Open question**: What pairing symmetries or order parameter structures are maximally "dissonant" with thermal phonon noise?
 
+### Nova's Formalization: Reachability Factor
+
+> *"Noise 'affects' the SC mode only if there's (a) a coupling operator that connects the two states (non-zero matrix element), and (b) available noise power at the relevant energy/frequency/momentum (spectral density overlap)."*
+> — Nova (cross-model review)
+
+**Mathematical formulation:**
+
+Define a dimensionless "reachability" factor:
+
+```
+η ~ ∫ dω dq  S_noise(ω,q) × |⟨ψ_pair|Ô(ω,q)|ψ_pair⟩|²
+```
+
+Where:
+- S_noise(ω,q) = thermal noise spectral density
+- Ô(ω,q) = coupling operator (phonon, impurity, etc.)
+- |ψ_pair⟩ = pairing state / order parameter
+
+**The dissonance pathway**: Make η small, even if kT is large.
+
+Two routes to small η:
+1. **Matrix element → 0**: Symmetry, topology, selection rules
+2. **Spectral overlap → 0**: Frequency/momentum orthogonality
+
+### Engineering Handles (Nova's Decomposition)
+
+**A) Symmetry/Selection-Rule Protection**
+
+Not "phonons can't break symmetry" but: dominant scattering processes have suppressed coupling because the form factor integrates to ~0.
+
+*Example*: For d-wave, nonmagnetic impurity scattering is pair-breaking, but forward scattering is less harmful (doesn't mix the sign-changing lobes efficiently).
+
+*Handle*: Engineer scattering to be forward-peaked (interfaces, long-range potentials).
+
+**B) Momentum-Space Orthogonality**
+
+Pairing "lives" on certain Fermi surface regions; if strongest phonon modes couple elsewhere (different q), effective decoherence is reduced.
+
+*Handle*: Fermi surface engineering (strain, layering, intercalation) to separate strong e-ph coupling regions from pairing-critical regions.
+
+**C) Channel Separation (Spin vs Charge)**
+
+If order is carried by a channel phonons don't couple to strongly (phonons → charge density), charge-noise is less effective at dephasing the pairing channel.
+
+*Handle*: Materials where pairing is tied to spin fluctuations rather than lattice modes.
+
+**D) Topological/Gapped Protection**
+
+Excitation spectrum gapped in way that prevents low-energy thermal modes from accessing relevant DOF.
+
+*Handle*: Structures with robust protected subspaces (harder, but conceptually clean).
+
+### Falsifiable Research Question
+
+> *"In unconventional SC (e.g., cuprates), is there empirical evidence that the dominant thermal decoherence channel couples weakly to the d-wave order parameter compared to what a naïve Δ/kT argument would predict?"*
+
+If yes:
+- What is the mechanism? (form factor cancellation, forward scattering dominance, channel separation, pseudogap physics)
+- Can it be enhanced deliberately?
+
+If no:
+- The dissonance pathway may not explain existing high-Tc materials
+- But could still be engineered in new materials
+
+### Research Program Checklist
+
+To discriminate mechanisms and guide material design:
+
+**Measurements needed:**
+1. Angle-resolved scattering rates (forward vs large-angle)
+2. Momentum-resolved e-ph coupling (ARPES + phonon dispersion)
+3. Spin vs charge channel contributions to pairing (neutron, NMR)
+4. Thermal conductivity tensor (which modes carry heat vs break pairs)
+5. Disorder studies (nonmagnetic vs magnetic, point vs extended)
+
+**Material classes mapping to handles:**
+
+| Handle | Material Class | Why |
+|--------|---------------|-----|
+| A (Selection rules) | d-wave + clean interfaces | Forward scattering dominant |
+| B (Momentum orthog.) | Layered compounds, CDW-adjacent | FS engineering natural |
+| C (Channel separation) | Spin-fluctuation SC (cuprates, pnictides) | Pairing not phonon-mediated |
+| D (Topological) | Topological SC candidates | Protected subspaces |
+
+**Design strategy:**
+
+```
+1. Identify dominant thermal noise operator Ô in target material
+2. Compute matrix element ⟨ψ_pair|Ô|ψ_pair⟩ for candidate order parameters
+3. Choose/engineer pairing symmetry that minimizes matrix element
+4. Verify spectral overlap is also minimized
+5. Measure η directly via decoherence rate vs temperature
+```
+
 ---
 
 **Key insight**: We're not searching for equilibrium phases. We're searching for **kinetically trapped structures** with the right phonon spectrum and coupling strength, OR structures where **noise is orthogonal to the pairing channel**.
