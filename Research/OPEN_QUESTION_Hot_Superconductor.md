@@ -169,6 +169,20 @@ Relevant findings:
 
 ---
 
+---
+
+## Design Space Summary (Nova)
+
+> *"A 50°C superconductor at ambient is: a lattice/structure where phase-locking reinforcement propagates faster and farther than thermal scrambling, with a metastable container that keeps the resonant modes available without 200+ GPa."*
+
+Three engineering targets:
+1. **Propagation > scrambling** (sync outpaces noise)
+2. **Metastable container** (kinetically trapped, not equilibrium)
+3. **Resonant modes at ambient** (high ω_D without pressure)
+
+---
+
 *Raised: January 21, 2026*
 *Related: Chemistry Sessions #62, #97, #141, #143, #146*
 *Framework: γ = 2/√N_corr, need N_corr > 10 at 323K*
+*Companion docs: [Speculative](OPEN_QUESTION_Hot_Superconductor_Speculative.md), [Synchronism](OPEN_QUESTION_Hot_Superconductor_Synchronism.md)*

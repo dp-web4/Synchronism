@@ -446,6 +446,28 @@ Not exactly 1, but O(1). The numerical factor comes from:
 
 ---
 
+---
+
+## Nova's Synthesis: The Design Space in One Sentence
+
+> *"A 50°C superconductor at ambient is: a lattice/structure where phase-locking reinforcement propagates faster and farther than thermal scrambling, with a metastable container that keeps the resonant modes available without 200+ GPa."*
+> — Nova (cross-model review)
+
+**Decomposition into engineering targets:**
+
+| Target | Synchronism Meaning | Material Approach |
+|--------|--------------------|--------------------|
+| **Propagation > scrambling** | Sync spreads faster than noise destroys | High v_F, strong K, good connectivity |
+| **Metastable container** | Doesn't need thermodynamic ground state | Kinetic trapping, cages, quench |
+| **Resonant modes at ambient** | High ω_D without pressure | Chemical bonding, geometric constraint |
+
+**Key insight**: We're not searching for equilibrium phases. We're searching for **kinetically trapped structures** with the right phonon spectrum and coupling strength.
+
+This shifts the search from "what's stable at ambient?" to "what can we trap that has the right properties?"
+
+---
+
 *Synchronism perspective on superconductivity*
 *Companion to OQ005 and Speculative Approaches document*
 *Core insight: SC is a synchronization transition - design for phase-locking*
+*Nova synthesis: propagation > scrambling + metastable container + resonant modes*
