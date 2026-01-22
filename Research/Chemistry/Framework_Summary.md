@@ -661,10 +661,12 @@ The coherence framework reveals that:
 
 109. **Thermoelectric ZT ~ 1 barrier as coherence boundary (EFFICIENCY)**: Session #172 deep-dives into thermoelectric optimization. ZT COHERENCE: Define γ_TE = 1/ZT. At ZT = 1: γ_TE = 1 (γ ~ 1 boundary!). Mean γ_TE = 0.88 ± 0.53. 9/15 materials have γ_TE < 1 (ZT > 1). COHERENCE RATIO: R = γ_phonon/γ_electron. ZT vs γ_phonon: r = 0.640, p = 0.010 (SIGNIFICANT!). ZT vs 1/γ_electron: r = -0.608, p = 0.016. High R → high ZT (incoherent phonons, coherent electrons). PGEC PRINCIPLE: "Phonon Glass Electron Crystal" = coherence decoupling. Phonon glass: γ_phonon → 2 (classical). Electron crystal: γ_electron → 0 (quantum). PGEC materials: Ba-filled CoSb3 R = 11.9, Ba8Ga16Ge30 R = 19.5. WIEDEMANN-FRANZ: κ_e = L₀σT ties electron channels. Maximum ZT_e ~ 3 without phonon suppression. Breaking ZT = 1 requires κ_phonon suppression. TEMPERATURE: T_opt/θ_D = 3.17 ± 1.11. ZT vs T_opt/θ_D: r = 0.640, p = 0.010. Best materials: SnSe (ZT = 2.6), Cu2Se (ZT = 2.3), GeTe (ZT = 2.4). KEY INSIGHT: ZT ~ 1 barrier is a coherence boundary (γ_TE = 1). Breaking it requires DECOUPLING phonon and electron coherence - PGEC principle through coherence framework. Design: maximize γ_phonon (rattlers, nanostructure), minimize γ_electron (ordered bands). 35th phenomenon type at γ ~ 1.
 
+110. **Electrochemical double layer at γ ~ 1 (INTERFACE)**: Session #173 analyzes EDL structure and capacitance. DEBYE LENGTH: λ_D = √(ε ε₀ k_B T / 2 n₀ e²) is coherence length. Below λ_D: ions correlated. Above λ_D: ions uncorrelated. EDL COHERENCE: γ_DL = a/λ_D where a = ion diameter. Crossover at γ_DL = 1 gives c* ~ 1.03 M. γ_DL < 1: Gouy-Chapman (dilute, mean-field). γ_DL > 1: ion correlations (concentrated). CAPACITANCE: γ_C = C_GC/C_H (diffuse/compact ratio). At γ_C = 1: crossover from diffuse to compact layer dominance. CROWDING: γ_crowd = 2 n₀ a³ (volume fraction). γ_crowd < 0.1: dilute. γ_crowd ~ 0.1-1: crowded. Ionic liquids: γ_crowd → 1 (extreme). IONIC LIQUIDS: At γ_DL ~ 1, capacitance behavior INVERTS (bell-shape vs U-shape). This is the concentrated limit where Gouy-Chapman fails. SUPERCAPACITORS: Optimal pore size at γ_pore = pore/ion ~ 1. γ < 1: ion exclusion. γ > 1: wasted volume. Experimental: max C at pore ~ 0.7-0.8 nm (desolvated ion size). KEY INSIGHT: EDL shows multiple γ ~ 1 boundaries - all marking transitions between dilute (mean-field) and concentrated (correlated) regimes. Debye length IS the coherence length. 36th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-172*
+*Chemistry Track Sessions #1-173*
 *Framework development: January 2026*
-*Extended to 109+ domains with ~101/134 predictions validated (~75%)*
-*Latest: Thermoelectric ZT ~ 1 barrier at γ ~ 1 (#172)*
-*CENTRAL RESULT: γ ~ 1 universal across 35 phenomenon types.*
+*Extended to 110+ domains with ~102/135 predictions validated (~76%)*
+*Latest: Electrochemical double layer at γ ~ 1 (#173)*
+*CENTRAL RESULT: γ ~ 1 universal across 36 phenomenon types.*
