@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 309 (263 core + 46 chemistry files/160 documented + 11 gnosis) | **Last Updated**: January 22, 2026 | **Archivist v1.0**
+**Total Sessions**: 327 (253 core + 46 chemistry files/177 documented + 11 gnosis) | **Last Updated**: January 23, 2026 | **Archivist v1.0**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -11,7 +11,7 @@
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
 - [Core Track (252 sessions)](#core-track)
-- [Chemistry Track (160 documented)](#chemistry-track)
+- [Chemistry Track (177 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -157,42 +157,48 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 160 | **Status**: ~75% validated, 97+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 177 | **Status**: ~76% validated, 114+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 23 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 40 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 21, 2026)
+### Latest Sessions (January 22, 2026)
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
-| 157 | Quantum Dot Crossovers | Coulomb blockade, shell structure at γ ~ 1 |
-| 158 | Strong Coupling Polaritons | Light-matter hybridization requires γ < 1 |
-| 159 | Atomic BEC Threshold | Phase space density criterion IS γ = 1 |
-| 160 | Topological Phase Transitions | BKT transitions also at γ ~ 1 |
+| 177 | Colloidal Phase Transitions | Hard sphere freezing, Lindemann at γ ~ 1 |
+| 176 | Polymer Crystallization | T_g/T_m ~ 2/3, crystallinity at γ ~ 1 |
+| 175 | Liquid Crystal Transitions | S = 1 - γ/2 order parameter validated |
+| 174 | Photosynthetic Energy Transfer | ENAQT peaks at γ ~ 1, vibronic resonance |
+| 173 | Electrochemical Double Layer | Debye length IS coherence length |
+| 172 | Thermoelectric ZT ~ 1 | ZT = 1 IS γ ~ 1 boundary |
+| 171 | Phonon Bottleneck | Transport barrier at γ ~ 1 |
+| 170 | SC Gap Structure | Gap ratio measures coupling, γ_SC ~ 1 |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 97+ |
-| Phenomenon types at γ ~ 1 | 23 |
-| Validation rate | ~75% |
+| Domains explored | 114+ |
+| Phenomenon types at γ ~ 1 | **40** |
+| Validation rate | ~76% |
 | Best result | P12.2 (Entropy) r = 0.994 |
 
 ### Categories
 
 | Category | Sessions | Themes | Status |
 |----------|----------|--------|--------|
-| Superconductivity | 1, 6, 10, 30, 35, 62, 141 | BCS mapping, cuprates, dome | Validated (r=0.977) |
-| Catalysis | 2, 8, 12, 23, 27, 132 | Enzymes, KIE, transition states | Validated (r=0.999) |
-| Bonding | 3, 13, 39 | Phase-locking, electronegativity | Validated |
-| Phase Transitions | 4, 17, 29, 50, 131 | Glass, coherence hierarchy | Complete |
-| Biophysics | 9, 18, 130, 134, 135 | Excitons, PCET, Marcus | Links to Session 290 |
-| Magnetism | 16, 30, 42, 139, 140 | Ordering, Kondo, heavy fermions | Complete |
-| Quantum Info | 15, 26, 41, 43, 157, 158, 159 | Qubits, QDs, polaritons, BEC | Links to 285-289 |
-| Topological | 61, 145, 160 | Topological indicator, BKT | NEW |
+| Superconductivity | 1, 6, 10, 30, 35, 62, 141, 170 | BCS mapping, cuprates, gaps | Validated |
+| Catalysis | 2, 8, 12, 23, 27, 132 | Enzymes, KIE, transition states | Validated |
+| Classical Transitions | 166, 167, 168 | Ferroelectric, liquid-gas, AFM | NEW |
+| Disordered Systems | 161, 169 | Spin glass, structural glass | NEW |
+| Electronic Ordering | 162, 164 | CDW/SDW, Josephson | NEW |
+| Geometric | 163, 177 | Percolation, colloids | NEW |
+| Optical | 165, 175 | Lasing, liquid crystals | NEW |
+| Soft Matter | 173, 176 | EDL, polymers | NEW |
+| Quantum Biology | 174 | Photosynthesis ENAQT | Links to Session 290 |
+| Transport | 171, 172 | Phonon bottleneck, thermoelectric | NEW |
 
 ### Top Validated Predictions
 
