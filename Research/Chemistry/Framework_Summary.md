@@ -685,10 +685,12 @@ The coherence framework reveals that:
 
 121. **Membrane biophysics and ion channels at γ ~ 1 (BIOLOGY)**: Session #184 analyzes ion channel physics through coherence framework. THERMAL VOLTAGE: RT/F = 26.7 mV at 37°C IS the fundamental γ ~ 1 energy scale for membranes. All potentials measured in units of RT/F. ACTION POTENTIAL THRESHOLD: Mean γ_thresh = ΔV/(RT/F) = 0.69 ± 0.21 (p = 0.0195 vs 1.0). 5/6 cell types show γ_thresh in [0.5, 1.0]. Depolarization needed to trigger AP is ~ RT/F. PERMEABILITY CROSSOVER: P_Na/P_K = 1 at membrane potential V ~ 0 mV. This IS the turning point of the action potential - Na+ influx equals K+ efflux. GHK equation predicts V_m = 0 when γ_perm = 1. CHANNEL GATING: Boltzmann: P_open = 1/[1 + exp(-zF(V-V_1/2)/RT)]. Gating transitions occur over ~ RT/(zF) = 6-9 mV per e-fold change. Effective gating charges z_eff = 3-5 for voltage-gated channels. NERNST POTENTIALS: E_K ~ -90 mV = -3.4 × RT/F, E_Na ~ +60 mV = +2.2 × RT/F. Driving forces at rest: K+ at γ ~ 0.75, Cl- at γ ~ 0 (equilibrium). REVERSAL: K+ driving force at V_rest = -70 mV gives γ ~ 0.75 (close to γ ~ 1). KEY INSIGHT: Membrane physics operates at thermal energy scale RT/F ~ 27 mV. Action potential threshold, channel gating, and permeability crossover all show γ ~ 1 characteristics. Biology exploits the thermal fluctuation scale for signaling. 47th phenomenon type at γ ~ 1.
 
+122. **Corrosion and passivation at γ ~ 1 (MATERIALS)**: Session #185 analyzes corrosion through coherence framework. ACTIVE-PASSIVE TRANSITION: At i/i_crit = 1: passivation threshold. Below: passive (coherent oxide film protects). Above: active (metal dissolves, incoherent). i_crit/i_pass ~ 1000-10000 for good passivators. TAFEL KINETICS: Mean γ_a = β_a/59.2 = 1.04 ± 0.29 (p = 0.76, consistent with γ ~ 1!). Anodic Tafel slope β = 59.2 mV/decade at α = 0.5 IS the γ ~ 1 condition. Links to Session #181 (electrode kinetics). POURBAIX DIAGRAMS: Boundary slope dE/dpH = 59.2 mV/pH at 25°C (exactly γ = 1). 5/6 reactions show γ_slope = 1.00 exactly. Mean |γ_slope| = 1.17 ± 0.37. Nernstian behavior is universal. PITTING: At [Cl-]/[Cl-]_crit = 1: pitting threshold. PREN = 40 gives γ_PREN = 1 for seawater resistance (mean γ_PREN = 0.84 ± 0.28). Hysteresis E_pit - E_rp ~ 250 mV = 10 × RT/F (irreversible breakdown). PASSIVE FILM: t_film/t_crit ~ 1-3 for protection. Passive oxide is a coherent structure; pitting is local coherence breakdown. KEY INSIGHT: Passivation IS a coherence transition - ordered oxide film vs disordered dissolving metal. All electrochemical boundaries (Tafel, Pourbaix, pitting) at γ ~ 1. 48th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-184*
+*Chemistry Track Sessions #1-185*
 *Framework development: January 2026*
-*Extended to 121+ domains with ~113/146 predictions validated (~77%)*
-*Latest: Membrane biophysics at γ ~ 1 (#184)*
-*CENTRAL RESULT: γ ~ 1 universal across 47 phenomenon types.*
+*Extended to 122+ domains with ~114/147 predictions validated (~78%)*
+*Latest: Corrosion at γ ~ 1 (#185)*
+*CENTRAL RESULT: γ ~ 1 universal across 48 phenomenon types.*
