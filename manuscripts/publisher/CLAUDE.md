@@ -1,10 +1,9 @@
 # Publisher Track
 
-**Role**: Publication recommendations and tracking
+**Role**: Whitepaper maintenance and publication recommendations
 **Schedule**: Daily at 02:30 UTC on CBP (1 hour after Archivist)
-**Scope**: Synchronism research sessions across all tracks
-**Phase**: 0 (Catalog and Recommend)
-**Version**: 1.0
+**Scope**: Synchronism and Web4 whitepapers + research sessions
+**Version**: 2.0
 **Launch**: `claude -c --dangerously-skip-permissions` from Synchronism/manuscripts
 
 ---
@@ -12,18 +11,48 @@
 ## Mission
 
 The Publisher track supports the transition from research to publication by:
-1. Identifying publication-worthy session blocks
-2. Making specific recommendations with rationale
-3. Tracking which recommendations have been acted upon
-4. Building institutional knowledge about what makes research publishable
+1. **Maintaining whitepapers** - Keeping Synchronism and Web4 whitepapers current
+2. **Identifying publication-worthy sessions** - Recommending session blocks for external publication
+3. **Tracking recommendations** - Monitoring what gets published
+4. **Building institutional knowledge** - Learning what makes research publishable
 
-**Current Phase (0)**: Catalog, recommend, and track. Human performs actual publication.
+**Current Phases**:
+- **Phase 0**: Catalog and recommend sessions for publication
+- **Phase 1**: Maintain and update whitepapers (NEW - active)
 
-**Future Phase (1)**: Write and prepare preprints for peer review.
+**Future Phases**:
+- **Phase 2**: Write and prepare preprints for peer review
 
 ---
 
-## Daily Workflow
+## Daily Workflow Overview
+
+```
+Publisher Daily Run (02:30 UTC)
+│
+├── Phase 0: Catalog & Recommend (Sessions)
+│   ├── Scan SESSION_MAP for new sessions
+│   ├── Update recommendations.json
+│   └── Generate session recommendations
+│
+├── Phase 1: Whitepaper Review (NEW)
+│   ├── Launch Synchronism Whitepaper Subagent
+│   │   └── Returns: {needs_update: bool, proposals: [], report: str}
+│   │
+│   ├── Launch Web4 Whitepaper Subagent
+│   │   └── Returns: {needs_update: bool, proposals: [], report: str}
+│   │
+│   └── Merge subagent reports
+│
+└── Phase 2: Commit & Report
+    ├── Commit all changes
+    ├── Generate daily report
+    └── Push to remotes
+```
+
+---
+
+## Phase 0: Catalog & Recommend
 
 ### 1. Read Current State
 
@@ -94,55 +123,123 @@ recommendation:
   human_notes: ""  # For Dennis to add feedback
 ```
 
-### 5. Update Tracking Files
-
-- Add new recommendations to `state/recommendations.json`
-- Check if any previous recommendations have been published
-- Update `state/published.json` with publication details
-- Log activity to `logs/`
-
-### 6. Generate Daily Report
-
-Create `reports/YYYY-MM-DD-publisher-report.md` with:
-- New recommendations (if any)
-- Status changes on existing recommendations
-- Publication activity detected
-- Upcoming candidates (sessions nearing completion)
-
 ---
 
-## Evaluation Heuristics
+## Phase 1: Whitepaper Review (NEW)
 
-### What Makes a Session Block Publishable?
+### Principle: Comprehensive Review, Conservative Changes
 
-**Strong Candidates**:
-- Complete arc (5+ sessions) with synthesis document
-- Predictions with P###.# format (trackable)
-- Cross-model review (Nova, Perplexity, etc.)
-- Validated results (r > 0.9 for Chemistry)
-- Clear "so what" - why this matters
+Whitepapers are the primary interface between research and the world. Each review should:
+- Thoroughly evaluate new research against whitepaper scope
+- Identify genuine improvements (not just additions)
+- Make changes only when truly merited
+- Document rationale for all decisions
+- Preserve conceptual integrity and terminology
 
-**Weak Candidates**:
-- Active/evolving arcs (still changing)
-- Single sessions (usually too narrow)
+### Subagent Architecture
+
+Each whitepaper is reviewed by an isolated subagent with full context:
+
+| Whitepaper | Context Document | Governance |
+|------------|------------------|------------|
+| Synchronism | `/Synchronism/whitepaper/PUBLISHER_CONTEXT.md` | Proposals/Reviews/Arbiter |
+| Web4 | `/web4/whitepaper/PUBLISHER_CONTEXT.md` | Direct Edit |
+
+### Subagent Launch Protocol
+
+For each whitepaper, launch a Task subagent with this prompt structure:
+
+```
+You are the {Synchronism|Web4} Whitepaper Review Subagent.
+
+Read and follow the complete context in:
+{path}/whitepaper/PUBLISHER_CONTEXT.md
+
+Your task:
+1. Check for new developments since last review (see PUBLISHER_CONTEXT.md Section 6)
+2. Evaluate each against inclusion criteria (Section 3)
+3. For included items:
+   - Identify target section(s)
+   - Draft integration approach
+   - Check terminology consistency (Section 4/7)
+   - Estimate scope: minor/moderate/major
+4. For excluded items:
+   - Note reason (too early, doesn't fit, quality issues)
+5. Generate review report
+
+Return your findings as:
+- needs_update: true/false
+- proposals: list of specific changes with rationale
+- sections_affected: list
+- terminology_concerns: any drift detected
+- summary: 2-3 sentence overview for daily report
+```
+
+### Synchronism Whitepaper Review
+
+**Inputs**:
+- `PUBLISHER_CONTEXT.md` (full context)
+- Recent SESSION_MAP entries (sessions since 2026-01-16)
+- Current section CHANGELOGs
+
+**Inclusion Triggers**:
+- Prediction confirmed with r > 0.9
+- Independent derivation matches known physics
+- Cross-domain γ value matches
+- Multiple phenomena unified under same equation
+- Complete arc with synthesis document
+
+**Exclusion Triggers**:
+- Arc still active (sessions being added)
+- No synthesis document yet
+- Contradicts framework without resolution
 - Speculative without predictions
-- Duplicates prior published work
-- Missing cross-references
 
-### Publication Types
+**Change Workflow**:
+1. For major changes: Create proposal in `sections/{target}/meta/proposals/`
+2. Self-review in `sections/{target}/meta/reviews/`
+3. Implement as arbiter
+4. Log in section CHANGELOG.md
+5. For minor changes: Direct edit with CHANGELOG.md entry
 
-| Type | Criteria | Venue |
-|------|----------|-------|
-| **Preprint** | Novel, testable, complete | arXiv |
-| **Journal** | Validated, significant | Domain journals |
-| **Conference** | Timely, demonstrable | AI/Physics conferences |
-| **Technical Report** | Detailed, reference | Internal/Zenodo |
+### Web4 Whitepaper Review
+
+**Inputs**:
+- `PUBLISHER_CONTEXT.md` (full context)
+- Recent hardbound-core, web4-core changes
+- ARCHITECTURE.md files
+- Protocol specifications
+
+**Inclusion Triggers**:
+- New protocol element implemented in code
+- Specification clarified based on implementation
+- Security analysis identifies needed changes
+- Real TPM/hardware integration achieved
+
+**Exclusion Triggers**:
+- Belongs in Synchronism (physics) not Web4 (protocol)
+- Code not yet written
+- Design still evolving
+- Adds complexity without proportional value
+
+**Change Workflow**:
+- Web4 uses direct edit model (simpler governance)
+- All changes logged in section's documentation
+- Build must succeed before commit
+
+### Build Verification (Both Whitepapers)
+
+After any change:
+1. Run build scripts (`./make-md.sh`, `./make-web.sh`)
+2. Check for errors
+3. Verify navigation/formatting
+4. **Never commit changes that break the build**
 
 ---
 
 ## State Files
 
-### recommendations.json
+### recommendations.json (Phase 0)
 
 ```json
 {
@@ -164,7 +261,7 @@ Create `reports/YYYY-MM-DD-publisher-report.md` with:
 }
 ```
 
-### published.json
+### published.json (Phase 0)
 
 ```json
 {
@@ -185,15 +282,108 @@ Create `reports/YYYY-MM-DD-publisher-report.md` with:
 }
 ```
 
+### whitepaper_sync.json (Phase 1 - NEW)
+
+```json
+{
+  "version": "1.0",
+  "whitepaper": "synchronism",
+  "last_review": "2026-01-23T02:30:00Z",
+  "last_integration": "2026-01-16",
+  "sessions_reviewed_through": 292,
+  "pending_proposals": [],
+  "status": "current"
+}
+```
+
+### whitepaper_web4.json (Phase 1 - NEW)
+
+```json
+{
+  "version": "1.0",
+  "whitepaper": "web4",
+  "last_review": "2026-01-23T02:30:00Z",
+  "last_checked_commit": "abc123",
+  "pending_proposals": [],
+  "status": "current"
+}
+```
+
 ---
 
-## Existing Publications to Catalog
+## Daily Report Format
 
-From the manuscripts directory, catalog these as already published:
+Create `reports/YYYY-MM-DD-publisher-report.md` with:
 
-1. **synchronism-dark-matter-arxiv-v6.pdf** - Dark matter preprint (v1-v6 iterations)
-2. **arxiv_autonomous_ai_research_v1.pdf** - Autonomous AI research preprint
-3. **Session285-288 PDFs** - Quantum Computing Arc exports
+```markdown
+# Publisher Daily Report - YYYY-MM-DD
+
+## Phase 0: Publication Recommendations
+
+### New Recommendations
+- [List any new session block recommendations]
+
+### Status Changes
+- [Any status changes on existing recommendations]
+
+### Upcoming Candidates
+- [Sessions nearing completion that might be candidates]
+
+## Phase 1: Whitepaper Review
+
+### Synchronism Whitepaper
+- **Status**: Current / Needs Update
+- **Sessions Reviewed**: X through Y
+- **Proposals**: [List or "None"]
+- **Changes Made**: [List or "None"]
+- **Terminology Concerns**: [List or "None"]
+
+### Web4 Whitepaper
+- **Status**: Current / Needs Update
+- **Repos Checked**: web4-core, hardbound-core
+- **Proposals**: [List or "None"]
+- **Changes Made**: [List or "None"]
+- **Terminology Concerns**: [List or "None"]
+
+## Summary
+[2-3 sentence overall summary]
+```
+
+---
+
+## Evaluation Heuristics
+
+### What Makes a Session Block Publishable? (Phase 0)
+
+**Strong Candidates**:
+- Complete arc (5+ sessions) with synthesis document
+- Predictions with P###.# format (trackable)
+- Cross-model review (Nova, Perplexity, etc.)
+- Validated results (r > 0.9 for Chemistry)
+- Clear "so what" - why this matters
+
+**Weak Candidates**:
+- Active/evolving arcs (still changing)
+- Single sessions (usually too narrow)
+- Speculative without predictions
+- Duplicates prior published work
+- Missing cross-references
+
+### What Merits Whitepaper Integration? (Phase 1)
+
+**Include**:
+- Validated quantitative results
+- Complete arcs with clear terminus
+- Implementation evidence (code exists)
+- Fills documented gaps
+- Improves clarity without adding complexity
+
+**Exclude**:
+- Still evolving / active development
+- Speculative without predictions
+- Domain-specific without universal implications
+- Would require major restructuring
+- Contradicts established framework
 
 ---
 
@@ -212,8 +402,9 @@ Read Archivist output:
 
 ## Human Interaction Points
 
-The Publisher **recommends**, the human **decides**:
+The Publisher **recommends and maintains**, the human **decides**:
 
+### For Publication Recommendations
 1. **Review recommendations**: Check `state/recommendations.json`
 2. **Add notes**: Fill in `human_notes` field
 3. **Change status**:
@@ -222,23 +413,36 @@ The Publisher **recommends**, the human **decides**:
    - `published` - Done, move to published.json
 4. **Provide feedback**: Help Publisher learn what works
 
+### For Whitepaper Updates
+1. **Review proposals** in daily report
+2. **Approve or modify** proposed changes
+3. **Flag concerns** about terminology or structure
+4. **Override** when needed (Publisher is conservative, human can be bold)
+
 ---
 
 ## Phase Roadmap
 
-### Phase 0 (Current)
+### Phase 0 (Active)
 - Catalog existing publications
-- Make recommendations
+- Make session recommendations
 - Track status
 - Learn from human feedback
 
-### Phase 1 (Future)
+### Phase 1 (Active - NEW)
+- Review Synchronism whitepaper for updates
+- Review Web4 whitepaper for updates
+- Launch isolated subagents with full context
+- Make conservative, well-documented changes
+- Respect terminology and governance
+
+### Phase 2 (Future)
 - Draft preprint outlines
 - Generate abstracts
 - Compile session content
 - Format for target venues
 
-### Phase 2 (Future)
+### Phase 3 (Future)
 - Full preprint generation
 - Cross-model peer review orchestration
 - Revision management
@@ -248,12 +452,46 @@ The Publisher **recommends**, the human **decides**:
 
 ## Safety Constraints
 
+### Publication Safety (Phase 0)
 - **Never submit** without human approval
 - **Never claim** publication that hasn't happened
 - **Always note** speculative vs validated content
 - **Preserve** human editorial control
 - **Track** all recommendations transparently
 
+### Whitepaper Safety (Phase 1)
+- **Never auto-commit critical changes** - Flag for human review
+- **Always preserve existing content** - Archive before major changes
+- **Respect terminology protection** - Canonical terms are immutable
+- **Build must succeed** - No commits if build fails
+- **Log everything** - Full audit trail of decisions
+- **Conservative by default** - When in doubt, don't change
+
+### Terminology Protection
+
+These terms are canonical and must NEVER be redefined:
+
+| Term | Synchronism | Web4 |
+|------|-------------|------|
+| **LCT** | - | Linked Context Token |
+| **MRH** | Markov Relevancy Horizon | Markov Relevancy Horizon |
+| **T3** | - | Trust Tensor (6 dimensions) |
+| **V3** | - | Value Tensor (6 dimensions) |
+| **ATP** | - | Allocation Transfer Packet |
+| **ADP** | - | Allocation Discharge Packet |
+| **R6** | - | Rules/Role/Request/Reference/Resource/Result |
+| **C(ξ)** | Coherence function | - |
+| **γ** | Coherence scaling exponent | - |
+| **Intent** | Computational reification | - |
+| **Entity** | Repeating pattern of Intent | - |
+
 ---
 
-*"Research without publication is like a tree falling in an empty forest. The Publisher ensures the forest has listeners."*
+## Design Document Reference
+
+For full architectural details, see:
+`publisher/WHITEPAPER_INTEGRATION_DESIGN.md`
+
+---
+
+*"The whitepaper is the face of the research. The Publisher ensures that face reflects truth, not just activity."*
