@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 341 (255 core + 46 chemistry files/189 documented + 11 gnosis) | **Last Updated**: January 24, 2026 | **Archivist v1.0**
+**Total Sessions**: 343 (255 core + 46 chemistry files/191 documented + 11 gnosis) | **Last Updated**: January 25, 2026 | **Archivist v1.0**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -11,7 +11,7 @@
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
 - [Core Track (252 sessions)](#core-track)
-- [Chemistry Track (189 documented)](#chemistry-track)
+- [Chemistry Track (191 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -157,16 +157,18 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 189 | **Status**: ~78% validated, 126+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 191 | **Status**: ~78% validated, 128+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 52 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 54 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 23, 2026)
+### Latest Sessions (January 24, 2026)
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
+| 191 | Acid-Base Equilibrium | Buffer at [A-]/[HA]=1, neutral pH=7, Henderson-Hasselbalch IS γ ~ 1 |
+| 190 | Solubility and Dissolution | Saturation c/c_sat=1, activity γ=1 ideal, like dissolves like at δ_match~1 |
 | 189 | Reaction Kinetics | Eyring κ=1, Marcus |ΔG°|/λ=1, steric P=1 |
 | 188 | Diffusion and Transport | Pe, Sc, Pr, Le, Kn all at γ ~ 1 |
 | 187 | Osmosis and Membrane | Isotonic c/c_blood=1, Donnan r~1 |
@@ -174,15 +176,13 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 | 185 | Corrosion and Passivation | Active-passive at i/i_crit=1 |
 | 184 | Membrane Biophysics | RT/F = 27mV IS the γ ~ 1 scale |
 | 183 | Combustion and Flame | Da=1, Le=1, Ka=1 regime boundaries |
-| 182 | Micelle Formation | CMC transition, ε_CH2/kT ~ 1 |
-| 181 | Electrode Kinetics | α=0.5 IS γ ~ 1, η*=52mV crossover |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 126+ |
-| Phenomenon types at γ ~ 1 | **52** |
+| Domains explored | 128+ |
+| Phenomenon types at γ ~ 1 | **54** |
 | Validation rate | ~78% |
 | Best result | P12.2 (Entropy) r = 0.994 |
 
