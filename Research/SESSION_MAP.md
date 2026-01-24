@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 327 (253 core + 46 chemistry files/177 documented + 11 gnosis) | **Last Updated**: January 23, 2026 | **Archivist v1.0**
+**Total Sessions**: 341 (255 core + 46 chemistry files/189 documented + 11 gnosis) | **Last Updated**: January 24, 2026 | **Archivist v1.0**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -11,7 +11,7 @@
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
 - [Core Track (252 sessions)](#core-track)
-- [Chemistry Track (177 documented)](#chemistry-track)
+- [Chemistry Track (189 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -157,32 +157,33 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 177 | **Status**: ~76% validated, 114+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 189 | **Status**: ~78% validated, 126+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 40 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 52 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 22, 2026)
+### Latest Sessions (January 23, 2026)
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
-| 177 | Colloidal Phase Transitions | Hard sphere freezing, Lindemann at γ ~ 1 |
-| 176 | Polymer Crystallization | T_g/T_m ~ 2/3, crystallinity at γ ~ 1 |
-| 175 | Liquid Crystal Transitions | S = 1 - γ/2 order parameter validated |
-| 174 | Photosynthetic Energy Transfer | ENAQT peaks at γ ~ 1, vibronic resonance |
-| 173 | Electrochemical Double Layer | Debye length IS coherence length |
-| 172 | Thermoelectric ZT ~ 1 | ZT = 1 IS γ ~ 1 boundary |
-| 171 | Phonon Bottleneck | Transport barrier at γ ~ 1 |
-| 170 | SC Gap Structure | Gap ratio measures coupling, γ_SC ~ 1 |
+| 189 | Reaction Kinetics | Eyring κ=1, Marcus |ΔG°|/λ=1, steric P=1 |
+| 188 | Diffusion and Transport | Pe, Sc, Pr, Le, Kn all at γ ~ 1 |
+| 187 | Osmosis and Membrane | Isotonic c/c_blood=1, Donnan r~1 |
+| 186 | Adhesion and Wetting | θ=90° hydrophobic-hydrophilic boundary |
+| 185 | Corrosion and Passivation | Active-passive at i/i_crit=1 |
+| 184 | Membrane Biophysics | RT/F = 27mV IS the γ ~ 1 scale |
+| 183 | Combustion and Flame | Da=1, Le=1, Ka=1 regime boundaries |
+| 182 | Micelle Formation | CMC transition, ε_CH2/kT ~ 1 |
+| 181 | Electrode Kinetics | α=0.5 IS γ ~ 1, η*=52mV crossover |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 114+ |
-| Phenomenon types at γ ~ 1 | **40** |
-| Validation rate | ~76% |
+| Domains explored | 126+ |
+| Phenomenon types at γ ~ 1 | **52** |
+| Validation rate | ~78% |
 | Best result | P12.2 (Entropy) r = 0.994 |
 
 ### Categories
