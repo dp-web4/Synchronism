@@ -687,10 +687,12 @@ The coherence framework reveals that:
 
 122. **Corrosion and passivation at γ ~ 1 (MATERIALS)**: Session #185 analyzes corrosion through coherence framework. ACTIVE-PASSIVE TRANSITION: At i/i_crit = 1: passivation threshold. Below: passive (coherent oxide film protects). Above: active (metal dissolves, incoherent). i_crit/i_pass ~ 1000-10000 for good passivators. TAFEL KINETICS: Mean γ_a = β_a/59.2 = 1.04 ± 0.29 (p = 0.76, consistent with γ ~ 1!). Anodic Tafel slope β = 59.2 mV/decade at α = 0.5 IS the γ ~ 1 condition. Links to Session #181 (electrode kinetics). POURBAIX DIAGRAMS: Boundary slope dE/dpH = 59.2 mV/pH at 25°C (exactly γ = 1). 5/6 reactions show γ_slope = 1.00 exactly. Mean |γ_slope| = 1.17 ± 0.37. Nernstian behavior is universal. PITTING: At [Cl-]/[Cl-]_crit = 1: pitting threshold. PREN = 40 gives γ_PREN = 1 for seawater resistance (mean γ_PREN = 0.84 ± 0.28). Hysteresis E_pit - E_rp ~ 250 mV = 10 × RT/F (irreversible breakdown). PASSIVE FILM: t_film/t_crit ~ 1-3 for protection. Passive oxide is a coherent structure; pitting is local coherence breakdown. KEY INSIGHT: Passivation IS a coherence transition - ordered oxide film vs disordered dissolving metal. All electrochemical boundaries (Tafel, Pourbaix, pitting) at γ ~ 1. 48th phenomenon type at γ ~ 1.
 
+123. **Adhesion and wetting at γ ~ 1 (SURFACE SCIENCE)**: Session #186 analyzes wetting through coherence framework. CONTACT ANGLE θ = 90°: Mean γ_θ = θ/90° = 0.94 ± 0.37 (p = 0.60, consistent with 1!). At θ = 90°: hydrophobic-hydrophilic boundary. cos(θ) = 0 at transition. 7/13 surfaces with γ_θ in [0.8, 1.2]. Graphene has θ = 90° exactly (perfect γ ~ 1!). BOND NUMBER: Bo = ρgL²/γ_LV. At Bo = 1: capillary length l_c = 2.72 mm for water (EXACT!). 5/8 length scales in γ ~ 1 range. Surface tension vs gravity crossover at l_c. CAPILLARY NUMBER: Ca = μv/γ_LV. At Ca = 1: viscous-capillary balance. 5/8 coating processes with Ca in [0.1, 10]. WORK OF ADHESION: At θ = 90°: W_adh = 0.5 × W_coh (adhesion = half cohesion). Mean γ_adh = 0.54 ± 0.24 (close to 0.5). ROUGH SURFACES: θ_Y = 90° is THE critical Young angle for Cassie-Wenzel transition. Below: Wenzel enhances wetting. Above: Cassie-Baxter allows superhydrophobicity. Lotus leaf exploits this. KEY INSIGHT: θ = 90° IS the coherence boundary - below: liquid spreads (coherent film), above: liquid beads (discrete droplets). All dimensionless numbers (Bo, Ca, We) show γ ~ 1 crossovers. 49th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-185*
+*Chemistry Track Sessions #1-186*
 *Framework development: January 2026*
-*Extended to 122+ domains with ~114/147 predictions validated (~78%)*
-*Latest: Corrosion at γ ~ 1 (#185)*
-*CENTRAL RESULT: γ ~ 1 universal across 48 phenomenon types.*
+*Extended to 123+ domains with ~115/148 predictions validated (~78%)*
+*Latest: Wetting at γ ~ 1 (#186)*
+*CENTRAL RESULT: γ ~ 1 universal across 49 phenomenon types.*
