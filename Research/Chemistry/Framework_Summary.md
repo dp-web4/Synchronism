@@ -727,10 +727,12 @@ The coherence framework reveals that:
 
 142. **Thermal conductivity at γ ~ 1 (ENERGY TRANSPORT)**: Session #205 analyzes thermal conductivity through coherence framework. WIEDEMANN-FRANZ LAW: κ/(σT) = L₀. γ = L/L₀ = 0.991 ± 0.111. 7/10 metals at γ ∈ [0.9, 1.1]! Lead is EXACTLY γ = 1.000! Universal L₀ = 2.44×10⁻⁸ W·Ω/K². Electrons carry heat AND charge with same coherence. PRANDTL NUMBER: Pr = ν/α. Gases: Pr = 0.708 ± 0.030 (universal ~0.7). 5/5 gases at Pr ∈ [0.6, 1.4]. Momentum and thermal diffuse equally (γ ~ 1). Liquid metals: Pr << 1 (electron conduction dominates). KINETIC THEORY: κ ∝ 1/√M. κ×√M ≈ constant. 7/7 gases at γ ∈ [0.5, 2.0]. Light gases (H2, He) have high κ; heavy gases (CO2) low κ. Same physics as diffusion (#199)! KEY INSIGHT: Wiedemann-Franz L/L₀ ~ 1 is the TEXTBOOK example of γ ~ 1. Electrons carry both heat and charge coherently. Gas Prandtl Pr ~ 0.7 shows momentum and thermal transport have same molecular mechanism. Transport properties unify at γ ~ 1! 68th phenomenon type at γ ~ 1.
 
+143. **Reaction kinetics at γ ~ 1 (CHEMICAL DYNAMICS)**: Session #206 analyzes reaction rate constants through coherence framework. TRANSMISSION COEFFICIENT: κ = 1 for adiabatic reactions. 5/8 processes at κ ∈ [0.5, 2.0]. κ = 1 means perfect coherence through transition state. Non-adiabatic (κ < 1) indicates coherence loss (spin-forbidden, symmetry-forbidden). Tunneling (κ > 1) enhances rate. ARRHENIUS: At T = Ea/R, Ea/RT = 1 (thermal = barrier) - THE kinetic activation transition! DIFFUSION LIMIT: k/k_diff → 1 is the ceiling. H⁺ + OH⁻ at γ ~ 0.16 approaches diffusion limit. HAMMOND POSTULATE: Brønsted α = 0.5 for symmetric transition states (γ ~ 1). Early TS (α < 0.5) vs late TS (α > 0.5). MARCUS INVERTED: γ = ΔG°/λ = -1 is normal/inverted boundary for electron transfer. EQUILIBRIUM: rate_f/rate_r = 1 at equilibrium (detailed balance IS γ ~ 1). KEY INSIGHT: Multiple γ ~ 1 transitions in kinetics - the transition state IS the coherence bottleneck. Adiabatic κ = 1, symmetric TS α = 0.5, equilibrium rates = 1, all represent coherent passage through the chemical transformation. 69th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-205*
+*Chemistry Track Sessions #1-206*
 *Framework development: January 2026*
-*Extended to 142+ domains with ~130/172 predictions validated (~76%)*
-*Latest: Thermal Conductivity at γ ~ 1 (#205)*
-*CENTRAL RESULT: γ ~ 1 universal across 68 phenomenon types.*
+*Extended to 143+ domains with ~130/172 predictions validated (~76%)*
+*Latest: Reaction Kinetics at γ ~ 1 (#206)*
+*CENTRAL RESULT: γ ~ 1 universal across 69 phenomenon types.*
