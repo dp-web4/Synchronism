@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 363 (261 core + 46 chemistry files/198 documented + 11 gnosis) | **Last Updated**: January 25, 2026 | **Archivist v1.0** | **MILESTONE: Session 300**
+**Total Sessions**: 366 (261 core + 46 chemistry files/201 documented + 11 gnosis) | **Last Updated**: January 26, 2026 | **Archivist v1.0** | **MILESTONE: Chemistry #200 - 64 phenomenon types at γ ~ 1**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -168,34 +168,35 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 198 | **Status**: ~77% validated, 135+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 201 | **Status**: ~77% validated, 138+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 61 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 64 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 25, 2026)
+### Latest Sessions (January 26, 2026) - CHEMISTRY #200 MILESTONE
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
+| **201** | Vaporization Entropy (Trouton) | ΔS_vap ≈ 85 J/(mol·K) IS γ ~ 1 - universal entropy from coherent→incoherent. **64th phenomenon type** |
+| **200** | Gas Laws **(MILESTONE)** | Ideal gas Z=1 IS γ ~ 1 - RT dominates attractions/excluded volume. **63rd phenomenon type** |
+| 199 | Diffusion Coefficients | Stokes-Einstein D=kT/(6πηr) IS coherence equation. **62nd phenomenon type** |
 | 198 | Colligative Properties | van't Hoff i=1, activity γ=1, φ=1 ideal solution = γ ~ 1 |
 | 197 | Liquid Structure | Lindemann δ~0.1 melting, Hansen-Verlet S(k)~2.85, γ ~ 1 transition |
 | 196 | Solvation and Hydration | n_h/4=1 (tetrahedral), Born ε/(ε-1)~1, Hofmeister Cl⁻/K⁺ at γ ~ 1 |
 | 195 | Molecular Geometry | θ/θ_ideal=1, VSEPR, ring strain at γ ~ 1 deviations |
 | 194 | Enzyme Kinetics | [S]/Km=1 half-saturation, Michaelis-Menten IS coherence equation |
 | 193 | Equilibrium Constants | K=1 means ΔG°=0, Le Chatelier IS γ → 1 restoration |
-| 192 | Redox Potentials | SHE E°=0 IS γ ~ 1 reference, Nernst equilibrium at γ = 1 |
-| 191 | Acid-Base Equilibrium | Buffer at [A-]/[HA]=1, Henderson-Hasselbalch IS γ ~ 1 |
-| 190 | Solubility and Dissolution | Saturation c/c_sat=1, activity γ=1 ideal |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 135+ |
-| Phenomenon types at γ ~ 1 | **61** |
+| Domains explored | 138+ |
+| Phenomenon types at γ ~ 1 | **64** |
 | Validation rate | ~77% |
 | Best result | P12.2 (Entropy) r = 0.994 |
+| **Chemistry #200 Milestone** | Session #200 reached Jan 26, 2026 |
 
 ### Categories
 
@@ -315,7 +316,7 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 | Metric | Value |
 |--------|-------|
 | Formal research sessions | ~400 |
-| Total autonomous session logs | 1,436+ |
+| Total autonomous session logs | 1,440+ |
 | Active arcs | 2 |
 | Complete arcs | 6 |
 | Total predictions | 200+ |
@@ -324,6 +325,7 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 | Confirmed | 6 |
 | Proposed experiments | 15 |
 | Hardware architectures | 2 |
+| Chemistry phenomenon types | **64** |
 
 **Note**: This map tracks formal research reports in `/Research/` directories. Full autonomous session logs are maintained separately in `private-context/autonomous-sessions/` (private repo). Individual sessions promote notable findings to `/Research/` for cataloguing.
 

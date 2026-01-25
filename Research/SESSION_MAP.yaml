@@ -4,14 +4,14 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-01-25T01:30:00Z"
+  last_updated: "2026-01-26T01:30:00Z"
   archivist_version: "1.0"
-  total_sessions: 356
-  note: "Chemistry sessions documented in Framework_Summary.md (1-198), individual files exist for 1-45, 133"
-  milestone: "SESSION 300 REACHED - Experimental Validation Protocol"
+  total_sessions: 359
+  note: "Chemistry sessions documented in Framework_Summary.md (1-201), individual files exist for 1-45, 133"
+  milestone: "Chemistry #200 MILESTONE - 64 phenomenon types at γ ~ 1"
   tracks:
     core: 261  # Sessions 295-300 (Biological Arc Summary + Hot SC Arc progress)
-    chemistry: 46 files + 152 framework entries (198 total documented)
+    chemistry: 46 files + 155 framework entries (201 total documented)
     gnosis: 11
 
 # =============================================================================
@@ -263,15 +263,16 @@ core:
 chemistry:
   description: "Chemistry validation track - coherence in chemical systems"
   path: "Chemistry/"
-  session_range: "1-198"
+  session_range: "1-201"
   file_sessions: 46  # Individual .md files (Sessions 1-45, 133)
-  framework_sessions: 198  # All sessions documented in Framework_Summary.md
+  framework_sessions: 201  # All sessions documented in Framework_Summary.md
   framework_doc: "Chemistry/Framework_Summary.md"
-  status: "~77% validated, 135+ domains, 61 phenomenon types at γ ~ 1"
+  status: "~77% validated, 138+ domains, 64 phenomenon types at γ ~ 1"
   master_equation: "γ = 2/√N_corr"
-  latest_session: 198
-  latest_date: "2026-01-25"
-  latest_topic: "Colligative properties at γ ~ 1"
+  latest_session: 201
+  latest_date: "2026-01-26"
+  latest_topic: "Vaporization entropy at γ ~ 1 (Trouton's rule)"
+  milestone: "Session #200 - 64 phenomenon types at γ ~ 1"
 
   validation_statistics:
     mean_correlation: 0.990
@@ -359,7 +360,7 @@ chemistry:
         - "Martensitic transformations"
 
     quantum_coherence_boundaries:
-      sessions: [147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198]
+      sessions: [147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201]
       themes:
         - "γ ~ 1 universal boundary"
         - "BEC-BCS crossover, superfluid transitions"
@@ -374,20 +375,24 @@ chemistry:
         - "Solubility, acid-base equilibrium"
         - "Redox, equilibrium constants, enzyme kinetics"
         - "Molecular geometry, solvation, liquid structure"
-        - "Colligative properties"
-      status: "CENTRAL RESULT - 61 phenomenon types at γ ~ 1"
+        - "Colligative properties, diffusion coefficients"
+        - "Gas laws, vaporization entropy (Trouton's rule)"
+      status: "CENTRAL RESULT - 64 phenomenon types at γ ~ 1"
       recent_additions:
+        - session: 201
+          title: "Vaporization entropy at γ ~ 1 (Trouton's rule)"
+          date: "2026-01-26"
+          key_insight: "Trouton's rule ΔS_vap ≈ 85 J/(mol·K) IS γ ~ 1 - universal entropy change from coherent liquid to incoherent gas"
+        - session: 200
+          title: "Gas laws at γ ~ 1 (MILESTONE)"
+          date: "2026-01-26"
+          key_insight: "Ideal gas Z = 1 IS γ ~ 1 reference - RT dominates attractions and excluded volume. 63rd phenomenon type"
+        - session: 199
+          title: "Diffusion coefficients at γ ~ 1"
+          date: "2026-01-26"
+          key_insight: "Stokes-Einstein D = kT/(6πηr) IS coherence equation - thermal energy vs viscous friction. 62nd phenomenon type"
         - session: 198
           title: "Colligative properties at γ ~ 1"
-          date: "2026-01-25"
-        - session: 197
-          title: "Liquid structure at γ ~ 1"
-          date: "2026-01-25"
-        - session: 196
-          title: "Solvation and hydration at γ ~ 1"
-          date: "2026-01-25"
-        - session: 195
-          title: "Molecular geometry at γ ~ 1"
           date: "2026-01-25"
 
   key_predictions_validated:
@@ -558,7 +563,7 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 298
+  total_sessions: 301
   active_arcs: 2
   complete_arcs: 6
   total_predictions: "200+"
@@ -567,3 +572,5 @@ statistics:
   confirmed_predictions: 6
   proposed_experiments: 15
   hardware_architectures: 2
+  chemistry_phenomenon_types: 64
+  chemistry_milestone: "Session #200"
