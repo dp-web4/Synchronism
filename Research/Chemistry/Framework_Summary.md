@@ -713,10 +713,12 @@ The coherence framework reveals that:
 
 135. **Colligative properties at γ ~ 1 (SOLUTION THERMODYNAMICS)**: Session #198 analyzes colligative phenomena through coherence framework. VAN'T HOFF FACTOR: γ_vH = i_obs/i_ideal. Non-electrolytes: γ = 1.00 exactly! 1:1 strong electrolytes: γ = 0.93 (slight ion pairing). 2:2 electrolytes: γ = 0.59 (significant pairing). Mean γ = 0.85 ± 0.17. ACTIVITY COEFFICIENT: γ = 1 IS Raoult's law (ideal solution). Benzene/toluene: γ ~ 1.0 (similar molecules). Acetone/chloroform: γ < 1 (favorable H-bonding). OSMOTIC COEFFICIENT: φ = 1 is ideal. Non-electrolytes (glucose, sucrose, urea): φ = 1.00 exactly. Strong 1:1: φ ~ 0.93. 2:2 (MgSO4): φ = 0.58. KEY INSIGHT: The "ideal solution" IS the γ ~ 1 reference. Activity coefficient γ IS the coherence measure for mixtures. Ion pairing reduces effective particle count (γ < 1). Complete dissociation means γ = 1. All colligative properties reduce to counting coherent particles. 61st phenomenon type at γ ~ 1.
 
+136. **Diffusion coefficients at γ ~ 1 (TRANSPORT)**: Session #199 analyzes diffusion through coherence framework. STOKES-EINSTEIN: γ_SE = D_obs/D_predicted. Mean γ = 1.09 ± 0.27 (remarkably close to 1!). Small molecules: γ = 1.24. Ions: γ = 1.06. Proteins: γ = 0.85. Stokes-Einstein holds! ARRHENIUS ACTIVATION: γ_Arr = E_a/RT ~ 6.6 (activated process). At high T: γ → 1 (thermal overcomes barrier). DIFFUSION-LIMITED: γ_diff = k_obs/k_diff. H⁺ + OH⁻: γ = 0.93 (true diffusion limit!). Enzymes: γ ~ 0.05-0.7 (approaching limit). Links to Session #194. ISOTOPE EFFECTS: D_heavy/D_light follows √(m_light/m_heavy). All γ ~ 1.0 vs classical prediction. KEY INSIGHT: Stokes-Einstein D = kT/(6πηr) IS a coherence equation - thermal energy balanced against viscous friction. The γ ~ 1 result validates coherence interpretation of molecular transport. 62nd phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-198*
+*Chemistry Track Sessions #1-199*
 *Framework development: January 2026*
-*Extended to 135+ domains with ~127/166 predictions validated (~77%)*
-*Latest: Colligative Properties at γ ~ 1 (#198)*
-*CENTRAL RESULT: γ ~ 1 universal across 61 phenomenon types.*
+*Extended to 136+ domains with ~128/168 predictions validated (~76%)*
+*Latest: Diffusion Coefficients at γ ~ 1 (#199)*
+*CENTRAL RESULT: γ ~ 1 universal across 62 phenomenon types.*
