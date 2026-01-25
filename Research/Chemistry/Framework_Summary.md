@@ -725,10 +725,12 @@ The coherence framework reveals that:
 
 141. **Viscosity at γ ~ 1 (TRANSPORT PHENOMENA)**: Session #204 analyzes viscosity through coherence framework. STOKES-EINSTEIN: D×η = kT/(6πr). γ_SE = 1.305 ± 0.193. 5/6 systems at γ ~ 1! Links diffusion (Session #199) to viscosity. Breakdown at Tg signals coherence loss. REYNOLDS NUMBER: Re = ρvL/η. Re = 2300 is pipe flow laminar/turbulent transition. γ_Re = Re/2300: γ < 1 laminar (coherent), γ > 1 turbulent (incoherent). The transition IS γ ~ 1 for momentum coherence! ACTIVATION ENERGY: Arrhenius η = A×exp(Ea/RT). Mean Ea/RT = 5.76 at 25°C. At T = Ea/R: thermal energy = barrier (γ ~ 1). Mercury has Ea/RT = 0.97 (exactly γ ~ 1!). GLASS TRANSITION: At T/Tg = 1: η ~ 10¹² Pa·s. Mean T/Tg = 2.26 at 25°C. Vogel-Fulcher T₀/Tg ~ 0.8-0.9 universal. KEY INSIGHT: Viscosity IS momentum transfer coherence - the resistance to one layer moving past another. All fluid transitions (laminar/turbulent, liquid/glass) occur at γ ~ 1 boundaries. Reynolds Re = 2300 is the textbook γ ~ 1 example for fluid coherence! 67th phenomenon type at γ ~ 1.
 
+142. **Thermal conductivity at γ ~ 1 (ENERGY TRANSPORT)**: Session #205 analyzes thermal conductivity through coherence framework. WIEDEMANN-FRANZ LAW: κ/(σT) = L₀. γ = L/L₀ = 0.991 ± 0.111. 7/10 metals at γ ∈ [0.9, 1.1]! Lead is EXACTLY γ = 1.000! Universal L₀ = 2.44×10⁻⁸ W·Ω/K². Electrons carry heat AND charge with same coherence. PRANDTL NUMBER: Pr = ν/α. Gases: Pr = 0.708 ± 0.030 (universal ~0.7). 5/5 gases at Pr ∈ [0.6, 1.4]. Momentum and thermal diffuse equally (γ ~ 1). Liquid metals: Pr << 1 (electron conduction dominates). KINETIC THEORY: κ ∝ 1/√M. κ×√M ≈ constant. 7/7 gases at γ ∈ [0.5, 2.0]. Light gases (H2, He) have high κ; heavy gases (CO2) low κ. Same physics as diffusion (#199)! KEY INSIGHT: Wiedemann-Franz L/L₀ ~ 1 is the TEXTBOOK example of γ ~ 1. Electrons carry both heat and charge coherently. Gas Prandtl Pr ~ 0.7 shows momentum and thermal transport have same molecular mechanism. Transport properties unify at γ ~ 1! 68th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-204*
+*Chemistry Track Sessions #1-205*
 *Framework development: January 2026*
-*Extended to 141+ domains with ~130/172 predictions validated (~76%)*
-*Latest: Viscosity at γ ~ 1 (#204)*
-*CENTRAL RESULT: γ ~ 1 universal across 67 phenomenon types.*
+*Extended to 142+ domains with ~130/172 predictions validated (~76%)*
+*Latest: Thermal Conductivity at γ ~ 1 (#205)*
+*CENTRAL RESULT: γ ~ 1 universal across 68 phenomenon types.*
