@@ -76,7 +76,7 @@ An adversarial collaboration protocol for stress-testing theoretical claims:
 
 Successfully applied to Session #291, producing `Research/P291.3_Experimental_Test_Card.md` — an executable protocol an experimentalist could run.
 
-Protocol spec: `../convo/A2ACW v0.1.txt`
+Protocol spec: `forum/a2acw-session291/A2ACW v0.1.txt`
 
 ---
 
