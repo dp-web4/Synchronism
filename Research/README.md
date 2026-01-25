@@ -11,7 +11,7 @@
 
 ## Session Map
 
-**[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 311 sessions across tracks
+**[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 308 sessions across tracks
 
 Navigate research by:
 - Active and complete arcs
@@ -29,7 +29,7 @@ Machine-readable: [SESSION_MAP.yaml](SESSION_MAP.yaml)
 |-------|----------|--------|-------------|
 | **Core (this directory)** | 252 | Active | Unified coherence physics |
 | [Chemistry](./Chemistry/) | 46 | Framework Complete | γ ~ 1 as universal quantum-classical boundary |
-| [Gnosis](./Gnosis/) | 11 | Theory Complete | AI self-awareness at C ≈ 0.50 threshold |
+| [Gnosis](./Gnosis/) | 10 | Theory Complete | AI self-awareness at C ≈ 0.50 threshold |
 | [Open_Questions](./Open_Questions/) | - | Active Queue | Unresolved theoretical questions |
 
 Additional tracks (in other repositories):

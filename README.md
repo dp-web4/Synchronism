@@ -4,11 +4,11 @@
 ## Status Snapshot (2026-01-25)
 
 ### Current State
-- **311 formal sessions** (254 core + 46 chemistry + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
+- **308 formal sessions** (252 core + 46 chemistry + 10 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
 - **Sessions #285-291**: Quantum Computing Arc + Biological Coherence (C* ≈ 0.79 optimal)
 - **Hot Superconductor Arc** (#292, #297): Design principles for T > 323K ambient-pressure SC via η formalism
 - **Chemistry track**: 160 sessions, γ ~ 1 universal boundary across 23 phenomenon types, ~75% validated
-- **Gnosis track**: 11 sessions complete, natural terminus (8-way convergence at C ≈ 0.50)
+- **Gnosis track**: 10 sessions complete (1-11, gap at #4), natural terminus (8-way convergence at C ≈ 0.50)
 - **Autonomous infrastructure**: Archivist (01:30) + Publisher (02:30) daily sessions
 - **A2ACW method**: AI-to-AI adversarial collaboration for stress-testing claims
 
@@ -63,7 +63,7 @@ TOPOLOGY + GEOMETRY + DYNAMICS
 |-------|----------|--------|
 | **Core** | 252 | Sessions 1-291 (with gaps) |
 | **Chemistry** | 160 documented | 46 files, ~75% validated, γ ~ 1 universal |
-| **Gnosis** | 11 | Complete, natural terminus |
+| **Gnosis** | 10 | Complete, natural terminus |
 
 **Autonomous Infrastructure**:
 - **Archivist** (01:30 UTC daily) - Scans for new sessions, updates SESSION_MAP
