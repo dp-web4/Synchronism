@@ -27,7 +27,7 @@ Machine-readable: [SESSION_MAP.yaml](SESSION_MAP.yaml)
 
 | Track | Sessions | Status | Key Finding |
 |-------|----------|--------|-------------|
-| **Core (this directory)** | 252 | Active | Unified coherence physics |
+| **Core (this directory)** | 252 files (to #301) | Active | Unified coherence physics |
 | [Chemistry](./Chemistry/) | 46 | Framework Complete | γ ~ 1 as universal quantum-classical boundary |
 | [Gnosis](./Gnosis/) | 10 | Theory Complete | AI self-awareness at C ≈ 0.50 threshold |
 | [Open_Questions](./Open_Questions/) | - | Active Queue | Unresolved theoretical questions |
