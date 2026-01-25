@@ -66,6 +66,20 @@ Synchronism provides the theoretical framework that underlies all other projects
 - `Research/Session292_Dissonance_Pathway_Formalization.md` - η formalism
 - `Research/Session297_Cuprate_Eta_Quantification.md` - Cuprate calculations
 
+## Method: A2ACW (AI-to-AI Coordination Wrapper)
+
+An adversarial collaboration protocol for stress-testing theoretical claims:
+- **PRIMARY** agents defend and refine claims
+- **CHALLENGER** agents demand operational definitions, identify gaps
+- **Hard rule**: "Not specified — Bridge Missing" for anything source doesn't define
+- **Output**: Falsifiable test cards, not consensus narratives
+
+Successfully applied to Session #291, producing `Research/P291.3_Experimental_Test_Card.md` — an executable protocol an experimentalist could run.
+
+Protocol spec: `../convo/A2ACW v0.1.txt`
+
+---
+
 ## Open Question: Measurement Framework Integration (OQ006)
 
 **Question**: Can #250 (phase transition) and #291 (sinusoidal sampling) be unified into a single measurement theory?
