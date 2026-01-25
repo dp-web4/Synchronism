@@ -719,10 +719,12 @@ The coherence framework reveals that:
 
 138. **Vaporization entropy at γ ~ 1 (PHASE TRANSITIONS)**: Session #201 analyzes Trouton's rule through coherence framework. TROUTON'S RULE: ΔS_vap ≈ 85 J/(mol·K). γ_Trouton = ΔS_vap/85. Mean γ = 1.00 ± 0.15 (exactly 1!). CATEGORY DEVIATIONS: Normal liquids: γ = 0.96 (γ ~ 1!). H-bonding (water, alcohols): γ = 1.19 (more order in liquid). Dimerizing (acids): γ = 0.71 (order carried to vapor). CLAUSIUS-CLAPEYRON: γ_CC = ΔH/(RT_b) = 10.2 for normal liquids. This IS Trouton in different form. BOILING RATIO: T_b/T_c = 0.635 ± 0.04 (universal ~60%). Watson exponent 0.38 is universal. KEY INSIGHT: Trouton's rule IS γ ~ 1 - the constant 85 J/(mol·K) represents the universal entropy change from liquid (coherent) to gas (incoherent). H-bonding raises ΔS (more coherence lost), dimerization lowers it (coherence carried to vapor). 64th phenomenon type at γ ~ 1.
 
+139. **Dielectric relaxation at γ ~ 1 (MOLECULAR DYNAMICS)**: Session #202 analyzes Debye relaxation through coherence framework. DEBYE CROSSOVER: γ_Debye = ωτ (dimensionless frequency). At ωτ = 1: ε'' is MAXIMUM (peak dielectric loss). This IS the γ ~ 1 transition - from in-phase (ωτ << 1) to out-of-phase (ωτ >> 1) response. COLE-COLE BROADENING: γ_CC = 1 - α. Mean γ = 0.92 ± 0.08. Ideal Debye: α = 0, γ = 1. Water, acetone: α ~ 0.02 (nearly ideal!). Glycerol, polymer: α ~ 0.1-0.2 (moderate broadening). KIRKWOOD FACTOR: g = 1 for uncorrelated dipoles (γ ~ 1 reference). Water g ≈ 2.7 (H-bond correlation). Methanol g ≈ 3.0 (chain formation). ARRHENIUS: τ = τ₀ exp(E_a/RT). At T = E_a/R: τ/τ₀ = e (γ ~ 1 thermal activation). KEY INSIGHT: The Debye relaxation ωτ = 1 IS the coherence crossover - where molecular rotation switches from following to lagging the applied field. Cole-Cole α = 0 (γ = 1) represents ideal single-relaxation-time behavior. Broadening (α > 0) indicates multiple relaxation modes (loss of coherence). 65th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-201*
+*Chemistry Track Sessions #1-202*
 *Framework development: January 2026*
-*Extended to 138+ domains with ~130/172 predictions validated (~76%)*
-*Latest: Vaporization Entropy at γ ~ 1 (#201)*
-*CENTRAL RESULT: γ ~ 1 universal across 64 phenomenon types.*
+*Extended to 139+ domains with ~130/172 predictions validated (~76%)*
+*Latest: Dielectric Relaxation at γ ~ 1 (#202)*
+*CENTRAL RESULT: γ ~ 1 universal across 65 phenomenon types.*
