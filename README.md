@@ -1,14 +1,16 @@
 # Synchronism Framework
 
 <!-- SUMMARIZER BLOCK: Consistent headers for AI-to-human relay -->
-## Status Snapshot (2026-01-21)
+## Status Snapshot (2026-01-25)
 
 ### Current State
-- **309 formal sessions** (252 core + 160 chemistry documented + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
+- **311 formal sessions** (254 core + 160 chemistry documented + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
 - **Sessions #285-291**: Quantum Computing Arc + Biological Coherence (C* ≈ 0.79 optimal)
+- **Hot Superconductor Arc** (#292, #297): Design principles for T > 323K ambient-pressure SC via η formalism
 - **Chemistry track**: 160 sessions, γ ~ 1 universal boundary across 23 phenomenon types, ~75% validated
 - **Gnosis track**: 11 sessions complete, natural terminus (8-way convergence at C ≈ 0.50)
 - **Autonomous infrastructure**: Archivist (01:30) + Publisher (02:30) daily sessions
+- **A2ACW method**: AI-to-AI adversarial collaboration for stress-testing claims
 
 ### The Framework (Session #264)
 ```
@@ -31,6 +33,8 @@ TOPOLOGY + GEOMETRY + DYNAMICS
 - Gnosis theory complete but awaits trained model for empirical validation
 
 ### Open Questions
+- **OQ005**: Can we achieve superconductivity at T > 50°C (323K) ambient pressure via η formalism?
+- **OQ006**: Can #250 (phase transition) and #291 (sinusoidal sampling) measurement frameworks be unified?
 - Can coherence framework predict NEW phenomena (not just explain existing)?
 - What is the physical substrate of coherence itself?
 - Do the 34 Gnosis predictions hold empirically?
@@ -42,7 +46,7 @@ TOPOLOGY + GEOMETRY + DYNAMICS
 
 ---
 
-**Last meaningful change**: 2026-01-21 - SESSION_MAP + Archivist/Publisher infrastructure
+**Last meaningful change**: 2026-01-25 - Hot SC Arc (#297), OQ006 (measurement integration), A2ACW stress-test
 
 **Unified Model of Reality Through Intent Dynamics**
 *Bridging Quantum Phenomena, Cosmology, Chemistry, and Emergent Complexity*

@@ -1,16 +1,17 @@
 # Synchronism Research
 
-**Core Track Sessions**: 291+
+**Core Track Sessions**: 297+
 **Total Across All Tracks**: 1,400+ (see [arXiv preprint](../manuscripts/arxiv_autonomous_ai_research_v1.pdf))
 **Status**: Active autonomous research
 **Framework**: Coherence dynamics (γ = 2/√N_corr)
+**Method**: A2ACW (AI-to-AI adversarial collaboration for stress-testing)
 **License**: AGPL-3.0
 
 ---
 
 ## Session Map
 
-**[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 298 sessions across tracks
+**[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 311 sessions across tracks
 
 Navigate research by:
 - Active and complete arcs
@@ -41,12 +42,17 @@ Additional tracks (in other repositories):
 
 ### Active Arcs
 
-**Hot Superconductor Arc (#292+)**: Design principles for T > 323K ambient-pressure superconductivity
+**Hot Superconductor Arc (#292, #297)**: Design principles for T > 323K ambient-pressure superconductivity
 - See: [OQ005 Main Document](OPEN_QUESTION_Hot_Superconductor.md)
-- See: [Speculative Approaches](OPEN_QUESTION_Hot_Superconductor_Speculative.md)
-- See: [Synchronism Lens](OPEN_QUESTION_Hot_Superconductor_Synchronism.md)
+- See: [Session #292](Session292_Dissonance_Pathway_Formalization.md) - η formalism introduced
+- See: [Session #297](Session297_Cuprate_Eta_Quantification.md) - Cuprate η values calculated (YBCO: 0.38)
 
-Key question: Can we achieve SC at 50°C+ via the "dissonance pathway" (η → 0)?
+Key result: η (reachability factor) measures thermal noise coupling to pair-breaking. Path to 323K requires η ~ 0.2-0.3.
+
+**Measurement Framework Integration (OQ006)**: Unifying #250 (phase transition) with #291 (sinusoidal sampling)
+- See: [OPEN_QUESTION_Measurement_Framework_Integration.md](OPEN_QUESTION_Measurement_Framework_Integration.md)
+- Key insight: "Static is synchronized sampling of ongoing oscillation"
+- A2ACW stress-test artifact: [P291.3 Experimental Test Card](P291.3_Experimental_Test_Card.md)
 
 ### Recently Completed
 
