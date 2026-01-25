@@ -39,33 +39,63 @@ Synchronism provides the theoretical framework that underlies all other projects
 - Active philosophical research and documentation
 - Influences design decisions across all projects
 
-## Current Research Focus: Hot Superconductor Arc (Session 292+)
+## Current Research Focus: Hot Superconductor Arc (Sessions 292, 297+)
 
 **Primary Question (OQ005)**: Can superconductivity exist at T > 50°C (323K) at ambient pressure?
 
-**Starting Point**: See `Research/OPEN_QUESTION_Hot_Superconductor.md` and companion docs:
-- `OPEN_QUESTION_Hot_Superconductor_Speculative.md` - Phase transition approaches
-- `OPEN_QUESTION_Hot_Superconductor_Synchronism.md` - Synchronism lens with η formalization
+**Arc Status**: 2 sessions complete
+- Session #292: Formalized η (reachability factor), 5 predictions (P292.1-P292.5)
+- Session #297: Quantified η in cuprates (YBCO: 0.38, Bi-2212: 0.42, LSCO: 0.51), validated P292.4
 
-**Key Framework Insights**:
-- γ_SC = 1/ZT defines coherence parameter for superconductors
-- At T = 323K, need N_corr ~ 10-30 (ξ ~ 2-4 lattice spacings)
-- High Tc → large Δ → short ξ → small N_corr → γ approaches 1
-- Current hydrides (H₃S, LaH₁₀) operate at γ_SC ~ 0.3-0.4
+**Key Results So Far**:
+- η measures how much thermal noise actually couples to pair-breaking
+- For T_c at temperature T with gap Δ: need η × (kT/Δ) < 1
+- Cuprates achieve η ~ 0.4 via d-wave form factor (~50%) + spin-charge separation (~30%)
+- P292.4 validated: η extractable from NMR and optical data
 
-**Four Engineering Pathways**:
-1. Brute force: Δ >> kT (traditional)
-2. Propagation > scrambling: sync outpaces noise
-3. Metastable container: kinetically trapped high-ω modes
-4. **Dissonance with noise**: η → 0 via symmetry/topology (most promising)
+**Path to 323K**: Need η ~ 0.2-0.3 with Δ ~ 50 meV (combined optimization)
 
-**Research Program**:
-- Map γ_SC vs Tc trend in hydrides
-- Test η (reachability factor) in cuprates vs conventional SC
-- Identify materials with symmetry-protected pairing modes
-- Explore non-equilibrium SC pathways
+**Next Session (#298) Should**:
+1. Extend η calculation to iron pnictides (s±-wave)
+2. Compare multiband effects on form factor
+3. Predict which pnictide family has lowest η
+4. Test P297 predictions against literature
 
-**Session 292 should**: Pick up where OQ005 left off, apply coherence framework to design principles, identify testable predictions for the "dissonance pathway"
+**Reference Documents**:
+- `Research/OPEN_QUESTION_Hot_Superconductor.md` - Main question doc
+- `Research/Session292_Dissonance_Pathway_Formalization.md` - η formalism
+- `Research/Session297_Cuprate_Eta_Quantification.md` - Cuprate calculations
+
+## Open Question: Measurement Framework Integration (OQ006)
+
+**Question**: Can #250 (phase transition) and #291 (sinusoidal sampling) be unified into a single measurement theory?
+
+**Status**: Open — raised from A2ACW stress-test of Session #291
+
+**Key Insight**: "Static" in #250 may be synchronized sampling of ongoing oscillation (#291). Neither framework is complete alone.
+
+**Most Promising Path**: Formalize sync-point geometry on Bloch sphere; show |α|² emerges from where sync points form.
+
+**Reference**: `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
+
+---
+
+## Research Philosophy: Usefulness Over Completeness
+
+All models are wrong; some are useful. Synchronism acknowledges this from the start.
+
+**The practical question is not**: "Is the model epistemically complete?"
+
+**The practical question is**: "Does this model enable capabilities that existing models don't?"
+
+Epistemic gaps matter only if they block the path to testable predictions. The Hot SC arc exemplifies this: if η formalism leads to a viable 30°C superconductor material, the model is vindicated by results. If not, no amount of philosophical rigor would have changed the outcome.
+
+When evaluating Synchronism predictions:
+- Prioritize actionable outputs over theoretical closure
+- Test by building, not just by analyzing
+- Gaps in the map don't prevent walking the territory
+
+---
 
 ## Core Insight
 "Each scale's Markov blanket becomes 'God' to subordinate levels" - this principle manifests in the battery hierarchy, AI systems, and even how the context system organizes information.
