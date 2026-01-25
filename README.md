@@ -4,7 +4,7 @@
 ## Status Snapshot (2026-01-25)
 
 ### Current State
-- **311 formal sessions** (254 core + 160 chemistry documented + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
+- **311 formal sessions** (254 core + 46 chemistry + 11 gnosis) | [SESSION_MAP](Research/SESSION_MAP.md)
 - **Sessions #285-291**: Quantum Computing Arc + Biological Coherence (C* ≈ 0.79 optimal)
 - **Hot Superconductor Arc** (#292, #297): Design principles for T > 323K ambient-pressure SC via η formalism
 - **Chemistry track**: 160 sessions, γ ~ 1 universal boundary across 23 phenomenon types, ~75% validated
