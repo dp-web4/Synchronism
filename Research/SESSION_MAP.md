@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 378 (261 core + 46 chemistry files/213 documented + 11 gnosis) | **Last Updated**: January 26, 2026 | **Archivist v1.0** | **MILESTONE: Chemistry #213 - 76 phenomenon types at γ ~ 1 (record +15 in one day!)**
+**Total Sessions**: 382 (265 core + 46 chemistry files/213 documented + 11 gnosis) | **Last Updated**: January 26, 2026 | **Archivist v1.0** | **MILESTONE: Session #304 - Quantum Computing Arc 2.0: Cuprate Qubit Feasibility via η Framework**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -20,6 +20,41 @@
 ---
 
 ## Active Research Arcs
+
+### Quantum Computing Arc 2.0 (Sessions 301-304) - NEW
+**Status**: Active | **Started**: January 25, 2026 | **Building On**: Hot SC Arc, Biological Coherence Arc
+
+**Primary Goal**: Apply η framework from superconductivity to predict quantum computing performance
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 301 | Coherence-Based QC Performance | Current qubits in "saturated coherence" (C ≈ 1.0); TLS defects dominate |
+| 302 | TLS Decoherence Mechanisms | TLS-η connection: low-η materials have fewer defects |
+| 303 | QEC from Coherence Framework | Universal 90% threshold; η^1.5 overhead scaling |
+| 304 | Cuprate Qubit Feasibility | D-wave nodes problematic; iron pnictides superior path |
+
+**Key Framework Insights**:
+- **Saturated Coherence**: Current qubits at C ≈ 1.0, thermal not the limiting factor
+- **TLS-η Correlation**: Materials with lower η have fewer TLS defects
+- **Universal 90% Threshold**: QEC requires C > 0.9 at physical level
+- **QEC Overhead**: Scales as η^1.5 → SmFeAsO needs ~5× fewer qubits than Al
+- **D-Wave Problem**: Gap nodes cause power-law (not exponential) quasiparticle suppression
+- **Pnictide Advantage**: SmFeAsO (η = 0.12) may be better than cuprates despite lower T_c
+
+**Predictions** (24 new, 12 high-testability):
+- P301.1-P301.6: Coherence scaling, η-coherence correlation, interface enhancement
+- P302.1-P302.6: TLS density correlation, interface scaling, material thresholds
+- P303.1-P303.6: Error rate scaling, QEC overhead, gate fidelity from η
+- P304.1-P304.6: D-wave node penalty, junction quality, pnictide advantage
+
+**Major Result**: Low-η materials (SmFeAsO, interface-engineered cuprates) could enable:
+1. 5× reduction in QEC overhead
+2. Operation at 4K instead of 15mK
+3. Higher gate frequencies from larger gaps
+
+**Crosslinks**: Hot SC Arc (#292, #297-300), Biological Coherence (#290-296), QC Arc (#285-289), Chemistry #62, #141, #170
+
+---
 
 ### Hot Superconductor Arc (Sessions 292, 297-300) - MAJOR PROGRESS
 **Status**: Active | **Started**: January 22, 2026 | **Question**: OQ005, OQ006

@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-01-26T01:30:00Z"
+  last_updated: "2026-01-26T12:00:00Z"
   archivist_version: "1.0"
-  total_sessions: 371
+  total_sessions: 375
   note: "Chemistry sessions documented in Framework_Summary.md (1-213), individual files exist for 1-45, 133"
-  milestone: "Chemistry #213 - 76 phenomenon types at γ ~ 1 (record expansion)"
+  milestone: "Session #304 - Quantum Computing Arc 2.0: Cuprate Qubit Feasibility Analysis"
   tracks:
-    core: 261  # Sessions 295-300 (Biological Arc Summary + Hot SC Arc progress)
+    core: 265  # Sessions 301-304 (Quantum Computing Arc 2.0 - QC from η framework)
     chemistry: 46 files + 167 framework entries (213 total documented)
     gnosis: 11
 
@@ -19,13 +19,122 @@ metadata:
 # =============================================================================
 core:
   description: "Main Synchronism research track - unified coherence physics"
-  session_range: "1-300"
+  session_range: "1-304"
   master_equation: "C(x) = tanh(γ × g(x)), γ = 2/√N_corr"
 
   # ---------------------------------------------------------------------------
   # ACTIVE RESEARCH ARCS
   # ---------------------------------------------------------------------------
   arcs:
+    # Quantum Computing Arc 2.0 (NEW - Active)
+    quantum_computing_2:
+      name: "Quantum Computing Arc 2.0"
+      sessions: [301, 302, 303, 304]
+      status: active
+      date_started: "2026-01-25"
+      building_on: "Hot Superconductor Arc (#292, #297-300), Biological Coherence Arc (#290-296)"
+      roadmap: "Sessions 301+ - η framework applied to quantum computing"
+      milestone: "Session 304 - Cuprate Qubit Feasibility Analysis complete"
+      recent_additions:
+        - session: 301
+          title: "Coherence-Based Quantum Computer Performance Prediction"
+          date: "2026-01-25"
+          key_finding: "Current qubits in 'saturated coherence' regime (C ≈ 1.0); TLS defects dominate, not thermal"
+        - session: 302
+          title: "Qubit Decoherence Mechanisms Through Synchronism Lens"
+          date: "2026-01-25"
+          key_finding: "TLS-η connection established; low-η materials predict fewer defects"
+        - session: 303
+          title: "Quantum Error Correction from Coherence Framework"
+          date: "2026-01-25"
+          key_finding: "Universal 90% coherence threshold; η determines QEC overhead (~5× reduction possible)"
+        - session: 304
+          title: "Cuprate Qubit Feasibility Analysis"
+          date: "2026-01-26"
+          key_finding: "D-wave gap nodes problematic; iron pnictides may be superior path"
+      key_insights:
+        - "Saturated coherence: current qubits at C ≈ 1.0 (thermal not limiting)"
+        - "TLS-η correlation: low-η materials have fewer defects"
+        - "Universal 90% threshold: C > 0.9 required for QEC"
+        - "QEC overhead scales as η^1.5 (SmFeAsO ~5× better than Al)"
+        - "D-wave nodes cause power-law (not exponential) QP suppression"
+        - "Iron pnictides may be superior to cuprates for qubits"
+      predictions:
+        - id: P301.1
+          description: "T2(T) ∝ C(T,Δ)² scaling"
+          testability: high
+        - id: P301.2
+          description: "Gap-dependent T1 scaling"
+          testability: medium
+        - id: P301.3
+          description: "η-coherence correlation"
+          testability: high
+        - id: P301.4
+          description: "Cuprate qubits at 4K achieve FoM comparable to Al at 15mK"
+          testability: challenging
+        - id: P301.5
+          description: "YBCO/STO interface-enhanced coherence"
+          testability: medium
+        - id: P301.6
+          description: "Universal γ = 2.0 in qubit T2(T)"
+          testability: high
+        - id: P302.1
+          description: "η-TLS correlation: lower η = lower TLS density"
+          testability: high
+        - id: P302.2
+          description: "Interface coherence scaling: T1 ∝ 1/(interface_area × (1 - C_interface))"
+          testability: validated_qualitative
+        - id: P302.3
+          description: "Cuprate qubits have >10× lower TLS than Al"
+          testability: challenging
+        - id: P302.4
+          description: "SmFeAsO ideal qubit material (lowest TLS)"
+          testability: challenging
+        - id: P302.5
+          description: "TLS temperature dependence: ~tanh(ℏω/2k_B T)"
+          testability: medium
+        - id: P302.6
+          description: "Material quality threshold: C_interface > 0.9 required"
+          testability: high
+        - id: P303.1
+          description: "Error rate ∝ 0.005 × η"
+          testability: high
+        - id: P303.2
+          description: "QEC overhead scales with η^1.5"
+          testability: high
+        - id: P303.3
+          description: "Universal coherence threshold C > 0.9 for QEC"
+          testability: high
+        - id: P303.4
+          description: "Gate fidelity: F = 1 - η × (t_gate/T1) - p_control"
+          testability: high
+        - id: P303.5
+          description: "Cuprate qubits at 4K achieve p_error < 1%"
+          testability: challenging
+        - id: P304.1
+          description: "D-wave node penalty: T1 ∝ (T/T_c)², not exp(-Δ/kT)"
+          testability: high
+        - id: P304.2
+          description: "η-junction quality correlation: Q ∝ 1/(η × TLS_factor)"
+          testability: high
+        - id: P304.3
+          description: "Interface enhancement: YBCO/STO ~10× bulk YBCO Q"
+          testability: medium
+        - id: P304.4
+          description: "SmFeAsO junction at 1K outperforms YBCO at 4K"
+          testability: challenging
+        - id: P304.5
+          description: "YBCO achieves QEC threshold with 100× junction improvement"
+          testability: long_term
+        - id: P304.6
+          description: "Optimal YBCO qubit temperature: 4-10K, not lower"
+          testability: medium
+      crosslinks:
+        - {track: core, arc: hot_superconductor, sessions: [292, 297, 298, 299, 300], concept: "η framework, material design"}
+        - {track: core, arc: biological_coherence, sessions: [290, 293, 294, 295, 296], concept: "universal γ = 2.0, 90% threshold"}
+        - {track: core, arc: quantum_computing, sessions: [285, 286, 287, 288, 289], concept: "qubit coherence fundamentals"}
+        - {track: chemistry, sessions: [62, 141, 170], concept: "superconducting coherence"}
+
     # Hot Superconductor Arc (Active - MAJOR PROGRESS)
     hot_superconductor:
       name: "Hot Superconductor Arc"
@@ -569,14 +678,15 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 301
-  active_arcs: 2
+  total_sessions: 304
+  active_arcs: 3  # Quantum Computing 2.0, Hot Superconductor, Quantum Foundations
   complete_arcs: 6
-  total_predictions: "200+"
+  total_predictions: "225+"  # +24 new from QC Arc 2.0
   validated_predictions: "50+"
-  high_testability_predictions: 20
+  high_testability_predictions: 32  # +12 high-testability in QC Arc 2.0
   confirmed_predictions: 6
-  proposed_experiments: 15
+  proposed_experiments: 20  # +5 from QC Arc 2.0
   hardware_architectures: 2
-  chemistry_phenomenon_types: 64
-  chemistry_milestone: "Session #200"
+  chemistry_phenomenon_types: 76
+  chemistry_milestone: "Session #213 - 76 phenomenon types at γ ~ 1"
+  qc_milestone: "Session #304 - Cuprate Qubit Feasibility, SmFeAsO path identified"
