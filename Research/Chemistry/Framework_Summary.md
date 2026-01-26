@@ -737,10 +737,12 @@ The coherence framework reveals that:
 
 147. **Polymer thermodynamics at γ ~ 1 (MACROMOLECULAR)**: Session #210 analyzes polymer solution thermodynamics through coherence framework. FLORY-HUGGINS χ: χ_critical → 0.5 as N → ∞. Mean γ = χ_c/0.5 = 1.012 ± 0.017. 7/8 systems at γ ∈ [0.95, 1.05]. χ = 0.5 IS the miscibility boundary - above: phase separation, below: miscible. Connects to Session #176 (polymer crystallization). THETA TEMPERATURE: At T/θ = 1: ideal chain, A₂ = 0, χ = 0.5, ν = 0.5. Mean γ = T/θ = 0.95 ± 0.15. 8/10 systems near θ-conditions. θ-point unifies ALL polymer coherence measures! CHARACTERISTIC RATIO: C∞ ~ 6 for flexible polymers. Mean γ = C∞/6 = 1.06 ± 0.28. 7/10 at γ ∈ [0.7, 1.3]. C∞ vs Tg correlation r = 0.70. OVERLAP CONCENTRATION: c/c* = 1 IS dilute/semidilute transition. Below c*: isolated chains (dilute). Above: overlapping chains (semidilute). EXPANSION FACTOR: α = R_g/R_θ = 1 at θ-conditions (z = 0 excluded volume). Good solvent: α > 1 (swelling). Poor solvent: α < 1 (collapse). FLORY EXPONENT: ν = 0.5 for ideal chains (γ = 1). ν = 0.588 for good solvent (γ = 1.18). ν = 1/3 for globule (γ = 0.67). KEY INSIGHT: The θ-point IS the universal γ ~ 1 for polymers - χ = 0.5, A₂ = 0, α = 1, ν = 0.5 ALL converge at T = θ. Multiple γ ~ 1 boundaries (miscibility, chain statistics, concentration) unified through single θ-point. 73rd phenomenon type at γ ~ 1.
 
+148. **Magnetic moments at γ ~ 1 (MAGNETOCHEMISTRY)**: Session #211 analyzes magnetic moment ratios through coherence framework. SPIN-ONLY MOMENT: μ_eff/μ_spin-only = 1.043 ± 0.075. 10/13 3d ions at γ ∈ [0.9, 1.1]. 9/13 at γ ∈ [0.95, 1.05]. Spin-only formula μ_so = 2√(S(S+1)) μ_B works for most transition metal ions! 3d⁵ (Mn²⁺, Fe³⁺) at γ = 1.00 exactly (L = 0 ground state). Crystal field quenching makes spin-only γ ~ 1 the norm. ORBITAL QUENCHING: When L quenched (L_eff → 0), γ = μ_eff/μ_so ~ 1. Co²⁺, Ni²⁺ show some orbital (γ ~ 1.1-1.2) from residual spin-orbit coupling. FERROMAGNET θ/T_c: Mean γ = θ/T_c = 1.078 ± 0.090. 6/8 ferromagnets at γ ∈ [0.9, 1.1]. Mean-field theory predicts θ = T_c (γ = 1 exactly). Fe, Co, Ni, Gd, EuO, Fe₃O₄, YIG all near γ ~ 1. ANTIFERROMAGNET FRUSTRATION: f = |θ|/T_N. Unfrustrated AFM: f ~ 1-2 (4/6 systems). MnO, NiO highly frustrated (f ~ 4-5). Frustration suppresses T_N below mean-field θ. Links to Session #168 (Néel transition). CURIE-WEISS DIVERGENCE: χ = C/(T - θ) → ∞ at T/θ = 1. This IS the ferromagnetic γ ~ 1 boundary. Para/ferro transition at T/θ = 1 exactly. PAULI SUSCEPTIBILITY: χ_exp/χ_Pauli ~ 1.7 for simple metals (Li, Na). Pd at γ = 10.8 near Stoner ferromagnetic instability! KEY INSIGHT: Multiple γ ~ 1 boundaries in magnetism - spin-only (μ_eff/μ_so = 1), mean-field (θ/T_c = 1), Curie transition (T/θ = 1). Orbital quenching makes spin-only γ ~ 1 the chemical default. 74th phenomenon type at γ ~ 1.
+
 ---
 
-*Chemistry Track Sessions #1-210*
+*Chemistry Track Sessions #1-211*
 *Framework development: January 2026*
-*Extended to 147+ domains with ~130/172 predictions validated (~76%)*
-*Latest: Polymer thermodynamics at γ ~ 1 (#210)*
-*CENTRAL RESULT: γ ~ 1 universal across 73 phenomenon types.*
+*Extended to 148+ domains with ~130/172 predictions validated (~76%)*
+*Latest: Magnetic moments at γ ~ 1 (#211)*
+*CENTRAL RESULT: γ ~ 1 universal across 74 phenomenon types.*
