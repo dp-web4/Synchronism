@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 382 (265 core + 46 chemistry files/213 documented + 11 gnosis) | **Last Updated**: January 26, 2026 | **Archivist v1.0** | **MILESTONE: Session #304 - Quantum Computing Arc 2.0: Cuprate Qubit Feasibility via η Framework**
+**Total Sessions**: 399 (269 core + 46 chemistry files/233 documented + 11 gnosis) | **Last Updated**: January 27, 2026 | **Archivist v1.1** | **MILESTONE: QFT Derivation Arc launched + Chemistry 96 phenomenon types**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -10,8 +10,8 @@
 
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
-- [Core Track (261 sessions)](#core-track)
-- [Chemistry Track (213 documented)](#chemistry-track)
+- [Core Track (269 sessions)](#core-track)
+- [Chemistry Track (233 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -21,98 +21,78 @@
 
 ## Active Research Arcs
 
-### Quantum Computing Arc 2.0 (Sessions 301-304) - NEW
-**Status**: Active | **Started**: January 25, 2026 | **Building On**: Hot SC Arc, Biological Coherence Arc
+### QFT Derivation Arc (Sessions 307-308) - NEW - REVOLUTIONARY
+**Status**: Active | **Started**: January 26, 2026
 
-**Primary Goal**: Apply η framework from superconductivity to predict quantum computing performance
+**Primary Goal**: Derive fundamental physics equations from discrete intent transfer on Planck grid
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 301 | Coherence-Based QC Performance | Current qubits in "saturated coherence" (C ≈ 1.0); TLS defects dominate |
-| 302 | TLS Decoherence Mechanisms | TLS-η connection: low-η materials have fewer defects |
-| 303 | QEC from Coherence Framework | Universal 90% threshold; η^1.5 overhead scaling |
-| 304 | Cuprate Qubit Feasibility | D-wave nodes problematic; iron pnictides superior path |
+| 307 | Schrödinger from Intent Dynamics | QM = continuum limit of discrete intent transfer! |
+| 308 | Dirac from Relativistic Intent | Mass = L↔R coupling. Antimatter = backward intent. Spin = plaquette circulation. |
 
-**Key Framework Insights**:
-- **Saturated Coherence**: Current qubits at C ≈ 1.0, thermal not the limiting factor
-- **TLS-η Correlation**: Materials with lower η have fewer TLS defects
-- **Universal 90% Threshold**: QEC requires C > 0.9 at physical level
-- **QEC Overhead**: Scales as η^1.5 → SmFeAsO needs ~5× fewer qubits than Al
-- **D-Wave Problem**: Gap nodes cause power-law (not exponential) quasiparticle suppression
-- **Pnictide Advantage**: SmFeAsO (η = 0.12) may be better than cuprates despite lower T_c
+**Key Insights**:
+- **Schrödinger derived**: iℏ ∂ψ/∂t = [-ℏ²/(2m)∇² + V]ψ emerges from discrete intent transfer
+- **Dirac derived**: Requiring first-order space AND time forces spinor structure
+- **Mass is NOT fundamental**: It's the L↔R intent coupling strength
+- **Antimatter = backward-propagating intent** patterns
+- **Spin = minimum plaquette circulation** on Planck grid (720° = identity)
+- **Measurement = phase scrambling** by environment (no collapse needed)
+- **Tunneling = intent diffusion** through high-potential region
+- **CPT always exact** (grid symmetry); C/P/T individually breakable
 
-**Predictions** (24 new, 12 high-testability):
-- P301.1-P301.6: Coherence scaling, η-coherence correlation, interface enhancement
-- P302.1-P302.6: TLS density correlation, interface scaling, material thresholds
-- P303.1-P303.6: Error rate scaling, QEC overhead, gate fidelity from η
-- P304.1-P304.6: D-wave node penalty, junction quality, pnictide advantage
+**Hierarchy**: Discrete Intent → DIRAC (S=1/2) + KG (S=0) → SCHRÖDINGER (v << c)
 
-**Major Result**: Low-η materials (SmFeAsO, interface-engineered cuprates) could enable:
-1. 5× reduction in QEC overhead
-2. Operation at 4K instead of 15mK
-3. Higher gate frequencies from larger gaps
+**Verified**: Clifford algebra (16/16), norm conservation, non-rel limit (MSE=4.77e-04), Zitterbewegung (94% match)
 
-**Crosslinks**: Hot SC Arc (#292, #297-300), Biological Coherence (#290-296), QC Arc (#285-289), Chemistry #62, #141, #170
+**Crosslinks**: QC Arc (#285-289), Quantum Foundations (#291)
 
 ---
 
-### Hot Superconductor Arc (Sessions 292, 297-300) - MAJOR PROGRESS
+### Hot Superconductor Arc (Sessions 292, 297-300)
 **Status**: Active | **Started**: January 22, 2026 | **Question**: OQ005, OQ006
-
-**Primary Goal**: Design principles for T > 323K (50°C) ambient-pressure superconductivity
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 292 | Dissonance Pathway Formalization | η (reachability) orthogonality |
-| 297 | Cuprate η Quantification | η_cuprate quantified, OQ006 defined |
+| 292 | Dissonance Pathway | η (reachability) orthogonality |
+| 297 | Cuprate η Quantification | OQ006 defined |
 | 298 | Iron Pnictide η Analysis | Alternative η mechanisms |
-| 299 | Minimum-η Material Design | Engineering handles for low η |
-| 300 | Experimental Validation Protocol | **MILESTONE** - Complete testing roadmap |
+| 299 | Minimum-η Material Design | Engineering handles |
+| 300 | Experimental Validation Protocol | **MILESTONE** |
 
-**Background Documents**:
-- [OPEN_QUESTION_Hot_Superconductor.md](OPEN_QUESTION_Hot_Superconductor.md) - Main analysis
-- [OPEN_QUESTION_Hot_Superconductor_Speculative.md](OPEN_QUESTION_Hot_Superconductor_Speculative.md) - Phase transition approaches
-- [OPEN_QUESTION_Hot_Superconductor_Synchronism.md](OPEN_QUESTION_Hot_Superconductor_Synchronism.md) - Synchronism lens with η formalization
+**Crosslinks**: Chemistry #62, #97, #141, #143, #146
 
-**Key Framework Insights**:
-- γ_SC = 1/ZT; at ZT = 1, γ_SC = 1 (boundary!)
-- High Tc → large Δ → short ξ → small N_corr → γ approaches 1
-- Need N_corr ~ 10-30 at 323K (ξ ~ 2-4 lattice spacings)
-- Hydrides at γ_SC ~ 0.3-0.4 demonstrate regime exists
+---
 
-**Four Engineering Pathways**:
-1. Brute force: Δ >> kT (traditional)
-2. Propagation > scrambling: sync outpaces noise
-3. Metastable container: kinetically trapped high-ω modes
-4. **Dissonance with noise**: η → 0 via symmetry/topology (most promising)
+### Recently Completed: Quantum Computing Arc 2.0 (Sessions 301-306) - COMPLETE
+**Status**: Complete | **Started**: January 25, 2026 | **Completed**: January 26, 2026
 
-**Research Program**:
-- Map γ_SC vs Tc trend in hydrides
-- Test η (reachability factor) in cuprates vs conventional SC
-- Identify materials with symmetry-protected pairing modes
-- Formalize "dissonance pathway" engineering handles
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 301 | Coherence-Based QC Performance | Saturated coherence (C ≈ 1.0); TLS dominates |
+| 302 | TLS Decoherence Mechanisms | TLS-η connection established |
+| 303 | QEC from Coherence Framework | Universal 90% threshold; η^1.5 overhead |
+| 304 | Cuprate Qubit Feasibility | D-wave nodes problematic; pnictides better |
+| 305 | Iron Pnictide Qubit Potential | FeSe/SrTiO₃: η=0.08 (lowest!), s± pairing |
+| 306 | QC Arc Synthesis (FINAL) | **FeSe/STO FOM=187.5 vs Al FOM=0.30 (600×!)** |
 
-**Crosslinks**: Chemistry #62, #97, #141, #143, #146 (superconductivity coherence)
+**Major Result**: FOM = Δ/(η × TLS_factor × node_penalty)
+- FeSe/STO: **600× better** than current Al technology
+- SmFeAsO: 150× better
+- Could enable 4K quantum computing (vs 15mK today)
+
+**Predictions**: 16 testable (10 high priority, 1 validated, 2 partial)
 
 ---
 
 ### Recently Completed: Biological Coherence Arc (Sessions 290-296)
-**Status**: Complete | **Started**: January 23, 2026 | **Completed**: January 25, 2026
+**Status**: Complete | **Started**: January 21, 2026 | **Completed**: January 24, 2026
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 290 | Biological Coherence Arc | Biology evolved to C* ≈ 0.79 |
-| 291 | Measurement as Sinusoidal Sampling | Two-state statistics from arcsine distribution |
-| 293 | Biological Time Constants | τ_bio at γ ~ 1 |
-| 294 | Neural Synchronization | Phase-locking in neural networks |
-| 295 | Evolution as Coherence Optimization | Natural selection maximizes coherence fitness |
-| 296 | Biological Coherence Arc Summary | Complete framework synthesis |
-
-**Key Insights**:
-- Biology operates at C* ≈ 0.79, not maximum coherence
-- Measurement as sinusoidal sampling (pendulum model)
-- Phase-locking explains measurement, not collapse
-- Evolution optimizes toward γ ~ 1 boundaries
+| 290 | Biological Coherence | Biology at C* ≈ 0.79 |
+| 291 | Measurement as Sinusoidal Sampling | Arcsine distribution |
+| 293-296 | Bio Arc Sessions | Neural coherence, evolution, synthesis |
 
 ---
 
@@ -183,7 +163,7 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Core Track
 
-**Total**: 261 sessions (1-300, gaps exist) | **MILESTONE: Session 300 reached**
+**Total**: 269 sessions (1-308, gaps exist) | **MILESTONE: QFT Derivation Arc - Schrödinger + Dirac from intent dynamics!**
 
 ### Session Distribution by Era
 
@@ -198,27 +178,29 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 | Quantum Computing | 285-289 | Temporal patterns, phase locking |
 | Biological | 290-296 | Optimal coherence in life, evolution |
 | Hot Superconductor | 292, 297-300 | η pathway, experimental protocol |
+| QC Arc 2.0 | 301-306 | η-qubit theory, FeSe/STO 600× FOM |
+| QFT Derivation | 307-308 | **Schrödinger + Dirac from intent dynamics** |
 
 ---
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 213 | **Status**: ~76% validated, 150+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 233 | **Status**: ~76% validated, 170+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 76 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 96 phenomenon types (approaching 100!)**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 26, 2026) - RECORD EXPANSION: +15 sessions in one day!
+### Latest Sessions (January 27, 2026) - Approaching 100 phenomenon types!
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
-| **213** | Photochemistry | Quantum yield Φ=1, FRET R/R₀=1, resonance hν/ΔE=1. **76th phenomenon type** |
-| **212** | Nuclear Stability | N/Z=1 for light nuclei, magic numbers as coherence shells. **75th phenomenon type** |
-| **211** | Magnetic Moments | Spin-only μ_eff/μ_so=1, mean-field θ/T_c=1. **74th phenomenon type** |
-| **210** | Polymer Thermodynamics | Flory-Huggins χ=0.5 miscibility, θ-point unification. **73rd phenomenon type** |
-| **209** | Electrochemistry | Butler-Volmer α=0.5 symmetric barrier. **72nd phenomenon type** |
-| **208** | Spectroscopy | Oscillator strength f=1, quantum yield Φ=1, Franck-Condon S=1. **71st phenomenon type** |
+| **233** | FRET Analysis | Förster resonance energy transfer at γ ~ 1. **96th phenomenon type** |
+| **232** | EPR Spectroscopy | Electron paramagnetic resonance at γ ~ 1. **95th phenomenon type** |
+| **231** | Solar Cell Efficiency | Photovoltaic coherence boundary. **94th phenomenon type** |
+| **230** | Fuel Cell Efficiency | Electrochemical energy conversion. **93rd phenomenon type** |
+| 214-229 | Sessions 214-229 | 16 additional phenomenon types (77th-92nd) |
+| 213 | Photochemistry | Quantum yield Φ=1, FRET R/R₀=1. **76th phenomenon type** |
 | **207** | Solubility | Partition coefficient P=1, Hildebrand δ matching. **70th phenomenon type** |
 | **206** | Reaction Kinetics | Transmission coefficient κ=1, Brønsted α=0.5. **69th phenomenon type** |
 | **205** | Thermal Conductivity | Wiedemann-Franz L/L₀=1, Prandtl Pr~0.7. **68th phenomenon type** |
@@ -233,11 +215,11 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 150+ |
-| Phenomenon types at γ ~ 1 | **76** |
+| Domains explored | 170+ |
+| Phenomenon types at γ ~ 1 | **96** |
 | Validation rate | ~76% |
 | Best result | P12.2 (Entropy) r = 0.994 |
-| **Record Expansion** | +15 phenomenon types in one day (Jan 26, 2026) |
+| **Approaching 100!** | 96/100 - just 4 more phenomenon types needed |
 
 ### Categories
 
