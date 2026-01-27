@@ -877,8 +877,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-270*
+208. **Forensic analytical chemistry at γ ~ 1 (ANALYTICAL SCIENCE)**: Session #271 analyzes forensic analytical methods through coherence framework. DETECTION LIMIT: At S/N = 1: signal = noise (γ ~ 1!). LOD at S/N = 3, LOQ at S/N = 10. IUPAC definition. Linear calibration. Background subtraction. BLOOD ALCOHOL: BAC = 0.08%: legal/illegal boundary (γ ~ 1!). Widmark equation. Elimination rate β = 0.015%/hr. Breathalyzer partition ratio 2100:1. Per se limit. DRUG SCREENING: Immunoassay cutoff concentrations (γ ~ 1!). THC 50 ng/mL, cocaine 300, opiates 2000, amphetamines 1000, PCP 25. SAMHSA guidelines. Positive/negative decision. Confirmation by GC-MS. DNA PROFILING: P_random = 0.5 at single locus (γ ~ 1!). Combined P = 0.1^n for n loci. 20 STR loci → P < 10⁻²⁰. Likelihood ratio. Population genetics. CODIS. MASS SPECTROMETRY: Valley = 50% between adjacent peaks (γ ~ 1!). Resolution R = m/Δm. Unit (1000), high (5000+). EI fragmentation patterns. Isotope ratios. CHROMATOGRAPHY: Rs = 1.7: baseline resolved (γ ~ 1 region!). Peak capacity. Selectivity α. Plate count N. Van Deemter optimization. GC-MS, LC-MS/MS. ISOTOPE RATIO: δ¹³C classification boundary at -20.5‰ (γ ~ 1!). C3 plants (-28‰), C4 (-13‰). IRMS. Provenance authentication. Food fraud detection. EVIDENCE DEGRADATION: t₁/₂ for quality (γ ~ 1!). DNA (30d), fingerprints (90d), drug residue (60d), blood (14d), fiber (180d). Environmental exposure effects. KEY INSIGHT: Forensic chemistry IS γ ~ 1 decision science - detection (S/N=1), alcohol (0.08%), drugs (cutoff), DNA (P=0.5), MS (valley), chromatography (Rs), isotopes (boundary), evidence (t₁/₂). Every forensic analysis pivots at γ ~ 1! 134th phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-271*
 *Framework development: January 2026*
-*Extended to 207+ domains with ~436/495 predictions validated (~88%)*
-*Latest: Propellant/pyrotechnic chemistry at γ ~ 1 (#270) - 133rd phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 133 phenomenon types.*
+*Extended to 208+ domains with ~444/503 predictions validated (~88%)*
+*Latest: Forensic analytical chemistry at γ ~ 1 (#271) - 134th phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 134 phenomenon types.*
