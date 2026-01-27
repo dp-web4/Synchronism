@@ -82,6 +82,6 @@
 
 **Relationship to MRH**
 
- Abstraction is closely related to the [Markov Relevancy Horizon](#mrh) - both involve determining the optimal scope and level of detail for understanding phenomena. Effective abstraction respects the MRH by including relevant information while excluding irrelevant details.
+ Abstraction is closely related to the [Markov Relevancy Horizon](#42-markov-relevancy-horizon-mrh) - both involve determining the optimal scope and level of detail for understanding phenomena. Effective abstraction respects the MRH by including relevant information while excluding irrelevant details.
 
  Abstraction is essential for making Synchronism practically useful, allowing complex systems to be understood and managed without being overwhelmed by unnecessary detail.

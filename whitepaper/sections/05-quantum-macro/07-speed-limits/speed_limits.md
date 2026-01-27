@@ -102,8 +102,8 @@
 
  Related concepts:
 
- - [Macro-Decoherence (5.8)](#macro-decoherence) - Pattern stability at different scales
-- [Coherence & Feedback (4.7)](#coherence-feedback) - Maintaining pattern integrity
-- [Complexity Limits (Appendix A.19)](#complexity-limits) - Mathematical framework
+ - [Macro-Decoherence (5.8)](#58-macro-decoherence) - Pattern stability at different scales
+- [Coherence & Feedback (4.7)](#410-coherence-and-feedback) - Maintaining pattern integrity
+- Complexity Limits (Appendix A.19) - Mathematical framework
 
  *When coherence fails due to exceeding the grid's capacity, decoherence results—explored further next.*

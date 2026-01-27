@@ -10,7 +10,7 @@ Key aspects of this grid model include:
 
 - Each cell is the size of a Planck length (approximately 1.616 × 10⁻³⁵ meters) in each dimension. The Planck length is theorized to be the smallest meaningful measurement of distance in the universe.
 - The grid extends infinitely in all directions, encompassing the entire universe.
-- Each cell contains a quantized amount of "[Intent](#intent-transfer)," a computational abstraction representing pattern dynamics—not energy, but a reification enabling modeling of underlying forces.
+- Each cell contains a quantized amount of "[Intent](#45-intent-transfer-and-tension)," a computational abstraction representing pattern dynamics—not energy, but a reification enabling modeling of underlying forces.
 - **Each cell has a saturation maximum** (I_max) **—the foundational mechanism enabling pattern stability.**
 
 **Saturation: Why Patterns Can Exist**
@@ -42,7 +42,7 @@ As cells approach saturation, resistance approaches infinity. This prevents unbo
 **Why This Matters:**
 Saturation is not a computational convenience. It is **the fundamental mechanism** that makes pattern existence possible in the Synchronism model. Every entity—from quantum particles to galaxies—depends on saturation resistance for stability.
 
-*See [Appendix A.3: Saturation Dynamics](#appendix-a) for mathematical details.*
+*See [Appendix A.3: Saturation Dynamics](#appendix-a-mathematical-formulations-working-draft) for mathematical details.*
 
 **Mathematical Foundation**
 

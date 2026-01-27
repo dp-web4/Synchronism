@@ -85,7 +85,7 @@ Where `n` determines how rapidly resistance increases near saturation.
 
 **Definition of Pattern Stability**
 
-In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
+In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#44-time-as-planck-timed-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
 
 This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their cyclic updates.
 

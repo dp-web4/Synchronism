@@ -73,7 +73,7 @@ There is no absolute existence across all scales. Each entity's existence is bou
 
 **Connection to Perspective**
 
-MRH provides a formal framework for the [perspective problem](#perspective) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
+MRH provides a formal framework for the [perspective problem](#2-perspective-and-belief-systems) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
 
 **Optimizing Analysis**
 

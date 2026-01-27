@@ -5,7 +5,7 @@ Synchronism now offers a **mechanistically promising** model of gravity through 
 **The Saturation Gradient Mechanism**
 
 **Core Proposal:**
-Gravity emerges from saturation gradients around stable Intent patterns (see [Section 4.5](#field-effects)).
+Gravity emerges from saturation gradients around stable Intent patterns (see [Section 4.8](#48-field-effects-from-saturation-gradients)).
 
 **How It Works:**
 

@@ -78,8 +78,8 @@ Synchronism's single-frame approach is a modeling choice for computational tract
 
 Individual perspectives are inherently limited—as illustrated by the parable of the blind men and the elephant. Synchronism offers conceptual tools for reasoning across scales and perspectives without claiming to achieve complete understanding.
 
-Key concepts like [Markov Relevancy Horizon](#mrh), [Abstraction](#abstraction), and [Witness](#witness-effect) provide frameworks for analyzing pattern dynamics at different scales. These are modeling tools, not replacements for empirical science—they complement measurement-based physics by offering a non-anthropocentric interpretive layer.
+Key concepts like [Markov Relevancy Horizon](#42-markov-relevancy-horizon-mrh), [Abstraction](#413-abstraction), and [Witness](#55-witness-effect) provide frameworks for analyzing pattern dynamics at different scales. These are modeling tools, not replacements for empirical science—they complement measurement-based physics by offering a non-anthropocentric interpretive layer.
 
 **Mathematical Formalism**
 
- For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a).
+ For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a-mathematical-formulations-working-draft).

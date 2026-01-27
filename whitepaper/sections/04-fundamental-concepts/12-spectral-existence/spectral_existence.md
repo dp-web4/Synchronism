@@ -60,6 +60,6 @@ Witnessing is physical interaction between Intent patterns. When patterns intera
 
 **Relationship to Emergence**
 
- Spectral existence is closely linked to [emergence](#emergence-patterns) - as patterns become more organized and stable, they move toward higher existence. This provides a framework for understanding how complexity and existence are related.
+ Spectral existence is closely linked to [emergence](#46-emergence) - as patterns become more organized and stable, they move toward higher existence. This provides a framework for understanding how complexity and existence are related.
 
  Understanding spectral existence helps explain many puzzling phenomena in physics, biology, and consciousness studies by providing a nuanced view of what it means "to be."

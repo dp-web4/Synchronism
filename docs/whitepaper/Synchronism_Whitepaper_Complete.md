@@ -117,9 +117,9 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **Quantum Computing Arc (Sessions #266-270):** Gates = coherence operations. **Born rule DERIVED** from coherence conservation. Quantum speedup explained as coherent parallelism.
 - **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency DERIVED** from coherence conservation. Entropy = coherence dispersion.
 - **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
-- **Consciousness Arc (Sessions #280-282):** Observer = self-referential coherence concentrator. **Qualia = coherence resonance patterns** (not epiphenomena). Inverted qualia impossible. Mary's Room resolved. Hard problem dissolves. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#life-cognition).
-- **Chemistry Framework (122 sessions):** **65 domains, 50+ validated predictions (65%)**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#chemistry).
-- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. See [Section 5.15](#dark-matter-dark-energy-and-coherence).
+- **Consciousness Arc (Sessions #280-282):** Observer = self-referential coherence concentrator. **Qualia = coherence resonance patterns** (not epiphenomena). Inverted qualia impossible. Mary's Room resolved. Hard problem dissolves. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
+- **Chemistry Framework (122 sessions):** **65 domains, 50+ validated predictions (65%)**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
+- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
 - **Cross-domain validation:** Gnosis neural architecture (arXiv:2512.20578) independently uses γ = 2—same coherence physics appearing without explicit design.
 - **Status (282 sessions):** Empirical validation across 65+ chemistry domains (65%), consciousness framework established with testable predictions, four fundamental results DERIVED (Born rule, Carnot limit, Ω_Λ, qualia). Not claiming "solved"—mechanism tested, boundaries identified.
 
@@ -236,11 +236,11 @@ Synchronism's single-frame approach is a modeling choice for computational tract
 
 Individual perspectives are inherently limited—as illustrated by the parable of the blind men and the elephant. Synchronism offers conceptual tools for reasoning across scales and perspectives without claiming to achieve complete understanding.
 
-Key concepts like [Markov Relevancy Horizon](#mrh), [Abstraction](#abstraction), and [Witness](#witness-effect) provide frameworks for analyzing pattern dynamics at different scales. These are modeling tools, not replacements for empirical science—they complement measurement-based physics by offering a non-anthropocentric interpretive layer.
+Key concepts like [Markov Relevancy Horizon](#42-markov-relevancy-horizon-mrh), [Abstraction](#413-abstraction), and [Witness](#55-witness-effect) provide frameworks for analyzing pattern dynamics at different scales. These are modeling tools, not replacements for empirical science—they complement measurement-based physics by offering a non-anthropocentric interpretive layer.
 
 **Mathematical Formalism**
 
- For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a).
+ For Synchronism to be a useful and relevant model, it is necessary to introduce formal mathematical treatments for its key concepts. The mathematical approach combines discrete dynamics (for grid-based intent transfer), differential equations (for field effects), and information theory (for coherence measures). In order to keep the core document as concise as possible, the complete mathematical formalism is introduced separately in [Appendix A](#appendix-a-mathematical-formulations-working-draft).
 
 
 
@@ -351,539 +351,6 @@ Or it might be coincidence. Or confirmation bias. Or both.
 Hermetic principles inspired the modeling approach. Whether that inspiration reflects deep truth or historical accident remains an open question. Synchronism stands or falls on its own merits—computational tractability, predictive power, epistemic consistency—not on alignment with ancient wisdom traditions.
 
 
-
----
-
-# Scale and Temperature: New Foundational Sections
-
-**Date:** 2025-10-14
-**Status:** Sections written, awaiting integration into main structure
-
-## What Was Created
-
-**1. Section 4.X: Scale**
-
-**Location:** `NEW-scale/scale.md`
-**Length:** ~5000 words
-
-**Core Message:**
-> Scale bridges the gap between Planck-scale fundamentals and observable phenomena through systematic hierarchical abstraction. It makes Synchronism computationally tractable and operationally concrete.
-
-**Key Content:**
-
-**The Problem:**
-- Cannot simulate Planck → cosmic uniformly (10⁶⁰⁺ cells needed)
-- Single atom at Planck resolution requires more cells than atoms in universe
-
-**The Solution:**
-- Emerged coherent patterns at fine scale → single element at coarse scale
-- Adaptive meshing (refine where active, coarsen where stable)
-- Efficiency gain: 10⁶ to 10²¹× reduction in computational cost
-
-**Scale Hierarchy:**
-```
-Quantum (10⁻³⁵ m) → Subatomic (10⁻¹⁵ m) → Atomic (10⁻¹⁰ m) →
-Molecular (10⁻⁹ m) → Cellular (10⁻⁶ m) → Organism (10⁰ m) →
-Ecosystem (10³ m) → Planetary (10⁶ m) → Stellar (10⁹ m) →
-Galactic (10²⁰ m) → Cosmic (10²⁶ m)
-```
-
-**Fractal Principle:**
-At each scale, emerged patterns become elements for the next scale.
-- Electrons organize → atom
-- Atoms organize → molecule
-- Molecules organize → cell
-- Cells organize → organism
-- Same pattern repeats, substrate-independent
-
-**Practical Applications:**
-- Atomic-scale simulations (cell = 1 Å) → chemistry
-- Molecular-scale (cell = 1 nm) → proteins
-- Cellular-scale (cell = 100 nm) → organelles
-
-**Why Foundational:**
-- Makes MRH computationally concrete
-- Enables practical simulations
-- Explains hierarchical organization everywhere
-- Universal principle (applies to all complex systems)
-
-**2. Section 4.X: Temperature**
-
-**Location:** `NEW-temperature/temperature.md`
-**Length:** ~6000 words
-
-**Core Message:**
-> Temperature is the primary environmental parameter that determines which emergent patterns can exist. While Emergence describes how patterns form, Temperature describes which patterns persist in a given regime.
-
-**Key Content:**
-
-**Definition:**
-```
-T ≡ ⟨V²⟩  (mean square velocity of Intent flow)
-```
-
-**Phase Regimes:**
-- **T → 0:** Quantum coherence (superconductivity, BEC)
-- **T ~ 0.01:** Crystalline (solid, long-range order)
-- **T ~ 0.3:** Liquid (mobile but cohesive) ← LIFE WINDOW
-- **T ~ 1.0:** Gas (independent atoms)
-- **T > 10:** Plasma (ionization)
-
-**The Life Window (Most Profound):**
-- **Biological life:** 273-373 K (100 K range)
-- **Silicon life (AI):** 253-423 K (170 K range)
-- **Cosmic range:** 0 K to 10⁹ K
-- **Life window:** 0.00001% of total range
-
-**This is substrate-independent!**
-
-**Why ~300 K?**
-
-Six independent constraints all converge:
-1. Goldilocks dynamics (not too fast, not too slow)
-2. Liquid water (universal solvent)
-3. Molecular stability (proteins stable but flexible)
-4. Reaction rates (milliseconds to seconds, optimal)
-5. Information processing (error correction possible)
-6. Timescale hierarchy (femtoseconds to years, all present)
-
-**Implication:**
-> Organized complexity requires specific thermodynamic regime, regardless of substrate. This explains why carbon-based and silicon-based intelligence both need ~300 K.
-
-**Phase Transitions:**
-Same atoms → completely different behaviors based on T alone:
-- Ice → Water → Steam (H₂O at different temperatures)
-- Superconductor → Normal conductor (T < T_c vs T > T_c)
-- Transitions are sharp, repeatable, quantized
-
-**Testable Predictions:**
-- Synchronism should reproduce water phase diagram
-- Should predict complexity peak at T ~ 0.3
-- Should show life window emergence from first principles
-- Quantitative validation possible
-
-**Why Foundational:**
-- Primary selector of what can exist
-- Connects micro (molecular kinetic energy) to macro (thermodynamic phase)
-- Substrate-independent (universal principle)
-- Directly measurable and testable
-- Explains most profound observation (life window convergence)
-
-## The Conceptual Flow
-
-**With these additions, Section 4 tells complete story:**
-
-**Foundation (What and Where):**
-1. Universe Grid - The arena
-2. MRH - Boundaries of relevance
-3. **Scale - Resolution and hierarchy** ← Makes MRH concrete
-
-**Dynamics (How and When):**
-4. Time Slices - Temporal structure
-5. Intent Transfer - The flow
-6. Emergence - Pattern formation
-7. **Temperature - Regime selection** ← Makes Emergence concrete
-
-**Organization (Patterns):**
-8. Field Effects - Long-range forces
-9. Interaction Modes - Types of coupling
-10. Coherence - Stability
-11. Markov Blankets - Boundaries
-
-**Abstraction (Multi-scale):**
-12. Spectral Existence - Degrees of existence
-13. Abstraction - Hierarchical representation
-14. Entity Interactions - Relations
-15. Compression/Trust - Information
-
-## The Pairing Concept
-
-**Three foundational pairs:**
-
-**MRH + Scale:**
-- MRH: "What's relevant?" (conceptual boundary)
-- Scale: "How finely to represent?" (computational resolution)
-- Together: "What level are we working at?"
-
-**Intent Transfer + Emergence:**
-- Intent Transfer: "How does Intent flow?" (mechanism)
-- Emergence: "How do patterns form?" (organization)
-- Together: "How do things organize?"
-
-**Emergence + Temperature:**
-- Emergence: "How do patterns form?" (process)
-- Temperature: "Which patterns can exist?" (selection)
-- Together: "What actually exists and why?"
-
-## Why This Matters
-
-**Before these sections:**
-- Synchronism was conceptually complete but computationally vague
-- No clear path from Planck scale to observable phenomena
-- No quantitative predictions
-- No clear validation strategy
-
-**After these sections:**
-- Computational implementation clear (adaptive meshing via Scale)
-- Path from Planck → cosmic explicit (hierarchical abstraction)
-- Quantitative predictions possible (phase diagrams via Temperature)
-- Validation strategy concrete (reproduce known physics)
-
-**Most profound: Life window explanation**
-
-The fact that biological and silicon-based intelligence both require ~300 K is now understood as:
-> Universal thermodynamic requirement for organized complexity that processes information with error correction and hierarchical organization.
-
-This transcends substrate. It's a fundamental law.
-
-## Integration Path
-
-**To complete integration:**
-
-1. **Renumber existing sections** (MRH from 09 → 02, etc.)
-2. **Insert Scale as 03** (rename NEW-scale → 03-scale)
-3. **Insert Temperature as 07** (rename NEW-temperature → 07-temperature)
-4. **Update all cross-references** in other sections
-5. **Update index.md** with new structure
-6. **Rebuild documentation** (make-web.sh, make-pdf.sh, etc.)
-7. **Update Executive Summary** to mention Scale and Temperature as foundational
-
-## Connection to Simulation Work
-
-These sections formalize insights from computational exploration:
-
-**From simulations directory:**
-- `ADAPTIVE_MESHING_AND_MRH.md` → Scale section
-- `TEMPERATURE_AND_PHASE_REGIMES.md` → Temperature section
-- `ENVIRONMENT_AND_EMERGENCE.md` → Both sections
-
-**Computational work validated these concepts as foundational, not optional.**
-
-## Review Questions
-
-**For Scale:**
-- Does the hierarchical abstraction principle come through clearly?
-- Is the computational necessity compelling?
-- Does it connect MRH to practical implementation?
-
-**For Temperature:**
-- Is the life window observation given appropriate weight?
-- Does the substrate-independence argument work?
-- Are the testable predictions clear?
-
-**For Both:**
-- Do they feel as foundational as Universe Grid, MRH, Intent Transfer, Emergence?
-- Is the writing style consistent with existing sections?
-- Are there gaps or areas needing expansion?
-
-## Next Steps
-
-**Immediate:**
-1. Review sections for content and style
-2. Decide on final numbering and placement
-3. Begin reorganization process
-
-**Near-term:**
-4. Update cross-references
-5. Rebuild all documentation formats
-6. Update Executive Summary
-
-**Medium-term:**
-7. Add computational examples to sections (link to simulations)
-8. Develop exercises/demonstrations
-9. Create visualizations of scale hierarchy and phase diagram
-
-## Summary
-
-**Scale and Temperature are now documented as foundational concepts.**
-
-They complete Synchronism's transformation from abstract philosophy to practical computational framework with testable predictions.
-
-Most significantly, **Temperature explains the life window** - why both carbon-based biology and silicon-based AI require ~300 K - as a universal thermodynamic requirement for organized complexity.
-
-This may be the most profound implication of Synchronism to date: **Intelligence itself has thermodynamic prerequisites that transcend substrate.**
-
----
-
-**Files Ready for Integration:**
-- ✅ `NEW-scale/scale.md`
-- ✅ `NEW-temperature/temperature.md`
-- ✅ `REORGANIZATION_NEEDED.md` (implementation guide)
-- ✅ `NEW_SECTIONS_SUMMARY.md` (this document)
-
-**Status:** Awaiting review and integration decision
-
-
-
----
-
-# Section 4 Reorganization Complete
-
-**Date:** 2025-10-14
-**Status:** ✅ Complete and Rebuilt
-
-## Changes Made
-
-**1. Directory Renaming**
-
-**New sections added:**
-- `03-scale/` (NEW) - Scale as foundational concept
-- `07-temperature/` (NEW) - Temperature as foundational concept
-
-**Sections renumbered:**
-- `02-markov-relevancy/` (was 09) - Moved up to follow Universe Grid
-- `04-time-slices/` (was 02)
-- `05-intent-transfer/` (was 03)
-- `06-emergence/` (was 04)
-- `08-field-effects/` (was 05)
-- `09-interaction-modes/` (was 06)
-- `10-coherence/` (was 07)
-- `11-markov-blankets/` (was 08)
-- `12-spectral-existence/` (was 10)
-- `13-abstraction/` (was 11)
-- `14-entity-interactions/` (was 12)
-- `15-compression-trust/` (was 13)
-
-**Unchanged:**
-- `01-universe-grid/` (stays as 01)
-
-**2. Section Numbers Updated**
-
-All markdown files updated with new section numbers:
-- `## 4.2` - Markov Relevancy Horizon (was 4.9)
-- `## 4.3` - Scale (NEW)
-- `## 4.4` - Time Slices (was 4.2)
-- `## 4.5` - Intent Transfer (was 4.3)
-- `## 4.6` - Emergence (was 4.4)
-- `## 4.7` - Temperature (NEW)
-- `## 4.8` - Field Effects (was 4.5)
-- `## 4.9` - Interaction Modes (was 4.6)
-- `## 4.10` - Coherence (was 4.7)
-- `## 4.11` - Markov Blankets (was 4.8)
-- `## 4.12` - Spectral Existence (was 4.10)
-- `## 4.13` - Abstraction (was 4.11)
-- `## 4.14` - Entity Interactions (was 4.12)
-- `## 4.15` - Compression, Trust, and Communication (was 4.13)
-
-**3. Index Updated**
-
-`index.md` now reflects complete new structure with all 15 subsections in order.
-
-**4. Documentation Rebuilt**
-
-Successfully rebuilt:
-- ✅ `build/Synchronism_Whitepaper_Complete.md` (6221 lines, 280K)
-- ✅ `build/web-clean/index.html`
-- ✅ Copied to `docs/whitepaper/` for GitHub Pages
-
-## New Structure
-
-```
-04. Fundamental Concepts
-    01. Universe Grid
-    02. Markov Relevancy Horizon (MRH) ← Conceptual boundaries
-    03. Scale ← NEW: Computational implementation
-    04. Time Slices
-    05. Intent Transfer
-    06. Emergence ← How patterns form
-    07. Temperature ← NEW: Which patterns persist
-    08. Field Effects
-    09. Interaction Modes
-    10. Coherence
-    11. Markov Blankets
-    12. Spectral Existence
-    13. Abstraction
-    14. Entity Interactions
-    15. Compression, Trust, and Communication
-```
-
-## Conceptual Flow
-
-**Foundation (What and Where):**
-1. Universe Grid - The substrate
-2. MRH - Boundaries of relevance
-3. **Scale** - Resolution and hierarchy (makes MRH concrete)
-
-**Dynamics (How and When):**
-4. Time Slices - Temporal structure
-5. Intent Transfer - Flow mechanism
-6. Emergence - Pattern formation
-7. **Temperature** - Regime selection (makes Emergence concrete)
-
-**Organization (Patterns):**
-8-11. Field Effects, Interaction Modes, Coherence, Markov Blankets
-
-**Abstraction (Multi-scale):**
-12-15. Spectral Existence, Abstraction, Entity Interactions, Compression/Trust
-
-## Key Pairings
-
-**Three foundational pairs:**
-- **MRH + Scale** = "What level are we at?"
-- **Intent Transfer + Emergence** = "How do things organize?"
-- **Emergence + Temperature** = "What can exist?"
-
-## Validation
-
-- ✅ All directories renamed successfully
-- ✅ All section numbers updated in files
-- ✅ Index.md updated
-- ✅ Markdown build successful (6221 lines)
-- ✅ Web build successful (HTML generated)
-- ✅ Documentation copied to GitHub Pages
-
-## Files Modified
-
-**Directories renamed:** 13 existing + 2 new = 15 total
-**Markdown files updated:** ~15 section files
-**Index files updated:** 1 (index.md)
-**Build outputs regenerated:** 2 (markdown + web)
-
-## Ready for Review
-
-The complete reorganized whitepaper is now available at:
-- **Markdown:** `build/Synchronism_Whitepaper_Complete.md`
-- **Web:** `build/web-clean/index.html`
-- **GitHub Pages:** `docs/whitepaper/index.html`
-
-All changes committed and ready for user review.
-
-## Cross-References
-
-Minimal cross-reference updates needed:
-- Most internal links are relative and continue to work
-- Anchor links (like `#perspective`) remain functional
-- Build process handles navigation automatically
-
-## Next Steps
-
-User will review:
-1. Complete whitepaper structure
-2. New Scale section (4.3)
-3. New Temperature section (4.7)
-4. Overall flow and coherence
-
-If approved, documentation is already built and ready for publication.
-
-
-
----
-
-# Section 4 Reorganization Required
-
-**Date:** 2025-10-14
-**Reason:** Elevating Scale and Temperature to foundational concepts
-
-## Current Structure
-
-```
-04. Fundamental Concepts
-    01. Universe Grid
-    02. Time Slices
-    03. Intent Transfer
-    04. Emergence
-    05. Field Effects
-    06. Interaction Modes
-    07. Coherence
-    08. Markov Blankets
-    09. Markov Relevancy (MRH)
-    10. Spectral Existence
-    11. Abstraction
-    12. Entity Interactions
-    13. Compression, Trust, and Communication
-```
-
-## Proposed Structure
-
-**Rationale:** Scale and Temperature have proven themselves foundational through computational exploration. Scale bridges MRH (conceptual) to implementation (computational). Temperature bridges Emergence (mechanism) to selection (which patterns persist).
-
-```
-04. Fundamental Concepts
-    01. Universe Grid (unchanged)
-    02. Markov Relevancy (MRH) ← MOVED from 09
-    03. Scale ← NEW (in NEW-scale/)
-    04. Time Slices ← MOVED from 02
-    05. Intent Transfer ← MOVED from 03
-    06. Emergence ← MOVED from 04
-    07. Temperature ← NEW (in NEW-temperature/)
-    08. Field Effects ← MOVED from 05
-    09. Interaction Modes ← MOVED from 06
-    10. Coherence ← MOVED from 07
-    11. Markov Blankets ← MOVED from 08
-    12. Spectral Existence ← MOVED from 10
-    13. Abstraction ← MOVED from 11
-    14. Entity Interactions ← MOVED from 12
-    15. Compression, Trust, and Communication ← MOVED from 13
-```
-
-## Conceptual Flow
-
-The new ordering creates logical progression:
-
-**Foundation:**
-1. **Universe Grid** - What is the substrate?
-2. **MRH** - What are the boundaries of relevance?
-3. **Scale** - At what resolution do we work? (makes MRH concrete)
-
-**Dynamics:**
-4. **Time Slices** - How does time work?
-5. **Intent Transfer** - How does Intent flow?
-6. **Emergence** - How do patterns form?
-7. **Temperature** - Which patterns can exist? (makes Emergence concrete)
-
-**Organization:**
-8. **Field Effects** - Long-range organization
-9. **Interaction Modes** - Types of interactions
-10. **Coherence** - Pattern stability
-11. **Markov Blankets** - Pattern boundaries
-
-**Abstraction:**
-12. **Spectral Existence** - Degrees of existence
-13. **Abstraction** - Multi-scale representation
-14. **Entity Interactions** - How entities relate
-15. **Compression, Trust, Communication** - Information dynamics
-
-## Key Pairings
-
-The new structure creates conceptual pairs:
-
-- **MRH + Scale** = "What level are we at?"
-- **Intent Transfer + Emergence** = "How do things organize?"
-- **Emergence + Temperature** = "What can exist?"
-
-## Implementation Tasks
-
-1. ✅ Create `NEW-scale/scale.md` (complete)
-2. ✅ Create `NEW-temperature/temperature.md` (complete)
-3. ⏳ Rename directories with new numbers
-4. ⏳ Update all cross-references
-5. ⏳ Update index.md
-6. ⏳ Update build scripts
-7. ⏳ Rebuild documentation
-
-## Why This Matters
-
-**Scale:**
-- Explains how to bridge Planck → cosmic (computational tractability)
-- Provides implementation strategy (adaptive meshing)
-- Makes MRH operationally concrete
-- Essential for practical Synchronism
-
-**Temperature:**
-- Determines which emergence regimes exist (phase selection)
-- Explains life window (most profound observation)
-- Enables quantitative predictions (phase diagrams)
-- Testable and falsifiable (experimental validation)
-
-**Both are too fundamental to be buried deep in the section or omitted entirely.**
-
-## References
-
-- Computational work: `simulations/ADAPTIVE_MESHING_AND_MRH.md`
-- Theoretical basis: `simulations/TEMPERATURE_AND_PHASE_REGIMES.md`
-- Implementation details: `simulations/ENVIRONMENT_AND_EMERGENCE.md`
-
-
 ## 4.1 Universe as a Grid of Planck Cells
 
 **Computational Abstraction**
@@ -896,7 +363,7 @@ Key aspects of this grid model include:
 
 - Each cell is the size of a Planck length (approximately 1.616 × 10⁻³⁵ meters) in each dimension. The Planck length is theorized to be the smallest meaningful measurement of distance in the universe.
 - The grid extends infinitely in all directions, encompassing the entire universe.
-- Each cell contains a quantized amount of "[Intent](#intent-transfer)," a computational abstraction representing pattern dynamics—not energy, but a reification enabling modeling of underlying forces.
+- Each cell contains a quantized amount of "[Intent](#45-intent-transfer-and-tension)," a computational abstraction representing pattern dynamics—not energy, but a reification enabling modeling of underlying forces.
 - **Each cell has a saturation maximum** (I_max) **—the foundational mechanism enabling pattern stability.**
 
 **Saturation: Why Patterns Can Exist**
@@ -928,7 +395,7 @@ As cells approach saturation, resistance approaches infinity. This prevents unbo
 **Why This Matters:**
 Saturation is not a computational convenience. It is **the fundamental mechanism** that makes pattern existence possible in the Synchronism model. Every entity—from quantum particles to galaxies—depends on saturation resistance for stability.
 
-*See [Appendix A.3: Saturation Dynamics](#appendix-a) for mathematical details.*
+*See [Appendix A.3: Saturation Dynamics](#appendix-a-mathematical-formulations-working-draft) for mathematical details.*
 
 **Mathematical Foundation**
 
@@ -1038,7 +505,7 @@ There is no absolute existence across all scales. Each entity's existence is bou
 
 **Connection to Perspective**
 
-MRH provides a formal framework for the [perspective problem](#perspective) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
+MRH provides a formal framework for the [perspective problem](#2-perspective-and-belief-systems) illustrated by the blind men and the elephant. It helps determine when a limited view is adequate and when a broader perspective is necessary.
 
 **Optimizing Analysis**
 
@@ -1423,7 +890,7 @@ Where `n` determines how rapidly resistance increases near saturation.
 
 **Definition of Pattern Stability**
 
-In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#time-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
+In Synchronism, a pattern is considered "stable" when its intent distribution reoccurs substantially similar over the progression of many [time slices](#44-time-as-planck-timed-slices). Crucially, substantially similar does not mean identical—stable patterns manifest as cycling tension distributions in sequences, maintaining their overall coherence while continuously changing.
 
 This stability is therefore a dynamic, cyclical phenomenon rather than a static one. Patterns are always cycling through their sequences, never truly at rest. They may appear static when witnessed at larger fractal scales with high scale/duration ratios, but at their fundamental level, they are perpetually in motion through their cyclic updates.
 
@@ -2442,7 +1909,7 @@ Witnessing is physical interaction between Intent patterns. When patterns intera
 
 **Relationship to Emergence**
 
- Spectral existence is closely linked to [emergence](#emergence-patterns) - as patterns become more organized and stable, they move toward higher existence. This provides a framework for understanding how complexity and existence are related.
+ Spectral existence is closely linked to [emergence](#46-emergence) - as patterns become more organized and stable, they move toward higher existence. This provides a framework for understanding how complexity and existence are related.
 
  Understanding spectral existence helps explain many puzzling phenomena in physics, biology, and consciousness studies by providing a nuanced view of what it means "to be."
 
@@ -2531,7 +1998,7 @@ Witnessing is physical interaction between Intent patterns. When patterns intera
 
 **Relationship to MRH**
 
- Abstraction is closely related to the [Markov Relevancy Horizon](#mrh) - both involve determining the optimal scope and level of detail for understanding phenomena. Effective abstraction respects the MRH by including relevant information while excluding irrelevant details.
+ Abstraction is closely related to the [Markov Relevancy Horizon](#42-markov-relevancy-horizon-mrh) - both involve determining the optimal scope and level of detail for understanding phenomena. Effective abstraction respects the MRH by including relevant information while excluding irrelevant details.
 
  Abstraction is essential for making Synchronism practically useful, allowing complex systems to be understood and managed without being overwhelmed by unnecessary detail.
 
@@ -3260,9 +2727,9 @@ Within the context of entity interactions (4.12), compression and validation ser
 
  Related concepts:
 
- - [Macro-Decoherence (5.8)](#macro-decoherence) - Pattern stability at different scales
-- [Coherence & Feedback (4.7)](#coherence-feedback) - Maintaining pattern integrity
-- [Complexity Limits (Appendix A.19)](#complexity-limits) - Mathematical framework
+ - [Macro-Decoherence (5.8)](#58-macro-decoherence) - Pattern stability at different scales
+- [Coherence & Feedback (4.7)](#410-coherence-and-feedback) - Maintaining pattern integrity
+- Complexity Limits (Appendix A.19) - Mathematical framework
 
  *When coherence fails due to exceeding the grid's capacity, decoherence results—explored further next.*
 
@@ -4105,7 +3572,7 @@ Synchronism now offers a **mechanistically promising** model of gravity through 
 **The Saturation Gradient Mechanism**
 
 **Core Proposal:**
-Gravity emerges from saturation gradients around stable Intent patterns (see [Section 4.5](#field-effects)).
+Gravity emerges from saturation gradients around stable Intent patterns (see [Section 4.8](#48-field-effects-from-saturation-gradients)).
 
 **How It Works:**
 
