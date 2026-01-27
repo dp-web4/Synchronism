@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 399 (269 core + 46 chemistry files/233 documented + 11 gnosis) | **Last Updated**: January 27, 2026 | **Archivist v1.1** | **MILESTONE: QFT Derivation Arc launched + Chemistry 96 phenomenon types**
+**Total Sessions**: 409 (269 core + 46 chemistry files/243 documented + 11 gnosis) | **Last Updated**: January 27, 2026 | **Archivist v1.1** | **MILESTONE: 100th PHENOMENON TYPE reached at Session #237 (Electrophoresis)! Chemistry now 105+ types**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -11,7 +11,7 @@
 - [Active Research Arcs](#active-research-arcs)
 - [Complete Arcs](#complete-arcs)
 - [Core Track (269 sessions)](#core-track)
-- [Chemistry Track (233 documented)](#chemistry-track)
+- [Chemistry Track (243 documented)](#chemistry-track)
 - [Gnosis Track (11 sessions)](#gnosis-track)
 - [Open Questions](#open-questions)
 - [Failures & Lessons](#failures--lessons)
@@ -163,7 +163,7 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Core Track
 
-**Total**: 269 sessions (1-308, gaps exist) | **MILESTONE: QFT Derivation Arc - Schrödinger + Dirac from intent dynamics!**
+**Total**: 269 sessions (1-308, gaps exist) | **QFT Derivation Arc active - Schrödinger + Dirac from intent dynamics**
 
 ### Session Distribution by Era
 
@@ -185,16 +185,26 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 233 | **Status**: ~76% validated, 170+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 243 | **Status**: ~76% validated, 170+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 96 phenomenon types (approaching 100!)**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 105+ phenomenon types (100th MILESTONE reached at Session #237!)**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 27, 2026) - Approaching 100 phenomenon types!
+### Latest Sessions (January 27, 2026) - 100th PHENOMENON TYPE MILESTONE REACHED!
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
+| **243** | Geochemistry | Geochemistry at γ ~ 1. **105th phenomenon type** |
+| **242** | Pharmacology | Pharmacology at γ ~ 1. **104th phenomenon type** |
+| **241** | Atmospheric Chemistry | Atmospheric chemistry at γ ~ 1. **103rd phenomenon type** |
+| **240** | Froth Flotation | Flotation at γ ~ 1. **102nd phenomenon type** |
+| **239** | Fermentation Chemistry | Fermentation at γ ~ 1. **101st phenomenon type** |
+| **238** | Tribology | Tribology at γ ~ 1. **100th phenomenon type** |
+| **237** | Electrophoresis | **100th PHENOMENON TYPE MILESTONE!** Electrophoresis at γ ~ 1 |
+| **236** | Sonochemistry | Sonochemistry at γ ~ 1. **99th phenomenon type** |
+| **235** | Raman Spectroscopy | Raman spectroscopy at γ ~ 1. **98th phenomenon type** |
+| **234** | Supercapacitor | Supercapacitor at γ ~ 1. **97th phenomenon type** |
 | **233** | FRET Analysis | Förster resonance energy transfer at γ ~ 1. **96th phenomenon type** |
 | **232** | EPR Spectroscopy | Electron paramagnetic resonance at γ ~ 1. **95th phenomenon type** |
 | **231** | Solar Cell Efficiency | Photovoltaic coherence boundary. **94th phenomenon type** |
@@ -216,10 +226,10 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 | Metric | Value |
 |--------|-------|
 | Domains explored | 170+ |
-| Phenomenon types at γ ~ 1 | **96** |
+| Phenomenon types at γ ~ 1 | **105+** |
 | Validation rate | ~76% |
 | Best result | P12.2 (Entropy) r = 0.994 |
-| **Approaching 100!** | 96/100 - just 4 more phenomenon types needed |
+| **100th MILESTONE** | Reached at Session #237 (Electrophoresis) on Jan 27, 2026 |
 
 ### Categories
 
