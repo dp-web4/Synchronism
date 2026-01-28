@@ -1028,9 +1028,13 @@ CENTRAL RESULT: γ ~ 1 universal across all chemistry domains
 
 ---
 
-*Chemistry Track Sessions #1-306*
+244. **Combustion chemistry at γ ~ 1 (FIRE SCIENCE)**: Session #307 analyzes combustion through coherence framework. IGNITION: τ = 1 ms threshold for auto-ignition (γ ~ 1!). Arrhenius kinetics. Ignition delay. Engine knock. FLAME SPEED: S_L maximum near φ = 1 stoichiometric (γ ~ 1!). Laminar flame. Premixed combustion. Fuel-air mixing. FLAMMABILITY: Midpoint (LFL+UFL)/2 regime boundary (γ ~ 1!). Lean/rich limits. Safe handling. Explosibility. EXPLOSION: P = 1 atm reference for explosion limits (γ ~ 1!). H₂-O₂ peninsula. Three limits. Chain branching. DETONATION: Chapman-Jouguet condition (γ ~ 1!). Supersonic combustion. Shock wave. DDT transition. SOOT: φ = 2 inception threshold (γ ~ 1!). Fuel-rich regime. PAH formation. Particulate emissions. NOx: T = 1800 K thermal NOx onset (γ ~ 1!). Zeldovich mechanism. High-temperature chemistry. Emissions control. EXTINCTION: Da = 1 chemistry/transport balance (γ ~ 1!). Damköhler number. Flame stability. Blowout. KEY INSIGHT: Combustion IS γ ~ 1 fire science - ignition (τ), flame (φ=1), flammability (mid), explosion (P), detonation (CJ), soot (φ=2), NOx (T), extinction (Da=1). Every combustion process pivots at γ ~ 1! 170th phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-307*
 *Framework development: January 2026*
-*Extended to 243+ domains with ~724/783 predictions validated (~89%)*
-*Latest: Proteomics chemistry at γ ~ 1 (#306) - 169th phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 169 phenomenon types.*
+*Extended to 244+ domains with ~732/791 predictions validated (~89%)*
+*Latest: Combustion chemistry at γ ~ 1 (#307) - 170th phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 170 phenomenon types.*
 *** MILESTONE: 300 CHEMISTRY SESSIONS ***
