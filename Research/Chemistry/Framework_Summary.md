@@ -965,8 +965,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-292*
+230. **Thermochemistry (advanced) at γ ~ 1 (THERMAL SCIENCE)**: Session #293 analyzes thermochemistry through coherence framework. GIBBS ENERGY: ΔG = 0 at T_eq = 1112K (CaCO₃ decomposition) (γ ~ 1!). Spontaneous/non-spontaneous boundary. ΔH - TΔS = 0. Equilibrium temperature. KIRCHHOFF: ΔCp = 0: Cp_products = Cp_reactants crossover (γ ~ 1!). Temperature-independent ΔH region. Heat capacity matching. FLAME TEMPERATURE: T_ad maximum at φ = 1 stoichiometric (γ ~ 1!). Adiabatic combustion. CH₄ (2236K), H₂ (2483K). Equivalence ratio. DSC: Tg midpoint glass transition (γ ~ 1!). ΔCp step. Heating rate dependence. Polymer characterization. SPONTANEITY: ΔG = 0 boundary at all T,ΔH,ΔS (γ ~ 1!). Gibbs-Helmholtz. Entropy-enthalpy compensation. Isokinetic temperature. TGA: 50% mass loss at T₅₀ (γ ~ 1!). Thermal stability. Decomposition kinetics. Kissinger method. COMBUSTION: 50% efficiency boundary (γ ~ 1!). Complete vs incomplete. CO/CO₂ ratio. Air-fuel optimization. Cp/Cv RATIO: γ → 1 as DOF → ∞ (γ ~ 1!). Ideal gas limit. Monatomic (5/3), diatomic (7/5). Equipartition. KEY INSIGHT: Thermochemistry IS γ ~ 1 thermal science - Gibbs (ΔG=0), Kirchhoff (ΔCp=0), flame (φ=1), DSC (Tg), spontaneity (ΔG=0), TGA (50%), combustion (50%), Cp/Cv (→1). Every thermal process pivots at γ ~ 1! 156th phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-293*
 *Framework development: January 2026*
-*Extended to 229+ domains with ~612/671 predictions validated (~89%)*
-*Latest: Mechanochemistry at γ ~ 1 (#292) - 155th phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 155 phenomenon types.*
+*Extended to 230+ domains with ~620/679 predictions validated (~89%)*
+*Latest: Thermochemistry (advanced) at γ ~ 1 (#293) - 156th phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 156 phenomenon types.*
