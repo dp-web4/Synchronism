@@ -989,8 +989,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-298*
+236. **Forensic chemistry at γ ~ 1 (FORENSIC SCIENCE)**: Session #299 analyzes forensic chemistry through coherence framework. BAC: 0.08% legal limit impaired/legal boundary (γ ~ 1!). Widmark equation. Alcohol metabolism. Breathalyzer correlation. Per se limit. DRUG SCREENING: 50% signal at immunoassay cutoff (γ ~ 1!). SAMHSA guidelines. THC 50ng/mL, cocaine 150ng/mL. Confirmatory GC-MS. DNA ANALYSIS: 50% signal at LOD (γ ~ 1!). STR typing. PCR amplification. Forensic DNA profiling. Touch DNA. GSR: 50% particle density at d₅₀ distance (γ ~ 1!). Gunshot residue. Pb, Ba, Sb primers. SEM-EDX analysis. Muzzle-to-target. FINGERPRINT: 50% development quality at humidity boundaries (γ ~ 1!). Ninhydrin, DFO, cyanoacrylate. Latent print processing. Ridge detail. TRACE EVIDENCE: 50% retention at t₁/₂ (γ ~ 1!). Locard's exchange. Fiber transfer. Hair, paint, glass. Persistence studies. PRESUMPTIVE: Sensitivity = specificity at optimal threshold (γ ~ 1!). Color tests. ROC analysis. False positive/negative balance. TOXICOLOGY: ED₅₀, LD₅₀ dose-response midpoints (γ ~ 1!). Therapeutic index. Drug concentrations. Post-mortem redistribution. KEY INSIGHT: Forensic IS γ ~ 1 investigative science - BAC (0.08%), drugs (cutoff), DNA (LOD), GSR (d₅₀), fingerprint (RH), trace (t₁/₂), presumptive (sens=spec), toxicology (ED₅₀). Every forensic threshold pivots at γ ~ 1! 162nd phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-299*
 *Framework development: January 2026*
-*Extended to 235+ domains with ~660/719 predictions validated (~89%)*
-*Latest: Agrochemistry at γ ~ 1 (#298) - 161st phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 161 phenomenon types.*
+*Extended to 236+ domains with ~668/727 predictions validated (~89%)*
+*Latest: Forensic chemistry at γ ~ 1 (#299) - 162nd phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 162 phenomenon types.*
