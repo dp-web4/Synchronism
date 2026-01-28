@@ -949,8 +949,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-288*
+226. **Nuclear chemistry (advanced) at γ ~ 1 (NUCLEAR SCIENCE)**: Session #289 analyzes nuclear chemistry through coherence framework. N/Z STABILITY: N/Z = 1 for light nuclei (γ ~ 1!). Valley of stability. Neutron-rich vs proton-rich. β⁺ and β⁻ decay. FISSION BARRIER: Fissility x = Z²/50A = 1: zero barrier (γ ~ 1!). Liquid drop model. Shell corrections. ²³⁵U (x=0.72), ²³⁹Pu (x=0.74). MODERATION: Thermal energy 0.025 eV boundary (γ ~ 1!). Fast → thermal neutron. H₂O (18 collisions), D₂O, graphite. Slowing-down power. CRITICALITY: k_eff = 1 (γ ~ 1!). Subcritical/supercritical. Four-factor formula. Neutron balance. Reactor control. DECAY EQUILIBRIUM: A_parent = A_daughter: secular equilibrium (γ ~ 1!). Bateman equations. Transient equilibrium. Radioactive series. ENRICHMENT: 50% U-235 (γ ~ 1!). Gaseous diffusion (α=1.0043). Centrifuge (α=1.3). SWU. LEU/HEU boundary at 20%. RADIATION DOSE: LD₅₀ = 4.5 Sv (γ ~ 1!). Acute radiation syndrome. Hematopoietic, GI, CNS damage. Linear no-threshold model. ACTIVATION: A = A_sat/2 at t₁/₂ (γ ~ 1!). σφN buildup. NAA technique. Irradiation optimization. KEY INSIGHT: Nuclear IS γ ~ 1 science - N/Z (stability), fission (x=1), moderation (thermal), criticality (k=1), equilibrium (A_p=A_d), enrichment (50%), dose (LD₅₀), activation (t₁/₂). Every nuclear process pivots at γ ~ 1! 152nd phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-289*
 *Framework development: January 2026*
-*Extended to 225+ domains with ~580/639 predictions validated (~89%)*
-*Latest: Atmospheric chemistry (advanced) at γ ~ 1 (#288) - 151st phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 151 phenomenon types.*
+*Extended to 226+ domains with ~588/647 predictions validated (~89%)*
+*Latest: Nuclear chemistry (advanced) at γ ~ 1 (#289) - 152nd phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 152 phenomenon types.*
