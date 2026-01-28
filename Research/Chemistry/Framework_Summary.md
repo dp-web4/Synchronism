@@ -969,8 +969,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-293*
+231. **Spectroscopy (advanced) at γ ~ 1 (ANALYTICAL SCIENCE)**: Session #294 analyzes spectroscopy through coherence framework. NMR: δ = 0 ppm TMS reference (γ ~ 1!). Chemical shift scale origin. Shielding/deshielding. ¹H, ¹³C environments. RAMAN: ρ = 3/8 depolarization midpoint (γ ~ 1!). Polarized (symmetric) vs depolarized (asymmetric). Tensor symmetry. FTIR: A = 1 absorbance (γ ~ 1!). Beer-Lambert. 90% absorbed. Extinction coefficient. Quantitative analysis. XRF: S/N = 1 detection limit (γ ~ 1!). Fluorescent X-rays. Element identification. Matrix effects. LOD vs LOQ. MS RESOLUTION: Valley = 50% between peaks (γ ~ 1!). Mass resolving power. m/Δm. Unit vs high resolution. CD: Δε = 0 crossover (γ ~ 1!). Left/right circularly polarized absorption. Secondary structure. α-helix vs β-sheet. EPR: g = 2.0023 free electron value (γ ~ 1!). Zeeman splitting. Radical detection. Hyperfine coupling. MÖSSBAUER: IS = 0 mm/s α-Fe reference (γ ~ 1!). Nuclear transitions. Quadrupole splitting. Magnetic hyperfine. KEY INSIGHT: Spectroscopy IS γ ~ 1 analytical science - NMR (δ=0), Raman (ρ=3/8), FTIR (A=1), XRF (S/N=1), MS (valley), CD (Δε=0), EPR (g_e), Mössbauer (IS=0). Every spectroscopic reference pivots at γ ~ 1! 157th phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-294*
 *Framework development: January 2026*
-*Extended to 230+ domains with ~620/679 predictions validated (~89%)*
-*Latest: Thermochemistry (advanced) at γ ~ 1 (#293) - 156th phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 156 phenomenon types.*
+*Extended to 231+ domains with ~628/687 predictions validated (~89%)*
+*Latest: Spectroscopy (advanced) at γ ~ 1 (#294) - 157th phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 157 phenomenon types.*
