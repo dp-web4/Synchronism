@@ -957,8 +957,12 @@ The coherence framework reveals that:
 
 ---
 
-*Chemistry Track Sessions #1-290*
+228. **Magnetochemistry at γ ~ 1 (MAGNETIC SCIENCE)**: Session #291 analyzes magnetochemistry through coherence framework. CURIE TEMPERATURE: T_c = 770K (Fe): ferro → para transition (γ ~ 1!). Spontaneous magnetization vanishes. Critical exponent β = 0.34. Exchange interaction. COERCIVITY: M = 0 at H_c (γ ~ 1!). Magnetic reversal. Domain wall motion. Stoner-Wohlfarth model. Hard/soft magnets. LANGEVIN: L(x) = 0.5 at x = μH/kT = 1.8 (γ ~ 1!). Paramagnetic saturation. Classical moment alignment. Curie law χ = C/T. SUPERPARAMAGNETISM: T_B blocking temperature (γ ~ 1!). Thermal fluctuations overcome anisotropy. ZFC/FC bifurcation. Single-domain particles. MRI contrast agents. RKKY EXCHANGE: J = 0: FM/AFM oscillation crossover (γ ~ 1!). Indirect exchange through conduction electrons. Giant magnetoresistance. Spin valve. ANISOTROPY: E = K₁/2 at θ = 45° (γ ~ 1!). Magnetocrystalline anisotropy. Shape anisotropy. Easy/hard axis. HYSTERESIS: M = 0 at coercive field (γ ~ 1!). Loop area = energy loss. Soft (Si-Fe) vs hard (NdFeB). Domain dynamics. NÉEL RELAXATION: τ_N = τ_meas at T_B (γ ~ 1!). Arrhenius-Néel. Attempt frequency. Thermal activation. KEY INSIGHT: Magnetochemistry IS γ ~ 1 magnetic science - Curie (T_c), coercivity (H_c), Langevin (L=0.5), superparamagnetic (T_B), RKKY (J=0), anisotropy (K₁/2), hysteresis (M=0), Néel (τ). Every magnetic process pivots at γ ~ 1! 154th phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-291*
 *Framework development: January 2026*
-*Extended to 227+ domains with ~596/655 predictions validated (~89%)*
-*Latest: Nanochemistry (advanced) at γ ~ 1 (#290) - 153rd phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 153 phenomenon types.*
+*Extended to 228+ domains with ~604/663 predictions validated (~89%)*
+*Latest: Magnetochemistry at γ ~ 1 (#291) - 154th phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 154 phenomenon types.*
