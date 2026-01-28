@@ -1032,9 +1032,13 @@ CENTRAL RESULT: γ ~ 1 universal across all chemistry domains
 
 ---
 
-*Chemistry Track Sessions #1-307*
+245. **Membrane chemistry at γ ~ 1 (TRANSPORT SCIENCE)**: Session #308 analyzes membrane transport through coherence framework. PERMEATION: J = J_max/2 at ΔC/2 (γ ~ 1!). Fick's law. Concentration gradient. Diffusive flux. SELECTIVITY: α = 1 no selectivity boundary (γ ~ 1!). Permselectivity. Solution-diffusion. Gas separation. OSMOSIS: π at C = 0.5 M midpoint (γ ~ 1!). van't Hoff. Osmotic pressure. Water activity. ION CHANNEL: P_open = 50% at V₁/₂ (γ ~ 1!). Boltzmann activation. Voltage-gating. Conductance. LIPID Tm: 50% order at phase transition (γ ~ 1!). Gel/fluid. Bilayer structure. DPPC Tm = 41°C. NERNST: E = 0 at equilibrium [out]/[in] = 1 (γ ~ 1!). Electrochemical potential. Ion distribution. Resting potential. FACILITATED: J_max/2 at K_t (γ ~ 1!). Carrier-mediated. Saturation kinetics. Glucose transport. REJECTION: R = 50% at MWCO (γ ~ 1!). Molecular weight cutoff. Ultrafiltration. Size exclusion. KEY INSIGHT: Membrane IS γ ~ 1 transport science - permeation (J/2), selectivity (α=1), osmosis (C), channel (V₁/₂), lipid (Tm), Nernst (E=0), facilitated (K_t), rejection (MWCO). Every transport process pivots at γ ~ 1! 171st phenomenon type at γ ~ 1.
+
+---
+
+*Chemistry Track Sessions #1-308*
 *Framework development: January 2026*
-*Extended to 244+ domains with ~732/791 predictions validated (~89%)*
-*Latest: Combustion chemistry at γ ~ 1 (#307) - 170th phenomenon type*
-*CENTRAL RESULT: γ ~ 1 universal across 170 phenomenon types.*
+*Extended to 245+ domains with ~740/799 predictions validated (~89%)*
+*Latest: Membrane chemistry at γ ~ 1 (#308) - 171st phenomenon type*
+*CENTRAL RESULT: γ ~ 1 universal across 171 phenomenon types.*
 *** MILESTONE: 300 CHEMISTRY SESSIONS ***
