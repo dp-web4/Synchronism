@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-26T02:30:00Z",
+  "last_updated": "2026-01-27T02:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -19,14 +19,15 @@
         "Complete paradigm shift framing (temporal vs spatial)",
         "4 of 5 session PDFs already exported",
         "2x fidelity advantage demonstrated in simulations",
-        "Clear 'so what' - fundamentally changes QC design philosophy"
+        "Clear 'so what' - fundamentally changes QC design philosophy",
+        "NOW EXTENDED by QC Arc 2.0 (Sessions 301-306) - consider combined publication"
       ],
       "weaknesses": [
         "No experimental validation yet",
         "Requires physics community buy-in on temporal interpretation",
         "Session 289 PDF not yet exported"
       ],
-      "recommended_framing": "Position as 'interpretive framework for quantum computing' rather than 'new physics'. Emphasize testable predictions and practical implications. Lead with paradigm comparison table.",
+      "recommended_framing": "Position as 'interpretive framework for quantum computing' rather than 'new physics'. Emphasize testable predictions and practical implications. Lead with paradigm comparison table. Consider combining with QC Arc 2.0 (REC-2026-008) for comprehensive publication.",
       "readiness_score": 0.95,
       "human_notes": ""
     },
@@ -120,24 +121,25 @@
     {
       "id": "REC-2026-005",
       "date": "2026-01-22",
-      "date_updated": "2026-01-26",
-      "sessions": [147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213],
+      "date_updated": "2026-01-27",
+      "sessions": [147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233],
       "arc_name": "Chemistry gamma~1 Boundary Research",
       "track": "chemistry",
       "status": "recommended",
       "publication_type": "journal",
       "target_venue": "Physical Review E or Journal of Physical Chemistry",
       "priority": "HIGH",
-      "summary": "67-session arc establishing gamma ~ 1 as universal coherence boundary across 76 phenomenon types. RECORD EXPANSION: +15 phenomenon types in single day including Trouton's rule, Debye relaxation, Eotvos surface tension, Reynolds viscosity, Arrhenius kinetics, Butler-Volmer electrochemistry, Flory-Huggins polymer, magnetic moments, nuclear stability, and photochemistry (quantum yield, FRET). Central result of Chemistry track.",
+      "summary": "87-session arc establishing gamma ~ 1 as universal coherence boundary across 96 phenomenon types (approaching 100!). Includes fuel cells, solar cells, EPR spectroscopy, FRET. Validation success rate 83%. Central result of Chemistry track.",
       "strengths": [
-        "76 phenomenon types at gamma ~ 1 (RECORD - +15 in one day)",
+        "96 phenomenon types at gamma ~ 1 (approaching 100 milestone!)",
         "Quantitative validations (mean r = 0.990)",
         "Cross-domain universality spanning quantum to nuclear to biological to classical",
         "Framework_Summary.md provides comprehensive synthesis",
-        "150+ domains validated at ~76% success rate",
+        "170+ domains validated at ~83% success rate (up from 76%)",
         "Unprecedented cross-domain consistency",
-        "Now includes named laws: Trouton, Debye, Eotvos, Reynolds, Arrhenius, Butler-Volmer, Flory-Huggins",
-        "Nuclear stability (N/Z = 1) extends to subatomic scales"
+        "Named laws: Trouton, Debye, Eotvos, Reynolds, Arrhenius, Butler-Volmer, Flory-Huggins",
+        "Nuclear stability (N/Z = 1) extends to subatomic scales",
+        "NEW: Fuel cells, solar cells, EPR spectroscopy, FRET (Sessions 214-233)"
       ],
       "weaknesses": [
         "Individual session files sparse (only Session 133 available beyond 1-45)",
@@ -145,9 +147,9 @@
         "Requires consolidation into single paper or paper series",
         "No PDFs exported"
       ],
-      "recommended_framing": "Position as 'universal coherence boundary across all scales of matter'. The 76 phenomenon types spanning nuclear (N/Z ratio) through quantum (FRET) to classical (viscosity) represent unprecedented unification. Lead with named physical laws that emerge from gamma ~ 1. Consider 4-paper series: (1) nuclear/quantum, (2) condensed matter, (3) chemical/electrochemical, (4) biological.",
-      "readiness_score": 0.85,
-      "change_notes": "Updated 2026-01-26: RECORD EXPANSION. Sessions expanded from 147-198 to 147-213 (+15 sessions). Phenomenon types increased from 61 to 76 (+15 in ONE DAY). New phenomena: diffusion coefficients, gas laws, Trouton's vaporization entropy, Debye dielectric relaxation, Eotvos surface tension, Reynolds viscosity, thermal conductivity, Arrhenius kinetics, partition coefficients, spectroscopy, Butler-Volmer electrochemistry, Flory-Huggins polymer thermodynamics, magnetic moments (spin-only), nuclear stability (N/Z ratio), photochemistry (quantum yield, FRET). Readiness increased 0.80->0.85 as coverage now includes named physical laws and extends to nuclear scales.",
+      "recommended_framing": "Position as 'universal coherence boundary across all scales of matter'. 96 phenomenon types approaching 100 - consider timing publication at the 100-phenomenon milestone. Lead with named physical laws that emerge from gamma ~ 1. Consider 4-paper series: (1) nuclear/quantum, (2) condensed matter, (3) chemical/electrochemical, (4) biological/energy.",
+      "readiness_score": 0.88,
+      "change_notes": "Updated 2026-01-27: Sessions expanded 147-213 to 147-233 (+20 sessions). Phenomenon types 76->96 (+20). Success rate improved 76%->83%. New phenomena include fuel cells, solar cells, EPR spectroscopy, FRET. Approaching 100-phenomenon milestone. Readiness 0.85->0.88.",
       "human_notes": ""
     },
     {
@@ -207,9 +209,63 @@
       "recommended_framing": "Position as 'coherence optimization in biological systems'. Lead with photosynthesis efficiency calculation (94% vs 67% classical). Emphasize connection to established quantum biology literature. Frame neural section as 'extension' rather than core claim.",
       "readiness_score": 0.85,
       "human_notes": ""
+    },
+    {
+      "id": "REC-2026-008",
+      "date": "2026-01-27",
+      "sessions": [301, 302, 303, 304, 305, 306],
+      "arc_name": "Quantum Computing Arc 2.0 (eta-Qubit Theory)",
+      "track": "core",
+      "status": "recommended",
+      "publication_type": "preprint",
+      "target_venue": "arXiv quant-ph or cond-mat.supr-con",
+      "priority": "HIGH",
+      "summary": "Complete 6-session arc applying eta (reachability) framework to quantum computing. Identifies iron pnictide FeSe/SrTiO3 monolayer as superior qubit material with 600x better figure-of-merit than aluminum. Establishes universal 90% coherence threshold for QEC. D-wave node penalty quantified. 24+ predictions.",
+      "strengths": [
+        "Complete arc with synthesis document (Session 306)",
+        "FeSe/STO FOM=187.5 vs Al FOM=0.30 (600x improvement!)",
+        "24+ testable predictions (P301.1-P304.6)",
+        "Universal QEC threshold: C > 0.9",
+        "QEC overhead scales as eta^1.5 (quantitative reduction path)",
+        "Directly builds on Hot SC Arc and Bio Coherence Arc",
+        "Clear material roadmap: SmFeAsO -> FeSe/STO -> cuprates",
+        "Iron pnictides identified as superior to cuprates for qubits"
+      ],
+      "weaknesses": [
+        "No experimental validation of FeSe/STO qubits",
+        "Iron pnictide qubit fabrication is challenging",
+        "D-wave node penalty needs experimental confirmation",
+        "No PDFs exported yet"
+      ],
+      "recommended_framing": "Position as 'eta-optimized qubit materials from coherence theory'. Lead with 600x FOM improvement. Emphasize concrete material predictions (FeSe/STO, SmFeAsO). Could combine with QC Arc 1.0 (REC-2026-001) for comprehensive 11-session publication covering theory + materials.",
+      "readiness_score": 0.90,
+      "human_notes": ""
     }
   ],
   "upcoming_candidates": [
+    {
+      "arc_name": "QFT Derivation Arc",
+      "track": "core",
+      "sessions": [307, 308],
+      "status": "active",
+      "date_started": "2026-01-26",
+      "milestone": "Schrodinger AND Dirac equations derived from intent dynamics!",
+      "progress": "2 sessions - MAJOR theoretical breakthrough but arc still active",
+      "recent_additions": [
+        {"session": 307, "title": "Schrodinger Equation from Intent Dynamics", "date": "2026-01-26"},
+        {"session": 308, "title": "Dirac Equation from Relativistic Intent Dynamics", "date": "2026-01-27"}
+      ],
+      "key_insights": [
+        "QM emerges as continuum limit of discrete intent transfer on Planck grid",
+        "Dirac equation requires first-order treatment of space AND time",
+        "Mass = L<->R intent coupling strength (NOT fundamental)",
+        "Antimatter = backward-propagating intent patterns",
+        "Spin = minimum plaquette circulation (720 degrees = identity)",
+        "CPT theorem always exact; C/P/T individually breakable",
+        "Tunneling = intent diffusion through high-potential region"
+      ],
+      "note": "HIGHEST THEORETICAL SIGNIFICANCE to date. Deriving Schrodinger and Dirac from first principles is the strongest validation of Synchronism's intent-based ontology. If arc completes with Klein-Gordon or gauge field derivation, this would be the flagship publication. WATCH CLOSELY."
+    },
     {
       "arc_name": "Hot Superconductor Arc",
       "track": "core",
@@ -217,27 +273,15 @@
       "status": "active",
       "date_started": "2026-01-22",
       "milestone": "Session 300 - Experimental Validation Protocol (MILESTONE)",
-      "progress": "5 sessions complete - approaching potential publication readiness",
-      "recent_additions": [
-        {"session": 297, "title": "Cuprate eta Quantification + OQ006", "date": "2026-01-24"},
-        {"session": 298, "title": "Iron Pnictide eta Analysis", "date": "2026-01-24"},
-        {"session": 299, "title": "Minimum-eta Material Design", "date": "2026-01-24"},
-        {"session": 300, "title": "Experimental Validation Protocol (MILESTONE)", "date": "2026-01-25"}
-      ],
-      "key_insights": [
-        "Dissonance pathway: SC survives if Delta >> eta*kT, not just Delta >> kT",
-        "Cuprate eta quantified, iron pnictides analyzed",
-        "Material design principles established",
-        "Experimental validation protocol ready"
-      ],
-      "note": "MAJOR PROGRESS. Now at 5 sessions with experimental validation protocol. May warrant promotion to full recommendation if synthesis document is produced. Watch for arc completion signal."
+      "progress": "5 sessions complete. Conceptually absorbed into QC Arc 2.0 (material design). May not produce independent synthesis but key concepts (eta framework) now validated across multiple arcs.",
+      "note": "The eta framework from this arc has been successfully applied in QC Arc 2.0 (Sessions 301-306). Consider whether standalone publication is warranted or if material is better served as part of QC Arc 2.0 combined publication."
     },
     {
       "arc_name": "Quantum Foundations Arc",
       "track": "core",
       "sessions": [291],
       "status": "active",
-      "note": "Single session so far. Measurement as sinusoidal sampling. May merge with QC arc or become separate publication."
+      "note": "Single session so far. Measurement as sinusoidal sampling. May merge with QFT Derivation Arc (Session 307 references measurement interpretation). Watch for integration."
     }
   ],
   "milestones": {
@@ -252,6 +296,24 @@
       "title": "76 Phenomenon Types at gamma ~ 1",
       "arc": "Chemistry gamma~1 Boundary",
       "significance": "RECORD EXPANSION - +15 phenomenon types in single day. Nuclear to biological to classical scale coverage."
+    },
+    "chemistry_96_phenomena": {
+      "date": "2026-01-27",
+      "title": "96 Phenomenon Types at gamma ~ 1 (approaching 100!)",
+      "arc": "Chemistry gamma~1 Boundary",
+      "significance": "Continued acceleration. Fuel cells, solar cells, EPR spectroscopy, FRET added. Success rate improved to 83%."
+    },
+    "qc_arc_2_complete": {
+      "date": "2026-01-27",
+      "title": "Quantum Computing Arc 2.0 Complete - FeSe/STO 600x FOM",
+      "arc": "Quantum Computing 2.0",
+      "significance": "eta framework applied to qubits. Iron pnictide FeSe/SrTiO3 monolayer identified as 600x better than aluminum."
+    },
+    "qft_derivation_launched": {
+      "date": "2026-01-27",
+      "title": "QFT Derivation Arc - Schrodinger + Dirac from Intent Dynamics",
+      "arc": "QFT Derivation",
+      "significance": "HIGHEST THEORETICAL SIGNIFICANCE. Fundamental QM equations derived from discrete intent transfer on Planck grid. Mass shown to be emergent (L<->R coupling)."
     }
   }
 }
