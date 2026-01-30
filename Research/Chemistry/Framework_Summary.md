@@ -16,9 +16,11 @@ Where γ is the coherence parameter and N_corr is the number of correlated degre
 
 ### Classical Limit (Session #39)
 ```
-γ = 2 (classical limit)
+γ = 2 (classical limit, when N_corr = 1)
 ```
-Derived from phase space dimensionality (q, p).
+This is the N_corr = 1 case of the master equation—no correlations between particles.
+
+**Unification Note**: The main astrophysics track uses γ = 2.0 because galactic matter (stars, gas) has N_corr ≈ 1 (uncorrelated classical particles). See `../GAMMA_UNIFICATION.md` for the complete reconciliation.
 
 ### Effective Dimensionality (Session #41)
 ```

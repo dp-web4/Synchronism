@@ -20,11 +20,24 @@ Where:
 
 ## Parameter Derivations
 
-### 1. γ = 2.0 (Phase Space Dimensionality)
+### 1. γ = 2.0 (Phase Space / Classical Limit)
 
-**Source**: Session #64-65
+**Source**: Session #64-65, unified with Chemistry track 2026-01-30
 
-**Derivation**:
+**General Formula** (see `Research/GAMMA_UNIFICATION.md`):
+```
+γ = 2/√N_corr
+```
+Where N_corr = number of correlated particles moving as a unit.
+
+**For Galactic Systems (N_corr = 1)**:
+```
+γ = 2/√1 = 2.0
+```
+
+Stars and gas clouds move independently (no quantum coherence at parsec scales), so N_corr = 1 exactly.
+
+**Original Phase Space Derivation**:
 ```
 γ = d_position + d_momentum - d_constraints
   = 3 + 3 - 4
@@ -35,9 +48,11 @@ The 4 constraint dimensions arise from:
 - 3 momentum conservation constraints
 - 1 energy conservation constraint
 
-**Physical meaning**: γ represents the effective dimensionality of the phase space where coherence can emerge. In 6D phase space with 4 conservation constraints, 2 degrees of freedom remain.
+**Connection**: The phase space derivation implicitly assumes uncorrelated particles. "2 remaining DOF" = the N_corr = 1 limit of γ = 2/√N_corr.
 
-**Falsifiable prediction**: γ = 2.0 ± 0.1 (not 1.5 or 2.5)
+**For Other Systems**: When quantum/collective correlations exist (N_corr > 1), use γ = 2/√N_corr. See Chemistry track: `Research/Chemistry/Session25_Gamma_Derivation.md`
+
+**Falsifiable prediction**: γ = 2.0 ± 0.1 for classical uncorrelated systems
 
 ---
 

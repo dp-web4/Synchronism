@@ -39,6 +39,23 @@ Synchronism provides the theoretical framework that underlies all other projects
 - Active philosophical research and documentation
 - Influences design decisions across all projects
 
+## Critical: γ Parameter Unification (2026-01-30)
+
+**Two γ values appear in the research - they are the SAME parameter:**
+
+```
+γ = 2/√N_corr  (universal formula)
+```
+
+| Track | N_corr | γ | Why |
+|-------|--------|---|-----|
+| Main (astrophysics) | 1 | 2.0 | Stars are uncorrelated classical particles |
+| Chemistry | varies | 2/√N_corr | Quantum/collective correlations exist |
+
+**N_corr** = number of particles moving as a correlated unit. Classical systems have N_corr = 1.
+
+**Reference**: `Research/GAMMA_UNIFICATION.md` - Full derivation and explanation
+
 ## Current Research Focus: Hot Superconductor Arc (Sessions 292, 297+)
 
 **Primary Question (OQ005)**: Can superconductivity exist at T > 50°C (323K) at ambient pressure?
