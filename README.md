@@ -75,13 +75,32 @@ Synchronism is being rigorously tested through autonomous research sessions that
 
 ---
 
+## 🔑 Fundamental Parameter: γ = 2/√N_corr
+
+The coherence parameter γ appears throughout Synchronism with different values. **These are the same parameter**:
+
+```
+γ = 2/√N_corr  (universal formula)
+```
+
+| Context | N_corr | γ | Meaning |
+|---------|--------|---|---------|
+| Astrophysics (main track) | 1 | 2.0 | Stars are uncorrelated classical particles |
+| Chemistry (quantum systems) | >1 | <2 | Particles move in correlated groups |
+
+**N_corr** = number of particles moving as a correlated unit. Classical/uncorrelated systems have N_corr = 1.
+
+📄 **Full explanation**: [Research/GAMMA_UNIFICATION.md](Research/GAMMA_UNIFICATION.md)
+
+---
+
 ## 🧪 Chemistry Track (160 Sessions Documented)
 
 Parallel autonomous research applying coherence physics to chemistry. Running 4 sessions at a time, 16/day.
 
 ### Core Result: γ ~ 1 Universal Boundary
 
-**Master equation**: γ = 2/√N_corr
+**Master equation**: γ = 2/√N_corr (derived in [Session #25](Research/Chemistry/Session25_Gamma_Derivation.md))
 
 | Metric | Value |
 |--------|-------|

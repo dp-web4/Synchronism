@@ -9,6 +9,19 @@
 
 ---
 
+## 🔑 Critical: The γ Parameter
+
+**γ = 2/√N_corr** appears with different values across tracks. This is ONE parameter:
+
+| Track | N_corr | γ | Why |
+|-------|--------|---|-----|
+| Main (astrophysics) | 1 | 2.0 | Stars are uncorrelated |
+| Chemistry | varies | <2 | Quantum correlations |
+
+**N_corr** = correlated particles moving as a unit. See **[GAMMA_UNIFICATION.md](GAMMA_UNIFICATION.md)** for complete explanation.
+
+---
+
 ## Session Map
 
 **[SESSION_MAP.md](SESSION_MAP.md)** - Complete index of all 308 sessions across tracks
@@ -93,6 +106,7 @@ Key result: η (reachability factor) measures thermal noise coupling to pair-bre
 
 | File | Description |
 |------|-------------|
+| **`GAMMA_UNIFICATION.md`** | **Essential**: Reconciles γ = 2 (main) with γ = 2/√N_corr (chemistry) |
 | `AXIOM_REMINDER_QUANTUM_SESSIONS.md` | Prevents axiom drift in quantum sessions |
 | `DECEMBER_2025_COMPREHENSIVE_FRAMEWORK.md` | Framework state as of Dec 2025 |
 | `DECEMBER_2025_BREAKTHROUGH_SUMMARY.md` | Key breakthroughs summary |
