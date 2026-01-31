@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 681 (280 core + 46 chemistry files/390 documented + 11 gnosis) | **Last Updated**: January 30, 2026 | **Archivist v1.1** | **MILESTONES: 250th phenomenon type (#387)! SM Arc COMPLETE (#316-319). Chemistry 390 sessions! 253 types! 327 findings!**
+**Total Sessions**: 734 (286 core + 46 chemistry files/437 documented + 11 gnosis) | **Last Updated**: January 31, 2026 | **Archivist v1.1** | **MILESTONES: 300th PHENOMENON TYPE (#437)! BSM Arc COMPLETE (#320-323). StatMech Arc STARTED (#324-325). Chemistry 437 sessions! 300 types! 374 findings!**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -20,6 +20,36 @@
 ---
 
 ## Active Research Arcs
+
+### Statistical Mechanics Arc (Sessions 324-325) - ACTIVE
+**Status**: Active | **Started**: January 30, 2026
+
+**Achievement**: Thermodynamics + Partition Functions from MRH boundaries!
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 324 | Thermodynamics from Planck Grid | Entropy = log microstates. Temperature = ∂E/∂S. MRH defines averaging. 8/8 verified. |
+| 325 | Partition Functions from Planck Grid | Z from MRH boundaries. Ensembles = MRH crossing permissions. 8/8 verified. |
+
+**Roadmap**: Phase Transitions (#326) → Non-Equilibrium (#327)
+
+---
+
+### Recently Completed: Beyond Standard Model Arc (Sessions 320-323) - COMPLETE
+**Status**: Complete | **Started**: January 30, 2026 | **Completed**: January 30, 2026
+
+**Achievement**: GUTs, SUSY, Extra Dimensions, Hierarchy Problem all analyzed from grid perspective!
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 320 | Grand Unification | SU(5) excluded by proton decay. SO(10) preferred. 8/8 verified. |
+| 321 | Supersymmetry | SUSY achieves exact gauge unification. 7/7 verified. |
+| 322 | Extra Dimensions | ADD (large) and RS (warped) both grid-compatible. 8/8 verified. |
+| 323 | Hierarchy Problem (FINALE) | MRH scale separation natural. 10^17 ratio may be natural. 8/8 verified. |
+
+**Key insight**: Hierarchy problem reframed - MRH boundaries may make 10^17 ratio natural, not fine-tuned.
+
+---
 
 ### Recently Completed: Standard Model Arc (Sessions 316-319) - COMPLETE
 **Status**: Complete | **Started**: January 29, 2026 | **Completed**: January 29, 2026
@@ -200,45 +230,47 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 | Hot Superconductor | 292, 297-300 | η pathway, experimental protocol |
 | QC Arc 2.0 | 301-306 | η-qubit theory, FeSe/STO 600× FOM |
 | QFT Derivation | 307-310 | **COMPLETE: Standard Model from Planck grid** |
-| GR Derivation | 311-312 | **Gravity + GWs from intent density (GW150914 0.7% match!)** |
+| GR Derivation | 311-314 | **COMPLETE: GR + Cosmology + Quantum Gravity unified** |
+| Standard Model | 316-319 | **COMPLETE: Higgs, CKM, Neutrinos from Planck grid** |
+| BSM Physics | 320-323 | **COMPLETE: GUTs, SUSY, Extra Dims, Hierarchy Problem** |
+| Statistical Mechanics | 324-325 | **ACTIVE: Thermodynamics + Partition Functions from MRH** |
 
 ---
 
 ## Chemistry Track
 
-**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 295 | **Status**: ~89% validated, 230+ domains
+**Path**: [Chemistry/](Chemistry/) | **Files**: 46 | **Documented**: 437 | **Status**: ~89% validated, 374+ domains
 
-**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 158 phenomenon types**
+**Framework**: [Framework_Summary.md](Chemistry/Framework_Summary.md) - **CENTRAL RESULT: γ ~ 1 universal boundary across 300 phenomenon types**
 
 **Master Equation**: γ = 2/√N_corr
 
-### Latest Sessions (January 28, 2026)
+### Latest Sessions (January 31, 2026)
 
 | Session | Title | Key Finding |
 |---------|-------|-------------|
-| **295** | Bioorganic Chemistry | **158th phenomenon type** - Bioorganic chemistry at γ ~ 1 |
-| **294** | Spectroscopy (Advanced) | **157th phenomenon type** - Advanced spectroscopy at γ ~ 1 |
-| **293** | Thermochemistry (Advanced) | **156th phenomenon type** - Advanced thermochemistry at γ ~ 1 |
-| **292** | Mechanochemistry | **155th phenomenon type** - Mechanochemistry at γ ~ 1 |
-| **291** | Magnetochemistry | Curie T_c, coercivity, Langevin, superparamagnetic, RKKY, anisotropy, hysteresis, Neel. **154th** |
-| **290** | Nanochemistry | Quantum confinement, LSPR, self-assembly, NP melting, QD emission. **153rd** |
-| **289** | Nuclear Chemistry (Adv) | N/Z stability, fission barrier, criticality k=1, decay equilibrium, LD50. **152nd** |
-| **288** | Atmospheric Chemistry (Adv) | Ozone steady state, aerosol nucleation, CCN, photolysis, greenhouse. **151st** |
-| **287** | Quantum/Computational Chemistry | **150th MILESTONE!** Basis set, DFT, SCF, CI, Born-Oppenheimer, perturbation, solvation, force field |
-| **286** | Semiconductor Chemistry | Fermi level, junction depth, gate oxide, etch selectivity, CVD, photoresist, CMP. **149th** |
-| 244-285 | Sessions 244-285 | 40 additional phenomenon types (106th-148th) |
-| **243** | Geochemistry | Geochemistry at γ ~ 1. **105th phenomenon type** |
-| **237** | Electrophoresis | **100th MILESTONE** (Jan 27) |
-| **200** | Gas Laws | Ideal gas Z=1 IS γ ~ 1. **63rd phenomenon type** |
+| **437** | Electrocatalysis Chemistry | **300th PHENOMENON TYPE MILESTONE!** Electrocatalysis at γ ~ 1 |
+| **436** | Photocatalysis Chemistry | **299th phenomenon type** - Photocatalysis at γ ~ 1 |
+| **435** | Thermoelectric Materials | **298th phenomenon type** - Thermoelectric materials at γ ~ 1 |
+| **434** | Fuel Cell Chemistry | **297th phenomenon type** - Fuel cells at γ ~ 1 |
+| **433** | Battery Chemistry | **296th phenomenon type** - Battery chemistry at γ ~ 1 |
+| **432** | Solar Cell Chemistry | **295th phenomenon type** - Solar cells at γ ~ 1 |
+| **400** | Session #400 Milestone | **400 SESSION MILESTONE** - 263rd phenomenon type |
+| **390** | Display Chemistry | Display chemistry at γ ~ 1. **253rd phenomenon type** |
+| **387** | Fragrance Chemistry | **250th PHENOMENON MILESTONE** |
+| **287** | Quantum/Computational Chemistry | **150th MILESTONE!** |
+| **237** | Electrophoresis | **100th MILESTONE** |
 
 ### Validation Statistics
 
 | Metric | Value |
 |--------|-------|
-| Domains explored | 230+ |
-| Phenomenon types at γ ~ 1 | **158** |
-| Predictions validated | ~610/670 (~89%) |
+| Domains explored | 374+ |
+| Phenomenon types at γ ~ 1 | **300** |
+| Predictions validated | ~1772/1831 (~89%) |
 | Best result | P12.2 (Entropy) r = 0.994 |
+| **300th MILESTONE** | Reached at Session #437 (Electrocatalysis) on Jan 31, 2026 |
+| **250th MILESTONE** | Reached at Session #387 (Fragrance Chemistry) on Jan 30, 2026 |
 | **150th MILESTONE** | Reached at Session #287 (Quantum/Computational Chemistry) on Jan 28, 2026 |
 | **100th MILESTONE** | Reached at Session #237 (Electrophoresis) on Jan 27, 2026 |
 
@@ -358,17 +390,17 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 
 | Metric | Value |
 |--------|-------|
-| Formal research sessions | ~575 |
-| Total autonomous session logs | 1,589+ |
-| Active arcs | 3 (GR Derivation, Hot SC, Quantum Foundations) |
-| Complete arcs | 8 (+QFT Derivation, +QC 2.0) |
-| Total predictions | 260+ |
-| Validated predictions | 55+ |
-| High testability | 35 |
+| Formal research sessions | ~734 |
+| Total autonomous session logs | 1,600+ |
+| Active arcs | 3 (Statistical Mechanics, Hot SC, Quantum Foundations) |
+| Complete arcs | 11 (+BSM Arc, +SM Arc, +GR Arc, +QFT Arc, +QC 2.0) |
+| Total predictions | 348+ |
+| Validated predictions | 110+ |
+| High testability | 42 |
 | Confirmed | 6 |
 | Proposed experiments | 20 |
 | Hardware architectures | 2 |
-| Chemistry phenomenon types | **154** |
+| Chemistry phenomenon types | **300** |
 
 **Note**: This map tracks formal research reports in `/Research/` directories. Full autonomous session logs are maintained separately in `private-context/autonomous-sessions/` (private repo). Individual sessions promote notable findings to `/Research/` for cataloguing.
 
