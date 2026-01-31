@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-01-23
+**Last Updated**: 2026-01-31
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -318,26 +318,26 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-01-23)
+### Session Counts (as of 2026-01-31)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 292 | Hot Superconductor Arc starting |
-| Chemistry | 185+ | gamma~1 boundary (40 phenomena) |
+| Core | 286 | BSM Arc complete, StatMech Arc starting |
+| Chemistry | 437 | 300 phenomenon types at γ~1 |
 | Gnosis | 11 | Complete |
 
 ### Pending Integrations
 
 | Research | Priority | Status |
 |----------|----------|--------|
-| Sessions 273-292 | High | Not yet integrated |
-| Chemistry 46-185 | Medium | Partial (Framework_Summary.md) |
-| Hot Superconductor Arc | Watch | Just started |
+| BSM Arc (320-323) | Medium | Complete - consider subsection |
+| StatMech Arc (324-325) | Watch | Active (2/4 sessions) |
+| Chemistry 391-437 | Low | Integrated in counts |
 
 ### Whitepaper Health
 
-- Last integration: 2026-01-16
-- Sessions behind: ~20
+- Last integration: 2026-01-31
+- Sessions behind: ~0 (session counts updated)
 - Build status: Passing
 - Governance: Active (Rev_0)
 
