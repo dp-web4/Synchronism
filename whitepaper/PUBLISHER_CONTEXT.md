@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-01-31
+**Last Updated**: 2026-02-02
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -318,27 +318,29 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-01-31)
+### Session Counts (as of 2026-02-02)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 286 | BSM Arc complete, StatMech Arc starting |
-| Chemistry | 437 | 300 phenomenon types at γ~1 |
+| Core | 339 | StatMech, InfoTheory, Cosmology2, Emergence arcs complete |
+| Chemistry | 500 | 363 phenomenon types at γ~1 |
 | Gnosis | 11 | Complete |
 
 ### Pending Integrations
 
 | Research | Priority | Status |
 |----------|----------|--------|
-| BSM Arc (320-323) | Medium | Complete - consider subsection |
-| StatMech Arc (324-325) | Watch | Active (2/4 sessions) |
-| Chemistry 391-437 | Low | Integrated in counts |
+| StatMech Arc (324-327) | HIGH | **INTEGRATED** - ξ = MRH |
+| InfoTheory Arc (328-331) | HIGH | **INTEGRATED** - Black hole paradox resolved |
+| Cosmology2 Arc (332-335) | HIGH | **INTEGRATED** - Horizons = MRH |
+| Emergence Arc (336-339) | HIGH | **INTEGRATED** - Consciousness = self-modeling |
+| Chemistry 438-500 | Low | Integrated in counts |
 
 ### Whitepaper Health
 
-- Last integration: 2026-01-31
-- Sessions behind: ~0 (session counts updated)
-- Build status: Passing
+- Last integration: 2026-02-02
+- Sessions behind: ~0 (statistics updated)
+- Build status: Rebuild in progress
 - Governance: Active (Rev_0)
 
 ---
