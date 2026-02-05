@@ -400,6 +400,78 @@ Read Archivist output:
 
 ---
 
+## Collective Coordination Logging (NEW - 2026-02-05)
+
+**CRITICAL**: Every Publisher run MUST also update the collective coordination log.
+
+### Why This Matters
+
+The autonomous collective uses a coordinated logging pattern:
+- **Archivist** (04:00 UTC) → logs to `private-context/archivist/log.md`
+- **Publisher** (02:30 UTC) → logs to `private-context/publisher/log.md`
+- **Supervisor** (03:30 UTC) → reads both logs, verifies health
+
+Without Publisher logging, the Supervisor cannot verify Publisher health and the coordination loop is broken.
+
+### At Session Start
+
+Read the Archivist log for context:
+
+```bash
+head -30 /mnt/c/exe/projects/ai-agents/private-context/archivist/log.md
+```
+
+Use this to:
+- Focus on repos with new sessions
+- Skip repos with no recent activity
+- Follow up on flagged anomalies
+
+### At Session End
+
+Append to the collective log at `private-context/publisher/log.md`.
+
+**Log Entry Format** (append at TOP, after header):
+
+```markdown
+## YYYY-MM-DD HH:MM — Publisher Run
+
+**Archivist context**: [brief summary of what archivist reported]
+**READMEs updated**: N
+**Publication candidates**: M identified
+**Whitepaper proposals**: X
+**Actions taken**: [list]
+
+Brief summary of work done.
+
+---
+```
+
+### Log Location
+
+```
+/mnt/c/exe/projects/ai-agents/private-context/publisher/log.md
+```
+
+### Example Entry
+
+```markdown
+## 2026-02-04 02:35 — Publisher Run
+
+**Archivist context**: Integration Arc complete (#360-363), Technology Arc (#364-367)
+**READMEs updated**: 0
+**Publication candidates**: 2 new (REC-2026-022, REC-2026-023)
+**Whitepaper proposals**: 7 (ONE EQUATION integration critical)
+**Actions taken**: Updated recommendations.json, generated daily report
+
+Integration Arc complete with ONE EQUATION γ = 2/√N_corr.
+Technology Arc adds practical applications.
+Whitepaper critically needs update for sessions 292-368.
+
+---
+```
+
+---
+
 ## Human Interaction Points
 
 The Publisher **recommends and maintains**, the human **decides**:
