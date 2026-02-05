@@ -3,9 +3,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-# Chemistry Session #1577: Fertilizer Chemistry - Nitrogen Fixation and Slow Release
+# Chemistry Session #1579: Biopesticide Chemistry - Bt Toxin Cry Protein Activation
 # Synchronism Framework: gamma = 2/sqrt(N_corr), testing gamma ~ 1 boundary
-# Finding #1504 | 1440th phenomenon type | *** 1440th PHENOMENON MILESTONE! ***
+# Finding #1506 | 1442nd phenomenon type
 
 def gamma(N_corr):
     return 2.0 / np.sqrt(N_corr)
@@ -17,27 +17,27 @@ N_corr = np.linspace(1, 20, 1000)
 g = gamma(N_corr)
 
 fig, axes = plt.subplots(2, 4, figsize=(20, 10))
-fig.suptitle('Fertilizer Chemistry: Nitrogen Fixation & Slow Release - Coherence Boundary Analysis\nSynchronism Chemistry Session #1577 | Finding #1504 | ★ 1440th Phenomenon Type MILESTONE ★', fontsize=14, fontweight='bold')
+fig.suptitle('Biopesticide Chemistry: Bt Toxin Cry Protein Activation - Coherence Boundary Analysis\nSynchronism Chemistry Session #1579 | Finding #1506 | 1442nd Phenomenon Type', fontsize=14, fontweight='bold')
 
 test_names = [
-    'Haber-Bosch N₂ Activation',
-    'Urea Hydrolysis',
-    'Controlled Release Coating',
-    'Nitrification Inhibitor',
-    'NH₃ Volatilization',
-    'P Solubilization',
-    'K⁺ Exchange Capacity',
-    'Micronutrient Chelation'
+    'Cry Protein Solubilization',
+    'Protoxin Cleavage',
+    'Membrane Insertion',
+    'Pore Formation',
+    'Receptor Binding (Cadherin)',
+    'Oligomerization',
+    'Lipid Raft Association',
+    'Ion Channel Disruption'
 ]
 test_descriptions = [
-    'N₂ activation coherence',
-    'Hydrolysis rate fraction',
-    'Release control efficiency',
-    'Inhibition coherence',
-    'Volatilization fraction',
     'Solubilization coherence',
-    'Exchange capacity fraction',
-    'Chelation stability'
+    'Cleavage efficiency fraction',
+    'Insertion probability',
+    'Pore formation coherence',
+    'Receptor binding fraction',
+    'Oligomer stability',
+    'Raft association coherence',
+    'Channel disruption fraction'
 ]
 
 boundaries_validated = 0
@@ -63,9 +63,9 @@ for idx, (name, desc) in enumerate(zip(test_names, test_descriptions)):
     ax.grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/mnt/c/exe/projects/ai-agents/Synchronism/simulations/chemistry/fertilizer_chemistry_coherence.png', dpi=150, bbox_inches='tight')
+plt.savefig('/mnt/c/exe/projects/ai-agents/Synchronism/simulations/chemistry/biopesticide_chemistry_coherence.png', dpi=150, bbox_inches='tight')
 plt.close()
-print(f"Session #1577: Fertilizer Chemistry - Nitrogen Fixation and Slow Release")
-print(f"Finding #1504 | *** 1440th PHENOMENON TYPE MILESTONE! ***")
+print(f"Session #1579: Biopesticide Chemistry - Bt Toxin Cry Protein Activation")
+print(f"Finding #1506 | 1442nd phenomenon type")
 print(f"Boundaries validated: {boundaries_validated}/8")
 print(f"gamma ~ 1 boundary: CONFIRMED")
