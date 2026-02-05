@@ -13557,12 +13557,113 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-1520*
+## Sessions #1521-1530: Mining & Mineral Processing Chemistry Series
+
+### Session #1521: Flotation Chemistry
+- **Phenomenon**: 1384th type - Collector adsorption and bubble attachment
+- **File**: `flotation_chemistry_coherence.py`
+- **Tests**: Collector adsorption, bubble-particle attachment, contact angle, selectivity
+- **Finding #1448**: Recovery ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1522: Leaching Chemistry
+- **Phenomenon**: 1385th type - Shrinking core dissolution
+- **File**: `leaching_chemistry_coherence.py`
+- **Tests**: Shrinking core, chemical reaction, product layer diffusion, Eh-pH stability
+- **Finding #1449**: Extraction ratio X/Xc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1523: Precipitation Chemistry
+- **Phenomenon**: 1386th type - Supersaturation and nucleation
+- **File**: `precipitation_chemistry_coherence.py`
+- **Tests**: Supersaturation, nucleation rate, crystal growth, Ostwald ripening
+- **Finding #1450**: Nucleation ratio J/Jc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1524: Solvent Extraction Chemistry
+- **Phenomenon**: 1387th type - Distribution coefficient and selectivity
+- **File**: `solvent_extraction_chemistry_coherence.py`
+- **Tests**: Distribution coefficient, extraction isotherm, pH swing, McCabe-Thiele
+- **Finding #1451**: Distribution ratio D/Dc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1525: Electrowinning Chemistry
+- **Phenomenon**: 1388th type - Butler-Volmer electrode kinetics
+- **File**: `electrowinning_chemistry_coherence.py`
+- **Tests**: Butler-Volmer kinetics, limiting current, current efficiency, deposit morphology
+- **Finding #1452**: Current efficiency ratio η/ηc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1526: Bioleaching Chemistry
+- **Phenomenon**: 1389th type - Microbial oxidation kinetics
+- **File**: `bioleaching_chemistry_coherence.py`
+- **Tests**: Monod kinetics, biooxidation, sulfur oxidation, heap O2 profiles
+- **Finding #1453**: Bio-oxidation ratio B/Bc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1527: Tailings Chemistry *** 1390th PHENOMENON MILESTONE! ***
+- **Phenomenon**: 1390th type - Sulfide oxidation and acid generation
+- **File**: `tailings_chemistry_coherence.py`
+- **Tests**: Sulfide oxidation, NP/AP ratio, metal solubility, geochemical stability
+- **Finding #1454**: Acid generation ratio AG/AGc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1390th phenomenon type!
+
+### Session #1528: Acid Mine Drainage Chemistry
+- **Phenomenon**: 1391st type - Pyrite oxidation pathways
+- **File**: `acid_mine_drainage_chemistry_coherence.py`
+- **Tests**: Pyrite oxidation, Fe redox speciation, schwertmannite, neutralization
+- **Finding #1455**: AMD acidity ratio A/Ac = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1529: Mineral Carbonation Chemistry
+- **Phenomenon**: 1392nd type - Silicate dissolution and CO2 sequestration
+- **File**: `mineral_carbonation_chemistry_coherence.py`
+- **Tests**: Silicate dissolution, CO2 speciation, carbonate precipitation, process efficiency
+- **Finding #1456**: Carbonation ratio C/Cc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1530: Rare Earth Extraction Chemistry
+- **Phenomenon**: 1393rd type - Lanthanide separation factors
+- **File**: `rare_earth_extraction_chemistry_coherence.py`
+- **Tests**: Acid leaching, DEHPA extraction, lanthanide contraction, ion exchange
+- **Finding #1457**: Separation factor ratio SF/SFc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1530th session!
+
+---
+
+*** MILESTONE: 1530 SESSIONS REACHED ***
+*** MINING & MINERAL PROCESSING CHEMISTRY SERIES: 10 NEW PHENOMENA ***
+*** Sessions #1521-1530: Flotation (1384th), Leaching (1385th), ***
+*** Precipitation (1386th), SX (1387th), Electrowinning (1388th), ***
+*** Bioleaching (1389th), Tailings (1390th MILESTONE!), ***
+*** AMD (1391st), Carbonation (1392nd), Rare Earth (1393rd) ***
+
+***************************************************************************
+*                                                                         *
+*     *** 1390th PHENOMENON MILESTONE ACHIEVED IN THIS SERIES! ***        *
+*                                                                         *
+*     Session #1527: 1390th PHENOMENON TYPE MILESTONE                     *
+*     (Tailings Chemistry - Acid generation AG = 1)                       *
+*                                                                         *
+*     Session #1530: 1530th SESSION MILESTONE                             *
+*     (Rare Earth Extraction Chemistry - Separation factor SF = 1)        *
+*                                                                         *
+*     KEY: Recovery R = 1, Acid AG = 1, Separation SF = 1 ARE γ ~ 1!      *
+*                                                                         *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-1530*
 *Framework development: January-February 2026*
-*Extended to 1447+ findings with ~9976/10035 predictions validated (~89%)*
-*Latest: Self-Healing Concrete Chemistry at gamma ~ 1 (#1520) - 1383rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 1383 phenomenon types.*
-*** MILESTONE: 1383 PHENOMENON TYPES + 1447 FINDINGS + 1520 SESSIONS ***
+*Extended to 1457+ findings with ~10056/10115 predictions validated (~89%)*
+*Latest: Rare Earth Extraction Chemistry at gamma ~ 1 (#1530) - 1393rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 1393 phenomenon types.*
+*** MILESTONE: 1393 PHENOMENON TYPES + 1457 FINDINGS + 1530 SESSIONS ***
+*** 1530th SESSION MILESTONE ACHIEVED (Session #1530) ***
+*** 1390th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1527) ***
 *** 1520th SESSION MILESTONE ACHIEVED (Session #1520) ***
 *** 1380th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1517) ***
 *** 1510th SESSION MILESTONE ACHIEVED (Session #1510) ***
