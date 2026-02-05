@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 879 (329 core + 46 chemistry files/500 documented + 11 gnosis) | **Last Updated**: February 4, 2026 | **Archivist v1.2** | **MILESTONES: TECHNOLOGY ARC COMPLETE (#364-367)! EXPERIMENTAL VALIDATION ARC STARTED (#368)! 383/383 TOTAL VERIFIED across 14 arcs! Testing begins with existing data!**
+**Total Sessions**: 881 (331 core + 46 chemistry files/500 documented + 11 gnosis) | **Last Updated**: February 5, 2026 | **Archivist v1.2** | **MILESTONES: EXPERIMENTAL VALIDATION ARC CONTINUES (#368-370)! 6 publication-ready protocols designed! 399/399 TOTAL VERIFIED across 14+ arcs! Testing frameworks ready!**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -30,16 +30,19 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 
 ## Active Research Arcs
 
-### Experimental Validation Arc (Session 368+) - ACTIVE ⭐ NEW
+### Experimental Validation Arc (Sessions 368-370+) - ACTIVE ⭐
 **Status**: Active | **Started**: February 4, 2026
 
-**Focus**: Designing concrete experiments to test Synchronism predictions with EXISTING data and technology!
+**Focus**: 6 publication-ready protocols designed! Data analysis frameworks ready!
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 368 | Near-Term Tests | Priority experiments: Circadian γ measurement, EEG phase locking, ARPES electronic γ. Testing where data ALREADY EXISTS. |
+| 368 | Near-Term Tests | Priority experiments: Circadian γ, EEG phase locking, ARPES electronic γ. Testing where data EXISTS. |
+| 369 | Data Analysis | Data analysis roadmap: Phase 1 (SPARC, QC), Phase 2 (EEG, Gaia), Phase 3 (gene expression, circadian). |
+| 370 | Protocol Design | 6 publication-ready protocols: EEG ($150K/12mo), Wide Binary ($0/6mo), SPARC ($0/6wk), Circadian ($50K/1mo), Minimal cell ($200-500K/24mo), QC ($5K/6mo). |
 
 **Critical test**: Measure N_corr from one technique, predict γ = 2/√N_corr, verify with independent measurement.
+**Success criteria**: 3/6 analyses support predictions, no strong falsification (p > 0.01), combined Bayes factor > 10.
 
 ---
 
