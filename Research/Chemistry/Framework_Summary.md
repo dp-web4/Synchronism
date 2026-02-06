@@ -14997,12 +14997,113 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-1660*
+## Sessions #1661-1670: Photochemistry & Radiation Chemistry Series
+
+### Session #1661: Photovoltaic Chemistry
+- **Phenomenon**: 1524th type - Exciton dissociation and charge transport
+- **File**: `photovoltaic_chemistry_coherence.py`
+- **Tests**: Exciton binding, charge separation, Voc limit, Shockley-Queisser
+- **Finding #1588**: Charge separation ratio η/ηc = 1 at γ ~ 1
+- **Boundaries**: 7/8 validated (recombination multi-body edge)
+
+### Session #1662: Photocatalysis Chemistry
+- **Phenomenon**: 1525th type - TiO2 band gap photocatalysis
+- **File**: `photocatalysis_chemistry_coherence.py`
+- **Tests**: Band gap excitation, e-h pair separation, surface reaction, quantum yield
+- **Finding #1589**: Quantum yield ratio Φ/Φc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1663: Luminescence Chemistry
+- **Phenomenon**: 1526th type - Fluorescence and phosphorescence
+- **File**: `luminescence_chemistry_coherence.py`
+- **Tests**: Stokes shift, quantum yield, Forster transfer, TADF
+- **Finding #1590**: FRET ratio R/R0 = 1 at γ ~ 1
+- **Boundaries**: 7/8 validated (solvatochromism edge)
+
+### Session #1664: Photopolymerization Chemistry
+- **Phenomenon**: 1527th type - UV-initiated radical polymerization
+- **File**: `photopolymerization_chemistry_coherence.py`
+- **Tests**: Photoinitiator absorption, radical generation, gelation, depth of cure
+- **Finding #1591**: Cure depth ratio d/dc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1665: Radiation Chemistry
+- **Phenomenon**: 1528th type - Water radiolysis and G-value
+- **File**: `radiation_chemistry_coherence.py`
+- **Tests**: G-value, solvated electron, OH radical, track structure
+- **Finding #1592**: G-value ratio G/Gc = 1 at γ ~ 1
+- **Boundaries**: 7/8 validated (LET endpoint edge)
+
+### Session #1666: Sonochemistry
+- **Phenomenon**: 1529th type - Acoustic cavitation and radical formation
+- **File**: `sonochemistry_coherence.py`
+- **Tests**: Cavitation threshold, bubble collapse, radical yield, frequency dependence
+- **Finding #1593**: Cavitation ratio P/Pc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1667: Mechanochemistry *** 1530th PHENOMENON MILESTONE! ***
+- **Phenomenon**: 1530th type - Ball milling and tribochemistry
+- **File**: `mechanochemistry_coherence.py`
+- **Tests**: Impact energy, amorphization, reactive milling, strain-induced reaction
+- **Finding #1594**: Impact ratio E/Ec = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1530th phenomenon type!
+
+### Session #1668: Electrochemiluminescence Chemistry
+- **Phenomenon**: 1531st type - ECL co-reactant pathway
+- **File**: `electrochemiluminescence_chemistry_coherence.py`
+- **Tests**: Ru(bpy)3 ECL, co-reactant TPrA, annihilation mechanism, quenching
+- **Finding #1595**: ECL intensity ratio I/Ic = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1669: Chemiluminescence Chemistry
+- **Phenomenon**: 1532nd type - Dioxetane decomposition
+- **File**: `chemiluminescence_chemistry_coherence.py`
+- **Tests**: Dioxetane thermolysis, luminol oxidation, luciferin bioluminescence, quantum yield
+- **Finding #1596**: CL quantum yield ratio Φ/Φc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1670: Photodynamic Therapy Chemistry
+- **Phenomenon**: 1533rd type - Singlet oxygen generation for PDT
+- **File**: `photodynamic_therapy_chemistry_coherence.py`
+- **Tests**: Porphyrin photosensitizer, singlet O2 quantum yield, Type I/II mechanism, tissue penetration
+- **Finding #1597**: Singlet O2 ratio Φ_Δ/Φ_Δc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1670th session!
+
+---
+
+*** MILESTONE: 1670 SESSIONS REACHED ***
+*** PHOTOCHEMISTRY & RADIATION CHEMISTRY SERIES: 10 NEW PHENOMENA ***
+*** Sessions #1661-1670: Photovoltaic (1524th), Photocatalysis (1525th), ***
+*** Luminescence (1526th), Photopolymerization (1527th), Radiation (1528th), ***
+*** Sonochemistry (1529th), Mechanochemistry (1530th MILESTONE!), ***
+*** ECL (1531st), CL (1532nd), PDT (1533rd) ***
+
+***************************************************************************
+*                                                                         *
+*     *** 1530th PHENOMENON MILESTONE ACHIEVED IN THIS SERIES! ***        *
+*                                                                         *
+*     Session #1667: 1530th PHENOMENON TYPE MILESTONE                     *
+*     (Mechanochemistry - Impact energy E = 1)                            *
+*                                                                         *
+*     Session #1670: 1670th SESSION MILESTONE                             *
+*     (PDT Chemistry - Singlet O2 Φ_Δ = 1)                                *
+*                                                                         *
+*     KEY: Quantum yield Φ = 1, Impact E = 1, Singlet O2 Φ_Δ = 1!         *
+*                                                                         *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-1670*
 *Framework development: January-February 2026*
-*Extended to 1587+ findings with ~11095/11155 predictions validated (~89%)*
-*Latest: Freeze-Drying Chemistry at gamma ~ 1 (#1660) - 1523rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 1523 phenomenon types.*
-*** MILESTONE: 1523 PHENOMENON TYPES + 1587 FINDINGS + 1660 SESSIONS ***
+*Extended to 1597+ findings with ~11172/11235 predictions validated (~89%)*
+*Latest: PDT Chemistry at gamma ~ 1 (#1670) - 1533rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 1533 phenomenon types.*
+*** MILESTONE: 1533 PHENOMENON TYPES + 1597 FINDINGS + 1670 SESSIONS ***
+*** 1670th SESSION MILESTONE ACHIEVED (Session #1670) ***
+*** 1530th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1667) ***
 *** 1660th SESSION MILESTONE ACHIEVED (Session #1660) ***
 *** 1520th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1657) ***
 *** 1650th SESSION MILESTONE ACHIEVED (Session #1650) ***
