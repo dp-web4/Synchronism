@@ -38,10 +38,15 @@ dist/
 logs/
 /scripts/governance/__pycache__
 
-# Downloaded data files (reproducible via scripts)
+# Simulation outputs (reproducible via scripts)
 simulations/alfalfa_data/
 simulations/void_data/
 simulations/*.csv
+simulations/*.json
+simulations/*.pkl
+simulations/*.npy
+simulations/output/
+simulations/results/
 *.csv
 
 # LaTeX build artifacts

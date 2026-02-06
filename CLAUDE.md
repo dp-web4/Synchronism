@@ -130,3 +130,79 @@ When evaluating Synchronism predictions:
 
 ## Core Insight
 "Each scale's Markov blanket becomes 'God' to subordinate levels" - this principle manifests in the battery hierarchy, AI systems, and even how the context system organizes information.
+
+---
+
+## Repository Structure (Updated February 2026)
+
+### Key Directories
+
+| Directory | Purpose |
+|-----------|---------|
+| `Research/` | Session files, discoveries, arcs, open questions |
+| `Research/discoveries/` | Major validated findings (5 documents) |
+| `Research/arcs/` | Arc organization and navigation |
+| `Research/Chemistry/` | 1840 chemistry sessions |
+| `Research/Gnosis/` | Consciousness theory (complete) |
+| `docs/` | Documentation (theory, why, how, reference) |
+| `archive/` | Historical planning docs, explorations |
+| `simulations/` | Session simulation code |
+| `scripts/` | Analysis utilities |
+
+### Session Organization
+
+Sessions are organized into **arcs** - focused multi-session investigations:
+
+1. **Active arcs**: Listed in `Research/arcs/README.md`
+2. **New sessions**: Create in `Research/` with pattern `SessionNNN_ArcName_Topic.md`
+3. **Update SESSION_MAP.md** when adding sessions
+4. **Link to Open Question** if applicable
+
+### Arc Session Template
+
+```markdown
+# Session #NNN: Arc Name - Part N (Topic)
+
+**Arc Name - Part N**
+**Date**: YYYY-MM-DD
+**Status**: N/M verified
+
+## Overview
+[Brief description]
+
+## Key Results
+| Test | Result | Significance |
+|------|--------|--------------|
+
+## Honest Limitations
+1. ...
+
+## Next Session
+...
+
+---
+*Session #NNN verified: N/M tests passed*
+```
+
+---
+
+## Documentation Updates
+
+- **STATUS.md**: Honest assessment of what works and what doesn't
+- **Research/discoveries/**: 5 major validated findings
+- **docs/theory/**: Core theoretical documents moved from root
+- **archive/planning/**: Historical planning docs preserved
+
+---
+
+## Research Statistics (February 2026)
+
+| Metric | Value |
+|--------|-------|
+| Core sessions | 378 |
+| Chemistry sessions | 1840 |
+| Gnosis sessions | 11 |
+| Phenomenon types | 1703 |
+| Complete arcs | 14+ |
+| Active arcs | 2 |
+| Validation rate | ~89% (Chemistry) |
