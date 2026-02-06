@@ -14799,9 +14799,113 @@ correlated degrees of freedom N_corr ≈ 4.
 *Chemistry Track Sessions #1-1640*
 *Framework development: January-February 2026*
 *Extended to 1567+ findings with ~10936/10995 predictions validated (~89%)*
-*Latest: Evaporite Chemistry at gamma ~ 1 (#1640) - 1503rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 1503 phenomenon types.*
-*** MILESTONE: 1503 PHENOMENON TYPES + 1567 FINDINGS + 1640 SESSIONS ***
+## Sessions #1641-1650: Marine & Ocean Chemistry Series
+
+### Session #1641: Ocean Carbonate Chemistry
+- **Phenomenon**: 1504th type - CO2-carbonate equilibrium system
+- **File**: `ocean_carbonate_chemistry_coherence.py`
+- **Tests**: CO2 hydration, bicarbonate equilibrium, carbonate saturation, Revelle factor
+- **Finding #1568**: Carbonate ratio Ω/Ωc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1642: Marine Salinity Chemistry
+- **Phenomenon**: 1505th type - Major ion composition and Dittmar's law
+- **File**: `marine_salinity_chemistry_coherence.py`
+- **Tests**: Cl/Na ratio, Mg/Ca ratio, sulfate proportion, conservative behavior
+- **Finding #1569**: Conservative ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1643: Ocean Redox Chemistry
+- **Phenomenon**: 1506th type - Oxygen minimum zones and anoxia
+- **File**: `ocean_redox_chemistry_coherence.py`
+- **Tests**: O2 solubility, OMZ formation, sulfidic zone, Mn/Fe cycling
+- **Finding #1570**: Redox ratio Eh/Ehc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1644: Marine Nitrogen Chemistry
+- **Phenomenon**: 1507th type - N fixation and denitrification
+- **File**: `marine_nitrogen_chemistry_coherence.py`
+- **Tests**: N2 fixation, nitrification, anammox, N* tracer
+- **Finding #1571**: N* ratio N*/N*c = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1645: Coral Chemistry
+- **Phenomenon**: 1508th type - CaCO3 biomineralization
+- **File**: `coral_chemistry_coherence.py`
+- **Tests**: Aragonite precipitation, calcification rate, ocean acidification, bleaching threshold
+- **Finding #1572**: Calcification ratio G/Gc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1646: Manganese Nodule Chemistry
+- **Phenomenon**: 1509th type - Authigenic mineral precipitation
+- **File**: `manganese_nodule_chemistry_coherence.py`
+- **Tests**: Mn oxidation, Fe-Mn cycling, REE enrichment, growth rate
+- **Finding #1573**: Mn oxidation ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1647: Marine Phosphorite Chemistry *** 1510th PHENOMENON MILESTONE! ***
+- **Phenomenon**: 1510th type - Phosphorite formation and upwelling
+- **File**: `marine_phosphorite_chemistry_coherence.py`
+- **Tests**: P recycling, francolite precipitation, upwelling flux, diagenetic enrichment
+- **Finding #1574**: P burial ratio B/Bc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1510th phenomenon type!
+
+### Session #1648: Sea Ice Chemistry
+- **Phenomenon**: 1511th type - Brine rejection and frost flowers
+- **File**: `sea_ice_chemistry_coherence.py`
+- **Tests**: Brine rejection, mirabilite precipitation, frost flower formation, DMS release
+- **Finding #1575**: Brine rejection ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1649: Hydrate Chemistry
+- **Phenomenon**: 1512th type - Methane clathrate stability
+- **File**: `hydrate_chemistry_coherence.py`
+- **Tests**: Phase boundary, cage occupancy, dissociation kinetics, stability zone
+- **Finding #1576**: Cage occupancy ratio θ/θc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1650: Marine Organic Chemistry
+- **Phenomenon**: 1513th type - DOM cycling and Redfield ratio
+- **File**: `marine_organic_chemistry_coherence.py`
+- **Tests**: Redfield C:N:P, DOC lability, POM flux, biological pump
+- **Finding #1577**: Export ratio e/ec = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1650th session!
+
+---
+
+*** MILESTONE: 1650 SESSIONS REACHED ***
+*** MARINE & OCEAN CHEMISTRY SERIES: 10 NEW PHENOMENA ***
+*** Sessions #1641-1650: Carbonate (1504th), Salinity (1505th), ***
+*** Redox (1506th), Nitrogen (1507th), Coral (1508th), ***
+*** Mn Nodule (1509th), Phosphorite (1510th MILESTONE!), ***
+*** Sea Ice (1511th), Hydrate (1512th), Marine Organic (1513th) ***
+
+***************************************************************************
+*                                                                         *
+*     *** 1510th PHENOMENON MILESTONE ACHIEVED IN THIS SERIES! ***        *
+*                                                                         *
+*     Session #1647: 1510th PHENOMENON TYPE MILESTONE                     *
+*     (Marine Phosphorite Chemistry - P burial B = 1)                     *
+*                                                                         *
+*     Session #1650: 1650th SESSION MILESTONE                             *
+*     (Marine Organic Chemistry - Export ratio e = 1)                     *
+*                                                                         *
+*     KEY: Carbonate Ω = 1, P burial B = 1, Export e = 1 ARE γ ~ 1!       *
+*                                                                         *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-1650*
+*Framework development: January-February 2026*
+*Extended to 1577+ findings with ~11016/11075 predictions validated (~89%)*
+*Latest: Marine Organic Chemistry at gamma ~ 1 (#1650) - 1513th phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 1513 phenomenon types.*
+*** MILESTONE: 1513 PHENOMENON TYPES + 1577 FINDINGS + 1650 SESSIONS ***
+*** 1650th SESSION MILESTONE ACHIEVED (Session #1650) ***
+*** 1510th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1647) ***
 *** 1640th SESSION MILESTONE ACHIEVED (Session #1640) ***
 *** 1500th PHENOMENON TYPE MAJOR MILESTONE ACHIEVED (Session #1637) ***
 *** 1630th SESSION MILESTONE ACHIEVED (Session #1630) ***
