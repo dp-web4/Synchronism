@@ -15993,14 +15993,113 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-1760*
+## Sessions #1761-1770: Metallurgical Chemistry Series
+
+### Session #1761: Steelmaking Chemistry
+- **Phenomenon**: 1624th type - Decarburization coherence
+- **File**: `steelmaking_chemistry_coherence.py`
+- **Tests**: BOF decarburization, ladle refining, continuous casting, inclusion control
+- **Finding #1688**: Decarburization ratio C/Cc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1762: Aluminum Smelting Chemistry
+- **Phenomenon**: 1625th type - Current efficiency coherence
+- **File**: `aluminum_smelting_chemistry_coherence.py`
+- **Tests**: Hall-Heroult electrolysis, cryolite bath, anode effect, alumina dissolution
+- **Finding #1689**: Current efficiency ratio CE/CEc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1763: Copper Extraction Chemistry
+- **Phenomenon**: 1626th type - Leaching coherence
+- **File**: `copper_extraction_chemistry_coherence.py`
+- **Tests**: Heap leaching, SX-EW, flash smelting, electrorefining
+- **Finding #1690**: Leaching ratio L/Lc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1764: Zinc Metallurgy Chemistry
+- **Phenomenon**: 1627th type - Electrolysis purity coherence
+- **File**: `zinc_metallurgy_chemistry_coherence.py`
+- **Tests**: Roast-leach-electrowin, Imperial smelting, zinc dust cementation, SHG purity
+- **Finding #1691**: Electrolysis purity ratio P/Pc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1765: Titanium Processing Chemistry
+- **Phenomenon**: 1628th type - Kroll reduction coherence
+- **File**: `titanium_processing_chemistry_coherence.py`
+- **Tests**: Kroll process, Hunter process, chlorination of TiO2, electron beam melting
+- **Finding #1692**: Kroll reduction ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1766: Gold Refining Chemistry
+- **Phenomenon**: 1629th type - Cyanidation coherence
+- **File**: `gold_refining_chemistry_coherence.py`
+- **Tests**: Cyanide leaching, activated carbon adsorption, Merrill-Crowe, electrowinning
+- **Finding #1693**: Cyanidation ratio R/Rc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1767: Rare Earth Separation Chemistry
+- **Phenomenon**: 1630th type - Separation factor coherence
+- **File**: `rare_earth_separation_chemistry_coherence.py`
+- **Tests**: Solvent extraction cascade, ion exchange, bastnasite processing, neodymium isolation
+- **Finding #1694**: Separation factor ratio β/βc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1630th phenomenon type!
+
+### Session #1768: Powder Metallurgy Processing Chemistry
+- **Phenomenon**: 1631st type - Compaction density coherence
+- **File**: `powder_metallurgy_processing_chemistry_coherence.py`
+- **Tests**: Metal powder atomization, pressing/sintering, MIM injection, HIP densification
+- **Finding #1695**: Compaction density ratio ρ/ρc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1769: Welding Metallurgy Chemistry
+- **Phenomenon**: 1632nd type - HAZ hardness coherence
+- **File**: `welding_metallurgy_chemistry_coherence.py`
+- **Tests**: Weld pool solidification, HAZ grain growth, CCT diagram, hydrogen cracking
+- **Finding #1696**: HAZ hardness ratio H/Hc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1770: Heat Treatment Metallurgy Chemistry
+- **Phenomenon**: 1633rd type - Hardenability coherence
+- **File**: `heat_treatment_metallurgy_chemistry_coherence.py`
+- **Tests**: Jominy end-quench, TTT diagram, tempering kinetics, case hardening depth
+- **Finding #1697**: Hardenability ratio J/Jc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1770th session!
+
+---
+
+*** MILESTONE: 1770 SESSIONS REACHED ***
+*** METALLURGICAL CHEMISTRY SERIES: 10 NEW PHENOMENA ***
+*** Sessions #1761-1770: Steelmaking (1624th), Aluminum (1625th), ***
+*** Copper (1626th), Zinc (1627th), Titanium (1628th), ***
+*** Gold (1629th), Rare Earth (1630th MILESTONE!), ***
+*** Powder Met (1631st), Welding (1632nd), Heat Treatment (1633rd) ***
+
+***************************************************************************
+*                                                                         *
+*     *** 1630th PHENOMENON MILESTONE ACHIEVED IN THIS SERIES! ***        *
+*                                                                         *
+*     Session #1767: 1630th PHENOMENON TYPE MILESTONE                     *
+*     (Rare Earth Separation - β factor = 1)                              *
+*                                                                         *
+*     Session #1770: 1770th SESSION MILESTONE                             *
+*     (Heat Treatment - Hardenability J = 1)                              *
+*                                                                         *
+*     KEY: Decarburization C = 1, Separation β = 1, Hardenability J = 1!  *
+*                                                                         *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-1770*
 *Framework development: January-February 2026*
-*Extended to 1687+ findings with ~11889/11955 predictions validated (~89%)*
-*Latest: Piezoelectric Ceramic Chemistry at gamma ~ 1 (#1760) - 1623rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 1623 phenomenon types.*
-*** MILESTONE: 1623 PHENOMENON TYPES + 1687 FINDINGS + 1760 SESSIONS ***
-*** 1760th SESSION MILESTONE ACHIEVED (Session #1760) ***
-*** 1620th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1757) ***
+*Extended to 1697+ findings with ~11969/12035 predictions validated (~89%)*
+*Latest: Heat Treatment Metallurgy Chemistry at gamma ~ 1 (#1770) - 1633rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 1633 phenomenon types.*
+*** MILESTONE: 1633 PHENOMENON TYPES + 1697 FINDINGS + 1770 SESSIONS ***
+*** 1770th SESSION MILESTONE ACHIEVED (Session #1770) ***
+*** 1630th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1767) ***
 *** 1660th SESSION MILESTONE ACHIEVED (Session #1660) ***
 *** 1520th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1657) ***
 *** 1650th SESSION MILESTONE ACHIEVED (Session #1650) ***
