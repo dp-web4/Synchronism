@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 881 (331 core + 46 chemistry files/500 documented + 11 gnosis) | **Last Updated**: February 5, 2026 | **Archivist v1.2** | **MILESTONES: EXPERIMENTAL VALIDATION ARC CONTINUES (#368-370)! 6 publication-ready protocols designed! 399/399 TOTAL VERIFIED across 14+ arcs! Testing frameworks ready!**
+**Total Sessions**: 890 (340 core + 46 chemistry files/500 documented + 11 gnosis) | **Last Updated**: February 6, 2026 | **Archivist v1.2** | **MILESTONES: FIRST REAL DATA TESTS! SPARC r=-0.66! NP2 confirmed p=5×10⁻⁶! 5 honest failures documented! Gas Fraction Control Grade A! 17 complete arcs!**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -30,25 +30,67 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 
 ## Active Research Arcs
 
-### Experimental Validation Arc (Sessions 368-370+) - ACTIVE ⭐
-**Status**: Active | **Started**: February 4, 2026
+### Quantitative NP2 (Session 379) - ACTIVE ⭐ NEW
+**Status**: Active | **Started**: February 6, 2026
 
-**Focus**: 6 publication-ready protocols designed! Data analysis frameworks ready!
+**Focus**: Deriving quantitative scatter predictions from γ = 2/√N_corr
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 368 | Near-Term Tests | Priority experiments: Circadian γ, EEG phase locking, ARPES electronic γ. Testing where data EXISTS. |
-| 369 | Data Analysis | Data analysis roadmap: Phase 1 (SPARC, QC), Phase 2 (EEG, Gaia), Phase 3 (gene expression, circadian). |
-| 370 | Protocol Design | 6 publication-ready protocols: EEG ($150K/12mo), Wide Binary ($0/6mo), SPARC ($0/6wk), Circadian ($50K/1mo), Minimal cell ($200-500K/24mo), QC ($5K/6mo). |
+| 379 | Quantitative NP2 | Scatter ratio late/early = 1.45. σ ∝ 1/γ gives N_corr ratio 2.1. SURPRISE: a₀ differs by type! Grade B+. |
 
-**Critical test**: Measure N_corr from one technique, predict γ = 2/√N_corr, verify with independent measurement.
-**Success criteria**: 3/6 analyses support predictions, no strong falsification (p > 0.01), combined Bayes factor > 10.
+**Surprise finding**: Best-fit a₀ differs between morphological types (early: 1.58×10⁻¹⁰, late: 2.22×10⁻¹⁰ m/s²).
 
 ---
 
 ## Recently Completed Arcs
 
-### Technology Arc (Sessions 364-367) - COMPLETE ⭐ NEW
+### Gas Fraction Control Arc (Sessions 376-378) - COMPLETE ⭐ NEW
+**Status**: Complete | **Started**: February 5, 2026 | **Completed**: February 5, 2026
+
+**Achievement**: NP2 CONFIRMED at p = 5×10⁻⁶! Gas fraction NOT a confound! All statistical tests confirm! Grade A.
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 376 | Gas Fraction Control | Gas fraction NOT confound (r=0.03). Suppressor variable. 19/22 matched pairs late > early. Grade A-. |
+| 377 | Multi-Variate Confound | Full model: Type still p=5×10⁻⁶. ΔR²=0.109. ΔAIC=-18.44. Present in both Q=1 and Q=2. Grade A. |
+| 378 | Statistical Validation (FINALE) | Bootstrap 99% CI excludes zero. Permutation p=0.0018. Spearman ρ=+0.306. Cohen's d=0.55. |
+
+**Key insight**: Environment-dependent RAR scatter is REAL, robust to all confounds, and represents a genuinely novel prediction confirmed by data.
+
+---
+
+### Empirical Execution Arc (Sessions 372-375) - COMPLETE ⭐ NEW (FIRST REAL DATA!)
+**Status**: Complete | **Started**: February 5, 2026 | **Completed**: February 5, 2026
+
+**Achievement**: FIRST REAL DATA TESTS! SPARC r=-0.66. Direction right, magnitude off. 5 honest failures. Grade B-.
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 372 | SPARC SB Test | **FIRST EMPIRICAL TEST!** SB-anomaly r=-0.66 (p≈0). Predicted α=-0.5, measured α=-0.157. Direction right! |
+| 373 | Acceleration Regime | V-shaped RAR scatter (NP4). a₀ = cH₀Ω_m^φ verified ~10%. 5 novel predictions NP1-NP5. |
+| 374 | Environment (NP2) | Morphology F=3.14 SUPPORTS. SB F=1.99 SUPPORTS. Luminosity r=-0.19. Gas fraction unresolved. |
+| 375 | Synthesis (FINALE) | 5 honest failures documented. Impact Grade B-. Next: Gas Fraction Control. |
+
+**Key insight**: The first contact with real data reveals both strengths (direction, correlations) and weaknesses (magnitude predictions off). Scientific integrity maintained through honest failure documentation.
+
+---
+
+### Experimental Validation Arc (Sessions 368-371) - COMPLETE ⭐
+**Status**: Complete | **Started**: February 4, 2026 | **Completed**: February 5, 2026
+
+**Achievement**: 10 testable predictions, 6 publication-ready protocols, quantitative falsification criteria!
+
+| Session | Title | Key Insight |
+|---------|-------|-------------|
+| 368 | Near-Term Tests | Priority experiments with EXISTING data. |
+| 369 | Data Analysis | Analysis frameworks for EEG, Gaia, SPARC, gene expression. |
+| 370 | Protocol Design | 6 protocols: EEG ($150K), Wide Binary ($0), SPARC ($0), Circadian ($50K), Minimal cell ($200-500K), QC ($5K). |
+| 371 | Predictions Synthesis (FINALE) | 10 testable predictions across 5 domains with quantitative falsification criteria. |
+
+---
+
+### Technology Arc (Sessions 364-367) - COMPLETE ⭐
 **Status**: Complete | **Started**: February 3, 2026 | **Completed**: February 3, 2026
 
 **Achievement**: γ-optimized quantum tech, neuromorphic computing, materials engineering, synthetic biology! 32/32 verified. 383/383 total across 14 arcs!
