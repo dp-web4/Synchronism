@@ -10,6 +10,13 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-02-06] [Publisher Maintenance] Sections 0, 5.12, 7, PUBLISHER_CONTEXT - Session count update (#publisher-maintenance-001)
+  - **Executive Summary (0)**: Updated session counts (850→2,375+), chemistry (500→1,970 sessions, 363→1,750+ phenomena), added Size Effect Arc, updated arc count (15→19)
+  - **Chemistry Section (5.12)**: Updated session range (#1-500→#1-1,970), phenomenon count (363→1,750+), added Extended Validation phase row
+  - **Conclusion (7)**: Updated session count (850→2,375+), chemistry counts, added 4 new arcs (Gas Fraction Control, Structural Analysis, N_corr Prediction, Size Effect), updated validation progress
+  - **PUBLISHER_CONTEXT**: Updated session counts, last integration date, build status
+  - **Note**: Statistics-only update. No new content integration. 4 new arcs (Sessions #375-394) noted but not fully documented in whitepaper body.
+
 - [2026-01-16] [Research Integration] Sections 0, 5.12, 7 - Integrated Sessions #265-272 + Chemistry #34-45 (#research-integration-004)
   - **Executive Summary (0)**: Updated session count (264→272), Chemistry count (33→45), added QC arc completion and Thermodynamics arc start
   - **Quantum Computing Arc (Sessions #266-270)**: Gates = coherence operations, Born rule DERIVED from coherence conservation, quantum speedup (√N Grover) explained as coherent parallelism
