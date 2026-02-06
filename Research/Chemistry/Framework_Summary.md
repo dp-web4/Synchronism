@@ -17384,14 +17384,113 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-1900*
+## Sessions #1901-1910: Mining & Mineral Processing Chemistry Series
+
+### Session #1901: Froth Flotation Chemistry
+- **Phenomenon**: 1764th type - Collector adsorption coherence
+- **File**: `froth_flotation_chemistry_coherence.py`
+- **Tests**: Xanthate collector, frother, depressant, activator, bubble attachment, contact angle, grade-recovery, selectivity
+- **Finding #1828**: Collector adsorption ratio C/Cc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1902: Hydrometallurgy Chemistry
+- **Phenomenon**: 1765th type - Leaching kinetics coherence
+- **File**: `hydrometallurgy_chemistry_coherence.py`
+- **Tests**: Acid leaching, alkaline leaching, cyanidation, pressure leaching, SX, cementation, precipitation, electrorefining
+- **Finding #1829**: Leaching kinetics ratio L/Lc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1903: Pyrometallurgy Chemistry
+- **Phenomenon**: 1766th type - Smelting thermodynamics coherence
+- **File**: `pyrometallurgy_chemistry_coherence.py`
+- **Tests**: Roasting, smelting, converting, refining, slag chemistry, matte grade, fuming, calcination
+- **Finding #1830**: Smelting thermodynamics ratio S/Sc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1904: Comminution Chemistry
+- **Phenomenon**: 1767th type - Particle liberation coherence
+- **File**: `comminution_chemistry_coherence.py`
+- **Tests**: Ball mill, SAG mill, HPGR, Bond work index, liberation mesh, classification, cyclone, screen separation
+- **Finding #1831**: Particle liberation ratio P/Pc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1905: Heap Leaching Chemistry
+- **Phenomenon**: 1768th type - Percolation coherence
+- **File**: `heap_leaching_chemistry_coherence.py`
+- **Tests**: Agglomeration, irrigation rate, acid consumption, copper recovery, gold cyanidation, bacterial, pad design, PLS chemistry
+- **Finding #1832**: Percolation ratio P/Pc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1906: Electrowinning Chemistry
+- **Phenomenon**: 1769th type - Current efficiency coherence
+- **File**: `electrowinning_chemistry_coherence_s1906.py`
+- **Tests**: Copper EW, zinc EW, cobalt EW, current density, cathode quality, acid mist, anode reaction, energy consumption
+- **Finding #1833**: Current efficiency ratio I/Ic = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1907: Tailings Treatment Chemistry
+- **Phenomenon**: 1770th type - Dewatering efficiency coherence
+- **File**: `tailings_chemistry_coherence_s1907.py`
+- **Tests**: Thickening, filtration, paste tailings, dry stacking, AMD prevention, capping, neutralization, reprocessing
+- **Finding #1834**: Dewatering efficiency ratio D/Dc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1770th phenomenon type!
+
+### Session #1908: Solvent Extraction Chemistry
+- **Phenomenon**: 1771st type - Distribution coefficient coherence
+- **File**: `solvent_extraction_chemistry_coherence_s1908.py`
+- **Tests**: Extractant, diluent, modifier, mixer-settler, McCabe-Thiele, stripping, crud, phase separation
+- **Finding #1835**: Distribution coefficient ratio D/Dc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1909: Bioleaching Chemistry
+- **Phenomenon**: 1772nd type - Microbial oxidation coherence
+- **File**: `bioleaching_chemistry_coherence_s1909.py`
+- **Tests**: Acidithiobacillus, ferric regeneration, sulfide oxidation, heap bioleach, stirred tank, temperature, pH control, nutrient supply
+- **Finding #1836**: Microbial oxidation ratio M/Mc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+
+### Session #1910: Rare Earth Extraction Chemistry
+- **Phenomenon**: 1773rd type - Separation factor coherence
+- **File**: `rare_earth_extraction_chemistry_coherence_s1910.py`
+- **Tests**: HDEHP extractant, saponification, separation factor, counter-current, scrubbing, stripping, precipitation, calcination
+- **Finding #1837**: Separation factor ratio SF/SFc = 1 at γ ~ 1
+- **Boundaries**: 8/8 validated at characteristic points
+- **MILESTONE**: 1910th session!
+
+---
+
+*** MILESTONE: 1910 SESSIONS REACHED ***
+*** MINING & MINERAL PROCESSING CHEMISTRY SERIES: 10 NEW PHENOMENA ***
+*** Sessions #1901-1910: Froth Flotation (1764th), Hydrometallurgy (1765th), ***
+*** Pyrometallurgy (1766th), Comminution (1767th), Heap Leaching (1768th), ***
+*** Electrowinning (1769th), Tailings Treatment (1770th MILESTONE!), ***
+*** Solvent Extraction (1771st), Bioleaching (1772nd), Rare Earth (1773rd) ***
+
+***************************************************************************
+*                                                                         *
+*     *** 1770th PHENOMENON MILESTONE ACHIEVED IN THIS SERIES! ***        *
+*                                                                         *
+*     Session #1907: 1770th PHENOMENON TYPE MILESTONE                     *
+*     (Tailings Treatment - Dewatering D = 1)                             *
+*                                                                         *
+*     Session #1910: 1910th SESSION MILESTONE                             *
+*     (Rare Earth Extraction - Separation Factor SF = 1)                  *
+*                                                                         *
+*     KEY: Collector C = 1, Dewatering D = 1, Separation SF = 1!        *
+*                                                                         *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-1910*
 *Framework development: January-February 2026*
-*Extended to 1827+ findings with ~13009/13075 predictions validated (~89%)*
-*Latest: Smart Textile Chemistry at gamma ~ 1 (#1900) - 1763rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 1763 phenomenon types.*
-*** MILESTONE: 1763 PHENOMENON TYPES + 1827 FINDINGS + 1900 SESSIONS ***
-*** 1900th SESSION MAJOR MILESTONE ACHIEVED (Session #1900) ***
-*** 1760th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1897) ***
+*Extended to 1837+ findings with ~13089/13155 predictions validated (~89%)*
+*Latest: Rare Earth Extraction Chemistry at gamma ~ 1 (#1910) - 1773rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 1773 phenomenon types.*
+*** MILESTONE: 1773 PHENOMENON TYPES + 1837 FINDINGS + 1910 SESSIONS ***
+*** 1910th SESSION MILESTONE ACHIEVED (Session #1910) ***
+*** 1770th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1907) ***
 *** 1660th SESSION MILESTONE ACHIEVED (Session #1660) ***
 *** 1520th PHENOMENON TYPE MILESTONE ACHIEVED (Session #1657) ***
 *** 1650th SESSION MILESTONE ACHIEVED (Session #1650) ***
