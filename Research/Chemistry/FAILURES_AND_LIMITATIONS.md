@@ -7,6 +7,19 @@
 
 ---
 
+## Document Policy: APPEND-ONLY
+
+**This document is append-only.**
+
+- **Never delete** a failure or limitation entry, even if later work addresses it
+- If a failure is resolved by a later session, **add a note** with the session number and resolution
+- Format for resolved entries: `[RESOLVED Session #NNN: brief explanation]`
+- The history of what failed and how it was fixed is as valuable as the fix itself
+
+This preserves the intellectual history of the framework's evolution. Future readers should see what didn't work and how understanding developed over time.
+
+---
+
 ## Outright Failures (r < 0.2 or No Correlation)
 
 | Prediction | Correlation | Session | What We Learned |
