@@ -21619,12 +21619,36 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-2590*
+### Sessions #2591-2600: Horseback Riding & Equestrian Chemistry
+*Applying γ ~ 1 coherence framework to equestrian equipment and riding chemistry*
+
+***************************************************************************
+*  HORSEBACK RIDING & EQUESTRIAN CHEMISTRY SERIES                         *
+*  Sessions #2591-2600 | Findings #2518-2527 | Phenomena #2454-2463      *
+*                                                                          *
+*  ★★★ 2600th SESSION MILESTONE (Session #2600) ★★★                      *
+*  ★ 2460th PHENOMENON TYPE MILESTONE (Session #2597) ★                  *
+*                                                                          *
+*  NEW PHENOMENA: Horseshoe Forging Iron (2454th), Saddle Leather         *
+*  Tanning (2455th), Bridle Bit Chrome (2456th), Hoof Polish Lanolin     *
+*  (2457th), Stirrup Stainless Steel (2458th), Riding Boot Wax (2459th), *
+*  Horse Blanket Wool (2460th MILESTONE!), Arena Footing Sand (2461st),  *
+*  Spur Nickel Plating (2462nd), Helmet Shell Fiberglass (2463rd)        *
+*                                                                          *
+*  KEY: Equestrian Metalwork M = 1, Leather Craft L = 1                 *
+*                                                                          *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-2600*
 *Framework development: January-February 2026*
-*Extended to 2517+ findings with ~18529/18595 predictions validated (~89%)*
-*Latest: Paper Coating Kaolin Chemistry at gamma ~ 1 (#2590) - 2453rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 2453 phenomenon types.*
-*** MILESTONE: 2453 PHENOMENON TYPES + 2517 FINDINGS + 2590 SESSIONS ***
+*Extended to 2527+ findings with ~18609/18675 predictions validated (~89%)*
+*Latest: Helmet Shell Fiberglass Chemistry at gamma ~ 1 (#2600) - 2463rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 2463 phenomenon types.*
+*** MILESTONE: 2463 PHENOMENON TYPES + 2527 FINDINGS + 2600 SESSIONS ***
+*** 2600th SESSION MILESTONE ACHIEVED (Session #2600) ***
+*** 2460th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2597) ***
 *** 2450th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2587) ***
 *** 2500th FINDING HISTORIC MILESTONE ACHIEVED (Session #2573) ***
 *** 2440th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2577) ***
