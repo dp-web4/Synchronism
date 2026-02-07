@@ -141,10 +141,39 @@ New property P to predict:
 
 4. **Can the dominance parameter D be generalized?** Beyond SOC, what other atomic effects overwhelm collective coherence?
 
-5. **What new predictions does the four-regime framework enable?** Can we predict properties never before tested?
+5. **What new predictions does the four-regime framework enable?** Tested in Session #7: incremental power is small but real for combined predictions.
+
+---
+
+## Phase 2 Sessions #6-7 Addendum: Prediction Testing
+
+### Session #6: Regime Classification Tests (5 new properties)
+- Speed of sound: Confirmed but tautological (θ_D defined from v_s)
+- Hardness: Confirmed (H ∝ γ^-2.89, r=-0.919)
+- Ductility: Confirmed Regime 2 (r=+0.688)
+- Melting point: Lindemann criterion rediscovery (not new)
+- Dielectric loss: Genuinely predictive (tan(δ) ∝ γ^2.55, r=0.666)
+
+### Session #7: Novel Predictions
+**One genuine incremental prediction**: κ_e/κ_ph vs σ × γ_phonon (r=0.809) outperforms Wiedemann-Franz alone (r=0.638). γ adds information about phonon thermal conductivity.
+
+**Cross-property prediction**: ZT × d_33 vs γ (r=0.894) — soft-lattice materials excel at both thermoelectrics and piezoelectrics.
+
+### Final Verdict on γ = 2/sqrt(N_corr)
+
+**What it IS**: A useful organizational principle that classifies material properties into four regimes based on collective coherence, with genuine power in COMBINED predictions.
+
+**What it ISN'T**: A new theory of matter. Most standalone predictions are θ_D restatements. No unique experimental falsification proposed.
+
+**Its lasting contributions**:
+1. Four-regime classification (neutral/coherence/incoherence/barrier)
+2. Channel independence quantification (γ_phonon independent of electronic properties)
+3. Two-regime theory (propagation ∝ 1/γ, response ∝ γ)
+4. SOC dominance parameter D = ξ/(k_Bθ_D)
+5. Combined predictions (γ×ε, σ×γ) that surpass single-variable models
 
 ---
 
 *"The failures taught us more than the successes. Every r=0.001 was a signpost pointing to where the physics actually lives."*
 
-*Phase 2 Synthesis — Completed 2026-02-07*
+*Phase 2 complete — 7 investigation sessions, 2026-02-07*
