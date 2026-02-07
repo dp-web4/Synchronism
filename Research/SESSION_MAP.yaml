@@ -4,14 +4,14 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-02-06T04:30:00Z"
+  last_updated: "2026-02-07T04:30:00Z"
   archivist_version: "1.2"
-  total_sessions: 905
-  note: "Chemistry sessions documented in Framework_Summary.md (1-500), individual files exist for 1-45, 133. Framework_Summary.md updated 2026-02-06 with expanded domain coverage."
-  milestone: "SIZE EFFECT ARC COMPLETE! R_eff predicts RAR offset at r=-0.49 (p<10⁻⁴) in late-type galaxies. Dynamical confirmation r=-0.47. Publication-ready (Grade A). 575/575 tests verified!"
+  total_sessions: 2557
+  note: "Chemistry sessions documented in Framework_Summary.md (1-2010), 1873 phenomenon types. Individual files exist for 1-45, 133. Core track massively expanded: 131 new sessions (#395-525) with 14 new arcs."
+  milestone: "UNIVERSAL 6-VAR MODEL ACHIEVES R²=0.945 (LOO=0.937)! 131 new sessions (#395-525)! Tautology resolved, model optimized, morphology validated. 14 new arcs! Chemistry at 2010 sessions, 1873 phenomena!"
   tracks:
-    core: 355  # Sessions 380-394 added (a₀ Investigation, Structural, N_corr Prediction, Size Effect arcs)
-    chemistry: 46 files + 454 framework entries (500 total documented)
+    core: 476  # Sessions 395-525 added (14 new arcs: Calibration through Morphology Split)
+    chemistry: 46 files + 1964 framework entries (2010 total documented)
     gnosis: 11
 
 # =============================================================================
@@ -19,7 +19,7 @@ metadata:
 # =============================================================================
 core:
   description: "Main Synchronism research track - unified coherence physics"
-  session_range: "1-394"
+  session_range: "1-525"
   master_equation: "γ = 2/√N_corr (80 orders of magnitude unified)"
 
   # ---------------------------------------------------------------------------
@@ -1165,6 +1165,247 @@ core:
         - {track: core, arc: structural_analysis, sessions: [381, 382, 383, 384], concept: "structural effects on RAR"}
         - {track: core, arc: gas_fraction_control, sessions: [376, 377, 378], concept: "NP2 environment dependence"}
 
+    # =========================================================================
+    # MASSIVE EXPANSION: Sessions 395-525 (131 new sessions, 14 new arcs)
+    # Added by Archivist 2026-02-07
+    # =========================================================================
+
+    # Quantitative Calibration Arc (Sessions 395-399) - COMPLETE
+    quantitative_calibration:
+      name: "Quantitative Calibration Arc"
+      sessions: [395, 396, 397, 398, 399]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "Size Effect Arc (#390-394)"
+      milestone: "R_eff predicts RAR offset (r=-0.49); 33% scatter reduction via local N_corr (later invalidated as tautological). Grade A."
+      recent_additions:
+        - session: 395
+          title: "Functional Form"
+          key_finding: "Functional form analysis of RAR offset dependencies"
+        - session: 400
+          title: "Milestone Review"
+          key_finding: "400-session milestone checkpoint. 607 tests total."
+
+    # Tautology Resolution Arc (Sessions 400-402) - COMPLETE
+    tautology_resolution:
+      name: "Tautology Resolution Arc"
+      sessions: [400, 401, 402]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "CRITICAL: Local N_corr = g_obs/a₀ is CIRCULAR. Per-galaxy R_eff-offset correlation (r=-0.74) SURVIVES. Grade A-."
+      key_insights:
+        - "Local N_corr formulation is tautological (g_obs/a₀)"
+        - "Per-galaxy R_eff correlation non-tautological and robust"
+
+    # R_eff-Dependent RAR Arc (Sessions 403-419) - COMPLETE
+    reff_dependent_rar:
+      name: "R_eff-Dependent RAR Arc"
+      sessions: [403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "Tautology Resolution Arc (#400-402)"
+      milestone: "COMPLETE! offset = -2.19 + 1.21×log(V_flat) - 0.36×log(R_eff). R²=0.75, 50% scatter reduction in 61 late-type galaxies. Grade A."
+      recent_additions:
+        - session: 403
+          title: "Tautology Discovery"
+          key_finding: "CRITICAL: local N_corr = g_obs/a₀ is circular"
+        - session: 413
+          title: "Testable Predictions"
+          key_finding: "11 falsifiable predictions from R_eff framework"
+        - session: 420
+          title: "Arc Synthesis"
+          key_finding: "R_eff effect validated, 50% scatter reduction. Grade A+."
+      key_insights:
+        - "Sessions 397-402 local N_corr retracted as circular"
+        - "R_eff-offset correlation r=-0.74 is genuine physics"
+        - "Bootstrap validation confirms R_eff effect"
+      predictions:
+        - id: P413.2
+          description: "Per-galaxy R_eff correlation"
+          testability: validated
+          status: "r=-0.74, p=10⁻¹¹"
+
+    # Universal Model Discovery Arc (Sessions 420-437) - COMPLETE
+    universal_model:
+      name: "Universal Model Discovery Arc"
+      sessions: [420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "R_eff-Dependent RAR Arc (#403-419)"
+      milestone: "COMPLETE! Three-tier universal model: offset = -3.49 + 1.68×log(V) - 0.40×log(L) + 0.44×c_V. ALL 128 galaxies R²=0.75. Late types R²=0.93. Grade A+."
+      recent_additions:
+        - session: 437
+          title: "Grand Synthesis I"
+          key_finding: "Variance decomposition: 17.8% mass, 44.4% M/L, 13.1% geometry. Universal 3-var model."
+      key_insights:
+        - "c_V (velocity concentration) captures geometry: 29% additional variance"
+        - "Tier 1 Universal: V+L+c_V → R²=0.75 (all 128 galaxies)"
+        - "Tier 3 Late-type: V+L+R_eff+c_V → R²=0.93 (60 late types)"
+        - "M/L correction dominates (44%), geometry secondary (13%)"
+
+    # a₀ Investigation & Falsification Arc (Sessions 438-462) - COMPLETE
+    a0_falsification:
+      name: "a₀ Investigation & Falsification Arc"
+      sessions: [438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "Universal Model Discovery Arc (#420-437)"
+      milestone: "COMPLETE! a₀=cH₀/(2π) agreement is artifact of fixed α=0.5. Free α→a₀=1.28. ALL Synchronism predictions FALSIFIED. Empirical model supersedes theory. Grade A-."
+      recent_additions:
+        - session: 450
+          title: "Gas Fraction Model"
+          key_finding: "logL×f_gas interaction discovered"
+        - session: 462
+          title: "Grand Synthesis V"
+          key_finding: "a₀ arc completion; MOND coefficient predictions. Grade A-."
+      key_insights:
+        - "a₀ = cH₀/(2π) match is artifact of fixing interpolation exponent α=0.5"
+        - "γ = 2/√N_corr is FALSIFIED (wrong sign: r=-0.55 instead of +0.55)"
+        - "Empirical model supersedes theoretical predictions"
+        - "Rotation curve shape determination from model"
+
+    # Extended Exploration Arc (Sessions 463-470) - COMPLETE
+    extended_exploration:
+      name: "Extended Exploration Arc"
+      sessions: [463, 464, 465, 466, 467, 468, 469, 470]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! RAR offset is M/L physics in PC6 (0.7% variance). 5-var model outperforms all alternatives. EFE test null. 96 tests. Grade A."
+      recent_additions:
+        - session: 470
+          title: "Grand Synthesis VI"
+          key_finding: "Extended exploration validated. 56/56 tests passed."
+
+    # Model Optimization Arc (Sessions 471-477) - COMPLETE
+    model_optimization:
+      name: "Model Optimization Arc"
+      sessions: [471, 472, 473, 474, 475, 476, 477]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "Extended Exploration Arc (#463-470)"
+      milestone: "COMPLETE! 5-var ceiling at LOO R²=0.856. Outer-only offset R²=0.913! Inner-outer split resolves noise location. 56 tests. Grade A+."
+      recent_additions:
+        - session: 478
+          title: "Grand Synthesis VII"
+          key_finding: "Model robustness to interpolation, distance, inclination. Grade A+."
+      key_insights:
+        - "Outer-only model breakthrough: R² jumps to 0.913"
+        - "Inner-outer split reveals noise is in inner measurements"
+
+    # Model Improvement Arc (Sessions 482-487) - COMPLETE
+    model_improvement:
+      name: "Model Improvement Arc"
+      sessions: [482, 483, 484, 485, 486, 487]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      building_on: "Model Optimization Arc (#471-477)"
+      milestone: "COMPLETE! logL×f_gas interaction: 6-variable model R²=0.945, LOO=0.938. Largest advance since outer-only model. Grade A."
+      recent_additions:
+        - session: 487
+          title: "Grand Synthesis VIII"
+          key_finding: "Model improvement arc consolidation. 40 tests."
+      key_insights:
+        - "logL×f_gas interaction term is the key: R²=0.945"
+        - "6-var model: V, L, c_V, R_eff, f_gas, logL×f_gas"
+
+    # Noise, ML & Physics Arc (Sessions 488-491) - COMPLETE
+    noise_ml_physics:
+      name: "Noise, ML & Physics Arc"
+      sessions: [488, 489, 490, 491]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! Scatter budget: 28% measurement noise, 67% physics. ML methods FAIL (best R²=0.60 vs linear 0.936). Linear model wins. Grade A-."
+      recent_additions:
+        - session: 497
+          title: "Grand Synthesis X"
+          key_finding: "Noise, ML & physics comprehensive summary. 48 tests."
+      key_insights:
+        - "67% of RAR scatter is physical (galaxy properties)"
+        - "ML (random forest, gradient boosting) cannot beat linear (R²=0.60 vs 0.936)"
+        - "Linear model captures the physics; nonlinearity is noise"
+
+    # Model Completeness Arc (Sessions 498-501) - COMPLETE
+    model_completeness:
+      name: "Model Completeness Arc"
+      sessions: [498, 499, 500, 501]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! 80% of RAR scatter explained. 5 Gaussian-consistent outliers. Bootstrap PIs well-calibrated. Zero additional signal. Grade A."
+      recent_additions:
+        - session: 502
+          title: "Grand Synthesis XI"
+          key_finding: "Theory vs empirical. 32 tests."
+
+    # Coefficient-Residual Arc (Sessions 507-510) - COMPLETE
+    coefficient_residual:
+      name: "Coefficient-Residual Arc"
+      sessions: [507, 508, 509, 510]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! β(V)/|β(L)|=3.46 vs MOND 4.0 (13% dev). Reparametrization VIF 390→19. Residual 86% signal (fingerprints r=0.973). Grade A."
+      recent_additions:
+        - session: 510
+          title: "Grand Synthesis XIII"
+          key_finding: "Coefficient-residual analysis. 24 tests."
+
+    # Structure & Application Arc (Sessions 515-520) - COMPLETE
+    structure_application:
+      name: "Structure & Application Arc"
+      sessions: [515, 516, 517, 518, 519, 520]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! Three physics layers: Mass (78%), Composition (17%), Structure (5%). L* is self-similarity point. Model = M/L + MOND. Grade A."
+      recent_additions:
+        - session: 520
+          title: "Grand Synthesis XV"
+          key_finding: "3-layer hierarchy identified. Structure and application arc."
+      key_insights:
+        - "Physics hierarchy: Mass 78%, Composition 17%, Structure 5%"
+        - "L* is the self-similarity scale"
+        - "Dark matter halos are M/L phantoms"
+
+    # Limits Arc (Sessions 521-524) - COMPLETE
+    limits_arc:
+      name: "Limits Arc"
+      sessions: [521, 522, 523, 524]
+      status: complete
+      date_started: "2026-02-07"
+      date_completed: "2026-02-07"
+      milestone: "COMPLETE! Slope unobservable (R²=0.31, degrades model). Residual 100% noise (error budget 587% of variance). Model at ceiling. Grade A."
+      recent_additions:
+        - session: 524
+          title: "Grand Synthesis XVI"
+          key_finding: "Limits arc completion. Model at theoretical ceiling."
+
+    # Morphology Split (Session 525) - ACTIVE
+    morphology_split:
+      name: "Morphology Split"
+      sessions: [525]
+      status: active
+      date_started: "2026-02-07"
+      milestone: "Chow test marginal (p=0.041). Late types LOO=0.949 > all-type 0.937. Same physics, different systematics. Grade A-."
+      recent_additions:
+        - session: 525
+          title: "The Morphology Split"
+          date: "2026-02-07"
+          key_finding: "One physics, different systematics. Chow test p=0.041. Late-type LOO=0.949 beats all-type 0.937. 8/8 verified."
+      key_insights:
+        - "Coefficients have SAME SIGN across types"
+        - "Type-interaction model WORSENS LOO"
+        - "Different systematics (M/L, gas fraction, bulge), not different physics"
+
     # Consciousness Arc 2.0 (COMPLETE - NEW)
     consciousness_2:
       name: "Consciousness Arc 2.0"
@@ -1872,20 +2113,20 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 890
-  active_arcs: 2  # Hot Superconductor + Quantitative NP2
-  complete_arcs: 17  # +Experimental Validation, +Empirical Execution, +Gas Fraction Control
-  total_predictions: "564+"  # +32 from 3 new arcs
-  validated_predictions: "135+"  # NP2 confirmed (p=5×10⁻⁶), NP3 ~10%, NP4 observed
-  empirically_tested: 5  # NP1-NP5 from SPARC data
+  total_sessions: 2557  # 525 core + 2010 chemistry + 11 gnosis + 11 (other)
+  active_arcs: 2  # Hot Superconductor + Morphology Split
+  complete_arcs: 31  # +14 new arcs from sessions 395-525
+  total_predictions: "600+"  # +predictions from 14 new arcs
+  validated_predictions: "150+"  # Multiple predictions confirmed/falsified through SPARC analysis
+  empirically_tested: "50+"  # Extensive SPARC testing across 131 sessions
   high_testability_predictions: 78
-  confirmed_predictions: 11  # +3 from SPARC (NP2, NP3, NP4)
+  confirmed_predictions: 15  # R_eff correlation, universal model, morphology split
   proposed_experiments: 63
-  honest_failures: 5  # α=-0.5 wrong, P7=RAR, magnitude off, etc.
+  honest_failures: "10+"  # γ=2/√N_corr FALSIFIED (wrong sign), local N_corr tautological, α=-0.5 wrong, magnitude off
   hardware_architectures: 2
-  chemistry_phenomenon_types: 363
-  chemistry_findings: 437
-  chemistry_milestone: "Session #500 - 363 phenomenon types! Laser Hardening latest. 500 sessions! 437 findings! 360° Full Circle at #497!"
+  chemistry_phenomenon_types: 1873  # up from 363!
+  chemistry_findings: "2000+"  # up from 437
+  chemistry_milestone: "Session #2010 - 1873 phenomenon types! Automotive Adhesive latest. 2010 sessions! ~89% prediction validation rate!"
   gr_milestone: "Session #314 - GR Arc COMPLETE: gravity + GWs + cosmology + quantum gravity unified"
   sm_milestone: "Session #319 - Standard Model Arc COMPLETE: Higgs, CKM, Neutrinos from Planck grid!"
   bsm_milestone: "Session #323 - BSM Arc COMPLETE: GUTs, SUSY, Extra Dimensions, Hierarchy Problem analyzed from grid perspective"
@@ -1902,4 +2143,13 @@ statistics:
   experimental_validation_milestone: "Session #371 - Experimental Validation Arc COMPLETE: 32/32. 10 testable predictions, 6 protocols, quantitative falsification criteria!"
   empirical_execution_milestone: "Session #375 - Empirical Execution Arc COMPLETE: FIRST REAL DATA! SPARC r=-0.66 (p≈0). Direction right, magnitude off. 5 failures, 5 novel predictions. Grade B-."
   gas_fraction_control_milestone: "Session #378 - Gas Fraction Control Arc COMPLETE: NP2 CONFIRMED at p=5×10⁻⁶. Gas fraction NOT confound. Bootstrap/permutation/nonparametric all confirm. Cohen's d=0.55."
+  tautology_milestone: "Session #403 - CRITICAL: local N_corr is tautological (g_obs/a₀). Per-galaxy R_eff correlation (r=-0.74) survives."
+  universal_model_milestone: "Session #437 - Grand Synthesis I: Universal 3-var model R²=0.75 across ALL 128 SPARC galaxies. Late types R²=0.93."
+  a0_falsification_milestone: "Session #462 - Grand Synthesis V: ALL Synchronism γ predictions FALSIFIED (wrong sign). Empirical model supersedes theory."
+  model_optimization_milestone: "Session #478 - Grand Synthesis VII: Outer-only model R²=0.913! Inner-outer split reveals noise location."
+  model_improvement_milestone: "Session #487 - Grand Synthesis VIII: 6-var model R²=0.945 (LOO=0.938) via logL×f_gas interaction."
+  noise_ml_milestone: "Session #497 - Grand Synthesis X: ML FAILS (R²=0.60 vs linear 0.936). 67% of scatter is physical."
+  structure_milestone: "Session #520 - Grand Synthesis XV: Three physics layers - Mass 78%, Composition 17%, Structure 5%."
+  limits_milestone: "Session #524 - Grand Synthesis XVI: Model at ceiling. Residual 100% noise. Slope unobservable."
+  morphology_milestone: "Session #525 - Morphology Split: One physics, different systematics. Late LOO=0.949 > all 0.937."
   unified_milestone: "Session #315 - 34 predictions consolidated, 20 validated (58.8%), avg confidence 0.90"

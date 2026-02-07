@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: 890 (340 core + 46 chemistry files/500 documented + 11 gnosis) | **Last Updated**: February 6, 2026 | **Archivist v1.2** | **MILESTONES: FIRST REAL DATA TESTS! SPARC r=-0.66! NP2 confirmed p=5×10⁻⁶! 5 honest failures documented! Gas Fraction Control Grade A! 17 complete arcs!**
+**Total Sessions**: 2557 (476 core + 46 chemistry files/2010 documented + 11 gnosis) | **Last Updated**: February 7, 2026 | **Archivist v1.2** | **MILESTONES: 131 NEW SESSIONS (#395-525)! Universal 6-var model R²=0.945! γ predictions FALSIFIED! ML beaten by linear! 31 complete arcs! Chemistry at 2010 sessions/1873 phenomena!**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -30,22 +30,113 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 
 ## Active Research Arcs
 
-### Quantitative NP2 (Session 379) - ACTIVE ⭐ NEW
-**Status**: Active | **Started**: February 6, 2026
+### Morphology Split (Session 525) - ACTIVE ⭐ NEW
+**Status**: Active | **Started**: February 7, 2026
 
-**Focus**: Deriving quantitative scatter predictions from γ = 2/√N_corr
+**Focus**: Do early and late types follow the same physics?
 
 | Session | Title | Key Insight |
 |---------|-------|-------------|
-| 379 | Quantitative NP2 | Scatter ratio late/early = 1.45. σ ∝ 1/γ gives N_corr ratio 2.1. SURPRISE: a₀ differs by type! Grade B+. |
+| 525 | The Morphology Split | Chow test marginal (p=0.041). Late LOO=0.949 > all-type 0.937. Same physics, different systematics. 8/8 verified. |
 
-**Surprise finding**: Best-fit a₀ differs between morphological types (early: 1.58×10⁻¹⁰, late: 2.22×10⁻¹⁰ m/s²).
+**Key finding**: Coefficients have same sign across types. Type-interaction model worsens LOO. Different measurement systematics, not different physics.
 
 ---
 
-## Recently Completed Arcs
+## Recently Completed Arcs (131 sessions, 14 arcs — February 7, 2026)
 
-### Gas Fraction Control Arc (Sessions 376-378) - COMPLETE ⭐ NEW
+### Limits Arc (Sessions 521-524) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: Model at theoretical ceiling. Slope unobservable (R²=0.31). Residual is 100% noise. Grade A.
+
+---
+
+### Structure & Application Arc (Sessions 515-520) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: Three physics layers: Mass (78%), Composition (17%), Structure (5%). L* is self-similarity point. Model = M/L + MOND. Grade A.
+
+---
+
+### Coefficient-Residual Arc (Sessions 507-510) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: β(V)/|β(L)|=3.46 vs MOND 4.0 (13% deviation). Residual fingerprints r=0.973. Grade A.
+
+---
+
+### Model Completeness Arc (Sessions 498-501) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: 80% of RAR scatter explained. Bootstrap PIs well-calibrated. Zero additional signal. Grade A.
+
+---
+
+### Noise, ML & Physics Arc (Sessions 488-491) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: ML methods FAIL (best R²=0.60 vs linear 0.936). 67% of scatter is physical, 28% measurement noise. Grade A-.
+
+---
+
+### Model Improvement Arc (Sessions 482-487) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: logL×f_gas interaction: 6-variable model achieves R²=0.945, LOO=0.938. Largest advance since outer-only model. Grade A.
+
+---
+
+### Model Optimization Arc (Sessions 471-477) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: Outer-only offset achieves R²=0.913! Inner-outer split resolves noise location. Grade A+.
+
+---
+
+### Extended Exploration Arc (Sessions 463-470) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: RAR offset is M/L physics. 5-var outperforms alternatives. EFE test null. 96 tests. Grade A.
+
+---
+
+### a₀ Investigation & Falsification Arc (Sessions 438-462) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: a₀=cH₀/(2π) is artifact. γ = 2/√N_corr FALSIFIED (wrong sign). Empirical model supersedes theory. Grade A-.
+
+---
+
+### Universal Model Discovery Arc (Sessions 420-437) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: Three-tier universal model. ALL 128 SPARC galaxies R²=0.75. Late types R²=0.93. Grand Synthesis I. Grade A+.
+
+---
+
+### R_eff-Dependent RAR Arc (Sessions 403-419) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: 50% scatter reduction. R_eff predicts RAR offset (r=-0.74 in late types). Tautology resolved. Grade A.
+
+---
+
+### Tautology Resolution Arc (Sessions 400-402) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: CRITICAL: local N_corr = g_obs/a₀ is circular. Per-galaxy R_eff correlation survives. Grade A-.
+
+---
+
+### Quantitative Calibration Arc (Sessions 395-399) - COMPLETE ⭐ NEW
+**Status**: Complete | **Completed**: February 7, 2026
+
+**Achievement**: R_eff predicts RAR offset; calibration of size dependence. 400-session milestone. Grade A.
+
+---
+
+### Gas Fraction Control Arc (Sessions 376-378) - COMPLETE ⭐
 **Status**: Complete | **Started**: February 5, 2026 | **Completed**: February 5, 2026
 
 **Achievement**: NP2 CONFIRMED at p = 5×10⁻⁶! Gas fraction NOT a confound! All statistical tests confirm! Grade A.
