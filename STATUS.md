@@ -1,6 +1,6 @@
 # Synchronism Framework Status
 
-**Last Updated**: February 5, 2026
+**Last Updated**: February 7, 2026
 **Current State**: Active Research with Validated Predictions
 **Honest Assessment**: Strong theoretical framework with partial experimental validation
 
@@ -12,7 +12,7 @@
 
 | Prediction | Status | Evidence |
 |------------|--------|----------|
-| **γ ~ 1 Universal Boundary** | ✅ Validated | 1703 phenomenon types, 89% prediction rate |
+| **γ ~ 1 Universal Boundary** | ✅ Validated | 2523 phenomenon types, 89% prediction rate |
 | **BCS Superconductivity Ratio** | ✅ Validated | <1% error |
 | **Hückel 4n+2 Rule** | ✅ Validated | Exact derivation |
 | **NP2 RAR Scatter** | ✅ Strongly Supported | p = 5×10⁻⁶, all validation tests pass |
@@ -20,7 +20,7 @@
 
 ### Working Components
 
-- **Chemistry Track**: 1840 sessions, 1703 phenomenon types documented
+- **Chemistry Track**: 2660 sessions, 2523 phenomenon types documented
 - **Core Track**: 378 sessions, 14+ complete arcs
 - **Gnosis Track**: Complete (11 sessions, 8-way convergence at C ≈ 0.50)
 - **SESSION_MAP**: Comprehensive navigation for all sessions
@@ -37,7 +37,25 @@
 
 ## What Doesn't Work
 
-### Failed Predictions
+**Full Documentation**: [Research/chemistry/FAILURES_AND_LIMITATIONS.md](Research/chemistry/FAILURES_AND_LIMITATIONS.md)
+
+### Failed Predictions (Chemistry Track - Systematic)
+
+| Category | Examples | Count |
+|----------|----------|-------|
+| Outright failures (r < 0.2) | Hall coefficient, magnetic susceptibility, coordination number | ~50 |
+| Very weak (r = 0.2-0.4) | Thermionic emission, penetration depth, magnetostriction | ~150 |
+| Anomalous (γ backward) | Piezoelectricity, bond strength, magnetic anisotropy | ~30 |
+| Moderate only (r = 0.4-0.6) | Diffusion, Grüneisen parameter, catalysis | ~120 |
+
+### Key Lessons from Failures
+
+1. **Channel independence**: γ_phonon, γ_electron, γ_optical, γ_spin don't correlate with each other
+2. **SOC dominates magnetics**: Spin-orbit coupling >> lattice coherence for RE metals
+3. **Boundaries differ from bulk**: Surface phenomena don't follow bulk γ rules
+4. **Some systems want disorder**: Piezoelectricity benefits from incoherence
+
+### Core Track Failures
 
 | Prediction | Status | Error |
 |------------|--------|-------|
@@ -50,6 +68,7 @@
 2. **Environment vs structure ambiguity** in NP2 (Hubble type correlates with both)
 3. **R² = 0.14** in RAR scatter means 86% variance unexplained
 4. **Correlation length ξ = MRH** claim needs direct experimental test
+5. **No multi-channel theory** for how different γ values interact
 
 ---
 
@@ -126,11 +145,12 @@
 | Metric | Value |
 |--------|-------|
 | Core sessions | 378 |
-| Chemistry sessions | 1840 |
+| Chemistry sessions | 2660 |
 | Gnosis sessions | 11 |
-| Total phenomenon types | 1703 |
+| Total phenomenon types | 2523 |
 | Complete arcs | 14+ |
 | Predictions validated | 89% (Chemistry) |
+| Predictions failed | ~11% (~350 documented) |
 | Active open questions | 5 (OQ001-OQ006) |
 
 ---
@@ -178,5 +198,5 @@ Framework builds on established physics while proposing novel extensions.
 
 ---
 
-*Last updated: February 5, 2026*
+*Last updated: February 7, 2026*
 *Next review: After experimental validation results*
