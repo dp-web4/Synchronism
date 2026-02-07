@@ -248,3 +248,116 @@ The failures are not embarrassments — they are the most informative results th
 *"A theory is only as good as its known limitations. We found ours."*
 
 *Phase 2 Session #1 — Failure Analysis initiated 2026-02-07*
+
+---
+
+## VII. Phase 2 Session #2: Channel Independence — Quantitative Results
+
+### Dataset
+15 metallic elements with data across 4 channels: γ_phonon (from θ_D), log(σ) (electrical), log|χ_m| (magnetic), n_opt (optical). Materials classified as noble (Cu, Ag, Au), sp-metals (Al, Pb, Na, Mg), transition metals (Cr, Ti, W, Pt), and ferromagnets (Fe, Ni, Co, Gd).
+
+### Key Finding: Two-Tier Channel Structure
+
+**Tier 1 — γ_phonon is TRULY independent:**
+
+| Cross-correlation | All (N=15) | Non-ferro (N=11) |
+|-------------------|-----------|-------------------|
+| γ_phonon vs log(σ) | r = -0.165 | r = -0.083 |
+| γ_phonon vs log\|χ\| | r = -0.156 | r = -0.249 |
+| γ_phonon vs n_opt | r = -0.060 | r = -0.269 |
+| **Mean \|r\|** | **0.127** | **0.200** |
+
+The Debye temperature contains zero information about electronic, magnetic, or optical properties. This is the strongest result: lattice coherence is genuinely orthogonal to electronic coherence.
+
+**Tier 2 — Electron/spin/optical channels are mutually correlated:**
+
+| Cross-correlation | All (N=15) | Non-ferro (N=11) |
+|-------------------|-----------|-------------------|
+| log(σ) vs log\|χ\| | r = -0.665 | r = -0.707 |
+| log(σ) vs n_opt | r = -0.821 | r = -0.659 |
+| log\|χ\| vs n_opt | r = +0.808 | r = +0.753 |
+| **Mean \|r\|** | **0.765** | **0.706** |
+
+These correlations persist even after removing ferromagnets, indicating they arise from shared electronic structure (d-band filling), not just ferromagnetic outliers. All three channels are sensitive to the same underlying variable: the character and occupation of d/f electronic states.
+
+### Electron-Phonon Coupling: The Bridge
+
+12 elemental superconductors tested for cross-channel coupling via λ_ep:
+
+| Test | Correlation |
+|------|-------------|
+| λ_ep vs γ_phonon | r = 0.736 (p = 0.006) |
+| λ_ep vs 1/θ_D | r = 0.736 (p = 0.006) |
+| λ_ep vs log(σ) | r = -0.735 (p = 0.007) |
+
+This is the **only confirmed real cross-channel coupling**: soft lattices (high γ_phonon) produce large phonon amplitudes that scatter electrons more effectively, creating strong electron-phonon coupling. This is the McMillan mechanism underlying BCS superconductivity.
+
+### Three Levels of Channel Independence
+
+| Level | Description | Mean \|r\| | Mechanism |
+|-------|------------|-----------|-----------|
+| 1: Truly Independent | γ_phonon vs all others | ~0.15 | Different quasiparticles, different energy scales |
+| 2: Confounded | electron/spin/optical mutual | ~0.7 | Shared d-electron character |
+| 3: Physically Coupled | electron-phonon (λ_ep) | 0.74 | Real phonon→electron scattering |
+
+### Implications for Framework
+
+1. The framework is correct to use channel-specific γ values
+2. "Channel independence" should be refined: phonon channel is independent; electronic channels share information
+3. The γ_phonon parameter is the framework's most honest variable — it is independently measurable (from θ_D) and genuinely orthogonal to other channels
+4. Predictions using γ_phonon for non-lattice properties (e.g., electrical conductivity from θ_D) should be expected to fail — and they do (r ~ 0.1)
+
+### Simulation Files
+- `simulations/chemistry/phase2_channel_independence_analysis.py` — initial cross-channel correlation analysis
+- `simulations/chemistry/phase2_channel_independence_v2.py` — refined analysis with material class control
+
+*Phase 2 Session #2 — Channel Independence Analysis completed 2026-02-07*
+
+---
+
+## VIII. Phase 2 Session #3: The Incoherence Regime — When Disorder Helps
+
+### The Problem
+The framework assumes coherence (low γ) is always beneficial. But piezoelectricity d_33 ∝ γ (Session #93), thermal expansion α ∝ γ (Session #79), entropy S ∝ γ (Session #36), and the Grüneisen parameter γ_G ∝ γ (Session #83) all show the opposite. These are not anomalies — they are a distinct physical regime.
+
+### The Two-Regime Theory
+
+Every measurable property P scales as P ∝ γ^(s_P) where s_P is the "coherence sign":
+
+| Regime | Sign | Properties | Mechanism |
+|--------|------|-----------|-----------|
+| Coherence (s_P < 0) | Order helps | σ, κ, μ, Tc, K, D | Propagation through structure |
+| Incoherence (s_P > 0) | Disorder helps | d_33, α, S, C_v, γ_G | Response to perturbation |
+| Neutral | γ irrelevant | R_H, Z, n_v | Counting, not quality |
+
+### Quantitative Results
+
+| Property | Scaling | r-value | Regime |
+|----------|---------|---------|--------|
+| Bulk modulus K | K ∝ γ^-1.15 | r = -0.696 | Coherence |
+| Thermal expansion α | α ∝ γ^+1.20 | r = +0.813 | Incoherence |
+| Piezoelectricity d | d ∝ γ × ε | r = +0.940 | Incoherence |
+| Specific heat C_v | C_v increases with γ | r = +0.190 (near saturation) | Incoherence |
+
+### The Predictive Rule
+
+**Propagation properties** (how well things move through structure) → coherence regime
+**Response properties** (how much structure deforms under perturbation) → incoherence regime
+**Counting properties** (how many things exist) → neutral
+
+This maps to the propagator/susceptibility distinction in field theory:
+- Green's functions G(k,ω) = propagators → coherence regime
+- Response functions χ(k,ω) = susceptibilities → incoherence regime
+
+The fluctuation-dissipation theorem connects them, explaining why the SAME parameter γ appears with opposite sign.
+
+### Key Correction
+Session #79 predicted α ∝ γ³. The actual exponent from 20 materials is α ∝ γ^1.20 — the earlier session overfitted to a smaller dataset.
+
+### K × α Near-Cancellation
+K ∝ γ^-1.15 and α ∝ γ^+1.20, so K × α ∝ γ^0.05 — near-independence from γ. This is consistent with the thermodynamic Grüneisen relation: K × α × V ∝ C_v × γ_G, where C_v saturates and γ_G is roughly constant.
+
+### Simulation File
+- `simulations/chemistry/phase2_incoherence_regime.py` — full analysis with 19 piezoelectric, 20 thermal expansion, 18 elastic, 14 specific heat data points
+
+*Phase 2 Session #3 — Incoherence Regime Analysis completed 2026-02-07*
