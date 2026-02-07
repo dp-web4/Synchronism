@@ -11,7 +11,7 @@ g = gamma(N)
 cf = CF(g)
 
 fig, axes = plt.subplots(2, 4, figsize=(20,10))
-fig.suptitle('Chemistry Session #2585: Wet Folding Sizing Chemistry - γ~1 Coherence Analysis\n2448th Phenomenon Type | Finding #2512', fontsize=14, fontweight='bold')
+fig.suptitle('Chemistry Session #2583: Paper Weight GSM Chemistry - γ~1 Coherence Analysis\n2446th Phenomenon Type | Finding #2510', fontsize=14, fontweight='bold')
 
 ax=axes[0,0]; ax.plot(N,g,'b-',lw=2); ax.axhline(y=1,color='r',ls='--'); ax.axvline(x=4,color='g',ls='--')
 ax.set_xlabel('N_corr'); ax.set_ylabel('γ'); ax.set_title('T1: γ(4)=1'); ax.legend(['γ=2/√N','γ=1','N=4'])
@@ -33,7 +33,7 @@ ax.plot(Nbig,cfbig,'b-',lw=2); ax.axhline(y=0.96,color='r',ls='--')
 ax.set_xlabel('N_corr'); ax.set_ylabel('CF'); ax.set_title('T8: CF(100)>0.96')
 
 plt.tight_layout()
-plt.savefig('/mnt/c/exe/projects/ai-agents/Synchronism/simulations/chemistry/wet_folding_sizing_chemistry_coherence.png', dpi=150, bbox_inches='tight')
+plt.savefig('/mnt/c/exe/projects/ai-agents/Synchronism/simulations/chemistry/paper_weight_gsm_chemistry_coherence.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 results = []
