@@ -7,11 +7,11 @@ metadata:
   last_updated: "2026-02-07T04:30:00Z"
   archivist_version: "1.2"
   total_sessions: 2557
-  note: "Chemistry sessions documented in Framework_Summary.md (1-2010), 1873 phenomenon types. Individual files exist for 1-45, 133. Core track massively expanded: 131 new sessions (#395-525) with 14 new arcs."
-  milestone: "UNIVERSAL 6-VAR MODEL ACHIEVES R²=0.945 (LOO=0.937)! 131 new sessions (#395-525)! Tautology resolved, model optimized, morphology validated. 14 new arcs! Chemistry at 2010 sessions, 1873 phenomena!"
+  note: "Chemistry sessions documented in Framework_Summary.md (1-2010), 1913 phenomenon types (up from 1873). Individual files exist for 1-45, 133. Core track: 476 sessions (#1-525) with 31 complete arcs."
+  milestone: "UNIVERSAL 6-VAR MODEL R²=0.945 (LOO=0.937). Model at noise floor. Chemistry at 2010 sessions, 1913 phenomenon types. γ=2/√N_corr FALSIFIED. ML beaten by linear."
   tracks:
     core: 476  # Sessions 395-525 added (14 new arcs: Calibration through Morphology Split)
-    chemistry: 46 files + 1964 framework entries (2010 total documented)
+    chemistry: 46 files + 1964 framework entries (2010 total documented, 1913 phenomenon types)
     gnosis: 11
 
 # =============================================================================
