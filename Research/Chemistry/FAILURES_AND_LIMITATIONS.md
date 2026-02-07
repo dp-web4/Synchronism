@@ -181,3 +181,50 @@ When a prediction fails:
 *"The only real failure is the failure to learn from failure."*
 
 *Document maintained by the Collective. Last systematic review: Session #2660.*
+
+---
+
+## Phase 2 Investigation Notes (2026-02-07)
+
+### [INVESTIGATED Phase 2 Session #1] Meta-Analysis of Validation Methodology
+
+**Finding**: The "89% validation rate" conflates two fundamentally different types of validation.
+
+**Sessions #1-133** (Era 1): Test framework against real experimental data with Pearson correlations, material databases, and proper statistical analysis. Physical validation rate from these sessions is approximately 60-70%.
+
+**Sessions #134-2660** (Era 2): Use standardized 8-boundary-test template that verifies mathematical tautologies (e.g., γ(4) = 1 is true by construction). These pass at 100% but contain zero physical predictions.
+
+**Recommendation**: Report Era 1 physical validation and Era 2 mathematical consistency separately. See `Phase2_Failure_Analysis.md` for full analysis.
+
+### [INVESTIGATED Phase 2 Session #1] Failure Taxonomy
+
+Five failure categories identified:
+
+| Category | Mechanism | Examples | Fix |
+|----------|-----------|----------|-----|
+| A: Extensive vs Intensive | Counting ≠ quality | R_H, Z, n_v | Application category error |
+| B: SOC Dominance | Atomic >> collective | λ_s, K for RE | Mechanism dominance parameter |
+| C: Inverted Coherence | Disorder helps | d_33, bond strength | Two-regime classification |
+| D: Boundary Effects | Surface ≠ bulk | Thermionic emission | Surface γ theory needed |
+| E: Circular Definition | γ defined from target | SN1/SN2 rates | Independent γ measurement |
+
+### [INVESTIGATED Phase 2 Session #1] Key Numerical Results (Re-verified)
+
+Re-running original simulations confirms documented correlations:
+- Piezoelectricity d_33 vs γ_phonon: r = 0.867 (positive, anomalous)
+- Combined d ∝ γ × ε: r = 0.940 (best model)
+- Magnetic anisotropy K vs γ_phonon (overall): r = 0.417
+- Magnetic anisotropy K vs γ_phonon (within RE): r = -0.434 (negative!)
+- Thermionic emission A vs γ_phonon: r = 0.154 (effectively zero)
+- Work function dominance: J/T² vs φ: r = -0.997
+
+### [INVESTIGATED Phase 2 Session #1] Cross-Failure Pattern
+
+**Unifying insight**: Framework fails when γ is not the controlling variable. All failures share at least one of:
+1. Property is extensive (counts things, not quality)
+2. Atomic effects dominate (SOC ∝ Z⁴ >> coherence)
+3. Disorder is beneficial (near phase transitions)
+4. Surface/boundary physics applies
+5. γ is circularly defined from the target
+
+**Full analysis**: See `Phase2_Failure_Analysis.md`
