@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-02-06
+**Last Updated**: 2026-02-07
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -318,12 +318,12 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-02)
+### Session Counts (as of 2026-02-07)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 394 | Size Effect, N_corr Prediction, Structural Analysis, Gas Fraction Control arcs complete |
-| Chemistry | 1,970 | 1,750+ phenomenon types at γ~1 |
+| Core | 476 | 31 complete arcs, Sessions #395-525 added (Universal 6-var model, γ predictions falsified, ML beaten by linear) |
+| Chemistry | 2,010 | 1,873 phenomenon types at γ~1 |
 | Gnosis | 11 | Complete |
 
 ### Pending Integrations
@@ -338,7 +338,7 @@ For minor changes (typos, statistics updates):
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-06
+- Last integration: 2026-02-07
 - Sessions behind: ~0 (statistics updated)
 - Build status: Clean
 - Governance: Active (Rev_0)
