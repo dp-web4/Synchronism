@@ -361,3 +361,80 @@ K ∝ γ^-1.15 and α ∝ γ^+1.20, so K × α ∝ γ^0.05 — near-independence
 - `simulations/chemistry/phase2_incoherence_regime.py` — full analysis with 19 piezoelectric, 20 thermal expansion, 18 elastic, 14 specific heat data points
 
 *Phase 2 Session #3 — Incoherence Regime Analysis completed 2026-02-07*
+
+---
+
+## IX. Phase 2 Session #4: Spin-Orbit Coupling Dominance
+
+### Dominance Parameter D
+
+Proposed: D = ξ_SOC / (k_B × θ_D), comparing SOC energy to phonon energy.
+
+| Material Class | D range | γ_phonon useful? |
+|---------------|---------|------------------|
+| 3d metals (Fe, Co, Ni) | 0.6 - 2.1 | Possibly (D ≈ 1) |
+| Ferrites (Fe₃O₄, YIG) | 1.0 - 1.4 | Possibly |
+| RE-TM compounds | 7 - 8 | No (SOC dominates) |
+| Rare earths (Tb-Er) | 20 - 27 | No (SOC dominates) |
+| 5d alloys (FePt, CoPt) | 23 - 24 | No (SOC dominates) |
+
+### Key Results
+
+| Predictor | r for K₁ | Interpretation |
+|-----------|---------|----------------|
+| γ_phonon (coherence) | 0.496 | Moderate — but confounded |
+| SOC energy ξ | 0.808 | Strong — physical cause |
+| Z⁴ (atomic number) | 0.766 | Strong — SOC proxy |
+
+SOC outperforms coherence by 1.6× overall.
+
+### The Gadolinium Anomaly
+Gd (Z=64, 4f⁷) has K₁ = 0.012 MJ/m³ — comparable to 3d metals, despite being a rare earth. Reason: L=0 (half-filled 4f shell), so SOC contribution vanishes. This proves anisotropy tracks orbital angular momentum, not atomic number or lattice coherence.
+
+### SOC Scaling
+SOC ∝ Z^2.03 (not Z^4 as for hydrogen-like atoms — screening reduces the exponent).
+
+### Simulation File
+- `simulations/chemistry/phase2_soc_dominance.py` — 16 magnetic materials, dominance parameter analysis
+
+*Phase 2 Session #4 — SOC Dominance Analysis completed 2026-02-07*
+
+---
+
+## X. Phase 2 Session #5: Boundary vs Bulk — The Barrier Regime
+
+### Thermionic Emission Results (26 materials)
+
+| Predictor | r for J(1000K) | After removing φ |
+|-----------|---------------|-----------------|
+| Work function φ | -0.999 | — (primary) |
+| γ_phonon | 0.621 | 0.032 (vanishes!) |
+| Richardson A vs γ | 0.109 | — |
+| Partial r(A,γ\|φ) | 0.041 | — |
+
+The γ-J correlation (r=0.621) is **entirely spurious** — driven by confounding (alkali metals have both low φ and high γ for unrelated reasons). After removing φ dependence, the residual γ correlation drops to r=0.032.
+
+### The Complete Regime Framework
+
+Synthesizing Sessions #3 and #5, four applicability regimes emerge:
+
+| Regime | Scaling | Mechanism | γ role |
+|--------|---------|-----------|--------|
+| 0: Neutral | Independent | Counting | Irrelevant |
+| 1: Coherence | P ∝ 1/γ | Propagation | Dominant |
+| 2: Incoherence | P ∝ γ | Response | Dominant (inverted) |
+| 3: Barrier | P ∝ exp(-E/kT) | Activated escape | Negligible |
+
+### Classification Flowchart
+1. Is it counting something? → Regime 0
+2. Is there an activation barrier? → Regime 3
+3. Does it measure propagation/stability? → Regime 1 (use 1/γ)
+4. Does it measure response/deformation? → Regime 2 (use γ)
+
+### Why Exponentials Always Win
+At T=1000K, a 1 eV change in φ changes J by 10⁵. The entire range of γ (0.5-16) produces at most a factor of ~30 (γ^1.2). Exponential barriers mathematically overwhelm polynomial coherence effects.
+
+### Simulation File
+- `simulations/chemistry/phase2_boundary_effects.py` — thermionic emission analysis, residual decomposition
+
+*Phase 2 Session #5 — Boundary Effects Analysis completed 2026-02-07*

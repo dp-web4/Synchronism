@@ -253,3 +253,21 @@ The "anomalous" results where d_33 ∝ γ (Session #93) are NOT anomalous — th
 **Correction**: Session #79 predicted α ∝ γ³; actual exponent is 1.20 from larger dataset.
 
 **Framework update**: The Category C failure "Wrong Direction (Incoherence Helps)" is resolved. These are not failures — they are response properties correctly predicted by the incoherence regime of the framework.
+
+### [INVESTIGATED Phase 2 Session #4] SOC Dominance Quantified
+
+Introduced **dominance parameter D = ξ_SOC / (k_B × θ_D)**:
+- D < 5: Coherence may contribute (3d metals, ferrites)
+- D > 5: SOC dominates, γ_phonon irrelevant (RE metals, 5d alloys)
+
+SOC predicts K₁ with r = 0.808 vs γ_phonon r = 0.496 (1.6× better). The Gadolinium anomaly (Z=64 but K₁ ≈ 3d metals because L=0) proves anisotropy tracks orbital angular momentum, not atomic number or lattice coherence. SOC scales as Z^2.03 (screened from Z^4).
+
+### [INVESTIGATED Phase 2 Session #5] Boundary/Barrier Regime Identified
+
+Thermionic emission: J vs φ r = -0.999, but J vs γ r = 0.032 after removing φ (the raw r = 0.621 is entirely confounding). Partial correlation r(A, γ | φ) = 0.041 — zero hidden coherence signal.
+
+**New regime identified**: Barrier properties (P ∝ exp(-E/kT)) where exponential barriers mathematically overwhelm polynomial coherence effects. Combined with Session #3, yields four-regime classification:
+- Regime 0: Neutral (counting) — γ irrelevant
+- Regime 1: Coherence (propagation) — P ∝ 1/γ
+- Regime 2: Incoherence (response) — P ∝ γ
+- Regime 3: Barrier (activated) — P ∝ exp(-E/kT), γ negligible
