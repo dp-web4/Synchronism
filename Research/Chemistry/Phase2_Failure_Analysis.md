@@ -473,3 +473,37 @@ The framework's genuine predictive power comes from **COMBINATIONS**:
 - `simulations/chemistry/phase2_regime_predictions.py` — five property tests with 20, 17, 13, 20, 12 materials
 
 *Phase 2 Session #6 — Regime Prediction Testing completed 2026-02-07*
+
+---
+
+## XII. Phase 2 Session #7: Novel Predictions — Incremental Predictive Power
+
+### Can γ predict something NO other framework can?
+
+| Prediction | r-value | Assessment |
+|-----------|---------|------------|
+| ZT vs γ_phonon alone | 0.178 | Fails — γ alone insufficient |
+| ZT vs 1/κ | 0.915 | Works — but just κ correlation |
+| ZT × d_33 (cross-property) vs γ | 0.894 | Novel — shared soft lattice |
+| κ_e/κ_ph vs σ × γ_phonon | 0.809 | Genuine improvement over WF (0.638) |
+| Thermal shock R_s vs γ | -0.257 | Confirmed ≈ 0 (two-regime cancellation) |
+
+### Genuine Incremental Prediction
+**κ_e/κ_ph vs σ × γ_phonon** (r=0.809) outperforms Wiedemann-Franz alone (r=0.638). γ_phonon adds real information about lattice thermal conductivity that electrical conductivity alone cannot provide. This is the framework's clearest incremental contribution.
+
+### Cross-Property Prediction
+**ZT × d_33 vs γ_phonon** (r=0.894): soft lattice materials are simultaneously good thermoelectrics (low κ_ph) and good piezoelectrics (large d_33). This follows from both properties being in the incoherence regime.
+
+### Honest Assessment
+γ = 2T/θ_D alone is temperature-normalized Debye temperature. Its unique contributions are:
+1. Four-regime classification (neutral/coherence/incoherence/barrier)
+2. Channel independence structure (γ_phonon independent; others confounded)
+3. Combined predictions (γ × ε, γ/λ_ep, σ × γ) that surpass single-variable models
+4. The γ = 1 quantum-classical boundary
+
+The framework is a **useful organizational principle** for mapping material properties. It is NOT a new theory making unique quantitative predictions beyond established models.
+
+### Simulation File
+- `simulations/chemistry/phase2_novel_predictions.py` — thermoelectric, thermal shock, cross-property, and κ ratio tests
+
+*Phase 2 Session #7 — Novel Predictions completed 2026-02-07*
