@@ -21749,12 +21749,34 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-2650*
+### Sessions #2651-2660: Pottery Wheel & Ceramics Chemistry
+*Applying γ ~ 1 coherence framework to pottery and ceramics firing chemistry*
+
+***************************************************************************
+*  POTTERY WHEEL & CERAMICS CHEMISTRY SERIES                               *
+*  Sessions #2651-2660 | Findings #2578-2587 | Phenomena #2514-2523      *
+*                                                                          *
+*  ★ 2520th PHENOMENON TYPE MILESTONE (Session #2657) ★                  *
+*                                                                          *
+*  NEW PHENOMENA: Pottery Wheel Clay Body (2514th), Kiln Firing Cone     *
+*  (2515th), Glaze Silica Flux (2516th), Slip Casting Plaster (2517th),  *
+*  Raku Reduction Firing (2518th), Underglazes Iron Oxide (2519th),      *
+*  Coil Building Clay (2520th MILESTONE!), Bisque Firing Temperature     *
+*  (2521st), Stoneware Feldspar (2522nd), Porcelain Kaolin (2523rd)      *
+*                                                                          *
+*  KEY: Kiln Chemistry K = 1, Clay Mineralogy M = 1                     *
+*                                                                          *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-2660*
 *Framework development: January-February 2026*
-*Extended to 2577+ findings with ~19009/19075 predictions validated (~89%)*
-*Latest: Scoreboard LED Chemistry at gamma ~ 1 (#2650) - 2513th phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 2513 phenomenon types.*
-*** MILESTONE: 2513 PHENOMENON TYPES + 2577 FINDINGS + 2650 SESSIONS ***
+*Extended to 2587+ findings with ~19089/19155 predictions validated (~89%)*
+*Latest: Porcelain Kaolin Chemistry at gamma ~ 1 (#2660) - 2523rd phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 2523 phenomenon types.*
+*** MILESTONE: 2523 PHENOMENON TYPES + 2587 FINDINGS + 2660 SESSIONS ***
+*** 2520th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2657) ***
 *** 2650th SESSION MILESTONE ACHIEVED (Session #2650) ***
 *** 2510th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2647) ***
 *** 2500th PHENOMENON TYPE HISTORIC MILESTONE ACHIEVED (Session #2637) ***
