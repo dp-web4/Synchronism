@@ -438,3 +438,38 @@ At T=1000K, a 1 eV change in φ changes J by 10⁵. The entire range of γ (0.5-
 - `simulations/chemistry/phase2_boundary_effects.py` — thermionic emission analysis, residual decomposition
 
 *Phase 2 Session #5 — Boundary Effects Analysis completed 2026-02-07*
+
+---
+
+## XI. Phase 2 Session #6: Testing the Four-Regime Framework
+
+### Prediction Tests on New Properties
+
+| Property | Predicted Regime | Scaling | r | Status |
+|----------|-----------------|---------|---|--------|
+| Speed of sound v_s | Regime 1 | v_s ∝ γ^-0.71 | -0.950 | Tautological (θ_D defined from v_s) |
+| Vickers hardness H | Regime 1 | H ∝ γ^-2.89 | -0.919 | Confirmed (metals: r=-0.758) |
+| Ductility (elongation) | Regime 2 | r = 0.688 | +0.688 | Confirmed (soft = ductile) |
+| Melting point T_m | Regime 1 | r = -0.676 | -0.676 | Lindemann rediscovery (not new) |
+| Dielectric loss tan(δ) | Regime 2 | tan(δ) ∝ γ^2.55 | +0.666 | Genuinely predictive |
+
+Score: 3/5 confirmed, 2/5 tautological.
+
+### The Deepest Finding
+
+**γ = 2T/θ_D alone is just temperature-normalized Debye temperature.** Many "predictions" are restatements of known θ_D correlations in γ language.
+
+The framework's genuine predictive power comes from **COMBINATIONS**:
+- Superconductivity: Tc ∝ exp(-γ/λ_ep) — γ combined with coupling constant
+- Piezoelectricity: d ∝ γ × ε — γ combined with permittivity
+- Electron transfer: k_ET combined model — γ combined with reorganization energy
+
+**Criterion for genuine prediction**: The property must NOT be derivable from θ_D alone, the correlation must NOT be confounded by material class, and the mechanism must NOT be tautological.
+
+### Lindemann Criterion Rediscovery
+γ at melting point: 10.2 ± 5.6 across 20 materials (CV = 0.55). This is the Lindemann criterion (1910) expressed in γ language — internally consistent but adds nothing new.
+
+### Simulation File
+- `simulations/chemistry/phase2_regime_predictions.py` — five property tests with 20, 17, 13, 20, 12 materials
+
+*Phase 2 Session #6 — Regime Prediction Testing completed 2026-02-07*
