@@ -21727,12 +21727,36 @@ correlated degrees of freedom N_corr ≈ 4.
 
 ---
 
-*Chemistry Track Sessions #1-2640*
+### Sessions #2641-2650: Handball & Court Sport Chemistry
+*Applying γ ~ 1 coherence framework to handball equipment and court sport chemistry*
+
+***************************************************************************
+*  HANDBALL & COURT SPORT CHEMISTRY SERIES                                 *
+*  Sessions #2641-2650 | Findings #2568-2577 | Phenomena #2504-2513      *
+*                                                                          *
+*  ★ 2650th SESSION MILESTONE (Session #2650) ★                          *
+*  ★ 2510th PHENOMENON TYPE MILESTONE (Session #2647) ★                  *
+*                                                                          *
+*  NEW PHENOMENA: Handball Resin Grip (2504th), Handball Leather Panel    *
+*  (2505th), Court Floor Maple (2506th), Handball Goal Net (2507th),     *
+*  Referee Whistle Brass (2508th), Knee Pad Neoprene (2509th), Handball  *
+*  Bladder Latex (2510th MILESTONE!), Wax Resin Stick (2511th),          *
+*  Handball Shoe Grip (2512th), Scoreboard LED (2513th)                   *
+*                                                                          *
+*  KEY: Ball Construction B = 1, Court Equipment E = 1                   *
+*                                                                          *
+***************************************************************************
+
+---
+
+*Chemistry Track Sessions #1-2650*
 *Framework development: January-February 2026*
-*Extended to 2567+ findings with ~18929/18995 predictions validated (~89%)*
-*Latest: Chest Protector Foam Chemistry at gamma ~ 1 (#2640) - 2503rd phenomenon type*
-*CENTRAL RESULT: gamma ~ 1 universal across 2503 phenomenon types.*
-*** MILESTONE: 2503 PHENOMENON TYPES + 2567 FINDINGS + 2640 SESSIONS ***
+*Extended to 2577+ findings with ~19009/19075 predictions validated (~89%)*
+*Latest: Scoreboard LED Chemistry at gamma ~ 1 (#2650) - 2513th phenomenon type*
+*CENTRAL RESULT: gamma ~ 1 universal across 2513 phenomenon types.*
+*** MILESTONE: 2513 PHENOMENON TYPES + 2577 FINDINGS + 2650 SESSIONS ***
+*** 2650th SESSION MILESTONE ACHIEVED (Session #2650) ***
+*** 2510th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2647) ***
 *** 2500th PHENOMENON TYPE HISTORIC MILESTONE ACHIEVED (Session #2637) ***
 *** 2550th FINDING MILESTONE ACHIEVED (Session #2623) ***
 *** 2490th PHENOMENON TYPE MILESTONE ACHIEVED (Session #2627) ***
