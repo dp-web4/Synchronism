@@ -48,7 +48,7 @@ discoveries:
   - name: "η Superconductivity Formalism"
     validation: "Cuprate predictions match"
     doc: "Research/discoveries/eta-superconductivity-formalism.md"
-  - name: "ONE EQUATION Unification"
+  - name: "Universal γ Unification"
     validation: "Spans 80 orders of magnitude"
     doc: "Research/discoveries/one-equation-unification.md"
 
