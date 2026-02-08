@@ -174,6 +174,35 @@ New property P to predict:
 
 ---
 
+### Session #8: First-Principles Derivation
+Both regimes derived from Debye model: propagation ∝ 1/γ (phonon mean free path), response ∝ γ (phonon population). γ = 2/√N_corr is inverse coherence length. Framework is a "lens" (organizational principle), not a "theory" (new physics).
+
+### Session #9: Retroactive Reclassification
+All five moderate-failure cases (r = 0.4-0.6) explained by four-regime framework:
+- Grüneisen γ_G: ratio of opposing regimes → near-cancellation expected
+- Phonon linewidth: **r improves from 0.398 to 0.938** with combined model Γ_ph ∝ γ_G² × γ_phonon
+- Tunneling: Regime 3 confirmed (γ_tunnel = WKB exponent, r=1.000 with d√V)
+- Sommerfeld: Mixed regime, within-class r = 0.84-0.94
+- Diffusion: Barrier (solid) and Stokes-Einstein (liquid), partial r(D,γ|η) = 0.032
+
+**Updated validation**: ~30% strong, ~30% moderate/mixed, ~25% correctly excluded, ~15% genuine failures.
+
+### Final Verdict on γ = 2/sqrt(N_corr)
+
+**What it IS**: A useful organizational principle that classifies material properties into four regimes based on collective coherence, with genuine power in COMBINED predictions.
+
+**What it ISN'T**: A new theory of matter. Most standalone predictions are θ_D restatements. No unique experimental falsification proposed.
+
+**Its lasting contributions**:
+1. Four-regime classification (neutral/coherence/incoherence/barrier)
+2. Channel independence quantification (γ_phonon independent of electronic properties)
+3. Two-regime theory (propagation ∝ 1/γ, response ∝ γ)
+4. SOC dominance parameter D = ξ/(k_Bθ_D)
+5. Combined predictions (γ×ε, σ×γ, γ_G²×γ) that surpass single-variable models
+6. Retroactive explanation of ALL moderate failures through regime classification
+
+---
+
 *"The failures taught us more than the successes. Every r=0.001 was a signpost pointing to where the physics actually lives."*
 
-*Phase 2 complete — 7 investigation sessions, 2026-02-07*
+*Phase 2 complete — 9 investigation sessions, 2026-02-07*

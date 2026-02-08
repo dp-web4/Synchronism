@@ -543,3 +543,46 @@ The framework is a **lens** (organizational principle), not a **theory** (explan
 - `simulations/chemistry/phase2_first_principles.py` — Debye model derivation, exponent analysis, N_corr interpretation
 
 *Phase 2 Session #8 — First-Principles Derivation completed 2026-02-07*
+
+---
+
+## XIV. Phase 2 Session #9: Retroactive Reclassification of Moderate Failures
+
+### The Question
+
+Five Era 1 properties showed moderate correlations (r = 0.4-0.6) — too strong to ignore, too weak to be useful. Does the four-regime framework explain why?
+
+### Results
+
+| Property | Original r | Regime | Improved r | Key Finding |
+|----------|-----------|--------|-----------|-------------|
+| Grüneisen γ_G | 0.419 | Ratio (Reg2/Reg1) | N/A | Near-cancellation of exponents (0.05 predicted) |
+| Phonon Γ_ph | 0.398 | Mixed (Reg2 + γ_G) | **0.938** | γ_G² × γ_phonon is the correct model |
+| Tunneling k_t | 0.607 | Regime 3 (Barrier) | N/A | γ_tunnel IS the WKB exponent (r=1.000) |
+| Sommerfeld γ_S | 0.422 | Mixed (Reg0 × Reg1) | 0.84-0.94 within-class | N(E_F) varies between classes |
+| Diffusion D | 0.440-0.658 | Regime 3 (solid), Stokes-Einstein (liquid) | N/A | Partial r(D,γ|η) = 0.032 |
+
+### Phonon Linewidth: The Strongest Improvement
+
+The combined model Γ_ph ∝ γ_G² × γ_phonon achieves r = 0.938, up from r = 0.398 for γ_phonon alone. Anharmonicity (γ_G, the Grüneisen parameter) drives phonon-phonon scattering, while γ_phonon sets the thermal population. The partial correlation r(Γ_ph, γ_phonon | γ_G) = 0.468 confirms γ_phonon adds genuine information beyond anharmonicity alone.
+
+### Tunneling: Regime 3 Confirmed
+
+γ_tunnel = d/λ_dB correlates perfectly (r = 1.000) with d√V, the WKB opacity. The "coherence parameter" for tunneling is just the WKB exponent rewritten. Within the enzyme subset, r(log_k, γ_tunnel) = -0.996 — perfect, but this is WKB, not coherence theory.
+
+### Diffusion: Barrier (Solid) and Viscosity (Liquid)
+
+For liquid diffusion, log(D) vs -log(η) gives r = 0.993 (Stokes-Einstein). After removing viscosity, the partial r(D, γ | η) = 0.032 — zero residual coherence signal. For solid diffusion, log(D) vs T/T_m gives r = 0.887 (homologous temperature scaling), confirming Regime 3 (barrier-dominated).
+
+### Updated Framework Validation
+
+After reclassifying all moderate failures:
+- **Strong predictions (r > 0.7)**: ~30% of Era 1 sessions (Regimes 1 & 2 correctly applied)
+- **Moderate predictions (r = 0.4-0.7)**: ~30% (mixed regime or indirect correlation)
+- **Correctly excluded (Regimes 0 & 3)**: ~25% (framework not applicable)
+- **Genuine failures (r < 0.4 in applicable regime)**: ~15%
+
+### Simulation File
+- `simulations/chemistry/phase2_retroactive_reclassification.py` — five-case analysis with partial correlations
+
+*Phase 2 Session #9 — Retroactive Reclassification completed 2026-02-07*
