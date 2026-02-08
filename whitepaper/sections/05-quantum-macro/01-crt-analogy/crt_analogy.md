@@ -46,12 +46,12 @@
 - **Signal strength:** Intent magnitude in each cell
 - **Image persistence:** Pattern coherence duration
 
-**Revolutionary Implications**
+**Implications of the CRT Model**
 
  This synchronization model completely transforms our understanding:
 
  - **No observer effect:** Patterns aren't affected by observation - observation is just synchronization
-- **Single observer model:** One universal consciousness experiencing reality through synchronized witnessing
+- **Single observer model:** Coherence patterns analyzed as if from a single reference frame (modeling assumption, not metaphysical claim)
 - **Reality is relational:** Experience emerges from sync relationships, not from intrinsic properties
 - **Pattern autonomy:** Intent patterns follow their own cycles independent of being witnessed
 

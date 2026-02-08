@@ -30,6 +30,10 @@
 
  The phenomenon where collective pattern interactions create new, higher-level patterns with properties not present in individual components.
 
+**Entity**
+
+ A repeating pattern of Intent in the grid. Entities range from simple (particles) to complex (conscious beings). All entities are patterns; what distinguishes them is coherence duration and complexity.
+
 **Entanglement (Raster Entanglement)**
 
  In Synchronism, "entangled" particles are simply patterns that share synchronized cycling. Like two CRT screens showing identical images because they follow the same timing.
@@ -37,6 +41,10 @@
 **Field Effects**
 
  The influence patterns have on their local grid neighborhoods. Creates apparent forces and fields through statistical intent distributions.
+
+**Gamma (γ)**
+
+ The coherence scaling exponent, defined as γ = 2/√N_corr where N_corr is the number of correlated degrees of freedom. Cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis.
 
 **Grid**
 
@@ -80,7 +88,7 @@
 
 **Single Observer**
 
- The foundational concept that all consciousness is one consciousness experiencing reality through multiple synchronized perspectives.
+ A modeling assumption (not a metaphysical claim) that coherence patterns can be analyzed as if witnessed from a single reference frame. See conclusion for explicit disclaimers.
 
 **Sloshing**
 
@@ -96,7 +104,7 @@
 
 **Synchronism**
 
- The complete framework describing reality as cycling intent patterns witnessed through synchronization. Also the name of this groundbreaking model.
+ The complete framework describing reality as cycling intent patterns witnessed through synchronization.
 
 **Synchronization**
 
