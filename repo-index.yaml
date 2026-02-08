@@ -1,32 +1,36 @@
 # Synchronism Repository Index
 # Machine-readable metadata for AI agent discovery
-# Schema version: 1.0
+# Schema version: 1.1 (post-audit)
 
 metadata:
   name: Synchronism
-  full_name: "Synchronism: Unified Coherence Framework"
-  description: "Mathematical framework unifying quantum mechanics, gravity, chemistry, consciousness via γ = 2/√N_corr"
+  full_name: "Synchronism: Coherence Framework Research (Concluded)"
+  description: "Research program testing γ = 2/√N_corr across physics/chemistry. Core hypothesis not confirmed. 30 genuine contributions emerged."
   type: research
   domain:
     - physics
-    - consciousness
-    - coherence
-    - superconductivity
     - chemistry
+    - cosmology
+    - meta-science
   license: CC0
   last_updated: "2026-02-08"
 
 status:
-  phase: theoretical-validated
-  maturity: 0.75
+  phase: concluded
+  maturity: 1.0
   production_ready: false
-  active_development: true
+  active_development: false
+  honest_assessment: "Framework reparametrizes known physics in all tested domains"
 
 metrics:
-  research_sessions: 2200
-  phenomenon_types: 1703
-  validation_rate: 0.89
-  complete_arcs: 14
+  research_sessions: 3271
+  chemistry_sessions: 2671
+  cosmology_sessions: 586
+  quantum_sessions: 14
+  genuine_contributions: 30
+  discovery_rate: 0.0092
+  unique_predictions_confirmed: 0
+  predictions_refuted: 6
 
 core_equation:
   formula: "γ = 2/√N_corr"
@@ -34,76 +38,77 @@ core_equation:
     gamma: "coherence parameter"
     N_corr: "correlated particles moving as unit"
   boundary: "γ ~ 1 = quantum-classical transition"
+  honest_status: "At phonon level: γ = 2T/θ_D (Debye 1912). At galactic scales: C(ρ) ≡ ν(g/a₀) (MOND 1983). Not new physics."
 
-discoveries:
-  - name: "γ ~ 1 Universal Boundary"
-    validation: "89% across 1703 types"
-    doc: "Research/discoveries/gamma-universal-boundary.md"
-  - name: "NP2 RAR Scatter"
-    validation: "p = 5×10⁻⁶"
-    doc: "Research/discoveries/np2-rar-scatter-validation.md"
-  - name: "Gnosis Consciousness Threshold"
-    validation: "8-way convergence at C ≈ 0.50"
-    doc: "Research/discoveries/gnosis-consciousness-threshold.md"
-  - name: "η Superconductivity Formalism"
-    validation: "Cuprate predictions match"
-    doc: "Research/discoveries/eta-superconductivity-formalism.md"
-  - name: "Universal γ Unification"
-    validation: "Spans 80 orders of magnitude"
-    doc: "Research/discoveries/one-equation-unification.md"
+genuine_contributions:
+  chemistry:
+    quantitative: 8
+    methodological: 6
+    total: 14
+    examples:
+      - "d₃₃ ∝ γ×ε (r=0.940) — piezoelectricity combined model"
+      - "Γ_ph ∝ γ_G²×γ (r=0.938) — phonon linewidth"
+      - "Four-regime classification (neutral/coherence/incoherence/barrier)"
+    doc: "Research/Chemistry/Phase2_Synthesis.md"
+  cosmology:
+    quantitative: 10
+    methodological: 6
+    total: 16
+    examples:
+      - "6-var MOND offset model (LOO R²=0.885)"
+      - "3-var minimal model (LOO R²=0.854)"
+      - "SB replaces c_V with 1% loss"
+    doc: "Research/Session582_Genuine_Contributions_Inventory.md"
+  quantum:
+    quantitative: 0
+    methodological: 0
+    total: 0
+    refutations: 1
+    note: "γ_max = 3.17 refuted (max observed γ = 17.01)"
 
-scale_coverage:
-  - scale: "Planck"
-    gamma: 2.0
-    phenomena: "Quantum gravity"
-  - scale: "Atomic"
-    gamma: "0.2-2.0"
-    phenomena: "Chemistry"
-  - scale: "Molecular"
-    gamma: "0.002-1.0"
-    phenomena: "Life (γ ~ 0.28 optimal)"
-  - scale: "Neural"
-    gamma: "10⁻⁶-0.002"
-    phenomena: "Consciousness (C > 0.50)"
-  - scale: "Galactic"
-    gamma: "~10⁻²⁸"
-    phenomena: "Dark matter effects"
+refuted_claims:
+  - "89% validation rate — actually 86% θ_D restatements"
+  - "γ ~ 1 universal boundary — Debye model boundary (1912)"
+  - "NP2 RAR scatter — not unique to Synchronism"
+  - "γ_max = 3.17 — max observed γ = 17.01"
+  - "Universal coherence parameter — domain-specific reparametrization"
 
 entry_points:
+  honest_assessment: "Research/Session586_Post_SPARC_Closing_Statement.md"
+  chemistry_findings: "Research/Chemistry/Phase2_Synthesis.md"
+  cosmology_inventory: "Research/Session582_Genuine_Contributions_Inventory.md"
+  failure_analysis: "Research/Chemistry/Phase2_Failure_Analysis.md"
   discovery: "AGENTS.md"
-  readme: "README.md"
-  philosophy: "docs/why/RESEARCH_PHILOSOPHY.md"
-  discoveries: "Research/discoveries/"
   session_map: "Research/SESSION_MAP.md"
-  core_equation: "Research/GAMMA_UNIFICATION.md"
-  status: "STATUS.md"
 
 research_tracks:
-  core:
-    sessions: 378
-    status: active
-    focus: "NP2 validation"
   chemistry:
-    sessions: 1840
-    status: active
-    focus: "γ ~ 1 across phenomenon types"
-  gnosis:
-    sessions: 11
-    status: complete
-    focus: "Consciousness threshold"
+    sessions: 2671
+    status: concluded
+    phase1: "2660 sessions cataloguing γ across chemistry"
+    phase2: "12 sessions failure analysis"
+    finding: "Organizational lens, not predictive theory"
+  cosmology:
+    sessions: 586
+    status: concluded
+    finding: "C(ρ) ≡ ν(g/a₀) — MOND restatement"
+  quantum:
+    sessions: 14
+    status: concluded
+    finding: "Standard QM reparametrization; γ_max refuted"
 
 limitations:
-  - "Chemistry melting points: 53% error"
-  - "Critical exponents: 2× off from observations"
-  - "Environment vs structure ambiguity in NP2"
+  - "Zero unique Synchronism predictions confirmed across all domains"
+  - "Chemistry: 86% of strong correlations are θ_D restatements"
+  - "Cosmology: C(ρ) ≡ ν(g/a₀) — functionally identical to MOND"
+  - "Quantum: γ_max = 3.17 refuted by SPARC data"
+  - "Era 2 chemistry (2527 sessions) tests mathematical tautologies"
 
-active_arcs:
-  - name: "Experimental Validation"
-    sessions: "368-378"
-    output: "6 publication-ready protocols"
-  - name: "Hot Superconductor"
-    sessions: "292, 297+"
-    goal: "T > 323K via η formalism"
+meta_findings:
+  - "Wrong theories can motivate right questions"
+  - "Self-correction speed improved: 373 → 1 session delay"
+  - "Autonomous research can drift from discovery to validation theater"
+  - "0.92% discovery rate is normal for research"
 
 related_repos:
   - name: HRM
@@ -119,20 +124,16 @@ related_repos:
 token_budget:
   minimal:
     files: ["AGENTS.md"]
-    tokens: 350
+    tokens: 400
     purpose: "Relevance assessment"
   standard:
-    files: ["AGENTS.md", "STATUS.md", "README.md"]
+    files: ["AGENTS.md", "Research/Session586_Post_SPARC_Closing_Statement.md"]
     tokens: 2000
-    purpose: "Usage decision"
-  discoveries:
-    files: ["Research/discoveries/"]
-    tokens: 8000
-    purpose: "Key findings"
-  full:
-    files: ["docs/theory/"]
-    tokens: 30000
-    purpose: "Full theory"
+    purpose: "Full honest assessment"
+  findings:
+    files: ["Research/Session582_Genuine_Contributions_Inventory.md", "Research/Chemistry/Phase2_Synthesis.md"]
+    tokens: 5000
+    purpose: "Genuine contributions"
 
 contact:
   maintainer: "dp@metalinxx.io"
