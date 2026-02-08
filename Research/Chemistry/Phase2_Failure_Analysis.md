@@ -586,3 +586,46 @@ After reclassifying all moderate failures:
 - `simulations/chemistry/phase2_retroactive_reclassification.py` — five-case analysis with partial correlations
 
 *Phase 2 Session #9 — Retroactive Reclassification completed 2026-02-07*
+
+---
+
+## XV. Phase 2 Session #10: Tautology Audit of Strong Correlations
+
+### The Question
+
+Of the 28 strong correlations (r > 0.8) from Era 1, how many are genuinely new vs θ_D restatements?
+
+### Classification
+
+| Category | Count | Fraction | Description |
+|----------|-------|----------|-------------|
+| Tautological (T) | 5 | 18% | Follows by definition (v_s vs θ_D, E vs θ_D², S ∝ T) |
+| Restatement (R) | 18 | 64% | Known pre-1970 physics in γ notation (Moss, McMillan, Lindemann) |
+| Incremental (I) | 5 | 18% | γ adds genuine information beyond single-variable models |
+| Novel (N) | 0 | 0% | Nothing at r > 0.8 is unique to the framework |
+
+### The Restatement Chain
+
+Most strong correlations are automatic: Property P ∝ f(θ_D) [known] + γ = 2T/θ_D [definition] → P ∝ g(γ) [guaranteed]. At constant T, any θ_D-dependent property will correlate with γ.
+
+### The 8 Genuinely Incremental Strong Predictions
+
+| # | Property | r | Source | Why Genuine |
+|---|----------|---|--------|-------------|
+| 1 | d₃₃ ∝ γ × ε | 0.940 | Sess #93 | Two-variable combined model |
+| 2 | k_ET combined | 0.933 | Sess #64 | Coherence correction to Marcus theory |
+| 3 | ZT ∝ S²×γ | 0.880 | Sess #87 | Captures PGEC trade-off |
+| 4 | Φ_F ∝ 2/γ_S1 | 0.812 | Sess #58 | Optical (not phonon) coherence |
+| 5 | r_EO within-class | 0.80-0.96 | Sess #95 | Lattice softness → EO response |
+| 6 | κ_e/κ_ph vs σ×γ | 0.809 | Phase 2 #7 | Improves Wiedemann-Franz |
+| 7 | Γ_ph ∝ γ_G²×γ | 0.938 | Phase 2 #9 | Anharmonicity × population |
+| 8 | ZT×d₃₃ vs γ | 0.894 | Phase 2 #7 | Cross-property prediction |
+
+### Key Insight
+
+All 8 incremental predictions are **combined models** (γ × something_else). No single-variable γ correlation is genuinely new — they all reduce to θ_D restatements. The framework's real power is in identifying which COMBINATIONS yield predictions that surpass established single-variable approaches.
+
+### Simulation File
+- `simulations/chemistry/phase2_tautology_audit.py` — classification of 28 strong correlations
+
+*Phase 2 Session #10 — Tautology Audit completed 2026-02-07*

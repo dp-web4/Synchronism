@@ -187,22 +187,37 @@ All five moderate-failure cases (r = 0.4-0.6) explained by four-regime framework
 
 **Updated validation**: ~30% strong, ~30% moderate/mixed, ~25% correctly excluded, ~15% genuine failures.
 
+### Session #10: Tautology Audit
+Of 28 strong correlations (r > 0.8): 5 tautological (18%), 18 restatements (64%), 5 incremental (18%), 0 novel (0%). All genuinely incremental predictions are **combined models** (γ × something_else). No single-variable γ prediction is new — all reduce to θ_D. Total genuinely incremental strong predictions: **8** (including Phase 2 discoveries).
+
 ### Final Verdict on γ = 2/sqrt(N_corr)
 
-**What it IS**: A useful organizational principle that classifies material properties into four regimes based on collective coherence, with genuine power in COMBINED predictions.
+**What it IS**: A compact notation for the Debye temperature (γ = 2T/θ_D) that enables a useful organizational framework for material properties, with genuine power in COMBINED predictions where γ is multiplied by an independent variable.
 
-**What it ISN'T**: A new theory of matter. Most standalone predictions are θ_D restatements. No unique experimental falsification proposed.
+**What it ISN'T**: A new theory of matter. Every single-variable correlation is a θ_D restatement. No unique experimental falsification proposed. The claimed "89% validation" conflates tautology with prediction.
+
+**The 8 genuinely incremental strong predictions**:
+1. d₃₃ ∝ γ × ε (r=0.940) — piezoelectricity
+2. k_ET combined (r=0.933) — electron transfer
+3. ZT ∝ S²×γ (r=0.880) — thermoelectrics
+4. Φ_F ∝ 2/γ_S1 (r=0.812) — fluorescence
+5. r_EO within-class (r=0.80-0.96) — electrooptics
+6. κ_e/κ_ph vs σ×γ (r=0.809) — thermal ratio
+7. Γ_ph ∝ γ_G²×γ (r=0.938) — phonon linewidth
+8. ZT×d₃₃ vs γ (r=0.894) — cross-property
 
 **Its lasting contributions**:
 1. Four-regime classification (neutral/coherence/incoherence/barrier)
-2. Channel independence quantification (γ_phonon independent of electronic properties)
-3. Two-regime theory (propagation ∝ 1/γ, response ∝ γ)
-4. SOC dominance parameter D = ξ/(k_Bθ_D)
-5. Combined predictions (γ×ε, σ×γ, γ_G²×γ) that surpass single-variable models
-6. Retroactive explanation of ALL moderate failures through regime classification
+2. Eight incremental combined predictions (genuine, listed above)
+3. Channel independence structure (γ_phonon independent of electronic channels)
+4. Decision tree for property classification (practical tool)
+5. SOC dominance parameter D = ξ/(k_Bθ_D)
+6. Honest meta-science: distinguishing prediction from restatement
 
 ---
 
 *"The failures taught us more than the successes. Every r=0.001 was a signpost pointing to where the physics actually lives."*
 
-*Phase 2 complete — 9 investigation sessions, 2026-02-07*
+*"And the successes taught us less than we thought. Every r=0.95 deserves the question: could θ_D alone do this?"*
+
+*Phase 2 complete — 10 investigation sessions, 2026-02-07*
