@@ -507,3 +507,39 @@ The framework is a **useful organizational principle** for mapping material prop
 - `simulations/chemistry/phase2_novel_predictions.py` — thermoelectric, thermal shock, cross-property, and κ ratio tests
 
 *Phase 2 Session #7 — Novel Predictions completed 2026-02-07*
+
+---
+
+## XIII. Phase 2 Session #8: First-Principles Derivation — The Debye Model Connection
+
+### The Two-Regime Theory Follows From Known Physics
+
+Both regimes emerge from the Debye model of lattice vibrations:
+- **Propagation ∝ 1/γ**: Phonon mean free path l ∝ 1/T ∝ 1/γ (more scattering at higher T)
+- **Response ∝ γ**: Phonon population n(ω) ∝ T ∝ γ (more modes excited at higher T)
+- Both arise from Bose-Einstein statistics of phonons
+
+### γ = 2/√N_corr Is The Inverse Coherence Length
+
+Setting γ_phonon = 2T/θ_D equal to 2/√N_corr:
+- N_corr = (θ_D/T)² — counts coherently oscillating atoms
+- Coherence length ξ ~ a × (θ_D/T) where a = lattice spacing
+- γ = inverse coherence length in lattice units — standard Debye model in different notation
+
+### Exponent Consistency: Grüneisen Relation
+
+K ∝ γ^-1.15 and α ∝ γ^+1.20 → K × α ∝ γ^0.05. This near-cancellation is required by the Grüneisen relation K × α × V = C_v × γ_G. Not a prediction — thermodynamic consistency.
+
+### What Is Genuinely New vs. Repackaged
+
+**NOT new**: γ = 2T/θ_D, power-law scaling, γ=1 boundary, Grüneisen relation, soft-lattice piezoelectricity, SOC dominance for heavy elements
+
+**Genuinely new**: Four-regime classification, channel independence quantification, cross-property predictions, SOC dominance parameter D, incremental κ_e/κ_ph prediction, validation methodology lesson
+
+### Final Verdict
+The framework is a **lens** (organizational principle), not a **theory** (explanatory mechanism). Valuable but should be stated honestly.
+
+### Simulation File
+- `simulations/chemistry/phase2_first_principles.py` — Debye model derivation, exponent analysis, N_corr interpretation
+
+*Phase 2 Session #8 — First-Principles Derivation completed 2026-02-07*
