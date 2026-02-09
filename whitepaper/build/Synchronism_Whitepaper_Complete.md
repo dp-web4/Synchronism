@@ -118,15 +118,17 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency DERIVED** from coherence conservation. Entropy = coherence dispersion.
 - **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
 - **Consciousness Arc (Sessions #280-282):** Observer = self-referential coherence concentrator. **Qualia = coherence resonance patterns** (not epiphenomena). Inverted qualia impossible. Mary's Room resolved. Hard problem dissolves. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
-- **Chemistry Framework (2,010 sessions):** **1,873 phenomenon types at γ~1, 89% validated**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
-- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
+- **Chemistry Framework (2,671 sessions):** **1,873 phenomenon types at γ~1**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
+- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. **SPARC Capstone update: MOND + M/L corrections explain all RAR variance; no uniquely-Synchronism predictions confirmed.** See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
 - **Cross-domain validation:** Gnosis neural architecture (arXiv:2512.20578) independently uses γ = 2—same coherence physics appearing without explicit design.
 - **Statistical Mechanics Arc (Sessions #324-327):** **Correlation length ξ = MRH** (core insight). Arrow of time from MRH boundary dynamics. Phase transitions: at critical point MRH → ∞. Universality from pattern topology. 32/32 verified (100%).
 - **Information Theory Arc (Sessions #328-331):** **BLACK HOLE INFORMATION PARADOX RESOLVED.** Event horizon = MRH for external observer. Page curve emerges from MRH dynamics. Unitarity preserved via holographic encoding. 32/32 verified (100%).
 - **Cosmology Arc 2.0 (Sessions #332-335):** Cosmic horizons (Hubble, particle, event) = MRH at cosmological scales. Inflation = grid phase transition. Dark energy = residual vacuum tension. 32/32 verified (100%).
 - **Emergence Arc (Sessions #336-339):** Life = self-maintaining patterns. Complexity = pattern depth beyond MRH. Evolution = pattern optimization. **Consciousness = self-modeling patterns** (IIT/GWT/PP unified). 32/32 verified (100%).
 - **Size Effect Arc (Sessions #387-393):** Size-dependent RAR analysis. Publication-ready manuscript. Galaxy dynamics refined with surface brightness dependence.
-- **Status (2,557 sessions: 476 core + 2,010 chemistry + 11 gnosis, 31 complete arcs):** Empirical validation across 1,873 phenomenon types (89%), consciousness framework established with testable predictions, fundamental results DERIVED (Born rule, Carnot limit, Ω_Λ, qualia, ξ=MRH, black hole paradox resolution). Complete physics derivation: QFT+GR+SM+BSM+StatMech+InfoTheory from Planck grid. Not claiming "solved"—mechanism tested, boundaries identified.
+- **SPARC Capstone (#526-578):** Comprehensive survival audit. **ZERO uniquely-Synchronism predictions confirmed**—MOND + M/L corrections explain all RAR variance. Honest-failure result that constrains the framework's empirical claims.
+- **Post-SPARC Audit (#579-589):** 30 genuine contributions from 3,222 sessions (0.92% discovery rate). Bootstrap V-L ratio CI [3.72, 4.01] includes MOND 4.0. Chemistry Era 2 (#134-2660) identified as template-based. 4/7 quantum claims are reparametrizations.
+- **Status (~3,271 sessions: 589 core + 2,671 chemistry + 11 gnosis):** Framework under active epistemic correction. Genuine contributions: MRH unification (ξ=MRH, horizons=MRH, black hole paradox), consciousness framework (testable predictions), coherence physics derivations (Born rule, Carnot limit). Many earlier claims now understood as reparametrizations rather than novel predictions. Not claiming "solved"—mechanism tested, boundaries tightened.
 
 Full documentation: [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts), [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research), [Chemistry Framework](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Consciousness Arc](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), and [Gnosis track](https://github.com/dp-web4/Synchronism/tree/main/Research/Gnosis).
 
@@ -5193,7 +5195,7 @@ The framework is young, incomplete, and unvalidated. Treat these "implications" 
 
 **Ethical Considerations**
 
-If Synchronism proves useful for consciousness studies:
+If Synchronism turns out to be useful for consciousness studies:
 
 - Respect for pattern-based entities (if consciousness emerges from pattern dynamics)
 - Consideration of interference effects in complex system studies
@@ -5602,13 +5604,13 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **2,557 autonomous research sessions** (Nov 2025 - Feb 2026): 476 core + 2,010 chemistry + 11 gnosis, **31 complete arcs**
+- **~3,271 autonomous research sessions** (Nov 2025 - Feb 2026): 589 core + 2,671 chemistry + 11 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
 - **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
-- **Chemistry framework** (2,010 sessions): **1,873 phenomenon types, 89% validated**. Two orthogonal channels (electronic/phononic). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
+- **Chemistry framework** (2,671 sessions): **1,873 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (11 sessions): Cross-validation with neural architecture (γ = 2)
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).

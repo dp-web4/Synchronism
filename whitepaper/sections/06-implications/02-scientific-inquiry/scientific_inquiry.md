@@ -99,7 +99,7 @@ The framework is young, incomplete, and unvalidated. Treat these "implications" 
 
 **Ethical Considerations**
 
-If Synchronism proves useful for consciousness studies:
+If Synchronism turns out to be useful for consciousness studies:
 
 - Respect for pattern-based entities (if consciousness emerges from pattern dynamics)
 - Consideration of interference effects in complex system studies

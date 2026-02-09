@@ -41,13 +41,13 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **2,557 autonomous research sessions** (Nov 2025 - Feb 2026): 476 core + 2,010 chemistry + 11 gnosis, **31 complete arcs**
+- **~3,271 autonomous research sessions** (Nov 2025 - Feb 2026): 589 core + 2,671 chemistry + 11 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
 - **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
-- **Chemistry framework** (2,010 sessions): **1,873 phenomenon types, 89% validated**. Two orthogonal channels (electronic/phononic). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
+- **Chemistry framework** (2,671 sessions): **1,873 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (11 sessions): Cross-validation with neural architecture (γ = 2)
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).

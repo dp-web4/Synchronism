@@ -318,12 +318,12 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-08)
+### Session Counts (as of 2026-02-09)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 529 | Sessions through #578 (SPARC Capstone: ZERO uniquely-Synchronism predictions confirmed, MOND+M/L explains RAR) |
-| Chemistry | 2,010 | 1,873 phenomenon types at γ~1 |
+| Core | 589 | Sessions through #589 (Post-SPARC Audit complete) |
+| Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
 ### Pending Integrations
@@ -335,12 +335,13 @@ For minor changes (typos, statistics updates):
 | Cosmology2 Arc (332-335) | HIGH | **INTEGRATED** - Horizons = MRH |
 | Emergence Arc (336-339) | HIGH | **INTEGRATED** - Consciousness = self-modeling |
 | Chemistry 438-500 | Low | Integrated in counts |
-| SPARC Capstone (#526-578) | HIGH | Session counts updated; content integration pending (major epistemic update) |
+| SPARC Capstone (#526-578) | HIGH | **INTEGRATED** - Counts and epistemic corrections in exec summary |
+| Post-SPARC Audit (#579-589) | HIGH | **INTEGRATED** - 30 genuine contributions, quantum claims reparametrized |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-08
-- Sessions behind: ~0 (statistics updated, SPARC capstone content pending)
+- Last integration: 2026-02-09
+- Sessions behind: ~0 (counts and key findings updated)
 - Build status: Clean
 - Governance: Active (Rev_0)
 
