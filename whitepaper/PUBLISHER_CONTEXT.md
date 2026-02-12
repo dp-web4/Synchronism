@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-02-08
+**Last Updated**: 2026-02-12
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -318,11 +318,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-09)
+### Session Counts (as of 2026-02-12)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 589 | Sessions through #589 (Post-SPARC Audit complete) |
+| Core | 596 | Sessions through #596 (ALFALFA-SDSS External Validation complete) |
 | Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
@@ -337,10 +337,11 @@ For minor changes (typos, statistics updates):
 | Chemistry 438-500 | Low | Integrated in counts |
 | SPARC Capstone (#526-578) | HIGH | **INTEGRATED** - Counts and epistemic corrections in exec summary |
 | Post-SPARC Audit (#579-589) | HIGH | **INTEGRATED** - 30 genuine contributions, quantum claims reparametrized |
+| ALFALFA-SDSS (#590-596) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-09
+- Last integration: 2026-02-12
 - Sessions behind: ~0 (counts and key findings updated)
 - Build status: Clean
 - Governance: Active (Rev_0)
