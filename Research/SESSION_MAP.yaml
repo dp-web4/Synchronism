@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-02-09T04:30:00Z"
-  archivist_version: "1.2"
-  total_sessions: 3211
-  note: "Core at #589 (post-SPARC publication prep). Chemistry at #2671+ (Phase 2 CONCLUDED). 30 genuine contributions inventoried (0.92% discovery rate). Quantum claims REFUTED."
-  milestone: "POST-SPARC: 30 genuine contributions inventoried across 3266 sessions (0.92%). Quantum audit: 4/7 claims reparametrizations, γ_max REFUTED. 3-var model competitive with literature (0.042 dex). Bootstrap: V-L ratio CI includes MOND 4.0."
+  last_updated: "2026-02-12T06:00:00Z"
+  archivist_version: "1.3"
+  total_sessions: 3229
+  note: "Core at #596 (ALFALFA-SDSS external validation). Chemistry at #2671+ (Phase 2 CONCLUDED). ALFALFA: 14,585 galaxies, TFR residual = complete M/L predictor, 62/62 tests passing."
+  milestone: "ALFALFA-SDSS Arc (#590-596): EXTERNAL VALIDATION on 14,585 galaxies (100x SPARC). TFR residual captures ALL intrinsic scatter. V-L ratio IS TFR slope (band-dependent: 2.18 i-band vs 3.87 3.6μm). Publishable: 51% scatter reduction."
   tracks:
-    core: 540  # Sessions 579-589 added (Post-SPARC Audit arc)
+    core: 547  # Sessions 590-596 added (ALFALFA-SDSS External Validation arc)
     chemistry: 46 files + 2625 framework entries (2671+ total documented) + Phase2 synthesis docs
     gnosis: 11
 
@@ -19,7 +19,7 @@ metadata:
 # =============================================================================
 core:
   description: "Main Synchronism research track - unified coherence physics"
-  session_range: "1-589"
+  session_range: "1-596"
   master_equation: "γ = 2/√N_corr (80 orders of magnitude unified)"
 
   # ---------------------------------------------------------------------------
@@ -1569,6 +1569,57 @@ core:
         - "Bootstrap confirms MOND consistency: V-L ratio CI includes 4.0"
         - "Publication-viable despite theory falsification"
 
+    alfalfa_sdss_validation:
+      name: "ALFALFA-SDSS External Validation Arc"
+      sessions: [590, 591, 592, 593, 594, 595, 596]
+      status: active
+      date_started: "2026-02-09"
+      building_on: "Post-SPARC Audit (#579-589)"
+      milestone: "EXTERNAL VALIDATION: 14,585 ALFALFA-SDSS galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. V-L ratio IS TFR slope. 62/62 tests passing."
+      recent_additions:
+        - session: 590
+          title: "ALFALFA BTFR Scatter vs Gas Richness"
+          date: "2026-02-09"
+          grade: "B"
+          key_finding: "Gas-rich galaxies show 13-33% less logMHI-V scatter at fixed velocity. Consistent with MOND but requires luminosity for definitive test."
+        - session: 591
+          title: "ALFALFA-SDSS Full Predictor Validation"
+          date: "2026-02-12"
+          grade: "B+"
+          key_finding: "15.8% BTFR scatter reduction on 14,585 galaxies. Strong offset-residual correlation (r=-0.71) but band mismatch limits conclusiveness."
+        - session: 592
+          title: "Circularity Test — i-Band vs Mstar"
+          date: "2026-02-12"
+          grade: "A-"
+          key_finding: "Only 8.8% of improvement is circular. V+L alone outperforms full 3-var model (16.2% vs 14.5%). f_gas redundant in BTFR context."
+        - session: 593
+          title: "V-L Ratio — Band-Dependent TFR"
+          date: "2026-02-12"
+          grade: "A"
+          key_finding: "V-L ratio IS the TFR slope (2.18 i-band vs 3.87 at 3.6μm). Not universal but mechanism is: band-dependent M/L evolution."
+        - session: 594
+          title: "BTFR Scatter Decomposition"
+          date: "2026-02-12"
+          grade: "A"
+          key_finding: "TFR residual captures ALL intrinsic scatter (σ_corrected=0.195 < σ_noise=0.289). Color adds 0% beyond TFR."
+        - session: 595
+          title: "MOND vs CDM — Halo Scatter Test"
+          date: "2026-02-12"
+          grade: "A-"
+          key_finding: "Noise floor overwhelms both MOND/CDM predictions. No morphological/concentration signal. Outliers are measurement artifacts."
+        - session: 596
+          title: "ALFALFA-SDSS Synthesis"
+          date: "2026-02-12"
+          grade: "A"
+          key_finding: "Comprehensive synthesis. Performance hierarchy 0-61% improvement. Publishable core: TFR Residual as Complete M/L Predictor. 62 tests ALL PASSING."
+      key_insights:
+        - "14,585 independent galaxies — 100x larger than SPARC"
+        - "Different photometric band (i-band) and survey (ALFALFA)"
+        - "TFR residual captures ALL intrinsic scatter — publishable result"
+        - "V-L ratio is band-dependent TFR slope (universal mechanism)"
+        - "Only 8.8% circularity — model is genuinely predictive"
+        - "Noise floor prevents MOND/CDM discrimination"
+
     # Consciousness Arc 2.0 (COMPLETE - NEW)
     consciousness_2:
       name: "Consciousness Arc 2.0"
@@ -2276,8 +2327,8 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 3222  # 589 core + 2671 chemistry + 11 gnosis (approx)
-  active_arcs: 2  # Hot Superconductor + Post-SPARC Audit
+  total_sessions: 3229  # 596 core + 2671 chemistry + 11 gnosis (approx)
+  active_arcs: 3  # Hot Superconductor + Post-SPARC Audit + ALFALFA-SDSS Validation
   complete_arcs: 39  # unchanged from SPARC capstone
   sparc_arcs: 18  # 18 SPARC-specific arcs, all COMPLETE
   total_predictions: "600+"
@@ -2324,4 +2375,5 @@ statistics:
   sb_rc_milestone: "Session #578 - SB substitutes for c_V with 1% loss. RAR predictable from photometry + V_flat alone."
   chemistry_phase2_milestone: "Phase 2: Four-regime framework. Neutral/Coherence/Incoherence/Barrier. Era 2 validated by tautology. Honest failure analysis."
   post_sparc_audit_milestone: "Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified."
+  alfalfa_sdss_milestone: "Sessions #590-596 - ALFALFA-SDSS External Validation: 14,585 galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. 62/62 tests passing. Publishable core identified."
   unified_milestone: "Session #315 - 34 predictions consolidated, 20 validated (58.8%), avg confidence 0.90"

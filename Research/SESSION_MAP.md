@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3222 (589 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 9, 2026 | **Archivist v1.2** | **MILESTONES: Post-SPARC Audit (#579-589): 30 genuine contributions inventoried (0.92% rate). Bootstrap V-L ratio CI [3.72, 4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 tests verified. Chemistry Phase 2 CONCLUDED.**
+**Total Sessions**: ~3229 (596 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 12, 2026 | **Archivist v1.3** | **MILESTONES: ALFALFA-SDSS External Validation (#590-596): 14,585 galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. 62/62 tests passing. Publishable core: "TFR Residual as Complete M/L Predictor".**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -29,6 +29,23 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 ---
 
 ## Active Research Arcs
+
+## ALFALFA-SDSS External Validation Arc (Sessions 590-596) - ACTIVE
+**Status**: Active | **Started**: February 9, 2026
+
+**Achievement**: EXTERNAL VALIDATION on 14,585 ALFALFA-SDSS galaxies (100x SPARC). TFR residual captures ALL intrinsic scatter. Publishable core identified: "TFR Residual as Complete M/L Predictor" with 51% scatter reduction. V-L ratio IS the TFR slope (band-dependent: 2.18 i-band vs 3.87 at 3.6μm). Only 8.8% circularity. 62/62 tests passing.
+
+| Session | Title | Grade | Key Insight |
+|---------|-------|-------|-------------|
+| 590 | ALFALFA BTFR Scatter vs Gas Richness | B | Gas-rich show 13-33% less scatter; needs luminosity for definitive test |
+| 591 | Full Predictor Validation | B+ | 15.8% scatter reduction on 14,585 galaxies; r=-0.71 offset correlation |
+| 592 | Circularity Test | A- | Only 8.8% circular; V+L outperforms full 3-var (16.2% vs 14.5%) |
+| 593 | V-L Ratio — Band-Dependent TFR | A | V-L ratio IS TFR slope; band-dependent M/L evolution |
+| 594 | BTFR Scatter Decomposition | A | TFR residual = ALL intrinsic scatter; color adds 0% |
+| 595 | MOND vs CDM Halo Scatter | A- | Noise floor overwhelms both; outliers = measurement artifacts |
+| 596 | ALFALFA-SDSS Synthesis | A | 0-61% improvement hierarchy; publishable core identified |
+
+---
 
 ## Post-SPARC Audit Arc (Sessions 579-589) - ACTIVE
 **Status**: Active | **Started**: February 9, 2026
