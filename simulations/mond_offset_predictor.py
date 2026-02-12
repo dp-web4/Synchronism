@@ -87,9 +87,11 @@ LOO_RMS_3VAR = 0.060   # dex
 LOO_RMS_6VAR = 0.053   # dex
 
 # SPARC training sample statistics (for z-score outlier detection)
+# NOTE: logL is in SPARC units = log10(luminosity / 10^9 L_sun)
+# NOT in log10(L_sun). The previous value of 9.259 was a bug.
 SPARC_STATS = {
     'logV_mean': 2.006, 'logV_std': 0.297,
-    'logL_mean': 9.259, 'logL_std': 1.091,
+    'logL_mean': 0.259, 'logL_std': 1.091,   # SPARC units: 10^9 L_sun
     'f_gas_mean': 0.184, 'f_gas_std': 0.196,
     'n_galaxies': 135,
 }
