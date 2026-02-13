@@ -24,8 +24,7 @@ These are computational conveniences, not ontological claims.
 
 ---
 
-**✅ A.1 Basic Intent Transfer
-**
+**✅ A.1 Basic Intent Transfer**
 
 **Intent Update Rule:**
 
@@ -42,8 +41,7 @@ Where:
 
 ---
 
-**✅ A.2 Coherence Measure
-**
+**✅ A.2 Coherence Measure**
 
 **Pattern Coherence:**
 
@@ -154,11 +152,7 @@ G ~ (D₀ × L_planck²) / I_max
 
 ---
 
-
----
-
-**✅ A.4 Pattern Period Detection
-**
+**✅ A.4 Pattern Period Detection**
 
 **Cyclic Pattern Identification:**
 
@@ -171,8 +165,7 @@ Pattern period = minimum T where P(T) = 1
 
 ---
 
-**✅ A.5 Field Gradient
-**
+**✅ A.5 Field Gradient**
 
 **Intent Gradient (Tension Field):**
 
@@ -187,8 +180,7 @@ Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|
 
 ---
 
-**⚠️ A.6 Synchronization Quality
-**
+**⚠️ A.6 Synchronization Quality**
 
 **Phase Correlation:**
 
@@ -204,8 +196,7 @@ Where:
 
 ---
 
-**⚠️ A.7 Decoherence Rate
-**
+**⚠️ A.7 Decoherence Rate**
 
 **Exponential Decoherence:**
 
@@ -223,8 +214,7 @@ Where:
 
 ---
 
-**⚠️ A.8 Markov Relevancy Horizon
-**
+**⚠️ A.8 Markov Relevancy Horizon**
 
 **MRH Radius (Speculative):**
 
@@ -242,8 +232,7 @@ Where:
 
 ---
 
-**⚠️ A.9 Emergence Threshold
-**
+**⚠️ A.9 Emergence Threshold**
 
 **Emergence Function:**
 
@@ -259,8 +248,7 @@ Where emergence occurs when `E(System) > E_threshold`.
 
 ---
 
-**⚠️ A.10 Quantum Correspondence
-**
+**⚠️ A.10 Quantum Correspondence**
 
 **Wavefunction Mapping:**
 
@@ -278,8 +266,7 @@ Where:
 
 ---
 
-**⚠️ A.11 Universal Constants
-**
+**⚠️ A.11 Universal Constants**
 
 **Dimensional Relationships:**
 
@@ -298,8 +285,7 @@ c = L_cell / T_slice ≈ 3 × 10⁸ m/s (speed of light)
 
 ---
 
-**❌ A.12 Gravity Model (FAILED)
-**
+**❌ A.12 Gravity Model (FAILED)**
 
 **Attempted Gravitational Formulation:**
 
@@ -313,8 +299,7 @@ g = -∇(I_density × G_sync)
 
 ---
 
-**❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)
-**
+**❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)**
 
 **Integrated Information (Φ):**
 
@@ -330,8 +315,7 @@ g = -∇(I_density × G_sync)
 
 ---
 
-**✅ A.14 Master Equation (Incomplete)
-**
+**✅ A.14 Master Equation (Incomplete)**
 
 **System Dynamics:**
 
@@ -348,8 +332,7 @@ Where:
 
 ---
 
-**✅ A.15 Computational Implementation
-**
+**✅ A.15 Computational Implementation**
 
 **Simulation Guidelines:**
 

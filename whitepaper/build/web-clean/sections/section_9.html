@@ -506,7 +506,7 @@ deterministic rules (simplification)</li>
 </ul>
 <p>These are computational conveniences, not ontological claims.</p>
 <hr />
-<p><strong>✅ A.1 Basic Intent Transfer </strong></p>
+<p><strong>✅ A.1 Basic Intent Transfer</strong></p>
 <p><strong>Intent Update Rule:</strong></p>
 <pre><code>I(x,y,z,t+1) = I(x,y,z,t) + ∑[T(x&#39;,y&#39;,z&#39; → x,y,z,t)]</code></pre>
 <p>Where: - <code>I(x,y,z,t)</code> = Intent at cell
@@ -516,7 +516,7 @@ over all 6 adjacent cells (3D lattice)</p>
 <p><strong>Status:</strong> Core computational rule. Well-defined but
 untested whether it generates useful predictions.</p>
 <hr />
-<p><strong>✅ A.2 Coherence Measure </strong></p>
+<p><strong>✅ A.2 Coherence Measure</strong></p>
 <p><strong>Pattern Coherence:</strong></p>
 <pre><code>C(P,t) = 1 - (∑|I(x,y,z,t) - I_expected(x,y,z,t)|) / I_total</code></pre>
 <p>Where: - <code>C(P,t) ∈ [0,1]</code> (1 = perfect coherence, 0 =
@@ -580,15 +580,14 @@ parameters.</strong></p>
 convenience). Enables pattern stability, explains field effects,
 potentially unifies forces.</p>
 <hr />
-<hr />
-<p><strong>✅ A.4 Pattern Period Detection </strong></p>
+<p><strong>✅ A.4 Pattern Period Detection</strong></p>
 <p><strong>Cyclic Pattern Identification:</strong></p>
 <pre><code>P(T) = 1 if I(x,y,z,t) ≈ I(x,y,z,t+T) for all (x,y,z) in pattern
 Pattern period = minimum T where P(T) = 1</code></pre>
 <p><strong>Status:</strong> Algorithmic tool for identifying repeating
 patterns. Threshold ≈ requires definition.</p>
 <hr />
-<p><strong>✅ A.5 Field Gradient </strong></p>
+<p><strong>✅ A.5 Field Gradient</strong></p>
 <p><strong>Intent Gradient (Tension Field):</strong></p>
 <pre><code>∇I(x,y,z,t) = [∂I/∂x, ∂I/∂y, ∂I/∂z]
 
@@ -597,7 +596,7 @@ Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|</code></pre>
 <p><strong>Status:</strong> Standard gradient calculation. Whether this
 corresponds to physical fields remains untested.</p>
 <hr />
-<p><strong>⚠️ A.6 Synchronization Quality </strong></p>
+<p><strong>⚠️ A.6 Synchronization Quality</strong></p>
 <p><strong>Phase Correlation:</strong></p>
 <pre><code>S(P1,P2,t) = cos(θ(P1,t) - θ(P2,t))</code></pre>
 <p>Where: - <code>θ(P,t)</code> = phase of pattern P at time t -
@@ -607,7 +606,7 @@ corresponds to physical fields remains untested.</p>
 “phase”—unclear if this applies to all Intent patterns or just specific
 types.</p>
 <hr />
-<p><strong>⚠️ A.7 Decoherence Rate </strong></p>
+<p><strong>⚠️ A.7 Decoherence Rate</strong></p>
 <p><strong>Exponential Decoherence:</strong></p>
 <pre><code>dC/dt = -γ × C(t) × N_interactions
 
@@ -619,7 +618,7 @@ interactions</p>
 coherence actually decays this way is untested. The constant γ is
 unknown.</p>
 <hr />
-<p><strong>⚠️ A.8 Markov Relevancy Horizon </strong></p>
+<p><strong>⚠️ A.8 Markov Relevancy Horizon</strong></p>
 <p><strong>MRH Radius (Speculative):</strong></p>
 <pre><code>R_MRH = √(I_pattern / I_background)</code></pre>
 <p>Where: - <code>I_pattern</code> = Information content of central
@@ -632,7 +631,7 @@ justification. Real MRH boundaries likely far more complex.</p>
 operationally (where correlations drop below threshold) rather than
 analytically.</p>
 <hr />
-<p><strong>⚠️ A.9 Emergence Threshold </strong></p>
+<p><strong>⚠️ A.9 Emergence Threshold</strong></p>
 <p><strong>Emergence Function:</strong></p>
 <pre><code>E(System) = C(System) × log(N_patterns) × I(System)</code></pre>
 <p>Where emergence occurs when
@@ -643,7 +642,7 @@ has no justification beyond “seems reasonable.”</p>
 <p><strong>Problem:</strong> What is E_threshold? Where does this
 formula come from? Unclear.</p>
 <hr />
-<p><strong>⚠️ A.10 Quantum Correspondence </strong></p>
+<p><strong>⚠️ A.10 Quantum Correspondence</strong></p>
 <p><strong>Wavefunction Mapping:</strong></p>
 <pre><code>ψ(x,t) ≈ √(I(x,t)) × e^(iθ(x,t))</code></pre>
 <p>Where: - <code>I(x,t)</code> = Intent density (maps to amplitude
@@ -655,7 +654,7 @@ prove they do.</p>
 <p><strong>Issue:</strong> This assumes Intent has both magnitude and
 phase. Is that true for all patterns? Unclear.</p>
 <hr />
-<p><strong>⚠️ A.11 Universal Constants </strong></p>
+<p><strong>⚠️ A.11 Universal Constants</strong></p>
 <p><strong>Dimensional Relationships:</strong></p>
 <pre><code>L_cell = Planck length ≈ 1.616 × 10⁻³⁵ m
 T_slice = Planck time ≈ 5.391 × 10⁻⁴⁴ s
@@ -666,7 +665,7 @@ c = L_cell / T_slice ≈ 3 × 10⁸ m/s (speed of light)</code></pre>
 matching physical constants. The ħ relationship is dimensional analysis
 speculation—unclear if meaningful.</p>
 <hr />
-<p><strong>❌ A.12 Gravity Model (FAILED) </strong></p>
+<p><strong>❌ A.12 Gravity Model (FAILED)</strong></p>
 <p><strong>Attempted Gravitational Formulation:</strong></p>
 <pre><code>g = -∇(I_density × G_sync)</code></pre>
 <p><strong>Status:</strong> DOES NOT WORK. This was an early speculative
@@ -676,8 +675,7 @@ gravity as unsolved.</p>
 <p><strong>Kept for transparency:</strong> Shows what didn’t work. Do
 not use.</p>
 <hr />
-<p><strong>❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)
-</strong></p>
+<p><strong>❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)</strong></p>
 <p><strong>Integrated Information (Φ):</strong></p>
 <pre><code>Φ = ∫∫ C(P_i,P_j) × I(P_i) × I(P_j) dP_i dP_j</code></pre>
 <p><strong>Status:</strong> This is essentially Integrated Information
@@ -690,7 +688,7 @@ integration, not present as novel.</p>
 consciousness measure or acknowledge this is IIT applied to pattern
 dynamics.</p>
 <hr />
-<p><strong>✅ A.14 Master Equation (Incomplete) </strong></p>
+<p><strong>✅ A.14 Master Equation (Incomplete)</strong></p>
 <p><strong>System Dynamics:</strong></p>
 <pre><code>∂I/∂t = -∇·J + S_coherence - D_decoherence</code></pre>
 <p>Where: - <code>J</code> = Intent current density (transfer flow) -
@@ -700,7 +698,7 @@ dynamics.</p>
 missing definitions for S and D terms. Placeholder for future
 development.</p>
 <hr />
-<p><strong>✅ A.15 Computational Implementation </strong></p>
+<p><strong>✅ A.15 Computational Implementation</strong></p>
 <p><strong>Simulation Guidelines:</strong></p>
 <ul>
 <li><strong>Grid discretization:</strong> Finite difference on regular

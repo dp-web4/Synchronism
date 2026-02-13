@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-02-12T06:00:00Z"
+  last_updated: "2026-02-13T12:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3229
-  note: "Core at #596 (ALFALFA-SDSS external validation). Chemistry at #2671+ (Phase 2 CONCLUDED). ALFALFA: 14,585 galaxies, TFR residual = complete M/L predictor, 62/62 tests passing."
-  milestone: "ALFALFA-SDSS Arc (#590-596): EXTERNAL VALIDATION on 14,585 galaxies (100x SPARC). TFR residual captures ALL intrinsic scatter. V-L ratio IS TFR slope (band-dependent: 2.18 i-band vs 3.87 3.6μm). Publishable: 51% scatter reduction."
+  total_sessions: 3236
+  note: "Core at #603 (ALFALFA-SDSS Validation + Robust Statistics). Chemistry at #2671+ (Phase 2 CONCLUDED). Grand Synthesis #600 complete. Student-t errors (df=5.15). Two papers ready."
+  milestone: "Sessions #597-603: Grand Synthesis #600 (200th cosmology session). Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy complete. Two papers ready to write."
   tracks:
-    core: 547  # Sessions 590-596 added (ALFALFA-SDSS External Validation arc)
+    core: 554  # Sessions 597-603 added (Grand Synthesis + Robust Statistics arc)
     chemistry: 46 files + 2625 framework entries (2671+ total documented) + Phase2 synthesis docs
     gnosis: 11
 
@@ -19,7 +19,7 @@ metadata:
 # =============================================================================
 core:
   description: "Main Synchronism research track - unified coherence physics"
-  session_range: "1-596"
+  session_range: "1-603"
   master_equation: "γ = 2/√N_corr (80 orders of magnitude unified)"
 
   # ---------------------------------------------------------------------------
@@ -1571,11 +1571,12 @@ core:
 
     alfalfa_sdss_validation:
       name: "ALFALFA-SDSS External Validation Arc"
-      sessions: [590, 591, 592, 593, 594, 595, 596]
-      status: active
+      sessions: [590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603]
+      status: complete
       date_started: "2026-02-09"
+      date_completed: "2026-02-13"
       building_on: "Post-SPARC Audit (#579-589)"
-      milestone: "EXTERNAL VALIDATION: 14,585 ALFALFA-SDSS galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. V-L ratio IS TFR slope. 62/62 tests passing."
+      milestone: "GRAND SYNTHESIS #600 (200th cosmology session). 14,585 galaxies. Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy. Two papers ready."
       recent_additions:
         - session: 590
           title: "ALFALFA BTFR Scatter vs Gas Richness"
@@ -1612,6 +1613,41 @@ core:
           date: "2026-02-12"
           grade: "A"
           key_finding: "Comprehensive synthesis. Performance hierarchy 0-61% improvement. Publishable core: TFR Residual as Complete M/L Predictor. 62 tests ALL PASSING."
+        - session: 597
+          title: "MOND-Implied M/L at i-band — Consistency Check"
+          date: "2026-02-12"
+          grade: "A-"
+          key_finding: "35% of ALFALFA galaxies have M_gas > MOND-implied M_bar. W50 systematically underestimates V_flat for gas-rich dwarfs. MOND requires 3.2x higher M/L than SPS."
+        - session: 598
+          title: "Multi-Band TFR — g vs i from MOND + Stellar Populations"
+          date: "2026-02-12"
+          grade: "A"
+          key_finding: "TFR slope progression: 3.87 (3.6μm) → 2.18 (i-band) → 1.96 (g-band). Δα(i-g) = 0.225 at 59σ. Adding g-band to i-band gives exactly 0% improvement."
+        - session: 599
+          title: "Inverse TFR — Forward-Inverse Asymmetry Revealed"
+          date: "2026-02-12"
+          grade: "A-"
+          key_finding: "51% forward improvement collapses to ~2% inverse. V is the information carrier. Malmquist bias: forward 0.83 dex vs inverse 0.02 dex."
+        - session: 600
+          title: "Grand Synthesis — 200th Cosmology Session"
+          date: "2026-02-12"
+          grade: "A"
+          key_finding: "RAR = MOND + M/L (period). 3-var minimal model LOO R²=0.854. 6-var model LOO R²=0.938 at noise floor. Two papers ready to write."
+        - session: 601
+          title: "Outlier Galaxies — Where Does the Predictor Fail?"
+          date: "2026-02-13"
+          grade: "A-"
+          key_finding: "177 3σ outliers (1.23%, 4.5x Gaussian). Two classes: over-massive (gas-dominated) and under-massive (nearby dwarfs). Kurtosis = 2.931 confirms non-Gaussian."
+        - session: 602
+          title: "Robust Statistics — Non-Gaussian Errors in the BTFR"
+          date: "2026-02-13"
+          grade: "A"
+          key_finding: "Student-t(df=5.15) overwhelmingly preferred over Gaussian (ΔBIC=1062). Core 61% Gaussian-like, tails 39% non-Gaussian. TFR improvement stable across robust metrics."
+        - session: 603
+          title: "High-V Tail Investigation — Why Kurtosis=31 at V>200?"
+          date: "2026-02-13"
+          grade: "A"
+          key_finding: "One galaxy (AGC 251924) explains 91% of V>200 kurtosis. Face-on imposters cause 80% of outliers. Two-component: core 97.8% (σ=0.171) + tail 2.2% (σ=0.663)."
       key_insights:
         - "14,585 independent galaxies — 100x larger than SPARC"
         - "Different photometric band (i-band) and survey (ALFALFA)"
@@ -1619,6 +1655,9 @@ core:
         - "V-L ratio is band-dependent TFR slope (universal mechanism)"
         - "Only 8.8% circularity — model is genuinely predictive"
         - "Noise floor prevents MOND/CDM discrimination"
+        - "Student-t(df=5.15) replaces Gaussian — paradigm shift for cosmological error handling"
+        - "Grand Synthesis #600: Two papers ready (TFR M/L Predictor + Minimal RAR Model)"
+        - "Non-Gaussian tails (39% of variance) require robust statistical methods"
 
     # Consciousness Arc 2.0 (COMPLETE - NEW)
     consciousness_2:
@@ -2327,9 +2366,9 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 3229  # 596 core + 2671 chemistry + 11 gnosis (approx)
-  active_arcs: 3  # Hot Superconductor + Post-SPARC Audit + ALFALFA-SDSS Validation
-  complete_arcs: 39  # unchanged from SPARC capstone
+  total_sessions: 3236  # 603 core + 2671 chemistry + 11 gnosis (approx)
+  active_arcs: 2  # Hot Superconductor (pending) + (ALFALFA-SDSS COMPLETE)
+  complete_arcs: 40  # ALFALFA-SDSS arc completed
   sparc_arcs: 18  # 18 SPARC-specific arcs, all COMPLETE
   total_predictions: "600+"
   validated_predictions: "150+"
@@ -2375,5 +2414,7 @@ statistics:
   sb_rc_milestone: "Session #578 - SB substitutes for c_V with 1% loss. RAR predictable from photometry + V_flat alone."
   chemistry_phase2_milestone: "Phase 2: Four-regime framework. Neutral/Coherence/Incoherence/Barrier. Era 2 validated by tautology. Honest failure analysis."
   post_sparc_audit_milestone: "Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified."
-  alfalfa_sdss_milestone: "Sessions #590-596 - ALFALFA-SDSS External Validation: 14,585 galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. 62/62 tests passing. Publishable core identified."
+  alfalfa_sdss_milestone: "Sessions #590-603 - ALFALFA-SDSS External Validation COMPLETE: Grand Synthesis #600. Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy. Two papers ready."
+  grand_synthesis_600_milestone: "Session #600 - 200th Cosmology Session. RAR = MOND + M/L. 3-var LOO R²=0.854, 6-var LOO R²=0.938 at noise floor. Two publication-ready papers."
+  robust_statistics_milestone: "Session #602 - Student-t(df=5.15) overwhelmingly preferred over Gaussian. 39% of variance in non-Gaussian tails. Paradigm shift for error handling."
   unified_milestone: "Session #315 - 34 predictions consolidated, 20 validated (58.8%), avg confidence 0.90"
