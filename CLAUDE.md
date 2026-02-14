@@ -28,6 +28,14 @@ cat projects/synchronism.md
 
 Synchronism provides the theoretical framework that underlies all other projects. Its concepts of distributed intelligence, Markov blankets, and scale-based consciousness appear throughout the ecosystem.
 
+## Synthon Framing (Cross-Project)
+
+A **synthon** is an emergent coherence entity formed by recursive interaction between components. The concept bridges component-level behavior and system-level emergence. Synchronism provides the theoretical foundation: coherence equations describe synthon formation (prediction error collapse at phase transitions), MRH defines synthon boundaries, and the Emergence Arc (Sessions 336-339) traces the path from physics through life, complexity, evolution, and consciousness as successive layers of synthon formation.
+
+Key principle: *You don't engineer the mound. You engineer placement rules.* Synchronism's empirical work (chemistry, cosmology) is generating synthon detection data — look for prediction error collapse and behavioral irreducibility in results.
+
+Canonical document: `github.com/dp-web4/HRM/forum/insights/synthon-framing.md`
+
 ## Key Relationships
 - **Provides Theory For**: Battery hierarchy (Cell/Module/Pack)
 - **Tested By**: AI DNA Discovery (Phase 2)
