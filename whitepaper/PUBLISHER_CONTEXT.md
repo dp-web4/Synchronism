@@ -318,11 +318,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-12)
+### Session Counts (as of 2026-02-14)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 596 | Sessions through #596 (ALFALFA-SDSS External Validation complete) |
+| Core | 603 | Sessions through #603 (High-V Tail Investigation) |
 | Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
@@ -337,13 +337,13 @@ For minor changes (typos, statistics updates):
 | Chemistry 438-500 | Low | Integrated in counts |
 | SPARC Capstone (#526-578) | HIGH | **INTEGRATED** - Counts and epistemic corrections in exec summary |
 | Post-SPARC Audit (#579-589) | HIGH | **INTEGRATED** - 30 genuine contributions, quantum claims reparametrized |
-| ALFALFA-SDSS (#590-596) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
+| ALFALFA-SDSS (#590-603) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-12
+- Last integration: 2026-02-14
 - Sessions behind: ~0 (counts and key findings updated)
-- Build status: Clean
+- Build status: Clean (CRLF line endings fixed 2026-02-14)
 - Governance: Active (Rev_0)
 
 ---

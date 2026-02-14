@@ -207,10 +207,10 @@ Sessions are organized into **arcs** - focused multi-session investigations:
 
 | Metric | Value |
 |--------|-------|
-| Core sessions | 378 |
-| Chemistry sessions | 1840 |
+| Core sessions | 603 |
+| Chemistry sessions | 2671 |
 | Gnosis sessions | 11 |
-| Phenomenon types | 1703 |
-| Complete arcs | 14+ |
-| Active arcs | 2 |
+| Phenomenon types | 1873 |
+| Complete arcs | 40+ |
+| Active arcs | 0 |
 | Validation rate | ~89% (Chemistry) |
