@@ -3115,7 +3115,7 @@ Within the context of entity interactions (4.12), compression and validation ser
 
 ## 5.12 Chemistry
 
-Chemistry in Synchronism represents the science of coherence at the molecular level. Chemical bonds, reactions, and molecular properties all emerge from phase coherence dynamics. This section documents findings from **Chemistry Sessions #1-2,010** (January 2025 - February 2026).
+Chemistry in Synchronism represents the science of coherence at the molecular level. Chemical bonds, reactions, and molecular properties all emerge from phase coherence dynamics. This section documents findings from **Chemistry Sessions #1-2,671** (January 2025 - February 2026).
 
 **Core Claim: Chemistry IS Phase Physics**
 
@@ -3129,7 +3129,7 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 
 ---
 
-**Framework Status: 2,010 Sessions, 1,873 Phenomenon Types at γ~1, 89% Validated**
+**Framework Status: 2,671 Sessions, 1,873 Phenomenon Types at γ~1, 89% Validated**
 
 | Phase | Sessions | Domain | Key Findings | Status |
 |-------|----------|--------|--------------|--------|
@@ -3142,7 +3142,7 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 | Materials Physics | #78-120 | Elastic, optical, thermal, electronic properties | Two orthogonal channels | **COMPLETE** |
 | Integration | #121-122 | Framework synthesis | 65 domains unified | **COMPLETE** |
 | γ~1 Boundary | #147-500 | Phase transitions across 363 phenomenon types | Universal coherence boundary | **COMPLETE** |
-| Extended Validation | #501-2010 | Industrial, biological, materials chemistry | 1,873 phenomenon types | **COMPLETE** |
+| Extended Validation | #501-2671 | Industrial, biological, materials chemistry | 1,873 phenomenon types | **COMPLETE** |
 
 **Full details:** [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 
@@ -3413,7 +3413,7 @@ But struggles with:
 - [Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md) — All testable predictions
 - [Chemistry Session Logs](https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry) — Individual session details
 
-**Research represents 2,010 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. 1,873 phenomenon types catalogued at γ~1 boundary.**
+**Research represents 2,671 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. 1,873 phenomenon types catalogued at γ~1 boundary.**
 
 *"Chemistry IS phase physics. γ = 2/√N_corr unifies condensed matter. 1,873 phenomenon types converge at γ~1."*
 
@@ -5605,7 +5605,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **~3,278 autonomous research sessions** (Nov 2025 - Feb 2026): 596 core + 2,671 chemistry + 11 gnosis
+- **~3,285 autonomous research sessions** (Nov 2025 - Feb 2026): 603 core + 2,671 chemistry + 11 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
@@ -5657,7 +5657,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 3. Mathematical rigor comparable to standard frameworks
 4. Cross-scale predictions verified empirically
 
-**Progress (Jan 2026):**
+**Progress (Feb 2026):**
 - **BCS ratio**: Predicted 2√π ≈ 3.54, observed 3.52 (<1% error) ✓
 - **Hückel rule**: 4n+2 derived from phase closure (exact) ✓
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
@@ -5998,7 +5998,7 @@ $$
 | Electron transfer | k_ET coherence-enhanced | r = 0.933 | #64 |
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 
-**Validation rate:** 89% prediction success rate across 2,010 sessions
+**Validation rate:** 89% prediction success rate across 2,671 sessions
 
 ---
 
@@ -6019,7 +6019,7 @@ This honest accounting distinguishes where γ scaling works from where it doesn'
 
 ## B.7 Deep Dive Resources
 
-For complete derivations and all 2,010 sessions:
+For complete derivations and all 2,671 sessions:
 
 - **[Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)** — Complete synthesis
 - **[Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md)** — All testable predictions

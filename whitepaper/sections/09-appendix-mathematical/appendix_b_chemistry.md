@@ -116,7 +116,7 @@ $$
 | Electron transfer | k_ET coherence-enhanced | r = 0.933 | #64 |
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 
-**Validation rate:** 89% prediction success rate across 2,010 sessions
+**Validation rate:** 89% prediction success rate across 2,671 sessions
 
 ---
 
@@ -137,7 +137,7 @@ This honest accounting distinguishes where γ scaling works from where it doesn'
 
 ## B.7 Deep Dive Resources
 
-For complete derivations and all 2,010 sessions:
+For complete derivations and all 2,671 sessions:
 
 - **[Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)** — Complete synthesis
 - **[Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md)** — All testable predictions
