@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3285 (603 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 14, 2026 | **Archivist v1.3** | **MILESTONES: ALFALFA-SDSS External Validation (#590-596): 14,585 galaxies (100x SPARC). TFR residual = complete M/L predictor. 51% scatter reduction. 62/62 tests passing. Publishable core: "TFR Residual as Complete M/L Predictor".**
+**Total Sessions**: ~3243 (610 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 16, 2026 | **Archivist v1.3** | **MILESTONES: CDM Discrimination Arc (#604-610) CLOSED. σ_int=0.086±0.003 — exactly CDM prediction. MOND rejected 32-sigma. Self-corrected Malmquist bias. BIG-SPARC needed. 1991/1991 tests.**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -30,8 +30,25 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 
 ## Active Research Arcs
 
-## ALFALFA-SDSS External Validation Arc (Sessions 590-596) - ACTIVE
-**Status**: Active | **Started**: February 9, 2026
+## CDM Discrimination Arc (Sessions 604-610) - COMPLETE
+**Status**: Complete | **Started**: February 15, 2026 | **Completed**: February 16, 2026
+
+**Achievement**: The definitive ALFALFA-SDSS result. σ_int = 0.086 ± 0.003 dex for optimal N=677 subsample — exactly CDM prediction (z = +0.5). MOND rejected at 32-sigma. Self-corrected from "below CDM" (S606) to "consistent with CDM" (S609) after discovering omitted distance noise (Malmquist bias). Cannot separate residual M/L variation from physics scatter with photometric data. BIG-SPARC (resolved rotation curves, 3.6μm) required for definitive test. 63/63 arc tests, 1991/1991 grand total.
+
+| Session | Title | Grade | Key Insight |
+|---------|-------|-------|-------------|
+| 604 | BTFR Error Budget | A | Noise is 9%, M/L dominates 91%. Floor 0.050 dex achievable |
+| 605 | Dual SPS Mass Comparison | A | Mendel masses 11.4% tighter. 5-var σ=0.107, breaks 0.161 barrier |
+| 606 | MOND vs CDM | A+ | σ_int=0.072 — 6.2σ below CDM. But premature (distance noise omitted) |
+| 607 | SFR as M/L Predictor | A | sSFR suppressor pushes σ_int to 0.081 (7.1σ below CDM) |
+| 608 | Suppressor Effect | A | Semi-suppressor cleans Δ_SPS (+33.5%). Gas-poor benefit most |
+| 609 | Distance Systematic | A+ | SELF-CORRECTION: Distance noise shifts 0.072→0.086. CDM consistent |
+| 610 | CDM Discrimination Synthesis | A+ | σ_int=0.086±0.003. MOND rejected 32σ. INCONCLUSIVE: need BIG-SPARC |
+
+---
+
+## ALFALFA-SDSS External Validation Arc (Sessions 590-603) - COMPLETE
+**Status**: Complete | **Started**: February 9, 2026 | **Completed**: February 13, 2026
 
 **Achievement**: EXTERNAL VALIDATION on 14,585 ALFALFA-SDSS galaxies (100x SPARC). TFR residual captures ALL intrinsic scatter. Publishable core identified: "TFR Residual as Complete M/L Predictor" with 51% scatter reduction. V-L ratio IS the TFR slope (band-dependent: 2.18 i-band vs 3.87 at 3.6μm). Only 8.8% circularity. 62/62 tests passing.
 

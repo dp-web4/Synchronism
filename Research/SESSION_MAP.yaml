@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-02-15T12:00:00Z"
+  last_updated: "2026-02-16T06:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3237
-  note: "Core at #604 (BTFR Error Budget). Chemistry at #2671+ (Phase 2 CONCLUDED). Grand Synthesis #600 complete. Two papers ready. Noise floor 0.050 dex achievable."
-  milestone: "Session #604: BTFR Error Budget — measurement noise is only 9% of variance. M/L dominates (91%). Noise floor 0.050 dex achievable with quality cuts (below CDM 0.085). Bottleneck is residual M/L variation, not data quality."
+  total_sessions: 3243
+  note: "Core at #610 (CDM Discrimination Synthesis). CDM Discrimination Arc CLOSED (#604-610). σ_int=0.086±0.003 consistent with CDM (z=+0.5). MOND rejected 32-sigma. Self-corrected Malmquist bias. BIG-SPARC needed for definitive test."
+  milestone: "Session #610: CDM Discrimination Synthesis. ALFALFA-SDSS hits M/L wall at exactly CDM prediction (0.086 dex). Cannot separate M/L noise from physics scatter. 1991/1991 tests ALL PASSING."
   tracks:
-    core: 555  # Session 604 added (BTFR Error Budget)
+    core: 561  # Session 610 added (CDM Discrimination Synthesis)
     chemistry: 46 files + 2625 framework entries (2671+ total documented) + Phase2 synthesis docs
     gnosis: 11
 
@@ -19,7 +19,7 @@ metadata:
 # =============================================================================
 core:
   description: "Main Synchronism research track - unified coherence physics"
-  session_range: "1-603"
+  session_range: "1-610"
   master_equation: "γ = 2/√N_corr (80 orders of magnitude unified)"
 
   # ---------------------------------------------------------------------------
@@ -1665,6 +1665,55 @@ core:
         - "Non-Gaussian tails (39% of variance) require robust statistical methods"
         - "Measurement noise is 9%, M/L dominates 91%. Noise floor 0.050 dex achievable — CDM discrimination possible if M/L predictor improves"
 
+    cdm_discrimination:
+      name: "CDM Discrimination Arc"
+      sessions: [604, 605, 606, 607, 608, 609, 610]
+      status: complete
+      date_started: "2026-02-15"
+      date_completed: "2026-02-16"
+      building_on: "ALFALFA-SDSS External Validation (#590-603)"
+      milestone: "σ_int=0.086±0.003 dex — exactly CDM prediction. MOND rejected 32-sigma. Self-corrected Malmquist bias (S609). BIG-SPARC needed. 1991/1991 tests."
+      recent_additions:
+        - session: 605
+          title: "Dual SPS Mass Comparison — Taylor vs Mendel"
+          date: "2026-02-15"
+          grade: "A"
+          key_finding: "Mendel spectro-photometric masses 11.4% tighter. Full 5-var model σ=0.107 — breaks 0.161 barrier. Within 1.26x of CDM floor."
+        - session: 606
+          title: "MOND vs CDM — Can the Mendel Model Discriminate?"
+          date: "2026-02-15"
+          grade: "A+"
+          key_finding: "Optimal subsample N=677 gives σ_int=0.072 — 6.2σ BELOW CDM floor. But premature (distance noise omitted)."
+        - session: 607
+          title: "SFR as M/L Predictor — Does Star Formation Break the Barrier?"
+          date: "2026-02-16"
+          grade: "A"
+          key_finding: "22μm WISE SFR: suppressor variable (sign flip). Adding sSFR pushes full-sample σ_int to 0.081 (7.1σ below CDM)."
+        - session: 608
+          title: "The Suppressor Effect — Why sSFR Flips Sign"
+          date: "2026-02-16"
+          grade: "A"
+          key_finding: "Semi-suppressor, not classical. Cleans Delta_SPS predictor (+33.5% coefficient). Gas-poor galaxies benefit most."
+        - session: 609
+          title: "Distance Systematic — The r=0.176 Contamination"
+          date: "2026-02-16"
+          grade: "A+"
+          key_finding: "SELF-CORRECTION: Distance noise (0.017 dex) > kinematic noise (0.015 dex). Including it shifts σ_int from 0.072 to 0.086 — CDM consistent (z=+0.5). Malmquist bias identified."
+        - session: 610
+          title: "CDM Discrimination Synthesis — What ALFALFA-SDSS Shows"
+          date: "2026-02-16"
+          grade: "A+"
+          key_finding: "Definitive: σ_int=0.086±0.003 consistent with CDM (z=+0.5). MOND rejected 32-sigma. INCONCLUSIVE overall — cannot separate M/L noise from physics. BIG-SPARC required."
+      key_insights:
+        - "Mendel spectro-photometric masses break the 0.161 dex M/L barrier"
+        - "Self-corrected from 'below CDM' (S606) to 'consistent with CDM' (S609)"
+        - "Malmquist bias (r=0.176 distance contamination) was the hidden systematic"
+        - "σ_int = 0.086 ± 0.003 — exactly CDM prediction (z = +0.5)"
+        - "MOND rejected at 32-sigma in optimal subsample"
+        - "Cannot separate residual M/L variation from physics scatter with photometric data"
+        - "BIG-SPARC (resolved rotation curves, 3.6μm) required for definitive test"
+        - "1991/1991 tests ALL PASSING (63/63 in this arc)"
+
     # Consciousness Arc 2.0 (COMPLETE - NEW)
     consciousness_2:
       name: "Consciousness Arc 2.0"
@@ -2372,9 +2421,9 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 3236  # 603 core + 2671 chemistry + 11 gnosis (approx)
-  active_arcs: 2  # Hot Superconductor (pending) + (ALFALFA-SDSS COMPLETE)
-  complete_arcs: 40  # ALFALFA-SDSS arc completed
+  total_sessions: 3243  # 610 core + 2671 chemistry + 11 gnosis (approx)
+  active_arcs: 1  # Hot Superconductor only (pending)
+  complete_arcs: 41  # +1 CDM Discrimination Arc (#604-610)
   sparc_arcs: 18  # 18 SPARC-specific arcs, all COMPLETE
   total_predictions: "600+"
   validated_predictions: "150+"
@@ -2421,6 +2470,7 @@ statistics:
   chemistry_phase2_milestone: "Phase 2: Four-regime framework. Neutral/Coherence/Incoherence/Barrier. Era 2 validated by tautology. Honest failure analysis."
   post_sparc_audit_milestone: "Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified."
   alfalfa_sdss_milestone: "Sessions #590-603 - ALFALFA-SDSS External Validation COMPLETE: Grand Synthesis #600. Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy. Two papers ready."
+  cdm_discrimination_milestone: "Sessions #604-610 - CDM Discrimination Arc CLOSED: σ_int=0.086±0.003 consistent with CDM (z=+0.5). MOND rejected 32-sigma. Self-corrected Malmquist bias. BIG-SPARC required. 1991/1991 tests."
   grand_synthesis_600_milestone: "Session #600 - 200th Cosmology Session. RAR = MOND + M/L. 3-var LOO R²=0.854, 6-var LOO R²=0.938 at noise floor. Two publication-ready papers."
   robust_statistics_milestone: "Session #602 - Student-t(df=5.15) overwhelmingly preferred over Gaussian. 39% of variance in non-Gaussian tails. Paradigm shift for error handling."
   unified_milestone: "Session #315 - 34 predictions consolidated, 20 validated (58.8%), avg confidence 0.90"
