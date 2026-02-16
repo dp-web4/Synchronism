@@ -772,6 +772,8 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 | OQ003 | Physical meaning of φ in coherence equations? | #240 | Open |
 | OQ004 | Can Gnosis be experimentally validated? | Gnosis #8 | Blocked |
 | OQ005 | Is 50C+ ambient superconductor possible? Design one. | Discussion | Open |
+| OQ006 | Can #250 and #291 measurement frameworks be unified? | A2ACW #291 | Open |
+| OQ007 | Does fractal self-similarity explain why MOND works? | Human obs. | **NEW** |
 
 **[OQ005 Detail](OPEN_QUESTION_Hot_Superconductor.md)**: Framework says yes (energy scales sufficient), but γ_SC ~ 0.5 at 323K leaves little margin. Need N_corr ~ 10-30 with Δ ~ 80 meV. Hydrides prove regime exists under pressure. Challenge: ambient pressure stabilization. **[Speculative Approaches](OPEN_QUESTION_Hot_Superconductor_Speculative.md)**: Phase boundary shifting via anti-eutectic alloying, chemical pressure, interface nucleation, proximity composites. **[Synchronism Lens](OPEN_QUESTION_Hot_Superconductor_Synchronism.md)**: SC as macroscopic phase-locking; Tc as synchronization threshold; design for resonance and seeded sync propagation.
 

@@ -119,6 +119,21 @@ Protocol spec: `forum/a2acw-session291/A2ACW v0.1.txt`
 
 ---
 
+## Open Question: Fractal Coherence Bridge (OQ007) — NEW
+
+**Question**: Does the fractal self-similarity of the coherence equation across scales explain *why* MOND works — not by contradicting it, but by revealing it as the γ=2 special case of a universal principle?
+
+**Status**: Open — raised February 16, 2026 from human observation during CDM arc review
+
+**Key Insight**: The self-audit (S574-587) tested C(ρ) at one scale and found it equivalent to MOND. But Synchronism's claim is fractal: the same equation at every Markov blanket boundary, with γ = 2/√N_corr encoding the correlation structure. MOND can't explain superconductors. If the coherence equation can — using the same math — that's not redescription, that's explanation. (Analogy: epicycles predicted planetary positions accurately. Heliocentrism didn't change what we see — it changed how we explain it, enabling deeper physics.)
+
+**Cross-Track**: Both cosmology and chemistry tracks have directives. Cosmology works downward (why γ=2 at galaxy scale?). Chemistry works upward (where does quantum correlation die?). They should meet in the middle.
+
+**Reference**: `Research/OPEN_QUESTION_Fractal_Coherence_Bridge.md`
+**Directives**: `Research/DIRECTIVE_Cosmology_Fractal_Bridge.md`, `Research/DIRECTIVE_Chemistry_Fractal_Bridge.md`
+
+---
+
 ## Research Philosophy: Usefulness Over Completeness
 
 All models are wrong; some are useful. Synchronism acknowledges this from the start.
