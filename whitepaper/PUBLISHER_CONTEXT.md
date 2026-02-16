@@ -318,11 +318,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-14)
+### Session Counts (as of 2026-02-16)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 603 | Sessions through #603 (High-V Tail Investigation) |
+| Core | 610 | Sessions through #610 (CDM Discrimination Synthesis) |
 | Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
@@ -338,12 +338,13 @@ For minor changes (typos, statistics updates):
 | SPARC Capstone (#526-578) | HIGH | **INTEGRATED** - Counts and epistemic corrections in exec summary |
 | Post-SPARC Audit (#579-589) | HIGH | **INTEGRATED** - 30 genuine contributions, quantum claims reparametrized |
 | ALFALFA-SDSS (#590-603) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
+| CDM Discrimination (#604-610) | HIGH | **INTEGRATED** - σ_int=0.086, 41st arc, INCONCLUSIVE |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-14
+- Last integration: 2026-02-16
 - Sessions behind: ~0 (counts and key findings updated)
-- Build status: Clean (CRLF line endings fixed 2026-02-14)
+- Build status: Clean (rebuilt 2026-02-16)
 - Governance: Active (Rev_0)
 
 ---
