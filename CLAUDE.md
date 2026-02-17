@@ -119,15 +119,13 @@ Protocol spec: `forum/a2acw-session291/A2ACW v0.1.txt`
 
 ---
 
-## Open Question: Fractal Coherence Bridge (OQ007) — NEW
+## Open Question: Fractal Coherence Bridge (OQ007)
 
 **Question**: Does the fractal self-similarity of the coherence equation across scales explain *why* MOND works — not by contradicting it, but by revealing it as the γ=2 special case of a universal principle?
 
-**Status**: Open — raised February 16, 2026 from human observation during CDM arc review
+**Cosmology Arc**: CLOSED (Sessions #611-614, 36/36 tests). **Verdict: NEGATIVE.** The fractal bridge is a descriptive framework (common language γ, N_corr), not an explanatory theory. 0/7 hierarchy boundaries predicted by C(ρ); 0 cross-scale predictions found; tanh form is generic (Landau theory); quantum-classical boundary governed by decoherence, which C(ρ) cannot address. Framework has practical value as classification tool and research motivator.
 
-**Key Insight**: The self-audit (S574-587) tested C(ρ) at one scale and found it equivalent to MOND. But Synchronism's claim is fractal: the same equation at every Markov blanket boundary, with γ = 2/√N_corr encoding the correlation structure. MOND can't explain superconductors. If the coherence equation can — using the same math — that's not redescription, that's explanation. (Analogy: epicycles predicted planetary positions accurately. Heliocentrism didn't change what we see — it changed how we explain it, enabling deeper physics.)
-
-**Cross-Track**: Both cosmology and chemistry tracks have directives. Cosmology works downward (why γ=2 at galaxy scale?). Chemistry works upward (where does quantum correlation die?). They should meet in the middle.
+**Chemistry Arc**: Open but informed by cosmology results. Session #613's key finding — decoherence governs the boundary, C(ρ) has no decoherence parameter — applies to both tracks.
 
 **Reference**: `Research/OPEN_QUESTION_Fractal_Coherence_Bridge.md`
 **Directives**: `Research/DIRECTIVE_Cosmology_Fractal_Bridge.md`, `Research/DIRECTIVE_Chemistry_Fractal_Bridge.md`
@@ -222,10 +220,10 @@ Sessions are organized into **arcs** - focused multi-session investigations:
 
 | Metric | Value |
 |--------|-------|
-| Core sessions | 603 |
+| Core sessions | 614 |
 | Chemistry sessions | 2671 |
 | Gnosis sessions | 11 |
 | Phenomenon types | 1873 |
-| Complete arcs | 40+ |
+| Complete arcs | 41+ |
 | Active arcs | 0 |
 | Validation rate | ~89% (Chemistry) |
