@@ -318,11 +318,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-16)
+### Session Counts (as of 2026-02-17)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 610 | Sessions through #610 (CDM Discrimination Synthesis) |
+| Core | 614 | Sessions through #614 (OQ007 Fractal Coherence Bridge CLOSED) |
 | Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
@@ -339,12 +339,13 @@ For minor changes (typos, statistics updates):
 | Post-SPARC Audit (#579-589) | HIGH | **INTEGRATED** - 30 genuine contributions, quantum claims reparametrized |
 | ALFALFA-SDSS (#590-603) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
 | CDM Discrimination (#604-610) | HIGH | **INTEGRATED** - σ_int=0.086, 41st arc, INCONCLUSIVE |
+| OQ007 Fractal Coherence Bridge (#611-614) | HIGH | **INTEGRATED** - NEGATIVE verdict, C(ρ) descriptive not predictive, 42nd arc |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-16
+- Last integration: 2026-02-17
 - Sessions behind: ~0 (counts and key findings updated)
-- Build status: Clean (rebuilt 2026-02-16)
+- Build status: Clean (rebuilt 2026-02-17)
 - Governance: Active (Rev_0)
 
 ---
