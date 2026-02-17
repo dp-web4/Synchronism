@@ -1,9 +1,12 @@
 # Open Question: Does Fractal Self-Similarity Explain Why Scale-Specific Theories Work?
 
 **ID**: OQ007
-**Status**: Open | **Raised**: February 16, 2026 | **Track**: Core + Chemistry (Cross-Track)
+**Status**: Cosmology Arc CLOSED (NEGATIVE) — Chemistry Arc Open | **Raised**: February 16, 2026 | **Track**: Core + Chemistry (Cross-Track)
 **Origin**: Human observation during CDM arc review
 **Reference**: `private-context/moments/fractal-coherence-bridge-2026-02-16.md`
+
+### Cosmology Arc Results (Sessions #611-614, 36/36 tests)
+**Verdict: NEGATIVE.** The fractal bridge is a descriptive framework (common language), not an explanatory theory. All 5 sub-questions answered negatively. 0/7 hierarchy boundaries predicted by C(ρ); 0 cross-scale predictions found; tanh form is generic (Landau theory); ρ_crit is a local input at every scale; quantum-classical boundary governed by decoherence, which C(ρ) cannot address. Framework has practical value as classification tool and research motivator. See Sessions #611-614 for full details.
 
 ---
 
