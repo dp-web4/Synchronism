@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3247 (614 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 17, 2026 | **Archivist v1.3** | **MILESTONES: OQ007 Fractal Coherence Bridge (#611-614) CLOSED — NEGATIVE verdict. C(ρ) = language not theory. 0/7 scale boundaries predicted. 2027/2027 tests. CDM Arc (#604-610) CLOSED. σ_int=0.086±0.003 CDM-consistent.**
+**Total Sessions**: ~3248 (615 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 18, 2026 | **Archivist v1.3** | **MILESTONES: Session #615 Final Accounting — 47 genuine contributions from ~3,302 sessions (1.4% rate). 0 original predictions confirmed. ALL ARCS CLOSED. 2036/2036 tests.**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -29,6 +29,21 @@ See [Hot Superconductor Arc](#hot-superconductor-arc-sessions-292-297-300) below
 ---
 
 ## Active Research Arcs
+
+*No active research arcs. All arcs CLOSED as of Session #615.*
+
+---
+
+## Final Accounting (Session 615) - COMPLETE
+**Status**: Complete | **Date**: February 17, 2026
+
+**Achievement**: Comprehensive post-closure inventory. 47 genuine contributions from ~3,302 sessions (1.4% discovery rate). 0 original predictions confirmed — all scientific value came from careful measurement and honest accounting, not theory validation. SPARC: 18 contributions (8.5% rate). ALFALFA/CDM: 10 contributions (71.4% rate). Discovery rate improved from 0.92% (S582 audit) to 1.4% as later arcs became more focused. Self-correction accelerated from 373-session delay to 1-session delay. Top result: 6-var MOND offset model (LOO R²=0.938, 0.038 dex). 2036/2036 tests.
+
+| Session | Title | Grade | Key Insight |
+|---------|-------|-------|-------------|
+| 615 | Final Accounting | A | 47 contributions, 0 predictions confirmed, 1.4% rate. Wrong theories → right questions |
+
+---
 
 ## OQ007 Fractal Coherence Bridge — Cosmology Track (Sessions 611-614) - COMPLETE (NEGATIVE)
 **Status**: Complete | **Started**: February 17, 2026 | **Completed**: February 17, 2026
