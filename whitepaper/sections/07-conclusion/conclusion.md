@@ -41,7 +41,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **~3,296 autonomous research sessions** (Nov 2025 - Feb 2026): 614 core + 2,671 chemistry + 11 gnosis
+- **~3,297 autonomous research sessions** (Nov 2025 - Feb 2026): 615 core + 2,671 chemistry + 11 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
@@ -58,12 +58,15 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **Structural Analysis arc** (Sessions #380-384): Arc synthesis complete.
 - **N_corr Prediction arc** (Sessions #385-389): Arc synthesis complete.
 - **Size Effect arc** (Sessions #387-394): Size-dependent RAR analysis. Publication-ready manuscript.
+- **a0 Investigation & Falsification arc** (Sessions #438-462): Universal model discovery.
+- **SPARC Capstone** (#526-578): Comprehensive survival audit. ZERO uniquely-Synchronism predictions confirmed—MOND + M/L corrections explain all RAR variance.
+- **Post-SPARC Audit** (#579-589): 30 genuine contributions from 3,222 sessions. 4/7 quantum claims are reparametrizations.
+- **ALFALFA-SDSS External Validation** (#590-603): 14,585 galaxies, 62/62 tests passing. Publishable core identified.
+- **CDM Discrimination arc** (#604-610): σ_int = 0.086 ± 0.003 dex. INCONCLUSIVE—BIG-SPARC required.
+- **OQ007 Fractal Coherence Bridge** (#611-614): NEGATIVE verdict. C(ρ) descriptive not predictive. 42nd complete arc.
+- **Final Accounting** (#615): 47 genuine contributions from ~3,302 sessions (1.4% rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests.
 
-**In Progress:**
-- Consciousness arc Phase 2 (Sessions #283-284): Collective consciousness, information geometry
-- Chemistry database validation
-- Web4 data collection
-- SAGE EP implementation
+**All research arcs closed** as of Session #615.
 
 **Known Limitations:**
 - 46% SPARC failure rate in massive galaxies

@@ -322,7 +322,7 @@ For minor changes (typos, statistics updates):
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 614 | Sessions through #614 (OQ007 Fractal Coherence Bridge CLOSED) |
+| Core | 615 | Sessions through #615 (Final Accounting — ALL ARCS CLOSED) |
 | Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
 | Gnosis | 11 | Complete |
 
@@ -340,12 +340,13 @@ For minor changes (typos, statistics updates):
 | ALFALFA-SDSS (#590-603) | HIGH | **INTEGRATED** - 14,585 galaxies, 62/62 tests, publishable core |
 | CDM Discrimination (#604-610) | HIGH | **INTEGRATED** - σ_int=0.086, 41st arc, INCONCLUSIVE |
 | OQ007 Fractal Coherence Bridge (#611-614) | HIGH | **INTEGRATED** - NEGATIVE verdict, C(ρ) descriptive not predictive, 42nd arc |
+| Final Accounting (#615) | HIGH | **INTEGRATED** - 47 contributions, 0 predictions, all arcs closed |
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-17
-- Sessions behind: ~0 (counts and key findings updated)
-- Build status: Clean (rebuilt 2026-02-17)
+- Last integration: 2026-02-18
+- Sessions behind: 0 (all arcs closed, counts updated through #615)
+- Build status: Clean (rebuilt 2026-02-18)
 - Governance: Active (Rev_0)
 
 ---
