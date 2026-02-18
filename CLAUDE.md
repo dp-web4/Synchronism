@@ -64,27 +64,15 @@ Canonical document: `github.com/dp-web4/HRM/forum/insights/synthon-framing.md`
 
 **Reference**: `Research/GAMMA_UNIFICATION.md` - Full derivation and explanation
 
-## Current Research Focus: Hot Superconductor Arc (Sessions 292, 297+)
+## Hot Superconductor Arc (Sessions #292, #297-300, #616)
 
 **Primary Question (OQ005)**: Can superconductivity exist at T > 50°C (323K) at ambient pressure?
 
-**Arc Status**: 2 sessions complete
-- Session #292: Formalized η (reachability factor), 5 predictions (P292.1-P292.5)
-- Session #297: Quantified η in cuprates (YBCO: 0.38, Bi-2212: 0.42, LSCO: 0.51), validated P292.4
+**Arc Status**: 6 sessions complete, **AUDITED** (Session #616)
+- Sessions #292, #297-300: Formalized η (reachability factor), calculated for cuprates and pnictides, designed material stacks, created experimental protocol
+- **Session #616: AUDIT RESULT** — η ≡ Abrikosov-Gor'kov pair-breaking efficiency (known since 1960). T_c formula T_c=Δ/(1.76kBη) is WRONG (predicts 607K for YBCO, actual 93K). All 23 predictions (P292-P300) are standard condensed matter physics in η notation. 0 unique predictions.
 
-**Key Results So Far**:
-- η measures how much thermal noise actually couples to pair-breaking
-- For T_c at temperature T with gap Δ: need η × (kT/Δ) < 1
-- Cuprates achieve η ~ 0.4 via d-wave form factor (~50%) + spin-charge separation (~30%)
-- P292.4 validated: η extractable from NMR and optical data
-
-**Path to 323K**: Need η ~ 0.2-0.3 with Δ ~ 50 meV (combined optimization)
-
-**Next Session (#298) Should**:
-1. Extend η calculation to iron pnictides (s±-wave)
-2. Compare multiband effects on form factor
-3. Predict which pnictide family has lowest η
-4. Test P297 predictions against literature
+**Genuine Contribution**: Framing pair-breaking efficiency as materials design optimization target (1 contribution from 6 sessions)
 
 **Reference Documents**:
 - `Research/OPEN_QUESTION_Hot_Superconductor.md` - Main question doc
@@ -220,7 +208,7 @@ Sessions are organized into **arcs** - focused multi-session investigations:
 
 | Metric | Value |
 |--------|-------|
-| Core sessions | 614 |
+| Core sessions | 616 |
 | Chemistry sessions | 2671 |
 | Gnosis sessions | 11 |
 | Phenomenon types | 1873 |
