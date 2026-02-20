@@ -833,18 +833,16 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 
 | Metric | Value |
 |--------|-------|
-| Formal research sessions | ~850 |
-| Total autonomous session logs | 1,700+ |
-| Active arcs | 2 (Hot SC, Quantum Foundations) |
-| Complete arcs | 15 (+Emergence Arc, +Cosmology 2.0, +Info Theory, +StatMech, +BSM, +SM, +GR, +QFT, +QC 2.0) |
-| Total predictions | 388+ |
-| Validated predictions | 115+ |
-| High testability | 48 |
-| Confirmed | 6 |
-| Proposed experiments | 20 |
-| Hardware architectures | 2 |
-| Chemistry phenomenon types | **363** |
-| **GRAND TOTAL VERIFIED** | **159/159 across 5 arcs!** |
+| Core research sessions | 616 |
+| Chemistry sessions | 2,671 |
+| Gnosis sessions | 11 |
+| **Total sessions** | **~3,308** |
+| Active arcs | 0 (all closed per Final Accounting #615) |
+| Complete arcs | 42+ |
+| Chemistry phenomenon types | **1,873** |
+| Genuine contributions (per η audit #616) | 48 (all 4 tracks reparametrizations) |
+| Confirmed novel predictions | 0 (per Final Accounting #615) |
+| **GRAND TOTAL TESTS VERIFIED** | **2,045/2,045** |
 
 **Note**: This map tracks formal research reports in `/Research/` directories. Full autonomous session logs are maintained separately in `private-context/autonomous-sessions/` (private repo). Individual sessions promote notable findings to `/Research/` for cataloguing.
 
