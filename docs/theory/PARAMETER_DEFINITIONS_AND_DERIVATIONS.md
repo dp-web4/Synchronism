@@ -1,7 +1,7 @@
 # Synchronism Parameter Definitions and Derivations
 
-**Last Updated**: 2025-12-24
-**Status**: All parameters derived from first principles (Sessions #64-91)
+**Last Updated**: 2026-02-21
+**Status**: Functional form (tanh, γ) derived from mean-field theory. Scaling constants (A, a₀, Σ₀, R₀) derived via dimensional analysis with 3–12% agreement — whether errors reflect approximation limits or implicit calibration through V_flat is an open question.
 
 ---
 
@@ -253,3 +253,11 @@ Synchronism makes predictions distinguishable from MOND:
 ---
 
 *"December 2025: All major galactic scales (a₀, Σ₀, R₀) connected to cosmic expansion. The 'dark matter problem' may be a parameterization problem, not a matter problem."*
+
+---
+
+## Back-Annotation Log
+
+| Date | Source | Change |
+|------|--------|--------|
+| 2026-02-21 | synchronism-site visitor track + Grok review | Revised status line: distinguished derived functional form (tanh, γ — exact) from scaling constants (A, a₀, Σ₀, R₀ — 3–12% agreement). Prior framing "all parameters derived from first principles, none fitted" was overclaiming. The scaling constants use V_flat as input and show fitting-like residuals. Honest framing: "derived via dimensional analysis, calibrated against observations." |
