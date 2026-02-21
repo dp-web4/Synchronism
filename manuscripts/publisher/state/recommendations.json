@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-02-19T02:30:00Z",
+  "last_updated": "2026-02-21T02:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -1449,6 +1449,37 @@
       "recommended_framing": "Position as 'BTFR intrinsic scatter at the M/L wall: CDM-consistent but inconclusive'. Key narrative: (1) systematic progression from premature claim to honest correction to definitive synthesis, (2) \u03c3_int = 0.086 matches CDM at z=+0.5, (3) but M/L residual contaminates both tests, (4) BIG-SPARC is the definitive test. The self-correction story (S606\u2192S609\u2192S610) is itself publishable as methodology. Can combine with ALFALFA paper (REC-034) or standalone.",
       "readiness_score": 0.95,
       "human_notes": ""
+    },
+    {
+      "id": "REC-2026-036",
+      "date": "2026-02-21",
+      "sessions": [],
+      "arc_name": "Experimental Test Catalog",
+      "track": "core",
+      "status": "recommended",
+      "publication_type": "preprint",
+      "target_venue": "arXiv physics.gen-ph or astro-ph.CO",
+      "priority": "MEDIUM",
+      "summary": "Comprehensive catalog of 24 specific physical experiments (quantum to cosmic) that would test Synchronism's untested predictions. 10 tests doable with existing data, 4 pilot experiments ($50K-$500K), 6 major experiments ($1M-$10M), 4 frontier/theoretical. Each entry has prediction, protocol, expected result, falsification criterion, and distinguishing power vs. standard theory. Top 5 decisive tests identified. Self-correcting: acknowledges \u03b7 audit findings.",
+      "strengths": [
+        "24 concrete falsifiable experiments with specific protocols",
+        "4-tier feasibility organization (existing data through frontier)",
+        "Honest: acknowledges all could return negative",
+        "Self-correcting: TEST-18 explicitly notes \u03b7 formula was wrong",
+        "Top 5 decisive tests span quantum, astrophysical, and cosmological scales",
+        "Could stand alone or complement ALFALFA/CDM papers as 'future work'",
+        "Demonstrates intellectual honesty rare in theoretical physics proposals"
+      ],
+      "weaknesses": [
+        "No validated results \u2014 entirely aspirational",
+        "Not a session arc \u2014 standalone document, no peer session review",
+        "Some tests (Tier 3-4) require $1M-$10M+ funding unlikely without institutional backing",
+        "Several predictions already identified as reparametrizations \u2014 may weaken credibility",
+        "Distinguishing power varies widely (LOW-MEDIUM to MAXIMUM)"
+      ],
+      "recommended_framing": "Position as 'Synchronism: Experimental Decision Points' \u2014 an honest assessment of what would validate or falsify the framework. Lead with the 5 decisive tests. Emphasize that the research program has earned the right to pose these questions through 3,308 sessions of self-scrutiny (48 contributions, 0 false claims). Can serve as companion piece to ALFALFA paper or standalone experimental proposals paper. The 'What Negative Would Mean' section is the strongest selling point \u2014 rare for theoretical proposals to pre-commit to failure criteria.",
+      "readiness_score": 0.60,
+      "human_notes": ""
     }
   ],
   "upcoming_candidates": [
@@ -2020,6 +2051,12 @@
       "title": "48 Genuine Contributions from ~3,308 Sessions (1.5% rate)",
       "arc": "All",
       "significance": "Hot SC audit adds 1 contribution (design framing). Updated: 14 chemistry + 34 cosmology/empirical. 0 unique predictions confirmed. ALL 4 tracks audited as reparametrizations."
+    },
+    "experimental_test_catalog": {
+      "date": "2026-02-21",
+      "title": "Experimental Test Catalog \u2014 24 Tests from Quantum to Cosmic",
+      "arc": "All",
+      "significance": "Comprehensive catalog of falsifiable experiments. 10 existing-data tests, 14 requiring new experiments. Top 5 decisive tests identified. Self-correcting (acknowledges \u03b7 audit). New REC-2026-036 created (readiness 0.60)."
     }
   }
 }
