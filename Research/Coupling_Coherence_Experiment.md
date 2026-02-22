@@ -195,3 +195,15 @@ The experiment achieved what Andrei asked for: a worked example with ground trut
 - **Negative**: tanh not uniquely preferred (Hill wins), p_crit derivation fails completely
 
 This downgrades the claim from "universal equation with derived parameters" to "one of several equally good sigmoid descriptions of a real phenomenon." Still useful — but a different and weaker claim than originally intended.
+
+### 7.6 Cross-Project Implications (Web4, SAGE, Synthon Framing)
+
+The experiment is a **synthon formation study in miniature** — the sigmoid transition is where independent agents form a coherent collective entity (a synthon). Key cross-project connections:
+
+- **Web4**: The coupling parameter p maps to MRH broadcast frequency. The finding that p ≈ 0.01 is sufficient means Web4's sparse Witnessing/Broadcast mechanisms provide most of the coherence value. T3/V3 trust tensors are structurally equivalent to the agents' belief matrices. The geometric mean metric catches "trust bubbles."
+
+- **SAGE**: IRP plugins are the agents, ATP budget allocation is the coupling mechanism. The Hill function winning (cooperative binding kinetics) empirically validates SAGE's metabolic metaphor. The "individual insufficient, collective sufficient" observation budget matches SAGE's pitch: one local LLM isn't enough, but orchestrated components succeed.
+
+- **Synthon framing**: Formation threshold is very low (p_crit ≈ 0.002). You don't need dense pheromone fields — you need sparse but present ones. Behavioral irreducibility confirmed: collective C=0.94 far exceeds individual capability ~0.55. Hill function suggests synthon crystallization follows cooperative binding kinetics.
+
+Full cross-reference: `github.com/dp-web4/HRM/forum/insights/coupling-coherence-web4-sage.md`
