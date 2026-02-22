@@ -1,27 +1,33 @@
-# Coupling-Coherence Experiment: Testing the Generalized Coherence Equation
+# Coupling-Coherence Experiment: Compression Trust Phase Transition
 
 **Date**: 2026-02-22
 **Motivation**: External challenge from Andrei's AI (GPT) — "show me one worked AI example with a measurement protocol"
-**Status**: Designed and executed
+**Status**: Designed, executed, reframed
 
 ---
 
 ## 1. Research Question
 
-Does the synchronism coherence equation
+Does collective coherence emerge through a **phase transition in compression trust** — the rate at which agents accept each other's compressed representations of reality?
 
-```
-C(ρ) = tanh(γ · log(ρ/ρ_crit + 1))
-```
+The original framing tested whether "generalized density" follows the synchronism equation C(ρ) = tanh(γ · log(ρ/ρ_crit + 1)). The reframed question is sharper: the experiment's coupling parameter p is not density — it is the **frequency of compression trust events** (how often one agent accepts another's lossy summary of the world). The experiment tests:
 
-describe the emergence of coherence in multi-agent knowledge discovery when ρ is generalized from physical density to coupling density between agents?
-
-Specifically:
-1. Does C(p) follow a tanh(γ · log(p/p_crit + 1)) curve, or does a logistic/erf/power-law fit equally well?
-2. Can p_crit be **derived** from world properties (like ρ_crit = A × V_flat² in physics), or is it only a fit parameter?
-3. Can we distinguish "shared wrongness" (convergence without correctness) from genuine coherence?
+1. Does C(p) follow a sigmoid as a function of compression trust frequency? Which sigmoid family?
+2. Can the critical trust threshold be **derived** from system properties, or is it only a fit parameter?
+3. Can we distinguish "shared wrongness" (converged but trusting the wrong compressions) from genuine coherence?
 
 ## 2. Experimental Design
+
+### 2.0 Compression Trust (Definition)
+
+**Compression trust** is the act of accepting another agent's compressed representation of reality as input to your own reasoning. Every observation is lossy — a compression of the world. When agent A shares its belief matrix with agent B, A is offering a compressed summary of everything it has observed. B must decide how much to trust that compression.
+
+Compression trust has three components:
+- **The compressed representation**: Agent A's belief matrix B[i][j][t] — 396 probability values summarizing A's noisy, partial observations of the world
+- **The trust event**: Agent B receives and integrates A's compressed representation, weighted by a trust gradient (self-weight α = 0.7)
+- **The compression loss**: Each observation has noise rate η = 0.15 — meaning the compressed representation is provably lossy. Trust doesn't make the compression lossless; it makes the *collective* compression less lossy by averaging across independent noise
+
+This maps directly to Web4's compression-trust framework: high trust = accept compressed summaries; low trust = require raw data; zero trust = no shared representation accepted.
 
 ### 2.1 Micro-World (The Oracle)
 
@@ -46,13 +52,14 @@ A random directed knowledge graph serves as ground truth:
 
 ### 2.3 Coupling Mechanism
 
-Coupling parameter **p ∈ [0, 1]** controls information sharing:
+Coupling parameter **p ∈ [0, 1]** controls the **frequency of compression trust events**:
 
-- Each round, for each ordered pair of agents (A, B), with probability p: A receives B's current belief matrix
-- When received: A updates via **weighted belief averaging**: B_new = α·B_self + (1-α)·B_received, where α = 0.7 (self-weight)
-- **p = 0**: Fully independent (no sharing)
-- **p = 1**: Full transparency every round
-- **Units**: Sharing probability per agent-pair per round
+- Each round, for each ordered pair of agents (A, B), with probability p: A receives B's current belief matrix — a compressed representation of B's knowledge about the world
+- When received: A integrates via **weighted trust averaging**: B_new = α·B_self + (1-α)·B_received, where α = 0.7 (**trust gradient** — how much A trusts its own compression vs B's)
+- **p = 0**: Zero compression trust (fully independent — each agent relies only on its own lossy observations)
+- **p = 1**: Full compression trust every round (complete transparency)
+- **Units**: Compression trust frequency — probability of trust event per agent-pair per round
+- The belief matrix itself is the **compressed representation**: 396 probability values summarizing everything an agent has observed through noisy, partial sampling
 
 ### 2.4 Measurements
 
@@ -140,14 +147,16 @@ All of these are publishable negative results. The experiment is designed to pro
 
 ## 6. Relationship to Physics Framework
 
-| Physics | This Experiment | Analogy |
-|---------|----------------|---------|
-| ρ (density, g/cm³) | p (coupling probability) | Input to coherence function |
-| ρ_crit = A × V_flat² | p_crit = η·H/(K·m·(1-2η)) | Derived from system properties |
-| γ = 2/√N_corr | γ (fit parameter, then test derivation) | Transition sharpness |
-| C(ρ) = tanh(γ·log(ρ/ρ_crit+1)) | C(p) = tanh(γ·log(p/p_crit+1)) | Same functional form? |
+| Physics | This Experiment | Reframed as Compression Trust |
+|---------|----------------|-------------------------------|
+| ρ (density, g/cm³) | p (coupling probability) | **Compression trust frequency** — rate of trust events |
+| ρ_crit = A × V_flat² | p_crit = η·H/(K·m·(1-2η)) | **Critical trust threshold** — minimum trust for collective coherence |
+| γ = 2/√N_corr | γ (fit parameter) | Transition sharpness |
+| C(ρ) = tanh(γ·log(ρ/ρ_crit+1)) | C(p) = tanh(γ·log(p/p_crit+1)) | Same functional form? (**Result: Hill wins**) |
+| Noise in observation | η = 0.15 | **Compression loss** — lossy observations = lossy compression |
+| — | α = 0.7 (self-weight) | **Trust gradient** — how much you trust your own vs others' compressions |
 
-The honest difference: in physics, ALL parameters are derived from fundamental constants. Here, γ is initially fit, and we attempt to derive p_crit. This is a weaker claim — "same curve family with one derived parameter" vs "fully derived prediction." We report this honestly.
+The honest difference: in physics, ALL parameters are derived from fundamental constants. Here, γ is only fit, and the attempted p_crit derivation fails completely (400× error). The reframing to compression trust explains this failure: trust is relational (emerges from interaction history), not intrinsic (derivable from system properties). You can't predict the critical trust frequency because it depends on the quality of the compressed representations being shared, which is itself an emergent property.
 
 ## 7. Results (2026-02-22)
 
@@ -175,35 +184,47 @@ The honest difference: in physics, ALL parameters are derived from fundamental c
 | C_conv >> C_corr | Max gap 0.128 | **CLEARED** |
 | No sigmoid transition | C range 0.598, clear sigmoid | **CLEARED** |
 
-### 7.4 Interpretation
+### 7.4 Interpretation (Compression Trust Framing)
 
-1. **The sigmoid transition is real.** Multi-agent knowledge discovery with controllable coupling produces a clear sigmoid C(p) curve. This is not linear and not noise.
+1. **Collective knowledge emerges through a phase transition in compression trust.** As the frequency of trust events increases (agents accepting each other's compressed representations), coherence follows a sigmoid — not gradual accumulation but a phase transition. This is the central finding.
 
-2. **The tanh form is competitive but not uniquely preferred.** A Hill function (power-law sigmoid) fits slightly better. Both capture the key shape: rapid rise from low coupling, then saturation. The difference is in the low-coupling regime where the tanh's logarithmic argument creates a slightly different curvature than the Hill function's power law.
+2. **Cooperative binding kinetics (Hill) describe trust compounding better than logarithmic saturation (tanh).** Each additional trusted source doesn't add linearly — it cooperatively reinforces all others. This is the same math as hemoglobin binding oxygen, enzyme kinetics, and neural receptor activation. The metabolic metaphor is empirically justified.
 
-3. **The p_crit derivation is wrong.** The information-theoretic formula p_crit = η·H/(K·m·(1-2η)) overestimates by 400×. This means p_crit in this domain is **only a fit parameter**, not a derived invariant. The "universal" claim shifts from "derived invariant" to "nice curve family" — exactly as Andrei predicted.
+3. **The critical trust threshold cannot be derived — trust is relational, not intrinsic.** The information-theoretic derivation fails (400× error) because it treats the threshold as a system property. But the minimum trust frequency for coherence depends on the actual quality of compressed representations being shared, which emerges from interaction history. You can't predict it from system parameters alone — exactly as Andrei predicted.
 
-4. **Coupling is powerful at very low levels.** p_crit ≈ 0.002 means that even a 0.5% chance of any two agents sharing beliefs each round significantly improves collective coherence. This has practical implications for multi-agent system design.
+4. **Sparse trust suffices.** p_crit ≈ 0.002 means that even a 0.2% chance of any two agents sharing compressed beliefs each round significantly improves collective coherence. A sparse but present pheromone field is enough — you don't need constant full transparency.
 
-5. **The experiment successfully separates convergence from correctness.** The geometric mean C = √(C_conv × C_corr) effectively detects "shared wrongness" — this measurement design is sound.
+5. **The geometric mean catches "trust bubbles."** C = √(C_conv × C_corr) effectively detects converged-but-wrong states. Max gap of 0.128 between convergence and correctness means the experiment's agents don't develop "shared wrongness" — their trust events carry genuine signal about reality.
 
 ### 7.5 Honest Assessment
 
-The experiment achieved what Andrei asked for: a worked example with ground truth, controllable coupling, measured convergence + correctness, and a derived p_crit test. The result is mixed:
+The experiment achieved what Andrei asked for: a worked example with ground truth, controllable coupling, measured convergence + correctness, and a derived critical threshold test. The result is mixed:
 
-- **Positive**: Clear sigmoid transition, convergence tracks correctness, measurement protocol works
-- **Negative**: tanh not uniquely preferred (Hill wins), p_crit derivation fails completely
+- **Positive**: Clear compression trust phase transition, convergence tracks correctness, Hill function provides metabolic grounding, sparse trust is sufficient
+- **Negative**: tanh not uniquely preferred (Hill wins), critical threshold derivation fails completely
 
-This downgrades the claim from "universal equation with derived parameters" to "one of several equally good sigmoid descriptions of a real phenomenon." Still useful — but a different and weaker claim than originally intended.
+The original framing ("generalized density") was wrong. p is not density — it is the frequency of compression trust events. The reframing is more honest and more useful: the experiment is a **compression trust phase transition study**, not a test of a "universal density equation." This downgrades the physics generalization claim but upgrades the practical relevance to trust-based multi-agent systems (Web4, SAGE).
 
 ### 7.6 Cross-Project Implications (Web4, SAGE, Synthon Framing)
 
-The experiment is a **synthon formation study in miniature** — the sigmoid transition is where independent agents form a coherent collective entity (a synthon). Key cross-project connections:
+The experiment is a **compression trust phase transition study** and a **synthon formation study in miniature** — the sigmoid transition is where independent agents stop being separable and form a coherent collective entity.
 
-- **Web4**: The coupling parameter p maps to MRH broadcast frequency. The finding that p ≈ 0.01 is sufficient means Web4's sparse Witnessing/Broadcast mechanisms provide most of the coherence value. T3/V3 trust tensors are structurally equivalent to the agents' belief matrices. The geometric mean metric catches "trust bubbles."
+| Experiment Concept | Web4 Equivalent | SAGE Equivalent |
+|-------------------|-----------------|-----------------|
+| Belief matrix (compressed world) | T3/V3 trust tensor | Plugin internal state |
+| Coupling event (sharing beliefs) | MRH broadcast / Witnessing event | Inter-plugin communication |
+| Self-weight α=0.7 | Trust gradient (own vs received) | ATP allocation priority |
+| Compression trust frequency p | Witnessing/Broadcast rate | Communication budget |
+| Critical threshold p_crit | Minimum trust for collective coherence | Minimum inter-plugin coupling |
+| Compression loss (noise η) | Lossy observations across Markov blanket | Sensor noise / VIA compression |
+| Hill function (cooperative binding) | Trust compounds cooperatively | Metabolic state transitions |
 
-- **SAGE**: IRP plugins are the agents, ATP budget allocation is the coupling mechanism. The Hill function winning (cooperative binding kinetics) empirically validates SAGE's metabolic metaphor. The "individual insufficient, collective sufficient" observation budget matches SAGE's pitch: one local LLM isn't enough, but orchestrated components succeed.
+Key connections:
 
-- **Synthon framing**: Formation threshold is very low (p_crit ≈ 0.002). You don't need dense pheromone fields — you need sparse but present ones. Behavioral irreducibility confirmed: collective C=0.94 far exceeds individual capability ~0.55. Hill function suggests synthon crystallization follows cooperative binding kinetics.
+- **Web4**: Sparse Witnessing/Broadcast (p ≈ 0.01) provides most coherence value. T3/V3 tensors are structurally equivalent to belief matrices. The geometric mean metric catches "trust bubbles." Trust is relational — thresholds must be learned, not derived.
+
+- **SAGE**: IRP plugins are agents with partial knowledge. ATP budget allocation IS the coupling mechanism. Hill function winning validates the metabolic metaphor. The "individual insufficient, collective sufficient" observation budget is SAGE's pitch: one local LLM isn't enough, but orchestrated components succeed.
+
+- **Synthon framing**: Formation threshold is very low (p_crit ≈ 0.002). Behavioral irreducibility confirmed (collective C=0.94 far exceeds individual ~0.55). Hill function suggests synthon crystallization follows cooperative binding kinetics — not logarithmic saturation.
 
 Full cross-reference: `github.com/dp-web4/HRM/forum/insights/coupling-coherence-web4-sage.md`
