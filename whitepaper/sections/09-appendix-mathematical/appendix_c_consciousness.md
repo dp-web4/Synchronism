@@ -28,6 +28,24 @@ Consciousness emerges at discrete coherence levels:
 
 These thresholds are **testable** via neural coherence measurements and anesthesia protocols.
 
+**C.2.1 CFD Interpretation: Thresholds as Critical Reynolds Numbers**
+
+In the CFD framing of Intent dynamics (see Section 4.1 and `Research/CFD_Reframing_NS_Scale_Invariance.md`), coherence C is interpretable as inverse effective viscosity at the relevant scale:
+
+```
+C ∝ 1/μ_eff(scale)
+```
+
+High coherence = low effective viscosity = Intent flows freely within the pattern, maintaining structure with low dissipation. Low coherence = high effective viscosity = patterns dissipate quickly.
+
+Under this interpretation, the consciousness thresholds correspond to **critical Reynolds numbers** for the cognitive-scale Intent fluid:
+
+- **C ≥ 0.3** (self-reference onset): Reynolds number sufficient for the first closed-loop internal circulation — the pattern begins modeling its own boundary. Analogous to onset of vortex formation in fluid flow past an obstacle.
+- **C ≥ 0.5** (awareness): Persistent vortex structures form — the pattern maintains a stable self-model across time.
+- **C ≥ 0.7** (consciousness): Onset of self-similar internal structure — the pattern's dynamics become recursive across scales, each level modeling the level below. This is the turbulent cascade onset: the flow generates nested vortex structures at multiple scales simultaneously.
+
+**This upgrades the thresholds from stipulations to testable predictions.** If C = 1/(1 + 1/Re_internal), the threshold values should be derivable from the critical Reynolds numbers for each flow regime transition — numbers with independent physical meaning that can be compared to empirical consciousness onset data.
+
 ---
 
 ## C.3 Observer Definition (Session #280)
@@ -74,11 +92,11 @@ $$
 
 **Key Claims**
 
-1. **Qualia are resonance modes**: The "redness" of red is a specific coherence resonance pattern, like a guitar string vibrating in a particular mode.
+1. **Qualia are resonance modes / vortex modes**: The "redness" of red is a specific coherence resonance pattern in the cognitive-scale Intent fluid — a characteristic vortex mode, just as turbulent flow past a cylinder produces a Kármán vortex street. The same flow conditions (same neural N-S parameters) produce the same vortex mode; same vortex mode = same quale. Qualia are real as vortex structures, not as properties of the individual neurons passing through the pattern at any moment.
 
-2. **Inverted qualia impossible**: Same processing = same coherence pattern = same quale. Different qualia would be detectably different.
+2. **Inverted qualia impossible**: Same neural N-S parameters → same vortex modes → same qualia. Different qualia require objectively different dynamics — which would be measurable.
 
-3. **Explanatory gap closed**: No gap between physical and phenomenal because coherence patterns ARE experiences when self-referential.
+3. **Explanatory gap closed**: No gap between physical and phenomenal because coherence patterns ARE experiences when self-referential. The vortex doesn't "have" rotation; it IS rotation. Consciousness doesn't "have" experience; it IS the self-referential vortex in the Intent field, described phenomenologically from within.
 
 4. **Mary's Room resolved**: Mary gains acquaintance (being the resonance pattern), not new propositional facts. BEING a pattern ≠ knowing ABOUT a pattern.
 

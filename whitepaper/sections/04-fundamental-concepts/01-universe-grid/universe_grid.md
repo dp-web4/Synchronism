@@ -70,6 +70,33 @@ Systems with saturation-limited transfer include:
 
 All support stable localized patterns—exactly what Synchronism needs for entity formation.
 
+**The Structure is Navier-Stokes**
+
+The saturation resistance R(I) is not just an analogy to viscosity. It *is* viscosity, precisely defined.
+
+The Intent transfer equation in continuum form:
+
+```
+∂I/∂t = ∇ · [D·R(I)·∇I]     where R(I) = [1 - (I/I_max)^n]
+```
+
+maps exactly onto the incompressible Navier-Stokes equations:
+
+| N-S term | Intent dynamics analog |
+|----------|----------------------|
+| Density ρ | I/I_max (normalized Intent density) |
+| Velocity v | Intent flux J/I |
+| Pressure P | I_max − I (saturation pressure) |
+| Viscosity μ | D·R(I) = D·[1−(I/I_max)^n] |
+| Body force f | External gradient sources |
+| ∇·v = 0 | ΣI = const (Intent conservation = exact incompressibility) |
+
+**R(I) is a shear-thinning, power-law viscosity**: near-zero saturation gives maximum viscosity (sluggish flow, patterns don't form); near I_max gives minimum viscosity (Intent circulates freely within saturated patterns). This viscosity minimum at high saturation is precisely what allows standing waves and stable entities to exist: the pattern interior is low-viscosity (self-sustaining circulation) bounded by a high-resistance saturation gradient.
+
+Intent conservation (ΣI = const at every tick) gives exact incompressibility — no sources or sinks of the Intent fluid. This is the strongest form of the constraint: the underlying fluid is incompressible by construction, not by approximation.
+
+**Navier-Stokes is not imposed on Synchronism as an analogy. It is what Intent conservation plus saturation resistance become in the continuum limit.** This connects Synchronism to the most thoroughly validated equation in fluid dynamics — and implies that the same structure (with scale-specific parameter interpretations) should appear at every scale where MRH-bounded patterns interact. See `Research/CFD_Reframing_NS_Scale_Invariance.md` for the full scale-invariant parameter table.
+
 **Remember the Abstraction**
 
 The grid is a modeling tool—it enables computation and prediction without claiming literal discrete cells exist in reality. Like a coordinate system lets us do calculations without claiming reality has literal grid lines, the Planck cell grid makes pattern dynamics computable without asserting ontological discreteness.

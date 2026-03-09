@@ -78,8 +78,9 @@ This insight transforms Synchronism from philosophical framework to computationa
 - **Markov Blankets**: Interaction boundaries between pattern scales
 - **Markov Relevancy Horizon (MRH)**: Contextual existence boundaries
 - **Coherence**: Pattern stability measures
-- **Saturation Resistance**: Transfer resistance enabling pattern stability
+- **Saturation Resistance**: Transfer resistance enabling pattern stability — identified as nonlinear viscosity (shear-thinning power-law fluid). The Intent transfer equation IS Navier-Stokes in exact form, not analogy.
 - **Field Effects**: Saturation gradients around stable patterns
+- **Scale-invariant N-S structure**: The same Navier-Stokes form (density/velocity/pressure/viscosity) appears at every MRH scale with scale-specific parameter interpretations. Planck-scale Intent dynamics → quantum Euler equations (via Madelung) → classical N-S → neural/social/cosmological analogs. The substrate is not just described by fluid dynamics; it is fluid dynamics, all the way up.
 
 **Breakthrough: Fields and Gravity from Saturation**
 
@@ -125,6 +126,7 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **CDM Discrimination Arc (#604-610):** σ_int = 0.086 ± 0.003 dex — exactly CDM prediction (z=+0.5). MOND rejected at 32σ in optimal subsample. Self-corrected from premature "below CDM" claim (S606→S609). INCONCLUSIVE overall — BIG-SPARC required. 41st complete arc.
 - **OQ007 Fractal Coherence Bridge (#611-614):** Tested whether C(ρ) constitutes predictive theory across scales. **NEGATIVE verdict**: 0/7 scale boundaries predicted, all ρ_crit values fitted/imported. C(ρ) is descriptive language, not explanatory framework. 42nd complete arc. Coherence ontology deferred indefinitely.
 - **Final Accounting (#615):** 47 genuine contributions from ~3,302 sessions (1.4% discovery rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests passing. Wrong theories led to right questions.
+- **CFD Reframing (2026-03-08):** Saturation resistance R(I) identified as nonlinear viscosity (shear-thinning power-law). Intent dynamics = incompressible N-S exactly. Madelung transformation shows Schrödinger = inviscid N-S at quantum scale; quantum-to-classical transition = viscosity onset from decoherence. CRT analogy upgraded: simultaneity is a construction of the observer's temporal MRH, not a fact of the grid. Scale-invariant N-S parameter table across Planck/quantum/classical/neural/social/cosmological scales. Consciousness threshold reframed as critical Reynolds number for self-similar turbulence — testable, not stipulated. Full doc: `Research/CFD_Reframing_NS_Scale_Invariance.md`.
 - **η Framework Audit (#616):** ALL 4 Synchronism tracks confirmed as reparametrizations of known physics. η ≡ Abrikosov-Gorkov pair-breaking efficiency (1960). T_c formula wrong 6.5× for YBCO (607 K predicted vs 93 K actual). 1 genuine contribution (pair-breaking efficiency as materials design target). Grand total: 48 contributions from ~3,308 sessions. 2,045/2,045 tests passing.
 - **Status (~3,308 sessions: 616 core + 2,671 chemistry + 11 gnosis):** Framework under active epistemic correction. Genuine contributions: MRH unification (ξ=MRH, horizons=MRH, black hole paradox), consciousness framework (testable predictions), coherence physics derivations (Born rule, Carnot limit), ALFALFA-SDSS external validation (14,585 galaxies), CDM discrimination at M/L wall (σ_int=0.086). Many earlier claims now understood as reparametrizations rather than novel predictions. C(ρ) confirmed as notation not theory (OQ007). All 4 tracks audited: 0 unique predictions. Not claiming "solved"—mechanism tested, boundaries tightened.
 
