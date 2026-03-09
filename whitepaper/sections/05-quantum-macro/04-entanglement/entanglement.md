@@ -2,6 +2,8 @@
 
  "Quantum entanglement" is beautifully explained by what we call **"raster entanglement"** - a valuable framing of Synchronism's take on this phenomenon. Imagine two CRT screens displaying identical pictures, perfectly synchronized in their electron beam scanning. No matter how you sample them (human frame rate for pictures, higher rates for flickering, pixel duration for dots), both screens show identical behavior simultaneously - regardless of how far apart they are. No information travels between them; they were synchronized from the start.
 
+*Note on the analogy: CRT screens use sequential electron beam scanning — each phosphor cell visited in turn. The Planck grid updates in parallel — all cells simultaneously. The raster entanglement analogy applies to the observer-side: sampling synchronized cycling patterns through an integration window. The underlying mechanism in the grid is more direct: entangled patterns share a global tension structure that the parallel update evaluates simultaneously everywhere, with no scanning required.*
+
 **Raster Entanglement - The Core Concept**
 
  "Entangled" particles work exactly like synchronized CRT screens:

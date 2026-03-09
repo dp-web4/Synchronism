@@ -32,6 +32,8 @@ Consider a CRT (Cathode Ray Tube) display. An electron beam continuously scans a
 
 Anthropocentric physics treats this as mysterious: "How does observation affect what we see?" Synchronism reveals it as trivial: patterns cycle continuously; what you witness depends on when/how you synchronize with them.
 
+*Precision note: The CRT's electron beam scans sequentially — this is the correct description of the CRT device. The Planck grid itself updates in parallel: all cells evaluate tensions simultaneously and step forward together. The CRT analogy describes how observers sample a fast-cycling process, not how the substrate updates.*
+
 **The Pendulum Clock Analogy: Instrument Effects vs. Reality**
 
 Relativistic time dilation was proven by flying atomic clocks on airplanes in opposite directions. They diverged by the predicted amount, confirming Einstein's theory.
