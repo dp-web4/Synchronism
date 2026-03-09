@@ -27,7 +27,9 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 1. ~~**Sequential vs parallel grid**~~ **RESOLVED: parallel.** All cells evaluate their neighbor tensions simultaneously and step forward together. The CRT scan is sequential — this is why the CRT analogy maps to observer *sampling*, not to grid update mechanics. The parallel update preserves Lorentz invariance naturally (no preferred scan direction). Arrow of time comes from irreversibility of the nonlinear update rule F, not from scan direction. Entanglement = global tension pattern resolved simultaneously in one parallel step.
 
-2. **RG as formal MRH coarse-graining**: The MRH abstraction implicitly does renormalization group analysis — integrating out sub-MRH DOF to get effective bulk parameters. Making this explicit connects Synchronism to a well-developed math framework.
+2. **Oscillation basis of existence** — documented but not yet connected to the existing C(ρ) formulation. A single tick is not an entity; recurrence over tick sequences is. The oscillation period = de Broglie frequency = E/h. Interaction = temporal overlap of tension fields (resonance/dissonance/indifference). This grounds quantum interference, decoherence, and the CRT analogy mechanically. Connection to C(ρ): coherence C may be the stability measure of the recurring pattern — how consistently the pattern returns to its attractor configuration across ticks. Open: can C be derived from oscillation period stability?
+
+3. **RG as formal MRH coarse-graining**: The MRH abstraction implicitly does renormalization group analysis — integrating out sub-MRH DOF to get effective bulk parameters. Making this explicit connects Synchronism to a well-developed math framework.
 
 3. **Viscosity profile μ(scale)**: A continuous function from Planck (D·R(I)) through quantum (≈0) to classical (η_thermal) to neural to social to cosmic. Its zeros are the coherent quantum regimes. The shape encodes all emergence structure.
 

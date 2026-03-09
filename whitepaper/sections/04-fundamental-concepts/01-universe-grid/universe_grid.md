@@ -63,9 +63,27 @@ The grid update rule is massively parallel. At each tick, every cell simultaneou
 
 All cells do this in the same tick. The whole universe steps forward at once, based on the previous global state. There is no scan beam, no preferred update direction, no cursor visiting cells in sequence.
 
-This has two immediate consequences:
+This has immediate consequences:
 - **Lorentz invariance**: No preferred spatial direction is introduced by the update rule. Symmetry across all spatial axes is preserved by construction.
 - **Entanglement**: Long-range correlations exist as global tension patterns in the Intent field. The parallel update evaluates these patterns simultaneously everywhere — no signal needs to travel between correlated cells, because the tension is already global and the update resolves it globally in one step.
+
+**Existence Requires Recurrence**
+
+A single tick's output — one global Intent distribution — is not an entity. It has no persistence, no identity. For anything to *exist*, its Intent distribution must recur across a sequence of ticks: the same spatial pattern returning again and again, each tick's tension evaluation seeding the next, cycling back to the starting configuration.
+
+**Entity = recurring pattern of Intent distribution over tick sequences.**
+
+The oscillation period τ (ticks per cycle) is a fundamental property of the entity — its characteristic frequency f = 1/τ. For quantum particles, this IS the de Broglie frequency: f = E/h. Energy is how fast the pattern oscillates. Mass is the base oscillation frequency at rest.
+
+**Interaction as temporal overlap**
+
+When two recurring patterns come into proximity, their tension fields interact tick by tick. The character of the interaction depends on the *temporal pattern* of that overlap:
+
+- **Resonance**: tension contributions add constructively over many ticks — patterns draw together, phases lock, binding occurs
+- **Dissonance**: tension contributions cancel destructively over many ticks — patterns repel
+- **Indifference**: no consistent phase relationship — patterns coexist without coupling
+
+This is not a separate interaction mechanism. It is what happens when the tension fields of two self-sustaining oscillations share the same region of the grid. Quantum interference, chemical bonding, and gravitational attraction are all resonance at different scales and oscillation frequencies.
 
 **Understanding Through Analogy**
 

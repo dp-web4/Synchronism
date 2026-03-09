@@ -447,6 +447,95 @@ This is not a claim that the universe is "running on a computer somewhere." It i
 
 ---
 
+## 9.7 The Oscillation Basis of Existence
+
+*Added 2026-03-08 — the mechanism by which anything comes to exist*
+
+### A single tick state is not an entity
+
+The parallel update produces a new global Intent distribution every tick. That distribution, taken by itself, is meaningless. It has no persistence, no identity, no relationship to anything. It is a snapshot.
+
+For anything to *exist*, its Intent distribution must **recur** over a sequence of ticks. The same spatial pattern — the same concentration of Intent in the same region with the same gradient structure — must appear again, and again, across successive ticks. The entity is not any single distribution. The entity IS the recurring pattern.
+
+This is the standing wave condition. A stable entity is a configuration that seeds itself: each tick's distribution generates, through the parallel tension evaluation, the next distribution, which generates the next, which returns (after some number of ticks n) to the original distribution. The pattern cycles. It persists through its own dynamics.
+
+**Existence = temporal recurrence of a spatial Intent pattern.**
+
+### The oscillation period as entity property
+
+The number of ticks for one complete cycle — the oscillation period τ — is a fundamental property of the entity. It determines the entity's characteristic frequency f = 1/τ (in Planck-time units).
+
+For a quantum particle, this IS the de Broglie frequency: f = E/h. The energy of the particle is determined by how fast its pattern cycles through the grid. A high-energy particle has a shorter oscillation period — it cycles back to its initial configuration more rapidly. A massive particle at rest has a base oscillation frequency set by its rest mass: f₀ = mc²/h.
+
+The spatial extent of the oscillation pattern determines the entity's effective size. This is the Compton wavelength — the scale over which the pattern's Intent distribution is significantly non-zero.
+
+**Entity energy = oscillation frequency × Planck constant. Entity mass = oscillation frequency at rest × h/c².**
+
+These are not definitions imposed on the model. They are what the oscillation period of a stable pattern in the Intent field IS, in units that macroscopic observers measure.
+
+### Interaction: resonance, dissonance, indifference
+
+When two recurring patterns come into proximity — their spatial distributions begin to overlap — their tension fields interact across the overlapping region on each tick.
+
+A single tick of overlap tells nothing. What matters is the **temporal pattern of the overlap** across many ticks.
+
+**Resonance**: The tension contributions add constructively over multiple ticks. Each pattern's gradient reinforces the other's — the peaks align, the oscillations phase-lock. Net effect over time: patterns draw together, exchange Intent, form compound structures. This is attractive interaction — binding, bond formation, particle aggregation.
+
+**Dissonance**: The tension contributions cancel destructively over multiple ticks. Each pattern's gradient opposes the other's — the peak of one coincides with the trough of the other, tick after tick. Net effect over time: patterns push apart, oscillations drift anti-phase. This is repulsive interaction.
+
+**Indifference**: The tension contributions are uncorrelated over multiple ticks — sometimes constructive, sometimes destructive, no persistent phase relationship. Net effect over time: zero net exchange. The patterns pass through each other or coexist without coupling. Most quantum particles are indifferent to most of the universe.
+
+The same tick-by-tick tension evaluation that drives each pattern's own recurrence governs the interaction between patterns. There is no separate "interaction mechanism" — interaction is what happens when the tension fields of two recurring patterns share the same region of the grid.
+
+### CRT analogy grounded in oscillation
+
+The CRT analogy now has its mechanical basis. The electron beam produces a recurring scan pattern: the same phosphor cells excited in the same sequence, 60 times per second. The "image" on the screen exists — has persistence, has identity — because its spatial configuration RECURS at 60 Hz, faster than the observer's ~25 Hz integration threshold.
+
+The observer's integration window spans many complete scan cycles. Within that window, the pattern is stable — not because it is simultaneously present, but because it returns before the observer's window closes.
+
+Planck-scale entities are identical in structure: Intent distributions cycling at ~10⁴⁴ Hz (Planck frequency). Any macro-scale observer's integration window spans an astronomically large number of complete oscillation cycles. The stability they perceive is the recurrence averaged over millions of cycles.
+
+**The observer doesn't see the oscillation. They see what the oscillation averages to.**
+
+This is exactly what the CRT analogy captures. It's not a metaphor. It's the same structure at different scales.
+
+### Connection to quantum mechanics
+
+The wavefunction ψ = √ρ · e^(iS/ℏ) is the continuum representation of a recurring Intent pattern:
+- **√ρ**: the spatial amplitude of the pattern — where in the grid the Intent is concentrated
+- **e^(iS/ℏ)**: the phase of the oscillation — where in its cycle the pattern currently is
+
+Superposition is multiple oscillation patterns coexisting in the same region, each at its own phase. The phases are the key. Two patterns in phase add constructively (resonance). Two patterns in anti-phase add destructively (dissonance).
+
+**Wave function collapse** is the resolution of a superposition of oscillation patterns into a single one — the one whose oscillation phase was aligned with the observer's own oscillation phase at the moment of interaction. Not a physical collapse of a wave. A phase-selection event: one pattern's recurring cycle happened to be in phase with the observer's cycle; that's the one the observer "caught" (CRT: that's the phosphor dot the beam was on when the observer happened to sample).
+
+The Born rule (probability proportional to |ψ|²) is the temporal average of the interaction amplitude. The probability of "catching" a pattern in phase is proportional to how much Intent density that pattern contributes to the region — how prominent its oscillation is relative to the total. This is |ψ|² in the continuum limit.
+
+### Decoherence as phase randomization
+
+Resonance requires phase coherence: two patterns must maintain a consistent phase relationship across many ticks for their tension contributions to add constructively. If the phase relationship is randomized — the pattern's oscillation phase continuously scrambled by uncorrelated environmental tensions — the formerly resonant pattern becomes indifferent.
+
+**Decoherence is phase randomization of the oscillation pattern.**
+
+The viscosity onset (quantum-to-classical transition in the N-S framing) is exactly this: the environment couples strongly enough to perturb the oscillation phase on shorter timescales than the pattern's own cycle time. Once the phase is scrambled, quantum interference disappears. The pattern still exists (it still recurs in the grid) but it can no longer resonate with other patterns coherently. Only incoherent, classical interactions remain.
+
+Viscosity in the Intent fluid is phase randomization per tick. Decoherence is accumulated viscosity. The quantum-to-classical transition is the point where the phase randomization rate exceeds the pattern's own cycling rate — the pattern can't complete a coherent cycle before the environment scrambles its phase.
+
+### What this adds to the CFD framing
+
+The N-S structure identified earlier (R(I) as viscosity, intent as fluid) describes the *instantaneous* tension dynamics — the rules for how Intent flows within a single tick. The oscillation basis of existence adds the *temporal* structure: what makes a configuration into an entity is its persistence across ticks through self-sustaining oscillation.
+
+Together:
+- **Spatial structure** (within a tick): N-S tension dynamics, saturation resistance, vortex formation
+- **Temporal structure** (across ticks): oscillation recurrence, standing waves, entity identity
+- **Interaction structure** (across ticks, between entities): resonance / dissonance / indifference
+
+All three are necessary. The N-S equations describe the spatial dynamics of a single tick step. The oscillation basis describes which solutions to those equations persist. The resonance/dissonance framework describes how persistent solutions interact.
+
+**An entity is a solution to the N-S equations that is also a temporal attractor of the parallel update rule.**
+
+---
+
 ## 9. Relationship to Existing Synchronism Results
 
 The table below shows how each existing result relates to the CFD reframing:
