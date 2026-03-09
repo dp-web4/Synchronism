@@ -1,5 +1,14 @@
 # Claude Context for Synchronism
 
+## Session Primer — Read First
+
+**At session start, read `SESSION_PRIMER.md` in the repo root for current research state.**
+
+`SESSION_PRIMER.md` contains current open questions, recent breakthroughs, whitepaper status, validation state.
+Update it after significant research sessions.
+
+---
+
 ## Git Authentication
 **Universal Push Command**:
 ```bash
