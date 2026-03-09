@@ -64,17 +64,27 @@ This is correct but understates what the analogy implies.
 
 **The CRT is not an analogy for measurement. It is a model of how spatial configurations exist.**
 
-A CRT phosphor grid has N×M cells. The electron beam updates them sequentially — one cell per tick. The "image" (the picture on the screen) is never simultaneously present anywhere. Every phosphor dot is in its excited state for only a brief interval. The "simultaneous spatial configuration" that appears to exist is a construction of the observer's temporal integration window (persistence of vision, ~40ms for human visual system).
+A CRT phosphor grid has N×M cells. The electron beam updates them sequentially — one cell per scan pass. The "image" (the picture on the screen) is never simultaneously present anywhere. Every phosphor dot is in its excited state for only a brief interval. The "simultaneous spatial configuration" that appears to exist is a construction of the observer's temporal integration window (persistence of vision, ~40ms for human visual system).
 
 The image is real. But it is real *as a temporal average*, not as a simultaneous configuration.
 
-**The universe is identical in structure.** The Planck grid ticks. State propagates causally, cell by cell (at most one Planck length per Planck tick — the speed of light as tick-propagation limit). The "spatial configuration of the universe at time t" — the thing classical physics takes as given — is never simultaneously present anywhere. What any observer perceives as the simultaneous spatial layout of their world is a construction of their temporal MRH: their integration window over ticks.
+**The Planck grid ticks — but the update is parallel, not sequential.** This is where the analogy requires precision. In a CRT, the electron beam visits each phosphor cell in turn (sequential scan). The Planck grid does not have a scan beam. Instead, all cells evaluate the Intent gradient from all their neighbors simultaneously, and all step forward together. The tick is a global synchronization event: the entire universe takes one step forward based on the previous state, in parallel, at once.
+
+The distinction matters:
+- **CRT sequential scan** → analogy for how observers *sample* the grid through their integration window
+- **Planck grid parallel update** → the actual update mechanism
+
+What the CRT analogy captures correctly: the observer's experience of simultaneity is a construction. The "image" at the CRT is constructed from the observer's persistence-of-vision window over fast sequential states. The "present moment" in the universe is constructed from the observer's temporal MRH over fast parallel states. In both cases: **the simultaneous spatial configuration is not a fact of the substrate. It is a construction of the integration window.**
+
+The parallel update makes this stronger, not weaker. The substrate steps forward all at once — there is no privileged spatial scan direction, no preferred axis. Every cell is equally "current." The apparent simultaneity is purely a construction of the MRH. There is nothing in the substrate for it to track.
+
+The Planck grid ticks. State propagates causally, at most one Planck length per Planck tick — the speed of light as the limit on how far any change can influence the next tick. The "spatial configuration of the universe at time t" — the thing classical physics takes as given — is a construction of the observer's temporal MRH: their integration window over ticks. Not because the grid is sequential. Because the observer's window is finite.
 
 **The present moment is not a fact. It is a construction.**
 
 This is not a philosophical gloss. It has consequences:
 
-**Special relativity**: Different observers have different temporal MRHs depending on their velocity relative to the tick propagation direction. The Lorentz transformation is the exact mathematical description of how tick-averaged spatial configurations transform between different synchronization states. Length contraction and time dilation are not mysterious — they are the geometry of different integration windows over the same underlying tick sequence.
+**Special relativity**: Different observers have different temporal MRHs depending on their velocity. The Lorentz transformation is the exact mathematical description of how tick-averaged spatial configurations transform between observers with different proper time accumulation rates. Length contraction and time dilation are not mysterious — they are the geometry of different integration windows over the same underlying parallel tick sequence. Since the grid has no preferred scan direction (the update is parallel), Lorentz invariance is natural: there is no spatial axis to break the symmetry.
 
 **The measurement problem**: What appears as "wave function collapse" is the transition from a broad temporal integration window (superposition = long-time average over many tick-states) to a narrow one (measurement = synchronizing with the current tick-state of the system). No collapse occurs in the grid. Only integration windows change.
 
@@ -357,13 +367,83 @@ The sketch above:
 
 If each step is a renormalization group flow, there should be a continuous function μ(scale) that tracks the effective viscosity across all scales. The zeros of this function (inviscid points) correspond to coherent quantum systems. The maxima correspond to maximally classical (thermally equilibrated) systems. The shape of μ(scale) encodes the entire structure of emergence.
 
-**Q5**: Is the CRT sequential or parallel?
+**Q5**: Is the Planck grid update sequential or parallel?
 
-The continuum Intent dynamics are written as U(t+1) = F(U(t)) — all cells simultaneously. But the CRT analogy implies sequential scanning. Which is it?
+**RESOLVED: parallel.**
 
-The most likely answer: **the underlying tick process is sequential at the Planck level** (there is a causal ordering of cell updates — this is required by locality, since a cell can only receive Intent from its immediate neighbors in one tick, not from all cells simultaneously). But **from within any macroscopic observer's MRH, the sequential updates are indistinguishable from simultaneous** — the tick frequency (1/t_P ≈ 10⁴⁴ Hz) is so far beyond any macroscopic integration window that the sequential structure averages out to an effectively simultaneous update.
+Each cell evaluates the Intent gradient from all its immediate neighbors simultaneously, then all cells step forward together. U(t+1) = F(U(t)) applies globally, all at once, in parallel. This is massive parallelism — not a scan beam visiting cells in turn, but every cell simultaneously computing its tension state and stepping forward.
 
-The preferred direction of the sequential scan — if it exists — might be related to the arrow of time, or to the breaking of Lorentz symmetry at the Planck scale. This is an open question with experimental implications.
+The CRT analogy is sequential in the CRT (the electron beam does scan). This is why the CRT maps to *observer sampling* — the observer's integration window (CRT: persistence of vision; universe: temporal MRH) constructs apparent simultaneity from a fast process. The analogy captures the construction-of-simultaneity correctly. It does not describe the grid's update mechanism.
+
+Implications of the parallel answer:
+1. **No preferred scan direction** → Lorentz invariance preserved by construction; no spatial axis is privileged
+2. **Entanglement** → Long-range correlations are already present as global tension patterns in the Intent field; the parallel update evaluates them simultaneously; "spooky action" is just the global tension pattern being resolved in one step without any signal transmission
+3. **Arrow of time** → The tick sequence t → t+1 → t+2... is irreversible not because of scan direction but because the parallel update rule F is generically non-invertible (saturation nonlinearity, energy dissipation at boundaries). The directionality of time comes from the dynamics, not the update order.
+
+See Section 10 for full development of the parallel computation model.
+
+---
+
+## 9.5 The Parallel Computation: Implied Structure and Consequences
+
+*Added 2026-03-08 — correction and extension of the sequential grid hypothesis*
+
+### The computational model
+
+The Planck grid is a massively parallel computer. The update rule is:
+
+```
+For every cell x simultaneously:
+    tension(x) = Σ_neighbors y: k · (I_y - I_x) · R(I_x)
+    I_x(t+1) = I_x(t) + tension(x)
+```
+
+Every cell reads its neighbors' Intent states from time t, computes its tension, and steps forward to t+1. All cells do this in parallel. The whole universe takes one step forward, simultaneously, based on the previous global state.
+
+This is not a sequential scan. There is no beam, no cursor, no preferred spatial direction. The update is symmetric across all spatial dimensions.
+
+### The "tension" is N-S pressure gradient
+
+The tension at each cell — the aggregate Intent gradient from all neighbors — is exactly the pressure gradient term in the discrete N-S equation. Every cell is simultaneously both:
+- **Processor**: evaluating the gradient and computing its new state
+- **Memory**: holding the Intent value that its neighbors read
+
+The "program" is R(I) and the neighbor coupling constant k. The "output" is the next global Intent distribution. No clock signal propagates — the tick IS the global synchronization. Every cell steps forward together because the tension evaluation completes everywhere simultaneously.
+
+### Why this matters for Lorentz invariance
+
+A sequential scan picks a direction. A sequential grid has a preferred frame — the frame in which the scan is stationary. Since we observe Lorentz invariance to 1 part in 10²⁰, any sequential model faces a severe constraint.
+
+The parallel update has no preferred direction. Every spatial axis is treated identically by the update rule. There is no frame in which the grid "scans" in any direction. Lorentz invariance is natural rather than imposed — it follows from the symmetry of the parallel update.
+
+### Entanglement as global tension
+
+Entanglement has been described in Synchronism as "correlation already present as global Intent structure." The parallel update makes this mechanistically precise.
+
+In the parallel update, every cell simultaneously evaluates the gradient from all its neighbors. The neighbors evaluate their gradients from their neighbors. At the Planck scale, this is strictly local — each cell's tension depends only on its immediate neighbors. But the global tension pattern — the full distribution of Intent gradients across all cells — is evaluated simultaneously in each step.
+
+A long-range coherent pattern in the Intent field (two distant cells whose Intent states are correlated because they were entangled at creation) carries a persistent global tension structure. The parallel update evaluates this tension structure globally, in one step. Neither cell "sends a signal" to the other. Both cells step forward simultaneously, in response to their respective local tensions, which were set by the global Intent pattern they share.
+
+The "spooky" part — that measuring one instantly affects the other — is not spooky in this picture. The tension pattern was global before measurement. The parallel update resolves it globally, in one tick. Distance is irrelevant because the tension evaluation is simultaneous everywhere.
+
+**Entanglement is not a channel. It is a tension pattern in a parallel computer.**
+
+### The arrow of time
+
+If the update were sequential, the arrow of time could be the scan direction — the preferred direction of the beam. Under parallel update, this explanation is unavailable.
+
+The arrow of time in a parallel Intent computer comes from the dynamics: the update rule F is generically non-invertible. Given U(t+1), you cannot in general recover U(t), because:
+1. Saturation: cells at I_max cannot distinguish between "arrived from high-gradient neighbor" and "arrived from multiple moderate-gradient neighbors" — information is lost at saturation
+2. Nonlinearity: R(I) is a power-law; the inverse is not single-valued at all saturation levels
+3. Pattern formation: once a stable vortex structure forms, the pre-formation states that led to it are not recoverable from the vortex state alone
+
+The irreversibility is in the physics, not in a scan direction. The tick sequence is ordered because F is irreversible, not because the grid prefers a spatial direction.
+
+### The universe IS the computation
+
+The parallel Intent computer does not *run* the universe. It *is* the universe. There is no separate "hardware" running the simulation. The tension evaluation and the step forward are the same as the physical processes we describe as quantum mechanics, gravity, thermodynamics.
+
+This is not a claim that the universe is "running on a computer somewhere." It is the claim that the structure of reality is computational — parallel, discrete, local-rule-driven — and that this computational structure is prior to the physics we observe, which is what the computational structure does at coarser scales.
 
 ---
 

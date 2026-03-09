@@ -25,7 +25,7 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 ### From CFD Reframing (all open)
 
-1. **Sequential vs parallel grid**: Does the Planck grid update all cells simultaneously or sequentially? CRT implies sequential (scan order exists). If sequential, scan direction may relate to arrow of time or Lorentz symmetry breaking at Planck scale.
+1. ~~**Sequential vs parallel grid**~~ **RESOLVED: parallel.** All cells evaluate their neighbor tensions simultaneously and step forward together. The CRT scan is sequential — this is why the CRT analogy maps to observer *sampling*, not to grid update mechanics. The parallel update preserves Lorentz invariance naturally (no preferred scan direction). Arrow of time comes from irreversibility of the nonlinear update rule F, not from scan direction. Entanglement = global tension pattern resolved simultaneously in one parallel step.
 
 2. **RG as formal MRH coarse-graining**: The MRH abstraction implicitly does renormalization group analysis — integrating out sub-MRH DOF to get effective bulk parameters. Making this explicit connects Synchronism to a well-developed math framework.
 

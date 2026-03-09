@@ -54,9 +54,22 @@ This discrete spatial structure enables:
 - **Transfer Mechanics:** Intent moves only between adjacent cells
 - **Saturation Resistance:** Transfer rate decreases as cells approach I_max
 
+**The Update Is Parallel**
+
+The grid update rule is massively parallel. At each tick, every cell simultaneously:
+1. Reads the Intent states of its immediate neighbors (from the previous tick)
+2. Evaluates its tension — the aggregate Intent gradient across all neighbors
+3. Steps forward to its new Intent state
+
+All cells do this in the same tick. The whole universe steps forward at once, based on the previous global state. There is no scan beam, no preferred update direction, no cursor visiting cells in sequence.
+
+This has two immediate consequences:
+- **Lorentz invariance**: No preferred spatial direction is introduced by the update rule. Symmetry across all spatial axes is preserved by construction.
+- **Entanglement**: Long-range correlations exist as global tension patterns in the Intent field. The parallel update evaluates these patterns simultaneously everywhere — no signal needs to travel between correlated cells, because the tension is already global and the update resolves it globally in one step.
+
 **Understanding Through Analogy**
 
-- **3D Cellular Automaton:** Like Conway's Game of Life in 3D, but with saturation enabling stable structures
+- **3D Cellular Automaton:** Like Conway's Game of Life in 3D, but with saturation enabling stable structures, and with fully parallel update (all cells step simultaneously)
 - **Sponge Saturation:** Like a sponge that resists absorbing more water as it fills
 - **Traffic Congestion:** Flow rate decreases as density approaches maximum capacity
 - **Nonlinear Diffusion:** Well-studied in physics—known to support stable localized patterns (solitons)
