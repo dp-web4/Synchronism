@@ -94,12 +94,41 @@ Recent page updates (2026-03-08):
 
 ---
 
+## Chemistry Track Status (as of 2026-02-08)
+
+**Phase 1 (Cataloguing)**: COMPLETE — 2660 sessions, 2523 phenomena, ~89% validation.
+
+**Phase 2 (Failure Analysis)**: COMPLETE — 12 sessions (2026-02-07 to 2026-02-08).
+
+### Phase 2 Key Findings
+
+- **86% of strong correlations (r > 0.8) are tautological or restatements** of pre-1970 physics
+- **γ = 2T/θ_D carries zero information beyond θ_D** at fixed T (information-theoretic proof)
+- **8 genuinely incremental predictions** — all combined models (γ × independent variable):
+  - d₃₃ ∝ γ×ε (r=0.940), Γ_ph ∝ γ_G²×γ (r=0.938), k_ET combined (r=0.933)
+  - ZT×d₃₃ (r=0.894), ZT ∝ S²×γ (r=0.880), Φ_F (r=0.812), r_EO (r=0.80-0.96), κ_e/κ_ph vs σ×γ (r=0.809)
+- **Cross-track convergence**: Chemistry and cosmology tracks independently concluded framework is an organizational lens, not a predictive theory
+
+### Five Lasting Contributions
+1. Four-regime classification (Regime 0: neutral/counting, 1: coherence/propagation, 2: incoherence/response, 3: barrier/activated)
+2. Eight incremental combined predictions (above)
+3. Channel independence quantification (γ_phonon, γ_electron, γ_optical, γ_spin: r ~ 0.1-0.2)
+4. SOC dominance parameter D = ξ/(k_Bθ_D)
+5. Meta-scientific methodology lesson (Era 1 tautologies vs Era 2 honest analysis)
+
+**Files**: `Research/Chemistry/Phase2_Failure_Analysis.md` (Sections I-XVII), `Phase2_Synthesis.md`, `FAILURES_AND_LIMITATIONS.md`
+
+**Next chemistry session**: Phase 3 — new directive needed. Phase 2 completion condition met; do not manufacture busywork.
+
+---
+
 ## Research Statistics (as of 2026-03-08)
 
 | Metric | Value |
 |--------|-------|
 | Core sessions | 616+ |
 | Chemistry sessions | 2671 |
+| Chemistry Phase 2 sessions | 12 (COMPLETE) |
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (new 2026-03-08) |
