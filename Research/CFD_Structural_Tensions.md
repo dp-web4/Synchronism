@@ -72,4 +72,31 @@ The R(I) correction path (Tension 1) is the clearest route to clearing that bar.
 
 ---
 
+## Update from Session 2 (2026-03-10): Two Harder Findings
+
+### R(I) correction is unobservable in principle
+
+The R(I) = [1-(ρ/ρ_max)^n] correction to quantum pressure scales as (ρ/ρ_max)^n.
+
+At neutron star densities (densest accessible physics): correction ~ 2×10⁻⁸⁰.
+At quark-gluon plasma: correction ~ 2×10⁻⁷⁷.
+
+This is not "we need to compute n." Even with n=1, no experiment can detect corrections at this level. The Intent fluid is indistinguishable from the standard Madelung fluid at all accessible densities.
+
+The R(I) novelty lives at Planck-scale densities (~5×10⁹⁶ kg/m³). This is not accessible to any foreseeable experiment.
+
+### Consciousness thresholds can't be recovered from fluid dynamics as stated
+
+C is normalized [0,1]. Re is dimensional [0,∞). To derive C=0.3/0.5/0.7 from Re, you need Re_max for the cognitive system.
+
+Inferring Re_max from the three threshold mappings gives values that differ by 440×. No single Re_max is consistent with all three thresholds.
+
+Until Re_internal for neural systems is operationally defined (ρ, v, L, μ in SI units), the "testable" claim is aspirational.
+
+The one genuinely testable prediction remains: identical neural N-S parameters → identical qualia (inverted qualia impossible). This is specific and distinguishable from some philosophical positions — but requires the same operationalization.
+
+See: `private-context/insights/synchronism_stress_test_2_march2026.md`
+
+---
+
 *Filed: 2026-03-10. See also: `private-context/insights/synchronism_stress_test_march2026.md`*
