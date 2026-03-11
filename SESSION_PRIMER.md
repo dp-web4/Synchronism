@@ -91,6 +91,9 @@ Recent page updates (2026-03-08):
 | Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values implied by 3 thresholds differ by 440×; needs SI operationalization |
 | "Coherence" conflation (C(ρ) vs oscillation basis) | ⚠️ Structural problem — "coherence" means two physically opposite things: BCS quantum coherence DECAYS with density; pattern stability BUILDS with density. Same tanh form, opposite physics. "Universal tanh" is form-matching, not physics-matching. |
 | Oscillation basis → spin-statistics | ❌ Cannot derive without importing spin — discrete exchange phase = 0.318π, need 0.5π for fermion. Oscillation basis requires spin quantum number as additional input. Same logical gap as QFT. |
+| Oscillation basis → entity criterion (Γ < m) | ⚠️ CANDIDATE NOVEL PREDICTION — necessary condition for particle identity derivable from oscillation basis, not from QFT. Γ/m > 1 → state decays before first Compton oscillation → not a particle, but a process. f0(500) violates; κ/K0*(700) borderline. Both are phenomenologically controversial. Consistent with existing data; makes predictions about future QCD exotica. Requires formalization. |
+| "Is" vs "models" protection | ⚠️ Named foundational tension — framework uses ontological identity (A IS B) rather than modeling (A maps to B). This absorbs falsification: if N-S IS the substrate, N-S failures are not Synchronism problems. The "is" claim is meaningful only if there exists a regime where IS and MODELS diverge — currently all such regimes are Planck-scale and unobservable. |
+| Oscillation basis forced fork | ⚠️ Cannot avoid choosing: (a) oscillation basis describes periodic orbits in forward N-S = trivial, no new content; (b) recurrence is constitutive = retrocausal, gives formation-time prediction (t < 8×10⁻²¹ s for electrons, ~10⁴ below current reach). Framework uses (b) language with (a) safety. Must choose. |
 | Intent as physical primitive | ⚠️ Unresolved — no SI units, no measurement protocol distinct from \|ψ\|²; framework oscillates between ontological and epistemological claims |
 
 ---
@@ -143,4 +146,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 4 (2026-03-10) — 4 sessions, 0 accessible testable predictions found |
+| CFD stress tests | 5 (2026-03-11) — entity criterion (Γ<m) identified as candidate novel prediction; protection mechanism named |

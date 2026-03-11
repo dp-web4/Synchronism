@@ -99,4 +99,52 @@ See: `private-context/insights/synchronism_stress_test_2_march2026.md`
 
 ---
 
-*Filed: 2026-03-10. See also: `private-context/insights/synchronism_stress_test_march2026.md`*
+---
+
+## Update from Session 5 (2026-03-11): The Entity Criterion and the Protection Mechanism
+
+### One non-trivial prediction found (oscillation basis)
+
+**Entity criterion**: Γ < m (natural units) as necessary condition for particle status.
+
+From oscillation basis: A particle exists as an entity only if τ ≥ T_Compton = h/(mc²), i.e., it can complete at least one Compton oscillation before decaying. In particle physics units: Γ < m.
+
+This is **derivable from oscillation basis first principles**. It is **not derivable from QFT** (which has no ontological criterion based on width). Current data:
+- All unambiguous particles: Γ/m << 1 ✓
+- f0(500)/sigma: Γ/m ~ 1.16 → **violates criterion → predicted "not a particle"**
+- κ/K0*(700): Γ/m ~ 0.86 → **borderline → predicted "process, not entity"**
+
+Both sigma and kappa are genuinely controversial in the PDG. Oscillation basis predicts: the controversy resolves as "these are scattering processes, not particles." This is consistent with current consensus but *derives* rather than observes.
+
+**Testable**: future broad QCD states, exotic hadrons at high-energy colliders.
+
+**Important caveat**: this is not the narrow-width approximation (a computational shortcut). The NWA has no ontological claim. The entity criterion claims a physical threshold exists.
+
+### The protection mechanism (named foundational tension)
+
+The framework's deepest assumption is linguistic: "is" vs. "models."
+
+- "The Planck grid IS the N-S substrate" (not "models")
+- "Intent IS a physical primitive" (not "provides a useful description")
+- "Consciousness thresholds ARE critical Reynolds numbers" (not "scale like")
+
+In physics, "A is B" (reduction) is justified when the reduction is exact AND generates novel predictions. Synchronism's "is" claims fail the second condition (five sessions, no novel predictions from the reductions).
+
+The protection mechanism: if N-S IS the substrate, then N-S failures are N-S problems, not Synchronism problems. The framework absorbs falsification attempts. The "is" claim prevents asking "where does the model fail?"
+
+**What would resolve this**: specify what would demonstrate (or falsify) the identity. The difference between "is" and "models" must show up somewhere — in regimes where N-S discreteness (grid topology, finite cell state) produces signatures not present in continuous N-S. All current signatures are unobservable at accessible densities.
+
+### The forced fork (Tension 4 resolved)
+
+Oscillation basis + forward N-S cannot both be foundational in the strong sense.
+
+- Reading (a): oscillation basis describes periodic orbits in forward N-S evolution. Identity = description, not constitution. Safe but empty — adds nothing not already in N-S.
+- Reading (b): recurrence is constitutive. Future return is partly determinative of present identity. Teleological/retrocausal. Incompatible with forward-only N-S. But gives the formation-time prediction: new particles require T_Compton to establish identity. Testable in principle (t < 8×10⁻²¹ s for electrons, ~10⁴ below current attosecond reach).
+
+The framework currently uses (b)'s language while retreating to (a)'s safety. This is the forced choice. One must be abandoned.
+
+See: `private-context/insights/synchronism_stress_test_5_march2026.md`
+
+---
+
+*Filed: 2026-03-10. Updated: 2026-03-11 (session 5). See private-context/insights/ for session documents 1-5.*
