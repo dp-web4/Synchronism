@@ -51,23 +51,34 @@ This single equation governs superconductivity, chemistry, biology, consciousnes
 
 ## Where We Are Now
 
-### Research Tracks (February 2026)
+### Research Tracks (March 2026)
 
 | Track | Sessions | Status | Key Finding |
 |-------|----------|--------|-------------|
-| **Core** | 378 | Active | NP2 strongly supported |
-| **Chemistry** | 1840 | Active | γ ~ 1 across 1703 types |
+| **Core** | 616+ | Active | CFD reframing + stress tests |
+| **Chemistry** | 2671 | Phase 2 complete | Framework is organizational lens, not predictive theory |
 | **Gnosis** | 11 | Complete | C ≈ 0.50 threshold |
 
-### Active Arcs
+### CFD Reframing (2026-03-08)
 
-- **Experimental Validation** (#368-378): 6 publication-ready protocols
-- **Hot Superconductor** (#292, 297+): Path to T > 323K via η formalism
+The Planck grid maps to Navier-Stokes substrate: R(I) = viscosity, Madelung bridge gives Euler equations (N-S with μ=0), scale-invariant N-S across all MRH scales. Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
+
+### Structural Tensions Identified (2026-03-10)
+
+Stress-testing the CFD reframing found four unresolved tensions:
+
+| Tension | Finding |
+|---------|---------|
+| R(I) viscosity correction | ~10⁻⁸⁰ at neutron star densities — unobservable at all accessible scales |
+| Consciousness thresholds | Re_max values implied by 3 thresholds differ by 440× — not yet testable |
+| Spatial vs temporal coherence | C(ρ)=tanh ≠ exp(-t/T2) — possible category conflation |
+| Intent as primitive | No SI units or measurement protocol distinct from \|ψ\|² |
+
+These are not failures — they are the frontier. See `Research/CFD_Structural_Tensions.md`
 
 ### Open Questions
 
-See [Research/Open_Questions/](Research/Open_Questions/) for active investigations:
-- OQ005: Hot superconductivity at ambient pressure
+See `SESSION_PRIMER.md` for current active questions and forward paths.
 - OQ006: Measurement framework unification
 
 ---

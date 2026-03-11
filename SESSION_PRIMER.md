@@ -1,6 +1,6 @@
 # Synchronism Session Primer
 
-*Updated: 2026-03-08 — Update this file after significant research sessions.*
+*Updated: 2026-03-10 — Update this file after significant research sessions.*
 
 ---
 
@@ -33,9 +33,13 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 3. **Viscosity profile μ(scale)**: A continuous function from Planck (D·R(I)) through quantum (≈0) to classical (η_thermal) to neural to social to cosmic. Its zeros are the coherent quantum regimes. The shape encodes all emergence structure.
 
-4. **Derivation of consciousness thresholds**: The prediction is that 0.3/0.5/0.7 correspond to known fluid dynamics critical Re values. If they match, genuine derivation. If not, thresholds need revision. **This is testable.**
+4. **Consciousness thresholds — Re operationalization gap**: Re_max values implied by C=0.3/0.5/0.7 differ by 440×. Not derivable from fluid dynamics until Re_internal for neural systems is defined in SI units (ρ, v, L, μ). One genuine testable claim remains: identical neural N-S parameters → identical qualia (inverted qualia impossible) — but requires same operationalization. **Blocked until SI units defined.**
 
-5. **Power-law exponent n in R(I)**: Controls shear-thinning degree. n=1 gives Bingham-like, n→∞ gives sharp cutoff. Value may be constrainable from quantum stability data (electron must be stable standing wave).
+5. **Power-law exponent n in R(I) — Planck-scale problem**: R(I) viscosity correction scales as (ρ/ρ_max)^n. At neutron star densities (densest accessible physics): correction ~10⁻⁸⁰. Not a "compute n" problem — R(I) is unobservable at all accessible densities. The novelty lives at Planck-scale densities (~5×10⁹⁶ kg/m³). **Path forward unclear — may require indirect observational signature rather than direct measurement.**
+
+6. **Spatial vs temporal coherence**: C(ρ) = tanh (spatial, sigmoid). Oscillation basis grounds identity in temporal recurrence, which decays as exp(-t/T2) in standard QM — exponential, not sigmoid. If the framework uses C(ρ) for both, it claims tanh = exp, which is not generally true. **Most structurally important unresolved tension. Check whether framework predicts a specific ξ ↔ T2 relationship.**
+
+7. **Intent as physical primitive — operationalization**: No SI units, no measurement protocol distinct from |ψ|². Framework oscillates between epistemological ("Intent is the most efficient description") and ontological ("the universe IS an intent-dynamics grid"). 616 sessions found no measurement where Intent density predicted something different from standard quantities. **Requires operational definition to escape this tension.**
 
 ### Older Open Questions
 
@@ -81,6 +85,10 @@ Recent page updates (2026-03-08):
 | Hot superconductor arc | ❌ Audit: standard condensed matter in η notation |
 | CFD/N-S reframing | Speculative — mathematically consistent, not yet formalized |
 | Madelung bridge | ✅ Standard QM math (1927) — identification with Intent fluid is the claim |
+| R(I) viscosity correction | ❌ Unobservable in principle — correction ~10⁻⁸⁰ at neutron star densities; lives at Planck scale |
+| Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values implied by 3 thresholds differ by 440×; needs SI operationalization |
+| Spatial vs temporal coherence (C(ρ) vs oscillation basis) | ⚠️ Structural tension — tanh ≠ exp(-t/T2); may be conflating two distinct quantities |
+| Intent as physical primitive | ⚠️ Unresolved — no SI units, no measurement protocol distinct from \|ψ\|²; framework oscillates between ontological and epistemological claims |
 
 ---
 
@@ -122,7 +130,7 @@ Recent page updates (2026-03-08):
 
 ---
 
-## Research Statistics (as of 2026-03-08)
+## Research Statistics (as of 2026-03-10)
 
 | Metric | Value |
 |--------|-------|
@@ -131,4 +139,5 @@ Recent page updates (2026-03-08):
 | Chemistry Phase 2 sessions | 12 (COMPLETE) |
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
-| CFD reframing paper | 1 (new 2026-03-08) |
+| CFD reframing paper | 1 (2026-03-08) |
+| CFD stress tests | 2 (2026-03-10) — structural tensions documented |
