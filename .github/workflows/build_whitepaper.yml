@@ -15,6 +15,9 @@ on:
 env:
   CI: true  # Set CI environment variable
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
