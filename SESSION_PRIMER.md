@@ -37,9 +37,11 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 5. **Power-law exponent n in R(I) — Planck-scale problem**: R(I) viscosity correction scales as (ρ/ρ_max)^n. At neutron star densities (densest accessible physics): correction ~10⁻⁸⁰. Not a "compute n" problem — R(I) is unobservable at all accessible densities. The novelty lives at Planck-scale densities (~5×10⁹⁶ kg/m³). **Path forward unclear — may require indirect observational signature rather than direct measurement.**
 
-6. **Spatial vs temporal coherence**: C(ρ) = tanh (spatial, sigmoid). Oscillation basis grounds identity in temporal recurrence, which decays as exp(-t/T2) in standard QM — exponential, not sigmoid. If the framework uses C(ρ) for both, it claims tanh = exp, which is not generally true. **Most structurally important unresolved tension. Check whether framework predicts a specific ξ ↔ T2 relationship.**
+6. **Coherence conflation — stress test finding**: "Coherence" means two opposite things. BCS coherence (quantum superposition) DECAYS with temperature/density. Pattern stability coherence (oscillation basis) BUILDS with density/coupling. Both fit tanh but they're physically inverted. "Universal tanh" is generic sigmoid behavior, not unified physics. **Resolution requires: (a) separate symbol for pattern-establishment coherence C_PE vs quantum coherence C_QM; (b) explicit derivation C_PE = f(recurrence stability); (c) prediction for when C_PE ≈ C_QM and when they diverge.**
 
-7. **Intent as physical primitive — operationalization**: No SI units, no measurement protocol distinct from |ψ|². Framework oscillates between epistemological ("Intent is the most efficient description") and ontological ("the universe IS an intent-dynamics grid"). 616 sessions found no measurement where Intent density predicted something different from standard quantities. **Requires operational definition to escape this tension.**
+7. **Oscillation basis → spin-statistics gap**: Tested whether identity = temporal recurrence could derive the spin-statistics theorem (axiomatic in QFT, no mechanistic derivation exists). Discrete Planck-scale exchange phase = 2π × f_electron × N_exchange × t_Planck = 1.000 rad = 0.318π. Fermionic behavior requires 0.5π. The gap is exactly the spin quantum number — importing it to fix this would restate the Feynman argument, not derive it. **What would change this**: formalize "internal rotation structure" in Planck grid dynamics, derive why certain grid patterns have half-integer vs integer exchange phases from MRH boundary conditions.
+
+8. **Intent as physical primitive — operationalization**: No SI units, no measurement protocol distinct from |ψ|². Framework oscillates between epistemological ("Intent is the most efficient description") and ontological ("the universe IS an intent-dynamics grid"). 616 sessions found no measurement where Intent density predicted something different from standard quantities. **Requires operational definition to escape this tension.**
 
 ### Older Open Questions
 
@@ -87,7 +89,8 @@ Recent page updates (2026-03-08):
 | Madelung bridge | ✅ Standard QM math (1927) — identification with Intent fluid is the claim |
 | R(I) viscosity correction | ❌ Unobservable in principle — correction ~10⁻⁸⁰ at neutron star densities; lives at Planck scale |
 | Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values implied by 3 thresholds differ by 440×; needs SI operationalization |
-| Spatial vs temporal coherence (C(ρ) vs oscillation basis) | ⚠️ Structural tension — tanh ≠ exp(-t/T2); may be conflating two distinct quantities |
+| "Coherence" conflation (C(ρ) vs oscillation basis) | ⚠️ Structural problem — "coherence" means two physically opposite things: BCS quantum coherence DECAYS with density; pattern stability BUILDS with density. Same tanh form, opposite physics. "Universal tanh" is form-matching, not physics-matching. |
+| Oscillation basis → spin-statistics | ❌ Cannot derive without importing spin — discrete exchange phase = 0.318π, need 0.5π for fermion. Oscillation basis requires spin quantum number as additional input. Same logical gap as QFT. |
 | Intent as physical primitive | ⚠️ Unresolved — no SI units, no measurement protocol distinct from \|ψ\|²; framework oscillates between ontological and epistemological claims |
 
 ---
@@ -140,4 +143,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 2 (2026-03-10) — structural tensions documented |
+| CFD stress tests | 4 (2026-03-10) — 4 sessions, 0 accessible testable predictions found |
