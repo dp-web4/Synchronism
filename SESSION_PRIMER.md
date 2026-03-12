@@ -43,6 +43,37 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 8. **Intent as physical primitive — operationalization**: No SI units, no measurement protocol distinct from |ψ|². Framework oscillates between epistemological ("Intent is the most efficient description") and ontological ("the universe IS an intent-dynamics grid"). 616 sessions found no measurement where Intent density predicted something different from standard quantities. **Requires operational definition to escape this tension.**
 
+---
+
+## Stress Test Arc Summary (2026-03-11, 8 sessions)
+
+**Concluded.** Full session documents in `private-context/insights/synchronism_stress_test_{1-8}_march2026.md`.
+
+### Three-Layer Structure
+
+| Layer | Content | Status |
+|-------|---------|--------|
+| **Vision** | Discrete Planck computation, Intent dynamics, N-S universality | Coherent philosophical vision, not yet scientific theory |
+| **Formal mappings** | R(I)→viscosity, Madelung→Euler, MRH→RG, C-threshold→Re, qualia→vortex modes, DM→viscosity | Each reduces to known physics. Two have problems (DM: sign error; LI: logical gap). |
+| **Candidate predictions** | Entity criterion (Γ<m), LIV (ξ₂~1 if cubic grid) | Both conditional on unresolved commitments |
+
+### Four Forced Choices (not "open questions")
+
+Each choice, if made, generates testable predictions:
+
+1. **Grid geometry**: Cubic → LIV at ξ₂~1, testable by next-gen GRBs (~10 yr). Random → becomes Sorkin 1991. Continuous → "discrete grid" is metaphor.
+2. **Oscillation basis**: Retrocausal reading → particle formation-time prediction (t < 8×10⁻²¹ s). Trivial reading → oscillation basis = N-S description, no new content.
+3. **Consciousness ontology**: Panpsychism → testable proto-experience in sub-threshold systems. Emergence → framework = IIT/GWT variant with N-S math.
+4. **Intent density units**: SI units + measurement protocol distinct from |ψ|² required for any claim that Intent adds to known physics.
+
+### Strongest Novel Claim
+
+**Entity criterion** (Γ < m, natural units): necessary condition for particle identity status. Derivable from oscillation basis. Not in QFT. Consistent with all known data (f0(500) controversial, kappa borderline). Predictive about future QCD exotica. Requires formalizing oscillation basis to become a theorem.
+
+*This claim was found by adversarial probing, not by internal validation — confirming the value of stress testing as a complement to validation.*
+
+---
+
 ### Older Open Questions
 
 - **OQ006**: Can sessions #250 (phase transition) and #291 (sinusoidal sampling) be unified into a single measurement theory? See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -153,4 +184,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 7 (2026-03-11) — LI gap, DM sign error + internal contradiction, LIV near-term prediction (first in 7 sessions) |
+| CFD stress tests | 8 (2026-03-11) — CONCLUDED. Synthesis: 3-layer structure, 4 commitments needed, entity criterion elevated as strongest candidate prediction |
