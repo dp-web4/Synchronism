@@ -132,7 +132,9 @@ Recent page updates (2026-03-08):
 | Dark matter = high gravitational viscosity | ❌ TWO FAILURES: (1) Sign error vs Bullet cluster — dark matter is LESS sticky than baryons (passes through); high viscosity predicts MORE sticky. (2) Internal contradiction: C=1/μ_eff → stable collisionless structures should be HIGH C = LOW viscosity, not high. ALSO reduces to MOND (cosmological arc closure). |
 | Lorentz invariance from parallel update | ❌ Logical gap — P1 (no scan direction) does not imply P2 (continuous rotational symmetry). No discrete lattice in 3D has SO(3). The parallel update eliminates preferred scan axis, not preferred lattice directions. Lorentz invariance is NOT natural for a structured discrete grid. |
 | Grid geometry — forced choice #7 | ⚠️ Unspecified. Cubic grid: LIV at ξ₂ ~ 1 (near-term testable by AMEGO/CTA/GECAM-C). Random/causal set: becomes Sorkin 1991. Continuous limit: discrete grid is metaphor, not ontology. Each choice changes the theory fundamentally. Specifying cubic grid is the FIRST near-term testable prediction in 7 sessions. |
-| Intent as physical primitive | ⚠️ Unresolved — no SI units, no measurement protocol distinct from \|ψ\|²; framework oscillates between ontological and epistemological claims |
+| Intent ontological status — INTERNAL CONTRADICTION | ⚠️ FUNDAMENTALS.md: "Intent is NOT ontologically real — a useful fiction like π." CFD paper: "The Planck grid IS the N-S substrate, not merely analogous." These are contradictory (instrumentalism vs realism). The "category error" claim about SI units is itself confused: Intent maps to N-S density (a physical variable), not to π (a mathematical constant). I/I_max is a dimensionless physical variable like occupation number — asking for a measurement protocol is legitimate. |
+| Dark matter — INTERNAL CONTRADICTION | ⚠️ FUNDAMENTALS.md: "indifference" (no coupling, like light through glass). CFD paper: "high gravitational viscosity" (enhanced drag, more coupling). FUNDAMENTALS is physically correct (consistent with Bullet Cluster). CFD paper has sign error (found in session 7). The canonical reference contradicts the most recent technical development. |
+| "Greater force" as unfalsifiable Level 0 | ⚠️ FUNDAMENTALS introduces unknowable "greater force" behind Intent. Any failure of Intent attributed to imperfect reification. Framework explicitly says "Synchronism itself is wrong." Epistemic humility or epistemic shield: a framework that tells you it's wrong cannot be falsified by being found wrong. |
 
 ---
 
@@ -184,4 +186,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 8 (2026-03-11) — CONCLUDED. Synthesis: 3-layer structure, 4 commitments needed, entity criterion elevated as strongest candidate prediction |
+| CFD stress tests | 9 (2026-03-13) — FUNDAMENTALS.md vs CFD paper: internal contradictions on Intent ontology + dark matter. "Greater force" = deepest protection mechanism. Oscillation basis confirmed as genuine content beyond N-S. |
