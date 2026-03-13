@@ -147,4 +147,41 @@ See: `private-context/insights/synchronism_stress_test_5_march2026.md`
 
 ---
 
-*Filed: 2026-03-10. Updated: 2026-03-11 (session 5). See private-context/insights/ for session documents 1-5.*
+---
+
+## Update from Session 10 (2026-03-13): The Incompressibility Error and C(ρ) Resolution
+
+### Finding 1: Incompressibility claim is a mathematical error
+
+The CFD paper claims: "Intent conservation gives exact incompressibility. ∑_cells I = const at every tick."
+
+This conflates two different conditions:
+
+- **Global conservation**: ∑I = const → ∂ρ/∂t + ∇·(ρv) = 0 (compressible continuity, holds for ALL fluids)
+- **Incompressibility**: ∇·v = 0, requires Dρ/Dt = 0 (density following a fluid element is constant)
+
+Global conservation is necessary but not sufficient for incompressibility. Since Intent density varies from 0 to I_max (patterns = spatial I variation), the Planck-scale fluid is compressible.
+
+The paper itself notes quantum scale is compressible (Madelung gives compressible Euler). This is consistent — both Planck and quantum scales are compressible. The claimed "incompressible (Planck) → compressible (quantum)" transition is the error.
+
+**Correction**: Replace ∇·v = 0 in the N-S parameter table with the compressible continuity equation. Use compressible N-S with equation of state P = I_max - I. This gives sound speed c_s = √(I_max/ρ) — faster in low-density regions, potentially constructive for the framework.
+
+**Classification**: Mathematical error, not interpretive disagreement.
+
+### Finding 2: C(ρ) conflict with oscillation basis — RESOLVED
+
+Tension 2 (above) identified this as "possible category conflict" and left it unresolved.
+
+The CFD paper resolves it internally without noticing. It proposes C = 1/(1+1/Re) where Re = ρvL/μ (four parameters). But C(ρ) = tanh(γ ln(ρ/ρ_crit)) depends on density alone. These are incompatible — C(ρ) discards three of the four N-S variables.
+
+The oscillation basis (entity = temporal recurrence) is consistent with C(Re) (global dynamical property), not C(ρ) (local static property). The paper claims both "remain valid" (line 329) while proposing the Re derivation as "prediction replaces postulate" (line 546). They can't both be right.
+
+**Resolution**: C(ρ) is superseded. It was a useful parametric proxy in the chemistry track (where density was the accessible variable) but is not the fundamental coherence function. The ~11% chemistry failure rate may reflect exactly where v, L, μ matter and ρ alone doesn't capture coherence.
+
+**Tension 2 status**: RESOLVED in favor of oscillation basis / C(Re).
+
+See: `private-context/insights/synchronism_stress_test_10_march2026.md`
+
+---
+
+*Filed: 2026-03-10. Updated: 2026-03-13 (session 10). See private-context/insights/ for session documents 1-10.*

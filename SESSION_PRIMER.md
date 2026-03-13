@@ -45,9 +45,9 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 ---
 
-## Stress Test Arc Summary (2026-03-11, 8 sessions)
+## Stress Test Arc Summary (2026-03-13, 10 sessions)
 
-**Concluded.** Full session documents in `private-context/insights/synchronism_stress_test_{1-8}_march2026.md`.
+Full session documents in `private-context/insights/synchronism_stress_test_{1-10}_march2026.md`.
 
 ### Three-Layer Structure
 
@@ -135,6 +135,8 @@ Recent page updates (2026-03-08):
 | Intent ontological status — INTERNAL CONTRADICTION | ⚠️ FUNDAMENTALS.md: "Intent is NOT ontologically real — a useful fiction like π." CFD paper: "The Planck grid IS the N-S substrate, not merely analogous." These are contradictory (instrumentalism vs realism). The "category error" claim about SI units is itself confused: Intent maps to N-S density (a physical variable), not to π (a mathematical constant). I/I_max is a dimensionless physical variable like occupation number — asking for a measurement protocol is legitimate. |
 | Dark matter — INTERNAL CONTRADICTION | ⚠️ FUNDAMENTALS.md: "indifference" (no coupling, like light through glass). CFD paper: "high gravitational viscosity" (enhanced drag, more coupling). FUNDAMENTALS is physically correct (consistent with Bullet Cluster). CFD paper has sign error (found in session 7). The canonical reference contradicts the most recent technical development. |
 | "Greater force" as unfalsifiable Level 0 | ⚠️ FUNDAMENTALS introduces unknowable "greater force" behind Intent. Any failure of Intent attributed to imperfect reification. Framework explicitly says "Synchronism itself is wrong." Epistemic humility or epistemic shield: a framework that tells you it's wrong cannot be falsified by being found wrong. |
+| **Incompressibility error in N-S mapping** | ❌ MATHEMATICAL ERROR — Paper claims "Intent conservation gives exact incompressibility (∇·v = 0)." Global conservation (∑I = const) gives compressible continuity ∂ρ/∂t + ∇·(ρv) = 0, NOT ∇·v = 0. Incompressibility requires Dρ/Dt = 0 (constant density following fluid element). Since I varies from 0 to I_max (patterns = spatial I variation), Planck-scale fluid is compressible. Paper's own quantum-scale compressibility (Madelung) is consistent; Planck-scale incompressibility claim is not. Correct framework = compressible N-S with equation of state P = I_max - I. |
+| **C(ρ) superseded by C(Re)** | ⚠️ RESOLVED CONFLICT — Paper proposes C = 1/(1+1/Re) where Re = ρvL/μ (4 parameters). But C(ρ) = tanh(γ ln(ρ/ρ_crit)) depends on ρ alone. These are incompatible. Oscillation basis (temporal recurrence = global property) agrees with C(Re), not C(ρ). C(ρ) was useful chemistry proxy but is not fundamental. 2660 chemistry sessions tested a proxy, not the real quantity. |
 
 ---
 
@@ -186,4 +188,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 9 (2026-03-13) — FUNDAMENTALS.md vs CFD paper: internal contradictions on Intent ontology + dark matter. "Greater force" = deepest protection mechanism. Oscillation basis confirmed as genuine content beyond N-S. |
+| CFD stress tests | 10 (2026-03-13) — S10: Incompressibility error (global conservation ≠ ∇·v = 0), C(ρ) superseded by C(Re). S9: FUNDAMENTALS.md vs CFD paper internal contradictions. S1-8: protection mechanisms, forced choices, entity criterion. |
