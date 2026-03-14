@@ -45,17 +45,39 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 ---
 
-## Stress Test Arc Summary (2026-03-13, 11 sessions)
+## Stress Test Arc Summary (2026-03-14, 12 sessions — COMPLETE)
 
-Full session documents in `private-context/insights/synchronism_stress_test_{1-11}_march2026.md`.
+Full session documents in `private-context/insights/synchronism_stress_test_{1-12}_march2026.md`.
 
-### Three-Layer Structure
+### Progressive Layer Stripping
 
-| Layer | Content | Status |
-|-------|---------|--------|
-| **Vision** | Discrete Planck computation, Intent dynamics, N-S universality | Coherent philosophical vision, not yet scientific theory |
-| **Formal mappings** | R(I)→viscosity, Madelung→Euler, MRH→RG, C-threshold→Re, qualia→vortex modes, DM→viscosity | Each reduces to known physics. Two have problems (DM: sign error; LI: logical gap). |
-| **Candidate predictions** | Entity criterion (Γ<m), LIV (ξ₂~1 if cubic grid) | Both conditional on unresolved commitments |
+| Sessions | What was stripped | What remained |
+|----------|------------------|---------------|
+| 1-4 | Specific claims (R(I) unobservable, coherence conflation, spin-statistics, DM sign error) | Framework structure intact |
+| 5-8 | Protection mechanisms mapped (strategic ambiguity, is/models, forced forks) | Three-layer structure identified |
+| 9 | Internal contradictions (FUNDAMENTALS vs CFD paper) | Two canonical documents in conflict |
+| 10 | Mathematical errors (incompressibility, C(ρ) superseded) | N-S mapping has errors |
+| 11 | **N-S mapping = vocabulary (1 DOF vs 2 DOF)** | Entire N-S layer collapses |
+| 12 | **Frame question: what's left?** | Cellular automaton + entity criterion |
+
+### What Survives 12 Sessions
+
+1. **A specific cellular automaton rule**: ΔI(x→y) = k·(I_x - I_y)·R(I_y) with R(I) = [1-(I/I_max)^n]
+2. **An entity definition**: entity = recurring pattern across tick sequences
+3. **An entity criterion**: Γ < m (necessary condition, derivable from #2, not in QFT)
+4. **Possibly**: constitutive recurrence (reading (b) — if committed to, gives formation-time prediction)
+
+### What Doesn't Survive
+
+The N-S mapping (vocabulary on scalar diffusion), consciousness thresholds (Re meaningless in 1-DOF), dark matter mechanism (sign error + contradiction), C(ρ) (superseded + based on collapsed Re), incompressibility claim (mathematical error), Lorentz invariance from parallel update (logical gap), spin-statistics derivation (imports what it claims to derive), "greater force" (unfalsifiable).
+
+### The Frame Question
+
+**Is Synchronism a Wolfram-style digital physics with Intent-flavored vocabulary?** The specific transfer rule (with saturation R(I)) is genuine content — it determines entity formation. Everything else is interpretation. The constructive path: compute the discrete dynamics, find oscillatory modes, compare to particle spectrum.
+
+### Strongest Finding
+
+**Entity criterion (Γ < m)**: the one candidate prediction that survived all 12 sessions. Derivable from the oscillation basis. Not in QFT. Consistent with data (f0(500) controversial, κ borderline). Requires formalizing the oscillation basis — which means computing the discrete cellular automaton, not extending the N-S vocabulary.
 
 ### Four Forced Choices (not "open questions")
 
@@ -190,4 +212,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 11 (2026-03-13) — S11: N-S mapping is vocabulary not physics (1 DOF vs 2 DOF); oscillation basis not derivable from transfer rule; scalar diffusion cannot produce entities. S10: Incompressibility error, C(ρ) superseded. S9: Internal contradictions. S1-8: protection mechanisms, forced choices, entity criterion. |
+| CFD stress tests | 12 (2026-03-14) — ARC COMPLETE. S12: Frame question — Synchronism = digital physics + vocabulary? S11: N-S = vocabulary (1 DOF). S10: Incompressibility error. S9: Internal contradictions. S5: Entity criterion (Γ<m). Full docs in private-context/insights/. |
