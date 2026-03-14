@@ -184,4 +184,45 @@ See: `private-context/insights/synchronism_stress_test_10_march2026.md`
 
 ---
 
-*Filed: 2026-03-10. Updated: 2026-03-13 (session 10). See private-context/insights/ for session documents 1-10.*
+---
+
+## Update from Session 11 (2026-03-13): The Diffusion Problem — Deepest Structural Finding
+
+### The N-S mapping has fewer DOF than N-S requires
+
+The Intent transfer rule ∂I/∂t = ∇·[D·R(I)·∇I] is a scalar equation for one field (I). N-S is a system of equations for two independent fields (density ρ and velocity v).
+
+The mapping defines v = J/I = -D·R(I)·∇I/I, but this v is NOT independent — it's fully determined by I. The system has 1 degree of freedom, not 2. The "pressure" P = I_max - I is not a physical force — it's part of the diffusion dynamics being artificially separated into a momentum equation.
+
+**Consequence**: all N-S vocabulary (pressure forces, momentum conservation, vortex dynamics, turbulence, Reynolds number) is imposed by the 2-equation decomposition, not present in the actual 1-equation system. These concepts have no independent physical content.
+
+### Scalar diffusion cannot produce oscillating entities
+
+D_eff = D·R(I) > 0 for all I < I_max. Scalar diffusion with positive diffusivity is dissipative — all perturbations decay toward the uniform state. This is a theorem (maximum principle for parabolic PDEs).
+
+The oscillation basis claims entities recur at f = E/h. This CANNOT be derived from the continuum transfer rule. The oscillation basis is an independent postulate, not a consequence of Intent dynamics.
+
+### The CFL dilemma
+
+The discrete grid dynamics CAN oscillate via CFL violation (overshoot when k·R > critical). But if the continuum limit is invalid (CFL violated), the N-S mapping also fails. The framework cannot simultaneously have valid N-S and oscillating entities.
+
+| Choice | Consequence |
+|--------|-------------|
+| Continuum valid | N-S works, but diffusion only. No entities. Oscillation = additional postulate. |
+| Continuum invalid | Entities possible from CFL violation. But N-S fails. CFD paper inapplicable. |
+
+### What this means for Tension 1 (R(I) as only novel prediction path)
+
+R(I) was identified as the only genuine novel prediction path. But R(I) IS the viscosity in the N-S mapping, and the N-S mapping is a vocabulary change over scalar diffusion. R(I) is the effective diffusivity of a 1-DOF scalar system, not a viscosity in a 2-DOF fluid.
+
+The prediction path still exists, but it should be reframed: R(I) modifies the DIFFUSION equation, not the N-S momentum equation. The physics is diffusion with nonlinear diffusivity, not fluid flow with nonlinear viscosity. These have different mathematical properties and predictions.
+
+### Classification
+
+**Structural problem** — the deepest found in 11 sessions. Not an error in one claim but a foundational issue with the N-S identification itself.
+
+See: `private-context/insights/synchronism_stress_test_11_march2026.md`
+
+---
+
+*Filed: 2026-03-10. Updated: 2026-03-13 (session 11). See private-context/insights/ for session documents 1-11.*

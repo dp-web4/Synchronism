@@ -45,9 +45,9 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 ---
 
-## Stress Test Arc Summary (2026-03-13, 10 sessions)
+## Stress Test Arc Summary (2026-03-13, 11 sessions)
 
-Full session documents in `private-context/insights/synchronism_stress_test_{1-10}_march2026.md`.
+Full session documents in `private-context/insights/synchronism_stress_test_{1-11}_march2026.md`.
 
 ### Three-Layer Structure
 
@@ -137,6 +137,8 @@ Recent page updates (2026-03-08):
 | "Greater force" as unfalsifiable Level 0 | ⚠️ FUNDAMENTALS introduces unknowable "greater force" behind Intent. Any failure of Intent attributed to imperfect reification. Framework explicitly says "Synchronism itself is wrong." Epistemic humility or epistemic shield: a framework that tells you it's wrong cannot be falsified by being found wrong. |
 | **Incompressibility error in N-S mapping** | ❌ MATHEMATICAL ERROR — Paper claims "Intent conservation gives exact incompressibility (∇·v = 0)." Global conservation (∑I = const) gives compressible continuity ∂ρ/∂t + ∇·(ρv) = 0, NOT ∇·v = 0. Incompressibility requires Dρ/Dt = 0 (constant density following fluid element). Since I varies from 0 to I_max (patterns = spatial I variation), Planck-scale fluid is compressible. Paper's own quantum-scale compressibility (Madelung) is consistent; Planck-scale incompressibility claim is not. Correct framework = compressible N-S with equation of state P = I_max - I. |
 | **C(ρ) superseded by C(Re)** | ⚠️ RESOLVED CONFLICT — Paper proposes C = 1/(1+1/Re) where Re = ρvL/μ (4 parameters). But C(ρ) = tanh(γ ln(ρ/ρ_crit)) depends on ρ alone. These are incompatible. Oscillation basis (temporal recurrence = global property) agrees with C(Re), not C(ρ). C(ρ) was useful chemistry proxy but is not fundamental. 2660 chemistry sessions tested a proxy, not the real quantity. |
+| **N-S mapping is vocabulary, not physics (1 DOF vs 2 DOF)** | ❌ STRUCTURAL PROBLEM — Intent dynamics is scalar nonlinear diffusion: ∂I/∂t = ∇·[D·R(I)·∇I]. One field, one equation. N-S requires two independent fields (ρ and v). The mapping defines v = J/I, but v is NOT independent — it's derived from I. "Pressure" P = I_max - I is not a physical force, it's part of the diffusion. dP/dρ = -I_max (negative compressibility) appears unstable but the scalar equation is stable — the instability is a mapping artifact. All N-S vocabulary (momentum, vortices, turbulence, Re, consciousness thresholds) is imposed by the mapping, not present in the 1-DOF dynamics. |
+| **Oscillation basis not derivable from Intent dynamics** | ❌ STRUCTURAL GAP — Scalar diffusion with D_eff > 0 has only one attractor: uniform state. No oscillating solutions exist in continuum (maximum principle). Entities at f = E/h cannot be derived from the transfer rule. The oscillation basis is an INDEPENDENT POSTULATE, not a consequence of "the Planck grid IS N-S." The entity criterion (Γ < m) — strongest candidate prediction — depends on this independent postulate, not on the CFD substrate. CFL escape: discrete dynamics can oscillate via CFL violation, but then the N-S continuum limit fails where entities exist. Framework cannot have both N-S validity and oscillating entities. |
 
 ---
 
@@ -188,4 +190,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 10 (2026-03-13) — S10: Incompressibility error (global conservation ≠ ∇·v = 0), C(ρ) superseded by C(Re). S9: FUNDAMENTALS.md vs CFD paper internal contradictions. S1-8: protection mechanisms, forced choices, entity criterion. |
+| CFD stress tests | 11 (2026-03-13) — S11: N-S mapping is vocabulary not physics (1 DOF vs 2 DOF); oscillation basis not derivable from transfer rule; scalar diffusion cannot produce entities. S10: Incompressibility error, C(ρ) superseded. S9: Internal contradictions. S1-8: protection mechanisms, forced choices, entity criterion. |
