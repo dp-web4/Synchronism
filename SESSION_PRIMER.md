@@ -59,6 +59,7 @@ Full session documents in `private-context/insights/synchronism_stress_test_{1-1
 | 10 | Mathematical errors (incompressibility, C(ρ) superseded) | N-S mapping has errors |
 | 11 | **N-S mapping = vocabulary (1 DOF vs 2 DOF)** | Entire N-S layer collapses |
 | 12 | **Frame question: what's left?** | Cellular automaton + entity criterion |
+| 13 | **Computation: transfer rule cannot produce entities** | Transfer rule provably incomplete |
 
 ### What Survives 12 Sessions
 
@@ -161,6 +162,7 @@ Recent page updates (2026-03-08):
 | **C(ρ) superseded by C(Re)** | ⚠️ RESOLVED CONFLICT — Paper proposes C = 1/(1+1/Re) where Re = ρvL/μ (4 parameters). But C(ρ) = tanh(γ ln(ρ/ρ_crit)) depends on ρ alone. These are incompatible. Oscillation basis (temporal recurrence = global property) agrees with C(Re), not C(ρ). C(ρ) was useful chemistry proxy but is not fundamental. 2660 chemistry sessions tested a proxy, not the real quantity. |
 | **N-S mapping is vocabulary, not physics (1 DOF vs 2 DOF)** | ❌ STRUCTURAL PROBLEM — Intent dynamics is scalar nonlinear diffusion: ∂I/∂t = ∇·[D·R(I)·∇I]. One field, one equation. N-S requires two independent fields (ρ and v). The mapping defines v = J/I, but v is NOT independent — it's derived from I. "Pressure" P = I_max - I is not a physical force, it's part of the diffusion. dP/dρ = -I_max (negative compressibility) appears unstable but the scalar equation is stable — the instability is a mapping artifact. All N-S vocabulary (momentum, vortices, turbulence, Re, consciousness thresholds) is imposed by the mapping, not present in the 1-DOF dynamics. |
 | **Oscillation basis not derivable from Intent dynamics** | ❌ STRUCTURAL GAP — Scalar diffusion with D_eff > 0 has only one attractor: uniform state. No oscillating solutions exist in continuum (maximum principle). Entities at f = E/h cannot be derived from the transfer rule. The oscillation basis is an INDEPENDENT POSTULATE, not a consequence of "the Planck grid IS N-S." The entity criterion (Γ < m) — strongest candidate prediction — depends on this independent postulate, not on the CFD substrate. CFL escape: discrete dynamics can oscillate via CFL violation, but then the N-S continuum limit fails where entities exist. Framework cannot have both N-S validity and oscillating entities. |
+| **Transfer rule cannot produce entities (COMPUTED)** | ❌ COMPUTATIONAL PROOF — 1D simulation of ΔI=k·(I_x-I_y)·R(I_y) with n=2. Sub-CFL (k≤1/4): peaks diffuse to uniform. Super-CFL (k>1/4): global checkerboard (all cells alternate 0/I_max), localized peaks destroyed by t=50. Neither regime produces stable oscillating entities. CFL instability occurs at LOW I (background), not HIGH I (entities) — INVERTED from what entity formation requires. Verified for n={1,2,4}, k={0.1-1.0}. The transfer rule as stated provably cannot produce the entities the framework claims. Code: `simulations/cfl_analysis.py`. |
 
 ---
 
@@ -212,4 +214,4 @@ Recent page updates (2026-03-08):
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 12 (2026-03-14) — ARC COMPLETE. S12: Frame question — Synchronism = digital physics + vocabulary? S11: N-S = vocabulary (1 DOF). S10: Incompressibility error. S9: Internal contradictions. S5: Entity criterion (Γ<m). Full docs in private-context/insights/. |
+| CFD stress tests | 13 (2026-03-14) — S13: **COMPUTATIONAL PROOF** — transfer rule cannot produce entities (sub-CFL=diffusion, super-CFL=global checkerboard). S12: Frame question. S11: N-S = vocabulary (1 DOF). S10: Incompressibility error. S9: Internal contradictions. S5: Entity criterion (Γ<m). Full docs in private-context/insights/. |
