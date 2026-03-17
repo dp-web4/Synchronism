@@ -186,9 +186,10 @@ These predictions survived the stress tests and are not reparametrizations of kn
 | **Entity criterion (Γ < m)** | Particles with decay width exceeding mass cannot maintain identity — they're processes, not entities | QCD exotica: search for states with Γ/m > 1 that behave differently from Γ/m < 1 states | Untested — consistent with f0(500), κ borderline |
 | **Grid geometry → LIV** | If cubic Planck grid, Lorentz invariance violation at ξ₂ ~ 1 | Next-gen GRB polarimetry (AMEGO/CTA/GECAM-C, ~10 yr) | Untested — requires specifying cubic grid (forced choice #1) |
 | **Formation-time bound** | If constitutive recurrence: electron formation time < 8×10⁻²¹ s | Ultrafast spectroscopy at ~10⁴× below current reach | Untested — requires retrocausal fork commitment (forced choice #2) |
-| **Environment-dependent RAR scatter** | Galaxy rotation curve scatter correlates with environment density | ALFALFA-SDSS cross-match (public data, doable now) | Untested — R² = 0.14 in preliminary analysis, needs targeted study |
-| **Density-dependent BAO modulation** | Baryon acoustic oscillation peak positions modulated by local density | DESI DR1 + environment classification (public data, doable now) | Untested — no one has looked with this specific lens |
-| **Compatibility-synthon p_crit** | p_crit ∝ 1/⟨compatibility⟩ for multi-agent coherence | Any multi-agent system with tunable compatibility (simulation or experimental) | Confirmed in simulation (r=0.994), untested in physical systems |
+| **Environment-dependent RAR scatter** | Galaxy rotation curve scatter correlates with environment density | ALFALFA-SDSS cross-match (public data, doable now) | ❌ TESTED (S381): Signal is intrinsic kinematic roughness, not environment. After controlling for RC roughness: r(type,scatter)=0.039 (p=0.61). Within-type isolation: r=0.003 (p=0.97). R²=0.14 from S377 was preliminary; S381 disentanglement refuted environment interpretation. |
+| **fσ8 ~10% below ΛCDM** | Growth rate fσ8 suppressed by coherence-modulated G (S107) | DESI RSD data at z=0.5-0.7 (3σ discrimination predicted) | **HIGHEST PRIORITY** — Untested, genuinely discriminating. fσ8(z=0.51)=0.418 vs ΛCDM 0.474. BOSS consistent with both. DESI precision sufficient. |
+| ~~Density-dependent BAO modulation~~ | ~~BAO peak positions modulated by local density~~ | ~~DESI DR1~~ | ⚠️ CONTRADICTS S107 — Session #107 explicitly predicts BAO scale = ΛCDM (0.0% difference, 0σ). The discriminating DESI prediction is fσ8, not BAO. If this prediction is distinct from S107, needs specification. |
+| **Compatibility-synthon p_crit** | p_crit ∝ 1/⟨compatibility⟩ for multi-agent coherence | Any multi-agent system with tunable compatibility (simulation or experimental) | Self-consistent in framework's own simulation (r=0.994). This is internal consistency, not independent confirmation. Untested in physical systems. |
 
 **Invitation**: If you have access to DESI BAO data, ALFALFA-SDSS cross-matched catalogs, or QCD exotic state databases — these predictions are testable with existing data. Contact dp@metalinxx.io.
 
@@ -322,4 +323,4 @@ When in doubt: try the ambitious thing. If it fails, document why. That's resear
 | Gnosis sessions | 11 |
 | Complete arcs | 41+ |
 | CFD reframing paper | 1 (2026-03-08) |
-| CFD stress tests | 13 (2026-03-14) — S13: **COMPUTATIONAL PROOF** — transfer rule cannot produce entities (sub-CFL=diffusion, super-CFL=global checkerboard). S12: Frame question. S11: N-S = vocabulary (1 DOF). S10: Incompressibility error. S9: Internal contradictions. S5: Entity criterion (Γ<m). Full docs in private-context/insights/. |
+| CFD stress tests | 14 (2026-03-17) — S14: Predictions table audit — environment RAR already tested/refuted (S381), BAO modulation contradicts S107, fσ8 identified as highest-priority testable prediction. S13: computational proof. S11: N-S=vocabulary. Full docs in private-context/insights/. |
