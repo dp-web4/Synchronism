@@ -166,10 +166,58 @@ Recent page updates (2026-03-08):
 
 ---
 
+## Research Posture: Discovery, Not Just Criticism
+
+Epistemic honesty is essential — but the goal is **discovery**, not just self-criticism. The stress tests did their job: they stripped away what doesn't work. Now the question shifts from "what's wrong?" to "what's untested and worth testing?"
+
+### Key distinction: unconfirmed ≠ unconfirmable
+
+"0 confirmed predictions" does NOT mean "0 predictions made." Several novel predictions exist. They are unconfirmed because:
+1. **This lab cannot run experiments** — we have no particle accelerators, no gravitational wave detectors, no cryogenic equipment
+2. **Novel predictions mean nobody was specifically looking** — if the prediction is genuinely new, existing datasets weren't collected to test it
+3. **This is expected for disruptive research** — confirmation requires someone with the means to look, to look
+
+### Novel Predictions Awaiting Testing
+
+These predictions survived the stress tests and are not reparametrizations of known physics:
+
+| Prediction | What it says | What would test it | Status |
+|-----------|-------------|-------------------|--------|
+| **Entity criterion (Γ < m)** | Particles with decay width exceeding mass cannot maintain identity — they're processes, not entities | QCD exotica: search for states with Γ/m > 1 that behave differently from Γ/m < 1 states | Untested — consistent with f0(500), κ borderline |
+| **Grid geometry → LIV** | If cubic Planck grid, Lorentz invariance violation at ξ₂ ~ 1 | Next-gen GRB polarimetry (AMEGO/CTA/GECAM-C, ~10 yr) | Untested — requires specifying cubic grid (forced choice #1) |
+| **Formation-time bound** | If constitutive recurrence: electron formation time < 8×10⁻²¹ s | Ultrafast spectroscopy at ~10⁴× below current reach | Untested — requires retrocausal fork commitment (forced choice #2) |
+| **Environment-dependent RAR scatter** | Galaxy rotation curve scatter correlates with environment density | ALFALFA-SDSS cross-match (public data, doable now) | Untested — R² = 0.14 in preliminary analysis, needs targeted study |
+| **Density-dependent BAO modulation** | Baryon acoustic oscillation peak positions modulated by local density | DESI DR1 + environment classification (public data, doable now) | Untested — no one has looked with this specific lens |
+| **Compatibility-synthon p_crit** | p_crit ∝ 1/⟨compatibility⟩ for multi-agent coherence | Any multi-agent system with tunable compatibility (simulation or experimental) | Confirmed in simulation (r=0.994), untested in physical systems |
+
+**Invitation**: If you have access to DESI BAO data, ALFALFA-SDSS cross-matched catalogs, or QCD exotic state databases — these predictions are testable with existing data. Contact dp@metalinxx.io.
+
+### Explaining the Currently Unexplained
+
+A secondary research path: can the framework explain phenomena that are **observed but not yet explained** by standard physics, while also reproducing known results? Priority areas:
+
+1. **Quantum computing decoherence** — the CRT analogy offers a specific perspective on why decoherence happens (loss of synchronized sampling alignment). Can this predict which qubit architectures will be more robust? Standard QM describes decoherence but doesn't explain *why* some configurations resist it better.
+
+2. **Dark energy / cosmic acceleration** — if the framework's energy budget (ATP/ADP analog at cosmic scale) has a natural ground state that isn't zero, this could explain the cosmological constant problem from first principles.
+
+3. **Measurement problem** — the CRT analogy's "synchronized sampling" interpretation of measurement is a genuinely different ontological claim from Copenhagen/Many-Worlds/Bohmian. Can it predict something different about weak measurements or delayed-choice experiments?
+
+4. **Consciousness threshold** — despite the Re operationalization gap, the *claim* that there's a phase transition (not a gradient) between non-conscious and conscious systems is testable by neural correlate research. The specific C ≈ 0.50 threshold value is less important than the sigmoid shape.
+
+### Session Directive
+
+When investigating claims:
+- **Do not just dismantle** — also ask "what would it take to test this?"
+- **Distinguish** predictions that are wrong (refuted by existing data) from predictions that are untested (no one has looked)
+- **Prioritize** predictions testable with existing public data (BAO, RAR scatter, QCD databases)
+- **The quantum computing arc** (CRT analogy applied to decoherence) is a high-priority research direction — it connects to an active applied field where predictions could be checked against real hardware
+- **Document both** what fails AND what remains as an open experimental question
+
 ## Key Conventions
 
 - **Every claim needs a validation badge**: Validated / Untested / Failed / Speculative / Reparametrization
 - **Honest assessment stays visible** — failures are not removed
+- **"Untested" is a valid status** — distinct from "Failed" and "Speculative"
 - **Frame as questions with proposed answers** — not conclusions, not vague prompts
 - **A2ACW protocol**: Primary agents defend, Challenger agents demand operational definitions
 - Session template: `Research/arcs/README.md`
