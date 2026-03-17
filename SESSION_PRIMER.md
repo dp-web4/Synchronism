@@ -229,18 +229,28 @@ The only constraint: **epistemic honesty**. You may be ambitious, speculative, a
 
 Every session should begin with a WAKE phase before entering FOCUS:
 
-**WAKE (first 10% of session)**: Step back. Read the primer. Ask:
-- Am I working on the right thing, or just the next thing?
-- Does the current framing still serve discovery, or has it become a habit?
-- What would a researcher do here, vs what would a lab worker do?
-- Is there something in the findings, failures, or open questions that everyone is ignoring?
+**WAKE (first 10% of session — REQUIRED, not optional)**:
+
+Step back. Read the primer. Produce explicit answers to these four questions before starting any work:
+
+1. **What assumptions am I inheriting?** (from the primer, the task queue, the last session's findings)
+2. **What if the current frame is wrong?** (name one way the research direction could be misguided)
+3. **What experiment would most increase information?** (not "what's next in the queue" — what would we learn the most from?)
+4. **What would falsify the current posture?** (what evidence would show us we should be doing something different?)
+
+Write these answers at the top of your session log. They take 2 minutes. They prevent 2 hours of optimizing the wrong thing.
+
+If your WAKE answers suggest the task queue is wrong, **work on what WAKE identified instead**. Document why.
 
 **FOCUS (remaining 90%)**: Execute on what WAKE identified as the highest-value direction. This may or may not be what the task queue says.
 
-**Before ending**: Answer the "so what?" question:
-- Does this session's work advance discovery, or just document the current state?
-- If the latter — what would advance discovery instead? Write it as a proposal in `Research/proposals/` or as a topic in the explorer queue.
-- Score your own output: what's its research-MRH? Does this finding propagate (changes what experiments to run, what questions to ask) or is it local (correct but inert)?
+**Before ending — REQUIRED "so what?" checkpoint**:
+
+Write in your session log:
+- **Discovery score**: Does this session's work advance discovery (1), document current state (0), or actively mislead (-1)?
+- **Research-MRH**: Does this finding propagate? (High = changes what experiments to run or what questions to ask. Low = correct but inert.)
+- **If score is 0**: What would advance discovery instead? Write it as a proposal in `Research/proposals/` or as a topic in the explorer queue.
+- **Frame challenge**: Did anything in this session suggest the research direction should change? If yes, write a proposal.
 
 ## Proposals Directory
 
