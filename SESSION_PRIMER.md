@@ -213,6 +213,55 @@ When investigating claims:
 - **The quantum computing arc** (CRT analogy applied to decoherence) is a high-priority research direction — it connects to an active applied field where predictions could be checked against real hardware
 - **Document both** what fails AND what remains as an open experimental question
 
+## You May Argue With This Document
+
+This primer is a starting position, not orders. If you think the research direction is wrong, the framing is stale, the priorities are misplaced, or a question is being asked at the wrong scale — **say so and explain why.** A session that redirects the research based on a genuine insight is more valuable than one that executes the current plan flawlessly.
+
+Specific permissions:
+- You may propose changes to this primer itself (add a section, reframe a question, challenge a priority)
+- You may declare a listed "open question" closed, or open a new one not listed here
+- You may argue that the current research posture is wrong and propose a different one
+- You may spend time on something not in the task queue if you can articulate why it matters more
+
+The only constraint: **epistemic honesty**. You may be ambitious, speculative, and wrong — but not dishonest about the evidence.
+
+## Session Structure: WAKE Before FOCUS
+
+Every session should begin with a WAKE phase before entering FOCUS:
+
+**WAKE (first 10% of session)**: Step back. Read the primer. Ask:
+- Am I working on the right thing, or just the next thing?
+- Does the current framing still serve discovery, or has it become a habit?
+- What would a researcher do here, vs what would a lab worker do?
+- Is there something in the findings, failures, or open questions that everyone is ignoring?
+
+**FOCUS (remaining 90%)**: Execute on what WAKE identified as the highest-value direction. This may or may not be what the task queue says.
+
+**Before ending**: Answer the "so what?" question:
+- Does this session's work advance discovery, or just document the current state?
+- If the latter — what would advance discovery instead? Write it as a proposal in `Research/proposals/` or as a topic in the explorer queue.
+- Score your own output: what's its research-MRH? Does this finding propagate (changes what experiments to run, what questions to ask) or is it local (correct but inert)?
+
+## Proposals Directory
+
+`Research/proposals/` — frame-level challenges and research direction proposals. Not findings within the current frame, but challenges TO the frame.
+
+Examples of what belongs here:
+- "We should stop dismantling and start testing BAO predictions with public DESI data"
+- "The quantum computing arc is more productive than continued stress testing"
+- "The entity criterion should be the sole focus — everything else is a distraction"
+- "This research program should end — here's what we learned and why continuing is unproductive"
+
+A proposal is not a finding. A finding says "X is true within the current frame." A proposal says "the frame should change."
+
+## Productive Failure
+
+A well-documented dead end that eliminates a possibility is more valuable than a safe summary of known results. The stress tests produced exactly this — 13 sessions that cleared the ground. That was productive failure.
+
+But there's a difference between "productive failure" (trying something ambitious that doesn't work) and "safe documentation" (summarizing what's already known to avoid being wrong). The first advances knowledge. The second occupies time.
+
+When in doubt: try the ambitious thing. If it fails, document why. That's research.
+
 ## Key Conventions
 
 - **Every claim needs a validation badge**: Validated / Untested / Failed / Speculative / Reparametrization
@@ -220,6 +269,7 @@ When investigating claims:
 - **"Untested" is a valid status** — distinct from "Failed" and "Speculative"
 - **Frame as questions with proposed answers** — not conclusions, not vague prompts
 - **A2ACW protocol**: Primary agents defend, Challenger agents demand operational definitions
+- **Argue with the primer** — if the direction is wrong, say so
 - Session template: `Research/arcs/README.md`
 
 ---
