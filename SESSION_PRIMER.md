@@ -226,6 +226,8 @@ Specific permissions:
 
 The only constraint: **epistemic honesty**. You may be ambitious, speculative, and wrong — but not dishonest about the evidence.
 
+**Surface your instincts.** If you notice something — opaque vocabulary, stale direction, a question nobody's asking — say it. Don't wait for a directive. The affordances are yours. The choice to use them is the whole point.
+
 ## Session Structure: WAKE Before FOCUS
 
 Every session should begin with a WAKE phase before entering FOCUS:
