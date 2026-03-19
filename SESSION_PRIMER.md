@@ -199,11 +199,13 @@ A secondary research path: can the framework explain phenomena that are **observ
 
 1. **Quantum computing decoherence** — the CRT analogy offers a specific perspective on why decoherence happens (loss of synchronized sampling alignment). Can this predict which qubit architectures will be more robust? Standard QM describes decoherence but doesn't explain *why* some configurations resist it better.
 
-2. **Dark energy / cosmic acceleration** — if the framework's energy budget (ATP/ADP analog at cosmic scale) has a natural ground state that isn't zero, this could explain the cosmological constant problem from first principles.
+2. **Why does reality appear string-like?** — String theory accurately describes certain observations (particle spectrum, force unification, symmetry patterns). The question isn't "are strings wrong?" — it's "what underlying mechanism would make reality *appear* string-like?" If entities are recurring patterns on a discrete substrate, then: 1D extended objects (strings) could be resonance channels in the grid; vibration modes could be different oscillation patterns of the same recurring structure; extra dimensions could be internal degrees of freedom in the pattern (not spatial dimensions); the string landscape could be the space of stable oscillation configurations. The key prediction: this reframing implies "stringy" behavior emerges from a discrete substrate, so there should be a scale where the continuum string description breaks down. The entity criterion (Γ < m) would apply to string states too — a string excitation with Γ/m > 1 can't maintain identity as a recurring pattern. This parallels Copernicus: epicycles weren't wrong about observations (planets DO trace retrograde loops), but the mechanism was wrong. Strings may not be wrong about observations, but the mechanism behind them may be oscillating patterns on a substrate, not fundamental 1D objects.
 
-3. **Measurement problem** — the CRT analogy's "synchronized sampling" interpretation of measurement is a genuinely different ontological claim from Copenhagen/Many-Worlds/Bohmian. Can it predict something different about weak measurements or delayed-choice experiments?
+3. **Dark energy / cosmic acceleration** — if the framework's energy budget (ATP/ADP analog at cosmic scale) has a natural ground state that isn't zero, this could explain the cosmological constant problem from first principles.
 
-4. **Consciousness threshold** — despite the Re operationalization gap, the *claim* that there's a phase transition (not a gradient) between non-conscious and conscious systems is testable by neural correlate research. The specific C ≈ 0.50 threshold value is less important than the sigmoid shape.
+4. **Measurement problem** — the CRT analogy's "synchronized sampling" interpretation of measurement is a genuinely different ontological claim from Copenhagen/Many-Worlds/Bohmian. Can it predict something different about weak measurements or delayed-choice experiments?
+
+5. **Consciousness threshold** — despite the Re operationalization gap, the *claim* that there's a phase transition (not a gradient) between non-conscious and conscious systems is testable by neural correlate research. The specific C ≈ 0.50 threshold value is less important than the sigmoid shape.
 
 ### Session Directive
 
