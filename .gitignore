@@ -1,65 +1,6 @@
-# System files
-.DS_Store
-*.swp
-*.swo
-*~
-
-# IDE
-.vscode/
-.idea/
-
-# Python
+*.ffs_db
 __pycache__/
 *.pyc
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Virtual environments
-*_env/
-*env/
-.venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Synchronization files
-*.ffs_db
-
-# Build artifacts
-build/
-dist/
+.gitnexus/
+venv/
 *.egg-info/
-
-# Logs
-*.log
-logs/
-/scripts/governance/__pycache__
-
-# Simulation outputs (reproducible via scripts)
-simulations/alfalfa_data/
-simulations/void_data/
-simulations/*.csv
-simulations/*.json
-simulations/*.pkl
-simulations/*.npy
-simulations/output/
-simulations/results/
-*.csv
-
-# LaTeX build artifacts
-*.aux
-*.out
-*.log
-*.synctex.gz
-
-# Hardbound private key (never commit)
-.hardbound/signing.key
-
-.hardbound/actors/dp/signing.key
-
-.hardbound/actors/cbp-claude/signing.key
-.hardbound/actors/*/signing.key
-.gitnexus
