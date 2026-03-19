@@ -4,3 +4,12 @@ __pycache__/
 .gitnexus/
 venv/
 *.egg-info/
+
+# Large simulation datasets (keep local, don't commit)
+simulations/alfalfa_data/
+simulations/void_data/
+
+# LaTeX build artifacts
+*.log
+*.aux
+*.out
