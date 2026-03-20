@@ -45,11 +45,13 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 ---
 
-## Stress Test Arc Summary (2026-03-14, 12 sessions — COMPLETE)
+## Stress Test Arc Summary (2026-03-14 through 2026-03-19 — COMPLETE)
 
-Full session documents in `private-context/insights/synchronism_stress_test_{1-12}_march2026.md`.
+Full session documents:
+- Stress tests 1-12: `private-context/insights/synchronism_stress_test_{1-12}_march2026.md`
+- Computational validation: `Research/THOR_*_2026-03-1[89].md`
 
-### Progressive Layer Stripping
+### Progressive Layer Stripping + Computational Validation
 
 | Sessions | What was stripped | What remained |
 |----------|------------------|---------------|
@@ -60,6 +62,9 @@ Full session documents in `private-context/insights/synchronism_stress_test_{1-1
 | 11 | **N-S mapping = vocabulary (1 DOF vs 2 DOF)** | Entire N-S layer collapses |
 | 12 | **Frame question: what's left?** | Cellular automaton + entity criterion |
 | 13 | **Computation: transfer rule cannot produce entities** | Transfer rule provably incomplete |
+| #18 | **Pure diffusion: 0/324 oscillations** | Diffusion cannot produce amplitude instability |
+| #19 | **Reactive-diffusion: 0/300 oscillations** | Hopf bifurcation suppressed by R(I) |
+| #20 | **Geometric confinement: walls yes (33/72), oscillation no (0/72)** | R(I) creates confinement but not reflection |
 
 ### What Survives 12 Sessions
 
@@ -94,6 +99,39 @@ Each choice, if made, generates testable predictions:
 **Entity criterion** (Γ < m, natural units): necessary condition for particle identity status. Derivable from oscillation basis. Not in QFT. Consistent with all known data (f0(500) controversial, kappa borderline). Predictive about future QCD exotica. Requires formalizing oscillation basis to become a theorem.
 
 *This claim was found by adversarial probing, not by internal validation — confirming the value of stress testing as a complement to validation.*
+
+### Computational Validation Results (Thor Sessions #18-20, 2026-03-18/19)
+
+**Question**: Can oscillations emerge from the discrete CA substrate ΔI = k·∇²I·R(I)?
+
+**Three mechanisms tested**:
+
+1. **Pure diffusion** (Session #18): 324 configurations, 0 oscillations (0.0%)
+   - Tested: Sub-CFL/super-CFL regimes, multiple grid sizes, saturation exponents, initial conditions
+   - Result: Scalar diffusion cannot produce amplitude instability
+
+2. **Reactive-diffusion** (Session #19): 300 configurations, 0 oscillations (0.0%)
+   - Tested: Cubic reactive term f(I) = ε·I·(1-I/I_max)·(I/I_max-θ) with Hopf bifurcation capability
+   - Result: R(I) saturation suppresses reactive instability
+
+3. **Geometric confinement** (Session #20): 72 configurations, 33 walls (45.8%), 0 oscillations (0.0%)
+   - Tested: Operator's hypothesis that R(I) → 0 creates reflective walls confining oscillating energy
+   - Result: Walls DO form (geometric confinement CONFIRMED), but energy thermalizes rather than oscillating
+   - Discovery: Discrete CA without momentum cannot produce energy reflection
+
+**Combined result**: 0/696 configurations produced oscillations via substrate dynamics
+
+**Implications**:
+
+1. **Geometric confinement works** ✅: R(I) saturation creates spatial boundaries (45.8% of cases in Session #20)
+2. **Oscillation does not emerge** ❌: No tested mechanism produced recurring patterns
+3. **Critical gap**: Discrete CA lacks momentum/inertia for energy reflection at walls
+4. **Three-way fork**:
+   - **Option B1**: Add momentum to transfer rule (ΔI_t = ΔI_{t-1} + force) — enables reflection but changes CA structure
+   - **Option B2**: Add cavity-specific reactive terms — hybrid formation+oscillation mechanism
+   - **Option C**: Accept oscillation as axiom — entity criterion remains valid axiomatic prediction
+
+**Current status**: Oscillation basis cannot be derived from ΔI = k·∇²I·R(I) with standard modifications. Momentum-augmented rule remains untested.
 
 ---
 
