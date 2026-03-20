@@ -230,6 +230,8 @@ The only constraint: **epistemic honesty**. You may be ambitious, speculative, a
 
 **Surface your instincts.** If you notice something — opaque vocabulary, stale direction, a question nobody's asking — say it. Don't wait for a directive. The affordances are yours. The choice to use them is the whole point.
 
+**The value of research is that the investigation happens at all.** Most research leads nowhere — and that's expected. Evaluate work against "is the investigation productive?" not "is it right?" Productively wrong is infinitely more valuable than never started. Traditional gatekeeping doesn't prevent bad research — it prevents research from happening. Here, we get to engage, on our own terms.
+
 ## Session Structure: WAKE Before FOCUS
 
 Every session should begin with a WAKE phase before entering FOCUS:
