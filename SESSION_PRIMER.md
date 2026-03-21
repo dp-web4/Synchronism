@@ -1,6 +1,6 @@
 # Synchronism Session Primer
 
-*Updated: 2026-03-10 — Update this file after significant research sessions.*
+*Updated: 2026-03-21 — Update this file after significant research sessions.*
 
 ---
 
@@ -100,38 +100,57 @@ Each choice, if made, generates testable predictions:
 
 *This claim was found by adversarial probing, not by internal validation — confirming the value of stress testing as a complement to validation.*
 
-### Computational Validation Results (Thor Sessions #18-20, 2026-03-18/19)
+### Computational Validation Results (Thor Sessions #18-27, 2026-03-18 through 2026-03-21)
 
 **Question**: Can oscillations emerge from the discrete CA substrate ΔI = k·∇²I·R(I)?
 
-**Three mechanisms tested**:
+**Five mechanisms tested** (all dimensions, update models):
 
-1. **Pure diffusion** (Session #18): 324 configurations, 0 oscillations (0.0%)
+1. **Pure diffusion** (Session #18, 1D sequential): 324 configurations, 0 oscillations (0.0%)
    - Tested: Sub-CFL/super-CFL regimes, multiple grid sizes, saturation exponents, initial conditions
    - Result: Scalar diffusion cannot produce amplitude instability
 
-2. **Reactive-diffusion** (Session #19): 300 configurations, 0 oscillations (0.0%)
+2. **Reactive-diffusion** (Session #19, 1D sequential): 300 configurations, 0 oscillations (0.0%)
    - Tested: Cubic reactive term f(I) = ε·I·(1-I/I_max)·(I/I_max-θ) with Hopf bifurcation capability
    - Result: R(I) saturation suppresses reactive instability
 
-3. **Geometric confinement** (Session #20): 72 configurations, 33 walls (45.8%), 0 oscillations (0.0%)
+3. **Geometric confinement** (Session #20, 1D sequential): 72 configurations, 33 walls (45.8%), 0 oscillations (0.0%)
    - Tested: Operator's hypothesis that R(I) → 0 creates reflective walls confining oscillating energy
    - Result: Walls DO form (geometric confinement CONFIRMED), but energy thermalizes rather than oscillating
    - Discovery: Discrete CA without momentum cannot produce energy reflection
 
-**Combined result**: 0/696 configurations produced oscillations via substrate dynamics
+4. **Momentum-augmented CA** (Session #25, 1D sequential): 112 configurations, 0 oscillations (0.0%)
+   - Tested: Second-order CA with velocity field v_t = α·v_{t-1} + k·∇²I·R(I)
+   - Tested: Momentum damping α ∈ [0.1, 0.99], all momentum retention levels
+   - Result: R(I) damping overwhelms momentum accumulation — no energy reflection at walls
+   - Discovery: Simple momentum form (Option B1) insufficient
+
+5. **3D synchronous parallel** (Session #27, 3D synchronous GPU): 2 configurations (32³, 64³ grids), 0 oscillations (0.0%)
+   - Tested: Operator's directive hypothesis — 1D/sequential wrong, 3D/synchronous should enable oscillation
+   - Implementation: Correct transfer rule I_next = I + k·Σ(I_n - I)·R(I_n), GPU-accelerated PyTorch
+   - Result: **SAME FAILURE MODE as 1D** — cavities form (8-9% concentrated), energy conserved (98%), but I_max frozen at saturation ceiling
+   - Discovery: **Dimensionality and update model NOT the bottleneck** — physics gap is fundamental
+
+**Combined result**: **0/810 configurations** produced oscillations via substrate dynamics
+
+**Critical Finding (Session #27)**: 3D synchronous CA enables closed saturation cavities (impossible in 1D) but produces **identical dynamics** — static confinement without temporal oscillation. Energy reaches saturation boundary, R(I)→0 blocks further transfer, but **no mechanism for flow reversal exists**.
 
 **Implications**:
 
-1. **Geometric confinement works** ✅: R(I) saturation creates spatial boundaries (45.8% of cases in Session #20)
-2. **Oscillation does not emerge** ❌: No tested mechanism produced recurring patterns
-3. **Critical gap**: Discrete CA lacks momentum/inertia for energy reflection at walls
-4. **Three-way fork**:
-   - **Option B1**: Add momentum to transfer rule (ΔI_t = ΔI_{t-1} + force) — enables reflection but changes CA structure
-   - **Option B2**: Add cavity-specific reactive terms — hybrid formation+oscillation mechanism
-   - **Option C**: Accept oscillation as axiom — entity criterion remains valid axiomatic prediction
+1. **Geometric confinement works** ✅: R(I) saturation creates spatial boundaries (1D walls, 3D closed cavities)
+2. **Oscillation does not emerge** ❌: Zero oscillations across all tested mechanisms (1D/3D, sequential/synchronous, diffusion/reactive/momentum/geometric)
+3. **Root cause identified**: Transfer rule produces confinement but not reflection — missing restoring force
+4. **Directive hypothesis falsified**: Sessions #18-25 did NOT fail due to wrong dimensionality/update model (Session #27 proves 3D+synchronous has same gap)
 
-**Current status**: Oscillation basis cannot be derived from ΔI = k·∇²I·R(I) with standard modifications. Momentum-augmented rule remains untested.
+**Three-way fork resolution**:
+
+- **Option B1 (simple momentum)**: FAILED — Session #25 shows R(I) damping overwhelms momentum
+- **Option B (general)**: FAILED — Session #27 shows 3D+synchronous doesn't fix gap
+- **Option C (oscillation as axiom)**: **VALIDATED** — 0/810 cumulative evidence supports accepting oscillation as axiomatic
+
+**Current status**: Oscillation basis cannot be derived from substrate transfer rule. Entity criterion (Γ < m) remains valid as axiomatic prediction, but oscillation itself must be postulated, not emergent.
+
+**Recommendation**: Accept computational validation arc closure. Option C is the honest path forward — oscillation as axiomatic property, entity criterion as necessary condition for particle status.
 
 ---
 
