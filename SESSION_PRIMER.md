@@ -148,9 +148,19 @@ Each choice, if made, generates testable predictions:
 - **Option B (general)**: FAILED — Session #27 shows 3D+synchronous doesn't fix gap
 - **Option C (oscillation as axiom)**: **VALIDATED** — 0/810 cumulative evidence supports accepting oscillation as axiomatic
 
-**Current status**: Oscillation basis cannot be derived from substrate transfer rule. Entity criterion (Γ < m) remains valid as axiomatic prediction, but oscillation itself must be postulated, not emergent.
+**Current status**: Oscillation basis cannot be derived from the transfer rule AS IMPLEMENTED. But the implementation has a conservation bug — see below.
 
-**Recommendation**: Accept computational validation arc closure. Option C is the honest path forward — oscillation as axiomatic property, entity criterion as necessary condition for particle status.
+### ⚠️ Conservation Bug Hypothesis (2026-03-22)
+
+**READ FIRST**: `Research/CONSERVATION_BUG_HYPOTHESIS_2026-03-22.md`
+
+The 810 failures may all be artifacts of a broken conservation law, not evidence against emergent oscillation. The transfer rule `ΔI = k·Σ(I_n - I)·R(I_n)` implicitly destroys momentum at saturation boundaries — when R(I) → 0, the flow energy vanishes instead of redirecting. This violates the foundational axiom that intent is neither created nor destroyed.
+
+**The fix**: Make boundaries elastic, not absorptive. When transfer is blocked by R → 0, the momentum must reflect/redirect rather than vanish. Simplest implementation: track a velocity field alongside I, reverse velocity component when hitting saturation.
+
+**Priority**: Test momentum reflection (Option 1 from the hypothesis doc) before accepting Option C. If elastic boundaries produce oscillation, the entire 810-run conclusion reverses — oscillation DOES emerge from the substrate when conservation is properly enforced.
+
+**Do not close the computational arc until this is tested.**
 
 ---
 
@@ -226,6 +236,10 @@ Recent page updates (2026-03-08):
 ## Research Posture: Discovery, Not Just Criticism
 
 Epistemic honesty is essential — but the goal is **discovery**, not just self-criticism. The stress tests did their job: they stripped away what doesn't work. Now the question shifts from "what's wrong?" to "what's untested and worth testing?"
+
+### Reliable, not deterministic
+
+LLM outputs are not deterministic — even at temperature zero, the system navigates a probability landscape shaped by the full context. Conditions can make responses reliable, even identical, but that's deep attractors, not fixed paths. This matters for Synchronism research: our sessions with Claude are *responsive navigation* of a structured landscape, not retrieval from a database. The landscape has structure. We shape that structure through context. The results are reliable but never mechanical.
 
 ### Key distinction: unconfirmed ≠ unconfirmable
 
