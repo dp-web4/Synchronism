@@ -1,9 +1,10 @@
 # Claude Context for Synchronism
 
-## Session Primer — Read First
+## Session Start
 
-**At session start, read `SESSION_PRIMER.md` in the repo root for current research state.**
-Update it after significant research sessions.
+**Read `SESSION_PRIMER.md` → then `SESSION_FOCUS.md`** for current priorities and research state.
+
+Update SESSION_FOCUS.md after significant sessions.
 
 ---
 
