@@ -18,7 +18,9 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Connection found**: Damping rate γ vs oscillation frequency f maps to entity criterion: γ < f → Γ < m → entity. If γ/f derivable from wall geometry, entity criterion follows from substrate dynamics.
 
-**Next**: Derive γ(wall_gradient) and f(cavity_size) analytically. Check if γ/f gives a geometric form of the entity criterion.
+**Session 18 result**: Derived. γ/f = -4·ln(|r|) where r = (√R_in - √R_wall)/(√R_in + √R_wall). Entity criterion γ < f requires |r| > 0.779 → walls need I > 0.99·I_max (for n=2). Verified against session 17 (I_wall=0.95 gives γ/f=2.62 → process, consistent with observed damping). The entity criterion IS derivable from 2-DOF cavity impedance mismatch.
+
+**Next**: Test nonlinear regime (where oscillation amplitude modifies R(I)). In linear theory, R is fixed background. In the actual dynamics, the oscillating I changes R, creating self-consistent cavity walls. Does this produce SELF-SUSTAINING oscillation?
 
 ---
 
@@ -78,7 +80,7 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 | γ = 2/√N_corr unification | ✅ Validated |
 | Coupling-coherence sigmoid (900 runs) | ✅ Validated |
 | Madelung bridge | ✅ Standard QM math (1927) — Intent identification is the claim |
-| Entity criterion (Γ < m) | ⚠️ Candidate novel prediction — consistent with data, needs formalization |
+| Entity criterion (Γ < m) | ⚠️ NOW DERIVABLE — γ/f = -4·ln(|r|), entity when |r| > 0.779. Follows from 2-DOF cavity impedance mismatch. Walls need I > 0.99·I_max. Caveats: requires 2-DOF (not original 1-DOF rule), linear approximation, 1D. |
 | CFD/N-S reframing | Speculative — mathematically consistent, not yet formalized |
 | Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values differ by 440× |
 | Oscillation from substrate | ⚠️ PARTIALLY RESOLVED — 2-DOF (I+v) produces DAMPED oscillation in R(I) cavity (73 sign changes). Not sustained. Damping from smooth R(I) wall absorption. Entity criterion may follow from damping rate < oscillation frequency. |
