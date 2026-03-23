@@ -24,7 +24,9 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Implication**: Entities require EXTERNAL confinement (pre-existing walls from other entities or boundary conditions), not SELF-confinement. This is analogous to how atomic nuclei confine quarks — the confinement comes from the QCD vacuum, not from the quarks themselves. The entity criterion γ/f = -4·ln(|r|) remains valid for externally confined cavities.
 
-**Next**: Can COUPLED oscillations (two pulses interacting) create mutual confinement? Or does the framework need a focusing mechanism not currently in R(I)?
+**Session 20 (analytical)**: Coupled oscillations also fail. Between two high-I pulses, R decreases → wave speed decreases → BARRIER, not trap. Pulses repel rather than confine. ANY monotonically decreasing R(I) is defocusing. The framework needs a focusing mechanism not currently specified. Options: (1) modified R that increases with I at some scale, (2) tensor/vector Intent with vortex confinement, (3) multi-scale R depending on coarse-grained I at different MRH. None currently in the framework.
+
+**STATUS**: The 2-DOF dynamics (I+v) produces damped oscillation in externally-confined cavities. The entity criterion is derivable as γ/f = -4·ln(|r|). But self-confinement fails due to defocusing R(I). The framework can describe entities that EXIST in cavities but cannot explain how cavities FORM. This is the current frontier.
 
 ---
 
