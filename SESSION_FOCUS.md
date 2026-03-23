@@ -20,7 +20,11 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Session 18 result**: Derived. γ/f = -4·ln(|r|) where r = (√R_in - √R_wall)/(√R_in + √R_wall). Entity criterion γ < f requires |r| > 0.779 → walls need I > 0.99·I_max (for n=2). Verified against session 17 (I_wall=0.95 gives γ/f=2.62 → process, consistent with observed damping). The entity criterion IS derivable from 2-DOF cavity impedance mismatch.
 
-**Next**: Test nonlinear regime (where oscillation amplitude modifies R(I)). In linear theory, R is fixed background. In the actual dynamics, the oscillating I changes R, creating self-consistent cavity walls. Does this produce SELF-SUSTAINING oscillation?
+**Session 19 result**: Tested nonlinear self-consistent regime. Localized high-I pulse oscillates (697 sign changes) but DISPERSES from width 13 → 81. NOT self-confined. R(I) produces DEFOCUSING nonlinearity: wave speed = c·√R(I) DECREASES at high I, so pulse edges (low I) travel faster than center (high I) → dispersal. Soliton-like self-confinement requires FOCUSING nonlinearity (opposite of R(I)). Self-consistent entities cannot form from R(I) saturation alone.
+
+**Implication**: Entities require EXTERNAL confinement (pre-existing walls from other entities or boundary conditions), not SELF-confinement. This is analogous to how atomic nuclei confine quarks — the confinement comes from the QCD vacuum, not from the quarks themselves. The entity criterion γ/f = -4·ln(|r|) remains valid for externally confined cavities.
+
+**Next**: Can COUPLED oscillations (two pulses interacting) create mutual confinement? Or does the framework need a focusing mechanism not currently in R(I)?
 
 ---
 
