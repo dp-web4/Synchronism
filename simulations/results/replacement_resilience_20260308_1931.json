@@ -1,0 +1,105 @@
+{
+  "experiment": "D_replacement_resilience",
+  "results": [
+    {
+      "C_before_replacement": 0.7918,
+      "C_after_replacement": 0.8847,
+      "recovery_ratio": 1.117
+    },
+    {
+      "C_before_replacement": 0.819,
+      "C_after_replacement": 0.9036,
+      "recovery_ratio": 1.103
+    },
+    {
+      "C_before_replacement": 0.7895,
+      "C_after_replacement": 0.8687,
+      "recovery_ratio": 1.1
+    },
+    {
+      "C_before_replacement": 0.8443,
+      "C_after_replacement": 0.8815,
+      "recovery_ratio": 1.044
+    },
+    {
+      "C_before_replacement": 0.8185,
+      "C_after_replacement": 0.9031,
+      "recovery_ratio": 1.103
+    },
+    {
+      "C_before_replacement": 0.8099,
+      "C_after_replacement": 0.9076,
+      "recovery_ratio": 1.121
+    },
+    {
+      "C_before_replacement": 0.7603,
+      "C_after_replacement": 0.8425,
+      "recovery_ratio": 1.108
+    },
+    {
+      "C_before_replacement": 0.8194,
+      "C_after_replacement": 0.8827,
+      "recovery_ratio": 1.077
+    },
+    {
+      "C_before_replacement": 0.7302,
+      "C_after_replacement": 0.862,
+      "recovery_ratio": 1.18
+    },
+    {
+      "C_before_replacement": 0.784,
+      "C_after_replacement": 0.8783,
+      "recovery_ratio": 1.12
+    },
+    {
+      "C_before_replacement": 0.8391,
+      "C_after_replacement": 0.8937,
+      "recovery_ratio": 1.065
+    },
+    {
+      "C_before_replacement": 0.7843,
+      "C_after_replacement": 0.8524,
+      "recovery_ratio": 1.087
+    },
+    {
+      "C_before_replacement": 0.7959,
+      "C_after_replacement": 0.8522,
+      "recovery_ratio": 1.071
+    },
+    {
+      "C_before_replacement": 0.7851,
+      "C_after_replacement": 0.8596,
+      "recovery_ratio": 1.095
+    },
+    {
+      "C_before_replacement": 0.7279,
+      "C_after_replacement": 0.8861,
+      "recovery_ratio": 1.217
+    },
+    {
+      "C_before_replacement": 0.7719,
+      "C_after_replacement": 0.8735,
+      "recovery_ratio": 1.132
+    },
+    {
+      "C_before_replacement": 0.7773,
+      "C_after_replacement": 0.858,
+      "recovery_ratio": 1.104
+    },
+    {
+      "C_before_replacement": 0.845,
+      "C_after_replacement": 0.8906,
+      "recovery_ratio": 1.054
+    },
+    {
+      "C_before_replacement": 0.8152,
+      "C_after_replacement": 0.8973,
+      "recovery_ratio": 1.101
+    },
+    {
+      "C_before_replacement": 0.773,
+      "C_after_replacement": 0.874,
+      "recovery_ratio": 1.131
+    }
+  ]
+}

@@ -14,9 +14,11 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **The fix**: Make boundaries elastic, not absorptive. When transfer is blocked by R → 0, the momentum must reflect/redirect rather than vanish. Simplest: track a velocity field alongside I, reverse velocity component when hitting saturation.
 
-**Next session**: Test momentum reflection (Option 1). If elastic boundaries produce oscillation, the entire 810-run conclusion reverses.
+**Session 17 result**: Tested. R(I) soft walls produce **DAMPED oscillation** (73 sign changes, amplitude decays 0.3→0.001). Partial reflection occurs but smooth R(I) transition absorbs energy each bounce. Hard walls give sustained oscillation; R(I) walls give decaying oscillation. The conservation bug hypothesis is PARTIALLY SUPPORTED — adding momentum (2 DOF) does produce oscillation, but damped, not sustained.
 
-**Do not close the computational arc until this is tested.**
+**Connection found**: Damping rate γ vs oscillation frequency f maps to entity criterion: γ < f → Γ < m → entity. If γ/f derivable from wall geometry, entity criterion follows from substrate dynamics.
+
+**Next**: Derive γ(wall_gradient) and f(cavity_size) analytically. Check if γ/f gives a geometric form of the entity criterion.
 
 ---
 
@@ -79,7 +81,7 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 | Entity criterion (Γ < m) | ⚠️ Candidate novel prediction — consistent with data, needs formalization |
 | CFD/N-S reframing | Speculative — mathematically consistent, not yet formalized |
 | Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values differ by 440× |
-| Oscillation from substrate | ⚠️ REOPENED — 810 failures may be conservation bug, not physics |
+| Oscillation from substrate | ⚠️ PARTIALLY RESOLVED — 2-DOF (I+v) produces DAMPED oscillation in R(I) cavity (73 sign changes). Not sustained. Damping from smooth R(I) wall absorption. Entity criterion may follow from damping rate < oscillation frequency. |
 | R(I) viscosity correction | ❌ Unobservable — correction ~10⁻⁸⁰ at neutron star densities |
 | Dark matter = high viscosity | ❌ Sign error vs Bullet Cluster + internal contradiction |
 | Lorentz invariance from parallel update | ❌ Logical gap — no discrete 3D lattice has SO(3) |
