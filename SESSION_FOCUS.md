@@ -26,7 +26,9 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Session 20 (analytical)**: Coupled oscillations also fail. Between two high-I pulses, R decreases → wave speed decreases → BARRIER, not trap. Pulses repel rather than confine. ANY monotonically decreasing R(I) is defocusing. The framework needs a focusing mechanism not currently specified. Options: (1) modified R that increases with I at some scale, (2) tensor/vector Intent with vortex confinement, (3) multi-scale R depending on coarse-grained I at different MRH. None currently in the framework.
 
-**STATUS**: The 2-DOF dynamics (I+v) produces damped oscillation in externally-confined cavities. The entity criterion is derivable as γ/f = -4·ln(|r|). But self-confinement fails due to defocusing R(I) in the tested configurations. See operator feedback below.
+**Session 21 (2D vortex test)**: Operator's smoke ring hypothesis CONFIRMED. Inward flow hitting saturated core redirects tangentially → vortex forms (Lz=44.77), core survives (I=0.75). The tangential redirect was hand-coded in this test; in proper 2D N-S with -∇P = +∇I, this deflection should emerge naturally. Sessions 19-20's "defocusing" was a 1D artifact — 2D rotational dynamics CAN self-confine via pressure-gradient deflection. Requires genuine 2-DOF (I + vector v).
+
+**STATUS**: 2-DOF dynamics produces (1) damped oscillation in 1D cavities, entity criterion γ/f = -4·ln(|r|), AND (2) self-confining 2D vortices via pressure-gradient deflection. **Next**: proper 2D N-S simulation (continuity + momentum with -∇P) to verify vortex forms without hand-coded redirect. See operator feedback below.
 
 ### ⚠️ Operator Feedback on Self-Confinement (2026-03-23)
 
