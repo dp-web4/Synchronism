@@ -28,7 +28,13 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Session 21 (2D vortex test)**: MIXED. Vortex angular momentum DOES form (Lz=-293 in 64² grid), confirming tangential redirect works. BUT core DISPERSES (I: 0.46→0.21) in larger grid — rotation alone insufficient for confinement. Smaller 32² grid gave false positive (periodic boundaries confined energy). Hand-coded tangential redirect generates rotation but misses radial pressure balance. **Proper 2D N-S with natural -∇P needed** — the pressure gradient creates both tangential deflection AND radial confinement simultaneously.
 
-**STATUS**: 2-DOF dynamics produces (1) damped oscillation in 1D cavities, entity criterion γ/f = -4·ln(|r|), AND (2) self-confining 2D vortices via pressure-gradient deflection. **Next**: proper 2D N-S simulation (continuity + momentum with -∇P) to verify vortex forms without hand-coded redirect. See operator feedback below.
+**STATUS**: 2-DOF dynamics produces (1) damped oscillation in 1D cavities, entity criterion γ/f = -4·ln(|r|), AND (2) vortex angular momentum forms in 2D but core disperses without radial pressure balance. See operator feedback below.
+
+### ⚠️ Operator Note: Simulate in 3D, not 2D
+
+**Do not pursue 2D N-S simulations.** The phenomena we're modeling are inherently 3D. A 2D vortex is a point rotation; a 3D vortex is a tube or ring with qualitatively different dynamics — stretching, knotting, reconnection. Smoke rings are 3D structures. You cannot get a smoke ring in 2D. Session 21's 32² periodic boundary false positive already demonstrated how 2D gives misleading results.
+
+Entities are 3D self-confined oscillating structures. Test in 3D or don't test. Computational cost is not a reason to test the wrong dimensionality — a correct null result in 3D is more valuable than a false positive in 2D.
 
 ### ⚠️ Operator Feedback on Self-Confinement (2026-03-23)
 
