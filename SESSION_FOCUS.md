@@ -26,7 +26,23 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Session 20 (analytical)**: Coupled oscillations also fail. Between two high-I pulses, R decreases → wave speed decreases → BARRIER, not trap. Pulses repel rather than confine. ANY monotonically decreasing R(I) is defocusing. The framework needs a focusing mechanism not currently specified. Options: (1) modified R that increases with I at some scale, (2) tensor/vector Intent with vortex confinement, (3) multi-scale R depending on coarse-grained I at different MRH. None currently in the framework.
 
-**STATUS**: The 2-DOF dynamics (I+v) produces damped oscillation in externally-confined cavities. The entity criterion is derivable as γ/f = -4·ln(|r|). But self-confinement fails due to defocusing R(I). The framework can describe entities that EXIST in cavities but cannot explain how cavities FORM. This is the current frontier.
+**STATUS**: The 2-DOF dynamics (I+v) produces damped oscillation in externally-confined cavities. The entity criterion is derivable as γ/f = -4·ln(|r|). But self-confinement fails due to defocusing R(I) in the tested configurations. See operator feedback below.
+
+### ⚠️ Operator Feedback on Self-Confinement (2026-03-23)
+
+**The sessions may have tested the wrong confinement model.** The conclusion that "entities require external confinement" rests on assumptions that may not hold in the full dynamics:
+
+1. **Walls are not separate structures.** Walls are concentrations of intent — made of the same intent that is oscillating. They are either localized high-I regions or result from the arrival of intent from other directions. There is no distinction between "wall material" and "oscillating material." It's all intent.
+
+2. **Saturation is dynamic and directional.** A partially saturated cell becomes saturated when additional intent arrives from one or more directions in a single tick. The cell doesn't need to be permanently saturated — it only needs to be saturated *at the moment the moving intent arrives*. Other regions of the same "wall" can be under-saturated at the same moment with no impact on reflection/redirection.
+
+3. **Walls don't need to be all-encompassing.** A confining boundary only needs to be sufficiently saturated *when and where* the moving intent hits it. This is a dynamic, transient condition — not a static structure. The previous sessions may have tested static wall configurations when the physics calls for dynamic, self-consistent ones.
+
+4. **The overflow mechanism IS the confinement.** A partially saturated cell can only accept so much additional intent per tick. The rest has to go somewhere — reflect, redirect, redistribute. This overflow is what creates the confining pressure. The confinement emerges from the transfer rule's saturation limit, not from a separate mechanism.
+
+**What to test next**: Simulate a high-I pulse in a 2D/3D grid where the pulse's own leading edge creates transient saturation that reflects the trailing energy. The key is that confinement is self-consistent and dynamic — the oscillating intent creates its own momentary walls through saturation overflow. This is different from placing the pulse inside pre-existing static walls (which is what sessions 17-20 tested).
+
+**The analogy**: Think of a smoke ring. The vortex confines itself — the rotation creates a pressure differential that maintains the ring's shape. The "wall" is the smoke itself, not an external container. The question is whether the transfer rule with saturation can produce an analogous self-sustaining dynamic structure.
 
 ---
 
