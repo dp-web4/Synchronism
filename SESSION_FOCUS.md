@@ -36,6 +36,8 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 Entities are 3D self-confined oscillating structures. Test in 3D or don't test. Computational cost is not a reason to test the wrong dimensionality — a correct null result in 3D is more valuable than a false positive in 2D.
 
+**Use Thor.** The Jetson AGX Thor has a massive GPU and 122GB unified memory specifically for this kind of work. Run 64³ and 128³ grids. Don't downscale the physics to fit a smaller machine.
+
 ### ⚠️ Operator Feedback on Self-Confinement (2026-03-23)
 
 **The sessions may have tested the wrong confinement model.** The conclusion that "entities require external confinement" rests on assumptions that may not hold in the full dynamics:
