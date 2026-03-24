@@ -42,7 +42,7 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **What to test next**: Simulate a high-I pulse in a 2D/3D grid where the pulse's own leading edge creates transient saturation that reflects the trailing energy. The key is that confinement is self-consistent and dynamic — the oscillating intent creates its own momentary walls through saturation overflow. This is different from placing the pulse inside pre-existing static walls (which is what sessions 17-20 tested).
 
-**The analogy**: Think of a smoke ring. The vortex confines itself — the rotation creates a pressure differential that maintains the ring's shape. The "wall" is the smoke itself, not an external container. The question is whether the transfer rule with saturation can produce an analogous self-sustaining dynamic structure.
+**The analogy**: Think of a smoke ring. The vortex confines itself — the rotation creates a pressure differential that maintains the ring's shape. The "wall" is the smoke itself, not an external container. Or simpler: to a moving ping-pong ball, a well-placed paddle is effectively a wall. The paddle doesn't need to exist permanently — it just needs to be there when the ball arrives. Confinement is temporal coincidence, not permanent structure. The question is whether the transfer rule with saturation can produce self-sustaining dynamic structures where the oscillating intent is both the ball and the paddle.
 
 ---
 
