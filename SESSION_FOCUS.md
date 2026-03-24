@@ -28,7 +28,9 @@ The 810 failed configurations (Sessions #18-27) may all be artifacts of a broken
 
 **Session 21 (2D vortex test)**: MIXED. Vortex angular momentum DOES form (Lz=-293 in 64² grid), confirming tangential redirect works. BUT core DISPERSES (I: 0.46→0.21) in larger grid — rotation alone insufficient for confinement. Smaller 32² grid gave false positive (periodic boundaries confined energy). Hand-coded tangential redirect generates rotation but misses radial pressure balance. **Proper 2D N-S with natural -∇P needed** — the pressure gradient creates both tangential deflection AND radial confinement simultaneously.
 
-**STATUS**: 2-DOF dynamics produces (1) damped oscillation in 1D cavities, entity criterion γ/f = -4·ln(|r|), AND (2) vortex angular momentum forms in 2D but core disperses without radial pressure balance. See operator feedback below.
+**Session 22 (3D vortex ring)**: 3D code written (`simulations/intent_3d_vortex.py`, ready for Thor). Tested at 32³ and 48³: vortex ring disperses in 3D same as 2D (2732 → 7 high-I cells at 48³). Conservation excellent (0.0006%). R(I) defocusing is dimensionality-independent. Brief structure reappearance at t=800 (364 cells) suggests oscillatory component but still fading. **Needs Thor for 64³/128³ with longer runs and more careful vortex initialization.**
+
+**STATUS**: 2-DOF dynamics produces (1) damped oscillation in 1D cavities, entity criterion γ/f = -4·ln(|r|), (2) vortex angular momentum in 2D but core disperses, (3) vortex ring in 3D also disperses at 32³ and 48³. R(I) defocusing confirmed across all dimensions. Self-confinement remains unachieved. The operator's self-witnessing mechanism may require larger grids, more careful initialization, or additional physics.
 
 ### ⚠️ Operator Note: Simulate in 3D, not 2D
 
