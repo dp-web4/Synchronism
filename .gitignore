@@ -13,3 +13,4 @@ simulations/void_data/
 *.log
 *.aux
 *.out
+.claude/skills/gitnexus/
