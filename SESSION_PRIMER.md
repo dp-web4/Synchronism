@@ -38,3 +38,5 @@ See `exemplars/` for examples of corrections that were obvious in retrospect.
 - **Productive failure > safe summaries.** A well-documented dead end is valuable.
 - **Unconfirmed ≠ wrong.** Distinguish refuted (contradicted by data) from untested (nobody looked).
 - **Reliable, not deterministic.** LLM outputs navigate probability landscapes. Results are reliable but never mechanical.
+- **Do not reindex GitNexus.** The supervisor track handles reindexing. Worker sessions should not call `gitnexus analyze` — it causes conflicts when multiple machines reindex the same repo.
+- **Do not modify AGENTS.md or CLAUDE.md gitnexus blocks.** These are maintained by the supervisor. If the index is stale, report it in SESSION_FOCUS — don't fix it yourself.
