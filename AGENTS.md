@@ -96,9 +96,10 @@ See `repo-index.yaml` for structured data.
 *This document reflects the honest post-audit assessment (Sessions #574-586, Phase 2 chemistry). Last updated: 2026-02-08*
 
 <!-- gitnexus:start -->
+<!-- gitnexus:keep -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **Synchronism** (34425 symbols, 52852 relationships, 273 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **Synchronism** (34439 symbols, 52870 relationships, 279 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
