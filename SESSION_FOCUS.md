@@ -142,7 +142,7 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 | Oscillation from substrate | ⚠️ PARTIALLY RESOLVED — 2-DOF (I+v) produces DAMPED oscillation in R(I) cavity (73 sign changes). Not sustained. Damping from smooth R(I) wall absorption. Entity criterion may follow from damping rate < oscillation frequency. |
 | R(I) viscosity correction | ❌ Unobservable — correction ~10⁻⁸⁰ at neutron star densities |
 | Dark matter = high viscosity | ❌ Sign error vs Bullet Cluster + internal contradiction |
-| Lorentz invariance from parallel update | ❌ Logical gap — no discrete 3D lattice has SO(3) |
+| Lorentz invariance from parallel update | ❌ Logical gap AND empirical constraint — no discrete 3D lattice has SO(3), and existing GRB/isotropy data exclude regular Planck lattices by 14+ orders of magnitude |
 | N-S mapping: 1 DOF vs 2 DOF | ❌ Structural problem — v derived from I, not independent |
 
 ---
@@ -165,7 +165,7 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 | Prediction | What it says | What would test it | Status |
 |-----------|-------------|-------------------|--------|
 | **Entity criterion (Γ < m)** | Decay width > mass → process, not entity | QCD exotica with Γ/m > 1 | Untested — consistent with f0(500) |
-| **Grid geometry → LIV** | Cubic Planck grid → Lorentz violation at ξ₂ ~ 1 | GRB polarimetry (AMEGO/CTA/GECAM-C) | Untested — requires cubic grid commitment |
+| **Grid geometry → LIV** | Cubic Planck grid → Lorentz violation at ξ₂ ~ 1 | GRB polarimetry (AMEGO/CTA/GECAM-C) | ⚠️ ALREADY CONSTRAINED — cubic grid excluded by rotational isotropy bounds (~10⁻¹⁴ vs predicted ~O(1)); ALL regular lattices excluded by boost violation (Δc/c < 10⁻¹⁸). Requires non-regular structure or retreat to metaphor. See `private-context/insights/2026-03-27`. |
 | **Formation-time bound** | Constitutive recurrence: electron t < 8×10⁻²¹ s | Ultrafast spectroscopy ~10⁴× below current | Untested — requires retrocausal commitment |
 
 ---
