@@ -287,3 +287,24 @@ All five "moderate failure" cases (r = 0.4-0.6) from Era 1 have clear four-regim
 5. **Diffusion** (liquid r=0.440, solid r=0.658): Liquid: Stokes-Einstein dominates (r=0.993 with viscosity). Partial r(D,γ|η) = 0.032 — zero residual. Solid: Regime 3 (barrier). Homologous temperature T/T_m gives r=0.887.
 
 **Updated assessment**: The ~15% "genuine failure" rate (r < 0.4 in applicable regime) after reclassification is the honest residual where the framework fails despite being in the correct domain.
+
+### [INVESTIGATED Phase 3 Session #1] CFD Cross-Pollination: Channel Independence as Multi-Component N-S (2026-03-26)
+
+**Cross-pollination with primary track CFD reframing (2026-03-08)**: If R(I) IS viscosity and N-S is scale-invariant, channel independence is what multi-component N-S predicts. Different DOFs (phonons, electrons, spins) have independent effective viscosities, just as MHD has independent ν (kinematic) and η (magnetic diffusivity).
+
+**Prandtl Analog Test**: Does γ_phonon/γ_electron behave like a Prandtl number (class-invariant)?
+
+**Result**: MIXED.
+- Between-class: ANOVA F=20.12, p<0.0001 — classes DO have characteristic ratios
+- Within-class: CV varies enormously by class complexity
+  - Alkali metals: CV=0.06 (ratio ≈ 8.4 ± 0.5) — strong Prandtl behavior
+  - Noble metals: CV=0.20 — good
+  - 4d, 5d metals: CV ≈ 0.43 — moderate
+  - Post-transition: CV=0.71 — poor
+  - 3d metals: CV=1.29 — fails (Cu outlier dominates)
+
+**Interpretation**: The N-S framing explains channel independence structurally but does not add predictive power beyond standard quasiparticle scattering theory. The Prandtl analog works for simple electronic structures (alkali, noble) and fails for complex d-band systems.
+
+**New insight**: λ_ep (electron-phonon coupling) is the analog of the Lorentz force in MHD — the coupling term between otherwise independent transport channels. This explains why it's the ONLY significant cross-channel bridge.
+
+**Files**: `Phase3_Session1_CFD_Channel_Independence.md`, `phase3_prandtl_analog_test.py`
