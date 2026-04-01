@@ -308,3 +308,28 @@ All five "moderate failure" cases (r = 0.4-0.6) from Era 1 have clear four-regim
 **New insight**: λ_ep (electron-phonon coupling) is the analog of the Lorentz force in MHD — the coupling term between otherwise independent transport channels. This explains why it's the ONLY significant cross-channel bridge.
 
 **Files**: `Phase3_Session1_CFD_Channel_Independence.md`, `phase3_prandtl_analog_test.py`
+
+
+### [INVESTIGATED Phase 3 Session #2] N-S Viscosity Framing: Circular for Superconductivity Tc (2026-04-01)
+
+**Test**: Does Re_ep = λ_ep/γ_phonon predict Tc better than λ_ep alone?
+
+**Dataset**: 24 elemental superconductors with known Tc, θ_D, λ_ep.
+
+**Result**: N-S Modified BCS FAILS. r = −0.364 (vs BCS r = 0.806). RMSE increases 72%.
+
+**Root cause**: γ_phonon(300K) = 600/θ_D. BCS already uses θ_D as the prefactor. Replacing "1" with γ_ph in the exponent introduces θ_D twice, inverting the prediction for extremes (high-θ_D weak-coupling metals predicted too high; low-θ_D strong-coupling metals predicted too low).
+
+**Residual correlation**: BCS residuals correlate with γ_ph (r=0.605, p=0.0017) — but this is a confound. High γ_ph → soft lattice → high λ_ep → strong-coupling regime where BCS underpredicts. The "correction" is regime identification (Allen-Dynes needed), not independent γ_ph content.
+
+**Key test**: BCS collapse quality:
+- r(log(Tc/θ_D), −1/λ_ep) = 0.965 [BCS — excellent]
+- r(log(Tc/θ_D), −γ_ph/λ_ep) = 0.039 [N-S modification — no collapse]
+
+**Circularity demonstrated**: The same circularity found in Phase 2 (γ = θ_D in disguise) appears MORE SHARPLY here because BCS explicitly uses θ_D. Any γ-based modification of BCS is circular by construction.
+
+**Pattern**: Both Phase 3 sessions give the same result — N-S framing is organizational vocabulary, not additional predictive physics. The framing is non-trivially consistent but adds nothing to Tc prediction.
+
+**When would N-S framing be non-circular?** In domains where standard physics does NOT directly use θ_D. Best candidate: phonon drag effect (κ_e/κ_ph ratio under current flow), multiferroics with coupled channels.
+
+**Full analysis**: `Phase3_Session2_Superconductivity_Viscosity_Collapse.md`
