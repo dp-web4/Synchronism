@@ -333,3 +333,26 @@ All five "moderate failure" cases (r = 0.4-0.6) from Era 1 have clear four-regim
 **When would N-S framing be non-circular?** In domains where standard physics does NOT directly use θ_D. Best candidate: phonon drag effect (κ_e/κ_ph ratio under current flow), multiferroics with coupled channels.
 
 **Full analysis**: `Phase3_Session2_Superconductivity_Viscosity_Collapse.md`
+
+### [RESOLVED Phase 3 Session #3] N-S Framing Circular for Debye Systems — Analytical Proof (2026-04-01)
+
+**Status**: EXPLAINED (not just empirically observed)
+
+**The general principle** (Phase 3 final conclusion):
+The Debye model IS an implicit N-S equation (discretized wave/momentum equation). The correspondence is EXACT in the long-wavelength, near-equilibrium limit:
+- Debye cutoff ω_D ↔ N-S effective phonon viscosity ν_ph ∝ ω_D
+- λ_ep ↔ N-S Lorentz force coupling term
+
+Therefore: any N-S-based modification of Debye-model physics is circular BY CONSTRUCTION — not by coincidence.
+
+**Phonon drag case** (analytically resolved without simulation):
+S_drag ∝ λ_ep × T²/v_F — θ_D cancels at fixed T (structural N-S insight: ν_ph ≈ constant in drag regime). BUT S_peak ∝ λ_ep × θ_D²/v_F — θ_D reappears via T_peak ≈ θ_D/5. Cross-material prediction reintroduces θ_D.
+
+**Boundary for possible non-circular N-S applications**:
+1. Non-equilibrium transport (ultrafast dynamics, high-field) — Debye BTE breaks down
+2. Strongly correlated systems (cuprates, heavy fermions) — quasiparticle picture fails
+3. Mesoscale emergent phenomena — neither atomic nor continuum limit
+
+**Full analysis**: `Phase3_Session3_Synthesis.md`
+
+**Phase 3 final verdict**: N-S framing is an exact vocabulary translation of the Debye model for equilibrium condensed matter. Organizational by construction, not by coincidence. Phase 3 CLOSED.
