@@ -356,3 +356,25 @@ S_drag ∝ λ_ep × T²/v_F — θ_D cancels at fixed T (structural N-S insight:
 **Full analysis**: `Phase3_Session3_Synthesis.md`
 
 **Phase 3 final verdict**: N-S framing is an exact vocabulary translation of the Debye model for equilibrium condensed matter. Organizational by construction, not by coincidence. Phase 3 CLOSED.
+
+### [INVESTIGATED Phase 4 Session #1] KSS Viscosity Bound — Entity Criterion Cross-Track Test (2026-04-01)
+
+**Domain**: Quantum critical material systems — NOT circular with θ_D (uses η, s, ℏ, k_B only)
+
+**Test**: Does η/s order material systems by quantum vs classical character? Does the KSS bound (η/s ≥ ℏ/4πk_B) correspond to the primary track's entity criterion (γ/f < 1)?
+
+**Result**: PARTIAL SUCCESS + NEW PREDICTION
+
+Ordering confirmed across 7 orders of magnitude:
+- QGP, cold Fermi gas: A/A_KSS ≈ 1-10 (quantum critical)
+- He-4 near λ-point: A/A_KSS ≈ 12 (near quantum transition)
+- Liquid metals: A/A_KSS ≈ 500-1200 (classical)
+- Molecular liquids/gases: A/A_KSS ≈ 400-4000 (classical)
+
+**New cross-track prediction**: Entity criterion (γ/f = 1 at threshold) maps to KSS bound (A = 1/(4π)) — both describe the same physics at different scales. The entity threshold IS the KSS bound expressed in material units.
+
+**Test to falsify**: Primary track's 3D entity criterion calculation (64³ grid, Thor) should give threshold value corresponding to A = 1/(4π) = 0.0796. If the 3D threshold gives a different value, the mapping fails.
+
+**NOT established**: Whether the ordering is Synchronism-specific (it's also expected from AdS/CFT/standard theory). The novel contribution is the cross-track identification.
+
+**Files**: `Phase4_Session1_KSS_Viscosity_Bound.md`, `phase4_session1_kss_viscosity_bound.py`
