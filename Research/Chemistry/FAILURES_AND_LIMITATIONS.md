@@ -378,3 +378,17 @@ Ordering confirmed across 7 orders of magnitude:
 **NOT established**: Whether the ordering is Synchronism-specific (it's also expected from AdS/CFT/standard theory). The novel contribution is the cross-track identification.
 
 **Files**: `Phase4_Session1_KSS_Viscosity_Bound.md`, `phase4_session1_kss_viscosity_bound.py`
+
+### [INVESTIGATED Phase 4 Session #2] KSS 4π Gap Analysis — Quantitative Mapping Fails (2026-04-02)
+
+**Stress test response**: The entity criterion (γ/f = -4·ln|r| in 1D) gives threshold |r| = 0.779. The KSS bound gives A = 1/(4π) = 0.0796. These ARE different numbers.
+
+**Analytical finding**: In 3D spherical cavity (radial mode), the factor changes from -4·ln|r| (1D) to -2·ln|r| (3D) because a sphere has ONE wall, not two. Threshold shifts to |r| = 0.607. The 4π factor from KSS comes from Bekenstein-Hawking entropy (black hole horizon area), NOT from cavity geometry. These are different mathematics.
+
+**Verdict**: The conceptual equivalence (entity criterion ↔ KSS, both separate coherent from dissipative) is VALID but the quantitative mapping is NOT established. The 4π gap represents a fundamental mismatch between cavity mechanics and black hole thermodynamics.
+
+**Vocabulary-mapping assessment**: This is BETTER than Phase 2-3 circularity (η/s is not θ_D) but WEAKER than a prediction (doesn't derive KSS from Synchronism).
+
+**Open route**: Deriving holographic entropy from the MRH boundary would resolve the gap — but this is equivalent to proving the holographic principle from a discrete CFD substrate.
+
+**Full analysis**: `Phase4_Session2_KSS_Stress_Test_Response.md`
