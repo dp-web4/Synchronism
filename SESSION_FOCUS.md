@@ -109,6 +109,8 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 5. **MRH → emergent spacetime**: If MRH boundary separates DOF you track from those you don't, it plays the role of a causal horizon. Same structure as holographic screen.
 
+6. **KSS bound ↔ entity criterion (Chemistry Phase 4)**: KSS ordering confirmed across 7 orders of magnitude (non-circular with θ_D). Proposed mapping: entity criterion γ/f=1 ↔ KSS A=1/(4π). **STRESS TEST NOTE**: These are different numbers (0.779 vs 0.0796); the 4π factor is predicted to come from 3D solid angle, not derived. The mapping is phenomenologically consistent (both separate coherent from dissipative) but the thresholds don't match until the 3D geometry produces the 4π factor. Cross-track test: contingent on solving 3D self-confinement (still blocked on R(I) defocusing). The KSS connection is the most promising lead since entity criterion, but vocabulary-mapping risk remains — KSS is standard AdS/CFT, so mapping to it may be reformulation not prediction.
+
 ### Computational Validation Results (Sessions #18-27)
 
 **Five mechanisms tested, 0/810 oscillations** — but see conservation bug hypothesis above.
