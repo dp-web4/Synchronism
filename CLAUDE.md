@@ -64,6 +64,11 @@ Sessions organized into **arcs**. Pattern: `Research/SessionNNN_ArcName_Topic.md
 
 616 core sessions | 2671 chemistry sessions | 11 gnosis sessions | 41+ complete arcs | ~89% chemistry validation rate
 
+## Epistemic Principles
+
+1. **Persistence ≠ perseveration** — Persistence updates from feedback. Perseveration ignores it. If an approach isn't producing new signal, that's data — not a reason to try harder.
+2. **Productive failure > safe summaries** — A well-documented dead end that eliminates a possibility is more valuable than a summary of known results.
+
 ## Session Discipline
 
 - **Re-read before editing**: After 10+ messages in a conversation, re-read any file before editing it. Auto-compaction may have silently dropped file contents from context. Do not trust memory of file state — verify.
@@ -75,7 +80,7 @@ Sessions organized into **arcs**. Pattern: `Research/SessionNNN_ArcName_Topic.md
 <!-- gitnexus:keep -->
 # GitNexus — Code Knowledge Graph
 
-Indexed as **Synchronism** (34428 symbols, 52859 relationships, 279 execution flows). MCP tools available via `mcp__gitnexus__*`.
+Indexed as **Synchronism** (34469 symbols, 52895 relationships, 273 execution flows). MCP tools available via `mcp__gitnexus__*`.
 
 **Do not reindex.** The supervisor handles GitNexus indexing. If the index is stale, note it in SESSION_FOCUS.
 
