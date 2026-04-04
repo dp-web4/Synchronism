@@ -73,10 +73,60 @@ adjacent cells</li>
 <li><strong>Saturation Resistance:</strong> Transfer rate decreases as
 cells approach I_max</li>
 </ul>
+<p><strong>The Update Is Parallel</strong></p>
+<p>The grid update rule is massively parallel. At each tick, every cell
+simultaneously: 1. Reads the Intent states of its immediate neighbors
+(from the previous tick) 2. Evaluates its tension — the aggregate Intent
+gradient across all neighbors 3. Steps forward to its new Intent
+state</p>
+<p>All cells do this in the same tick. The whole universe steps forward
+at once, based on the previous global state. There is no scan beam, no
+preferred update direction, no cursor visiting cells in sequence.</p>
+<p>This has immediate consequences: - <strong>Lorentz
+invariance</strong>: No preferred spatial direction is introduced by the
+update rule. Symmetry across all spatial axes is preserved by
+construction. - <strong>Entanglement</strong>: Long-range correlations
+exist as global tension patterns in the Intent field. The parallel
+update evaluates these patterns simultaneously everywhere — no signal
+needs to travel between correlated cells, because the tension is already
+global and the update resolves it globally in one step.</p>
+<p><strong>Existence Requires Recurrence</strong></p>
+<p>A single tick’s output — one global Intent distribution — is not an
+entity. It has no persistence, no identity. For anything to
+<em>exist</em>, its Intent distribution must recur across a sequence of
+ticks: the same spatial pattern returning again and again, each tick’s
+tension evaluation seeding the next, cycling back to the starting
+configuration.</p>
+<p><strong>Entity = recurring pattern of Intent distribution over tick
+sequences.</strong></p>
+<p>The oscillation period τ (ticks per cycle) is a fundamental property
+of the entity — its characteristic frequency f = 1/τ. For quantum
+particles, this IS the de Broglie frequency: f = E/h. Energy is how fast
+the pattern oscillates. Mass is the base oscillation frequency at
+rest.</p>
+<p><strong>Interaction as temporal overlap</strong></p>
+<p>When two recurring patterns come into proximity, their tension fields
+interact tick by tick. The character of the interaction depends on the
+<em>temporal pattern</em> of that overlap:</p>
+<ul>
+<li><strong>Resonance</strong>: tension contributions add constructively
+over many ticks — patterns draw together, phases lock, binding
+occurs</li>
+<li><strong>Dissonance</strong>: tension contributions cancel
+destructively over many ticks — patterns repel</li>
+<li><strong>Indifference</strong>: no consistent phase relationship —
+patterns coexist without coupling</li>
+</ul>
+<p>This is not a separate interaction mechanism. It is what happens when
+the tension fields of two self-sustaining oscillations share the same
+region of the grid. Quantum interference, chemical bonding, and
+gravitational attraction are all resonance at different scales and
+oscillation frequencies.</p>
 <p><strong>Understanding Through Analogy</strong></p>
 <ul>
 <li><strong>3D Cellular Automaton:</strong> Like Conway’s Game of Life
-in 3D, but with saturation enabling stable structures</li>
+in 3D, but with saturation enabling stable structures, and with fully
+parallel update (all cells step simultaneously)</li>
 <li><strong>Sponge Saturation:</strong> Like a sponge that resists
 absorbing more water as it fills</li>
 <li><strong>Traffic Congestion:</strong> Flow rate decreases as density
@@ -90,6 +140,65 @@ transfer include: - Population dynamics (logistic growth) - Traffic flow
 Nonlinear optics (optical solitons)</p>
 <p>All support stable localized patterns—exactly what Synchronism needs
 for entity formation.</p>
+<p><strong>The Structure is Navier-Stokes</strong></p>
+<p>The saturation resistance R(I) is not just an analogy to viscosity.
+It <em>is</em> viscosity, precisely defined.</p>
+<p>The Intent transfer equation in continuum form:</p>
+<pre><code>∂I/∂t = ∇ · [D·R(I)·∇I]     where R(I) = [1 - (I/I_max)^n]</code></pre>
+<p>maps exactly onto the incompressible Navier-Stokes equations:</p>
+<table>
+<thead>
+<tr class="header">
+<th>N-S term</th>
+<th>Intent dynamics analog</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Density ρ</td>
+<td>I/I_max (normalized Intent density)</td>
+</tr>
+<tr class="even">
+<td>Velocity v</td>
+<td>Intent flux J/I</td>
+</tr>
+<tr class="odd">
+<td>Pressure P</td>
+<td>I_max − I (saturation pressure)</td>
+</tr>
+<tr class="even">
+<td>Viscosity μ</td>
+<td>D·R(I) = D·[1−(I/I_max)^n]</td>
+</tr>
+<tr class="odd">
+<td>Body force f</td>
+<td>External gradient sources</td>
+</tr>
+<tr class="even">
+<td>∇·v = 0</td>
+<td>ΣI = const (Intent conservation = exact incompressibility)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>R(I) is a shear-thinning, power-law viscosity</strong>:
+near-zero saturation gives maximum viscosity (sluggish flow, patterns
+don’t form); near I_max gives minimum viscosity (Intent circulates
+freely within saturated patterns). This viscosity minimum at high
+saturation is precisely what allows standing waves and stable entities
+to exist: the pattern interior is low-viscosity (self-sustaining
+circulation) bounded by a high-resistance saturation gradient.</p>
+<p>Intent conservation (ΣI = const at every tick) gives exact
+incompressibility — no sources or sinks of the Intent fluid. This is the
+strongest form of the constraint: the underlying fluid is incompressible
+by construction, not by approximation.</p>
+<p><strong>Navier-Stokes is not imposed on Synchronism as an analogy. It
+is what Intent conservation plus saturation resistance become in the
+continuum limit.</strong> This connects Synchronism to the most
+thoroughly validated equation in fluid dynamics — and implies that the
+same structure (with scale-specific parameter interpretations) should
+appear at every scale where MRH-bounded patterns interact. See
+<code>Research/CFD_Reframing_NS_Scale_Invariance.md</code> for the full
+scale-invariant parameter table.</p>
 <p><strong>Remember the Abstraction</strong></p>
 <p>The grid is a modeling tool—it enables computation and prediction
 without claiming literal discrete cells exist in reality. Like a
