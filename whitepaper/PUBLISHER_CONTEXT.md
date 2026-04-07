@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-02-19
+**Last Updated**: 2026-04-07
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -178,6 +178,15 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 2026-04-07: Publisher Maintenance - Count Updates
+- Gnosis count 11→17 (empirical phase #12-17: SAGE/Legion integration, trust entropy, game theory, topology, info geometry)
+- Chemistry count 2,671→2,676 (Phase 3: 3 sessions, Phase 4: 2 sessions)
+- Chemistry phenomenon types 1,873→1,913
+- Total ~3,308→~3,309
+- Added Gnosis empirical phase entry to executive summary
+- Updated Chemistry entry with Phase 3 (CFD cross-pollination, N-S↔Debye) and Phase 4 (KSS bound) status
+- Rebuilt all artifacts (md, pdf, web)
+
 ### 2026-01-16: Research Integration #004
 - Sessions #265-272 + Chemistry #34-45
 - **QC Arc**: Gates = coherence operations, Born rule DERIVED
@@ -318,13 +327,13 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-02-19)
+### Session Counts (as of 2026-04-07)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
 | Core | 616 | Sessions through #616 (η Framework Audit — ALL 4 TRACKS REPARAMETRIZATIONS) |
-| Chemistry | 2,671 | 1,873 phenomenon types; Era 2 template-based |
-| Gnosis | 11 | Complete |
+| Chemistry | 2,676 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 active (KSS) |
+| Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
 ### Pending Integrations
 
@@ -345,9 +354,9 @@ For minor changes (typos, statistics updates):
 
 ### Whitepaper Health
 
-- Last integration: 2026-02-19
-- Sessions behind: 0 (all arcs closed, counts updated through #616)
-- Build status: Clean (rebuilt 2026-02-19)
+- Last integration: 2026-04-07
+- Sessions behind: 0 (counts updated, Phase 4 active but not integration-ready)
+- Build status: Clean (rebuilt 2026-04-07)
 - Governance: Active (Rev_0)
 
 ---
