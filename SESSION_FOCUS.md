@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-08*
+*Last updated: 2026-04-09*
 
 ---
 
@@ -143,6 +143,21 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 Full analysis: `Research/Session617_Diffusion_Not_NavierStokes.md`
 
+### Session 618 Result: Three Incompatibilities (2026-04-09)
+
+**Three independent structural incompatibilities identified, plus a meta-pattern:**
+
+1. **Conservation bug hypothesis is secretly 2-DOF**: The proposed fix (track velocity, reverse at walls) implicitly adds a second field. You can't "conserve momentum" in a 1-DOF system that has no momentum variable. The hypothesis converges with S617 — 1-DOF cannot produce entities — but from a different direction.
+
+2. **Waveguide hypothesis NEGATIVE**: Tested whether density-dependent viscosity mu(rho) = D*[1-(rho/rho_max)^n] creates natural waveguides (low-viscosity core, high-viscosity exterior traps waves). FAILED — the density structure itself is dynamically unstable (high density = high pressure = expansion). Core disperses before viscosity contrast matters. Higher saturation makes confinement WORSE (ratio 0.50 at rho=0.99). Code: `simulations/session618_waveguide_test.py`. Same negative result as S19-22 from a fourth independent approach.
+
+3. **P = I_max - I gives c^2 < 0 (NEW)**: The pressure identification P = I_max - I means dP/drho = -1. Sound speed c = sqrt(dP/drho) is imaginary. The continuum PDEs are ill-posed (Hadamard instability). No waves, no oscillations. Independent of the 1-DOF/2-DOF fork — even 2-DOF can't oscillate with inverted EOS. The cruel irony: this inverted pressure IS gravitational attraction (dense regions attract), so the mechanism that gives gravity kills waves. Can't have both without a more complex EOS.
+
+**Meta-pattern: The Epicycle Dynamic.** Each time a specific commitment fails (transfer rule, pressure, grid geometry, viscosity model), the framework modifies the commitment while preserving the core claim ("universal computational substrate"). The core survives because it makes no specific testable commitments. This is structurally identical to Ptolemaic epicycles: flexibility prevents disconfirmation.
+
+Full analysis: `Research/Session618_Three_Incompatibilities.md`
+Insights: `private-context/insights/2026-04-09_three_incompatibilities.md`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -166,6 +181,8 @@ Full analysis: `Research/Session617_Diffusion_Not_NavierStokes.md`
 | Dark matter = high viscosity | ❌ Sign error vs Bullet Cluster + internal contradiction |
 | Lorentz invariance from parallel update | ❌ Logical gap AND empirical constraint — no discrete 3D lattice has SO(3), and existing GRB/isotropy data exclude regular Planck lattices by 14+ orders of magnitude |
 | N-S mapping: 1 DOF vs 2 DOF | ❌ FOUNDATIONAL FORK (S617) — 1-DOF transfer rule is diffusion, not N-S. Fork: stay with 1 field (honest but no entities) or add momentum field (genuine N-S but contradicts "what flows: Intent" in FUNDAMENTALS.md). Framework must choose. |
+| Pressure P = I_max - I | ❌ NEW (S618) — gives c² < 0 (imaginary sound speed). Hadamard-unstable: no wave propagation. Independent of 1/2-DOF fork. The inverted EOS that gives gravitational attraction is incompatible with wave dynamics. |
+| Density-dependent viscosity as waveguide | ❌ NEW (S618) — mu(rho) viscosity contrast doesn't confine waves because density structure itself is unstable. Higher saturation makes confinement worse. Fourth independent negative result for self-confinement (after S19, S20, S21-22). |
 
 ---
 
