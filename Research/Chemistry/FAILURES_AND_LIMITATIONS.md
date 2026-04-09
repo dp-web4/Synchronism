@@ -417,3 +417,22 @@ Ordering confirmed across 7 orders of magnitude:
 **New known gap**: The Synchronism framework needs a STRUCTURAL entity criterion alongside the oscillatory entity criterion. The Lindemann criterion is the empirical version; the framework should derive it from substrate dynamics.
 
 **Full analysis**: `Phase4_Session3_Lindemann_KSS.md`, `phase4_session3_lindemann_kss.py`
+
+### [INVESTIGATED Phase 4 Session #4] Structural Entity Criterion — Derivation Attempt (2026-04-09)
+
+**Test**: Can L_crit ≈ 0.1 be derived from the Synchronism substrate (discrete grid, saturation function, MRH)?
+
+**Three routes attempted**:
+1. **Information-theoretic (Bragg peak survival)**: L < √3/(4π) ≈ 0.138 for crystal system identifiability, L < √3/(6π) ≈ 0.092 for full structural definition. VERDICT: RESTATEMENT — Debye-Waller factor is standard physics, not Synchronism-specific.
+2. **Saturation gradient (Intent well width)**: L_crit = 1/(2√n) requires knowing saturation exponent n. VERDICT: CIRCULAR — fits n to match L_crit.
+3. **Voronoi escape probability**: Structure-dependent L_crit from Wigner-Seitz cell geometry. Predicts BCC > FCC > DIA ordering. VERDICT: PARTIALLY NOVEL — structure dependence is testable.
+
+**Structure-dependent ordering OBSERVED**: BCC L=0.077, FCC L=0.066, HCP L=0.059, DIA L=0.051. FCC > DIA significant (p=0.004); BCC > FCC marginal (p=0.096).
+
+**KEY FINDING — Bonding type dominates crystal structure**: Within BCC metals, alkali L=0.093±0.004 vs transition L=0.060±0.010 (t=6.05, p=0.0002). The Voronoi prediction is CONFOUNDED — bonding character matters more than geometric packing for L_crit.
+
+**Core result**: L_crit cannot be derived parameter-free from ANY framework (standard physics or Synchronism). Every derivation route requires choosing a threshold that maps onto L_crit. The Lindemann criterion remains empirical — analogous to the fine-structure constant as an underived dimensionless number.
+
+**Assessment**: PRODUCTIVE FAILURE. The boundary between "can classify" (two entity types) and "can derive" (L_crit value) is now clearly mapped. The two-entity taxonomy from Session #3 remains the genuine Phase 4 contribution; this session confirms it cannot be extended to a derivation.
+
+**Full analysis**: `Phase4_Session4_Structural_Entity_Criterion.md`, `phase4_session4_structural_entity.py`
