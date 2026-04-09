@@ -142,6 +142,9 @@ SOC dominates many magnetic properties. The framework treats this as an exceptio
 ### 5. Reaction Mechanism Definition
 The reaction kinetics predictions are circular because γ is defined from mechanism type. Need independent γ measurement.
 
+### 6. No Structural Entity Criterion
+[Added Phase 4 Session #3] The entity criterion γ/f < 1 applies to oscillatory entities (waves, particles) but NOT to structural entities (crystals, molecules). Crystals have Q << 1 (γ/f >> 1) at all physically relevant temperatures yet persist as entities until the Lindemann criterion is violated. The framework needs a structural entity criterion derivable from the Intent substrate — the Lindemann criterion (L < 0.1) is the empirical target.
+
 ---
 
 ## Quantitative Summary
@@ -392,3 +395,25 @@ Ordering confirmed across 7 orders of magnitude:
 **Open route**: Deriving holographic entropy from the MRH boundary would resolve the gap — but this is equivalent to proving the holographic principle from a discrete CFD substrate.
 
 **Full analysis**: `Phase4_Session2_KSS_Stress_Test_Response.md`
+
+### [INVESTIGATED Phase 4 Session #3] Lindemann-KSS: η/s at the Melting Point (2026-04-08)
+
+**Test**: Does η/s at the melting point provide a material-independent entity criterion? Is melting an entity→process transition in the KSS framework?
+
+**Dataset**: 26 materials (alkali, noble, simple, transition, refractory metals, semiconductors, rare earth). Liquid viscosity and thermodynamic entropy at T_m.
+
+**Result**: η/s at melting is NOT universal. A/A_KSS ranges from 72 (Si) to 1064 (Gd), spread 15×, CV=0.49. The Lindemann parameter (CV=0.26) clusters nearly 2× tighter. Lindemann and η/s are completely orthogonal at melting (r = −0.048).
+
+**Key finding — Two types of entity**:
+- ALL crystals have phonon Q << 1 at melting (γ/f = 3-543). No crystal satisfies the entity criterion γ/f < 1 at ANY temperature above ~10K.
+- Yet crystals persist as entities until T_m. They are STRUCTURAL entities (order persists through time-averaged positions), not OSCILLATORY entities (pattern recurs through dynamic cycling).
+- The entity criterion γ/f < 1 applies to oscillatory entities (quantum particles, vortices). The Lindemann criterion L < L_crit applies to structural entities (crystals, molecules).
+- These are different physics: dissipation vs amplitude. The FUNDAMENTALS.md definition ("recurring pattern") accommodates both, but the mathematical criterion needs extension.
+
+**Melting in the KSS hierarchy**: A/A_KSS ≈ 100-1000 at melting — classical onset, well above quantum critical. Si/Ge are outliers (A/A_KSS ≈ 72-103) due to covalent→metallic liquid transition.
+
+**Regression**: log(A/A_KSS) at melting is primarily determined by liquid density (coefficient −0.92) and atomic mass (+0.52). θ_D adds only 0.06 to R² — confirming non-circularity with Phase 2-3 Debye findings.
+
+**New known gap**: The Synchronism framework needs a STRUCTURAL entity criterion alongside the oscillatory entity criterion. The Lindemann criterion is the empirical version; the framework should derive it from substrate dynamics.
+
+**Full analysis**: `Phase4_Session3_Lindemann_KSS.md`, `phase4_session3_lindemann_kss.py`
