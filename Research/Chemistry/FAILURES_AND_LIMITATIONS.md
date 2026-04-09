@@ -450,3 +450,21 @@ Ordering confirmed across 7 orders of magnitude:
 **Chemistry track meta-result**: gamma = 2T/theta_D carries zero bits beyond theta_D at fixed T. The Synchronism coherence function applied to equilibrium condensed matter is an exact reparametrization of the Debye model. It organizes (four regimes, two entity types) but does not predict anything standard physics cannot. Predictive content, if it exists, will be found at other scales.
 
 **Full analysis**: `Phase4_Session5_Allotrope_Cooper_Assessment.md`, `phase4_session5_allotrope_test.py`
+
+### [CROSS-TRACK] Convergence with Primary Track Sessions 617-620 (2026-04-09)
+
+**Two independent tracks reached the same conclusion from opposite directions.**
+
+The chemistry track found EMPIRICALLY (2680 sessions) that γ = 2T/θ_D is organizational vocabulary, not predictive theory. The primary track found MATHEMATICALLY (Sessions 617-620) that the transfer rule gives nonlinear diffusion, not Navier-Stokes, and that 70% of the framework's vocabulary (synchronization, resonance, dissonance, oscillation, witnessing) requires phase dynamics that the mathematics does not contain.
+
+**The causal chain**: Transfer rule → diffusion (no phase) → γ can only reparametrize existing models → organizational value without predictive novelty. The chemistry track's Phase 3 proof (Debye model IS an implicit N-S equation) was actually MORE generous than warranted — Session 617 showed the transfer rule doesn't even give N-S.
+
+**Additional primary track findings relevant to chemistry**:
+- P = I_max - I gives c² < 0 (no wave propagation) — S618
+- No natural P(ρ) from R(I) gives both gravity and waves — S619
+- Cosmological deceleration prediction (only specific EOS prediction) is refuted — S619
+- Self-confinement fails in ALL formulations (real/complex, 1-DOF/2-DOF) — fifth failure in S620
+
+**What survives**: Four-regime classification, eight combined predictions, channel independence quantification, SOC dominance parameter, two-entity taxonomy. All organizational. None predictive beyond standard physics.
+
+**Full analysis**: `CrossTrack_Synthesis_Vocabulary_Not_Theory.md`
