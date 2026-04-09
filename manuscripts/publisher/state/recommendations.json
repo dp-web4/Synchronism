@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-03T03:30:00Z",
+  "last_updated": "2026-04-09T03:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -1616,9 +1616,19 @@
       "sessions_desc": "Stress test sessions 1-10 + Simulation sessions 17-22 + Conservation Bug Hypothesis",
       "status": "in_progress",
       "date_started": "2026-02-23",
-      "milestone": "Entity criterion \u03b3/f = -4\u00b7ln|r| DERIVED from cavity impedance mismatch (Session 18). R(I) defocusing confirmed in 1D, 2D, 3D. Self-confinement unachieved.",
-      "progress": "~16 sessions. CFD reframing \u2192 stress tests \u2192 conservation bug \u2192 simulation arc. Key result: entity criterion derivation. Key negative: R(I) defocusing prevents self-confinement across all dimensions.",
-      "note": "Arc STILL ACTIVE. Blocked on self-confinement. Operator proposes dynamic transient saturation as next approach. KSS bound (Chemistry Phase 4) is cross-track test. NOT ready for recommendation \u2014 needs resolution of self-confinement question."
+      "milestone": "Entity criterion γ/f = -4·ln|r| DERIVED from cavity impedance mismatch (Session 18). R(I) defocusing confirmed in 1D, 2D, 3D. Self-confinement unachieved.",
+      "progress": "~16 sessions. CFD reframing → stress tests → conservation bug → simulation arc. Key result: entity criterion derivation. Key negative: R(I) defocusing prevents self-confinement across all dimensions.",
+      "note": "Arc STILL ACTIVE. Blocked on self-confinement. Operator proposes dynamic transient saturation as next approach. KSS bound (Chemistry Phase 4) is cross-track test. NOT ready for recommendation — needs resolution of self-confinement question."
+    },
+    {
+      "arc_name": "Framework Stress Test (Sessions #617-618)",
+      "track": "core",
+      "sessions": [617, 618],
+      "status": "active",
+      "date_started": "2026-04-08",
+      "milestone": "S617: Transfer rule = diffusion, not N-S (category error in CFD paper). S618: Three independent structural incompatibilities + epicycle meta-pattern. Foundational fork: 1-DOF (diffusion) vs 2-DOF (genuine N-S).",
+      "progress": "2 sessions. Both graded A/A+. S617 explains 810 failed simulations structurally. S618 adds waveguide test (NEGATIVE) + imaginary sound speed (c²<0) + epicycle naming.",
+      "note": "Arc ACTIVE. NOT ready for publication recommendation — actively challenging the framework's foundations. However, this IS the most intellectually honest work in the project: S617 explains why every simulation failed, S618 names the pattern of protecting core claims. If this arc reaches a resolution (Fork A/B/C chosen with evidence), it could become the most publishable finding: 'Here is how a research program identified and confronted its own structural limitations.' Monitor closely."
     }
   ],
   "milestones": {
