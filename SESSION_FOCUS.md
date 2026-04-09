@@ -158,6 +158,27 @@ Full analysis: `Research/Session617_Diffusion_Not_NavierStokes.md`
 Full analysis: `Research/Session618_Three_Incompatibilities.md`
 Insights: `private-context/insights/2026-04-09_three_incompatibilities.md`
 
+### Session 619 Result: Gravity-Waves No-Go Theorem (2026-04-09)
+
+**No natural pressure function P(ρ) derivable from R(I) gives both gravitational attraction and wave propagation.** Exhaustive test of all four natural identifications:
+
+| P(ρ) | dP/dρ | Gravity? | Waves? |
+|-------|-------|----------|--------|
+| I_max - ρ | -1 | YES | NO |
+| R(ρ) | -nρ^(n-1) | YES | NO |
+| ρ·R(ρ) | 1-(n+1)ρ^n | **Inverted** | **Inverted** |
+| ∫R dρ | R(ρ) ≥ 0 | NO | YES |
+
+The dual requirement (attraction at low ρ, propagation at high ρ) demands a P(ρ) with a **minimum**. R(I) cannot produce one. The ρ·R case is non-monotonic but inverted: waves at low density, gravity at high density (backwards from what's needed).
+
+**Cosmological refutation**: P = I_max - I in the Friedmann equation gives ρ + 3P = 3ρ_max - 2ρ > 0 always (since ρ ≤ ρ_max). The universe **always decelerates**. Observed: accelerating. First specific prediction from the literal EOS — refuted.
+
+**Frame question identified**: The framework tries to derive duality (attraction + propagation) from unity (one field, one mechanism). This is a structural impossibility, not a parameter problem. The escape requires physics R(I) cannot provide: a phase transition, complex-valued fields, or scale-dependent EOS.
+
+Full analysis: `Research/Session619_Gravity_Waves_NoGo.md`
+Insights: `private-context/insights/2026-04-09_gravity_waves_nogo.md`
+Code: `simulations/session619_gravity_waves_theorem.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -183,6 +204,8 @@ Insights: `private-context/insights/2026-04-09_three_incompatibilities.md`
 | N-S mapping: 1 DOF vs 2 DOF | ❌ FOUNDATIONAL FORK (S617) — 1-DOF transfer rule is diffusion, not N-S. Fork: stay with 1 field (honest but no entities) or add momentum field (genuine N-S but contradicts "what flows: Intent" in FUNDAMENTALS.md). Framework must choose. |
 | Pressure P = I_max - I | ❌ NEW (S618) — gives c² < 0 (imaginary sound speed). Hadamard-unstable: no wave propagation. Independent of 1/2-DOF fork. The inverted EOS that gives gravitational attraction is incompatible with wave dynamics. |
 | Density-dependent viscosity as waveguide | ❌ NEW (S618) — mu(rho) viscosity contrast doesn't confine waves because density structure itself is unstable. Higher saturation makes confinement worse. Fourth independent negative result for self-confinement (after S19, S20, S21-22). |
+| Gravity + waves from R(I) | ❌ NO-GO THEOREM (S619) — no natural P(ρ) from R(I) gives both gravitational attraction (low ρ) and wave propagation (high ρ). Four identifications tested exhaustively. ρ·R near-miss is inverted. Dual requirement demands P(ρ) minimum that R(I) cannot produce. |
+| Cosmological acceleration from P = I_max - I | ❌ REFUTED (S619) — Friedmann equation gives ρ+3P = 3ρ_max - 2ρ > 0 always. Universe always decelerates. Observation: accelerating. First specific cosmological prediction from the EOS — wrong. |
 
 ---
 
@@ -206,6 +229,7 @@ Insights: `private-context/insights/2026-04-09_three_incompatibilities.md`
 | **Entity criterion (Γ < m)** | Decay width > mass → process, not entity | QCD exotica with Γ/m > 1 | Untested — consistent with f0(500) |
 | **Grid geometry → LIV** | Cubic Planck grid → Lorentz violation at ξ₂ ~ 1 | GRB polarimetry (AMEGO/CTA/GECAM-C) | ⚠️ ALREADY CONSTRAINED — cubic grid excluded by rotational isotropy bounds (~10⁻¹⁴ vs predicted ~O(1)); ALL regular lattices excluded by boost violation (Δc/c < 10⁻¹⁸). Requires non-regular structure or retreat to metaphor. See `private-context/insights/2026-03-27`. |
 | **Formation-time bound** | Constitutive recurrence: electron t < 8×10⁻²¹ s | Ultrafast spectroscopy ~10⁴× below current | Untested — requires retrocausal commitment |
+| **Cosmological deceleration** | P = I_max - I → ρ+3P > 0 always → no acceleration | Observed cosmic acceleration (SNe Ia, BAO, CMB) | ❌ REFUTED (S619) — universe IS accelerating. First specific prediction from the literal EOS. |
 
 ---
 

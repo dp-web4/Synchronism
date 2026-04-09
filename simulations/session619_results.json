@@ -1,0 +1,27 @@
+{
+  "session": 619,
+  "theorem": "No monotonic P(rho) from R(I) gives both gravity and waves",
+  "cosmological_prediction": "P = I_max - I -> deceleration only, no dark energy",
+  "cosmological_verdict": "REFUTED by observed acceleration",
+  "pressure_identifications_tested": 4,
+  "successful_identifications": 0,
+  "escape_requires": "non-monotonic P(rho) with minimum \u2014 new physics",
+  "natural_pressure_options": {
+    "I_max - rho": {
+      "gravity": true,
+      "waves": false
+    },
+    "R(rho)": {
+      "gravity": true,
+      "waves": false
+    },
+    "rho * R(rho)": {
+      "gravity": "partial (wrong regime)",
+      "waves": "partial (wrong regime)"
+    },
+    "integral(R)": {
+      "gravity": false,
+      "waves": true
+    }
+  }
+}
