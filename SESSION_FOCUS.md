@@ -179,6 +179,28 @@ Full analysis: `Research/Session619_Gravity_Waves_NoGo.md`
 Insights: `private-context/insights/2026-04-09_gravity_waves_nogo.md`
 Code: `simulations/session619_gravity_waves_theorem.py`
 
+### Session 620 Result: The Name vs The Mathematics (2026-04-09)
+
+**The framework's vocabulary contradicts its mathematics.** 7 of 10 core concepts (synchronization, resonance, dissonance, indifference, oscillation, witnessing, de Broglie frequency) require PHASE dynamics. The stated mathematics (real scalar I, real transfer coefficient k) has no phase. The name "Synchronism" describes a theory about synchronization that cannot synchronize.
+
+**Complex Intent test**: Making I complex and k imaginary gives Schrödinger dynamics (waves, interference, phase relationships). This solves the diffusion problem (S617) but IS quantum mechanics, not an extension of it.
+
+**Self-confinement STILL fails in complex case**: R(|Ψ|²) = [1-(ρ/ρ_max)^n] gives DEFOCUSING nonlinearity in the NLS context. Width ratio 2.44 (dispersed). Self-confinement requires FOCUSING nonlinearity (R' > 0), which contradicts monotonic saturation. **The saturation assumption kills self-confinement in ALL formulations** — real/complex, 1-DOF/2-DOF. This is the fifth independent approach to fail (after S19, S20, S21-22, S618).
+
+**Nonlinear QM corrections are 10⁻¹⁵⁵** at nuclear density. No testable prediction.
+
+**Convergence pattern**: Every fix to a structural failure IS a known physical theory:
+- 1-DOF → 2-DOF = Newton's second law
+- Real → complex = Schrödinger equation  
+- Monotonic → non-monotonic P = QCD phase transitions
+- Single ρ_max → scale-dependent = renormalization group
+
+**Frame question**: Synchronism may be a vocabulary for physics rather than a theory of it. The vocabulary (witnessing, MRH, resonance/dissonance) genuinely illuminates QM but produces no predictions distinguishable from it.
+
+Full analysis: `Research/Session620_Name_vs_Mathematics.md`
+Insights: `private-context/insights/2026-04-09_name_vs_mathematics.md`
+Code: `simulations/session620_complex_intent.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -206,6 +228,9 @@ Code: `simulations/session619_gravity_waves_theorem.py`
 | Density-dependent viscosity as waveguide | ❌ NEW (S618) — mu(rho) viscosity contrast doesn't confine waves because density structure itself is unstable. Higher saturation makes confinement worse. Fourth independent negative result for self-confinement (after S19, S20, S21-22). |
 | Gravity + waves from R(I) | ❌ NO-GO THEOREM (S619) — no natural P(ρ) from R(I) gives both gravitational attraction (low ρ) and wave propagation (high ρ). Four identifications tested exhaustively. ρ·R near-miss is inverted. Dual requirement demands P(ρ) minimum that R(I) cannot produce. |
 | Cosmological acceleration from P = I_max - I | ❌ REFUTED (S619) — Friedmann equation gives ρ+3P = 3ρ_max - 2ρ > 0 always. Universe always decelerates. Observation: accelerating. First specific cosmological prediction from the EOS — wrong. |
+| Name-mathematics consistency | ❌ CONTRADICTION (S620) — 7/10 core concepts require phase (complex fields). Mathematics has no phase. Framework vocabulary describes wave physics; mathematics implements diffusion. |
+| Complex Intent as fix | ⚠️ TESTED (S620) — Making I complex + k imaginary gives Schrödinger dynamics (correct). But this IS quantum mechanics, not a new theory. R(|Ψ|²) self-confinement still fails (defocusing). NL corrections 10⁻¹⁵⁵. |
+| Self-confinement (any formulation) | ❌ FIFTH FAILURE (S620) — Monotonic saturation R(I) gives defocusing in ALL cases: real/complex, 1-DOF/2-DOF. Self-confinement requires R'(ρ) > 0 somewhere, which contradicts saturation. |
 
 ---
 

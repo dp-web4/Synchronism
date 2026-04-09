@@ -1,0 +1,75 @@
+{
+  "test1_real_vs_complex": {
+    "real_field": {
+      "peak_initial": 1.0,
+      "peak_final": 0.674371419857691,
+      "width_initial": 43.0,
+      "width_final": 63.0,
+      "monotonic_decay": true,
+      "verdict": "RETAINED"
+    },
+    "complex_field_imagk": {
+      "peak_initial": 0.9999999999999998,
+      "peak_final": 0.6702930034083131,
+      "width_initial": 31.0,
+      "width_final": 46.0,
+      "monotonic_decay": true,
+      "verdict": "DIFFUSION"
+    },
+    "complex_field_realk": {
+      "peak_initial": 0.9999999999999998,
+      "peak_final": 0.003379561792889632,
+      "monotonic_decay": true,
+      "verdict": "Complex field + real k = still diffusion?"
+    }
+  },
+  "test2_complex_saturation": {
+    "width_ratio": 2.4410579491685205,
+    "self_confined": false,
+    "verdict": "DISPERSED (width ratio 2.44)"
+  },
+  "test3_phase_sync": {
+    "initial_phase_diff": 2.199114857512855,
+    "phase_diffs_early": [
+      2.199114857512855,
+      2.1991596243754445,
+      2.199204334108346,
+      2.199248928046917,
+      2.1992933480151984
+    ],
+    "phase_diffs_late": [
+      2.200529483542883,
+      2.2005243685608304,
+      2.2005191906661596,
+      2.2005139546959027,
+      2.200508665268627
+    ],
+    "phase_locked": "True",
+    "overlap_early": [
+      1.6385668876322255e-23,
+      1.6658066940968653e-23,
+      1.7401017794169685e-23,
+      1.8672724775772205e-23,
+      2.0576158413510785e-23
+    ],
+    "overlap_late": [
+      1.9231626289028916e-08,
+      2.4527823759721906e-08,
+      3.115729685249176e-08,
+      3.942231954881663e-08,
+      4.9685558568073105e-08
+    ],
+    "verdict": "PHASE LOCKED (resonance)"
+  },
+  "test4_vocabulary": {
+    "total_concepts": 10,
+    "require_phase": 7,
+    "work_in_real": 3,
+    "fraction_requiring_phase": 0.7,
+    "verdict": "7/10 (70%) of framework concepts require phase (complex fields). The framework's vocabulary is 70% wave physics described with diffusion mathematics."
+  },
+  "test5_nonlinear_qm": {
+    "all_unobservable": true,
+    "verdict": "ALL nonlinear corrections are < 10^-155. Completely unobservable at any achievable density."
+  }
+}
