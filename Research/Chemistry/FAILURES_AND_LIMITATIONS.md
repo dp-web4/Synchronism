@@ -436,3 +436,17 @@ Ordering confirmed across 7 orders of magnitude:
 **Assessment**: PRODUCTIVE FAILURE. The boundary between "can classify" (two entity types) and "can derive" (L_crit value) is now clearly mapped. The two-entity taxonomy from Session #3 remains the genuine Phase 4 contribution; this session confirms it cannot be extended to a derivation.
 
 **Full analysis**: `Phase4_Session4_Structural_Entity_Criterion.md`, `phase4_session4_structural_entity.py`
+
+### [INVESTIGATED Phase 4 Session #5] Allotrope Test, Cooper Pairs, Phase 4 Closure (2026-04-09)
+
+**Allotrope deconfounding test**: Fe (BCC alpha -> FCC gamma -> BCC delta) used to test whether L_crit depends on crystal structure or bonding type.
+
+**Result**: THE ALLOTROPE TEST CANNOT ANSWER THE QUESTION. Only ONE allotrope of each element melts (the high-T phase). Other allotropes undergo solid-solid transitions (free energy crossings) before reaching L_crit. theta_D explains ~98% of L variation across Fe allotropes; d_nn explains ~2%. Confirmed across Fe, Ti, Co, Sn: L ratio at same T tracks theta_D ratio in every case. The bonding-structure confound is a PHYSICAL COUPLING, not an experimental limitation.
+
+**Cooper pair entity classification**: Cooper pairs are purely oscillatory entities (gamma/f < 1 at T < Tc). However: entity criterion predicts Delta proportional to (Tc-T) [linear]; BCS gives Delta proportional to sqrt(Tc-T) [square root]. Entity vocabulary captures qualitative feature but gets quantitative T-dependence WRONG. Two-entity framework adds nothing to superconductivity because Tc << T_m in all materials (no entity competition).
+
+**Phase 4 closure assessment**: Sessions #1-3 produced one genuine finding (two-entity taxonomy). Sessions #4-5 confirmed this cannot be extended: L_crit underivable, 4pi gap unresolvable, allotrope test physically limited, SC application vocabulary-only. PHASE 4 CLOSED — diminishing returns reached.
+
+**Chemistry track meta-result**: gamma = 2T/theta_D carries zero bits beyond theta_D at fixed T. The Synchronism coherence function applied to equilibrium condensed matter is an exact reparametrization of the Debye model. It organizes (four regimes, two entity types) but does not predict anything standard physics cannot. Predictive content, if it exists, will be found at other scales.
+
+**Full analysis**: `Phase4_Session5_Allotrope_Cooper_Assessment.md`, `phase4_session5_allotrope_test.py`
