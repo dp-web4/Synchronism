@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-03-22*
+*Last updated: 2026-04-08*
 
 ---
 
@@ -123,6 +123,26 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
 **Critical finding**: Dimensionality and update model NOT the bottleneck. Confinement works. Missing piece is elastic boundaries (conservation enforcement).
 
+### Session 617 Result: The Foundational Fork (2026-04-08)
+
+**The transfer rule gives nonlinear diffusion, not Navier-Stokes.** The continuum limit ∂I/∂t = ∇·[D·R(I)·∇I] has one field, one equation, no inertia. The "velocity" v=J/I is slaved to ∇I — not independent. This means:
+
+1. **No oscillations** — diffusion monotonically relaxes (explains 810 failed configs)
+2. **No self-confinement** — diffusion spreads, never confines
+3. **No Reynolds number** — Re requires inertia/viscosity ratio; no inertia in diffusion
+4. **No turbulence** — the interesting dynamics of N-S are all absent
+
+**The N-S mapping works because N-S is universal**, not because Synchronism is fundamental. Any system with conservation + gradient transport + resistance maps to N-S-like structure. This is a property of the mathematical form, not a physical discovery.
+
+**The framework faces a fork**:
+- Fork A (1-DOF): Honest. Diffusion physics only. Cannot produce entities.
+- Fork B (2-DOF): Add momentum. Genuine N-S. But contradicts FUNDAMENTALS.md.
+- Fork C: What minimal addition to the transfer rule gives N-S? Research question.
+
+**Zero novel predictions derivable from the stated 1-DOF foundation.** Entity criterion is from 2-DOF. Lattice isotropy prediction excluded by 14 orders. Formation-time bound requires uncommitted assumption.
+
+Full analysis: `Research/Session617_Diffusion_Not_NavierStokes.md`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -139,13 +159,13 @@ Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 | Coupling-coherence sigmoid (900 runs) | ✅ Validated |
 | Madelung bridge | ✅ Standard QM math (1927) — Intent identification is the claim |
 | Entity criterion (Γ < m) | ⚠️ NOW DERIVABLE — γ/f = -4·ln(|r|), entity when |r| > 0.779. Follows from 2-DOF cavity impedance mismatch. Walls need I > 0.99·I_max. Caveats: requires 2-DOF (not original 1-DOF rule), linear approximation, 1D. |
-| CFD/N-S reframing | Speculative — mathematically consistent, not yet formalized |
+| CFD/N-S reframing | ❌ STRUCTURAL PROBLEM (S617) — transfer rule gives nonlinear diffusion, not N-S. v=J/I is slaved to ∇I (no independent momentum). N-S requires 2 independent fields; transfer rule has 1. 810 failed sims explained: diffusion can't oscillate. N-S mapping is a property of N-S universality, not a discovery. Fork required: 1-DOF (diffusion, no entities) vs 2-DOF (genuine N-S, different theory from FUNDAMENTALS.md). |
 | Consciousness thresholds as Re | ❌ Untestable as stated — Re_max values differ by 440× |
 | Oscillation from substrate | ⚠️ PARTIALLY RESOLVED — 2-DOF (I+v) produces DAMPED oscillation in R(I) cavity (73 sign changes). Not sustained. Damping from smooth R(I) wall absorption. Entity criterion may follow from damping rate < oscillation frequency. |
 | R(I) viscosity correction | ❌ Unobservable — correction ~10⁻⁸⁰ at neutron star densities |
 | Dark matter = high viscosity | ❌ Sign error vs Bullet Cluster + internal contradiction |
 | Lorentz invariance from parallel update | ❌ Logical gap AND empirical constraint — no discrete 3D lattice has SO(3), and existing GRB/isotropy data exclude regular Planck lattices by 14+ orders of magnitude |
-| N-S mapping: 1 DOF vs 2 DOF | ❌ Structural problem — v derived from I, not independent |
+| N-S mapping: 1 DOF vs 2 DOF | ❌ FOUNDATIONAL FORK (S617) — 1-DOF transfer rule is diffusion, not N-S. Fork: stay with 1 field (honest but no entities) or add momentum field (genuine N-S but contradicts "what flows: Intent" in FUNDAMENTALS.md). Framework must choose. |
 
 ---
 
