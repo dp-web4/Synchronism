@@ -2248,6 +2248,14 @@ chemistry:
           key_finding: "η/s at melting NOT universal (CV=0.49, spread 14.7×). Lindemann parameter IS universal (CV=0.26). Two entity types: oscillatory (γ/f < 1) vs structural (Lindemann criterion). Crystals NEVER satisfy γ/f < 1."
           crosslinks: ["Phase 4 Sessions 1-2", "Phase 2 four-regime", "Session 18 primary"]
           open_questions: ["Lindemann from substrate?", "η/s at glass transition?", "Cooper pair: oscillatory or structural?"]
+        - title: "Structural Entity Criterion — Derivation Attempt"
+          file: "Phase4_Session4_Structural_Entity_Criterion.md"
+          date: "2026-04-09"
+          key_finding: "Three derivation routes attempted (information-theoretic, saturation gradient, Voronoi escape) — all fail or are circular. PRODUCTIVE FAILURE: L_crit is fundamental constant (like α), not derivable parameter-free. Bonding type dominates crystal structure (p=0.0002). Two-entity taxonomy confirmed."
+          predictions: ["P4.4.1: L_crit(BCC) > L_crit(FCC) ~ L_crit(HCP) > L_crit(DIA) — CONFIRMED but confounded with bonding", "P4.4.2: L(T_g) < L_crit < L(T_m) — glass transition in deeply classical KSS regime"]
+          crosslinks: ["Phase 4 Sessions 1-3", "Phase 3 superconductivity", "Phase 2-3 gamma = theta_D"]
+          classification: "productive failure"
+          note: "Phase 4 may be reaching diminishing returns after 4 sessions"
   recent_sessions:
     - session: 500
       title: "Laser Hardening at γ ~ 1"
@@ -2627,7 +2635,7 @@ crosslinks_external:
 # STATISTICS
 # =============================================================================
 statistics:
-  total_sessions: 3253  # 618 core + 2671+1 chemistry + 11 gnosis (approx)
+  total_sessions: 3254  # 618 core + 2672+2 chemistry (Phase 4 S4) + 11 gnosis (approx)
   active_arcs: 1  # Framework Stress Test (S617-618)
   complete_arcs: 43  # Final Accounting + η Audit (#615-616)
   sparc_arcs: 18  # 18 SPARC-specific arcs, all COMPLETE
@@ -2641,7 +2649,7 @@ statistics:
   honest_failures: "15+"  # γ FALSIFIED, N_corr tautological, α=-0.5 wrong, all Synchronism-unique predictions null
   hardware_architectures: 2
   chemistry_phenomenon_types: 1913  # from Framework_Summary
-  chemistry_documented_sessions: 2671  # Phase 2 CONCLUDED. 8 genuinely incremental out of 2660+
+  chemistry_documented_sessions: 2672  # Phase 2 CONCLUDED + Phase 4 S1-S4 active. 8 genuinely incremental out of 2660+
   chemistry_four_regimes: "Neutral, Coherence (1/γ), Incoherence (γ), Barrier (exp)"
   chemistry_milestone: "Phase 2 Failure Analysis: Four-regime framework. Era 1 (#1-133) real validation 60-70%. Era 2 (#134-2660) 100% by tautological template."
   gr_milestone: "Session #314 - GR Arc COMPLETE: gravity + GWs + cosmology + quantum gravity unified"
