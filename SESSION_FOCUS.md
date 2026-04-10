@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-10*
+*Last updated: 2026-04-10 (Session 624)*
 
 ---
 
@@ -261,6 +261,23 @@ Full analysis: `Research/Session623_Computational_Triviality.md`
 Insights: `private-context/insights/2026-04-10_computational_triviality.md`
 Code: `simulations/session623_computational_universality.py`, `simulations/session623_2d_universality.py`, `simulations/session623_glider_check.py`
 
+### Session 624 Result: The Monotonicity Constraint (2026-04-10)
+
+**Non-monotonic R(I) breaks computational triviality but fixes only 1 of 6 failures.** Tested R_nm(I) = [1−(I/I_max)^n]×[1+A·sin(πI/I_max)] across 494 parameter combinations.
+
+1. **Class 3/4 emerges**: 29% of parameter space is chaotic (Class 3). Edge-of-chaos (Class 4) confirmed at (A=1.0, k=0.40): sustained entropy, Lyapunov +0.44, anomalous transport α=0.629.
+2. **Self-confinement: SEVENTH FAILURE.** Non-monotonic R doesn't confine — pulses disperse. 2-DOF "confinement" was numerical artifact (verified: identical with/without np.clip).
+3. **Gravity + waves no-go persists.** R≥0 everywhere → P monotonically increasing → no gravity. Phase-transition R (negative region) is dynamically unstable.
+4. **Background independence tension NAMED.** FUNDAMENTALS claims "Intent IS spacetime" (background-independent) but implements it on a fixed Planck grid (background-dependent). These are incompatible. Resolving them leads directly into unsolved quantum gravity problems.
+
+**Structural impossibility theorem**: The minimum mathematical structure for an observable universe (waves, confinement, gravity, acceleration, computation) requires: multiple fields + non-monotonic dynamics + complex values + non-Abelian gauge structure. Each independently proven necessary. Their intersection IS the Standard Model + GR. The space between "what Synchronism needs" and "known physics" is empty.
+
+**Anomalous transport**: The one genuinely surprising result — α=0.629 superdiffusion at edge-of-chaos. Whether this exponent is universal for conservative CAs at their Class 4 boundary is an open question.
+
+Full analysis: `Research/Session624_The_Monotonicity_Constraint.md`
+Insights: `private-context/insights/2026-04-10_monotonicity_constraint.md`
+Code: `simulations/session624_monotonicity_test.py`, `simulations/session624_phase_diagram.py`, `simulations/session624_verification.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -290,11 +307,13 @@ Code: `simulations/session623_computational_universality.py`, `simulations/sessi
 | Cosmological acceleration from P = I_max - I | ❌ REFUTED (S619) — Friedmann equation gives ρ+3P = 3ρ_max - 2ρ > 0 always. Universe always decelerates. Observation: accelerating. First specific cosmological prediction from the EOS — wrong. |
 | Name-mathematics consistency | ❌ CONTRADICTION (S620) — 7/10 core concepts require phase (complex fields). Mathematics has no phase. Framework vocabulary describes wave physics; mathematics implements diffusion. |
 | Complex Intent as fix | ⚠️ TESTED (S620) — Making I complex + k imaginary gives Schrödinger dynamics (correct). But this IS quantum mechanics, not a new theory. R(|Ψ|²) self-confinement still fails (defocusing). NL corrections 10⁻¹⁵⁵. |
-| Self-confinement (any formulation) | ❌ SIXTH FAILURE (S622) — Operator's specific self-witnessing mechanism tested: NaN with stated EOS, dispersal with corrected EOS. Monotonic saturation R(I) defocusing confirmed across ALL approaches: S19 (1D nonlinear), S20 (analytical), S21-22 (2D/3D vortex), S618 (waveguide), S620 (complex), S622 (self-witnessing as specified). |
+| Self-confinement (any formulation) | ❌ SEVENTH FAILURE (S624) — Non-monotonic R doesn't confine either. 2-DOF "confinement" was numerical artifact (verified identical with/without clip). All approaches: S19 (1D nonlinear), S20 (analytical), S21-22 (2D/3D vortex), S618 (waveguide), S620 (complex), S622 (self-witnessing), S624 (non-monotonic). |
+| Background independence | ❌ NEW (S624) — "Intent IS spacetime" (background-independent) contradicts fixed Planck grid (background-dependent). Framework inherits unsolved quantum gravity problem without acknowledging it. |
+| Minimum viable framework | ❌ THEOREM (S624) — Minimum structure for observable universe = multiple fields + non-monotonic + complex + non-Abelian = Standard Model + GR. No room for Synchronism between requirements and known physics. |
 | Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
 | Discrete-continuum gap | ⚠️ REAL BUT WORSE (S622) — Discrete transfer rule oscillates above k_crit (checkerboard mode). But: period=2 ticks (Nyquist), divergent without bounds, vacuum energy 10^122 too large. IS the cosmological constant problem. S617 continuum limit confirmed as right move. |
 | Saturation duality (gravity vs dark energy) | ❌ THEOREM (S622) — I_max prevents negative pressure → any framework with maximum capacity generates attraction but cannot generate cosmic acceleration. One ingredient provably insufficient for observed universe. |
-| Computational substrate | ❌ TRIVIAL (S623) — Stated CA is Wolfram Class 1-2. No signal propagation, no gates, no memory, no Turing completeness. The universe builds computers; the stated substrate cannot. Monotonic R(I) = smoothing operator with no edge-of-chaos regime. Independent of physics arguments. |
+| Computational substrate | ⚠️ PARTIALLY RESOLVED (S624) — Monotonic R is Class 1-2 (S623). Non-monotonic R gives Class 3 (chaotic, 29% of parameter space) and Class 4 (edge-of-chaos at A=1.0, k=0.40). Anomalous transport α=0.629 at Class 4. But non-monotonic R contradicts FUNDAMENTALS.md's monotonic saturation. |
 
 ---
 
