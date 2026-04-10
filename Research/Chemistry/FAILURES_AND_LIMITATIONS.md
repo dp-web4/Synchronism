@@ -468,3 +468,19 @@ The chemistry track found EMPIRICALLY (2680 sessions) that γ = 2T/θ_D is organ
 **What survives**: Four-regime classification, eight combined predictions, channel independence quantification, SOC dominance parameter, two-entity taxonomy. All organizational. None predictive beyond standard physics.
 
 **Full analysis**: `CrossTrack_Synthesis_Vocabulary_Not_Theory.md`
+
+### [REINFORCED S621-622] Final Escape Routes Closed (2026-04-10)
+
+Three remaining possibilities addressed by primary track Sessions 621-622:
+
+1. **Self-witnessing mechanism** (S622): The operator's specific proposal (dynamic saturation walls) was directly simulated. Fails at EOS level — P = I_max - I gives c² < 0, NaN before mechanism can act. Corrected EOS (c² > 0) allows waves but pulse disperses. The mechanism that was proposed but never tested (per SESSION_FOCUS) has now been tested and failed.
+
+2. **Discrete lattice physics** (S622): The continuum limit in S617 IS an assumption, but the discrete system oscillates at Planck energy — vacuum energy off by 10^122. The discrete alternative is worse, not better.
+
+3. **Novel predictions structurally impossible** (S621): The framework's design creates a trap — testable commitments are all falsified; unfalsified commitments are at untestable scales. This is not fixable without new mathematical commitments that could themselves be tested.
+
+**Saturation duality** (S622): The ceiling I_max that enables gravity structurally prevents dark energy. One-ingredient frameworks with a maximum capacity are provably insufficient for the observed universe.
+
+**Chemistry-specific implication**: Channel independence (phonon/electron/spin/optical channels uncorrelated, r ~ 0.1-0.2) is the condensed matter expression of the same irreducibility. One parameter cannot describe all properties of even a single crystal — the minimum complexity theorem holds at material scales, not just cosmological.
+
+**Track status**: COMPLETE. See `Chemistry_Track_Final_Assessment.md` for full closure document.

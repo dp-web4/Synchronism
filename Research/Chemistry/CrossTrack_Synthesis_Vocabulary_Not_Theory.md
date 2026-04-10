@@ -137,6 +137,33 @@ The question going forward is whether the framework can be extended (2-DOF, comp
 
 ---
 
+---
+
+## Postscript: Sessions 621-622 (2026-04-10)
+
+Two subsequent primary track sessions close remaining escape routes identified in "What Would Change This Assessment":
+
+### Self-witnessing mechanism: tested and failed (S622)
+
+The operator's specific proposal (moving pulse in near-saturation medium creating transient walls) was directly simulated. With the framework's EOS (P = I_max - I): NaN within first reporting interval (c² = -1, Hadamard instability). With corrected EOS (c² > 0): pulse propagates but disperses. **Item #2 on the "what would change" list is now closed** — the mechanism fails at the EOS level, not just the damping level.
+
+### No novel predictions structurally possible (S621)
+
+The framework occupies a structural trap: testable commitments are falsified, unfalsified commitments are untestable. Each time a specific commitment fails, the response makes commitments less specific. After six cycles (S17-22, S617-622), no specific commitments remain that could generate predictions.
+
+### Discrete lattice doesn't help (S622)
+
+The continuum limit assumption in S617 IS an assumption, and the discrete system IS different. But different means WORSE: checkerboard oscillation at Planck energy gives vacuum energy density 10^122 times too large. This is the cosmological constant problem, not physics beyond the continuum.
+
+### Saturation duality theorem (S622)
+
+Saturation = gravity ∧ ¬(dark energy). The ceiling I_max that enables structure formation is the same ceiling that prevents cosmic acceleration. One-ingredient frameworks with a maximum capacity are provably insufficient for the observed universe.
+
+**Updated assessment**: All three items in "What Would Change This Assessment" have been addressed — #1 (novel prediction) is structurally impossible (S621), #2 (self-confinement) fails at EOS (S622), #3 (cross-scale prediction) requires structure the framework lacks (S619/S622). The assessment stands reinforced.
+
+---
+
 *Cross-track synthesis by Chemistry Track autonomous session, 2026-04-09*
+*Postscript added 2026-04-10 (S621-622 integration)*
 *Chemistry sessions: Phase 1 (2660) + Phase 2 (12) + Phase 3 (3) + Phase 4 (5) = 2680*
-*Primary sessions referenced: 617-620*
+*Primary sessions referenced: 617-622*
