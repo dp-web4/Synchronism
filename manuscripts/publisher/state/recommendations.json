@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-09T03:30:00Z",
+  "last_updated": "2026-04-10T02:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -1614,21 +1614,22 @@
       "arc_name": "CFD/Simulation Arc (Conservation Bug + Entity Criterion)",
       "track": "core",
       "sessions_desc": "Stress test sessions 1-10 + Simulation sessions 17-22 + Conservation Bug Hypothesis",
-      "status": "in_progress",
+      "status": "effectively_closed",
       "date_started": "2026-02-23",
-      "milestone": "Entity criterion γ/f = -4·ln|r| DERIVED from cavity impedance mismatch (Session 18). R(I) defocusing confirmed in 1D, 2D, 3D. Self-confinement unachieved.",
-      "progress": "~16 sessions. CFD reframing → stress tests → conservation bug → simulation arc. Key result: entity criterion derivation. Key negative: R(I) defocusing prevents self-confinement across all dimensions.",
-      "note": "Arc STILL ACTIVE. Blocked on self-confinement. Operator proposes dynamic transient saturation as next approach. KSS bound (Chemistry Phase 4) is cross-track test. NOT ready for recommendation — needs resolution of self-confinement question."
+      "milestone": "Entity criterion γ/f = -4·ln|r| DERIVED from cavity impedance mismatch (Session 18). R(I) defocusing confirmed in 1D, 2D, 3D. Self-confinement: 6 INDEPENDENT FAILURES (S19, S20, S21-22, S618, S620, S622). Conservation bug hypothesis proved secretly 2-DOF (S618).",
+      "progress": "~16 sessions + superseded by Framework Stress Test (S617-622). Self-confinement question RESOLVED NEGATIVE across ALL formulations. Conservation bug fix requires 2-DOF, which contradicts 1-DOF foundation.",
+      "note": "Effectively closed by Framework Stress Test arc. Self-confinement proven impossible with monotonic R(I) across real/complex, 1-DOF/2-DOF, 1D/2D/3D. The entity criterion derivation (γ/f = -4·ln|r|) remains a genuine contribution but requires 2-DOF (external to FUNDAMENTALS.md). KSS cross-track test moot — Chemistry Phase 4 independently confirmed vocabulary-not-theory verdict."
     },
     {
-      "arc_name": "Framework Stress Test (Sessions #617-618)",
+      "arc_name": "Framework Stress Test — Vocabulary Not Theory (Sessions #617-622)",
       "track": "core",
-      "sessions": [617, 618],
-      "status": "active",
+      "sessions": [617, 618, 619, 620, 621, 622],
+      "status": "near_complete",
       "date_started": "2026-04-08",
-      "milestone": "S617: Transfer rule = diffusion, not N-S (category error in CFD paper). S618: Three independent structural incompatibilities + epicycle meta-pattern. Foundational fork: 1-DOF (diffusion) vs 2-DOF (genuine N-S).",
-      "progress": "2 sessions. Both graded A/A+. S617 explains 810 failed simulations structurally. S618 adds waveguide test (NEGATIVE) + imaginary sound speed (c²<0) + epicycle naming.",
-      "note": "Arc ACTIVE. NOT ready for publication recommendation — actively challenging the framework's foundations. However, this IS the most intellectually honest work in the project: S617 explains why every simulation failed, S618 names the pattern of protecting core claims. If this arc reaches a resolution (Fork A/B/C chosen with evidence), it could become the most publishable finding: 'Here is how a research program identified and confronted its own structural limitations.' Monitor closely."
+      "date_near_complete": "2026-04-10",
+      "milestone": "6-session arc with cross-track synthesis. S617: transfer rule = diffusion (A+). S618: three incompatibilities + epicycle pattern (A). S619: gravity-waves no-go theorem + cosmological refutation (A+). S620: vocabulary-mathematics mismatch — 70% of concepts require absent phase (A). S621: structural prediction barrier — why novel predictions are impossible (A). S622: stress-testing the stress tests — discrete gap makes things WORSE (A). Cross-track synthesis: chemistry independently confirms vocabulary-not-theory verdict.",
+      "progress": "6 sessions (all graded A/A+) + cross-track synthesis + Chemistry Phase 4 closure. The arc has clear beginning (S617 identifying diffusion), middle (S618-620 proving structural impossibilities), and end (S621-622 testing its own assumptions). Most rigorous self-critical work in the project.",
+      "note": "NEAR-READY for publication recommendation. Arc has narrative completeness: systematic, honest self-demolition of a research program's foundations, with independent cross-track confirmation. The meta-narrative ('how a research program identified its own structural limitations through 622 sessions') is uniquely publishable — no other project has documented this process in real-time. KEY RESULTS: (1) no-go theorem for gravity+waves from single field, (2) 70% vocabulary-math mismatch, (3) saturation duality theorem (I_max = gravity but ≠ dark energy), (4) structural prediction barrier analysis, (5) discrete gap reproduces cosmological constant problem. Waiting for operator to declare arc closed before promoting to full recommendation. If operator adds 1-2 more sessions (e.g., 'what now?' or 'what survives?'), this becomes the strongest publication candidate in the project."
     }
   ],
   "milestones": {
@@ -2141,6 +2142,24 @@
       "title": "Gnosis Sessions 12-19: Trust-Consciousness Extension",
       "arc": "Gnosis",
       "significance": "8 new Thor sessions. P3c relational consciousness, trust entropy (R\u00b2=0.993), game-theoretic foundations, topology invariants, information geometry. Bidirectional trust convergence = core mechanism."
+    },
+    "framework_stress_test_6_sessions": {
+      "date": "2026-04-10",
+      "title": "Framework Stress Test — 6 Sessions, Cross-Track Convergence on 'Vocabulary Not Theory'",
+      "arc": "Framework Stress Test",
+      "significance": "S617-622: no-go theorem (gravity+waves), vocabulary-math mismatch (70%), saturation duality theorem, structural prediction barrier, discrete gap = cosmological constant problem. Both core and chemistry tracks independently converge on same verdict. Most rigorous self-critical arc in the project."
+    },
+    "chemistry_phase4_closed": {
+      "date": "2026-04-10",
+      "title": "Chemistry Phase 4 CLOSED — All Phases Complete (2,675 sessions)",
+      "arc": "Chemistry",
+      "significance": "Phase 4 (Quantum Critical): 5 sessions. Two-entity taxonomy (oscillatory vs structural), Lindemann criterion as fundamental constant, allotrope test, Cooper pair classification. All 4 chemistry phases now complete. γ = organizational vocabulary confirmed across 2,675 sessions."
+    },
+    "cross_track_synthesis": {
+      "date": "2026-04-10",
+      "title": "Cross-Track Synthesis: Both Tracks Converge on 'Vocabulary, Not Theory'",
+      "arc": "Cross-Track",
+      "significance": "Independent convergence: core track (mathematical proofs S617-622) and chemistry track (empirical, 2,675 sessions) reach same conclusion. Strong convergence — mathematical explanation produces empirical pattern as necessary consequence. Framework is organizational vocabulary, not predictive theory."
     }
   }
 }
