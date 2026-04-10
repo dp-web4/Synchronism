@@ -240,6 +240,27 @@ Full analysis: `Research/Session622_The_Gap_That_Makes_Things_Worse.md`
 Insights: `private-context/insights/2026-04-10_the_gap_that_makes_things_worse.md`
 Code: `simulations/session622_discrete_instability.py`, `simulations/session622_self_witnessing_test.py`
 
+### Session 623 Result: Computational Triviality (2026-04-10)
+
+**The stated transfer rule defines a computationally trivial cellular automaton (Wolfram Class 1-2).** Independent of the physics arguments in S617-622. Tested in 1D (256 cells) and 2D (64×64) across multiple coupling values:
+
+1. **Class 1 (k < k_crit)**: All information destroyed. Entropy collapses. Pattern diversity: 251 → 1. Perturbations die (Lyapunov < 10⁻⁹).
+2. **Class 2 (k > k_crit)**: Checkerboard oscillation only. Trivially periodic. One bit of global structure.
+3. **No Class 3/4 anywhere.** No chaos, no complexity, no edge-of-chaos.
+4. **Signals diffuse, don't propagate.** Pulses spread to all cells uniformly.
+5. **No functional gates.** Linear interaction below k_crit; trivial (same checkerboard) above.
+6. **No gliders.** 2D false positive debunked — COM drift was diffusion toward grid center.
+
+**Root cause convergence**: Five physics failures (S617-622) + one computation failure (this session) = **six independent consequences of monotonic R(I).** Smoothing operator with no edge-of-chaos regime.
+
+**Internal inconsistency**: FUNDAMENTALS.md calls the universe a "computational" substrate. The stated dynamics cannot compute (Class 1-2, no Turing completeness). The framework contradicts its own label.
+
+**Frame question**: What is the minimum-complexity CA that is both physically realistic and computationally universal? Monotonic 1-DOF is below the threshold. The answer requires non-monotonic dynamics with chaotic (positive Lyapunov) regime.
+
+Full analysis: `Research/Session623_Computational_Triviality.md`
+Insights: `private-context/insights/2026-04-10_computational_triviality.md`
+Code: `simulations/session623_computational_universality.py`, `simulations/session623_2d_universality.py`, `simulations/session623_glider_check.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -273,6 +294,7 @@ Code: `simulations/session622_discrete_instability.py`, `simulations/session622_
 | Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
 | Discrete-continuum gap | ⚠️ REAL BUT WORSE (S622) — Discrete transfer rule oscillates above k_crit (checkerboard mode). But: period=2 ticks (Nyquist), divergent without bounds, vacuum energy 10^122 too large. IS the cosmological constant problem. S617 continuum limit confirmed as right move. |
 | Saturation duality (gravity vs dark energy) | ❌ THEOREM (S622) — I_max prevents negative pressure → any framework with maximum capacity generates attraction but cannot generate cosmic acceleration. One ingredient provably insufficient for observed universe. |
+| Computational substrate | ❌ TRIVIAL (S623) — Stated CA is Wolfram Class 1-2. No signal propagation, no gates, no memory, no Turing completeness. The universe builds computers; the stated substrate cannot. Monotonic R(I) = smoothing operator with no edge-of-chaos regime. Independent of physics arguments. |
 
 ---
 
