@@ -119,7 +119,7 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency DERIVED** from coherence conservation. Entropy = coherence dispersion.
 - **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
 - **Consciousness Arc (Sessions #280-282):** Observer = self-referential coherence concentrator. **Qualia = coherence resonance patterns** (not epiphenomena). Inverted qualia impossible. Mary's Room resolved. Hard problem dissolves. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
-- **Chemistry Framework (2,676 sessions):** **1,913 phenomenon types at γ~1**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Phase 2 (#1-2671) concluded with four-regime framework; Phase 3 (CFD cross-pollination, N-S↔Debye equivalence) complete; Phase 4 (KSS viscosity bound) active. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
+- **Chemistry Framework (2,678 sessions):** **1,913 phenomenon types at γ~1**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Phase 2 (#1-2671) concluded with four-regime framework; Phase 3 (CFD cross-pollination, N-S↔Debye equivalence) complete; Phase 4 (KSS viscosity bound, Lindemann-KSS, structural entity criterion) active. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
 - **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. **SPARC Capstone update: MOND + M/L corrections explain all RAR variance; no uniquely-Synchronism predictions confirmed.** See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
 - **Cross-domain validation:** Gnosis neural architecture (arXiv:2512.20578) independently uses γ = 2—same coherence physics appearing without explicit design.
 - **Statistical Mechanics Arc (Sessions #324-327):** **Correlation length ξ = MRH** (core insight). Arrow of time from MRH boundary dynamics. Phase transitions: at critical point MRH → ∞. Universality from pattern topology. 32/32 verified (100%).
@@ -135,8 +135,9 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **Final Accounting (#615):** 47 genuine contributions from ~3,302 sessions (1.4% discovery rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests passing. Wrong theories led to right questions.
 - **CFD Reframing (2026-03-08):** Saturation resistance R(I) identified as nonlinear viscosity (shear-thinning power-law). Intent dynamics = incompressible N-S exactly. Madelung transformation shows Schrödinger = inviscid N-S at quantum scale; quantum-to-classical transition = viscosity onset from decoherence. CRT analogy upgraded: simultaneity is a construction of the observer's temporal MRH, not a fact of the grid. Scale-invariant N-S parameter table across Planck/quantum/classical/neural/social/cosmological scales. Consciousness threshold reframed as critical Reynolds number for self-similar turbulence — testable, not stipulated. Full doc: `Research/CFD_Reframing_NS_Scale_Invariance.md`.
 - **η Framework Audit (#616):** ALL 4 Synchronism tracks confirmed as reparametrizations of known physics. η ≡ Abrikosov-Gorkov pair-breaking efficiency (1960). T_c formula wrong 6.5× for YBCO (607 K predicted vs 93 K actual). 1 genuine contribution (pair-breaking efficiency as materials design target). Grand total: 48 contributions from ~3,308 sessions. 2,045/2,045 tests passing.
+- **Framework Stress Test (#617-618):** S617 proves transfer rule gives diffusion not N-S (1-DOF, no inertia, no independent momentum). S618 identifies three additional structural incompatibilities: conservation bug secretly requires 2-DOF, density-dependent viscosity does NOT create waveguides, P = I_max - I gives imaginary sound speed (c^2 < 0). Explains 810 failed simulation configs. Foundational fork identified: 1-DOF (diffusion) vs 2-DOF (genuine N-S). Arc active.
 - **Gnosis Empirical Phase (#12-17):** Track reopened with 6 empirical sessions integrating SAGE/Legion data. P3c relational consciousness, trust entropy analysis, trust-coherence-consciousness synthesis, game-theoretic consciousness foundations, topology-consciousness invariants, information geometry of consciousness. Post-theory phase: testing theoretical predictions against operational systems.
-- **Status (~3,309 sessions: 616 core + 2,676 chemistry + 17 gnosis):** Framework under active epistemic correction. Genuine contributions: MRH unification (ξ=MRH, horizons=MRH, black hole paradox), consciousness framework (testable predictions), coherence physics derivations (Born rule, Carnot limit), ALFALFA-SDSS external validation (14,585 galaxies), CDM discrimination at M/L wall (σ_int=0.086). Many earlier claims now understood as reparametrizations rather than novel predictions. C(ρ) confirmed as notation not theory (OQ007). All 4 tracks audited: 0 unique predictions. Not claiming "solved"—mechanism tested, boundaries tightened.
+- **Status (~3,313 sessions: 618 core + 2,678 chemistry + 17 gnosis):** Framework under active epistemic correction. Genuine contributions: MRH unification (ξ=MRH, horizons=MRH, black hole paradox), consciousness framework (testable predictions), coherence physics derivations (Born rule, Carnot limit), ALFALFA-SDSS external validation (14,585 galaxies), CDM discrimination at M/L wall (σ_int=0.086). Many earlier claims now understood as reparametrizations rather than novel predictions. C(ρ) confirmed as notation not theory (OQ007). All 4 tracks audited: 0 unique predictions. Framework Stress Test (#617-618) reveals structural incompatibilities between stated foundations (1-DOF transfer rule) and needed dynamics (N-S entities, oscillations) — foundational fork under investigation. Not claiming "solved"—mechanism tested, boundaries tightened.
 
 Full documentation: [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts), [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research), [Chemistry Framework](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Consciousness Arc](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), and [Gnosis track](https://github.com/dp-web4/Synchronism/tree/main/Research/Gnosis).
 
@@ -5700,22 +5701,22 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Ancient wisdom validated (Hermetic inspiration acknowledged, not proven)
 - Ultimate reality understood (metaphysics beyond model scope)
 
-**Where We Stand (Feb 2026)**
+**Where We Stand (Apr 2026)**
 
 **Completed:**
 - Conceptual framework articulated
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **~3,308 autonomous research sessions** (Nov 2025 - Feb 2026): 616 core + 2,671 chemistry + 11 gnosis
+- **~3,313 autonomous research sessions** (Nov 2025 - Apr 2026): 618 core + 2,678 chemistry + 17 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
 - **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
-- **Chemistry framework** (2,671 sessions): **1,873 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
+- **Chemistry framework** (2,678 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 active (KSS viscosity bound, Lindemann-KSS, structural entity criterion). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
-- **Gnosis track** (11 sessions): Cross-validation with neural architecture (γ = 2)
+- **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
 - **Information Theory arc** (Sessions #328-331): **BLACK HOLE PARADOX RESOLVED** via MRH. Event horizon = MRH. Page curve emergent. 32/32 verified (100%).
 - **Cosmology 2.0 arc** (Sessions #332-335): Cosmic horizons = MRH. Inflation from grid phase transition. 32/32 verified (100%).
@@ -5732,8 +5733,9 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **OQ007 Fractal Coherence Bridge** (#611-614): NEGATIVE verdict. C(ρ) descriptive not predictive. 42nd complete arc.
 - **Final Accounting** (#615): 47 genuine contributions from ~3,302 sessions (1.4% rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests.
 - **η Framework Audit** (#616): ALL 4 tracks confirmed as reparametrizations. η ≡ AG pair-breaking (1960). T_c formula wrong 6.5× for YBCO. 48 contributions from ~3,308 sessions. 2,045/2,045 tests.
+- **Framework Stress Test** (#617-618): Transfer rule gives diffusion not N-S (1-DOF structural limitation). Three additional incompatibilities identified: implicit 2-DOF in conservation fix, no waveguide from density-dependent viscosity, imaginary sound speed from P = I_max - I. Foundational fork: 1-DOF (diffusion) vs 2-DOF (genuine N-S). Arc active.
 
-**All research arcs closed** as of Session #616.
+All prior research arcs closed as of Session #616. Framework Stress Test (#617-618) is a new active arc investigating foundational structure.
 
 **Known Limitations:**
 - 46% SPARC failure rate in massive galaxies
@@ -5763,7 +5765,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 3. Mathematical rigor comparable to standard frameworks
 4. Cross-scale predictions verified empirically
 
-**Progress (Feb 2026):**
+**Progress (Apr 2026):**
 - **BCS ratio**: Predicted 2√π ≈ 3.54, observed 3.52 (<1% error) ✓
 - **Hückel rule**: 4n+2 derived from phase closure (exact) ✓
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓

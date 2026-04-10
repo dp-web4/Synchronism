@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-07
+**Last Updated**: 2026-04-09
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -178,6 +178,15 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 2026-04-09: Publisher Maintenance - S617-618 + Chemistry Phase 4 S3-4
+- Core count 616→618 (Framework Stress Test: S617 transfer rule = diffusion not N-S, S618 three incompatibilities)
+- Chemistry count 2,676→2,678 (Phase 4 sessions 3-4: Lindemann-KSS, structural entity criterion)
+- Total ~3,309→~3,313
+- Added Framework Stress Test entry to executive summary and conclusion
+- Updated "All arcs closed" to note new active arc
+- Updated conclusion date Feb→Apr 2026
+- Rebuilt all artifacts (md, pdf, web)
+
 ### 2026-04-07: Publisher Maintenance - Count Updates
 - Gnosis count 11→17 (empirical phase #12-17: SAGE/Legion integration, trust entropy, game theory, topology, info geometry)
 - Chemistry count 2,671→2,676 (Phase 3: 3 sessions, Phase 4: 2 sessions)
@@ -327,12 +336,12 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-07)
+### Session Counts (as of 2026-04-09)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 616 | Sessions through #616 (η Framework Audit — ALL 4 TRACKS REPARAMETRIZATIONS) |
-| Chemistry | 2,676 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 active (KSS) |
+| Core | 618 | Sessions through #618 (Framework Stress Test — transfer rule = diffusion not N-S, three incompatibilities) |
+| Chemistry | 2,678 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 active (KSS, Lindemann-KSS, structural entity criterion) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
 ### Pending Integrations
@@ -351,12 +360,13 @@ For minor changes (typos, statistics updates):
 | OQ007 Fractal Coherence Bridge (#611-614) | HIGH | **INTEGRATED** - NEGATIVE verdict, C(ρ) descriptive not predictive, 42nd arc |
 | Final Accounting (#615) | HIGH | **INTEGRATED** - 47 contributions, 0 predictions, all arcs closed |
 | η Framework Audit (#616) | HIGH | **INTEGRATED** - ALL 4 tracks reparametrizations, 48 contributions, 2,045 tests |
+| Framework Stress Test (#617-618) | HIGH | **COUNTS INTEGRATED** - Arc active; transfer rule = diffusion not N-S, 3 incompatibilities. Full content integration when arc completes. |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-07
-- Sessions behind: 0 (counts updated, Phase 4 active but not integration-ready)
-- Build status: Clean (rebuilt 2026-04-07)
+- Last integration: 2026-04-09
+- Sessions behind: 0 (counts updated through S618; Framework Stress Test arc active but not integration-ready beyond counts)
+- Build status: Clean (rebuilt 2026-04-09)
 - Governance: Active (Rev_0)
 
 ---
