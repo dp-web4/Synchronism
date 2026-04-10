@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-09*
+*Last updated: 2026-04-10*
 
 ---
 
@@ -224,6 +224,22 @@ Code: `simulations/session620_complex_intent.py`
 Full analysis: `Research/Session621_The_Vocabulary_Problem.md`
 Insights: `private-context/insights/2026-04-09_structural_prediction_barrier.md`
 
+### Session 622 Result: The Gap That Makes Things Worse (2026-04-10)
+
+**Stress-tested S617-621's own assumptions.** Three findings:
+
+1. **Discrete-continuum gap is real but leads to cosmological constant problem.** S617 assumed the continuum limit captures the physics. The discrete transfer rule with synchronous update oscillates above k_crit ≈ 0.53 (1D) — genuine checkerboard instability the PDE doesn't have. BUT: period = 2 ticks (Nyquist), energy = Planck energy, vacuum energy density off by 10^122 from observation. The discrete alternative reproduces the worst prediction in physics. Gap exists, doesn't help.
+
+2. **Self-witnessing mechanism tested as the operator specified — fails for the EOS reason.** Moving pulse (2-DOF) in near-saturation background (ρ=0.85). With P = I_max - I: NaN immediately (Hadamard instability, c² < 0). With corrected EOS (P = ∫R dρ): pulse propagates but disperses (0.95 → 0.845). Different failure from S17-22 (which found damping). The EOS no-go (S619) kills the mechanism before viscosity matters. Sixth independent self-confinement failure.
+
+3. **Saturation duality theorem: I_max = gravity ∧ ¬(dark energy).** The ceiling I_max prevents negative pressure (P = I_max - I ≥ 0 always since I ≤ I_max). Cosmic acceleration requires P < -ρ/3 → negative pressure. Therefore: any framework with a maximum capacity for its fundamental quantity generates attraction but cannot generate acceleration. This is a structural impossibility that names the specific foundational commitment (I_max) that kills dark energy.
+
+**Frame question sharpened**: What is the minimum number of irreducible dynamical ingredients for a universe with both gravity and dark energy? At least two. One is provably insufficient (this theorem + S619).
+
+Full analysis: `Research/Session622_The_Gap_That_Makes_Things_Worse.md`
+Insights: `private-context/insights/2026-04-10_the_gap_that_makes_things_worse.md`
+Code: `simulations/session622_discrete_instability.py`, `simulations/session622_self_witnessing_test.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -253,8 +269,10 @@ Insights: `private-context/insights/2026-04-09_structural_prediction_barrier.md`
 | Cosmological acceleration from P = I_max - I | ❌ REFUTED (S619) — Friedmann equation gives ρ+3P = 3ρ_max - 2ρ > 0 always. Universe always decelerates. Observation: accelerating. First specific cosmological prediction from the EOS — wrong. |
 | Name-mathematics consistency | ❌ CONTRADICTION (S620) — 7/10 core concepts require phase (complex fields). Mathematics has no phase. Framework vocabulary describes wave physics; mathematics implements diffusion. |
 | Complex Intent as fix | ⚠️ TESTED (S620) — Making I complex + k imaginary gives Schrödinger dynamics (correct). But this IS quantum mechanics, not a new theory. R(|Ψ|²) self-confinement still fails (defocusing). NL corrections 10⁻¹⁵⁵. |
-| Self-confinement (any formulation) | ❌ FIFTH FAILURE (S620) — Monotonic saturation R(I) gives defocusing in ALL cases: real/complex, 1-DOF/2-DOF. Self-confinement requires R'(ρ) > 0 somewhere, which contradicts saturation. |
+| Self-confinement (any formulation) | ❌ SIXTH FAILURE (S622) — Operator's specific self-witnessing mechanism tested: NaN with stated EOS, dispersal with corrected EOS. Monotonic saturation R(I) defocusing confirmed across ALL approaches: S19 (1D nonlinear), S20 (analytical), S21-22 (2D/3D vortex), S618 (waveguide), S620 (complex), S622 (self-witnessing as specified). |
 | Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
+| Discrete-continuum gap | ⚠️ REAL BUT WORSE (S622) — Discrete transfer rule oscillates above k_crit (checkerboard mode). But: period=2 ticks (Nyquist), divergent without bounds, vacuum energy 10^122 too large. IS the cosmological constant problem. S617 continuum limit confirmed as right move. |
+| Saturation duality (gravity vs dark energy) | ❌ THEOREM (S622) — I_max prevents negative pressure → any framework with maximum capacity generates attraction but cannot generate cosmic acceleration. One ingredient provably insufficient for observed universe. |
 
 ---
 
