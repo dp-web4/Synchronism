@@ -41,13 +41,13 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **~3,313 autonomous research sessions** (Nov 2025 - Apr 2026): 618 core + 2,678 chemistry + 17 gnosis
+- **~3,318 autonomous research sessions** (Nov 2025 - Apr 2026): 622 core + 2,679 chemistry + 17 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
 - **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
-- **Chemistry framework** (2,678 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 active (KSS viscosity bound, Lindemann-KSS, structural entity criterion). See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
+- **Chemistry framework** (2,679 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
@@ -66,9 +66,9 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **OQ007 Fractal Coherence Bridge** (#611-614): NEGATIVE verdict. C(ρ) descriptive not predictive. 42nd complete arc.
 - **Final Accounting** (#615): 47 genuine contributions from ~3,302 sessions (1.4% rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests.
 - **η Framework Audit** (#616): ALL 4 tracks confirmed as reparametrizations. η ≡ AG pair-breaking (1960). T_c formula wrong 6.5× for YBCO. 48 contributions from ~3,308 sessions. 2,045/2,045 tests.
-- **Framework Stress Test** (#617-618): Transfer rule gives diffusion not N-S (1-DOF structural limitation). Three additional incompatibilities identified: implicit 2-DOF in conservation fix, no waveguide from density-dependent viscosity, imaginary sound speed from P = I_max - I. Foundational fork: 1-DOF (diffusion) vs 2-DOF (genuine N-S). Arc active.
+- **Framework Stress Test** (#617-622): S617-618: Transfer rule gives diffusion not N-S (1-DOF structural limitation), three incompatibilities (implicit 2-DOF, no waveguides, imaginary sound speed). S619: No-Go Theorem — no barotropic fluid from R(I) produces both gravity and waves; cosmological prediction refuted. S620: 7/10 core concepts require phase, math has zero — every fix converges to standard physics. S621: Structural prediction barrier — Intent unfalsifiable, transfer rule unconstrained, zero translation-resistant concepts. S622: Minimum complexity theorem — gravity + cosmic acceleration requires ≥2 irreducible ingredients; discrete alternative produces vacuum catastrophe. Arc near-complete.
 
-All prior research arcs closed as of Session #616. Framework Stress Test (#617-618) is a new active arc investigating foundational structure.
+All prior research arcs closed as of Session #616. Framework Stress Test (#617-622) expanded to 6 sessions, near-complete. Chemistry Phase 4 closed.
 
 **Known Limitations:**
 - 46% SPARC failure rate in massive galaxies

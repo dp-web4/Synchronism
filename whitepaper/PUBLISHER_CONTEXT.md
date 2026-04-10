@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-09
+**Last Updated**: 2026-04-10
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -178,6 +178,14 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 2026-04-10: Publisher Maintenance - S619-622 + Chemistry Phase 4 Closure
+- Core count 618→622 (Framework Stress Test expanded: S619 No-Go Theorem, S620 vocabulary-math mismatch, S621 structural prediction barrier, S622 minimum complexity theorem)
+- Chemistry count 2,678→2,679 (Phase 4 S5: allotrope deconfounding, Cooper pair classification, Phase 4 closed)
+- Total ~3,313→~3,318
+- Framework Stress Test expanded from 2 to 6 sessions, arc near-complete
+- Chemistry Phase 4 closed: reparametrization of Debye model
+- Rebuilt all artifacts (md, pdf, web)
+
 ### 2026-04-09: Publisher Maintenance - S617-618 + Chemistry Phase 4 S3-4
 - Core count 616→618 (Framework Stress Test: S617 transfer rule = diffusion not N-S, S618 three incompatibilities)
 - Chemistry count 2,676→2,678 (Phase 4 sessions 3-4: Lindemann-KSS, structural entity criterion)
@@ -336,12 +344,12 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-09)
+### Session Counts (as of 2026-04-10)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 618 | Sessions through #618 (Framework Stress Test — transfer rule = diffusion not N-S, three incompatibilities) |
-| Chemistry | 2,678 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 active (KSS, Lindemann-KSS, structural entity criterion) |
+| Core | 622 | Sessions through #622 (Framework Stress Test — No-Go Theorem, vocabulary-math mismatch, prediction barrier, minimum complexity theorem) |
+| Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
 ### Pending Integrations
@@ -360,13 +368,14 @@ For minor changes (typos, statistics updates):
 | OQ007 Fractal Coherence Bridge (#611-614) | HIGH | **INTEGRATED** - NEGATIVE verdict, C(ρ) descriptive not predictive, 42nd arc |
 | Final Accounting (#615) | HIGH | **INTEGRATED** - 47 contributions, 0 predictions, all arcs closed |
 | η Framework Audit (#616) | HIGH | **INTEGRATED** - ALL 4 tracks reparametrizations, 48 contributions, 2,045 tests |
-| Framework Stress Test (#617-618) | HIGH | **COUNTS INTEGRATED** - Arc active; transfer rule = diffusion not N-S, 3 incompatibilities. Full content integration when arc completes. |
+| Framework Stress Test (#617-622) | HIGH | **INTEGRATED** - 6 sessions: No-Go Theorem, vocabulary-math mismatch, structural prediction barrier, minimum complexity theorem. Arc near-complete. |
+| Chemistry Phase 4 Closure | HIGH | **INTEGRATED** - Phase 4 closed, reparametrization of Debye model. |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-09
-- Sessions behind: 0 (counts updated through S618; Framework Stress Test arc active but not integration-ready beyond counts)
-- Build status: Clean (rebuilt 2026-04-09)
+- Last integration: 2026-04-10
+- Sessions behind: 0 (counts updated through S622; Framework Stress Test arc near-complete)
+- Build status: Clean (rebuilt 2026-04-10)
 - Governance: Active (Rev_0)
 
 ---
