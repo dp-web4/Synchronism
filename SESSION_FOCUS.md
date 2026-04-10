@@ -201,6 +201,29 @@ Full analysis: `Research/Session620_Name_vs_Mathematics.md`
 Insights: `private-context/insights/2026-04-09_name_vs_mathematics.md`
 Code: `simulations/session620_complex_intent.py`
 
+### Session 621 Result: The Vocabulary Problem — Structural Prediction Barrier (2026-04-09)
+
+**Why can't the framework produce novel predictions?** Systematic search identified a structural impossibility, not a gap in analysis:
+
+1. **Intent is pre-mathematical**: defined as abstraction of unknowable "greater force," explicitly exempted from dimensional analysis. Any mathematical failure is attributed to the transfer rule, not Intent. Intent constrains no specific dynamics → predicts no specific physics.
+
+2. **The transfer rule is post-falsification**: S617-620 proved it produces only diffusion. Every consistent modification IS known physics (Schrödinger, Newton, QCD, RG). The space of consistent dynamics is fully occupied by existing theories.
+
+3. **No intermediate level exists**: between unfalsifiable core and falsified mathematics, there is nowhere for novel predictions to form. This explains 620+ sessions with zero novel confirmed predictions.
+
+**Translation completeness**: Every framework concept either maps to known physics (MRH→RG, witnessing→decoherence, self-witnessing→attractor dynamics, Intent→Lagrangian density) or produces nothing testable. No translation-resistant concepts exist. This is the structural signature of a vocabulary, not a theory.
+
+**Self-sealing ontology**: Intent survives all mathematical failures because it's defined prior to any dynamics. "Demanding SI units for Intent is a category error" (FUNDAMENTALS.md) = Intent is unfalsifiable by construction.
+
+**Minimum-ingredient contribution**: The framework's most rigorous contribution is NEGATIVE — documenting what one scalar field + monotonic saturation cannot produce: waves, oscillation, self-confinement, entities, or cosmic acceleration. This contributes to "what is the minimum mathematical structure needed for physics?" Answer: more than Synchronism provides.
+
+**Frame question**: What if the search for a single-substrate theory is itself the wrong frame? S619's no-go theorem proves one field with one mechanism produces one class of behavior. The minimum-ingredient question may be more productive than the unity question.
+
+**Self-suspicion**: This result is very tidy. Tidy results should be distrusted. The analysis might fail if: (a) untranslatable concepts exist but I keep translating them, (b) the intended framework contains commitments not captured in FUNDAMENTALS.md, (c) the minimum-ingredient question itself generates predictions invisible from here.
+
+Full analysis: `Research/Session621_The_Vocabulary_Problem.md`
+Insights: `private-context/insights/2026-04-09_structural_prediction_barrier.md`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -231,6 +254,7 @@ Code: `simulations/session620_complex_intent.py`
 | Name-mathematics consistency | ❌ CONTRADICTION (S620) — 7/10 core concepts require phase (complex fields). Mathematics has no phase. Framework vocabulary describes wave physics; mathematics implements diffusion. |
 | Complex Intent as fix | ⚠️ TESTED (S620) — Making I complex + k imaginary gives Schrödinger dynamics (correct). But this IS quantum mechanics, not a new theory. R(|Ψ|²) self-confinement still fails (defocusing). NL corrections 10⁻¹⁵⁵. |
 | Self-confinement (any formulation) | ❌ FIFTH FAILURE (S620) — Monotonic saturation R(I) gives defocusing in ALL cases: real/complex, 1-DOF/2-DOF. Self-confinement requires R'(ρ) > 0 somewhere, which contradicts saturation. |
+| Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
 
 ---
 
