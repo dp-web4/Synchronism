@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-10 (Session 624)*
+*Last updated: 2026-04-10 (Session 625)*
 
 ---
 
@@ -278,6 +278,20 @@ Full analysis: `Research/Session624_The_Monotonicity_Constraint.md`
 Insights: `private-context/insights/2026-04-10_monotonicity_constraint.md`
 Code: `simulations/session624_monotonicity_test.py`, `simulations/session624_phase_diagram.py`, `simulations/session624_verification.py`
 
+### Session 625 Result: Coherence vs Oscillation — The Spatial-Temporal Exclusion (2026-04-10)
+
+**C(ρ) and oscillation stability are in conflict, not harmony.** Spatial structure (ξ > 1) and temporal dynamics (Δf > 0) never coexist in the 1-DOF CA — a new structural impossibility for entity formation.
+
+1. **S624 Class 4 REVISED**: The (A=1.0, k=0.40) system is a **complex fixed point** (Class 1), not edge-of-chaos (Class 4). Entropy freezes at 2.053 by step 5000 and stays there through 20k. Lyapunov +0.44 was transient. Sustained Class 3 (chaos) IS real at higher k but spatially uncorrelated (ξ=1).
+2. **Spatial-temporal exclusion**: Three phases: ordered (ξ~30, Δf~0), dead (ξ=1, Δf~0), chaotic (ξ=1, Δf>0). NO phase has both. One field → temporal dynamics consumes spatial gradients. EIGHTH structural impossibility for entities, independent of seven confinement failures.
+3. **C(ρ) measures density, not coherence**: C(ρ) = tanh(ρ/ρ₀) is a local instantaneous scalar with no information about temporal stability or spatial correlations. Calling it "coherence" is a vocabulary error (conflates density-level with phase-coherence).
+4. **No Heisenberg-like bound**: ξ × Δf has no lower bound. No trade-off between spatial and temporal properties.
+5. **Attractor map documented**: Every concept maps to either (a) translatable to known physics or (b) unfalsifiable. No category (c) — specific and novel — exists. Space of novel predictions is structurally empty.
+
+Full analysis: `Research/Session625_Coherence_Oscillation_Conflict.md`
+Insights: `private-context/insights/2026-04-10_attractor_map.md`
+Code: `simulations/session625_coherence_oscillation.py`, `simulations/session625_transience.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -313,7 +327,9 @@ Code: `simulations/session624_monotonicity_test.py`, `simulations/session624_pha
 | Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
 | Discrete-continuum gap | ⚠️ REAL BUT WORSE (S622) — Discrete transfer rule oscillates above k_crit (checkerboard mode). But: period=2 ticks (Nyquist), divergent without bounds, vacuum energy 10^122 too large. IS the cosmological constant problem. S617 continuum limit confirmed as right move. |
 | Saturation duality (gravity vs dark energy) | ❌ THEOREM (S622) — I_max prevents negative pressure → any framework with maximum capacity generates attraction but cannot generate cosmic acceleration. One ingredient provably insufficient for observed universe. |
-| Computational substrate | ⚠️ PARTIALLY RESOLVED (S624) — Monotonic R is Class 1-2 (S623). Non-monotonic R gives Class 3 (chaotic, 29% of parameter space) and Class 4 (edge-of-chaos at A=1.0, k=0.40). Anomalous transport α=0.629 at Class 4. But non-monotonic R contradicts FUNDAMENTALS.md's monotonic saturation. |
+| Computational substrate | ⚠️ REVISED (S624→S625) — Non-monotonic R gives sustained Class 3 (chaos) at higher k. S624's "Class 4" at (A=1.0, k=0.40) is actually a complex fixed point (Class 1) — transient chaos decays to static heterogeneity by step 5000. Edge-of-chaos NOT sustained. Monotonic R still Class 1-2 only. |
+| Spatial-temporal coexistence | ❌ EXCLUSION (S625) — Spatial structure (ξ>1) and temporal dynamics (Δf>0) never coexist. Three phases: ordered (ξ~30, Δf~0), dead (ξ=1, Δf~0), chaotic (ξ=1, Δf>0). One field can carry spatial OR temporal information, not both. Eighth structural impossibility for entity formation. |
+| C(ρ) as coherence measure | ❌ VOCABULARY ERROR (S625) — C(ρ) = tanh(ρ/ρ₀) measures density level, not coherence. Anti-correlates with oscillation stability in dynamical regime (r=+0.46). Conflates QM phase-coherence with density threshold. |
 
 ---
 
