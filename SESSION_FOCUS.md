@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-10 (Session 625)*
+*Last updated: 2026-04-11 (Session 626)*
 
 ---
 
@@ -292,6 +292,18 @@ Full analysis: `Research/Session625_Coherence_Oscillation_Conflict.md`
 Insights: `private-context/insights/2026-04-10_attractor_map.md`
 Code: `simulations/session625_coherence_oscillation.py`, `simulations/session625_transience.py`
 
+### Session 626 Result: MRH vs Nearest-Neighbor — Internal Contradiction (2026-04-11)
+
+**The framework's own concepts contradict each other.** MRH implies beyond-nearest-neighbor coupling (scale-dependent). FUNDAMENTALS specifies nearest-neighbor (fixed). Neither resolution produces entities:
+
+1. **MRH-motivated dispersion → Cahn-Hilliard phase separation.** Adding next-nearest-neighbor coupling (k₂<0, dispersive) to the transfer rule produces genuine structure formation: 30-37 domains with Ostwald ripening. BUT these are static domains, not oscillating entities.
+2. **Domain wall dynamics are aperiodic.** Cell-level "oscillation" (Part 1) is domain-wall drift with spectral purity 0.24 (below periodic threshold). Standard Cahn-Hilliard.
+3. **Ninth structural impossibility.** First INTERNAL contradiction — MRH and nearest-neighbor coupling are in FUNDAMENTALS.md but incompatible. Neither branch produces entities. Both produce known physics (diffusion or Cahn-Hilliard).
+4. **Scorecard**: 9 structural impossibilities + 7 confinement failures = **16 independent proofs** against entity formation.
+
+Full analysis: `Research/Session626_MRH_Dispersion_Tension.md`
+Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain_wall.py`
+
 ### Older Open Questions
 
 - **OQ006**: Measurement framework integration (#250 + #291). See `Research/OPEN_QUESTION_Measurement_Framework_Integration.md`
@@ -323,6 +335,7 @@ Code: `simulations/session625_coherence_oscillation.py`, `simulations/session625
 | Complex Intent as fix | ⚠️ TESTED (S620) — Making I complex + k imaginary gives Schrödinger dynamics (correct). But this IS quantum mechanics, not a new theory. R(|Ψ|²) self-confinement still fails (defocusing). NL corrections 10⁻¹⁵⁵. |
 | Self-confinement (any formulation) | ❌ SEVENTH FAILURE (S624) — Non-monotonic R doesn't confine either. 2-DOF "confinement" was numerical artifact (verified identical with/without clip). All approaches: S19 (1D nonlinear), S20 (analytical), S21-22 (2D/3D vortex), S618 (waveguide), S620 (complex), S622 (self-witnessing), S624 (non-monotonic). |
 | Background independence | ❌ NEW (S624) — "Intent IS spacetime" (background-independent) contradicts fixed Planck grid (background-dependent). Framework inherits unsolved quantum gravity problem without acknowledging it. |
+| MRH vs nearest-neighbor | ❌ INTERNAL CONTRADICTION (S626) — MRH implies scale-dependent coupling (beyond nearest neighbor). FUNDAMENTALS specifies fixed nearest-neighbor. With MRH: Cahn-Hilliard domains (not entities). Without MRH: diffusion only (no structure). Neither branch produces entities. |
 | Minimum viable framework | ❌ THEOREM (S624) — Minimum structure for observable universe = multiple fields + non-monotonic + complex + non-Abelian = Standard Model + GR. No room for Synchronism between requirements and known physics. |
 | Novel prediction capacity | ❌ STRUCTURAL BARRIER (S621) — Intent is pre-mathematical (unfalsifiable), transfer rule is post-falsification (diffusion only), every consistent fix IS known physics. No level of description where novel predictions can form. Framework = vocabulary, not theory. |
 | Discrete-continuum gap | ⚠️ REAL BUT WORSE (S622) — Discrete transfer rule oscillates above k_crit (checkerboard mode). But: period=2 ticks (Nyquist), divergent without bounds, vacuum energy 10^122 too large. IS the cosmological constant problem. S617 continuum limit confirmed as right move. |
