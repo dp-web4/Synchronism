@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-11 (Session 626)*
+*Last updated: 2026-04-11 (Session 627)*
 
 ---
 
@@ -303,6 +303,22 @@ Code: `simulations/session625_coherence_oscillation.py`, `simulations/session625
 
 Full analysis: `Research/Session626_MRH_Dispersion_Tension.md`
 Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain_wall.py`
+
+### Session 627: Demolition Arc Synthesis (2026-04-11)
+
+**Capstone of S617-626.** Ten sessions, 16 independent proofs, three levels of failure:
+1. **Level 1**: The specific equations fail (diffusion, not N-S; c²<0; gravity-waves no-go)
+2. **Level 2**: Every consistent fix IS known physics (Schrödinger, Newton, Cahn-Hilliard, Yang-Mills)
+3. **Level 3**: The framework's own concepts contradict each other (MRH vs coupling, Intent ontology)
+
+**Structural impossibility theorem**: Observable universe requires ≥2 fields + complex values + non-monotonic dynamics + non-Abelian gauge structure. Each independently necessary. Intersection = Standard Model + GR.
+
+**Attractor map**: All concepts in category (a) translatable or (b) unfalsifiable. No category (c) = specific + novel.
+
+**Demolition arc COMPLETE.** Further stress-testing of the same foundations would be repetitive. Productive directions: minimum ingredients question, SPARC methodology applied elsewhere, formalizing "self-organization is fundamental" without reducing to known physics.
+
+Full synthesis: `Research/Session627_Demolition_Synthesis.md`
+Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
 
 ### Older Open Questions
 
