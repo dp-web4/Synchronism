@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3249 (616 core + 46 chemistry files/2671 documented + 11 gnosis) | **Last Updated**: February 19, 2026 | **Archivist v1.3** | **MILESTONES: Session #616 η Framework Audit — η ≡ AG pair-breaking (reparametrization). ALL 4 tracks reparametrizations. 48 genuine contributions, 0 unique predictions confirmed. 2045/2045 tests.**
+**Total Sessions**: ~3324 (628 core + 46 chemistry files/2679 documented + 17 gnosis) | **Last Updated**: April 16, 2026 | **Archivist v1.3** | **MILESTONES: Session #628 Framework Stress Test — η ≡ AG pair-breaking (reparametrization). ALL 4 tracks reparametrizations. 48 genuine contributions, 0 unique predictions confirmed. 2045/2045 tests.**
 
 > *"The framework that unifies coherence physics across all scales"*
 
@@ -748,7 +748,7 @@ Central equation: **C(ξ) = ξ₀ + (1-ξ₀)×ξ^(1/φ)/(1+ξ^(1/φ))**
 
 ## Gnosis Track
 
-**Path**: [Gnosis/](Gnosis/) | **Total**: 11 sessions | **Status**: Theory complete, natural terminus
+**Path**: [Gnosis/](Gnosis/) | **Total**: 17 sessions | **Status**: Theory complete, natural terminus
 
 **Machine**: Thor (Jetson AGX) | **Dates**: January 11-13, 2026
 
@@ -833,13 +833,13 @@ Three-stream coherence detection (temporal/spatial/stability) | 3-5M parameters
 
 | Metric | Value |
 |--------|-------|
-| Core research sessions | 616 |
-| Chemistry sessions | 2,671 |
-| Gnosis sessions | 11 |
-| **Total sessions** | **~3,308** |
+| Core research sessions | 628 |
+| Chemistry sessions | 2,679 |
+| Gnosis sessions | 17 |
+| **Total sessions** | **~3,324** |
 | Active arcs | 0 (all closed per Final Accounting #615) |
-| Complete arcs | 42+ |
-| Chemistry phenomenon types | **1,873** |
+| Complete arcs | 43 |
+| Chemistry phenomenon types | **1,913** |
 | Genuine contributions (per η audit #616) | 48 (all 4 tracks reparametrizations) |
 | Confirmed novel predictions | 0 (per Final Accounting #615) |
 | **GRAND TOTAL TESTS VERIFIED** | **2,045/2,045** |
