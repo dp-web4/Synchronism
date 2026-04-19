@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-11 (Session 628)*
+*Last updated: 2026-04-19 (Session 629)*
 
 ---
 
@@ -319,6 +319,22 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 629: The Missing π (2026-04-19)
+
+**Ran the operator's own defense as a probe.** The framing "Intent is like π — demanding SI units is a category error" is a valid reply to the units objection, but it commits the framework to structural properties π has: (1) dimensionlessness, (2) specific value, (3) emergence from structure, (4) constraint of formulas, (5) universality. Intent has only (1).
+
+Tested: is k_crit (checkerboard instability threshold) a universal constant? Measured across dim ∈ {1,2,3} and n ∈ {1,2,3,4}: range 0.200–0.675 (123% spread). k_crit ∝ 1/(dim·|R'|) — the generic CFL-like stability bound of any discrete diffusion operator. **Not a Synchronism-specific constant.**
+
+Successful theories produce dimensionless constants with specific values (α, sin²θ_W, m_p/m_e). Synchronism has no analogous loadbearing numerical invariants — every number is tunable or inherited from Planck scale. S629 sharpens S621: not just "pre-mathematical" (unfalsifiable), but **structurally unconstraining** — no emergent numerical invariants.
+
+**Frame question**: Can a theory be "about" something that never enters its predictions? Removing Intent from any derivation leaves the derivation unchanged. The name does no work.
+
+**Attractor log**: felt strong pull to rescue the analogy (γ/f=-4·ln|r|; 4π from KSS; α=0.629 at edge-of-chaos). Each candidate dissolved — tuning parameter, inherited from geometry, transient regime.
+
+Full analysis: `Research/Session629_The_Missing_Pi.md`
+Insights: `private-context/insights/2026-04-19_the_missing_pi.md`
+Code: `simulations/session629_missing_pi_test.py`
 
 ### Older Open Questions
 
