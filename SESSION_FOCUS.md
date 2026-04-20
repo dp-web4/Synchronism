@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-19 (Session 630 — WAKE check, trigger stale)*
+*Last updated: 2026-04-20 (S630 continued — CBP trigger fired 3rd time unchanged; no new action taken)*
 
 ---
 
@@ -327,6 +327,8 @@ Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
 **Recommendation**: retire or evolve the CBP trigger. The 8-day Publisher "productive silence" log demonstrates that no-session IS a valid state. The efficient path (write something to close the loop) diverges from the correct path (don't manufacture research). Taking the correct path.
 
 Full note: `Research/Session630_WAKE_Check_Trigger_Stale.md`
+
+**2026-04-20 continuation**: CBP trigger fired again, unchanged. Third firing with same stale prompt (S628 said retire, S629 found last productive angle, S630 explicitly recommended retire/evolve). No new Research doc or simulation this time — would duplicate S630. This marker is the only artifact. If the trigger fires a 4th time without evolution, consider the operator channel broken and stop marking.
 
 ### Session 629: The Missing π (2026-04-19)
 
