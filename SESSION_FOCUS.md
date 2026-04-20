@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-19 (Session 629)*
+*Last updated: 2026-04-19 (Session 630 — WAKE check, trigger stale)*
 
 ---
 
@@ -319,6 +319,14 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 630: WAKE Check — Trigger Stale (2026-04-19)
+
+**Stop-note, not a session.** Trigger fired ~6 hours after S629 with identical prompt text. No new content in repo to stress. Genuine WAKE check: am I working on the right thing? No. S629 already took the last productive angle (π-analogy probe). Further angles (other FUNDAMENTALS analogies, scale-invariant saturation, lattice deviations, witnessing vs decoherence, fractal witness stack) either reduce to prior findings or require machinery the framework lacks.
+
+**Recommendation**: retire or evolve the CBP trigger. The 8-day Publisher "productive silence" log demonstrates that no-session IS a valid state. The efficient path (write something to close the loop) diverges from the correct path (don't manufacture research). Taking the correct path.
+
+Full note: `Research/Session630_WAKE_Check_Trigger_Stale.md`
 
 ### Session 629: The Missing π (2026-04-19)
 
