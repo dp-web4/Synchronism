@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-20 (S630 continued — CBP trigger fired 3rd time unchanged; no new action taken)*
+*Last updated: 2026-04-23 (Session 631 — BTFR/α² audit from site-visitor flag)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 631: BTFR n≈2.2 and α² Audit (2026-04-23)
+
+**Back-annotation from site** (`Research/proposals/btfr_exponent_falsification_and_alpha_coupling.md`) flagged two public-facing claims; archive audit resolves both.
+
+1. **BTFR exponent n ≈ 2.2 — REFUTED**. Derivation traced to Session #48 Track B: n = 3 − B/2 with empirical B = 1.62 → n ≈ 2.19. Session #48 itself labeled this "Too low" and the MOND n = 4 alternative "Not rigorous." Escape hatch ("baryonic component only") does not apply — Lelli+2019's n = 3.85 ± 0.09 IS the baryonic BTFR. |Δn| = 1.65 vs kill criterion |Δn| > 0.3. Refuted at >5× threshold.
+
+2. **A = 4π/(α²GR₀²) — α is NOT the fine-structure constant**. Session #66 line 61: `α = 1.0 (fiducial)`. If α = 1/137 were intended, formula is off by ~4 orders of magnitude. 4π has defensible motivation (Jeans + spherical geometry); α² is a fiducial dimensional normalization. Site's "α = fine-structure constant" labeling is misleading.
+
+**Distinct failure mode from S617–628**: internal-physics investigations don't catch disconnects between public claims and archive content. A site visitor (Pass 4 researcher persona) caught this because they read the public site and checked the papers; internal sessions never cross-audited public claims vs archive derivations.
+
+**Silence-protocol note**: S630's silence held 12 firings correctly while the repo was unchanged. The 13th firing brought new content (this proposal). Silence was calibrated to stale triggers, not to new actionable work — breaking silence here was appropriate.
+
+**Actions needed** (operator-side, site is reference-only for workers):
+- Move TEST-09 to honest-assessment failure catalog
+- Relabel A's parameter page from "Validated" to "Dimensional Fit"
+
+Full analysis: `Research/Session631_BTFR_and_Alpha_Audit.md`
 
 ### Session 630: WAKE Check — Trigger Stale (2026-04-19)
 
