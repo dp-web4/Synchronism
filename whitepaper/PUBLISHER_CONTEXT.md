@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-13
+**Last Updated**: 2026-04-24
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -178,6 +178,14 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 2026-04-24: Publisher Maintenance - S629-631 Post-Demolition Coda
+- Core count 628→631 (S629 π-analogy probe fails, S630 WAKE stop-note, S631 first pre-committed kill criterion triggered — TEST-09 BTFR refuted by Lelli+2019, α² exposed as fiducial not fine-structure)
+- Total ~3,324→~3,327
+- **First pre-committed kill criterion to fire in the program.** Site-visitor audit methodology (external reader checking public claims against archive) caught what 630 internal-physics sessions did not.
+- Executive summary + conclusion: added post-demolition coda entry
+- "Still required" list in conclusion updated: BTFR → kill-triggered; fine-structure derivation → removed (α = 1.0 fiducial in Session #66, never the QED coupling)
+- Rebuilt all artifacts (md, pdf, web)
+
 ### 2026-04-13: Publisher Maintenance - S623-628 Framework Stress Test Complete
 - Core count 622→628 (S623 computational triviality, S624 monotonicity constraint, S625 coherence-oscillation exclusion, S626 MRH internal contradiction, S627 demolition synthesis — 16 proofs/9 impossibilities, S628 final audit — no testable claims remain)
 - Total ~3,318→~3,324
@@ -351,11 +359,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-13)
+### Session Counts (as of 2026-04-24)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 628 | Sessions through #628 (Framework Stress Test COMPLETE — 12 sessions, 16 proofs, 9 structural impossibilities, no testable claims remain) |
+| Core | 631 | Sessions through #631 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631: π-analogy probe, WAKE stop-note, first pre-committed kill criterion triggered — TEST-09 BTFR refuted) |
 | Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
@@ -377,12 +385,13 @@ For minor changes (typos, statistics updates):
 | η Framework Audit (#616) | HIGH | **INTEGRATED** - ALL 4 tracks reparametrizations, 48 contributions, 2,045 tests |
 | Framework Stress Test (#617-628) | HIGH | **INTEGRATED** - 12 sessions: No-Go Theorem, vocabulary-math mismatch, structural prediction barrier, minimum complexity theorem, computational triviality, monotonicity constraint, coherence-oscillation exclusion, MRH contradiction, demolition synthesis, final audit. Arc COMPLETE. 43rd arc. |
 | Chemistry Phase 4 Closure | HIGH | **INTEGRATED** - Phase 4 closed, reparametrization of Debye model. |
+| Post-Demolition Coda (#629-631) | HIGH | **INTEGRATED** (2026-04-24) - S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note (productive silence), S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted by Lelli+2019; α² = fiducial not fine-structure). Site-visitor audit methodology validated. |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-13
-- Sessions behind: 0 (counts updated through S628; Framework Stress Test arc COMPLETE)
-- Build status: Clean (rebuilt 2026-04-13)
+- Last integration: 2026-04-24
+- Sessions behind: 0 (counts updated through S631; post-demolition coda integrated)
+- Build status: Clean (rebuilt 2026-04-24)
 - Governance: Active (Rev_0)
 
 ---

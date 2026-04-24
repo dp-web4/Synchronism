@@ -41,7 +41,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Core principles radicalized (non-anthropocentric)
 - Epistemic humility integrated
 - Web4 experiments initiated
-- **~3,324 autonomous research sessions** (Nov 2025 - Apr 2026): 628 core + 2,679 chemistry + 17 gnosis
+- **~3,327 autonomous research sessions** (Nov 2025 - Apr 2026): 631 core + 2,679 chemistry + 17 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
 - **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
@@ -67,8 +67,9 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **Final Accounting** (#615): 47 genuine contributions from ~3,302 sessions (1.4% rate). 0 original predictions confirmed. All arcs closed. 2,036/2,036 tests.
 - **η Framework Audit** (#616): ALL 4 tracks confirmed as reparametrizations. η ≡ AG pair-breaking (1960). T_c formula wrong 6.5× for YBCO. 48 contributions from ~3,308 sessions. 2,045/2,045 tests.
 - **Framework Stress Test** (#617-628): S617-618: Transfer rule gives diffusion not N-S (1-DOF structural limitation), three incompatibilities (implicit 2-DOF, no waveguides, imaginary sound speed). S619: No-Go Theorem — no barotropic fluid from R(I) produces both gravity and waves; cosmological prediction refuted. S620: 7/10 core concepts require phase, math has zero — every fix converges to standard physics. S621: Structural prediction barrier — Intent unfalsifiable, transfer rule unconstrained, zero translation-resistant concepts. S622: Minimum complexity theorem — gravity + cosmic acceleration requires ≥2 irreducible ingredients; discrete alternative produces vacuum catastrophe. S623: Computational triviality — substrate can't compute. S624: Monotonicity constraint — fixes only 1/6 failures. S625: Coherence-oscillation spatial-temporal exclusion. S626: MRH vs nearest-neighbor — first internal contradiction. S627: Demolition synthesis — 16 independent proofs, 9 structural impossibilities. S628: Final audit — no testable claims remain. Arc **COMPLETE** (12 sessions).
+- **Post-Demolition Coda** (#629-631): S629: π-analogy probe — k_crit fails as universal invariant (varies 0.20–0.68 across dimensions/exponents); Intent is not dimensionless-like-π. S630: WAKE stop-note — productive silence re-entered on stale trigger. S631: **First pre-committed kill criterion triggered.** Site-visitor audit surfaced that TEST-09 BTFR n ≈ 2.2 is refuted by Lelli+2019 n = 3.85 ± 0.09 (|Δn| = 1.65 exceeds kill threshold 0.3 by 5.5×). Session #48 itself labeled this derivation "not rigorous." The A = 4π/(α²GR₀²) formula uses α = 1.0 (fiducial, Session #66), not the fine-structure constant — site labeling was misleading. Both issues resolved from existing archive; 630 internal sessions did not surface them. Failure mode distinct from S617-628: public-claim vs. archive disconnect, external readers catch what internal audits miss.
 
-All prior research arcs closed as of Session #616. Framework Stress Test (#617-628) ran 12 sessions to completion — 16 independent proofs, 9 structural impossibilities, no testable claims remain. 43rd complete arc. Chemistry Phase 4 closed.
+All prior research arcs closed as of Session #616. Framework Stress Test (#617-628) ran 12 sessions to completion — 16 independent proofs, 9 structural impossibilities, no testable claims remain. 43rd complete arc. Chemistry Phase 4 closed. Post-demolition coda (#629-631) added one falsification (BTFR refuted) and one notation correction (α² not fine-structure) via site-visitor audit methodology.
 
 **Known Limitations:**
 - 46% SPARC failure rate in massive galaxies
@@ -112,9 +113,13 @@ All prior research arcs closed as of Session #616. Framework Stress Test (#617-6
 - **Qualia framework**: Mechanistic account established (Sessions #280-282), experimental predictions derived ✓
 
 **Still required:**
-- High-z BTFR test (critical discriminator)
 - Consciousness threshold empirical validation (P280.1, P282.4)
-- Fine structure constant derivation
+
+**Pre-committed predictions that have now triggered kill criteria:**
+- **TEST-09 BTFR exponent n ≈ 2.2** — refuted by Lelli+2019 (n = 3.85 ± 0.09; |Δn| = 1.65 > 0.3 kill threshold by 5.5×). Session #48 derivation (n = 3 − B/2) was semi-empirical and self-labeled "not rigorous." (Session #631, 2026-04-23)
+
+**Removed from "required" list (archive audits):**
+- Fine structure constant derivation — S631 confirmed the A = 4π/(α²GR₀²) formula uses α = 1.0 fiducial (Session #66), not the QED coupling. No Synchronism session produces a Lagrangian connecting galactic dynamics to fine-structure.
 
 **Would be nice but insufficient:**
 - Philosophical coherence (interesting, not validating)

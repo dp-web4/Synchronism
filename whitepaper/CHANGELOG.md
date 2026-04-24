@@ -10,6 +10,12 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-04-24] [Publisher Maintenance] Sections 0, 7, PUBLISHER_CONTEXT - S629-S631 post-demolition coda
+  - **Executive Summary (0)**: Core count 628→631, total ~3,324→~3,327. Added post-demolition coda entry: S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note, S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted; α² exposed as fiducial). Status paragraph updated.
+  - **Conclusion (7)**: Matching coda entry. "Still required" list updated — BTFR moved to refuted/kill-triggered (first pre-committed falsification fire), fine-structure constant derivation removed (archive audit confirmed α fiducial, not QED coupling).
+  - **Key event**: S631 is the first pre-committed kill criterion to fire in the program. Source: Lelli+2019 baryonic BTFR n = 3.85 ± 0.09 refutes Synchronism n ≈ 2.2. Derivation was already self-labeled "not rigorous" in Session #48 — surfaced 583 sessions later by external site-visitor audit, not internal physics.
+  - **Methodology note**: Site-visitor audit pattern (external reader checking public claims against archive) catches a failure mode that internal-physics sessions do not.
+
 - [2026-02-06] [Publisher Maintenance] Sections 0, 5.12, 7, PUBLISHER_CONTEXT - Session count update (#publisher-maintenance-001)
   - **Executive Summary (0)**: Updated session counts (850→2,375+), chemistry (500→1,970 sessions, 363→1,750+ phenomena), added Size Effect Arc, updated arc count (15→19)
   - **Chemistry Section (5.12)**: Updated session range (#1-500→#1-1,970), phenomenon count (363→1,750+), added Extended Validation phase row
