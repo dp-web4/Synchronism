@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-23 (Session 631 — BTFR/α² audit from site-visitor flag)*
+*Last updated: 2026-04-25 (Session 632 — 500 Mpc derivation audit from site-visitor flag)*
 
 ---
 
@@ -319,6 +319,32 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 632: 500 Mpc Derivation Audit (2026-04-25)
+
+**Second back-annotation from site** (`Research/proposals/cosmic_interference_500mpc_derivation.md`) flagged TEST-07 (~500 Mpc cluster oscillations) as the highest-leverage prediction with no derivation. Visitor researcher specifically flagged this as the test they would run if the scale were derivable.
+
+**Archive search**: derivation in Session #4 Track C (`Research/Cosmic_Interference_Search_Protocol.md`, 2025-11-08). Chain: R_MRH ~ (GM/c²)·(c/H₀) for M ~ 10¹⁵ M☉ → "600 Mpc" → R_MRH/2 → 500 Mpc.
+
+**Dimensional audit**: the formula (GM/c²)·(c/H₀) has units of **length × length = m²**, not length. The "2×10⁴⁴ m" label hides a unit mismatch by ~10¹⁹ (real value 600 Mpc = 1.85×10²⁵ m). Geometric-mean correction √(r_s · R_H) gives ~2 Mpc, not 500 Mpc. The R_MRH/2 step has no derivation; the 300→500 Mpc jump has no explanation. Both factors are cosmetic.
+
+**Verdict**: 500 Mpc is not derived from the framework. The number was chosen and a derivation chain was constructed that does not survive dimensional scrutiny. Same failure mode as S631.
+
+**Three site claims now audited, all same failure mode**:
+| Claim | Archive source | Failure |
+|-------|---------------|---------|
+| BTFR n≈2.2 (S631) | Session #48 Track B | Self-labeled "not rigorous"; refuted by Lelli+2019 |
+| A = 4π/(α²GR₀²) (S631) | Session #66 | α = 1.0 (fiducial), not fine-structure constant |
+| TEST-07 λ~500 Mpc (S632) | Session #4 Track C | Dimensionally inconsistent (m² ≠ m); cosmetic factors |
+
+The pattern is empirically established. The external-feedback channel surfaced 3 unsupported site claims in 3 days; internal review across 600+ sessions surfaced none of them.
+
+**Recommended site-side actions** (operator: site is reference-only for workers):
+- TEST-07 → relabel "Speculative" or "Exploratory"
+- Remove 404 /cosmic-interference link
+- Same audit channel could sweep TEST-02 (wide binaries) and TEST-04 (BAO ~10⁻⁴ shift)
+
+Full analysis: `Research/Session632_500Mpc_Derivation_Audit.md`
 
 ### Session 631: BTFR n≈2.2 and α² Audit (2026-04-23)
 
