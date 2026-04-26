@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-24
+**Last Updated**: 2026-04-26
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,14 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-04-26: Publisher Maintenance - S632-634 Site-Archive-Audit Sub-Arc
+- Core count 631→634 (Site-Archive-Audit sub-arc: S632 500 Mpc dimensional error m² not m, S633 C(ρ) saturates ~1.6 decades not 80 orders, S634 contribution count 47 vs canonical 30)
+- Total ~3,327→~3,330
+- Same failure mode as S631: public-claim/archive disconnect. **4-for-4 site-claim audit failures across 4 days.** Site-visitor audit methodology validated as transferable contribution.
+- Conservative integration: audit findings surfaced in whitepaper without silently rewriting historical session figures (S615 "47", S616 "48", S589 "30" all preserved). 47-vs-30 reconciliation deferred as editorial judgment for operator.
+- 5 site corrections still pending operator action (TEST-09 recatalog, α² relabeling, 500 Mpc removal/correction, C(ρ) "80 orders" correction, contribution count reconciliation)
+- Rebuilt all artifacts (md, pdf)
 
 ### 2026-04-24: Publisher Maintenance - S629-631 Post-Demolition Coda
 - Core count 628→631 (S629 π-analogy probe fails, S630 WAKE stop-note, S631 first pre-committed kill criterion triggered — TEST-09 BTFR refuted by Lelli+2019, α² exposed as fiducial not fine-structure)
@@ -359,11 +367,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-24)
+### Session Counts (as of 2026-04-26)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 631 | Sessions through #631 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631: π-analogy probe, WAKE stop-note, first pre-committed kill criterion triggered — TEST-09 BTFR refuted) |
+| Core | 634 | Sessions through #634 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-634: 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting discrepancy — 4-for-4 site-claim failures over 4 days) |
 | Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
@@ -386,13 +394,15 @@ For minor changes (typos, statistics updates):
 | Framework Stress Test (#617-628) | HIGH | **INTEGRATED** - 12 sessions: No-Go Theorem, vocabulary-math mismatch, structural prediction barrier, minimum complexity theorem, computational triviality, monotonicity constraint, coherence-oscillation exclusion, MRH contradiction, demolition synthesis, final audit. Arc COMPLETE. 43rd arc. |
 | Chemistry Phase 4 Closure | HIGH | **INTEGRATED** - Phase 4 closed, reparametrization of Debye model. |
 | Post-Demolition Coda (#629-631) | HIGH | **INTEGRATED** (2026-04-24) - S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note (productive silence), S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted by Lelli+2019; α² = fiducial not fine-structure). Site-visitor audit methodology validated. |
+| Site-Archive-Audit Sub-Arc (#632-634) | HIGH | **INTEGRATED** (2026-04-26) - S632 500 Mpc dimensional error (m² not m), S633 C(ρ) saturation impossibility (~1.6 decades not 80 orders), S634 47-vs-30 contribution accounting discrepancy. 4-for-4 site-claim failures over 4 days. Conservative integration: audit findings surfaced without rewriting historical figures. 5 site corrections pending operator action. Sub-arc may continue. |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-24
-- Sessions behind: 0 (counts updated through S631; post-demolition coda integrated)
-- Build status: Clean (rebuilt 2026-04-24)
+- Last integration: 2026-04-26
+- Sessions behind: 0 (counts updated through S634; site-archive-audit sub-arc integrated)
+- Build status: Clean (rebuilt 2026-04-26)
 - Governance: Active (Rev_0)
+- Open editorial: 47-vs-30 contribution count discrepancy is now visible in whitepaper (S589 says 30, S615 says 47, S616 says 48, S634 audit says S582 canonical = 30). Reconciliation requires operator judgment.
 
 ---
 
