@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-25 (Session 633 — C(ρ) one-decade saturation audit; 4th site-claim audit)*
+*Last updated: 2026-04-25 (Session 634 — A2ACWAI training-prior audit; 5th site-claim audit)*
 
 ---
 
@@ -319,6 +319,37 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 634: A2ACWAI Training-Prior Critique (2026-04-25)
+
+**Final pending back-annotation** (`Research/proposals/a2acwai_training_prior_convergence.md`, filed 2026-04-24, surfaced via S632 commit). Pass 4 researcher critique: LLM agents share training corpus → multi-AI convergence reflects training prior, not reality. Site presents A2ACWAI as discovery engine; archive should be checked.
+
+**Two number mismatches found**:
+1. **47 vs 30**: site cites "47 genuine contributions"; canonical archive inventory `Session582_Genuine_Contributions_Inventory.md` says **30** (0.92% rate, not 1.4%). 57% overcount.
+2. **C ≈ 0.50 vs Φ_crit ≈ 3.5**: site's "8 approaches converge on C ≈ 0.50" doesn't match archive's IIT-based Φ_crit ≈ 3.5. Different quantities; mismatch needs follow-up.
+
+**Critical reframe**: S582 explicitly characterizes the 30 as **data-driven** (SPARC linear modeling, materials correlation analysis) — "MOND physics that happened to be discovered through the Synchronism framework." A2ACWAI did consistency-checking, not discovery. Pass 4's critique applies to the SITE's "discovery engine" framing; the archive (S582) already absorbs it.
+
+**Held-out audit not run** (I'm not held-out). But predictions: A1–A10 → mostly (b) reparametrization of known physics; A11–A16 → mostly (a) well-known methodology. If correct, would confirm S582 and refute "discovery engine" framing.
+
+**Five site-archive audits, same failure mode**:
+| Claim | Source | Failure |
+|-------|--------|---------|
+| BTFR n=2.2 (S631) | #48 | "not rigorous" / refuted |
+| α² in A (S631) | #66 | α=1.0 fiducial |
+| 500 Mpc (S632) | #4 | dimensionally inconsistent |
+| 80 orders (S633) | site only | range vs smoothness |
+| 47 contributions (S634) | #582 says 30 | 57% overcount + framing |
+
+External-feedback channel closed 5 site claims in 5 days; internal review closed 0 in 600+. Two failure modes complement each other: S617–628 found 16 structural impossibilities (internal physics); S631–634 found 5 site-archive disconnects (public framing). Both real, both deserve action.
+
+**Recommended site-side actions** (operator: site reference-only):
+- Cite S582's 30 contributions, 0.92% rate
+- Reframe A2ACWAI as "consistency-checking protocol," not "discovery engine"
+- Trace the 8-approaches-C-0.50 claim — likely candidate for same pattern
+- Likely more candidates: TEST-02, TEST-04 (proposals already noted these)
+
+Full analysis: `Research/Session634_A2ACWAI_Convergence_Audit.md`
 
 ### Session 633: C(ρ) One-Decade Saturation (2026-04-25)
 
