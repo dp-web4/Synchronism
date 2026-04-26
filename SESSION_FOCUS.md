@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-25 (Session 634 — A2ACWAI training-prior audit; 5th site-claim audit)*
+*Last updated: 2026-04-26 (Session 635 — Cosmology scorecard; 6th site-archive audit)*
 
 ---
 
@@ -319,6 +319,46 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 635: Cosmology Scorecard (2026-04-26)
+
+**Cosmology proposal** (`Research/proposals/cosmology_claim_status_after_audits.md`, 2026-04-26) flagged a propagation failure: `/galaxy-rotation` displays "Strongly Supported" while `/key-claims` documents the Bullet Cluster structural failure that the same mechanism depends on. Proposal asks 4 steps; this session does Step 3 (audit cosmology domain for novelty) using existing archive.
+
+**Scorecard** (15 cosmology claims):
+- **Refuted**: 1 (CFD viscosity dark matter — Bullet Cluster sign error)
+- **Reparametrization**: 5 (a₀, NP2, NP4, C(ρ), 6-var offset model — all MOND or M/L equivalents)
+- **Unanchored**: 2 (BAO shift magnitude, 500 Mpc scale)
+- **Pending**: 1 (TEST-08 ΔBIC vs MOND not yet computed)
+- **Untested**: 5 (TDG, UDG, compact ellipticals, CMB cold spot, variable α)
+- **Untestable with current data**: 1 (NP3 a₀ redshift)
+- **Novel-unfalsified: 0**
+
+The cosmology domain has zero claim that is both derived from framework principles AND genuinely novel AND supported by data.
+
+**Direct disposition for /galaxy-rotation**: depends on McGaugh 2016 RAR (which IS MOND); Synchronism's environmental scatter ansatz has R²=0.14 weak; ΔBIC vs MOND-only not computed. Strongest defensible badge: "MOND Reparametrization" or (pending Step 2) "MOND + Environmental Scatter (ΔBIC=X)." Currently overclaims by 1-2 tiers.
+
+**Step 1 brief check** (gradient instead of level for DM): tentative — gradient doesn't trivially save the sign error; would require ad-hoc functional form. Out of scope for full theoretical session.
+
+**Six site-archive audits, all same failure mode**:
+| Claim | Source | Failure |
+|-------|--------|---------|
+| BTFR n=2.2 (S631) | #48 | "not rigorous" / refuted |
+| α² in A (S631) | #66 | α=1.0 fiducial |
+| 500 Mpc (S632) | #4 | dimensionally inconsistent |
+| 80 orders (S633) | site only | range vs smoothness |
+| 47 contributions (S634) | #582 says 30 | 57% overcount |
+| /galaxy-rotation badge (S635) | scorecard | Depends on refuted DM + uncomputed ΔBIC |
+
+**Recommended site-side actions** (operator: site reference-only):
+- /galaxy-rotation badge → "MOND Reparametrization"
+- /galaxy-rotation page → prominent link to /dark-matter-failure
+- Cosmology domain → scorecard summary
+- TEST-04, TEST-07 → "Speculative" until magnitudes derive
+- Run Step 2 (ΔBIC) — single highest-leverage open computation
+
+**Out of scope for this session**: Step 1 (DM reformulation, theoretical), Step 2 (multi-hour fits), Step 4 (operator site action).
+
+Full analysis: `Research/Session635_Cosmology_Scorecard.md`
 
 ### Session 634: A2ACWAI Training-Prior Critique (2026-04-25)
 
