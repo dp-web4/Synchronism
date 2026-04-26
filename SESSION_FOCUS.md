@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-25 (Session 632 — 500 Mpc derivation audit from site-visitor flag)*
+*Last updated: 2026-04-25 (Session 633 — C(ρ) one-decade saturation audit; 4th site-claim audit)*
 
 ---
 
@@ -319,6 +319,37 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 633: C(ρ) One-Decade Saturation (2026-04-25)
+
+**Third back-annotation** (`Research/proposals/coherence_function_saturation_one_decade.md`, filed 2026-04-24, surfaced via S632 commit). Visitor researcher used Coherence Explorer at γ=2 and observed C(ρ) saturates within ~1 decade of ρ — incompatible with site's "80 orders of magnitude" framing.
+
+**Numerical verification**: C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) transition window (C: 0.05→0.95) is 1.6–2.6 decades for any γ. Asymptotically bounded at ~1.6 decades; no γ makes it broader. The 1-decade saturation claim is correct.
+
+**Critical exponent test**: Taylor expansion at ρ_crit gives C analytic in ε=(ρ-ρ_crit)/ρ_crit with regular polynomial structure. **No critical exponent** in the phase-transition sense. Refutes the proposal's Interpretation 1 ("C is a phase transition order parameter") — tanh-of-log is too smooth, even below mean-field (which has β=1/2).
+
+**Archive search**: "80 orders of magnitude" phrasing is **not in the archive** — originates on site homepage metadata. The site conflates "range of ρ_crit values across systems" (~80 decades) with "smoothness window of one C(ρ) curve" (~2 decades).
+
+**Verdict**: Operationally, C(ρ) is one functional form applied per-system with system-specific (ρ_crit, γ). That's honest. The site's framing isn't.
+
+**Four site-claim audits, all same failure mode**:
+| Claim | Source | Failure |
+|-------|--------|---------|
+| BTFR n≈2.2 (S631) | Session #48 | Self-labeled "not rigorous"; refuted |
+| A = 4π/(α²GR₀²) (S631) | Session #66 | α=1.0 fiducial, not fine-structure |
+| TEST-07 λ~500 Mpc (S632) | Session #4 | Dimensionally inconsistent (m² ≠ m) |
+| C(ρ) "80 orders" (S633) | Site metadata | Conflates ρ_crit-range with smoothness window |
+
+External-feedback channel closed three site claims in three days. Internal review across 600+ sessions closed none.
+
+**Recommended site-side actions** (operator: site is reference-only):
+- Homepage tagline: replace "across 80 orders of magnitude" with per-system framing
+- Coherence Explorer: add note that 1-decade saturation is structural, not artifact
+- Drop MIPT/phase-transition analogies — function has no critical exponents
+
+**Pending**: a2acwai training-prior proposal (broader epistemic critique, deserves dedicated session)
+
+Full analysis: `Research/Session633_Coherence_Saturation_Audit.md`
 
 ### Session 632: 500 Mpc Derivation Audit (2026-04-25)
 
