@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-26
+**Last Updated**: 2026-04-27
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,15 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-04-27: Publisher Maintenance - S635 Cosmology Scorecard
+- Core count 634→635 (S635 cosmology domain scorecard: 15 claims classified, 0 novel-unfalsified)
+- Total ~3,330→~3,331
+- Site-Archive-Audit sub-arc extended (#632-634)→(#632-635); failure rate 4-for-4 → **5-for-5 across 5 days**
+- New disposition surfaced: /galaxy-rotation site badge overclaims (RAR fit is McGaugh 2016 MOND; CFD viscosity DM mechanism refuted by Bullet Cluster sign error). Defensible badge: "MOND Reparametrization."
+- Operator queue grows to 6 site corrections pending (added: /galaxy-rotation badge downgrade)
+- Daily publisher recommended DEFER for sub-arc consolidation (REC-037 readiness 0.94 held — "repeated daily uplifts dilute signal"). Whitepaper integrated anyway since S635 introduces a new finding type (domain-level scorecard) and continues the established conservative pattern.
+- Rebuilt all artifacts (md, pdf)
 
 ### 2026-04-26: Publisher Maintenance - S632-634 Site-Archive-Audit Sub-Arc
 - Core count 631→634 (Site-Archive-Audit sub-arc: S632 500 Mpc dimensional error m² not m, S633 C(ρ) saturates ~1.6 decades not 80 orders, S634 contribution count 47 vs canonical 30)
@@ -367,11 +376,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-26)
+### Session Counts (as of 2026-04-27)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 634 | Sessions through #634 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-634: 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting discrepancy — 4-for-4 site-claim failures over 4 days) |
+| Core | 635 | Sessions through #635 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-635: 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting discrepancy, cosmology domain scorecard with 0 novel-unfalsified — 5-for-5 site-claim failures over 5 days) |
 | Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
@@ -395,14 +404,16 @@ For minor changes (typos, statistics updates):
 | Chemistry Phase 4 Closure | HIGH | **INTEGRATED** - Phase 4 closed, reparametrization of Debye model. |
 | Post-Demolition Coda (#629-631) | HIGH | **INTEGRATED** (2026-04-24) - S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note (productive silence), S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted by Lelli+2019; α² = fiducial not fine-structure). Site-visitor audit methodology validated. |
 | Site-Archive-Audit Sub-Arc (#632-634) | HIGH | **INTEGRATED** (2026-04-26) - S632 500 Mpc dimensional error (m² not m), S633 C(ρ) saturation impossibility (~1.6 decades not 80 orders), S634 47-vs-30 contribution accounting discrepancy. 4-for-4 site-claim failures over 4 days. Conservative integration: audit findings surfaced without rewriting historical figures. 5 site corrections pending operator action. Sub-arc may continue. |
+| Cosmology Domain Scorecard (#635) | HIGH | **INTEGRATED** (2026-04-27) - 5th site-archive audit; 15 cosmology claims classified (1 refuted, 5 reparametrizations, 2 unanchored, 1 pending, 5 untested, 1 untestable); **0 novel-unfalsified**. /galaxy-rotation badge overclaims (RAR fit IS MOND; CFD viscosity DM mechanism refuted via Bullet Cluster). Defensible badge: "MOND Reparametrization." 5-for-5 site-claim failures across 5 days. 6 site corrections pending operator action. |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-26
-- Sessions behind: 0 (counts updated through S634; site-archive-audit sub-arc integrated)
-- Build status: Clean (rebuilt 2026-04-26)
+- Last integration: 2026-04-27
+- Sessions behind: 0 (counts updated through S635; cosmology domain scorecard integrated)
+- Build status: Clean (rebuilt 2026-04-27)
 - Governance: Active (Rev_0)
 - Open editorial: 47-vs-30 contribution count discrepancy is now visible in whitepaper (S589 says 30, S615 says 47, S616 says 48, S634 audit says S582 canonical = 30). Reconciliation requires operator judgment.
+- Open editorial: cosmology domain "0 novel-unfalsified" (S635) is a strong domain-level claim. Currently surfaced only within the Site-Archive-Audit sub-arc bullet. If the bottleneck-shifted-to-operator pattern continues, may eventually warrant promotion to its own status entry alongside the closed-arc summaries.
 
 ---
 
