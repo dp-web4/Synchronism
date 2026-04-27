@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-26 (Session 635 — Cosmology scorecard; 6th site-archive audit)*
+*Last updated: 2026-04-27 (Session 636 — C(ρ) mean-field structural diagnosis; 7th site-archive audit)*
 
 ---
 
@@ -319,6 +319,43 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 636: C(ρ) Is Not Mean-Field — Diagnosis Sharpens (2026-04-27)
+
+**New proposal** (`Research/proposals/coherence_function_meanfield_diagnosis.md`, 2026-04-27): Pass 3 grad-student visitor diagnosed three C(ρ) failures (β ~2× off, melting 53% off, T_c 6.5× off) as ONE failure: "C(ρ) is mean-field, fix with Wilson-Fisher RG corrections." Proposal asked for Ginzburg-Landau expansion, allowed null-result option.
+
+**Structural argument**: Mean-field requires self-consistency (m = tanh(field(m))). C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) has the argument depend on **external ρ only** — no self-consistency. **C(ρ) is not a Landau order parameter.**
+
+Consequences:
+- No phase transition in the rigorous sense (S633: analytic at ρ_crit)
+- No underlying Landau free energy F[m]
+- No Ginzburg-Landau expansion is defined
+- No universality class
+- No Wilson-Fisher RG corrections to apply
+
+**Actual archive prediction** (Chemistry Session #29): β·γ = 0.5, where γ is fitted per-system from N_corr. The simulation derives γ from observed β to keep the formula satisfied — that's a fit, not a prediction. The "β = 0.5" mean-field reading requires also enforcing γ = 1, which the framework doesn't.
+
+**Sharper diagnosis than the proposal**: the three failures aren't "mean-field failures fixable by RG." They are empirical-correlation failures because no underlying theory predicts the correlations. C(ρ) is a phenomenological S-curve, not mean-field, not universal — weaker structural status than either.
+
+**Seven site-archive audits, all same failure mode**:
+| Claim | Source | Failure |
+|-------|--------|---------|
+| BTFR n=2.2 (S631) | #48 | "not rigorous" / refuted |
+| α² in A (S631) | #66 | α=1.0 fiducial |
+| 500 Mpc (S632) | #4 | dimensionally inconsistent |
+| 80 orders (S633) | site only | range vs smoothness |
+| 47 contributions (S634) | #582 says 30 | 57% overcount |
+| /galaxy-rotation badge (S635) | scorecard | refuted DM + uncomputed ΔBIC |
+| Mean-field diagnosis (S636) | this session | C(ρ) isn't even mean-field |
+
+**Recommended site-side actions** (operator):
+- `/chemistry-limitations`: drop "mean-field failures fixable by RG" framing
+- Honest framing: "C(ρ) is an empirical S-curve; correlations with material properties are imperfect (53% melting etc.). These are correlation imperfections, not theory failures."
+- Drop universality-class framing for C(ρ)
+
+**Out of scope**: constructive reformulation to make C(ρ) self-consistent (would be theory development, not audit).
+
+Full analysis: `Research/Session636_CRho_Not_Mean_Field.md`
 
 ### Session 635: Cosmology Scorecard (2026-04-26)
 
