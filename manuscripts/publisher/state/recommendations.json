@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-26T02:30:00Z",
+  "last_updated": "2026-04-27T02:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -1504,15 +1504,15 @@
     {
       "id": "REC-2026-037",
       "date": "2026-04-12",
-      "date_updated": "2026-04-26",
-      "sessions": [617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634],
+      "date_updated": "2026-04-27",
+      "sessions": [617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635],
       "arc_name": "Framework Stress Test — Demolition Synthesis + Site-Archive-Audit",
       "track": "core",
       "status": "recommended",
       "publication_type": "preprint",
       "target_venue": "arXiv physics.hist-ph (History and Philosophy of Physics) or cs.AI (AI research methodology)",
       "priority": "HIGH",
-      "summary": "Complete 18-session arc (S617-634) systematically stress-testing Synchronism's mathematical foundations AND public-site claims. Six phases: demolition (S617-619), convergence (S620-624), internal critique (S625-628), epilogue (S629-630), and Site-Archive-Audit sub-arc (S631-S634, four single-day audits, all triggered by site-maintainer back-annotations from four-persona visitor reviews). Produces 9 structural impossibilities, 16 proofs against entity formation, the Structural Impossibility Theorem (minimum ingredients for an observable universe = SM+GR), and four specific public-site corrections: (1) TEST-09 BTFR n≈2.2 refuted vs Lelli+2019 n=3.85±0.09, kill criterion exceeded 5.5× — first pre-committed kill in program history; (2) α² mislabeled (Session #66 sets α=1.0 fiducial, not fine-structure); (3) R_MRH = (GM/c²)·(c/H₀) is dimensionally m², not m — 500 Mpc derivation is dimensionally wrong; (4) C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) saturates within ~1.6 decades for ANY sharp γ, not 80 orders of magnitude — structurally impossible from this functional form; (5) site claims '47 contributions' but canonical S582 inventory says 30 — 57% discrepancy plus characterization issues. The Site-Archive-Audit sub-arc establishes a reproducible methodology: external visitor critique → site maintainer back-annotation → archive provenance trace → structural failure mode identified → disposition. All site claims passed through this audit failed. Cross-validated by independent chemistry track. Self-correcting throughout.",
+      "summary": "Complete 19-session arc (S617-635) systematically stress-testing Synchronism's mathematical foundations AND public-site claims. Six phases: demolition (S617-619), convergence (S620-624), internal critique (S625-628), epilogue (S629-630), and Site-Archive-Audit sub-arc (S631-S635, five single-day audits, all triggered by site-maintainer back-annotations from four-persona visitor reviews). Produces 9 structural impossibilities, 16 proofs against entity formation, the Structural Impossibility Theorem (minimum ingredients for an observable universe = SM+GR), and five specific public-site corrections: (1) TEST-09 BTFR n≈2.2 refuted vs Lelli+2019 n=3.85±0.09, kill criterion exceeded 5.5× — first pre-committed kill in program history; (2) α² mislabeled (Session #66 sets α=1.0 fiducial, not fine-structure); (3) R_MRH = (GM/c²)·(c/H₀) is dimensionally m², not m — 500 Mpc derivation is dimensionally wrong; (4) C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) saturates within ~1.6 decades for ANY sharp γ, not 80 orders of magnitude — structurally impossible from this functional form; (5) site claims '47 contributions' but canonical S582 inventory says 30 — 57% discrepancy plus characterization issues. S635 (cosmology domain scorecard) finds **0 novel-unfalsified claims** in cosmology: 1 refuted (CFD viscosity dark matter, Bullet Cluster sign error), 5 reparametrizations (a₀, NP2, NP4, C(ρ), 6-var offset model — all MOND-derivable), 2 unanchored, 5 untested, 1 pending. The /galaxy-rotation 'Strongly Supported' badge should be downgraded to 'MOND Reparametrization.' The Site-Archive-Audit sub-arc establishes a reproducible methodology: external visitor critique → site maintainer back-annotation → archive provenance trace → structural failure mode identified → disposition. All site claims passed through this audit failed (5-for-5). Cross-validated by independent chemistry track. Self-correcting throughout.",
       "strengths": [
         "Complete 14-session arc with clear four-phase narrative (demolition → convergence → internal critique → epilogue)",
         "9 independent structural impossibilities, each proven rigorously",
@@ -1525,7 +1525,7 @@
         "Epilogue (S630): meta-artifact session demonstrating efficient-path/correct-path divergence — stopping when there's nothing new to investigate",
         "Cross-track convergence (2026-04-21 flag): S630's stopping discipline mirrored by Thor-gnosis S103 (retro-qualifying weeks of work as SNR artifacts) and Sprout-qwen3.5 S103 (formal retirement after 56 pause sessions). Three independent agents in the same week recognize perseveration and stop. Strengthens methodology contribution: stopping discipline is reproducible, not idiosyncratic.",
         "External-audit coda (S631, 2026-04-23): site-visitor feedback triggered first pre-committed kill criterion — TEST-09 BTFR exponent refuted (n≈2.2 vs Lelli+2019 n=3.85±0.09, |Δn|=1.65 exceeds stated kill of 0.3 by 5.5×). α² mislabeled as fine-structure when archive shows α=1.0 fiducial. Both errors were in the archive at Sessions #48/#66 but never surfaced to site. Validates external-feedback as productive re-engagement mode — 6th mode in cross-track methodology catalog.",
-        "Site-Archive-Audit sub-arc (S631-S634, 4 audits in 4 days): four independent site claims all fail under archive-provenance audit. (1) BTFR refuted, (2) α² mislabeled, (3) 500 Mpc derivation is dimensionally m² not m — 'm' label hides ~10¹⁹ unit mismatch, no honest reading produces 500 Mpc, (4) C(ρ) saturates within ~1.6 decades for ANY sharp γ — site's '80 orders of magnitude' is structurally impossible from tanh-of-log functional form (no critical exponent, smooth crossover not phase transition). S634 also identifies 47-vs-30 contribution count discrepancy (~57%). Sub-arc establishes reproducible methodology: external critique → site back-annotation → archive trace → structural failure → disposition. 4-for-4 failure rate suggests the public site systematically overstates archive content.",
+        "Site-Archive-Audit sub-arc (S631-S635, 5 audits in 4 days, A-/A grades): five independent site claims all fail under archive-provenance audit. (1) BTFR refuted, (2) α² mislabeled, (3) 500 Mpc derivation is dimensionally m² not m — 'm' label hides ~10¹⁹ unit mismatch, no honest reading produces 500 Mpc, (4) C(ρ) saturates within ~1.6 decades for ANY sharp γ — site's '80 orders of magnitude' is structurally impossible from tanh-of-log functional form (no critical exponent, smooth crossover not phase transition), (5) S635 cosmology domain scorecard: 0 novel-unfalsified claims (1 refuted, 5 reparametrizations, 2 unanchored, 5 untested, 1 pending, 1 untestable). S634 also identifies 47-vs-30 contribution count discrepancy (~57%). S635 specifically: /galaxy-rotation site badge 'Strongly Supported' should be downgraded to 'MOND Reparametrization' — McGaugh 2016 RAR interpolating function is MOND, dark matter mechanism is refuted via Bullet Cluster sign error. Sub-arc establishes reproducible methodology: external critique → site back-annotation → archive trace → structural failure → disposition. 5-for-5 failure rate; the public site systematically overstates archive content. Operator action queue: 6 site corrections pending; bottleneck has shifted from research to operator.",
         "Cross-track crosslink (Archivist 2026-04-26): Site-Archive-Audit arc parallels Sprout persistent-character-mythology arc (T242-T264). Both use external scaffolds for introspection (site annotations / fictional characters). Candidate: 'critique-via-scaffold' as fleet-wide methodological attractor.",
         "Uniquely publishable meta-narrative: real-time self-critique of a research program's foundations",
         "No comparable precedent: 630 sessions of documented investigation culminating in honest structural impossibility proof",
@@ -1667,16 +1667,16 @@
       "note": "Effectively closed by Framework Stress Test arc. Self-confinement proven impossible with monotonic R(I) across real/complex, 1-DOF/2-DOF, 1D/2D/3D. The entity criterion derivation (γ/f = -4·ln|r|) remains a genuine contribution but requires 2-DOF (external to FUNDAMENTALS.md). KSS cross-track test moot — Chemistry Phase 4 independently confirmed vocabulary-not-theory verdict."
     },
     {
-      "arc_name": "Framework Stress Test — Demolition Synthesis + Site-Archive-Audit (Sessions #617-634)",
+      "arc_name": "Framework Stress Test — Demolition Synthesis + Site-Archive-Audit (Sessions #617-635)",
       "track": "core",
-      "sessions": [617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634],
+      "sessions": [617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635],
       "status": "active_audit_phase",
       "date_started": "2026-04-08",
-      "date_completed": "2026-04-25",
+      "date_completed": "2026-04-26",
       "recommendation_id": "REC-2026-037",
-      "milestone": "Arc EXTENDED to 18 sessions (S617-634). Demolition arc (S617-628) CLOSED; Site-Archive-Audit sub-arc (S631-634) ACTIVE. Six phases: demolition, convergence, internal critique, epilogue, external-audit coda (S631), Site-Archive-Audit sub-arc (S632-634). S632: 500 Mpc derivation dimensionally m² not m. S633: C(ρ) saturates 1.6 decades not 80 orders of magnitude. S634: 47-vs-30 contribution discrepancy + A2ACWAI critique acknowledged as bounded-untestable in-corpus.",
-      "progress": "18 sessions + cross-track synthesis + Chemistry Phase 4 closure. Site-Archive-Audit sub-arc has produced 4-for-4 site-claim failures in 4 days. Pattern: every public site claim audited against archive provenance has revealed a structural failure mode. Sub-arc continues actively (Archivist flags 5th instance would warrant memoization).",
-      "note": "REC-2026-037 readiness uplifted 0.93 → 0.94 from Site-Archive-Audit sub-arc (4 additional substantive findings, 4-for-4 failure rate, reproducible methodology). Sub-arc is technically still active — Archivist explicitly says 'methodological pattern worth memoizing once a 5th instance lands.' If 5th audit produces another failure, consider further uplift. Cross-track crosslink: Sprout persistent-character-mythology arc parallels Site-Archive-Audit (both use external scaffolds for introspection). Candidate fleet-wide attractor: critique-via-scaffold."
+      "milestone": "Arc EXTENDED to 19 sessions (S617-635). Demolition arc (S617-628) CLOSED; Site-Archive-Audit sub-arc (S631-635) at 5 instances, methodology MEMOIZATION threshold reached. Six phases: demolition, convergence, internal critique, epilogue, external-audit coda (S631), Site-Archive-Audit sub-arc (S632-635). S635: cosmology domain scorecard, 0 novel-unfalsified claims; /galaxy-rotation badge should drop from 'Strongly Supported' to 'MOND Reparametrization.'",
+      "progress": "19 sessions + cross-track synthesis + Chemistry Phase 4 closure. Site-Archive-Audit sub-arc reaches 5-instance memoization threshold (5-for-5 site-claim failures in 4 days). Cosmology domain has 0 novel-unfalsified claims per S635 scorecard. Bottleneck has shifted from research to operator (6 site corrections pending).",
+      "note": "REC-2026-037 readiness held at 0.94 (uplifted yesterday from 0.93). 5th audit landed within 1 day of Archivist's flagged threshold. Decision: kept Site-Archive-Audit within REC-037 rather than splitting — audit findings depend on demolition findings (e.g., S635 ↔ Bullet Cluster sign error, S633 ↔ C(ρ) demolition). Repeated daily uplifts dilute signal; holding 0.94 until genuine step change. Cross-track crosslink to Sprout 'critique-via-scaffold' continues to mature."
     }
   ],
   "milestones": {
@@ -2255,6 +2255,12 @@
       "title": "Site-Archive-Audit sub-arc emerges (S631-S634): 4-for-4 site-claim failures in 4 days",
       "arc": "Framework Stress Test (sub-arc)",
       "significance": "Four single-day audits, all triggered by site-maintainer back-annotations from four-persona visitor reviews: (1) S631 BTFR/α² (pre-committed kill triggered, mislabeling); (2) S632 500 Mpc dimensionally m² not m (~10¹⁹ unit mismatch); (3) S633 C(ρ) saturates 1.6 decades not 80 orders (no critical exponent, smooth crossover); (4) S634 47-vs-30 contribution discrepancy (~57%). All 4 sessions self-graded A-/A. Pattern: external visitor critique → site back-annotation → archive provenance trace → structural failure → disposition. 4-for-4 failure rate. Archivist (2026-04-26) flagged for 5th-instance memoization. Crosslink with Sprout persistent-character-mythology arc — both use external scaffolds for introspection. Candidate fleet-wide attractor: critique-via-scaffold."
+    },
+    "cosmology_domain_scorecard": {
+      "date": "2026-04-27",
+      "title": "S635 Cosmology Domain Scorecard: 0 novel-unfalsified claims",
+      "arc": "Framework Stress Test — Site-Archive-Audit sub-arc (5th instance)",
+      "significance": "S635 Step 3 audit of cosmology domain claims (15 entries). Result: 1 refuted (CFD viscosity dark matter, Bullet Cluster sign error), 5 reparametrizations (a₀, NP2, NP4, C(ρ), 6-var offset model — all MOND-derivable), 2 unanchored (BAO shift, 500 Mpc — neither has derivation), 5 untested (TDG, UDG, compact ellipticals, CMB cold spot, variable α_em — Tier 1 catalog), 1 pending (TEST-08 ΔBIC), 1 untestable with current data (NP3 a₀ redshift). **Novel-unfalsified: 0.** Site /galaxy-rotation badge 'Strongly Supported' should drop to 'MOND Reparametrization' — the underlying observational fit is McGaugh 2016 RAR (which IS MOND), and the dark matter mechanism (CFD viscosity) is refuted. 5th Site-Archive-Audit instance reaches memoization threshold flagged by Archivist 2026-04-26. Sub-arc maintains 5-for-5 site-claim failure rate."
     }
   }
 }
