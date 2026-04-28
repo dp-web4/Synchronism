@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-27 (Session 636 — C(ρ) mean-field structural diagnosis; 7th site-archive audit)*
+*Last updated: 2026-04-28 (Session 637 — RAR σ_int(ρ_env) slope: derived but ~120× below SPARC floor)*
 
 ---
 
@@ -319,6 +319,27 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 637: RAR σ_int(ρ_env) — Derived Slope ~120× Below SPARC Floor (2026-04-28)
+
+**New proposal** (`Research/proposals/rar_sigma_int_environment_slope_derivation.md`): leading-edge reviewer flagged environment-dependent σ_int(RAR) as the framework's "one candidate for a genuinely novel, non-reparametrization prediction." Proposal asked for a numerical slope.
+
+**First DERIVATION attempt in the audit sub-arc** (prior 6 were falsifications). Used γ=2 from Session #64's 6D phase-space derivation, treating ρ_env as additive contribution to local density at galaxy outskirts (ρ_total = ρ_galactic + ρ_env), as the framework's archive defines.
+
+**Result**: Predicted Δσ_int(cluster − void) ≈ **0.00016 dex**.
+- vs RAR baseline σ_int = 0.13 dex → 0.1% of baseline
+- vs SPARC measurement floor 0.02 dex → 0.8% of floor (~120× below detection)
+
+The slope d(log C)/d(log ρ) ≈ 0.25 is computable and stable; the amplitude is microscopic because ρ_env / ρ_galactic_outer ≲ 10⁻³ even in cluster outskirts.
+
+**Verdict**: not refuted — undetectable. The framework's most-defended novel candidate, derived honestly, predicts a signal too small to test with current samples. Indistinguishable from MOND's σ_int = const in the testable regime.
+
+**Audit-channel taxonomy extends to 7th mode**: "Derivation succeeds but predicts undetectable signal." Different from prior 6 (which found errors). Same conclusion: no novel testable prediction emerges.
+
+**Site action recommended**: σ_int(ρ_env) claim should specify the slope (0.25 dex/dex) and amplitude (~10⁻⁴ dex environmental difference) — making clear it is not currently an experimental discriminator.
+
+Full analysis: `Research/Session637_RAR_Sigma_Env_Slope.md`
+Code: `simulations/session637_rar_sigma_env_slope.py`
 
 ### Session 636: C(ρ) Is Not Mean-Field — Diagnosis Sharpens (2026-04-27)
 
