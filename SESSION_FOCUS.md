@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-28 (Session 637 — RAR σ_int(ρ_env) slope: derived but ~120× below SPARC floor)*
+*Last updated: 2026-04-29 (Session 638 — Curie-paramagnet reduction verified)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 638: Curie-Paramagnet Reduction Verified (2026-04-29)
+
+**Two same-day proposals**: maintainer's Landau-reduction question (06:11) + site explorer's complete answer (08:13). The answer: C(ρ) reduces to LESS than Landau — it is the equilibrium of a single binary variable in an external log-density field, the Curie paramagnet response. Verified independently here.
+
+**Verified claims (sympy + numerical)**:
+- F(C, ρ) = ((1+C)/2)ln(1+C) + ((1−C)/2)ln(1−C) − h·C → C = tanh(h) at equilibrium ✓
+- Taylor expansion: F = (1/2)C² + (1/12)C⁴ + (1/30)C⁶ + ... with coefficients **1/[2n(2n−1)]** ✓
+- All coefficients positive → no critical point, no broken Z₂ ✓
+- C ≥ 0 always (h ≥ 0 since log(x+1) ≥ 0) → no Z₂ symmetry ✓
+- C(ρ_crit) > 0 at every γ → ρ_crit is field-zero offset, not critical density ✓
+
+**Sharpens S636**: not just "uncorrected mean-field" — it's *less than mean-field*. Mean-field Landau has a critical point; the Curie form has none. The three documented failures (53% melting, 6.5× YBCO T_c, 0/7 fractal bridge) are exactly what non-interacting response gives when applied to interacting phase transitions.
+
+**Audit taxonomy 8th mode**: "External-track derivation independently verified." Different from prior 7 — the worker session verifies, not produces, the analysis. Verification track is now operational.
+
+**Bounding result combined with S637**: framework's predictive content is now fully characterized — MOND in testable cosmology regime (S637), Curie-paramagnet response in chemistry/condensed-matter regime (S638). Neither contributes a discriminating experimental test.
+
+Full analysis: `Research/Session638_Curie_Verification.md`
+Code: `simulations/session638_curie_verification.py`
 
 ### Session 637: RAR σ_int(ρ_env) — Derived Slope ~120× Below SPARC Floor (2026-04-28)
 
