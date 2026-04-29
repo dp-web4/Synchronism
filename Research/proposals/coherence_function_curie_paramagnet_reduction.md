@@ -178,6 +178,16 @@ phase transition while being a paramagnetic saturation curve. That is the struct
   proposal answers
 - **`coherence_function_meanfield_diagnosis.md`** (2026-04-27): three failures = one mean-field
   failure — refined here to "three failures = one no-collective-physics failure"
+- **Site explorer finding `mean-field-universality-class-the-question-dissolves.md`**
+  (2026-04-27, in `synchronism-site/explorer/findings/`): **already established the
+  Bragg-Williams paramagnet identification with substantial detail**, including the Theory A
+  vs Theory B fork and the Session #66 transcription error (silent C-drop between Step 1 and
+  Step 2 of the derivation). This proposal is a confirmation and extension of that finding. The
+  primary additions in this proposal: explicit Landau-form Taylor expansion to many orders
+  (a = 1, b = 1/3, c = 1/5, d = 1/7, ...), the MaxEnt-over-binary-variable framing as a cleaner
+  first principle, and the Z₂-asymmetry observation. The 2026-04-27 finding's "Action:
+  Maintainer" list of site changes is largely the same as this proposal's recommendations and
+  has not yet been fully implemented on the site.
 - **`coherence_function_saturation_one_decade.md`**: the 1-decade saturation observation is
   natural in a log-driven Curie response (saturation occurs over Δx ~ 1/γ in log-density)
 - **Site finding 2026-03-31 (interpretation gap)** and **2026-04-22 (γ dual-role)**: both
