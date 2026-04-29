@@ -1,6 +1,20 @@
 # Synchronism: Unified Coherence Framework
 
-A mathematical framework unifying quantum mechanics, gravity, chemistry, and consciousness through a single equation: **γ = 2/√N_corr**.
+A research program asking whether **one coherence parameter (γ = 2/√N_corr)** can describe phenomena across very different scales — quantum, classical, chemical, cosmological — and what falsifies it. Open-ended; calibrated; honest about where the framework breaks down. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
+
+The framing is ambitious. The work tests the framing. Not all tests have passed.
+
+## Five-minute audit
+
+If you want a fast read on whether this is real, in order:
+
+1. [**STATUS.md**](STATUS.md) — full honest assessment of what's tested, what's pending, what failed.
+2. [**Research/discoveries/**](Research/discoveries/) — discoveries with explicit statistical evidence and falsification status. Each doc names what would refute the claim.
+3. [**Honest Limitations** (further down this README)](#honest-limitations) — the things that *didn't* work. 53% error on chemistry melting points. 2× off on critical exponents. The framework's own boundary, named in the open.
+4. [**Research Tracks**](#research-tracks-march-2026) — current work with session counts and verdicts. "Phase 2 complete: framework is organizational lens, not predictive theory" is itself a finding.
+5. [**Coupling-Coherence Experiment**](Research/Coupling_Coherence_Experiment.md) — 900 runs, Hill function beat tanh by ΔAIC=4. Concrete, reproducible, falsifiable.
+
+The work that follows is a research program testing a unifying hypothesis. The hypothesis being ambitious doesn't make the testing crankery; the testing being explicit about its failures is what distinguishes it from crankery.
 
 ---
 
@@ -8,7 +22,7 @@ A mathematical framework unifying quantum mechanics, gravity, chemistry, and con
 
 Synchronism asks: *Can one coherence parameter explain phenomena from Planck scale to cosmic scale?*
 
-**2,200+ research sessions** later, we have validated predictions across 1703 phenomenon types—and honest failures that define the framework's boundaries.
+**2,200+ research sessions** later, we have validated predictions across 1703 phenomenon types — and honest failures that define the framework's boundaries.
 
 ---
 
