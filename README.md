@@ -1,8 +1,8 @@
-# Synchronism: Unified Coherence Framework
+# Synchronism: A Blue-Sky Coherence Exploration
 
-A research program asking whether **one coherence parameter (γ = 2/√N_corr)** can describe phenomena across very different scales — quantum, classical, chemical, cosmological — and what falsifies it. Open-ended; calibrated; honest about where the framework breaks down. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
+A blue-sky research program asking whether **one coherence parameter (γ = 2/√N_corr)** can describe phenomena across very different scales — quantum, classical, chemical, cosmological — and what falsifies it. **This is exploratory work, not engineering.** It tests and probes limits, documents what it learns, and currently exists to inform other projects (Web4, SAGE) philosophically rather than as practical infrastructure itself. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
 
-The framing is ambitious. The work tests the framing. Not all tests have passed.
+The framing is ambitious. The work tests the framing. Many tests have not passed, and that is a feature of the program, not a bug.
 
 ## Five-minute audit
 
