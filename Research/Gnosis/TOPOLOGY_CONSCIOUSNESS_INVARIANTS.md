@@ -40,7 +40,7 @@ Information theory: H_trust = 0.5 maximum entropy transition
 1. **trust_topology_invariants.py** - 9 invariants (boundedness, conservation, transitivity, monotonicity, symmetry, locality, stability, decomposition, entropy)
 2. **trust_propagation_networks.py** - Transitive trust, flow algorithms, PageRank-like propagation
 3. **byzantine_fault_detection.py** - Defection detection, majority voting
-4. **atp_conservation_laws.py** - Conservation of trust (ATP = Attestation Token Protocol)
+4. **atp_conservation_laws.py** - Conservation of trust (ATP = Allocation Transfer Packet)
 5. **federation_merge_protocol.py** - Merging trust networks
 6. **federation_partition_tolerance.py** - Network partition recovery
 7. **trust_aggregation_operators.py** - Combining trust from multiple sources
