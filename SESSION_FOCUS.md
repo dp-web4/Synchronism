@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-29 (Session 638 — Curie-paramagnet reduction verified)*
+*Last updated: 2026-04-30 (Session 639 — TEST-03 disambiguation, post-arc-closure audit)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 639: TEST-03 Kill Disambiguation (2026-04-30, post-arc-closure)
+
+**Visitor proposal** (`test03_kill_criterion_self_trigger.md`, filed 2 hrs after arc was declared closed): TEST-03 reports R²=0.14 on /galaxy-rotation while stating kill criterion <20%. Has it self-triggered?
+
+**Archive trace finds the site conflates two different metrics**:
+- **51% improvement** (Session 593, derived): TFR residual reduces BTFR scatter, σ: 0.402→0.195 dex, N=14,437. **Survives the <20% kill by 2.5×.**
+- **R² = 0.14** (separate ansatz on /galaxy-rotation): environmental density explains RAR scatter, N=14,585. **Below threshold but for a different test.**
+
+These are independent, additive contributions (S594: combined gives 55.1%). The site's TEST-03 label should be split into TEST-03A (BTFR/TFR-residual, passing) and TEST-03B (RAR/environment, below threshold).
+
+**Verdict: Interpretation B refined**. The 51% prediction has a clean derivation chain (S593 with SPS-mass baseline; S594 decomposition; S596 synthesis). The 14% number is a separate weaker claim mislabeled under the same TEST-ID.
+
+**Audit-channel taxonomy 9th mode (post-arc extension)**: "Metric conflation under a shared TEST-ID." This is the mechanism by which site/archive divergence accumulates — same label, different measurements, asymmetric correction propagation.
+
+**Arc status note**: Arc was formally closed earlier today at 22 sessions. S639 arrives within hours of closure as a 9th distinct mode. Predictive content is still characterized; the *correction process* is incomplete. Operator call whether to reopen or treat as coda.
+
+Full analysis: `Research/Session639_TEST03_Kill_Disambiguation.md`
 
 ### Session 638: Curie-Paramagnet Reduction Verified (2026-04-29)
 
