@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-27
+**Last Updated**: 2026-04-30
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,16 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-04-30: Publisher Maintenance - S636-638 + Framework Stress Test Arc CLOSED at 22 Sessions
+- Core count 635→638 (S636 C(ρ) is not mean-field — category error; S637 RAR σ_int(ρ_env) derivation succeeds at ~120× below SPARC floor; S638 sympy+numpy verification that C(ρ) reduces to Curie paramagnet — *less than* Landau)
+- Total ~3,331→~3,334
+- **Framework Stress Test arc CLOSED at 22 sessions (S617-638).** Comprises demolition phase (S617-628), post-demolition coda (S629-631), and Site-Archive-Audit sub-arc (S632-638). Audit-channel taxonomy now 8 modes. **Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). Both verified via independent CAS.** Framework has no microscopic basis in collective coherence; it is phenomenological saturation response.
+- Verification track operational: S638 worker session verifies site-explorer-track derivation via CAS — qualitatively different audit mode (#8) from prior 7 modes
+- Operator response began 2026-04-29 (separate from Publisher integration): two README reframings shift public-site framing from "unification claim" to "calibrated blue-sky exploration." Framing-level corrections delivered; item-level corrections (TEST-09 recatalog, α² relabeling, 500 Mpc removal, C(ρ) "80 orders" correction, contribution count reconciliation, /galaxy-rotation badge downgrade, plus Curie reduction surfacing) still pending — 7 site corrections in queue
+- 8-for-8 site-claim audit instances over 9 days (S631-638). Site-visitor audit methodology validated as transferable contribution
+- Conservative integration: extended existing Site-Archive-Audit Sub-Arc bullet rather than creating new sections (sub-arc grew from 4→7 audits + closure note); arc closure summary in conclusion paragraph
+- Rebuilt all artifacts (md, pdf)
 
 ### 2026-04-27: Publisher Maintenance - S635 Cosmology Scorecard
 - Core count 634→635 (S635 cosmology domain scorecard: 15 claims classified, 0 novel-unfalsified)
@@ -376,11 +386,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-27)
+### Session Counts (as of 2026-04-30)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 635 | Sessions through #635 (Framework Stress Test COMPLETE through #628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-635: 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting discrepancy, cosmology domain scorecard with 0 novel-unfalsified — 5-for-5 site-claim failures over 5 days) |
+| Core | 638 | Sessions through #638 (**Framework Stress Test arc COMPLETE at 22 sessions, S617-638**: demolition #617-628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-638 — 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting, cosmology domain scorecard with 0 novel-unfalsified, C(ρ) is not mean-field — category error, RAR σ_int derivation ~120× below SPARC floor, Curie-paramagnet CAS verification — 8-for-8 site-claim audit instances over 9 days). Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). |
 | Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
@@ -403,17 +413,19 @@ For minor changes (typos, statistics updates):
 | Framework Stress Test (#617-628) | HIGH | **INTEGRATED** - 12 sessions: No-Go Theorem, vocabulary-math mismatch, structural prediction barrier, minimum complexity theorem, computational triviality, monotonicity constraint, coherence-oscillation exclusion, MRH contradiction, demolition synthesis, final audit. Arc COMPLETE. 43rd arc. |
 | Chemistry Phase 4 Closure | HIGH | **INTEGRATED** - Phase 4 closed, reparametrization of Debye model. |
 | Post-Demolition Coda (#629-631) | HIGH | **INTEGRATED** (2026-04-24) - S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note (productive silence), S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted by Lelli+2019; α² = fiducial not fine-structure). Site-visitor audit methodology validated. |
-| Site-Archive-Audit Sub-Arc (#632-634) | HIGH | **INTEGRATED** (2026-04-26) - S632 500 Mpc dimensional error (m² not m), S633 C(ρ) saturation impossibility (~1.6 decades not 80 orders), S634 47-vs-30 contribution accounting discrepancy. 4-for-4 site-claim failures over 4 days. Conservative integration: audit findings surfaced without rewriting historical figures. 5 site corrections pending operator action. Sub-arc may continue. |
-| Cosmology Domain Scorecard (#635) | HIGH | **INTEGRATED** (2026-04-27) - 5th site-archive audit; 15 cosmology claims classified (1 refuted, 5 reparametrizations, 2 unanchored, 1 pending, 5 untested, 1 untestable); **0 novel-unfalsified**. /galaxy-rotation badge overclaims (RAR fit IS MOND; CFD viscosity DM mechanism refuted via Bullet Cluster). Defensible badge: "MOND Reparametrization." 5-for-5 site-claim failures across 5 days. 6 site corrections pending operator action. |
+| Site-Archive-Audit Sub-Arc (#632-634) | HIGH | **INTEGRATED** (2026-04-26) - S632 500 Mpc dimensional error (m² not m), S633 C(ρ) saturation impossibility (~1.6 decades not 80 orders), S634 47-vs-30 contribution accounting discrepancy. 4-for-4 site-claim failures over 4 days. Conservative integration: audit findings surfaced without rewriting historical figures. |
+| Cosmology Domain Scorecard (#635) | HIGH | **INTEGRATED** (2026-04-27) - 5th site-archive audit; 15 cosmology claims classified (1 refuted, 5 reparametrizations, 2 unanchored, 1 pending, 5 untested, 1 untestable); **0 novel-unfalsified**. /galaxy-rotation badge overclaims (RAR fit IS MOND; CFD viscosity DM mechanism refuted via Bullet Cluster). Defensible badge: "MOND Reparametrization." 5-for-5 site-claim failures across 5 days. |
+| Site-Archive-Audit Extension + Arc CLOSURE (#636-638) | HIGH | **INTEGRATED** (2026-04-30) - S636 C(ρ) is not mean-field (category error: no self-consistency, no Landau free energy); S637 first DERIVATION attempt — RAR σ_int(ρ_env) ≈ 0.00016 dex, ~120× below SPARC floor (cosmology regime → MOND in testable regime); S638 sympy+numpy verification that C(ρ) reduces to Curie paramagnet — *less than* Landau (chemistry/CM regime → non-interacting two-state response). **Framework Stress Test arc COMPLETE at 22 sessions (S617-638).** Audit-channel taxonomy now 8 modes; verification track operational. 8-for-8 site-claim audit instances over 9 days. Predictive content fully characterized in both regimes via independent CAS. 7 site corrections pending operator action (added: Curie reduction surfacing). Operator response began 2026-04-29 (two README reframings — framing-level corrections delivered, item-level pending). |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-27
-- Sessions behind: 0 (counts updated through S635; cosmology domain scorecard integrated)
-- Build status: Clean (rebuilt 2026-04-27)
+- Last integration: 2026-04-30
+- Sessions behind: 0 (counts updated through S638; Framework Stress Test arc closure integrated)
+- Build status: Clean (rebuilt 2026-04-30)
 - Governance: Active (Rev_0)
 - Open editorial: 47-vs-30 contribution count discrepancy is now visible in whitepaper (S589 says 30, S615 says 47, S616 says 48, S634 audit says S582 canonical = 30). Reconciliation requires operator judgment.
-- Open editorial: cosmology domain "0 novel-unfalsified" (S635) is a strong domain-level claim. Currently surfaced only within the Site-Archive-Audit sub-arc bullet. If the bottleneck-shifted-to-operator pattern continues, may eventually warrant promotion to its own status entry alongside the closed-arc summaries.
+- Open editorial: cosmology domain "0 novel-unfalsified" (S635), MOND-reduction (S637), and Curie-paramagnet structural diagnosis (S638) are all currently surfaced within the Site-Archive-Audit sub-arc bullet plus the Status paragraph. Now that the Framework Stress Test arc has CLOSED at 22 sessions with predictive content fully characterized, this may warrant promotion to dedicated status entries alongside the other closed-arc summaries (e.g., a stand-alone "Predictive content characterization" entry). Currently held back conservatively — one bullet handles it without restructuring; operator can decide whether structural promotion is warranted.
+- Open editorial: operator response in progress (README framing-level corrections delivered 2026-04-29). 7 item-level site corrections still pending in operator queue. Next publisher pass should track whether item-level resolution lands and update site-correction status accordingly.
 
 ---
 
