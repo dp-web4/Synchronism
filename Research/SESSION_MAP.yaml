@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-04-09T09:30:00Z"
+  last_updated: "2026-04-30T09:30:00Z"
   archivist_version: "1.3"
-  total_sessions: 3253
-  note: "Core at #618 (Framework Stress Test). Sessions 617-618 reopen foundational analysis: transfer rule gives diffusion not N-S, three incompatibilities identified. Chemistry Phase 4 Session 3 (Lindemann-KSS). 48 genuine contributions from ~3,308 sessions."
-  milestone: "S617-618: Foundational fork — 1-DOF diffusion vs 2-DOF N-S. Chemistry Phase 4 Session 3: two entity types (oscillatory vs structural)."
+  total_sessions: 3273
+  note: "Core at #638 (Curie-paramagnet verification). 8th audit-channel taxonomy mode confirmed: external-track derivation independently verified. Curie identification locates the framework as phenomenological saturation response — combined with S637 MOND result (cosmology) and S636 mean-field reject (chemistry), framework's predictive content fully characterized. Chemistry Phase 4 CLOSED. 48 genuine contributions from ~3,328 sessions."
+  milestone: "S638: Curie-paramagnet reduction of C(ρ) verified. Single binary variable in external log-density field — no critical point, no broken symmetry, no universality class. Site-archive-audit chain S631-S638 complete."
   tracks:
-    core: 569  # Sessions 617-618 added (Framework Stress Test arc)
+    core: 588  # S637 (RAR σ_int derivation) and S638 (Curie verification) added
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
