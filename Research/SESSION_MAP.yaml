@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-04-30T09:30:00Z"
+  last_updated: "2026-05-01T09:30:00Z"
   archivist_version: "1.3"
-  total_sessions: 3273
-  note: "Core at #638 (Curie-paramagnet verification). 8th audit-channel taxonomy mode confirmed: external-track derivation independently verified. Curie identification locates the framework as phenomenological saturation response — combined with S637 MOND result (cosmology) and S636 mean-field reject (chemistry), framework's predictive content fully characterized. Chemistry Phase 4 CLOSED. 48 genuine contributions from ~3,328 sessions."
-  milestone: "S638: Curie-paramagnet reduction of C(ρ) verified. Single binary variable in external log-density field — no critical point, no broken symmetry, no universality class. Site-archive-audit chain S631-S638 complete."
+  total_sessions: 3274
+  note: "Core at #639 (TEST-03 disambiguation, 9th audit-channel taxonomy mode). New mode: 'metric conflation under shared TEST-ID' — site's 51% (BTFR scatter via TFR residual, S593) and 14% (RAR environmental ansatz) share the TEST-03 label but measure different things. Verdict: kill criterion mis-specified (interpretation B with refinement). Names the *mechanism* of site/archive divergence: shared labels, distinct measurements, no enforced alignment. Arrived within hours of S638 arc closure — confirms post-closure visitor-channel productivity."
+  milestone: "S639: TEST-03 disambiguation. Two distinct metrics (BTFR 51% vs RAR 14%) share a TEST-ID; the kill criterion is anchored to the wrong number. Mechanism of divergence named. Site-archive-audit chain extends to 9 modes (S631-S639)."
   tracks:
-    core: 588  # S637 (RAR σ_int derivation) and S638 (Curie verification) added
+    core: 590  # S639 (TEST-03 disambiguation) added
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
