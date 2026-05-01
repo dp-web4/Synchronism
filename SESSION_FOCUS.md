@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-04-30 (Session 639 — TEST-03 disambiguation, post-arc-closure audit)*
+*Last updated: 2026-05-01 (Session 640 — Dual-C symbol audit, 10th audit-mode)*
 
 ---
 
@@ -319,6 +319,25 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 640: Dual-C Symbol Audit — Bridge Not Written (2026-05-01)
+
+**Visitor proposal** (`dual_C_symbol_ambiguity_and_bridge_derivation.md`): five-persona review independently identified that two functional forms of C share notation: Form 1 = C(ρ) = tanh(γ·ln(ρ/ρ_crit+1)) (chemistry/cosmology); Form 2 = C = f(γ,D,S)≥0.50 (consciousness, where D=diversity, S=stability).
+
+**Archive trace findings**:
+- **D and S are NOT functions of ρ** (Sessions #358, #359). D = state-space entropy; S = coherence persistence (ms). Operationally defined as direct neural measurements.
+- **C=0.50 threshold derives from 8-way convergence** (gnosis-consciousness-threshold.md), NOT from inverting Form 1. Independent derivation.
+- **Only γ formula is shared** (γ = 2/√N_corr). All other structure differs.
+- **Numerical mismatch unaddressed**: solving C(ρ)=0.50 gives sub-critical ρ/ρ_crit ≈ 0.315 at γ=2 — archive doesn't choose between "consciousness is pre-critical" or "the C's aren't the same observable."
+- **Session #251 introduces a THIRD form** C(ξ) = ξ₀ + (1-ξ₀)·ξ^(1/φ)/[1+ξ^(1/φ)]. Three forms of C in the archive, none reduces to another.
+
+**Verdict: Path C refined — bridge does not exist as derivation, only as notational claim.** The "one equation across scales" homepage claim rests on shared notation, not on a derivation chain. Framework is currently in undeclared Path B state.
+
+**10th audit-taxonomy mode**: "Symbol overloading at foundational level." Same mechanism as S639 (shared label, divergent semantics), different scope (foundational symbol C, not single TEST-ID).
+
+**Recommended site action (Path B, cleanest)**: adopt C_ρ for field form, C_sys for system form, note explicitly that they share γ but no reduction chain exists. Homepage rewrite from "one equation" to "one parameter (γ = 2/√N_corr) constrains coherence-like measures across domains."
+
+Full analysis: `Research/Session640_Dual_C_Symbol_Bridge_Audit.md`
 
 ### Session 639: TEST-03 Kill Disambiguation (2026-04-30, post-arc-closure)
 
