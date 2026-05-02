@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-01 (Session 640 — Dual-C symbol audit, 10th audit-mode)*
+*Last updated: 2026-05-02 (Session 641 — Lorentz gap as 4th face of kinematic layer)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 641: Lorentz Gap = 4th Face of Kinematic Layer (2026-05-02)
+
+**Visitor proposal** (`lorentz_invariance_gap_kinematic_layer.md`): Pass 4 leading-edge researcher framed the `/honest-assessment`-acknowledged Lorentz gap as the 4th face of a single structural problem. Synthesis names four kinematic-layer gaps: Born rule, dual-C bridge (S640), N_corr scale-invariance, Lorentz invariance. All four trace to **dynamics specified, kinematic substrate (state space, spacetime, measure, counting recipe) unspecified**.
+
+**Archive status**: gap is already documented (Validation State: "no discrete 3D lattice has SO(3); GRB/isotropy bounds exclude regular Planck lattices by 14+ orders of magnitude"). Empirically more severe than just under-specified — observationally falsified for regular lattices.
+
+**Resolution paths**:
+- **Path A** (IR limit): show some lattice geometry + parallel update recovers Lorentz in continuum. Hard; current bounds exclude all regular lattices tried.
+- **Path B** (scope restriction): restrict framework to non-relativistic domains. Immediately implementable; removes cosmological/relativistic claims.
+
+Empirical situation makes Path B the honest default.
+
+**11th audit-taxonomy mode**: "Cross-gap synthesis." S641's contribution is meta-work — organizing already-known gaps into a single structural pattern (missing kinematic layer), not finding new errors.
+
+**Recommended site action**: add `/kinematic-gap` page presenting all 4 faces as one open research question; cross-reference from `/honest-assessment`; reconcile homepage "one equation across 80 orders" with the relativistic-domain limitation.
+
+Full analysis: `Research/Session641_Lorentz_Kinematic_Layer_Audit.md`
 
 ### Session 640: Dual-C Symbol Audit — Bridge Not Written (2026-05-01)
 
