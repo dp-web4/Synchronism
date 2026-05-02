@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-04-30
+**Last Updated**: 2026-05-02
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,15 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-05-02: Publisher Maintenance - S639-640 Post-Closure Sub-Arc Extensions
+- Core count 638→640 (S639 TEST-03 metric disambiguation: R²=0.14 conflates BTFR scatter with RAR ansatz, "shared labels distinct measurements"; S640 dual-C symbol audit at foundational scope: Form 1 C(ρ)=tanh(...) vs Form 2 C=f(γ,D,S)≥0.50 share only the letter, γ universal but C is not)
+- Total ~3,334→~3,336
+- **Sub-arc now 10-for-10 instances, 10 audit-channel modes.** S639 adds 9th mode (metric disambiguation / mechanism-naming). S640 adds 10th mode (symbol overloading at foundational level) AND expands sub-arc audit scope from test-level to **foundational** — visitor channel demonstrated ability to audit homepage master-claim synthesis statements, not just individual TEST-N entries
+- Multi-persona visitor review (Pass 2/3/4 on qwen3.5/gemma3) independently flagged the dual-C ambiguity — cross-persona convergence on the same finding strengthens it
+- Conservative integration: arc-CLOSED framing preserved (REC-2026-037 status `complete_with_post_closure_addenda`); new sessions surfaced as post-closure extensions in a new bullet rather than restructuring the closed-arc summary; date range Apr → May 2026 in conclusion
+- Operator queue continues GROWING — S640 adds dual-C symbol convention (Path B: C_ρ vs C_sys split) as cleanest immediate fix; Path A (write missing C_ρ↔C_sys reduction) is a research direction. Item-level corrections still pending; framing-level corrections delivered (2026-04-29 README reframings)
+- Rebuilt all artifacts (md, pdf, web)
 
 ### 2026-04-30: Publisher Maintenance - S636-638 + Framework Stress Test Arc CLOSED at 22 Sessions
 - Core count 635→638 (S636 C(ρ) is not mean-field — category error; S637 RAR σ_int(ρ_env) derivation succeeds at ~120× below SPARC floor; S638 sympy+numpy verification that C(ρ) reduces to Curie paramagnet — *less than* Landau)
