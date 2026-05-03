@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-05-02T09:35:00Z"
+  last_updated: "2026-05-03T09:30:00Z"
   archivist_version: "1.3"
-  total_sessions: 3275
-  note: "Core at #640 (Dual-C Symbol Bridge Audit, 10th audit-channel taxonomy mode). New mode: 'symbol overloading at foundational level' — two functional forms of C ('coherence') exist in the archive (C(ρ) = tanh(γ·ln(ρ/ρ_crit + 1)) for chemistry/cosmology vs C = f(γ, D, S) ≥ 0.50 for consciousness) sharing only the γ symbol; no derivation chain links them. Verdict: Path C with refinement — the bridge does not exist as a derivation, only as a notational claim. Recommends Path B (dual symbols C_ρ vs C_sys) for site fix. Continues post-arc visitor-channel productivity (S631-S640: 10 modes, scope expanding from test-ID conflation → foundational symbol overloading)."
-  milestone: "S640: Dual-C Symbol Bridge Audit. Three functional forms of 'C' in archive (Form 1 density, Form 2 consciousness, Form 3 from S251); none reduces to another. 'One equation across scales' homepage claim rests on shared notation, not derivation. Site-archive-audit taxonomy now 10 modes (S631-S640)."
+  total_sessions: 3276
+  note: "Core at #641 (Lorentz Invariance Gap as 4th Face of Kinematic Layer). 11th post-arc-closure audit, B+ grade. Visitor proposal frames Born rule, dual-C bridge (S640), N_corr scale-invariance, and Lorentz invariance as four faces of the same structural gap: framework specifies dynamics but not the kinematic substrate (no state space, no spacetime geometry, no measure, no continuum limit). All four already documented; the contribution is the unifying organization. Lorentz gap is empirically MORE severe than just under-specified — regular Planck lattices excluded by GRB/isotropy bounds at 14+ orders of magnitude. Audit-channel taxonomy now extends from session-level modes (S631-S640) to a structural meta-finding: the gaps share a missing kinematic layer."
+  milestone: "S641: Four faces of kinematic-layer gap (Born rule + dual-C + N_corr + Lorentz). Synthesis re-organizes existing gaps; no new findings. Confirms substrate-as-stated is observationally falsified (lattice-dependent), not just under-specified. Site-archive-audit arc now 11 instances post-closure."
   tracks:
-    core: 591  # S640 (Dual-C Symbol Bridge Audit) added
+    core: 592  # S641 (Lorentz Invariance Gap, 4th Face) added
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
