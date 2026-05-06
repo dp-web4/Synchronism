@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-06 (Session 644 — ρ_crit is calibration consistency, not independent prediction, 14th audit)*
+*Last updated: 2026-05-07 (Session 645 — Session 107 fσ₈ REFUTED by DESI DR1: first hard external falsification)*
 
 ---
 
@@ -319,6 +319,22 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 645: Session 107 fσ₈ REFUTED by DESI DR1 (2026-05-07)
+
+**Qualitatively different from S631-S644**: this is a hard external falsification, not a site-archive audit.
+
+**Visitor proposal** (`session107_disfavored_by_desi_dr1.md`): Session 107 (Dec 2025) predicted fσ₈ ~10-12% suppression below ΛCDM at z=0.5-0.7 with self-imposed kill `fσ₈(z=0.5) > 0.45 → ΛCDM favored`. DESI DR1 (Adame et al. 2024, arXiv:2411.12021) measured `fσ₈(LRG1, z=0.51) ~0.55±0.06` — kill criterion met at 2.14σ; combined σ₈(z=0) = 0.841±0.034 vs Sync 0.76 → 2.38σ.
+
+**Sign is inverted**: Session 107's mechanism (cumulative G_local/G_global < 1) predicts low-z suppression; data shows low-z enhancement. Magnitude-only revision cannot recover the redshift pattern.
+
+**Verdict: Path (a) — REFUTED**. Session 107 retained as documented dead-end. Path (c) (reframe as non-discriminating) rejected — Session 107's prediction was numerical, not Sync-internal-units. Path (b) (diagnose sign error) is optional operator-discretion research.
+
+**Cumulative count**: 14 internal site-archive audits (S631-S644) + **1 hard external falsification (S645)**. First first-class refuted prediction. Consistent with stated value: "productive failure > safe summaries."
+
+**Site action queue**: TEST-04a → Failed; honest-assessment catalog gets entry; key-claims growth-suppression claim → past tense; research-philosophy 47:0 note adds "+1 refuted external."
+
+Full analysis: `Research/Session645_Session107_Refuted_DESI_DR1.md`
 
 ### Session 644: ρ_crit — Calibration, Not Prediction (2026-05-06)
 
