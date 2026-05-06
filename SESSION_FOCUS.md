@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-06 (Session 643 — γ definitional collision: regime labels inverted, 13th audit instance)*
+*Last updated: 2026-05-06 (Session 644 — ρ_crit is calibration consistency, not independent prediction, 14th audit)*
 
 ---
 
@@ -319,6 +319,22 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 644: ρ_crit — Calibration, Not Prediction (2026-05-06)
+
+**Visitor proposal** (`rho_crit_derivation_calibration_vs_prediction.md`): ρ_crit = A·V_flat² takes V_flat as input. The "5% agreement" of A_theoretical = 0.0294 with A_empirical = 0.028 is consistency between two parameterizations of SPARC data, not independent prediction.
+
+**Archive confirms** (Session #66 with S631 audit): A = 4π/(β_J²·G·R₀²) where β_J ≈ 1.1 is calibrated from SPARC, R₀ = 8 kpc is chosen reference. No closed predictive loop — formula consumes V_flat, produces ρ_crit, nothing predicts V_flat from independent observables.
+
+**Path C is the genuine independent-prediction route**: use SPARC velocity dispersion σ (not V_flat) to compute β_J = λ_Jeans/R_half, then test whether ρ_crit = V_flat²/(G·β_J²·R_half²) yields A ≈ 0.028. Cost $0; high novelty. Would be framework's first calibration→prediction conversion at galactic scale.
+
+**14th audit-taxonomy instance**: "Calibration consistency presented as independent prediction." Same mechanism class as S639 (metric conflation) and S643 (label inversion) — site claims stronger than archive supports. Specific variant: one formula with one observable on both sides.
+
+**Recommended site action**: relabel /parameter-derivations from "Validated | 5% Agreement" to "Internally Consistent | Calibration to SPARC" with explicit note that V_flat is input. Path C is the medium-term research direction.
+
+Connection to kinematic-layer pattern (S641, S642): until N_corr and β_J have first-principles derivations, ρ_crit remains calibrated. Consistent with Case 3 framework status (parameterization, not field theory).
+
+Full analysis: `Research/Session644_RhoCrit_Calibration_Vs_Prediction.md`
 
 ### Session 643: γ Definitional Collision — Regime Labels Inverted (2026-05-06)
 
