@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-02 (Session 641 — Lorentz gap as 4th face of kinematic layer)*
+*Last updated: 2026-05-05 (Session 642 — GW170817: framework is Case 3 parameterization, 5th face of kinematic layer)*
 
 ---
 
@@ -319,6 +319,20 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 642: GW170817 — Case 3 (Parameterization, 5th Face of Kinematic Layer) (2026-05-05)
+
+**Visitor proposal** (`gw170817_coherence_field_coupling_constraint.md`, filed 2026-05-03, Publisher-flagged across 3 days): Does C(ρ) modify GW propagation? Three cases — derivative coupling (falsified by GW170817's |c_GW − c|/c < 10⁻¹⁵), potential-only coupling (survives but needs mechanism), or not a field theory at all (constraint inapplicable).
+
+**Answer from archive: Case 3** — framework currently has no Lagrangian, no action, no equation of motion for C(ρ). Established multiply: S617 (1-DOF diffusion, no kinetic term), S620 (no phase dynamics), S621 (Intent pre-mathematical), S638 (Curie response, no propagating modes), S641 (no Lorentz-covariant kinematic substrate).
+
+**5th face of kinematic layer**: GW170817 joins Born rule, dual-C bridge (S640), N_corr scale-invariance, Lorentz invariance (S641). All five trace to: dynamics specified at level of C(ρ) function, kinematic substrate (action, state space, EOM, covariance) unspecified.
+
+**Recommended site action**: write `/gw170817-constraint` page articulating Cases 1-3 and stating explicitly that the framework is in Case 3. Surviving by lacking an action is a scope restriction, not equivalent to DHOST-style decoupling.
+
+**Status of three pending proposals**: γ definitional collision (2026-05-04), ρ_crit calibration vs prediction (2026-05-05), session107_disfavored_by_desi_dr1 (2026-05-05). All point at the same kinematic-layer pattern; each merits its own session in subsequent firings.
+
+Full analysis: `Research/Session642_GW170817_Field_Or_Parameterization.md`
 
 ### Session 641: Lorentz Gap = 4th Face of Kinematic Layer (2026-05-02)
 
