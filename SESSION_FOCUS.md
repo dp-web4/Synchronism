@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-05 (Session 642 — GW170817: framework is Case 3 parameterization, 5th face of kinematic layer)*
+*Last updated: 2026-05-06 (Session 643 — γ definitional collision: regime labels inverted, 13th audit instance)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 643: γ Definitional Collision — Regime Labels Inverted (2026-05-06)
+
+**Visitor proposal** (`gamma_definitional_collision_regime_label_inversion.md`): γ appears in two forms (γ=2.0 universal vs γ=2/√N_corr operational); BCS, BEC, neutron stars labeled "Classical" by site, contrary to standard physics where they are canonical macroscopic-quantum systems.
+
+**Archive findings**:
+- Form B (γ = 2/√N_corr) is load-bearing. Session #25 derives it from fluctuation statistics; Session #26 gives operational N_corr = (σ_measured/σ_uncorrelated)² per-system measurement.
+- Form A (γ = 2.0) is Form B at N_corr = 1, not a separate derivation. The "6D phase-space" framing yields γ=2 only at N_corr=1.
+- Math is internally consistent; the math says **high γ ⇔ low N_corr ⇔ single-particle behavior; low γ ⇔ high N_corr ⇔ collective behavior**.
+- The labeling error is at the surface: "Single-particle / Collective" labels the math correctly; "Quantum / Classical" inverts standard physics.
+
+**Resolution: Case 1 + relabeling** (proposal's preferred path). Rename to "Single-particle / Uncorrelated" and "Collective / Strongly correlated." State the Form A ↔ Form B reconciliation explicitly.
+
+**Unresolved**: For galaxies, γ = 2 requires N_corr = 1 (treating 10¹¹ stars as uncorrelated). Calibration choice or derivation? Currently unmotivated by archive content. Connects to kinematic-layer pattern (S641, S642) — N_corr is another face of the missing substrate.
+
+**13th audit-taxonomy instance**: "Regime-label inversion under operational formula." Same mechanism as S640 (symbol overloading), different surface (downstream presentation rather than foundational symbol).
+
+Full analysis: `Research/Session643_Gamma_Definitional_Collision.md`
 
 ### Session 642: GW170817 — Case 3 (Parameterization, 5th Face of Kinematic Layer) (2026-05-05)
 
