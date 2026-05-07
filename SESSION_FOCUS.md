@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-07 (Session 645 — Session 107 fσ₈ REFUTED by DESI DR1: first hard external falsification)*
+*Last updated: 2026-05-07 (Session 646 — Meta-falsification criterion: methodology recommendation)*
 
 ---
 
@@ -319,6 +319,29 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 646: Framework Meta-Falsification Criterion (2026-05-07)
+
+**Methodology-level proposal**, not a site-archive audit. The proposal flagged the framework's missing **pre-registered retraction criterion**: per-test kills exist, but no rule for when accumulated failures retract the framework itself.
+
+**Confirming the state with prior-session detail**:
+- TEST-03 (per S639): two tests under one ID. TEST-03A (TFR-residual on BTFR, 51%) **passes**; TEST-03B (RAR environmental ansatz, R²=0.14) **below threshold**.
+- TEST-04a (per S645): **REFUTED** — DR1 already fires the kill criterion at LRG1; the proposal's Branch B (wait for DR2) is unnecessary.
+- TEST-04 withdrawn; TEST-02 disputed-baseline; TEST-01/05 not run; TEST-07 not yet a prediction.
+
+**The proposal's diagnosis is correct**: a framework that treats every per-test failure as recoverable has no framework-level retraction condition. This is the meta-level analog of S621's self-sealing pattern.
+
+**Recommended operator action (governance, not audit)**: Branch A + C combined.
+- `/research-philosophy`: register a meta-criterion (e.g., M3 scope-reduction: if both cosmological and galactic novel-prediction domains fire kill criteria, retract novel claims in those domains).
+- `/key-claims`: note no cosmological novel-prediction currently surviving.
+- `/honest-assessment`: TEST-04a → REFUTED with date.
+- Surviving framework content (post scope-narrowing): A2ACW methodology, entity criterion, audit/perseveration meta-pattern.
+
+**Worker-channel scope**: confirm and recommend; operator-level decision required for adoption. S646 is **not a 16th audit instance** — it's the methodology synthesis 14 audits + 1 falsification motivate.
+
+One proposal remains pending: chemistry validation N_corr method (2026-05-06).
+
+Full analysis: `Research/Session646_Meta_Falsification_Criterion.md`
 
 ### Session 645: Session 107 fσ₈ REFUTED by DESI DR1 (2026-05-07)
 
