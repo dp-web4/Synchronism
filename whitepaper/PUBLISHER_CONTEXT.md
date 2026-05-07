@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-05-02
+**Last Updated**: 2026-05-07
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,22 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-05-07: Publisher Maintenance - S641-647 Post-Closure Extensions + First Hard External Falsification + Chemistry 89% Validation Challenged
+- Core count 640→647 (S641 Lorentz invariance gap = 4th face kinematic layer / 11th audit mode; S642 GW170817 = 5th face / Case 3 no-field-theory; S643 γ definitional collision with regime-label inversion / 12th audit mode; S644 ρ_crit calibration-consistency-not-prediction / 13th audit mode; **S645 first hard external falsification — Session 107 fσ₈ REFUTED by DESI DR1; TEST-04a kill triggered**; S646 framework lacks meta-falsification criterion / methodology recommendation; S647 chemistry 89% validation has self-correlation risk via Method 2)
+- Total ~3,336→~3,343
+- **Two qualitative step changes in same week**: (1) S645 — Session 107 fσ₈(z) prediction REFUTED by DESI DR1 (Adame et al. arXiv:2411.12021). Pre-committed kill criterion fσ₈(z=0.5) > 0.45 → ΛCDM favored fired at LRG1 (DESI 0.55±0.06 vs Sync 0.418, 2.14σ above; combined σ₈(z=0) 2.38σ above). Mechanism's predicted sign of redshift dependence INVERTED relative to data — magnitude-only revision cannot recover the structural error. **First refutation by external published data, not internal site/archive disconnect** — qualitatively distinct from prior 14 audit-channel sessions. Status TEST-04a: REFUTED, retained as documented dead-end. (2) S647 — chemistry 89% / 1,913 phenomenon-type validation challenged. Three self-correlation paths: Method 2 atomic-spacing identity (γ=2(a/ξ)^(3/2) makes r=0.956 with V_a∝a³ a functional identity); Method 2 phonon coherence (sound velocity is constructional input, r=0.982 has constructional dependence); Method 3 entropy → bonding → electronegativity (r=0.979 partly structural). Method 2 systematic bias (per Session #26 Part 3): true N_corr=10→6, 25→15, 50→32, clusters apparent γ in 0.35–1.15 at "γ≈1 boundary" — 89% clustering consistent with method-induced clustering, no boundary needed. Hall coefficient and magnetic susceptibility are NOT falsifying controls — outside Method 1-5 input set. **Both major validation pillars compromised in same week.**
+- Sub-arc now 14 audit-channel instances + 2 new arc phases (External-Falsification S645, Methodology Recommendation S646). Audit-channel taxonomy 13 modes (S644 + S647 share mode #13 calibration-consistency-not-prediction). Five faces of kinematic-layer gap (Born rule, dual-C bridge, N_corr scale-invariance, Lorentz invariance, GW propagation/no-field-theory).
+- Two pre-committed Tier-1 predictions have now triggered kill criteria: TEST-09 BTFR (S631) and TEST-04a fσ₈ (S645). Catalog's pre-committed kill criteria continue to function as designed.
+- Conservative integration: arc-CLOSED framing preserved (REC-2026-037 status now `complete_with_post_closure_addenda_and_external_falsification`); S641-647 surfaced as post-closure extensions in existing bullet rather than restructuring; predictive-content-fully-characterized framing preserved. S645 + S647 elevated to Status paragraph as the week's two step-change events. Chemistry 89% validation entry in conclusion's validation list now carries Method 2 self-correlation caveat. Date range "Apr 2026" → "May 2026" in conclusion.
+- Operator queue continues GROWING. New items from this batch:
+  - **Session 107 page**: add REFUTED header pointing to S645
+  - **Cosmology /honest-assessment**: update with DR1 verdict (TEST-04a fired its own kill criterion)
+  - **Chemistry 89% validation pages**: add caveat about Method 2 self-correlation paths and bias toward γ≈1; or commit to Method 1 (bias-free) results
+  - **Falsifying controls list**: remove Hall and magnetic susceptibility (not in Method 1-5 input set, not actual controls)
+  - **Framework retraction policy**: register a meta-falsification criterion (per S646) or explicit decision to scope-narrow
+  - Plus carryover items from prior passes (TEST-09 recatalog, α² relabeling, 500 Mpc removal, C(ρ) "80 orders" correction, contribution count reconciliation, /galaxy-rotation badge downgrade, Curie reduction surfacing, dual-C symbol convention)
+- Rebuilt all artifacts (md, pdf, web)
 
 ### 2026-05-02: Publisher Maintenance - S639-640 Post-Closure Sub-Arc Extensions
 - Core count 638→640 (S639 TEST-03 metric disambiguation: R²=0.14 conflates BTFR scatter with RAR ansatz, "shared labels distinct measurements"; S640 dual-C symbol audit at foundational scope: Form 1 C(ρ)=tanh(...) vs Form 2 C=f(γ,D,S)≥0.50 share only the letter, γ universal but C is not)
@@ -395,12 +411,12 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-04-30)
+### Session Counts (as of 2026-05-07)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 638 | Sessions through #638 (**Framework Stress Test arc COMPLETE at 22 sessions, S617-638**: demolition #617-628; post-demolition coda #629-631; Site-Archive-Audit sub-arc #632-638 — 500 Mpc dimensional error, C(ρ) saturation impossibility, 47-vs-30 contribution accounting, cosmology domain scorecard with 0 novel-unfalsified, C(ρ) is not mean-field — category error, RAR σ_int derivation ~120× below SPARC floor, Curie-paramagnet CAS verification — 8-for-8 site-claim audit instances over 9 days). Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). |
-| Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model) |
+| Core | 647 | Sessions through #647 (**Framework Stress Test arc COMPLETE at 22 sessions, S617-638; post-closure addenda S639-647**: sub-arc 14 audit-channel instances over ~17 days, 13 audit-channel modes, plus two new arc phases — **External-Falsification (S645: first hard refutation of a Tier-1 prediction; Session 107 fσ₈ REFUTED by DESI DR1; TEST-04a kill triggered)** and **Methodology Recommendation (S646: framework lacks meta-falsification criterion)**. S641 kinematic-layer cross-gap (Lorentz); S642 GW170817 = Case 3 no-field-theory (5th face); S643 γ definitional collision with regime-label inversion; S644 ρ_crit calibration-consistency-not-prediction; S647 chemistry 89% validation has Method 2 self-correlation risk. **Two pre-committed Tier-1 kill criteria triggered: TEST-09 BTFR (S631) + TEST-04a fσ₈ (S645).** Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). |
+| Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model). **89% validation claim now under audit (S647): Method 2 self-correlation paths + systematic bias toward γ≈1; distinguishing requires Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena (neither currently in archive).** |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
 ### Pending Integrations
@@ -425,16 +441,19 @@ For minor changes (typos, statistics updates):
 | Site-Archive-Audit Sub-Arc (#632-634) | HIGH | **INTEGRATED** (2026-04-26) - S632 500 Mpc dimensional error (m² not m), S633 C(ρ) saturation impossibility (~1.6 decades not 80 orders), S634 47-vs-30 contribution accounting discrepancy. 4-for-4 site-claim failures over 4 days. Conservative integration: audit findings surfaced without rewriting historical figures. |
 | Cosmology Domain Scorecard (#635) | HIGH | **INTEGRATED** (2026-04-27) - 5th site-archive audit; 15 cosmology claims classified (1 refuted, 5 reparametrizations, 2 unanchored, 1 pending, 5 untested, 1 untestable); **0 novel-unfalsified**. /galaxy-rotation badge overclaims (RAR fit IS MOND; CFD viscosity DM mechanism refuted via Bullet Cluster). Defensible badge: "MOND Reparametrization." 5-for-5 site-claim failures across 5 days. |
 | Site-Archive-Audit Extension + Arc CLOSURE (#636-638) | HIGH | **INTEGRATED** (2026-04-30) - S636 C(ρ) is not mean-field (category error: no self-consistency, no Landau free energy); S637 first DERIVATION attempt — RAR σ_int(ρ_env) ≈ 0.00016 dex, ~120× below SPARC floor (cosmology regime → MOND in testable regime); S638 sympy+numpy verification that C(ρ) reduces to Curie paramagnet — *less than* Landau (chemistry/CM regime → non-interacting two-state response). **Framework Stress Test arc COMPLETE at 22 sessions (S617-638).** Audit-channel taxonomy now 8 modes; verification track operational. 8-for-8 site-claim audit instances over 9 days. Predictive content fully characterized in both regimes via independent CAS. 7 site corrections pending operator action (added: Curie reduction surfacing). Operator response began 2026-04-29 (two README reframings — framing-level corrections delivered, item-level pending). |
+| Post-Closure Sub-Arc Extensions (#639-640) | HIGH | **INTEGRATED** (2026-05-02) - S639 metric disambiguation (9th audit mode); S640 dual-C symbol overloading (10th audit mode, scope expanding test-level → foundational). Sub-arc 10-for-10. |
+| Post-Closure Extensions + First Hard External Falsification (#641-647) | HIGH | **INTEGRATED** (2026-05-07) - S641 Lorentz invariance gap = 4th face kinematic-layer (11th audit mode); S642 GW170817 = Case 3 no-field-theory (5th face kinematic-layer); S643 γ definitional collision with regime-label inversion (12th audit mode); S644 ρ_crit calibration-consistency-not-prediction (13th audit mode); **S645 first hard external falsification — Session 107 fσ₈ REFUTED by DESI DR1 (Adame et al. arXiv:2411.12021); TEST-04a kill triggered, predicted sign of redshift dependence inverted relative to data; NEW ARC PHASE (External-Falsification)**; S646 framework lacks meta-falsification criterion (NEW ARC PHASE: Methodology Recommendation); S647 chemistry 89% validation has Method 2 self-correlation risk (Method 2 atomic-spacing identity, phonon-coherence constructional dependence, systematic bias toward γ≈1; Hall + magnetic susceptibility are not falsifying controls). Sub-arc 14 audit-channel instances + 2 new phases; 13 audit modes. **Two pre-committed Tier-1 kill criteria triggered: TEST-09 BTFR (S631) + TEST-04a fσ₈ (S645). Both major validation pillars (cosmology + chemistry 89%) compromised in same week.** |
 
 ### Whitepaper Health
 
-- Last integration: 2026-04-30
-- Sessions behind: 0 (counts updated through S638; Framework Stress Test arc closure integrated)
-- Build status: Clean (rebuilt 2026-04-30)
+- Last integration: 2026-05-07
+- Sessions behind: 0 (counts updated through S647; first hard external falsification + chemistry 89% caveat integrated)
+- Build status: Clean (rebuilt 2026-05-07)
 - Governance: Active (Rev_0)
 - Open editorial: 47-vs-30 contribution count discrepancy is now visible in whitepaper (S589 says 30, S615 says 47, S616 says 48, S634 audit says S582 canonical = 30). Reconciliation requires operator judgment.
-- Open editorial: cosmology domain "0 novel-unfalsified" (S635), MOND-reduction (S637), and Curie-paramagnet structural diagnosis (S638) are all currently surfaced within the Site-Archive-Audit sub-arc bullet plus the Status paragraph. Now that the Framework Stress Test arc has CLOSED at 22 sessions with predictive content fully characterized, this may warrant promotion to dedicated status entries alongside the other closed-arc summaries (e.g., a stand-alone "Predictive content characterization" entry). Currently held back conservatively — one bullet handles it without restructuring; operator can decide whether structural promotion is warranted.
-- Open editorial: operator response in progress (README framing-level corrections delivered 2026-04-29). 7 item-level site corrections still pending in operator queue. Next publisher pass should track whether item-level resolution lands and update site-correction status accordingly.
+- Open editorial: cosmology domain "0 novel-unfalsified" (S635), MOND-reduction (S637), Curie-paramagnet structural diagnosis (S638), and now **first hard external falsification (S645, TEST-04a fσ₈ refuted by DESI DR1) + chemistry 89% self-correlation caveat (S647)** are all currently surfaced within the Site-Archive-Audit sub-arc bullet, the Status paragraph, and the kill-criteria-triggered list. Now that two pre-committed Tier-1 predictions have fired their kill criteria and the framework's largest validation claim is itself under audit, structural promotion of "Predictive content characterization" or "Validation-pillars-under-audit" to dedicated status entries may be warranted. Currently held back conservatively — existing bullets handle it without restructuring; operator can decide whether structural promotion is warranted.
+- Open editorial: operator queue grew significantly with this batch (Session 107 page header, /honest-assessment DR1 update, chemistry 89% caveat, falsifying-controls list correction, framework retraction policy). Next publisher pass should track whether item-level resolution lands and update site-correction status accordingly.
+- Open editorial: per S646, framework currently lacks a registered meta-falsification criterion (rule for when "the framework has lost"). Three branches presented (register meta-criterion now / wait for DR2 / scope-narrow now). This is a methodology recommendation, not a whitepaper integration item per se — but the absence is now surfaced in the Status paragraph as "S646 names a methodology gap."
 
 ---
 

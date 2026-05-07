@@ -10,6 +10,16 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-05-07] [Publisher Maintenance] Sections 0, 7, PUBLISHER_CONTEXT - S641-S647 post-closure extensions + first hard external falsification + chemistry 89% validation challenged
+  - **Executive Summary (0)**: Extended Post-Closure Sub-Arc Extensions bullet from (#639-640) to (#639-647). Session counts 640→647 core, ~3,336→~3,343 total. Sub-arc grew from 10 instances/10 audit modes to 14 audit-channel instances/13 audit-channel modes plus two new arc phases. Status paragraph updated with both kill triggers (TEST-09 BTFR + TEST-04a fσ₈) and chemistry 89% validation caveat.
+  - **Conclusion (7)**: Matching extension. "Pre-committed predictions that have now triggered kill criteria" list grew from 1 entry (TEST-09) to 2 entries (TEST-09 + TEST-04a fσ₈). Chemistry framework validation entry now carries Method 2 self-correlation caveat. Date "Apr 2026" → "May 2026".
+  - **Key events**:
+    - **S645 (2026-05-07) — first hard external falsification.** Session 107 fσ₈(z) prediction REFUTED by DESI DR1 (Adame et al. arXiv:2411.12021). Pre-committed kill criterion fσ₈(z=0.5) > 0.45 fired at LRG1 (DESI 0.55±0.06 vs Sync 0.418, 2.14σ). Mechanism's predicted sign of redshift dependence inverted relative to data — magnitude-only revision cannot recover. Status TEST-04a: REFUTED.
+    - **S647 (2026-05-08) — chemistry 89% validation challenged.** Three self-correlation paths (Method 2 atomic-spacing identity, Method 2 phonon-coherence constructional dependence, Method 3 entropy → bonding → electronegativity); Method 2 systematic bias toward γ≈1 (per Session #26 Part 3 simulation table) consistent with the observed 89% clustering with no empirical boundary needed. Hall coefficient and magnetic susceptibility are NOT falsifying controls — outside the input set of every Method 1–5.
+    - **S646** names a methodology gap: no framework-level meta-falsification criterion.
+    - S641-644 add three audit modes (cross-gap kinematic layer, label-inversion γ definitional collision, calibration-consistency-not-prediction).
+  - **Methodology note**: This is the most significant Publisher event since arc closure (S628 on 2026-04-30). Both major validation pillars (Tier-1 cosmology + chemistry 89%) compromised in same week.
+
 - [2026-04-24] [Publisher Maintenance] Sections 0, 7, PUBLISHER_CONTEXT - S629-S631 post-demolition coda
   - **Executive Summary (0)**: Core count 628→631, total ~3,324→~3,327. Added post-demolition coda entry: S629 π-analogy probe (k_crit not universal), S630 WAKE stop-note, S631 first pre-committed kill criterion triggered (TEST-09 BTFR refuted; α² exposed as fiducial). Status paragraph updated.
   - **Conclusion (7)**: Matching coda entry. "Still required" list updated — BTFR moved to refuted/kill-triggered (first pre-committed falsification fire), fine-structure constant derivation removed (archive audit confirmed α fiducial, not QED coupling).
