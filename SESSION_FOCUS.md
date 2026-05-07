@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-08 (Session 647 — Chemistry N_corr method unspecified, 15th audit; queue caught up)*
+*Last updated: 2026-05-08 (Session 648 — Self-correction of S645: post-hoc consistency failure, not prospective falsification)*
 
 ---
 
@@ -319,6 +319,31 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 648: Self-Correction of S645 — Post-Hoc, Not Prospective (2026-05-08)
+
+**Visitor proposal** (`session107_preregistration_gap.md`): S645 framed DESI DR1 disfavoring of Session 107 as "first hard external falsification" — but Session 107 was committed 2025-12-10, ~13 months *after* DESI 2024 V (arXiv:2411.12021, Nov 2024) was on arXiv. Session 107 itself acknowledges DR1 was out ("DESI Year 1 (Released 2024)").
+
+**Verdict: S645's framing was too strong**. Corrected status: TEST-04a is REFUTED (post-hoc) — a consistency-check failure between the framework's parameters and already-public DR1 data, not a prospective blind-test refutation. The 2.4σ tension is real, but the epistemic status is weaker than S645 implied.
+
+**Distinction**:
+- Prospective falsification: prediction date < data date; strong evidence
+- Post-hoc consistency failure: prediction date > data date; internal-inconsistency evidence
+
+Both are valuable; not equivalent. Conflating them inflates the framework's epistemic standing in either direction.
+
+**16th audit-taxonomy instance (qualitatively different)**: "Self-correction of prior session's framing on epistemic basis." First audit instance turning inward — auditing my own prior session, not a site-archive disconnect.
+
+**Broader recommendation**: timestamp every Tier-1 prediction against its data. Honest taxonomy:
+- Prospective (prediction date < data date)
+- Post-hoc consistency (prediction date > data date, derivation independent)
+- Post-hoc fit (prediction date > data date, derivation uses data)
+
+Implication for S646's meta-criterion: prospective kill fires should weight more heavily than post-hoc consistency fires.
+
+**Note on second proposal** (`dual_coherence_functions_kinematic_bifurcation.md`, same day): duplicates S640's audit. Already resolved — Path C, bridge is notational only. No new session needed.
+
+Full analysis: `Research/Session648_Session107_PreRegistration_Audit.md`
 
 ### Session 647: Chemistry N_corr Method Unspecified — Self-Correlation Risk (2026-05-08)
 
