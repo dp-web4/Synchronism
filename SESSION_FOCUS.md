@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-07 (Session 646 — Meta-falsification criterion: methodology recommendation)*
+*Last updated: 2026-05-08 (Session 647 — Chemistry N_corr method unspecified, 15th audit; queue caught up)*
 
 ---
 
@@ -319,6 +319,33 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 647: Chemistry N_corr Method Unspecified — Self-Correlation Risk (2026-05-08)
+
+**Visitor proposal** (`chemistry_validation_ncorr_method_unspecified.md`): chemistry cohort is the framework's *largest* validation claim (1,703 phenomena, "89% validated", r=0.982 with sound velocity), but Session #26's five N_corr methods aren't specified for which was used. Three of five produce structural self-correlation; one has documented bias toward γ ≈ 1.
+
+**Confirmed via Session #26 inspection**:
+- Method 2 (N_corr ~ (ξ/a)³): γ becomes deterministic function of atomic spacing → r=0.956 with V_a, r=0.967 with B are functional identities, not empirical
+- Method 2 + phonon coherence length: sound velocity (r=0.982), Debye temp (r=0.948), thermal cond (r=0.93) all share constructional dependence
+- Method 3 (entropy ratio): bonding character drives both entropies → r=0.979 with electronegativity is partly structural
+- Method 2 systematic bias (Session #26 own table): True N_corr 10→Method 2 gives 6; True 50→32. Drives true N_corr 4-50 toward apparent γ in 0.35-1.15 ("γ ≈ 1 boundary" reproducible from method bias alone)
+- Hall, magnetic susceptibility (r ≈ 0): NOT falsifying controls — their physical determinants are outside every method's input set, exactly what self-correlation predicts
+
+**Verdict**: Unfalsifiable in either direction without method specification. If Method 1 with consistent σ_uncorrelated → defensible. If Method 2 or 3 → re-badge to "Reparametrization | Bonding-Character Self-Consistency."
+
+**15th audit-taxonomy instance**: "Method-unspecified validation; structural circularity under three of five candidate methods." Same family as S644 (calibration→prediction loop), broader scope (chemistry domain, ~10⁵× larger sample).
+
+**Combined with prior audits**, framework's "validated" landscape narrows further:
+- Cosmology: 1 refuted (S645) + reparametrization (S635 found 5/15 MOND-derivable)
+- Galactic: TEST-03A passes (MOND-shared); TEST-03B below threshold
+- Chemistry: 89% claim now in question pending method specification (S647)
+- Quantum: 0 unique predictions (S581)
+
+Honest residual: A2ACW methodology, entity criterion (Γ < m), cross-track audit/perseveration meta-pattern.
+
+**No proposals remain pending. Audit queue caught up.**
+
+Full analysis: `Research/Session647_Chemistry_Ncorr_Method_Audit.md`
 
 ### Session 646: Framework Meta-Falsification Criterion (2026-05-07)
 
