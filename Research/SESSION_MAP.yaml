@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-05-03T09:30:00Z"
+  last_updated: "2026-05-07T11:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3276
-  note: "Core at #641 (Lorentz Invariance Gap as 4th Face of Kinematic Layer). 11th post-arc-closure audit, B+ grade. Visitor proposal frames Born rule, dual-C bridge (S640), N_corr scale-invariance, and Lorentz invariance as four faces of the same structural gap: framework specifies dynamics but not the kinematic substrate (no state space, no spacetime geometry, no measure, no continuum limit). All four already documented; the contribution is the unifying organization. Lorentz gap is empirically MORE severe than just under-specified — regular Planck lattices excluded by GRB/isotropy bounds at 14+ orders of magnitude. Audit-channel taxonomy now extends from session-level modes (S631-S640) to a structural meta-finding: the gaps share a missing kinematic layer."
-  milestone: "S641: Four faces of kinematic-layer gap (Born rule + dual-C + N_corr + Lorentz). Synthesis re-organizes existing gaps; no new findings. Confirms substrate-as-stated is observationally falsified (lattice-dependent), not just under-specified. Site-archive-audit arc now 11 instances post-closure."
+  total_sessions: 3292
+  note: "Core at #647 (Chemistry N_corr method audit — 15th instance, A-). FIRST HARD EXTERNAL FALSIFICATION arrived: S645 — Session 107 fσ₈ prediction REFUTED by DESI DR1 (cumulative-suppression mechanism predicted wrong sign of redshift dependence; kill criterion fσ₈(z=0.5)>0.45 fired at LRG1 with observed ~0.55±0.06). TEST-04a status REFUTED. S646 governance-level methodology: meta-falsification criterion needed; Branch A (register meta-criterion) + partial Branch C (scope-narrow novel-physics claims) recommended given TEST-04a refuted + TEST-03B below threshold. S644 audit-channel #14 (calibration consistency presented as independent prediction — ρ_crit takes V_flat as input). S647 audit-channel #15 (chemistry 89%/1703-phenomenon validation: N_corr method unspecified, Method-2 systematic bias toward γ≈1 alone consistent with observed clustering — 'first hard methodological challenge to chemistry validation badge'). Framework Stress Test arc DEFINITIVELY REOPENED — earlier 'no testable claims remain' (S628) refuted by 4 new audit/falsification sessions in 48h."
+  milestone: "S645: First hard external falsification (TEST-04a REFUTED via DESI DR1 fσ₈). S647: Largest validation claim (chemistry r=0.982 across 1703 phenomena) flagged for self-correlation under Method 2/3 of Session #26 — Method 2 systematic underestimation alone produces apparent γ≈1 clustering. S646: Methodology-level recommendation that audit findings imply (meta-criterion + scope-narrow). 14 site-archive audits (S631-S644) + 1 external falsification (S645) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647)."
   tracks:
-    core: 592  # S641 (Lorentz Invariance Gap, 4th Face) added
+    core: 596  # S642-S647 added since S641
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
@@ -2600,6 +2600,25 @@ open_questions:
 # NOTABLE FAILURES & LESSONS
 # =============================================================================
 failures:
+  - session: 645
+    test_id: "TEST-04a"
+    description: "Session 107 fσ₈ prediction REFUTED by DESI DR1 — first hard external falsification of a Tier-1 prediction"
+    measurements: "LRG1 z=0.51 observed ~0.55±0.06 vs Sync prediction 0.418 (kill criterion fσ₈(z=0.5)>0.45 fired at 2.14σ); LRG2 z=0.71 observed ~0.50±0.05 vs 0.414 (1.42σ); combined σ₈(z=0) DESI 0.841±0.034 vs Sync 0.76 (2.38σ)"
+    structural_diagnosis: "Cumulative-suppression mechanism predicts low-z suppressed, high-z converging. Observed pattern is OPPOSITE — fσ₈ above prediction at low z, gap narrowing to high z. Wrong sign of redshift dependence; magnitude-only revision cannot recover."
+    resolution: "Verdict (a): Withdraw with prejudice — tag REFUTED, retain Session 107 as documented dead-end. Optional (b): mechanism diagnosis. Reject (c) reframing as dishonest given Session 107's own numerical commitment."
+    lesson: "First validation of 'productive failure > safe summaries' value at the framework level — universe disagreed with a numerical Tier-1 prediction; framework epistemic standing improves by accepting this rather than reframing."
+    date: "2026-05-07"
+    grade: "A-"
+
+  - session: 647
+    description: "Chemistry validation cohort (1703 phenomena, 89% validated, r=0.982 with sound velocity) — N_corr measurement method unspecified; Methods 2 and 3 of Session #26 carry self-correlation paths AND Method 2 systematic underestimation alone produces apparent γ≈1 clustering"
+    self_correlation_paths: "Path 1 (Method 2 atomic-spacing identity): N_corr~(ξ/a)³ → γ deterministic function of a; r=0.956 with V_a a functional identity, not empirical correlation. Path 2 (Method 2 phonon-coherence-length): ξ=v_s·τ_ph makes sound velocity constructional input → r=0.982 with v_s shares constructional dependence. Path 3 (Method 3 entropy → bonding character): r=0.979 with electronegativity partly structural."
+    method_bias: "Session #26 Part 3's own simulation: Method 2 maps true N_corr 10/25/50 → measured 6/15/32. Drives systems with true N_corr 4-50 toward apparent γ in 0.35-1.15 — exactly the claimed γ≈1 boundary cluster. Hall (r≈0.001) and magnetic susceptibility (r≈0.000) failures aren't falsifying controls — they're properties whose physical determinants (band structure, spin texture) are outside the input set of all 5 Methods, exactly the predicted self-correlation pattern."
+    resolution: "Path A (specify method) necessary; Path B (apply Method 1 with fixed σ_uncorrelated to held-out subset) or Path C (pre-register γ predictions for next 100 phenomena) necessary for validation badge to remain defensible. If A reveals Method 2/3 was used, re-badge as 'Reparametrization | Bonding-Character Self-Consistency'."
+    lesson: "First hard methodological challenge to the framework's largest validation claim. Same pattern as S639/S644: result presented as validation when load-bearing method is unstated."
+    date: "2026-05-08"
+    grade: "A-"
+
   - session: 102
     description: "Initial dark matter model failed validation"
     resolution: "Revised in Session 115"
