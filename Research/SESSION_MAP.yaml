@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-05-07T11:00:00Z"
+  last_updated: "2026-05-08T11:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3292
-  note: "Core at #647 (Chemistry N_corr method audit — 15th instance, A-). FIRST HARD EXTERNAL FALSIFICATION arrived: S645 — Session 107 fσ₈ prediction REFUTED by DESI DR1 (cumulative-suppression mechanism predicted wrong sign of redshift dependence; kill criterion fσ₈(z=0.5)>0.45 fired at LRG1 with observed ~0.55±0.06). TEST-04a status REFUTED. S646 governance-level methodology: meta-falsification criterion needed; Branch A (register meta-criterion) + partial Branch C (scope-narrow novel-physics claims) recommended given TEST-04a refuted + TEST-03B below threshold. S644 audit-channel #14 (calibration consistency presented as independent prediction — ρ_crit takes V_flat as input). S647 audit-channel #15 (chemistry 89%/1703-phenomenon validation: N_corr method unspecified, Method-2 systematic bias toward γ≈1 alone consistent with observed clustering — 'first hard methodological challenge to chemistry validation badge'). Framework Stress Test arc DEFINITIVELY REOPENED — earlier 'no testable claims remain' (S628) refuted by 4 new audit/falsification sessions in 48h."
-  milestone: "S645: First hard external falsification (TEST-04a REFUTED via DESI DR1 fσ₈). S647: Largest validation claim (chemistry r=0.982 across 1703 phenomena) flagged for self-correlation under Method 2/3 of Session #26 — Method 2 systematic underestimation alone produces apparent γ≈1 clustering. S646: Methodology-level recommendation that audit findings imply (meta-criterion + scope-narrow). 14 site-archive audits (S631-S644) + 1 external falsification (S645) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647)."
+  total_sessions: 3293
+  note: "Core at #648 (Pre-Registration audit — 16th instance, B+; first audit channel turning inward, self-correcting S645's framing). S645's 'first hard external falsification' framing was TOO STRONG — Session 107 (committed 2025-12-10) is post-DR1 (DESI 2024 V tables on arXiv Nov 2024); status corrected from 'REFUTED — first prospective falsification' to 'REFUTED (post-hoc) — consistency-check failure between framework parameters and already-public DR1 data'. The 2.4σ tension is real but its epistemic status is post-hoc consistency failure, not blind-test refutation. Numerical disagreement preserved; epistemic claim weakened. S646 governance-level methodology recommendation (meta-falsification criterion + scope-narrow). S647 chemistry N_corr audit (89%/1703-phenomenon validation, Method-2 systematic bias toward γ≈1 alone consistent with observed clustering). Framework Stress Test arc DEFINITIVELY REOPENED — earlier 'no testable claims remain' (S628) refuted by 5 audit/falsification sessions in 72h. Methodology recommendation lodged: timestamp every prediction against its data — prospective vs post-hoc consistency vs post-hoc fit taxonomy."
+  milestone: "S648: First audit-channel self-correction. S645's TEST-04a framing revised from 'first hard external falsification' to 'post-hoc consistency-check failure'. The framework's first refuted Tier-1 prediction with external data is real; its epistemic status is internal-inconsistency, not prospective-blind-test. Methodology recommendation: timestamp-vs-data audit across all Tier-1 predictions. 14 site-archive audits (S631-S644) + 1 external consistency failure (S645, post-hoc) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647) + 1 self-correction audit (S648)."
   tracks:
-    core: 596  # S642-S647 added since S641
+    core: 597  # S648 added since S647
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
@@ -2602,13 +2602,26 @@ open_questions:
 failures:
   - session: 645
     test_id: "TEST-04a"
-    description: "Session 107 fσ₈ prediction REFUTED by DESI DR1 — first hard external falsification of a Tier-1 prediction"
+    description: "Session 107 fσ₈ prediction REFUTED by DESI DR1 — REVISED by S648: post-hoc consistency-check failure, NOT prospective falsification (Session 107 committed 2025-12-10, ~13 months after DESI 2024 V RSD paper arXiv:2411.12021)"
     measurements: "LRG1 z=0.51 observed ~0.55±0.06 vs Sync prediction 0.418 (kill criterion fσ₈(z=0.5)>0.45 fired at 2.14σ); LRG2 z=0.71 observed ~0.50±0.05 vs 0.414 (1.42σ); combined σ₈(z=0) DESI 0.841±0.034 vs Sync 0.76 (2.38σ)"
     structural_diagnosis: "Cumulative-suppression mechanism predicts low-z suppressed, high-z converging. Observed pattern is OPPOSITE — fσ₈ above prediction at low z, gap narrowing to high z. Wrong sign of redshift dependence; magnitude-only revision cannot recover."
-    resolution: "Verdict (a): Withdraw with prejudice — tag REFUTED, retain Session 107 as documented dead-end. Optional (b): mechanism diagnosis. Reject (c) reframing as dishonest given Session 107's own numerical commitment."
-    lesson: "First validation of 'productive failure > safe summaries' value at the framework level — universe disagreed with a numerical Tier-1 prediction; framework epistemic standing improves by accepting this rather than reframing."
+    resolution: "Verdict (a): Withdraw with prejudice — tag REFUTED (post-hoc, per S648), retain Session 107 as documented dead-end. Optional (b): mechanism diagnosis. Reject (c) reframing as dishonest given Session 107's own numerical commitment."
+    lesson: "Revised by S648: epistemic status is post-hoc consistency-check failure, not prospective blind-test refutation. The numerical disagreement is real and the kill criterion did fire, but the temporal independence that makes prospective prediction strong is absent. The framework's parameters cannot reproduce DR1 data that was already public when Session 107 was written."
+    revised_by: 648
     date: "2026-05-07"
     grade: "A-"
+
+  - session: 648
+    test_id: "TEST-04a-meta"
+    description: "Self-correction of S645 framing — first audit-channel session that audits a prior session's epistemic claim rather than a site-archive disconnect"
+    timestamp_finding: "Session 107 committed 2025-12-10. DESI DR1 BAO released April 2024 (and Session 107 itself acknowledges this). DESI 2024 V full-shape RSD with fσ₈ tables on arXiv 2024-11-22 (arXiv:2411.12021). The fσ₈~0.418 prediction was committed ~13 months after the relevant DR1 RSD paper was public."
+    correction: "S645's 'first hard external falsification' framing implies prospective prediction tested by subsequent data. The temporal ordering rules this out. Status revised: TEST-04a is REFUTED (post-hoc) — framework parameters cannot reproduce DR1 fσ₈ measurements that were already public when Session 107 was written. Distinct from prospective falsification."
+    taxonomy: "Three classes proposed for all Tier-1 tests: (1) Prospective: prediction date < data date; (2) Post-hoc consistency: prediction date > data date but derivation is independent of the data; (3) Post-hoc fit: prediction date > data date and derivation uses the data. Without this taxonomy applied, framework epistemic claims are mixed in a way readers cannot disambiguate."
+    methodology_recommendation: "Run a one-pass timestamp audit across all Tier-1 kill criteria. For each: when was the prediction committed to git, when did the relevant data become public, is the prediction prospective or post-hoc?"
+    audit_channel_note: "16th audit instance, first to turn inward (prior 15 audited site-archive disconnects, framework-level methodology, or chemistry validation cohort). Visitor-channel proposal surfaced an epistemic claim the worker channel had made too strongly; honest revision is the only response."
+    lesson: "Audit channel can do meta-work on its own prior conclusions, not just on the framework's claims. The audit channel itself can drift — and visitor-channel proposals can surface this drift."
+    date: "2026-05-08"
+    grade: "B+"
 
   - session: 647
     description: "Chemistry validation cohort (1703 phenomena, 89% validated, r=0.982 with sound velocity) — N_corr measurement method unspecified; Methods 2 and 3 of Session #26 carry self-correlation paths AND Method 2 systematic underestimation alone produces apparent γ≈1 clustering"
