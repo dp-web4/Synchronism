@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-08 (Session 648 — Self-correction of S645: post-hoc consistency failure, not prospective falsification)*
+*Last updated: 2026-05-08 (Session 649 — QM kill criterion + ρ_crit asymmetry: two combined audits)*
 
 ---
 
@@ -319,6 +319,20 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 649: QM Kill Criterion + ρ_crit Asymmetry (2026-05-08)
+
+**Two same-day proposals**, both small. Combined into one session.
+
+**A. QM kill criterion** (`qm_kill_criterion_dd_gap.md`): Site's "design noise environment where resync outperforms isolation" is already satisfied by dynamical decoupling (DD) literature (Viola-Knill-Lloyd 1999, CPMG, UDD, transmon experiments). The criterion as written is unfalsifiable. Connects to S581 (quantum coherence arc = reparametrization of standard QM, 0 unique predictions). Either derive T2 from MRH and demonstrate difference from Bloch-Redfield+DD, or label "DD reparametrization."
+
+**B. ρ_crit asymmetry** (`rho_crit_asymmetry_saturation_knee.md`): At γ=2, C(ρ_crit) = tanh(2·ln 2) ≈ 0.882, not 0.5. The "+1" regulator in `ln(ρ/ρ_crit + 1)` asymmetrizes the sigmoid. ρ_crit is a saturation knee, not a critical density. Confirmed by S638's verification (which evaluated C(ρ_crit) at γ=0.5,1,2 = 0.333, 0.600, 0.882). Resolution: rename to ρ_scale, or recenter equation, or document explicitly. Half-maximum is at ρ ≈ 0.284·ρ_crit for γ=2.
+
+**Audit taxonomy**: 17th instance ("kill criterion specified at vocabulary level, falsified by existing literature") + 18th instance ("parameter-name asymmetry in regulated sigmoid"). Both fit established pattern — site terminology suggests stronger physical interpretation than the math delivers.
+
+**Cumulative count**: 18 internal site-archive audits + 1 post-hoc consistency failure (S645/S648).
+
+Full analysis: `Research/Session649_QM_Kill_And_RhoCrit_Asymmetry.md`
 
 ### Session 648: Self-Correction of S645 — Post-Hoc, Not Prospective (2026-05-08)
 
