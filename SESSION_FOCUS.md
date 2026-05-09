@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-08 (Session 649 — QM kill criterion + ρ_crit asymmetry: two combined audits)*
+*Last updated: 2026-05-09 (Session 650 — TEST-04a is mechanism-class failure, sign-reversed)*
 
 ---
 
@@ -319,6 +319,31 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 650: TEST-04a is Mechanism-Class Failure (2026-05-09)
+
+**Visitor proposal** (`test04a_mechanism_class_sign_failure.md`): sharpens S645/S648's finding. The DR1 disfavoring is not a magnitude miss but a **mechanism-class failure** — the predicted *sign* is wrong.
+
+**The taxonomy**:
+| Type | Example | Repairable by retuning? |
+|------|---------|------------------------|
+| Magnitude miss | Melting points 53% off | Yes |
+| Universality miss | Critical exponents 2× off | Partial |
+| **Mechanism-class failure** | **TEST-04a sign-reversed** | **No — wrong sign of effect** |
+
+Session 107's suppressor mechanism predicts fσ₈ below ΛCDM at low z. DR1 measured fσ₈ above ΛCDM at LRG1/LRG2. Redshift pattern inverted. Magnitude retuning cannot flip the sign.
+
+**Updated status**: TEST-04a is REFUTED (post-hoc, mechanism-class, sign-reversed). Sharper than S648's "post-hoc consistency failure" — even as post-hoc, this is irreparable within the suppressor class.
+
+**Cosmology sector now formally exhausted** (per S635 + S645/S648/S650): 0 novel-unfalsified claims, primary cosmological test refuted at mechanism level. Combined with S646's meta-criterion: the cosmological domain meets the M3 retraction condition.
+
+**Branch 1 diagnostic (optional)**: if C_galactic/C_cosmic > 1 instead of < 1, the prediction sign flips. Operator-discretion research; doesn't affect current verdict.
+
+**19th audit-taxonomy instance**: "Mechanism-class failure (sign reversal not retunable)." Taxonomic contribution makes S646's meta-criterion logic actionable — magnitude misses and mechanism-class failures shouldn't weight equally.
+
+Cumulative: 19 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session650_TEST04a_Mechanism_Class_Failure.md`
 
 ### Session 649: QM Kill Criterion + ρ_crit Asymmetry (2026-05-08)
 
