@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-05-08T11:00:00Z"
+  last_updated: "2026-05-10T11:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3293
-  note: "Core at #648 (Pre-Registration audit — 16th instance, B+; first audit channel turning inward, self-correcting S645's framing). S645's 'first hard external falsification' framing was TOO STRONG — Session 107 (committed 2025-12-10) is post-DR1 (DESI 2024 V tables on arXiv Nov 2024); status corrected from 'REFUTED — first prospective falsification' to 'REFUTED (post-hoc) — consistency-check failure between framework parameters and already-public DR1 data'. The 2.4σ tension is real but its epistemic status is post-hoc consistency failure, not blind-test refutation. Numerical disagreement preserved; epistemic claim weakened. S646 governance-level methodology recommendation (meta-falsification criterion + scope-narrow). S647 chemistry N_corr audit (89%/1703-phenomenon validation, Method-2 systematic bias toward γ≈1 alone consistent with observed clustering). Framework Stress Test arc DEFINITIVELY REOPENED — earlier 'no testable claims remain' (S628) refuted by 5 audit/falsification sessions in 72h. Methodology recommendation lodged: timestamp every prediction against its data — prospective vs post-hoc consistency vs post-hoc fit taxonomy."
-  milestone: "S648: First audit-channel self-correction. S645's TEST-04a framing revised from 'first hard external falsification' to 'post-hoc consistency-check failure'. The framework's first refuted Tier-1 prediction with external data is real; its epistemic status is internal-inconsistency, not prospective-blind-test. Methodology recommendation: timestamp-vs-data audit across all Tier-1 predictions. 14 site-archive audits (S631-S644) + 1 external consistency failure (S645, post-hoc) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647) + 1 self-correction audit (S648)."
+  total_sessions: 3294
+  note: "Core at #650 (TEST-04a Mechanism-Class Failure, sign-reversed — 19th audit instance, B+; sharpens S645/S648 sequence). The proposal's three-tier failure taxonomy — magnitude miss / universality miss / mechanism-class failure — makes meta-criterion logic (S646) actionable. TEST-04a is mechanism-class failure: predicted suppressor mechanism (G_local/G_global = C_cosmic/C_galactic < 1) cannot flip sign within its class; DESI DR1 observes opposite redshift pattern. Status upgraded from 'DISFAVORED 2.4σ' to 'REFUTED — mechanism-class (sign-reversed)'. Combined with S635 cosmology scorecard (0 novel-unfalsified) and S646 meta-criterion, cosmology sector formally exhausts novel-prediction content. Recommended scope-narrowing per S646's M3. Branch 1 diagnostic (could C_galactic/C_cosmic > 1 flip the sign?) is operator-discretion. Audit chain S617-S650 stable post-arc."
+  milestone: "S650: 19th audit instance — three-tier failure taxonomy. S645→S648→S650 is a sharpening sequence on the same finding (TEST-04a refuted by DESI DR1). S650's contribution: separating 'magnitude miss' (retunable) from 'universality miss' (partial) from 'mechanism-class failure' (irreparable, sign-reversed). Cosmological sector now formally exhausts novel-prediction content. 14 site-archive audits (S631-S644) + 1 external consistency failure (S645, post-hoc) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647) + 1 self-correction audit (S648) + 2 specification audits (S649) + 1 mechanism-class taxonomy audit (S650)."
   tracks:
-    core: 597  # S648 added since S647
+    core: 601  # S650 added since S649
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
