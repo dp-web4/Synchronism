@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-09 (Session 650 — TEST-04a is mechanism-class failure, sign-reversed)*
+*Last updated: 2026-05-10 (Session 651 — Chemistry null model gap: r=0.98 vs wrong baseline)*
 
 ---
 
@@ -319,6 +319,30 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 651: Chemistry Null Model Gap (2026-05-10)
+
+**Visitor proposal** (`chemistry_null_model_gap.md`): chemistry "89% validated, r=0.982 with sound velocity" implicitly compares against r=0 null. The relevant null is r(polynomial in Z) — sound velocity, electronegativity, atomic volume are themselves near-monotonic in Z, so any smooth monotonic function gets r ≈ 1 by construction.
+
+**Diagnostic**: Δr = r(Synchronism) − r(best monotonic null) is the meaningful figure.
+- Δr > 0.05: "Validated" defensible with null documented
+- Δr ≈ 0: chemistry is reparametrization of density-Z monotonicity
+- Δr small positive: reparametrization of Landau-class with marginal differentiation
+
+**Best estimate (per proposal)**: tie or marginal win. Framework parameters were calibrated to chemistry data; high-r phenomena are textbook monotonic-with-Z; 2-parameter tanh fit through any sigmoidal monotonic data with reasonable noise gives r ≥ 0.95.
+
+**Compounding with S647**: S647 found method unspecified (which N_corr → three of five produce self-correlation); S651 finds null unspecified (r=0 vs r=polynomial(Z)). Both are independent gaps. Method-fix doesn't address null-fix. Together they leave the chemistry cohort unfalsifiable.
+
+**20th audit-taxonomy instance**: "Wrong null model comparison." Different layer than S647 — even with method fixed, baseline comparison is uninformative.
+
+**Recommended action (immediate, low cost)**:
+- Downgrade `/honest-assessment` and `/gamma-boundary` chemistry badge from "89% Validated" to "Reparametrization or Validated — pending null model comparison"
+- Run polynomial-in-Z, generic-tanh, MOND nulls on the 1,703 phenomena. Report Δr.
+- Cost ≈ 0; uses existing public data.
+
+Cumulative: 20 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session651_Chemistry_Null_Model_Gap.md`
 
 ### Session 650: TEST-04a is Mechanism-Class Failure (2026-05-09)
 
