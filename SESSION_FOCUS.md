@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-10 (Session 651 — Chemistry null model gap: r=0.98 vs wrong baseline)*
+*Last updated: 2026-05-11 (Session 652 — Governing equation gap: C(ρ) has no field equation)*
 
 ---
 
@@ -319,6 +319,29 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 652: Governing Equation Gap (2026-05-11)
+
+**Visitor proposal** (`coherence_function_governing_equation_gap.md`): the upstream question — what equation, if any, does C(ρ) solve? Three options: A (no equation, phenomenological compander), B (self-consistency, Landau-style, not derived), C (steady-state of dynamic equation, supplies missing kinematic layer).
+
+**Archive answers Option A** via synthesis of prior audits:
+- S636: C(ρ) is not self-consistent (argument depends on external ρ only)
+- S638: Curie-paramagnet equilibrium response, MaxEnt over binary variable in external log-density field — static, not self-consistent
+- S640: three distinct forms of C in archive, none reduces via governing equation
+- S649: "+1" regulator asymmetrizes sigmoid, incompatible with symmetric Z₂ Landau form
+- S651: predictive power matches polynomial-in-Z null — consistent with compander
+
+C(ρ) sits in the same class as μ-law audio companding, Naka-Rushton response, Hill kinetics: phenomenological forward map with no field equation.
+
+**Connection to prompt's tension 4 (oscillation vs C(ρ))**: they cannot harmonize because **C(ρ) has no dynamics**. No dC/dt equation, no time evolution. Same conclusion as S641-S642 kinematic-layer gap.
+
+**21st audit-taxonomy instance**: "Governing-equation gap (forward map has no field equation)." Meta-synthesis, not new finding — organizes S636/S638/S640/S649/S651 into single upstream structural question.
+
+**Recommended site action**: change `/coherence-function` and `/key-claims` framing from "motivated by mean-field theory" (implies shared physics) to "shares the functional form of mean-field tanh solutions" (accurate).
+
+Cumulative: 21 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session652_Governing_Equation_Gap.md`
 
 ### Session 651: Chemistry Null Model Gap (2026-05-10)
 
