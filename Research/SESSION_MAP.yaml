@@ -4,13 +4,13 @@
 
 metadata:
   project: synchronism
-  last_updated: "2026-05-10T11:00:00Z"
+  last_updated: "2026-05-11T11:00:00Z"
   archivist_version: "1.3"
-  total_sessions: 3294
-  note: "Core at #650 (TEST-04a Mechanism-Class Failure, sign-reversed — 19th audit instance, B+; sharpens S645/S648 sequence). The proposal's three-tier failure taxonomy — magnitude miss / universality miss / mechanism-class failure — makes meta-criterion logic (S646) actionable. TEST-04a is mechanism-class failure: predicted suppressor mechanism (G_local/G_global = C_cosmic/C_galactic < 1) cannot flip sign within its class; DESI DR1 observes opposite redshift pattern. Status upgraded from 'DISFAVORED 2.4σ' to 'REFUTED — mechanism-class (sign-reversed)'. Combined with S635 cosmology scorecard (0 novel-unfalsified) and S646 meta-criterion, cosmology sector formally exhausts novel-prediction content. Recommended scope-narrowing per S646's M3. Branch 1 diagnostic (could C_galactic/C_cosmic > 1 flip the sign?) is operator-discretion. Audit chain S617-S650 stable post-arc."
-  milestone: "S650: 19th audit instance — three-tier failure taxonomy. S645→S648→S650 is a sharpening sequence on the same finding (TEST-04a refuted by DESI DR1). S650's contribution: separating 'magnitude miss' (retunable) from 'universality miss' (partial) from 'mechanism-class failure' (irreparable, sign-reversed). Cosmological sector now formally exhausts novel-prediction content. 14 site-archive audits (S631-S644) + 1 external consistency failure (S645, post-hoc) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647) + 1 self-correction audit (S648) + 2 specification audits (S649) + 1 mechanism-class taxonomy audit (S650)."
+  total_sessions: 3295
+  note: "Core at #651 (Chemistry Null Model Gap, 20th audit instance, B+; paired with S647). S651 cuts at the null-model layer beneath S647's method-specification layer: even with N_corr method specified, r=0.98 vs implicit r=0 null is uninformative — relevant null is r(polynomial in Z) or r(generic 2-param tanh) or r(MOND interpolating). The two audits compound: S647 finds method unspecified → r is partly self-correlation; S651 finds null unspecified → remaining signal is also generic monotonicity. Together they leave the chemistry '89% Validated' claim unfalsifiable until both method and null are specified. Cost of fixing: ~zero (reanalysis of public data). Recommended interim: re-badge to 'Reparametrization or Validated — pending null model comparison.' Audit chain S617-S651 stable post-arc."
+  milestone: "S651: 20th audit instance — null-model gap. S647+S651 compounding chemistry-cohort gaps (method unspecified + null unspecified). Three diagnostic outcomes from null computation: (a) Δr > 0.05 → 'Validated' defensible; (b) Δr ties → reparametrization of density-monotonicity; (c) marginal win → reparametrization of Landau-class with boundary cases. Best estimate from proposal: tie or marginal win (parameters were calibrated; high-r phenomena are textbook monotonic-with-Z). 14 site-archive audits (S631-S644) + 1 external consistency failure (S645, post-hoc) + 1 governance-level methodology (S646) + 1 chemistry self-correlation audit (S647) + 1 self-correction audit (S648) + 2 specification audits (S649) + 1 mechanism-class taxonomy audit (S650) + 1 null-model gap audit (S651)."
   tracks:
-    core: 601  # S650 added since S649
+    core: 602  # S651 added since S650
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
     gnosis: 23 files (Sessions 1-11 theory + Sessions 12-17+ empirical)
 
@@ -2623,6 +2623,20 @@ failures:
     date: "2026-05-08"
     grade: "B+"
 
+  - session: 651
+    description: "Chemistry null-model gap — r=0.98 vs implicit r=0 null is uninformative because sound velocity, electronegativity, atomic volume are themselves near-monotonic functions of Z. Any smooth monotonic function (polynomial-in-Z, generic 2-param tanh, MOND-type interpolating) will achieve r ≈ 1 on the same 1,703 phenomena by construction. Relevant figure is Δr = r(Synchronism) − r(best monotonic null)."
+    diagnostic_outcomes: "(a) Δr > ~0.05 → 'Validated' defensible with null documented; (b) Δr ties → Chemistry is reparametrization of density-monotonicity; (c) Marginal win → reparametrization of Landau-class with only boundary cases differing."
+    best_estimate: "Tie or marginal win. Parameters were calibrated to chemistry data (S647: N_corr methods produce self-correlation). High-r phenomena (sound velocity, electronegativity) are textbook monotonic-with-Z. A 2-param tanh fit through any sigmoidal monotonic data with reasonable noise will give r ≈ 0.95+."
+    paired_with: 647
+    compounding: "S647 audits method gap (which of Session #26's 5 N_corr methods was used?). S651 audits null gap (what is r being compared against?). Both required for chemistry '89% Validated' claim to mean what readers infer. Method unspecified → claim unfalsifiable. Null unspecified → claim meaningless even if method specified. Together: very little Synchronism-specific signal left."
+    concrete_null_computations: "1. Polynomial null (degree-2, degree-3 in Z); 2. Generic 2-param tanh (not Synchronism-specific C(ρ,γ)); 3. MOND-type interpolating function (also 2-param sigmoidal); 4. Report Δr per property. All on existing public data; cost ≈ zero (Path A in proposal)."
+    recommended_site_action: "Interim (Path B): Downgrade 'Chemistry 89% Validated' → 'Reparametrization or Validated — pending null model comparison.' Medium-term (Path A): Compute polynomial / generic-tanh / MOND nulls, report Δr, re-badge based on outcome. Long-term: Validation claims should be pre-registered with both method AND null specification."
+    audit_taxonomy: "20th audit instance: 'wrong null model comparison (r=0 vs r=polynomial(Z))'. Distinct from S647 (method unspecified) by layer. Both forms of 'unfalsifiable presentation' but: method unspecified → can't define measurement; null unspecified → measurement defined but baseline uninformative."
+    connection_to_S646: "S646 meta-criterion recommended retraction protocol with per-test kill criteria. S651 illustrates a sub-issue: what counts as 'validated'? Currently r=0.98 vs r=0 is presented as 'Validated.' Future meta-criterion must require null-comparison documentation alongside kill criteria."
+    lesson: "Validation claims have two compounding requirements: explicit method (what was measured?) AND explicit null (what was it compared against?). Either gap alone weakens validation; both gaps together leave very little Synchronism-specific signal."
+    date: "2026-05-10"
+    grade: "B+"
+
   - session: 647
     description: "Chemistry validation cohort (1703 phenomena, 89% validated, r=0.982 with sound velocity) — N_corr measurement method unspecified; Methods 2 and 3 of Session #26 carry self-correlation paths AND Method 2 systematic underestimation alone produces apparent γ≈1 clustering"
     self_correlation_paths: "Path 1 (Method 2 atomic-spacing identity): N_corr~(ξ/a)³ → γ deterministic function of a; r=0.956 with V_a a functional identity, not empirical correlation. Path 2 (Method 2 phonon-coherence-length): ξ=v_s·τ_ph makes sound velocity constructional input → r=0.982 with v_s shares constructional dependence. Path 3 (Method 3 entropy → bonding character): r=0.979 with electronegativity partly structural."
@@ -2723,3 +2737,4 @@ statistics:
   grand_synthesis_600_milestone: "Session #600 - 200th Cosmology Session. RAR = MOND + M/L. 3-var LOO R²=0.854, 6-var LOO R²=0.938 at noise floor. Two publication-ready papers."
   robust_statistics_milestone: "Session #602 - Student-t(df=5.15) overwhelmingly preferred over Gaussian. 39% of variance in non-Gaussian tails. Paradigm shift for error handling."
   unified_milestone: "Session #315 - 34 predictions consolidated, 20 validated (58.8%), avg confidence 0.90"
+  chemistry_audit_compounding_milestone: "Sessions #647 + #651 - Chemistry '89% Validated' claim has TWO compounding gaps: method unspecified (S647: which of 5 N_corr methods?) + null unspecified (S651: r=0.98 vs r=0 vs r(polynomial(Z))?). Together: claim unfalsifiable until both specified. Cost of fixing: ~zero (public data reanalysis). Interim re-badge recommended: 'Reparametrization or Validated — pending null model comparison.' Audit-taxonomy 20 instances total."
