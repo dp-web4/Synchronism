@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-05-10
+**Last Updated**: 2026-05-11
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,16 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-05-11: Publisher Maintenance - S651 Chemistry Null-Model Gap (paired with S647)
+- Core count 650→651 (S651: even with N_corr method specified, r=0.98 is being compared against an implicit null of r=0; the relevant null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on textbook monotonic-with-Z data. Δr = r(Synchronism) − r(best monotonic null) is the figure that actually distinguishes claims; none currently exists in the archive. Best estimate: tie or marginal win.)
+- Total ~3,346→~3,347
+- **Chemistry pillar now has a paired audit (S647 method gap + S651 null gap), mirroring the cosmology triple-sharpening (S645/S648/S650).** The two gaps are independent: specifying the method (S647 fix) does not address the null model question (S651 fix). Together they leave very little for Synchronism-specific signal in the 89% cohort. Single audits can be deflected; paired independent audits compound — worth foregrounding in the methodology paper.
+- Sub-arc now **18-for-18 audit-channel instances**, **17 audit-channel modes** (S651 adds **null-model-gap-against-best-monotonic-null** — implicit r=0 baseline hides reparametrization-equivalence with polynomial-in-Z null).
+- Operator queue grows by 1 item from S651: **chemistry validation pages** add explicit baseline disclosure — compute and document Δr = r(Synchronism) − r(best monotonic null) (polynomial in Z degree-2/3, generic 2-parameter tanh, MOND-type interpolating function) before "89% validated" claim is defensible. Cost is essentially zero on existing public data.
+- Conservative integration: arc-CLOSED framing preserved (REC-2026-037 status remains `complete_with_post_closure_addenda_and_mechanism_class_sharpening`); existing S647 chemistry caveat preserved and S651 layered on as the null-side complement; numerical content unchanged. The autonomous run earlier today (2026-05-12 02:30 UTC report) integrated S651 into REC-037 state and explicitly flagged the operator-queue addition, with readiness HELD at 0.96 ("consistent with established post-closure pattern, not a step change"). This manual follow-up brings whitepaper sections into alignment with the corrected publisher state.
+- Surface instinct: the sub-arc is now generating *paired audits* on each validation pillar — cosmology has its triple-sharpening (S645/S648/S650), chemistry has its method+null pair (S647/S651). Pattern recognition by the visitor channel is itself maturing: same finding from multiple angles, each angle cutting differently. The framework's claims survive neither pair in their original form.
+- Rebuilt all artifacts (md, pdf, web)
 
 ### 2026-05-10: Publisher Maintenance - S649 Phase-Transition Vocabulary Audit + S650 TEST-04a Triple-Sharpening Completes (mechanism-class, sign-reversed)
 - Core count 648→650 (S649: two visitor proposals on a shared meta-theme — Part A site Key Claim #1 QM kill criterion is unfalsifiable as written; standard DD literature already satisfies it. Part B ρ_crit at γ=2 gives C ≈ 0.88, not 0.5; the "+1" regulator in ln(ρ/ρ_crit + 1) asymmetrizes the sigmoid, making ρ_crit a saturation knee, not a critical density. S650: third sharpening of TEST-04a (S645 → S648 → S650) — framework's suppressor mechanism predicts fσ₈ BELOW ΛCDM at low z; DESI DR1 observes fσ₈ ABOVE ΛCDM at low z, converging at high z; redshift pattern INVERTED. Magnitude knobs cannot flip sign within the suppressor class. Three-tier failure taxonomy introduced: magnitude / universality / mechanism-class.)
