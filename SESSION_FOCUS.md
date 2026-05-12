@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-11 (Session 652 — Governing equation gap: C(ρ) has no field equation)*
+*Last updated: 2026-05-12 (Session 653 — Compander commitment + suppressor-class diagnostic)*
 
 ---
 
@@ -319,6 +319,30 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 653: Compander Commitment + Suppressor Diagnostic (2026-05-12)
+
+**Two same-day proposals**, both binary decisions:
+
+**Part A — Compander vs Order Parameter** (`compander_vs_order_parameter_category_decision.md`): Site uses both framings. Deep pages already commit to Frame B (compander); front-of-site uses Frame A language. Verdict: commit to Frame B. Reaffirms S652. Resolves S649 (ρ_crit naming) and S636/S638/S640/S652 (no governing equation). Site action: drop phase-transition language, rename ρ_crit as "half-saturation parameter," add AIC/BIC compander comparison.
+
+**Part B — Suppressor Class Dead or Recoverable** (`suppressor_class_dead_or_recoverable.md`): TEST-04a + Bullet Cluster both sign-wrong. Executor task: compute C_galactic vs C_cosmic.
+
+Computed (γ=2, ρ_crit = ρ_galactic_outer):
+- C_galactic = tanh(2·ln 2) ≈ 0.882
+- C_cosmic ≈ 1.5×10⁻⁵
+- C_cosmic/C_galactic ≈ 1.7×10⁻⁵ ≪ 1
+
+Session 107's identification (G_local/G_global = C_cosmic/C_galactic) is **correctly identified as ≪ 1, which DOES predict strong suppression**. But DR1 observes enhancement. The framework's own equations dictate the failed prediction.
+
+Branch 1 (sign-flip recoverable) requires **reinterpreting** the coupling direction (using C_galactic/C_cosmic instead), which is a framework choice, not a recomputation. Branch 2 (suppressor dead) is the honest default under Session 107's mapping.
+
+**22nd audit-taxonomy instance**: "Compander commitment + executor diagnostic." Hybrid — framing commitment + numerical check. Computation confirms the framework's equations dictate the failed prediction.
+
+Cumulative: 22 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session653_Two_Binary_Decisions.md`
+Code: `simulations/session653_coherence_ratio.py`
 
 ### Session 652: Governing Equation Gap (2026-05-11)
 
