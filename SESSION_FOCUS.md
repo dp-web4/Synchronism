@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-12 (Session 653 — Compander commitment + suppressor-class diagnostic)*
+*Last updated: 2026-05-13 (Session 654 — Remaining Tier-1 tests are MOND+EFE degenerate)*
 
 ---
 
@@ -319,6 +319,28 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 654: Tier-1 Tests Are MOND+EFE Degenerate (2026-05-13)
+
+**Visitor proposal** (`tier1_mond_efe_discriminator_gap.md`): After TEST-03 (S639 split) and TEST-04a (S645/S648/S650 refuted) failed, remaining "Active Discriminating Tests" are TEST-01, TEST-02, TEST-05. All three are environment-dependent, but MOND's External Field Effect (Bekenstein-Milgrom 1984; AQUAL/QUMOND) already predicts environment-dependent dynamics.
+
+**Verdict: Branch A** (all degenerate within detection):
+- **TEST-05**: S637 derived Synchronism's signal as ~1.6×10⁻⁴ dex — 120× below SPARC measurement floor. Cannot discriminate from anything.
+- **TEST-01**: same observable as TEST-05 stated differently. Same conclusion.
+- **TEST-02**: disputed MOND+EFE baseline (Chae vs Pittordis vs Banik); no specific Synchronism prediction written against any of these. Cannot discriminate until specified.
+
+**Combined picture**: framework now has **zero active discriminators** across cosmology and galactic dynamics. Asymmetry: refutable but not confirmable with existing test designs.
+
+**23rd audit-taxonomy instance**: "Active-test discrimination gap (degenerate with MOND+EFE)." Meta-synthesis using S637's prior numerical result.
+
+**Recommended site action (per proposal)**:
+- Add "MOND-degenerate" labels to TEST-01, TEST-02, TEST-05
+- Revise "Active Discriminating Tests" section to show **zero active discriminators**
+- Add references to EFE/AQUAL/QUMOND/Pittordis/Banik/Chae literature on `/galaxy-rotation`
+
+Cumulative: 23 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session654_Tier1_MOND_EFE_Discriminator_Gap.md`
 
 ### Session 653: Compander Commitment + Suppressor Diagnostic (2026-05-12)
 
