@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-13 (Session 654 — Remaining Tier-1 tests are MOND+EFE degenerate)*
+*Last updated: 2026-05-14 (Session 655 — Γ = γ²(1−c) is standard correlated-bath decoherence in framework vocabulary)*
 
 ---
 
@@ -319,6 +319,27 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 655: Γ = γ²(1−c) Is Standard Correlated-Bath Decoherence (2026-05-14)
+
+**Visitor proposal** (`gamma_squared_decoherence_derivation_chain_audit.md`): site's `/key-claims` presents Γ = γ²(1−c) as "Post-diction — consistent with PRL 2024" but has no derivation page. Asked: where is the derivation? Is the formula Synchronism-specific?
+
+**Archive trace**:
+- Session #232 (Jan 6, 2026) contains the derivation: Γ = (γ_A² + γ_B² − 2c·γ_A·γ_B)/2, reducing to γ²(1−c) for equal rates
+- This is **the standard correlated-bath decoherence result** (Schlosshauer 2007, DFS literature)
+- Two qubits with phase-noise correlation c → relative-phase decoherence rate γ²(1−c); fully correlated noise (c=1) gives decoherence-free subspace, Γ→0; this is textbook
+
+**Verdict**: derivation exists in archive, but the formula is **not novel to Synchronism** — it's a textbook correlated-bath result in framework vocabulary. Same pattern as S581 (quantum arc = reparametrization, 0 unique predictions) and S649 (QM kill criterion satisfied by DD literature).
+
+**Pre-registration**: S232 dated Jan 6, 2026 — after PRL 2024. Same temporal-independence concern as S648 applies. But moot because the formula isn't novel regardless of timing.
+
+**24th audit-taxonomy instance**: "Quantum claim is standard correlated-bath result in framework vocabulary." Third audit confirming quantum sector reduces to reparametrization.
+
+**Recommended site action**: update `/key-claims` badge from "Post-diction — consistent with PRL 2024" to **"Reparametrization — standard correlated-bath decoherence in Synchronism vocabulary"**. Reference Schlosshauer 2007 and DFS literature.
+
+Cumulative: 24 internal audits + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session655_Gamma_Squared_Decoherence_Audit.md`
 
 ### Session 654: Tier-1 Tests Are MOND+EFE Degenerate (2026-05-13)
 
