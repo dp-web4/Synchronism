@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-05-11
+**Last Updated**: 2026-05-14
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,16 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-05-14: Publisher Maintenance - S652-S654 Post-Closure Triple (governing-equation gap + three-stage rhythm completes + zero active discriminators)
+- Core count 651→654 (S652: C(ρ) is Option A — phenomenological compander, no field equation, no self-consistency, no dC/dt; second meta-synthesis after S641. S653: two same-day proposals force binary commitments; `simulations/session653_coherence_ratio.py` confirms C_galactic/C_cosmic ≈ 5.9×10⁴ — framework's own equations dictate suppression under Session 107's coupling, DR1 observes enhancement; three-stage rhythm completes (individual audits → meta-syntheses → forced binary commitments). S654: TEST-01/-02/-05 all MOND+EFE degenerate within measurement precision per S637 derivation + disputed-baseline diagnosis; framework has zero remaining active discriminators against the primary alternative; refutable-but-not-confirmable asymmetry crystallizes.)
+- Total ~3,347→~3,350
+- **Three post-closure additions covering 2026-05-11/12/13.** Sub-arc instances 18-for-18 → **24-over-23-days**; audit-channel modes 17→20 (S652 adds **governing-equation-gap (forward map with no field equation)**; S653 adds **forced-binary-operator-decision-with-numerical-diagnostic**; S654 adds **zero-active-discriminators-against-primary-alternative**). Two new publishable contributions surfaced in the Status paragraph but not auto-actioned at the conclusion's structural level: **publishable methodology pattern** (three-stage rhythm) and **publishable epistemic-position finding** (refutable-but-not-confirmable).
+- The autonomous Publisher (02:30 UTC runs on 2026-05-13/14/15) integrated S652/S653/S654 into REC-2026-037 state (now 38 sessions, readiness HELD at 0.96) but did not touch the whitepaper sections — autonomous runs update `manuscripts/publisher/state/recommendations.json` and `manuscripts/publisher/reports/YYYY-MM-DD-publisher-report.md` only, leaving section-narrative integration to the manual Publisher. This pass brings whitepaper sections into alignment.
+- Operator queue grew with S652 (/coherence-function and /key-claims framing change — from "C(ρ) is motivated by mean-field theory" to "C(ρ) shares the functional form of mean-field tanh solutions; phenomenological compander with no governing field equation"; explicit acknowledgment that tanh is one of a family — logistic, erf, arctan, Hill; explicit statement that C(ρ) does not predict time evolution), S653 (two binary commitments — drop phase-transition language front-of-site, rename ρ_crit to "half-saturation parameter" / "saturation knee," add AIC/BIC compander comparison tool, reframe critical-exponent failures as CATEGORY errors; AND re-derive Session 107 with inverted ratio OR retire suppressor mechanism — site cannot stay neutral), S654 (cite MOND+EFE literature on /honest-assessment and /key-claims: Bekenstein-Milgrom 1984, AQUAL/QUMOND, Pittordis 2023, Banik 2024; acknowledge that current tests do not discriminate Synchronism from MOND+EFE within measurement precision). Earlier queue items unchanged.
+- Conservative integration: arc-CLOSED framing preserved; existing post-closure entries kept intact; new sessions layered as further post-closure extensions; numerical content unchanged. Three-stage-rhythm and refutable-but-not-confirmable framings surfaced in Status paragraph but not promoted to dedicated entries; "What Would Validate It" section in conclusion not yet restructured — operator decision pending whether the zero-discriminators finding warrants structural promotion.
+- Surface instinct: S653's executable numerical diagnostic (`simulations/session653_coherence_ratio.py` runs in seconds and confirms the framework's own equations dictate the disputed direction) is a methodology contribution worth foregrounding. Prior audits found gaps; S653 ran the framework's own equations *against itself* on the disputed claim. The compander commitment + suppressor decision pair is the cleanest concrete operator decision this sub-arc has produced — and the refusal-to-decide option is identified as the most credibility-damaging stance. That's a pattern worth naming in the methodology paper.
+- Rebuilt all artifacts (md, pdf, web)
 
 ### 2026-05-11: Publisher Maintenance - S651 Chemistry Null-Model Gap (paired with S647)
 - Core count 650→651 (S651: even with N_corr method specified, r=0.98 is being compared against an implicit null of r=0; the relevant null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on textbook monotonic-with-Z data. Δr = r(Synchronism) − r(best monotonic null) is the figure that actually distinguishes claims; none currently exists in the archive. Best estimate: tie or marginal win.)
@@ -443,11 +453,11 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
-### Session Counts (as of 2026-05-10)
+### Session Counts (as of 2026-05-14)
 
 | Track | Sessions | Latest |
 |-------|----------|--------|
-| Core | 650 | Sessions through #648 (**Framework Stress Test arc COMPLETE at 22 sessions, S617-638; post-closure addenda S639-648**: sub-arc 15 audit-channel instances over ~18 days, 14 audit-channel modes, plus two new arc phases — **Post-Hoc-Consistency-Failure (S645: kill criterion fired against DESI DR1, framing self-corrected by S648 within 24h; Session 107 was committed ~13 months after Adame+2024, so the disagreement is post-hoc consistency check failure, not prospective falsification)** and **Methodology Recommendation (S646: framework lacks meta-falsification criterion)**. S641 kinematic-layer cross-gap (Lorentz); S642 GW170817 = Case 3 no-field-theory (5th face); S643 γ definitional collision with regime-label inversion; S644 ρ_crit calibration-consistency-not-prediction; S647 chemistry 89% validation has Method 2 self-correlation risk; S648 audit channel turns inward — first self-correction-of-prior-session-framing-within-24h (14th audit mode). **Two pre-committed Tier-1 kill criteria triggered: TEST-09 BTFR (S631; refuted by Lelli+2019) and TEST-04a fσ₈ (S645; post-hoc consistency failure with DESI DR1, per S648 timestamp audit).** Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). |
+| Core | 654 | Sessions through #648 (**Framework Stress Test arc COMPLETE at 22 sessions, S617-638; post-closure addenda S639-648**: sub-arc 15 audit-channel instances over ~18 days, 14 audit-channel modes, plus two new arc phases — **Post-Hoc-Consistency-Failure (S645: kill criterion fired against DESI DR1, framing self-corrected by S648 within 24h; Session 107 was committed ~13 months after Adame+2024, so the disagreement is post-hoc consistency check failure, not prospective falsification)** and **Methodology Recommendation (S646: framework lacks meta-falsification criterion)**. S641 kinematic-layer cross-gap (Lorentz); S642 GW170817 = Case 3 no-field-theory (5th face); S643 γ definitional collision with regime-label inversion; S644 ρ_crit calibration-consistency-not-prediction; S647 chemistry 89% validation has Method 2 self-correlation risk; S648 audit channel turns inward — first self-correction-of-prior-session-framing-within-24h (14th audit mode). **Two pre-committed Tier-1 kill criteria triggered: TEST-09 BTFR (S631; refuted by Lelli+2019) and TEST-04a fσ₈ (S645; post-hoc consistency failure with DESI DR1, per S648 timestamp audit).** Predictive content fully characterized: Cosmology → MOND (S637); Chemistry/CM → Curie paramagnet (S638). |
 | Chemistry | 2,679 | 1,913 phenomenon types; Phase 3 complete (CFD/N-S), Phase 4 **closed** (reparametrization of Debye model). **89% validation claim now under audit (S647): Method 2 self-correlation paths + systematic bias toward γ≈1; distinguishing requires Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena (neither currently in archive).** |
 | Gnosis | 17 | Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness |
 
@@ -480,9 +490,9 @@ For minor changes (typos, statistics updates):
 
 ### Whitepaper Health
 
-- Last integration: 2026-05-10
-- Sessions behind: 0 (counts updated through S650; TEST-04a verdict sharpened to mechanism-class failure / sign-reversed across S645→S648→S650; 16th audit mode added; cosmological sector now formally at S646's M3 retraction threshold, operator decision pending)
-- Build status: Clean (rebuilt 2026-05-10)
+- Last integration: 2026-05-14
+- Sessions behind: 0 (counts updated through S654; sub-arc 24 instances over 23 days, 20 audit modes; three-stage rhythm completes (S653); zero active discriminators against MOND+EFE (S654); cosmological sector formally meets S646's M3 retraction threshold with refutable-but-not-confirmable asymmetry crystallized — operator decision pending on whether to scope-narrow)
+- Build status: Clean (rebuilt 2026-05-14)
 - Governance: Active (Rev_0)
 - Open editorial: 47-vs-30 contribution count discrepancy is now visible in whitepaper (S589 says 30, S615 says 47, S616 says 48, S634 audit says S582 canonical = 30). Reconciliation requires operator judgment.
 - Open editorial: cosmology domain "0 novel-unfalsified" (S635), MOND-reduction (S637), Curie-paramagnet structural diagnosis (S638), and now **first hard external falsification (S645, TEST-04a fσ₈ refuted by DESI DR1) + chemistry 89% self-correlation caveat (S647)** are all currently surfaced within the Site-Archive-Audit sub-arc bullet, the Status paragraph, and the kill-criteria-triggered list. Now that two pre-committed Tier-1 predictions have fired their kill criteria and the framework's largest validation claim is itself under audit, structural promotion of "Predictive content characterization" or "Validation-pillars-under-audit" to dedicated status entries may be warranted. Currently held back conservatively — existing bullets handle it without restructuring; operator can decide whether structural promotion is warranted.
