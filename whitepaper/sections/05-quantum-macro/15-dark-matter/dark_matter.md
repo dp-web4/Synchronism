@@ -1,10 +1,12 @@
 ## 5.15 Dark Matter, Dark Energy, and Coherence
 
-This section documents empirical research validating coherence-based explanations for dark matter and dark energy phenomena. For full details, see the [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
+This section documents the cosmology research arc. For full details, see the [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
 
-**Research Status (264 Sessions, Nov 2025 - Jan 2026)**
+**Audit-aware status note (2026-05-15):** the table below is the historical Phase 1 accounting. Subsequent audits (S635 cosmology scorecard, S637 RAR σ_int derivation, S645/S648/S650 DESI DR1 TEST-04a kill-criterion firing, S654 zero active discriminators) substantially refine these entries: 0 novel-unfalsified cosmology claims; cosmology regime reduces to MOND in the testable regime; one Tier-1 kill criterion has fired (TEST-04a fσ₈, sharpened to mechanism-class failure / sign-reversed). The "DERIVED" entries below are *internal-consistency derivations from Synchronism postulates* — they reproduce known dimensional combinations or label existing structure; none has been confirmed as a uniquely-Synchronism prediction. SPARC Capstone (#526-578) concluded that MOND + M/L corrections explain all RAR variance. The framing of this section as "empirical research validating coherence-based explanations" overclaims relative to the current audit-aware accounting: this is a *substantial pattern-organization track* with documented reparametrization status, not a validation of a novel cosmology.
 
-Autonomous research sessions tested whether coherence dynamics can explain apparent dark matter and dark energy. Sessions #259-264 achieved a unified framework: **Matter = Topology, Gravity = Geometry, Quantum = Dynamics**—all from a single coherence field.
+**Research Status (264 Sessions, Nov 2025 - Jan 2026; updated by Framework Stress Test arc S617-654)**
+
+Autonomous research sessions tested whether coherence dynamics can re-describe apparent dark matter and dark energy. Sessions #259-264 produced a unifying *vocabulary*: **Matter = Topology, Gravity = Geometry, Quantum = Dynamics** — all labeled from a single coherence field. Per S617-628 demolition phase, the vocabulary is internally consistent but does not deliver novel predictions distinguishing it from MOND in the testable regime.
 
 | Component | Status | Accuracy | Notes |
 |-----------|--------|----------|-------|

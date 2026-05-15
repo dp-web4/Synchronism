@@ -21,14 +21,16 @@
 - **Pattern persistence:** Patterns continue their cycles whether witnessed or not
 - **Experience emergence:** Your reality emerges from which slice of ongoing patterns you're synchronized with
 
-**No Measurement Problem - Just Synchronization Effects**
+**Measurement Reformulated as Synchronization**
 
- The CRT analogy shows why there's no quantum mystery:
+ In Synchronism's coordinate system, the measurement problem is *reformulated* rather than empirically resolved:
 
- - **Nothing changes:** When you change witness sync timing, the screen process stays identical
+ - **Nothing changes (in this coordinate system):** When you change witness sync timing, the screen process stays identical
 - **Perception changes:** Same beam creates picture, flickering bands, or single dot depending on synchronization
-- **"Measurement" = sync timing:** What you "measure" depends entirely on when/how you synchronize
-- **No "observer effect":** The underlying process (beam scanning) is completely unaffected by observation method
+- **"Measurement" recast as sync timing:** What you "measure" depends entirely on when/how you synchronize
+- **"Observer effect" relabeled:** The underlying process (beam scanning) is described as completely unaffected by observation method
+
+**Epistemic status:** this is **eliminative dissolution** (redefining "measurement" as "observer integration window synchronization") — not **explanatory dissolution** (deriving the Born rule and its specific form from deeper principles). The Born rule is reproduced in Synchronism notation; it is not derived in a way that distinguishes it from standard QM. The "mystery moves" rather than dissolving — from "why does the wave function collapse?" to "why does the observer's integration window select this particular outcome rather than that one, with probabilities |ψ|²?" Cold-review verdict (Kimi 2.6, 2026-05-15): coordinate-shift reformulations are philosophically defensible; the empirical work that would upgrade them to explanatory dissolution has not yet been done.
 
 **"Quantum" Effects as Synchronization Effects**
 

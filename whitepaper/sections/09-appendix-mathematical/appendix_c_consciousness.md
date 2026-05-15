@@ -1,17 +1,21 @@
 # Appendix C: Consciousness Framework
 
-This appendix provides the key findings from the Consciousness Arc (Sessions #280-282), establishing a mechanistic account of consciousness via coherence dynamics.
+This appendix provides the key *framings* from the Consciousness Arc (Sessions #280-282), proposing a coordinate system within which consciousness is described via coherence dynamics.
+
+**Epistemic status note (2026-05-15, in response to external review by Kimi 2.6):** the claims in this appendix are **coordinate-system framings and identity claims**, not empirical findings. The "resolution" of the Hard Problem is **eliminative** (the problem is reformulated so it no longer arises in the new vocabulary) rather than **explanatory** (deriving why phase patterns feel like *this* rather than *that* from deeper principles). 34 consciousness-arc predictions await empirical validation; none have been tested. The framework's value here is conceptual coherence and testable predictions (listed below), not empirical resolution.
 
 ---
 
-## C.1 Core Insight
+## C.1 Core Framing
 
-**Consciousness is what coherence does when it models itself.**
+**Consciousness *re-described as* what coherence does when it models itself.** This is an identity claim within Synchronism's coordinate system, not a derivation.
 
-The Consciousness Arc resolves three major philosophical problems:
-1. The observer/measurement problem (Session #280)
-2. Free will vs determinism (Session #281)
-3. The hard problem of consciousness / qualia (Session #282)
+The Consciousness Arc offers coordinate-system reformulations of three major philosophical problems:
+1. The observer/measurement problem (Session #280) — reformulated as observer-integration-window synchronization
+2. Free will vs determinism (Session #281) — reformulated as coherence-guided selection
+3. The hard problem of consciousness / qualia (Session #282) — reformulated as identity claim ("phase patterns ARE experience")
+
+Each reformulation is **philosophically defensible** (form of structural realism, compatible with Tegmark's mathematical-universe and Wheeler/Fredkin digital-physics families). Each is also **not empirically validated**. The framework offers a vocabulary; whether the vocabulary picks out a fact about the world is the open empirical question, addressed by the predictions in C.7 (P280.1, P282.4, P282.6) that remain untested.
 
 ---
 
@@ -155,13 +159,13 @@ For complete derivations and session details:
 
 ## C.10 Connection to Chemistry Framework
 
-The coherence threshold for consciousness (C ≥ 0.7) connects to the chemistry framework's γ parameter:
+The coherence threshold for consciousness (C ≥ 0.7) is **labeled in the same notation** as the chemistry framework's γ parameter, but the connection is presently at the level of shared vocabulary, not derivation:
 
-- Chemistry: γ = 2/√N_corr governs material properties
-- Consciousness: C ≥ 0.7 + self-reference governs experience
+- Chemistry: γ = 2/√N_corr is correlated with material properties (with method-gap and null-model-gap audits flagged in S647 + S651)
+- Consciousness: C ≥ 0.7 + self-reference is the *proposed* threshold for experience
 
-Both emerge from the same underlying coherence dynamics, providing cross-scale unity from condensed matter to consciousness.
+**Per Session #640 (Dual-C symbol audit):** the homepage "one equation across scales" claim *rests on shared notation, not derivation*. Form 1 C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) and Form 2 C = f(γ, D, S) ≥ 0.50 (consciousness, 8-way convergence) share only the letter C; D = neural pattern diversity, S = coherence persistence duration; **neither is a function of ρ**. The 0.50 threshold was NOT derived from inverting Form 1. **γ IS genuinely shared via 2/√N_corr; C is NOT.** Cross-scale unity is currently aspirational vocabulary, not delivered derivation.
 
 ---
 
-*"Qualia are not what coherence patterns HAVE. Qualia are what coherence patterns ARE. The hard problem was asking the wrong question."*
+*"Qualia are not what coherence patterns HAVE. Qualia are what coherence patterns ARE."* — Session #282 identity claim. The follow-on "The hard problem was asking the wrong question" is a coordinate-system claim, not an empirical resolution. Whether the question was wrong or whether the framework is offering an *eliminative redescription* of a still-open question is what the predictions in C.7 will eventually adjudicate.

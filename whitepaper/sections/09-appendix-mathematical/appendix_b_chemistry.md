@@ -116,7 +116,9 @@ $$
 | Electron transfer | k_ET coherence-enhanced | r = 0.933 | #64 |
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 
-**Validation rate:** 89% prediction success rate across 2,671 sessions
+**Validation rate:** 89% *pattern-alignment* rate across 2,671 sessions.
+
+**Caveats (S647 method gap, S651 null-model gap, 2026-05-08/10):** the load-bearing r values above are being compared against an *implicit* null of r=0 (random). The *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh): sound velocity, electronegativity, atomic volume are themselves near-monotonic functions of atomic number Z; any smooth monotonic function will achieve r ≈ 0.95+ on the same 1,703 phenomena by construction. The framework-specific signal is **Δr = r(Synchronism) − r(best monotonic null)** — *not currently in the archive*. Compounded with the Method 2 / 3 self-correlation paths and Method 2's documented systematic bias toward γ ≈ 1 (Session #26 Part 3 simulation table), best estimate is **tie or marginal win** until Δr is computed against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND Method 1 (bias-free) is applied uniformly OR pre-registered γ predictions for held-out phenomena are produced. "89% validated" is **defensible only with the null model documented**; until then, treat the chemistry track as a substantial *pattern catalog* with productive boundaries (the γ ~ 1 motif organizes a lot of structure), not as 1,703 confirmed predictions.
 
 ---
 
@@ -145,4 +147,4 @@ For complete derivations and all 2,671 sessions:
 
 ---
 
-*"γ = 2/√N_corr unifies condensed matter physics. Two orthogonal channels—electronic and phononic—govern all material properties."*
+*"γ = 2/√N_corr organizes a substantial pattern catalog across condensed matter, with two orthogonal channels (electronic and phononic) emerging as productive descriptors."* — restated 2026-05-15 from the earlier "unifies condensed matter physics" claim, in response to S647/S651 audits and external review by Kimi 2.6: the framework's chemistry contribution is, at present, organizational and descriptive (γ ~ 1 as a productive label for a real pattern in the data), not a unification of condensed matter physics. The η Audit (Session #616) classified the chemistry track as a reparametrization of the Debye model; that classification stands. See `Research/Chemistry/Framework_Summary.md` for the most current accounting.

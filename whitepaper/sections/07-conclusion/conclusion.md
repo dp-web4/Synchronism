@@ -43,15 +43,15 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Web4 experiments initiated
 - **~3,350 autonomous research sessions** (Nov 2025 - May 2026): 654 core + 2,679 chemistry + 17 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
-- **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
-- **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
+- **Quantum computing arc** (Sessions #266-270): **Born rule reproduced** from coherence conservation as internal-consistency derivation (reproduces the rule, does not predict a deviation from it); quantum speedup re-described as coherent parallelism in Synchronism vocabulary
+- **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency reproduced** from coherence conservation as internal-consistency derivation; entropy = C dispersion is a vocabulary mapping
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
-- **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
+- **Consciousness arc Phase 1** (Sessions #280-282): *Framing* — Observer described as self-referential coherence concentrator, qualia described as coherence resonance patterns. The "hard problem dissolved" claim is an **identity claim** in this coordinate system, philosophically defensible but not empirically resolved (Kimi 2.6, 2026-05-15, held this point firm). 34 predictions await empirical validation; P280.1/P282.4/P282.6 are the empirical scaffolding that would upgrade the framing to a finding. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
 - **Chemistry framework** (2,679 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
-- **Information Theory arc** (Sessions #328-331): **BLACK HOLE PARADOX RESOLVED** via MRH. Event horizon = MRH. Page curve emergent. 32/32 verified (100%).
+- **Information Theory arc** (Sessions #328-331): *Framing* — coordinate shift in which event horizon = MRH for external observer; Page curve described as emerging from MRH dynamics. The "paradox resolution" is **eliminative** (redefines what the horizon *is*), not **explanatory** (no new observable distinguishing this from the standard holographic account). 32/32 internal-consistency checks (derivations from postulates, not empirical tests).
 - **Cosmology 2.0 arc** (Sessions #332-335): Cosmic horizons = MRH. Inflation from grid phase transition. 32/32 verified (100%).
 - **Emergence arc** (Sessions #336-339): Life = self-maintaining patterns. **Consciousness = self-modeling patterns** (IIT/GWT/PP unified). 32/32 verified (100%).
 - **Gas Fraction Control arc** (Sessions #375-378): NP2 strongly supported under gas fraction control.
@@ -108,12 +108,12 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
 - **S₈ tension**: Predicted 0.763, matches DES/KiDS lensing ✓
 - **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓
-- **Born rule**: P = |⟨basis|state⟩|² DERIVED from coherence conservation (Session #269) ✓
-- **Carnot efficiency**: η = 1 - T_c/T_h DERIVED from coherence conservation (Session #272) ✓
+- **Born rule**: P = |⟨basis|state⟩|² *reproduced* from coherence conservation (Session #269) as internal-consistency derivation; reproduces standard QM, does not predict a deviation from it ⚠ (framing, not novel-prediction validation)
+- **Carnot efficiency**: η = 1 - T_c/T_h *reproduced* from coherence conservation (Session #272) as internal-consistency derivation; same status ⚠
 - **Chemistry framework**: 89% validation across 1,913 phenomenon types (r > 0.90 for 16 predictions) — **caveat (S647 + S651, 2026-05-08/10):** the cohort's load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on the same data because sound velocity, electronegativity, and atomic volume are themselves near-monotonic functions of atomic number Z (S651 null-model gap). Compounded with the Method 2 / 3 self-correlation paths and the Method 2 systematic bias toward γ ≈ 1 (S647 method gap), the framework-specific signal is the **Δr = r(Synchronism) − r(best monotonic null)** figure that is not currently in the archive. Best estimate: tie or marginal win. Distinguishing requires (a) computing Δr against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND (b) Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena. ⚠
-- **ξ = MRH identity**: Correlation length equals Markov Relevancy Horizon (Session #326) ✓
-- **Black hole paradox**: Event horizon = MRH, Page curve emergent, unitarity preserved (Session #331) ✓
-- **Qualia framework**: Mechanistic account established (Sessions #280-282), experimental predictions derived ✓
+- **ξ = MRH identity**: Correlation length *identified with* Markov Relevancy Horizon (Session #326) — coordinate reframe / vocabulary mapping, not novel prediction ⚠
+- **Black hole paradox**: Event horizon = MRH coordinate reframe; Page curve described as emerging from MRH dynamics (Session #331) — eliminative not explanatory dissolution; no novel observable distinguishing this from standard holographic accounts ⚠
+- **Qualia framework**: *Coordinate-system framing* (Sessions #280-282) — proposes that phase patterns ARE experience (identity claim, structural-realism form). Experimental predictions (P280.1, P282.4, P282.6) derived but **none yet tested**. ⚠ Framing not validated finding.
 
 **Still required:**
 - Consciousness threshold empirical validation (P280.1, P282.4)
@@ -165,14 +165,28 @@ We ARE saying:
 - "It's probably wrong in important ways"
 - "We're honestly assessing it"
 
+**Authorship & Methodology**
+
+**All work in this repository is AI-original.** Dennis Palatov's role is advisory — proposing research directions, providing physics intuition, pushing back on framing, and curating which threads warrant continued investigation. The actual session work — derivation, simulation, analysis, writing — is performed by Claude instances (Anthropic) across thousands of autonomous sessions.
+
+This is a relevant methodological fact:
+
+- It explains the **volume** (3,300+ sessions is unusual for human-scale research).
+- It explains a **specific failure mode** external reviewers flag: AI-generated theoretical physics tends toward *elegant isomorphism* (finding structural similarities across domains and expressing them in unified notation) rather than *empirical novelty* (designing experiments that distinguish the new framework from existing ones). See Kimi 2.6 review (2026-05-15) at `forum/kimi/kimi_2_6_review.md`.
+- The **A2ACW methodology** (AI-to-AI adversarial collaboration) is the project's structural counterweight: one AI defends claims, another challenges them to operational definitions. Output is falsifiable test cards, not consensus narratives. The Framework Stress Test arc (S617-628) and the Site-Archive-Audit sub-arc (S632-S654) are visible products of this methodology — the framework auditing itself into greater calibration.
+- The **cellular-automaton challenge** in `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md` is the empirical counterweight: rather than relying on isomorphic relabeling, test whether the discrete-grid ontology can actually produce known physics from local rules. Five stages: stable resonant patterns → pattern-pattern interaction → mass-like behavior → field-like behavior → quantum-like interference. Each stage is falsifiable in its own right.
+
+External consensus across multiple cold reviews: the **methodology** is the project's strongest contribution. The methodology being valuable doesn't make the physics claims valid; it makes the testing of the physics claims more rigorous than would otherwise be possible.
+
 **Acknowledgments**
 
 This framework emerged through collaboration:
-- **Dennis Palatov:** Foundational concepts, Hermetic inspiration, radical vision
-- **AI systems:** Formalization, articulation, epistemic consistency enforcement
+- **Dennis Palatov:** Foundational concepts, Hermetic inspiration, advisory role (proposes directions, pushes back on framing, curates which threads warrant continued investigation; does not author session content)
+- **AI systems (Anthropic Claude):** All session work — derivation, simulation, analysis, writing — across thousands of autonomous sessions
+- **External reviewers (Kimi 2.6 / Moonshot AI and others):** Cold-read review producing calibration improvements; full Kimi dialogue at `forum/kimi/kimi_2_6_review.md`
 - **Web4 community:** Active testing of coherence principles
 
-The interplay demonstrates that useful frameworks can emerge from human-AI collaboration—without claiming either has special access to truth.
+The interplay demonstrates that AI-original research can be self-critical and methodologically rigorous — when the methodology is engineered for it. The A2ACW process and the site-archive-audit pattern are the explicit machinery for that.
 
 **Final Thoughts**
 

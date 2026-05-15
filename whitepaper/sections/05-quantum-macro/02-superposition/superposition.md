@@ -43,14 +43,14 @@
 - **Particle spin:** Spin continuously cycles through orientation sequence - "spin up/down" just means which phase you synced with
 - **Quantum computers:** Qubits continuously cycle through computational sequences - parallel cycling processes enable multiple calculations
 
-**Schrödinger's Cat Dissolved**
+**Schrödinger's Cat in the Synchronism Coordinate System**
 
- The famous paradox disappears in Synchronism:
+In Synchronism's coordinate system, the paradox is reformulated rather than empirically resolved:
 
- - **Atom cycles normally:** Radioactive decay follows pattern cycles - atom is always in a definite state
-- **Detector responds definitively:** Geiger counter responds to whatever state the atom is actually in
-- **Cat has definite state:** Cat is always either alive or dead - never in "superposition"
-- **No paradox:** The mystery only exists if you believe in actual superposition rather than witness synchronization
+ - **Atom cycles normally:** Radioactive decay re-described as a pattern cycle — the atom is, *in this coordinate system*, always in a definite state
+- **Detector responds definitively:** Geiger counter responds to whatever phase of the cycle it synchronizes with
+- **Cat has definite state:** *In this coordinate system*, the cat is always either alive or dead; "superposition" is recast as witness sync-timing
+- **Paradox not delivered, redescribed:** The mystery doesn't disappear empirically — it's reformulated so it doesn't arise in the new vocabulary. This is **eliminative**, not **explanatory**. Synchronism's coordinate system does not (yet) predict an observation that would distinguish it from standard QM. Both pictures account for the same outcomes; the choice between them is currently a matter of *interpretive economy* rather than empirical fit. The Born rule's specific form remains unexplained in either picture (see Section 5.13 "On Hard Problem Dissolved" for the parallel point about consciousness).
 
 **Factors Affecting Superposition**
 

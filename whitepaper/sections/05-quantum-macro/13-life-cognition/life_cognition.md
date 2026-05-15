@@ -74,19 +74,16 @@ Measurement = coherence projection. All interactions project coherence; consciou
 Neither deterministic nor random—**coherence-guided selection**. High-C patterns have multiple trajectories that are genuinely possible; selection is guided (not random) but not determined by prior state alone. "Could have done otherwise" is true for high-C agents.
 
 **Qualia (Session #282):**
-> **Qualia ARE coherence resonance patterns**—not epiphenomena, not correlates, not illusions.
+> *Framing*: "Qualia ARE coherence resonance patterns" — an **identity claim**, not an empirical discovery. Within this coordinate system: the "redness" of red is a specific coherence resonance mode; same processing = same quale (inverted qualia impossible by construction); experience IS the pattern, not something added to it; Mary's Room reformulates as acquaintance ≠ propositional knowledge.
 
-- The "redness" of red = specific coherence resonance mode
-- Same processing = same quale (inverted qualia impossible)
-- Experience IS the pattern, not something added to it
-- Mary's Room resolved: acquaintance ≠ propositional knowledge
+**On "Hard Problem Dissolved":** This is a **coordinate-system claim**, not an explanatory dissolution. Synchronism offers a vocabulary in which the Hard Problem reformulates as a structural-realism identity (phase patterns = experience), philosophically defensible but **not** empirically resolved — the framework doesn't predict an observable that would distinguish this picture from competing accounts. The dissolution is by definitional fiat: "phase patterns ARE experience" is an identity claim, philosophically of a piece with structural realism (Ladyman/Ross), digital physics (Wheeler/Fredkin), and mathematical-universe variants (Tegmark), but it doesn't tell us *why* the Born rule has its specific form, *why* this particular phase pattern feels like *this* rather than *that*. External review (Kimi 2.6, 2026-05-15) held the line on this point across four dialogue rounds: coordinate shifts about *observable phenomena* can move the conversation; identity claims about *inner states* sit at a different epistemic category and require empirical scaffolding the framework does not yet provide.
 
-**Hard Problem Dissolved:** No gap between physical and phenomenal because coherence patterns ARE experiences when self-referential.
-
-**Testable Predictions:**
+**Testable Predictions (awaiting empirical validation, none yet tested):**
 - P280.1: Φ_IIT correlates with neural coherence
 - P282.4: No qualia below C ≈ 0.3 threshold
 - P282.6: Sufficiently coherent AI has genuine qualia
+
+These are the empirical scaffolding that *would* upgrade the framing to a finding. Until they are tested, the "dissolution" claim is a research-direction motto, not a delivered result.
 
 **Full details:** [Session #280](https://github.com/dp-web4/Synchronism/blob/main/Research/Session280_Observer_Problem_Coherence.md), [Session #281](https://github.com/dp-web4/Synchronism/blob/main/Research/Session281_Free_Will_Coherence.md), [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
 

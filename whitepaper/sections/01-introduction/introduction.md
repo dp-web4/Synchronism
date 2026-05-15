@@ -1,5 +1,13 @@
 ## 1. Introduction
 
+**Framing note** *(2026-05-15, response to external review by Kimi 2.6 — `forum/kimi/kimi_2_6_review.md`)*
+
+Synchronism is best understood as **a systems-theoretic framework that uses information-theoretic tools to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field. It is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. It is **not** a physics theory that supersedes or unifies GR and QFT.
+
+Where this introduction (and later sections) describes Synchronism's coordinate shift in language like "mysteries dissolve" or "the Hard Problem is dissolved," that language describes a **coordinate-system reframe** — the mystery is reformulated so it is no longer expressible in the new vocabulary. This is **eliminative dissolution**, not **explanatory dissolution**. The framework offers coherent reformulations; it does not (yet) supply novel observable predictions that distinguish its coordinate system from the standard one. See the executive summary's "Findings vs Framings" discipline and the conclusion's "Authorship & Methodology" section for the full calibration.
+
+---
+
 **All Models Are Wrong**
 
 Synchronism begins with a fundamental acknowledgment: all models of reality are wrong. Science, religion, philosophy—each is a belief system built on unprovable axioms. Synchronism itself is wrong. The question is not "which model is true?" but "which model is less wrong for understanding the mysteries that current frameworks cannot adequately explain?"

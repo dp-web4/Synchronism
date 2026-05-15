@@ -149,7 +149,7 @@ G ~ (D₀ × L_planck²) / I_max
 
 **Can potentially calculate G from grid parameters.**
 
-**Status:** Fundamental mechanism (not computational convenience). Enables pattern stability, explains field effects, potentially unifies forces.
+**Status (as of 2026-05-15):** Saturation is the load-bearing mechanism in the current rule family — without it, no stable patterns; with it, the framework has the right *shape* of mechanism for stable structure. **Caveat (S617-628, S638):** the current Intent transfer rule, as written, is 1-DOF scalar diffusion (precluded from stable oscillation by the maximum principle for parabolic PDEs); C(ρ) has been independently verified via computer algebra to reduce to a Curie-paramagnet response (less than Landau — no critical point, no Z₂ symmetry). The "potentially unifies forces" status is a **research-direction motto**, not a delivered result. Whether *this specific rule family* delivers stable particle-like patterns is the question the cellular-automaton challenge (`explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md`) tests directly.
 
 
 ---
