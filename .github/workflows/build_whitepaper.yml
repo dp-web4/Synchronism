@@ -101,15 +101,17 @@ jobs:
           # Configure git
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          
-          # Check if there are changes in docs
-          if [ -n "$(git status --porcelain docs/)" ]; then
-            echo "Changes detected in docs/, committing..."
-            git add docs/
+
+          # Check if there are changes in docs/ (deployed) or whitepaper/build/
+          # (canonical tracked build artifacts). Both are intentionally kept in
+          # the tree so cloners get prebuilt PDFs/HTML without needing pandoc.
+          if [ -n "$(git status --porcelain docs/ whitepaper/build/)" ]; then
+            echo "Changes detected in docs/ or whitepaper/build/, committing..."
+            git add docs/ whitepaper/build/
             git commit -m "Deploy whitepaper builds to GitHub Pages [skip ci]"
             git push
           else
-            echo "No changes in docs/, skipping commit"
+            echo "No changes in docs/ or whitepaper/build/, skipping commit"
           fi
           
   summary:
