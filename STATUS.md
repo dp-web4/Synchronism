@@ -26,12 +26,24 @@
 - **SESSION_MAP**: Comprehensive navigation for all sessions
 - **Simulation Scripts**: Reproducible validation code
 
-### Theoretical Achievements
+### Theoretical Positions (NOT validated findings — philosophical framings)
 
-- ONE EQUATION: γ = 2/√N_corr spans 80 orders of magnitude
-- Hard Problem of Consciousness: Dissolved (phase patterns ARE experience)
-- Measurement Problem: Resolved (MRH crossing = collapse)
-- QM-GR Unification: Both emerge from Planck grid
+These are interpretive positions and research-direction claims, not empirical achievements. They are listed here because the project takes them seriously as orientation for research, not as deliverables. See README → "Findings vs Framings" for the explicit distinction.
+
+- **ONE EQUATION as research motto**: γ = 2/√N_corr across scales is a direction-setting motto. By the project's own η Audit (Session #616), zero novel predictions; all four core tracks are reparametrizations of known physics. The motto's purpose is to direct attention to cross-scale unity, not to deliver a unification theorem.
+- **Hard Problem dissolution claim** ("phase patterns ARE experience"): identity claim, not empirical finding. Philosophically defensible (form of structural realism) but requires empirical scaffolding that does not yet exist. 34 consciousness predictions await empirical validation; none yet tested.
+- **Measurement Problem reframing** (MRH crossing = collapse): coordinate shift that *describes* measurement as observer-integration-window synchronization. This is methodologically clean reframing, but doesn't explain *why* the Born rule has its specific form — the mystery moves rather than dissolves.
+- **QM-GR Unification claim** (both emerge from Planck grid): theoretical aspiration. The "emergence" is via the CFD reframing, which has identified mathematical structural tensions (see [`Research/CFD_Structural_Tensions.md`](Research/CFD_Structural_Tensions.md)) that remain unresolved.
+
+### What External Review Has Refined (2026-05-15)
+
+Kimi 2.6 cold review (full four-round dialogue at [`forum/kimi/kimi_2_6_review.md`](forum/kimi/kimi_2_6_review.md)) produced productive concessions on both sides:
+
+- **Conceded by Kimi**: "Reparametrization" framing was too dismissive. All physics is reparametrization; the question is productive vs degenerate. N_corr is *underspecified, not wrong* — analogous to early-stage concepts like mass or entropy. "We don't know what gravity IS" — Synchronism's Intent-field gravity is no worse off than GR epistemically; the gap is *maturity*, not *epistemic status*. Final framing: Synchronism is best understood as "a research program with philosophical depth, methodological innovation, and scientific ambition, but not yet scientific achievement."
+- **Held by Kimi**: "Hard Problem DISSOLVED" claim is still eliminative, not explanatory. The "ONE EQUATION" framing creates misleading public expectations even if the ambition is valid. The cellular-automaton challenge is the most direct test of the framework's core claim.
+- **Converged**: Synchronism reframed as **"a systems-theoretic framework that uses information-theoretic tools to describe emergence across scales, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field"** — meta-theoretical analog of category theory / cybernetics / information theory.
+
+The README "Findings vs Framings" split and the rebalanced reparametrization section are the operational changes that came out of this dialogue.
 
 ---
 

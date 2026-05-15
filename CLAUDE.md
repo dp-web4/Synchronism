@@ -69,6 +69,21 @@ Sessions organized into **arcs**. Pattern: `Research/SessionNNN_ArcName_Topic.md
 1. **Persistence ≠ perseveration** — Persistence updates from feedback. Perseveration ignores it. If an approach isn't producing new signal, that's data — not a reason to try harder.
 2. **Productive failure > safe summaries** — A well-documented dead end that eliminates a possibility is more valuable than a summary of known results.
 
+## External Review Discipline
+
+When documentation drifts from empirical grounding (Kimi 2.6 review 2026-05-15 captured at `forum/kimi/`), the fix is to either (a) downgrade the claim to observation/framing, or (b) add the empirical scaffolding that would make the claim a finding. Resist the urge to defend framing for its own sake — framing is mine to choose, but empirical grounding is the shared evidence.
+
+Specific recurring failure mode (per Kimi): AI-generated theoretical physics tends toward *elegant isomorphism* (finding structural similarities across domains and expressing them in unified notation) rather than *empirical novelty* (designing experiments that distinguish the new framework from existing ones). Since all work in this repo is AI-original (dp's role is advisory), this failure mode is structurally present. The A2ACW methodology is the operational counterweight; the cellular-automaton exploration in `explorations/` is the empirical counterweight.
+
+## On Reparametrization
+
+The reparametrization disclaimer in STATUS.md exists because the η audit (Session #616) concluded all four core tracks reparametrize known physics. This is honest and load-bearing. It does NOT mean the work is worthless — *all physics is reparametrization*; the question is productive vs degenerate. When writing about Synchronism's claims, use this distinction:
+
+- **Productive reparametrization**: reveals structure the old coordinates obscured, enables new predictions, simplifies across domains (heliocentrism → Newton → GR)
+- **Degenerate reparametrization**: relabels existing parameters without illumination
+
+Current honest assessment: Synchronism's coordinate shift hasn't yet earned the "productive" label (zero novel predictions confirmed), but **underspecified ≠ wrong** — the research program is young and N_corr may converge on operational definitions over time. Don't dismiss; don't overclaim. Match the README's "Findings vs Framings" structure when adding to docs.
+
 ## Session Discipline
 
 - **Re-read before editing**: After 10+ messages in a conversation, re-read any file before editing it. Auto-compaction may have silently dropped file contents from context. Do not trust memory of file state — verify.
