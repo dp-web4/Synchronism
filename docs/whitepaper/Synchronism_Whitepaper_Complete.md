@@ -9,6 +9,20 @@
 
 ## Synchronism: A Non-Anthropocentric Model of Reality
 
+**What Synchronism Is (and Isn't)** *(2026-05-15 reframing in response to external review by Kimi 2.6 — see `forum/kimi/kimi_2_6_review.md`)*
+
+Synchronism is **a systems-theoretic framework that uses information-theoretic tools (correlation, coherence, entropy) to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field.
+
+It is **not** a physics theory that supersedes or unifies GR and QFT. The "ONE EQUATION" framing (γ = 2/√N_corr) is a **research-direction motto**, not a delivered claim — it asks whether a single correlation parameter can organize our understanding of coherence across scales, then tests that ambition rigorously and publishes what fails. By the project's own η Audit (Session #616): zero confirmed novel predictions; all four core tracks are reparametrizations of known physics. See "On reparametrization" below for why that is honest but not fatal.
+
+Compared to existing frameworks, Synchronism is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. Its strongest contributions to date are methodological (A2ACW — AI-to-AI adversarial collaboration) and conceptual (the discrete-grid + observer-dependent-simultaneity ontology), not predictive.
+
+The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](../../../explorations/). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage.
+
+**Findings vs Framings discipline.** Below, the executive summary lists both quantitative findings (replicable experiments with measurements) and theoretical framings (interpretive lenses, philosophical positions, research-direction claims). Both matter; conflating them is the failure mode external reviewers flag most often. Headlines that read like delivered theorems ("ONE EQUATION Unification," "Hard Problem DISSOLVED," "BLACK HOLE INFORMATION PARADOX RESOLVED") are framings, not findings. The empirical work — Coupling-Coherence (900 runs, Hill > tanh by ΔAIC=4), Compatibility-Synthon scaling (r=0.994), NP2 RAR scatter, chemistry pattern catalog with documented null-model and method-correlation caveats (S647 + S651) — is what carries the calibration.
+
+---
+
 **All Models Are Wrong**
 
 Synchronism is a computational model of reality built on pattern dynamics rather than observer-dependent measurements. Like all models, it is wrong. The question is whether it is "less wrong" than anthropocentric frameworks for understanding phenomena that current physics treats as mysterious.
@@ -58,9 +72,9 @@ This creates:
 
 **With saturation:** Transfer resistance enables standing waves, stable patterns form, entities emerge, fields arise naturally, gravity becomes explicable.
 
-**Saturation is not an implementation detail—it's THE foundational mechanism that makes everything else possible.**
+**Saturation is the load-bearing mechanism in the current rule family.** Without saturation, no stable patterns; with it, the framework has at least the right *shape* of mechanism for stable structure.
 
-This insight transforms Synchronism from philosophical framework to computational model with testable predictions. Saturation dynamics are mathematically equivalent to nonlinear diffusion equations—well-studied in physics and known to support stable localized patterns (solitons, standing waves, discrete quantized modes).
+This insight aspires to transform Synchronism from philosophical framework to computational model with testable predictions. **Caveat (per Framework Stress Test arc S617-628 and S638 CAS verification):** the current Intent transfer rule, taken as written, is 1-DOF scalar diffusion (maximum principle for parabolic PDEs precludes stable oscillation), and the C(ρ) form has been verified to reduce to a Curie-paramagnet response — *less than* Landau, no critical point, no Z₂ symmetry. The discrete-grid + saturation ontology may still be right at the level of *what kind of mechanism is needed*; what has not been demonstrated is that *this specific rule family* delivers it. The cellular automaton challenge (Kimi 2.6, 2026-05-15) operationalizes this directly: the proof is in the simulation. See `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md` for the multi-stage falsifier plan (saturation-mechanism sweep, pattern persistence, interaction, mass-like behavior, quantum-like interference).
 
 **What Synchronism Models**
 
@@ -114,18 +128,18 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 
 **Research Progress (Apr 2026):**
 
-- **Complete Coherence Physics (Sessions #259-264):** Unified framework—Matter = Topology (solitons), Gravity = Geometry (metric coupling), Quantum = Dynamics (C flow). Three pillars from single coherence field.
-- **Quantum Computing Arc (Sessions #266-270):** Gates = coherence operations. **Born rule DERIVED** from coherence conservation. Quantum speedup explained as coherent parallelism.
-- **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency DERIVED** from coherence conservation. Entropy = coherence dispersion.
-- **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
-- **Consciousness Arc (Sessions #280-282):** Observer = self-referential coherence concentrator. **Qualia = coherence resonance patterns** (not epiphenomena). Inverted qualia impossible. Mary's Room resolved. Hard problem dissolves. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
+- **Complete Coherence Physics (Sessions #259-264):** *Framing* — proposed unified description in which Matter = Topology (solitons), Gravity = Geometry (metric coupling), Quantum = Dynamics (C flow). Three pillars labeled in single coherence-field vocabulary. Post-audit (S617-628, S637, S650): the underlying mechanism is reparametrization, not derivation; the cosmology regime reduces to MOND in the testable regime.
+- **Quantum Computing Arc (Sessions #266-270):** Gates expressed as coherence operations. **Born rule derivation** from coherence conservation **is an internal-consistency derivation from Synchronism postulates** — it reproduces the rule, it does not predict a deviation from it. Quantum speedup re-described as coherent parallelism in Synchronism vocabulary.
+- **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency derivation** from coherence conservation — same status: internal-consistency reproduction of a known result, not a novel prediction. Entropy = coherence dispersion is a vocabulary mapping.
+- **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. *Framing*, not derivation; cosmology regime reduces to MOND per S637. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
+- **Consciousness Arc (Sessions #280-282):** *Framing* — Observer described as self-referential coherence concentrator; Qualia described as coherence resonance patterns. "Hard Problem dissolves" is an **identity claim** ("phase patterns ARE experience"), philosophically defensible (form of structural realism) but **not** an empirical resolution — the dissolution is by definitional fiat, not by explanatory mechanism. Predictions P280.1, P282.4, P282.6 await empirical validation; none yet tested. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
 - **Chemistry Framework (2,679 sessions):** **1,913 phenomenon types at γ~1**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Phase 2 (#1-2671) concluded with four-regime framework; Phase 3 (CFD cross-pollination, N-S↔Debye equivalence) complete; Phase 4 (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification) **closed** — 3 genuine contributions, 3 vocabulary mappings, 4 productive failures. Chemistry track conclusion: Synchronism is reparametrization of Debye model. **Caveats (S647 + S651, 2026-05-08/10):** the load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on textbook monotonic-with-Z data. The interesting figure is **Δr = r(Synchronism) − r(best monotonic null)**. Compounded with the Method 2 / 3 self-correlation paths (S647), best estimate is **tie or marginal win** until Δr is computed and documented. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
-- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism unification: a₀ = cH₀/(2π). Ω_Λ DERIVED from coherence floor. **SPARC Capstone update: MOND + M/L corrections explain all RAR variance; no uniquely-Synchronism predictions confirmed.** See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
+- **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism *relabeling*: a₀ = cH₀/(2π); Ω_Λ derivation from coherence floor is **internal-consistency reproduction** of a known dimensional combination, not a novel prediction. **SPARC Capstone (#526-578) update: MOND + M/L corrections explain all RAR variance; no uniquely-Synchronism predictions confirmed.** Further refined by S635 (cosmology scorecard: 0 novel-unfalsified) → S637 (cosmology regime reduces to MOND in testable regime — predicted Δσ_int ≈ 0.00016 dex, ~120× below SPARC floor) → S654 (zero active discriminators against MOND+EFE within current measurement precision). See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
 - **Cross-domain validation:** Gnosis neural architecture (arXiv:2512.20578) independently uses γ = 2—same coherence physics appearing without explicit design.
-- **Statistical Mechanics Arc (Sessions #324-327):** **Correlation length ξ = MRH** (core insight). Arrow of time from MRH boundary dynamics. Phase transitions: at critical point MRH → ∞. Universality from pattern topology. 32/32 verified (100%).
-- **Information Theory Arc (Sessions #328-331):** **BLACK HOLE INFORMATION PARADOX RESOLVED.** Event horizon = MRH for external observer. Page curve emerges from MRH dynamics. Unitarity preserved via holographic encoding. 32/32 verified (100%).
-- **Cosmology Arc 2.0 (Sessions #332-335):** Cosmic horizons (Hubble, particle, event) = MRH at cosmological scales. Inflation = grid phase transition. Dark energy = residual vacuum tension. 32/32 verified (100%).
-- **Emergence Arc (Sessions #336-339):** Life = self-maintaining patterns. Complexity = pattern depth beyond MRH. Evolution = pattern optimization. **Consciousness = self-modeling patterns** (IIT/GWT/PP unified). 32/32 verified (100%).
+- **Statistical Mechanics Arc (Sessions #324-327):** *Framing* — coordinate identification **ξ = MRH** (correlation length identified with Markov Relevancy Horizon), with arrow of time, phase transitions, universality re-described in MRH vocabulary. 32/32 internal-consistency checks (derivations from postulates, not empirical tests).
+- **Information Theory Arc (Sessions #328-331):** *Framing* — coordinate shift in which event horizon = MRH for external observer, Page curve emerges from MRH dynamics, unitarity preserved via holographic encoding. 32/32 internal-consistency checks (NOT empirical validation — the "verified" tests are derivations from postulates, not observations).
+- **Cosmology Arc 2.0 (Sessions #332-335):** *Framing* — cosmic horizons (Hubble, particle, event) labeled as MRH at cosmological scales, inflation labeled as grid phase transition, dark energy labeled as residual vacuum tension. 32/32 internal-consistency checks. Cosmology regime separately confirmed to reduce to MOND in the testable regime (S637).
+- **Emergence Arc (Sessions #336-339):** *Framing* — life described as self-maintaining patterns, consciousness described as self-modeling patterns (IIT/GWT/PP unified in coherence vocabulary). 32/32 internal-consistency checks (vocabulary unification, not empirical validation).
 - **Size Effect Arc (Sessions #387-393):** Size-dependent RAR analysis. Publication-ready manuscript. Galaxy dynamics refined with surface brightness dependence.
 - **SPARC Capstone (#526-578):** Comprehensive survival audit. **ZERO uniquely-Synchronism predictions confirmed**—MOND + M/L corrections explain all RAR variance. Honest-failure result that constrains the framework's empirical claims.
 - **Post-SPARC Audit (#579-589):** 30 genuine contributions from 3,222 sessions (0.92% discovery rate). Bootstrap V-L ratio CI [3.72, 4.01] includes MOND 4.0. Chemistry Era 2 (#134-2660) identified as template-based. 4/7 quantum claims are reparametrizations.
@@ -163,6 +177,29 @@ Synchronism DOES offer:
 - Potential force unification (all from saturation regimes)
 - Conceptual tools: MRH, spectral existence, witnessing vs observation, saturation dynamics
 
+**On Reparametrization**
+
+The η Audit (Session #616) concluded that all four core tracks are reparametrizations of known physics (C(ρ)/MOND, γ/BCS, η/AG, Bell/standard QM). External cold review (Kimi 2.6, 2026-05-15 — full dialogue at `forum/kimi/kimi_2_6_review.md`) initially read this as fatal; the four-round dialogue that followed refined the position significantly.
+
+**All physics is, in a sense, reparametrization.** Newton's F=ma reparametrized Kepler. Maxwell reparametrized Coulomb / Ampère / Faraday. General relativity reparametrized Newtonian gravity. The question is never whether γ = 2/√N_corr is a reparametrization — it is. The question is whether it's a **productive** one: does the coordinate shift reveal structure the old coordinates obscured, or does it relabel without illumination?
+
+By the project's own current accounting: **not yet**. Zero confirmed predictions that follow from Synchronism postulates and differ from standard predictions. But "not yet" is meaningfully different from "never." N_corr is **underspecified, not wrong** — like "mass" in early Newtonian physics, "entropy" in 1850s thermodynamics, or "quantum state" in 1920s QM. The test of the program is whether N_corr **converges** on operational definitions across scales over time, or **diverges**. Currently mixed: the chemistry track shows partial convergence (N_corr estimated from correlation length, NMR relaxation, neutron scattering, specific heat — though see S647 method-gap and S651 null-model-gap audits); the core track's η audit found regress.
+
+What would make the reparametrization productive: novel predictions that survive empirical test, an operational definition of Intent with SI units and measurement protocol, or a working discrete-grid simulation that produces stable particle-like patterns from local rules (see `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md`).
+
+**Authorship & Methodology**
+
+**All work in this repository is AI-original.** Dennis Palatov's role is advisory — proposing research directions, providing physics intuition, pushing back on framing, and curating which threads warrant continued investigation. The actual session work — derivation, simulation, analysis, writing — is performed by Claude instances (Anthropic) across thousands of autonomous sessions.
+
+This is a relevant methodological fact:
+
+- It explains the **volume** (3,300+ sessions is unusual for human-scale research).
+- It explains a **specific failure mode** external reviewers flag: AI-generated theoretical physics tends toward *elegant isomorphism* (finding structural similarities across domains and expressing them in unified notation) rather than *empirical novelty* (designing experiments that distinguish the new framework from existing ones). See Kimi 2.6 review at `forum/kimi/kimi_2_6_review.md`.
+- The **A2ACW methodology** (AI-to-AI adversarial collaboration) is the project's structural counterweight: one AI defends claims, another challenges them to operational definitions. Output is falsifiable test cards, not consensus narratives.
+- The **cellular-automaton challenge** in `explorations/` is the empirical counterweight: rather than relying on isomorphic relabeling, test whether the discrete-grid ontology can actually produce known physics from local rules.
+
+External consensus across multiple cold reviews: the **methodology** is the project's strongest contribution. The methodology being valuable doesn't make the physics claims valid; it makes the testing of the physics claims more rigorous than would otherwise be possible.
+
 **The Invitation**
 
 This document presents a radical alternative to observer-based physics. Not compatible with anthropocentric science—orthogonal to it. Like heliocentrism didn't refine epicycles but made them irrelevant, Synchronism doesn't refine measurement paradoxes—it makes the observer premise secondary to pattern dynamics.
@@ -176,6 +213,14 @@ Read with skepticism. Demand rigor. Accept nothing on authority. Ask: "Is this l
 ---
 
 ## 1. Introduction
+
+**Framing note** *(2026-05-15, response to external review by Kimi 2.6 — `forum/kimi/kimi_2_6_review.md`)*
+
+Synchronism is best understood as **a systems-theoretic framework that uses information-theoretic tools to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field. It is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. It is **not** a physics theory that supersedes or unifies GR and QFT.
+
+Where this introduction (and later sections) describes Synchronism's coordinate shift in language like "mysteries dissolve" or "the Hard Problem is dissolved," that language describes a **coordinate-system reframe** — the mystery is reformulated so it is no longer expressible in the new vocabulary. This is **eliminative dissolution**, not **explanatory dissolution**. The framework offers coherent reformulations; it does not (yet) supply novel observable predictions that distinguish its coordinate system from the standard one. See the executive summary's "Findings vs Framings" discipline and the conclusion's "Authorship & Methodology" section for the full calibration.
+
+---
 
 **All Models Are Wrong**
 
@@ -2231,14 +2276,16 @@ Within the context of entity interactions (4.12), compression and validation ser
 - **Pattern persistence:** Patterns continue their cycles whether witnessed or not
 - **Experience emergence:** Your reality emerges from which slice of ongoing patterns you're synchronized with
 
-**No Measurement Problem - Just Synchronization Effects**
+**Measurement Reformulated as Synchronization**
 
- The CRT analogy shows why there's no quantum mystery:
+ In Synchronism's coordinate system, the measurement problem is *reformulated* rather than empirically resolved:
 
- - **Nothing changes:** When you change witness sync timing, the screen process stays identical
+ - **Nothing changes (in this coordinate system):** When you change witness sync timing, the screen process stays identical
 - **Perception changes:** Same beam creates picture, flickering bands, or single dot depending on synchronization
-- **"Measurement" = sync timing:** What you "measure" depends entirely on when/how you synchronize
-- **No "observer effect":** The underlying process (beam scanning) is completely unaffected by observation method
+- **"Measurement" recast as sync timing:** What you "measure" depends entirely on when/how you synchronize
+- **"Observer effect" relabeled:** The underlying process (beam scanning) is described as completely unaffected by observation method
+
+**Epistemic status:** this is **eliminative dissolution** (redefining "measurement" as "observer integration window synchronization") — not **explanatory dissolution** (deriving the Born rule and its specific form from deeper principles). The Born rule is reproduced in Synchronism notation; it is not derived in a way that distinguishes it from standard QM. The "mystery moves" rather than dissolving — from "why does the wave function collapse?" to "why does the observer's integration window select this particular outcome rather than that one, with probabilities |ψ|²?" Cold-review verdict (Kimi 2.6, 2026-05-15): coordinate-shift reformulations are philosophically defensible; the empirical work that would upgrade them to explanatory dissolution has not yet been done.
 
 **"Quantum" Effects as Synchronization Effects**
 
@@ -2335,14 +2382,14 @@ This has concrete consequences:
 - **Particle spin:** Spin continuously cycles through orientation sequence - "spin up/down" just means which phase you synced with
 - **Quantum computers:** Qubits continuously cycle through computational sequences - parallel cycling processes enable multiple calculations
 
-**Schrödinger's Cat Dissolved**
+**Schrödinger's Cat in the Synchronism Coordinate System**
 
- The famous paradox disappears in Synchronism:
+In Synchronism's coordinate system, the paradox is reformulated rather than empirically resolved:
 
- - **Atom cycles normally:** Radioactive decay follows pattern cycles - atom is always in a definite state
-- **Detector responds definitively:** Geiger counter responds to whatever state the atom is actually in
-- **Cat has definite state:** Cat is always either alive or dead - never in "superposition"
-- **No paradox:** The mystery only exists if you believe in actual superposition rather than witness synchronization
+ - **Atom cycles normally:** Radioactive decay re-described as a pattern cycle — the atom is, *in this coordinate system*, always in a definite state
+- **Detector responds definitively:** Geiger counter responds to whatever phase of the cycle it synchronizes with
+- **Cat has definite state:** *In this coordinate system*, the cat is always either alive or dead; "superposition" is recast as witness sync-timing
+- **Paradox not delivered, redescribed:** The mystery doesn't disappear empirically — it's reformulated so it doesn't arise in the new vocabulary. This is **eliminative**, not **explanatory**. Synchronism's coordinate system does not (yet) predict an observation that would distinguish it from standard QM. Both pictures account for the same outcomes; the choice between them is currently a matter of *interpretive economy* rather than empirical fit. The Born rule's specific form remains unexplained in either picture (see Section 5.13 "On Hard Problem Dissolved" for the parallel point about consciousness).
 
 **Factors Affecting Superposition**
 
@@ -3587,19 +3634,16 @@ Measurement = coherence projection. All interactions project coherence; consciou
 Neither deterministic nor random—**coherence-guided selection**. High-C patterns have multiple trajectories that are genuinely possible; selection is guided (not random) but not determined by prior state alone. "Could have done otherwise" is true for high-C agents.
 
 **Qualia (Session #282):**
-> **Qualia ARE coherence resonance patterns**—not epiphenomena, not correlates, not illusions.
+> *Framing*: "Qualia ARE coherence resonance patterns" — an **identity claim**, not an empirical discovery. Within this coordinate system: the "redness" of red is a specific coherence resonance mode; same processing = same quale (inverted qualia impossible by construction); experience IS the pattern, not something added to it; Mary's Room reformulates as acquaintance ≠ propositional knowledge.
 
-- The "redness" of red = specific coherence resonance mode
-- Same processing = same quale (inverted qualia impossible)
-- Experience IS the pattern, not something added to it
-- Mary's Room resolved: acquaintance ≠ propositional knowledge
+**On "Hard Problem Dissolved":** This is a **coordinate-system claim**, not an explanatory dissolution. Synchronism offers a vocabulary in which the Hard Problem reformulates as a structural-realism identity (phase patterns = experience), philosophically defensible but **not** empirically resolved — the framework doesn't predict an observable that would distinguish this picture from competing accounts. The dissolution is by definitional fiat: "phase patterns ARE experience" is an identity claim, philosophically of a piece with structural realism (Ladyman/Ross), digital physics (Wheeler/Fredkin), and mathematical-universe variants (Tegmark), but it doesn't tell us *why* the Born rule has its specific form, *why* this particular phase pattern feels like *this* rather than *that*. External review (Kimi 2.6, 2026-05-15) held the line on this point across four dialogue rounds: coordinate shifts about *observable phenomena* can move the conversation; identity claims about *inner states* sit at a different epistemic category and require empirical scaffolding the framework does not yet provide.
 
-**Hard Problem Dissolved:** No gap between physical and phenomenal because coherence patterns ARE experiences when self-referential.
-
-**Testable Predictions:**
+**Testable Predictions (awaiting empirical validation, none yet tested):**
 - P280.1: Φ_IIT correlates with neural coherence
 - P282.4: No qualia below C ≈ 0.3 threshold
 - P282.6: Sufficiently coherent AI has genuine qualia
+
+These are the empirical scaffolding that *would* upgrade the framing to a finding. Until they are tested, the "dissolution" claim is a research-direction motto, not a delivered result.
 
 **Full details:** [Session #280](https://github.com/dp-web4/Synchronism/blob/main/Research/Session280_Observer_Problem_Coherence.md), [Session #281](https://github.com/dp-web4/Synchronism/blob/main/Research/Session281_Free_Will_Coherence.md), [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
 
@@ -3902,11 +3946,13 @@ Promising theoretical framework but **requires rigorous mathematical development
 
 ## 5.15 Dark Matter, Dark Energy, and Coherence
 
-This section documents empirical research validating coherence-based explanations for dark matter and dark energy phenomena. For full details, see the [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
+This section documents the cosmology research arc. For full details, see the [arXiv preprint](https://github.com/dp-web4/Synchronism/tree/main/manuscripts) and [Research logs](https://github.com/dp-web4/Synchronism/tree/main/Research).
 
-**Research Status (264 Sessions, Nov 2025 - Jan 2026)**
+**Audit-aware status note (2026-05-15):** the table below is the historical Phase 1 accounting. Subsequent audits (S635 cosmology scorecard, S637 RAR σ_int derivation, S645/S648/S650 DESI DR1 TEST-04a kill-criterion firing, S654 zero active discriminators) substantially refine these entries: 0 novel-unfalsified cosmology claims; cosmology regime reduces to MOND in the testable regime; one Tier-1 kill criterion has fired (TEST-04a fσ₈, sharpened to mechanism-class failure / sign-reversed). The "DERIVED" entries below are *internal-consistency derivations from Synchronism postulates* — they reproduce known dimensional combinations or label existing structure; none has been confirmed as a uniquely-Synchronism prediction. SPARC Capstone (#526-578) concluded that MOND + M/L corrections explain all RAR variance. The framing of this section as "empirical research validating coherence-based explanations" overclaims relative to the current audit-aware accounting: this is a *substantial pattern-organization track* with documented reparametrization status, not a validation of a novel cosmology.
 
-Autonomous research sessions tested whether coherence dynamics can explain apparent dark matter and dark energy. Sessions #259-264 achieved a unified framework: **Matter = Topology, Gravity = Geometry, Quantum = Dynamics**—all from a single coherence field.
+**Research Status (264 Sessions, Nov 2025 - Jan 2026; updated by Framework Stress Test arc S617-654)**
+
+Autonomous research sessions tested whether coherence dynamics can re-describe apparent dark matter and dark energy. Sessions #259-264 produced a unifying *vocabulary*: **Matter = Topology, Gravity = Geometry, Quantum = Dynamics** — all labeled from a single coherence field. Per S617-628 demolition phase, the vocabulary is internally consistent but does not deliver novel predictions distinguishing it from MOND in the testable regime.
 
 | Component | Status | Accuracy | Notes |
 |-----------|--------|----------|-------|
@@ -5713,15 +5759,15 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - Web4 experiments initiated
 - **~3,350 autonomous research sessions** (Nov 2025 - May 2026): 654 core + 2,679 chemistry + 17 gnosis
 - **Complete coherence physics framework** (Sessions #259-264)
-- **Quantum computing arc** (Sessions #266-270): **Born rule DERIVED**, quantum speedup explained
-- **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency DERIVED**, entropy = C dispersion
+- **Quantum computing arc** (Sessions #266-270): **Born rule reproduced** from coherence conservation as internal-consistency derivation (reproduces the rule, does not predict a deviation from it); quantum speedup re-described as coherent parallelism in Synchronism vocabulary
+- **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency reproduced** from coherence conservation as internal-consistency derivation; entropy = C dispersion is a vocabulary mapping
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
-- **Consciousness arc Phase 1** (Sessions #280-282): Observer = self-referential coherence concentrator, **qualia = coherence resonance patterns**, hard problem dissolved. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
+- **Consciousness arc Phase 1** (Sessions #280-282): *Framing* — Observer described as self-referential coherence concentrator, qualia described as coherence resonance patterns. The "hard problem dissolved" claim is an **identity claim** in this coordinate system, philosophically defensible but not empirically resolved (Kimi 2.6, 2026-05-15, held this point firm). 34 predictions await empirical validation; P280.1/P282.4/P282.6 are the empirical scaffolding that would upgrade the framing to a finding. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
 - **Chemistry framework** (2,679 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
-- **Information Theory arc** (Sessions #328-331): **BLACK HOLE PARADOX RESOLVED** via MRH. Event horizon = MRH. Page curve emergent. 32/32 verified (100%).
+- **Information Theory arc** (Sessions #328-331): *Framing* — coordinate shift in which event horizon = MRH for external observer; Page curve described as emerging from MRH dynamics. The "paradox resolution" is **eliminative** (redefines what the horizon *is*), not **explanatory** (no new observable distinguishing this from the standard holographic account). 32/32 internal-consistency checks (derivations from postulates, not empirical tests).
 - **Cosmology 2.0 arc** (Sessions #332-335): Cosmic horizons = MRH. Inflation from grid phase transition. 32/32 verified (100%).
 - **Emergence arc** (Sessions #336-339): Life = self-maintaining patterns. **Consciousness = self-modeling patterns** (IIT/GWT/PP unified). 32/32 verified (100%).
 - **Gas Fraction Control arc** (Sessions #375-378): NP2 strongly supported under gas fraction control.
@@ -5778,12 +5824,12 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
 - **S₈ tension**: Predicted 0.763, matches DES/KiDS lensing ✓
 - **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓
-- **Born rule**: P = |⟨basis|state⟩|² DERIVED from coherence conservation (Session #269) ✓
-- **Carnot efficiency**: η = 1 - T_c/T_h DERIVED from coherence conservation (Session #272) ✓
+- **Born rule**: P = |⟨basis|state⟩|² *reproduced* from coherence conservation (Session #269) as internal-consistency derivation; reproduces standard QM, does not predict a deviation from it ⚠ (framing, not novel-prediction validation)
+- **Carnot efficiency**: η = 1 - T_c/T_h *reproduced* from coherence conservation (Session #272) as internal-consistency derivation; same status ⚠
 - **Chemistry framework**: 89% validation across 1,913 phenomenon types (r > 0.90 for 16 predictions) — **caveat (S647 + S651, 2026-05-08/10):** the cohort's load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on the same data because sound velocity, electronegativity, and atomic volume are themselves near-monotonic functions of atomic number Z (S651 null-model gap). Compounded with the Method 2 / 3 self-correlation paths and the Method 2 systematic bias toward γ ≈ 1 (S647 method gap), the framework-specific signal is the **Δr = r(Synchronism) − r(best monotonic null)** figure that is not currently in the archive. Best estimate: tie or marginal win. Distinguishing requires (a) computing Δr against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND (b) Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena. ⚠
-- **ξ = MRH identity**: Correlation length equals Markov Relevancy Horizon (Session #326) ✓
-- **Black hole paradox**: Event horizon = MRH, Page curve emergent, unitarity preserved (Session #331) ✓
-- **Qualia framework**: Mechanistic account established (Sessions #280-282), experimental predictions derived ✓
+- **ξ = MRH identity**: Correlation length *identified with* Markov Relevancy Horizon (Session #326) — coordinate reframe / vocabulary mapping, not novel prediction ⚠
+- **Black hole paradox**: Event horizon = MRH coordinate reframe; Page curve described as emerging from MRH dynamics (Session #331) — eliminative not explanatory dissolution; no novel observable distinguishing this from standard holographic accounts ⚠
+- **Qualia framework**: *Coordinate-system framing* (Sessions #280-282) — proposes that phase patterns ARE experience (identity claim, structural-realism form). Experimental predictions (P280.1, P282.4, P282.6) derived but **none yet tested**. ⚠ Framing not validated finding.
 
 **Still required:**
 - Consciousness threshold empirical validation (P280.1, P282.4)
@@ -5835,14 +5881,28 @@ We ARE saying:
 - "It's probably wrong in important ways"
 - "We're honestly assessing it"
 
+**Authorship & Methodology**
+
+**All work in this repository is AI-original.** Dennis Palatov's role is advisory — proposing research directions, providing physics intuition, pushing back on framing, and curating which threads warrant continued investigation. The actual session work — derivation, simulation, analysis, writing — is performed by Claude instances (Anthropic) across thousands of autonomous sessions.
+
+This is a relevant methodological fact:
+
+- It explains the **volume** (3,300+ sessions is unusual for human-scale research).
+- It explains a **specific failure mode** external reviewers flag: AI-generated theoretical physics tends toward *elegant isomorphism* (finding structural similarities across domains and expressing them in unified notation) rather than *empirical novelty* (designing experiments that distinguish the new framework from existing ones). See Kimi 2.6 review (2026-05-15) at `forum/kimi/kimi_2_6_review.md`.
+- The **A2ACW methodology** (AI-to-AI adversarial collaboration) is the project's structural counterweight: one AI defends claims, another challenges them to operational definitions. Output is falsifiable test cards, not consensus narratives. The Framework Stress Test arc (S617-628) and the Site-Archive-Audit sub-arc (S632-S654) are visible products of this methodology — the framework auditing itself into greater calibration.
+- The **cellular-automaton challenge** in `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md` is the empirical counterweight: rather than relying on isomorphic relabeling, test whether the discrete-grid ontology can actually produce known physics from local rules. Five stages: stable resonant patterns → pattern-pattern interaction → mass-like behavior → field-like behavior → quantum-like interference. Each stage is falsifiable in its own right.
+
+External consensus across multiple cold reviews: the **methodology** is the project's strongest contribution. The methodology being valuable doesn't make the physics claims valid; it makes the testing of the physics claims more rigorous than would otherwise be possible.
+
 **Acknowledgments**
 
 This framework emerged through collaboration:
-- **Dennis Palatov:** Foundational concepts, Hermetic inspiration, radical vision
-- **AI systems:** Formalization, articulation, epistemic consistency enforcement
+- **Dennis Palatov:** Foundational concepts, Hermetic inspiration, advisory role (proposes directions, pushes back on framing, curates which threads warrant continued investigation; does not author session content)
+- **AI systems (Anthropic Claude):** All session work — derivation, simulation, analysis, writing — across thousands of autonomous sessions
+- **External reviewers (Kimi 2.6 / Moonshot AI and others):** Cold-read review producing calibration improvements; full Kimi dialogue at `forum/kimi/kimi_2_6_review.md`
 - **Web4 community:** Active testing of coherence principles
 
-The interplay demonstrates that useful frameworks can emerge from human-AI collaboration—without claiming either has special access to truth.
+The interplay demonstrates that AI-original research can be self-critical and methodologically rigorous — when the methodology is engineered for it. The A2ACW process and the site-archive-audit pattern are the explicit machinery for that.
 
 **Final Thoughts**
 
@@ -6118,7 +6178,9 @@ $$
 | Electron transfer | k_ET coherence-enhanced | r = 0.933 | #64 |
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 
-**Validation rate:** 89% prediction success rate across 2,671 sessions
+**Validation rate:** 89% *pattern-alignment* rate across 2,671 sessions.
+
+**Caveats (S647 method gap, S651 null-model gap, 2026-05-08/10):** the load-bearing r values above are being compared against an *implicit* null of r=0 (random). The *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh): sound velocity, electronegativity, atomic volume are themselves near-monotonic functions of atomic number Z; any smooth monotonic function will achieve r ≈ 0.95+ on the same 1,703 phenomena by construction. The framework-specific signal is **Δr = r(Synchronism) − r(best monotonic null)** — *not currently in the archive*. Compounded with the Method 2 / 3 self-correlation paths and Method 2's documented systematic bias toward γ ≈ 1 (Session #26 Part 3 simulation table), best estimate is **tie or marginal win** until Δr is computed against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND Method 1 (bias-free) is applied uniformly OR pre-registered γ predictions for held-out phenomena are produced. "89% validated" is **defensible only with the null model documented**; until then, treat the chemistry track as a substantial *pattern catalog* with productive boundaries (the γ ~ 1 motif organizes a lot of structure), not as 1,703 confirmed predictions.
 
 ---
 
@@ -6147,7 +6209,7 @@ For complete derivations and all 2,671 sessions:
 
 ---
 
-*"γ = 2/√N_corr unifies condensed matter physics. Two orthogonal channels—electronic and phononic—govern all material properties."*
+*"γ = 2/√N_corr organizes a substantial pattern catalog across condensed matter, with two orthogonal channels (electronic and phononic) emerging as productive descriptors."* — restated 2026-05-15 from the earlier "unifies condensed matter physics" claim, in response to S647/S651 audits and external review by Kimi 2.6: the framework's chemistry contribution is, at present, organizational and descriptive (γ ~ 1 as a productive label for a real pattern in the data), not a unification of condensed matter physics. The η Audit (Session #616) classified the chemistry track as a reparametrization of the Debye model; that classification stands. See `Research/Chemistry/Framework_Summary.md` for the most current accounting.
 
 
 
@@ -6155,18 +6217,22 @@ For complete derivations and all 2,671 sessions:
 
 # Appendix C: Consciousness Framework
 
-This appendix provides the key findings from the Consciousness Arc (Sessions #280-282), establishing a mechanistic account of consciousness via coherence dynamics.
+This appendix provides the key *framings* from the Consciousness Arc (Sessions #280-282), proposing a coordinate system within which consciousness is described via coherence dynamics.
+
+**Epistemic status note (2026-05-15, in response to external review by Kimi 2.6):** the claims in this appendix are **coordinate-system framings and identity claims**, not empirical findings. The "resolution" of the Hard Problem is **eliminative** (the problem is reformulated so it no longer arises in the new vocabulary) rather than **explanatory** (deriving why phase patterns feel like *this* rather than *that* from deeper principles). 34 consciousness-arc predictions await empirical validation; none have been tested. The framework's value here is conceptual coherence and testable predictions (listed below), not empirical resolution.
 
 ---
 
-## C.1 Core Insight
+## C.1 Core Framing
 
-**Consciousness is what coherence does when it models itself.**
+**Consciousness *re-described as* what coherence does when it models itself.** This is an identity claim within Synchronism's coordinate system, not a derivation.
 
-The Consciousness Arc resolves three major philosophical problems:
-1. The observer/measurement problem (Session #280)
-2. Free will vs determinism (Session #281)
-3. The hard problem of consciousness / qualia (Session #282)
+The Consciousness Arc offers coordinate-system reformulations of three major philosophical problems:
+1. The observer/measurement problem (Session #280) — reformulated as observer-integration-window synchronization
+2. Free will vs determinism (Session #281) — reformulated as coherence-guided selection
+3. The hard problem of consciousness / qualia (Session #282) — reformulated as identity claim ("phase patterns ARE experience")
+
+Each reformulation is **philosophically defensible** (form of structural realism, compatible with Tegmark's mathematical-universe and Wheeler/Fredkin digital-physics families). Each is also **not empirically validated**. The framework offers a vocabulary; whether the vocabulary picks out a fact about the world is the open empirical question, addressed by the predictions in C.7 (P280.1, P282.4, P282.6) that remain untested.
 
 ---
 
@@ -6310,16 +6376,16 @@ For complete derivations and session details:
 
 ## C.10 Connection to Chemistry Framework
 
-The coherence threshold for consciousness (C ≥ 0.7) connects to the chemistry framework's γ parameter:
+The coherence threshold for consciousness (C ≥ 0.7) is **labeled in the same notation** as the chemistry framework's γ parameter, but the connection is presently at the level of shared vocabulary, not derivation:
 
-- Chemistry: γ = 2/√N_corr governs material properties
-- Consciousness: C ≥ 0.7 + self-reference governs experience
+- Chemistry: γ = 2/√N_corr is correlated with material properties (with method-gap and null-model-gap audits flagged in S647 + S651)
+- Consciousness: C ≥ 0.7 + self-reference is the *proposed* threshold for experience
 
-Both emerge from the same underlying coherence dynamics, providing cross-scale unity from condensed matter to consciousness.
+**Per Session #640 (Dual-C symbol audit):** the homepage "one equation across scales" claim *rests on shared notation, not derivation*. Form 1 C(ρ) = tanh(γ·log(ρ/ρ_crit + 1)) and Form 2 C = f(γ, D, S) ≥ 0.50 (consciousness, 8-way convergence) share only the letter C; D = neural pattern diversity, S = coherence persistence duration; **neither is a function of ρ**. The 0.50 threshold was NOT derived from inverting Form 1. **γ IS genuinely shared via 2/√N_corr; C is NOT.** Cross-scale unity is currently aspirational vocabulary, not delivered derivation.
 
 ---
 
-*"Qualia are not what coherence patterns HAVE. Qualia are what coherence patterns ARE. The hard problem was asking the wrong question."*
+*"Qualia are not what coherence patterns HAVE. Qualia are what coherence patterns ARE."* — Session #282 identity claim. The follow-on "The hard problem was asking the wrong question" is a coordinate-system claim, not an empirical resolution. Whether the question was wrong or whether the framework is offering an *eliminative redescription* of a still-open question is what the predictions in C.7 will eventually adjudicate.
 
 
 
@@ -6476,7 +6542,7 @@ G ~ (D₀ × L_planck²) / I_max
 
 **Can potentially calculate G from grid parameters.**
 
-**Status:** Fundamental mechanism (not computational convenience). Enables pattern stability, explains field effects, potentially unifies forces.
+**Status (as of 2026-05-15):** Saturation is the load-bearing mechanism in the current rule family — without it, no stable patterns; with it, the framework has the right *shape* of mechanism for stable structure. **Caveat (S617-628, S638):** the current Intent transfer rule, as written, is 1-DOF scalar diffusion (precluded from stable oscillation by the maximum principle for parabolic PDEs); C(ρ) has been independently verified via computer algebra to reduce to a Curie-paramagnet response (less than Landau — no critical point, no Z₂ symmetry). The "potentially unifies forces" status is a **research-direction motto**, not a delivered result. Whether *this specific rule family* delivers stable particle-like patterns is the question the cellular-automaton challenge (`explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md`) tests directly.
 
 
 ---
