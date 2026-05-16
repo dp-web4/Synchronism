@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "whitepaper": "synchronism",
-  "last_review": null,
-  "last_integration": "2026-01-16",
-  "sessions_reviewed_through": 272,
+  "last_review": "2026-05-16T02:30:00Z",
+  "last_integration": "2026-05-15",
+  "sessions_reviewed_through": 655,
   "pending_proposals": [],
-  "status": "pending_initial_review",
-  "notes": "Phase 1 whitepaper review not yet run. Sessions 273-292 need evaluation."
+  "status": "current",
+  "notes": "Operator performed substantive Findings vs Framings refactor of whitepaper on 2026-05-15 (commit db00b911) in response to Kimi 2.6 external review (forum/kimi/kimi_2_6_review.md). Targeted edits to executive_summary.md and downstream sections distinguishing quantitative Findings (Coupling-Coherence Hill>tanh ΔAIC=4, Compatibility-Synthon r=0.994, NP2 RAR) from theoretical Framings (ONE EQUATION Unification, Hard Problem DISSOLVED, BLACK HOLE INFORMATION PARADOX RESOLVED). Whitepaper now reflects post-stress-test calibration discipline. Audit-channel findings S617-S655 (35 sessions) and external Kimi review jointly drove this integration; Publisher track did not need to invoke Phase 1 subagents — operator handled directly. Status: current."
 }
