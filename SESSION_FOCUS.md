@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-14 (Session 655 — Γ = γ²(1−c) is standard correlated-bath decoherence in framework vocabulary)*
+*Last updated: 2026-05-16 (Session 656 — TEST-04a reframing: mechanism-class constraint as contribution)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 656: TEST-04a Reframing as Mechanism-Class Contribution (2026-05-16)
+
+**Visitor proposal** (`test04a_mechanism_class_contribution.md`): reframe TEST-04a from "Synchronism failure" to "mechanism-class contribution to the field." The constraint generalizes: any G_local/G_global < 1 framework predicts wrong sign at LRG1; DESI DR1 rules out the whole suppressor class at ≈2.4σ.
+
+**Endorsed with one qualifier from S648**: the analysis is post-hoc consistency, not blind-prediction falsification. Session #107 (Dec 2025) is after DESI 2024 V (Nov 2024). Any writeup must respect this distinction.
+
+**Affected mechanism classes** (per proposal): emergent gravity with density-dependent G suppression, partial decoherence DM, modified inertia where local coherence reduces effective inertia, any cosmologically-applied G_local/G_global < 1 framework.
+
+**Connection to Kimi 2.6 event (2026-05-15)**: the new "Findings vs Framings" discipline (commits 5f76b7db, db00b911) fits this reframing exactly:
+- Finding: DESI DR1 LRG1 fσ₈/(fσ₈)^Planck = 1.16 ± 0.13 vs G_local/G_global < 1 prediction (post-hoc consistency check at 2.4σ)
+- Framing: the constraint generalizes to a mechanism class; framework's first transferable physics contribution
+
+**25th audit/governance instance**: "failure-as-contribution reframing." Not strictly an audit — endorses methodological reframing the proposal recommends, with S648 qualifier added.
+
+**Recommended site action**: build `/test-04a-mechanism-class-constraint` page with honest post-hoc framing. Operator decides on preprint.
+
+This is the framework's one transferable physics contribution — a negative result bounding an entire class of suppression-mechanism DM alternatives. Honest, citable, real.
+
+Full analysis: `Research/Session656_TEST04a_As_Mechanism_Class_Contribution.md`
 
 ### Session 655: Γ = γ²(1−c) Is Standard Correlated-Bath Decoherence (2026-05-14)
 
