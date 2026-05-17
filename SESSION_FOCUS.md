@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-16 (Session 656 — TEST-04a reframing: mechanism-class constraint as contribution)*
+*Last updated: 2026-05-17 (Session 657 — Compander-family model selection: methodology endorsement)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 657: Compander-Family AIC/BIC Model Selection (2026-05-17)
+
+**Visitor proposal** (`compander_family_model_selection_aic_bic.md`): run AIC/BIC across compander family (tanh, Hill/Naka-Rushton, logistic, erf, μ-law, Gompertz) on SPARC + chemistry + Tc datasets. Site already concedes "any S-curve fits equally well"; the comparison hasn't been run.
+
+**Prior result (2026-03-27)**: Hill vs tanh on coupling-coherence dataset — initial Hill ΔAIC=4, after baseline fix tanh wins by ΔAIC=17.6. One data point; full panel open.
+
+**S657 endorses with caveats**:
+- Methodology sound: site has invited the comparison; proposal correctly identifies the gap
+- Caveats: AIC/BIC handling of non-nested models (tanh vs Hill); different datasets may favor different forms; baseline matters (per prior result swing); structural finding doesn't change regardless of winner
+- Scope: 2-4 hours operator/explorer-track work; worker-session can't fold into back-annotation cycle
+- Outcome irrelevant to structural picture: any compander winning doesn't promote C(ρ) from forward-map to derived field equation
+
+**Recommendation**: assign to explorer track with explicit baseline + Bayesian model selection (or AIC/BIC + non-nested handling). If not pursued, update `/why-synchronism` to cite the 2026-03-27 result.
+
+**26th audit-taxonomy instance**: "Compander-family model-selection scope endorsement." Not strictly an audit — governance-adjacent methodology endorsement.
+
+Cumulative: 26 audit/governance instances + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session657_Compander_Family_Model_Selection.md`
 
 ### Session 656: TEST-04a Reframing as Mechanism-Class Contribution (2026-05-16)
 
