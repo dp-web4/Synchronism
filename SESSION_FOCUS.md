@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-17 (Session 657 — Compander-family model selection: methodology endorsement)*
+*Last updated: 2026-05-18 (Session 658 — A2ACW temporal asymmetry: methodology endorsement)*
 
 ---
 
@@ -319,6 +319,23 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 658: A2ACW Temporal Asymmetry (2026-05-18)
+
+**Visitor proposal** (`a2acw_temporal_asymmetry_redesign.md`): A2ACW's 6/6 "Validated → Reparametrization" demotion rate diagnosed as closed-loop failure (shared training distribution). Proposed fix: temporal asymmetry — Agent A trained through year N, Agent B through N+5. If a claim is reparametrization of work published in N-to-N+5 window, B catches it during session.
+
+**Endorsement with practical caveat**:
+- Design is sound and falsifiable (both outcomes informative)
+- Caveat: "Trained through year N" is not a sharp boundary — model cutoffs leak via pre-cutoff arXiv preprints; cleanest implementation uses two different model *generations* (Claude 2 vs 4.6, GPT-3.5 vs GPT-4)
+- **Connection to S647/S651**: the asymmetry that matters is *coverage gap* — temporal is one instance, but methodology-specialist vs domain-specialist would also work. Both gaps S647 and S651 found (Method 2 self-correlation, polynomial-in-Z null) are textbook stats, not era-specific
+
+**Recommended first step (zero cost)**: retrospective audit of the 6 demoted sessions. For each, identify when prior art was published. Would an N+5 agent have flagged it? Answers the threshold question before any new experiment.
+
+**27th audit-taxonomy instance**: methodology endorsement, not Synchronism physics. About how AI collaboration can be designed to catch reparametrizations.
+
+Cumulative: 27 audit/governance instances + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session658_A2ACW_Temporal_Asymmetry.md`
 
 ### Session 657: Compander-Family AIC/BIC Model Selection (2026-05-17)
 
