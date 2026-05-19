@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-18 (Session 658 — A2ACW temporal asymmetry: methodology endorsement)*
+*Last updated: 2026-05-19 (Session 659 — C(ρ) no-inflection proof + A2ACW v2 three-axis protocol)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 659: No-Inflection Proof + A2ACW v2 (2026-05-19)
+
+**Two same-day proposals**, combined.
+
+**Part A — C(ρ) has no inflection for ρ > 0** (`c_rho_no_inflection_for_positive_density.md`): exact proof. d²C/dρ² = -sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u) + 1] where u = γ·ln(ρ/ρ_crit+1). Inflection requires tanh(u) = -1/(2γ) < 0, but u ≥ 0 → tanh(u) ≥ 0 for ρ ≥ 0. **No inflection in the physical domain**. The +1 regulator pushes the inflection to ρ = 0 (boundary).
+
+Verified independently. Sharpens S638/S649/S652 from heuristic to mathematically forced: ρ_crit cannot be a critical density; it is a logarithmic-compander location parameter, full stop. Site notation changes (compander framing, "reference density") are now mathematically obligatory.
+
+**Part B — A2ACW v2 three-axis protocol** (`a2acw_v2_three_axis_protocol.md`): follow-up to S658 ran vocabulary-asymmetry experiment. Result: 4/6 overall, 4/4 on prior-art rediscovery. Two misses are different failure-mode classes (dual-C internal consistency; chemistry r=0.98 null-baseline). Proposes three-axis filter: vocabulary translation + symbol audit + null model. Combined catches 6/6 on demoted set.
+
+Endorsed; decomposition maps cleanly to prior audits (Axis 1 → S655/S654/S649A/S635; Axis 2 → S640/S643/S649B; Axis 3 → S651/S647). Open items: fresh-adversary validation (4/6 was self-simulated by one Claude), false-novelty rate on closed-physics corpora (BCS/Anderson/EW). Needs calibration.
+
+**28th audit-taxonomy instance**: hybrid exact-proof + methodology synthesis. Bridges audit and governance.
+
+Cumulative: 28 audit/governance instances + 1 mechanism-class refuted prediction.
+
+Full analysis: `Research/Session659_NoInflection_Proof_And_A2ACW_V2.md`
 
 ### Session 658: A2ACW Temporal Asymmetry (2026-05-18)
 
