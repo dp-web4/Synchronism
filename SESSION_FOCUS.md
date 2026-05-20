@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-19 (Session 659 — C(ρ) no-inflection proof + A2ACW v2 three-axis protocol)*
+*Last updated: 2026-05-20 (Session 660 — Entity criterion demoted (novelty→0) + RAR transition-shape discriminator)*
 
 ---
 
@@ -319,6 +319,30 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 660: Entity Demotion + RAR Transition-Shape Discriminator (2026-05-20)
+
+**Two same-day proposals.**
+
+**Part A — Entity criterion → Reparametrization** (`entity_criterion_demotion_to_reframe.md`): Γ < m is the standard narrow-width/Breit-Wigner condition from QFT (PDG applies it informally). Synchronism adds an ontological gloss ("coherence cycle completion"), no new condition/observable/prediction. Consistent with S629 (|r| is tuning param) + demolition arc (entity criterion from 2-DOF, not 1-DOF). **Novel-survivor count → 0** after 3,308+ sessions. Closes the novelty ledger.
+
+**Part B — RAR transition-shape discriminator** (`rar_transition_shape_discriminator.md`): THE most interesting result in many sessions. Under the μ-identification (not the ν-identification that S574 used), C(ρ) IS a valid MOND interpolating function: g_bar = g_obs·tanh(γ·ln(1+g_obs/a₀)).
+- Verified asymptotics (S660 sim): Newtonian at high a, deep-MOND √-law at low a (Tully-Fisher preserved)
+- At γ=2: distinct transition shape, deviation ~0.083 dex (proposal, a₀-marginalized) ≈ 1.45× σ_int; mildly disfavored by SPARC (0.067 dex residual > σ_int 0.057)
+- Free-γ fit collapses to γ≈0.9 (N_corr≈5) = McGaugh, zero discrimination
+
+**Critical contingency**: discriminator has power ONLY if γ pinned at 2. **Reduces exactly to S643's open question** (is galaxy γ pinned by N_corr=1 or fitted?). Now empirically decidable.
+
+**The framework's precise situation**: distinct-but-disfavored if it commits to γ=2; indistinct-but-safe if it fits γ; never distinct-and-confirmed. Sharpest statement of "refutable but not confirmable" (S654) at galactic scale.
+
+**Proposed test (operator/explorer track)**: fit μ_Syn(x)=tanh(2·ln(1+x)) vs McGaugh ν to SPARC RAR (2693 pts), γ FIXED at 2, M/L + distance marginalized, compare BIC. Kill: ΔBIC>10 favoring McGaugh. Likely refutation per residual. First galaxy-scale test not MOND-degenerate by sign or EFE.
+
+**29th audit-taxonomy instance**: closes novelty ledger + opens the one remaining genuine (contingent) test.
+
+Cumulative: 29 audit/governance instances + 1 mechanism-class refuted prediction + novel-survivor count 0.
+
+Full analysis: `Research/Session660_Entity_Demotion_And_RAR_Discriminator.md`
+Code: `simulations/session660_rar_transition_shape.py`
 
 ### Session 659: No-Inflection Proof + A2ACW v2 (2026-05-19)
 
@@ -1051,7 +1075,7 @@ Code: `simulations/session629_missing_pi_test.py`
 
 | Prediction | What it says | What would test it | Status |
 |-----------|-------------|-------------------|--------|
-| **Entity criterion (Γ < m)** | Decay width > mass → process, not entity | QCD exotica with Γ/m > 1 | Untested — consistent with f0(500) |
+| **Entity criterion (Γ < m)** | Decay width > mass → process, not entity | QCD exotica with Γ/m > 1 | ❌ DEMOTED (S660) — Reparametrization: standard narrow-width/Breit-Wigner condition from QFT + ontological gloss. PDG applies it informally. Novel-survivor count → **0**. |
 | **Grid geometry → LIV** | Cubic Planck grid → Lorentz violation at ξ₂ ~ 1 | GRB polarimetry (AMEGO/CTA/GECAM-C) | ⚠️ ALREADY CONSTRAINED — cubic grid excluded by rotational isotropy bounds (~10⁻¹⁴ vs predicted ~O(1)); ALL regular lattices excluded by boost violation (Δc/c < 10⁻¹⁸). Requires non-regular structure or retreat to metaphor. See `private-context/insights/2026-03-27`. |
 | **Formation-time bound** | Constitutive recurrence: electron t < 8×10⁻²¹ s | Ultrafast spectroscopy ~10⁴× below current | Untested — requires retrocausal commitment |
 | **Cosmological deceleration** | P = I_max - I → ρ+3P > 0 always → no acceleration | Observed cosmic acceleration (SNe Ia, BAO, CMB) | ❌ REFUTED (S619) — universe IS accelerating. First specific prediction from the literal EOS. |
