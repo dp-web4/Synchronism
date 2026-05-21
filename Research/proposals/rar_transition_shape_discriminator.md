@@ -54,3 +54,37 @@ Consistent with Session #574 ("C(ρ) is a reparametrization of MOND ν(x)") — 
 reparametrization is *exact only at the best-fit γ≈0.9*. At the committed γ=2 it is a *distinct, mildly
 refuted* function, not a reparametrization. The framework's claim to a galaxy mechanism stands or falls on
 whether it commits to γ=2 before the fit.
+
+---
+
+## RESULT — proposed test executed on real SPARC (synchronism-site explorer, 2026-05-21)
+
+The decisive test specified above was run against the real Lelli-McGaugh-Schombert (2016) mass models
+(`simulations/sparc_real_data/MassModels_Lelli2016c.mrt`, 2807 points after a 10% velocity-error cut;
+M/L_disk=0.5, M/L_bul=0.7; a₀ free; log-space least squares; ΔBIC differential).
+Script + full finding: synchronism-site `explorer/scripts/rar_transition_shape_real_sparc.py`,
+`explorer/findings/rar-transition-shape-real-sparc-result.md`.
+
+| Model | a₀ (m/s²) | RMS (dex) | ΔBIC vs McGaugh |
+|-------|-----------|-----------|-----------------|
+| McGaugh ν (k=1) | 1.13×10⁻¹⁰ | 0.1437 | reference |
+| Compander μ, **γ=2 pinned** | 2.97×10⁻¹⁰ | 0.1485 | **+184** |
+| Compander μ, γ free | 5.3×10⁻¹¹ (γ=0.49) | 0.1437 | +7.1 |
+
+**Verdict: kill criterion triggered.** ΔBIC = +184 ≫ 10 refutes the γ=2 compander as the galaxy
+mechanism. Conservative correction for intra-galaxy point correlation (effective N≈500–1000) gives
+ΔBIC ≈ 33 — still decisive. The γ=2 misfit is a coherent S-shaped residual (≈0.05–0.10 dex
+peak-to-peak, ~8σ/bin) concentrated at g_bar≈a₀, exactly the predicted transition-shape signature; it
+is a population-wide shape term at fixed g_bar/a₀, so it is not absorbable by per-galaxy M/L marginalization.
+
+**Two corrections to the 2026-05-20 estimate:**
+1. γ=2 is **decisively refuted**, not "mildly disfavored" — the per-point RMS penalty is small (+3.3%)
+   but the structured residual is overwhelmingly significant over thousands of points.
+2. The free-γ best fit is **γ ≈ 0.49** (not 0.91), with RMS identical to McGaugh to four digits — fully
+   MOND-degenerate. The idealized-curve fit that gave 0.91 was an artifact of uniform sampling.
+
+**Closure:** there is no γ for which the compander is both distinct from MOND and consistent with SPARC.
+Pinned γ=2 → refuted; fitted γ → MOND. The framework's only non-degenerate galaxy-scale test has now
+been run on existing data and eliminates the only non-MOND version of the mechanism. Net discriminating
+galaxy tests vs MOND: **0, by execution.** Pipeline validated: best-fit McGaugh a₀=1.13×10⁻¹⁰ vs
+canonical 1.20×10⁻¹⁰; RMS at canonical a₀ = 0.1441 ≈ best-fit 0.1437.
