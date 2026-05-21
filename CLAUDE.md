@@ -95,7 +95,7 @@ Current honest assessment: Synchronism's coordinate shift hasn't yet earned the 
 <!-- gitnexus:keep -->
 # GitNexus — Code Knowledge Graph
 
-Indexed as **Synchronism** (167368 symbols, 185834 relationships, 251 execution flows). MCP tools available via `mcp__gitnexus__*`.
+Indexed as **Synchronism** (167423 symbols, 186132 relationships, 251 execution flows). MCP tools available via `mcp__gitnexus__*`.
 
 **Do not reindex.** The supervisor handles GitNexus indexing. If the index is stale, note it in SESSION_FOCUS.
 

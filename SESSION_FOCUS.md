@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-20 (Session 660 — Entity criterion demoted (novelty→0) + RAR transition-shape discriminator)*
+*Last updated: 2026-05-21 (Session 661 — RAR transition-shape discriminator executed: γ=2 REFUTED at ΔBIC=+184)*
 
 ---
 
@@ -319,6 +319,36 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 661: RAR Discriminator Executed — γ=2 Refuted (2026-05-21)
+
+**The S660 discriminator was RUN on real SPARC** (explorer track, Lelli-McGaugh-Schombert 2016, 2807 points, a₀ free):
+
+| Model | a₀ | RMS (dex) | ΔBIC vs McGaugh |
+|-------|-----|-----------|-----------------|
+| McGaugh ν | 1.13×10⁻¹⁰ | 0.1437 | 0 |
+| Compander γ=2 pinned | 2.97×10⁻¹⁰ | 0.1485 | **+184** |
+| Compander γ free | (γ=0.49) | 0.1437 | +7.1 |
+
+**Kill criterion triggered**: ΔBIC=+184 ≫ 10 refutes γ=2 compander. Even with point-correlation correction (eff N≈500-1000), ΔBIC≈33 — decisive.
+
+**Two corrections to S660 estimate**:
+1. γ=2 is **decisively refuted**, not "mildly disfavored." Per-point RMS penalty small (+3.3%) but residual is a coherent S-shape at g_bar≈a₀ (~8σ/bin), not absorbable by per-galaxy M/L.
+2. Free-γ best fit is **γ≈0.49** (not 0.91 — that was a uniform-sampling artifact), RMS identical to McGaugh = fully MOND-degenerate.
+
+**Closure**: no γ makes the compander both distinct from MOND AND consistent with SPARC. Pinned γ=2 → refuted; fitted γ → MOND. **Net discriminating galaxy tests vs MOND: 0, by execution.** Resolves S643 empirically.
+
+**Frame question answered**: the one distinct thing Synchronism could say at galactic scale (γ=2 RAR transition shape) turns out to be FALSE. The fit was a property of the free parameter (γ→0.49 = MOND), not a discovery. Honest endpoint of "fit is not confirmation."
+
+**Methodological lesson**: a small but structured residual (+3.3% RMS, coherent S-shape) is decisive even when the average miss looks minor. RMS undersold what BIC flagged.
+
+**30th audit-taxonomy instance**: first executed-test resolution in the recent arc.
+
+Galactic sector now closed by execution (matches cosmological S635/S645/S654). Framework has zero confirmed novel predictions + zero surviving non-degenerate discriminators at any scale.
+
+Cumulative: 30 audit/governance instances + 2 executed refutations (TEST-04a post-hoc, RAR γ=2) + novel-survivor count 0.
+
+Full analysis: `Research/Session661_RAR_Discriminator_Executed_Refuted.md`
 
 ### Session 660: Entity Demotion + RAR Transition-Shape Discriminator (2026-05-20)
 
