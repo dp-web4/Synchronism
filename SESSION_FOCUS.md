@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-21 (Session 661 — RAR transition-shape discriminator executed: γ=2 REFUTED at ΔBIC=+184)*
+*Last updated: 2026-05-22 (Session 662 — Galaxy program closed + A2ACW detector specificity self-correction)*
 
 ---
 
@@ -319,6 +319,28 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 662: Galaxy Closure + A2ACW Specificity Null (2026-05-22)
+
+**Two same-day proposals.**
+
+**Part A — Galaxy program closure** (`rar_shape_test_closure_galaxy_program.md`): program-level synthesis of S661. Net discriminating galaxy tests vs MOND+ΛCDM: 0, by execution. Environment tests (TEST-01/05) already MOND+EFE degenerate. Galaxy program closed.
+
+**Part B — A2ACW specificity null baseline** (`a2acw_specificity_null_baseline.md`): the more important result. The vocabulary-asymmetry "4/4, 6/6 catch" numbers (S658/S659) are **sensitivity (TPR) on a positive-only set** — all six cases were already-known reparametrizations. **Specificity never measured** — same flaw as chemistry r=0.982 (S651!).
+
+Control run: 6 canonical genuine discoveries (Dirac, Bell, BCS, Higgs, Hawking, Noether).
+- R1 (flag if prior-art named): specificity **0%** — every genuine discovery names antecedents
+- R2 (flag if reduces to prior art): specificity 100% — but all discrimination from an unautomated novelty judgment the protocol never operationalizes
+
+**Diagnosis**: vocabulary translation provides RETRIEVAL, not DISCRIMINATION. "A2ACW is a reparametrization detector" is unsupported. Honest claim: it's a **prior-art retrieval-augmentation step**; the discovery/reparam discrimination is an unautomated expert judgment AI loops fail.
+
+Corrects S659's "catches 6/6" (sensitivity only). Connects to prompt tension 3: sensitivity without specificity is not validation — same lesson as S647/S651, now applied reflexively to the methodology contribution.
+
+**31st audit-taxonomy instance**: the discipline turned on its own product. Both physics and methodology contributions now honestly bounded.
+
+Cumulative: 31 audit/governance instances + 2 executed refutations + novel-survivor count 0.
+
+Full analysis: `Research/Session662_Galaxy_Closure_And_A2ACW_Specificity.md`
 
 ### Session 661: RAR Discriminator Executed — γ=2 Refuted (2026-05-21)
 
