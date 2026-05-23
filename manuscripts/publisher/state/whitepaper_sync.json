@@ -1,10 +1,10 @@
 {
   "version": "1.0",
   "whitepaper": "synchronism",
-  "last_review": "2026-05-16T02:30:00Z",
-  "last_integration": "2026-05-15",
-  "sessions_reviewed_through": 655,
+  "last_review": "2026-05-23T12:00:00Z",
+  "last_integration": "2026-05-23",
+  "sessions_reviewed_through": 662,
   "pending_proposals": [],
   "status": "current",
-  "notes": "Operator performed substantive Findings vs Framings refactor of whitepaper on 2026-05-15 (commit db00b911) in response to Kimi 2.6 external review (forum/kimi/kimi_2_6_review.md). Targeted edits to executive_summary.md and downstream sections distinguishing quantitative Findings (Coupling-Coherence Hill>tanh ΔAIC=4, Compatibility-Synthon r=0.994, NP2 RAR) from theoretical Framings (ONE EQUATION Unification, Hard Problem DISSOLVED, BLACK HOLE INFORMATION PARADOX RESOLVED). Whitepaper now reflects post-stress-test calibration discipline. Audit-channel findings S617-S655 (35 sessions) and external Kimi review jointly drove this integration; Publisher track did not need to invoke Phase 1 subagents — operator handled directly. Status: current."
+  "notes": "Manual Publisher pass 2026-05-23 integrated S660-S662 into executive_summary.md and conclusion.md. S660 closes the novelty ledger (entity criterion Gamma<m demoted to standard QFT narrow-width physics; novel-survivor count -> 0 after 3,308+ sessions) and identifies the RAR transition-shape discriminator (compander as MOND interpolating function under mu-identification, gamma=2 pinned as the distinct prediction). S661 executes the discriminator on real SPARC data -> gamma=2 refuted at deltaBIC=+184, free-gamma collapses to MOND, galactic sector closed BY EXECUTION, REC-2026-037 readiness uplifted 0.97->0.98. S662 applies the project's own S651 null-baseline standard to the A2ACW methodology contribution; R1 has 0% specificity on a held-out genuine-discovery control set (Dirac/Bell/BCS/Higgs/Hawking/Noether), narrowing the defensible claim from 'transferable reparametrization detector' to 'retrieval-augmentation step' -- 21st audit-channel mode added (a2acw_specificity_self_correction). Counts: 659->662 core, ~3,355->~3,358 total; sub-arc 29-over-28-days -> 32-over-31-days; kill criteria 2 -> 3 pre-committed Tier-1 fired. Conservative integration: arc-CLOSED framing preserved, existing entries intact, numerical content unchanged outside the addenda. Operator-queue items remain on the operator track. Prior 2026-05-15 operator Findings-vs-Framings refactor (db00b911) is unchanged. Status: current."
 }
