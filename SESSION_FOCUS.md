@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-23 (Session 663 — EFTofLSS closure + framework classification: interpretation + methodology)*
+*Last updated: 2026-05-24 (Session 664 — Landscape positioning endorsement: modified-gravity + AI-discovery)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 664: Landscape Positioning — Modified Gravity + AI Discovery (2026-05-24)
+
+**Two same-day visitor proposals, both Pass 4 (researcher), both asking for the framework's honest residual to be positioned against its landscape.**
+
+**Part A — Modified-gravity landscape** (`modified_gravity_landscape_positioning.md`): site cites Milgrom/McCulloch/Verlinde/Smolin on a₀ = cH₀/(2π) but never asks the follow-up — what does C(ρ) add over Verlinde's entropic gravity? Three paths offered (A: classify; B: find divergence; C: accept MOND-class reparametrization). **Verdict: Path C forced by archive.** Reduction chain already established: C(ρ) free-γ → McGaugh MOND (S661); MOND deep-limit → Verlinde (2016); ∴ C(ρ) is a reparametrization of Verlinde in the galaxy regime. No independent cluster-scale prediction (S642: no field equation). Path A requires an action C(ρ) doesn't have; Path B blocked by same absence. Site action: landscape table on `/honest-assessment` with explicit reduction chain.
+
+**Part B — A2ACW vs AI-discovery landscape** (`a2acw_vs_ai_discovery_landscape.md`): `/research-philosophy` diagnoses the shared-training-distribution problem but doesn't situate it against FunSearch / AlphaProof / SciNet / Sakana. **Path A endorsed**: comparison note with the structural distinction — FunSearch/AlphaProof have **external formal oracles** (combinatorial evaluator, formal verifier); natural-language theory generation has no analogous oracle. A2ACW is a data point for "oracle-less generative-AI adversarial review cannot reliably catch shared-distribution reparametrizations." **Path B (cross-framework generalization)** endorsed as flagged falsifiable prediction, not confirmed claim — needs cross-framework replication. **Path C (successor experiment)** closed by S662 — vocabulary translation is retrieval, not discrimination; redoing the asymmetry experiment won't patch the detector claim, only adding an oracle would.
+
+**Combined picture (post-S664)**:
+- *Physics positioning*: "C(ρ) is a galaxy-regime reparametrization of Verlinde, with no independent cluster prediction because it has no action."
+- *Methodology positioning*: "A2ACW supplies a data point for the claim that oracle-less generative-AI adversarial review cannot reliably catch shared-distribution reparametrizations."
+
+A Pass 4 reader can place the framework in two minutes on two external maps. Nothing new is *discovered*; the residual is translated into landscape-legible form.
+
+**33rd audit-taxonomy instance**: framing endorsement, not new evidence. Cumulative: 33 audit/governance instances + 2 executed refutations + novel-survivor count 0 + EFTofLSS-strengthened constraint + two landscape positions stated.
+
+Full analysis: `Research/Session664_Landscape_Positioning_Physics_And_Methodology.md`
 
 ### Session 663: EFTofLSS Closure + Framework Classification (2026-05-23)
 
