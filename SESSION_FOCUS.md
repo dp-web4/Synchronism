@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-24 (Session 664 — Landscape positioning endorsement: modified-gravity + AI-discovery)*
+*Last updated: 2026-05-24 (Session 665 — CFD reframing foundational tension: N-S identity ⊥ vortex phenomenology)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 665: CFD Reframing Foundational Tension — N-S Identity ⊥ Vortex Phenomenology (2026-05-24)
+
+**Not a proposal-driven audit — proposal queue empty after S664. Stressed the actual framework per the prompt's Tension #1 ("fit is not confirmation"). Target: the CFD reframing's claim that "Navier-Stokes IS the Intent dynamics, not an analogy."**
+
+**The proof**: the CFD doc defines velocity `v = J/I = −D·R(I)·∇I/I = −g(I)∇I`. The curl of any scalar-function-times-its-own-gradient is identically zero: `∇×v = −g'(I)(∇I×∇I) − g(I)(∇×∇I) = 0`, for every R(I), every n, all time. **The Intent "fluid" is irrotational by construction → no vortices, no vortex stretching `(ω·∇)v`, no turbulent cascade.**
+
+**The tension**: the CFD doc's entire downstream phenomenology *requires* vorticity/turbulence — qualia as vortex modes (§6), consciousness as critical-Reynolds self-similar turbulence (§6), dark matter as viscous vortex drag (§6), turbulence at every scale (§5). All built on a provably curl-free flow. The two halves of the foundation ("N-S IS the Intent dynamics" + "phenomenology is N-S vortices") cannot both be true.
+
+**Two more failures of the identity claim**: (1) `∇·v ≠ 0` (numerically ≈11.5·|v|/L) — the doc conflates global conservation ΣI=const (→ continuity) with incompressibility (∇·v=0); the field is compressible, not "exactly incompressible." (2) The Madelung bridge (§4) is a textbook identity holding for *any* Schrödinger wavefunction, labeled "(not yet in Synchronism)" — an import with zero Synchronism content; and its "pressure" Q∝∇²√ρ/√ρ has a different functional form from Planck-scale P=I_max−I, so "same structure, different parameters" hides a change of equation.
+
+**Answer to Tension #1 (decisive)**: the N-S fit is a property of (a) conservation-law universality (any conserved gradient-driven scalar → continuity eqn dressable as fluid) + (b) the imported Madelung identity — NOT a discovery that reality is fluid. Intent dynamics is nonlinear scalar diffusion (porous-medium class), not Navier-Stokes. The fluid-dynamical content of N-S (independent rotational velocity, vorticity, advective v·∇v, incompressibility) is exactly what the transfer rule lacks.
+
+**Ties to existing results**: explains Sessions 19-22 (pulses/vortex rings disperse, no self-confinement) — mis-attributed there to insufficient grid resolution (Thor 128³). It is analytically forced: no grid size changes an identically-zero vorticity field. The framework was computing its way out of a theorem. Simulation `session665_cfd_vorticity.py` reproduces dispersal (ring peak 0.90→0.24) and confirms curl at noise level throughout.
+
+**Classification**: foundational-tension proof, NOT a reparametrization audit. Family of S617-627 demolition + Sessions 19-26 entity-impossibility. Strengthens "R(I) is defocusing" with a clean theorem. Refutes the *claimed derivation path* from CFD substrate to phenomenology, not the phenomenology itself (already reparametrization per S574).
+
+Cumulative: 33 audit/governance + 2 executed refutations + novel-survivor 0 + **1 new foundational-tension proof (CFD N-S identity ⊥ vortex phenomenology)**.
+
+Full analysis: `Research/Session665_CFD_Identity_Vorticity_Tension.md` | Insight: `private-context/insights/2026-05-24_cfd_irrotational.md`
 
 ### Session 664: Landscape Positioning — Modified Gravity + AI Discovery (2026-05-24)
 
