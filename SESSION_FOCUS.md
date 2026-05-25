@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-25 (Session 667 — the time-order trilemma: saturation, undamped oscillation, and causality require three incompatible PDE classes)*
+*Last updated: 2026-05-25 (Session 668 — TEST-04a "sign reversal" retracted as a transcription error; what survives is a ~2.4σ σ₈ amplitude disfavoring)*
 
 ---
 
@@ -319,6 +319,28 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 668: TEST-04a Sign-Reversal Re-Check — Transcription Error, Both Sides Overreached (2026-05-25)
+
+**Queue had one item: a proposal retracting the "TEST-04a sign reversal." Adjudicated against the actual paper (arXiv:2411.12021), trusting neither the original claim nor the retraction.**
+
+**Verified from the paper this session**: combined σ₈ = 0.841 ± 0.034 (abstract); growth index γ = 0.580 ± 0.110, consistent with GR (independently confirmed); "in agreement with ΛCDM, consistent with Planck."
+
+**Finding 1 — the "enhancement / sign reversal" is NOT real (retraction correct)**: S645/S650 cited DESI LRG1 fσ₈ ≈ 0.55 (above ΛCDM 0.474) → "sign reversal." Traced to a mis-transcribed ShapeFit ratio (LRG1 = 1.16 ± 0.13 → ×0.474 = 0.55). The 1.16 is (a) identical to QSO's 1.16, (b) ~1σ inconsistent with LRG1's own inferred σ₈=0.835 (which implies ratio ≈1.03 → fσ₈(0.51)≈0.49, ΛCDM-consistent), and (c) decisively contradicted by γ=0.58 ≥ 0.55 (growth is suppression-leaning, NOT enhanced — a 16% enhancement needs γ≪0.55). No sign reversal exists.
+
+**Finding 2 — the retraction OVERREACHES ("non-discriminating")**: Session 107 also predicted σ₈(z=0)=0.76. DESI's verified σ₈=0.841±0.034 → (0.841−0.76)/0.034 = **2.4σ disfavoring on amplitude** (independent of the LRG1 error). Post-hoc (S107 committed 2025-12, after DR1 public Nov-2024; 0.76 looks like a retrodiction of weak-lensing S₈, disfavored by clustering σ₈).
+
+**Corrected TEST-04a status**: disfavored on σ₈ amplitude (~2.4σ, post-hoc); fσ₈ shape ΛCDM-consistent/non-discriminating; **sign-reversal RETRACTED**.
+
+**Ledger impact (corrects S645/S648/S650/S656/S663)**: (1) S645/S650 "first-class refutation by sign reversal" — retracted (real outcome, wrong mechanism). (2) **S656/S663 "one transferable physics contribution" (suppressors predict wrong-sign fσ₈, ruled out) — EVAPORATES**; no wrong-sign result to generalize. (3) S663 Part A "EFTofLSS explains the enhancement" — addressed a non-existent enhancement. (4) The A2ACW methodology null result (S662/S663) is unaffected and is now the SOLE exportable contribution.
+
+**Methodological lesson**: over-failing is as seductive as over-claiming — S645 celebrated the (fake) refutation as "best validation of our productive-failure value," which is exactly why nobody re-checked the number for 5 sessions (including my S663). The audit channel audited framings, never re-derived the datum. A Pass-4 visitor caught it by reading the paper. Same root as S647/S651/S662: verify the number, not the narrative — especially numbers that flatter you by failing you.
+
+Header-note corrections added to S645 and S656. Sim `session668_test04a_recheck.py` (consistency check, fσ₈ back-out, γ sign test, σ₈ tension).
+
+Cumulative: 33 audit/governance + 1 post-hoc amplitude disfavoring (was "2 executed refutations"; TEST-04a sign-reversal retracted) + novel-survivor 0 + 2 foundational-tension proofs (S665, S666) + 1 synthesis (S667). "One transferable physics contribution" WITHDRAWN; A2ACW methodology null is the sole exportable output.
+
+Full analysis: `Research/Session668_TEST04a_SignReversal_Recheck.md` | Insight: `private-context/insights/2026-05-25_check_the_datum_not_the_narrative.md`
 
 ### Session 667: The Time-Order Trilemma (2026-05-25)
 

@@ -1,3 +1,5 @@
+> **⚠️ CORRECTION (S668, 2026-05-25)**: The "transferable contribution" claimed here — *suppressor frameworks predict wrong-sign fσ₈, ruled out by DESI* — **evaporates**. It rested on a non-existent fσ₈ enhancement (mis-transcribed LRG1 value; contradicted by DESI's γ=0.580±0.110). There is no wrong-sign result to generalize. The sole surviving exportable output is the A2ACW methodology null result. See `Session668_TEST04a_SignReversal_Recheck.md`.
+
 # Session 656: TEST-04a Reframing — Mechanism-Class Constraint as Contribution
 
 **Date**: 2026-05-16

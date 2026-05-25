@@ -1,3 +1,5 @@
+> **⚠️ CORRECTION (S668, 2026-05-25)**: The "sign reversal / low-z enhancement" in this session is **retracted**. The cited DESI LRG1 fσ₈ ≈ 0.55 came from a mis-transcribed ShapeFit ratio (1.16, internally inconsistent with LRG1's own σ₈=0.835 and identical to QSO's value); DESI's verified growth index γ = 0.580 ± 0.110 shows *no* enhancement. What survives is **not** a sign reversal but a ~2.4σ disfavoring of Session 107's σ₈(z=0)=0.76 on **amplitude** (DESI σ₈=0.841±0.034), post-hoc. See `Session668_TEST04a_SignReversal_Recheck.md`.
+
 # Session 645: Session 107 fσ₈ Prediction REFUTED by DESI DR1
 
 **Date**: 2026-05-07
