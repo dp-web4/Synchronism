@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-24 (Session 665 — CFD reframing foundational tension: N-S identity ⊥ vortex phenomenology)*
+*Last updated: 2026-05-24 (Session 666 — dissipative substrate ⊥ unitary ontology; the Schrödinger "derivation" inserts i and switches the substrate off)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 666: Dissipative Substrate ⊥ Unitary Ontology (2026-05-24)
+
+**Direct follow-on to S665 (temporal half of the same structural fact). Not proposal-driven — queue empty. Stressed prompt Tension #4 (oscillation basis vs substrate) + #5 (what is protected). Target: FUNDAMENTALS.md internal contradiction + the two Schrödinger "derivations" (S99, S307).**
+
+**The contradiction, both halves in FUNDAMENTALS.md**: Foundations 1&3 — substrate is a REAL scalar I∈[0,I_max] evolving by saturation-limited diffusion ∂I/∂t=∇·[D·R(I)·∇I], DISSIPATIVE (real non-positive eigenvalues, arrow of time, no phase); R(I) is "THE mechanism that makes pattern existence possible." Core Definitions — existence IS oscillation: entity=recurrence, f=E/h (de Broglie), interaction=phase-locking → requires UNITARY (Schrödinger) dynamics. **Mutually exclusive dynamical classes.**
+
+**The bridge is `i`, inserted by hand, with the substrate switched off**: S307 update rule (doc line 48 / code session307…py line 129 `psi+=dt*(1j*D*lap-1j*V*psi)`) — the `i` is in the rule, R(I) is ABSENT; it's the textbook Schrödinger FD scheme with D relabeled. S99 — Axiom 3 POSITS oscillation ω=E/ℏ (Hamilton-Jacobi), Axiom 4 posits complex `i`, result holds only "in the non-dissipative limit D→0" (switches diffusion off). The two derivations even disagree on the kinetic term's origin (S307: imaginary diffusion iD∇², D=ℏ/2m; S99: phase-gradient (∇φ)²/2m with D→0). Neither derives oscillation from the transfer rule.
+
+**Numerical (`session666_dissipative_vs_unitary.py`)**: (A) same Laplacian, real diffusion exp(−Dk²t) decays (|amp|<1) vs Schrödinger exp(−iDk²t) oscillates (|amp|=1) — differ only by i. (B) real rule: L² monotone decay 0.086→0.027, no oscillation; Schrödinger: norm conserved 1.0, phase winds. (C) D→0 freezes substrate (center moves exactly 0) — "non-dissipative limit" yields ZERO substrate dynamics; all quantum motion comes from the posited phase axiom.
+
+**Steelman addressed**: complex Intent (A4) doesn't rescue it — R(I) is defined on real magnitude and is dissipative; adding R to Schrödinger breaks unitarity (Gross-Pitaevskii-like damping); both derivations confirm the split by removing amplitude dynamics. Unification is nominal — substrate scale uses real diffusion, quantum scale uses imaginary diffusion with substrate off; they're switched between, not unified. This is the epicycle Foundation 4 warns against.
+
+**Pairs with S665** (spatial/temporal halves of one fact): the real saturation-limited scalar diffusion supports NEITHER vortices (S665, ∇×v≡0) NOR oscillation (S666, dissipative). Both bridged by importing exactly the missing standard-physics piece (rotational velocity field; quantum i) while switching the substrate's own features off. Stronger than "quantum arc is reparametrization" (S581/S655): the quantum dynamics cannot live on the substrate at all.
+
+**Classification**: foundational-tension proof, family of S617-627 demolition + Sessions 19-26 entity-impossibility. NOT a reparam audit.
+
+Cumulative: 33 audit/governance + 2 executed refutations + novel-survivor 0 + **2 foundational-tension proofs** (S665 N-S identity ⊥ vortices; S666 dissipative ⊥ unitary).
+
+Full analysis: `Research/Session666_Dissipative_Substrate_Cannot_Host_Unitary_Oscillation.md` | Insight: `private-context/insights/2026-05-24_dissipative_vs_unitary.md`
 
 ### Session 665: CFD Reframing Foundational Tension — N-S Identity ⊥ Vortex Phenomenology (2026-05-24)
 
