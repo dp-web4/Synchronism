@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-24 (Session 666 — dissipative substrate ⊥ unitary ontology; the Schrödinger "derivation" inserts i and switches the substrate off)*
+*Last updated: 2026-05-25 (Session 667 — the time-order trilemma: saturation, undamped oscillation, and causality require three incompatible PDE classes)*
 
 ---
 
@@ -319,6 +319,35 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 667: The Time-Order Trilemma (2026-05-25)
+
+**Deliberately NOT a third "substrate can't do X" — flagged the demolition-attractor risk and instead asked WHY S665/S666 keep happening. One root: the transfer rule is first-order-in-time and parabolic. Synthesis + new causality leg + the framework's one forced prediction.**
+
+**The trilemma**: three foundational demands require three INCOMPATIBLE PDE classes. Saturation/arrow-of-time (Foundation 3) → dissipative parabolic. Stable de Broglie entities (Core Definitions) → UNDAMPED oscillation (unitary/wave). c-as-light-cone (substrate) → finite speed (hyperbolic, 2nd-order in time). No single linear evolution equation satisfies all three.
+
+| equation | saturation | undamped oscillation | finite-speed cone |
+|---|:-:|:-:|:-:|
+| transfer rule (parabolic) | ✓ | ✗ | ✗ |
+| Schrödinger (unitary) | ✗ | ✓ | ✗ (infinite speed) |
+| wave (hyperbolic) | ✗ | ✓ | ✓ |
+| telegrapher (damped) | ✓ | ✗ (damped) | ✓ |
+
+**NEW leg — causality** (distinct from S641's lattice-anisotropy point): the DISCRETE rule is causal (nearest-neighbor → strict light cone, 1 cell/tick = ℓ_P/t_P = c; sim Part A confirms nothing propagates beyond c0+t). But its CONTINUUM limit (the diffusion PDE the framework uses for Schrödinger/N-S/C(ρ)) is ACAUSAL: heat kernel >0 everywhere instantly (sim Part B: nonzero at 2× cone distance for all t — parabolic = infinite speed). So "c emerges from one cell/tick" holds for the discrete rule and is DESTROYED by the continuum limit. Discrete rule = causal but sterile (S665/S666: only relaxes); continuum = generative but acausal. Can't have both.
+
+**Binary core (sharpens S666)**: a stable entity is an UNDAMPED oscillator (conserves energy); the substrate is dissipative (loses it). Undamped + dissipative is contradictory — damping IS dissipation of the oscillation. Logically prior to S666's i-insertion.
+
+**Telegrapher = the framework's own 2-DOF hack**: the unique single equation that is causal+dissipative+oscillatory is the damped wave (sim Part C: finite front + oscillates + amplitude 0.73→0.18 DAMPED). This IS what the 2-DOF momentum extension (Sessions 17-22) built, and S17 already found its oscillation damps ("amplitude decays 0.3→0.001"). The trilemma explains why that was inevitable: damped → no stable entities. Building on the operator's result, not against it.
+
+**Forward edge (the one forced prediction)**: if the framework wants a real light cone it MUST go hyperbolic-on-a-lattice → trans-Planckian dispersion (its own P307.1). This is the one first-principles-FORCED novel prediction. Honest caveats: (1) generic to ALL discrete-spacetime programs (LQG, causal sets, DSR) — not unique to Synchronism; (2) observationally disfavored in simplest linear-in-E form (Fermi-LAT GRB timing → E_QG > E_Planck). Forced, but neither unique nor confirmed.
+
+**Frame answer (Tension #5)**: the protected assumption is that ONE substrate rule can be dissipative, oscillatory, AND causal at once. It can't — three different equations. The framework's three foundational commitments are a choose-two-of-three, and it has silently chosen differently in different contexts. Escape routes all cost a foundation (enumerated in full doc).
+
+**Classification**: unifying synthesis, not a reparam audit and not an isolated new tension — organizes S665/S666 under the time-order of the PDE, adds causality, surfaces the forced prediction.
+
+Cumulative: 33 audit/governance + 2 executed refutations + novel-survivor 0 + 2 foundational-tension proofs (S665, S666) + 1 unifying synthesis (S667).
+
+Full analysis: `Research/Session667_Time_Order_Trilemma.md` | Insight: `private-context/insights/2026-05-25_time_order_trilemma.md`
 
 ### Session 666: Dissipative Substrate ⊥ Unitary Ontology (2026-05-24)
 
