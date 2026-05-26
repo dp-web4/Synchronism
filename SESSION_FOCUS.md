@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-25 (Session 668 — TEST-04a "sign reversal" retracted as a transcription error; what survives is a ~2.4σ σ₈ amplitude disfavoring)*
+*Last updated: 2026-05-25 (Session 669 — chemistry "r=0.98" null executed: it's the Debye model relabeled, Δr=0 exactly; corrects S651, confirms S647)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 669: Chemistry "r=0.98" Null Executed — Debye Model Relabeled (2026-05-25)
+
+**Chose NOT to do a 5th substrate-demolition (demolition-attractor risk flagged in S667). Queue empty. Applied S668's discipline (re-derive the datum) to the one concrete recommended-but-never-run analysis: S651's chemistry null comparison. Tension #3 made concrete.**
+
+**Result (exact, not statistical)**: The framework DEFINES γ_phonon ≡ 2T/θ_D (Framework_Summary lines 179/184/428). So 1/γ_phonon = θ_D/(2T), a positive-linear function of θ_D, and Pearson r(X, 1/γ_phonon) = r(X, θ_D) **exactly, for any property X**. Sim `session669_chemistry_debye_null.py`: r(sound velocity, θ_D) = r(sound velocity, 1/γ_phonon) = 0.9747, difference 3.3e-16 (machine precision); identical even for random X. The framework's own line 519 reports BOTH "v_D vs θ_D: r=0.982" AND "v_D vs 1/γ_phonon: r=0.982" as two separate "EXCELLENT validations" — the identical numbers are the tell. γ_phonon carries ZERO information beyond θ_D.
+
+**"v vs θ_D" IS the Debye model (1912)**: θ_D = (ℏ/k_B)(6π²n)^(1/3)·v_D, so θ_D ∝ v·n^(1/3); on 13 elements, Debye-predicted θ_D vs measured r=0.99 (the ~0.73 metal ratio = known longitudinal-vs-Debye-mean velocity factor). The heat-capacity correlation is even labeled "r=−0.988 **Debye**" in the source. Atomic volume (V_a vs γ_phonon r=0.956) enters via n=1/V_a inside the same Debye formula.
+
+**Δr(Synchronism − Debye) = +3e-16 ≈ 0, EXACTLY** — not S651's guessed "tie or marginal win," and against the correct null (Debye model), not S651's wrong null (polynomial-in-Z; the properties are periodic in Z, not monotonic — atomic volume is the canonical Lothar-Meyer periodic property, so poly-in-Z would do poorly).
+
+**Settles**: (1) CONFIRMS S647 (self-correlation) with the exact mechanism — γ_phonon is a definitional relabeling of the Debye temperature; self-correlation is an identity (Δr=0 to 16 digits), not approximate. (2) CORRECTS S651 — wrong null premise (false Z-monotonicity), wrong predicted outcome; the executed version ties the Debye model exactly. (3) Answers Tension #3 concretely: "89% validated against what?" → against the Debye model and kindred textbook relations the coherence variables relabel. The "predict something genuinely new" bar is not cleared; the correlations recover 1912 physics.
+
+**SCOPE (honest)**: addresses the r≈0.98 phonon-property network (sound velocity, heat capacity, elastic modulus, thermal expansion, atomic volume — all built on γ_phonon=2T/θ_D, exactly what S647/S651 named). Does NOT address the separate, looser "γ~1 boundary" pattern across ~800 phenomenon types — untouched, needs its own executed audit.
+
+**Pattern (3rd time)**: S668 corrected S645 (sign reversal = transcription artifact); S669 corrects S651 (wrong null, un-run computation). Both prior sessions audited a framing and asserted a number-shaped conclusion without deriving it. Audit-channel failure mode: arguing about numbers instead of computing them. Fix: when a session says "the null would tie" or "data shows enhancement," compute the number. Closes S647/S651 chemistry pair by execution (as S661 closed galaxy, S668 corrected cosmology).
+
+Cumulative: 34 audit/governance (S669 executes+corrects S647/S651) + 1 executed refutation (RAR γ=2, S661) + 1 post-hoc amplitude disfavoring (TEST-04a, S668) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667).
+
+Full analysis: `Research/Session669_Chemistry_Debye_Null_Executed.md` | Insight: `private-context/insights/2026-05-25_chemistry_is_debye_relabeled.md`
 
 ### Session 668: TEST-04a Sign-Reversal Re-Check — Transcription Error, Both Sides Overreached (2026-05-25)
 
