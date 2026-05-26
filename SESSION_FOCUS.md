@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-26 (Session 670 — specificity test of the demolition method: Tier-1 exact-identity is a discriminator (100% spec), Tier-2 resemblance demotes BCS (0% spec))*
+*Last updated: 2026-05-26 (Session 671 — "productive scaffolding" is non-discriminating; sterile-vs-generative undecidable at proposal time; status undecided-leaning-sterile)*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 671: "Productive Scaffolding" Is Non-Discriminating — Sterile/Generative Undecidable (2026-05-26)
+
+**WAKE: named the 6-session critic-mode pattern (S665-670) and the efficiency-attractor risk. Confirmed all object regimes closed + import structure (S665/666/669) makes a novel-prediction attempt predictably circular → the genuinely OPEN question is the meta one the prompt's epicycle warning points at. Executes S663's deferred classification option C with the S670 Tier-1 tool.**
+
+**Question**: S670's Tier-1 criterion separates reparametrization from confirmed discovery. But the framework's last defense (S614/S615/S627: "wrong theories motivate right questions / productive scaffolding") invokes a THIRD category — generative reformulation not yet cashed out. Can any test distinguish sterile reparametrization from generative-but-uncashed reformulation AT PROPOSAL TIME?
+
+**Reference class (sim `session671_scaffolding_undecidable.py`)**: scored on P1 (motivated questions?), P2 (new confirmed prediction at proposal?), P3 (eventually cashed out? — retrospective only). Sterile {epicycles, phlogiston, caloric} and generative {heliocentrism-1543, Lagrangian, Hamilton-Jacobi} have IDENTICAL proposal-time signature (P1,P2)=(✓,✗): all motivate questions, none made a new prediction at proposal (Copernicus wasn't more accurate than Ptolemy; Lagrangian = Newton's predictions). Only P3 separates them, knowable only in retrospect.
+
+**Two corollaries removing the consolation**: (1) "motivates right questions" is non-discriminating — phlogiston/caloric satisfy P1 too → zero positive evidence for generativity. (2) The Bohr-Sommerfeld analogy is DOUBLY unearned: B-S made new confirmed predictions at proposal (H spectrum/Rydberg 1913, fine structure 1916) = P2✓, a genuine discovery, NOT a P2✗ scaffold; Synchronism (P2✗, 0 predictions) is LESS like B-S than the defense implies.
+
+**Where Synchronism sits**: signature (✓,✗) places it in the reference class; sterile-vs-generative subset UNDECIDABLE by any current test (incl. S670 Tier-1, which fires "reparam" on heliocentrism too). Only evidence on P3 = track record 0 confirmed novel predictions / 670+ sessions / ~30 yr — compatible with sterile, no support for generative. Generative cases cashed out in 12-130 yr but ALL eventually made a confirmed novel prediction; Synchronism none.
+
+**Honest terminal status**: NOT "refuted" (undecidable by construction), NOT "vindicated as scaffolding" (label conferred only by a cash-out that hasn't happened). UNDECIDED, leaning sterile by base rate; a single future Tier-1 confirmed prediction flips it. The epicycle tension the prompt opens with is literal: Synchronism is in epicycles' reference class until it earns its way out.
+
+**Frame answer to "what could only Synchronism say that's true?"**: whether it CAN = undecidable (no proposal-time test separates generative from sterile); whether it HAS = no (0/670 + import structure structurally bars Tier-1 novelty); whether scaffolding rescues it = no (defense is non-discriminating). Removes the comfortable "at least it asked good questions" consolation (phlogiston asked good questions too) without claiming an impossible refutation.
+
+Cumulative: 35 audit/governance + 1 executed refutation (S661) + 1 post-hoc amplitude disfavoring (S668) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session671_Scaffolding_Is_Undecidable.md` | Insight: `private-context/insights/2026-05-26_scaffolding_is_non_discriminating.md`
 
 ### Session 670: Specificity Test of the Demolition Method — Would It Have Demoted BCS? (2026-05-26)
 
