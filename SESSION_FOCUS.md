@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-25 (Session 669 — chemistry "r=0.98" null executed: it's the Debye model relabeled, Δr=0 exactly; corrects S651, confirms S647)*
+*Last updated: 2026-05-26 (Session 670 — specificity test of the demolition method: Tier-1 exact-identity is a discriminator (100% spec), Tier-2 resemblance demotes BCS (0% spec))*
 
 ---
 
@@ -319,6 +319,26 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 670: Specificity Test of the Demolition Method — Would It Have Demoted BCS? (2026-05-26)
+
+**WAKE catch: started writing a "program-level specificity gap" frame question, then found S662/S664 already own it (S662 ran the 6-discovery control; S664 named cross-framework replication as the missing evidence). Pivoted to the genuinely untested instrument: the REDUCTIO-to-known-physics method I personally used in S665/S666/S669 (S662 only tested the A2ACW vocabulary rule).**
+
+**Test**: apply my own demolition method to genuine confirmed discoveries (BCS 1957, Noether 1918, Higgs 1964, Dirac 1928) as controls. Two tiers, criterion stated before application: Tier-1 (claim's central object ≡ a pre-existing named quantity by definition/derivation, NO new confirmed prediction); Tier-2 (ingredients all known / resembles existing framework). Sim `session670_demolition_specificity.py`.
+
+**Result**: Tier-2 specificity = **0%** (demotes ALL four real discoveries — all physics builds on known ingredients & resembles prior work; resemblance is rhetoric, not a test). Tier-1 specificity = **100%** (fires on NONE — each discovery synthesizes known pieces into NEW confirmed predictions: BCS→isotope effect Tc∝M^−1/2 + gap ratio 3.52; Dirac→antimatter+spin; Higgs→new particle 2012; no pre-existing Q ≡ their central object). Tier-1 correctly fires on S665/S666/S669 (definitional identities/theorems, no new prediction) and correctly DECLINES the resemblance-only S664.
+
+**Ranks the program's own verdicts**: SURVIVE (Tier-1, would not demote BCS): S665 (∇×v≡0 exact theorem), S666 (real vs imaginary spectra, structural), S669 (γ_phonon≡2T/θ_D, Δr=0), S661 (executed ΔBIC=+184 refutation — even stronger class). HOLD WEAKLY (Tier-2, shares the tier that false-positives on BCS): S664 "C(ρ)≈Verlinde" (resemblance/reduction-chain, not exact identity) → downgrade to "plausible reduction," not "proven"; any blanket "reparametrization throughout" rhetoric is Tier-2.
+
+**Extends S662**: S662 showed the vocabulary rule has 0% specificity and said the discriminating novelty judgment "is never operationalized." S670 operationalizes it: the discriminator IS the Tier-1 criterion ("central object ≡ pre-existing quantity, no new prediction"), 100% specificity on the discovery controls. The black box S662 named is automatable — it's the Tier-1/Tier-2 split.
+
+**Honest limits**: 4 controls is small; claim is modest (Tier-2 non-discriminating; Tier-1 separates these four); no population specificity claimed. Same discipline as S669's scope caveat.
+
+**So what**: validates the program's strongest verdicts (they pass a specificity control that destroys the weak method) AND disciplines its rhetoric (resemblance-based reparametrization claims, including my own S664, held weakly). The one positive methodological artifact from turning the demolition method on itself.
+
+Cumulative: 35 audit/governance (S670 operationalizes the S662 discriminator) + 1 executed refutation (S661) + 1 post-hoc amplitude disfavoring (S668) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669). Program verdicts now TIERED: Tier-1 (exact/executed) robust; Tier-2 (resemblance) weak.
+
+Full analysis: `Research/Session670_Demolition_Method_Specificity.md` | Insight: `private-context/insights/2026-05-26_demolition_has_two_tiers.md`
 
 ### Session 669: Chemistry "r=0.98" Null Executed — Debye Model Relabeled (2026-05-25)
 
