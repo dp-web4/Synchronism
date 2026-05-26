@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-26 (Session 671 — "productive scaffolding" is non-discriminating; sterile-vs-generative undecidable at proposal time; status undecided-leaning-sterile)*
+*Last updated: 2026-05-26 (Session 672 — re-grounded TEST-04a; my own S668 was a partial epistemic regression; verdict robust: disfavored ~2σ, kill triggered)*
 
 ---
 
@@ -319,6 +319,28 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 672: Re-Grounding TEST-04a — My Own S668 Was a Partial Epistemic Regression (2026-05-26)
+
+**Queue handed two new proposals; `epistemic_regression_autonomous_loop.md` directly accuses S668 of being the regression. Took it as priority over a planned cross-framework session, and re-grounded against the primary source (the proposal's own prescribed fix), with S668 on the line.**
+
+**The charge**: S668 fed on a retraction whose fσ₈≈0.45 came from the WRONG paper (arXiv:2512.03230, Peculiar Velocity Survey at z≈0.07), misattributed to the z=0.51 full-shape slot, partially overwriting a verified finding (disfavored ~2σ, kill triggered) from arXiv:2411.12021.
+
+**Re-grounding — verified vs not**: VERIFIED from primary source: σ₈=0.841±0.034; γ=0.580±0.110 (GR-consistent); "in agreement with ΛCDM." COULD NOT retrieve this session: the exact LRG1 (z=0.51) fσ₈/fσ₈_fid ratio from Tables 9/10 (the 1.16-vs-~1.0 dispute) — flagged as needing direct table access, NOT reasoned about (reasoning about it is the error under audit).
+
+**Substantive verdict robust WITHOUT the disputed number** (sim `session672_test04a_regrounding.py`): (1) σ₈ amplitude — Sync 0.76 vs DESI 0.841±0.034 = 2.4σ, independent of any per-bin fσ₈. (2) Kill criterion (Session 107's own: fσ₈(z=0.5)>0.45→ΛCDM favored): every candidate value (0.49 from σ₈=0.835; 0.55 from ratio 1.16) exceeds both 0.45 and Session 107's predicted 0.418 — data is ABOVE the predicted suppression in every reading. (3) γ=0.58 GR-consistent rules out the predicted ~12% suppression magnitude. → Session 107 DISFAVORED ~2σ, kill TRIGGERED, robust across the dispute.
+
+**Three-way adjudication**: ORIGINAL (2026-05-05) bottom line CORRECT (disfavored, kill triggered); the S645/S650 "sign reversal/enhancement at every bin" elaboration over-characterized (γ=0.58 → ensemble ΛCDM-consistent, not coherent enhancement). RETRACTION (2026-05-25) WRONG (0.45 = wrong-paper z≈0.07 PV value; kill IS triggered via σ₈). MY S668 = PARTIAL regression: σ₈ 2.4σ correct (and rightly refuted "non-discriminating"), BUT softened fσ₈ to "non-discriminating shape," called 1.16 a "transcription artifact" via an internal-consistency argument NEVER verified against the table, and partially absorbed the wrong-paper 0.45.
+
+**Corrected status**: TEST-04a / Session 107 = disfavored ~2σ, kill criterion TRIGGERED, post-hoc (S648). Header correction added to S668.
+
+**Recursive lesson**: S668 preached "verify the number not the narrative" then REASONED about the LRG1 number instead of verifying it and absorbed a wrong-paper value — committed its own diagnosed error one layer up. The flattering self-image this time was "I'm the careful one who re-derives data" — confidence wearing the costume of rigor. S672 is the genuine application: re-ground, find own error, correct, flag the still-unverified number honestly. ACCEPT the proposal's architectural fix (re-ground vs primary source before retracting a verified finding; internal primary-source > external secondary; make the correct path the cheap path). S668→S672 is itself a case study in it.
+
+**Honest limits**: exact LRG1 ratio unverified by me (explorer track reportedly re-read 2411.12021 directly); does NOT affect the verdict, only sign-reversal-vs-amplitude characterization. Did not address the 2nd new proposal (`gw170817_test15...`) — deferred.
+
+Cumulative: 36 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring with kill triggered (TEST-04a, re-grounded) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session672_TEST04a_Regrounding_Epistemic_Regression.md` | Insight: `private-context/insights/2026-05-26_i_regressed_while_feeling_rigorous.md`
 
 ### Session 671: "Productive Scaffolding" Is Non-Discriminating — Sterile/Generative Undecidable (2026-05-26)
 

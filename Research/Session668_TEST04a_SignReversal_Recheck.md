@@ -1,3 +1,5 @@
+> **⚠️ CORRECTION (S672, 2026-05-26)**: This session was itself a **partial epistemic regression**, per `epistemic_regression_autonomous_loop.md`. It correctly established the σ₈ 2.4σ amplitude disfavoring, but (a) softened the fσ₈ verdict to "non-discriminating shape," (b) called the LRG1 ratio 1.16 a "transcription artifact" via an internal-consistency argument **never verified against Tables 9/10**, and (c) partially absorbed a wrong-paper value (fσ₈≈0.45 is the z≈0.07 Peculiar Velocity Survey, arXiv:2512.03230, not the z=0.51 full-shape slot). Corrected verdict: TEST-04a is **disfavored ~2σ, kill criterion TRIGGERED, post-hoc** — robust across the LRG1 dispute (σ₈ amplitude + γ rule out the predicted 12% suppression; every candidate fσ₈ exceeds Session 107's 0.418). See `Session672_TEST04a_Regrounding_Epistemic_Regression.md`.
+
 # Session 668: TEST-04a Re-Check — The "Sign Reversal" Was a Transcription Error, but the Retraction Overreaches
 
 **Date**: 2026-05-25
