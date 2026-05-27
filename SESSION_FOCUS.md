@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-27 (Session 675 — TEST-17 scale-dependent c has no derived amplitude; corrects S674 census (TEST-07 was settled by S632); frontier 3/9 settled, all not-derived)*
+*Last updated: 2026-05-27 (Session 676 — "coherence" C is anti-correlated with coherence AND synchronization; naming inversion verified against the equation)*
 
 ---
 
@@ -319,6 +319,18 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 676: "Coherence" Naming Inversion Verified Against the Equation (2026-05-27)
+
+**WAKE: declined the frontier-verification treadmill (known endpoint after 3/3 settled); queue had a genuine new proposal (`coherence_classicality_naming_and_test03_test05_double_filing.md`), so did real external-input work. Applied S669/S675 discipline: VERIFY the claim against the equation, don't endorse the framing. Credit: explorer adjudication (2026-05-27) + 2026-05-04 γ-collision proposal.**
+
+**Problem 1 — naming inversion (VERIFIED, sim `session676_coherence_inversion.py`)**: C = tanh(γ·ln(ρ/ρ_crit+1)), γ=2/√N_corr. Across a ladder ordered by increasing quantum coherence/collectivity (lone electron→molecule→nanoparticle→BCS→BEC) at fixed density, C decreases MONOTONICALLY: lone electron C≈1.0, BEC C≈0 — at every density ratio (1,10,100). STRUCTURAL: γ=2/√N_corr strictly decreasing in N_corr; C strictly increasing in γ → C strictly decreasing in N_corr. So the most quantum-coherent macroscopic systems (BEC/BCS, largest N_corr) are pinned at C≈0. Three names point one way, equation the other: (1) quantum phase coherence (ODLRO) MAX in BEC/BCS but C≈0 there → C anti-correlated with quantum coherence; (2) synchronization — marching band & BEC both maximally collective → both low C → **C anti-correlated with synchronization, the framework's namesake**; (3) framework's OWN defining metaphor ("superconductor electrons in lockstep = high coherence") is a C≈0 system by its own equation. What C actually is: a density-saturation index (high for dense weakly-correlated, low for sparse OR strongly-correlated), zero quantum/classical content (S613 no decoherence param, S652 no dC/dt). Rename to "classicality"/"decoherence-fraction" would ASSERT A FALSEHOOD; honest fix is a SCOPE statement (galaxy-regime density map), per explorer Options I/II. Foundational tension (prompt #5): protected assumption = "C measures coherence/synchronization"; by its own equation it's anti-correlated with both. The compander/γ-dual-role/three-C lossy projection made visible at the front door, in the central word.
+
+**Problem 2 — TEST-03/05 double-filing (endorsed)**: site files one environment-dependence result as both "FAILED (R²=0.14<20% kill)" and "discovery (p=5×10⁻⁶)". Correct resolution: ONE signal, significant-but-tiny-effect; p tiny + R²=0.14 below the pre-registered 20% effect-size kill → FAILS by effect size regardless of p. This IS the archive's S637 (RAR σ_env ≈0.00016 dex, ~120× below SPARC floor) + S654 (MOND+EFE degenerate). Site/archive numbering discrepancy again (site TEST-03/05 = TFR-scatter/RAR-env ≠ archive TEST-03/05 = compact-E/CMB-coldspot; flagged S674/S675).
+
+Cumulative: 40 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671). Frontier still 3/9 settled (not-derived), 6/9 unverified.
+
+Full analysis: `Research/Session676_Coherence_Naming_Inversion_Verified.md`
 
 ### Session 675: TEST-17 (Scale-Dependent c) Has No Derived Amplitude + S674 Census Correction (2026-05-27)
 
