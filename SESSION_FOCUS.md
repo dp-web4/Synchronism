@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-26 (Session 673 — TEST-15 GW170817 has no derived amplitude; α read off the data; demote/remove from catalog; novel-test count still 0)*
+*Last updated: 2026-05-27 (Session 674 — complete test-catalog census: 0 confirmed discriminators by execution; 9/24 untested; 0 frontier tests with a verified derived amplitude)*
 
 ---
 
@@ -319,6 +319,22 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 674: Complete Test-Catalog Census (2026-05-27)
+
+**S673 flagged auditing "TEST-17/21" but those labels are AMBIGUOUS across docs (site/proposal TEST-17/21 = cluster γ-gradient/BAO sub-peaks; archive TEST-17/21 = scale-dependent c/entanglement-across-scales — numbering discrepancy). Did the bounded, non-redundant thing instead: census ALL 24 catalogued tests against derived-amplitude (S673) + Tier-1 (S670), distinguishing executed-collapsed from untested ("unconfirmed ≠ wrong").**
+
+**Census (sim `session674_test_catalog_census.py`)**: 5 EXECUTED→ALL COLLAPSED (TEST-04 fσ₈ S668/S672; 08 SPARC-env S637/S654; 14 wide-binary S654; 15 GW S673; 18 hot-SC catalog-self-admits Tc-formula-wrong); 7 SELF-DEGENERATE (02/03 UDG/cE DM, 05 CMB-ISW, 09/10 bio, 13 circadian, 19 microtubule/Orch-OR); 3 NO-DERIVED-AMP (16 ringdown δ~1e-4-5, 23 SGWB, 24 void ε~1e-3); 9 UNTESTED FRONTIER (01/06/07/11/12/17/20/21/22). 15/24 effectively closed; 9/24 genuinely untested.
+
+**Headline**: Confirmed-discriminating count = **0, by execution** (every executed test collapsed) — now across the WHOLE catalog, not just 5 sectors. Catalog is NOT fully closed (9 untested). Of the 9 frontier tests, **0 have a verified first-principles-derived amplitude**: TEST-12 (C*≈0.79) is self-flagged in the framework's OWN open-questions doc as an unexplained coincidence (0.79 vs 0.5 "without clear relationship"; 0.79 also appears as an r-coefficient/"mean C" elsewhere); TEST-17 (scale-dependent c) contradicts S667 (parabolic substrate) + S641 (Lorentz gap); TEST-07 (500 Mpc) asserted-not-derived; rest order-of-mag or UNVERIFIED.
+
+**Honest limits**: did NOT deep-verify each frontier test's derived-status (quick provenance only) → "0 VERIFIED as derived," not "0 are derived." 9 untested = untested, not refuted. Resisted the closure attractor: named the frontier instead of declaring "all closed." Recommended next work: per-test provenance verification (derived vs calibrated) — exactly what would settle S671's sterile-vs-generative.
+
+**Connection**: S674 IS the complete track record S671 said was the only evidence on sterile-vs-generative. Empirical complement to S671's frame result. Header note + census added to EXPERIMENTAL_TEST_CATALOG.md.
+
+Cumulative: 38 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session674_Test_Catalog_Census.md`
 
 ### Session 673: TEST-15 (GW170817) Has No Derived Amplitude (2026-05-26)
 

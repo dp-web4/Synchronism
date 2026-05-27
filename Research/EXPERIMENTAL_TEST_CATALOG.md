@@ -1,3 +1,5 @@
+> **CENSUS (S674, 2026-05-27)**: Complete per-test status against the derived-amplitude (S673) and Tier-1 (S670) discriminators — see `Session674_Test_Catalog_Census.md`. Result: **5 executed → all collapsed** (TEST-04/08/14/15/18), **7 self-admitted degenerate** (02/03/05/09/10/13/19), **3 no-derived-amplitude** (16/23/24), **9 genuinely untested** (01/06/07/11/12/17/20/21/22). Confirmed-discriminating count = **0, by execution**. Of the 9 untested, **0 have a verified first-principles-derived amplitude** (TEST-12's C*≈0.79 is self-flagged in the OQ docs as an unexplained coincidence; TEST-17's scale-dependent c contradicts S667/S641). The catalog is **not fully closed** — 9 untested remain ("unconfirmed ≠ wrong") — but every executed test collapsed and no frontier test has a verified derived amplitude. **Numbering note**: site/proposal TEST-17/21 labels ("cluster γ-gradient", "BAO sub-peaks") do NOT match this archive's TEST-17 (scale-dependent c) / TEST-21 (entanglement across scales).
+
 # Synchronism: Experimental Test Catalog
 
 **Date**: 2026-02-20
