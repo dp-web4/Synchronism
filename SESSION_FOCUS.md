@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-27 (Session 674 — complete test-catalog census: 0 confirmed discriminators by execution; 9/24 untested; 0 frontier tests with a verified derived amplitude)*
+*Last updated: 2026-05-27 (Session 675 — TEST-17 scale-dependent c has no derived amplitude; corrects S674 census (TEST-07 was settled by S632); frontier 3/9 settled, all not-derived)*
 
 ---
 
@@ -319,6 +319,20 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 675: TEST-17 (Scale-Dependent c) Has No Derived Amplitude + S674 Census Correction (2026-05-27)
+
+**Executed S674's recommended next step (per-test frontier provenance verification). WAKE-catch: went to start with TEST-07 (500 Mpc) but found `Session632_500Mpc_Derivation_Audit.md` ALREADY settled it (not derived — dimensionally inconsistent). So my S674 census ERRED marking TEST-07 "unverified" — owned and corrected (same reason-don't-check failure mode I keep diagnosing, now in my own census one session later).**
+
+**TEST-17 provenance (sim `session675_test17_scale_c_provenance.py`)** — catalog's other "MAXIMUM distinguishing power" flagship, formula `c_eff(κ)=c_0(1+α·ln(κ/ℓ_P)), α~10⁻⁵`, predictions atomic −17 / solar +33 / galactic +39 km/s: (1) numbers DON'T follow from the formula — it gives +171/+323/+378 km/s (all positive since κ≫ℓ_P; wrong sign for atomic; ~10× too large); (2) the three points are NOT collinear in ln(κ) (slopes 0.99 vs 0.33 km/s/e-fold, differ 3×) → no single log law yields them → picked, not derived; (3) claimed 60 km/s = Δc/c~2×10⁻⁴ excluded by Lorentz tests ~11 OOM, and "scale-measured c" conflicts with c being SI-defined since 1983; (4) contradicts framework's OWN S667 (parabolic substrate → infinite speed, no finite c) + S641 (Lorentz gap). VERDICT: not derived — same failure mode as S632's 500 Mpc.
+
+**Updated frontier tally**: of 9 untested frontier tests, 3 now settled (ALL not derived) — TEST-07 (S632, dimensional), TEST-12 (S674, self-flagged coincidence), TEST-17 (S675); 6 genuinely unverified (TEST-01/06/11/20/21/22). Census headline unchanged & better-supported: 0 frontier tests with verified derived amplitude; 0 confirmed discriminators by execution. Honest: did NOT over-generalize to the 6 unchecked.
+
+**Both catalog flagship "unique/MAXIMUM" tests (TEST-07, TEST-17) now shown to have PICKED, not derived, amplitudes.** Recursive discipline point: S674 census committed the very error it catalogued (asserted "unverified" without checking S632) — caught/corrected within one session. Catalog census header corrected.
+
+Cumulative: 39 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session675_TEST17_Scale_C_No_Derived_Amplitude.md`
 
 ### Session 674: Complete Test-Catalog Census (2026-05-27)
 
