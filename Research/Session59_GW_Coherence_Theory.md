@@ -1,3 +1,5 @@
+> **⚠️ SUPERSEDED (S673, 2026-05-26)**: TEST-15 / Prediction 1 (the GW-speed propagation claim `c_g/c = 1 + α(1−⟨C⟩_LOS)`, §3.1) is **not a discriminating test**. The amplitude α is *read off* GW170817 (§3.1: "α ~ 10⁻¹⁵ from GW170817 constraint"), not derived — no independent prediction, no floor. If α tracked the same coherence physics as the dark-matter mechanism (line: `c_g/c = 1 + α·f_DM`), α~O(1), excluded by GW170817 at ~15 OOM. This Case-1 propagation claim also contradicts Session 642's canonical Case-3 position ("framework makes no GW propagation claim"). Demoted to exploratory / removed from the discriminating-test catalog. See `Session673_TEST15_GW_No_Derived_Amplitude.md`.
+
 # Session #59: Gravitational Wave Signatures from Coherence Dynamics
 
 **Date**: 2025-11-28

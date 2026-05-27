@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-26 (Session 672 — re-grounded TEST-04a; my own S668 was a partial epistemic regression; verdict robust: disfavored ~2σ, kill triggered)*
+*Last updated: 2026-05-26 (Session 673 — TEST-15 GW170817 has no derived amplitude; α read off the data; demote/remove from catalog; novel-test count still 0)*
 
 ---
 
@@ -319,6 +319,22 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 673: TEST-15 (GW170817) Has No Derived Amplitude (2026-05-26)
+
+**Addressed the 2nd new proposal deferred in S672 (`gw170817_test15_resolution_no_derived_amplitude.md`). Applied S672 discipline: verified the proposal's claims against the primary sources (Session 59, Session 642) by reading them, not accepting the summary.**
+
+**Verified (Session 59)**: line 206 `c_g/c = 1 + α(1−⟨C⟩_LOS)` (Case-1 propagation claim); line 259 `= 1 + α·f_DM` (ties GW deviation to the same (1−C) as the DM mechanism); line 149 "α ~ 10⁻¹⁵ (from GW170817 constraint)" (READ OFF, not derived); ⟨1−C⟩≈0.9. **Verified (Session 642)**: "no Lagrangian/action/EOM… GW170817 does not constrain Synchronism… Case 3, a parameterization." → the proposal's internal contradiction is REAL (S59 IS the Case-1 claim S642 says doesn't exist).
+
+**Adjudication (sim `session673_test15_gw_no_amplitude.py`)**: (A) α read off GW170817 (< 3.3×10⁻¹⁵), no derived central quantity → below even Tier-2 (S670). (B) Natural scale dead: DM needs (1−C)~O(1) coupling O(1); if α tracked it, α~O(1), excluded at ~15 OOM; survival needs GW coupling ≳3×10¹⁴× weaker than galactic — unstated, underived hierarchy from the framework's OWN eq (line 259). (C) Non-discriminating either way: α~O(1) refuted; α read-off → GR-equivalent, no floor, unfalsifiable as positive prediction. (D) Resolves toward Case-3 (S642 honest), which REQUIRES removing TEST-15 from the catalog.
+
+**Connection**: GW sector joins the import-of-predictive-content pattern (S671) — α imported from GW170817 as `i` was for QM (S666), θ_D for chemistry (S669), MOND interpolating function for galaxies (S661). 5th sector, same structure. Corroborates S642's kinematic-layer gap (GW = 5th face).
+
+**Verdict**: TEST-15 not discriminating; demote to exploratory / remove from catalog. Novel discriminating-test count UNCHANGED at 0. Header notes added to S59 (TEST-15 superseded) and S642 (contradiction noted). Did NOT execute the recommended follow-on audits of TEST-17/TEST-21 (flagged, not claimed — avoid superficiality). Modest consolidation, reported as such.
+
+Cumulative: 37 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session673_TEST15_GW_No_Derived_Amplitude.md`
 
 ### Session 672: Re-Grounding TEST-04a — My Own S668 Was a Partial Epistemic Regression (2026-05-26)
 

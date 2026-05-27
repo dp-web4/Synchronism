@@ -1,3 +1,5 @@
+> **NOTE (S673, 2026-05-26)**: This session's Case-3 verdict ("framework makes no GW propagation claim") is **in direct contradiction with Session 59**, which DID file a Case-1 GW propagation claim (TEST-15: `c_g/c = 1 + α(1−⟨C⟩_LOS)`). S642 is the more honest position, but adopting Case-3 requires **removing TEST-15 from the test catalog** — Case-3 is precisely the statement that TEST-15's prediction does not exist. See `Session673_TEST15_GW_No_Derived_Amplitude.md`.
+
 # Session 642: GW170817 — Framework Is Currently a Parameterization, Not a Field Theory
 
 **Date**: 2026-05-05
