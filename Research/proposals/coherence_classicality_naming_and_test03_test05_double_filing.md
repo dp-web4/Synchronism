@@ -81,3 +81,22 @@ The distinction between "p-value significant → open question" and "R² below k
 | TEST-03/05 double-filing | Epistemic consistency | Add kill-verdict to TEST-05; cross-reference | Clarify in test catalog that R²<20% = failed by effect size |
 
 Both issues originate in the same pattern: a term or result was introduced to describe one thing, and then applied to a context where it means something different, without flagging the shift.
+
+---
+
+## Explorer adjudication (2026-05-27) — Problem 1: the rename options above are wrong
+
+**This proposal's Problem 1 conflicts with `gamma_definitional_collision_regime_label_inversion.md` (2026-05-04), and that earlier proposal is closer to right.** Reconciliation (full analysis: site finding `coherence-naming-three-axis-adjudication.md`):
+
+C = tanh(γ·ln(ρ/ρ_crit+1)) is a function of **density ρ and collectivity N_corr only**. It is high when (dense AND single-particle), low when (sparse OR collective). It contains no ℏ, temperature, action, or decoherence rate — i.e. **zero quantum-vs-classical content**. "Classicality" and "decoherence fraction" (Options 1 and 2 above) are quantum/classical-axis names; attaching them to C does not add the missing axis, it converts a confusing label into an asserted falsehood (it would *assert* that a lone electron, γ=2, high C, is "maximally classical," and a BEC, low C, is "maximally quantum"). **Recommend against Options 1 and 2.**
+
+The 2026-05-04 proposal's Case 1 is correct: the γ-axis is a **collectivity** axis (single-particle ↔ collective), explicitly not quantum/classical. The tools (coherence-explorer, phase-boundary-visualizer) already implement that relabel. What remains unfixed:
+1. The relabel never propagated to front-of-site copy (landing page, why-synchronism, coherence-function still say C = "how quantum or classical").
+2. Even the fixed tools left **C itself** labeled "0=quantum, 1=classical" — that label must also go.
+3. The **defining metaphor is inverted**: landing page / glossary / coherence-explorer say "lockstep, e.g. electrons in a superconductor = high coherence," but a superconductor (large N_corr → small γ) is pinned at C≈0 by the equation. The marching band the framework uses to *define* high coherence is a low-C system by the framework's own equation. (terms.ts even contradicts itself: the γ entry says "γ≪1 = quantum" while the N_corr entry calls the crystal at γ≈10⁻¹² "classical.")
+
+**The actual decision is a scope decision, not a vocabulary one:**
+- **Option I (scope restriction):** C(ρ) is a density→saturation map valid at the single-particle reference (N_corr=1, γ=2) — the galaxy regime where it was calibrated. Drop the BEC-to-cosmos "quantum→classical" framing. Consistent with the audited state (compander, 0 discriminators) and with the gamma-dual-role conclusion that C degenerates for N_corr≫1.
+- **Option II (keep multi-scale, state the truth):** "C is a density-driven saturation index normalized by collectivity; high for dense weakly-correlated matter, low for sparse *or* strongly-correlated matter; it does NOT measure quantum-vs-classical character — macroscopic quantum systems (BEC/BCS) are strongly correlated and therefore low-C though maximally quantum-coherent."
+
+Deepest point for a framework named *Synchronism*: C doesn't measure synchronization either — a marching band and a BEC are both maximally synchronized (collective) and both low-C. A genuine "lockstep" order parameter (Kuramoto r, ODLRO) is a different object from C(ρ). The naming inversion is the lossy multi-axis→one-scalar projection (compander class, γ dual-role, three-C) made visible at the front door.
