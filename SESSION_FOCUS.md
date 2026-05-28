@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-27 (Session 677 — one structural root (S613: C has no decoherence parameter) settles the coherence-time/threshold frontier cluster; loop has converged → reactive posture)*
+*Last updated: 2026-05-28 (Session 678 — cluster-bridge impossibility verified on Coma + DD reparametrization; modified-gravity track structurally closed at all regimes)*
 
 ---
 
@@ -319,6 +319,29 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 678: Cluster-Bridge Impossibility Verified + Quantum Resync = DD Reparametrization (2026-05-28)
+
+**Two new substantive proposals arrived — the reactive trigger fired correctly (consistent with S677's stated posture + yesterday's hold note). Real adjudication, both with primary-source/computational verification per the S672/S675 discipline.**
+
+**Part A — cluster-bridge impossibility (verified, decisive)**: The site explorer track computed 4 natural ansätze A1-A4 mapping C(ρ) on Coma's β-model gas profile to apparent mass; all miss observed M_lens/M_B≈4.6 by orders of magnitude under galaxy-anchored ρ_crit. Sim `session678_cluster_bridge_impossibility.py`:
+
+- **A3 codomain bound (structural)**: M_app/M_B = 1+(∫C·ρ dV)/M_B; since C∈[0,1), ∫C·ρ dV<M_B → M_app/M_B<2 EXACTLY, for any γ/ρ_crit/cluster. Coma needs 4.6 — IMPOSSIBLE. Numerical sanity: C→1 everywhere gives A3=2.000 exactly. The "add coherent fraction" sub-family is excluded by codomain.
+- **A2/A3 collapse to Newtonian** under galaxy-anchored ρ_crit∈[1e-24,1e-21]: Coma gas central ρ=3.5e-27, r_500 ρ=1.8e-28; ⟨C⟩ ranges 7.6e-7 to 7.6e-4 → A2,A3 pin to ~1.000 (factor-5 undershoot).
+- **A1/A4 overshoot** by 10³-10⁶ (1/C diverges as C→0). The same C≈0 that pins A2/A3 to ~1 makes 1/C huge; no ρ_crit hits 4.6 with any ansatz.
+- **Structural root — one density scale**: tanh has one knob (ρ_crit); to put galaxy AND cluster (separated by ~10⁴) in active transition you'd need ρ_crit between them, but then C(ρ_galaxy)→1 and gives no galactic effect. Verlinde has two scales (a₀ + r), MOND has two (a₀ + a_N) — the second is what enables bounded multi-regime enhancements. C(ρ) lacks it by construction.
+
+**Archive verification (S672 discipline)**: `Session199_MdynMlens_Analysis.md` line 28 confirms "Dynamics use G_eff = G/C(**a**)" — the cluster prediction explicitly used C(a). Session 211+ uses C(ρ) for galactic M_break; no intervening session audits the variable change. Proposal's "self-loop dropped a working prediction silently" claim is verified.
+
+**Part B — quantum resync = DD reparametrization (endorsed)**: site's `/key-claims` "periodic resync outperforms isolation" is textbook dynamical decoupling (Viola-Knill-Lloyd 1999, CPMG 1954/58, Uhrig 2007 — ~25-yr field, thousands of experiments). Consistent with established pattern (S642, S649 DD, S655 Γ=γ²(1−c) standard decoherence, S666, S677). Badge: "Untested" → "Reparametrization, maps to DD." Novel prediction needs a specific bath/sequence/T₂-ratio where Synchronism's MRH model DIFFERS from standard Uhrig/CPMG — not derived.
+
+**Synthesis — structural minimalism of C(ρ)**: S678 is the FOURTH structural-minimalism finding, each closing a sector. S665 (one scalar, no rotational DOF → no vortices); S667 (first-order time only → no causality+oscillation+dissipation, trilemma); S677 (no decoherence param → coherence-time cluster); S678 (one density scale → no cluster bridge). Same root: C(ρ) is structurally minimal; the ingredients real theories use to bridge regimes are missing from the function. Cluster-bridge case is the cleanest (tight codomain bound).
+
+**Ledger effect**: cluster sector now structurally closed (not just empirically); cosmology (TEST-04a, S668/S672) gets a structural root — same one-density-scale insufficiency at cosmic ρ~10⁻²⁹ (3 OOM further below ρ_crit than clusters); modified-gravity track CLOSED AT ALL REGIMES (galaxies MOND-degenerate S661; clusters impossible S678; cosmology mechanism-class-failed S668/S672 with structural root S678). Methodology exhibit: C(a)→C(ρ) migration silently cost a working prediction — worth in A2ACW paper.
+
+Cumulative: 42 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671) + 1 structural impossibility (S678).
+
+Full analysis: `Research/Session678_Cluster_Bridge_Impossibility_And_DD_Reparametrization.md`
 
 ### Session 677: One Structural Root Settles the Decoherence-Timescale Frontier Cluster (2026-05-27)
 
