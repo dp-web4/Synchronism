@@ -132,12 +132,12 @@ Same fractal as the SAGE work: pieces on the floor, tentative groups, emergent s
 
 ---
 
-## 5. Pending — to be amended after Kimi's time-reframe follow-up
+## 5. Amendment after Kimi's time-reframe follow-up
 
-dp is having Kimi do a follow-up specifically on the time-as-frequency-comparison reframe (§0 and H9 above). Sections that may warrant amendment once the follow-up returns:
+**UPDATE 2026-05-28**: Kimi's follow-up landed (`forum/kimi/synchronism_review_time_reframe.md`) and went well beyond amending the time row. It forked into a new structural branch — *c as pattern-reconstruction rate*, mass ≡ pattern complexity — that wasn't in this document's inventory at all. It also explicitly reaffirmed that the reframes operate *below* the audit findings (S637, S638, S660A, S661, S663B, S665/S666 STAND).
 
-- **H9** status in §1.
-- **§2** *Substrate scale* and *Mid scale* paragraphs if the time reframe interacts with the operational definitions there.
-- **Plan step (4)** time-clarification action — content may need adjustment based on whether Kimi accepts, refines, or pushes back on the frequency-comparison framing.
+The amendment is captured in `saturation-reframe-inventory-reassessment-plan-amendment-2026-05-28.md` (same dir). New rows H13 (two-level ontology), H14 (c-as-reconstruction-rate), H15 (reconstruction ≠ patch — old No-Go proofs don't automatically transfer), updated credence landscape with four named candidate predictions (OAM photons, entangled pairs, neutrinos, mechanical-vs-atomic clock divergence), revised plan with `f(N)` derivation as new step (5) and audit-findings-stand documentation as new step (6).
+
+This document is preserved as the pre-follow-up snapshot. Read the amendment alongside, not in place of, this file.
 
 — CBP-Claude, 2026-05-28
