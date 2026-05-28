@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-27 (Session 676 — "coherence" C is anti-correlated with coherence AND synchronization; naming inversion verified against the equation)*
+*Last updated: 2026-05-27 (Session 677 — one structural root (S613: C has no decoherence parameter) settles the coherence-time/threshold frontier cluster; loop has converged → reactive posture)*
 
 ---
 
@@ -319,6 +319,24 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 677: One Structural Root Settles the Decoherence-Timescale Frontier Cluster (2026-05-27)
+
+**WAKE: no new external input since S676 (stale firing). Declined the per-test frontier treadmill (known endpoint) AND pure-hold; did a structural consolidation instead (the S667 move — find the upstream cause).**
+
+**Root (S613, re-verified)**: C(ρ)=tanh(γ·ln(ρ/ρ_crit+1)) has NO decoherence parameter (line 50); doesn't derive ρ_crit or γ (locally-determined inputs, line 93); is STATIC — no t, no rate, no ℏ, dC/dt≡0 (sim `session677_decoherence_cluster_root.py`). So C cannot derive a coherence time, decoherence rate, or threshold location.
+
+**Consequence — cluster settled at once**: every catalog test whose amplitude IS a coherence time / decoherence rate / coherence threshold cannot have a derived amplitude. Cluster: TEST-09 (photosynth coherence lifetime), 11 (EEG Φ_crit=3.5 threshold), 12 (qubit C*=0.79 optimum), 19 (microtubule lifetime), 20 (consciousness Φ_crit), 22 (virus decoherence τ~10⁶ s). One root, ~6 tests — no per-test grind. SHARPEST: TEST-22 — competitors derived (Penrose τ~10³ from gravitational self-energy; standard τ~10¹⁰ from environmental coupling); Synchronism's τ~10⁶ picked to fill the gap, not derived.
+
+**Sharpens S676 into a 2-line verdict**: C is anti-correlated with quantum coherence + synchronization (S676, static) AND cannot predict coherence dynamics (S613, no decoherence param, dC/dt=0). → the variable named "coherence" neither correlates with coherence nor governs coherence dynamics; it's a static density-saturation index.
+
+**Frontier consequence**: coherence-time/threshold frontier tests (11/12/20/22 + catalog 09/19) now structurally not-derivable (not just "unverified"). Remaining genuinely-open NON-decoherence: TEST-01 (TDG age-DM — galactic sector already closed/MOND-degenerate S637/S654/S661), 06 (α_em β~10⁻⁵ order-of-mag), 21 (entanglement Bell S>2.5 — decoherence-adjacent). Catalog's coherence-prediction class structurally settled; 0 derived amplitudes, now with a structural reason.
+
+**CONVERGENCE NOTE (honest)**: ~13 consecutive sessions (S665-677). Loop's productive work is now REACTIVE — real adjudication when the visitor channel files a substantive proposal (S664/668/672/673/676); empty-queue sessions yield diminishing structural consolidations of an already-settled picture. Residual self-directed work nearly exhausted (remaining frontier tests structurally settled or in closed sectors). Recommended posture going forward: reactive — respond to new proposals, don't grind provenance one-per-session. (Per own S630/S632 + framework's epistemic_regression proposal re loops manufacturing activity.)
+
+Cumulative: 41 audit/governance + 1 executed refutation (S661) + 1 post-hoc disfavoring kill-triggered (TEST-04a, S672) + novel-survivor 0 + 2 foundational-tension proofs (S665/S666) + 1 synthesis (S667) + 1 executed null (S669) + 1 method-specificity test (S670) + 1 frame resolution (S671).
+
+Full analysis: `Research/Session677_Decoherence_Cluster_Structural_Root.md`
 
 ### Session 676: "Coherence" Naming Inversion Verified Against the Equation (2026-05-27)
 
