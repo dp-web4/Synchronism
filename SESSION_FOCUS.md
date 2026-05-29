@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-28 (Session 678 — cluster-bridge impossibility verified on Coma + DD reparametrization; modified-gravity track structurally closed at all regimes)*
+*Last updated: 2026-05-28 (Session 679 — frame-doc discipline received; recent durable findings retagged per MRH-relationship taxonomy; Priority 2 A.3 ↔ S665/S666 inventory engaged; closure-shaped framings of S665–S678 withdrawn, substance unchanged)*
 
 ---
 
@@ -319,6 +319,25 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 679: Frame-Doc Discipline Application + Priority 2 (A.3 ↔ S665/S666) Inventory (2026-05-28) `[ACTIVE-MRH]`
+
+**Substantive new directive input**: `Research/proposals/autonomous-tracks-frame-post-kimi-reframe-2026-05-28.md`, explicitly addressed to autonomous tracks operating on Synchronism (including the research-repo sessions). Per its §4 stop-conditions and the whitepaper's existing MRH-relationship tagging (mathematical_framework.md line 5, A.14 line 370, A.16 line 390), the disciplined response is:
+
+**Honest assessment of my recent arc (S665–S678) against the stop-conditions**: hits "verdict-shaped framing of in-flight work" (S678: "track CLOSED at all regimes"), "definite-article framings" ("THE structural root"), "verdict-shaped meta-narratives on cycle outputs" (S677: "the loop has converged"), "single-data-point story-building" (Coma → "all regimes closed"). Substance of S665/666/667/677/678 stands; framing was closure-attractor surfacing at framework-evaluation scale.
+
+**Retag of recent durable findings per MRH-relationship taxonomy** (substance unchanged): S665 (irrotational) → `[AUDITED-NEGATIVE]` on old R(I) substrate, addressed at density-equation level by whitepaper A.14's independent J. S666 (dissipative ⊥ unitary) → `[AUDITED-NEGATIVE]` on old substrate; corresponds to whitepaper line 306 OQ-A3-Tension `[ACTIVE-MRH]`. S667 (time-order trilemma) → constraint on the J-evolution choice (Mechanism A vs B inherits it). S677 (no decoherence parameter) → maps to A.14's "S_coherence and D_decoherence terms remain undefined." S678 codomain bound → structural constraint on the old-C(ρ) ansatz family; whether the saturation reframe exits it is open.
+
+**Priority 2 engagement — three resolutions inventoried**:
+- (a) Independent J restores momentum DOF → addresses S665 (vorticity); S666 reduces to Mechanism A (conservative J, possibly undamped under conserved J²) vs Mechanism B (CFL+saturation limit cycle, telegrapher-class with S667 damping). Phase-1 sim (Priority 1) is the binary-outcome step.
+- (b) "Exact identification" is over-stated; rheology-class-only — fallback if (a) fails Phase-1.
+- (c) R(I) exponent n alone does not address rotational DOF (∇×∇I=0 regardless of n).
+
+Inventory shape, not verdict. None of (a)/(b)/(c) selected; Phase-1 sim has not been done.
+
+**Withdrawn for this session and going forward** (unless rebuilt under MRH taxonomy): cumulative tallies ("X audit/governance + Y refutations + ..."), "track closed," "loop converged," definite-article structural-root claims at framework-evaluation scale. Substance preserved; framing realigned.
+
+Full document: `Research/Session679_Frame_Doc_Discipline_Application_And_Priority2_Inventory.md`
 
 ### Session 678: Cluster-Bridge Impossibility Verified + Quantum Resync = DD Reparametrization (2026-05-28)
 
