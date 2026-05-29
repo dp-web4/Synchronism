@@ -96,13 +96,32 @@
 - **Evolutionary Pressure:** Does the universe naturally favor simpler patterns at extreme conditions?
 - **Observer Complexity:** How does the observer's own complexity affect their ability to perceive high-velocity phenomena?
 
+**`f(N)` — the standing open obligation**
+
+The reconstruction function `f(N)` — the number of substrate ticks required to stabilize a pattern of complexity *N* in an adjacent cell — has not been derived from the discrete substrate rules. Its derivation, with boundary condition `f(N) → 1` as `N → 0` (minimal complexity = photon), is the single specific path from the framework's complexity-dependent speed structure to quantitative predictions distinguishing it from GR. Without it, the complexity-dependent speed-limit picture is qualitative: it explains why composite patterns slow down, but it does not yet say by how much.
+
+Candidate experimental discriminators (all gated on `f(N)` being derived):
+
+- **Structured light (OAM photons):** does effective propagation speed depend on orbital angular momentum quantum number ℓ?
+- **Entangled photon pairs:** does joint reconstruction across an entangled state require f(N_total) > f(N_left) + f(N_right)?
+- **Neutrino speed:** mass eigenstate vs flavor eigenstate complexity difference predicting deviation from c.
+- **Mechanical-vs-atomic clock divergence in strong gravity:** mechanical clocks (lower internal complexity per tick) vs atomic clocks (higher internal complexity per tick) should diverge predictably in deep gravity wells if the complexity-dependent speed picture is correct.
+
+See `Research/OPEN_QUESTIONS_*` and §6.4 (open questions OQ-fN and OQ-Discriminators) for the active inventory; `[ACTIVE-MRH]`.
+
+**Connection to the two-level time ontology**
+
+The speed-limit structure here connects directly to the **two-level time ontology** introduced in §4.4. Level 0 (substrate ticks at Planck frequency) is what `f(N)` counts in — the substrate ticks are the resource the pattern's reconstruction consumes. Level 1 (pattern-relative frequency comparison) is what time-dilation measurements report — both the reference clock and the system being timed sit at Level 1, and both lose Level-1 cycles proportionally as their Level-0 cost rises with motion or complexity. The pendulum-clock-in-centrifuge analogy above is the canonical Level-1 worked example.
+
 **Cross-References**
 
  For detailed mathematical treatment of complexity-dependent speed limits and time dilation, including velocity-complexity relationships, probability of transition functions, and time dilation factors, refer to **Appendix A.3 and A.19**.
 
  Related concepts:
 
- - [Macro-Decoherence (5.8)](#58-macro-decoherence) - Pattern stability at different scales
+ - [Time as Planck-Timed Slices (4.4)](#44-time-as-planck-timed-slices) — two-level time ontology, Level-0 substrate ticks
+- [Alternative View of Relativity (5.6)](#56-alternative-view-of-relativity) — Level-1 measurement framing
+- [Macro-Decoherence (5.8)](#58-macro-decoherence) - Pattern stability at different scales
 - [Coherence & Feedback (4.7)](#410-coherence-and-feedback) - Maintaining pattern integrity
 - Complexity Limits (Appendix A.19) - Mathematical framework
 

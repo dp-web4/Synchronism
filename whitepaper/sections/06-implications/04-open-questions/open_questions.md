@@ -2,7 +2,49 @@
 
 **What We Don't Know (And Admit It)**
 
-Synchronism raises more questions than it answers. This is a feature, not a bug. Good models generate testable questions. Here are ours—organized by how testable they are.
+Synchronism raises more questions than it answers. This is a feature, not a bug. Good models generate testable questions. The framework is in active reformulation; this section now leads with the **post-Kimi consolidated open-question set** (Stream-1 of the post-Kimi-reframe execution plan), tagged by **MRH-relationship** rather than by priority. The legacy categorical question lists follow.
+
+---
+
+**Post-Kimi consolidated open questions (2026-05-28)**
+
+These six questions are the actionable bottlenecks surfaced by the saturation-reframe inventory cycle and Kimi 2.6's external reviews (see `forum/kimi/` and `forum/claude/saturation-reframe-*-2026-05-28.md`). MRH-relationship tagging replaces priority tagging: `[ACTIVE-MRH]` = current research focus; `[PARALLEL-PATHS]` = held in parallel hypothesis space.
+
+**OQ-EOS — Stable equation of state `[ACTIVE-MRH]`**
+
+The current `P = I_max − I` pressure ansatz gives `c_s² = dP/dρ = −I_max < 0` — imaginary sound speed, an immediate stability failure under linear analysis. A replacement EOS with `dP/dρ > 0` is required for the substrate to support propagating modes at all. Candidate forms: polytropic `P ∝ ρ^γ` with γ chosen for stability and saturation-knee compatibility, or a Hill/Naka-Rushton compander-class form consistent with A.3's R(I). Phase-1 simulation determines which (if any) candidates survive both the stability requirement and the oscillation-supporting requirement.
+
+**OQ-Momentum — Discrete-grid momentum equation `[ACTIVE-MRH]`**
+
+The momentum equation is currently asserted at the continuum level (in the proposed N-S identification) but not derived from the discrete substrate rule. Kimi 2026-05-28 flagged this as a standing obligation. Required: Chapman-Enskog coarse-graining or finite-volume derivation from the discrete update rule that produces the momentum equation at the right order, with the right closure for the saturation viscosity D(I) = D₀·R(I) and the independent vector flux **J**. Without this, the "Intent dynamics IS Navier-Stokes" framing is structural-only, not term-by-term.
+
+**OQ-fN — Reconstruction function derivation `[ACTIVE-MRH]`**
+
+`f(N)` = number of substrate ticks required to stabilize a complexity-N pattern in an adjacent cell. Must be derived from the discrete substrate rules with boundary condition `f(N) → 1` as `N → 0` (minimal complexity = photon traveling at c). This is the load-bearing piece that turns the complexity-dependent speed-limit picture in §5.7 from qualitative ("composite patterns slow down") into quantitative (testable deviation from GR). OQ-Discriminators below is gated on this.
+
+**OQ-Oscillation — Stable oscillating patterns in lattice simulation `[ACTIVE-MRH]`**
+
+Demonstrate stable oscillating patterns in a 1D/2D lattice with R(I) = [1−(I/I_max)^n], sweeping `(n, I_max, T_ij)` and independent vector flux **J** rules. Test **Mechanism A** (conservative J — does the J-evolution rule preserve a conserved current that supports limit-cycle oscillation?) vs **Mechanism B** (CFL-violation + saturation feedback → limit cycle — does a deliberately-stiff discretization plus saturation backpressure produce sustained oscillation, with the oscillation period emerging from the lattice dynamics rather than imposed by hand?). This is the empirical bottom of the A.3-vs-Session-11 tension; whichever resolution path survives gets promoted out of `[ACTIVE-MRH]`.
+
+**OQ-A3-Tension — Appendix A.3 vs Session 11 vs S665/S666 `[ACTIVE-MRH]`**
+
+Reconcile Appendix A.3's "exact NS identification" claim with Session 11's finding (the rule reduces to 1-DOF scalar diffusion under the maximum principle for parabolic PDEs) and with S665/S666's findings (the substrate is irrotational, curl(v) ≡ 0 for any R(I), and dissipative, first-order ∂I/∂t with monotonically-decreasing Lyapunov functional). At least one of these three statements requires qualification; A.3 inline note describes the three candidate resolutions. This is the meta-question OQ-EOS / OQ-Momentum / OQ-Oscillation address from their respective angles.
+
+**OQ-Discriminators — Quantitative deviations from GR/QM `[PARALLEL-PATHS]` (gated on OQ-fN)**
+
+Once `f(N)` is derived, quantify the predicted deviation from GR/QM for each of:
+- **OAM photons:** effective propagation speed as a function of orbital angular momentum quantum number ℓ
+- **Entangled photon pairs:** joint reconstruction cost f(N_total) vs f(N_left) + f(N_right)
+- **Neutrino propagation:** mass-eigenstate vs flavor-eigenstate complexity difference
+- **Mechanical-vs-atomic clock divergence in strong gravity:** different internal complexity per tick → predicted divergence in deep gravity wells
+
+Held in `[PARALLEL-PATHS]` because the predictions cannot be made before OQ-fN is resolved; promoted to `[ACTIVE-MRH]` upon OQ-fN's resolution.
+
+---
+
+**Legacy categorical question lists**
+
+Below: the prior `6.4` content. Lists kept as historical record; MRH-relationship tagging supersedes the priority/phase framing where it conflicts. The post-Kimi consolidated set above is the active inventory.
 
 **Testable Research Questions (Near-Term)**
 

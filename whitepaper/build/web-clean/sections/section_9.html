@@ -588,15 +588,24 @@ question was wrong or whether the framework is offering an
 predictions in C.7 will eventually adjudicate.</p>
 <h2 id="appendix-a-mathematical-formulations-working-draft">Appendix A:
 Mathematical Formulations (Working Draft)</h2>
-<p><strong>Status: Exploratory Mathematics</strong></p>
+<p><strong>Status: Exploratory Mathematics — under
+stewardship</strong></p>
 <p>This appendix contains mathematical formulations for Synchronism
-concepts. These range from well-defined computational tools to
-speculative mappings to outright failed attempts.</p>
-<p><strong>Epistemic Status Key:</strong> - ✅
-<strong>Computational</strong> - Well-defined for modeling purposes - ⚠️
-<strong>Speculative</strong> - Plausible but untested - ❌
-<strong>Failed/Problematic</strong> - Known issues, kept for
-transparency</p>
+concepts. The framework is in active reformulation (the saturation
+reframe with independent vector flux <strong>J</strong> and
+complexity-dependent c), so the appendix is tagged by
+<strong>MRH-relationship</strong> rather than by verdict-on-truth.
+Nothing is tagged “established” while the substrate work is open.</p>
+<p><strong>MRH-Relationship Key (per dp 2026-05-28: “we’re not at a
+stage where anything can be honestly claimed as
+‘established’”):</strong> - <strong><code>[ACTIVE-MRH]</code></strong> —
+currently in active research focus; content is being extended or revised
+- <strong><code>[PARALLEL-PATHS]</code></strong> — in the framework’s
+parallel hypothesis space; not in current active focus, not abandoned -
+<strong><code>[SIDELINED]</code></strong> — was in active focus,
+currently not pursued; reasons documented inline -
+<strong><code>[SUPERSEDED]</code></strong> — replaced by a later
+formulation in the active or parallel space; pointer to successor</p>
 <hr />
 <h2 id="core-computational-framework">Core Computational Framework</h2>
 <p><strong>Foundational Assumptions (Modeling Choices):</strong></p>
@@ -612,26 +621,40 @@ deterministic rules (simplification)</li>
 </ul>
 <p>These are computational conveniences, not ontological claims.</p>
 <hr />
-<p><strong>✅ A.1 Basic Intent Transfer</strong></p>
+<p><strong>A.1 Basic Intent Transfer
+<code>[SUPERSEDED]</code></strong></p>
 <p><strong>Intent Update Rule:</strong></p>
 <pre><code>I(x,y,z,t+1) = I(x,y,z,t) + ∑[T(x&#39;,y&#39;,z&#39; → x,y,z,t)]</code></pre>
 <p>Where: - <code>I(x,y,z,t)</code> = Intent at cell
 <code>(x,y,z)</code> at time <code>t</code> -
 <code>T(x',y',z' → x,y,z,t)</code> = Transfer from adjacent cell - Sum
 over all 6 adjacent cells (3D lattice)</p>
-<p><strong>Status:</strong> Core computational rule. Well-defined but
-untested whether it generates useful predictions.</p>
+<p><strong>Status:</strong> Core computational rule of the original
+substrate. <strong>Session 11</strong> showed that under the maximum
+principle for parabolic PDEs this rule reduces to 1-DOF scalar diffusion
+(no stable oscillation possible). <strong>S665/S666</strong> showed the
+corresponding continuum dynamics is irrotational and dissipative
+(curl(v) ≡ 0 for any R(I); first-order ∂I/∂t with decreasing Lyapunov
+functional). The active substrate reformulation introduces an
+<strong>independent vector flux J</strong> to give the rule a momentum
+DOF the original lacks. See A.3 inline note, A.14 (master equation as
+the natural host for J), and §6.4 OQ-Momentum / OQ-A3-Tension.</p>
 <hr />
-<p><strong>✅ A.2 Coherence Measure</strong></p>
+<p><strong>A.2 Coherence Measure
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Pattern Coherence:</strong></p>
 <pre><code>C(P,t) = 1 - (∑|I(x,y,z,t) - I_expected(x,y,z,t)|) / I_total</code></pre>
 <p>Where: - <code>C(P,t) ∈ [0,1]</code> (1 = perfect coherence, 0 =
 complete decoherence) - <code>I_expected</code> = Expected Intent
 distribution for ideal pattern cycle - <code>I_total</code> = Total
 Intent in pattern</p>
-<p><strong>Status:</strong> Testable metric. Web4 experiments will
-determine if this correlates with useful outcomes.</p>
-<p><strong>✅ A.3 Saturation Dynamics</strong></p>
+<p><strong>Status:</strong> Testable metric, held in the parallel-paths
+space. The coherence-language interpretation as a whole is in
+<code>[PARALLEL-PATHS]</code> per S663B (four-persona convergence on
+“ontological reframe without a distinguishing experiment”); this
+specific metric stays as a Web4-experiment instrument.</p>
+<p><strong>A.3 Saturation Dynamics
+<code>[ACTIVE-MRH]</code></strong></p>
 <p><strong>Fundamental Mechanism for Pattern Stability</strong></p>
 <p>Saturation is THE foundational mechanism enabling stable patterns in
 Synchronism. This appendix provides mathematical framework for
@@ -662,11 +685,52 @@ diffusion coefficient D(I) = D₀·R(I) is the viscosity of the Intent
 fluid. Specifically, it is a <strong>shear-thinning power-law
 viscosity</strong>: viscosity decreases as Intent density increases (the
 fluid becomes “slipperier” as cells fill). This is a known rheological
-class (power-law fluids) with well-characterized behavior. The full
-Intent transfer equation in continuum form IS the incompressible
-Navier-Stokes equation with this variable viscosity — not an analogy,
-but an exact identification. See Section 4.1 and
+class (power-law fluids) with well-characterized behavior. An earlier
+formulation went further: <em>“the full Intent transfer equation in
+continuum form IS the incompressible Navier-Stokes equation with this
+variable viscosity — not an analogy, but an exact identification.”</em>
+See Section 4.1 and
 <code>Research/CFD_Reframing_NS_Scale_Invariance.md</code>.</p>
+<blockquote>
+<p><strong>Inline tension note (2026-05-28).</strong> That “exact
+identification” claim is in <strong>active inventory tension</strong>
+with two independently-verified findings:</p>
+<ul>
+<li><strong>Session 11</strong> showed the rule
+<code>∂I/∂t = ∇·[D·R(I)·∇I]</code> reduces to 1-DOF scalar diffusion
+under the maximum principle for parabolic PDEs (no stable oscillation
+possible).</li>
+<li><strong>S665/S666</strong> showed the corresponding substrate is
+irrotational (v = J/I = −g(I)·∇I is the gradient of a scalar, so curl(v)
+≡ 0 for any R(I) ⇒ no vortices) and dissipative (first-order ∂I/∂t with
+monotonically-decreasing Lyapunov functional ⇒ no unitary
+oscillation).</li>
+</ul>
+<p>Incompressible Navier-Stokes supports vortices, sustains oscillations
+(vortex shedding, free-surface waves, turbulence), and is
+<strong>not</strong> equivalent to a 1-DOF scalar diffusion rule.
+<strong>At least one of these three statements requires
+qualification.</strong> Possible resolutions, each an inventory item: -
+<strong>(a)</strong> A.3’s identification holds at the rheology-class
+level but the discrete implementation rule is the <em>density</em>
+equation only, missing the independent momentum DOF. The fix is to make
+the discrete rule carry an independent vector flux <strong>J</strong>
+(the saturation reframe’s addition; see A.14 master equation). -
+<strong>(b)</strong> A.3’s “exact identification” claim is over-stated;
+the variable-viscosity NS analogy holds structurally, not term-by-term.
+- <strong>(c)</strong> The R(I) exponent n changes the story
+qualitatively. A.3 has n as a tunable parameter; Session 11 and the
+S665/S666 derivations worked with n=1. Phase-1 simulation should sweep n
+(porous-media-flow regime at n&gt;1 vs simple nonlinear diffusion at
+n=1) along with <code>I_max</code> and <strong>J</strong> transfer
+rules.</p>
+<p>Phase-1 simulation work (1D/2D lattice with R(I) = [1 − (I/I_max)^n]
+sweeping n, plus independent vector flux <strong>J</strong>) will
+determine which resolution(s) hold. See
+<code>Research/OPEN_QUESTIONS_*</code>,
+<code>forum/claude/saturation-reframe-resurfaced-pieces-mrh-stewardship-2026-05-28.md</code>
+§2, and §6.4 OQ-A3-Tension.</p>
+</blockquote>
 <p><strong>Why This Enables Patterns:</strong></p>
 <p>Without saturation (linear diffusion): All concentrations dissipate
 exponentially. No stable patterns possible.</p>
@@ -692,30 +756,30 @@ Overflow → redistribute to neighbors</code></pre>
 G ~ (D₀ × L_planck²) / I_max</code></pre>
 <p><strong>Can potentially calculate G from grid
 parameters.</strong></p>
-<p><strong>Status (as of 2026-05-15):</strong> Saturation is the
-load-bearing mechanism in the current rule family — without it, no
-stable patterns; with it, the framework has the right <em>shape</em> of
-mechanism for stable structure. <strong>Caveat (S617-628,
-S638):</strong> the current Intent transfer rule, as written, is 1-DOF
-scalar diffusion (precluded from stable oscillation by the maximum
-principle for parabolic PDEs); C(ρ) has been independently verified via
-computer algebra to reduce to a Curie-paramagnet response (less than
-Landau — no critical point, no Z₂ symmetry). The “potentially unifies
-forces” status is a <strong>research-direction motto</strong>, not a
-delivered result. Whether <em>this specific rule family</em> delivers
-stable particle-like patterns is the question the cellular-automaton
-challenge
+<p><strong>Status (2026-05-28):</strong> Saturation is the load-bearing
+mechanism in the current rule family — without it, no stable patterns;
+with it, the framework has the right <em>shape</em> of mechanism for
+stable structure. <strong>The active reformulation</strong> retains
+saturation as the primitive, adds an independent vector flux
+<strong>J</strong>, and tests whether the resulting rule family supports
+the spatial (vortex/rotational) and temporal (oscillatory/unitary)
+structure the entity ontology requires. The “potentially unifies forces”
+status is a <strong>research-direction motto</strong>, not a delivered
+result. Whether <em>this specific rule family</em> delivers stable
+particle-like patterns is the question the cellular-automaton challenge
 (<code>explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md</code>)
-tests directly.</p>
+and the Phase-1 simulation work test directly. See inline tension note
+above and §6.4 OQ-Oscillation.</p>
 <hr />
-<p><strong>✅ A.4 Pattern Period Detection</strong></p>
+<p><strong>A.4 Pattern Period Detection
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Cyclic Pattern Identification:</strong></p>
 <pre><code>P(T) = 1 if I(x,y,z,t) ≈ I(x,y,z,t+T) for all (x,y,z) in pattern
 Pattern period = minimum T where P(T) = 1</code></pre>
 <p><strong>Status:</strong> Algorithmic tool for identifying repeating
 patterns. Threshold ≈ requires definition.</p>
 <hr />
-<p><strong>✅ A.5 Field Gradient</strong></p>
+<p><strong>A.5 Field Gradient <code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Intent Gradient (Tension Field):</strong></p>
 <pre><code>∇I(x,y,z,t) = [∂I/∂x, ∂I/∂y, ∂I/∂z]
 
@@ -724,7 +788,8 @@ Field direction = ∇I(x,y,z,t) / |∇I(x,y,z,t)|</code></pre>
 <p><strong>Status:</strong> Standard gradient calculation. Whether this
 corresponds to physical fields remains untested.</p>
 <hr />
-<p><strong>⚠️ A.6 Synchronization Quality</strong></p>
+<p><strong>A.6 Synchronization Quality
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Phase Correlation:</strong></p>
 <pre><code>S(P1,P2,t) = cos(θ(P1,t) - θ(P2,t))</code></pre>
 <p>Where: - <code>θ(P,t)</code> = phase of pattern P at time t -
@@ -734,7 +799,8 @@ corresponds to physical fields remains untested.</p>
 “phase”—unclear if this applies to all Intent patterns or just specific
 types.</p>
 <hr />
-<p><strong>⚠️ A.7 Decoherence Rate</strong></p>
+<p><strong>A.7 Decoherence Rate
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Exponential Decoherence:</strong></p>
 <pre><code>dC/dt = -γ × C(t) × N_interactions
 
@@ -746,7 +812,8 @@ interactions</p>
 coherence actually decays this way is untested. The constant γ is
 unknown.</p>
 <hr />
-<p><strong>⚠️ A.8 Markov Relevancy Horizon</strong></p>
+<p><strong>A.8 Markov Relevancy Horizon
+<code>[SIDELINED]</code></strong></p>
 <p><strong>MRH Radius (Speculative):</strong></p>
 <pre><code>R_MRH = √(I_pattern / I_background)</code></pre>
 <p>Where: - <code>I_pattern</code> = Information content of central
@@ -759,7 +826,7 @@ justification. Real MRH boundaries likely far more complex.</p>
 operationally (where correlations drop below threshold) rather than
 analytically.</p>
 <hr />
-<p><strong>⚠️ A.9 Emergence Threshold</strong></p>
+<p><strong>A.9 Emergence Threshold <code>[SIDELINED]</code></strong></p>
 <p><strong>Emergence Function:</strong></p>
 <pre><code>E(System) = C(System) × log(N_patterns) × I(System)</code></pre>
 <p>Where emergence occurs when
@@ -770,7 +837,8 @@ has no justification beyond “seems reasonable.”</p>
 <p><strong>Problem:</strong> What is E_threshold? Where does this
 formula come from? Unclear.</p>
 <hr />
-<p><strong>✅ A.10 Quantum Correspondence — Madelung Bridge</strong></p>
+<p><strong>A.10 Quantum Correspondence — Madelung Bridge
+<code>[ACTIVE-MRH]</code></strong></p>
 <p><strong>Wavefunction Mapping:</strong></p>
 <pre><code>ψ(x,t) = √ρ(x,t) × exp(iS(x,t)/ℏ)</code></pre>
 <p>Where: - <code>ρ = |ψ|²</code> = probability density = coarse-grained
@@ -827,13 +895,20 @@ decoherence, effective viscosity μ &gt; 0 appears — the quantum fluid
 transitions from inviscid (Euler) to viscous (full N-S) behavior. The
 quantum-to-classical transition is a viscosity transition, not a
 collapse of a wavefunction.</p>
-<p><strong>Status:</strong> ✅ Established. The Madelung transformation
-is standard QM mathematics (Madelung 1927). Its connection to Intent
-dynamics via the A.3 saturation framework makes the Schrödinger
-derivation (Session #307) a specific case of the general Intent fluid
-picture.</p>
+<p><strong>Status:</strong> The Madelung transformation itself is
+standard QM mathematics (Madelung 1927) and is not in question. Its
+proposed connection to Intent dynamics via the A.3 saturation framework
+is in <strong>active reformulation</strong> — S666 found that the
+original substrate’s first-order, dissipative ∂I/∂t cannot host the
+unitary oscillation Schrödinger requires (the imaginary unit i is
+inserted by hand in Session #307 and S99 Axiom 4; with R(I) on and i
+absent, the equation gives exp(−Dk²t) decay rather than exp(−iDk²t)
+oscillation). Whether the saturation reframe with independent vector
+flux <strong>J</strong> delivers the unitary structure Madelung requires
+is part of OQ-A3-Tension. <code>[ACTIVE-MRH]</code>.</p>
 <hr />
-<p><strong>⚠️ A.11 Universal Constants</strong></p>
+<p><strong>A.11 Universal Constants
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p><strong>Dimensional Relationships:</strong></p>
 <pre><code>L_cell = Planck length ≈ 1.616 × 10⁻³⁵ m
 T_slice = Planck time ≈ 5.391 × 10⁻⁴⁴ s
@@ -844,17 +919,22 @@ c = L_cell / T_slice ≈ 3 × 10⁸ m/s (speed of light)</code></pre>
 matching physical constants. The ħ relationship is dimensional analysis
 speculation—unclear if meaningful.</p>
 <hr />
-<p><strong>❌ A.12 Gravity Model (FAILED)</strong></p>
+<p><strong>A.12 Gravity Model <code>[SUPERSEDED]</code></strong></p>
 <p><strong>Attempted Gravitational Formulation:</strong></p>
 <pre><code>g = -∇(I_density × G_sync)</code></pre>
-<p><strong>Status:</strong> DOES NOT WORK. This was an early speculative
-attempt to derive gravity from Intent gradients. It doesn’t produce
-correct predictions and contradicts Section 5.14 where we acknowledge
-gravity as unsolved.</p>
-<p><strong>Kept for transparency:</strong> Shows what didn’t work. Do
-not use.</p>
+<p><strong>Status:</strong> This early formulation does not produce
+correct predictions in isolation. <strong>Superseded</strong> by the
+saturation-gradient picture in §5.14 and Appendix A.3 (gravity as
+transfer bias in saturation gradients, mass as concentrated Intent
+pattern with maximum-saturation core, inverse-square law from spherical
+gradient spreading). That successor formulation is also
+<code>[ACTIVE-MRH]</code> and under reformulation as part of the
+saturation reframe with independent vector flux <strong>J</strong>. Kept
+here for transparency about the development history. Pointer to
+successor: A.3 + §5.14.</p>
 <hr />
-<p><strong>❌ A.13 Consciousness Measure (BORROWED/UNCLEAR)</strong></p>
+<p><strong>A.13 Consciousness Measure
+<code>[SIDELINED]</code></strong></p>
 <p><strong>Integrated Information (Φ):</strong></p>
 <pre><code>Φ = ∫∫ C(P_i,P_j) × I(P_i) × I(P_j) dP_i dP_j</code></pre>
 <p><strong>Status:</strong> This is essentially Integrated Information
@@ -867,17 +947,27 @@ integration, not present as novel.</p>
 consciousness measure or acknowledge this is IIT applied to pattern
 dynamics.</p>
 <hr />
-<p><strong>✅ A.14 Master Equation (Incomplete)</strong></p>
+<p><strong>A.14 Master Equation (Incomplete)
+<code>[ACTIVE-MRH]</code></strong></p>
 <p><strong>System Dynamics:</strong></p>
 <pre><code>∂I/∂t = -∇·J + S_coherence - D_decoherence</code></pre>
 <p>Where: - <code>J</code> = Intent current density (transfer flow) -
 <code>S_coherence</code> = Coherence source terms (undefined) -
 <code>D_decoherence</code> = Decoherence loss terms (undefined)</p>
-<p><strong>Status:</strong> Framework for complete model. Currently
-missing definitions for S and D terms. Placeholder for future
-development.</p>
+<p><strong>Status:</strong> This is the natural host for the saturation
+reframe’s central addition: an <strong>independent vector flux
+J</strong> that gives the substrate a momentum DOF the original
+<code>∂I/∂t = ∇·[D·R(I)·∇I]</code> rule (A.1) lacks. The saturation
+reframe treats <strong>J</strong> not as derived from ∇I but as an
+independent dynamical variable with its own evolution equation
+(Mechanism A: conservative J; Mechanism B: CFL-violation + saturation
+feedback driving a limit cycle). The S_coherence and D_decoherence terms
+remain undefined; their definition is downstream of which J-evolution
+mechanism survives Phase-1 simulation. See A.1 status note, A.3 inline
+tension note, and §6.4 OQ-Momentum / OQ-Oscillation.</p>
 <hr />
-<p><strong>✅ A.15 Computational Implementation</strong></p>
+<p><strong>A.15 Computational Implementation
+<code>[ACTIVE-MRH]</code></strong></p>
 <p><strong>Simulation Guidelines:</strong></p>
 <ul>
 <li><strong>Grid discretization:</strong> Finite difference on regular
@@ -892,10 +982,13 @@ evolution</li>
 timestep</li>
 </ul>
 <p><strong>Status:</strong> Practical implementation notes. Standard
-computational methods.</p>
+computational methods. Phase-1 simulation work (1D/2D lattice sweeping n
+in R(I) = [1−(I/I_max)^n], with independent vector flux
+<strong>J</strong>) builds on these methods directly.</p>
 <hr />
 <hr />
-<p><strong>✅ A.16 Scale-Invariant Navier-Stokes Structure</strong></p>
+<p><strong>A.16 Scale-Invariant Navier-Stokes Structure
+<code>[PARALLEL-PATHS]</code></strong></p>
 <p>The N-S structure of Intent dynamics is not specific to the Planck
 scale. It is what any conservation law + gradient-driven transport +
 resistance becomes at any MRH scale. The “fluid element” at each scale
@@ -994,41 +1087,79 @@ formation from uniform plasma (recombination epoch)</p>
 critical Re for self-similar turbulence in the cognitive-scale fluid —
 nested vortex structures (recursive self-modeling) become stable above
 this threshold.</p>
-<p><strong>Status:</strong> ✅ Structural identification. The parameter
-mappings at Planck and quantum scales are exact.
-Neural/social/cosmological mappings are approximate but well-motivated.
-Full derivation:
-<code>Research/CFD_Reframing_NS_Scale_Invariance.md</code>.</p>
+<p><strong>Status:</strong> Structural-identification candidate held in
+the parallel-paths space pending the A.3-vs-Session-11 resolution (the
+Planck-scale “exact identification” is what’s in tension; the
+quantum-scale Madelung mapping is standard and not in question;
+neural/social/cosmological mappings are approximate / well-motivated
+analogies). Full prior derivation:
+<code>Research/CFD_Reframing_NS_Scale_Invariance.md</code>; tension
+inventory: A.3 inline note + §6.4 OQ-A3-Tension.</p>
 <hr />
 <h2 id="open-mathematical-problems">Open Mathematical Problems</h2>
-<p><strong>Tractable Questions:</strong> 1. What transfer rules generate
-stable patterns? 2. Can we prove convergence for coherence measures? 3.
-What are computational complexity bounds for large grids? 4. Can pattern
-stability be characterized analytically?</p>
+<p><strong>Tractable Questions:</strong> 1. <strong>What transfer rules
+generate stable patterns?</strong> This is the same question the
+<strong>Phase-1 simulation work</strong> of the post-Kimi-reframe
+execution plan directly addresses (1D/2D lattice with R(I) =
+[1−(I/I_max)^n] sweeping n, plus independent vector flux
+<strong>J</strong>; test Mechanism A conservative-J vs Mechanism B
+CFL-violation-plus-saturation-feedback driving a limit cycle). See
+<code>forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md</code>
+and §6.4 OQ-Oscillation. 2. Can we prove convergence for coherence
+measures? 3. What are computational complexity bounds for large grids?
+4. Can pattern stability be characterized analytically?</p>
 <p><strong>Hard Questions:</strong> 5. How to properly define MRH
 boundaries mathematically? 6. What’s the correct emergence threshold
 function (if any)? 7. Can gravity emerge from Intent dynamics? (Current
-answer: unknown) 8. Does consciousness have a Synchronism-specific
-mathematical description?</p>
+answer: unknown; the saturation-gradient picture in A.3 + §5.14 is the
+active candidate.) 8. Does consciousness have a Synchronism-specific
+mathematical description? 9. (added 2026-05-28) <strong>Derivation of
+<code>f(N)</code></strong> — the number of substrate ticks required to
+reconstruct a complexity-N pattern in an adjacent cell, with boundary
+condition <code>f(N) → 1</code> as <code>N → 0</code>. This is the
+single path from the complexity-dependent speed structure (§5.7) to
+quantitative predictions distinguishing it from GR. See §6.4 OQ-fN.</p>
 <hr />
-<h2 id="honest-assessment">Honest Assessment</h2>
-<p><strong>What we have:</strong> - Core computational rules (A.1-A.5) -
-Coherence metrics (A.2, A.7) - Implementation guidelines (A.15)</p>
-<p><strong>What’s speculative:</strong> - MRH formula (A.8) - Emergence
-function (A.9) - Quantum mapping (A.10) - Phase synchronization
-(A.6)</p>
-<p><strong>What failed:</strong> - Gravity model (A.12)</p>
-<p><strong>What’s unclear:</strong> - Consciousness measure (A.13) - is
-this just IIT? - Universal constants (A.11) - dimensional analysis or
-meaningful?</p>
+<h2 id="honest-assessment-under-stewardship">Honest Assessment (under
+stewardship)</h2>
+<p>Sections in this appendix are organized by <strong>relationship to
+the current MRH</strong> rather than by verdict on truth-status. No
+section is tagged “established” while the substrate work is open.</p>
+<p><strong><code>[ACTIVE-MRH]</code></strong> — currently in active
+research focus, content being extended or revised: - A.3 Saturation
+Dynamics (saturation reframe with independent vector flux
+<strong>J</strong>) - A.10 Quantum Correspondence — Madelung Bridge
+(connection to Intent dynamics under reformulation) - A.14 Master
+Equation (natural host for vector flux <strong>J</strong>) - A.15
+Computational Implementation (Phase-1 simulation work builds on these
+methods)</p>
+<p><strong><code>[PARALLEL-PATHS]</code></strong> — in the parallel
+hypothesis space, not currently in active focus but not abandoned: - A.2
+Coherence Measure - A.4 Pattern Period Detection - A.5 Field Gradient -
+A.6 Synchronization Quality - A.7 Decoherence Rate - A.11 Universal
+Constants - A.16 Scale-Invariant N-S Structure (held pending
+A.3-vs-Session-11 resolution)</p>
+<p><strong><code>[SIDELINED]</code></strong> — was in active focus,
+currently not pursued; reasons documented inline: - A.8 Markov Relevancy
+Horizon (formula) — dimensional-analysis suggestion; operational
+definition preferred - A.9 Emergence Threshold — functional form not
+justified beyond “seems reasonable” - A.13 Consciousness Measure —
+overlaps IIT; Synchronism-specific differentiator not articulated</p>
+<p><strong><code>[SUPERSEDED]</code></strong> — replaced by a later
+formulation in the active or parallel space; pointer to successor: - A.1
+Basic Intent Transfer → S665/S666 substrate audit + A.14 master equation
+with vector flux <strong>J</strong> - A.12 Gravity Model → A.3
+saturation gradient + §5.14 (also under active reformulation)</p>
 <p><strong>Bottom Line:</strong></p>
-<p>This appendix contains a mix of useful computational tools and
-speculative mappings contributed by different models at different times.
-Some formulations are well-defined for simulation purposes. Others are
-exploratory attempts that may or may not pan out.</p>
-<p>Treat computational sections (✅) as reliable for modeling. Treat
-speculative sections (⚠️) as hypotheses to test. Ignore failed sections
-(❌) except as examples of what didn’t work.</p>
-<p><strong>The mathematics is a work in progress, not a completed
-foundation.</strong></p>
+<p>Sections marked <code>[ACTIVE-MRH]</code> are in current research
+focus and being revised through the saturation-reframe cycle. Sections
+marked <code>[PARALLEL-PATHS]</code> are alternative formulations
+carried in the parallel space, available for resurfacing when external
+probes or new connections restore their resonance with the active work.
+<code>[SIDELINED]</code> content is not currently pursued but is
+preserved with its documented limitations rather than removed.
+<code>[SUPERSEDED]</code> content points to its successor formulation in
+the active or parallel space.</p>
+<p><strong>The mathematics is a work in progress through stewardship,
+not a completed foundation.</strong></p>
 </section>

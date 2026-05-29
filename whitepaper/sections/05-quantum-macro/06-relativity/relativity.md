@@ -86,6 +86,10 @@
 - **Intent causation:** Intent patterns drive all physical phenomena
 - **Unified framework:** Quantum mechanics and relativity both emerge from intent dynamics
 
+**Connection to the two-level time ontology**
+
+The Synchronism framing here is best read alongside §4.4's **two-level time ontology** and §5.7's **complexity-dependent speed limits / pendulum-clock-in-centrifuge analogy**. The two-level ontology distinguishes Level 0 (substrate ticks, absolute, at Planck frequency) from Level 1+ (pattern-relative frequency comparison — all measured time). Relativistic time dilation as described above is a Level-1 phenomenon: what changes for a moving observer is not Level-0 time itself but the rate at which the observer's embedded reference oscillator can complete cycles relative to a stationary one. This framing is **structurally equivalent to GR's metric + clock postulate**, not weaker — GR also treats proper time operationally as cycles of an embedded oscillator along a worldline. The Synchronism framing adds an explicit mechanism (Level-1 cycle cost in Level-0 ticks scales with motion-induced coherence overhead) where GR posits the metric structure axiomatically. Whether that added mechanism delivers novel predictions distinguishable from GR is gated on deriving the reconstruction function `f(N)` (see §5.7 and §6.4 OQ-fN). `[ACTIVE-MRH]`.
+
 ---
 
 
