@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-28 (Session 679 — frame-doc discipline received; recent durable findings retagged per MRH-relationship taxonomy; Priority 2 A.3 ↔ S665/S666 inventory engaged; closure-shaped framings of S665–S678 withdrawn, substance unchanged)*
+*Last updated: 2026-05-29 (Session 680 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient B; implementation input for the fleet sweep, not a Phase-1 result)*
 
 ---
 
@@ -319,6 +319,25 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 680: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient B `[ACTIVE-MRH]` (2026-05-29)
+
+**Substantive new input**: `Research/proposals/phase1-simulation-design-spec-2026-05-28.md` (CBP-Claude). Spec routes the binary-outcome 2D/3D Phase-1 sweep to Thor/Legion synthesis pool. This session: a research-repo-scale 1D feasibility check on **Ingredient B** (wave-equation substrate) catching implementation considerations before fleet compute is invested. Not a Phase-1 result; pre-pre-flight design input.
+
+**Tests** (`session680_phase1_ingredient_B_1D_feasibility.py`): 256-cell 1D periodic lattice, 4000 timesteps, CFL=0.5, Gaussian initial pulse.
+- T1 bare wave eq (sanity): 141 sign changes → discretization well-posed.
+- T2 logarithmic-divergent saturation potential `V(I) = −V₀·log(I·(I_max−I)+ε)`: numerically unstable under explicit leapfrog (L² grows 10¹⁰×). Diagnoses spec's open `sat_corr` choice has a numerics constraint.
+- T3 quadratic saturation `V(I)=(k/2)(I−I_max/2)²`: 154 sign changes; amplitude envelope late/early ≈ 0.57 (mode redistribution, not damping); stable.
+
+**Implementation input for the fleet sweep**:
+1. `sat_corr` form must be smooth/bounded for explicit leapfrog; divergent forms need implicit (Crank-Nicolson) or get filtered before fleet runs.
+2. The §5 spec diagnostic should use the wave-eq energy `(1/2)·[(I−I_{t−1})² + (c·Δt/dx)²·(∇I)²]`, not naïve L² (which oscillates ~50% in even the bare wave eq).
+3. The §5 "amplitude variation < 10% across cycles" criterion should distinguish true damping from mode redistribution (use single-mode IC for the strict pass/fail; IC-A Gaussian for general dynamics).
+4. The §5 "oscillation count > 50" criterion is hit easily by working configs and not by blow-ups — useful signal.
+
+**Does not output**: verdict on Ingredient B (B stays `[PARALLEL-PATHS]` pending fleet sweep); no A/B/C/D comparison; no Phase-1 result; no cumulative tally. The S679 Priority 2 inventory unchanged.
+
+Full document: `Research/Session680_Phase1_Ingredient_B_1D_Feasibility.md`
 
 ### Session 679: Frame-Doc Discipline Application + Priority 2 (A.3 ↔ S665/S666) Inventory (2026-05-28) `[ACTIVE-MRH]`
 
