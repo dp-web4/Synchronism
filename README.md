@@ -8,13 +8,13 @@ The framing is ambitious. The work tests the framing. Many tests have not passed
 
 If you want a fast read on whether this is real, in order:
 
-1. [**STATUS.md**](STATUS.md) — full honest assessment of what's tested, what's pending, what failed.
-2. [**Research/discoveries/**](Research/discoveries/) — discoveries with explicit statistical evidence and falsification status. Each doc names what would refute the claim.
-3. [**Honest Limitations** (further down this README)](#honest-limitations) — the things that *didn't* work. 53% error on chemistry melting points. 2× off on critical exponents. The framework's own boundary, named in the open.
-4. [**Research Tracks**](#research-tracks-march-2026) — current work with session counts and verdicts. "Phase 2 complete: framework is organizational lens, not predictive theory" is itself a finding.
+1. [**STATUS.md**](STATUS.md) — full honest MRH-state inventory of what's active, what's parallel-paths, what's sidelined, what's superseded. Audit findings that stand. Zero novel predictions confirmed.
+2. [**forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md**](forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md) — the current cycle. After Kimi 2.6's saturation-reframe + time-reframe reviews (2026-05-28), substrate-level work re-entered active MRH. The companion `saturation-reframe-resurfaced-pieces-mrh-stewardship-2026-05-28.md` documents how to read inventory updates without closure-shaped framings.
+3. [**Research/discoveries/**](Research/discoveries/) — discoveries with explicit statistical evidence and falsification status. Each doc names what would refute the claim.
+4. [**Honest Limitations** (further down this README)](#honest-limitations) — the things that *didn't* work. 53% error on chemistry melting points. 2× off on critical exponents. The framework's own boundary, named in the open.
 5. [**Coupling-Coherence Experiment**](Research/Coupling_Coherence_Experiment.md) — 900 runs, Hill function beat tanh by ΔAIC=4. Concrete, reproducible, falsifiable.
 
-The work that follows is a research program testing a unifying hypothesis. The hypothesis being ambitious doesn't make the testing crankery; the testing being explicit about its failures is what distinguishes it from crankery.
+The work that follows is a research program testing a unifying hypothesis. The hypothesis being ambitious doesn't make the testing crankery; the testing being explicit about its failures and stewarding its parallel paths honestly is what distinguishes it from crankery.
 
 ---
 
@@ -26,7 +26,9 @@ It is **not** a physics theory that supersedes or unifies GR and QFT. The "ONE E
 
 Compared to existing frameworks, Synchronism is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. Its strongest contributions to date are methodological (A2ACW — AI-to-AI adversarial collaboration) and conceptual (the discrete-grid + observer-dependent-simultaneity ontology), not predictive.
 
-The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](explorations/). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage.
+**Current substrate reformulation (2026-05-28)**: Following Kimi 2.6's saturation-reframe and time-reframe reviews, substrate-level work is back in active research focus. The prior `∂I/∂t = ∇·[D · R(I) · ∇I]` rule was found to be 1-DOF scalar diffusion (Session 11), irrotational (S665), and dissipative (S666). The current reformulation adds an independent vector flux **J** to the saturated lattice and reframes *c* as a pattern-reconstruction rate (with mass ≡ pattern complexity). Audit findings on the prior substrate stand; the new substrate inherits zero confirmed predictions and the obligation to produce novel ones. See `forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md` for the current MRH-active work and `STATUS.md` for the consolidated open-question set.
+
+The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](explorations/). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage. The Phase 1 simulation work on the saturation-reframe substrate addresses the same open question as Stage 1 of the cellular-automaton challenge.
 
 ---
 
@@ -34,7 +36,7 @@ The framework's most direct empirical test — can simple local rules on a discr
 
 Synchronism asks: *Can one coherence parameter explain phenomena from Planck scale to cosmic scale?*
 
-**2,200+ research sessions** later, we have validated predictions across 1703 phenomenon types — and honest failures that define the framework's boundaries.
+**~3,360 research sessions** later (~678 core + ~2671 chemistry + 11 gnosis, as of 2026-05-28), we have catalogued pattern alignment across 2523 phenomenon types and identified zero confirmed novel predictions. The framework reparametrizes known physics in all empirically-tested regimes (S660A novelty ledger). The honest failures that define the framework's boundaries — and the substrate-level reformulations being tried in response — are documented openly.
 
 ---
 
