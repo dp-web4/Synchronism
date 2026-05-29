@@ -94,14 +94,21 @@ Reproduced from `STATUS.md` for autonomous-track context. Treat as the active in
 
 Ordered by combination of leverage, reachability, and informativeness-regardless-of-outcome. Use these as session-seed defaults when not given a specific directive.
 
-### Priority 1: Phase 1 simulation design + execution
+### Priority 1: Phase 1 simulation design + execution — **SHARPENED 2026-05-28**
 
-The substrate Phase 1 simulation is the next binary-outcome step. The work spans multiple sessions:
-- **Design phase**: specify the discrete rule per Appendix A.3 with R(I) = [1 − (I/I_max)^n], including independent vector flux **J** for momentum. Sweep parameter space `(n, I_max, T_ij)`. Test Mechanism A (conservative `J`) vs Mechanism B (CFL + saturation → limit cycle). 1D first, then 2D.
-- **Execution phase**: run the simulation, characterize the parameter regimes (if any) where stable oscillating patterns emerge.
-- **Reporting phase**: positive or negative findings honestly. Either outcome moves the work forward.
+> **Important context** added after deeper read of S665 §98 (per `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` §3): the Kimi saturation reframe (real-valued I + independent vector flux **J**) is **structurally identical** to the S17-22 2-DOF augmentation already explored. S17-22 produced damped oscillation, transient dispersing vortices, R(I) defocusing, and the conclusion that *self-confinement is impossible from saturation alone*. **Re-running the same parameter sweep would reproduce the null result.**
 
-This is the same question as `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md` Stage 1 and as whitepaper Appendix A Open Math Problem #1 ("What transfer rules generate stable patterns?"). The deduplication is itself useful work.
+The Phase 1 sim work, sharpened, is **not** "does independent **J** escape S665?" (S17-22 already showed it produces vortex angular momentum that disperses). It is: **what additional ingredient beyond independent J would escape the S17-22 damping/dispersal pattern?**
+
+Candidate ingredients (all `[PARALLEL-PATHS]` until tested):
+- **Focusing nonlinearity**: non-monotonic R(I) (increasing in some intermediate-I band, then decreasing) → may produce focusing instead of S17-22's universal defocusing. Breaks the saturation-as-pattern-stability axiom (Foundation 3); coherent alternative.
+- **Second-order time dynamics**: wave equation `∂²I/∂t² = c² ∇²I + saturation correction` instead of first-order parabolic. Different dynamical class (hyperbolic, not parabolic). Would address S666 too. Not "saturation reframe" — "switch to wave equation."
+- **External confinement**: entities require pre-existing walls from other entities, not self-confinement. S19's actual conclusion. Analogous to QCD vacuum confinement. Entity criterion γ/f = −4·ln(|r|) holds for externally-confined cavities.
+- **Complex-valued amplitude**: I → ψ. Addresses S666 honest-steelman path. Contradicts real-saturating-Intent axiom; becomes Gross-Pitaevskii-like.
+
+The Phase 1 sim should test **at least one** of these additional ingredients, not re-run S17-22 territory. Specifically: design a sim that puts an "additional ingredient" *as the independent variable*, with independent J as the control baseline. If the additional ingredient produces sustained (not damped) oscillation OR stable (not dispersing) vortex cores, that's a positive signal. If none does, S17-22's null result is confirmed and extended.
+
+This is `[ACTIVE-MRH]` work, but sequenced after the design-spec is sharpened to avoid the redundancy trap. The deduplication with `explorations/2026-05-15-cellular-automaton-discrete-grid-physics.md` Stage 1 and whitepaper Appendix A Open Math Problem #1 is even more useful now — same target, sharpened spec.
 
 ### Priority 2: A.3-vs-Session-11/S665/S666 reconciliation
 
@@ -114,9 +121,17 @@ Articulate the three possible resolutions:
 
 Phase 1 sim work will inform but not necessarily settle. The reconciliation is documentary work that can begin now.
 
-### Priority 3: `f(N)` reconstruction-function existing-material survey
+### Priority 3: `f(N)` reconstruction-function derivation — **CORRECTED 2026-05-28**
 
-Whitepaper §5.7 cross-references Appendix A.19 for "velocity-complexity relationships, probability of transition functions, and time dilation factors." Before commissioning new `f(N)` derivation work, read A.19 thoroughly and surface what's already there. Output: `Research/proposals/fN-existing-material-survey-2026-MM-DD.md`. This gates Priority 5 (quantitative-discriminator work).
+> **Important correction**: Appendix A.19 **does not exist in the whitepaper source**. The §5.7 cross-reference to A.19 is a forward-looking pointer to material never written (or renumbered/removed at some point). What was framed as a "survey of existing material" is in fact open derivation work.
+
+`f(N)` — the number of substrate ticks required to stabilize a complexity-N pattern in an adjacent cell — needs to be derived from the discrete substrate rules with boundary condition `f(N) → 1` as `N → 0` (minimal complexity = photon).
+
+This is `[ACTIVE-MRH]` work. Without `f(N)`, the complexity-dependent speed-limit picture (Kimi follow-up §4) is qualitative ("composite patterns slow down") but not quantitative (cannot test against GR). The four candidate experimental discriminators (OAM photons by ℓ, entangled pairs, neutrinos, mechanical-vs-atomic clock divergence in strong gravity) are all gated on this derivation.
+
+The c-as-reconstruction-rate framing is **structurally independent** of the substrate dynamical class (dissipative vs unitary). It can stand even if the saturation reframe doesn't escape S665/S666. Cleaner standalone hypothesis than the original cycle gave it credit for.
+
+Output: `Research/proposals/fN-derivation-spec-2026-MM-DD.md` — specify the derivation target precisely, including (a) the operational definition of "pattern complexity N" in the substrate, (b) the substrate dynamics assumed, (c) the boundary conditions, (d) the predicted form of `f(N)` if multiple candidates exist.
 
 ### Priority 4: Sufficiency-claim stance adoption
 

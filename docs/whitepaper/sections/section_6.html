@@ -377,30 +377,51 @@ speed-limit picture in §5.7 from qualitative (“composite patterns slow
 down”) into quantitative (testable deviation from GR). OQ-Discriminators
 below is gated on this.</p>
 <p><strong>OQ-Oscillation — Stable oscillating patterns in lattice
-simulation <code>[ACTIVE-MRH]</code></strong></p>
-<p>Demonstrate stable oscillating patterns in a 1D/2D lattice with R(I)
-= [1−(I/I_max)^n], sweeping <code>(n, I_max, T_ij)</code> and
-independent vector flux <strong>J</strong> rules. Test <strong>Mechanism
-A</strong> (conservative J — does the J-evolution rule preserve a
-conserved current that supports limit-cycle oscillation?) vs
-<strong>Mechanism B</strong> (CFL-violation + saturation feedback →
-limit cycle — does a deliberately-stiff discretization plus saturation
-backpressure produce sustained oscillation, with the oscillation period
-emerging from the lattice dynamics rather than imposed by hand?). This
-is the empirical bottom of the A.3-vs-Session-11 tension; whichever
-resolution path survives gets promoted out of
-<code>[ACTIVE-MRH]</code>.</p>
-<p><strong>OQ-A3-Tension — Appendix A.3 vs Session 11 vs S665/S666
-<code>[ACTIVE-MRH]</code></strong></p>
-<p>Reconcile Appendix A.3’s “exact NS identification” claim with Session
-11’s finding (the rule reduces to 1-DOF scalar diffusion under the
-maximum principle for parabolic PDEs) and with S665/S666’s findings (the
-substrate is irrotational, curl(v) ≡ 0 for any R(I), and dissipative,
-first-order ∂I/∂t with monotonically-decreasing Lyapunov functional). At
-least one of these three statements requires qualification; A.3 inline
-note describes the three candidate resolutions. This is the
-meta-question OQ-EOS / OQ-Momentum / OQ-Oscillation address from their
-respective angles.</p>
+simulation <code>[ACTIVE-MRH]</code></strong> (sharpened 2026-05-28)</p>
+<p>Demonstrate stable oscillating patterns in a 1D/2D lattice.
+<strong>Important sharpening</strong>: per S665 §98, the move of adding
+independent vector flux <strong>J</strong> to a real-valued I with R(I)
+was already explored in S17-22 (2026-03-21/22) and produced only damped
+oscillation + transient dispersing vortices (R(I) is universally
+defocusing — wave speed = c·√R(I) decreases at high I, so high-I pulse
+cores travel slower than low-I edges → dispersal). Re-running that sweep
+reproduces the null result. <strong>The active question is what
+additional ingredient <em>beyond</em> independent J would escape
+S17-22’s pattern</strong>: focusing nonlinearity (non-monotonic R(I)),
+second-order time dynamics (wave-equation substrate, hyperbolic class),
+external confinement (entities require pre-existing walls, not
+self-confinement), or complex-valued amplitude (I → ψ, addresses S666
+honest-steelman). Phase-1 simulation should put at least one such
+ingredient on as the independent variable, with the bare 2-DOF
+augmentation as the control baseline. Either outcome (positive: an
+ingredient escapes damping/dispersal; negative: S17-22 null confirmed
+and extended) advances the inventory.</p>
+<p><strong>OQ-A3-Tension — A.3 vs S617 vs S665/S666
+<code>[AUDITED-NEGATIVE]</code> (original A.3 claim) +
+<code>[ACTIVE-MRH]</code> (what comes after)</strong></p>
+<p>A.3’s “exact NS identification” claim was <strong>already retracted
+by the audit arcs</strong>: S617 (2026-04-08,
+<em>Research/Session617_Diffusion_Not_NavierStokes.md</em>) found the
+rule reduces to 1-DOF scalar diffusion with velocity slaved to ∇I (no
+inertia, no advection); S665/S666 (2026-05-24) proved the corresponding
+continuum dynamics is irrotational (curl(v) ≡ 0 for any R(I)) and
+dissipative (first-order ∂I/∂t with monotonically-decreasing Lyapunov
+functional). The earlier <code>✅ Established</code> tag on A.3 was
+stale at the time of the Kimi 2026-05-28 review (which adopted the label
+“Session 11” for the S617 finding; both refer to the same structural
+result, canonically articulated in S617).</p>
+<p>The substantively active question is therefore not “reconcile A.3
+with S617/S665/S666” — that’s done — but rather: <strong>what substrate
+reformulation actually escapes S665 + S666?</strong> The Kimi saturation
+reframe (real-valued I + independent vector <strong>J</strong>) escapes
+S665 partially (J can have curl) but does NOT escape S666 (still
+dissipative). Substantive escape requires either dropping the entity
+ontology, going complex-valued (essentially standard QM with new
+vocabulary), or naming the substrate/ontology split as an irreducible
+foundational tension (FUNDAMENTALS Foundation 4 epicycle warning, named
+openly). See
+<code>forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md</code>
+for the deeper-reading analysis.</p>
 <p><strong>OQ-Discriminators — Quantitative deviations from GR/QM
 <code>[PARALLEL-PATHS]</code> (gated on OQ-fN)</strong></p>
 <p>Once <code>f(N)</code> is derived, quantify the predicted deviation

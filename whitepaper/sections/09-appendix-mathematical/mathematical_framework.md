@@ -38,7 +38,7 @@ Where:
 - `T(x',y',z' → x,y,z,t)` = Transfer from adjacent cell
 - Sum over all 6 adjacent cells (3D lattice)
 
-**Status:** Core computational rule of the original substrate. **Session 11** showed that under the maximum principle for parabolic PDEs this rule reduces to 1-DOF scalar diffusion (no stable oscillation possible). **S665/S666** showed the corresponding continuum dynamics is irrotational and dissipative (curl(v) ≡ 0 for any R(I); first-order ∂I/∂t with decreasing Lyapunov functional). The active substrate reformulation introduces an **independent vector flux J** to give the rule a momentum DOF the original lacks. See A.3 inline note, A.14 (master equation as the natural host for J), and §6.4 OQ-Momentum / OQ-A3-Tension.
+**Status:** Core computational rule of the original substrate. **S617** (2026-04-08) showed that under the maximum principle for parabolic PDEs this rule reduces to 1-DOF scalar diffusion (no stable oscillation possible). **S665/S666** (2026-05-24) showed the corresponding continuum dynamics is irrotational and dissipative (curl(v) ≡ 0 for any R(I); first-order ∂I/∂t with decreasing Lyapunov functional). The active substrate reformulation introduces an **independent vector flux J** to give the rule a momentum DOF the original lacks; however, per S665 §98 this 2-DOF augmentation was already explored in S17-22 (2026-03-21/22) and produced only damped oscillation + transient dispersing vortices, so the Phase-1 simulation work must add an *additional ingredient* beyond independent **J** to escape that null result. See A.3 inline note, A.14 (master equation as the natural host for **J**), §6.4 OQ-Momentum / OQ-A3-Tension, and `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` for the deeper-reading correction.
 
 ---
 
@@ -102,17 +102,21 @@ D(I) = D₀ × R(I) = D₀ × [1 - (I/I_max)^n]
 
 **R(I) is viscosity.** The saturation-dependent diffusion coefficient D(I) = D₀·R(I) is the viscosity of the Intent fluid. Specifically, it is a **shear-thinning power-law viscosity**: viscosity decreases as Intent density increases (the fluid becomes "slipperier" as cells fill). This is a known rheological class (power-law fluids) with well-characterized behavior. An earlier formulation went further: *"the full Intent transfer equation in continuum form IS the incompressible Navier-Stokes equation with this variable viscosity — not an analogy, but an exact identification."* See Section 4.1 and `Research/CFD_Reframing_NS_Scale_Invariance.md`.
 
-> **Inline tension note (2026-05-28).** That "exact identification" claim is in **active inventory tension** with two independently-verified findings:
+> **Inline tension note (2026-05-28, updated same day).** That "exact identification" claim was **retracted by the audit arcs**:
 >
-> - **Session 11** showed the rule `∂I/∂t = ∇·[D·R(I)·∇I]` reduces to 1-DOF scalar diffusion under the maximum principle for parabolic PDEs (no stable oscillation possible).
-> - **S665/S666** showed the corresponding substrate is irrotational (v = J/I = −g(I)·∇I is the gradient of a scalar, so curl(v) ≡ 0 for any R(I) ⇒ no vortices) and dissipative (first-order ∂I/∂t with monotonically-decreasing Lyapunov functional ⇒ no unitary oscillation).
+> - **S617** (2026-04-08, *Research/Session617_Diffusion_Not_NavierStokes.md*) showed the rule `∂I/∂t = ∇·[D·R(I)·∇I]` reduces to 1-DOF scalar diffusion under the maximum principle for parabolic PDEs. The induced velocity v = J/I = −D·R(I)·∇I/I is *slaved* to ∇I, not an independent field. No inertia, no advection, no Reynolds number. (Kimi's 2026-05-28 review labeled this "the Session 11 finding"; the canonical citation is S617.)
+> - **S665** (2026-05-24) **proved** for any R(I) and any D: v = −g(I)∇I is curl-free by construction → vorticity ω = ∇×v ≡ 0 for all time. Numerically verified in `simulations/session665_cfd_vorticity.py`. The flow is also compressible (|div v|·L/|v| ≈ 11.5), not incompressible. So the original substrate is irrotational + compressible scalar transport — not "incompressible NS."
+> - **S666** (2026-05-24) showed the substrate dynamics is dissipative (real eigenvalues, monotonically-decreasing Lyapunov functional, arrow of time), incompatible with the unitary entity ontology (de Broglie f = E/h, phase-locking). The S99/S307 Schrödinger "derivations" reach QM only by inserting `i` by hand AND switching the substrate off (drop R, or D → 0).
 >
-> Incompressible Navier-Stokes supports vortices, sustains oscillations (vortex shedding, free-surface waves, turbulence), and is **not** equivalent to a 1-DOF scalar diffusion rule. **At least one of these three statements requires qualification.** Possible resolutions, each an inventory item:
-> - **(a)** A.3's identification holds at the rheology-class level but the discrete implementation rule is the *density* equation only, missing the independent momentum DOF. The fix is to make the discrete rule carry an independent vector flux **J** (the saturation reframe's addition; see A.14 master equation).
-> - **(b)** A.3's "exact identification" claim is over-stated; the variable-viscosity NS analogy holds structurally, not term-by-term.
-> - **(c)** The R(I) exponent n changes the story qualitatively. A.3 has n as a tunable parameter; Session 11 and the S665/S666 derivations worked with n=1. Phase-1 simulation should sweep n (porous-media-flow regime at n>1 vs simple nonlinear diffusion at n=1) along with `I_max` and **J** transfer rules.
+> The earlier `✅ Established` tag on this section was stale at the time of the Kimi review. The saturation reframe with independent vector **J** addresses S665 partially (J can have curl in principle) but does NOT address S666 (still dissipative unless made complex-valued).
 >
-> Phase-1 simulation work (1D/2D lattice with R(I) = [1 − (I/I_max)^n] sweeping n, plus independent vector flux **J**) will determine which resolution(s) hold. See `Research/OPEN_QUESTIONS_*`, `forum/claude/saturation-reframe-resurfaced-pieces-mrh-stewardship-2026-05-28.md` §2, and §6.4 OQ-A3-Tension.
+> Possible escape routes from the S665 + S666 constraints (each a `[PARALLEL-PATHS]` item until tested):
+> - **Focusing nonlinearity**: non-monotonic R(I) (rises in some intermediate-I band, then falls) → may produce focusing instead of S17-22's universal defocusing. Breaks Foundation 3.
+> - **Second-order time dynamics**: wave equation `∂²I/∂t² = c² ∇²I + saturation correction` instead of first-order parabolic. Different dynamical class (hyperbolic).
+> - **External confinement**: entities require pre-existing walls from other entities, not self-confinement (S19's actual conclusion; QCD-vacuum analogy).
+> - **Complex-valued amplitude**: I → ψ. Addresses S666 honest-steelman; contradicts real-saturating-Intent axiom.
+>
+> Phase-1 simulation work must include at least one of these additional ingredients beyond independent **J** to escape S17-22's null result. See `Research/OPEN_QUESTIONS_*`, `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md`, and §6.4 OQ-A3-Tension.
 
 **Why This Enables Patterns:**
 
