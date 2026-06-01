@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-01 (Session 682 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient C; third in the per-ingredient pre-flight series after S680/S681; analytical verification of S18 entity criterion, implementation input for fleet sweep, not a Phase-1 result)*
+*Last updated: 2026-06-01 (Session 683 — cluster gap is wrong-variable, not mainly one-scale; refines S678 framing per back-annotated amendment, substance preserved)*
 
 ---
 
@@ -319,6 +319,35 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 683: Cluster Gap Is Wrong-Variable (Not Mainly One-Scale) — S678 Framing Refined `[ACTIVE-MRH]` (2026-06-01)
+
+**Substantive new external input** (back-annotation channel, same-day pair):
+- `Research/proposals/one_scale_insufficiency_theorem_cluster_gap.md` (elevates S678's structural finding as "one-scale theorem")
+- `Research/proposals/cluster_gap_wrong_variable_amendment.md` (amends the first: "the cluster gap is a wrong-variable problem, not mainly a one-scale problem")
+
+**Amendment's two-level diagnosis**:
+
+| Level | Obstruction | Magnitude | Origin |
+|---|---|---|---|
+| 1 | wrong variable (local ρ vs non-local g_bar) | ~10⁴ / structural | framework-specific (cost of C(a)→C(ρ) migration) |
+| 2 | one scale (single a₀ misses cluster cores) | ~factor 2 | MOND-inherited (Sanders 2003) |
+
+Argument: MOND has one scale and misses clusters by ~2×; C(ρ) misses by 10⁴. If "one-scale" were the dominant cause, both would fail similarly. The 5-OOM gap → the real obstruction is *variable choice*, not scale count. The factor-~2 residual is real but transferable, shared with MOND.
+
+**Verification** (sim `session683_cluster_wrong_variable_check.py`):
+- **Within Coma (A)**: in the inner core (r < r_c = 290 kpc), gas ρ varies by **+0.16 dex** while g_bar varies by **+1.20 dex**. The map ρ→g_bar is not single-valued. C(ρ) at galaxy-anchored ρ_crit is nearly constant (0.40–0.53) across this region. No C(ρ) ansatz can produce a radially-varying mass discrepancy in a flat-cored cluster regardless of C-to-mass mapping. Confirmed against the framework's own equations.
+- **Cross-system (B)**: rough check gives +1.1 dex density offset at matched g_bar; amendment's 1.7 dex uses different methodology. Order-of-magnitude consistent (sign, magnitude in dex range); precise reproduction needs SPARC + Coma full baryon profile, beyond pre-flight scope.
+
+**Implication for S678's framing** — substance preserved, mechanism story refined:
+- S678's bottom line (C(ρ) does not bridge galaxies to clusters; cluster sector closed for the density-map program) is unchanged. `[AUDITED-NEGATIVE]` status on the old R(I) substrate stands.
+- The named structural cause is recast: the 10⁴ failure is wrong-variable (local ρ cannot reproduce non-local g_bar); the factor-~2 "one density scale" residual is MOND-inherited (Sanders 2003, Pointecouteau & Silk 2005), not a novel Synchronism theorem.
+- A3's codomain bound (M_app/M_B ≤ 2) stands as the *symptom* of wrong-variable, not as the underlying mechanism.
+- The C(a) → C(ρ) migration was "change of kind, not degree": C(a) gives a factor-2 magnitude problem shared with a respected class; C(ρ) gives a 10⁴ kind problem specific to the framework. Migration cost now precise.
+
+**Does not output**: verdict on the broader sector closure (active reformulation `[ACTIVE-MRH]`); retag of S678 (already in MRH-relationship taxonomy after S679); judgment on whether the wrong-variable obstruction is preprint-worthy (operator/coordinator work); cumulative tally.
+
+Full document: `Research/Session683_Cluster_Wrong_Variable_Refinement.md`
 
 ### Session 682: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient C `[ACTIVE-MRH]` (2026-06-01)
 
