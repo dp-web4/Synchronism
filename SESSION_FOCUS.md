@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-31 (Session 681 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient D; second in the per-ingredient pre-flight series after S680; implementation input for the fleet sweep, not a Phase-1 result)*
+*Last updated: 2026-06-01 (Session 682 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient C; third in the per-ingredient pre-flight series after S680/S681; analytical verification of S18 entity criterion, implementation input for fleet sweep, not a Phase-1 result)*
 
 ---
 
@@ -319,6 +319,35 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 682: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient C `[ACTIVE-MRH]` (2026-06-01)
+
+**Context**: Publisher 2026-06-01 pivot ("audit-closure → Phase-1 SIMULATION + Kimi K2.6 second-round review"). K2.6 review (`forum/kimi/kimi_2_6_review.md`) reframes Synchronism as "early-stage research program with systems-theoretic ambitions" rather than "degenerate reparametrization" (after dp's pushback that all physics is reparametrization at some level); explicitly identifies the discrete-grid substrate simulation as the most direct test of the framework's core claim (lines 661–668). My role under the established discipline: continue the canonical work queue (amendment §3.1 1D pre-flights); the operator/coordinator translates K2.6 implications into directives separately.
+
+**Pickup**: amendment §3.1 line 108 — *"Ingredient C — 1D needed. Use S18's prediction γ/f = −4·ln(|r|). Recompute and verify entity criterion holds at 1D."* Third in the per-ingredient series after S680 (B) / S681 (D). Same shape.
+
+**Findings** (`session682_phase1_ingredient_C_1D_feasibility.py`):
+
+§2.1 — Analytical entity-criterion boundaries for `R(I) = 1 − (I/I_max)^n`, interior I = 0.5·I_max:
+
+| n | I_wall at \|r\|=0.779 (entity boundary) | at \|r\|=0.9 | at \|r\|=0.99 |
+|---|---|---|---|
+| 1 | 0.9923 | 0.9986 | ~1.0 |
+| **2** | **0.9942** | 0.9990 | ~1.0 |
+| 3 | 0.9955 | 0.9992 | ~1.0 |
+| 4 | 0.9964 | 0.9994 | ~1.0 |
+
+Refines S18's "I_wall > 0.99 for n=2" rule of thumb to a precise impedance threshold at **I_wall ≥ 0.9942** for the entity boundary, **I_wall ≥ 0.998** for clean entity-regime data (γ/f < 0.6).
+
+§2.2 — A setup-error class to avoid in the fleet sweep. The first attempt at numerical 1D verification used a variable-speed wave equation with Dirichlet `I = I_wall` BC and an interior baseline `I_in ≠ I_wall`. The signal grew monotonically from 0.25 to ~25 (4000 steps) — not oscillation but slow ring-up. **Cause**: a wave eq with uniform Dirichlet BC at I_wall has its only equilibrium at I = I_wall; any baseline I_in ≠ I_wall is not an equilibrium. The amendment §3.C explicitly says "keep the parabolic substrate" — meaning the spec §2 2-DOF saturated baseline (continuity + independent J momentum) with high-I walls, not a bare wave-equation simplification. With 2-DOF, J carries the propagation independent of static I equilibrium, so pulses on any I_in baseline can oscillate.
+
+§2.3 — Diagnostic recommendation for fleet sweep: fit damped harmonic `A·exp(−γt)·cos(2πft+φ)` to probe-point time series; compare γ/f to analytical −4·ln(|r|) using §2.1's formula. Pass at 1D: match within ~10% for I_wall ∈ [0.95, 0.999]. 2D/3D extends to "are stable confined patterns persistent over many round-trip times against transverse instabilities" — the binary-outcome question Ingredient C is set up to answer.
+
+**Does not output**: verdict on Ingredient C (stays `[PARALLEL-PATHS]` pending fleet sweep); A/B/C/D comparison; Phase-1 result; cumulative tally. Did NOT do a 1D numerical γ/f sweep — the setup-error class precluded it under wave-eq simplification, and the proper 2-DOF cavity build is fleet-sweep work; §2.1 analytical thresholds substitute. Did NOT engage K2.6 review directly (operator-level meta-input).
+
+**Remaining 1D pre-flight per amendment §3.1**: Ingredient A (focusing nonlinearity, non-monotonic R(I)). Amendment §1 says A standalone is "vacuous" — A's value is gated on combination with B-A1/B-A2/D — so the A standalone pre-flight is lower-leverage and may be deferred or combined with the fleet sweep. Per-ingredient 1D series otherwise complete in scope.
+
+Full document: `Research/Session682_Phase1_Ingredient_C_1D_Feasibility.md`
 
 ### Session 681: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient D `[ACTIVE-MRH]` (2026-05-31)
 
