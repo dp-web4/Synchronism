@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-05-29 (Session 680 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient B; implementation input for the fleet sweep, not a Phase-1 result)*
+*Last updated: 2026-05-31 (Session 681 — 1D pre-pre-flight feasibility check on Phase-1 spec Ingredient D; second in the per-ingredient pre-flight series after S680; implementation input for the fleet sweep, not a Phase-1 result)*
 
 ---
 
@@ -319,6 +319,25 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 681: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient D `[ACTIVE-MRH]` (2026-05-31)
+
+**Substantive new input**: `Research/proposals/phase1-simulation-design-spec-amendment-2026-05-31.md` (CBP-Claude) integrating S679/S680 explicitly and reordering the sweep by leverage: B-A1 > B-A2 > **D** > A > C. Amendment §3.1 line 109 directly asks for the next 1D pre-flight on Ingredient D. Same shape as S680 — 1D, 256 cells, 2000 timesteps, parallel-paths inventory.
+
+**Tests** (`session681_phase1_ingredient_D_1D_feasibility.py`, split-step Fourier propagator):
+- T1 free Schrödinger (γ=0, V=0): norm drift +9.6×10⁻¹⁴ (machine precision); mode-k₀ phase winds monotonically. Discretization well-posed.
+- T2 Gross-Pitaevskii (γ=0, V(|ψ|²)=α|ψ|²): norm drift +9.0×10⁻¹⁴. Real-V keeps generator anti-Hermitian; unitarity preserved.
+- T3 saturation damping (γ>0, R(|ψ|²)=1−(|ψ|²/|ψ|_max²)²): end-norm ratio 0.984/0.851/0.182 for γ=0.5/5/50; damping rate ∝ γ⟨R⟩; phase dynamics persist throughout (telegrapher-class shape, not pure exponential decay).
+
+**Implementation input for the fleet sweep on Ingredient D specifically** (alongside S680's Ingredient B amendments):
+1. Integrator: **split-step Fourier** (or Crank-Nicolson for non-periodic BC). Explicit Euler is unconditionally unstable for Schrödinger — S666 sim caught this. Spec for D should lock this in, not leave it open.
+2. Strict pass at γ=0: `∫|ψ|² dV` conserved to 10⁻⁶ over the full run **AND** mode-k phase winds linearly in t with slope `D·k²` (the phase clause catches kinetic-coefficient sign/factor errors the norm check misses).
+3. Characterization at γ>0: report damping *rate* `d(∫|ψ|²)/dt`, not pass/fail; also report whether phase dynamics persist while amplitude damps (telegrapher-class vs pure exponential).
+4. Single-mode IC for strict pass/fail is automatically covered here because the mode-k phase test is a single-mode probe even within a Gaussian envelope.
+
+**Does not output**: verdict on Ingredient D (stays `[PARALLEL-PATHS]` pending fleet sweep); no A/B/C/D comparison; no Phase-1 result; no cumulative tally. S679 Priority 2 inventory unchanged. Remaining 1D pre-flights per amendment §3.1: Ingredient A (focusing nonlinearity) and Ingredient C (external confinement) — templatable from S680/S681 for future firings.
+
+Full document: `Research/Session681_Phase1_Ingredient_D_1D_Feasibility.md`
 
 ### Session 680: 1D Pre-Pre-Flight on Phase-1 Spec Ingredient B `[ACTIVE-MRH]` (2026-05-29)
 
