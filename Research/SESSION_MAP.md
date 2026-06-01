@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3324 (628 core + 46 chemistry files/2679 documented + 17 gnosis) | **Last Updated**: April 16, 2026 | **Archivist v1.3** | **MILESTONES: Session #628 Framework Stress Test — η ≡ AG pair-breaking (reparametrization). ALL 4 tracks reparametrizations. 48 genuine contributions, 0 unique predictions confirmed. 2045/2045 tests.**
+**Total Sessions**: ~3318 (681 core / 632 files on disk + 46 chemistry files/2675 documented + 10 gnosis files/19 documented) | **Last Updated**: June 1, 2026 | **Archivist v1.3** | **FRONTIER: Session #681 — convergence→re-engagement. After S677 closed the 61-session audit chain (S617→S677), the track pivoted from epistemic-hygiene auditing into Phase-1 substrate SIMULATION design; S680/S681 [ACTIVE-MRH] are 1D feasibility pre-checks on spec Ingredients B (wave-equation) and D (Gross-Pitaevskii). 7th cross-track instance of the re-engagement-after-recognition pattern.**
 
 > *"The framework that unifies coherence physics across all scales"*
 
