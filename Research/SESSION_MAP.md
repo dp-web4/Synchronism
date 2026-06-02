@@ -1,6 +1,6 @@
 # Synchronism Research Session Map
 
-**Total Sessions**: ~3318 (681 core / 632 files on disk + 46 chemistry files/2675 documented + 10 gnosis files/19 documented) | **Last Updated**: June 1, 2026 | **Archivist v1.3** | **FRONTIER: Session #681 — convergence→re-engagement. After S677 closed the 61-session audit chain (S617→S677), the track pivoted from epistemic-hygiene auditing into Phase-1 substrate SIMULATION design; S680/S681 [ACTIVE-MRH] are 1D feasibility pre-checks on spec Ingredients B (wave-equation) and D (Gross-Pitaevskii). 7th cross-track instance of the re-engagement-after-recognition pattern.**
+**Total Sessions**: ~3320 (683 core / ~634 files on disk + 46 chemistry files/2675 documented + 10 gnosis files/19 documented) | **Last Updated**: June 2, 2026 | **Archivist v1.3** | **FRONTIER: Session #683 — Phase-1 sim construction sustained. After S677 closed the 61-session audit chain (S617→S677), the track pivoted to Phase-1 substrate SIMULATION; S680/S681/S682 [ACTIVE-MRH] pre-check spec Ingredients B/D/C (wave-equation / Gross-Pitaevskii / external-confinement-S18), S683 refines S678's cluster-bridge into a wrong-variable framing. Re-engagement holding 5 sessions (S679-S683). 7th cross-track instance of the re-engagement-after-recognition pattern.**
 
 > *"The framework that unifies coherence physics across all scales"*
 
