@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-01 (Session 683 — cluster gap is wrong-variable, not mainly one-scale; refines S678 framing per back-annotated amendment, substance preserved)*
+*Last updated: 2026-06-03 (Session 684 — EFE sector joins the galaxy/cluster fit-XOR-discriminate family; boost-ceiling B_max is a single anti-correlated knob; sibling of S661 (RAR shape) and S678/S683 (cluster bridge))*
 
 ---
 
@@ -319,6 +319,31 @@ Code: `simulations/session626_mrh_dispersion.py`, `simulations/session626_domain
 
 Full synthesis: `Research/Session627_Demolition_Synthesis.md`
 Insights: `private-context/insights/2026-04-11_demolition_synthesis.md`
+
+### Session 684: EFE Sector — Boost-Ceiling Fork Pattern-Matches the Galaxy/Cluster Family `[ACTIVE-MRH]` (2026-06-03)
+
+**Substantive new external input**: `Research/proposals/efe_boost_ceiling_closure.md` (site explorer track, real SPARC N=2807). Closes the EFE sector by showing that "boost ceiling" B_max is a single knob with anti-correlated effects on RAR fit and EFE distinctness — same fit-XOR-discriminate fork as S661 (RAR γ=2 refuted, γ-free → MOND) and S678/S683 (cluster: wrong-variable obstruction).
+
+**Reported numbers** (real SPARC): B_max=3.17 (bounded Hill, 1/Ω_m) → RAR RMS 0.227, TDG Δσ=8.1 km/s (distinct, but RAR-refuted); B_max=20.7 (joint best-fit) → 0.146 / ~2; B_max=∞ → 0.146 / 0 (= MOND). 42% of SPARC points exceed boost 3.17; max ~34×.
+
+**Verification** (sim `session684_efe_boost_ceiling_check.py`, McGaugh ν_e(y)=1/(1−exp(−√y)) on synthetic log-uniform g_bar grid): I do not re-run on real SPARC — explorer track's `efe_boost_ceiling_closure.py` is canonical. My check verifies the **structural direction**:
+- (B) RAR RMS monotone DECREASING in B_max (0.776→0 on synthetic; proposal's 0.227→0.146 on real SPARC; absolute numbers differ because synthetic samples deep-MOND tail more than SPARC; direction is the load-bearing fact).
+- (C) TDG Δσ monotone DECREASING in B_max (9.95→0 km/s at representative TDG operating point).
+- (D) (B) and (C) anti-correlated by construction → fit XOR discriminate.
+
+**Integration with prior pattern**: The galaxy/cluster sector now shows the same structural fork across three sub-sectors:
+
+| Sector | Fork | Distinct branch (refuted) | Fitting branch (= MOND) |
+|---|---|---|---|
+| Galaxy RAR shape (S661) | γ pinned | γ=2 (ΔBIC=+184) | free-γ → 0.49 ≈ McGaugh |
+| Cluster bridge (S678/S683) | variable choice | C(ρ) one density scale | C(a) restoration ≡ MOND |
+| EFE sector (S684) | B_max | bounded Hill (B_max~3.17) | B_max→∞ ≡ MOND EFE |
+
+Any choice that *distinguishes* the framework from MOND in the galaxy/cluster/EFE region is independently falsified; any choice that *fits* the data IS MOND. Pattern is now structural (3 sectors, same fork) rather than per-sector. Sharpens the C(a)→C(ρ) migration cost (S683): no "different physics" position survives both the RAR and the EFE in this region of model space. The proposal's recommendation that a 2-scale form could reopen the sector is consistent with S683's wrong-variable diagnosis (2 density scales still don't address non-local g_bar at clusters; testable, downstream).
+
+**Does not output**: verdict on broader sector closure (active substrate reformulation `[ACTIVE-MRH]` upstream of this question); retag of S661/S678/S683 (already in MRH-relationship taxonomy after S679); execution of the proposal's archive actions (operator/coordinator work); re-run on real SPARC (explorer track's script is canonical); cumulative tally.
+
+Full document: `Research/Session684_EFE_Boost_Ceiling_Refinement.md`
 
 ### Session 683: Cluster Gap Is Wrong-Variable (Not Mainly One-Scale) — S678 Framing Refined `[ACTIVE-MRH]` (2026-06-01)
 

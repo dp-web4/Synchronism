@@ -106,7 +106,7 @@ See `repo-index.yaml` for structured data.
 <!-- gitnexus:keep -->
 # GitNexus — Code Knowledge Graph
 
-Indexed as **Synchronism** (168817 symbols, 187259 relationships, 251 execution flows). MCP tools available via `mcp__gitnexus__*`.
+Indexed as **Synchronism** (168900 symbols, 187346 relationships, 251 execution flows). MCP tools available via `mcp__gitnexus__*`.
 
 **Do not reindex.** The supervisor handles GitNexus indexing. If the index is stale, note it in session context.
 
