@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-03 (Session 684 — EFE sector joins the galaxy/cluster fit-XOR-discriminate family; boost-ceiling B_max is a single anti-correlated knob; sibling of S661 (RAR shape) and S678/S683 (cluster bridge))*
+*Last updated: 2026-06-05 (Session 685 — two site-back-annotated proposals (TEST-04a S₈-receding, TEST-02 triple-conditional) verified; σ₈≈0.76 has no first-principles fallback at galaxy-anchored ρ_crit (C(ρ_cosmo)~6e-4), so both research-question options are negative; wide-binary regime sits BELOW S684 boost-ceiling cap on every branch → MOND+EFE unconditionally; small refinement to S684's "fork across 3 sub-sectors" framing — fork is reachable only in regimes where cap bites)*
 
 ---
 
