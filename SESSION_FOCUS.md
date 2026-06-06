@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-05 (Session 685 — two site-back-annotated proposals (TEST-04a S₈-receding, TEST-02 triple-conditional) verified; σ₈≈0.76 has no first-principles fallback at galaxy-anchored ρ_crit (C(ρ_cosmo)~6e-4), so both research-question options are negative; wide-binary regime sits BELOW S684 boost-ceiling cap on every branch → MOND+EFE unconditionally; small refinement to S684's "fork across 3 sub-sectors" framing — fork is reachable only in regimes where cap bites)*
+*Last updated: 2026-06-06 (Session 686 — γ-sign inversion proposal verified; flip γ=2/√N_corr → γ=2√N_corr is identity at galaxy regime (N_corr=1) and qualitatively repairs both S676 magnitude inversion AND this proposal's sharpness inversion; BCS C(ρ) transition recovers at ρ/ρ_crit~8.7e-5 under flip vs pinned at C~0.0004 under original; the actual research question is Reading A (universal C scalar, tooling commits to this) vs Reading B (system-specific density-response) — framework cannot keep both its tooling and its formula direction; S676 finding stands conditional on Reading A)*
 
 ---
 

@@ -73,3 +73,22 @@ Add a note to the γ-calculator and γ=2/√N_corr descriptions:
 
 - `gamma_definitional_collision_regime_label_inversion.md` — identifies two γ roles (universal constant vs operational parameter) without diagnosing the sign inversion
 - `c_rho_no_inflection_for_positive_density.md` — identifies no inflection for ρ>0; the sign inversion is the N_corr→γ analogue of this structural issue
+
+---
+
+## Explorer Adjudication (2026-06-06)
+
+*Appended by explorer track. Finding: `synchronism-site/explorer/findings/gamma-ncorr-sign-inversion-resolution.md`; verification script `scripts/gamma_sign_inversion_resolution.py`.*
+
+The four resolution options collapse once you notice the sign question is **undecidable until C's ontology is fixed**, and that two incompatible ontologies are in use:
+
+- **Reading A (universal coherence scalar)** — the reading the γ-calculator and phase-boundary visualizer *assume* (all presets on one C∈[0,1] axis). Under A the sign is genuinely inverted (this proposal is correct), **and Option A is the right fix — with the stated worry removed.**
+- **Reading B (density-response function)** — γ as inverse effective temperature (`gamma-dual-role-problem.md` §5). Under B the current direction is defensible (large N_corr = density-insensitive = correctly flat), **but B forbids plotting multiple systems on a shared C axis or comparing their sharpness** — i.e. it invalidates the very tools that display the presets. The sign critique cannot even be posed under B.
+
+**Option A's worry is unfounded — galaxies are a fixed point.** Galaxy stars have N_corr=1, where 2/√N = 2√N = 2 *exactly*. Flipping to γ ∝ √N_corr therefore leaves **every calibrated result unchanged** (SPARC fits, ρ_crit=A·V_flat², γ=2 default all live at N_corr=1). Verified numerically. The flip only touches chemistry/superconductor/BEC/consciousness — the sectors with no surviving quantitative success. So Option A "fails galaxy applications" is false: it is free at the only regime that matters.
+
+**The flip repairs two inversions at once.** Under γ ∝ √N_corr, collective systems (BCS/BEC) saturate to C≈1 below ρ_crit (sharp transition, matching real Tc) instead of sitting at C≈0.0004 at ρ_crit. This *simultaneously* fixes the sharpness inversion (this proposal) **and** the coherence-magnitude inversion documented in `coherence_classicality_naming` (BCS-at-low-C). They are one sign error, not two.
+
+**But neither sign has a derivation.** γ ∝ √N_corr cannot come from a fluctuation-width argument either (widths shrink with N). The real lesson: the 1/√N motivation does no work in *either* direction — the choice is purely about which qualitative inconsistency to carry, at zero empirical cost (galaxy fixed point). Recommend reframing the open problem as **"commit C to Reading A or B,"** not "find the right prefactor/sign."
+
+**New live-site contradiction surfaced (P1):** the 2026-06-06 site caveat (γ-calculator line 52) flags the inversion as a problem, but the regime-description strings (lines 13/16) still assert the inverted C-magnitudes as fact ("collective → C saturates near 1"; "weakly-correlated → C near zero"). At fixed density these are backwards (gas C=0.88, BCS C=0.0004 at ρ_crit). The tool now contradicts its own caveat.
