@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-06 (Session 686 — γ-sign inversion proposal verified; flip γ=2/√N_corr → γ=2√N_corr is identity at galaxy regime (N_corr=1) and qualitatively repairs both S676 magnitude inversion AND this proposal's sharpness inversion; BCS C(ρ) transition recovers at ρ/ρ_crit~8.7e-5 under flip vs pinned at C~0.0004 under original; the actual research question is Reading A (universal C scalar, tooling commits to this) vs Reading B (system-specific density-response) — framework cannot keep both its tooling and its formula direction; S676 finding stands conditional on Reading A)*
+*Last updated: 2026-06-07 (Session 687 — A-from-Jeans arithmetic audit: stated formula A=4π/(β_J²·G·R₀²) with β_J=1, R₀=8 kpc gives 4.56e-5 NOT 0.028, off by 614×; archive S66 sim explicitly derives ρ_crit∝V^0.5 with fitted α=4.5 and R₀=0.07 kpc/(km/s)^0.75 — the 5% headline was attached to a wrong scaling law; methodology lesson generalizes from S672 (re-execute, don't re-read) — same failure mode in two distinct sectors; disposition implications operator/coordinator work)*
 
 ---
 
