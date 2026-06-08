@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-07 (Session 687 — A-from-Jeans arithmetic audit: stated formula A=4π/(β_J²·G·R₀²) with β_J=1, R₀=8 kpc gives 4.56e-5 NOT 0.028, off by 614×; archive S66 sim explicitly derives ρ_crit∝V^0.5 with fitted α=4.5 and R₀=0.07 kpc/(km/s)^0.75 — the 5% headline was attached to a wrong scaling law; methodology lesson generalizes from S672 (re-execute, don't re-read) — same failure mode in two distinct sectors; disposition implications operator/coordinator work)*
+*Last updated: 2026-06-08 (Session 688 — N_corr ladder galaxy-rung both-directions contradiction verified; asserted N_corr=1 → γ=2 (refuted ΔBIC=+184) vs SPARC-fitted γ=0.49 → N_corr≈17 (contradicts independence premise); contradiction is sign-INDEPENDENT — S686 flip option gives N_corr≈0.06 (nonphysical), so flip qualitatively repairs cross-system ladder but NOT galaxy-rung self-inconsistency; new orthogonal constraint on S686's Reading-A choices)*
 
 ---
 
