@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-08 (Session 688 — N_corr ladder galaxy-rung both-directions contradiction verified; asserted N_corr=1 → γ=2 (refuted ΔBIC=+184) vs SPARC-fitted γ=0.49 → N_corr≈17 (contradicts independence premise); contradiction is sign-INDEPENDENT — S686 flip option gives N_corr≈0.06 (nonphysical), so flip qualitatively repairs cross-system ladder but NOT galaxy-rung self-inconsistency; new orthogonal constraint on S686's Reading-A choices)*
+*Last updated: 2026-06-09 (Session 689 — cluster no-go reframed as a quantified instance of Milgrom 2005 (astro-ph/0510117) non-locality result, NOT a novel theorem; S678 codomain bound + S683 within-Coma wrong-variable verification stand; canonical statement is the locality criterion — modification must key on non-local functional of baryon distribution (∇Φ, trajectory, M_B(<r), Σ all non-local; C(ρ) the rare local instance); 3rd instance of framing-without-literature-check pattern after S672/S687)*
 
 ---
 
