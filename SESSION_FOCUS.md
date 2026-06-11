@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-09 (Session 689 — cluster no-go reframed as a quantified instance of Milgrom 2005 (astro-ph/0510117) non-locality result, NOT a novel theorem; S678 codomain bound + S683 within-Coma wrong-variable verification stand; canonical statement is the locality criterion — modification must key on non-local functional of baryon distribution (∇Φ, trajectory, M_B(<r), Σ all non-local; C(ρ) the rare local instance); 3rd instance of framing-without-literature-check pattern after S672/S687)*
+*Last updated: 2026-06-11 (Session 690 — two same-day proposals on C-observability; maintainer "no C calibration" superseded by explorer survey "C is a latent variable, not an observable"; six archive constructions all forward maps; galaxy rung's measurable C IS the prediction target (refuted by S661); CFD Reynolds form independent attempt is 440× self-inconsistent (verified vs CFD_Structural_Tensions.md L92); C_conv (Gnosis trust) is the one closure because input ≠ target; refutable-not-confirmable pattern stacks across 4 structural layers (locality/cross-system/measurement/data))*
 
 ---
 
