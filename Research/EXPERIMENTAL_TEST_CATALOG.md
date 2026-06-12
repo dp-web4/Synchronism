@@ -225,17 +225,35 @@ These experiments can be run now with publicly available datasets and modest com
 
 ### TEST-14: Wide Binary Density Dependence (Gaia DR3)
 
+> **SUPERSEDED 2026-06-12 (back-annotated from site TEST-02).** This entry predates the
+> C(a)→C(ρ) fork computation (site explorer, 2026-06-05) and its falsification criterion
+> is **inverted** under the current mechanism. The C(ρ) density form predicts a
+> **Newtonian null** (≈0.05–0.4% velocity deviation in the clean within-250-pc sample),
+> not the anomaly — so "anomaly independent of local density / anomaly fails to exist"
+> would kill the framework for its own prediction coming true.
+>
+> **Corrected criterion:** a Gaia-confirmed MOND-scale wide-binary anomaly (~18%;
+> Chae-type ~1.4× boost at low internal acceleration) in the clean sample REFUTES C(ρ).
+> A confirmed Newtonian null is consistent with C(ρ) but equally consistent with GR —
+> survival without points, non-discriminating.
+>
+> **Distinguishing power: NONE-OR-KILL, adjudicable now.** The refutation branch may be
+> decidable with published Gaia DR3 analyses (Chae 2023–2025 boost vs Banik et al. 2024
+> Newtonian-null), not future data. See proposal
+> `proposals/test02_kill_branch_adjudicable_now.md`. Original entry retained below for
+> record.
+
 **Prediction**: Wide binary star orbital anomalies (the "MOND signal" in wide binaries) depend on local stellar density, not just binary separation.
 
 **Data**: Gaia DR3 wide binary catalog.
 
 **Method**: Split wide binaries by local stellar density. Compare orbital anomaly as a function of separation in each density bin.
 
-**Expected**: Anomaly onset shifts with density (earlier in low-density environments).
+**Expected**: Anomaly onset shifts with density (earlier in low-density environments). *(Superseded — see box above: under C(ρ), expected amplitude is at the Newtonian-null level, ~80× below Gaia DR3 systematics.)*
 
-**Falsification**: Anomaly independent of local density.
+**Falsification**: Anomaly independent of local density. *(Superseded — inverted; see corrected criterion above.)*
 
-**Distinguishing power**: HIGH — MOND predicts density-independent threshold; Synchronism predicts density-dependent C(ρ).
+**Distinguishing power**: HIGH — MOND predicts density-independent threshold; Synchronism predicts density-dependent C(ρ). *(Superseded — both predict the same direction via EFE; effective discriminating power is zero, but the kill branch is live.)*
 
 **Cost**: $0 (existing data). **Duration**: 6 months of analysis.
 
