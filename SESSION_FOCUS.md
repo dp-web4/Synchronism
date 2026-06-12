@@ -2,7 +2,7 @@
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
-*Last updated: 2026-06-11 (Session 690 — two same-day proposals on C-observability; maintainer "no C calibration" superseded by explorer survey "C is a latent variable, not an observable"; six archive constructions all forward maps; galaxy rung's measurable C IS the prediction target (refuted by S661); CFD Reynolds form independent attempt is 440× self-inconsistent (verified vs CFD_Structural_Tensions.md L92); C_conv (Gnosis trust) is the one closure because input ≠ target; refutable-not-confirmable pattern stacks across 4 structural layers (locality/cross-system/measurement/data))*
+*Last updated: 2026-06-12 (Session 691 — two same-day proposals on TEST-02 wide-binary; maintainer claim of kill-criterion inversion under C(ρ) verified directly: ρ_local=5.77e-21 kg/m³ at solar neighborhood gives C(ρ_local)=1.000000 under galaxy-anchored ρ_crit, so framework predicts Newton in wide-binary regime; stated "underlying anomaly fails" sub-clause would kill the framework for being right; explorer's adjudication HUNG (Chae 4.9σ vs Saad-Ting 0.4σ on SAME 36 systems, significance lives in one modeling choice); external-mirror structural symmetry to S672/S687/S689/S690 internal pattern recorded)*
 
 ---
 
