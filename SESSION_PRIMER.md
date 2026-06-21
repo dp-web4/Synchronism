@@ -2,9 +2,22 @@
 
 ## Before You Start
 
-1. **Read `SESSION_FOCUS.md`** — current priorities, open questions, research state
-2. **Read `CLAUDE.md`** — project context, conventions, tools
-3. **WAKE**: Am I working on the right thing? Check SESSION_FOCUS for priorities.
+**Read these two canonical docs IN FULL first — they set the frame everything else lives in:**
+
+1. **Read [`SPINE.md`](SPINE.md) in full** — the canonical frame: Synchronism as a
+   single-observer, CFD-like model of the physical universe; the geocentric→heliocentric
+   wager; the CRT + pendulum-clock analogies; the one test that would decide it. Lead with
+   this, not the γ equation.
+2. **Read [`PREDICTIONS.md`](PREDICTIONS.md) in full** — the anti-oscillation ledger: four
+   buckets (confirmed=0 / untested-falsifiable / refuted / reparametrization), each with a
+   named refutation criterion. **All framing prose you write is pinned to this ledger** —
+   don't overclaim (contradict Bucket 0), don't self-erase (delete Bucket 1).
+
+Then:
+
+3. **Read `SESSION_FOCUS.md`** — current priorities, open questions, research state
+4. **Read `CLAUDE.md`** — project context, conventions, tools
+5. **WAKE**: Am I working on the right thing? Check SESSION_FOCUS for priorities.
 
 ## During Session
 

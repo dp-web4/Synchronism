@@ -1,30 +1,63 @@
 # Synchronism: A Blue-Sky Coherence Exploration
 
-A blue-sky research program asking whether **one coherence parameter (γ = 2/√N_corr)** can describe phenomena across very different scales — quantum, classical, chemical, cosmological — and what falsifies it. **This is exploratory work, not engineering.** It tests and probes limits, documents what it learns, and currently exists to inform other projects (Web4, SAGE) philosophically rather than as practical infrastructure itself. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
+**Synchronism is a single-observer, CFD-like model of the physical universe.** Reality is
+modeled as a discrete Planck-grid computational-fluid substrate where entities are
+*recurring patterns*, and what physics calls "measurement" is *synchronization* between an
+observer-pattern and an observed-pattern — phase-locking, not collapse. **The wager:** the
+paradoxes of observer-centric physics may be **epicycles** — artifacts of placing the
+observer at the center, the way Ptolemy placed the Earth there. Remove that assumption and
+the paradoxes may simplify. **This is exploratory work, not engineering**; it tests that
+wager rigorously and publishes what fails.
 
-The framing is ambitious. The work tests the framing. Many tests have not passed, and that is a feature of the program, not a bug.
+The distinctive contribution is the **frame** (the single-observer ontology), *not* the
+quantitative tracks — those have mostly taught us *boundaries*. The framing is ambitious;
+the work tests the framing; many tests have not passed, and that is a feature of the
+program, not a bug.
 
-## Five-minute audit
+## Start here — the entry triad
 
-If you want a fast read on whether this is real, in order:
+1. [**SPINE.md**](SPINE.md) — the one-page argument: what the single-observer / CFD move
+   is, *why* it might matter (the geocentric→heliocentric wager; the CRT and pendulum-clock
+   analogies), and the **one test** that would decide it.
+2. [**PREDICTIONS.md**](PREDICTIONS.md) — the honest scoreboard, in four buckets:
+   **zero confirmed** novel predictions; a short list of **untested-but-falsifiable** bets
+   (most expected to lose); the **refuted** eliminations; the **reparametrizations**. The
+   anti-oscillation ledger — all framing prose is pinned to it.
+3. [**STATUS.md**](STATUS.md) — the live MRH-state inventory: what's active, parallel-paths,
+   sidelined, superseded.
 
-1. [**STATUS.md**](STATUS.md) — full honest MRH-state inventory of what's active, what's parallel-paths, what's sidelined, what's superseded. Audit findings that stand. Zero novel predictions confirmed.
-2. [**forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md**](forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md) — the current cycle. After Kimi 2.6's saturation-reframe + time-reframe reviews (2026-05-28), substrate-level work re-entered active MRH. The companion `saturation-reframe-resurfaced-pieces-mrh-stewardship-2026-05-28.md` documents how to read inventory updates without closure-shaped framings.
-3. [**Research/discoveries/**](Research/discoveries/) — discoveries with explicit statistical evidence and falsification status. Each doc names what would refute the claim.
-4. [**Honest Limitations** (further down this README)](#honest-limitations) — the things that *didn't* work. 53% error on chemistry melting points. 2× off on critical exponents. The framework's own boundary, named in the open.
-5. [**Coupling-Coherence Experiment**](Research/Coupling_Coherence_Experiment.md) — 900 runs, Hill function beat tanh by ΔAIC=4. Concrete, reproducible, falsifiable.
+*Deeper reads:* the current substrate cycle
+([forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md](forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md)),
+the falsifiable discoveries with named refutation criteria
+([Research/discoveries/](Research/discoveries/)), and the most concrete reproducible result
+([Coupling-Coherence Experiment](Research/Coupling_Coherence_Experiment.md) — 900 runs, Hill
+beats tanh by ΔAIC=4).
 
-The work that follows is a research program testing a unifying hypothesis. The hypothesis being ambitious doesn't make the testing crankery; the testing being explicit about its failures and stewarding its parallel paths honestly is what distinguishes it from crankery.
+The hypothesis being ambitious doesn't make the testing crankery; the testing being explicit
+about its failures and stewarding its parallel paths honestly is what distinguishes it from
+crankery.
 
 ---
 
 ## What Synchronism Is (and Isn't)
 
-Synchronism is **a systems-theoretic framework that uses information-theoretic tools (correlation, coherence, entropy) to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field.
+Its distinctive, load-bearing claim is an **ontology**: a discrete-grid substrate with
+**observer-dependent simultaneity**, where entities are recurring patterns and measurement
+is synchronization between patterns (the full argument is in [SPINE.md](SPINE.md)). That
+ontology — together with the **A2ACW** adversarial-collaboration methodology — is the
+project's strongest contribution to date. Neither is *predictive physics* yet; both are
+genuinely distinctive.
 
-It is **not** a physics theory that supersedes or unifies GR and QFT. The "ONE EQUATION" framing (γ = 2/√N_corr) is a **research-direction motto**, not a delivered claim — it asks whether a single correlation parameter can organize our understanding of coherence across scales, then tests that ambition rigorously and publishes what fails.
+Operationally, Synchronism uses information-theoretic tools (correlation, coherence,
+entropy) to describe emergence across scales — the **emergence-theoretic analog** of what
+category theory does for mathematics, or what cybernetics attempted for systems: a
+meta-theoretical frame for relating existing theories by their shared structure.
 
-Compared to existing frameworks, Synchronism is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. Its strongest contributions to date are methodological (A2ACW — AI-to-AI adversarial collaboration) and conceptual (the discrete-grid + observer-dependent-simultaneity ontology), not predictive.
+It is **not** a physics theory that supersedes or unifies GR and QFT. The "ONE EQUATION"
+framing (γ = 2/√N_corr) is a **research-direction motto**, not a delivered claim — by the
+project's own audit it reparametrizes known physics in every tested regime (see the buckets
+in [PREDICTIONS.md](PREDICTIONS.md)). It asks whether a single correlation parameter can
+organize coherence across scales, tests that ambition rigorously, and publishes what fails.
 
 **Current substrate reformulation (2026-05-28)**: Following Kimi 2.6's saturation-reframe and time-reframe reviews, substrate-level work is back in active research focus. The prior `∂I/∂t = ∇·[D · R(I) · ∇I]` rule was found to be 1-DOF scalar diffusion (Session 11), irrotational (S665), and dissipative (S666). The current reformulation adds an independent vector flux **J** to the saturated lattice and reframes *c* as a pattern-reconstruction rate (with mass ≡ pattern complexity). Audit findings on the prior substrate stand; the new substrate inherits zero confirmed predictions and the obligation to produce novel ones. See `forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md` for the current MRH-active work and `STATUS.md` for the consolidated open-question set.
 
@@ -43,6 +76,11 @@ Synchronism asks: *Can one coherence parameter explain phenomena from Planck sca
 ## Findings vs Framings
 
 We distinguish **quantitative findings** (replicable experiments with measurements) from **theoretical framings and positions** (philosophical lenses and research-direction claims). Both matter; conflating them is the failure mode external reviewers flag most often. The lists below separate them honestly.
+
+> **The canonical, complete prediction ledger is now [PREDICTIONS.md](PREDICTIONS.md)** —
+> four buckets (confirmed / untested-falsifiable / refuted / reparametrization), each with a
+> named refutation criterion. The summary tables below are a snapshot; PREDICTIONS.md is the
+> source of truth, and all framing prose is pinned to it.
 
 ### Quantitative findings
 
@@ -237,4 +275,4 @@ CC0 - Public Domain
 
 ---
 
-*Last updated: February 5, 2026 | 2,200+ sessions | 1703 phenomenon types validated*
+*Last updated: 2026-06-21 | ~3,360 sessions | entry surface re-ranked to lead with the single-observer ontology ([SPINE.md](SPINE.md)) + the honest prediction ledger ([PREDICTIONS.md](PREDICTIONS.md)). 1703 phenomenon types catalogued (mostly reparametrizations — see PREDICTIONS.md, not "validated").*
