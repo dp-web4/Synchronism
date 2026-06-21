@@ -17,10 +17,10 @@ the status line at the bottom of every section.*
 That sentence is the whole thing. Unpack it:
 
 - **CFD-like** — reality is modeled as a discrete-time computational-fluid-dynamics
-  substrate on a Planck-scale grid. A field ("Intent," a reified computational
-  abstraction — see the note below) flows; saturation resistance lets stable patterns
-  form. Entities are not objects *in* the field; they are **recurring patterns** *of* the
-  field — standing oscillations that persist across ticks.
+  substrate on a Planck-scale grid. A field ("Intent," a reified computational abstraction —
+  see *Two load-bearing pieces*, below) flows; **saturation** resistance forms the walls that
+  let stable patterns hold. Entities are not objects *in* the field; they are **recurring
+  patterns** *of* the field — standing oscillations that persist across ticks.
 
 - **Single-observer** — there is no privileged "observer" standing outside reality
   collapsing it. An observer is just **another recurring pattern**. What physics calls
@@ -33,15 +33,58 @@ the consciousness threshold — is **downstream probing** of this one move. The 
 mostly taught us boundaries (see [PREDICTIONS.md](PREDICTIONS.md)). The move itself is the
 contribution.
 
-> **On "Intent":** Intent is *not* a force, *not* anthropocentric will, *not* a claim
-> about what reality ultimately is. It is a computational variable — a useful fiction like
-> π — that makes an underlying "greater force" tractable to simulate. Demanding SI units
-> for Intent is a category error. (See FUNDAMENTALS §2.)
-
 *Status: this is the framework's distinctive ontological claim. It is a coherent
 position (a form of structural realism / digital-physics), **not** an empirically
 established physics. The rest of this document is about why it's interesting and what
 would decide it.*
+
+---
+
+## Two load-bearing pieces: Intent (a reification) and saturation (the wall-former)
+
+The move above rests on two pieces that are easy to miss and easy to misread. Both are
+**fundamental**, not decoration.
+
+**1. Intent is a reification, not an ontology.** Intent is a *computational abstraction* — a
+useful fiction like π, or like "the wavefunction" — that makes an underlying "greater force"
+tractable to simulate. It is **not** a force, **not** anthropocentric will, **not** a claim
+about what reality ultimately *is*. Demanding SI units for Intent is the same category error
+as demanding them for π. What the model commits to is the *dynamics*, not the ontological
+reality of the variable. (FUNDAMENTALS §2.)
+
+**2. Saturation is what builds the walls.** Without saturation resistance, Intent just
+dissipates down every gradient — no patterns, no entities, uniform noise. Saturation
+(resistance rising as a region fills toward its limit, `R(I) = [1 − (I/I_max)^n]`) is **the**
+mechanism that lets a pattern hold together: a filling region resists further inflow, forming
+the **wall** that stabilizes a standing oscillation. Every entity — particle to galaxy —
+exists because saturation built it a boundary. (FUNDAMENTALS §3.)
+
+### Saturation makes emergence a *step function*, not a hockey stick
+
+This is the most-misread consequence, and it is a reading guide for the whole program.
+Emergence and phase change are **steps**, and a step has three parts:
+
+- **The flat floor.** Before the threshold, almost nothing moves. *This can look like
+  refutation* — "no signal, it doesn't work." It isn't; it's the pre-step regime.
+- **The step.** Past the threshold the change is steep and fast. *This can look like
+  unstable, unbounded growth* — a runaway hockey stick. It isn't; it's bounded.
+- **The ceiling.** Saturation arrives, the rise plateaus — **and the ceiling becomes the
+  next floor.** A new stable baseline, from which a later step can rise again.
+
+Floor → step → ceiling-that-becomes-the-next-floor is the *signature* of saturation, and it
+is everywhere: phase transitions, emergence, the program's own Coupling-Coherence result (a
+Hill/**step** function beat a smooth tanh by ΔAIC = 4 — the data preferred the step), and
+well outside physics — model capability vs. parameter count (flat, then a sudden jump at a
+scale threshold, then a plateau that becomes the new floor).
+
+**Why it matters for reading the ledger:** a **bounded plateau is the mechanism working,
+not failing.** (The CHSH result below is a clean case — the local single-observer
+construction *saturates* at S = 2, the classical ceiling, and cannot pass it: a saturation
+wall, drawn honestly.) So in [PREDICTIONS.md](PREDICTIONS.md), keep two things apart that a
+flat curve can blur: a genuine **refutation** (tested against data, failed, eliminated —
+those stay refuted) versus a **flat floor** mistaken for one. The step-function lens is a
+reading guide, not a license to un-refute — but "nothing yet" and "it failed" are different
+claims, and saturation is why.
 
 ---
 

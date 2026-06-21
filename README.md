@@ -1,13 +1,17 @@
 # Synchronism: A Blue-Sky Coherence Exploration
 
 **Synchronism is a single-observer, CFD-like model of the physical universe.** Reality is
-modeled as a discrete Planck-grid computational-fluid substrate where entities are
-*recurring patterns*, and what physics calls "measurement" is *synchronization* between an
-observer-pattern and an observed-pattern — phase-locking, not collapse. **The wager:** the
-paradoxes of observer-centric physics may be **epicycles** — artifacts of placing the
-observer at the center, the way Ptolemy placed the Earth there. Remove that assumption and
-the paradoxes may simplify. **This is exploratory work, not engineering**; it tests that
-wager rigorously and publishes what fails.
+modeled as a discrete Planck-grid computational-fluid substrate where a *reified* field
+("Intent" — a useful fiction, not a force) flows, **saturation** forms the walls that let
+stable entities (*recurring patterns*) hold, and what physics calls "measurement" is
+*synchronization* between an observer-pattern and an observed-pattern — phase-locking, not
+collapse. Saturation also makes emergence a **step function** (flat floor → step →
+ceiling-that-becomes-the-next-floor), so a flat result isn't automatically a refutation.
+**The wager:** the paradoxes of observer-centric physics may be **epicycles** — artifacts of
+placing the observer at the center, the way Ptolemy placed the Earth there. Remove that
+assumption and the paradoxes may simplify. **This is exploratory work, not engineering**; it
+tests that wager rigorously and publishes what fails. (The two load-bearing pieces — Intent
+as reification, saturation as wall-former and step-maker — are in [SPINE.md](SPINE.md).)
 
 The distinctive contribution is the **frame** (the single-observer ontology), *not* the
 quantitative tracks — those have mostly taught us *boundaries*. The framing is ambitious;

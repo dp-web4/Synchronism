@@ -44,9 +44,17 @@ R(I) = [1 - (I/I_max)^n]
 - R(I) ≈ 1 when I << I_max (minimal resistance, free transfer)
 - R(I) → 0 as I → I_max (extreme resistance, transfer blocked)
 
-Saturation is not a computational convenience. It is THE mechanism that makes pattern existence possible. Every entity — from quantum particles to galaxies — depends on saturation resistance for stability.
+Saturation is not a computational convenience. It is THE mechanism that makes pattern existence possible. Every entity — from quantum particles to galaxies — depends on saturation resistance for stability. The filling region resisting further inflow IS the wall that holds a pattern together.
 
-The resistance function IS viscosity (shear-thinning, power-law). This gives Navier-Stokes directly — not by analogy, but by construction.
+**Saturation makes emergence a step function, not a hockey stick.** Because resistance is flat-then-steep-then-blocked, every emergence and phase change has three regimes:
+
+- **Flat floor** — pre-threshold, little changes. *Can be mistaken for "no effect / refuted."*
+- **Step** — past threshold, steep and fast. *Can be mistaken for "unstable / unbounded."*
+- **Ceiling** — saturation blocks further change, the rise plateaus — **and the ceiling becomes the next floor**, a new baseline from which a later step can rise.
+
+Floor → step → ceiling-as-next-floor is the saturation signature, seen in phase transitions, the Coupling-Coherence Hill-beats-tanh result (ΔAIC=4 — the data preferred the *step*), and outside physics in capability-vs-parameter-count scaling. A bounded plateau is the mechanism working, not failing; **a flat floor is not automatically a refutation.**
+
+The resistance function behaves like a viscosity (shear-thinning, power-law). The original claim that this yields Navier-Stokes "by construction" was **refuted** (S617 / S665 / S666: the prior transfer rule is 1-DOF scalar diffusion — irrotational, dissipative); substrate reformulation is active. See STATUS.md.
 
 ### 4. Paradigm Shift Over Epicycles
 

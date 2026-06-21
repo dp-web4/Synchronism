@@ -17,6 +17,14 @@ ledger is the correction.*
 3. **Reparametrization ≠ failure, but ≠ discovery either.** All physics reparametrizes
    (Newton↔Kepler, Maxwell↔Coulomb). A reparametrization earns "productive" only when the
    coordinate shift reveals structure / enables a new prediction. None here has — *yet*.
+4. **Flat floor ≠ refutation (the saturation reading).** Saturation makes emergence a
+   *step* function — flat floor → step → ceiling-that-becomes-the-next-floor (see
+   [SPINE.md](SPINE.md) and FUNDAMENTALS §3). A flat result can be a *pre-step floor*, not a
+   dead end; a bounded plateau is the mechanism working, not failing. **This is a reading
+   guide, not a license to un-refute:** entries in Bucket 2 below were *tested against data
+   and failed* (wrong sign, dimensional error, arithmetic that doesn't survive) — those are
+   genuine eliminations and stay. The lens only forbids mistaking "nothing yet" (a flat
+   floor) for "it failed" (a refutation). They are different claims.
 
 *Companion docs: [SPINE.md](SPINE.md) (the argument), [STATUS.md](STATUS.md) (live
 MRH-state), [FUNDAMENTALS.md](FUNDAMENTALS.md) (definitions).*
