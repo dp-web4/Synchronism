@@ -1,0 +1,12 @@
+{
+  "grid": 48,
+  "K": 1.5,
+  "dt": 0.05,
+  "steps": 600,
+  "seed": 7,
+  "global_R_final": 0.0544,
+  "global_R_mean_last50": 0.0814,
+  "clusterA_lock_final": 0.9424,
+  "clusterB_lock_final": 0.7263,
+  "interpretation": "Two distinct-frequency regions phase-lock internally (cluster lock -> ~1) and persist as localized coherent patterns while the global order parameter plateaus below 1 (the 'particles' refuse to dissolve into the background). This instantiates 'entity = recurring pattern'; it is NOT a novel-prediction test."
+}

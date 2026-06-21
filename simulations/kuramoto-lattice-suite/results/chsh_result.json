@@ -1,0 +1,65 @@
+{
+  "n_trials": 400000,
+  "lock_steps": 12,
+  "lock_rate": 0.6,
+  "seed": 11,
+  "classical_bound": 2.0,
+  "tsirelson_bound": 2.8284,
+  "best_local_S": 1.9838,
+  "violates_classical_bound": false,
+  "no_signaling": true,
+  "runs": [
+    {
+      "S": 1.969,
+      "E": [
+        0.4935,
+        -0.4924,
+        0.4904,
+        0.4927
+      ],
+      "signaling_delta": 0.0,
+      "angles_deg": [
+        0.0,
+        90.0,
+        45.0,
+        135.0
+      ],
+      "quantum_S_same_angles": -2.8284
+    },
+    {
+      "S": 0.0002,
+      "E": [
+        0.4937,
+        0.4932,
+        0.4907,
+        -0.4909
+      ],
+      "signaling_delta": 0.0,
+      "angles_deg": [
+        0.0,
+        90.0,
+        45.0,
+        -45.0
+      ],
+      "quantum_S_same_angles": -0.0
+    },
+    {
+      "S": 1.9838,
+      "E": [
+        0.7415,
+        0.2414,
+        0.7407,
+        0.743
+      ],
+      "signaling_delta": 0.0,
+      "angles_deg": [
+        0.0,
+        45.0,
+        22.5,
+        67.5
+      ],
+      "quantum_S_same_angles": -2.389
+    }
+  ],
+  "verdict": "S <= 2 (classical/Bell bound respected). The local single-observer phase-lock construction does NOT reproduce quantum nonlocality. EXPECTED, and PRODUCTIVE: it bounds Synchronism's single-observer ontology to a local-realist model in this construction \u2014 an interpretation, not a local-hidden-variable physics. Bet B1 in PREDICTIONS.md resolves as: refuted-for-this-construction (the honest boundary). To exceed 2 requires a nonlocal grid or superdeterministic settings."
+}

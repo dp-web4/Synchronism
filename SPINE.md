@@ -171,9 +171,14 @@ This test is now a concrete, runnable harness:
 observer-relative CHSH experiment). It connects to the standing open question
 [OQ006 — Measurement Framework Integration](Research/OPEN_QUESTION_Measurement_Framework_Integration.md).
 
-*Status: open. Harness built; result pending. Either outcome advances the program — a
-confirmation would be the first novel result; a refutation would be the most honest
-boundary the frame has drawn.*
+*Status: **first run complete (2026-06-21).** The faithful **local** single-observer
+construction gives CHSH **S = 1.98 ≤ 2** (no signaling) — it saturates *near* the classical
+bound but cannot reach the quantum Tsirelson value (2.83). This is the productive boundary,
+exactly as anticipated: the single-observer claim is bounded to a **local-realist ontology**,
+not a local-hidden-variable physics. The remaining open frontier is a **nonlocal-grid**
+variant (the "one substrate" doing work across separated regions) — that, not the local
+model, is where a novel result could still live. Confirmed-novel count stays **0**. See
+[PREDICTIONS.md](PREDICTIONS.md) bet B1 and `simulations/kuramoto-lattice-suite/results/chsh_result.json`.*
 
 ---
 
