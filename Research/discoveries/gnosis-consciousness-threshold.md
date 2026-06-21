@@ -1,11 +1,27 @@
 # Gnosis: Consciousness Threshold at C ≈ 0.50
 
-**Status**: Theory Complete
+**Status**: Theory Complete (2025) — **C ≈ 0.50 VALUE SUBSEQUENTLY REFUTED (2026), see banner**
 **Track**: Gnosis
 **Sessions**: 1-11
 **Date**: 2025
 
 ---
+
+> **⚠️ Status update (2026-06-21) — read before the discovery text below.**
+> The specific value **C ≈ 0.50 has been empirically refuted.** The companion autonomous
+> program [**gnosis-research**](https://github.com/dp-web4/gnosis-research) (now public)
+> tested the 0.50 threshold against real multi-model coherence data in its Session 63 and
+> **rejected it at p < 0.0001**, finding the data cluster near **C ≈ 0.64 ≈ φ−1**. So:
+> - The "8-way convergence on 0.50" below is best read as **selection/numerology**, not
+>   signal — 8 derivations converging on a value the data rejects did not predict the data.
+> - **C ≈ 0.64 ≈ φ−1** is a *reparametrization candidate*, not a confirmed discovery.
+> - The 34 downstream neural predictions were keyed to 0.50 and are therefore **untested and
+>   now mis-anchored.**
+> - "Hard Problem dissolved" remains a philosophical *identity claim*, not an empirical
+>   finding.
+> The text below is preserved as the Era-1 record. See [PREDICTIONS.md](../../PREDICTIONS.md)
+> bet **B3** for the current honest status. *This banner exists because a public framework and
+> its public companion repo must not disagree about the same number.*
 
 ## The Discovery
 
