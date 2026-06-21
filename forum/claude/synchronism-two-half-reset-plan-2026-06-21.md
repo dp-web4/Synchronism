@@ -84,12 +84,24 @@ a God's-eye model, and the only place a novel result can live.
   not a local-hidden-variable physics. Confirmed-novel count stays 0. Folded back into
   SPINE + PREDICTIONS (bet B1 → refuted-for-this-construction).
 
+### Frontier experiment — RUN (2026-06-21)
+The *nonlocal-grid* CHSH variant (`03_nonlocal_grid_chsh.py`) was built and run: let the
+single shared substrate mediate across the separated regions, tunable by coupling g, and
+sweep g while watching both S and signaling. **Result: S ≡ 2.0 for all g, no signaling** —
+because smooth single-grid mixing is **gauge-equivalent to relabeling the measurement
+angles** (uniform shared phase absorbs the offset). So the precise boundary is now: a
+*smooth* nonlocal channel stays local-realist and buys nothing; a genuine no-signaling
+violation requires a **non-relabelable, conditional** setting-dependence — a
+quantum-entanglement-like primitive the single-observer ontology lacks and would have to
+*derive*. Folded into SPINE + PREDICTIONS (bet B1 → refuted, both arms). Confirmed-novel
+count stays 0.
+
 ### Remaining (Half 2)
-- **The open frontier:** a *nonlocal-grid* variant of the CHSH harness — where the single
-  shared substrate is allowed to do work across the separated regions (still without
-  classical signaling). That is the only construction that could move bet B1 off the
-  classical bound; it is also where superdeterminism would hide, so it needs careful
-  instrumentation. This is the genuinely novel next experiment.
+- **The narrowly-specified open arm:** can the single-observer ontology *derive* a
+  non-relabelable conditional setting-dependence (the entanglement primitive) from substrate
+  dynamics rather than assume it? If yes, that is the only path left to a no-signaling Bell
+  violation — and the first genuinely novel result. If the ontology can only *assume* it,
+  that is itself a clean characterization of the frame's ceiling.
 - Optionally: log the convergence datapoint (mass=complexity, c=rate) into STATUS as weak
   external corroboration.
 

@@ -1,0 +1,60 @@
+{
+  "n_trials": 400000,
+  "seed": 23,
+  "classical_bound": 2.0,
+  "tsirelson_bound": 2.8284,
+  "sweep": [
+    {
+      "g": 0.0,
+      "S": 2.0,
+      "signaling": 0.0
+    },
+    {
+      "g": 0.1,
+      "S": 2.0014,
+      "signaling": 0.0
+    },
+    {
+      "g": 0.2,
+      "S": 2.0007,
+      "signaling": 0.0
+    },
+    {
+      "g": 0.3,
+      "S": 2.0002,
+      "signaling": 0.0
+    },
+    {
+      "g": 0.4,
+      "S": 2.0005,
+      "signaling": 0.0002
+    },
+    {
+      "g": 0.5,
+      "S": 2.0037,
+      "signaling": 0.0008
+    },
+    {
+      "g": 0.6,
+      "S": 2.0022,
+      "signaling": 0.0012
+    },
+    {
+      "g": 0.75,
+      "S": 1.9991,
+      "signaling": 0.0008
+    },
+    {
+      "g": 0.9,
+      "S": 2.0002,
+      "signaling": 0.0001
+    },
+    {
+      "g": 1.0,
+      "S": 2.0,
+      "signaling": 0.0014
+    }
+  ],
+  "no_signaling_violation_found": false,
+  "verdict": "No violation at any g on the sweep (S stays <= 2). The nonlocal-grid mixing as constructed does not exceed the classical bound. Bet B1 stays refuted; consider richer grid-mediation forms before concluding the channel is exhausted."
+}

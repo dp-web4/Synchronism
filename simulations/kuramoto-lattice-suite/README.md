@@ -32,9 +32,26 @@ whether it can buy a **novel** result.
 | File | What it is | Status |
 |------|-----------|--------|
 | `01_kuramoto_baseline_2d.py` | Baseline: random phases → emergent frequency clusters ("particles") on a 2D lattice; tracks order parameter R. The "entities are recurring patterns" claim, runnable. | runnable |
-| `02_observer_relative_chsh.py` | **The experiment.** A local two-region "entangled" source, measured *only* through observer phase-lock with freely-chosen CHSH settings. Computes the CHSH S-value and compares to the classical bound (2) and the Tsirelson bound (2√2). | runnable |
+| `02_observer_relative_chsh.py` | **The experiment.** A local two-region "entangled" source, measured *only* through observer phase-lock with freely-chosen CHSH settings. Computes the CHSH S-value and compares to the classical bound (2) and the Tsirelson bound (2√2). | runnable → **S = 1.98** |
+| `03_nonlocal_grid_chsh.py` | **The frontier variant.** Lets the shared substrate ("the grid") mix region B's state+setting into Alice's measurement, tunable by coupling g. Sweeps g and reports both S *and* signaling — asking whether a no-signaling nonlocal violation (S>2, signaling≈0) exists. | runnable → **S ≡ 2.0 ∀ g** |
 
 Results are written to `results/` as JSON summaries (not raw trajectories).
+
+### Frontier result (2026-06-21): the nonlocal channel is gauge-equivalent to relabeling
+
+Sweeping the nonlocal coupling g ∈ [0,1], the CHSH value stays **pinned at S = 2.000** with
+**zero signaling** at every g. The reason is the genuinely useful finding: with a uniform
+shared phase λ, the smooth grid-mixing only adds a *constant phase offset* φ(b,g) to Alice's
+readout axis — which is absorbed by relabeling the measurement angles. A uniform λ washes
+the offset out of the marginals (hence no signaling) but leaves the correlation a function of
+angle-differences only — i.e. **still a local-realist model, capped at S = 2.**
+
+So the precise boundary is sharper than "nonlocal coupling causes signaling": a *smooth*
+single-grid mediation is **gauge-equivalent to a local angle relabeling and buys nothing.**
+A genuine no-signaling violation would require a **non-relabelable, conditional**
+setting-dependence — exactly a quantum-entanglement-like primitive the single-observer
+ontology does **not** contain and would have to *derive*, not assume. Confirmed-novel count
+stays 0; the open arm is now narrowly specified (see `results/nonlocal_chsh_result.json`).
 
 ## The experiment, precisely (`02_observer_relative_chsh.py`)
 

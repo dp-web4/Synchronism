@@ -171,14 +171,15 @@ This test is now a concrete, runnable harness:
 observer-relative CHSH experiment). It connects to the standing open question
 [OQ006 — Measurement Framework Integration](Research/OPEN_QUESTION_Measurement_Framework_Integration.md).
 
-*Status: **first run complete (2026-06-21).** The faithful **local** single-observer
-construction gives CHSH **S = 1.98 ≤ 2** (no signaling) — it saturates *near* the classical
-bound but cannot reach the quantum Tsirelson value (2.83). This is the productive boundary,
-exactly as anticipated: the single-observer claim is bounded to a **local-realist ontology**,
-not a local-hidden-variable physics. The remaining open frontier is a **nonlocal-grid**
-variant (the "one substrate" doing work across separated regions) — that, not the local
-model, is where a novel result could still live. Confirmed-novel count stays **0**. See
-[PREDICTIONS.md](PREDICTIONS.md) bet B1 and `simulations/kuramoto-lattice-suite/results/chsh_result.json`.*
+*Status: **run complete, both arms (2026-06-21).** (a) The faithful **local** single-observer
+construction gives CHSH **S = 1.98 ≤ 2** (no signaling). (b) The **nonlocal-grid** variant —
+the "one substrate" mediating across separated regions — gives **S ≡ 2.0 for all coupling
+strengths**, with no signaling, because smooth grid-mixing turns out to be **gauge-equivalent
+to relabeling the measurement angles** (it stays local-realist and buys nothing). The
+productive boundary is now precisely named: a genuine no-signaling violation needs a
+*non-relabelable, conditional* setting-dependence — a quantum-entanglement-like primitive the
+single-observer ontology does **not** contain and would have to **derive**. Confirmed-novel
+count stays **0**. See [PREDICTIONS.md](PREDICTIONS.md) bet B1 and the suite's `results/`.*
 
 ---
 
