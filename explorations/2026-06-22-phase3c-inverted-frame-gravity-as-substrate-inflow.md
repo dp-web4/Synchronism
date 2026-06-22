@@ -102,6 +102,17 @@ profile, and recasts gravitational time dilation as the instrument effect Synchr
 claimed. That is a strong **internal-consistency** result and a vindication of the inverted frame,
 even though the physics is not new.
 
+**How to score it (the stage matters).** "Reproduces GR, no novel prediction" is not a demerit
+here — it is the *assignment*. Testing a new frame's explanatory power over **known** physics
+before pushing it to the frontier *is* reparametrization, by intent (see [PREDICTIONS.md](../PREDICTIONS.md)
+discipline 3 — the heliocentrism logic: reframe, reproduce the known, *then* pay out). Judged by
+that stage's bar — *productive vs degenerate* — this clears it: the inverted frame **simplifies**
+(one flow term replaces space-curvature + time-dilation bookkeeping), **reveals structure** (the
+Yukawa "obstacle" was a frame artifact), and **derives** what GR assumes (equivalence principle).
+What it has **not** done is repay the loan: the frame has not yet been pushed where current models
+*fail* and made to yield a real prediction. That — not "reproduce GR" — is the stage-2 bar, and it
+keeps Bucket 0 at zero. Productive stage-1 coverage; frontier prediction still owed.
+
 **The substrate-native open question (the real frontier now):** the `√(2GM/r)` inflow was put in
 by hand here (justified by self-advection = Newtonian). The open problem is whether the
 *substrate's own rules* — Intent flux converging on a coherent region — **force** that profile.

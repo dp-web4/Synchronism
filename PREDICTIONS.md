@@ -6,7 +6,7 @@ buckets, each row carrying its **named refutation criterion**. This document exi
 this table; when they drift (toward overclaim *or* toward self-erasing undersell), this
 ledger is the correction.*
 
-**Three disciplines this ledger enforces:**
+**Four disciplines this ledger enforces:**
 
 1. **Confirmed ≠ untested ≠ refuted ≠ nonexistent.** The headline "zero confirmed novel
    predictions" is **true and stays** — but it must not be allowed to *erase* the
@@ -14,9 +14,25 @@ ledger is the correction.*
    have several untested falsifiable novel predictions" are **both true**.
 2. **Untested is not a win.** A novel-in-structure prediction that nobody has tested is a
    *bet*, not a result. We list bets as bets, with the criterion that would settle them.
-3. **Reparametrization ≠ failure, but ≠ discovery either.** All physics reparametrizes
-   (Newton↔Kepler, Maxwell↔Coulomb). A reparametrization earns "productive" only when the
-   coordinate shift reveals structure / enables a new prediction. None here has — *yet*.
+3. **Reparametrization is the intended stage-1 test, not the failure mode — *and* not yet the
+   discovery.** Heliocentrism did not change the universe or "create new physics"; it changed the
+   *frame*, reproduced the *known* (planetary positions — at first *less* accurately than refined
+   epicycles), and only *later* paid out (Newton; parallax, 1838). The point of this program is
+   not to "create new physics" but to build a frame that *might* explain what current models fail
+   at — and the disciplined first step is to test its explanatory power over **what is already
+   known**. That step **is reparametrization, by definition and by intent.** So "reproduces known
+   physics" is the *assignment* at this stage, not a demerit. **But the license is a loan, not a
+   grant**, governed by two bars: (a) *productive vs degenerate* — a reparametrization earns its
+   keep only when the new frame **simplifies / reveals structure / unifies** (degenerate = relabel
+   without illumination); and (b) *the loan must be repaid* — the frame has to commit to eventually
+   being pushed where current models fail and made to yield a real prediction, or "we're still in
+   stage 1" decays into epicycles-forever. Judging stage-1 reparametrization by a stage-2
+   novel-prediction rubric (and scoring it ~0) is a category error — it would have failed
+   heliocentrism in 1543. *Live productive instance:* the inverted-frame gravity result
+   ([explorations/2026-06-22-phase3c-…](explorations/2026-06-22-phase3c-inverted-frame-gravity-as-substrate-inflow.md))
+   reproduces GR light-bending but **simplifies** (dissolves the Yukawa obstacle as a frame
+   artifact, *derives* the equivalence principle GR assumes, unifies bending + time-dilation into
+   one flow term) — clears bar (a). Bar (b) — the frontier prediction — is unpaid: still Bucket 0.
 4. **Flat floor ≠ refutation (the saturation reading).** Saturation makes emergence a
    *step* function — flat floor → step → ceiling-that-becomes-the-next-floor (see
    [SPINE.md](SPINE.md) and FUNDAMENTALS §3). A flat result can be a *pre-step floor*, not a
