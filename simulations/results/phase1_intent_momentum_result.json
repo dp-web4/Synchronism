@@ -1,0 +1,180 @@
+{
+  "lattice": 384,
+  "dt": 0.04,
+  "steps": 6000,
+  "seed": 3,
+  "V_sweep_at_C2_1": [
+    {
+      "V_requested": 0.0,
+      "V_measured": 0.001,
+      "localized": true,
+      "width0": 15.7,
+      "widthf": 12.8,
+      "amp_kept": 1.065,
+      "distance_in_widths": 0.0,
+      "propagated": false,
+      "rest_held": true
+    },
+    {
+      "V_requested": 0.1,
+      "V_measured": 0.004,
+      "localized": true,
+      "width0": 15.6,
+      "widthf": 12.5,
+      "amp_kept": 1.059,
+      "distance_in_widths": 0.1,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 0.2,
+      "V_measured": 0.008,
+      "localized": true,
+      "width0": 15.6,
+      "widthf": 12.5,
+      "amp_kept": 1.06,
+      "distance_in_widths": 0.1,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 0.35,
+      "V_measured": 0.013,
+      "localized": true,
+      "width0": 15.3,
+      "widthf": 12.4,
+      "amp_kept": 1.063,
+      "distance_in_widths": 0.2,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 0.5,
+      "V_measured": 0.018,
+      "localized": true,
+      "width0": 15.1,
+      "widthf": 12.4,
+      "amp_kept": 1.058,
+      "distance_in_widths": 0.3,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 0.7,
+      "V_measured": 0.024,
+      "localized": true,
+      "width0": 14.8,
+      "widthf": 12.3,
+      "amp_kept": 1.059,
+      "distance_in_widths": 0.4,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 0.9,
+      "V_measured": 0.03,
+      "localized": true,
+      "width0": 14.4,
+      "widthf": 12.0,
+      "amp_kept": 1.059,
+      "distance_in_widths": 0.5,
+      "propagated": false,
+      "rest_held": null
+    },
+    {
+      "V_requested": 1.1,
+      "V_measured": 0.035,
+      "localized": true,
+      "width0": 14.2,
+      "widthf": 12.1,
+      "amp_kept": 1.059,
+      "distance_in_widths": 0.6,
+      "propagated": false,
+      "rest_held": null
+    }
+  ],
+  "C2_sweep_half_speed": [
+    {
+      "V_requested": 0.5,
+      "V_measured": 0.018,
+      "localized": true,
+      "width0": 15.1,
+      "widthf": 12.4,
+      "amp_kept": 1.06,
+      "distance_in_widths": 0.3,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 1.0,
+      "c_signal": 1.0
+    },
+    {
+      "V_requested": 0.7071067811865476,
+      "V_measured": 0.034,
+      "localized": true,
+      "width0": 14.7,
+      "widthf": 13.6,
+      "amp_kept": 0.94,
+      "distance_in_widths": 0.6,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 2.0,
+      "c_signal": 1.41
+    },
+    {
+      "V_requested": 1.0,
+      "V_measured": 0.11,
+      "localized": true,
+      "width0": 14.7,
+      "widthf": 19.3,
+      "amp_kept": 0.81,
+      "distance_in_widths": 1.8,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 4.0,
+      "c_signal": 2.0
+    },
+    {
+      "V_requested": 1.4142135623730951,
+      "V_measured": 0.23,
+      "localized": false,
+      "width0": 15.7,
+      "widthf": 44.7,
+      "amp_kept": 0.665,
+      "distance_in_widths": 3.5,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 8.0,
+      "c_signal": 2.83
+    },
+    {
+      "V_requested": 2.0,
+      "V_measured": 0.678,
+      "localized": false,
+      "width0": 17.7,
+      "widthf": 152.4,
+      "amp_kept": 0.41,
+      "distance_in_widths": 9.1,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 16.0,
+      "c_signal": 4.0
+    },
+    {
+      "V_requested": 2.8284271247461903,
+      "V_measured": 38.531,
+      "localized": false,
+      "width0": 20.2,
+      "widthf": 154.4,
+      "amp_kept": 0.417,
+      "distance_in_widths": 456.0,
+      "propagated": false,
+      "rest_held": null,
+      "c2": 32.0,
+      "c_signal": 5.66
+    }
+  ],
+  "rest_electron_like": true,
+  "propagation_unpins_at_C2": [],
+  "propagating_band_lowC": [],
+  "verdict": "Rest pattern holds (electron-like) at every coupling, but NO propagation band opened even as discreteness weakened (C2 up to 32). Under this momentum injection (translating-envelope seed) the substrate does NOT carry momentum \u2014 a real, tighter null on the photon-analog, not merely a PN artifact. Reading: momentum likely must be a SUBSTRATE mechanism (an intrinsic directional flux / advection \u2014 dp's 'intent has a preferred direction'), not an initial condition. That redesign is the next experiment."
+}
