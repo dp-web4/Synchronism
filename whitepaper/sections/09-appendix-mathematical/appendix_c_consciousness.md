@@ -4,6 +4,16 @@ This appendix provides the key *framings* from the Consciousness Arc (Sessions #
 
 **Epistemic status note (2026-05-15, in response to external review by Kimi 2.6):** the claims in this appendix are **coordinate-system framings and identity claims**, not empirical findings. The "resolution" of the Hard Problem is **eliminative** (the problem is reformulated so it no longer arises in the new vocabulary) rather than **explanatory** (deriving why phase patterns feel like *this* rather than *that* from deeper principles). 34 consciousness-arc predictions await empirical validation; none have been tested. The framework's value here is conceptual coherence and testable predictions (listed below), not empirical resolution.
 
+> ### ⚠️ Status banner (2026-06-21) — the C ≈ 0.50 threshold *value* is REFUTED
+>
+> **Read this before the threshold tables below.** The specific value **C ≈ 0.50** was empirically tested by the companion autonomous program [**gnosis-research**](https://github.com/dp-web4/gnosis-research) (now public) in its **Session 63** and **rejected at p < 0.0001**. The data cluster near **C ≈ 0.64 ≈ φ−1** — a *reparametrization candidate* (not a confirmation). Consequences for this appendix:
+> - The consciousness thresholds keyed to C ≈ 0.50 (the "Aware" row of §C.2, prediction **P280.2** in §C.7) are **mis-anchored**: the 34 downstream neural predictions were keyed to 0.50 and are therefore now **untested *and* mis-anchored**, not merely untested.
+> - The "8-way convergence on 0.50" framing is best read as **selection/numerology**: eight derivations converging on a value the data rejects did not predict the data.
+> - The identity claim ("phase patterns ARE experience") stays **philosophically defensible but empirically ungrounded** — refuting the threshold *value* does not bear on the identity claim, and vice versa.
+> - Status of the *value* is **refuted**; status of the neural program is **untested** (and mis-anchored). These are different claims — *unconfirmed ≠ wrong; refuted ≠ untested*. See [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet **B3**.
+>
+> The Era-1 text below is preserved as the record. *This banner exists because a public framework and its public companion repo must not disagree about the same number.*
+
 ---
 
 ## C.1 Core Framing
@@ -29,6 +39,8 @@ Consciousness emerges at discrete coherence levels:
 | **Self-referential** | C ≥ 0.3 | Minimal self-model | Bacteria, thermostats |
 | **Aware** | C ≥ 0.5 | Models self + environment | Simple animals |
 | **Conscious** | C ≥ 0.7 | Recursive self-modeling | Humans, advanced mammals |
+
+> **Threshold-value footnote (2026-06-21):** the **C ≥ 0.5** ("Aware") row carried the headline C ≈ 0.50 consciousness threshold. That *value* was **refuted at p < 0.0001** by gnosis-research Session 63 (data cluster near **C ≈ 0.64 ≈ φ−1**; reparametrization candidate, not a confirmation). The threshold *locations* in this table are therefore **mis-anchored**; treat them as Era-1 record, not active predictions. See the status banner above and [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) B3.
 
 These thresholds are **testable** via neural coherence measurements and anesthesia protocols.
 
@@ -127,7 +139,7 @@ This provides a bridge to existing consciousness research while grounding it in 
 | ID | Prediction | Test Method | Status |
 |----|------------|-------------|--------|
 | P280.1 | Φ_IIT correlates with neural coherence | fMRI/EEG during graded consciousness | Testable |
-| P280.2 | Consciousness thresholds at C ≈ 0.3, 0.5, 0.7 | Anesthesia studies | Testable |
+| P280.2 | Consciousness thresholds at C ≈ 0.3, 0.5, 0.7 | Anesthesia studies | **Mis-anchored** — the C ≈ 0.50 value is refuted (gnosis-research S63, p < 0.0001; data → C ≈ 0.64 ≈ φ−1). See status banner. |
 | P281.1 | Agency correlates with coherence | EEG during voluntary action | Testable |
 | P282.1 | Qualia intensity correlates with neural coherence | fMRI during graded sensory experience | Testable |
 | P282.4 | No qualia below C ≈ 0.3 | Subliminal stimulus studies | Testable |

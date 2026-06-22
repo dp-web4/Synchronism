@@ -42,6 +42,8 @@ As cells approach saturation, resistance approaches infinity. This prevents unbo
 **Why This Matters:**
 Saturation is not a computational convenience. It is **the fundamental mechanism** that makes pattern existence possible in the Synchronism model. Every entity—from quantum particles to galaxies—depends on saturation resistance for stability.
 
+> **The two load-bearing pieces.** Saturation is one of the framework's two easy-to-miss, easy-to-misread fundamentals; the other is that **Intent is a reification, not an ontology** (a useful fiction like π — see §4.5 and [FUNDAMENTALS.md](https://github.com/dp-web4/Synchronism/blob/main/FUNDAMENTALS.md) §2). Together they carry the single-observer / CFD move: Intent reified makes the dynamics computable, and **saturation builds the walls** that let patterns hold. Saturation also makes emergence a **step function** (flat floor → step → ceiling-that-becomes-the-next-floor), so a flat result is not automatically a refutation — see the step-function reading guide cross-referenced in §4.4 and [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md).
+
 *See [Appendix A.3: Saturation Dynamics](#appendix-a-mathematical-formulations-working-draft) for mathematical details.*
 
 **Mathematical Foundation**
@@ -127,6 +129,8 @@ maps exactly onto the incompressible Navier-Stokes equations:
 Intent conservation (ΣI = const at every tick) gives exact incompressibility — no sources or sinks of the Intent fluid. This is the strongest form of the constraint: the underlying fluid is incompressible by construction, not by approximation.
 
 **Navier-Stokes is not imposed on Synchronism as an analogy. It is what Intent conservation plus saturation resistance become in the continuum limit.** This connects Synchronism to the most thoroughly validated equation in fluid dynamics — and implies that the same structure (with scale-specific parameter interpretations) should appear at every scale where MRH-bounded patterns interact. See `Research/CFD_Reframing_NS_Scale_Invariance.md` for the full scale-invariant parameter table.
+
+> **Status (2026-06-21) — the "exact Navier-Stokes by construction" claim above is in active tension and is treated as refuted-pending-reformulation.** Audit found the original Intent transfer rule reduces to 1-DOF *scalar diffusion* (S617; the parabolic maximum principle precludes stable oscillation), and the original substrate to be *irrotational* (curl ≡ 0 for any R(I)) and *dissipative* (S665/S666). At least one of {exact-NS, scalar-diffusion, irrotational+dissipative} must be qualified, so the substrate is under active reformulation (independent vector flux **J**, complexity-dependent *c*). The derivation above is preserved as the original construction, **not** as current settled status. See [FUNDAMENTALS.md](https://github.com/dp-web4/Synchronism/blob/main/FUNDAMENTALS.md) §3, Appendix A.3 (`[ACTIVE-MRH]`, same tension flagged), and §6.4 open question OQ-A3-Tension. Audit findings stand below the reframe — the new substrate inherits zero confirmed predictions, not the credit of this identification.
 
 **Remember the Abstraction**
 

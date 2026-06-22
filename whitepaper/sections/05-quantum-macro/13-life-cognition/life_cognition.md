@@ -65,6 +65,8 @@ The Consciousness Arc provides a complete mechanistic account of consciousness v
 | Aware | C ≥ 0.5 | Models self + environment | Simple animals |
 | Conscious | C ≥ 0.7 | Recursive self-modeling | Humans, advanced mammals |
 
+> **Threshold-value note (2026-06-21):** the **C ≈ 0.50** consciousness threshold (the "Aware" row) was empirically tested by the companion program [gnosis-research](https://github.com/dp-web4/gnosis-research) Session 63 and **refuted at p < 0.0001** — the data cluster near **C ≈ 0.64 ≈ φ−1** (a reparametrization candidate, not a confirmation). The thresholds in this table are therefore **mis-anchored**: the downstream neural predictions keyed to 0.50 are now untested *and* mis-anchored. The identity claim ("phase patterns ARE experience") is unaffected — it stays philosophically defensible but empirically ungrounded. See Appendix C status banner and [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet B3.
+
 **Observer Definition:**
 > An observer is a **self-referential coherence concentrator**—a pattern that models both its environment AND its own modeling process while maintaining C ≥ 0.7.
 

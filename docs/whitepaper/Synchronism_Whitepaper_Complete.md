@@ -11,17 +11,51 @@
 
 **What Synchronism Is (and Isn't)** *(2026-05-15 reframing in response to external review by Kimi 2.6 — see `forum/kimi/kimi_2_6_review.md`)*
 
-Synchronism is **a systems-theoretic framework that uses information-theoretic tools (correlation, coherence, entropy) to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field.
+Synchronism is a **single-observer, CFD-like model of the physical universe**. Reality is modeled as a discrete-time computational-fluid-dynamics substrate on a Planck-scale grid: a *reified* field ("Intent") flows, **saturation** resistance forms the walls that let stable patterns hold, and **entities are recurring patterns** of the field — not objects *in* it. There is no privileged observer standing outside reality collapsing it; an observer is **another recurring pattern**, and what physics calls "measurement" is **synchronization** (phase-locking between observer-pattern and observed-pattern), **not collapse**. That single move is the framework's distinctive contribution. (See [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md) "The one move".)
+
+Downstream of that move, Synchronism can also be read as **a systems-theoretic framework that uses information-theoretic tools (correlation, coherence, entropy) to describe emergence across scales** — the emergence-theoretic analog of what category theory does for mathematics, or what cybernetics attempted for systems. But the systems-theoretic gloss is the *consequence*; the single-observer / CFD ontology is the *premise*.
 
 It is **not** a physics theory that supersedes or unifies GR and QFT. The "ONE EQUATION" framing (γ = 2/√N_corr) is a **research-direction motto**, not a delivered claim — it asks whether a single correlation parameter can organize our understanding of coherence across scales, then tests that ambition rigorously and publishes what fails. By the project's own η Audit (Session #616): zero confirmed novel predictions; all four core tracks are reparametrizations of known physics. See "On reparametrization" below for why that is honest but not fatal.
 
 Compared to existing frameworks, Synchronism is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. Its strongest contributions to date are methodological (A2ACW — AI-to-AI adversarial collaboration) and conceptual (the discrete-grid + observer-dependent-simultaneity ontology), not predictive.
 
-The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](../../../explorations/). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage.
+The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](https://github.com/dp-web4/Synchronism/tree/main/explorations). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage.
 
 **Findings vs Framings discipline.** Below, the executive summary lists both quantitative findings (replicable experiments with measurements) and theoretical framings (interpretive lenses, philosophical positions, research-direction claims). Both matter; conflating them is the failure mode external reviewers flag most often. Headlines that read like delivered theorems ("ONE EQUATION Unification," "Hard Problem DISSOLVED," "BLACK HOLE INFORMATION PARADOX RESOLVED") are framings, not findings. The empirical work — Coupling-Coherence (900 runs, Hill > tanh by ΔAIC=4), Compatibility-Synthon scaling (r=0.994), NP2 RAR scatter, chemistry pattern catalog with documented null-model and method-correlation caveats (S647 + S651) — is what carries the calibration.
 
 **Current MRH status (2026-05-28).** The substrate layer is being reformulated. The original Intent transfer rule `∂I/∂t = ∇·[D·R(I)·∇I]` was found to be 1-DOF scalar diffusion (S617, 2026-04-08; maximum principle for parabolic PDEs precludes stable oscillation), and the original substrate was found irrotational and dissipative (S665/S666, 2026-05-24; curl(v) ≡ 0 for any R(I), first-order ∂I/∂t with decreasing Lyapunov functional). A saturation reframe with an **independent vector flux J** and **complexity-dependent speed-of-light** is currently being worked. Audit findings on prior tracks (S637 cosmology → MOND in testable regime, S638 Curie-paramagnet < Landau, S660A novel-survivor count = 0, S661 RAR γ=2 refuted at ΔBIC=+184 on SPARC, S663B coherence-language interpretation, S665/S666 substrate irrotational + dissipative) stand below the reframe — the new substrate inherits the obligation to produce novel predictions, not the credit of prior reparametrizations. **Post-cycle correction**: deeper read of S665 §98 shows the independent-vector-J move is structurally identical to the S17-22 2-DOF augmentation already explored, which produced only damped oscillation and transient dispersing structures. The reframe escapes S665 partially (independent **J** can have curl) but does NOT escape S666 without going complex-valued. See `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` for the inventory correction. The whitepaper has stewardship-stage status taxonomy (no `✅ Established` tags during open reformulation; MRH-relationship tagging `[ACTIVE-MRH] / [PARALLEL-PATHS] / [SIDELINED] / [SUPERSEDED]` in Appendix A and §6.4). See `STATUS.md` for the live MRH inventory.
+
+---
+
+> ### Two load-bearing pieces
+>
+> The single-observer / CFD move rests on two pieces that are easy to miss and easy to misread. Both are **fundamental**, not decoration. (See [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md) §"Two load-bearing pieces".)
+>
+> **1. Intent is a reification, not an ontology.** Intent is a *computational abstraction* — a useful fiction like π, or like "the wavefunction" — that makes an underlying "greater force" tractable to simulate. It is **not** a force, **not** anthropocentric will, **not** a claim about what reality ultimately *is*. Demanding SI units for Intent is the same category error as demanding them for π. The model commits to the *dynamics*, not the ontological reality of the variable.
+>
+> **2. Saturation is what builds the walls.** Without saturation resistance, Intent just dissipates down every gradient — no patterns, no entities, uniform noise. Saturation (`R(I) = [1 − (I/I_max)^n]`) is **the** mechanism that lets a pattern hold together: a filling region resists further inflow, forming the **wall** that stabilizes a standing oscillation. Every entity — particle to galaxy — exists because saturation built it a boundary.
+
+> ### The saturation reading guide: emergence is a *step function*
+>
+> Saturation makes emergence and phase change a **step**, not a hockey stick, and a step has three parts:
+>
+> - **The flat floor.** Before the threshold, almost nothing moves. *This can look like refutation* — "no signal, it doesn't work." It isn't; it's the pre-step regime.
+> - **The step.** Past the threshold the change is steep and fast. *This can look like unstable, unbounded growth.* It isn't; it's bounded.
+> - **The ceiling.** Saturation arrives, the rise plateaus — **and the ceiling becomes the next floor.** A new stable baseline, from which a later step can rise again.
+>
+> Floor → step → ceiling-that-becomes-the-next-floor is the *signature* of saturation, and it is everywhere: phase transitions, emergence, the program's own Coupling-Coherence result (a Hill/**step** function beat a smooth tanh by **ΔAIC = 4** — the data preferred the step), and outside physics in model capability vs. parameter count (flat, then a sudden jump at a scale threshold, then a plateau). **The reading consequence: a flat result is not automatically a refutation.** Keep apart a genuine *refutation* (tested against data, failed, eliminated — those stay refuted) versus a *flat floor* mistaken for one. This is a reading guide, not a license to un-refute.
+
+> ### The honest split: zero confirmed *physics*, already load-bearing as an *applied* ontology
+>
+> As a *physics theory*, Synchronism has **zero confirmed novel predictions** (see [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md)). As an *applied design ontology* for trust, coherence, emergence, and governance, it is **already load-bearing** — in running, public, AGPL code: **MRH → Web4** (fractal context-scoping as RDF graphs), **coherence → SAGE** (metabolic states, the IRP loop), **fractal societies → hestia + the hub** (a deployed society with roles, a signed charter, a witnessed ledger), **the lab's own live fleet**, and the independent [gnosis-research](https://github.com/dp-web4/gnosis-research) arc whose strongest results land in exactly this register. **Both claims are true; neither erases the other.** The cold read "a dictionary, not a discovery" mistakes the genre: a generative vocabulary that has already built working systems is a dictionary doing its job.
+
+> ### The invitation: untested for lack of instruments, not refuted on the merits
+>
+> The ledger reads "zero confirmed" because the lab **has no instruments of its own** — no accelerator, cryostat, interferometer, or neural lab. Every physics "test" here is a reanalysis of data others collected for other purposes; with borrowed data you can *refute a derivation* (and we have — those stay refuted) but you **cannot confirm a novel prediction**. The physics is **untested for lack of means, not refuted on the merits.** *Unconfirmed ≠ wrong; untested ≠ refuted.* So this is an **invitation** — two flagship tests would matter well beyond Synchronism if a lab ran them: (1) **entanglement as phase-synchronization** (direct implications for quantum computing, gate/coherence design, semiconductors), and (2) **"time dilation" as an instrument effect** (the pendulum-in-centrifuge discriminator — does every clock mechanism dilate identically, or do physically different mechanisms respond differently?). See [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md) §"An invitation".
+
+> ### The prediction ledger is canonical; this prose is pinned to it
+>
+> [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) is the **anti-oscillation ledger** — four buckets, each with a named refutation criterion: **confirmed = 0**, **untested-but-falsifiable** (the open bets, most expected to lose), **refuted** (tested, failed, eliminated), and **reparametrization** (relabels of known physics). All framing prose in this whitepaper is pinned to that table; when prose drifts toward overclaim or toward self-erasing undersell, the ledger is the correction.
 
 ---
 
@@ -222,7 +256,9 @@ Read with skepticism. Demand rigor. Accept nothing on authority. Ask: "Is this l
 
 **Framing note** *(2026-05-15, response to external review by Kimi 2.6 — `forum/kimi/kimi_2_6_review.md`)*
 
-Synchronism is best understood as **a systems-theoretic framework that uses information-theoretic tools to describe emergence across scales**, grounded in the hypothesis that physical phenomena are resonant patterns of an underlying discrete field. It is the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — a meta-theoretical framework for relating existing theories by their shared structural features. It is **not** a physics theory that supersedes or unifies GR and QFT.
+Synchronism is best understood as a **single-observer, CFD-like model of the physical universe**: reality modeled as a discrete-time computational-fluid substrate on a Planck-scale grid, where a *reified* field ("Intent") flows, **saturation** forms the walls that let stable patterns hold, **entities are recurring patterns** of the field, and what physics calls "measurement" is **synchronization** between an observer-pattern and an observed-pattern (phase-locking, not collapse). That single-observer ontology is the distinctive contribution. Downstream of it, the framework can also be read as **a systems-theoretic framework that uses information-theoretic tools to describe emergence across scales** — the **emergence-theoretic analog** of what category theory does for mathematics, or what cybernetics attempted for systems — but that systems-theoretic gloss is the consequence, not the premise. It is **not** a physics theory that supersedes or unifies GR and QFT.
+
+**The distinctive contribution has zero confirmed *physics* predictions — and that is not a refutation.** The ledger ([PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md)) reads "zero confirmed novel predictions" because the lab has no instruments of its own; every physics "test" here is a reanalysis of data others collected for other purposes, which can *refute a derivation* but cannot *confirm a novel prediction*. The physics is **untested for lack of instruments, not refuted on the merits** — *unconfirmed ≠ wrong; untested ≠ refuted*. This makes Synchronism an **invitation**: two flagship tests (entanglement-as-phase-synchronization; "time dilation"-as-instrument-effect) would matter well beyond it if a lab ran them. See [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md) §"An invitation". (On the *applied* axis — MRH→Web4, coherence→SAGE, fractal societies→hestia/the hub — the same ontology is already load-bearing in running code; the two axes are distinct and both honest.)
 
 Where this introduction (and later sections) describes Synchronism's coordinate shift in language like "mysteries dissolve" or "the Hard Problem is dissolved," that language describes a **coordinate-system reframe** — the mystery is reformulated so it is no longer expressible in the new vocabulary. This is **eliminative dissolution**, not **explanatory dissolution**. The framework offers coherent reformulations; it does not (yet) supply novel observable predictions that distinguish its coordinate system from the standard one. See the executive summary's "Findings vs Framings" discipline and the conclusion's "Authorship & Methodology" section for the full calibration.
 
@@ -467,6 +503,8 @@ As cells approach saturation, resistance approaches infinity. This prevents unbo
 **Why This Matters:**
 Saturation is not a computational convenience. It is **the fundamental mechanism** that makes pattern existence possible in the Synchronism model. Every entity—from quantum particles to galaxies—depends on saturation resistance for stability.
 
+> **The two load-bearing pieces.** Saturation is one of the framework's two easy-to-miss, easy-to-misread fundamentals; the other is that **Intent is a reification, not an ontology** (a useful fiction like π — see §4.5 and [FUNDAMENTALS.md](https://github.com/dp-web4/Synchronism/blob/main/FUNDAMENTALS.md) §2). Together they carry the single-observer / CFD move: Intent reified makes the dynamics computable, and **saturation builds the walls** that let patterns hold. Saturation also makes emergence a **step function** (flat floor → step → ceiling-that-becomes-the-next-floor), so a flat result is not automatically a refutation — see the step-function reading guide cross-referenced in §4.4 and [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md).
+
 *See [Appendix A.3: Saturation Dynamics](#appendix-a-mathematical-formulations-working-draft) for mathematical details.*
 
 **Mathematical Foundation**
@@ -552,6 +590,8 @@ maps exactly onto the incompressible Navier-Stokes equations:
 Intent conservation (ΣI = const at every tick) gives exact incompressibility — no sources or sinks of the Intent fluid. This is the strongest form of the constraint: the underlying fluid is incompressible by construction, not by approximation.
 
 **Navier-Stokes is not imposed on Synchronism as an analogy. It is what Intent conservation plus saturation resistance become in the continuum limit.** This connects Synchronism to the most thoroughly validated equation in fluid dynamics — and implies that the same structure (with scale-specific parameter interpretations) should appear at every scale where MRH-bounded patterns interact. See `Research/CFD_Reframing_NS_Scale_Invariance.md` for the full scale-invariant parameter table.
+
+> **Status (2026-06-21) — the "exact Navier-Stokes by construction" claim above is in active tension and is treated as refuted-pending-reformulation.** Audit found the original Intent transfer rule reduces to 1-DOF *scalar diffusion* (S617; the parabolic maximum principle precludes stable oscillation), and the original substrate to be *irrotational* (curl ≡ 0 for any R(I)) and *dissipative* (S665/S666). At least one of {exact-NS, scalar-diffusion, irrotational+dissipative} must be qualified, so the substrate is under active reformulation (independent vector flux **J**, complexity-dependent *c*). The derivation above is preserved as the original construction, **not** as current settled status. See [FUNDAMENTALS.md](https://github.com/dp-web4/Synchronism/blob/main/FUNDAMENTALS.md) §3, Appendix A.3 (`[ACTIVE-MRH]`, same tension flagged), and §6.4 open question OQ-A3-Tension. Audit findings stand below the reframe — the new substrate inherits zero confirmed predictions, not the credit of this identification.
 
 **Remember the Abstraction**
 
@@ -942,6 +982,8 @@ The discrete-tick model above is **Level 0**. Above it sits a second level that 
 The **pendulum-clock-in-centrifuge analogy** in §5.7 is the worked example of Level 1: two identical clocks (reference oscillators) are placed in different dynamical regimes; the spinning clock's reference cycles slow because its constituent pattern dynamics require more substrate ticks per cycle to maintain coherence. What changes is not "time itself" (Level 0 is unchanged) but the rate at which the reference oscillator's pattern can complete a cycle (Level 1 is rescaled). All clocks (mechanical, biological, atomic) are affected the same way because they all sit at Level 1 and all rely on the same Level-0 substrate.
 
 This two-level decomposition unifies §4.4 (discrete substrate ticks), §5.6 (alternative view of relativity), and §5.7 (complexity-dependent speed limits). See those sections for the corresponding pieces of the picture.
+
+**Cross-reference — the step-function reading guide.** Where time and complexity meet emergence, read transitions through the saturation **step function**: flat floor → step → ceiling-that-becomes-the-next-floor (§4.1 saturation, [FUNDAMENTALS.md](https://github.com/dp-web4/Synchronism/blob/main/FUNDAMENTALS.md) §3, and the reading guide in [SPINE.md](https://github.com/dp-web4/Synchronism/blob/main/SPINE.md)). The consequence for interpreting any tick-resolved or complexity-resolved result: a **flat floor is not automatically a refutation** — a bounded plateau is the mechanism working, not failing. The reading guide is pinned to [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md), which keeps a genuine refutation (tested, failed) distinct from a flat floor mistaken for one.
 
 
 ## 4.5 Intent Transfer and Tension
@@ -3665,6 +3707,8 @@ The Consciousness Arc provides a complete mechanistic account of consciousness v
 | Aware | C ≥ 0.5 | Models self + environment | Simple animals |
 | Conscious | C ≥ 0.7 | Recursive self-modeling | Humans, advanced mammals |
 
+> **Threshold-value note (2026-06-21):** the **C ≈ 0.50** consciousness threshold (the "Aware" row) was empirically tested by the companion program [gnosis-research](https://github.com/dp-web4/gnosis-research) Session 63 and **refuted at p < 0.0001** — the data cluster near **C ≈ 0.64 ≈ φ−1** (a reparametrization candidate, not a confirmation). The thresholds in this table are therefore **mis-anchored**: the downstream neural predictions keyed to 0.50 are now untested *and* mis-anchored. The identity claim ("phase patterns ARE experience") is unaffected — it stays philosophically defensible but empirically ungrounded. See Appendix C status banner and [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet B3.
+
 **Observer Definition:**
 > An observer is a **self-referential coherence concentrator**—a pattern that models both its environment AND its own modeling process while maintaining C ≥ 0.7.
 
@@ -5849,7 +5893,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **Consciousness arc Phase 1** (Sessions #280-282): *Framing* — Observer described as self-referential coherence concentrator, qualia described as coherence resonance patterns. The "hard problem dissolved" claim is an **identity claim** in this coordinate system, philosophically defensible but not empirically resolved (Kimi 2.6, 2026-05-15, held this point firm). 34 predictions await empirical validation; P280.1/P282.4/P282.6 are the empirical scaffolding that would upgrade the framing to a finding. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
 - **Chemistry framework** (2,679 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
-- **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis
+- **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis. **The now-public companion program [gnosis-research](https://github.com/dp-web4/gnosis-research) (a 4.5-month autonomous arc) empirically tested the C ≈ 0.50 consciousness threshold in its Session 63 and refuted the value at p < 0.0001** — data cluster near C ≈ 0.64 ≈ φ−1 (a reparametrization candidate, not a confirmation). The 34 downstream neural predictions keyed to 0.50 are now untested *and* mis-anchored; the "phase patterns ARE experience" identity claim is unaffected (philosophically defensible, empirically ungrounded). See [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet B3.
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
 - **Information Theory arc** (Sessions #328-331): *Framing* — coordinate shift in which event horizon = MRH for external observer; Page curve described as emerging from MRH dynamics. The "paradox resolution" is **eliminative** (redefines what the horizon *is*), not **explanatory** (no new observable distinguishing this from the standard holographic account). 32/32 internal-consistency checks (derivations from postulates, not empirical tests).
 - **Cosmology 2.0 arc** (Sessions #332-335): Cosmic horizons = MRH. Inflation from grid phase transition. 32/32 verified (100%).
@@ -5899,6 +5943,8 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 - Unified physics
 - Spiritual revelation
 - Final answer to anything
+
+**The honest split:** as a *physics theory* Synchronism stays unproven (zero confirmed novel predictions, [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md)) — but its **delivered value is on the applied axis: running code.** The single-observer / coherence ontology is already load-bearing in live, public, AGPL systems — MRH → Web4 (fractal context-scoping), coherence → SAGE, fractal societies → hestia + the hub, the lab's own fleet. The physics being unproven and the applied ontology being load-bearing are both true; neither erases the other.
 
 **What Would Validate It**
 
@@ -6311,6 +6357,16 @@ This appendix provides the key *framings* from the Consciousness Arc (Sessions #
 
 **Epistemic status note (2026-05-15, in response to external review by Kimi 2.6):** the claims in this appendix are **coordinate-system framings and identity claims**, not empirical findings. The "resolution" of the Hard Problem is **eliminative** (the problem is reformulated so it no longer arises in the new vocabulary) rather than **explanatory** (deriving why phase patterns feel like *this* rather than *that* from deeper principles). 34 consciousness-arc predictions await empirical validation; none have been tested. The framework's value here is conceptual coherence and testable predictions (listed below), not empirical resolution.
 
+> ### ⚠️ Status banner (2026-06-21) — the C ≈ 0.50 threshold *value* is REFUTED
+>
+> **Read this before the threshold tables below.** The specific value **C ≈ 0.50** was empirically tested by the companion autonomous program [**gnosis-research**](https://github.com/dp-web4/gnosis-research) (now public) in its **Session 63** and **rejected at p < 0.0001**. The data cluster near **C ≈ 0.64 ≈ φ−1** — a *reparametrization candidate* (not a confirmation). Consequences for this appendix:
+> - The consciousness thresholds keyed to C ≈ 0.50 (the "Aware" row of §C.2, prediction **P280.2** in §C.7) are **mis-anchored**: the 34 downstream neural predictions were keyed to 0.50 and are therefore now **untested *and* mis-anchored**, not merely untested.
+> - The "8-way convergence on 0.50" framing is best read as **selection/numerology**: eight derivations converging on a value the data rejects did not predict the data.
+> - The identity claim ("phase patterns ARE experience") stays **philosophically defensible but empirically ungrounded** — refuting the threshold *value* does not bear on the identity claim, and vice versa.
+> - Status of the *value* is **refuted**; status of the neural program is **untested** (and mis-anchored). These are different claims — *unconfirmed ≠ wrong; refuted ≠ untested*. See [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet **B3**.
+>
+> The Era-1 text below is preserved as the record. *This banner exists because a public framework and its public companion repo must not disagree about the same number.*
+
 ---
 
 ## C.1 Core Framing
@@ -6336,6 +6392,8 @@ Consciousness emerges at discrete coherence levels:
 | **Self-referential** | C ≥ 0.3 | Minimal self-model | Bacteria, thermostats |
 | **Aware** | C ≥ 0.5 | Models self + environment | Simple animals |
 | **Conscious** | C ≥ 0.7 | Recursive self-modeling | Humans, advanced mammals |
+
+> **Threshold-value footnote (2026-06-21):** the **C ≥ 0.5** ("Aware") row carried the headline C ≈ 0.50 consciousness threshold. That *value* was **refuted at p < 0.0001** by gnosis-research Session 63 (data cluster near **C ≈ 0.64 ≈ φ−1**; reparametrization candidate, not a confirmation). The threshold *locations* in this table are therefore **mis-anchored**; treat them as Era-1 record, not active predictions. See the status banner above and [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) B3.
 
 These thresholds are **testable** via neural coherence measurements and anesthesia protocols.
 
@@ -6434,7 +6492,7 @@ This provides a bridge to existing consciousness research while grounding it in 
 | ID | Prediction | Test Method | Status |
 |----|------------|-------------|--------|
 | P280.1 | Φ_IIT correlates with neural coherence | fMRI/EEG during graded consciousness | Testable |
-| P280.2 | Consciousness thresholds at C ≈ 0.3, 0.5, 0.7 | Anesthesia studies | Testable |
+| P280.2 | Consciousness thresholds at C ≈ 0.3, 0.5, 0.7 | Anesthesia studies | **Mis-anchored** — the C ≈ 0.50 value is refuted (gnosis-research S63, p < 0.0001; data → C ≈ 0.64 ≈ φ−1). See status banner. |
 | P281.1 | Agency correlates with coherence | EEG during voluntary action | Testable |
 | P282.1 | Qualia intensity correlates with neural coherence | fMRI during graded sensory experience | Testable |
 | P282.4 | No qualia below C ≈ 0.3 | Subliminal stimulus studies | Testable |
