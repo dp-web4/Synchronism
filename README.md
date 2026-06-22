@@ -69,6 +69,22 @@ The framework's most direct empirical test — can simple local rules on a discr
 
 ---
 
+## Where Synchronism is already useful (the *useful* in "all models are wrong, some are useful")
+
+Synchronism has **zero confirmed novel *physics* predictions** — and it is **already, demonstrably useful**, on a different axis: as a **generative design ontology for coherence, emergence, systems behavior, and governance.** The proof isn't a paper; it's running, public, AGPL code anyone can clone:
+
+| Synchronism concept | Applied in (live code) | What it became |
+|---|---|---|
+| **MRH** (Markov Relevancy Horizon) | [Web4](https://github.com/dp-web4/web4) | Fractal context-scoping — relevance/trust bounded by context, as RDF graphs. The canonical equation carries it: `Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP`. |
+| **Coherence, fractal societies, quantized entities across scales, ATP/ADP metabolism** | [Web4](https://github.com/dp-web4/web4) + [hestia](https://github.com/dp-web4/hestia) + [the hub](https://github.com/dp-web4/web4/tree/main/hub) | Trust-as-coherence (T3/V3); a deployed Web4 society with roles, a signed charter, and a witnessed ledger; entities that exist to the degree they're witnessed. |
+| **Coherence / phase-change machinery** | [SAGE](https://github.com/dp-web4/SAGE) | Metabolic states, the IRP loop, coherence-gated behavior. |
+| **Coherence, feedback loops, witnessing** | [the lab's own fleet](https://4-lab.io/fleet) | A live coherence/feedback system — quantized entities (machines) across scales, witnessing each other and self-correcting. |
+| **Coupling / coherence / phase detection** | [gnosis-research](https://github.com/dp-web4/gnosis-research) | An independent 4.5-month autonomous arc whose strongest, most reproducible results are in systems behavior — not hard-science prediction. |
+
+**The honest split:** as a *physics theory*, Synchronism is unproven (see [Findings vs Framings](#findings-vs-framings) and [PREDICTIONS.md](PREDICTIONS.md)). As an *applied design ontology* for trust, coherence, and governance, it is already **load-bearing** — fractal societies, quantized entities, coherence mechanisms, and feedback loops are written in live code you can run today. The cold read that calls it "a dictionary, not a discovery" mistakes the genre: a **generative vocabulary that has already built working systems** is a dictionary doing its job. Full treatment in [SPINE.md](SPINE.md).
+
+---
+
 ## Why This Exists
 
 Synchronism asks: *Can one coherence parameter explain phenomena from Planck scale to cosmic scale?*

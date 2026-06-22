@@ -88,6 +88,49 @@ claims, and saturation is why.
 
 ---
 
+## What it's already good for (the *useful* in "all models are wrong, some are useful")
+
+Synchronism has **zero confirmed novel *physics* predictions** — and it is **already,
+demonstrably useful**, on a different axis. Its delivered value is as a **generative design
+ontology for coherence, emergence, systems behavior, and governance.** The proof isn't a
+paper; it's running code anyone can clone:
+
+- **MRH (Markov Relevancy Horizon)** — a Synchronism foundational concept — is applied
+  *directly* in **Web4** as fractal context-scoping (relevance and trust bounded by context,
+  implemented as RDF graphs). Same concept, production vocabulary — not an analogy.
+- **Web4** ([repo](https://github.com/dp-web4/web4)) is built on Synchronism principles:
+  trust-as-coherence (T3/V3), self-sovereign **fractal societies**, **quantized entities
+  across scales**, and ATP/ADP energy metabolism. The canonical equation literally carries
+  MRH: `Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP`.
+- **SAGE** ([repo](https://github.com/dp-web4/SAGE)) applies the coherence / phase-change
+  machinery — metabolic states, the IRP loop, coherence-gated behavior.
+- **hestia + the hub** ([hestia](https://github.com/dp-web4/hestia),
+  [hub](https://github.com/dp-web4/web4/tree/main/hub)) turn witnessing and fractal-society
+  concepts into **deployed, runnable governance**: a society with roles, a signed charter, a
+  witnessed ledger; entities that exist to the degree they're witnessed.
+- **The lab's own fleet** ([4-lab.io/fleet](https://4-lab.io/fleet)) is a live
+  coherence / feedback-loop system — quantized entities (machines) across scales, witnessing
+  each other and self-correcting. The model's concepts running as the lab's nervous system.
+- **An independent confirmation:** [gnosis-research](https://github.com/dp-web4/gnosis-research),
+  a 4.5-month autonomous arc, found its strongest, most reproducible results in exactly this
+  register — coupling, coherence, phase-detection (systems behavior) — not in hard-science
+  prediction.
+
+**The honest split:** as a *physics theory*, Synchronism is unproven (zero confirmed novel
+predictions — see [PREDICTIONS.md](PREDICTIONS.md)). As an *applied design ontology* for
+trust, coherence, and governance, it is already **load-bearing** — fractal societies,
+quantized entities, coherence mechanisms, and feedback loops are written in live code you
+can run today. *That* is the "useful." The cold read that calls it "a dictionary, not a
+discovery" mistakes the genre: it is a **generative vocabulary that has already built working
+systems** — and a dictionary that builds things is doing its job.
+
+*Status: this is delivered, demonstrable value — running, public, AGPL code — on the
+**applied** axis (design ontology), explicitly distinct from the **physics** axis (which
+reads zero-confirmed). Both claims are true; this section is the one the old entry surface
+buried.*
+
+---
+
 ## Why anyone should care: the geocentric → heliocentric wager
 
 For centuries, astronomers explained planetary motion by adding epicycles to a model with

@@ -40,6 +40,13 @@ predictions that (a) follow from Synchronism postulates, (b) differ from standar
 and (c) have been tested and passed. This number is load-bearing and is not softened
 anywhere in the repo. When it changes, it changes *here first*, with the test that moved it.
 
+> **Scope: this ledger is the *physics* axis only.** "Zero confirmed" means zero novel
+> *physics predictions* — it does **not** mean "useless." On the *applied* axis (Synchronism
+> as a design ontology for coherence/emergence/governance) the framework is already
+> load-bearing in running code (MRH→Web4, coherence→SAGE, fractal societies→hestia/the hub,
+> the live fleet). See **[SPINE.md → "What it's already good for"](SPINE.md)**. Two axes,
+> both honest; don't let this one's "zero" erase the other's delivered value.
+
 ---
 
 ## Bucket 1 — UNTESTED BUT FALSIFIABLE (genuine novel bets)
