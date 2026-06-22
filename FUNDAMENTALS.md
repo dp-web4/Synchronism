@@ -8,7 +8,7 @@
 
 ### 1. Discrete CFD Substrate
 
-The universe is a discrete-time computational fluid dynamics simulation where Intent flows. Not metaphor. Not analogy. This IS the model.
+The universe is **modeled as** a discrete-time computational-fluid-dynamics substrate on which Intent flows. The model commits to this structure literally — it is the *dynamics* the framework runs on, not a loose metaphor — but the "IS" is a **modeling commitment, not a metaphysical assertion** (Intent itself is a reification; see §2). What keeps that "IS" from being unfalsifiable theology is a **named falsifier**: the cellular-automaton challenge (`explorations/`). If local discrete-grid rules cannot produce stable particle-like patterns → interaction → mass-like and quantum-like behavior, the identity claim fails. *(Per Kimi's 2026-06-21 review: a framework that absorbs its own falsification into its ontology is not doing science — the "IS" is legitimate only if it names what would break it. It does, here. The earlier wording "Not metaphor. Not analogy. This IS the model." overstated the metaphysics and is replaced by this.)*
 
 - Discrete time: Planck time (5.39 × 10⁻⁴⁴ s) is the tick rate
 - Discrete space: Planck length (1.62 × 10⁻³⁵ m) is the grid resolution

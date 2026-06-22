@@ -119,6 +119,15 @@ enables a prediction (it hasn't yet).
 | C(ρ) compander | MOND interpolating function ν(x) | Identical phenomenology when γ free |
 | Intent field | \|ψ\|² in all tested regimes | Unfalsifiable as stated; equals the wavefunction wherever tested |
 
+> **The N_corr-divergence test (Kimi 2026-06-21).** γ = 2/√N_corr is applied with a
+> *different* N_corr in every domain — galactic N_corr = 1 by fiat, chemistry N_corr from
+> correlation length, quantum N_corr → ∞ — with no scale-bridging formalism. That is the
+> difference between an underspecification that will *converge* (productive, like early
+> "mass" or "entropy") and a vagueness that *fits anything* (degenerate). **The single test
+> of whether any of these reparametrizations becomes productive is whether N_corr converges
+> on one cross-scale operational definition or keeps diverging.** It is currently diverging.
+> Until it converges, "ONE EQUATION" is a research-direction motto, not a unification.
+
 ---
 
 ## How to read the whole board
