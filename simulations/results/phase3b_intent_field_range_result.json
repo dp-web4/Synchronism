@@ -1,0 +1,54 @@
+{
+  "question": "can a massive Intent field mediate long-range (1/r) gravity? (solved, not imposed)",
+  "absolute_time_note": "static spatial field; no clock/tick varies",
+  "geometry": "3D radial screened-Poisson (static Klein-Gordon), Thomas solve",
+  "rows": [
+    {
+      "w0": 1.0,
+      "fitted_kappa": 0.9996,
+      "kappa_over_w0": 1.0,
+      "effective_range_1e": 1.0,
+      "expected_yukawa_range_1_over_w0": 1.0,
+      "goodness": {
+        "r2_yukawa": 1.0,
+        "r2_pure_1overr": -0.009
+      }
+    },
+    {
+      "w0": 0.3,
+      "fitted_kappa": 0.3,
+      "kappa_over_w0": 1.0,
+      "effective_range_1e": 3.1,
+      "expected_yukawa_range_1_over_w0": 3.3,
+      "goodness": {
+        "r2_yukawa": 1.0,
+        "r2_pure_1overr": -0.02839
+      }
+    },
+    {
+      "w0": 0.1,
+      "fitted_kappa": 0.1,
+      "kappa_over_w0": 1.0,
+      "effective_range_1e": 7.8,
+      "expected_yukawa_range_1_over_w0": 10.0,
+      "goodness": {
+        "r2_yukawa": 1.0,
+        "r2_pure_1overr": -0.07707
+      }
+    },
+    {
+      "w0": 0.0,
+      "fitted_kappa": 0.0039,
+      "kappa_over_w0": null,
+      "effective_range_1e": 42.3,
+      "expected_yukawa_range_1_over_w0": "inf (massless)",
+      "goodness": {
+        "r2_yukawa": 0.99749,
+        "r2_pure_1overr": 0.85345
+      }
+    }
+  ],
+  "yukawa_holds_for_massive": true,
+  "massless_is_long_range_1overr": true,
+  "verdict": "SOLVED (not imposed): the static Intent field sourced by a point mass is YUKAWA when the field is massive. Fitted decay kappa tracks the field rest-mass w0 (kappa/w0 ~ 1 across w0>0: True) -> range ~ 1/w0, SHORT. Only the massless field (w0=0) gives kappa ~ 0 (True) -> the pure 1/r Coulomb/Newton form, long-range. STRUCTURAL CONSEQUENCE: the framework's Intent field carries a rest mass w0 BY DESIGN (that w0 IS particle mass, Phase-1/2). A massive mediator forces a short-range force (Yukawa 1935) \u2014 so the substrate's particle sector CANNOT be the source of gravity, whose 1/r long range is the precondition for the whole light-deflection / factor-of-2 analysis. To host gravity the framework needs a SEPARATE MASSLESS Intent mode (a graviton-analog / the field's far tail / a collective long-wavelength excitation), which it does not currently specify. This is the real gap, and it sits UPSTREAM of the factor-of-2: there is no point asking 'space-only 2x or falsified' until a 1/r field exists to bend light at range. PRODUCTIVE NEGATIVE, non-circular (the range came out of the solve, not an imposed shape), and it connects to textbook physics: massive mediator => short range is exactly why the weak/strong forces are short-range and EM/gravity are long-range. And 1/r exists only in 3D \u2014 the dimension mattered. Bucket 0 unchanged; this adds a sharply-stated open problem to Bucket 1's gravity line."
+}
