@@ -52,33 +52,53 @@ into the deep weak field).
 - **Q1 ✓:** a homogeneous substrate propagates the ray dead straight; linearity needs no
   mechanism, only symmetry.
 - **Q2 ✓:** a local c-gradient bends the ray, weakly, toward the mass.
-- **The substrate requirement (the real content):** a mass modeled as *only* a slowdown of
-  Intent reconstruction (a scalar variable-c) predicts **half** the observed light-bending and
-  is **falsified**, exactly as scalar gravity was in 1919. To match GR's 4GM/(c²b), the substrate
-  must perturb **both the reconstruction rate (time / c) AND the grid spacing (space)**, in equal
-  measure. *That equal space+time perturbation is the physical origin of the factor of 2.* The
-  classic test hands the substrate a crisp, falsifiable structural demand.
+- **The substrate requirement (the real content), stated faithfully to absolute time:** in
+  Synchronism **time is absolute** — the tick is the universal advance of grid state; a pattern
+  *in* the grid cannot perturb the substrate clock. So Synchronism is **denied the time half**
+  that GR uses. GR builds its factor-of-2 as *half from spatial curvature + half from
+  gravitational time dilation*; an absolute-time substrate must obtain the **whole** 2× from
+  **spatial/structural** degrees of freedom alone. A mass modeled as *only* a slowdown of Intent
+  reconstruction (one structural effect) gives `n−1 = GM/c²r` → **half** the observed bending →
+  **falsified**, exactly as scalar gravity was in 1919. To reach GR's `n−1 = 2GM/c²r` the grid
+  must supply both halves spatially: the **reconstruction rate** (cells a pattern advances per
+  absolute tick — kinematic, *not* a clock rate) **and** the **grid spacing** contracting near a
+  high-Intent core, each contributing `GM/c²r`. Two spatial effects, **no clock change**. *(The
+  earlier draft of this doc said "perturb time AND space" — that was a category error imported
+  from GR's bookkeeping; corrected per dp 2026-06-22.)*
 
 ## The open question — the live frontier (keep proposing)
 
-**Does the framework's structure produce the factor-of-2 naturally, or must the 2 be put in by
-hand?** The framework already has the ingredients that *could* supply both halves — *c* as
-reconstruction rate (the time half) and the discrete grid itself (the space half), plus the
-two-level-time ontology. If a high-Intent core *necessarily* contracts the local grid spacing by
-the same fraction it slows reconstruction — then the substrate **derives** gravitational lensing
-(α=2 falls out). If the grid-contraction has to be added by hand to hit 2 — then the substrate is
-**fitting** GR, not explaining it. **This is not yet answered**, and it is exactly where to keep
-proposing: model a high-Intent core's effect on *both* local tick-rate and local spacing from the
-substrate rules, and check whether the ratio is forced to 1:1 (→ α=2) or free.
+Absolute time splits this into **two** sharp, falsifiable sub-questions:
+
+**(a) Can grid structure alone supply the full 2×?** Both candidate mechanisms are spatial —
+reconstruction rate (cells per absolute tick) and grid spacing. If a high-Intent core
+*necessarily* contracts the local spacing by the same fraction it slows reconstruction (each
+`GM/c²r`), the substrate **derives** gravitational lensing (α=2 falls out, with *no* clock
+term). If only one mechanism is forced, a spatial-only substrate tops out at the **half** →
+falsified like scalar gravity. Model the core's effect on *both* local cells-per-tick and local
+spacing from the substrate rules; check whether the ratio is forced to 1:1 or free.
+
+**(b) Can the framework explain *measured* gravitational time dilation without a clock?**
+Pound–Rebka, GPS, and optical clocks at centimeter height differences directly measure clocks
+running slow deeper in a potential — and GR attributes *half* the light-bending to exactly this.
+An absolute-time substrate must re-derive that as an **instrument/pattern effect**: a pattern
+deeper in the well reconstructs through more grid-traversal per absolute tick, so an *embedded*
+clock *reads* slow while the universal tick is unchanged. This is the framework's existing
+"time-dilation-as-instrument-effect" bet (PREDICTIONS Bucket 1) — now made **load-bearing for
+gravity**. If that account reproduces redshift + Shapiro delay + the time-half of deflection,
+Synchronism is a genuine same-prediction / different-ontology alternative; if it cannot, absolute
+time is **falsified by gravity**. Neither (a) nor (b) is answered — this is where to keep proposing.
 
 ## Honesty
 
 NOT novel physics: the "GR as an effective medium with n = 1 + 2GM/c²r" picture, and the
 factor-of-2 itself, are textbook. The value is (1) answering Q1/Q2 with a runnable genuinely-3D
-model (no missing-dimension walls), (2) extracting the exact substrate requirement (equal
-space+time perturbation), and (3) naming the precise open question (is the 2:1 forced or
-hand-put?) that decides whether the substrate *explains* or merely *fits* gravity. Bucket 0
-unchanged (nothing confirmed).
+model (no missing-dimension walls), (2) extracting the exact substrate requirement *as
+constrained by absolute time* — the full 2× must come from grid structure alone, with no clock
+term, which is a **stronger** demand than GR's space+time split, and (3) naming the two precise
+open questions (can spatial structure alone give the 2×; can measured time dilation be an
+instrument effect) that decide whether the substrate *explains* or merely *fits* gravity. Bucket
+0 unchanged (nothing confirmed).
 
 Caveats: eikonal / geometric-optics limit (a photon as a ray — appropriate for deflection; no
 diffraction modeled); weak field (b ≫ r_g); α is imposed here by hand (resolving whether the

@@ -17,12 +17,19 @@ THE SHARP TEST — the factor of 2 (the most famous discriminator in the history
   Deflection (weak field): Δθ = 2*alpha*(GM/c^2)/b.
     alpha = 1  -> Δθ = 2GM/(c^2 b)  = Newton/Soldner = a SCALAR "variable-c only" substrate
     alpha = 2  -> Δθ = 4GM/(c^2 b)  = General Relativity (Eddington 1919, observed)
-  A substrate that models mass as ONLY a reconstruction-rate (c) reduction gives alpha=1 —
-  HALF the observed bending — and is FALSIFIED, exactly as scalar gravity was. To match GR it
-  must reduce BOTH the tick-rate (time) AND the grid spacing (space), equally: that is the
-  origin of the 2. This experiment confirms the alpha-scaling and the factor of 2 by direct 3D
-  eikonal ray-tracing (genuinely 3D — no missing-dimension walls), and isolates the substrate-
-  structure requirement.
+  A substrate that models mass as ONLY a reconstruction-rate reduction gives alpha=1 — HALF the
+  observed bending — and is FALSIFIED, exactly as scalar gravity was. To match GR it must reach
+  n-1 = 2GM/c^2r. CRITICAL (Synchronism-faithful): time is ABSOLUTE — the tick is the universal
+  advance of grid state; a pattern in the grid cannot perturb the substrate clock. So unlike GR
+  (half spatial curvature + half time dilation), Synchronism is DENIED the time half and must
+  obtain the FULL 2x from SPATIAL/structural degrees of freedom alone: the reconstruction rate
+  (cells advanced per absolute tick — kinematic, NOT a clock) AND the grid spacing, each
+  contributing GM/c^2r. This is a stronger demand than GR's split. It also forces the framework
+  to explain MEASURED gravitational time dilation (Pound-Rebka/GPS) as an instrument/pattern
+  effect, not a clock change. This experiment confirms the alpha-scaling and the factor of 2 by
+  direct 3D eikonal ray-tracing (genuinely 3D — no missing-dimension walls); the deflection is
+  mechanism-agnostic (it depends only on n(r)), so it isolates the substrate-structure requirement
+  WITHOUT assuming where n comes from.
 
 Geometric units: c = 1, GM = 1, so the gravitational radius r_g = GM/c^2 = 1; weak field is
 b >> 1. RK4 integration of the eikonal ray equation in 3D:
@@ -115,19 +122,20 @@ def main():
         f"OF 2: deflection(alpha=2)/deflection(alpha=1) = {factor:.3f} across impact parameters. "
         f"A scalar 'variable-c only' substrate (alpha=1) reproduces Newton/Soldner 2GM/(c^2 b) "
         f"(matches: {a1_is_newton}) — HALF the observed bending, the value Eddington 1919 ruled "
-        f"out. Matching GR's 4GM/(c^2 b) (alpha=2; matches: {a2_is_GR}) requires DOUBLING the "
-        f"effect, which physically means the substrate must perturb BOTH the reconstruction rate "
-        f"(time / c) AND the grid spacing (space), in equal measure. So the classic test hands "
-        f"the substrate a sharp, falsifiable requirement: a mass cannot be modeled as only a "
-        f"slowdown of Intent reconstruction (that gives half the bending and is dead on arrival) "
-        f"— it must equally contract the grid. THE OPEN QUESTION (the real frontier): does the "
-        f"framework's structure (c as reconstruction rate + the two-level time + the grid "
-        f"itself) NATURALLY produce the factor-of-2 (space and time perturbed equally), or must "
-        f"the 2 be put in by hand? If natural -> the substrate explains gravitational lensing. "
-        f"If by hand -> it is fitting GR, not deriving it. Not yet answered; this is where to "
-        f"keep proposing. NOT novel physics (the n=1+2GM/c^2r effective-medium picture of GR is "
-        f"textbook); the value is locating the exact substrate requirement and the exact open "
-        f"question. Bucket 0 unchanged."
+        f"out. Matching GR's 4GM/(c^2 b) (alpha=2; matches: {a2_is_GR}) requires n-1=2GM/c^2r. "
+        f"Synchronism-faithful reading: time is ABSOLUTE (the tick can't be perturbed by a grid "
+        f"pattern), so unlike GR (half spatial curvature + half time dilation) the substrate is "
+        f"DENIED the time half and must produce the WHOLE 2x from SPATIAL structure alone — both "
+        f"the reconstruction rate (cells per absolute tick) AND the grid spacing contracting near "
+        f"a high-Intent core, each GM/c^2r, no clock change. A stronger demand than GR's split. "
+        f"TWO OPEN QUESTIONS (the frontier): (a) can grid structure alone force the full 2x, or "
+        f"does a spatial-only substrate top out at the half (-> falsified like scalar gravity)? "
+        f"(b) measured gravitational time dilation (Pound-Rebka/GPS) must then be an "
+        f"instrument/pattern effect (a deeper pattern traverses more grid per absolute tick, so "
+        f"an embedded clock READS slow) -> reproduce redshift+Shapiro+time-half-of-deflection or "
+        f"absolute time is falsified by gravity. Neither answered; keep proposing. NOT novel "
+        f"physics (n=1+2GM/c^2r effective-medium GR is textbook); the value is the absolute-time "
+        f"substrate requirement + the two open questions. Bucket 0 unchanged."
     )
 
     out = {
