@@ -46,6 +46,8 @@ R(I) = [1 - (I/I_max)^n]
 
 Saturation is not a computational convenience. It is THE mechanism that makes pattern existence possible. Every entity — from quantum particles to galaxies — depends on saturation resistance for stability. The filling region resisting further inflow IS the wall that holds a pattern together.
 
+**Caveat (monotonic saturation is not sufficient).** Saturation remains the phase-transition / boundary mechanism — but **monotonic** saturation alone is *not sufficient* for self-confined, particle-like patterns. CA Stage 1 (2026-06-22) tested this directly: monotonic-saturation substrates (1st-order diffusion *and* 2nd-order wave with monotonic R) disperse or dissipate at a 0% pass rate; only a substrate with a *focusing* nonlinearity self-confines into a stable, localized, oscillating bound state. Self-confinement therefore requires focusing, not mere saturation — which the framework's own R(I) does not supply (R is defocusing; reproduces S617 / S19 / S665). See `explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md` and PREDICTIONS.md Bucket 2.
+
 **Saturation makes emergence a step function, not a hockey stick.** Because resistance is flat-then-steep-then-blocked, every emergence and phase change has three regimes:
 
 - **Flat floor** — pre-threshold, little changes. *Can be mistaken for "no effect / refuted."*

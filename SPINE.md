@@ -59,6 +59,13 @@ mechanism that lets a pattern hold together: a filling region resists further in
 the **wall** that stabilizes a standing oscillation. Every entity — particle to galaxy —
 exists because saturation built it a boundary. (FUNDAMENTALS §3.)
 
+*Caveat (load-bearing **and** partially refuted): saturation remains the phase-transition /
+boundary mechanism — but **monotonic** saturation alone is *not sufficient* for self-confined
+particle-like patterns. CA Stage 1 (2026-06-22) showed those require a **focusing**
+nonlinearity; monotonic R(I) is defocusing and disperses at a 0% pass rate. See
+[`explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md`](explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md)
+and [PREDICTIONS.md](PREDICTIONS.md) Bucket 2.*
+
 ### Saturation makes emergence a *step function*, not a hockey stick
 
 This is the most-misread consequence, and it is a reading guide for the whole program.

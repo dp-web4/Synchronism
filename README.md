@@ -13,6 +13,13 @@ assumption and the paradoxes may simplify. **This is exploratory work, not engin
 tests that wager rigorously and publishes what fails. (The two load-bearing pieces — Intent
 as reification, saturation as wall-former and step-maker — are in [SPINE.md](SPINE.md).)
 
+*Caveat on saturation (load-bearing **and** partially refuted): it remains the
+phase-transition / boundary mechanism, but **monotonic** saturation alone is *not sufficient*
+for self-confined, particle-like patterns — CA Stage 1 (2026-06-22) showed those require a
+**focusing** nonlinearity, which the framework's own monotonic R(I) does not supply. See
+[`explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md`](explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md)
+and [PREDICTIONS.md](PREDICTIONS.md) Bucket 2.*
+
 The distinctive contribution is the **frame** (the single-observer ontology), *not* the
 quantitative tracks — those have mostly taught us *boundaries*. The framing is ambitious;
 the work tests the framing; many tests have not passed, and that is a feature of the

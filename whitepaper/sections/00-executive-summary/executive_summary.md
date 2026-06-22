@@ -27,6 +27,8 @@ The framework's most direct empirical test — can simple local rules on a discr
 > **1. Intent is a reification, not an ontology.** Intent is a *computational abstraction* — a useful fiction like π, or like "the wavefunction" — that makes an underlying "greater force" tractable to simulate. It is **not** a force, **not** anthropocentric will, **not** a claim about what reality ultimately *is*. Demanding SI units for Intent is the same category error as demanding them for π. The model commits to the *dynamics*, not the ontological reality of the variable.
 >
 > **2. Saturation is what builds the walls.** Without saturation resistance, Intent just dissipates down every gradient — no patterns, no entities, uniform noise. Saturation (`R(I) = [1 − (I/I_max)^n]`) is **the** mechanism that lets a pattern hold together: a filling region resists further inflow, forming the **wall** that stabilizes a standing oscillation. Every entity — particle to galaxy — exists because saturation built it a boundary.
+>
+> *Caveat (load-bearing **and** partially refuted): saturation remains the phase-transition / boundary mechanism — but **monotonic** saturation alone is *not sufficient* for self-confined, particle-like patterns. CA Stage 1 (2026-06-22) showed those require a **focusing** nonlinearity; monotonic `R(I)` is defocusing and disperses at a 0% pass rate. See [`explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md`](https://github.com/dp-web4/Synchronism/blob/main/explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md) and [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) Bucket 2.*
 
 > ### The saturation reading guide: emergence is a *step function*
 >
