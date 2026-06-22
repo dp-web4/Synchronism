@@ -1,6 +1,6 @@
 ---
 date: 2026-05-15
-status: drafted (5 stages); Stage 1 simulator spec pending
+status: Stage 1 FIRST RESULT (2026-06-22, 1D) — monotonic-saturation substrate FAILS (disperses; reproduces S617/S19/S665); focusing-nonlinearity family PASSES (>10%), at the cost of Foundation 3. See `explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md`. Stages 2-5 drafted.
 proposed by: Kimi 2.6 (in `forum/kimi/kimi_2_6_review.md`)
 fleet: idle-compute task (runs when ARC isn't running)
 related:

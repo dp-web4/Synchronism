@@ -100,6 +100,7 @@ possibility. That is the program working as designed (productive failure > safe 
 | Entity criterion (Γ < m) as novel | Standard narrow-resonance / Breit-Wigner condition (textbook QFT since 1951) — last novel-survivor demoted | S660A |
 | Chemistry melting points | 53% mean error | (README honest-limitations) |
 | Critical exponents | 2× off from observation | (README honest-limitations) |
+| **Foundation 3: monotonic saturation "builds the walls" (self-confined particles)** | **Refuted at CA Stage 1 (1D, 2026-06-22):** monotonic-R diffusion AND wave substrates disperse/dissipate at 0% (reproduces S617 / S19 / S665). Self-confined oscillating patterns require a *focusing* nonlinearity, which breaks Foundation 3. Stable patterns ARE reachable on the grid — just not from saturation alone. | `explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md` |
 
 ---
 

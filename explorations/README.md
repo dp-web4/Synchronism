@@ -38,7 +38,8 @@ Per the 2026-05-15 fleet directive: **when ARC test runs aren't active, fleet ma
 
 | Exploration | Status | Tests |
 |-------------|--------|-------|
-| [2026-05-15-cellular-automaton-discrete-grid-physics.md](2026-05-15-cellular-automaton-discrete-grid-physics.md) | Drafted (5 stages); Stage 1 sim spec pending | Whether local rules on a discrete grid produce stable resonant patterns → interaction → mass-like → field-like → quantum-like behavior |
+| [2026-05-15-cellular-automaton-discrete-grid-physics.md](2026-05-15-cellular-automaton-discrete-grid-physics.md) | **Stage 1 first result (2026-06-22):** monotonic-saturation substrate FAILS; focusing-nonlinearity family PASSES (>10%) — see [result](2026-06-22-phase1-stage1-localized-oscillation-result.md). Stages 2-5 drafted. | Whether local rules on a discrete grid produce stable resonant patterns → interaction → mass-like → field-like → quantum-like behavior |
+| [2026-06-22-phase1-stage1-localized-oscillation-result.md](2026-06-22-phase1-stage1-localized-oscillation-result.md) | **Result** | Stage-1 falsifier executed: can the substrate self-confine a stable oscillating pattern? Monotonic saturation can't (refutes Foundation 3 at Stage 1); a focusing nonlinearity can, at the cost of Foundation 3. |
 
 ## Why this directory exists
 

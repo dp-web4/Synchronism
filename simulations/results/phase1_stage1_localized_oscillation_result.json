@@ -1,0 +1,94 @@
+{
+  "lattice": 256,
+  "dt": 0.05,
+  "t_pre": 4000,
+  "t_post": 4000,
+  "n_runs": 24,
+  "seed": 1,
+  "pass_fraction_criterion": 0.1,
+  "arms": [
+    {
+      "arm": "A: 1st-order diffusion + monotonic R (Foundation-1/3 substrate; S617 null)",
+      "pass_fraction": 0.0,
+      "n_pass": 0,
+      "n_runs": 24,
+      "stage1_pass": false,
+      "mean_final_width": 34.7,
+      "mean_amp_retained": 0.531,
+      "max_energy_drift": null,
+      "example": {
+        "pass": false,
+        "localized": true,
+        "oscillating": false,
+        "reversals": 0,
+        "final_width": 38.0,
+        "spread_ratio": 1.13,
+        "amp_retained": 0.672,
+        "energy_drift": null
+      }
+    },
+    {
+      "arm": "B: 2nd-order wave + monotonic-R coupling (Foundation-3 faithful; S19 defocusing)",
+      "pass_fraction": 0.0,
+      "n_pass": 0,
+      "n_runs": 24,
+      "stage1_pass": false,
+      "mean_final_width": 97.8,
+      "mean_amp_retained": 0.553,
+      "max_energy_drift": 0.0672,
+      "example": {
+        "pass": false,
+        "localized": false,
+        "oscillating": true,
+        "reversals": 40,
+        "final_width": 100.2,
+        "spread_ratio": 1.48,
+        "amp_retained": 0.493,
+        "energy_drift": 0.0503
+      }
+    },
+    {
+      "arm": "C: 2nd-order wave + linear (control)",
+      "pass_fraction": 0.0,
+      "n_pass": 0,
+      "n_runs": 24,
+      "stage1_pass": false,
+      "mean_final_width": 104.6,
+      "mean_amp_retained": 0.548,
+      "max_energy_drift": 0.0006,
+      "example": {
+        "pass": false,
+        "localized": false,
+        "oscillating": true,
+        "reversals": 44,
+        "final_width": 113.6,
+        "spread_ratio": 1.41,
+        "amp_retained": 0.511,
+        "energy_drift": 0.0006
+      }
+    },
+    {
+      "arm": "D: 2nd-order wave + focusing-saturating on-site (the escape ingredient)",
+      "pass_fraction": 0.833,
+      "n_pass": 20,
+      "n_runs": 24,
+      "stage1_pass": true,
+      "mean_final_width": 20.9,
+      "mean_amp_retained": 1.01,
+      "max_energy_drift": 0.2267,
+      "example": {
+        "pass": true,
+        "localized": true,
+        "oscillating": true,
+        "reversals": 48,
+        "final_width": 15.7,
+        "spread_ratio": 0.86,
+        "amp_retained": 1.02,
+        "energy_drift": 0.1712
+      }
+    }
+  ],
+  "foundation3_monotonic_saturation_passes": false,
+  "focusing_ingredient_passes": true,
+  "verdict": "CA-challenge Stage 1 is ACHIEVABLE on the discrete grid \u2014 but NOT from the framework's own monotonic saturation (Foundation 3), which disperses (reproduces S19/S665). Stable localized oscillating patterns require a FOCUSING nonlinearity, which breaks Foundation 3's saturation-as-pattern-stability axiom. This is a CONSTRAINT, not a confirmation: it precisely names what the substrate must give up to make particles. (Discrete breathers in a focusing lattice are textbook \u2014 Arm D passing is not novel physics; it localizes what the framework's rule lacks.) Next: can Arm-D patterns INTERACT / gain mass-like and charge-like behavior (Stage 2+)? Open."
+}
