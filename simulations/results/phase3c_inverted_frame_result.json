@@ -1,0 +1,116 @@
+{
+  "frame": "substrate-centric (inverted): mass = convergence in substrate inflow, not a field source",
+  "absolute_time": "tick is universal; c is the swim speed RELATIVE TO the flowing substrate; no clock varies",
+  "freefall_is_newtonian": [
+    {
+      "r": 10.0,
+      "a_radial": -0.01,
+      "newtonian_-GM/r^2": -0.01,
+      "ratio": 1.0
+    },
+    {
+      "r": 40.0,
+      "a_radial": -0.000625,
+      "newtonian_-GM/r^2": -0.000625,
+      "ratio": 1.0
+    },
+    {
+      "r": 160.0,
+      "a_radial": -3.906e-05,
+      "newtonian_-GM/r^2": -3.906e-05,
+      "ratio": 1.0
+    }
+  ],
+  "derived_profile": "u(r) = sqrt(2GM/r) inward (GP/escape-velocity) \u2014 from (u.grad)u = -GM/r^2",
+  "yukawa_dissolved": "inflow is a 3D-flux power law (long-range); nothing emitted to attenuate",
+  "light_arms": [
+    {
+      "label": "FLOW only (absolute time, constant c)",
+      "slow_alpha": 0.0,
+      "rows": [
+        {
+          "b": 60.0,
+          "coeff_from_k": 4.29,
+          "coeff_from_groupvel": 4.301
+        },
+        {
+          "b": 120.0,
+          "coeff_from_k": 4.178,
+          "coeff_from_groupvel": 4.221
+        },
+        {
+          "b": 240.0,
+          "coeff_from_k": 4.124,
+          "coeff_from_groupvel": 4.297
+        },
+        {
+          "b": 480.0,
+          "coeff_from_k": 4.097,
+          "coeff_from_groupvel": 4.784
+        }
+      ],
+      "coeff_largest_b": 4.097,
+      "coeff_binf_extrap": 3.979,
+      "strongfield_C_over_sqrtb": 2.336
+    },
+    {
+      "label": "FLOW + reconstruction-slow alpha=1",
+      "slow_alpha": 1.0,
+      "rows": [
+        {
+          "b": 60.0,
+          "coeff_from_k": 6.803,
+          "coeff_from_groupvel": 6.813
+        },
+        {
+          "b": 120.0,
+          "coeff_from_k": 6.433,
+          "coeff_from_groupvel": 6.476
+        },
+        {
+          "b": 240.0,
+          "coeff_from_k": 6.264,
+          "coeff_from_groupvel": 6.436
+        },
+        {
+          "b": 480.0,
+          "coeff_from_k": 6.178,
+          "coeff_from_groupvel": 6.865
+        }
+      ],
+      "coeff_largest_b": 6.178,
+      "coeff_binf_extrap": 5.795,
+      "strongfield_C_over_sqrtb": 7.554
+    },
+    {
+      "label": "FLOW + reconstruction-slow alpha=2",
+      "slow_alpha": 2.0,
+      "rows": [
+        {
+          "b": 60.0,
+          "coeff_from_k": 9.574,
+          "coeff_from_groupvel": 9.585
+        },
+        {
+          "b": 120.0,
+          "coeff_from_k": 8.789,
+          "coeff_from_groupvel": 8.832
+        },
+        {
+          "b": 240.0,
+          "coeff_from_k": 8.448,
+          "coeff_from_groupvel": 8.62
+        },
+        {
+          "b": 480.0,
+          "coeff_from_k": 8.279,
+          "coeff_from_groupvel": 8.966
+        }
+      ],
+      "coeff_largest_b": 8.279,
+      "coeff_binf_extrap": 7.479,
+      "strongfield_C_over_sqrtb": 15.654
+    }
+  ],
+  "verdict": "INVERTED FRAME, computed not asserted. (1) The GP inflow is DERIVED: a free-falling pattern carried by the flow self-advects with (u.grad)u = -GM/r^2 (ratio ~1.0 at all sampled r) \u2014 Newtonian gravity, equivalence principle for free (free-fall = floating in the river = force-free), and the profile u=sqrt(2GM/r) falls out, not fitted. (2) The inflow is u ~ r^-1/2 \u2014 a POWER LAW, LONG-RANGE: the Phase-3b Yukawa obstacle is DISSOLVED, because it was an artifact of the pattern-centric 'mass emits a field' frame; an inflow has nothing to emit/attenuate. (3) THE NUMBER: light swimming at c relative to the absolute-time pure inflow deflects with coefficient Delta_theta*b/(GM/c^2) -> 3.979 (b->inf extrapolation of a clean 1/sqrt(b) fit; GR=4, Newton/Soldner=2). THE PURE FLOW ALONE REPRODUCES FULL GR LIGHT BENDING. Why: the eikonal H=c|k|+k.u has effective g_tt = -(c^2 - u^2) = -c^2(1 - 2GM/c^2 r) = exactly Schwarzschild's time component \u2014 but it is MANUFACTURED BY THE FLOW's u^2 term, not by any clock slowing. So GR's 'gravitational time dilation' is here the INSTRUMENT EFFECT of being carried by the moving substrate; the absolute tick never changes. Absolute time + substrate-flow UNIFY: the flow generates the apparent time dilation (the framework's standing time-dilation-as-instrument bet), and full GR deflection follows. (4) RETRACTION: the Phase-3 instinct that one must ALSO slow c (a separate 'spatial piece') to reach 4 was itself pattern-centric and is REFUTED \u2014 adding c-slowing OVERSHOOTS: FLOW+slow gives 5.795 (alpha=1) and 7.479 (alpha=2). There is no separate piece to add; the flow's u^2 is the whole story. HONEST: not novel physics (river/Gullstrand-Painleve/analog-gravity is a known rewriting of GR). The value: the framework's OWN ontology (absolute time + substrate-centric + Intent drawn toward coherence) lands exactly on the flat-space, absolute-time, flowing-medium formulation of GR \u2014 dissolving the Yukawa obstacle, deriving the equivalence principle + GP profile, and recasting gravitational time dilation as the instrument effect it already claimed. The substrate-native open question: what flow does a coherent Intent convergence ACTUALLY produce from the substrate rules, and is it forced to the sqrt(2GM/r) profile? Bucket 0 unchanged (this reproduces GR, it does not beat it)."
+}
