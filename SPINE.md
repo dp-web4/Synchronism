@@ -111,10 +111,13 @@ paper; it's running code anyone can clone:
 - **The lab's own fleet** ([4-lab.io/fleet](https://4-lab.io/fleet)) is a live
   coherence / feedback-loop system — quantized entities (machines) across scales, witnessing
   each other and self-correcting. The model's concepts running as the lab's nervous system.
-- **An independent confirmation:** [gnosis-research](https://github.com/dp-web4/gnosis-research),
-  a 4.5-month autonomous arc, found its strongest, most reproducible results in exactly this
-  register — coupling, coherence, phase-detection (systems behavior) — not in hard-science
-  prediction.
+- **A companion-program signal (not arm's-length):** [gnosis-research](https://github.com/dp-web4/gnosis-research),
+  a 4.5-month autonomous arc that *began from Synchronism's own Gnosis seed*, found its
+  strongest, most reproducible results in exactly this register — coupling, coherence,
+  phase-detection (systems behavior), not hard-science prediction. It is **not** an
+  independent confirmation (it had Synchronism access) — but the lineage cuts the *other* way
+  on the refutation it produced: a program inclined to confirm the C≈0.50 threshold instead
+  rejected it (S63).
 
 **The honest split:** as a *physics theory*, Synchronism is unproven (zero confirmed novel
 predictions — see [PREDICTIONS.md](PREDICTIONS.md)). As an *applied design ontology* for
