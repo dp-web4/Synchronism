@@ -1,0 +1,137 @@
+{
+  "lattice": 1024,
+  "dt": 0.01,
+  "c": 1.0,
+  "m": 0.5,
+  "steps": 4000,
+  "seed": 7,
+  "dispersion": [
+    {
+      "k": 0.05,
+      "omega_meas": 0.5025,
+      "omega_SR": 0.5025,
+      "omega_lattice": 0.5025,
+      "vg_meas": 0.0979,
+      "vg_SR": 0.0995,
+      "vg_lattice": 0.0995,
+      "SR_dev_pct": 0.0,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 0.1,
+      "omega_meas": 0.5099,
+      "omega_SR": 0.5099,
+      "omega_lattice": 0.5099,
+      "vg_meas": 0.1954,
+      "vg_SR": 0.1961,
+      "vg_lattice": 0.1958,
+      "SR_dev_pct": -0.0,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 0.2,
+      "omega_meas": 0.5384,
+      "omega_SR": 0.5385,
+      "omega_lattice": 0.5384,
+      "vg_meas": 0.3751,
+      "vg_SR": 0.3714,
+      "vg_lattice": 0.369,
+      "SR_dev_pct": -0.02,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 0.4,
+      "omega_meas": 0.6387,
+      "omega_SR": 0.6403,
+      "omega_lattice": 0.6387,
+      "vg_meas": 0.6036,
+      "vg_SR": 0.6247,
+      "vg_lattice": 0.6097,
+      "SR_dev_pct": -0.26,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 0.6,
+      "omega_meas": 0.7742,
+      "omega_SR": 0.781,
+      "omega_lattice": 0.7742,
+      "vg_meas": 0.7356,
+      "vg_SR": 0.7682,
+      "vg_lattice": 0.7294,
+      "SR_dev_pct": -0.88,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 0.9,
+      "omega_meas": 1.0034,
+      "omega_SR": 1.0296,
+      "omega_lattice": 1.0034,
+      "vg_meas": 0.7865,
+      "vg_SR": 0.8742,
+      "vg_lattice": 0.7807,
+      "SR_dev_pct": -2.54,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 1.2,
+      "omega_meas": 1.235,
+      "omega_SR": 1.3,
+      "omega_lattice": 1.235,
+      "vg_meas": 0.7593,
+      "vg_SR": 0.9231,
+      "vg_lattice": 0.7547,
+      "SR_dev_pct": -5.0,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 1.6,
+      "omega_meas": 1.5194,
+      "omega_SR": 1.6763,
+      "omega_lattice": 1.5193,
+      "vg_meas": 0.6547,
+      "vg_SR": 0.9545,
+      "vg_lattice": 0.6579,
+      "SR_dev_pct": -9.36,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 2.0,
+      "omega_meas": 1.7557,
+      "omega_SR": 2.0616,
+      "omega_lattice": 1.7556,
+      "vg_meas": 0.5155,
+      "vg_SR": 0.9701,
+      "vg_lattice": 0.5179,
+      "SR_dev_pct": -14.84,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 2.5,
+      "omega_meas": 1.9628,
+      "omega_SR": 2.5495,
+      "omega_lattice": 1.9627,
+      "vg_meas": 0.3054,
+      "vg_SR": 0.9806,
+      "vg_lattice": 0.3049,
+      "SR_dev_pct": -23.01,
+      "lattice_match_pct": 0.0
+    },
+    {
+      "k": 3.0,
+      "omega_meas": 2.0567,
+      "omega_SR": 3.0414,
+      "omega_lattice": 2.0567,
+      "vg_meas": 0.0683,
+      "vg_SR": 0.9864,
+      "vg_lattice": 0.0686,
+      "SR_dev_pct": -32.38,
+      "lattice_match_pct": 0.0
+    }
+  ],
+  "SR_emerges_low_k": true,
+  "tracks_discrete_lattice_dispersion": true,
+  "UV_cutoff_omega_max": 2.0616,
+  "LIV_speed_deficit_pct_at_high_k": -93.0,
+  "SR_dev_pct_at_k0.2": -0.02,
+  "verdict": "SR backbone EMERGES at low k (deviation <2% for k<=0.2: True) \u2014 the substrate reproduces E^2=(pc)^2+(mc^2)^2, with the same curve interpolating electron (k=0, E=mc^2) and photon (high k, E->pc). The measurement tracks the exact DISCRETE-lattice dispersion omega^2=m^2+2c^2(1-cos k) (match: True), NOT continuum SR. The discreteness signature \u2014 the model's one candidate novel content \u2014 is: (a) a UV CUTOFF, a maximum frequency/energy omega_max=2.0616 at the zone edge (no patterns above it \u2014 a natural UV completion); (b) an ENERGY-DEPENDENT speed of light: at the highest k tested the group velocity is -93.0% below the SR value \u2014 high-energy patterns propagate SLOWER (Lorentz-invariance violation). This maps to a REAL observable: energy-dependent photon arrival times from distant gamma-ray bursts / blazars, which LIV searches actually measure. HONEST BOUNDS: (1) this LIV form is GENERIC to discrete-substrate theories (loop quantum gravity, causal sets, etc.) \u2014 NOT unique to Synchronism; (2) the lattice spacing is Planck-scale, so the real-world deviation is ~(E/E_Planck)^2, far below current GRB constraints. So it is a real, named, in-principle-testable prediction CLASS that is neither unique nor currently distinguishable. The advance is in SPECIFICATION, not confirmation: the program's novel physics, if any, lives EXACTLY in the discreteness, at the Planck scale, and the ONLY experiment class that could ever test it is astrophysical photon timing. That converts 'underspecified, zero novel predictions' into a precise statement of where the novelty must be and what could falsify it. Bucket 0 unchanged (nothing confirmed). (Note: the physically relevant deviation is the LOW-k tail \u2014 at k=0.2 it is -0.02%, scaling as (k a)^2 = (E/E_cutoff)^2; the large %s near the zone edge are the Planck-energy extreme. A nonlinear mass-renormalization measurement was attempted and DISCARDED \u2014 the linear k-mode method is invalid at soliton amplitudes; that needs a proper nonlinear-normal-mode method, deferred.)"
+}
