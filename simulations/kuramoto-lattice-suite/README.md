@@ -34,6 +34,7 @@ whether it can buy a **novel** result.
 | `01_kuramoto_baseline_2d.py` | Baseline: random phases → emergent frequency clusters ("particles") on a 2D lattice; tracks order parameter R. The "entities are recurring patterns" claim, runnable. | runnable |
 | `02_observer_relative_chsh.py` | **The experiment.** A local two-region "entangled" source, measured *only* through observer phase-lock with freely-chosen CHSH settings. Computes the CHSH S-value and compares to the classical bound (2) and the Tsirelson bound (2√2). | runnable → **S = 1.98** |
 | `03_nonlocal_grid_chsh.py` | **The frontier variant.** Lets the shared substrate ("the grid") mix region B's state+setting into Alice's measurement, tunable by coupling g. Sweeps g and reports both S *and* signaling — asking whether a no-signaling nonlocal violation (S>2, signaling≈0) exists. | runnable → **S ≡ 2.0 ∀ g** |
+| `04_global_clock_chsh.py` | **The unilocal variant (dp 2026-06-22).** The shared variable is the *dynamical* global clock, not a static preparation phase; A and B are ONE pattern; both probes phase-lock to it *simultaneously* and it **back-reacts** on both (strength g). Sweeps g, reports S *and* signaling. | runnable → **no-signaling envelope ≤ 2; S up to 2.67 only WITH signaling** |
 
 Results are written to `results/` as JSON summaries (not raw trajectories).
 

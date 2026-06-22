@@ -1,0 +1,121 @@
+{
+  "construction": "unilocal: ONE shared pattern phi, two probes lock simultaneously, phi back-reacts on both (g), clock-gated synchronous update",
+  "n_trials": 200000,
+  "ticks": 16,
+  "lock_rate": 0.5,
+  "seed": 23,
+  "classical_bound": 2.0,
+  "tsirelson_bound": 2.8284,
+  "g_sweep": [
+    {
+      "angles_deg": [
+        0.0,
+        45.0,
+        22.5,
+        67.5
+      ],
+      "S": 1.9941,
+      "signaling_delta": 0.0011,
+      "E": [
+        0.748,
+        0.2454,
+        0.7457,
+        0.7458
+      ],
+      "g": 0.0
+    },
+    {
+      "angles_deg": [
+        0.0,
+        45.0,
+        22.5,
+        67.5
+      ],
+      "S": 1.7736,
+      "signaling_delta": 0.057,
+      "E": [
+        0.6487,
+        0.1713,
+        0.6484,
+        0.6478
+      ],
+      "g": 0.1
+    },
+    {
+      "angles_deg": [
+        0.0,
+        45.0,
+        22.5,
+        67.5
+      ],
+      "S": 1.8867,
+      "signaling_delta": 0.1706,
+      "E": [
+        0.7877,
+        0.4686,
+        0.7842,
+        0.7834
+      ],
+      "g": 0.25
+    },
+    {
+      "angles_deg": [
+        0.0,
+        90.0,
+        45.0,
+        135.0
+      ],
+      "S": 2.6667,
+      "signaling_delta": 0.4313,
+      "E": [
+        1.0,
+        0.3332,
+        1.0,
+        1.0
+      ],
+      "g": 0.5
+    },
+    {
+      "angles_deg": [
+        0.0,
+        90.0,
+        45.0,
+        135.0
+      ],
+      "S": 2.5881,
+      "signaling_delta": 0.3802,
+      "E": [
+        1.0,
+        0.4119,
+        1.0,
+        1.0
+      ],
+      "g": 1.0
+    },
+    {
+      "angles_deg": [
+        0.0,
+        90.0,
+        45.0,
+        135.0
+      ],
+      "S": 2.2427,
+      "signaling_delta": 0.1403,
+      "E": [
+        1.0,
+        0.7573,
+        1.0,
+        1.0
+      ],
+      "g": 2.0
+    }
+  ],
+  "best_valid_no_signaling_S": 1.9941,
+  "max_S_any_incl_signaling": 2.6667,
+  "max_S_at_g": 0.5,
+  "max_S_signaling_delta": 0.4313,
+  "every_S_gt2_signals": true,
+  "beats_classical_no_signaling": false,
+  "super_quantum_no_signaling": false,
+  "verdict": "THE BELL TRADE-OFF, MADE MECHANICAL. Two regimes, no overlap: (i) NO-SIGNALING envelope caps at S = 1.994 <= 2 (g=0 recovers the local 02 result); (ii) back-reaction CAN push S up to 2.667 (at g=0.5, > 2) \u2014 but every such row SIGNALS heavily (delta up to 0.43; every-S>2-signals: True). So the dynamical global clock with mutual back-reaction DOES create genuine nonlocality \u2014 but it is a SIGNALING channel (a communication link), not QM's no-signaling nonlocality. You can have nonlocal OR no-signaling, never both > 2. That is exactly Bell/Tsirelson playing out: a real-phase substrate with a sign-threshold readout cannot produce no-signaling Bell violation, with a static OR a dynamical shared variable. The missing primitive is not back-reaction (which only signals) \u2014 it is interfering COMPLEX amplitudes (the cos^2 projection law), i.e. the complex Intent field of Phase-1.6, not a real phase. This EXTENDS bet B1's boundary from static-lambda (02/03) to the dynamical clock (04), and names the upgrade that would be required. The model does NOT reach the observed S=2.828 without that primitive. Bucket 0 unchanged."
+}
