@@ -102,6 +102,16 @@ possibility. That is the program working as designed (productive failure > safe 
 | Critical exponents | 2× off from observation | (README honest-limitations) |
 | **Foundation 3: monotonic saturation "builds the walls" (self-confined particles)** | **Refuted at CA Stage 1 (1D, 2026-06-22):** monotonic-R diffusion AND wave substrates disperse/dissipate at 0% (reproduces S617 / S19 / S665). Self-confined oscillating patterns require a *focusing* nonlinearity, which breaks Foundation 3. Stable patterns ARE reachable on the grid — just not from saturation alone. | `explorations/2026-06-22-phase1-stage1-localized-oscillation-result.md` |
 
+> **Honest note — two substrates, connected by narrative (Kimi Stage-1 follow-up, 2026-06-22).**
+> The successful arm (D) is *not* the R(I) substrate and *not* γ = 2/√N_corr — it is a
+> 2nd-order wave equation with a focusing-saturating on-site nonlinearity. So the program now
+> carries **two distinct substrates**: the original `∂I/∂t = ∇·[D·R(I)·∇I]` (refuted above)
+> and the new wave+focusing rule (self-confines, but breaks Foundation 3). **They are
+> different physics connected only by narrative, not two limits of one derived equation.** The
+> "ONE EQUATION" motto is correspondingly weakened: reconciling the two substrates under a
+> single derivation (or honestly accepting they are separate) is open work. See
+> [STATUS.md](STATUS.md) (ACTIVE-MRH substrate section) and FUNDAMENTALS §3.
+
 ---
 
 ## Bucket 3 — REPARAMETRIZATIONS (relabels of known physics)

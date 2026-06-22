@@ -30,6 +30,23 @@ Read in conjunction with:
 | **A.3 status (post-correction read)** | Appendix A.3's "exact NS identification" claim was **already retracted by the audit arcs** (S617 2026-04-08 found the rule is 1-DOF scalar diffusion not NS; S665/S666 2026-05-24 proved irrotational + dissipative). The `✅ Established` tag was stale at the time of the Kimi review. Now retagged to `[SUPERSEDED]`. | See `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` §3 for the deeper reading — the saturation reframe (independent J) is structurally the S17-22 2-DOF augmentation already explored and found insufficient (damped + dispersing), per S665 §98. |
 | **Whitepaper status-taxonomy retag** | Replacing `✅ Established / ⚠️ Speculative / ❌ Failed` with `[ACTIVE-MRH] / [PARALLEL-PATHS] / [SIDELINED] / [SUPERSEDED]` in Appendix A | In flight as Stream 1 of the post-Kimi-reframe execution plan. |
 
+> **Honest note — two substrates, connected by narrative (Kimi Stage-1 follow-up, 2026-06-22).**
+> The substrate-reformulation work has produced *two* distinct dynamical rules, and they are
+> **not** derivations from one master equation:
+> - the **original** `∂I/∂t = ∇·[D·R(I)·∇I]` — refuted as 1-DOF scalar diffusion (irrotational,
+>   dissipative, defocusing; no self-confinement; S617 / S665 / S666); and
+> - the **new** rule that actually self-confines — a *2nd-order wave equation with a
+>   focusing-saturating on-site nonlinearity* (CA Stage-1 arm D; a textbook Klein-Gordon /
+>   MacKay–Aubry discrete breather).
+>
+> These are **different physics in different domains, connected only by narrative** — not two
+> limits of a single derived equation. The MRH relationship between them is currently *story,
+> not math*: closing it (showing both arise from one substrate, or honestly accepting they
+> don't) is open work, not a settled claim. This is the precise sense in which the "ONE
+> EQUATION" motto is further weakened by the Stage-1 result. See
+> `forum/kimi/synchronism_stage1_sim_review_2026-06-22.md`, `PREDICTIONS.md` Bucket 2, and
+> FUNDAMENTALS §3.
+
 ### `[PARALLEL-PATHS]` — alternative formulations or downstream work, carried in parallel space, not currently in active focus
 
 | Item | What it is | Status note |
