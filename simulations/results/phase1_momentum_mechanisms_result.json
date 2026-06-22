@@ -1,0 +1,141 @@
+{
+  "lattice": 384,
+  "dt": 0.02,
+  "c_ceiling": 2.0,
+  "m2": 1.0,
+  "steps": 8000,
+  "seed": 5,
+  "complex_field_arm": [
+    {
+      "k": 0.0,
+      "v_theory": 0.0,
+      "v_meas": -0.0,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.096,
+      "distance_widths": 0.0,
+      "propagated_coherent": false,
+      "madelung_flux_J": -0.0,
+      "flux_direction": "left"
+    },
+    {
+      "k": 0.25,
+      "v_theory": 0.894,
+      "v_meas": 0.952,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.194,
+      "distance_widths": 8.8,
+      "propagated_coherent": true,
+      "madelung_flux_J": 0.198,
+      "flux_direction": "right"
+    },
+    {
+      "k": 0.5,
+      "v_theory": 1.414,
+      "v_meas": 1.388,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.278,
+      "distance_widths": 13.0,
+      "propagated_coherent": true,
+      "madelung_flux_J": 0.439,
+      "flux_direction": "right"
+    },
+    {
+      "k": 1.0,
+      "v_theory": 1.789,
+      "v_meas": 1.445,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.083,
+      "distance_widths": 13.0,
+      "propagated_coherent": true,
+      "madelung_flux_J": 0.582,
+      "flux_direction": "right"
+    },
+    {
+      "k": 2.0,
+      "v_theory": 1.94,
+      "v_meas": 1.06,
+      "below_c": true,
+      "localized": false,
+      "amp_kept": 0.407,
+      "distance_widths": 9.4,
+      "propagated_coherent": false,
+      "madelung_flux_J": -1.24,
+      "flux_direction": "left"
+    }
+  ],
+  "real_field_arm": [
+    {
+      "k": 0.0,
+      "v_theory": 0.0,
+      "v_meas": 0.0,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.186,
+      "distance_widths": 0.0,
+      "propagated_coherent": false,
+      "madelung_flux_J": null,
+      "flux_direction": null
+    },
+    {
+      "k": 0.25,
+      "v_theory": 0.894,
+      "v_meas": 0.081,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.166,
+      "distance_widths": 0.8,
+      "propagated_coherent": false,
+      "madelung_flux_J": null,
+      "flux_direction": null
+    },
+    {
+      "k": 0.5,
+      "v_theory": 1.414,
+      "v_meas": 0.124,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.14,
+      "distance_widths": 1.2,
+      "propagated_coherent": false,
+      "madelung_flux_J": null,
+      "flux_direction": null
+    },
+    {
+      "k": 1.0,
+      "v_theory": 1.789,
+      "v_meas": 0.149,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.129,
+      "distance_widths": 1.5,
+      "propagated_coherent": false,
+      "madelung_flux_J": null,
+      "flux_direction": null
+    },
+    {
+      "k": 2.0,
+      "v_theory": 1.9,
+      "v_meas": 0.154,
+      "below_c": true,
+      "localized": true,
+      "amp_kept": 1.128,
+      "distance_widths": 1.6,
+      "propagated_coherent": false,
+      "madelung_flux_J": null,
+      "flux_direction": null
+    }
+  ],
+  "complex_propagates_at_k": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "real_propagates_at_k": [],
+  "ceiling_c_held": true,
+  "madelung_flux_tracks_k": true,
+  "verdict": "The three mechanisms are ONE. The COMPLEX field carries a coherent packet that propagates at group velocity v_g<c (clean at k in [0.25, 0.5, 1.0]; ceiling c=2.0 held: True), while the REAL field \u2014 momentum injected as an envelope boost, with no phase to hold it \u2014 pins/disperses (reproduces Phase-1.5). Madelung readout of the complex packet shows a nonzero flux J=\u2202\u2093\u03c6 that tracks the phase-ramp k (tracks: True) with a definite direction \u2014 i.e. mechanism 1 (independent flux J) and mechanism 2 (preferred direction) are the amplitude/phase PROJECTIONS of mechanism 3 (complex field). Deeper perspective (dp's pointer): momentum lives in the PHASE (wave nature), the envelope is the PARTICLE (amplitude nature) \u2014 wave/particle duality is the momentum MECHANISM, not a paradox bolted on. Photon = phase-dominated propagating packet; electron = amplitude-dominated localized envelope; both from one complex Intent field. NOT novel physics (moving complex-KG solitons are textbook) \u2014 but it unifies the three proposals and says the substrate MUST be complex. Next: collision/interference of two complex packets (Stage 2)."
+}
