@@ -269,6 +269,53 @@ count stays **0**. See [PREDICTIONS.md](PREDICTIONS.md) bet B1 and the suite's `
 
 ---
 
+## An invitation: unproven for lack of instruments, not for lack of merit
+
+The [ledger](PREDICTIONS.md) reads "zero confirmed novel predictions." Here is the honest
+*why*, and it is **not** "the theory failed":
+
+**We have no instruments of our own** — no accelerator, no cryostat, no interferometer, no
+neural lab. Every "test" in this repo is a **reanalysis of data someone else collected while
+looking for something else**: SPARC galaxy rotation curves, chemistry databases, a single
+gravitational-wave event, model-coherence logs. With borrowed data aimed elsewhere you can
+*refute a derivation* — and we have (wrong signs, dimensional errors, arithmetic that doesn't
+survive re-execution; those stay refuted in [Bucket 2](PREDICTIONS.md)). But you **cannot
+confirm a novel prediction** with instruments pointed at a different question. The physics is
+**untested for lack of means, not refuted on the merits.** *Unconfirmed ≠ wrong; untested ≠
+refuted.*
+
+So this is an **invitation.** If you have the instruments, two tests would matter well beyond
+Synchronism:
+
+**1. Entanglement as phase-synchronization.** Synchronism reads entanglement not as spooky
+action at a distance but as two patterns sharing a coherent cycle relative to the one
+substrate — *synchronization, not signaling*. If that holds, it changes how entanglement is
+**engineered**, not merely interpreted: direct implications for **quantum computing**
+(coherence time, gate design, what "decoherence" physically *is*), **semiconductors**, and any
+technology that manipulates correlated quantum states. The
+[observer-relative CHSH harness](simulations/kuramoto-lattice-suite/) here is the toy version
+— it shows the local construction saturates at the classical bound and isolates the exact open
+question: whether the substrate carries a *derivable* no-signaling correlation. That is the
+entanglement-engineering question, and it needs a real lab.
+
+**2. "Time dilation" as an instrument effect (the pendulum test).** Relativistic time dilation
+is *measured* with clocks — atoms, photons — and a clock is a **pattern**, i.e. an instrument.
+The pendulum-in-a-centrifuge (above) shows an instrument predictably affected by the variable
+under test without proving "centrifuge time dilation." The testable question: are the
+relativistic shifts fully accounted for as the predictable effect of velocity/gravity **on the
+measuring pattern**, rather than on "spacetime itself"? The discriminator is
+**mechanism-dependence**: spacetime says *every* clock dilates identically; an instrument
+effect allows physically different clock mechanisms to respond differently. Clock-universality
+experiments already constrain this — which is exactly why a *dedicated differential-mechanism*
+test at the frontier of precision is the one that would decide it.
+
+If either survives a dedicated test, the implications run far past this repo. If either fails
+one, that's the refutation borrowed data cannot deliver — and the program learns what
+reanalysis never could. Either way the bottleneck is **instruments, not ideas.** Everything
+here is public and CC0: fork it, run the harness, or — if you have a lab — bring instruments.
+
+---
+
 ## What this is NOT
 
 (Carried from FUNDAMENTALS, because cold readers need it here, not three clicks away.)

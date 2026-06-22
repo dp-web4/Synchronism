@@ -52,9 +52,17 @@ anywhere in the repo. When it changes, it changes *here first*, with the test th
 ## Bucket 1 — UNTESTED BUT FALSIFIABLE (genuine novel bets)
 
 These are novel **in structure** — each makes a claim that, if tested, could distinguish
-Synchronism from the standard frame. **None has been tested.** They are the program's real
+Synchronism from the standard frame. **None has been confirmed.** They are the program's real
 open bets. Listing them is the antidote to the undersell; flagging them *untested* is the
 antidote to the overclaim.
+
+> **Mostly untested for lack of instruments, not lack of merit.** The lab has no accelerator,
+> cryostat, interferometer, or neural lab; physics bets here are checked (when at all) against
+> data others collected for other purposes. That's why some can be *refuted* (a derivation
+> fails) but none can be *confirmed* this way. Two of these would matter well beyond
+> Synchronism if a lab ran them — **entanglement-as-phase-sync** (quantum computing /
+> semiconductors) and **"time dilation"-as-instrument-effect** — see the **invitation** in
+> [SPINE.md](SPINE.md).
 
 | # | Prediction | What's novel about it | Refutation criterion | Honest odds |
 |---|-----------|----------------------|----------------------|-------------|
