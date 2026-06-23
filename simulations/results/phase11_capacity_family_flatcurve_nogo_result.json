@@ -1,0 +1,94 @@
+{
+  "part_A_family_bound": [
+    {
+      "n": 0.0,
+      "alpha": 0.0,
+      "vc_slope": 1.0,
+      "behaviour": "rising"
+    },
+    {
+      "n": 1.0,
+      "alpha": 1.0,
+      "vc_slope": 0.5,
+      "behaviour": "rising"
+    },
+    {
+      "n": 2.0,
+      "alpha": 1.3333333333333333,
+      "vc_slope": 0.33333333333333337,
+      "behaviour": "rising"
+    },
+    {
+      "n": 3.0,
+      "alpha": 1.5,
+      "vc_slope": 0.25,
+      "behaviour": "rising"
+    },
+    {
+      "n": 5.0,
+      "alpha": 1.6666666666666667,
+      "vc_slope": 0.16666666666666663,
+      "behaviour": "rising"
+    },
+    {
+      "n": 10.0,
+      "alpha": 1.8181818181818181,
+      "vc_slope": 0.09090909090909094,
+      "behaviour": "rising"
+    },
+    {
+      "n": 50.0,
+      "alpha": 1.9607843137254901,
+      "vc_slope": 0.019607843137254943,
+      "behaviour": "rising"
+    },
+    {
+      "n": 1000.0,
+      "alpha": 1.998001998001998,
+      "vc_slope": 0.0009990009990009652,
+      "behaviour": "FLAT"
+    },
+    {
+      "n": 1000000.0,
+      "alpha": 1.999998000002,
+      "vc_slope": 9.999990000508774e-07,
+      "behaviour": "FLAT"
+    }
+  ],
+  "part_B_selfgrav": [
+    {
+      "n": 1,
+      "alpha": 1.0,
+      "pred_slope": 0.5,
+      "meas_slope": 0.5,
+      "flat": "no"
+    },
+    {
+      "n": 3,
+      "alpha": 1.5,
+      "pred_slope": 0.25,
+      "meas_slope": 0.2500000000001128,
+      "flat": "no"
+    },
+    {
+      "n": 10,
+      "alpha": 1.8181818181818181,
+      "pred_slope": 0.09090909090909094,
+      "meas_slope": 0.09090909090936816,
+      "flat": "no"
+    },
+    {
+      "n": 100,
+      "alpha": 1.9801980198019802,
+      "pred_slope": 0.00990099009900991,
+      "meas_slope": 0.009900990099306282,
+      "flat": "yes"
+    }
+  ],
+  "part_C_isothermal": {
+    "vc": 1.4142135623730947,
+    "flat_resid": 3.020133145511627e-16,
+    "hydro_resid": 2.918005277164522e-16
+  },
+  "conclusion": "flat curve (alpha=2) is excluded endpoint of capacity family; door1 requires second mechanism + non-local a0 transition = MOND cage"
+}

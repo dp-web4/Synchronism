@@ -2,15 +2,17 @@
 
 > **⚠ NAVIGATION (2026-06-23): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
-> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-9), [`STATUS.md`](STATUS.md),
+> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-11), [`STATUS.md`](STATUS.md),
 > and [`PREDICTIONS.md`](PREDICTIONS.md) — all current through 2026-06-23. Read **SPINE.md +
-> PREDICTIONS.md + STATUS.md** for current state, not this file. Most recent finding:
-> **Phase-9** (matter sector) — the inflow/swimmer model reproduces full Schwarzschild precession
-> *exactly* (it is Gullstrand–Painlevé in disguise for matter too), which (a) maps the Bucket-0
-> frontier to two doors — profile-departure or discreteness — and (b) surfaces a named tension:
-> the equivalence principle the inflow model derives *forbids* the mechanism-dependence the
-> "time-dilation-as-instrument-effect" bet needs. See
-> `explorations/2026-06-23-phase9-matter-sector-precession-and-instrument-effect-tension.md`.
+> PREDICTIONS.md + STATUS.md** for current state, not this file. Recent arc:
+> **Phase-9** — inflow/swimmer model reproduces full Schwarzschild precession *exactly* (GP in
+> disguise for matter too) ⇒ Bucket-0 novelty confined to two doors (profile-departure / discreteness),
+> and a named tension (EP-derivation ⊥ the "time-dilation-as-instrument-effect" bet's discriminator).
+> **Phase-10/11** — **door #1 (galactic/profile) is a no-go for novelty**: a flat curve (α=2) is the
+> *excluded endpoint* of the capacity family `ρ∝vⁿ` (α=2n/(n+1)<2 ∀ finite n; anchored to intent
+> conservation), so reaching flat curves = MOND (refuted γ=2 / Bucket-3). **Door #2 (discreteness/LIV:
+> B7, dispersion) is now the sole remaining Bucket-0 channel.** See `explorations/2026-06-23-phase9…`,
+> `…-phase10-…`, `…-phase11-…`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
