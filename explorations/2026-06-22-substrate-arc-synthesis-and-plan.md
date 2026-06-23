@@ -21,12 +21,20 @@ prediction) is unpaid.
    soliton's internal clock (Phase-5) *all* require a complex amplitude, not a real phase. This is
    not a detail; it recurs in every sector. The complex Intent field is the substrate's
    non-negotiable primitive.
-2. **The temporal sector works; the spatial sector is where the walls are.** Absolute time keeps
-   paying off (Phase-3c: time dilation as flow/instrument-effect; Phase-5: dilation *emerges* from
-   the lattice). But the unpaid/failed problems are all **spatial**: gravity needed the
-   `√(2GM/r)` inflow *imposed by hand* (Phase-3c R-c), and Lorentz invariance *fails in the
-   spatial sector* via Peierls–Nabarro pinning (Phase-5). Twice, the hard problem is spatial
-   structure.
+2. **The temporal sector works; the spatial sector is where the walls are** — and this may be a
+   *research clue*, not a coincidence. Absolute time keeps paying off (Phase-3c: time dilation as
+   flow/instrument-effect; Phase-5: dilation *emerges* from the lattice). But the unpaid/failed
+   problems are all **spatial**: gravity needed the `√(2GM/r)` inflow *imposed by hand* (3c R-c),
+   and Lorentz invariance *fails in the spatial sector* via Peierls–Nabarro pinning (Phase-5, an
+   under-resolution artifact per Phase-6 but still spatial). **This asymmetry mirrors the ontology
+   itself**: the model makes *time the absolute tick* (a strong, primitive commitment) and *space
+   the grid-of-cells* (derived). So either (a) the framework is simply more developed on the time
+   axis, or (b) the result is telling us something real — **time is the load-bearing primitive and
+   space is the genuinely hard, emergent thing**. Hypothesis worth trusting as a signal (it
+   recurred across five experiments, unbidden): the next deep insight is more likely to come from
+   *interrogating what "space" emergently IS in this ontology* than from any single sector. (E.g.
+   is grid spacing a field? does an Intent convergence *force* a spatial profile? — both are
+   spatial-emergence questions, and both are currently the unpaid parts of P2/P3.)
 3. **All high-energy signatures unify at the grid scale** — dispersion-LIV (Phase-2), Umklapp-LIV
    (Phase-4), temporal Lorentz-breaking (Phase-5) all onset at `v_g ≈ 0.57` / the zone edge — but
    the **spatial** frame-visibility (PN pinning) appears *earlier*, at lower velocity. If real,
