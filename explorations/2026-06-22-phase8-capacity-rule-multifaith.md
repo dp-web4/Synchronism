@@ -42,6 +42,13 @@ across the arc:
 - Phase-7: fit *one equation-of-state* (`ρ ∝ r^(−3/2)`);
 - Phase-8: **the momentum-coupling exponent is exactly `3`** — a single number.
 
+> **⚠ Correction (Phase-10, 2026-06-23): the Faith-B "→ dark-matter halo" claim below is an
+> overclaim.** A flat-rotation-curve halo is *isothermal* (`ρ∝1/r²`); the GR-matching tail here is
+> `ρ∝r^(−3/2)`, which gives a slowly *rising* `r^{1/4}` curve, **not flat**. Saturation cores the
+> centre but doesn't change the tail. The galactic door is real but needs a capacity rule that
+> *transitions* to `ρ∝1/r²` at low acceleration (`= a0`/RAR), not the n=3 rule + saturation. See
+> [Phase-10](2026-06-23-phase10-galactic-rotation-curves-door1.md).
+
 ## Faith B — saturating capacity (redirect, not abandon)
 
 Clip the held density at a ceiling `ρ ≤ I_max` (a cell can only hold so much). This only affects the

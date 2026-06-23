@@ -1,0 +1,21 @@
+{
+  "key_relation": "v_c \u221d r^(1 - alpha/2) for halo rho\u221dr^-alpha; flat needs alpha=2 (isothermal)",
+  "large_r_slopes": {
+    "visible_only_exponential_disk": -0.5,
+    "n3_GR_capacity_halo_alpha1.5": 0.25,
+    "isothermal_halo_alpha2.0": -0.0
+  },
+  "classification": {
+    "visible_only_exponential_disk": "falling",
+    "n3_GR_capacity_halo_alpha1.5": "rising",
+    "isothermal_halo_alpha2.0": "FLAT"
+  },
+  "isothermal_gives_flat": true,
+  "n3_GR_rule_gives_flat": false,
+  "phase8_saturation_halo_claim_corrected": "GR (r^-1.5) tail gives RISING r^1/4, not flat; flat needs isothermal r^-2",
+  "door1_requirements": [
+    "intent self-gravitates",
+    "capacity rule transitions alpha 1.5->2 at scale a0 (=RAR/MOND)"
+  ],
+  "verdict": "DOES A CAPACITY RULE GIVE FLAT ROTATION CURVES (door #1)? The rotation curve exponent is v_c \u221d r^(1-alpha/2) for a halo rho\u221dr^-alpha. Measured large-r slopes: visible-only (exponential disk) = -0.5 (falling = the dark-matter problem, Keplerian); n=3 GR-capacity halo (alpha=1.5) = 0.25 (rising, ~r^1/4); isothermal halo (alpha=2.0) = -0.0 (FLAT). CORRECTION TO PHASE-8: the GR-matching capacity rule (n=3, rho\u221dr^-3/2) does NOT give flat curves \u2014 it gives a slowly RISING r^1/4 curve (n3_not_flat=True). Phase-8's 'saturating capacity -> cored centre + GR tail -> dark-matter halo' CONFLATED 'cored' with 'isothermal': a cored centre + r^-3/2 tail is NOT a flat-curve (r^-2) halo. The honest requirement for door #1: FLAT curves need rho \u221d 1/r^2 (isothermal, alpha=2; flat=True) at galactic scale \u2014 a DIFFERENT exponent than the n=3 GR rule. So a single capacity rule must TRANSITION: rho\u221dr^-3/2 (GR) near matter / high acceleration, to rho\u221dr^-2 (flat curves) at large r / low acceleration. The transition acceleration IS the MOND a0 / the RAR (bet B2). TWO further requirements door #1 makes explicit: (i) intent must SELF-GRAVITATE (the flowing intent halo is itself a source), or only visible matter gravitates and curves stay Keplerian; (ii) the capacity rule must produce the alpha:1.5->2 transition at the right scale. NEITHER is yet shown \u2014 so door #1 is OPEN, now precisely scoped: it is not 'saturation = halo' (that was wrong) but 'a transitioning capacity rule that yields an isothermal intent-halo at low acceleration, with transition scale a0'. Per dp: a0 being a FIT constant is fine (most constants are) \u2014 the test is whether the transition + a0 reproduce the RAR across SPARC (the actual B2 test, next). NOT novel physics yet; Bucket 0 unchanged. This phase's value: a real CORRECTION (Phase-8 overclaim) + door #1 scoped to a falsifiable target."
+}
