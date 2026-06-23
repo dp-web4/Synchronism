@@ -69,12 +69,17 @@ against a frontier prediction).
 The through-line is **the spatial sector**. Two of the open problems are the same kind of problem,
 and one fix might resolve both — that is the high-leverage insight.
 
-**P1 — Spatial-sector Lorentz (the make-or-break continuation). HIGHEST STAKES.**
-Test a **PN-pinning-free / translationally-invariant discretization** (these exist: e.g.
-discretizations with an exact translation invariant / Speight–Ward or Kevrekidis-type kinks), then
-re-run Phase-5. *If the frame hides in space too* → the program clears its hardest hurdle (the
-discrete-substrate Lorentz problem). *If no discretization can do it* → a deep negative about the
-whole lattice approach. Binary, decisive.
+**P1 — Spatial-sector Lorentz (the make-or-break continuation). ✅ EXECUTED 2026-06-22 → RESOLVED.**
+Done as Phase-6 ([`phase6_spatial_lorentz_pn_barrier.py`](../simulations/phase6_spatial_lorentz_pn_barrier.py)).
+Rather than needing a special discretization, the direct measurement settled it: the
+Peierls–Nabarro barrier (the pinning potential) scales `~exp(−const·N)` in cells-per-pattern, so a
+real particle (`N ~ Compton/Planck ~ 10²⁰`) has barrier `~exp(−10²⁰) ≈ 0`. **Phase-5's spatial
+pinning was a numerical under-resolution artifact**; at the physical scale the spatial frame hides
+as thoroughly as the temporal one, `(pattern/grid)`-suppressed like Phase-2/4. The make-or-break
+resolves in the model's favor at the physical scale. *Deeper P1-deep (named, no longer
+make-or-break): exact-zero barrier at fixed coarse `a` via a translationally-invariant /
+Speight–Ward discretization — worth checking whether the intent-on-a-grid rule is naturally of
+that class.* See [`explorations/2026-06-22-phase6-spatial-lorentz-pn-barrier.md`](2026-06-22-phase6-spatial-lorentz-pn-barrier.md).
 
 **P2 — Gravity: derive or fit the profile (Phase-3c R-c).**
 Does the substrate's own flux/continuity rules **force** `u=√(2GM/r)`, or is it imposed? This is
@@ -101,10 +106,14 @@ productive but Bucket 0 stays 0 until P4 pays out.
 
 ## 4. ZOOM-IN recommendation
 
-Point at **P1** (PN-free discretization → re-run Phase-5). Reasons: (a) it is the make-or-break the
-arc just surfaced; (b) it is binary and decisive; (c) it likely shares a fix with P2 (the
-gravity-profile derivation), so success compounds; (d) it confronts the wall directly rather than
-adding another reproduction. P3 (complex-CHSH) is the close second — it addresses the convergent
-quantum crux and gates B6 — and is independent, so it could run in parallel.
+**P1 is done (✅ resolved the make-or-break at the physical scale — see above).** Next zoom-in: **P3**
+(complex-amplitude non-separable CHSH). Reasons: (a) it addresses the convergent quantum crux that
+GPT and I independently reached — *derive* `E(θ)=−cos θ` / reach Tsirelson 2√2 *no-signaling*, not
+just S>2; (b) it gives the **complex field** — load-bearing in every sector this arc — its decisive
+test; (c) it gates the B6 monogamy bet; (d) the key discipline is avoiding circularity (don't
+implement the Born rule by hand — the question is whether `cos²` *emerges*). **P2** (does the
+substrate *force* the GP gravity profile, or is it fit) is the close second and is the spatial-sector
+derive-vs-fit question.
 
-The spatial sector is the work. Everything else today was the temporal sector telling us it's fine.
+The spatial-sector make-or-break is cleared. The remaining work is the **loan**: a confirmed
+novel prediction (P4 / B2 galactic) is still the only thing that moves Bucket 0 off zero.
