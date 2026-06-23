@@ -1,0 +1,69 @@
+{
+  "method": "multi-faith: hypothesize capacity rules, test which derives the GR profile (dp 2026-06-22)",
+  "faith_a_momentum_coupled_rho_v_n": [
+    {
+      "n_momentum_coupling": 0,
+      "capacity_rule": "held intent rho \u221d v^0",
+      "density_exp": 0.0,
+      "velocity_exp": -2.0,
+      "deflection_q": 4.0,
+      "is_GR": false
+    },
+    {
+      "n_momentum_coupling": 1,
+      "capacity_rule": "held intent rho \u221d v^1",
+      "density_exp": -1.0,
+      "velocity_exp": -1.0,
+      "deflection_q": 2.001,
+      "is_GR": false
+    },
+    {
+      "n_momentum_coupling": 2,
+      "capacity_rule": "held intent rho \u221d v^2",
+      "density_exp": -1.333,
+      "velocity_exp": -0.667,
+      "deflection_q": 1.339,
+      "is_GR": false
+    },
+    {
+      "n_momentum_coupling": 3,
+      "capacity_rule": "held intent rho \u221d v^3",
+      "density_exp": -1.5,
+      "velocity_exp": -0.5,
+      "deflection_q": 1.016,
+      "is_GR": true
+    },
+    {
+      "n_momentum_coupling": 4,
+      "capacity_rule": "held intent rho \u221d v^4",
+      "density_exp": -1.6,
+      "velocity_exp": -0.4,
+      "deflection_q": 0.829,
+      "is_GR": false
+    },
+    {
+      "n_momentum_coupling": 5,
+      "capacity_rule": "held intent rho \u221d v^5",
+      "density_exp": -1.667,
+      "velocity_exp": -0.333,
+      "deflection_q": 0.71,
+      "is_GR": false
+    }
+  ],
+  "gr_selecting_rule": {
+    "n_momentum_coupling": 3,
+    "capacity_rule": "held intent rho \u221d v^3",
+    "density_exp": -1.5,
+    "velocity_exp": -0.5,
+    "deflection_q": 1.016,
+    "is_GR": true
+  },
+  "faith_b_saturating_capacity": {
+    "I_max": 5.0,
+    "r_sat": 0.342,
+    "tail_density_exp_outside_r_sat": -1.5,
+    "tail_still_GR_-1.5": true,
+    "centre_cored": true
+  },
+  "verdict": "MULTI-FAITH ON CAPACITY RULES \u2014 which derives GR? FAITH A (momentum-coupled, rho \u221d v^n): sweeping the coupling n, the density exponent is -2n/(n+1) and the light deflection scales b^-q; ONLY n=3 lands on GR \u2014 rho \u221d r^-3/2 AND Delta_theta \u221d 1/b (GR faith: n=3, density_exp=-1.5, q=1.016). The others are abandoned-for-GR but real: n=0 (incompressible) -> b^-4 (Phase-7's wrong case); n=1,2 -> too-steep deflection; n>3 -> too shallow. So the capacity rule GR REQUIRES is sharp and falsifiable: 'a cell's held intent scales as the CUBE of its flow speed' (rho \u221d v^3) \u2014 derived from continuity, NO gravitational force postulated. That is real narrowing: gravity-is-fit has shrunk from 'fit the inflow' (3c) to 'fit the EoS' (Phase-7) to 'the momentum-coupling exponent is exactly 3' (here). What we have NOT done: derive WHY n=3 from the cell's actual receive-dynamics \u2014 that is the open question, now a single number. FAITH B (saturating capacity, rho <= I_max): clipping only cores the CENTRE (r < r_sat=0.342); the tail stays rho \u221d r^-1.5 (still GR: True). REDIRECT, not abandon: a cored-centre + GR-tail profile is exactly what galactic dark-matter HALOS look like (the core-cusp structure) \u2014 so the saturating capacity rule is worth keeping for the galactic (P4/B2) frontier, where it would change rotation curves WITHOUT changing solar-system lensing. HONEST: power-law EoS -> power-law profile is textbook fluid analog; finding n=3 is LOCATING the rule, not deriving it (numerological until the receive-dynamics force n=3). Bucket 0 unchanged. But the multi-faith did its job: one path (n=3) is the GR target, one (saturation) redirects to the galactic frontier, the rest are eliminated."
+}
