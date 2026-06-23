@@ -1,0 +1,278 @@
+{
+  "part_a_analytic_dispersion": {
+    "rows": [
+      {
+        "k": 0.1,
+        "v_g": 0.0993,
+        "omega_co_times_gamma": 1.0,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.0,
+        "vp_vg": 0.9983,
+        "reciprocity_dev_pct": -0.167
+      },
+      {
+        "k": 0.219,
+        "v_g": 0.2123,
+        "omega_co_times_gamma": 0.9999,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.009,
+        "vp_vg": 0.992,
+        "reciprocity_dev_pct": -0.798
+      },
+      {
+        "k": 0.338,
+        "v_g": 0.3144,
+        "omega_co_times_gamma": 0.9995,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.052,
+        "vp_vg": 0.9811,
+        "reciprocity_dev_pct": -1.894
+      },
+      {
+        "k": 0.457,
+        "v_g": 0.402,
+        "omega_co_times_gamma": 0.9983,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.166,
+        "vp_vg": 0.9655,
+        "reciprocity_dev_pct": -3.447
+      },
+      {
+        "k": 0.576,
+        "v_g": 0.4737,
+        "omega_co_times_gamma": 0.9961,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.392,
+        "vp_vg": 0.9456,
+        "reciprocity_dev_pct": -5.442
+      },
+      {
+        "k": 0.695,
+        "v_g": 0.5294,
+        "omega_co_times_gamma": 0.9925,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -0.753,
+        "vp_vg": 0.9214,
+        "reciprocity_dev_pct": -7.863
+      },
+      {
+        "k": 0.814,
+        "v_g": 0.5701,
+        "omega_co_times_gamma": 0.9876,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -1.238,
+        "vp_vg": 0.8931,
+        "reciprocity_dev_pct": -10.69
+      },
+      {
+        "k": 0.933,
+        "v_g": 0.5974,
+        "omega_co_times_gamma": 0.9822,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -1.779,
+        "vp_vg": 0.861,
+        "reciprocity_dev_pct": -13.899
+      },
+      {
+        "k": 1.052,
+        "v_g": 0.6128,
+        "omega_co_times_gamma": 0.9775,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -2.247,
+        "vp_vg": 0.8254,
+        "reciprocity_dev_pct": -17.463
+      },
+      {
+        "k": 1.171,
+        "v_g": 0.618,
+        "omega_co_times_gamma": 0.9753,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -2.465,
+        "vp_vg": 0.7865,
+        "reciprocity_dev_pct": -21.352
+      },
+      {
+        "k": 1.29,
+        "v_g": 0.6144,
+        "omega_co_times_gamma": 0.9776,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -2.238,
+        "vp_vg": 0.7447,
+        "reciprocity_dev_pct": -25.534
+      },
+      {
+        "k": 1.41,
+        "v_g": 0.603,
+        "omega_co_times_gamma": 0.9862,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": -1.379,
+        "vp_vg": 0.7003,
+        "reciprocity_dev_pct": -29.975
+      },
+      {
+        "k": 1.529,
+        "v_g": 0.5851,
+        "omega_co_times_gamma": 1.0027,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 0.266,
+        "vp_vg": 0.6536,
+        "reciprocity_dev_pct": -34.638
+      },
+      {
+        "k": 1.648,
+        "v_g": 0.5615,
+        "omega_co_times_gamma": 1.0281,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 2.807,
+        "vp_vg": 0.6051,
+        "reciprocity_dev_pct": -39.485
+      },
+      {
+        "k": 1.767,
+        "v_g": 0.5328,
+        "omega_co_times_gamma": 1.0632,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 6.318,
+        "vp_vg": 0.5552,
+        "reciprocity_dev_pct": -44.479
+      },
+      {
+        "k": 1.886,
+        "v_g": 0.4998,
+        "omega_co_times_gamma": 1.1084,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 10.841,
+        "vp_vg": 0.5042,
+        "reciprocity_dev_pct": -49.578
+      },
+      {
+        "k": 2.005,
+        "v_g": 0.463,
+        "omega_co_times_gamma": 1.164,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 16.397,
+        "vp_vg": 0.4526,
+        "reciprocity_dev_pct": -54.742
+      },
+      {
+        "k": 2.124,
+        "v_g": 0.4228,
+        "omega_co_times_gamma": 1.23,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 22.996,
+        "vp_vg": 0.4007,
+        "reciprocity_dev_pct": -59.933
+      },
+      {
+        "k": 2.243,
+        "v_g": 0.3798,
+        "omega_co_times_gamma": 1.3064,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 30.644,
+        "vp_vg": 0.3489,
+        "reciprocity_dev_pct": -65.11
+      },
+      {
+        "k": 2.362,
+        "v_g": 0.3343,
+        "omega_co_times_gamma": 1.3935,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 39.346,
+        "vp_vg": 0.2977,
+        "reciprocity_dev_pct": -70.233
+      },
+      {
+        "k": 2.481,
+        "v_g": 0.2868,
+        "omega_co_times_gamma": 1.4911,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 49.111,
+        "vp_vg": 0.2473,
+        "reciprocity_dev_pct": -75.267
+      },
+      {
+        "k": 2.6,
+        "v_g": 0.2374,
+        "omega_co_times_gamma": 1.5995,
+        "rest_freq_M": 1.0,
+        "dilation_dev_pct": 59.953,
+        "vp_vg": 0.1983,
+        "reciprocity_dev_pct": -80.173
+      }
+    ],
+    "dilation_holds_at_low_k": true,
+    "reciprocity_dev_pct_at_k0.34": -1.894,
+    "liv_onset_vg": 0.5701,
+    "liv_onset_k": 0.814
+  },
+  "part_b_evolved_soliton": {
+    "rows": [
+      {
+        "k_boost": 0.0,
+        "v": 0.0,
+        "omega_co": 0.0007,
+        "width": 4.166,
+        "note": "rest reference"
+      },
+      {
+        "k_boost": 0.2,
+        "v": 0.0003,
+        "gamma": 1.0,
+        "omega_co": 0.0004,
+        "omega_co_times_gamma": 0.0004,
+        "rest_omega": 0.0007,
+        "width": 4.141,
+        "width_times_gamma": 4.141,
+        "rest_width": 4.166,
+        "dilation_ok": false,
+        "contraction_ok": true
+      },
+      {
+        "k_boost": 0.4,
+        "v": 0.0003,
+        "gamma": 1.0,
+        "omega_co": 0.0,
+        "omega_co_times_gamma": 0.0,
+        "rest_omega": 0.0007,
+        "width": 4.044,
+        "width_times_gamma": 4.044,
+        "rest_width": 4.166,
+        "dilation_ok": false,
+        "contraction_ok": true
+      },
+      {
+        "k_boost": 0.6,
+        "v": -0.0012,
+        "gamma": 1.0,
+        "omega_co": 0.0002,
+        "omega_co_times_gamma": 0.0002,
+        "rest_omega": 0.0007,
+        "width": 3.824,
+        "width_times_gamma": 3.824,
+        "rest_width": 4.166,
+        "dilation_ok": false,
+        "contraction_ok": true
+      },
+      {
+        "k_boost": 0.9,
+        "v": 0.1841,
+        "gamma": 1.017,
+        "omega_co": 0.0304,
+        "omega_co_times_gamma": 0.031,
+        "rest_omega": 0.0007,
+        "width": 3.264,
+        "width_times_gamma": 3.321,
+        "rest_width": 4.166,
+        "dilation_ok": false,
+        "contraction_ok": false
+      }
+    ],
+    "rest_width": 4.166,
+    "rest_omega": 0.0007
+  },
+  "time_dilation_hides_lowv": true,
+  "peierls_nabarro_pinning_seen": true,
+  "length_contraction_cleanly_shown": false,
+  "preferred_frame_fully_hidden": false,
+  "verdict": "DOES THE DISCRETE SUBSTRATE HIDE ITS PREFERRED FRAME? SPLIT ANSWER \u2014 a productive partial-negative. TEMPORAL SECTOR (Part A, analytic from the substrate's own lattice dispersion, non-circular): the moving internal clock omega_co satisfies omega_co*gamma = M (rest frequency) to <0.5% at low k (time dilation EMERGES, dilation_holds_lowk=True), breaking at the LIV onset v_g~0.5701 (k~0.814) \u2014 same grid scale as Phase-2/4. So the CLOCK hides at low energy. SPATIAL SECTOR (Part B, evolved soliton, no SR assumed): this is where it does NOT cleanly work. The discrete soliton is PEIERLS-NABARRO PINNED (pn_pinning=True): v~0 for k=0.2/0.4/0.6, it barely moves until k=0.9 \u2014 a discrete soliton RESISTS free boosting, which is the preferred frame showing through in the SPATIAL sector at LOWER velocity than the dispersion-LIV onset. The width it shows shrinks FASTER than gamma (profile self-adjustment, not Lorentz contraction; contraction_clean=False), and the soliton's internal-frequency readout is unreliable (rest omega_co~0, not M \u2014 the boosted soliton is not a clean internal-clock eigenstate). So length contraction + free boostability is NOT demonstrated. SO WHAT (honest): the make-or-break question does NOT cleanly pass. The temporal half (time dilation) hides; the SPATIAL half (contraction / free motion) is exactly where the classic discrete-substrate Lorentz hurdle (GPT's caution) shows up concretely \u2014 PN pinning, the known obstruction to Lorentz invariance in discrete soliton lattices. The universal clock is HALF-hidden: invisible in time, visible in space (and earlier than the LIV scale). This is a real constraint, not a vindication: a viable substrate must use a discreteness that avoids PN pinning (translationally-invariant discretizations exist; this naive lattice is not one). Bucket 0 unchanged. PRODUCTIVE NEGATIVE: it localizes the problem to the spatial sector and names the fix-direction."
+}
