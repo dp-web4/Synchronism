@@ -88,10 +88,37 @@ not the α<2 cap, which is a continuity+closure consequence). A non-power-law cl
 α=2 in principle — but any closure giving GR (α=3/2) near matter and isothermal (α=2) far out *is*
 the acceleration-keyed MOND transition, so the escape is the cage.
 
+## Connection to the same-day "untestable with foreseeable data" proposal
+
+`Research/proposals/framework_untestable_foreseeable_data.md` (filed 2026-06-23, maintainer track)
+makes the *empirical* version of this finding: every test in the catalog (TEST-01…21 — all
+galactic/RAR/wide-binary/cluster, i.e. **door-#1-type**) sits below the relevant systematics floor,
+so it proposes upgrading "0 confirmed" to "untestable with foreseeable data." Phase-11 supplies the
+**structural reason** that empirical survey keeps finding nothing: those tests live in the
+continuum/profile sector, which is GR (Phase-9) ⊕ MOND (Phase-11) *by exact construction* — there is
+no C(ρ)-specific signal to be above any floor, even in principle, because the family cannot leave the
+GR+MOND locus.
+
+**But the untestability thesis, as written, is too strong by one door.** It surveys only door #1.
+**Door #2 (discreteness) is not a C(ρ) test and is *not* below foreseeable floors:** Planck-scale LIV
+shows up in photon/neutrino time-of-flight over cosmological baselines (GRB, blazar flares) and in
+GW dispersion — these are *foreseeable-data* channels, already constraining (and improving). So the
+honest scoreboard statement should be split:
+- **Door #1 (continuum / C(ρ) / galactic):** untestable with foreseeable data — *and* now shown
+  structurally locked to GR+MOND (Phase-9/11), so this is a permanent, not provisional, null.
+- **Door #2 (discreteness / LIV / vacuum Umklapp, B7):** testable in principle with foreseeable
+  astrophysical data, currently Planck-suppressed below sensitivity, *not* structurally foreclosed.
+
+That split is more defensible than a blanket "untestable," and it tells the program exactly where the
+one remaining shot is. (Recorded here for the explorer who picks up that HIGH-priority proposal.)
+
 ## So what
 
 I went looking to open the door my own Phase-9 flagged as the best novel-prediction hope, and found
 it bounded shut from the inside: the framework's gravity-generating family provably cannot make a
 flat curve, and the only way to one is the MOND interpolation it has already been refuted on. That
-is the uncomfortable, productive outcome — the galactic frontier is eliminated as a Bucket-0 source,
-and the program's remaining novelty budget belongs entirely to the discreteness door.
+is the uncomfortable, productive outcome — the galactic frontier is eliminated as a Bucket-0 source.
+Combined with the same-day untestability proposal, the program's honest position sharpens to: the
+*entire continuum sector* is GR+MOND with no reachable novel signal, and the program's remaining
+novelty budget belongs **entirely to the discreteness door** — which, unlike door #1, is at least
+foreseeably testable.
