@@ -1,0 +1,66 @@
+{
+  "part_A_leak_sealed": {
+    "rows": [
+      {
+        "k": 0.002,
+        "dv_fwd": 5.012314726604572e-07,
+        "dv_bwd": 4.987714696813583e-07,
+        "asym": 0.004919991481901079
+      },
+      {
+        "k": 0.004,
+        "dv_fwd": 2.004925385712397e-06,
+        "dv_bwd": 1.9950853840100535e-06,
+        "asym": 0.004919987604446595
+      },
+      {
+        "k": 0.008,
+        "dv_fwd": 8.019693464200728e-06,
+        "dv_bwd": 7.980333614598933e-06,
+        "asym": 0.004919972873539313
+      },
+      {
+        "k": 0.016,
+        "dv_fwd": 3.207864459386922e-05,
+        "dv_bwd": 3.1921207714447064e-05,
+        "asym": 0.004919913835541752
+      },
+      {
+        "k": 0.032,
+        "dv_fwd": 0.000128312510184303,
+        "dv_bwd": 0.00012768280296970858,
+        "asym": 0.004919677683439376
+      }
+    ],
+    "dv_power_in_k": 1.9999931470389003,
+    "asym_over_beta": 3.9999257689216443,
+    "beta": 0.00123
+  },
+  "part_B_universality": {
+    "note": "tree-level dim-4 species-LIV ~ (m/E_Pl)^2, safe"
+  },
+  "part_C_hierarchy": [
+    {
+      "operator": "dim-5 (n=1, linear LIV, Myers-Pospelov)",
+      "k_parity": "ODD in k",
+      "evenk_forbids": "YES (forbidden)",
+      "bound": "E_QG,1 > 5.9 E_Pl (LHAASO GRB221009A)",
+      "reach": "would be REFUTED if present"
+    },
+    {
+      "operator": "dim-6 (n=2, quadratic LIV, time-of-flight)",
+      "k_parity": "EVEN in k",
+      "evenk_forbids": "no (allowed)",
+      "bound": "E_QG,2 > 6e-8 E_Pl",
+      "reach": "~1e7 below reach (structurally untestable)"
+    },
+    {
+      "operator": "dim-4 (species-dependent c / c-anisotropy, SME c_\u03bc\u03bd)",
+      "k_parity": "EVEN in k",
+      "evenk_forbids": "NO \u2014 NOT forbidden",
+      "bound": "|c_LIV| < ~1e-22 (Hughes-Drever / cavity / clocks)",
+      "reach": "REACHABLE \u2014 refutation-capable"
+    }
+  ],
+  "conclusion": "leak sealed (n=2\u00d7\u03b2); but dim-4 species-LIV is even-k-allowed, reachable (~1e-22), radiatively generic -> door2 falsifiable at dim-4, not structurally untestable; pending UV completion"
+}
