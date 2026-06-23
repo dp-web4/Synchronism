@@ -1,0 +1,52 @@
+{
+  "question": "does a transport DOF (continuity + intent sink) FORCE the GP gravity profile, or is it fit?",
+  "both_profiles_long_range": "yes \u2014 any EoS gives a power-law inflow; the Yukawa (short-range) obstacle is dissolved by the transport DOF, derived",
+  "gp_profile_p0.5": {
+    "deflection_scaling_q": 1.016,
+    "matches_GR_1overb": true,
+    "rows": [
+      {
+        "b": 40.0,
+        "deflection": 0.05253201
+      },
+      {
+        "b": 80.0,
+        "deflection": 0.02576109
+      },
+      {
+        "b": 160.0,
+        "deflection": 0.01275865
+      },
+      {
+        "b": 320.0,
+        "deflection": 0.00634921
+      }
+    ]
+  },
+  "incompressible_p2.0": {
+    "deflection_scaling_q": 4.038,
+    "matches_GR_1overb": false,
+    "rows": [
+      {
+        "b": 40.0,
+        "deflection": 1.15e-06
+      },
+      {
+        "b": 80.0,
+        "deflection": 7e-08
+      },
+      {
+        "b": 160.0,
+        "deflection": 0.0
+      },
+      {
+        "b": 320.0,
+        "deflection": 0.0
+      }
+    ]
+  },
+  "long_range_derived": true,
+  "gp_profile_forced_by_minimal_continuity": false,
+  "remaining_freedom": "the equation-of-state (rho response to a coherence sink); GR needs rho \u221d r^-3/2",
+  "verdict": "DOES THE TRANSPORT DOF FORCE THE GRAVITY PROFILE? Partial \u2014 long-range is DERIVED, the GP profile is NOT forced. (1) WIN: adding a transport DOF (intent conserved under continuity, a high-Intent core as a sink) gives a LONG-RANGE power-law inflow for ANY equation-of-state \u2014 the Phase-3b Yukawa obstacle DISSOLVES from the substrate's own transport, not by imposition. (2) BUT the PROFILE is set by the equation-of-state, and the minimal/default one (INCOMPRESSIBLE, rho=const) gives v \u221d 1/r^2 \u2014 and its light deflection scales as Delta_theta \u221d b^(-4.04) (is-1/b: False), i.e. it FALLS TOO FAST and does NOT match the observed 1/b bending. The GP profile v \u221d 1/sqrt(r) gives Delta_theta \u221d b^(-1.02) (is-1/b: True) = GR's 1/b \u2014 but GP requires a SPECIFIC equation-of-state (rho \u221d r^-3/2, the self-advection=Newtonian condition), NOT the minimal incompressible case. SO: P2 answer \u2014 the transport DOF DERIVES long-range gravity (real progress: Yukawa gone, not by hand) but does NOT FORCE the GR-matching profile; matching GR still requires CHOOSING the equation-of-state. The remaining freedom is located precisely: it is the substrate's EoS (how intent density responds to convergence). 'Gravity is fit' has shrunk from 'fit the whole inflow' (Phase-3c) to 'fit one equation-of-state' \u2014 progress, but the loan is still unpaid. The spatial sector remains the wall (research clue holds): what FORCES rho \u221d r^-3/2 is the open question, and it is a statement about how the substrate's density responds to a coherence sink \u2014 a genuinely spatial-emergence question. NOT novel physics; Bucket 0 unchanged."
+}
