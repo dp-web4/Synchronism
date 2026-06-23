@@ -57,11 +57,14 @@ unchanged (0).** Full synthesis + plan: [`explorations/2026-06-22-substrate-arc-
 |---|---|---|
 | `phase3_3d_light_deflection_factor_of_2.py` | gravity | factor-of-2 geometry (imposed `n`) |
 | `phase3b_intent_field_range_yukawa_vs_gravity.py` | gravity | massive field → Yukawa (obstacle, later **dissolved**) |
-| `phase3c_inverted_frame_substrate_flow.py` | gravity | **frame inversion**: absolute-time inflow reproduces full GR `4GM/c²b`; equivalence principle + GP profile derived; gravitational time dilation = flow/instrument effect. → `discoveries/gravity-as-substrate-inflow.md` |
+| `phase3c_inverted_frame_substrate_flow.py` | gravity | **frame inversion**: absolute-time inflow reproduces full GR `4GM/c²b` (light); equivalence principle + GP profile derived; gravitational time dilation = flow term. *(NB Phase-9: the "instrument-effect" reading of this is undercut, not vindicated — universal `u` ⇒ clock universality, see below.)* → `discoveries/gravity-as-substrate-inflow.md` |
 | `kuramoto-lattice-suite/04_global_clock_chsh.py` | quantum | dynamical-clock unilocal CHSH: no-signaling envelope ≤ 2; S>2 only *with* signaling. Missing primitive = interfering complex amplitudes. |
 | `phase4_sampling_umklapp_momentum_fold.py` | high-energy | universe-as-sampler → **Umklapp** (momentum mod G), refinement-controlled. → bet **B7** |
 | `phase5_moving_pattern_lorentz.py` | relativity | **make-or-break**: clock hides (time dilation emerges) but **frame visible in space (PN pinning)** — the classic discrete-Lorentz hurdle, located. |
 | `phase6_spatial_lorentz_pn_barrier.py` | relativity (P1) | **resolves the make-or-break**: PN pinning is an under-resolution artifact (barrier `~exp(−9·N)` in cells-per-pattern); real particle `N~10²⁰` ⇒ barrier `~exp(−10²⁰)≈0`. Spatial frame hidden at the physical scale. |
+| `phase7_transport_inflow_profile_forced_or_fit.py` | gravity (P2) | transport DOF **derives** long-range inflow (Yukawa dissolved for any EoS) but does **not force** the GR profile; "gravity is fit" shrinks to "fit one equation-of-state". |
+| `phase8_capacity_rule_multifaith.py` | gravity (P2) | multi-faith locates the GR-selecting capacity rule: `ρ ∝ v³` (`n=3`) uniquely → `ρ∝r^(−3/2)` + `Δθ∝1/b`. Located, not derived; "gravity is fit" = a single number. Faith-B (saturating capacity) → cored centre + GR tail = galactic-halo door. |
+| `phase9_matter_sector_precession.py` | gravity | **matter sector**: swimmer dispersion ≡ Gullstrand–Painlevé exactly (5.7e-14) ⇒ full Schwarzschild **precession reproduced exactly** (ratio 1.000000, incl. strong-field). Maps Bucket-0 to two doors (profile-departure / discreteness); surfaces **EP ⊥ instrument-effect tension**. → exploration 2026-06-23-phase9 |
 
 **Three structural findings (the durable part):** (1) the **complex field is load-bearing in every
 sector** (momentum, entanglement, Umklapp directionality, soliton clock); (2) the **temporal sector

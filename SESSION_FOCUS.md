@@ -1,5 +1,17 @@
 # Synchronism Session Focus
 
+> **⚠ NAVIGATION (2026-06-23): this file is the OLD proposal-verification cadence and is stale
+> (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
+> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-9), [`STATUS.md`](STATUS.md),
+> and [`PREDICTIONS.md`](PREDICTIONS.md) — all current through 2026-06-23. Read **SPINE.md +
+> PREDICTIONS.md + STATUS.md** for current state, not this file. Most recent finding:
+> **Phase-9** (matter sector) — the inflow/swimmer model reproduces full Schwarzschild precession
+> *exactly* (it is Gullstrand–Painlevé in disguise for matter too), which (a) maps the Bucket-0
+> frontier to two doors — profile-departure or discreteness — and (b) surfaces a named tension:
+> the equivalence principle the inflow model derives *forbids* the mechanism-dependence the
+> "time-dilation-as-instrument-effect" bet needs. See
+> `explorations/2026-06-23-phase9-matter-sector-precession-and-instrument-effect-tension.md`.
+
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
 *Last updated: 2026-06-12 (Session 691 — two same-day proposals on TEST-02 wide-binary; maintainer claim of kill-criterion inversion under C(ρ) verified directly: ρ_local=5.77e-21 kg/m³ at solar neighborhood gives C(ρ_local)=1.000000 under galaxy-anchored ρ_crit, so framework predicts Newton in wide-binary regime; stated "underlying anomaly fails" sub-clause would kill the framework for being right; explorer's adjudication HUNG (Chae 4.9σ vs Saad-Ting 0.4σ on SAME 36 systems, significance lives in one modeling choice); external-mirror structural symmetry to S672/S687/S689/S690 internal pattern recorded)*

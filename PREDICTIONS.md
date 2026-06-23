@@ -79,6 +79,20 @@ antidote to the overclaim.
 > Synchronism if a lab ran them — **entanglement-as-phase-sync** (quantum computing /
 > semiconductors) and **"time dilation"-as-instrument-effect** — see the **invitation** in
 > [SPINE.md](SPINE.md).
+>
+> **⚠ Flag (Phase-9, 2026-06-23): the "time-dilation-as-instrument-effect" bet is undercut by
+> the arc's own gravity model — needs relocation, not deletion.** The bet's only discriminator
+> from GR is **mechanism-dependence** (different clock mechanisms respond differently — the
+> pendulum-vs-atomic-clock point). But the inflow model
+> ([Phase-9](explorations/2026-06-23-phase9-matter-sector-precession-and-instrument-effect-tension.md))
+> advects *every* pattern by one universal `u(r)` — that universality **is** the equivalence
+> principle Phase-3c celebrates deriving — so it predicts **clock universality**, i.e. *no*
+> mechanism-dependence: identical to GR by construction. EP-derivation and mechanism-dependence
+> are mutually exclusive, so the continuum inflow result **removes the bet's handle rather than
+> vindicating it.** Survival path = the same door as discreteness/LIV: if sampling makes different
+> patterns sample the grid differently, universality breaks at the LIV order and the bet regains
+> falsifiable content (testable against existing tight clock-universality bounds). Operator call
+> on whether to re-list it as a discreteness-conditional bet.
 
 | # | Prediction | What's novel about it | Refutation criterion | Honest odds |
 |---|-----------|----------------------|----------------------|-------------|
