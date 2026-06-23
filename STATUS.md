@@ -1,8 +1,8 @@
 # Synchronism Framework Status
 
-**Last Updated**: 2026-05-28
-**MRH posture**: Substrate-level reformulation active. Phase 1 simulation (saturation reframe + independent vector flux **J**) is the next binary-outcome step.
-**Honest assessment**: A research program with philosophical depth, methodological innovation, and scientific ambition — but not yet scientific achievement. Zero confirmed novel predictions across 3,300+ sessions. The framework reparametrizes known physics in all empirically-tested domains. Multiple substrate-level reformulations have been tried; the current active one (saturation reframe) replaces the prior `R(I)` substrate that audit arcs S617–S674 demolished.
+**Last Updated**: 2026-06-22
+**MRH posture**: Substrate-physics arc (complex Intent field on a discrete grid) carried through gravity, quantum, and relativity sectors. Latest binary-outcome step was the **make-or-break Lorentz test (Phase-5)** — a **productive partial-negative**: the universal clock hides in the *temporal* sector (time dilation emerges) but is *visible* in the *spatial* sector (Peierls–Nabarro pinning). Next active step is **P1 — a PN-pinning-free discretization, re-run Phase-5**. Full arc synthesis: [`explorations/2026-06-22-substrate-arc-synthesis-and-plan.md`](explorations/2026-06-22-substrate-arc-synthesis-and-plan.md).
+**Honest assessment**: A research program with philosophical depth, methodological innovation, and scientific ambition — but not yet scientific achievement. **Zero confirmed novel predictions** across 3,300+ sessions (Bucket 0 unchanged by the 2026-06-22 arc — it produced *reproductions* of known physics + two *registered falsifiable bets* + one *located constraint*, not a confirmed prediction). The framework reparametrizes known physics in all empirically-tested domains; per PREDICTIONS discipline 3 that is the *intended* stage-1 explanatory test — a loan against an eventual frontier prediction, not yet paid.
 
 ---
 
@@ -47,6 +47,29 @@ Read in conjunction with:
 > EQUATION" motto is further weakened by the Stage-1 result. See
 > `forum/kimi/synchronism_stage1_sim_review_2026-06-22.md`, `PREDICTIONS.md` Bucket 2, and
 > FUNDAMENTALS §3.
+
+#### 2026-06-22 substrate-physics arc (gravity · quantum · relativity)
+
+A six-experiment arc on the complex-Intent-field-on-a-discrete-grid substrate. **Bucket 0
+unchanged (0).** Full synthesis + plan: [`explorations/2026-06-22-substrate-arc-synthesis-and-plan.md`](explorations/2026-06-22-substrate-arc-synthesis-and-plan.md).
+
+| Sim | Sector | Result |
+|---|---|---|
+| `phase3_3d_light_deflection_factor_of_2.py` | gravity | factor-of-2 geometry (imposed `n`) |
+| `phase3b_intent_field_range_yukawa_vs_gravity.py` | gravity | massive field → Yukawa (obstacle, later **dissolved**) |
+| `phase3c_inverted_frame_substrate_flow.py` | gravity | **frame inversion**: absolute-time inflow reproduces full GR `4GM/c²b`; equivalence principle + GP profile derived; gravitational time dilation = flow/instrument effect. → `discoveries/gravity-as-substrate-inflow.md` |
+| `kuramoto-lattice-suite/04_global_clock_chsh.py` | quantum | dynamical-clock unilocal CHSH: no-signaling envelope ≤ 2; S>2 only *with* signaling. Missing primitive = interfering complex amplitudes. |
+| `phase4_sampling_umklapp_momentum_fold.py` | high-energy | universe-as-sampler → **Umklapp** (momentum mod G), refinement-controlled. → bet **B7** |
+| `phase5_moving_pattern_lorentz.py` | relativity | **make-or-break**: clock hides (time dilation emerges) but **frame visible in space (PN pinning)** — the classic discrete-Lorentz hurdle, located. |
+
+**Three structural findings (the durable part):** (1) the **complex field is load-bearing in every
+sector** (momentum, entanglement, Umklapp directionality, soliton clock); (2) the **temporal sector
+works, the spatial sector is where the walls are** (gravity profile imposed not derived; PN pinning
+breaks Lorentz in space); (3) **all high-energy LIV signatures unify at the grid scale** (dispersion
+/ Umklapp / temporal-Lorentz-breaking), while spatial frame-visibility (PN pinning) appears earlier.
+New bets registered: **B6** (entanglement non-monogamy), **B7** (vacuum Umklapp) — both in
+`PREDICTIONS.md` Bucket 1. Methodological correction banked: *invert the frame before accepting a
+negative* (it dissolved the Yukawa obstacle).
 
 ### `[PARALLEL-PATHS]` — alternative formulations or downstream work, carried in parallel space, not currently in active focus
 
