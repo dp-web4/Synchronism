@@ -1,0 +1,171 @@
+{
+  "frame": "grid-of-cells advancing on global ticks, tested AS a discrete-time sampler (DSP); fractal bet stated, not assumed",
+  "static_complex_shg_sweep": [
+    {
+      "k_over_pi": 0.148,
+      "naive_2k_over_pi": 0.297,
+      "measured_daughter_over_pi": 0.297,
+      "wrap2k_pred_over_pi": 0.297,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.199,
+      "naive_2k_over_pi": 0.398,
+      "measured_daughter_over_pi": 0.398,
+      "wrap2k_pred_over_pi": 0.398,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.25,
+      "naive_2k_over_pi": 0.5,
+      "measured_daughter_over_pi": 0.5,
+      "wrap2k_pred_over_pi": 0.5,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.301,
+      "naive_2k_over_pi": 0.602,
+      "measured_daughter_over_pi": 0.602,
+      "wrap2k_pred_over_pi": 0.602,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.352,
+      "naive_2k_over_pi": 0.703,
+      "measured_daughter_over_pi": 0.703,
+      "wrap2k_pred_over_pi": 0.703,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.398,
+      "naive_2k_over_pi": 0.797,
+      "measured_daughter_over_pi": 0.797,
+      "wrap2k_pred_over_pi": 0.797,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.449,
+      "naive_2k_over_pi": 0.898,
+      "measured_daughter_over_pi": 0.898,
+      "wrap2k_pred_over_pi": 0.898,
+      "folds": false,
+      "reverses_direction": false
+    },
+    {
+      "k_over_pi": 0.5,
+      "naive_2k_over_pi": 1.0,
+      "measured_daughter_over_pi": -1.0,
+      "wrap2k_pred_over_pi": -1.0,
+      "folds": false,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.551,
+      "naive_2k_over_pi": 1.102,
+      "measured_daughter_over_pi": -0.898,
+      "wrap2k_pred_over_pi": -0.898,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.602,
+      "naive_2k_over_pi": 1.203,
+      "measured_daughter_over_pi": -0.797,
+      "wrap2k_pred_over_pi": -0.797,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.648,
+      "naive_2k_over_pi": 1.297,
+      "measured_daughter_over_pi": -0.703,
+      "wrap2k_pred_over_pi": -0.703,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.699,
+      "naive_2k_over_pi": 1.398,
+      "measured_daughter_over_pi": -0.602,
+      "wrap2k_pred_over_pi": -0.602,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.75,
+      "naive_2k_over_pi": 1.5,
+      "measured_daughter_over_pi": -0.5,
+      "wrap2k_pred_over_pi": -0.5,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.801,
+      "naive_2k_over_pi": 1.602,
+      "measured_daughter_over_pi": -0.398,
+      "wrap2k_pred_over_pi": -0.398,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.852,
+      "naive_2k_over_pi": 1.703,
+      "measured_daughter_over_pi": -0.297,
+      "wrap2k_pred_over_pi": -0.297,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.898,
+      "naive_2k_over_pi": 1.797,
+      "measured_daughter_over_pi": -0.203,
+      "wrap2k_pred_over_pi": -0.203,
+      "folds": true,
+      "reverses_direction": true
+    },
+    {
+      "k_over_pi": 0.949,
+      "naive_2k_over_pi": 1.898,
+      "measured_daughter_over_pi": -0.102,
+      "wrap2k_pred_over_pi": -0.102,
+      "folds": true,
+      "reverses_direction": true
+    }
+  ],
+  "two_pump_coarse": {
+    "refine": 1,
+    "a_eff": 1.0,
+    "band_limit": 3.1416,
+    "q1": 1.7,
+    "q2": 1.8,
+    "sum": 3.5,
+    "sum_exceeds_band": true,
+    "naive_daughter": 3.5,
+    "folded_pred": -2.7832,
+    "measured_daughter": -2.7857,
+    "is_umklapp_fold": true
+  },
+  "two_pump_fine_control": {
+    "refine": 4,
+    "a_eff": 0.25,
+    "band_limit": 12.5664,
+    "q1": 1.7,
+    "q2": 1.8,
+    "sum": 3.5,
+    "sum_exceeds_band": false,
+    "naive_daughter": 3.5,
+    "folded_pred": 3.5,
+    "measured_daughter": 3.7061,
+    "is_umklapp_fold": false
+  },
+  "fold_exact_wrap2k": true,
+  "folds_reverse_direction": true,
+  "control_refine_kills_fold": true,
+  "verdict": "DISCRETE SAMPLER -> UMKLAPP, demonstrated, directional, and controlled. (1) Static complex chi^2 sweep: the daughter's SIGNED wavenumber = wrap(2k) at every k (exact: True); once 2k crosses the half-zone pi/2 the daughter REVERSES to negative k (forward pump -> backward daughter: True). The sampler cannot hold above-band content, so the mixing product folds \u2014 momentum conserved only MOD G=2pi/a. (2) Two-pump collision: q1+q2=3.5 > coarse band 3.1416 -> daughter at -2.7857 = folded -2.7832 (not naive 3.5); umklapp=True. (3) CONTROL (agent-zero): refine 4x (band 3.1416 -> 12.5664) and the SAME interaction does NOT fold (daughter 3.7061 = unfolded 3.5); refine-kills-fold=True. So the fold is a genuine SAMPLING-CUTOFF effect, vanishing as the Nyquist limit rises \u2014 not coded-in physics. TESTABLE PREDICTION (what the analogy buys): IF the universe is a discrete-time grid (the fractal Planck-DSP bet), vacuum momentum is conserved only mod G ~ Planck momentum -> 'vacuum Umklapp': extreme-momentum-transfer interactions show apparent momentum non-conservation by G / anomalous back-scatter \u2014 a distinct LIV channel from Phase-2's dispersion-LIV, reachable at lower per-quantum energy because mixing STACKS momentum toward the cutoff (dp). HONESTY: Umklapp is textbook condensed-matter (momentum mod G); NOT novel. The novel falsifiable claim is its application to the VACUUM substrate (momentum mod a Planck-scale G), currently UNOBSERVED (momentum conservation is exact to high precision) -> a risky Bucket-1 bet, Planck-suppressed for single interactions, NOT a confirmation. Bucket 0 unchanged. All of it is conditional on the fractal bet that a Planck grid behaves like a sampler \u2014 the hypothesis under test, stated as such."
+}
