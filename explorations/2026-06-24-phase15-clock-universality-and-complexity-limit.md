@@ -30,6 +30,45 @@ mechanism-dependence (the dead instrument-effect discriminator) is forbidden *pr
 every mechanism is a fractal subpattern sharing `S`. A genuine **generative** result (explains a
 known fact GR assumes), exactly as dp framed it.
 
+> **⚠ CORRECTION (dp 2026-06-24): the Part-B-continuum "null" below is CONTAMINATED — withdrawn as
+> a refutation.** The γ-cancellation (footprint `L/γ` × coherence `τγ`) *assumes emergent Lorentz
+> invariance* — it boosts into the pattern's rest frame and back. But the absolute-time substrate
+> *derives* Lorentz invariance only for **simple propagation** (Phase-5/6); it does **not** grant it
+> a priori for the **identity-preservation of a complex composite**, which is a discreteness-regime
+> question (where emergent Lorentz breaks, Phase-13). So the null assumed its own conclusion (used
+> SR to refute a distinctive substrate claim) — a conventional-prior contamination. The heavy-ion
+> "counterexample" also fails: a heavy ion is one *particle* (a fundamental pattern), not a composite
+> at the spaceship/galaxy scale dp means. **The complexity speed limit is therefore OPEN, not
+> refuted.** dp's sharper model: *every pattern has a fundamental frequency at which it can exist
+> (this quantizes the fractal), and that governs the speed at which the whole pattern can translate
+> and remain recognizably the same.* Attempts to formalize it give either spurious cancellation
+> (assuming SR) or absurd magnitudes (e.g. v_max=L·f₀ → ~150 km/s for hydrogen, clearly wrong) — i.e.
+> the **operational definitions are not yet pinned** ("fundamental frequency at which a pattern
+> exists"; "recognizably the same"). Status: neither refuted (my null was contaminated) nor confirmed
+> (my models give nonsense) — genuinely open, bottlenecked on definitions, not compute. The
+> below is preserved as the (withdrawn) continuum-Lorentz-assuming argument.
+>
+> **↳ The unifying frame (dp 2026-06-24): identity-preservation IS a phase transition.** "Internal
+> pattern frequencies" are observed as **temperature**; a pattern holds only while those frequencies
+> sit within a **quantized band** (its "fundamental frequency at which it can exist"). Translation
+> dilates all internal frequencies (Part A, ×S=1/γ). The thresholds are substrate properties
+> (global-frame-fixed); as the pattern's frequencies drift relative to the fixed thresholds, it
+> reaches a band edge and **"no longer holds, but another pattern does" — a phase transition** =
+> loss of "recognizably the same." Complexity → narrower / more-constrained band (more fractal levels
+> to hold simultaneously) → edge crossed at LOWER v → lower identity-preservation speed; simple
+> patterns (wide/open band) → v_max→c. **This grounds the whole speed/identity/time-dilation question
+> in Synchronism's STRONGEST reproducible machinery** — the phase-transition / coupling-coherence
+> results (p_crit ∝ 1/⟨C⟩; Hill-beats-tanh; the saturation step-function). OPEN TENSIONS (do not
+> prematurely close): (i) absolute thresholds + frame-dependent transition = a preferred-frame / LIV
+> effect — yet cosmic-ray nuclei near c don't spontaneously transition, so either the thresholds
+> effectively co-move at low energy (breaking only at discreteness ⇒ (v/c)-suppressed, folds into
+> door #2) or there's a distinctive regime; unsettled. (ii) band-width-vs-complexity and
+> threshold-spacing need pinning **against the existing p_crit / coupling-coherence numbers**, not a
+> fresh speculative sim. CONSTRUCTIVE NEXT: connect the translation-induced frequency shift to the
+> repo's phase-transition results to derive a concrete velocity-induced-phase-transition /
+> identity-preservation prediction. Status: OPEN, grounded, definition-bottlenecked — neither
+> refuted nor confirmed.
+
 ## Part B (continuum) — the complexity speed limit does NOT emerge (honest correction)
 
 Coherence needs the binding signal (speed `c` = reconstruction rate) to round-trip the footprint
