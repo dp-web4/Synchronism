@@ -1,0 +1,39 @@
+{
+  "A_decoherence_rates": [
+    {
+      "k": 1.0,
+      "gamma": 0.19999999999975593,
+      "pred_2Dk2": 0.2
+    },
+    {
+      "k": 2.0,
+      "gamma": 0.8000000000001339,
+      "pred_2Dk2": 0.8
+    },
+    {
+      "k": 3.0,
+      "gamma": 1.7999999999998018,
+      "pred_2Dk2": 1.8
+    },
+    {
+      "k": 4.0,
+      "gamma": 3.2000000000000917,
+      "pred_2Dk2": 3.2
+    }
+  ],
+  "A_bump_peaks": {
+    "t0": 1.0,
+    "t1": 0.408248290463863,
+    "t10": 0.1400455866498765
+  },
+  "B_energy": [
+    1.1077836568159474,
+    1.1077836568159474,
+    1.1077836568159471,
+    1.1077836568159474,
+    1.1077836568159471
+  ],
+  "B_energy_drift": 2.0044040509068721e-16,
+  "D_planck_diffusion_m2_s": 4.8447679999999996e-27,
+  "conclusion": "dissipative substrate gives intrinsic-decoherence signature (Gamma=2Dk^2) but no matter; conservative wave+focusing substrate gives matter but no signature; door-#3 novel prediction is blocked by the two-substrate split (realizes tension #4: oscillation vs dissipation are competing not harmonious). Specific obstruction + constructive condition, not a structural closure. Bucket 0 = 0."
+}

@@ -46,7 +46,22 @@
 > physics ontology. Unified verdict: Synchronism's demonstrated value across both axes is a
 > *productive-metaphor generator* (illuminating syntheses of known content), not predictive/foundational.
 > Generativity ≠ confirmation; applied success ⊥ physics truth.
-> See `explorations/2026-06-24-applied-axis-generativity-not-confirmation.md` and
+> **Recalibration (dp, 2026-06-24)** — the "structurally closed" verdict applied an *asymmetric standard*
+> (all physics is partial/posit/fit-laden: GR ⊥ QM; MOND's a₀ + dark matter are fits; Λ is the worst
+> fine-tuning). Fairer verdict: **a partial model no worse *in kind* than the standard partials**, with
+> the galactic no-go *scoped to the equilibrium-from-snapshot interpretation* (which DM/MOND also fit),
+> radiative refutation + Hulse–Taylor *standing*, and **door #3 (secular/time-domain) genuinely open.**
+> **Phase-15** — derives clock universality / EP from fractal self-similarity (resolves the Phase-9
+> tension); opens **complexity-enhanced LIV** (dephasing ∝ Δk²). **Phase-16 (door #3, mine)** — door #3's
+> natural novel prediction = **intrinsic decoherence ∝ D·k²** from the *dissipative* substrate (S666;
+> distinctive vs unitary QM; *near-reach*, τ~days–yr at atomic/nm — NOT Planck-killed). But it's gated:
+> the dissipative substrate that makes the signature **can't host matter**, and the conservative matter
+> substrate has **no signature** — the "two substrates connected only by narrative" problem is the gate
+> on door #3 (realizes tension #4: oscillation vs dissipation are *competing*). Open but obstructed (not
+> closed, per recalibration); becomes a bet iff matter = a *dissipative soliton* or the substrates unify.
+> See `explorations/2026-06-24-phase16-door3-dissipation-vs-oscillation.md`,
+> `…-applied-axis-generativity-not-confirmation.md`, `…-substrate-arc-capstone-verdict.md`,
+> `…-data-mrh-and-symmetric-standards-recalibration.md`, `…-phase15-…`,
 > `…/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*

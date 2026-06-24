@@ -67,6 +67,21 @@ ledger is the correction.*
 > content most distinctive. **It is an untested *direction*, NOT a registered bet — no specific
 > falsifiable prediction yet, so it is deliberately NOT added to Bucket 1.** **Bucket 0 = 0,
 > unchanged.**
+>
+> **⚠ Phase-16 (2026-06-24) — door #3 has a specific internal gate.** Its most natural novel
+> prediction is **intrinsic decoherence ∝ D·k²** from the *dissipative* substrate (S666; standard
+> QM is unitary, so this is genuinely distinctive — and notably *near-reach*, τ~days–yr at
+> atomic/nm scale for Planck diffusion, **not** Planck-killed). But the dissipative substrate
+> **cannot host matter** (S617/S665/S666: it disperses; that is why Phase-1 needed a *conservative*
+> wave+focusing substrate), and the conservative matter substrate carries **no** intrinsic
+> decoherence. So the door-#3 signature lives in the substrate that cannot make the matter to
+> exhibit it — the "two substrates connected only by narrative" problem (Bucket 2) is the **gate on
+> door #3**, and this realizes the long-standing oscillation-vs-dissipation tension (they are
+> *competing*, not harmonious). Door #3 becomes a real bet **iff** the framework commits to
+> dissipative-fundamental with matter as a *dissipative soliton* (focusing balancing dissipation),
+> **or** unifies the two substrates so the dissipation is a derived property. Until then: open but
+> obstructed, with a named gate — not closed (per the recalibration), not yet a bet.
+> See `explorations/2026-06-24-phase16-door3-dissipation-vs-oscillation.md`.
 
 *Companion docs: [SPINE.md](SPINE.md) (the argument), [STATUS.md](STATUS.md) (live
 MRH-state), [FUNDAMENTALS.md](FUNDAMENTALS.md) (definitions).*
