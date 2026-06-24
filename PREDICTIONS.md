@@ -48,6 +48,26 @@ ledger is the correction.*
    genuine eliminations and stay. The lens only forbids mistaking "nothing yet" (a flat
    floor) for "it failed" (a refutation). They are different claims.
 
+> **⚠ Frame recalibration (2026-06-24 — symmetric standards + the data's MRH).** A frame-level
+> audit (dp, [`explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md`](explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md))
+> softened the arc's "physics structurally closed/refuted" verdict — **without moving any bucket.**
+> Two corrections, both about *standard* and *data-MRH*, not about the counts: (1) **Symmetric
+> standards** — judging Synchronism by a "unified + predictive everywhere" bar is asymmetric, since
+> *all* physics is partial/posit/fit-laden (GR ⊥ QM; MOND's `a₀` and dark matter are themselves
+> fits; Λ is the worst fine-tuning in science). The honest verdict is **a partial model among
+> partial models, no worse *in kind*** — **a fairer standard, NOT a rescue.** (2) **The data's
+> MRH** — the galactic "no-go" (B2 / door #1) is a no-go *scoped to the equilibrium-from-snapshot
+> interpretation* of rotation curves (we watch ~10⁻⁷ of one orbit; equilibrium is an assumption a
+> decades-long snapshot cannot establish — the same interpretation dark matter and MOND also fit).
+> The binary-pulsar / lab-QM anchors are robust to this critique (decadal / repeatable) — so the
+> **radiative refutation (Bucket 2) and Hulse–Taylor STAND; this scopes, it does not un-refute.**
+> Constructive output: door #3 — **secular / time-domain observables** (drift of "constants" vs the
+> absolute tick, pulsar-timing-array correlations, dissipation/arrow-of-time, cosmological
+> evolution) — is the genuinely-open DIRECTION where the snapshot is weakest and the absolute-time
+> content most distinctive. **It is an untested *direction*, NOT a registered bet — no specific
+> falsifiable prediction yet, so it is deliberately NOT added to Bucket 1.** **Bucket 0 = 0,
+> unchanged.**
+
 *Companion docs: [SPINE.md](SPINE.md) (the argument), [STATUS.md](STATUS.md) (live
 MRH-state), [FUNDAMENTALS.md](FUNDAMENTALS.md) (definitions).*
 

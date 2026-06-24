@@ -12,6 +12,21 @@ the status line at the bottom of every section.*
 
 ## The one move
 
+> **⚠ Current verdict (2026-06-24 — the substrate-physics arc has CONVERGED).** Read this page
+> against the arc's terminal documents:
+> [`explorations/2026-06-24-substrate-arc-capstone-verdict.md`](explorations/2026-06-24-substrate-arc-capstone-verdict.md)
+> + the frame recalibration
+> [`explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md`](explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md).
+> Recalibrated bottom line: Synchronism is **a partial model among partial models, no worse *in
+> kind*** than the standard partial theories (GR ⊥ QM; MOND's `a₀` and dark matter are themselves
+> fits; Λ is the worst fine-tuning in science) — **a fairer standard, not a validation.**
+> Static/kinematic gravity = a clean GR reparametrization (**stands**); radiative gravity =
+> **refuted** (spin-0 GW vs observed spin-2; Hulse–Taylor stands); galactic = a no-go *scoped to the
+> equilibrium-from-snapshot interpretation* (the one dark matter / MOND also fit); the applied axis
+> is **generative, not confirmatory** (see "What it's already good for," below). **Bucket 0 = 0,
+> unchanged.** The one genuinely-open direction is door #3 (secular / time-domain) — an untested
+> *direction*, **not a registered bet**.
+
 **Synchronism is a single-observer, CFD-like model of the physical universe.**
 
 That sentence is the whole thing. Unpack it:
@@ -138,6 +153,22 @@ systems** — and a dictionary that builds things is doing its job.
 **applied** axis (design ontology), explicitly distinct from the **physics** axis (which
 reads zero-confirmed). Both claims are true; this section is the one the old entry surface
 buried.*
+
+> **⚠ Precision (2026-06-24) — the applied value is GENERATIVE, not CONFIRMATORY, and is
+> logically *independent* of the physics being true.** The applied-axis session
+> ([`explorations/2026-06-24-applied-axis-generativity-not-confirmation.md`](explorations/2026-06-24-applied-axis-generativity-not-confirmation.md))
+> applied the framework's own productive-vs-degenerate test to this section's claims: MRH is — per
+> its own foundation doc — an *extension of the Markov blanket* (a weighted, typed, hierarchical
+> relevance graph = RDF ⊕ soft relevance ⊕ holarchy ⊕ active inference). It is a **productive
+> synthesis / vocabulary**, genuinely used — but **not a novel primitive**, and its usefulness
+> holds **regardless of whether the intent-substrate ontology is correct** (it "aligns with" the
+> Free Energy Principle just as well). So this section demonstrates Synchronism's **generativity**
+> (it inspired useful design syntheses), **not** the truth of the physics "one move." *Motte* (the
+> design vocabulary is useful) is true; *bailey* (Synchronism is a model of the universe) is
+> unproven (Bucket 0 = 0); and the motte's truth says **nothing** about the bailey, because the
+> vocabulary works regardless of the physics. Keep both clauses — but do not let "applied is
+> load-bearing" be read as evidence for the physics bailey. (The text above is preserved; this only
+> names the *kind* of value precisely.)
 
 ---
 
@@ -318,6 +349,22 @@ measuring pattern**, rather than on "spacetime itself"? The discriminator is
 effect allows physically different clock mechanisms to respond differently. Clock-universality
 experiments already constrain this — which is exactly why a *dedicated differential-mechanism*
 test at the frontier of precision is the one that would decide it.
+
+> **⚠ Correction (Phase-9, 2026-06-23/24) — this invitation is dead AS A CONTINUUM
+> DISCRIMINATOR; it survives only relocated to discreteness.** The invitation above is preserved
+> as written, but Phase-9
+> ([`explorations/2026-06-23-phase9-matter-sector-precession-and-instrument-effect-tension.md`](explorations/2026-06-23-phase9-matter-sector-precession-and-instrument-effect-tension.md))
+> undercut its discriminator. The arc's own inflow gravity model advects *every* pattern by **one
+> universal `u(r)`** — which **is** the equivalence principle Phase-3c celebrates deriving — so it
+> predicts **clock universality** (`dτ/dt = √(1−2GM/r)` for *any* internal mechanism), i.e. exactly
+> the *no* mechanism-dependence this test needs to detect. EP-derivation and mechanism-dependence
+> are mutually exclusive; the continuum inflow result therefore **removes the bet's only handle
+> rather than vindicating it** (it is identical to GR by construction). The one survival path is the
+> same door as discreteness / LIV: if sampling makes different patterns sample the grid slightly
+> differently, universality breaks at the LIV order and *that* deviation would be genuinely
+> mechanism-dependent and testable. So the honest status is: **dead as a continuum discriminator,
+> relocated (not deleted) to discreteness/LIV.** See [PREDICTIONS.md](PREDICTIONS.md) Bucket 1
+> (B-dispersion / LIV flag).
 
 If either survives a dedicated test, the implications run far past this repo. If either fails
 one, that's the refutation borrowed data cannot deliver — and the program learns what
