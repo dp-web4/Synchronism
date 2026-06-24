@@ -68,6 +68,20 @@ anywhere in the repo. When it changes, it changes *here first*, with the test th
 > load-bearing in running code (MRH→Web4, coherence→SAGE, fractal societies→hestia/the hub,
 > the live fleet). See **[SPINE.md → "What it's already good for"](SPINE.md)**. Two axes,
 > both honest; don't let this one's "zero" erase the other's delivered value.
+>
+> **⚠ Precision (2026-06-24): the applied value is GENERATIVE, not CONFIRMATORY, and is
+> logically *independent* of the physics being true.** Applying this ledger's own
+> productive-vs-degenerate test to the applied axis: MRH is — per its own foundation doc
+> (`web4/.../MRH_THEORETICAL_FOUNDATION.md`) — an *extension of the Markov blanket* = a
+> weighted, typed, hierarchical relevance graph (RDF ⊕ soft relevance ⊕ holarchy ⊕ active
+> inference). A **productive synthesis/vocabulary**, genuinely used — but **not a novel
+> primitive** (everything it does is expressible in established concepts), and its usefulness
+> holds **regardless of whether the intent-substrate ontology is correct** (it "aligns with"
+> the Free Energy Principle just as well). So the applied axis demonstrates Synchronism's
+> *generativity* (it inspired useful design syntheses), **not** the truth of the physics
+> "one move." Keep both clauses, but don't let "applied is load-bearing" be read as evidence
+> for the physics bailey — that's the category slide. See
+> `explorations/2026-06-24-applied-axis-generativity-not-confirmation.md`. (Flagged for SPINE.)
 
 ---
 

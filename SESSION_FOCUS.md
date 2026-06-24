@@ -28,7 +28,17 @@
 > scalar gravity radiatively. PATTERN (Phase-13 + Phase-14): the framework's *defining commitments*
 > (absolute time; flat space + scalar substrate) reproduce known physics in the static/kinematic sector
 > and force *already-refuted* predictions in the dynamical/radiative sector.
-> See `explorations/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
+> **Applied-axis frame finding (2026-06-24)** — stressed SPINE's "physics unproven but applied is
+> load-bearing" shelter with the framework's own productive-vs-degenerate test. MRH (per its own
+> foundation doc) = extension of the Markov blanket = weighted/typed/hierarchical relevance graph
+> (RDF ⊕ soft relevance ⊕ holarchy ⊕ active inference): a **productive synthesis, not a novel
+> primitive**, and its usefulness is **logically independent** of the physics being true. So the applied
+> axis shows Synchronism's **generativity** (it inspired useful syntheses), **not** the truth of the
+> physics ontology. Unified verdict: Synchronism's demonstrated value across both axes is a
+> *productive-metaphor generator* (illuminating syntheses of known content), not predictive/foundational.
+> Generativity ≠ confirmation; applied success ⊥ physics truth.
+> See `explorations/2026-06-24-applied-axis-generativity-not-confirmation.md` and
+> `…/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
