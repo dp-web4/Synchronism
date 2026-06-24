@@ -13,9 +13,15 @@
 > **Phase-12** — door #2 (LIV): the "symmetry-protected untestable" claim is **scoped to time-of-flight**
 > (sealed that leak: preferred frame ⇒ anisotropic n=2, not n=1). But **dim-4 LIV (c-anisotropy) is
 > even-in-k, NOT forbidden by the symmetry, and reachable (~1e-18–1e-22)** — radiatively generic
-> (Collins+ 2004). **Door #2 is falsifiable at dim-4, not untestable** — pending the framework's
-> unspecified interacting UV completion (compute induced dim-4 LIV, or exhibit the custodial symmetry).
-> See `explorations/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-`.
+> (Collins+ 2004). **Door #2 is falsifiable at dim-4, not untestable.**
+> **Phase-13** — closes the custodial escape: the only symmetry forbidding dim-4 LIV is Lorentz **boost
+> invariance**, which **absolute time gives up**; Phase-6's emergent Lorentz is external-leg/tree-level,
+> not a loop symmetry; toy confirms dim-4 LIV decouples ⟺ UV-finite, goes marginal at D=4 (marginal
+> couplings). **NAMED FOUNDATIONAL TENSION: absolute time ⊥ a Standard-Model-containing completion with
+> sub-1e-22 Lorentz invariance.** Door #2 = the framework's sharpest falsification risk, tied to its
+> defining commitment. The arc's high-water mark (still Bucket 0 = 0; a forced disagreement pointing to
+> refutation-or-fine-tuning, not a confirmation).
+> See `explorations/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 

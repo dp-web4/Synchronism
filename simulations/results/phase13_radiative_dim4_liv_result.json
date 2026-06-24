@@ -1,0 +1,58 @@
+{
+  "setup": "continuous-time + spatial-lattice phi^3 bubble; g=m; a=1; ds=spatial-dim proxy",
+  "rows": [
+    {
+      "ma": 0.5,
+      "A": -0.025152580163124647,
+      "B": -0.02340721434037902,
+      "c_liv": -0.0693911245457215
+    },
+    {
+      "ma": 0.25,
+      "A": -0.08252433878069325,
+      "B": -0.0809679079622036,
+      "c_liv": -0.01886026403223695
+    },
+    {
+      "ma": 0.125,
+      "A": -0.1971754629462235,
+      "B": -0.19602462344678545,
+      "c_liv": -0.0058366263339365565
+    },
+    {
+      "ma": 0.0625,
+      "A": -0.2975514061045855,
+      "B": -0.29695211863471355,
+      "c_liv": -0.002014063646069042
+    }
+  ],
+  "c_liv_power_in_ma_2D": 1.7011853161941544,
+  "uv_fraction": 0.04331772832248326,
+  "kcut_fracs": {
+    "0.25": -0.7878535210036218,
+    "0.5": 0.8227609810280022,
+    "0.75": 0.9566822716775167,
+    "0.9": 0.9852883973216194
+  },
+  "decoupling_power_scan": [
+    {
+      "ds": 1,
+      "D": 2,
+      "power": 1.7011853161941544,
+      "verdict": "decouples"
+    },
+    {
+      "ds": 2,
+      "D": 3,
+      "power": 0.5425561728775415,
+      "verdict": "MARGINAL"
+    },
+    {
+      "ds": 3,
+      "D": 4,
+      "power": 0.09878177916898889,
+      "verdict": "MARGINAL"
+    }
+  ],
+  "verdict": "2D decoupling is a super-renormalizable artifact; p->0 (marginal, non-decoupling dim-4 LIV) as the loop becomes UV-log-divergent (D=4). Framework needs marginal couplings; only custodial symmetry is boost invariance, which absolute-time forbids; Phase-6 emergent-Lorentz is external-leg not a loop symmetry. Custodial escape closed."
+}
