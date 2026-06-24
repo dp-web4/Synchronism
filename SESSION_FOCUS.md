@@ -1,10 +1,19 @@
 # Synchronism Session Focus
 
-> **⚠ NAVIGATION (2026-06-23): this file is the OLD proposal-verification cadence and is stale
+> **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
-> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-14), [`STATUS.md`](STATUS.md),
-> and [`PREDICTIONS.md`](PREDICTIONS.md) — all current through 2026-06-23. Read **SPINE.md +
-> PREDICTIONS.md + STATUS.md** for current state, not this file. Recent arc:
+> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-14 + capstone), [`STATUS.md`](STATUS.md),
+> and [`PREDICTIONS.md`](PREDICTIONS.md) — all current through 2026-06-24. Read **SPINE.md +
+> PREDICTIONS.md + STATUS.md** for current state, not this file.
+>
+> **➡ ARC CONCLUSION (2026-06-24): [`explorations/2026-06-24-substrate-arc-capstone-verdict.md`](explorations/2026-06-24-substrate-arc-capstone-verdict.md).**
+> **Unified verdict — Synchronism is a *productive-metaphor generator*:** generative/pedagogical
+> (illuminating syntheses of known content — river-model gravity; MRH design vocabulary), not
+> predictive/foundational. **Bucket 0 = 0, structurally.** The defining commitments (absolute time;
+> flat space + scalar substrate) reproduce known physics statically and *force already-refuted*
+> predictions dynamically (Phase-13 dim-4 LIV; Phase-14 spin-0 GW). Door #1 (galactic) = MOND cage;
+> door #2 (LIV) = sharpest falsification risk, not a confirmation path; radiative gravity = refuted;
+> applied success ⊥ physics truth. Productive-failure convergence, not a dismissal. Recent arc:
 > **Phase-9** — inflow/swimmer reproduces full Schwarzschild precession *exactly* (GP in disguise for
 > matter too) ⇒ Bucket-0 novelty confined to two doors (profile-departure / discreteness) + a named
 > tension (EP-derivation ⊥ the instrument-effect bet's discriminator).
