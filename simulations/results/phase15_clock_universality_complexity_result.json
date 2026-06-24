@@ -1,0 +1,94 @@
+{
+  "part_a_clock_universality": {
+    "S_translation": 0.8,
+    "S_concentration": 0.83666,
+    "S_total": 0.669328,
+    "internal_ratio_max_deviation": 2.220446049250313e-16,
+    "per_mechanism_dilation_spread": 1.1102230246251565e-16,
+    "result": "CLOCK UNIVERSALITY DERIVED: all fractal subpatterns share one factor S, so internal ratios are invariant (undetectable from inside) and every mechanism dilates identically \u2014 GR's clock universality / equivalence principle FALLS OUT of fractal self-similarity, not posited. Explains Phase-9's clock-universality and why mechanism-dependence is forbidden."
+  },
+  "part_b_continuum_no_limit": {
+    "rows": [
+      {
+        "v": 0.0,
+        "gamma": 1.0,
+        "coherence_margin": 0.5
+      },
+      {
+        "v": 0.6,
+        "gamma": 1.25,
+        "coherence_margin": 0.5
+      },
+      {
+        "v": 0.9,
+        "gamma": 2.294,
+        "coherence_margin": 0.5
+      },
+      {
+        "v": 0.99,
+        "gamma": 7.089,
+        "coherence_margin": 0.5
+      },
+      {
+        "v": 0.999,
+        "gamma": 22.366,
+        "coherence_margin": 0.5
+      },
+      {
+        "v": 0.9999,
+        "gamma": 70.712,
+        "coherence_margin": 0.5
+      }
+    ],
+    "coherence_margin_velocity_independent": true,
+    "result": "NO sub-c complexity speed limit in the continuum: the contraction (L/\u03b3) and dilation (\u03c4\u00b7\u03b3) CANCEL, so the coherence margin is velocity-INDEPENDENT \u2014 a pattern coherent at rest stays coherent at any v<c (this IS emergent Lorentz invariance, Phase-5/6). Consistent with heavy ions surviving at 0.9999c. So 'complex can't go fast intact' is NOT a fundamental sub-c effect; the readily-observable complexity\u2194speed relation is the standard ENERGY cost (E=\u03b3mc\u00b2), not novel. dp's 'reinforce complexity limit' does NOT hold in the continuum."
+  },
+  "part_b_discrete_complexity_enhanced_LIV": {
+    "boost_sweep": [
+      {
+        "carrier_k0": 0.1,
+        "relativistic_GVD": 0.98519,
+        "lattice_GVD": 0.98025,
+        "LIV_extra_GVD": 0.004934
+      },
+      {
+        "carrier_k0": 0.5,
+        "relativistic_GVD": 0.71554,
+        "lattice_GVD": 0.62107,
+        "LIV_extra_GVD": 0.094472
+      },
+      {
+        "carrier_k0": 1.0,
+        "relativistic_GVD": 0.35355,
+        "lattice_GVD": 0.12372,
+        "LIV_extra_GVD": 0.229838
+      },
+      {
+        "carrier_k0": 2.0,
+        "relativistic_GVD": 0.08944,
+        "lattice_GVD": -0.32279,
+        "LIV_extra_GVD": 0.412231
+      }
+    ],
+    "complexity_sweep_at_k0_1.0": [
+      {
+        "k_spread_dk_complexity": 0.05,
+        "LIV_dephasing_rate": 0.0005746
+      },
+      {
+        "k_spread_dk_complexity": 0.1,
+        "LIV_dephasing_rate": 0.00229838
+      },
+      {
+        "k_spread_dk_complexity": 0.2,
+        "LIV_dephasing_rate": 0.00919352
+      },
+      {
+        "k_spread_dk_complexity": 0.4,
+        "LIV_dephasing_rate": 0.03677409
+      }
+    ],
+    "result": "The one place a complexity limit survives: on the DISCRETE lattice the \u03b3-cancellation fails at O((k\u00b7a)\u00b2). A pattern's lattice-specific (LIV) group-velocity dispersion grows with boost (carrier k0 \u2192 zone edge) AND its dephasing rate \u221d \u0394k\u00b2 (k-spread = complexity: more localized/complex patterns span more modes). So coherence-breakdown is COMPLEXITY-ENHANCED at the discreteness order \u2014 door #3 collapses into door #2 (LIV), but with a NEW angle: LIV scales with pattern COMPLEXITY (\u0394k\u00b2), not just energy. A complex composite could show the discreteness signature at LOWER per-quantum energy than a simple particle. (pattern/grid)-suppressed but complexity-amplified."
+  },
+  "verdict": "TREADING dp's RICH GROUND (time dilation on the global-clock substrate). PART A \u2014 the GENERATIVE WIN: clock universality is DERIVED from fractal self-similarity (internal ratio deviation 2.2e-16, per-mechanism dilation spread 1.1e-16 \u2014 both ~0). All subpatterns share one factor S=S_v\u00b7S_g, so the pattern can't detect its own slowdown and EVERY mechanism dilates identically. This is exactly dp's claim, and it EXPLAINS GR's clock universality / the equivalence principle (which GR posits) and constructively resolves Phase-9's tension: mechanism-dependence is forbidden BECAUSE all mechanisms are fractal subpatterns sharing S. A genuine generative result. PART B(continuum) \u2014 the HONEST CORRECTION: a sub-c complexity speed limit does NOT emerge \u2014 contraction (L/\u03b3) and dilation (\u03c4\u00b7\u03b3) cancel, the coherence margin is velocity-independent (v_indep=True), so a pattern coherent at rest survives at any v<c (emergent Lorentz invariance; heavy ions at 0.9999c confirm). dp's 'reinforce complexity limit' does NOT hold in the continuum; the observable complexity\u2194speed relation is the standard energy cost E=\u03b3mc\u00b2. PART B(discrete) \u2014 the NEW BET: the cancellation fails at O((k\u00b7a)\u00b2) on the lattice, and the LIV dephasing rate \u221d \u0394k\u00b2 (complexity) and grows toward the zone edge (boost). So door #3 folds into door #2 (LIV) but adds a genuinely new angle \u2014 LIV is COMPLEXITY-ENHANCED (\u221d k-spread\u00b2), so a complex composite could show the discreteness signature at LOWER per-quantum energy than a simple particle. That is a candidate door-#3 prediction (still (pattern/grid)-suppressed, not yet a quantified falsifier). NET: one generative win (clock universality derived), one honest null (no continuum complexity limit \u2014 corrects the intuition), one new candidate bet (complexity-enhanced LIV). Bucket 0 = 0."
+}
