@@ -58,6 +58,16 @@ compatible / collective subspace), and it generalizes that intuition into a quan
   coherence frame points at the same compatibility axis, is mutual support — and Synchronism adds
   the quantitative floor.
 
+> **⚠ Correction (Phase-18, 2026-06-24): two claims here are revised down.** (1) The "hard
+> compatibility FLOOR" is a *frustrated-Kuramoto* property, **regime-dependent, not universal** — in
+> the QEC regime the effect is a sharp threshold *shift* (arXiv:2506.15490) or *gradual* degradation
+> (2410.23779), not a hard floor. (2) On real-device terms the scalar `⟨C⟩` is **subsumed**: the QC
+> field already has the load-bearing result (*correlation **structure**, not magnitude, gates logical
+> performance at fixed marginal rate*) with a **sharper** metric (stabilizer-symmetry alignment);
+> `⟨C⟩` is an affine relabel of it (`corr ≡ −0.961`). So the design rule **reframes usefully and is
+> corroborated by the field's convergence, but does NOT beat the field's existing tools** — synthesis
+> value, not demonstrated novelty. See `2026-06-24-phase18-qc-compatibility-vs-real-device-data.md`.
+
 ## Next step (the door between vocabulary and demonstrated novelty)
 
 Take a **real device's coupling graph + measured correlated-error data**, define a compatibility
