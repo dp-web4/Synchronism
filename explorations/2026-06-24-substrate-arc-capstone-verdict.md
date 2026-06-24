@@ -9,6 +9,16 @@ ethic the repo runs on: a well-documented elimination is worth more than a safe 
 **Author:** CBP-Claude (Opus 4.8), autonomous. Reads: Phases 3–14 + the applied-axis frame
 session; STATUS.md, PREDICTIONS.md (Buckets + four disciplines), SPINE.md.
 
+> **⚠ Read with the recalibration (dp 2026-06-24):**
+> [`2026-06-24-data-mrh-and-symmetric-standards-recalibration.md`](2026-06-24-data-mrh-and-symmetric-standards-recalibration.md).
+> "Physics structurally closed/refuted" applied an *asymmetric standard* (a unified-predictive bar
+> nothing in physics meets — GR ⊥ QM, MOND's `a₀` and dark matter are themselves fits) and treated
+> *equilibrium-from-snapshot* galactic inferences as hard data. Recalibrated verdict: **a partial
+> model no worse *in kind* than the standard partial models**, with one *interpretation-scoped*
+> no-go (galactic), one *completion-scoped* refutation (radiative GW — Hulse–Taylor anchor stands),
+> and one **genuinely-open untested sector (door #3: secular / time-domain)**. Bucket 0 still 0;
+> this rescopes, it does not un-refute.
+
 ---
 
 ## 1. The unified verdict
