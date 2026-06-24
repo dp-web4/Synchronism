@@ -93,6 +93,17 @@ nothing is un-refuted by appeal to "the data might be wrong." (Kimi's warning �
 absorbs its own falsification into its ontology is not doing science* — is respected: this scopes
 falsifications by their data-MRH; it does not erase them.)
 
+> **⚠ Update (Phase-15/16, 2026-06-24): door #3's *concrete* observable is now refuted; the door
+> narrows.** Phase-15 folded the temporal/secular sector into door #2 (the distinctive content is a
+> preferred-frame effect) and gave it a concrete signature via dp's phase-transition framing
+> (velocity-induced, CMB-anisotropic phase-transition thresholds). Phase-16 computed its magnitude
+> (`~β² ~ 10⁻⁶` quadrupole, `~β ~ 10⁻³` dipole) and found it **refuted by existing optical-cavity /
+> Hughes–Drever isotropy bounds (~10⁻¹⁸–10⁻²²) by 11–19 orders** (Bucket 2). So the door-#3 "open
+> direction" below should be read as **mostly closed**: its testable distinctive observable is
+> refuted; what survives is (a) the *generative* clock-universality derivation (Phase-15 Part A, not
+> a prediction) and (b) the structurally-untestable Planck-scale time-of-flight channel (Phase-12).
+> The text below is preserved as the (now-narrowed) original framing.
+
 ## 4. The constructive output — a third door (where the snapshot is weakest)
 
 The data-MRH audit is not only defensive. It points at where a *novel* prediction could actually
