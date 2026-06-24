@@ -1,0 +1,88 @@
+{
+  "setup": {
+    "N": 24,
+    "trials": 400000,
+    "p_marginal_fixed": 0.02,
+    "f_corr_fixed": 0.4,
+    "note": "single-qubit marginal rate held fixed; only correlation STRUCTURE varied"
+  },
+  "alignment_sweep_fixed_marginal": [
+    {
+      "aligned_fraction": 0.0,
+      "compatibility_C": 0.6,
+      "logical_error_rate": 0.13252
+    },
+    {
+      "aligned_fraction": 0.1,
+      "compatibility_C": 0.64,
+      "logical_error_rate": 0.13129
+    },
+    {
+      "aligned_fraction": 0.2,
+      "compatibility_C": 0.68,
+      "logical_error_rate": 0.13167
+    },
+    {
+      "aligned_fraction": 0.3,
+      "compatibility_C": 0.72,
+      "logical_error_rate": 0.1301
+    },
+    {
+      "aligned_fraction": 0.4,
+      "compatibility_C": 0.76,
+      "logical_error_rate": 0.13054
+    },
+    {
+      "aligned_fraction": 0.5,
+      "compatibility_C": 0.8,
+      "logical_error_rate": 0.12952
+    },
+    {
+      "aligned_fraction": 0.6,
+      "compatibility_C": 0.84,
+      "logical_error_rate": 0.12767
+    },
+    {
+      "aligned_fraction": 0.7,
+      "compatibility_C": 0.88,
+      "logical_error_rate": 0.12873
+    },
+    {
+      "aligned_fraction": 0.8,
+      "compatibility_C": 0.92,
+      "logical_error_rate": 0.12826
+    },
+    {
+      "aligned_fraction": 0.9,
+      "compatibility_C": 0.96,
+      "logical_error_rate": 0.12666
+    },
+    {
+      "aligned_fraction": 1.0,
+      "compatibility_C": 1.0,
+      "logical_error_rate": 0.12644
+    }
+  ],
+  "structure_only_LER_gap_(misaligned-aligned)": 0.00608,
+  "control_marginal_rate_sweep": [
+    {
+      "p_marginal": 0.01,
+      "aligned_fraction": 0.0,
+      "logical_error_rate": 0.07136
+    },
+    {
+      "p_marginal": 0.02,
+      "aligned_fraction": 0.0,
+      "logical_error_rate": 0.1329
+    },
+    {
+      "p_marginal": 0.04,
+      "aligned_fraction": 0.0,
+      "logical_error_rate": 0.23185
+    }
+  ],
+  "corr_compatibilityC_with_LER": -0.9611,
+  "corr_alignedfraction_with_LER": -0.9611,
+  "C_is_affine_relabel_of_structure": true,
+  "verdict": "DISCRIMINATING TEST -- does scalar 'compatibility' \u27e8C\u27e9 BEAT, or merely RELABEL, the QC field's structural (stabilizer-symmetry-alignment) metric? At FIXED marginal error rate p=0.02 and FIXED correlated fraction f=0.4, sweeping ONLY the alignment structure moves the logical error rate from 0.13252 (all-misaligned, fatal weight-2) to 0.12644 (all-aligned, logically benign) -- a structure-only gap of 0.00608 at IDENTICAL marginal rate. This reproduces the literature's fixed-marginal finding (arXiv:2506.15490, 2410.23779): correlation STRUCTURE, not magnitude, sets logical performance. The scalar 'compatibility' C=(1-f)+f*aligned_fraction tracks LER perfectly (corr(C,LER)=-0.961) -- but ONLY because C is an affine function of aligned_fraction (corr(aligned_fraction,LER)=-0.961); they are the SAME axis at different resolution. VERDICT: on real-device-shaped correlation data, the compatibility lens names the CORRECT design axis (correlation structure / compatible-vs-destructive coupling, consonant with why DFS & symmetry-aligned QEC work) -- a genuine REFRAMING/synthesis value -- but a generic scalar \u27e8C\u27e9 does NOT beat the field's own, more specific stabilizer-symmetry-alignment metric; it is SUBSUMED by it (the QC metric specifies WHICH correlations are 'compatible': those matching stabilizer support). So: (ii) TESTABLE-BUT-DATA-LIMITED for the strong 'beats standard metrics' claim (the cross-configuration real-data test is not yet done by anyone), trending (iii) 'reduces to / is subsumed by standard structural metrics' for the scalar form. HONEST: Bucket 0 = 0; this is a toy mechanism + a verdict on the metric's status, NOT a claim of demonstrated novelty on real data."
+}
