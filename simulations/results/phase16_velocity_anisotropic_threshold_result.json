@@ -1,0 +1,21 @@
+{
+  "v_cmb_km_s": 370.0,
+  "beta": 0.0012341871522331626,
+  "gamma_minus_1": 7.616098334217725e-07,
+  "S_dilation_factor": 0.9999992383907466,
+  "isotropic_dilation_exact_(1-S)": 7.616092534412644e-07,
+  "isotropic_dilation_approx_(half_beta2)": 7.616089633687018e-07,
+  "dipole_amplitude_~beta": 0.0012341871522331626,
+  "quadrupole_amplitude_~beta2": 1.5232179267374037e-06,
+  "quadrupole_anisotropy_peak_to_peak": 1.5232190867520146e-06,
+  "existing_bounds_fractional_freq_anisotropy": {
+    "optical_cavity_MM_modern (Nagel 2015, dim-4 SME)": 1e-18,
+    "Hughes-Drever / clock-comparison (nuclear/atomic)": 1e-22,
+    "He-Ne / rotating cavity (Herrmann 2009)": 1e-17
+  },
+  "tightest_bound": 1e-22,
+  "loosest_bound": 1e-17,
+  "OOM_quadrupole_above_tightest_bound": 16.182762042278135,
+  "OOM_quadrupole_above_loosest_bound": 11.182762042278135,
+  "OOM_dipole_above_tightest_bound": 19.091381021139068
+}
