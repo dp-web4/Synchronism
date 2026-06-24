@@ -33,6 +33,12 @@ ledger is the correction.*
    reproduces GR light-bending but **simplifies** (dissolves the Yukawa obstacle as a frame
    artifact, *derives* the equivalence principle GR assumes, unifies bending + time-dilation into
    one flow term) — clears bar (a). Bar (b) — the frontier prediction — is unpaid: still Bucket 0.
+   **⚠ scope correction (Phase-14, 2026-06-23): this reparametrization holds only in the STATIC
+   sector.** The same inflow model in the RADIATIVE sector is *not* GR-in-coordinates — flat space +
+   a scalar irrotational substrate has **no spin-2 DOF**, so it predicts scalar (spin-0) GW
+   polarization, refuted by binary-pulsar timing + LIGO polarization (see Bucket 2). So the gravity
+   sector is a *productive reparametrization statically* but a *refuted distinct theory radiatively* —
+   not a single clean coordinate change.
 4. **Flat floor ≠ refutation (the saturation reading).** Saturation makes emergence a
    *step* function — flat floor → step → ceiling-that-becomes-the-next-floor (see
    [SPINE.md](SPINE.md) and FUNDAMENTALS §3). A flat result can be a *pre-step floor*, not a
@@ -128,6 +134,7 @@ possibility. That is the program working as designed (productive failure > safe 
 | Hot-SC T_c formula (Test-18 / OQ005) | YBCO predicted 607 K vs 93 K actual (6.5×); 22/23 standard CM in η notation | S616 |
 | Fractal coherence bridge (OQ007, cosmology) | 0/7 scale boundaries predicted; decoherence governs the boundary, framework has no decoherence parameter | S611–614 |
 | MRH cluster locality | Reproduces a known Milgrom-2005 locality no-go, not a novel result | S689 |
+| **Inflow gravity — radiative sector (spin-2 GW)** | Flat absolute space + 1-DOF scalar irrotational substrate ⇒ acoustic/GP metric has flat spatial sections (g_ij=δ_ij) ⇒ **zero transverse-traceless (spin-2) DOF**. Predicts scalar (spin-0, breathing) GW polarization, not GR's tensor (spin-2). Refuted: Hulse-Taylor decay matches GR *tensor* quadrupole to 0.2% (Weisberg-Huang 2016); LIGO/Virgo polarization favors pure tensor. (Static-sector reparametrization, Phase-3c/9, stands; only the radiative completion is refuted — tied to the flat-space + scalar-substrate core commitments, the analog-gravity limitation made concrete.) | Phase-14 (2026-06-23) |
 | a₀ from Jeans analysis | Stated formula off by 614×; "5% agreement" came from a different (unre-executed) computation | S687 |
 | Entity criterion (Γ < m) as novel | Standard narrow-resonance / Breit-Wigner condition (textbook QFT since 1951) — last novel-survivor demoted | S660A |
 | Chemistry melting points | 53% mean error | (README honest-limitations) |

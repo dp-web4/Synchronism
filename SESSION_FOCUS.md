@@ -2,7 +2,7 @@
 
 > **⚠ NAVIGATION (2026-06-23): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
-> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-12), [`STATUS.md`](STATUS.md),
+> arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-14), [`STATUS.md`](STATUS.md),
 > and [`PREDICTIONS.md`](PREDICTIONS.md) — all current through 2026-06-23. Read **SPINE.md +
 > PREDICTIONS.md + STATUS.md** for current state, not this file. Recent arc:
 > **Phase-9** — inflow/swimmer reproduces full Schwarzschild precession *exactly* (GP in disguise for
@@ -21,7 +21,14 @@
 > sub-1e-22 Lorentz invariance.** Door #2 = the framework's sharpest falsification risk, tied to its
 > defining commitment. The arc's high-water mark (still Bucket 0 = 0; a forced disagreement pointing to
 > refutation-or-fine-tuning, not a confirmation).
-> See `explorations/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-`.
+> **Phase-14** — breaks the tidy "gravity = GR in coordinates" verdict: it holds only in the STATIC
+> sector. Flat space + scalar irrotational substrate ⇒ acoustic metric has flat spatial sections ⇒
+> **zero spin-2 DOF** ⇒ scalar (spin-0) GW polarization, not GR's tensor ⇒ **refuted** by Hulse-Taylor
+> (0.2% match to *tensor* quadrupole) + LIGO polarization. Gravity = GR statically, a distinct refuted
+> scalar gravity radiatively. PATTERN (Phase-13 + Phase-14): the framework's *defining commitments*
+> (absolute time; flat space + scalar substrate) reproduce known physics in the static/kinematic sector
+> and force *already-refuted* predictions in the dynamical/radiative sector.
+> See `explorations/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 

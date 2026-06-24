@@ -1,0 +1,11 @@
+{
+  "tt_fraction_scalar_trace": 1.0367211884877916e-32,
+  "tt_fraction_scalar_long": 4.325261020879372e-33,
+  "tt_fraction_general_scalar": 4.531324781757657e-33,
+  "tt_fraction_tensor_control": 0.3357972761517942,
+  "L_GR_fiducial_W": 7.373817365840428e+24,
+  "L_inflow_tensor_W": 0.0,
+  "hulse_taylor_obs_over_GR": "1.0013 \u00b1 0.0021 (Weisberg & Huang 2016)",
+  "radiation_note": "scalar substrate radiates at quadrupole order but with SCALAR (spin-0, breathing) polarization, not GR's tensor (spin-2); refutation is wrong polarization + wrong coefficient, not 'no decay'.",
+  "conclusion": "flat-space + scalar irrotational substrate has zero spin-2 (TT) radiative DOF; acoustic/GP metric has flat spatial sections (g_ij=delta_ij); GW polarization is scalar not tensor; refuted by binary-pulsar tensor-quadrupole match (0.2%) + LIGO spin-2 polarization tests. 'GR in coordinates' holds only in the static sector; radiative sector is structurally non-GR and refuted, tied to core commitments (flat Planck grid + scalar substrate)."
+}
