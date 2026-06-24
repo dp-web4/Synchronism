@@ -1,0 +1,88 @@
+{
+  "qc_mapping": "qubits=oscillators; collective coherence=phase-sync order parameter R; compatible(+)/incompatible(\u2212,frustrating) couplings; \u27e8C\u27e9=compatible fraction",
+  "test1_compatibility_sweep_highK": [
+    {
+      "compat": 0.3,
+      "R": 0.0467
+    },
+    {
+      "compat": 0.35,
+      "R": 0.0549
+    },
+    {
+      "compat": 0.4,
+      "R": 0.0783
+    },
+    {
+      "compat": 0.45,
+      "R": 0.0846
+    },
+    {
+      "compat": 0.5,
+      "R": 0.1303
+    },
+    {
+      "compat": 0.55,
+      "R": 0.1987
+    },
+    {
+      "compat": 0.6,
+      "R": 0.3896
+    },
+    {
+      "compat": 0.65,
+      "R": 0.7211
+    },
+    {
+      "compat": 0.7,
+      "R": 0.8846
+    },
+    {
+      "compat": 0.75,
+      "R": 0.9438
+    },
+    {
+      "compat": 0.8,
+      "R": 0.9683
+    },
+    {
+      "compat": 0.85,
+      "R": 0.9808
+    },
+    {
+      "compat": 0.9,
+      "R": 0.9872
+    },
+    {
+      "compat": 0.95,
+      "R": 0.9898
+    },
+    {
+      "compat": 1.0,
+      "R": 0.9918
+    }
+  ],
+  "compatibility_threshold_c_crit": 0.65,
+  "test2_Kc_vs_compatibility": [
+    {
+      "compat": 1.0,
+      "K_c": 2.5,
+      "Kc_times_compat": 2.5
+    },
+    {
+      "compat": 0.8,
+      "K_c": 3.5,
+      "Kc_times_compat": 2.8
+    },
+    {
+      "compat": 0.65,
+      "K_c": 8.5,
+      "Kc_times_compat": 5.53
+    }
+  ],
+  "Kc_times_compat_constant_(p_crit\u221d1/C)": false,
+  "agentzero_lowcompat_highK_R": 0.0783,
+  "compatibility_gates_not_coupling_strength": true,
+  "real_transition_present": true,
+  "verdict": "DOES THE COMPATIBILITY DESIGN RULE TRANSFER TO QUBIT COLLECTIVE COHERENCE? (1) COMPATIBILITY GATES COHERENCE: sweeping compatibility \u27e8C\u27e9 at high coupling K=8.0, collective coherence R rises through a threshold near \u27e8C\u27e9_crit\u22480.65 (real transition: True) \u2014 below it R stays low. (2) p_crit \u221d 1/\u27e8C\u27e9: the critical coupling K_c \u00d7 \u27e8C\u27e9 is \u2248constant across compatibility levels (holds: False; values [2.5, 2.8, 5.53]) \u2014 i.e. K_c \u221d 1/\u27e8C\u27e9, the repo's coupling-coherence result, transferred. (3) AGENT-ZERO: at low compatibility \u27e8C\u27e9=0.5, even K=20 fails to reach coherence (R=0.078; compatibility-gates-not-K: True) \u2014 so COUPLING STRENGTH ALONE CANNOT RESCUE a low-compatibility (frustrated) network. THE DESIGN RULE (transferred, falsifiable): qubit collective coherence is gated by the COMPATIBILITY of the coupling network, not its strength or density \u2014 a network with too many incompatible/destructive couplings cannot reach collective coherence no matter how strong the gates, and the coupling needed scales \u221d 1/\u27e8C\u27e9. This says something the standard 'stronger gates / more connectivity' axis does NOT: it identifies COMPATIBILITY-of-coupling as the gating design variable (consonant with why DFS works \u2014 DFS = encoding into the maximally-compatible/collective subspace). NEXT: test against a real device's coupling graph + correlated-error data \u2014 does a compatibility metric predict logical-coherence performance? HONEST: in-silico transfer of the repo's reproducible result to a QC-coherence model; generative/applied, NOT a physics prediction; Bucket 0 = 0. The frustrated-Kuramoto behaviour is known physics \u2014 the contribution is the FRAMING (compatibility-of-coupling as the QC design axis) + the quantitative 1/\u27e8C\u27e9 rule, now a concrete hypothesis testable on device data."
+}

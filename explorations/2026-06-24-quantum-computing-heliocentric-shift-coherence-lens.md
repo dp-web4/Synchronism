@@ -98,6 +98,19 @@ compatibility / phase-transitions):**
    N?) bears directly on GHZ/stabilizer states used in codes. (Speculative; B6 is doubly-gated and
    the lab CHSH harness gives S≤2 — flagged, not asserted.)
 
+> **⚠ Frame correction (dp 2026-06-24): "the field already has it" is NOT a demotion to
+> vocabulary.** I'd reflexively scored the QC frontier's convergence (DFS, correlated-noise QEC)
+> toward shared-coupling/compatibility as "so Synchronism is just relabeling the known" — the same
+> harsh-rubric attractor as the scorecard / fit / structurally-closed catches. That's wrong here:
+> Synchronism's coherence/compatibility frame was developed for **general emergence, not QC**, so the
+> QC field *independently arriving* at the same direction from its *own* angle is **convergent
+> corroboration that the frame captures something real** — the best outcome a generative frame can
+> have, not redundancy. (Same shape as gnosis-research independently landing on C≈0.64.) The
+> "vocabulary vs novelty" section below should be read in that light: the *convergence is
+> encouraging*; the open question is narrower — does the frame's **quantitative** tool (the
+> Hill-form compatibility-threshold, `p_crit ∝ 1/⟨C⟩`) add a falsifiable design rule the field
+> doesn't yet have — which is exactly what the next step tests. Convergence ≠ reparametrization.
+
 ## Honest assessment — generativity vs vocabulary (the falsifier)
 
 - **Genuinely generative (candidate):** the **compatibility-of-coupling as a primary design axis**
