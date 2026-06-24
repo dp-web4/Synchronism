@@ -167,7 +167,15 @@ productive-metaphor program**, which is exactly where its effort reliably pays.
 
 ## 6. What remains genuinely open vs closed
 
-**Closed (Bucket-0 confirmation is not reachable here):**
+> **⚠ Epistemic note (dp 2026-06-24): read "closed" as "EXHAUSTED WITH CURRENT TOOLS, reopenable
+> when a fresh lens is found" — not permanently shut.** Productive failure eliminates *with the
+> tools/data/frame in hand*; a new lens (or new data — e.g. the data-MRH point on equilibrium
+> inferences) can reopen any of these. With what we have now, *continuing* down these doors would
+> be perseveration; that is a statement about the present toolset, not a permanent verdict. (The
+> generative axis — e.g. the quantum-computing coherence-lens, `2026-06-24-quantum-computing-...md`
+> — is the currently-open arena precisely because it is fielded and fast-iterating.)
+
+**Closed-for-now (Bucket-0 confirmation not reachable with current tools):**
 - Static gravity — Schwarzschild identically (Phase-9), zero wiggle room; a productive
   reparametrization that *stands* but cannot, by construction, pay the loan.
 - Galactic / profile (door #1) — MOND cage (Phase-11); permanent, structural null, not provisional.
