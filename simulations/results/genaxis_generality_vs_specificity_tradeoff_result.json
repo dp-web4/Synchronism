@@ -1,0 +1,43 @@
+{
+  "A_in_domain": {
+    "r2_scalar": 0.1495593568803295,
+    "r2_struct": 0.995647877246494
+  },
+  "B_cross_domain": {
+    "scalar_transfer_r2": 0.15308318633167606,
+    "sign_agreement": 0.62775
+  },
+  "C_tradeoff": [
+    {
+      "struct_weight": 0.0,
+      "r2_scalar_in": 0.9975004797904381,
+      "r2_struct_in": 0.9975054721761162,
+      "scalar_transfer_r2": 0.9975001127403476
+    },
+    {
+      "struct_weight": 0.25,
+      "r2_scalar_in": 0.8972526076166046,
+      "r2_struct_in": 0.9958886741761896,
+      "scalar_transfer_r2": 0.8960123591134159
+    },
+    {
+      "struct_weight": 0.5,
+      "r2_scalar_in": 0.4971209900523166,
+      "r2_struct_in": 0.9949853202464867,
+      "scalar_transfer_r2": 0.5029203988080421
+    },
+    {
+      "struct_weight": 0.75,
+      "r2_scalar_in": 0.09807596593590884,
+      "r2_struct_in": 0.9959624214358758,
+      "scalar_transfer_r2": 0.10727380359140082
+    },
+    {
+      "struct_weight": 1.0,
+      "r2_scalar_in": 0.00010055307110579115,
+      "r2_struct_in": 0.9975177274600727,
+      "scalar_transfer_r2": -0.0003672969753558686
+    }
+  ],
+  "thesis": "generality forces coarseness: a domain-invariant scalar is strictly subsumed in-domain (blind spot) but is the unique cross-domain-transferable descriptor; the frame's unique value is anticipatory cross-domain transfer, not beating a domain's native metric (structurally impossible). Bucket 0 = 0."
+}

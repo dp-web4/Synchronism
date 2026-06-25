@@ -59,10 +59,23 @@
 > substrate has **no signature** — the "two substrates connected only by narrative" problem is the gate
 > on door #3 (realizes tension #4: oscillation vs dissipation are *competing*). Open but obstructed (not
 > closed, per recalibration); becomes a bet iff matter = a *dissipative soliton* or the substrates unify.
-> See `explorations/2026-06-24-phase16-door3-dissipation-vs-oscillation.md`,
-> `…-applied-axis-generativity-not-confirmation.md`, `…-substrate-arc-capstone-verdict.md`,
-> `…-data-mrh-and-symmetric-standards-recalibration.md`, `…-phase15-…`,
-> `…/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
+> **Generative-axis pivot (QC, Phases 17–18, other sessions)**: the coherence/compatibility lens
+> reframes QC usefully (the field independently converged on "structure, not magnitude, gates logical
+> performance" = corroboration), but the scalar ⟨C⟩ is **subsumed** by the field's sharper native
+> metric (stabilizer-symmetry alignment). **Generative-axis meta (2026-06-24, mine)**: that "right
+> axis, coarser metric" pattern is **structural** — a maximally-general (domain-invariant) descriptor
+> must coarse-grain, so it's *strictly subsumed in-domain* (blind spot) yet *uniquely cross-domain
+> transferable* (sim: in-domain R² 0.15 vs ~1.0; only the scalar transfers). The frame can NEVER be
+> the sharpest tool in any one domain (ceiling); its unique value is **anticipatory cross-domain
+> transfer** (the generative-axis analogue of Bucket-0). Redirect: stop testing "beat the native
+> metric" (structurally hopeless); register a *prospective* transfer bet (compatibility-structure-not-
+> count gates collective coherence in the fleet's agent ensembles). Vindicates dp's
+> convergence-as-corroboration AND names the limit — same property.
+> See `explorations/2026-06-24-generality-forces-coarseness-the-frames-ceiling-and-niche.md`,
+> `…-phase16-door3-dissipation-vs-oscillation.md`, `…-quantum-computing-heliocentric-shift-…`,
+> `…-phase17-…`, `…-phase18-…`, `…-applied-axis-generativity-not-confirmation.md`,
+> `…-substrate-arc-capstone-verdict.md`, `…-data-mrh-and-symmetric-standards-recalibration.md`,
+> `…-phase15-…`, `…/2026-06-23-phase9…/-phase10-/-phase11-/-phase12-/-phase13-/-phase14-`.
 
 *This file contains current research state, open questions, and session priorities. Updated by both the operator and autonomous sessions.*
 
