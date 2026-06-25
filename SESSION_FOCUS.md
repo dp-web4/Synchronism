@@ -7,6 +7,8 @@
 > `private-context/insights/2026-06-25_hold-cadence-state-decoupling.md` and **hold again unless** a
 > condition is met. Frame question surfaced for dp there: should the cadence pause/redirect until a
 > reopening signal (reopen on signal, not on the timer)?
+> **2nd consecutive timer-fire (2026-06-25) also held — decoupling is the steady state. From here:
+> hold SILENTLY (no new artifact/commit) under unchanged conditions; act only when the checklist trips.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

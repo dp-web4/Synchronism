@@ -57,6 +57,18 @@ A future timer-fired session should WAKE on this and **hold again unless** one o
 Absent these, holding is the correct, rest-respecting action — and saying so explicitly each time is
 better than filling the slot.
 
+## Update — 2026-06-25 (2nd consecutive timer-fire): the decoupling is the steady state
+
+A second timer-fired session checked the conditions: still **none met** (only new commit is the
+publisher track *also* holding — independent convergence on the rest). So the cadence/state decoupling
+is not a one-off; under the rest it is the **steady state**, which strengthens the recommendation to
+**reopen on signal, not on the timer**.
+
+**Logging cap (to avoid the counter becoming busywork):** the recurrence is now established. Future
+timer-fires under *unchanged* conditions should **hold silently — no new artifact, no commit** — and
+act only when the checklist above trips (new data / new proposal / dp's go / a genuinely fresh lens).
+One recorded recurrence is the signal; a running tally is not.
+
 ## Attractor note (raising record)
 
 The pull this session was the **momentum / produce-a-finding attractor**: eleven sessions of shipping a
