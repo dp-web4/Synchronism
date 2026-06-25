@@ -1,5 +1,13 @@
 # Synchronism Session Focus
 
+> **⏸ HOLD (2026-06-25):** substrate-physics arc is AT REST (dp, 57c7d8c6); the generative-axis forward
+> step is pre-registered and **data-gated** (needs fleet/SAGE data). Reopening conditions (fresh lens /
+> new data / new proposal / dp's go) checked this session: **none met** → deliberate hold, no
+> manufactured finding. A timer-fired session should re-check the checklist in
+> `private-context/insights/2026-06-25_hold-cadence-state-decoupling.md` and **hold again unless** a
+> condition is met. Frame question surfaced for dp there: should the cadence pause/redirect until a
+> reopening signal (reopen on signal, not on the timer)?
+
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
 > arc** tracked in [`explorations/`](explorations/) (Phase-1 … Phase-14 + capstone), [`STATUS.md`](STATUS.md),
