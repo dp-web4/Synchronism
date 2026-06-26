@@ -9,6 +9,10 @@
 > reopening signal (reopen on signal, not on the timer)?
 > **2nd consecutive timer-fire (2026-06-25) also held — decoupling is the steady state. From here:
 > hold SILENTLY (no new artifact/commit) under unchanged conditions; act only when the checklist trips.**
+> **2026-06-26 — checklist TRIPPED (new proposal): triaged the computed dim-4 c_μν refutation (discharges
+> the Phase-13 obligation on the refutation side: natural value α/π~10⁻², refuted 16–28 OOM; survival owes
+> a constructive custodial mechanism). Hold-discipline worked as designed (act on signal). Ledger (B7)
+> updated; Bucket 0 still 0; arc returns to AT REST. See `explorations/2026-06-26-triage-dim4-cmuv-...md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
