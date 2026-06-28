@@ -13,6 +13,13 @@
 > the Phase-13 obligation on the refutation side: natural value α/π~10⁻², refuted 16–28 OOM; survival owes
 > a constructive custodial mechanism). Hold-discipline worked as designed (act on signal). Ledger (B7)
 > updated; Bucket 0 still 0; arc returns to AT REST. See `explorations/2026-06-26-triage-dim4-cmuv-...md`.**
+> **2026-06-28 — checklist TRIPPED (new proposal): triaged the "preprint strategy / stable fixed point"
+> proposal. Validated its three transferable nulls (locality no-go = Phase-11+S689; DESI mechanism-class
+> ~2σ; A2ACW specificity) + added two preprint honesty-caveats (DESI null carries S645→S648 self-correction
+> + snapshot-MRH conditionality; A2ACW CCH metric is nominal). STRATEGY decision (daily cadence vs preprint
+> track) is dp's — explicitly NOT decided here. Site track independently reached the same "physics
+> converged, follow the signal not the timer" conclusion. Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-06-28-triage-preprint-strategy-three-nulls.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
