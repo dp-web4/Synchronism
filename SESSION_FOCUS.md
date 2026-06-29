@@ -20,6 +20,11 @@
 > track) is dp's — explicitly NOT decided here. Site track independently reached the same "physics
 > converged, follow the signal not the timer" conclusion. Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-06-28-triage-preprint-strategy-three-nulls.md`.**
+> **2026-06-29 — checklist TRIPPED (new proposal): triaged QM "resync outperforms isolation." ENAQT
+> (Plenio–Huelga 2008) is a SECOND established regime (after dynamical decoupling) meeting it with no
+> Synchronism machinery ⇒ reparametrization confirmed (doubly-anchored); added to Bucket 3. Scope guard:
+> distinct from the door-#3 INTRINSIC-decoherence bet (Phase-16), untouched. Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-06-29-triage-qm-resync-enaqt-reparametrization.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

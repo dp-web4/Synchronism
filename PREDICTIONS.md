@@ -218,6 +218,7 @@ enables a prediction (it hasn't yet).
 | FΣIR M/L decomposition | Standard mass-to-light analysis | Not unique to the framework |
 | C(ρ) compander | MOND interpolating function ν(x) | Identical phenomenology when γ free |
 | Intent field | \|ψ\|² in all tested regimes | Unfalsifiable as stated; equals the wavefunction wherever tested |
+| QM "resync outperforms isolation" | dynamical decoupling (DD) **and** ENAQT / dephasing-assisted transport | Satisfied by *two* independent established regimes (DD filter-function; ENAQT Lindblad — Plenio–Huelga 2008) with no Synchronism machinery; reparametrization until a discriminating T₂/efficiency departure is specified (none exists). NB distinct from the door-#3 *intrinsic*-decoherence bet (Phase-16), which this does not touch. Triage `explorations/2026-06-29-triage-qm-resync-enaqt-...md` |
 
 > **The N_corr-divergence test (Kimi 2026-06-21).** γ = 2/√N_corr is applied with a
 > *different* N_corr in every domain — galactic N_corr = 1 by fiat, chemistry N_corr from
