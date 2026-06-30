@@ -25,6 +25,16 @@
 > Synchronism machinery ⇒ reparametrization confirmed (doubly-anchored); added to Bucket 3. Scope guard:
 > distinct from the door-#3 INTRINSIC-decoherence bet (Phase-16), untouched. Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-06-29-triage-qm-resync-enaqt-reparametrization.md`.**
+> **2026-06-30 — checklist TRIPPED (new proposal): SELF-CORRECTION of Phase-13. The dim-4 c_μν result was
+> OVER-CLAIMED. "Boost invariance is the only custodial symmetry" is false (SUSY: Groot Nibbelink–Pospelov
+> 2005); "doubly-obstructed / non-perturbative-only escape" is false (anisotropic scale-hierarchy Λ_HL≪M_Pl,
+> Pospelov–Shang 2012, demonstrated for Hořava–Lifshitz = absolute-time class, removes the tuning
+> perturbatively). So dim-4 c_μν is the STANDARD LV-naturalness problem (CPSU 2004) the field routinely
+> solves — NOT a general no-go, NOT the arc's "sharpest falsification." Corrected: minimal framework refuted
+> at natural value (true, conditional); for Synchronism specifically it's an OPEN custodial-mechanism gap
+> (single-substrate universality obstructs the scale-hierarchy escape). The genuinely DECISIVE negatives are
+> the locality no-go (door #1/Milgrom) and the DESI sign failure. B7 ledger corrected. Bucket 0 still 0; arc
+> AT REST. See `explorations/2026-06-30-triage-dim4-general-nogo-self-correction.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
