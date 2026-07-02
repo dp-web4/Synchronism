@@ -35,6 +35,12 @@
 > (single-substrate universality obstructs the scale-hierarchy escape). The genuinely DECISIVE negatives are
 > the locality no-go (door #1/Milgrom) and the DESI sign failure. B7 ledger corrected. Bucket 0 still 0; arc
 > AT REST. See `explorations/2026-06-30-triage-dim4-general-nogo-self-correction.md`.**
+> **2026-07-02 — checklist TRIPPED (new proposal): triaged ρ_crit(V) sign-inversion. Verified (2 ways):
+> a local-ρ(r) threshold tracking MOND's a₀ needs **ρ_crit ∝ V⁻²** (BTFR + a₀ force it, profile-free);
+> C(ρ) asserts V⁺² — wrong SIGN (unfixable by re-tuning) + ~240–300,000× too high. Sharpens door #1: now
+> caged on TWO axes — profile-exponent bound (Phase-11) AND threshold V-scaling sign (this), both
+> profile-independent. Transferable null vs any ρ(r)-keyed MOND mimic. Bucket 0 still 0; C(ρ)⇒MOND already
+> Bucket 2. Arc AT REST. See `explorations/2026-07-02-triage-rho-crit-velocity-exponent-sign-inversion.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

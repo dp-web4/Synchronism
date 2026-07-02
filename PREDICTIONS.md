@@ -176,6 +176,7 @@ possibility. That is the program working as designed (productive failure > safe 
 | a₀ = cH₀/(2π) as derived MOND scale | Wrong sign; artifact of fitting, not derivation | S438 |
 | Transfer rule ⇒ Navier-Stokes | Proven 1-DOF scalar diffusion: irrotational, dissipative, no inertia → cannot produce particle dynamics | S617 / S665 / S666 |
 | C(ρ) ⇒ MOND (γ free) | Collapses exactly onto MOND when γ is fit; γ=2-pinned refuted at ΔBIC = +184 on SPARC | S660B / S661 |
+| C(ρ) galaxy threshold ρ_crit(V) — wrong **sign** | For a local-ρ(r) threshold to track MOND's a₀ threshold, BTFR + `g_bar(r_t)=a₀` force **ρ_crit ∝ V⁻²** (profile-independent; `r_t∝V²`, `M∝V⁴` ⇒ `ρ∝V⁻²`; verified). C(ρ) asserts **ρ_crit ∝ V⁺²** — opposite sign, unfixable by re-tuning a coefficient; ρ_crit also ~240–300,000× too high (inner-galaxy vs required outskirt densities), so the disk never crosses the knee. A *sign-level* companion to the ~1.7 dex locality-offset no-go, and a transferable null vs any ρ(r)-keyed MOND mimic. Triage `explorations/2026-07-02-triage-rho-crit-velocity-exponent-sign-inversion.md` | 2026-07-02 (explorer + triage) |
 | Cosmic interference scale λ ~ 500 Mpc | Dimensional error (units m² not m) masked by a numerical coincidence near ~600 Mpc | S632 |
 | 80-orders-of-magnitude unification | tanh(γ·log(...)) saturates within ~1.6 decades for any sharp γ — structural impossibility | S633 |
 | DESI growth-rate suppression (Test-04a) | σ₈(z=0) amplitude disfavored at 2.4σ; kill criterion triggered (S668 had over-softened) | S672 |
