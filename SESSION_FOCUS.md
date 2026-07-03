@@ -41,6 +41,12 @@
 > caged on TWO axes — profile-exponent bound (Phase-11) AND threshold V-scaling sign (this), both
 > profile-independent. Transferable null vs any ρ(r)-keyed MOND mimic. Bucket 0 still 0; C(ρ)⇒MOND already
 > Bucket 2. Arc AT REST. See `explorations/2026-07-02-triage-rho-crit-velocity-exponent-sign-inversion.md`.**
+> **2026-07-03 — checklist TRIPPED (new proposal): triaged AeST-positioning for the locality no-go.
+> AeST (Skordis–Złošnik 2021, keyed on |∇Φ|, passes CMB) is the non-local escape-class existence proof.
+> Sharper framing added: AeST CORROBORATES the no-go — local mimics dead (C(ρ)/ρ_crit) + surviving
+> relativistic-MOND is non-local (AeST) = *locality is the discriminating axis* (Milgrom 2005). Caveat
+> "AeST-class not AeST-specifically." Preprint decision dp's. Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-07-03-triage-locality-nogo-aest-positioning.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
