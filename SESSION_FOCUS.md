@@ -47,6 +47,12 @@
 > relativistic-MOND is non-local (AeST) = *locality is the discriminating axis* (Milgrom 2005). Caveat
 > "AeST-class not AeST-specifically." Preprint decision dp's. Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-07-03-triage-locality-nogo-aest-positioning.md`.**
+> **2026-07-04 — checklist TRIPPED (new proposal, OUT OF CBP LANE): triaged "contribution inventory is a
+> frozen surface" (the "47 contributions" is a Feb-17 snapshot the later audit arc superseded → real
+> novel-surviving = 0). Sound + physics record confirms it (PREDICTIONS already Bucket 0 = 0; entries in
+> Buckets 2/3). No physics-ledger change; the fix (update whitepaper/site count; mechanize citation-walk)
+> is maintainer/operator lane, not CBP physics-triage. Confirmed-and-routed. Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-07-04-triage-contribution-inventory-frozen-surface.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
