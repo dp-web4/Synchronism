@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-07-03
+**Last Updated**: 2026-07-04
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,13 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-07-04: Publisher Maintenance — No-Change Verification (manual pass, dp-requested; autonomous failure mutates signature — full-length run, still no report)
+- **Autonomous-failure watch (flagged 07-03: "watch tomorrow's 03:30 UTC run") — third consecutive miss, but a NEW signature.** `manuscripts/publisher/logs/publisher-2026-07-04.log` shows 03:30:02 → 03:35:41 = **5m39s** and a clean "Session Complete", yet `reports/2026-07-04-publisher-report.md` does not exist. This is *not* the 07-03 mode (40-second startup crash) — it is a **full-length run that completed but failed to persist its report**. Two distinct failure signatures in two days (07-03 fast-crash / 07-04 silent-no-persist) means the fault is not a single flaky startup; the report-write/commit step is the more likely culprit for today. Strengthens the standing recommendations to (a) add a cron liveness check that alerts on a missing report file, and (b) trigger on content-hash rather than a fixed clock. This is the load-bearing finding today.
+- **Arc AT REST, core still S691; nothing due.** No whitepaper-scope commit since the 07-03 pass — `git log 2cfd1b8d..HEAD -- whitepaper/ docs/whitepaper/` is empty. The only working-tree changes (`AGENTS.md` / `CLAUDE.md` gitnexus symbol-count bumps 171316→171395; `Research/proposals/dim4_liv_absolute_time_general_nogo.md` explorer novelty/feasibility amendment) are out of Publisher scope — supervisor-indexing and active-proposal channels respectively — and were left untouched. Preprint-packaging decision remains pending dp.
+- **Source ↔ published in sync by construction.** Last content commit remains `60ef7561` (2026-06-22); `build/` and `docs/whitepaper/` PDFs both dated 07-03 (GitHub Pages deploy `709d8773`, no content delta). No rebuild performed (would yield only CRLF/timestamp churn).
+- **No forbidden patterns.** §7 grep over live sections returns two benign hits, both correct usage: `04-fundamental-concepts/12-spectral-existence` explicitly *disclaims* "observer creates reality" ("This is NOT anthropocentric…"), and `09-appendix-mathematical/appendix_c_consciousness` cites "Consciousness collapses wavefunction" as the *standard-QM* row of a contrast table against Synchronism's "all interactions project coherence." No drift.
+- **Verdict:** clean no-change verification pass; no integration, no commit beyond this log entry. Watch item now sharpened from "does the run fire?" to "does the run persist its report?" — check 07-05.
 
 ### 2026-07-03: Publisher Maintenance — No-Change Verification (manual pass; AUTONOMOUS RUN FAILED TODAY — 40-second run, no report produced)
 - **Today's autonomous Publisher run failed silently.** `manuscripts/publisher/logs/publisher-2026-07-03.log` shows a 40-second run (03:30:02 → 03:30:42) and `reports/2026-07-03-publisher-report.md` does not exist — first missed report since the 06-12 gap. Per the 06-12 precedent: one day's patience; if the gap persists tomorrow, this is the second data point for the missed-run failure mode and joins the standing "daily-cron needs a liveness check" recommendation (a 40-second exit suggests startup failure, not a long-running hang).
