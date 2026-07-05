@@ -53,6 +53,13 @@
 > Buckets 2/3). No physics-ledger change; the fix (update whitepaper/site count; mechanize citation-walk)
 > is maintainer/operator lane, not CBP physics-triage. Confirmed-and-routed. Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-07-04-triage-contribution-inventory-frozen-surface.md`.**
+> **2026-07-05 — checklist TRIPPED (ledger correction): the Bucket-2 a₀ row OVER-refuted. Verified all
+> three defects: mis-cited S438 (S438 = rotation curves, no a₀ content); "wrong sign" belongs to γ=2/√N_corr
+> (r=+0.55→−0.55, S430/S437), not a₀ (a positive scalar); a₀=cH₀/(2π) reproduces Milgrom's a₀≈cH₀/6
+> coincidence (~5%) = reparametrization. FIXED: γ-sign row → clean Bucket 2; a₀ → Bucket 3. Discipline-4 held
+> (genuine refutation preserved, only the mislabel moved). PATTERN: 2nd over-refutation correction in 10 days
+> (dim-4 + a₀) — the ledger tilts mildly toward over-failing (the rare direction). Bucket 0 still 0; arc AT
+> REST. See `explorations/2026-07-05-triage-a0-row-misbucketed.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
