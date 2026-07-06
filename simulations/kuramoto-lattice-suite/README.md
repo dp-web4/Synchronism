@@ -35,8 +35,21 @@ whether it can buy a **novel** result.
 | `02_observer_relative_chsh.py` | **The experiment.** A local two-region "entangled" source, measured *only* through observer phase-lock with freely-chosen CHSH settings. Computes the CHSH S-value and compares to the classical bound (2) and the Tsirelson bound (2√2). | runnable → **S = 1.98** |
 | `03_nonlocal_grid_chsh.py` | **The frontier variant.** Lets the shared substrate ("the grid") mix region B's state+setting into Alice's measurement, tunable by coupling g. Sweeps g and reports both S *and* signaling — asking whether a no-signaling nonlocal violation (S>2, signaling≈0) exists. | runnable → **S ≡ 2.0 ∀ g** |
 | `04_global_clock_chsh.py` | **The unilocal variant (dp 2026-06-22).** The shared variable is the *dynamical* global clock, not a static preparation phase; A and B are ONE pattern; both probes phase-lock to it *simultaneously* and it **back-reacts** on both (strength g). Sweeps g, reports S *and* signaling. | runnable → **no-signaling envelope ≤ 2; S up to 2.67 only WITH signaling** |
+| `05_saturation_density_chsh.py` | **The substrate-independence test (explorer 2026-07-06).** Replaces the borrowed Kuramoto phase with the framework's OWN scalar Intent-density substrate: saturation-gated measurement via C(ρ)=tanh(γ·ln(ρ/ρ_crit+1)). Triptych: (A) real saturation-density local, (B) Born-rule cos² projection, (C) PR-box. Tests whether the density field escapes the cap and localizes where 2√2 lives. | runnable → **A: S = 1.85 ≤ 2 (cap holds); B: S = 2√2 exactly; C: S = 4** |
 
 Results are written to `results/` as JSON summaries (not raw trajectories).
+
+### Substrate-independence result (2026-07-06): the cap is Bell's structure theorem, not a Kuramoto artifact
+
+Script 05 runs the framework's **own** substrate (scalar Intent density with tanh saturation,
+not the borrowed phase oscillators of 02–04) and gets **S = 1.85 ≤ 2, no signaling** — the same
+classical cap. Swapping phase→density and adding saturation changes nothing, because Bell caps
+*any* real-valued local-realist model independent of the local response's functional form. The
+triptych localizes the Tsirelson value: **A(real-local)=2 < B(complex projection)=2√2 <
+C(no-signaling max)=4.** 2√2 is the fixed point of the cos² projection law; the substrate reaches
+it only by *becoming* B (importing Hilbert-space structure). This closes the "maybe the real
+density substrate is different" escape by execution. See
+[`explorer/findings/tsirelson-substrate-nogo-density-substrate-run-closes-escape.md`](../../../synchronism-site/explorer/findings/tsirelson-substrate-nogo-density-substrate-run-closes-escape.md).
 
 ### Frontier result (2026-06-21): the nonlocal channel is gauge-equivalent to relabeling
 

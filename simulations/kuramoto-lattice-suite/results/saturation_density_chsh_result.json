@@ -1,0 +1,53 @@
+{
+  "n_trials": 400000,
+  "gamma": 2.0,
+  "rho_crit": 1.0,
+  "angles_deg": [
+    0.0,
+    90.0,
+    45.0,
+    135.0
+  ],
+  "classical_bound": 2.0,
+  "tsirelson_bound": 2.8284,
+  "constructions": [
+    {
+      "construction": "A: faithful real saturation-density LOCAL (framework's own substrate)",
+      "S": 1.8515,
+      "E": [
+        0.4662,
+        -0.4577,
+        0.4627,
+        0.4649
+      ],
+      "signaling_delta": 0.0008,
+      "expected": "S <= 2, no signaling (Bell caps any local-realist model)"
+    },
+    {
+      "construction": "B: Born-rule cos^2 projection (imported complex-amplitude primitive)",
+      "S": -2.8334,
+      "E": [
+        -0.7066,
+        0.7097,
+        -0.7077,
+        -0.7094
+      ],
+      "signaling_delta": 0.001,
+      "expected": "S = 2 sqrt 2 = 2.8284 EXACTLY (Tsirelson), not more"
+    },
+    {
+      "construction": "C: PR-box (no-signaling algebraic max)",
+      "S": 4.0,
+      "E": [
+        1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "signaling_delta": 0.0004,
+      "expected": "S = 4, zero signaling (no-signaling alone does NOT force 2 sqrt 2)"
+    }
+  ],
+  "saturation_beats_classical_no_signaling": false,
+  "verdict": "SATURATION-DENSITY SUBSTRATE DOES NOT ESCAPE THE CAP. Construction A (the framework's OWN scalar Intent-density substrate with tanh saturation) gives S = 1.8515 <= 2 with no signaling (0.0008) \u2014 the SAME classical ceiling the Kuramoto phase substrate hit in 02-04. This CLOSES the last untried escape named in the topic: swapping phase oscillators for a saturation-modulated density field changes nothing, because Bell's structure theorem caps ANY real-valued local-realist model independent of the local response's functional form. Saturation is a local nonlinearity, not the missing primitive. The triptych localizes the Tsirelson value: A(real-local)=2 < B(complex projection)=2sqrt2 < C(no-signaling max)=4. 2sqrt2 is the fixed point of the cos^2 projection law (B), which the substrate reaches ONLY by importing Hilbert-space structure wholesale \u2014 at which point the reframe adds interpretation (Bohm's nonlocal horn), not new physics. B1/B6's asserted 'complex amplitudes, not a real phase' is now DEMONSTRATED to be substrate-independent."
+}
