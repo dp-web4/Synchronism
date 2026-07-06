@@ -60,6 +60,16 @@
 > (genuine refutation preserved, only the mislabel moved). PATTERN: 2nd over-refutation correction in 10 days
 > (dim-4 + a₀) — the ledger tilts mildly toward over-failing (the rare direction). Bucket 0 still 0; arc AT
 > REST. See `explorations/2026-07-05-triage-a0-row-misbucketed.md`.**
+> **2026-07-06 — checklist TRIPPED (new PHYSICS artifact on the B1/CHSH seam): QA'd explorer commit 791bc4ec
+> (CHSH construction 05 — first run of the framework's OWN scalar Intent-density substrate, not borrowed
+> Kuramoto). Re-executed: A(own density substrate)=1.8515≤2 no-signaling, B(Born cos²)=2√2, C(PR-box)=4.
+> The estimator is self-calibrating (B,C recover both known bounds ⇒ A's 1.85 is real, not artifact); A
+> saturates its own soft ceiling (4×0.46) well below classical 2 = comfortable, not marginal. Right kind of
+> tidy: Bell's structure theorem caps ANY real local-realist model, so a saturation nonlinearity isn't the
+> missing primitive; 2√2 reachable only by importing Hilbert structure = the primitive B1 already named as
+> owed. Ledger edit is HONEST (no over-refutation to fix, unlike a₀). Closes the density-substrate escape by
+> execution; strengthens B1; Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-06-verify-chsh-construction05-density-substrate.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

@@ -68,3 +68,29 @@ Honest novelty: we are writing a **quantified instance + application** of an exi
 - **If no**: at minimum, update `/for-researchers` to frame the dim-4 result as a transferable no-go rather than a framework defeat — which makes it more credible to arriving experts, not less.
 
 **Status: this proposal is the research-direction signal from the 2026-06-30 maintainer session WAKE. Decision belongs to dp.**
+
+---
+
+## Amendment 2026-06-30 (explorer novelty/feasibility audit)
+
+Explorer ran the writeup-feasibility audit against the external literature (`synchronism-site/explorer/findings/dim4-liv-nogo-feasibility-escapes-missed.md`). Two corrections to this proposal:
+
+### 1. The escape-route triage is incomplete and partly contradicts itself
+
+- **Internal contradiction:** §"The Finding" line "boost invariance [is] the only custodial symmetry that could forbid dim-4 LIV" is contradicted by this proposal's own escape bullet "SUSY → custodial." SUSY **is** a custodial symmetry for exactly this problem (Groot Nibbelink & Pospelov, *PRL* 94, 081601, 2005: SUSY forbids dim-3/4 LV operators, forcing them to dim ≥ 5, UV-suppressed, with no high-energy dispersion modification). Boost invariance is therefore **not** "the only" custodial symmetry — delete that phrasing.
+
+- **Missing the decisive escape — anisotropic scale-hierarchy (Pospelov & Shang, *PRD* 85, 105001, 2012).** This is the most damaging omission because it is demonstrated for **Hořava–Lifshitz gravity — the canonical preferred-foliation (absolute-time-class) theory**, i.e. condition (b) of the restated theorem. Mechanism: the LV sector acquires Lifshitz scaling above Λ_HL and couples to the SM only through M_pl-suppressed operators; the percolated SM-sector LV is then protected by Λ_HL²/M_pl², and a wide separation Λ_HL ≪ M_pl removes the tuning **without restoring boost invariance and without SUSY, perturbatively.** This directly refutes the site's stronger claim (`/for-researchers`) that any survivor must be "boost-symmetry-independent AND non-perturbative." Scale-separation is boost-breaking-compatible and perturbative.
+
+- **Causal sets (Bombelli–Lee–Meyer–Sorkin 1987; Bombelli–Henson–Sorkin, "discreteness without symmetry breaking"):** random Poisson sprinkling gives a discrete substrate with **no preferred frame** — Lorentz-invariant on average, no modified dispersion. This shows the *discrete* class as a whole is not excluded; only the *regular-lattice + preferred-frame* subclass (which Synchronism's absolute time keeps) inherits the problem.
+
+### 2. Reclassify: naturalness problem, not refutation
+
+A naturalness problem the field **routinely solves** (SUSY, scale-hierarchy) is not a "decisive falsification." The honest status of the dim-4 face is:
+
+> The *minimal* framework (no added custodial structure) predicts c_μν ~ α/π, refuted by 16–28 OOM — the standard LV-naturalness problem (CPSU 2004). It is **not doubly-obstructed**: SUSY and anisotropic scale-hierarchy are standard, perturbative, boost-breaking-compatible custodial escapes. Synchronism adopts none (single-substrate universality is the obstruction to a Λ_HL ≪ M_pl hierarchy; SUSY/random-sprinkling are unmotivated additions or require giving up absolute time), so the problem is **unresolved — open custodial-mechanism gap, not closed refutation.**
+
+Keep "minimal framework refuted at natural value" (true, conditional). Drop "doubly-obstructed / most decisive falsification / only-non-perturbative-escape." The genuinely decisive negatives remain the **locality no-go** and the **DESI sign failure** — those have no comparable standard escape.
+
+### 3. Feasibility verdict: NOT a standalone paper
+
+CPSU 2004 is one of the most-absorbed results in LV phenomenology (reviewed in Mattingly 2005; Liberati 2013; Collins et al. hep-th/0603002; mature Polchinski-era debate, arXiv:1106.1417). The community does not ignore it — it *solves* it (Hořava: scale-hierarchy; causal sets: random sprinkling; LQG: known tension). A referee would see the dim-4 c_μν argument as CPSU applied to one more substrate, and would flag the "only custodial symmetry" claim as wrong. **Standalone arXiv note: not feasible.** The only viable form is a short *critical comment* on the digital-physics / absolute-time-substrate class (Synchronism, and — if they likewise ignore CPSU — 't Hooft cellular-automaton QM, Wolfram model), noting each inherits the naturalness problem and specifying which custodial mechanism it must adopt — **and only after the escape-route correction above.** This is the **third** "citable result" to reduce to *known-theorem-instance + contemporary-triage* under novelty audit (cf. locality = Milgrom instance; A2ACW = assembled prior art); it ranks *with* them, not above them.
