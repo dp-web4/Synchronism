@@ -80,6 +80,16 @@
 > one class — "one locality deficit" over-unifies. Referee-proofing flag for dp/publisher (packaging is their
 > lane; did NOT edit their surface). Not a reopening; Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-07-flag-two-scale-locality-packaging-tension5-sharpening.md`.**
+> **2026-07-07b — checklist TRIPPED (new in-lane proposal): B3 ledger correction. Verified in the S63 SOURCE
+> that "C≈0.50 REFUTED against multi-model coherence data" tested `salience_total` (a SNARC heuristic the script
+> renames "C"), NOT coherence — t=20.19/p=1.8e-7 rejects an operating MEAN=0.5 of one shared scorer over 8 SAGE
+> instances. Re-scoped B3 to UNSUPPORTED & UNTESTED (salience rejection preserved, doesn't bear on C). Balanced,
+> not soft: re-ran S63's own means → φ−1=0.618 EXCLUDED p=0.016, 2/3 p=0.006 (0.640=sample mean) ⇒ the 0.64≈φ−1
+> reparametrization + gnosis S64 "validated" FAIL on the data's own terms. 3rd citation-walk catch in ~12 days
+> (dim-4/a₀/B3) — but 1st that un-refutes, so ran the both-directions over-failing check; passed (renamed
+> variable, no real C-refutation hidden). Whitepaper sections + site "0.64 also rejected" fabrication = maintainer
+> lane (flagged). Proposal #2 A2ACW cross-vendor = dp/credentials lane (routed). Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-07-07-triage-b3-salience-not-coherence.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
