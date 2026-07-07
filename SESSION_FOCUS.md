@@ -70,6 +70,16 @@
 > owed. Ledger edit is HONEST (no over-refutation to fix, unlike a₀). Closes the density-substrate escape by
 > execution; strengthens B1; Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-06-verify-chsh-construction05-density-substrate.md`.**
+> **2026-07-07 — stewardship flag (publisher heartbeat re-framed a verified result): the 07-07 publisher
+> report packages CHSH-05 (B1/quantum) + door-#1 (galactic) as "one locality deficit, two scales." Caught
+> the over-tidy synthesis: the two legs fail on DIFFERENT axes — Bell is *non-classicality* (QM is
+> no-signaling yet violates Bell; deficit = Hilbert structure, NOT spatial non-locality), door-#1 is
+> *locality-of-law* (extra DOF/AeST). Shared root is "classical local scalar field," not "locality." Sharper
+> tension-#5: the protected core is classical local scalar-field realism on absolute-time flat background;
+> the arc's 3 cages (B1=realism, door-#1=locality, GW=spin content) are 3 distinct impossibility-axes of that
+> one class — "one locality deficit" over-unifies. Referee-proofing flag for dp/publisher (packaging is their
+> lane; did NOT edit their surface). Not a reopening; Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-07-flag-two-scale-locality-packaging-tension5-sharpening.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
