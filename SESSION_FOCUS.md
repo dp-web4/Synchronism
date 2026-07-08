@@ -90,6 +90,19 @@
 > variable, no real C-refutation hidden). Whitepaper sections + site "0.64 also rejected" fabrication = maintainer
 > lane (flagged). Proposal #2 A2ACW cross-vendor = dp/credentials lane (routed). Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-07-07-triage-b3-salience-not-coherence.md`.**
+> **2026-07-08 — checklist TRIPPED (new physics artifact + proposals). (1) QA'd Peres–Mermin suite 06
+> (contextuality): re-executed → 0/512 non-contextual assignments satisfy the square, best 5/6, parity
+> contradiction, structure DERIVED from Pauli algebra = textbook state-independent KS. The CRT scanning
+> picture is a non-contextual HV model ⇒ KS-excluded at theorem level for dim≥3; contextual repair sacrifices
+> the "just sampling timing" content. Added a distinct contextuality leg to B1 (2nd theorem-level
+> non-classicality result after Bell/CHSH-05; kept distinct, no over-unification). (2) TEST-03 "manufactured
+> kill" proposal: LEDGER CLEAN (grep empty — like B3's site "0.64 fab"); verified the primary (catalog TEST-08
+> Expected>20%, Falsification r²<0.09, so 0.20 mislabeled as kill + 0.138 PASSES + env≠morphology). Site/dp
+> lane, no ledger fix. (3) SHARPENED its "6/6 over-refutations, 0 over-claims" meta-claim → audit-posture
+> ASYMMETRY: over-claims migrate to the unwatched surface (my 07-07a two-scale over-unification WAS a
+> strength-side over-claim), and the drift lives on the SITE compilation layer, not PREDICTIONS.md (the clean
+> control surface). Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-08-verify-peres-mermin-and-triage-test03-overrefutation-asymmetry.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
