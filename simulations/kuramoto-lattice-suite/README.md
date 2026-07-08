@@ -36,8 +36,22 @@ whether it can buy a **novel** result.
 | `03_nonlocal_grid_chsh.py` | **The frontier variant.** Lets the shared substrate ("the grid") mix region B's state+setting into Alice's measurement, tunable by coupling g. Sweeps g and reports both S *and* signaling — asking whether a no-signaling nonlocal violation (S>2, signaling≈0) exists. | runnable → **S ≡ 2.0 ∀ g** |
 | `04_global_clock_chsh.py` | **The unilocal variant (dp 2026-06-22).** The shared variable is the *dynamical* global clock, not a static preparation phase; A and B are ONE pattern; both probes phase-lock to it *simultaneously* and it **back-reacts** on both (strength g). Sweeps g, reports S *and* signaling. | runnable → **no-signaling envelope ≤ 2; S up to 2.67 only WITH signaling** |
 | `05_saturation_density_chsh.py` | **The substrate-independence test (explorer 2026-07-06).** Replaces the borrowed Kuramoto phase with the framework's OWN scalar Intent-density substrate: saturation-gated measurement via C(ρ)=tanh(γ·ln(ρ/ρ_crit+1)). Triptych: (A) real saturation-density local, (B) Born-rule cos² projection, (C) PR-box. Tests whether the density field escapes the cap and localizes where 2√2 lives. | runnable → **A: S = 1.85 ≤ 2 (cap holds); B: S = 2√2 exactly; C: S = 4** |
+| `06_peres_mermin_contextuality.py` | **The contextuality companion (explorer 2026-07-08).** The CRT temporal-scanning picture assigns every observable a definite value at each instant of the cycle — a non-contextual value assignment. This script derives the Peres–Mermin square's six product constraints from the operators (numpy verifies commutativity and ±I products; nothing asserted), then exhausts all 2⁹ = 512 assignments. Same non-contextual real-valued ontology as 02/05, failing the *algebraic* theorem (Kochen–Specker) instead of the *statistical* one (Bell). | runnable → **0/512 consistent; best 5/6; parity −1 required vs +1 achievable** |
 
 Results are written to `results/` as JSON summaries (not raw trajectories).
+
+### Contextuality result (2026-07-08): the scanning model fails Kochen–Specker by exhaustion
+
+Script 06 converts the KS caveat on the CRT scanning analogy from a theorem citation into an
+executed artifact. The six Peres–Mermin product constraints are **derived** from the nine
+two-qubit operators at runtime; an exhaustive sweep shows **0 of 512** non-contextual value
+assignments satisfy them (best achievable **5 of 6** — the same "one constraint short"
+structure as CHSH's local cap). Because each constraint is verifiable with certainty on any
+state, **time-averaging over the scan cycle cannot help**: no instant of any deterministic
+cycle carries a consistent value set. The only escape is to make the scanned value depend on
+the co-measured context — surrendering "just sampling timing." Together with 02/05 this
+completes the pairing: one non-contextual real-valued ontology, two independent exclusions
+(Bell: statistical, needs two wings; Kochen–Specker: algebraic, needs one lab).
 
 ### Substrate-independence result (2026-07-06): the cap is Bell's structure theorem, not a Kuramoto artifact
 

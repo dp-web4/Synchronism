@@ -1,0 +1,79 @@
+{
+  "experiment": "Peres\u2013Mermin square vs non-contextual (CRT-scanning) value assignments",
+  "qm_structure_derived": {
+    "observables_squared_identity": true,
+    "contexts": [
+      {
+        "context": "row1",
+        "observables": [
+          "X\u2297I",
+          "I\u2297X",
+          "X\u2297X"
+        ],
+        "commuting": true,
+        "product_sign": 1
+      },
+      {
+        "context": "row2",
+        "observables": [
+          "I\u2297Z",
+          "Z\u2297I",
+          "Z\u2297Z"
+        ],
+        "commuting": true,
+        "product_sign": 1
+      },
+      {
+        "context": "row3",
+        "observables": [
+          "X\u2297Z",
+          "Z\u2297X",
+          "Y\u2297Y"
+        ],
+        "commuting": true,
+        "product_sign": 1
+      },
+      {
+        "context": "col1",
+        "observables": [
+          "X\u2297I",
+          "I\u2297Z",
+          "X\u2297Z"
+        ],
+        "commuting": true,
+        "product_sign": 1
+      },
+      {
+        "context": "col2",
+        "observables": [
+          "I\u2297X",
+          "Z\u2297I",
+          "Z\u2297X"
+        ],
+        "commuting": true,
+        "product_sign": 1
+      },
+      {
+        "context": "col3",
+        "observables": [
+          "X\u2297X",
+          "Z\u2297Z",
+          "Y\u2297Y"
+        ],
+        "commuting": true,
+        "product_sign": -1
+      }
+    ]
+  },
+  "exhaustive_search": {
+    "assignments_tried": 512,
+    "assignments_satisfying_all_6_constraints": 0,
+    "max_constraints_satisfiable": 5
+  },
+  "parity_argument": {
+    "required_product_of_signs": -1,
+    "achievable_by_any_assignment": 1,
+    "contradiction": true
+  },
+  "consequence_for_scanning_model": "A deterministic scan through definite states is a non-contextual value assignment at every instant. Zero of 512 assignments satisfy the six QM-derived product constraints (best achievable: 5 of 6), so no instant of any cycle reproduces QM's dim-4 predictions; time-averaging cannot repair per-context certainties. Escape requires the scanned value to depend on the co-measured context \u2014 surrendering 'just sampling timing'."
+}

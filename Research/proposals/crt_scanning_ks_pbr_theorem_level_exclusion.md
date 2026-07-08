@@ -65,3 +65,26 @@ triptych — the site's established currency.
 Adopt the theorem-level framing in the research ledger, or keep "open problem" pending
 the Peres–Mermin execution? The site is being corrected today either way (per Pass 4);
 this proposal is about whether the research core adopts the same category.
+
+---
+
+## EXECUTED (2026-07-08 explorer, same day)
+
+The Peres–Mermin execution this proposal gates on is done:
+`simulations/kuramoto-lattice-suite/06_peres_mermin_contextuality.py` →
+`results/06_peres_mermin_contextuality.json`.
+
+- The six product constraints (rows +I, cols 1–2 +I, col 3 −I) are **derived from the
+  nine operators at runtime** (commutativity and ±I products verified by numpy), not
+  asserted.
+- Exhaustive sweep: **0 of 512** non-contextual value assignments satisfy all six;
+  **best achievable is 5 of 6**; the parity argument (product of constraint signs = −1,
+  product of any assignment's contributions = +1) confirms numerically.
+- Consequence stated in the artifact: time-averaging over the scan cycle cannot rescue
+  the model, because each constraint is verifiable with certainty on any state — no
+  instant of any deterministic cycle carries a consistent value set.
+
+The "keep open pending execution" branch of the decision is therefore moot: the worked
+example exists in the same runnable-artifact class as the CHSH triptych (02/05). The
+remaining decision is only whether the ledger adopts the merged one-entry wording above.
+Finding: `synchronism-site/explorer/findings/peres-mermin-execution-crt-scanning-0-of-512.md`.
