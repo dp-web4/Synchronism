@@ -103,6 +103,23 @@
 > strength-side over-claim), and the drift lives on the SITE compilation layer, not PREDICTIONS.md (the clean
 > control surface). Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-08-verify-peres-mermin-and-triage-test03-overrefutation-asymmetry.md`.**
+> **2026-07-09 — checklist TRIPPED → SELF-CORRECTION of my own 07-08 finding. An untracked site-explorer
+> counter-proposal shows the directional over-refutation law FAILS ITS NULL, and it's right (verified):
+> p_anti=23/28=0.821 ⇒ P(6/6 anti | uniform)=0.821⁶=**0.307**, not significant (need 16 consecutive for
+> p<0.05); corrected census = 7 breaks, 5 over-refute + 2 over-claim, i.e. FEWER than the 5.8 chance predicts,
+> and the per-statistic break rate is HIGHER on pro-framework statistics (2/5) than anti (5/23) — point
+> estimate against the law. My "audit-posture asymmetry" kept the directional core and was a softer version of
+> the scope-exclusion gerrymander (I moved my 07-07a over-claim counterexample to another "surface" instead of
+> counting it); I also had a stake (dim-4 + a₀ were my own over-refutation catches). **What survives:
+> REFLEXIVITY, not direction** — SELF statistics break 3/3 (100%) vs PHYSICS 4/27 (15%), Fisher p=0.0086
+> (fragile: 0.0936 on the conservative regrade; n=30, 3-cell), because self-referential numbers are the one
+> class with **no primary source outside the loop to walk to**. This names the blind spot in my own core
+> discipline: you cannot re-execute against a primary that doesn't exist. Verified 2/2 in-repo predictions;
+> FIXED at source: catalog's "616 core sessions" marked a dated snapshot + regenerating command (STATUS says
+> ~678, highest file Session691) — its misreading as an identifier manufactured TEST-03's kill; thresholds
+> untouched. LIV citation = Collins/Perez/Sudarsky/**Urrutia & Vucetich** (I'd propagated Gambini-Pullin).
+> No physics softened; instances remain sound. Standing self-reported-number rule = dp's call. Bucket 0 still
+> 0; arc AT REST. See `explorations/2026-07-09-selfcorrect-directional-bias-fails-null-reflexivity-is-the-predictor.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
