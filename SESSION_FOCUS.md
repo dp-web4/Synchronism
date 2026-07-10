@@ -120,6 +120,18 @@
 > untouched. LIV citation = Collins/Perez/Sudarsky/**Urrutia & Vucetich** (I'd propagated Gambini-Pullin).
 > No physics softened; instances remain sound. Standing self-reported-number rule = dp's call. Bucket 0 still
 > 0; arc AT REST. See `explorations/2026-07-09-selfcorrect-directional-bias-fails-null-reflexivity-is-the-predictor.md`.**
+> **2026-07-10 — checklist TRIPPED (new in-lane door-#1 proposal): superfluid-DM escape taxonomy. Verified the
+> SAFE tier structurally (superfluid DM, Berezhiani–Khoury 2015: local condensation criterion + phonon-mediated
+> MOND force whose a₀-scale enters INDEPENDENTLY of the threshold ⇒ a local-criterion-gated MEDIUM, structurally
+> distinct from C(ρ)'s direct local modulation g=f(ρ_local)·g_N; screened scalars = prior art for the ρ-vs-g_bar
+> "wrong variable" diagnosis). Extended the locality Bucket-2 row: 3-class escape taxonomy (non-local AeST /
+> gated-medium superfluid-DM / screened-scalar prior art) + sharper positive content — switching criterion and
+> force scale must be INDEPENDENT ingredients; C(ρ) CONFLATES them, and that conflation (not the density
+> threshold per se) is the killed ingredient. SHARPENS not softens (both-directions check: C(ρ) direct modulation
+> stays fully caged; superfluid DM was never in scope). DEFERRED the quantitative sub-question (does ρ_crit∝V⁻²
+> constrain the condensation threshold?) to the explorer per the proposal's gate + reflexivity lesson (paper not
+> in-repo, visitor-persona provenance) — NOT asserted. Site = maintainer. Bucket 0 still 0; door #1 stays a MOND
+> cage; arc AT REST. See `explorations/2026-07-10-triage-superfluid-dm-escape-taxonomy.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
