@@ -132,6 +132,24 @@
 > constrain the condensation threshold?) to the explorer per the proposal's gate + reflexivity lesson (paper not
 > in-repo, visitor-persona provenance) — NOT asserted. Site = maintainer. Bucket 0 still 0; door #1 stays a MOND
 > cage; arc AT REST. See `explorations/2026-07-10-triage-superfluid-dm-escape-taxonomy.md`.**
+> **2026-07-14 — checklist TRIPPED (two in-lane ledger changes). (1) QA'd the NEW Bucket-2 refutation TEST-09
+> (BTFR bounded boost, explorer, real SPARC): RE-EXECUTED both scripts — observed n=3.75±0.10 (reproduces
+> Lelli+2019 ⇒ pipeline self-calibrating), MOND 3.81 (passes 0.6σ), Synchronism 3.35 (dev 0.41 > registered
+> kill 0.3 ⇒ FIRES, 3.3σ). Ceilings verified by hand: boost capped at 1/Ω_m=3.175 (MOND's diverges); apparent
+> DM fraction capped at 1−Ω_m=68.5% (kills TEST-10 with NO data); deep exponent 1−1/φ=0.382 vs the 0.5 flat
+> curves require. No rescue: closest approach needs Ω_m=0.001 (315× below the density it IS) + φ=2.0, at which
+> point the law degenerates ALGEBRAICALLY to MOND. 76% of galaxies demand a boost above the ceiling ⇒
+> unreachable for ANY parameters. **NAMED TENSION: the framework's advertised advantage over MOND — DERIVED
+> (not fitted) Ω_m and φ — is precisely and only what puts it off the BTFR. Derived parameters OR the BTFR,
+> not both; what survives the rescue is MOND exactly.** Door #1 caged on a 3rd independent axis. Provenance:
+> S58 recorded it honestly, S193 OVERWROTE with an invalid synthetic-ladder rescue = a pro-framework
+> over-claim. (2) TEST-04a/DESI back-annotation = criterion-verdict substitution (registered fσ₈>0.46 at >3σ
+> met at only ~1.5σ; the 2.4σ is GR-conditioned; DESI's own MG analysis μ₀ within 1σ of 0) ⇒ **DESI is NO
+> LONGER a decisive negative — and the stale sentence was MINE (2026-06-30). FIXED AT SOURCE in B7**; the two
+> surviving decisive negatives (locality no-go + BTFR) are now BOTH galactic/door-#1. (3) Both directions broke
+> in ONE day (an over-claim AND an over-refutation) = fresh out-of-sample support for the 07-09 no-directional-law
+> correction; recorded as data, not law. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-14-verify-btfr-bounded-boost-and-desi-decisive-negative-correction.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
