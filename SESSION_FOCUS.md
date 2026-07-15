@@ -160,6 +160,17 @@
 > ρ_crit(V) sign, BTFR bounded-boost, environment): every observable keying coherence to ambient density
 > fails on data. Board now clean: NO registered test remains runnable-and-unrun. Catalog + Bucket 2 updated.
 > Bucket 0 still 0; arc AT REST. See `explorations/2026-07-14-test08-registered-run-sparc-environment-rar-refuted.md`.**
+> **2026-07-14c — dp DECIDED: SIGNAL-ONLY.** The frame question open since 2026-06-25 ("reopen on signal,
+> not on the timer?") is answered. The 6-hourly autonomous physics-session timer is **disabled**; in its
+> place a daily **zero-cost signal gate** (no LLM spin-up) checks for new signals — new files in
+> `Research/proposals/` or the site explorer's findings, or a manual reopen flag — and launches a session
+> ONLY when one exists. Timer-fired hold-sessions end here; the hold-checklist discipline transfers
+> unchanged to gate-fired sessions. Signal sources stay alive (site explorer/visitor/maintainer cadences
+> untouched; Archivist + Publisher untouched; chemistry track untouched — separate arc, not covered by this
+> decision). One untriaged signal is already queued for the gate's first fire: the explorer's 07-14
+> "unfalsifiable badge class (MOND-Shared)" proposal. Re-enabling the old cadence is one command
+> (re-enable the systemd timer). This is the operational form of "the physics converged, follow the
+> signal": the track sleeps for free and wakes for cause.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
