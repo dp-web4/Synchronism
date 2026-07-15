@@ -137,7 +137,9 @@ These experiments can be run now with publicly available datasets and modest com
 
 **Falsification**: Environment correlation < 0.3 (r² < 0.09).
 
-**Distinguishing power**: MEDIUM-HIGH — MOND predicts zero environment dependence.
+**Distinguishing power**: MEDIUM-HIGH — MOND predicts zero environment dependence. *(Scope note added 2026-07-14: true for MOND-without-EFE; MOND-with-EFE predicts a small suppression — see exploration note.)*
+
+**Status**: ⚰️ **EXECUTED 2026-07-14 → REFUTED.** Run as registered (dp-gated go): RAR offsets from SPARC mass models (2696 pts/147 gal; pipeline reproduces McGaugh+16: g†=1.16×10⁻¹⁰, scatter 0.133 dex); environment from Cosmicflows-4 (55,877 tracers; NED coordinates resolved for all 175 SPARC galaxies). Pre-declared primary (distance-corrected redshift-space cylinder density): **r = +0.012, r² = 0.0001** (N=141, p=0.89) — ~900× below the kill bar. All secondaries also < 0.09; tercile ANOVA p=0.29; the only weak (ns) trends are *opposite-signed* to the prediction. Environment instrument validated against ground truth (28 known UMa Cluster members land at mean 74th density percentile; estimators inter-correlate 0.86–0.90). Moved to PREDICTIONS.md Bucket 2. Script `simulations/test08_sparc_environment_rar.py`; note `explorations/2026-07-14-test08-registered-run-sparc-environment-rar-refuted.md`.
 
 ---
 

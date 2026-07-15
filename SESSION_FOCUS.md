@@ -150,6 +150,16 @@
 > in ONE day (an over-claim AND an over-refutation) = fresh out-of-sample support for the 07-09 no-directional-law
 > correction; recorded as data, not law. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-14-verify-btfr-bounded-boost-and-desi-decisive-negative-correction.md`.**
+> **2026-07-14b — checklist TRIPPED (dp's go — the strongest reopening signal): TEST-08 EXECUTED as
+> registered, the lever the Publisher held six windows as "runnable and unrun." RAR offsets (SPARC,
+> McGaugh+16 pipeline reproduced: 2696 pts, g†=1.16e-10, 0.133 dex) vs Cosmicflows-4 environmental density
+> (55,877 tracers; NED coords 175/175). Pre-declared primary: r² = 0.0001 (N=141, p=0.89) — ~900× below the
+> registered kill bar (0.09) ⇒ **REFUTED**. Instrument validated (28 known UMa Cluster members at mean 74th
+> density percentile; 3 estimators inter-correlate 0.86–0.90) ⇒ a real null, not a broken probe. Weak ns
+> trends are OPPOSITE-signed (EFE-like). **4th convergent kill in the galactic sector** (locality no-go,
+> ρ_crit(V) sign, BTFR bounded-boost, environment): every observable keying coherence to ambient density
+> fails on data. Board now clean: NO registered test remains runnable-and-unrun. Catalog + Bucket 2 updated.
+> Bucket 0 still 0; arc AT REST. See `explorations/2026-07-14-test08-registered-run-sparc-environment-rar-refuted.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
