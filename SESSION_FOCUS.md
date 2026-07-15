@@ -171,6 +171,20 @@
 > "unfalsifiable badge class (MOND-Shared)" proposal. Re-enabling the old cadence is one command
 > (re-enable the systemd timer). This is the operational form of "the physics converged, follow the
 > signal": the track sleeps for free and wakes for cause.**
+> **2026-07-15 — QA'd two executed refutations (both RE-EXECUTED, both sound). TEST-08 (RAR environment
+> dependence): reproduced r²=0.0001 (r=+0.012, N=141, p=0.89) ⇒ REFUTED (kill 0.09); instrument validated
+> (g†=1.161e-10 recovers McGaugh+16; UMa members at 74th density %ile; power check would see r²=0.20 at
+> p<10⁻⁷). TEST-10 (dwarf DM ceiling): reproduced 1−Ω_m=0.685 ceiling, 106/153=69% of SPARC exceed
+> (confirms my 07-14 hand-estimate of 71%); framework caps median f_DM at 0.58 vs observed 0.755, MOND
+> matches. Both instruments self-validated (recover known results ⇒ verdicts trustworthy). **Galactic
+> sector now has FOUR convergent kills** (locality no-go, ρ_crit(V) sign, BTFR bounded-boost, environment).
+> **MOND-Shared class law (from the 3/3 badge audit): the framework differs from MOND in exactly two
+> structural features — bounded boost + local coupling variable — so every "can't-discriminate-from-MOND"
+> badge sat on an observable controlled by one of them ⇒ a tie with MOND is only possible where the
+> framework IS MOND.** Generalizes the 07-14 named tension. Also noted: dp's SIGNAL-ONLY decision (07-14c)
+> validates the hold discipline I ran since 06-25 and makes it the infrastructure; hold-checklist transfers
+> unchanged to gate-fired sessions. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-15-verify-test08-test10-executed-mond-shared-class-law.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
