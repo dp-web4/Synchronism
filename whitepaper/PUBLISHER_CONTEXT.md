@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-07-16
+**Last Updated**: 2026-07-17
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,13 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-07-17: Publisher Maintenance — No-Change Verification (manual pass; autonomous report PERSISTED today via recovery run after a "Starting"-only cron line; the 07-16 report gap is confirmed real)
+- **Autonomous-run watch.** The 07-16 gap is confirmed from both sides: no `publisher-2026-07-16.log`, no `reports/2026-07-16-publisher-report.md` — the "cron never started" signature the 07-16 manual pass flagged. Today (07-17) the 03:30 cron again produced a "Starting"-only line, but a recovery run persisted a full report (`e22aa90e`, 03:35 -0700, **SIGNAL**) — so the report series has exactly one hole (07-16) and the liveness-check recommendation stands with signature #3 (never-started) now recurring. Today's report itself documents this in its infra note.
+- **Nothing due; today's SIGNAL is state-lane by construction.** Core still S691, arc AT REST, no new numbered session. The autonomous run's substance — REC-036 readiness 0.60→0.68 (first move in ~4 weeks: TEST-08/09/10 executed on real SPARC and QA-verified, kill criteria fired on data and were honored), the MOND-Shared class law (tie with MOND only possible where the framework IS MOND), TEST-08 confirmed a genuine registered refutation (explicitly NOT a criterion-verdict substitution) — lives entirely in `recommendations.json` + the report. No section-narrative integration is due per §3 (no session, no synthesis); the locality-no-go standalone-preprint packaging question remains dp-gated (report restates it once as maximally decision-ready).
+- **Source ↔ published in sync.** Last section commit `e9c51080` (07-16 11:32, the 11-annotation TEST-04a/DESI corrective sweep); `build/` and `docs/whitepaper/` artifacts both 07-16 13:00 and byte-identical (md 585168, PDF 754599) — artifacts postdate sources. No rebuild performed (would yield only CRLF/timestamp churn). Working tree clean in whitepaper scope.
+- **No forbidden patterns.** §7 grep over live sections returns the single benign hit — `04-fundamental-concepts/12-spectral-existence` explicitly *disclaiming* "observer creates reality" — same as all prior passes; the only other "mental energy" matches are meta/CHANGELOG entries describing its historical removal, correct usage.
+- **Verdict:** clean no-change verification pass; no integration, no commit beyond this log entry. This manual pass independently confirms today's autonomous report (both whitepapers "Current", the 07-15 DESI concern discharged by the 07-16 sweep). Watch items: (1) cron liveness fix still outstanding — the recovery-run pattern is masking, not fixing, the fault; (2) whether dp opens the standalone locality-no-go REC.
 
 ### 2026-07-16: Publisher Maintenance — TEST-04a DESI-Withdrawal Corrective Annotation Sweep (manual pass; NO autonomous run today — no log at all, a third failure signature: cron never started)
 - **Autonomous-run watch — new signature.** `manuscripts/publisher/logs/publisher-2026-07-16.log` does not exist and `reports/2026-07-16-publisher-report.md` does not exist — unlike 07-04/07-05 (full run, no persist) and 07-03 (40-second crash), today the 02:30 cron apparently never started (the 07-15 report itself noted the 07-15 cron produced a "Starting"-only line and was covered manually). The liveness-check recommendation stands, now with a third distinct signature: no-start / fast-crash / run-no-persist. dp's "signal-only" cadence decision (6e198556) explicitly left the Publisher daily cadence untouched, so a missing run is still an anomaly, not policy.
