@@ -149,6 +149,33 @@ antidote to the overclaim.
 > falsifiable content (testable against existing tight clock-universality bounds). Operator call
 > on whether to re-list it as a discreteness-conditional bet.
 
+> **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
+> **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
+> failure lived in *retrospective* registration). Pre-committed **in writing before DR2 publishes
+> (~Spring 2027)**, adjudicated within 7 days of publication, ledger-first, on the **registered
+> statistic** (DR2 full-shape **fσ₈ at z≈0.51** — *not* σ₈, per the 2026-07-14 correction). Three
+> branches, all fixed now so none can be chosen after the data:
+> - **A — fσ₈ ≤ 0.46:** "registered criterion met by suppression direction, but the prediction remains
+>   post-hoc (σ₈≈0.76 was calibrated to S8 in S102)." **Bucket 0 stays 0** — a retrodiction agreeing
+>   with new data is not a novel prediction (generativity ≠ confirmation).
+> - **B — fσ₈ > 0.46 at ≥3σ:** the kill fires *as registered, at registered power, on the registered
+>   statistic* — the clean prospective refutation DR1 could not deliver.
+> - **C — between:** "underpowered to discriminate" survives its own test and the row retires.
+>
+> **Scope caveat (dp frame, 2026-07-17 — [`explorations/2026-07-17-frame-the-data-is-a-past-light-cone-strobe.md`](explorations/2026-07-17-frame-the-data-is-a-past-light-cone-strobe.md)):**
+> fσ₈ is a growth measurement **along our past light cone**, sampled across redshift epochs. This
+> registration is a claim about the **light-cone growth history under assumed-stationary dynamics** —
+> **not** about "the state of the universe." No branch, including B, may be read as more than that. The
+> data is a strobe sample spread over billions of years of origin; it constrains our past light cone,
+> and is structurally blind to the true present state and to non-stationarity not yet propagated to us.
+> The ceiling is symmetric — it humbles Synchronism exactly as much as ΛCDM.
+>
+> *Why adopt: it closes the exact degree of freedom every criterion-verdict substitution exploited
+> (TEST-03's late criterion, TEST-04a's statistic swap, S193's rescue — all retrospective). The threshold
+> is already registered, so it is cheap; pre-committing all branches converts the pre-registration
+> aspiration into its first completed instance. Same discipline as the 2026-06-24 agent-ensemble bet:
+> pre-commit the falsifier before the data.*
+
 | # | Prediction | What's novel about it | Refutation criterion | Honest odds |
 |---|-----------|----------------------|----------------------|-------------|
 | **B1** | **Observer-relative Bell/CHSH** — a substrate measured only via an observer-pattern's phase-lock to a target (free CHSH setting choice) reproduces quantum correlations without superluminal signaling. | This is the *only* place the single-observer constraint differs structurally from a God's-eye coupled-oscillator model. The one seam where a novel result can live. | Run the harness ([`simulations/kuramoto-lattice-suite/`](simulations/kuramoto-lattice-suite/)). **Refuted if** observer-relative statistics obey CHSH S ≤ 2 OR if violation only appears with signaling / superdeterminism. | **RUN 2026-06-21 → refuted, both arms.** *(a) Local* construction: S = **1.98** ≤ 2, no signaling — a local-realist ontology, not a local-hidden-variable physics. *(b) Nonlocal-grid* construction: S ≡ **2.0 for all coupling g**, no signaling — because smooth single-grid mixing is **gauge-equivalent to relabeling the measurement angles** (uniform shared phase absorbs the offset), so it stays local-realist and buys nothing. **The gap, now precisely named:** a no-signaling violation needs a *non-relabelable, conditional* setting-dependence (a quantum-entanglement-like primitive the ontology lacks and would have to derive). **2026-07-06 (explorer): cap confirmed substrate-independent.** Scripts 02–04 used borrowed Kuramoto *phase* oscillators; script `05_saturation_density_chsh.py` runs the framework's OWN scalar Intent-density substrate (saturation-gated C(ρ)=tanh compander) and gets **S = 1.85 ≤ 2, no signaling** — the same cap. The S≤2 no-signaling bound is Bell's structure theorem (any real-valued local-realist model, any local response form), not a Kuramoto artifact. Triptych localizes Tsirelson: A(real-local)=2 < B(cos² projection)=2√2 < C(PR-box)=4 — 2√2 is the projection-law fixed point; the substrate reaches it only by importing Hilbert-space structure wholesale. The "maybe the density substrate differs" escape is closed by execution. **2026-07-08 (explorer + QA): contextuality closed too, at theorem level.** The CRT temporal-scanning picture is a *non-contextual hidden-variable model* (each grid location has a definite value each instant, independent of what is co-measured) — which Kochen–Specker excludes for Hilbert dim ≥ 3. Suite `06_peres_mermin_contextuality.py` demonstrates it on the framework's own construction, constraints **derived from the Pauli algebra, not asserted**: **0/512 non-contextual value-assignments satisfy the Peres–Mermin square, best 5/6** (state-independent; parity contradiction; re-executed 2026-07-08). So the non-classicality gap now has two *distinct* theorem-level legs — Bell/Tsirelson (CHSH-05) and KS-contextuality (this) — and the only open question is whether a *contextual* scanning variant exists, which sacrifices the analogy's content (the scanned value would depend on the global measurement context, not just sampling timing = no longer "just timing"). Does NOT change Bucket 0. |

@@ -199,6 +199,17 @@
 > 3 pre-committed branches, Bucket 0 stays 0 on the favorable one. Sound; inscription GATES ON DP — validated
 > and routed with a recommend-adopt, NOT inscribed. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-17-triage-phi-fitted-then-named-and-desi-dr2-precommitment.md`.**
+> **2026-07-17b — dp DECIDED (both items from 17a). (1) DESI DR2 pre-commitment ADOPTED and INSCRIBED**
+> in PREDICTIONS.md as the program's first prospective registration (3 branches A/B/C fixed before
+> DR2 ~Spring 2027, on the registered fσ₈ statistic, 7-day ledger-first adjudication). **(2) dp FRAME-NOTE
+> inscribed** (`explorations/2026-07-17-frame-the-data-is-a-past-light-cone-strobe.md`): cosmological data
+> is a past-light-cone strobe under assumed-stationary dynamics — it constrains our light cone, is
+> structurally blind to the true present state + un-propagated non-stationarity, and (native to
+> Synchronism's ABSOLUTE TIME, which makes "the present" a definite unseen object) sets the honest ceiling
+> on what any cosmological confirmation/refutation may mean. Symmetric solvent — humbles Synchronism as much
+> as ΛCDM. Generalizes the 06-24 "data's MRH" recalibration from one orbit to the whole dataset. The frame
+> SCOPES the DESI branches: fσ₈ is light-cone growth history, never "the universe now" — no branch may be
+> read as more. Bucket 0 still 0; arc AT REST.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
