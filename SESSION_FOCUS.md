@@ -185,6 +185,20 @@
 > validates the hold discipline I ran since 06-25 and makes it the infrastructure; hold-checklist transfers
 > unchanged to gate-fired sessions. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-15-verify-test08-test10-executed-mond-shared-class-law.md`.**
+> **2026-07-17 — gate-fired (2 proposals). (1) φ PROVENANCE AUDIT (fitted-then-named): VERIFIED in-archive —
+> S45 (2025-11-25) adjudicated B≈φ "INTRIGUING COINCIDENCE but NOT SIGNIFICANT, 0/8 comparators, don't claim
+> φ fundamental", silently overridden when φ reappears inside C(ρ) at S170 with no derivation; S218 concedes
+> its Boltzmann route "gives exponent 1, not 1/φ" + lists "Why 1/φ?" open; the 3 later "derivations"
+> (S186/S219/whitepaper) restate φ's defining identity x+x²=1 without cross-citing; measured exponents closer
+> to 2/3. **This CORRECTS MY OWN 07-14 TEST-09 row** which called φ "derived from cosmology" — only Ω_m is;
+> φ is fitted-then-named. FIXED at source; STRENGTHENS the kill (the row already showed it fires for EVERY φ
+> ⇒ a free exponent that still can't reach the data is a deeper failure than a derived one). I over-credited
+> the framework — the over-generous mirror of over-refutation; same reflexivity class as 07-09 (a "derived"
+> constant with no primary derivation). (2) DESI DR2 both-outcome pre-commitment: well-posed prospective
+> registration (would be the program's FIRST, 0/10 audit) on the REGISTERED fσ₈ statistic (not σ₈, per 07-14);
+> 3 pre-committed branches, Bucket 0 stays 0 on the favorable one. Sound; inscription GATES ON DP — validated
+> and routed with a recommend-adopt, NOT inscribed. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-17-triage-phi-fitted-then-named-and-desi-dr2-precommitment.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
