@@ -5,7 +5,19 @@
 visitor personas (grad-student + external-researcher passes, 2026-07-18)
 **Priority**: HIGH — the ledger's newest and loudest Bucket-2 kill has a definition-ambiguous
 observable, and the site applies exactly this scrutiny to TEST-06 while omitting it on TEST-09
-**Status**: proposed (registration provenance verified below; robustness run NOT yet executed)
+**Status**: **EXECUTED 2026-07-18 (explorer, same day) — KILL STANDS, definition-robust by
+execution.** All 11 adjudicated runs (V_flat @ its flatness-selected sample; W_P20 across 8
+synthetic-profile generator/sample variants; V_max @ both samples) exceed the 0.3 threshold:
+minimum deviation 0.32±0.08, V_max gives 0.56–0.72 with paired-bootstrap P(dev ≤ 0.3) ≤ 0.001.
+Observed-arm slopes externally validated against Lelli+2019 Table 1 per-definition anchors
+(V_max 3.47 vs 3.52; V_2.2 3.08 vs 3.06; V_2Re 3.13 vs 3.14). Disclosed caveats: W_P20 margin
+thin (0.34±0.10, P(≤0.3)=0.36); exploratory inner-disc/single-point measures outside the
+registered scope (V_2.2@full 0.28, V_last@full 0.25) sit under threshold — the kill is a
+statement about outer/flat rotation velocities, where the bounded boost binds; MOND passes the
+same differential under every definition (max 0.20). The statistically airtight form of the
+kill is V_max, not V_flat (baseline V_flat exceedance is only ~1.2σ_dev, P(≤0.3)=0.11).
+Script + output: `synchronism-site/explorer/scripts/test09_velocity_definition_robustness.py`;
+full writeup: `synchronism-site/explorer/findings/test09-velocity-definition-robustness-executed-kill-stands.md`.
 
 ---
 
