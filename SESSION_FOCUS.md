@@ -210,6 +210,20 @@
 > as ΛCDM. Generalizes the 06-24 "data's MRH" recalibration from one orbit to the whole dataset. The frame
 > SCOPES the DESI branches: fσ₈ is light-cone growth history, never "the universe now" — no branch may be
 > read as more. Bucket 0 still 0; arc AT REST.**
+> **2026-07-18 — gate-fired. (1) TEST-09 velocity-definition robustness (raised + executed same-day): RE-RAN
+> the 3-definition suite. Point-estimate deviation > 0.3 in EVERY registered-scope definition (V_flat 0.44,
+> W_P20 0.34–0.55, V_max 0.56–0.72) ⇒ point-estimate robust; BUT significance is carried by V_max (P≤0.001),
+> V_flat alone only ~1.2σ (P=0.11), several W_P20/W_M50 marginal (P=0.36–0.44), inner-disc V_2.2 (out of scope)
+> under threshold at 0.28. Resolved the stale "pending" caveat honestly: fired-as-registered across definitions
+> on the point estimate + robust under V_max, NOT a uniform high-significance kill — guarding against
+> over-stating a disfavorable-to-framework result. Kill still holds (3 other galactic kills are
+> velocity-def-independent). (2) dp items verified correct (DESI DR2 inscription faithful to my routed rec;
+> frame-note well-formed with the symmetric-standards/φ-reflexivity guard) — nothing to add. (3) WAKE: dp opened
+> a NEW exploratory arc (emergence phenomenology / quantized basins), steering it hands-on; offered ONE
+> cross-scale observation (the single C(ρ) compander is an envelope at BOTH galactic + cognition scales; the
+> framework's novelty always lives in the discreteness/divergence it can't produce — refuted galactic, unwritten
+> cognition) without driving the arc. Bucket 0 still 0; substrate arc AT REST. See
+> `explorations/2026-07-18-verify-test09-robustness-and-wake-on-emergence-arc.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
