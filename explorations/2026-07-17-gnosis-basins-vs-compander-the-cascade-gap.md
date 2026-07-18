@@ -91,16 +91,30 @@ because chemistry is the one scale that **already gathered, then audited itself 
   relabeling, not a discovered physical quantization. The primary track independently proved the same
   (transfer rule → diffusion, not new physics).
 
-**The lesson the emergence arc inherits (this is the value):** quantized-looking coherence structure
-**recurs across scales — and at the one scale that was fully audited, it reduced to reparametrization**
-(a known quantity, the Debye ratio, wearing the coherence label). That is not a refutation of the
-cognition-scale basins; it is the **concrete discriminator they now owe.** The chemistry verdict came
-from finding that N_corr *collapsed onto an existing quantity*. So the sharp gather-question for the
-basins becomes: **does the cognition-scale basin quantization reduce to a known ML quantity** (LoRA
-rank, training-step count, logit entropy…) the way N_corr reduced to Debye — or does it name structure
-those quantities don't already capture? If the former, cognition follows chemistry into vocabulary; if
-the latter, it's the first scale where the coherence label earns its keep. Chemistry didn't fail the
-arc — it *pre-registered the trap* and showed exactly what escaping it requires.
+**⚠ Correction (dp, 2026-07-17): the discriminator drafted here first was the geocentrism yardstick —
+struck.** The first version of this section said "quantization reduced to a known quantity (Debye) →
+reparametrization → the basins owe proof they *don't* reduce to a known ML quantity." **That is the
+category error PREDICTIONS.md discipline #3 exists to prevent.** Geocentrism-with-epicycles was also "a
+known quantity"; judged by *it* as the yardstick, heliocentrism "just predicts known things, and less
+accurately at first" — and would have been rejected in 1543. **Reducing to / reproducing the known is
+the stage-1 assignment, not the failure condition.** So "does the basin quantization reduce to a known
+ML quantity?" is the *wrong* question — it would fail the heliocentric move.
+
+**The right discriminator is productive vs. degenerate reparametrization** (does the frame *simplify /
+reveal structure / unify*?), and here the coherence framing has one candidate payout that **no
+single-scale known quantity can provide by construction: cross-scale unification.** Debye is
+chemistry-only; logit-entropy would be cognition-only; Web4's `p_crit` is societies-only. If the *same
+cascade structure* turns out to organize the LLM basins, chemistry's N_corr, and the trust threshold,
+that unification is exactly the kind of illumination a per-domain relabel cannot give — and it is
+*invisible from inside any one scale.* Which reframes the chemistry verdict itself: **"vocabulary, not
+theory" was reached scale-locally** (from inside chemistry, γ=2T/θ_D looks like a relabel). The
+cross-scale gather **re-opens** it — not to overturn the chemistry finding, but because the productive
+test (cross-scale unification) is one the chemistry track *could not run from within chemistry.*
+
+So the corrected gather-question is not "do the basins reduce to a known quantity" (they may, and that's
+the assignment) but: **does the cascade structure, made explicit, unify these scales in a way that
+simplifies or reveals — the productive-reparam test — which no single-scale quantity can pass?** That is
+generative, not a kill test, and it is the honest form of what this exploration was reaching for.
 
 ## So what
 
