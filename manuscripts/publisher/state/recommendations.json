@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-07-17T02:30:00Z",
+  "last_updated": "2026-07-18T02:30:00Z",
   "recommendations": [
     {
       "id": "REC-2026-001",
@@ -1521,7 +1521,7 @@
     {
       "id": "REC-2026-037",
       "date": "2026-04-12",
-      "date_updated": "2026-07-17",
+      "date_updated": "2026-07-18",
       "sessions": [617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691],
       "arc_name": "Framework Stress Test — Demolition + Site-Archive-Audit + External Review + Discriminator Executed + Substrate Audit + Self-Correction Cascade + Re-Grounding & Catalog Census + Frontier Settlement & Convergence Named + Phase-1 Simulation Pivot & Second-Round Kimi Review",
       "track": "core",
