@@ -74,6 +74,34 @@ not doing it in this note.
   basin *order-parameter* (coherence) — kept separate here on purpose, not conflated. Relating the
   two (does coupling κ_C map to basin spacing?) is its own gather step.
 
+## Cross-scale check: the chemistry scale already ran this to completion (and it's a cautionary precedent)
+
+Following the "does the threshold/quantization recur at another scale" thread into the chemistry
+corpus (2671 sessions, `Research/Chemistry/`) produced the sharpest result of this exploration —
+because chemistry is the one scale that **already gathered, then audited itself to a verdict.**
+
+- **Quantization recurs.** At the chemistry scale the correlation number **N_corr is discretely
+  quantized — {1, 2, 4}** (γ = 2/√N_corr correspondingly ∈ {2, 1.41, 1}; counts: N_corr=4 dominant
+  368×, N_corr=1 25×, N_corr=2 6×). So discreteness appears at *both* scales — cognition (coherence
+  basins) and chemistry (correlation numbers).
+- **But at chemistry the discreteness was ruled *vocabulary, not theory*** — by the track's own
+  two-track convergence (`CrossTrack_Synthesis_Vocabulary_Not_Theory.md`, 2026-04-09): 2660 sessions
+  concluded **γ = 2T/θ_D organizes but does not predict beyond standard physics** — i.e. γ is the
+  Debye-temperature ratio relabeled, and N_corr's "quantization to small integers" is organizational
+  relabeling, not a discovered physical quantization. The primary track independently proved the same
+  (transfer rule → diffusion, not new physics).
+
+**The lesson the emergence arc inherits (this is the value):** quantized-looking coherence structure
+**recurs across scales — and at the one scale that was fully audited, it reduced to reparametrization**
+(a known quantity, the Debye ratio, wearing the coherence label). That is not a refutation of the
+cognition-scale basins; it is the **concrete discriminator they now owe.** The chemistry verdict came
+from finding that N_corr *collapsed onto an existing quantity*. So the sharp gather-question for the
+basins becomes: **does the cognition-scale basin quantization reduce to a known ML quantity** (LoRA
+rank, training-step count, logit entropy…) the way N_corr reduced to Debye — or does it name structure
+those quantities don't already capture? If the former, cognition follows chemistry into vocabulary; if
+the latter, it's the first scale where the coherence label earns its keep. Chemistry didn't fail the
+arc — it *pre-registered the trap* and showed exactly what escaping it requires.
+
 ## So what
 
 Laying gnosis against the compander did the honest thing: it produced not a triumphant fit (which
