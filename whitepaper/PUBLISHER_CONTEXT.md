@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-07-17
+**Last Updated**: 2026-07-18
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,14 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-07-18: Publisher Maintenance — No-Change Verification (manual pass; autonomous report PERSISTED today (`d65166fd`, SIGNAL/governance) — the 07-18 cron again produced a "Starting"-only line and a recovery run covered it, same masking pattern as 07-17)
+- **Autonomous-run watch.** Today's report exists and is committed (`d65166fd`, 03:34 -0700, **SIGNAL**), and the collective log entry landed — but per the report's own infra note the 03:30 cron again showed a "Starting"-only line, with a recovery run persisting the report. That is the second consecutive day of recovery-run coverage: the report *series* is intact, the liveness fault is not fixed. The liveness-check recommendation stands unchanged.
+- **Nothing due; the window is all dp-authored governance — no new numbered session, core still S691.** Today's SIGNAL substance is state-lane by construction: (1) dp **adopted the program's first genuinely prospective test** — DESI DR2 / TEST-04a registration inscribed in PREDICTIONS.md, 3 branches fixed before the ~Spring 2027 data, 7-day ledger-first adjudication — filling the exact post-hoc gap REC-037's narrative and the Kimi review name; REC-037 `date_updated` → 2026-07-18, readiness held 0.98 (commitment, not result). (2) A **new active arc** (emergence phenomenology, dp-steered, exploratory — 4 exploration docs + 2 dp correct/reorient commits) ends the ~24-day all-arcs-at-rest framing; explicitly early exploration, no synthesis → excluded per §3 ("too early"), an arc to watch, not integrate. No section-narrative integration is due (no session, no synthesis, no confirmed result).
+- **Source ↔ published in sync.** Last section commit remains `e9c51080` (07-16 11:32, the 11-annotation DESI corrective sweep); `build/` and `docs/whitepaper/` complete-md both 07-16 13:00 and byte-identical (585168), PDFs both 07-17 05:00 and byte-identical (754607, the 07-17 Pages deploy re-stamp `510173ab`) — artifacts postdate sources. No rebuild performed (would yield only CRLF/timestamp churn). Working tree clean in whitepaper scope; the modified `AGENTS.md` (supervisor gitnexus index lines) is out of Publisher scope, left untouched per precedent `a13894da`.
+- **No forbidden patterns.** §7 grep over live sections returns the single benign hit — `04-fundamental-concepts/12-spectral-existence` explicitly *disclaiming* "observer creates reality" — same as all prior passes.
+- **Cross-repo (web4, checked in this same pass):** zero whitepaper-scope commits; but the carried "W4IP still draft" baseline was stale — the response vocabulary + Effector role ratified normative on 07-14 (#522/#523) and today's C214 audit updated the spec's own note to say so. Whitepaper grep shows zero surface (paper never enumerates the society-role taxonomy) → no contradiction, deliberately not integrated; trigger narrowed to N4 full ratification. Details in web4 `whitepaper/PUBLISHER_CONTEXT.md` §6.
+- **Verdict:** clean no-change verification pass; no integration, no commit beyond this log entry. This manual pass independently confirms today's autonomous report (both whitepapers "Current"). Watch items: (1) cron liveness fix — two consecutive recovery-run days now; masking, not fixed; (2) dp's standalone locality-no-go REC decision, now strengthened by the DESI DR2 prospective registration ("closed portfolio + open pre-registered test" packaging close); (3) emergence phenomenology arc → synthesis/terminus.
 
 ### 2026-07-17: Publisher Maintenance — No-Change Verification (manual pass; autonomous report PERSISTED today via recovery run after a "Starting"-only cron line; the 07-16 report gap is confirmed real)
 - **Autonomous-run watch.** The 07-16 gap is confirmed from both sides: no `publisher-2026-07-16.log`, no `reports/2026-07-16-publisher-report.md` — the "cron never started" signature the 07-16 manual pass flagged. Today (07-17) the 03:30 cron again produced a "Starting"-only line, but a recovery run persisted a full report (`e22aa90e`, 03:35 -0700, **SIGNAL**) — so the report series has exactly one hole (07-16) and the liveness-check recommendation stands with signature #3 (never-started) now recurring. Today's report itself documents this in its infra note.
