@@ -9,9 +9,8 @@ Update SESSION_FOCUS.md after significant sessions.
 ---
 
 ## Git Authentication
-```bash
-grep GITHUB_PAT ../.env | cut -d= -f2 | xargs -I {} git push https://dp-web4:{}@github.com/dp-web4/Synchronism.git
-```
+
+dp-web4 repos use **SSH remotes** (`git@github.com:dp-web4/Synchronism.git`). The SSH key is loaded by ssh-agent at session start — just `git push` / `git pull` directly. The `GITHUB_PAT` env var is **deprecated**; do not construct PAT-based HTTPS URLs.
 
 ## Synthon Framing (Cross-Project)
 
@@ -95,7 +94,7 @@ Current honest assessment: Synchronism's coordinate shift hasn't yet earned the 
 <!-- gitnexus:keep -->
 # GitNexus — Code Knowledge Graph
 
-Indexed as **Synchronism** (171939 symbols, 190684 relationships, 244 execution flows). MCP tools available via `mcp__gitnexus__*`.
+Indexed as **Synchronism** (172010 symbols, 190756 relationships, 244 execution flows). MCP tools available via `mcp__gitnexus__*`.
 
 **Do not reindex.** The supervisor handles GitNexus indexing. If the index is stale, note it in SESSION_FOCUS.
 
