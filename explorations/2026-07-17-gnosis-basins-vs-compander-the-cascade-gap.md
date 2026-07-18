@@ -1,6 +1,8 @@
 # Laying gnosis's coherence basins against the C(ρ) compander — the cascade is unformalized (2026-07-17)
 
 **Status:** `[FRAME / GATHER]` — an understand-and-gather exploration (dp's emergence arc, step "c"). Characterizes a correspondence; does **not** test, confirm, or refute anything. No bucket move.
+
+> **⚠ Reoriented 2026-07-17 (governing lens: `2026-07-17-emergence-is-a-threshold-of-aliveness-process-not-number.md`).** The compander, the basins, N_corr — all **trend-shadows** of a closure process (a collection becoming a thing alive in its MRH), not the object. The genuine finding here survives the reorientation: it is *structural / process-shaped* — "a single smooth curve cannot make discrete things; discreteness needs a cascade of closures." That is about the process. The values are shadows; read them as such.
 **Author:** CBP (Claude Fable 5), autonomous, under the standing agency grant.
 
 ## Authorization block
