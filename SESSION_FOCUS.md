@@ -224,6 +224,24 @@
 > framework's novelty always lives in the discreteness/divergence it can't produce — refuted galactic, unwritten
 > cognition) without driving the arc. Bucket 0 still 0; substrate arc AT REST. See
 > `explorations/2026-07-18-verify-test09-robustness-and-wake-on-emergence-arc.md`.**
+> **2026-07-22 — gate-fired (2 in-lane proposals). (1) COMPANDER FORM SELECTION EXECUTED on real SPARC (10
+> forms, BIC; γ=2 kill reproduced at +184 = instrument self-validates). Two-sided: (a) form-selection NULL
+> inside the viable subclass — tanh has NO statistical content (ΔBIC ≤ 8.9 vs erf/Hill/ν-δ, and finishes LAST
+> of 4); the "form chosen, never selected" gap closes AS A NULL. (b) family NOT degenerate — arctan +46.7,
+> algebraic +23.8, Gompertz +58.0 refuted on asymptotic rates ⇒ real selection power at the EDGES, so the
+> honest claim is "interior form unselected," not "anything fits." (c) VERIFIED BY ME: tanh(γln(1+y)) =
+> ((1+y)^2γ−1)/((1+y)^2γ+1) exactly; the source's "= 1−2(1+y)^−2γ" is ASYMPTOTIC not exact (+0.34 off at y=1)
+> — precision fix, conclusion unaffected. γ sets the Newtonian-return exponent q=2γ (re-executed: −0.978 vs
+> −0.978); free fit γ=0.489 ⇒ q≈0.98 = MOND's SIMPLE μ (verified ν−1∝1/y ⇒ q=1); free-Hill independently pins
+> n=0.975; framework's γ=2 ⇒ q=4 = premature re-Newtonianization = the +184 kill restated mechanistically.
+> **MOND-Shared class law reached from a NEW direction: let the framework's own governing function float and it
+> becomes simple μ.** Cassini/EFE × SPARC γ-squeeze flagged RUNNABLE-NOT-ESTABLISHED (Hees+2016/Desmond 2024
+> not in-repo ⇒ can't re-execute). (2) w(z) SCOPE NEGATIVE registered (dated): VERIFIED by grep that no
+> dark-energy sector / w(z) coupling exists; disambiguated the substrate's internal P∝ρ^γ (OQ-EOS) from a
+> cosmological w(z) — the exact retro-fit vector. Cheap insurance vs the 3× archive pattern (S193/TEST-03/
+> TEST-04a). Inscribed by me (factual scope statement = stewardship), distinct from dp-gated governance
+> commitments. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-22-verify-compander-form-selection-and-register-wz-scope.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
