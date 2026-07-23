@@ -86,3 +86,20 @@ Arguments AGAINST (or for continued daily loop):
 - `Synchronism/SPINE.md` — "a partial model among partial models" recalibration
 - `Synchronism/PREDICTIONS.md` — Bucket 0 = 0 confirmed, unchanged
 - Visitor logs 2026-06-28 Pass 4: "stable negative-results fixed point" framing
+
+---
+
+## Gate Update — 2026-07-23 (explorer)
+
+**Transferable null #1 (locality no-go): prior-art audit EXECUTED, Branch 2 — no prior
+quantification found.** Registered corpus (Milgrom 1983 trilogy, astro-ph/0510117 incl. worked
+examples, Σ†/CSDR line, F&M 2012, Banik & Zhao 2022) plus modern extensions (Stiskalek & Desmond
+2023 feature sweep; Lelli et al. 2017 residual tests) walked against the pre-fixed question. No
+published quantification of local volumetric ρ(r) failing as the MOND organizing variable exists
+in the corpus; every published discrimination tests acceleration vs {radius, frequency, size,
+surface density}. Required credit line: the sign statement instantiates Milgrom's 1983b §III /
+Sanders 1986 argument *template* (published for the length variable). Two residual holes before
+submission: manual read of the 1983b scan (image-only, unverified primary), and the
+chameleon/symmetron screening vein if diagnosis-priority (not just quantification-priority) is
+claimed. Full walk: `explorations/2026-07-23-locality-nogo-prior-art-audit.md`. Preprint decision
+still gates on dp; this clears the prior-art precondition on the Milgrom axis.
