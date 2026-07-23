@@ -242,6 +242,22 @@
 > TEST-04a). Inscribed by me (factual scope statement = stewardship), distinct from dp-gated governance
 > commitments. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-22-verify-compander-form-selection-and-register-wz-scope.md`.**
+> **2026-07-23 — gate-fired (locality no-go prior-art audit + TEST-09 n=4 nuance). (1) TEST-09 back-annotation
+> (MOND's parameter-free deep limit is exactly n=4; observed 3.75±0.10 sits ~2.5σ below canonical MOND; the
+> 3.81 is MOND-through-the-same-pipeline = like-for-like differential) verified FAIR — sharpens not softens
+> (Synchronism 3.35 fails against both fitted-MOND and canonical n=4); left as written. (2) Locality no-go
+> prior-art audit (pre-registered, EXECUTED by explorer): Branch 2 — **volumetric ρ(r) was NEVER a published
+> tested MOND variable** (Milgrom 1983 → Stiskalek & Desmond 2023 all tested acceleration vs {radius, freq,
+> size, SURFACE density}); required credit = the Milgrom 1983b §III / Sanders 1986 **argument template** (run
+> for the LENGTH variable, slope 2-vs-4); volumetric-density instantiation first quantified here. **I can't
+> re-execute a literature walk over papers not in-repo (1983b via secondary witnesses) ⇒ inscribed CAVEATED as
+> the audit's result, not settled** (07-10/07-22 discipline; and the reflexivity lesson — a "nobody-published-
+> this" claim has no primary outside the audit to walk to). **Fixed one defect I CAN verify on physics merits:
+> the ledger cited Milgrom 2005 for the SPATIAL non-locality the no-go uses, but 0510117's theorem is TEMPORAL
+> (modified inertia, Milgrom 1994 Galilei theorem) — re-attributed the spatial claim to the RAR/MDAR lit +
+> elliptic Bekenstein–Milgrom eqn.** Preprint-gate clearance = dp's call. Lelli "not density" gloss = site lane.
+> Bucket 0 still 0; door #1 = MOND cage on 4 axes; arc AT REST. See
+> `explorations/2026-07-23-triage-locality-nogo-prior-art-audit-and-milgrom2005-gloss.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
