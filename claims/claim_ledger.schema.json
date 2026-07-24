@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://synchronism.dev/schemas/claim-ledger-v1.json",
+  "title": "Synchronism claim ledger",
+  "type": "object",
+  "required": ["schema_version", "as_of", "scope", "status_definitions", "claims"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "as_of": {"type": "string", "format": "date"},
+    "scope": {"type": "string", "minLength": 1},
+    "status_definitions": {
+      "type": "object",
+      "additionalProperties": {"type": "string", "minLength": 1}
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "domain",
+          "claim_level",
+          "status",
+          "novelty",
+          "statement",
+          "public_summary",
+          "evidence",
+          "source_refs",
+          "updated"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]+$"},
+          "title": {"type": "string", "minLength": 1},
+          "domain": {
+            "enum": ["program", "ontology", "physics", "applied", "methodology"]
+          },
+          "claim_level": {
+            "enum": ["program", "umbrella", "realization", "method", "application"]
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "audited",
+              "established",
+              "supported",
+              "open",
+              "underdetermined",
+              "null",
+              "refuted",
+              "erroneous",
+              "historical"
+            ]
+          },
+          "novelty": {
+            "enum": ["novel", "not_novel", "unresolved", "not_applicable"]
+          },
+          "statement": {"type": "string", "minLength": 1},
+          "public_summary": {"type": "string", "minLength": 1},
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "falsifier_or_next_test": {"type": "string"},
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "supersedes": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1}
+          },
+          "updated": {"type": "string", "format": "date"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
