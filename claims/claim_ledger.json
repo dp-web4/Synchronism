@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-07-23",
+  "scope": "Initial v2 public-surface migration. Authoritative for the records present; PREDICTIONS.md retains broader historical coverage until migrated.",
+  "status_definitions": {
+    "confirmed": "A temporally prior, specific claim met a fixed success criterion on genuinely holdout evidence.",
+    "audited": "A bounded inventory or consistency result was directly checked against the declared source.",
+    "established": "A methodological or mathematical proposition follows from accepted definitions or practice rather than a program-specific empirical test.",
+    "supported": "Evidence favors the bounded claim, but confirmation or uniqueness is not established.",
+    "open": "A testable claim or obligation lacks a decisive result.",
+    "underdetermined": "Available evidence does not select this umbrella interpretation over alternatives.",
+    "null": "The test found no discriminating effect at its registered or defensible resolution.",
+    "refuted": "A concrete realization failed its stated criterion or a structural requirement.",
+    "erroneous": "The recorded claim contains a factual, mathematical, or inferential error.",
+    "historical": "Retained for lineage; not a current claim."
+  },
+  "claims": [
+    {
+      "id": "program.confirmed-novel-physics-count",
+      "title": "Confirmed novel physics count",
+      "domain": "program",
+      "claim_level": "program",
+      "status": "audited",
+      "novelty": "not_applicable",
+      "statement": "At this snapshot, the program has zero confirmed novel physics predictions.",
+      "public_summary": "Confirmed novel physics predictions: 0.",
+      "evidence": [
+        "The canonical prediction ledger's Bucket 0 is empty.",
+        "Flexible successful fits examined in the review converge on known model classes or remain non-unique."
+      ],
+      "source_refs": [
+        "PREDICTIONS.md",
+        "forum/codex/synchronism-and-gnosis-review-2026-07-23.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "ontology.synchronism-umbrella",
+      "title": "Synchronism umbrella ontology",
+      "domain": "ontology",
+      "claim_level": "umbrella",
+      "status": "underdetermined",
+      "novelty": "unresolved",
+      "statement": "The broad ontology is not empirically selected by the current program. Failures of specific mathematical realizations do not logically refute every possible realization of the umbrella ontology.",
+      "public_summary": "The umbrella ontology remains underdetermined; this is distinct from the refutation of several concrete realizations.",
+      "evidence": [
+        "Existing tests address specified scalar-substrate, galactic, quantum-correlation, and scaling realizations rather than every ontology-compatible model.",
+        "No surviving result uniquely selects the umbrella ontology."
+      ],
+      "falsifier_or_next_test": "Derive a translation-resistant quantitative prediction before inspecting a genuine holdout dataset, or specify a realization whose failure would bear on the umbrella rather than only one model.",
+      "source_refs": [
+        "PREDICTIONS.md",
+        "SPINE.md",
+        "forum/codex/synchronism-and-gnosis-review-2026-07-23.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "physics.scalar-substrate-original",
+      "title": "Original scalar transfer substrate",
+      "domain": "physics",
+      "claim_level": "realization",
+      "status": "refuted",
+      "novelty": "unresolved",
+      "statement": "The original one-degree-of-freedom, dissipative scalar transfer substrate does not derive the vortical, oscillatory, spin-2, and joint gravity/acceleration behavior assigned to it.",
+      "public_summary": "The original scalar transfer realization is structurally refuted; later conservative models are replacements, not derivations from it.",
+      "evidence": [
+        "The repository's substrate arc records diffusion rather than the required conservative wave dynamics.",
+        "Its pressure ansatz produces negative sound-speed squared and the degree-of-freedom audit excludes the claimed modes."
+      ],
+      "source_refs": [
+        "PREDICTIONS.md",
+        "Whitepaper/sections/06-implications/04-open-questions/open_questions.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "physics.sparc-gamma-2",
+      "title": "Fixed-gamma SPARC transition shape",
+      "domain": "physics",
+      "claim_level": "realization",
+      "status": "refuted",
+      "novelty": "novel",
+      "statement": "The a-priori gamma=2 tanh-log transition shape fails against the SPARC radial-acceleration relation; allowing gamma to float collapses onto the return exponent of simple MOND.",
+      "public_summary": "The distinctive gamma=2 galactic prediction is refuted; the flexible form is a MOND-class reparameterization.",
+      "evidence": [
+        "The recorded fixed-gamma comparison reports delta BIC +184 against the comparator.",
+        "The free fit gives gamma approximately 0.489, corresponding to a Newtonian-return exponent near one."
+      ],
+      "source_refs": [
+        "PREDICTIONS.md#B2",
+        "explorations/2026-07-22-verify-compander-form-selection-and-register-wz-scope.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "physics.compatibility-inverse-scaling",
+      "title": "Compatibility inverse-scaling law",
+      "domain": "physics",
+      "claim_level": "realization",
+      "status": "refuted",
+      "novelty": "novel",
+      "statement": "The proposed quantitative law p_crit proportional to 1 over mean compatibility does not transfer across the stored compatibility structures.",
+      "public_summary": "Compatibility affects ordering in the toy model, but the proposed inverse quantitative law fails its stored transfer test.",
+      "evidence": [
+        "The stored products Kc times compatibility are 2.5, 2.8, and 5.53 rather than constant.",
+        "The same result object sets Kc_times_compat_constant_(p_crit proportional to 1/C) to false even though its narrative verdict says the law transfers."
+      ],
+      "source_refs": [
+        "simulations/results/phase17_qc_compatibility_coherence_result.json",
+        "PREDICTIONS.md#B4"
+      ],
+      "supersedes": [
+        "README.md claim that p_crit proportional to 1/<C> is confirmed",
+        "PREDICTIONS.md B4 claim that the homogeneous result confirms the law"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "physics.entity-gamma-less-than-m",
+      "title": "Binary entity criterion Gamma less than mass",
+      "domain": "physics",
+      "claim_level": "realization",
+      "status": "erroneous",
+      "novelty": "not_novel",
+      "statement": "The proposed derivation of Gamma less than m as a one-cycle entity boundary is mathematically wrong and does not establish a physical ontology.",
+      "public_summary": "The Gamma < m entity criterion is erroneous: the stated full-period premise implies Gamma <= m/(2 pi), the lifetime exponent is wrong by six orders of magnitude, and resonance physics supplies no binary entity boundary at Gamma/m=1.",
+      "evidence": [
+        "With tau = hbar/Gamma and T = h/(m c^2) = 2 pi hbar/(m c^2), tau >= T implies Gamma <= m/(2 pi), not Gamma < m.",
+        "For Gamma = 640 MeV, hbar/Gamma is approximately 1.03e-24 seconds, not 1e-30 seconds.",
+        "The reported 0.859 cycles is m/Gamma, a reduced-time ratio; the full-period count is m/(2 pi Gamma), approximately 0.137.",
+        "Modern resonance characterization uses pole locations and residues rather than a universal binary Gamma/m entity threshold."
+      ],
+      "source_refs": [
+        "PREDICTIONS.md entity-criterion row",
+        "gnosis-research/RESEARCH_LOG.md Session 85 (external public companion repository)",
+        "Particle Data Group 2024 Review: Resonances"
+      ],
+      "supersedes": [
+        "The claim that Gamma < m follows from persistence for one full Compton period",
+        "The claim that Gamma/m=1 is a derived entity/non-entity boundary"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "methodology.archival-confirmation",
+      "title": "Confirmation with archival data",
+      "domain": "methodology",
+      "claim_level": "method",
+      "status": "established",
+      "novelty": "not_applicable",
+      "statement": "A specific prediction fixed before test-data exposure can receive confirmatory evidence from independently collected archival data when the data are a genuine holdout and the analysis and success criterion were fixed prospectively.",
+      "public_summary": "Instrument ownership is not the boundary between refutation and confirmation; temporal priority, specificity, holdout integrity, and prospective analysis are.",
+      "evidence": [
+        "Confirmation depends on the relation between prediction and evidence, not ownership of the instrument.",
+        "Archival tests become exploratory when hypotheses, parameters, cuts, or criteria are selected after inspecting the same data."
+      ],
+      "falsifier_or_next_test": "Register the SPARC-by-Cassini squeeze, including family, parameter range, analysis, and all outcome branches, before the joint archival test.",
+      "source_refs": [
+        "README.md historical honest-split paragraph",
+        "docs/whitepaper/Synchronism_Whitepaper_Complete.md historical invitation paragraph",
+        "forum/codex/synchronism-and-gnosis-review-2026-07-23.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "applied.generative-vocabulary",
+      "title": "Applied generative vocabulary",
+      "domain": "applied",
+      "claim_level": "application",
+      "status": "supported",
+      "novelty": "unresolved",
+      "statement": "MRH, witnessing, trust-as-coherence, metabolic framing, and fractal organization are productive design abstractions in working systems.",
+      "public_summary": "Synchronism's applied vocabulary is demonstrably generative, but implementation success does not confirm the fundamental physics.",
+      "evidence": [
+        "The concepts have been used to design and operate software and governance systems.",
+        "No logical bridge has been established from engineering utility to empirical truth of the substrate ontology."
+      ],
+      "source_refs": [
+        "README.md",
+        "forum/codex/synchronism-and-gnosis-review-2026-07-23.md"
+      ],
+      "updated": "2026-07-23"
+    },
+    {
+      "id": "methodology.autonomous-claim-lineages",
+      "title": "Repository-mediated autonomous claim lineages",
+      "domain": "methodology",
+      "claim_level": "method",
+      "status": "supported",
+      "novelty": "unresolved",
+      "statement": "The Gnosis repository is a distinctive longitudinal record of cold-start agents inheriting research identity through artifacts, including claim amplification, correction, recorrection, and cross-repository propagation failure.",
+      "public_summary": "The autonomous research history is a promising empirical corpus about artifact-mediated scientific continuity; it is not evidence for a universal coherence constant.",
+      "evidence": [
+        "Manually audited lineages expose both rapid local correction and much slower cross-repository correction.",
+        "One universal-law claim was committed after contrary analysis was already present in history.",
+        "The corpus preserves successive agents' reasoning and executable artifacts."
+      ],
+      "falsifier_or_next_test": "Expand blinded lineage coding, measure inter-rater agreement, and compare correction dynamics with human and persistent-agent baselines.",
+      "source_refs": [
+        "Research/papers/repository-mediated-autonomous-science/paper.md",
+        "Research/papers/repository-mediated-autonomous-science/analysis/claim_lineages.csv"
+      ],
+      "updated": "2026-07-23"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+  "frozen_at_commit": "cf5cd3f0370c89b0e240659859fcfc6f68f1d241",
+  "frozen_on": "2026-07-23",
+  "purpose": "Preserve the pre-ledger public manuscript as historical v1. These files are evidence for claim-lineage research and must not be silently rewritten.",
+  "files": {
+    "README.md": "52245959ce2378a63df1710e3da274d3972962c7cb7a47ea2a0d1696d2714ec8",
+    "PREDICTIONS.md": "144971202ff9137f29e9f71742a121bd47b8eafd5c52e2cf150589582504dc27",
+    "SPINE.md": "1ec1a72d724b0f0170a9b9110a1691fc4ceb3875ff3a24a23212d87c403e261d",
+    "docs/whitepaper/Synchronism_Whitepaper_Complete.md": "6e3084fd41b2457cb260792dca13333e05331d64dddf5d3df9666f8e86f669a1",
+    "docs/whitepaper/Synchronism_Whitepaper.pdf": "70a775bae6ebdee7272494a9f7d86a3e11a46bf7ffdd7890134bb2ef3ede4f34"
+  }
+}

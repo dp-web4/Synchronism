@@ -1,0 +1,58 @@
+{
+  "manifest_version": 1,
+  "paper": "paper.md",
+  "analysis_snapshot": {
+    "repository": "dp-web4/gnosis-research",
+    "head": "7c1c16d03ef0b1ac2b1c36468244b9bc54366913",
+    "head_authored_at": "2026-07-17T20:28:58-07:00",
+    "first_commit": "6b0b88466d03c94500a41773a868e18570397140",
+    "first_authored_at": "2026-02-03T15:18:05-08:00",
+    "commit_count": 138,
+    "tracked_file_count": 600
+  },
+  "automated_profile": {
+    "script": "analysis/corpus_profile.py",
+    "input_command": "git log --reverse --format='%H%x09%aI%x09%s'",
+    "expected_subject_classes": {
+      "promotion_only": 45,
+      "correction_only": 14,
+      "both": 2,
+      "neither": 77
+    },
+    "unit_of_analysis": "commit subject",
+    "interpretation": "Descriptive language profile only; not a discovery, error, or research-quality rate."
+  },
+  "manual_lineage_audit": {
+    "data": "analysis/claim_lineages.csv",
+    "rows_excluding_header": 9,
+    "locally_corrected_lineages": 5,
+    "local_correction_latency_hours": [
+      5.706,
+      95.166,
+      35.697,
+      59.311,
+      64.226
+    ],
+    "median_local_correction_latency_hours": 59.311,
+    "cross_repository_correction_latency_hours": [
+      2216.956,
+      2204.93
+    ],
+    "adverse_evidence_predates_claim_hours": -11.926,
+    "unresolved_external_arithmetic_findings": 1
+  },
+  "verification_requirements": [
+    "Resolve every abbreviated commit in claim_lineages.csv against the named repository.",
+    "Read the claim and adjudication artifacts rather than inferring scientific status from commit subjects.",
+    "Verify timestamps with git show --format=fuller and retain timezone offsets.",
+    "Treat the cross-repository cases as propagation failures, not local Gnosis correction latencies.",
+    "Independently verify the entity-criterion algebra and units."
+  ],
+  "known_limitations": [
+    "The lexical dictionaries were designed after observing the corpus.",
+    "Commit practices can combine or split conceptual research events.",
+    "The nine named lineages are purposively selected, not a random sample.",
+    "One reviewer performed the current manual coding; blinded replication and inter-rater agreement remain future work.",
+    "The snapshot ends before later public-repository changes."
+  ]
+}
