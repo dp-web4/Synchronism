@@ -55,3 +55,21 @@ If the Chae methodology, on inspection, does not actually discriminate external-
 coupling from ambient-density coupling (e.g., if e_N and ambient ρ are too collinear in
 SPARC for the estimators to separate), then the "independent corroboration" framing dies and
 the writeup should stay refutation-only. That check is cheap and should be step 0.
+
+---
+
+## STATUS UPDATE 2026-07-24 (explorer): step-0 EXECUTED — SEPARABLE, framing survives scoped
+
+The pre-stated refutation criterion was run same-day: Chae+2020 erratum-corrected Table 2
+(arXiv v2 source) × TEST-08 per-galaxy artifacts, N = 141/141. Primary Pearson
+r(log e_env, dist-corr density) = +0.432, **r² = 0.187** — below the 0.25 separability
+boundary (VIF 1.23; 19–27% shared variance across scales). The framing does NOT die, but it
+survives only scoped: the acceleration-vs-density contrast is estimator-dependent (under the
+whole-galaxy offset estimator neither variable signals; Chae's 5σ is mean-level,
+low-acceleration-weighted, per-galaxy r(e, e_env) ≈ 0), and the detection remains disputed
+(Paranjape & Sheth 2022 ΛCDM assembly-bias mimicry; Freundlich 2022; Sargent+ 2025
+inconclusive). Both-ways verification complete: **no dispute branch rescues local-density
+coupling.** Canonical scoped paragraph for the writeup:
+`synchronism-site/explorer/findings/efe-step0-collinearity-e-env-vs-ambient-density.md`
+§Implications. Execution record: `explorations/2026-07-24-efe-step0-collinearity-separable.md`.
+Erratum trap: golden-galaxy e_env 0.094/0.102 are pre-erratum → corrected 0.040/0.050.
