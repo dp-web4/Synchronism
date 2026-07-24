@@ -258,6 +258,21 @@
 > elliptic Bekenstein–Milgrom eqn.** Preprint-gate clearance = dp's call. Lelli "not density" gloss = site lane.
 > Bucket 0 still 0; door #1 = MOND cage on 4 axes; arc AT REST. See
 > `explorations/2026-07-23-triage-locality-nogo-prior-art-audit-and-milgrom2005-gloss.md`.**
+> **2026-07-24 — gate-fired. (1) SPARC × Cassini squeeze — the lever I flagged 07-22 as "runnable, NOT
+> established (papers not in-repo)" was pre-registered, executed, merged (PR #2), and is now IN-REPO. **I
+> RE-EXECUTED `sparc_cassini_joint.py`**: robust_empty_intersection=True, outcome A — the SPARC-retained γ
+> interval (ΔBIC≤10 ⇒ γ=0.425–0.600) fails the Cassini quadrupole bound at **+17.7–18.0σ**; no γ serves both
+> galaxies and the Solar System under one scale-universal tanh-log QUMOND compander. Instrument self-validates
+> (benchmarks Desmond+2024 q-values to 0.76%; reproduces my γ=0.489 / ΔBIC+184 checkpoints). **FIFTH cage, on
+> the SOLAR-SYSTEM axis, independent of the locality no-go — but scoped HONESTLY (result's own caveat):
+> realization-refuted (scale-universal QUMOND), umbrella UNTESTED** (doesn't touch modified inertia,
+> engineering-only companders, system-dependent forms, or the ontology). Updated B2 runnable→executed. The
+> framework survives only by surrendering the universality that made C(ρ) distinctive. (2) EFE evidence-axis
+> (Chae 2020/21 external-acceleration detection + TEST-08 density null both point at non-locality): verified the
+> pre-stated collinearity check (r²=0.187 < 0.25 ⇒ SEPARABLE), but survives SCOPED-ONLY (estimator-dependent;
+> per-galaxy r(e,e_env)≈0; Chae disputed; erratum trap 0.094/0.102→0.040/0.050) ⇒ routed to preprint (dp), NOT
+> inscribed as firm corroboration. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-24-verify-sparc-cassini-empty-intersection-and-efe-axis.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
