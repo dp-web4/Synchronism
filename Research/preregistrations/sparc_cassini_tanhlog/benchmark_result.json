@@ -1,0 +1,45 @@
+{
+  "instrument": "simulations/sparc_cassini_q2.py",
+  "mode": "--benchmark",
+  "python_dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.11.4"
+  },
+  "literature_target": {
+    "source": "Desmond, Hees & Famaey 2024, Figure 1",
+    "arxiv": "2401.04796",
+    "tolerance_relative": 0.02
+  },
+  "rows": [
+    {
+      "e_tilde": 1.0,
+      "expected_abs_q": 0.094,
+      "computed_q": -0.0947124439938892,
+      "relative_error": 0.007579191424353194,
+      "angular_order_change": 3.74604811233005e-09,
+      "log_bound_change": 1.4961425317793984e-11,
+      "pass": true
+    },
+    {
+      "e_tilde": 1.5,
+      "expected_abs_q": 0.159,
+      "computed_q": -0.15948545495782915,
+      "relative_error": 0.0030531758354034313,
+      "angular_order_change": 1.8893522582144102e-08,
+      "log_bound_change": 1.6759469576443409e-09,
+      "pass": true
+    },
+    {
+      "e_tilde": 2.0,
+      "expected_abs_q": 0.221,
+      "computed_q": -0.22099731263119898,
+      "relative_error": 1.2160039823614113e-05,
+      "angular_order_change": 5.249364323997303e-09,
+      "log_bound_change": 1.2996549332025823e-11,
+      "pass": true
+    }
+  ],
+  "n_family_asymptotes_pass": true,
+  "all_pass": true,
+  "target_family_evaluated": false
+}
