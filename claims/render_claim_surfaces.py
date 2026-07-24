@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -117,12 +118,53 @@ def validate_ledger(ledger: dict[str, object]) -> list[dict[str, object]]:
 
 def verify_v1_freeze() -> None:
     manifest = load_json(FREEZE_PATH)
+    frozen_at_commit = manifest.get("frozen_at_commit")
+    if not isinstance(frozen_at_commit, str):
+        raise ValueError("v1 freeze manifest needs frozen_at_commit")
+
     failures = []
     for relative, expected in manifest["files"].items():
-        path = ROOT / relative
-        actual = hashlib.sha256(path.read_bytes()).hexdigest()
+        try:
+            blob = subprocess.check_output(
+                ["git", "-C", str(ROOT), "show", f"{frozen_at_commit}:{relative}"],
+                stderr=subprocess.PIPE,
+            )
+        except subprocess.CalledProcessError as error:
+            detail = error.stderr.decode("utf-8", errors="replace").strip()
+            failures.append(
+                f"{relative}: unavailable at {frozen_at_commit} ({detail})"
+            )
+            continue
+
+        actual = hashlib.sha256(blob).hexdigest()
         if actual != expected:
-            failures.append(f"{relative}: expected {expected}, found {actual}")
+            failures.append(
+                f"{relative}@{frozen_at_commit}: expected {expected}, found {actual}"
+            )
+            continue
+
+        # The manifest freezes committed Git objects, not checkout-transformed
+        # bytes. Separately require the current index/worktree to remain
+        # equivalent under Git's configured clean filters.
+        unchanged = subprocess.run(
+            [
+                "git",
+                "-C",
+                str(ROOT),
+                "diff",
+                "--quiet",
+                frozen_at_commit,
+                "--",
+                relative,
+            ],
+            check=False,
+        )
+        if unchanged.returncode == 1:
+            failures.append(f"{relative}: differs from frozen commit")
+        elif unchanged.returncode != 0:
+            failures.append(
+                f"{relative}: git diff failed with {unchanged.returncode}"
+            )
     if failures:
         raise ValueError("v1 freeze violation:\n" + "\n".join(failures))
 

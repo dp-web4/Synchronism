@@ -31,5 +31,10 @@ python3 claims/render_claim_surfaces.py --check
 ```
 
 The renderer validates the ledger before writing. JSON is used so validation
-and rendering require only the Python standard library. The v1 preservation
-hashes live in `v1-freeze-manifest.json`.
+and rendering require only the Python standard library plus Git. The v1
+preservation hashes live in `v1-freeze-manifest.json`.
+
+Freeze hashes are computed from blobs at the manifest's `frozen_at_commit`,
+not from checkout bytes. This makes verification independent of line-ending
+conversion and excludes untracked build products. A separate `git diff`
+check ensures that the current tree has not changed any frozen path.
