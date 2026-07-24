@@ -18,6 +18,7 @@ import numpy as np
 from numpy.polynomial.legendre import leggauss
 from scipy.interpolate import PchipInterpolator
 from scipy.optimize import brentq
+from scipy.special import roots_legendre
 
 
 G_SI = 6.67430e-11
@@ -178,7 +179,10 @@ def qumond_q(
         }
     )
     def fixed_integral(order: int) -> float:
-        nodes, radial_weights = leggauss(order)
+        # scipy.special uses a stable high-order node generator; NumPy's
+        # companion-matrix implementation becomes prohibitively slow for the
+        # low-gamma convergence orders required by the registered domain.
+        nodes, radial_weights = roots_legendre(order)
         total = 0.0
         for lower, upper in zip(split_points, split_points[1:]):
             half_width = 0.5 * (upper - lower)

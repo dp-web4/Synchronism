@@ -27,6 +27,8 @@ PROFILE_CONVENTIONS = (
     "delta_bic_fixed_gamma_vs_mcgaugh",
     "delta_bic_family_k2_vs_mcgaugh",
 )
+RADIAL_ORDERS = (512, 1024, 2048, 4096, 8192)
+CONVERGENCE_TOLERANCE = 0.005
 
 
 def sha256_file(path: Path) -> str:
@@ -72,6 +74,56 @@ def grid_intervals(values: list[float], complete_grid: list[float]) -> list[list
     return result
 
 
+def converged_quadrupole(
+    nu: TanhLogNu,
+    e_tilde: float,
+) -> tuple[object, list[dict[str, float]], float]:
+    """Require two consecutive radial convergences plus an angular check."""
+    previous = None
+    consecutive_passes = 0
+    history: list[dict[str, float]] = []
+    accepted = None
+    for radial_order in RADIAL_ORDERS:
+        result = qumond_q(
+            nu,
+            e_tilde,
+            angular_order=128,
+            radial_order=radial_order,
+        )
+        relative_change = (
+            None
+            if previous is None
+            else abs(result.q - previous.q) / result.q_abs
+        )
+        history.append(
+            {
+                "radial_order": radial_order,
+                "q": result.q,
+                "change_from_previous": relative_change,
+            }
+        )
+        if relative_change is not None and relative_change < CONVERGENCE_TOLERANCE:
+            consecutive_passes += 1
+        else:
+            consecutive_passes = 0
+        previous = result
+        if consecutive_passes >= 2:
+            accepted = result
+            break
+    if accepted is None:
+        raise RuntimeError(
+            f"radial quadrature did not converge through order {RADIAL_ORDERS[-1]}"
+        )
+    angular = qumond_q(
+        nu,
+        e_tilde,
+        angular_order=256,
+        radial_order=accepted.radial_order,
+    )
+    angular_change = abs(angular.q - accepted.q) / accepted.q_abs
+    return accepted, history, angular_change
+
+
 def execute(profile_path: Path) -> dict[str, object]:
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     profile_rows = profile["rows"]
@@ -84,17 +136,35 @@ def execute(profile_path: Path) -> dict[str, object]:
     for profile_row in profile_rows:
         gamma = profile_row["gamma"]
         a0 = profile_row["a0_m_s2"]
+        sparc_relevant = any(
+            profile_row[convention] <= 14.0
+            for convention in PROFILE_CONVENTIONS
+        )
+        if not sparc_relevant:
+            rows.append(
+                {
+                    **profile_row,
+                    "cassini_evaluation_status": (
+                        "not_required: excluded by SPARC at delta_BIC > 14 "
+                        "under every registered convention"
+                    ),
+                    "max_mapping_relative_error": None,
+                    "newtonian_residual_1_minus_mu_at_x30": float(
+                        1.0 - mu_tanh_log(np.array([30.0]), gamma)[0]
+                    ),
+                    "solar_system": [],
+                }
+            )
+            continue
+
         nu = TanhLogNu(gamma)
         mapping_error = float(
             np.max(nu.mapping_relative_error(np.logspace(-12, 12, 401)))
         )
         g_ext_rows = []
         for g_ext in G_EXT_VALUES:
-            primary = qumond_q(
-                nu,
-                g_ext / a0,
-                angular_order=128,
-                radial_order=512,
+            primary, radial_history, angular_change = converged_quadrupole(
+                nu, g_ext / a0
             )
             q2 = q2_si(primary.q, a0)
             sensitivity: dict[str, object] = {
@@ -110,23 +180,15 @@ def execute(profile_path: Path) -> dict[str, object]:
                 "integration_estimated_relative_error": (
                     primary.estimated_error / primary.q_abs
                 ),
+                "radial_convergence_history": radial_history,
+                "angular_128_to_256_relative_change": angular_change,
             }
-            if g_ext == PRIMARY_G_EXT:
-                doubled = qumond_q(
-                    nu,
-                    g_ext / a0,
-                    angular_order=256,
-                    radial_order=1024,
-                )
-                sensitivity["doubled_resolution_q"] = doubled.q
-                sensitivity["doubled_resolution_relative_change"] = abs(
-                    doubled.q - primary.q
-                ) / primary.q_abs
             g_ext_rows.append(sensitivity)
 
         rows.append(
             {
                 **profile_row,
+                "cassini_evaluation_status": "evaluated: inside union of SPARC sensitivity sets",
                 "max_mapping_relative_error": mapping_error,
                 "newtonian_residual_1_minus_mu_at_x30": float(
                     1.0 - mu_tanh_log(np.array([30.0]), gamma)[0]
@@ -147,7 +209,8 @@ def execute(profile_path: Path) -> dict[str, object]:
                 cassini_values = [
                     row["gamma"]
                     for row in rows
-                    if row["solar_system"][g_ext_index]["cassini_2026_pass_95"]
+                    if row["solar_system"]
+                    and row["solar_system"][g_ext_index]["cassini_2026_pass_95"]
                 ]
                 joint_values = sorted(set(sparc_values) & set(cassini_values))
                 threshold_summary[f"g_ext_{g_ext:.2e}"] = {
@@ -166,22 +229,29 @@ def execute(profile_path: Path) -> dict[str, object]:
         summary[convention] = convention_summary
 
     numerical_pass = all(
+        row["max_mapping_relative_error"] is None
+        or (
         row["max_mapping_relative_error"] < 1e-7
         and all(
             sensitivity["integration_estimated_relative_error"] < 0.005
+            and sensitivity["angular_128_to_256_relative_change"] < 0.005
             for sensitivity in row["solar_system"]
         )
-        and row["solar_system"][1]["doubled_resolution_relative_change"] < 0.005
+        )
         for row in rows
     )
     current_cassini_empty_all_g_ext = all(
         not any(
-            row["solar_system"][index]["cassini_2026_pass_95"] for row in rows
+            row["solar_system"]
+            and row["solar_system"][index]["cassini_2026_pass_95"]
+            for row in rows
         )
         for index in range(len(G_EXT_VALUES))
     )
     legacy_cassini_empty_primary_g_ext = not any(
-        row["solar_system"][1]["cassini_2014_pass_95"] for row in rows
+        row["solar_system"]
+        and row["solar_system"][1]["cassini_2014_pass_95"]
+        for row in rows
     )
     robust_empty = (
         benchmark_result["all_pass"]
@@ -192,7 +262,11 @@ def execute(profile_path: Path) -> dict[str, object]:
     return {
         "artifact": "registered SPARC x Cassini tanh-log joint execution",
         "registration_commit": "9c77e7be8790b80e83e2167dc924691bb0ecffaf",
-        "instrument_amendment_commit": "e2d25f74c0f41c1bd05b6130b6ea48a229a3ba51",
+        "instrument_amendment_1_commit": "e2d25f74c0f41c1bd05b6130b6ea48a229a3ba51",
+        "instrument_amendment_2": (
+            "Research/preregistrations/sparc_cassini_tanhlog/"
+            "INSTRUMENT_AMENDMENT_2.md; contained in execution_parent_commit"
+        ),
         "execution_parent_commit": git_head(),
         "inputs": {
             "profile_path": str(profile_path.relative_to(ROOT)),
@@ -219,9 +293,17 @@ def execute(profile_path: Path) -> dict[str, object]:
             "benchmark": benchmark_result,
             "all_mapping_and_numerical_checks_pass": numerical_pass,
             "primary_angular_order": 128,
-            "primary_radial_order": 512,
-            "doubled_angular_order": 256,
-            "doubled_radial_order": 1024,
+            "angular_check_order": 256,
+            "adaptive_radial_orders": list(RADIAL_ORDERS),
+            "convergence_rule": (
+                "two consecutive radial changes below 0.5%, followed by "
+                "angular 128-to-256 change below 0.5%"
+            ),
+            "short_circuit_rule": (
+                "Cassini is not evaluated where SPARC delta_BIC exceeds 14 "
+                "under all three recorded conventions; such a point cannot "
+                "belong to any primary or mandatory-sensitivity intersection"
+            ),
         },
         "primary_definition": {
             "sparc": "delta_bic_profile <= 10",
