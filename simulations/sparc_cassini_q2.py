@@ -16,7 +16,6 @@ from dataclasses import asdict, dataclass
 
 import numpy as np
 from numpy.polynomial.legendre import leggauss
-from scipy.integrate import quad
 from scipy.interpolate import PchipInterpolator
 from scipy.optimize import brentq
 
@@ -122,6 +121,7 @@ class QResult:
     q: float
     q_abs: float
     angular_order: int
+    radial_order: int
     log_v_bound: float
     estimated_error: float
 
@@ -131,9 +131,8 @@ def qumond_q(
     e_tilde: float,
     *,
     angular_order: int = 128,
+    radial_order: int = 512,
     log_v_bound: float = 14.0,
-    epsabs: float = 2e-8,
-    epsrel: float = 2e-6,
 ) -> QResult:
     """Evaluate the dimensionless QUMOND quadrupole q.
 
@@ -144,6 +143,8 @@ def qumond_q(
     """
     if angular_order < 16:
         raise ValueError("angular_order must be at least 16")
+    if radial_order < 64 or radial_order % 2:
+        raise ValueError("radial_order must be an even integer of at least 64")
     if log_v_bound <= 0:
         raise ValueError("log_v_bound must be positive")
 
@@ -165,15 +166,35 @@ def qumond_q(
         # dv = v d(log v)
         return v * float(np.dot(weights, delta_nu * angular_polynomial))
 
-    integral, error = quad(
-        log_v_integrand,
-        -log_v_bound,
-        log_v_bound,
-        epsabs=epsabs,
-        epsrel=epsrel,
-        limit=300,
-        points=[0.0],
+    # The total Newtonian field can become small near v^2=e_N, xi=-1.
+    # Split at that analytically known location rather than allowing the
+    # adaptive integrator to spend its entire subdivision budget finding it.
+    cancellation_log_v = 0.5 * math.log(e_n)
+    split_points = sorted(
+        {
+            -log_v_bound,
+            min(max(cancellation_log_v, -log_v_bound), log_v_bound),
+            log_v_bound,
+        }
     )
+    def fixed_integral(order: int) -> float:
+        nodes, radial_weights = leggauss(order)
+        total = 0.0
+        for lower, upper in zip(split_points, split_points[1:]):
+            half_width = 0.5 * (upper - lower)
+            midpoint = 0.5 * (upper + lower)
+            log_v_nodes = midpoint + half_width * nodes
+            values = np.fromiter(
+                (log_v_integrand(value) for value in log_v_nodes),
+                dtype=float,
+                count=order,
+            )
+            total += half_width * float(np.dot(radial_weights, values))
+        return total
+
+    integral = fixed_integral(radial_order)
+    lower_order_integral = fixed_integral(radial_order // 2)
+    error = abs(integral - lower_order_integral)
     q = 1.5 * integral
     return QResult(
         e_tilde=e_tilde,
@@ -181,6 +202,7 @@ def qumond_q(
         q=q,
         q_abs=abs(q),
         angular_order=angular_order,
+        radial_order=radial_order,
         log_v_bound=log_v_bound,
         estimated_error=1.5 * error,
     )
@@ -200,9 +222,11 @@ def benchmark() -> dict[str, object]:
     for e_tilde, expected_abs_q in expected.items():
         primary = qumond_q(nu_rar, e_tilde)
         angular = qumond_q(nu_rar, e_tilde, angular_order=256)
+        radial = qumond_q(nu_rar, e_tilde, radial_order=1024)
         bounds = qumond_q(nu_rar, e_tilde, log_v_bound=16.0)
         relative_error = abs(primary.q_abs - expected_abs_q) / expected_abs_q
         angular_change = abs(angular.q_abs - primary.q_abs) / primary.q_abs
+        radial_change = abs(radial.q_abs - primary.q_abs) / primary.q_abs
         bounds_change = abs(bounds.q_abs - primary.q_abs) / primary.q_abs
         rows.append(
             {
@@ -210,10 +234,12 @@ def benchmark() -> dict[str, object]:
                 "expected_abs_q": expected_abs_q,
                 "relative_error": relative_error,
                 "angular_order_change": angular_change,
+                "radial_order_change": radial_change,
                 "log_bound_change": bounds_change,
                 "pass": (
                     relative_error < 0.02
                     and angular_change < 0.005
+                    and radial_change < 0.005
                     and bounds_change < 0.005
                 ),
             }
@@ -242,6 +268,7 @@ def target_scan(
     a0: float,
     g_ext: float,
     angular_order: int,
+    radial_order: int,
     log_v_bound: float,
 ) -> dict[str, object]:
     """Preparatory Solar-System-only target scan.
@@ -258,9 +285,13 @@ def target_scan(
             nu,
             g_ext / a0,
             angular_order=angular_order,
+            radial_order=radial_order,
             log_v_bound=log_v_bound,
         )
         q2 = q2_si(result.q, a0)
+        integration_relative_error = (
+            result.estimated_error / result.q_abs if result.q_abs else math.inf
+        )
         rows.append(
             {
                 "gamma": gamma,
@@ -272,6 +303,8 @@ def target_scan(
                 "cassini_z": (q2 - 1.6e-27) / 1.8e-27,
                 "max_mapping_relative_error": mapping_error,
                 "mapping_pass": mapping_error < 1e-7,
+                "integration_relative_error": integration_relative_error,
+                "integration_pass": integration_relative_error < 0.005,
             }
         )
     return {
@@ -304,6 +337,7 @@ def main() -> int:
     parser.add_argument("--a0", type=float, default=1.03e-10)
     parser.add_argument("--g-ext", type=float, default=2.32e-10)
     parser.add_argument("--angular-order", type=int, default=128)
+    parser.add_argument("--radial-order", type=int, default=512)
     parser.add_argument("--log-v-bound", type=float, default=14.0)
     args = parser.parse_args()
 
@@ -315,6 +349,7 @@ def main() -> int:
             a0=args.a0,
             g_ext=args.g_ext,
             angular_order=args.angular_order,
+            radial_order=args.radial_order,
             log_v_bound=args.log_v_bound,
         )
     print(json.dumps(result, indent=2))
