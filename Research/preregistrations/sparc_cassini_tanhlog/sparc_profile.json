@@ -1,0 +1,760 @@
+{
+  "artifact": "frozen SPARC tanh-log gamma profile",
+  "source_analysis": {
+    "repository": "dp-web4/synchronism-site",
+    "commit": "174eaf924b90cc6cc332e5c279560f325db02ae3",
+    "script": "explorer/scripts/compander_family_aic_bic_real_sparc.py",
+    "script_sha256": "e90ea9a04290432039d0cf72f257dcbddb9b1f681125a7c24e29bc7476fa2bae"
+  },
+  "data": {
+    "path": "simulations/sparc_real_data/MassModels_Lelli2016c.mrt",
+    "sha256": "9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c",
+    "selected_rows": 2807,
+    "selection": "eVobs/Vobs <= 0.10; positive R, Vobs, and Vbar^2",
+    "upsilon_disk": 0.5,
+    "upsilon_bulge": 0.7
+  },
+  "likelihood": {
+    "residual": "log10(g_obs) - log10(g_obs_model)",
+    "objective": "unweighted sum of squared log10 residuals",
+    "a0_bounds_log10": [
+      -11.0,
+      -9.0
+    ],
+    "bic": "N*ln(SSR/N) + k*ln(N)"
+  },
+  "reference_mcgaugh": {
+    "a0_m_s2": 1.127510621232389e-10,
+    "ssr_log10": 57.964894195013464,
+    "rms_dex": 0.14370150528174686,
+    "parameter_count": 1
+  },
+  "grid_rule": "registration section 3; includes 0.489, 0.5, 1, 2; spacing <=0.025 on [0.35,1.25] and <=0.10 elsewhere",
+  "bic_conventions": {
+    "delta_bic_profile": "profile likelihood relative to best grid row; parameter count cancels",
+    "delta_bic_fixed_gamma_vs_mcgaugh": "each externally fixed gamma has k=1, compared with k=1 McGaugh",
+    "delta_bic_family_k2_vs_mcgaugh": "gamma treated as fitted family parameter (k=2), compared with k=1 McGaugh"
+  },
+  "best_grid_row": {
+    "gamma": 0.489,
+    "a0_m_s2": 5.332645831339649e-11,
+    "ssr_log10": 57.94769565763397,
+    "rms_dex": 0.14368018514396694,
+    "delta_bic_fixed_gamma_vs_mcgaugh": -0.8329775883685215,
+    "delta_bic_family_k2_vs_mcgaugh": 7.106893987993317,
+    "delta_bic_profile": 0.0
+  },
+  "rows": [
+    {
+      "gamma": 0.2,
+      "a0_m_s2": 1.1972851406477031e-11,
+      "ssr_log10": 66.31069284456608,
+      "rms_dex": 0.1536988352971534,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 377.5797007415058,
+      "delta_bic_family_k2_vs_mcgaugh": 385.51957231786764,
+      "delta_bic_profile": 378.4126783298746
+    },
+    {
+      "gamma": 0.25,
+      "a0_m_s2": 1.8387804123346827e-11,
+      "ssr_log10": 62.074273250748945,
+      "rms_dex": 0.1487080968161861,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 192.26285148846728,
+      "delta_bic_family_k2_vs_mcgaugh": 200.20272306482912,
+      "delta_bic_profile": 193.09582907683634
+    },
+    {
+      "gamma": 0.3,
+      "a0_m_s2": 2.5261188175089995e-11,
+      "ssr_log10": 59.8941428819723,
+      "rms_dex": 0.14607334377150621,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 91.90444718528852,
+      "delta_bic_family_k2_vs_mcgaugh": 99.84431876165036,
+      "delta_bic_profile": 92.7374247736575
+    },
+    {
+      "gamma": 0.35,
+      "a0_m_s2": 3.243776910356788e-11,
+      "ssr_log10": 58.76943387724364,
+      "rms_dex": 0.14469534088353883,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 38.69262253480338,
+      "delta_bic_family_k2_vs_mcgaugh": 46.632494111165215,
+      "delta_bic_profile": 39.52560012317371
+    },
+    {
+      "gamma": 0.375,
+      "a0_m_s2": 3.61093786748392e-11,
+      "ssr_log10": 58.44124741917465,
+      "rms_dex": 0.14429076379652372,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 22.973546678842467,
+      "delta_bic_family_k2_vs_mcgaugh": 30.913418255204306,
+      "delta_bic_profile": 23.806524267211476
+    },
+    {
+      "gamma": 0.4,
+      "a0_m_s2": 3.9825225338505134e-11,
+      "ssr_log10": 58.218021183408254,
+      "rms_dex": 0.1440149286479084,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 12.231205910693461,
+      "delta_bic_family_k2_vs_mcgaugh": 20.1710774870553,
+      "delta_bic_profile": 13.064183499062223
+    },
+    {
+      "gamma": 0.425,
+      "a0_m_s2": 4.357887895945397e-11,
+      "ssr_log10": 58.07410301596431,
+      "rms_dex": 0.1438368120679315,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 5.283555671539943,
+      "delta_bic_family_k2_vs_mcgaugh": 13.223427247901782,
+      "delta_bic_profile": 6.116533259908872
+    },
+    {
+      "gamma": 0.45,
+      "a0_m_s2": 4.736508551721995e-11,
+      "ssr_log10": 57.990461419565094,
+      "rms_dex": 0.14373319380335853,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 1.2378419280248636,
+      "delta_bic_family_k2_vs_mcgaugh": 9.177713504386702,
+      "delta_bic_profile": 2.070819516394805
+    },
+    {
+      "gamma": 0.475,
+      "a0_m_s2": 5.117946497225213e-11,
+      "ssr_log10": 57.95282222800291,
+      "rms_dex": 0.14368654061920083,
+      "delta_bic_fixed_gamma_vs_mcgaugh": -0.5846562987408106,
+      "delta_bic_family_k2_vs_mcgaugh": 7.355215277621028,
+      "delta_bic_profile": 0.24832128962884953
+    },
+    {
+      "gamma": 0.489,
+      "a0_m_s2": 5.332645831339649e-11,
+      "ssr_log10": 57.94769565763397,
+      "rms_dex": 0.14368018514396694,
+      "delta_bic_fixed_gamma_vs_mcgaugh": -0.8329775883685215,
+      "delta_bic_family_k2_vs_mcgaugh": 7.106893987993317,
+      "delta_bic_profile": 0.0
+    },
+    {
+      "gamma": 0.5,
+      "a0_m_s2": 5.501842038881293e-11,
+      "ssr_log10": 57.95037605468388,
+      "rms_dex": 0.14368350810173644,
+      "delta_bic_fixed_gamma_vs_mcgaugh": -0.703141527954358,
+      "delta_bic_family_k2_vs_mcgaugh": 7.23673004840748,
+      "delta_bic_profile": 0.12983606041550014
+    },
+    {
+      "gamma": 0.525,
+      "a0_m_s2": 5.88789219072665e-11,
+      "ssr_log10": 57.97486774647693,
+      "rms_dex": 0.14371386752904416,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 0.482936286191034,
+      "delta_bic_family_k2_vs_mcgaugh": 8.422807862552872,
+      "delta_bic_profile": 1.31591387456038
+    },
+    {
+      "gamma": 0.55,
+      "a0_m_s2": 6.275840878102349e-11,
+      "ssr_log10": 58.0199458970235,
+      "rms_dex": 0.14376972877368108,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 2.6646609854215058,
+      "delta_bic_family_k2_vs_mcgaugh": 10.604532561783344,
+      "delta_bic_profile": 3.49763857378996
+    },
+    {
+      "gamma": 0.575,
+      "a0_m_s2": 6.665467916688244e-11,
+      "ssr_log10": 58.08069217820219,
+      "rms_dex": 0.14384497179110559,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 5.602023426410597,
+      "delta_bic_family_k2_vs_mcgaugh": 13.541895002772435,
+      "delta_bic_profile": 6.435001014780913
+    },
+    {
+      "gamma": 0.6,
+      "a0_m_s2": 7.056591207652981e-11,
+      "ssr_log10": 58.153276790539635,
+      "rms_dex": 0.1439348267075914,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 9.107797773158381,
+      "delta_bic_family_k2_vs_mcgaugh": 17.04766934952022,
+      "delta_bic_profile": 9.94077536152657
+    },
+    {
+      "gamma": 0.625,
+      "a0_m_s2": 7.44904734078232e-11,
+      "ssr_log10": 58.2347035332887,
+      "rms_dex": 0.14403556087908148,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 13.035435378895272,
+      "delta_bic_family_k2_vs_mcgaugh": 20.97530695525711,
+      "delta_bic_profile": 13.868412967263717
+    },
+    {
+      "gamma": 0.65,
+      "a0_m_s2": 7.842698394197648e-11,
+      "ssr_log10": 58.32261932807664,
+      "rms_dex": 0.14414424371231765,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 17.269912916834073,
+      "delta_bic_family_k2_vs_mcgaugh": 25.20978449319591,
+      "delta_bic_profile": 18.102890505203558
+    },
+    {
+      "gamma": 0.675,
+      "a0_m_s2": 8.237424001054279e-11,
+      "ssr_log10": 58.415170613691316,
+      "rms_dex": 0.1442585685391643,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 21.720768347297053,
+      "delta_bic_family_k2_vs_mcgaugh": 29.66063992365889,
+      "delta_bic_profile": 22.553745935667397
+    },
+    {
+      "gamma": 0.7,
+      "a0_m_s2": 8.633119101057078e-11,
+      "ssr_log10": 58.51089417683602,
+      "rms_dex": 0.1443767167152477,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 26.316768430884622,
+      "delta_bic_family_k2_vs_mcgaugh": 34.25664000724646,
+      "delta_bic_profile": 27.149746019253882
+    },
+    {
+      "gamma": 0.725,
+      "a0_m_s2": 9.029691594641226e-11,
+      "ssr_log10": 58.608633524043256,
+      "rms_dex": 0.1444972532249025,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 31.001801177966627,
+      "delta_bic_family_k2_vs_mcgaugh": 38.941672754328465,
+      "delta_bic_profile": 31.834778766335607
+    },
+    {
+      "gamma": 0.75,
+      "a0_m_s2": 9.427060450739364e-11,
+      "ssr_log10": 58.70747436501335,
+      "rms_dex": 0.1446190459767104,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 35.73169396494086,
+      "delta_bic_family_k2_vs_mcgaugh": 43.6715655413027,
+      "delta_bic_profile": 36.564671553309125
+    },
+    {
+      "gamma": 0.775,
+      "a0_m_s2": 9.825154108383483e-11,
+      "ssr_log10": 58.80669451383366,
+      "rms_dex": 0.14474120304236923,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 40.47173555444169,
+      "delta_bic_family_k2_vs_mcgaugh": 48.41160713080353,
+      "delta_bic_profile": 41.304713142810606
+    },
+    {
+      "gamma": 0.8,
+      "a0_m_s2": 1.0223909128969967e-10,
+      "ssr_log10": 58.90572475047603,
+      "rms_dex": 0.14486302357901615,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 45.19473660350195,
+      "delta_bic_family_k2_vs_mcgaugh": 53.13460817986379,
+      "delta_bic_profile": 46.02771419187245
+    },
+    {
+      "gamma": 0.825,
+      "a0_m_s2": 1.0623269183623308e-10,
+      "ssr_log10": 59.00411807362248,
+      "rms_dex": 0.14498395925379387,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 49.87950448319498,
+      "delta_bic_family_k2_vs_mcgaugh": 57.81937605955682,
+      "delta_bic_profile": 50.71248207156417
+    },
+    {
+      "gamma": 0.85,
+      "a0_m_s2": 1.1023183955603399e-10,
+      "ssr_log10": 59.101525420803775,
+      "rms_dex": 0.14510358377801702,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 54.50963861468699,
+      "delta_bic_family_k2_vs_mcgaugh": 62.44951019104883,
+      "delta_bic_profile": 55.34261620305616
+    },
+    {
+      "gamma": 0.875,
+      "a0_m_s2": 1.1423608461238351e-10,
+      "ssr_log10": 59.19767640404273,
+      "rms_dex": 0.1452215687392558,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 59.07257505416055,
+      "delta_bic_family_k2_vs_mcgaugh": 67.01244663052239,
+      "delta_bic_profile": 59.90555264252901
+    },
+    {
+      "gamma": 0.9,
+      "a0_m_s2": 1.182450234483587e-10,
+      "ssr_log10": 59.29236395775865,
+      "rms_dex": 0.14533766435074827,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 63.55882586554617,
+      "delta_bic_family_k2_vs_mcgaugh": 71.498697441908,
+      "delta_bic_profile": 64.39180345391473
+    },
+    {
+      "gamma": 0.925,
+      "a0_m_s2": 1.2225829311242692e-10,
+      "ssr_log10": 59.385432055017546,
+      "rms_dex": 0.14545168405969894,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 67.96137143575106,
+      "delta_bic_family_k2_vs_mcgaugh": 75.9012430121129,
+      "delta_bic_profile": 68.79434902411874
+    },
+    {
+      "gamma": 0.95,
+      "a0_m_s2": 1.2627556630890932e-10,
+      "ssr_log10": 59.47676584254405,
+      "rms_dex": 0.1455634921983203,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 72.27517341113708,
+      "delta_bic_family_k2_vs_mcgaugh": 80.21504498749891,
+      "delta_bic_profile": 73.1081509995061
+    },
+    {
+      "gamma": 0.975,
+      "a0_m_s2": 1.3029654719930315e-10,
+      "ssr_log10": 59.56628369155249,
+      "rms_dex": 0.1456729940448745,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 76.49678316514473,
+      "delta_bic_family_k2_vs_mcgaugh": 84.43665474150657,
+      "delta_bic_profile": 77.32976075351476
+    },
+    {
+      "gamma": 1.0,
+      "a0_m_s2": 1.343209677286026e-10,
+      "ssr_log10": 59.65393077283546,
+      "rms_dex": 0.14578012780162466,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 80.62402622690388,
+      "delta_bic_family_k2_vs_mcgaugh": 88.56389780326572,
+      "delta_bic_profile": 81.45700381527328
+    },
+    {
+      "gamma": 1.025,
+      "a0_m_s2": 1.3834858454516235e-10,
+      "ssr_log10": 59.73967384966274,
+      "rms_dex": 0.1458848581035443,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 84.65574733611902,
+      "delta_bic_family_k2_vs_mcgaugh": 92.59561891248086,
+      "delta_bic_profile": 85.48872492448922
+    },
+    {
+      "gamma": 1.05,
+      "a0_m_s2": 1.4237917134555733e-10,
+      "ssr_log10": 59.82349704746811,
+      "rms_dex": 0.14598717075396786,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 88.59160405560397,
+      "delta_bic_family_k2_vs_mcgaugh": 96.5314756319658,
+      "delta_bic_profile": 89.42458164397401
+    },
+    {
+      "gamma": 1.075,
+      "a0_m_s2": 1.4641252283792733e-10,
+      "ssr_log10": 59.90539840987483,
+      "rms_dex": 0.14608706844709152,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 92.43189940379852,
+      "delta_bic_family_k2_vs_mcgaugh": 100.37177098016036,
+      "delta_bic_profile": 93.2648769921666
+    },
+    {
+      "gamma": 1.1,
+      "a0_m_s2": 1.5044848396009568e-10,
+      "ssr_log10": 59.985387089906176,
+      "rms_dex": 0.14618456728679427,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 96.17744593978205,
+      "delta_bic_family_k2_vs_mcgaugh": 104.11731751614388,
+      "delta_bic_profile": 97.01042352815186
+    },
+    {
+      "gamma": 1.125,
+      "a0_m_s2": 1.544868610609488e-10,
+      "ssr_log10": 60.06348105593142,
+      "rms_dex": 0.14627969395000098,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 99.82945527464472,
+      "delta_bic_family_k2_vs_mcgaugh": 107.76932685100655,
+      "delta_bic_profile": 100.66243286301442
+    },
+    {
+      "gamma": 1.15,
+      "a0_m_s2": 1.5852750196869474e-10,
+      "ssr_log10": 60.13970521592245,
+      "rms_dex": 0.14637248337314523,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 103.3894481901425,
+      "delta_bic_family_k2_vs_mcgaugh": 111.32931976650434,
+      "delta_bic_profile": 104.22242577851243
+    },
+    {
+      "gamma": 1.175,
+      "a0_m_s2": 1.625702853826955e-10,
+      "ssr_log10": 60.214089882648956,
+      "rms_dex": 0.14646297686434664,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 106.859181502934,
+      "delta_bic_family_k2_vs_mcgaugh": 114.79905307929585,
+      "delta_bic_profile": 107.69215909130477
+    },
+    {
+      "gamma": 1.2,
+      "a0_m_s2": 1.6661501801126622e-10,
+      "ssr_log10": 60.28666951738609,
+      "rms_dex": 0.1465512205627962,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 110.24058856390911,
+      "delta_bic_family_k2_vs_mcgaugh": 118.18046014027095,
+      "delta_bic_profile": 111.07356615227911
+    },
+    {
+      "gamma": 1.225,
+      "a0_m_s2": 1.7066164204246728e-10,
+      "ssr_log10": 60.35748170172181,
+      "rms_dex": 0.14663726418200693,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 113.53573088532357,
+      "delta_bic_family_k2_vs_mcgaugh": 121.47560246168541,
+      "delta_bic_profile": 114.36870847369195
+    },
+    {
+      "gamma": 1.25,
+      "a0_m_s2": 1.7471002556598538e-10,
+      "ssr_log10": 60.4265662964858,
+      "rms_dex": 0.1467211599854993,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 116.74675886233308,
+      "delta_bic_family_k2_vs_mcgaugh": 124.68663043869492,
+      "delta_bic_profile": 117.57973645070234
+    },
+    {
+      "gamma": 1.3,
+      "a0_m_s2": 1.8281166834651164e-10,
+      "ssr_log10": 60.55971956030321,
+      "rms_dex": 0.14688272510476294,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 122.92533290143001,
+      "delta_bic_family_k2_vs_mcgaugh": 130.86520447779185,
+      "delta_bic_profile": 123.75831048979968
+    },
+    {
+      "gamma": 1.4,
+      "a0_m_s2": 1.9903203238771899e-10,
+      "ssr_log10": 60.80716480921031,
+      "rms_dex": 0.14718249846731188,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 134.37128506042973,
+      "delta_bic_family_k2_vs_mcgaugh": 142.31115663679157,
+      "delta_bic_profile": 135.20426264880004
+    },
+    {
+      "gamma": 1.5,
+      "a0_m_s2": 2.1527137850448815e-10,
+      "ssr_log10": 61.03173287779075,
+      "rms_dex": 0.14745402920751272,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 144.71877333061457,
+      "delta_bic_family_k2_vs_mcgaugh": 152.6586449069764,
+      "delta_bic_profile": 145.55175091898425
+    },
+    {
+      "gamma": 1.6,
+      "a0_m_s2": 2.3152613813662421e-10,
+      "ssr_log10": 61.23600096243915,
+      "rms_dex": 0.14770058120909513,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 154.0978798055021,
+      "delta_bic_family_k2_vs_mcgaugh": 162.03775138186393,
+      "delta_bic_profile": 154.9308573938723
+    },
+    {
+      "gamma": 1.7,
+      "a0_m_s2": 2.4779359019904633e-10,
+      "ssr_log10": 61.42230154481958,
+      "rms_dex": 0.1479250880912025,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 162.62475692977569,
+      "delta_bic_family_k2_vs_mcgaugh": 170.56462850613752,
+      "delta_bic_profile": 163.45773451814452
+    },
+    {
+      "gamma": 1.8,
+      "a0_m_s2": 2.6407150491892274e-10,
+      "ssr_log10": 61.592700425218446,
+      "rms_dex": 0.14813013423114907,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 170.40120623332587,
+      "delta_bic_family_k2_vs_mcgaugh": 178.3410778096877,
+      "delta_bic_profile": 171.23418382169504
+    },
+    {
+      "gamma": 1.9,
+      "a0_m_s2": 2.8035823932953787e-10,
+      "ssr_log10": 61.74900709153847,
+      "rms_dex": 0.14831797350706855,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 177.51563745156272,
+      "delta_bic_family_k2_vs_mcgaugh": 185.45550902792456,
+      "delta_bic_profile": 178.34861503993145
+    },
+    {
+      "gamma": 2.0,
+      "a0_m_s2": 2.96652452163202e-10,
+      "ssr_log10": 61.89279815874152,
+      "rms_dex": 0.14849056250515172,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 184.0445247771131,
+      "delta_bic_family_k2_vs_mcgaugh": 191.98439635347495,
+      "delta_bic_profile": 184.87750236548274
+    },
+    {
+      "gamma": 2.1,
+      "a0_m_s2": 3.129530501697569e-10,
+      "ssr_log10": 62.02544466038161,
+      "rms_dex": 0.1486495972569493,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 190.0539526683715,
+      "delta_bic_family_k2_vs_mcgaugh": 197.99382424473333,
+      "delta_bic_profile": 190.88693025673993
+    },
+    {
+      "gamma": 2.2,
+      "a0_m_s2": 3.292591385028769e-10,
+      "ssr_log10": 62.14813891948352,
+      "rms_dex": 0.1487965485743753,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 195.60107287626124,
+      "delta_bic_family_k2_vs_mcgaugh": 203.54094445262308,
+      "delta_bic_profile": 196.43405046463047
+    },
+    {
+      "gamma": 2.3,
+      "a0_m_s2": 3.455699836839647e-10,
+      "ssr_log10": 62.26191917415793,
+      "rms_dex": 0.14893269398192802,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 200.73540475923437,
+      "delta_bic_family_k2_vs_mcgaugh": 208.6752763355962,
+      "delta_bic_profile": 201.56838234760383
+    },
+    {
+      "gamma": 2.4,
+      "a0_m_s2": 3.618848609869467e-10,
+      "ssr_log10": 62.36769133595274,
+      "rms_dex": 0.1490591456599152,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 205.49996316918077,
+      "delta_bic_family_k2_vs_mcgaugh": 213.4398347455426,
+      "delta_bic_profile": 206.33294075755094
+    },
+    {
+      "gamma": 2.5,
+      "a0_m_s2": 3.7820347941901123e-10,
+      "ssr_log10": 62.46624783318784,
+      "rms_dex": 0.14917687446936068,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 209.93222168893408,
+      "delta_bic_family_k2_vs_mcgaugh": 217.87209326529592,
+      "delta_bic_profile": 210.76519927730232
+    },
+    {
+      "gamma": 2.6,
+      "a0_m_s2": 3.945252313098058e-10,
+      "ssr_log10": 62.55828374778025,
+      "rms_dex": 0.14928673040811744,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 214.0649283771363,
+      "delta_bic_family_k2_vs_mcgaugh": 222.00479995349815,
+      "delta_bic_profile": 214.89790596550657
+    },
+    {
+      "gamma": 2.7,
+      "a0_m_s2": 4.1084979995052077e-10,
+      "ssr_log10": 62.644410550519915,
+      "rms_dex": 0.14938945994008362,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 217.9267937272234,
+      "delta_bic_family_k2_vs_mcgaugh": 225.86666530358525,
+      "delta_bic_profile": 218.75977131559122
+    },
+    {
+      "gamma": 2.8,
+      "a0_m_s2": 4.271768696927059e-10,
+      "ssr_log10": 62.725167758223016,
+      "rms_dex": 0.14948572064329815,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 221.54306996319247,
+      "delta_bic_family_k2_vs_mcgaugh": 229.4829415395543,
+      "delta_bic_profile": 222.37604755156127
+    },
+    {
+      "gamma": 2.9,
+      "a0_m_s2": 4.4350616797599125e-10,
+      "ssr_log10": 62.801032818298495,
+      "rms_dex": 0.14957609358723545,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 224.93603889847873,
+      "delta_bic_family_k2_vs_mcgaugh": 232.87591047484057,
+      "delta_bic_profile": 225.76901648684884
+    },
+    {
+      "gamma": 3.0,
+      "a0_m_s2": 4.598374574682239e-10,
+      "ssr_log10": 62.87242949383886,
+      "rms_dex": 0.14966109380012171,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 228.12542329380994,
+      "delta_bic_family_k2_vs_mcgaugh": 236.06529487017178,
+      "delta_bic_profile": 228.9584008821795
+    },
+    {
+      "gamma": 3.1,
+      "a0_m_s2": 4.761706811523832e-10,
+      "ssr_log10": 62.93973498596502,
+      "rms_dex": 0.14974117913546559,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 231.12873438383576,
+      "delta_bic_family_k2_vs_mcgaugh": 239.0686059601976,
+      "delta_bic_profile": 231.96171197220445
+    },
+    {
+      "gamma": 3.2,
+      "a0_m_s2": 4.925053847008375e-10,
+      "ssr_log10": 63.00328599501254,
+      "rms_dex": 0.14981675779883222,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 233.9615661858261,
+      "delta_bic_family_k2_vs_mcgaugh": 241.90143776218792,
+      "delta_bic_profile": 234.79454377419606
+    },
+    {
+      "gamma": 3.3,
+      "a0_m_s2": 5.088416625684059e-10,
+      "ssr_log10": 63.06338389036186,
+      "rms_dex": 0.14988819475323834,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 236.63784541455607,
+      "delta_bic_family_k2_vs_mcgaugh": 244.5777169909179,
+      "delta_bic_profile": 237.47082300292442
+    },
+    {
+      "gamma": 3.4,
+      "a0_m_s2": 5.251791535942555e-10,
+      "ssr_log10": 63.1202991311296,
+      "rms_dex": 0.14995581718504403,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 239.1700443145055,
+      "delta_bic_family_k2_vs_mcgaugh": 247.10991589086734,
+      "delta_bic_profile": 240.00302190287474
+    },
+    {
+      "gamma": 3.5,
+      "a0_m_s2": 5.415179215262228e-10,
+      "ssr_log10": 63.17427505641667,
+      "rms_dex": 0.15001991918141866,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 241.56936245592442,
+      "delta_bic_family_k2_vs_mcgaugh": 249.50923403228626,
+      "delta_bic_profile": 242.40234004429365
+    },
+    {
+      "gamma": 3.6,
+      "a0_m_s2": 5.57857796262745e-10,
+      "ssr_log10": 63.225531143967046,
+      "rms_dex": 0.15008076574469761,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 243.84588249127955,
+      "delta_bic_family_k2_vs_mcgaugh": 251.7857540676414,
+      "delta_bic_profile": 244.67886007964862
+    },
+    {
+      "gamma": 3.7,
+      "a0_m_s2": 5.741986817719113e-10,
+      "ssr_log10": 63.27426581969143,
+      "rms_dex": 0.1501385962477773,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 246.00870401051907,
+      "delta_bic_family_k2_vs_mcgaugh": 253.9485755868809,
+      "delta_bic_profile": 246.8416815988888
+    },
+    {
+      "gamma": 3.8,
+      "a0_m_s2": 5.905404921575096e-10,
+      "ssr_log10": 63.320658886744226,
+      "rms_dex": 0.1501936274170391,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 248.06605892184598,
+      "delta_bic_family_k2_vs_mcgaugh": 256.0059304982078,
+      "delta_bic_profile": 248.89903651021575
+    },
+    {
+      "gamma": 3.9,
+      "a0_m_s2": 6.068831504062805e-10,
+      "ssr_log10": 63.36487363154159,
+      "rms_dex": 0.15024605591485565,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 250.0254112049115,
+      "delta_bic_family_k2_vs_mcgaugh": 257.96528278127334,
+      "delta_bic_profile": 250.8583887932804
+    },
+    {
+      "gamma": 4.0,
+      "a0_m_s2": 6.232267834044535e-10,
+      "ssr_log10": 63.40705865471405,
+      "rms_dex": 0.15029606058178402,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 251.8935434054747,
+      "delta_bic_family_k2_vs_mcgaugh": 259.83341498183654,
+      "delta_bic_profile": 252.72652099384376
+    },
+    {
+      "gamma": 4.1,
+      "a0_m_s2": 6.3957094209231e-10,
+      "ssr_log10": 63.44734946722853,
+      "rms_dex": 0.15034380438871484,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 253.67663184844605,
+      "delta_bic_family_k2_vs_mcgaugh": 261.6165034248079,
+      "delta_bic_profile": 254.50960943681548
+    },
+    {
+      "gamma": 4.2,
+      "a0_m_s2": 6.559157797619245e-10,
+      "ssr_log10": 63.48586988549424,
+      "rms_dex": 0.15038943614113315,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 255.38031222372592,
+      "delta_bic_family_k2_vs_mcgaugh": 263.32018380008776,
+      "delta_bic_profile": 256.21328981209484
+    },
+    {
+      "gamma": 4.3,
+      "a0_m_s2": 6.72261288645107e-10,
+      "ssr_log10": 63.52273325389887,
+      "rms_dex": 0.15043309197088658,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 257.00973693134074,
+      "delta_bic_family_k2_vs_mcgaugh": 264.9496085077026,
+      "delta_bic_profile": 257.84271451970915
+    },
+    {
+      "gamma": 4.4,
+      "a0_m_s2": 6.886073792631836e-10,
+      "ssr_log10": 63.5580435188466,
+      "rms_dex": 0.15047489664535363,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 258.56962535468847,
+      "delta_bic_family_k2_vs_mcgaugh": 266.5094969310503,
+      "delta_bic_profile": 259.4026029430584
+    },
+    {
+      "gamma": 4.5,
+      "a0_m_s2": 7.049540110858623e-10,
+      "ssr_log10": 63.59189617464212,
+      "rms_dex": 0.15051496471923492,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 260.06430804651427,
+      "delta_bic_family_k2_vs_mcgaugh": 268.0041796228761,
+      "delta_bic_profile": 260.897285634884
+    },
+    {
+      "gamma": 4.6,
+      "a0_m_s2": 7.213011475346084e-10,
+      "ssr_log10": 63.624379098490124,
+      "rms_dex": 0.1505534015503439,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 261.49776566075707,
+      "delta_bic_family_k2_vs_mcgaugh": 269.4376372371189,
+      "delta_bic_profile": 262.33074324912616
+    },
+    {
+      "gamma": 4.7,
+      "a0_m_s2": 7.376487415796021e-10,
+      "ssr_log10": 63.65557328932716,
+      "rms_dex": 0.1505903041975845,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 262.87366333812133,
+      "delta_bic_family_k2_vs_mcgaugh": 270.81353491448317,
+      "delta_bic_profile": 263.7066409264899
+    },
+    {
+      "gamma": 4.8,
+      "a0_m_s2": 7.539967771773172e-10,
+      "ssr_log10": 63.6855535230209,
+      "rms_dex": 0.1506257622165867,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 264.1953811466519,
+      "delta_bic_family_k2_vs_mcgaugh": 272.13525272301376,
+      "delta_bic_profile": 265.02835873502164
+    },
+    {
+      "gamma": 4.9,
+      "a0_m_s2": 7.703452191438053e-10,
+      "ssr_log10": 63.71438893467707,
+      "rms_dex": 0.1506598583662366,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 265.466041091071,
+      "delta_bic_family_k2_vs_mcgaugh": 273.40591266743286,
+      "delta_bic_profile": 266.2990186794393
+    },
+    {
+      "gamma": 5.0,
+      "a0_m_s2": 7.866940402471313e-10,
+      "ssr_log10": 63.74214353725322,
+      "rms_dex": 0.150692669237425,
+      "delta_bic_fixed_gamma_vs_mcgaugh": 266.68853112985744,
+      "delta_bic_family_k2_vs_mcgaugh": 274.6284027062193,
+      "delta_bic_profile": 267.5215087182265
+    }
+  ]
+}

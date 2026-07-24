@@ -1,0 +1,98 @@
+{
+  "result_version": 1,
+  "status": "preparatory_solar_system_only",
+  "joint_verdict": null,
+  "reason_joint_verdict_withheld": "The frozen 2026-07-22 SPARC profile and a0(gamma) have not been imported with exact source provenance.",
+  "registration_commit": "9c77e7be",
+  "instrument": {
+    "path": "simulations/sparc_cassini_q2.py",
+    "angular_order": 256,
+    "radial_order": 1024,
+    "log_v_bound": 14.0,
+    "mapping": "mu_gamma(x)=tanh(gamma*ln(1+x)); y=x*mu; nu=x/y"
+  },
+  "fixed_demonstration_parameters": {
+    "a0_m_s2": 1.03e-10,
+    "g_ext_m_s2": 2.32e-10,
+    "cassini_2026_mean_s2": 1.6e-27,
+    "cassini_2026_sigma_s2": 1.8e-27,
+    "cassini_2026_95_percent_upper_s2": 5.128e-27
+  },
+  "representative_rows": [
+    {
+      "gamma": 0.489,
+      "q": -0.3036616263607003,
+      "q2_s2": 4.133087754491185e-26,
+      "cassini_z": 22.07270974717325,
+      "max_mapping_relative_error": 1.068095101254605e-10,
+      "numerically_stable": true
+    },
+    {
+      "gamma": 0.5,
+      "q": -0.30308701165072194,
+      "q2_s2": 4.125266769502647e-26,
+      "cassini_z": 22.02925983057026,
+      "max_mapping_relative_error": 1.107772875478285e-10,
+      "numerically_stable": true
+    },
+    {
+      "gamma": 1.0,
+      "q": -0.1962261916907009,
+      "q2_s2": 2.6708019702954394e-26,
+      "cassini_z": 13.948899834974663,
+      "max_mapping_relative_error": 2.2665645425531468e-10,
+      "numerically_stable": true
+    },
+    {
+      "gamma": 2.0,
+      "q": -0.03804345156418187,
+      "q2_s2": 5.178030747017302e-27,
+      "cassini_z": 1.9877948594540569,
+      "max_mapping_relative_error": 3.810500655753057e-10,
+      "numerically_stable": true
+    }
+  ],
+  "cassini_only_shape_boundaries_at_fixed_a0": {
+    "definition": "lowest gamma whose signed Q2 is at or below the two-sided 95 percent upper limit",
+    "current_2026_constraint": [
+      {
+        "g_ext_m_s2": 2e-10,
+        "gamma_min": 2.0727813722113795
+      },
+      {
+        "g_ext_m_s2": 2.32e-10,
+        "gamma_min": 2.0054272047477144
+      },
+      {
+        "g_ext_m_s2": 2.48e-10,
+        "gamma_min": 1.9753879224449495
+      }
+    ],
+    "legacy_2014_constraint_central_g_ext": {
+      "gamma_min": 1.6949927147478612
+    }
+  },
+  "sparc_optimum_g_ext_sensitivity": [
+    {
+      "g_ext_m_s2": 2e-10,
+      "gamma": 0.489,
+      "q2_s2": 3.3863210747408576e-26
+    },
+    {
+      "g_ext_m_s2": 2.32e-10,
+      "gamma": 0.489,
+      "q2_s2": 4.133087754491185e-26
+    },
+    {
+      "g_ext_m_s2": 2.48e-10,
+      "gamma": 0.489,
+      "q2_s2": 4.485343646341564e-26
+    }
+  ],
+  "interpretation": [
+    "At the fixed demonstration a0, the prior SPARC optimum is excluded by the current Cassini quadrupole at about 22 sigma for central g_ext.",
+    "At the fixed demonstration a0 and central g_ext, Cassini requires gamma >= 2.0054 at the registered 95 percent boundary.",
+    "The framework-fixed gamma=2 lies marginally outside that fixed-parameter Cassini interval.",
+    "These are not the registered joint SPARC-by-Cassini result because a0 must be profiled from the exact frozen SPARC surface for every gamma."
+  ]
+}

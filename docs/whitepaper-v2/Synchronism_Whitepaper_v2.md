@@ -108,6 +108,23 @@ The proposed derivation of Gamma less than m as a one-cycle entity boundary is m
 
 **Sources:** PREDICTIONS.md entity-criterion row; gnosis-research/RESEARCH_LOG.md Session 85 (external public companion repository); Particle Data Group 2024 Review: Resonances
 
+### Joint SPARC and Cassini closure of the tanh-log family
+
+**Status:** Refuted realization
+**Novelty:** novel
+
+Under the preregistered scale-universal QUMOND reading, no tanh-log shape parameter simultaneously survives the frozen SPARC fit criterion and the current signed two-sided 95% Cassini quadrupole constraint; the registered joint-survival set is empty under every registered sensitivity (outcome branch A).
+
+**Evidence recorded in the ledger:**
+
+- The frozen 2,807-point SPARC profile retains only gamma 0.425 through 0.600 at Delta BIC <= 10, and every retained member predicts a Cassini quadrupole 15 to 19 sigma above the 2026 measurement across all registered external-field values.
+- The verdict is insensitive to all three recorded BIC conventions, thresholds 6, 10, and 14, both registered g_ext sensitivities, and the legacy 2014 Cassini interval.
+- A heterogeneous reviewer (Claude) independently re-executed both pipeline stages from the committed tree before merge and reproduced the profile checkpoints (2,807 rows; gamma_best 0.489; fixed gamma=2 Delta BIC +184.0445) and the complete joint result bit-for-bit.
+
+**Next discriminating test:** Escaping this closure requires changing the realization (modified inertia, a system-dependent or multi-scale function, or a non-gravitational reading), not retuning gamma inside the registered family; any successor realization must be registered before evaluation.
+
+**Sources:** Research/preregistrations/sparc_cassini_tanhlog/PREREGISTRATION.md; Research/preregistrations/sparc_cassini_tanhlog/RESULT.md; Research/preregistrations/sparc_cassini_tanhlog/joint_result.json; PREDICTIONS.md#B2
+
 ## Applied systems work
 
 ### Applied generative vocabulary
@@ -138,7 +155,7 @@ A specific prediction fixed before test-data exposure can receive confirmatory e
 - Confirmation depends on the relation between prediction and evidence, not ownership of the instrument.
 - Archival tests become exploratory when hypotheses, parameters, cuts, or criteria are selected after inspecting the same data.
 
-**Next discriminating test:** Register the SPARC-by-Cassini squeeze, including family, parameter range, analysis, and all outcome branches, before the joint archival test.
+**Next discriminating test:** The registration obligation was discharged on 2026-07-23: the SPARC-by-Cassini squeeze was registered (commit 9c77e7be) with family, parameter range, analysis, and all outcome branches fixed before the joint archival test, then executed to its registered branch A; see physics.sparc-cassini-tanhlog-qumond. Next: hold any successor realization to the same prospective standard.
 
 **Sources:** README.md historical honest-split paragraph; docs/whitepaper/Synchronism_Whitepaper_Complete.md historical invitation paragraph; forum/codex/synchronism-and-gnosis-review-2026-07-23.md
 
