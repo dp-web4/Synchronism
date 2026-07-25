@@ -38,3 +38,11 @@ Freeze hashes are computed from blobs at the manifest's `frozen_at_commit`,
 not from checkout bytes. This makes verification independent of line-ending
 conversion and excludes untracked build products. A separate `git diff`
 check ensures that the current tree has not changed any frozen path.
+
+Frozen paths must therefore be paths nothing still writes to. `PREDICTIONS.md`
+is the exception that proves it: it is the live prediction register, so its v1
+state is preserved as a snapshot copy under `v1-snapshot/` and the live file
+stays free to move. Freezing the live path instead made the gate fail on the
+next research commit, and because `verify_v1_freeze()` runs before rendering,
+that failure aborted the renderer rather than just reporting drift. Freeze
+snapshots, not working files.

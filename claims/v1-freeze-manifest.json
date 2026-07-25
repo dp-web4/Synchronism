@@ -1,11 +1,13 @@
 {
   "manifest_version": 1,
-  "frozen_at_commit": "cf5cd3f0370c89b0e240659859fcfc6f68f1d241",
+  "frozen_at_commit": "103e7757a35e6ec2b3babefcf48544551e1571b9",
   "frozen_on": "2026-07-23",
+  "repointed_on": "2026-07-25",
   "purpose": "Preserve the pre-ledger public manuscript as historical v1. These files are evidence for claim-lineage research and must not be silently rewritten.",
+  "note": "PREDICTIONS.md is frozen as a snapshot copy (claims/v1-snapshot/PREDICTIONS.md), not at its live path. The live PREDICTIONS.md is the project's working prediction register and the research lane writes to it continuously; freezing the live path made the gate go red on the next research commit (69b361a8, 2026-07-24) and, because verify_v1_freeze() precedes rendering, aborted the renderer entirely. The snapshot blob is byte-identical to PREDICTIONS.md@cf5cd3f0370c89b0e240659859fcfc6f68f1d241 -- same sha256, so the evidence guarantee is unchanged. frozen_on records the original 2026-07-23 freeze; frozen_at_commit points at the commit that added the snapshot, where all five frozen blobs coexist unchanged.",
   "files": {
     "README.md": "52245959ce2378a63df1710e3da274d3972962c7cb7a47ea2a0d1696d2714ec8",
-    "PREDICTIONS.md": "144971202ff9137f29e9f71742a121bd47b8eafd5c52e2cf150589582504dc27",
+    "claims/v1-snapshot/PREDICTIONS.md": "144971202ff9137f29e9f71742a121bd47b8eafd5c52e2cf150589582504dc27",
     "SPINE.md": "1ec1a72d724b0f0170a9b9110a1691fc4ceb3875ff3a24a23212d87c403e261d",
     "docs/whitepaper/Synchronism_Whitepaper_Complete.md": "6e3084fd41b2457cb260792dca13333e05331d64dddf5d3df9666f8e86f669a1",
     "docs/whitepaper/Synchronism_Whitepaper.pdf": "70a775bae6ebdee7272494a9f7d86a3e11a46bf7ffdd7890134bb2ef3ede4f34"
