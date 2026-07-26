@@ -7,6 +7,41 @@
 </h4>
 <!-- Entries added chronologically below -->
 <p class="heading"
+id="publisher-modify-corrective-annotation-only-contribution-count-accounting">2026-07-26
+| Publisher | MODIFY (corrective annotation only — contribution-count
+accounting)</p>
+<ul>
+<li><strong>Description</strong>: Annotated the two live aggregate
+contribution counts so the section no longer asserts a figure it
+elsewhere refutes. The #615 Final Accounting bullet’s “47 genuine
+contributions” is now marked as #615’s own classifier, disputed, not to
+be quoted alone, with a pointer to #634; the #616 η-audit bullet’s
+“Grand total: 48” is now stated as “<strong>31 under the canonical
+strict criteria (S582’s 30 + 1)</strong>, or 48 under #615’s more
+lenient classifier … the two classifiers have never been reconciled, so
+the strict figure is the one to quote.” No historical text deleted, no
+session text altered, no counts changed elsewhere (core stays
+S691).</li>
+<li><strong>Rationale</strong>: The section was internally
+self-contradictory: it asserted 47/48 as the headline aggregate and,
+three bullets later in the Site-Archive-Audit summary, reported S634’s
+finding that 47 is a ~57% overcount against the canonical S582 inventory
+of 30. A public surface that both states a number and refutes it leaves
+the reader to pick; the honest resolution is to name the classifier
+dependence at the point of assertion rather than silently swap the
+number (S582’s strict criteria and #615’s lenient ones are different
+measurements, and reconciling them is a research task nobody has done).
+This defect has been carried in Publisher reports since 2026-07-04 as a
+known Phase-1 item and deferred each pass; deferring it again while
+re-describing it would be perseveration, not conservatism. Interim fix
+pending the durable one (migrate the aggregate into
+claims/claim_ledger.json and let the renderer regenerate it, so there is
+one machine-checked source). Mirrored in 07-conclusion. Generated
+artifacts (docs/, whitepaper/build/) deliberately NOT rebuilt locally —
+a WSL/Windows-mount build rewrites the whole file with CRLF endings
+(3,177-line content-free diff); CI is the authoritative builder.</li>
+</ul>
+<p class="heading"
 id="publisher-modify-corrective-annotation-only">2026-07-16 | Publisher
 | MODIFY (corrective annotation only)</p>
 <ul>
@@ -683,6 +718,29 @@ synchronization) and observation (active/creative).</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="publisher-modify-corrective-annotation-only-contribution-count-accounting">2026-07-26
+| Publisher | MODIFY (corrective annotation only — contribution-count
+accounting)</p>
+<ul>
+<li><strong>Description</strong>: Mirror of the same-day
+00-executive-summary change. The #615 bullet’s “47 genuine
+contributions” is annotated as #615’s own classifier, disputed, not to
+be quoted alone (canonical strict inventory S582 = 30, a ~57% overcount,
+per #634); the #616 bullet’s “48 contributions” becomes “Running total:
+<strong>31 strict (S582’s 30 + 1)</strong>, or 48 under #615’s lenient
+classifier … quote the strict figure.” Two lines changed; nothing
+deleted.</li>
+<li><strong>Rationale</strong>: Same as the executive-summary entry —
+the section asserted an aggregate it refutes a few bullets later (S634).
+Naming the classifier dependence at the point of assertion is the honest
+fix; silently swapping 48→31 would hide that these are two different
+measurements that have never been reconciled. Carried as a known Phase-1
+defect in Publisher reports since 2026-07-04; fixed rather than
+re-deferred. Durable fix still pending: move the aggregate into
+claims/claim_ledger.json so the renderer regenerates it under the
+<code>--check</code> gate.</li>
+</ul>
 <p class="heading"
 id="publisher-modify-corrective-annotation-only">2026-07-16 | Publisher
 | MODIFY (corrective annotation only)</p>
