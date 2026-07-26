@@ -5,11 +5,22 @@ on:
     branches: [ main ]
     paths:
       - 'whitepaper/**'
+      # PUBLISHER_CONTEXT.md is the Publisher's run log, not whitepaper content.
+      # Appending "reviewed, nothing changed" to it was triggering a full
+      # rebuild+deploy: the build is not byte-reproducible, so CI committed a
+      # ~754KB PDF whose source .md was identical (186c80c6: 754603 -> 754617
+      # bytes, 07-25; same on 27d2be87, 0173fcb5, 510173ab). That churn is what
+      # broke the v1 freeze on docs/whitepaper/Synchronism_Whitepaper.pdf --
+      # i.e. the Publisher's record of changing nothing changed something, and
+      # broke the Publisher's own integrity gate. Negative pattern must follow
+      # the positive one; last match wins.
+      - '!whitepaper/PUBLISHER_CONTEXT.md'
       - '.github/workflows/build_whitepaper.yml'
   pull_request:
     branches: [ main ]
     paths:
       - 'whitepaper/**'
+      - '!whitepaper/PUBLISHER_CONTEXT.md'
   workflow_dispatch:  # Allow manual trigger
 
 env:
