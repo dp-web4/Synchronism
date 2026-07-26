@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": null,
-  "last_checked_commit": null,
+  "last_review": "2026-07-26T03:30:00Z",
+  "last_checked_commit": "5c2dd39",
   "pending_proposals": [],
-  "status": "pending_initial_review",
-  "notes": "Phase 1 whitepaper review not yet run. R6 framework and Claude Code plugin need evaluation."
+  "status": "current",
+  "notes": "FIRST RECORDED REVIEW. This file said last_review: null / status: pending_initial_review from Phase-1 launch (2026-01) until today, while daily Publisher reports asserted 'Web4 Whitepaper - Status: Current' and the web4 repo accumulated eight consecutive 'log YYYY-MM-DD Publisher no-change verification pass' commits (07-16 .. 07-25). Those passes were real checks but never updated this state file, so the machine-readable status contradicted the reported status for six months. Corrected here rather than re-asserted. TODAY'S REVIEW (against web4@5c2dd39): in-window code activity is 5c2dd39 (hub alarms the sender when a notice is dropped at cap/TTL, new `notice-dropped` notice kind with self-regress guards, 81+196 tests green), 6d118ec (C270 t3-v3-tensors audit, 2 MED + 1 INFO routed), plus the 07-25 log commit. Verdict NO CHANGE, on scope grounds and stated as such: since the 2026-07-09 fresh rewrite the whitepaper is an equation-ordered introduction to the *standard* (LCT 34 / V3 22 / T3 21 / ATP 18 / MRH 17 / ADP 17 / R6 8 mentions across 487 non-empty lines) and documents no transport layer at all -- 'notice' appears ZERO times in the built document. A new notice kind and its drop-alarm semantics are hub-implementation reliability, one layer below the standard the whitepaper describes; documenting them would widen scope, not correct an error. WATCH ITEM for a future pass: if mesh delivery semantics become normative (i.e. the standard starts promising delivery or dead-lettering behaviour rather than leaving it to the hub), that boundary moves and the whitepaper would need a transport section. Terminology: no drift -- canonical LCT/T3/V3/ATP/ADP/R6/MRH all used in-definition. Last real content change remains 2026-07-14 (T3 no-decay invariant fix, t3v3-012); last structural change 2026-07-09 rewrite."
 }
