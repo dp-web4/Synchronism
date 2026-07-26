@@ -344,7 +344,28 @@ def main() -> int:
 
     ledger = load_json(LEDGER_PATH)
     claims = validate_ledger(ledger)
-    verify_v1_freeze()
+
+    # The freeze check is an evidence-integrity ALARM, not a precondition for
+    # rendering: the generated surfaces are a deterministic function of the
+    # ledger and have no dependency on the v1 artifacts. Letting the alarm abort
+    # the renderer is what turned one legitimate prediction update into a
+    # two-day outage of the README and whitepaper-v2 surfaces (2026-07-24/25).
+    # So: raise in --check (CI must fail on a violation), but in the write path
+    # report loudly, render anyway, and exit non-zero at the end.
+    freeze_ok = True
+    try:
+        verify_v1_freeze()
+    except ValueError as error:
+        if args.check:
+            raise
+        freeze_ok = False
+        print(f"WARNING: {error}", file=sys.stderr)
+        print(
+            "WARNING: rendering anyway -- the generated surfaces do not depend "
+            "on the v1 artifacts. Exit status will be non-zero.",
+            file=sys.stderr,
+        )
+
     results = [
         write_or_check(README_OUTPUT, render_readme(ledger, claims), args.check),
         write_or_check(V2_OUTPUT, render_v2(ledger, claims), args.check),
@@ -352,8 +373,9 @@ def main() -> int:
     if not all(results):
         return 1
     action = "checked" if args.check else "rendered"
-    print(f"{action} {len(claims)} claims; v1 freeze verified")
-    return 0
+    freeze_note = "v1 freeze verified" if freeze_ok else "V1 FREEZE VIOLATED (see above)"
+    print(f"{action} {len(claims)} claims; {freeze_note}")
+    return 0 if freeze_ok else 1
 
 
 if __name__ == "__main__":
