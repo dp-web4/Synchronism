@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER_PATH = ROOT / "claims" / "claim_ledger.json"
 FREEZE_PATH = ROOT / "claims" / "v1-freeze-manifest.json"
+SNAPSHOT_DIR_RELATIVE = "claims/v1-snapshot"
 README_OUTPUT = ROOT / "claims" / "generated" / "README-claims.md"
 V2_OUTPUT = ROOT / "docs" / "whitepaper-v2" / "Synchronism_Whitepaper_v2.md"
 
@@ -121,6 +122,33 @@ def verify_v1_freeze() -> None:
     frozen_at_commit = manifest.get("frozen_at_commit")
     if not isinstance(frozen_at_commit, str):
         raise ValueError("v1 freeze manifest needs frozen_at_commit")
+
+    # A hash freeze can only be applied to a path nothing else writes. Twice now
+    # the manifest froze a *living* path and the gate went red on a legitimate
+    # update: 2026-07-24 (the live PREDICTIONS.md, written by the research lane)
+    # and 2026-07-25 (docs/whitepaper/Synchronism_Whitepaper.pdf, rewritten by
+    # build_whitepaper.yml, which does `git add docs/ whitepaper/build/` on every
+    # push to main -- that rebuild changed 14 bytes of PDF metadata with the
+    # source .md byte-identical, so the gate failed on a content-free rebuild).
+    # Both were the same class of error, so the rule is now enforced in code
+    # rather than remembered: every frozen artifact lives under the snapshot
+    # directory, which no workflow and no research lane writes.
+    stray = sorted(
+        path
+        for path in manifest["files"]
+        if not path.startswith(f"{SNAPSHOT_DIR_RELATIVE}/")
+    )
+    if stray:
+        raise ValueError(
+            "v1 freeze manifest may only freeze snapshot copies under "
+            f"{SNAPSHOT_DIR_RELATIVE}/; these are live paths that other writers "
+            "own, so freezing them makes the gate fail on legitimate updates: "
+            + ", ".join(stray)
+            + ". Fix: `git show <frozen_at_commit>:<path> > "
+            f"{SNAPSHOT_DIR_RELATIVE}/<basename>`, then point the manifest at "
+            "the snapshot (the sha256 is unchanged, so the evidence guarantee "
+            "is unchanged)."
+        )
 
     failures = []
     for relative, expected in manifest["files"].items():
