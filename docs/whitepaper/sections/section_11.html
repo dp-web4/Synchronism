@@ -712,6 +712,39 @@ synchronization) and observation (active/creative).</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="publisher-modify-formatting-repair-only-stray-control-characters-zero-text-change">2026-07-27
+| Publisher | MODIFY (formatting repair only — stray control characters,
+zero text change)</p>
+<ul>
+<li><strong>Description</strong>: Removed 2 stray carriage-return
+characters embedded <em>inside</em> bold markers in
+<code>04-open-questions/open_questions.md</code> — the published text
+read
+<code>**Post-Kimi consolidated open questions (2026-05-28)&lt;CR&gt;**</code>
+and <code>**Legacy categorical question lists&lt;CR&gt;**</code>. No
+word, sentence, claim or heading was altered: the file is byte-identical
+to its predecessor once CR characters are stripped from both. The same
+repair was applied to two files in 09-appendix-mathematical (11
+occurrences repo-wide) and to the build script that produced them.</li>
+<li><strong>Rationale</strong>: <code>preprocess-sections.sh</code>
+converts <code>### Header</code> to <code>**Header**</code> via
+<code>substr($0, 5)</code>. On a CRLF working tree the record’s trailing
+CR is inside that substring, so it landed between the header text and
+the closing <code>**</code>, and the script wrote the result back into
+the <em>source</em> file. The stray CR then reached every published
+surface — the monolithic markdown at <code>docs/whitepaper/</code>
+carried all 11. It also had a second-order effect: a lone CR makes git
+classify a file as non-text, which silently disables
+<code>core.autocrlf=input</code> normalization for that file, so its
+CRLF endings began diffing against the LF blobs CI produces. That is the
+true cause of the ‘3,177-line content-free CRLF diff’ recorded in the
+2026-07-26 entries of the 00-executive-summary and 07-conclusion
+changelogs; that diagnosis named the symptom, not the mechanism, and is
+superseded here. The script is fixed at source
+(<code>sub(/\r$/, "", header_text)</code>, verified idempotent against a
+synthetic CRLF fixture), so this class cannot recur.</li>
+</ul>
 <hr>
 <h2>07-conclusion</h2>
 <h4>
@@ -1238,5 +1271,36 @@ place, the correcting entry added, no historical text deleted.</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="publisher-modify-formatting-repair-only-stray-control-characters-zero-text-change">2026-07-27
+| Publisher | MODIFY (formatting repair only — stray control characters,
+zero text change)</p>
+<ul>
+<li><strong>Description</strong>: Removed 9 stray carriage-return
+characters embedded <em>inside</em> bold markers — 7 in
+<code>appendix_b_chemistry.md</code>
+(<code>**Electronic Channel (Optical/Dielectric)&lt;CR&gt;**</code>,
+<code>**Phononic Channel (Thermal/Mechanical)&lt;CR&gt;**</code>,
+<code>**Channel Independence&lt;CR&gt;**</code> and 4 others) and 2 in
+<code>appendix_c_consciousness.md</code>
+(<code>**Key Claims&lt;CR&gt;**</code>,
+<code>**Qualia Intensity&lt;CR&gt;**</code>). Both files are
+byte-identical to their predecessors once CR characters are stripped
+from both — no equation, claim, or heading text was touched.</li>
+<li><strong>Rationale</strong>: See the same-day entry in
+06-implications for the full mechanism. In short:
+<code>preprocess-sections.sh</code> built <code>**</code> +
+<code>substr($0, 5)</code> + <code>**</code> from a CRLF record,
+trapping the trailing CR inside the bold span, and wrote it back into
+the source. The corruption reached
+<code>docs/whitepaper/Synchronism_Whitepaper_Complete.md</code> (11
+occurrences) and, because a lone CR disables git’s
+<code>autocrlf=input</code> normalization for the whole file, produced
+the phantom whole-file build diffs previously attributed to the WSL
+mount itself. Script fixed at source so the class cannot recur. Note:
+<code>claims/v1-snapshot/</code> retains the uncorrected bytes by design
+— it is frozen evidence of what v1 published, not a copy to be kept
+current.</li>
+</ul>
 <hr>
 </section>

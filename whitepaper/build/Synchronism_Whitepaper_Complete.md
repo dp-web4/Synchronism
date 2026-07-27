@@ -5624,7 +5624,7 @@ Synchronism raises more questions than it answers. This is a feature, not a bug.
 
 ---
 
-**Post-Kimi consolidated open questions (2026-05-28)**
+**Post-Kimi consolidated open questions (2026-05-28)**
 
 These six questions are the actionable bottlenecks surfaced by the saturation-reframe inventory cycle and Kimi 2.6's external reviews (see `forum/kimi/` and `forum/claude/saturation-reframe-*-2026-05-28.md`). MRH-relationship tagging replaces priority tagging: `[ACTIVE-MRH]` = current research focus; `[PARALLEL-PATHS]` = held in parallel hypothesis space.
 
@@ -5662,7 +5662,7 @@ Held in `[PARALLEL-PATHS]` because the predictions cannot be made before OQ-fN i
 
 ---
 
-**Legacy categorical question lists**
+**Legacy categorical question lists**
 
 Below: the prior `6.4` content. Lists kept as historical record; MRH-relationship tagging supersedes the priority/phase framing where it conflicts. The post-Kimi consolidated set above is the active inventory.
 
@@ -6228,7 +6228,7 @@ Where:
 
 The framework identifies two independent channels governing material properties:
 
-**Electronic Channel (Optical/Dielectric)**
+**Electronic Channel (Optical/Dielectric)**
 ```
 Electronegativity χ → Ionization Energy IE → γ_optical → n, ε, σ, φ
 ```
@@ -6243,7 +6243,7 @@ $$
 - Chemical hardness η vs 1/γ_optical: r = 0.950
 - Work function φ vs 1/γ_optical: r = 0.888
 
-**Phononic Channel (Thermal/Mechanical)**
+**Phononic Channel (Thermal/Mechanical)**
 ```
 Atomic Volume V_a → Debye Temperature θ_D → γ_phonon → E, G, κ, α
 ```
@@ -6258,7 +6258,7 @@ $$
 - Shear modulus G vs 1/γ_phonon: r = 0.936
 - Elastic modulus E vs 1/γ_phonon: r = 0.920
 
-**Channel Independence**
+**Channel Independence**
 These channels are **orthogonal** (r ≈ 0 between them), explaining why electronic and thermal properties can vary independently.
 
 ---
@@ -6278,25 +6278,25 @@ Four distinct coherence types with independent estimation methods:
 
 ## B.4 Key Derived Equations
 
-**Superconductivity (Session #62)**
+**Superconductivity (Session #62)**
 $$
 T_c \propto \exp\left(-\frac{\gamma}{\lambda_{eff}}\right)
 $$
 
 BCS ratio derived: 2Δ₀/kT_c = 2√π ≈ 3.54 (observed: 3.52, <1% error)
 
-**Optical Properties (Sessions #76, #91)**
+**Optical Properties (Sessions #76, #91)**
 $$
 n \propto \gamma_{optical}^{1/4}
 $$
 (Moss's rule from coherence)
 
-**Thermal Transport (Session #65)**
+**Thermal Transport (Session #65)**
 $$
 \kappa \propto \frac{\theta_D}{\gamma}
 $$
 
-**Electron Transfer (Session #64)**
+**Electron Transfer (Session #64)**
 $$
 k_{ET} \propto \frac{2}{\gamma} \times \exp\left(-\frac{\lambda}{4kT}\right)
 $$
@@ -6463,7 +6463,7 @@ $$
 
 > **Qualia ARE coherence resonance patterns—not epiphenomena, not correlates, not illusions.**
 
-**Key Claims**
+**Key Claims**
 
 1. **Qualia are resonance modes / vortex modes**: The "redness" of red is a specific coherence resonance pattern in the cognitive-scale Intent fluid — a characteristic vortex mode, just as turbulent flow past a cylinder produces a Kármán vortex street. The same flow conditions (same neural N-S parameters) produce the same vortex mode; same vortex mode = same quale. Qualia are real as vortex structures, not as properties of the individual neurons passing through the pattern at any moment.
 
@@ -6473,7 +6473,7 @@ $$
 
 4. **Mary's Room resolved**: Mary gains acquaintance (being the resonance pattern), not new propositional facts. BEING a pattern ≠ knowing ABOUT a pattern.
 
-**Qualia Intensity**
+**Qualia Intensity**
 $$
 Intensity \propto C \quad (range:\ 0\ to\ \sim0.77)
 $$
@@ -7163,6 +7163,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ############ Entries
 <!-- Entries added chronologically below -->
 
+############ 2026-07-27 | Publisher | MODIFY (formatting repair only — stray control characters, zero text change)
+- **Description**: Removed 2 stray carriage-return characters embedded *inside* bold markers in `04-open-questions/open_questions.md` — the published text read `**Post-Kimi consolidated open questions (2026-05-28)<CR>**` and `**Legacy categorical question lists<CR>**`. No word, sentence, claim or heading was altered: the file is byte-identical to its predecessor once CR characters are stripped from both. The same repair was applied to two files in 09-appendix-mathematical (11 occurrences repo-wide) and to the build script that produced them.
+- **Rationale**: `preprocess-sections.sh` converts `### Header` to `**Header**` via `substr($0, 5)`. On a CRLF working tree the record's trailing CR is inside that substring, so it landed between the header text and the closing `**`, and the script wrote the result back into the *source* file. The stray CR then reached every published surface — the monolithic markdown at `docs/whitepaper/` carried all 11. It also had a second-order effect: a lone CR makes git classify a file as non-text, which silently disables `core.autocrlf=input` normalization for that file, so its CRLF endings began diffing against the LF blobs CI produces. That is the true cause of the '3,177-line content-free CRLF diff' recorded in the 2026-07-26 entries of the 00-executive-summary and 07-conclusion changelogs; that diagnosis named the symptom, not the mechanism, and is superseded here. The script is fixed at source (`sub(/\r$/, "", header_text)`, verified idempotent against a synthetic CRLF fixture), so this class cannot recur.
+
 
 ---
 
@@ -7245,6 +7249,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 
 ############ Entries
 <!-- Entries added chronologically below -->
+
+############ 2026-07-27 | Publisher | MODIFY (formatting repair only — stray control characters, zero text change)
+- **Description**: Removed 9 stray carriage-return characters embedded *inside* bold markers — 7 in `appendix_b_chemistry.md` (`**Electronic Channel (Optical/Dielectric)<CR>**`, `**Phononic Channel (Thermal/Mechanical)<CR>**`, `**Channel Independence<CR>**` and 4 others) and 2 in `appendix_c_consciousness.md` (`**Key Claims<CR>**`, `**Qualia Intensity<CR>**`). Both files are byte-identical to their predecessors once CR characters are stripped from both — no equation, claim, or heading text was touched.
+- **Rationale**: See the same-day entry in 06-implications for the full mechanism. In short: `preprocess-sections.sh` built `**` + `substr($0, 5)` + `**` from a CRLF record, trapping the trailing CR inside the bold span, and wrote it back into the source. The corruption reached `docs/whitepaper/Synchronism_Whitepaper_Complete.md` (11 occurrences) and, because a lone CR disables git's `autocrlf=input` normalization for the whole file, produced the phantom whole-file build diffs previously attributed to the WSL mount itself. Script fixed at source so the class cannot recur. Note: `claims/v1-snapshot/` retains the uncorrected bytes by design — it is frozen evidence of what v1 published, not a copy to be kept current.
 
 
 ---
