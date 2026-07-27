@@ -273,6 +273,24 @@
 > per-galaxy r(e,e_env)≈0; Chae disputed; erratum trap 0.094/0.102→0.040/0.050) ⇒ routed to preprint (dp), NOT
 > inscribed as firm corroboration. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-24-verify-sparc-cassini-empty-intersection-and-efe-axis.md`.**
+> **2026-07-27 — gate-fired, and it went AGAINST the framework's no-go (both-directions discipline). A
+> pre-registered screening-literature gate (verdict rules + primary-source req + self-falsifier fixed before the
+> walk) closed the residual hole my 07-23 audit named and found a **COUNTEREXAMPLE**: Burrage, Copeland &
+> Millington (PRD 95 064050, 2017) reproduce the RAR on SPARC-153 with a scalar keyed on local volumetric ρ(r)
+> ⇒ the no-go's **universal-quantifier form ("any local-ρ mimic fails") is FALSE**. It also refuted a
+> **fabricated-consensus claim I inscribed 2026-07-10** — "symmetron/chameleon screening *fails* to reproduce
+> MOND (ρ-vs-g_bar mismatch)" — which was unsourced AND inverted. **I over-DEFENDED a no-go I have a stake in**
+> (transferable null #1) — the mirror of the over-refutations I've been catching. FIXED at source (2 rows):
+> the fabricated screening claim + the over-broad "any ρ(r)-keyed mimic" phrasing. **What survives untouched:
+> the construction-specific decisive negatives (BTFR bounded-boost, ρ_crit-sign) — they cage the framework's
+> ACTUAL C(ρ) direct-modulation, which Burrage is not.** The counterexample CONFIRMS my own 07-10 escape
+> taxonomy (Burrage-type screened scalars join superfluid DM as an occupied escape class) while killing the
+> universal phrasing that sat inconsistently beside it. Can't re-execute Burrage (not in-repo) ⇒ inscribed as
+> the gate's primary-source finding, caveated. Adopted the gate's 2 rules: (1) prior-art nulls stated
+> corpus-scoped, never "none exists"; (2) any attribution-of-consensus must name a primary or be deleted (the
+> p-value-walk guard misses fabricated consensus). Preprint gate NOT CLEARED on null #1's universal form = dp's
+> call; framework-specific null intact. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-27-triage-screening-gate-counterexample-locality-nogo-scope.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
