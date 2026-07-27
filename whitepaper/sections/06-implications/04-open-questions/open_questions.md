@@ -6,7 +6,7 @@ Synchronism raises more questions than it answers. This is a feature, not a bug.
 
 ---
 
-**Post-Kimi consolidated open questions (2026-05-28)**
+**Post-Kimi consolidated open questions (2026-05-28)**
 
 These six questions are the actionable bottlenecks surfaced by the saturation-reframe inventory cycle and Kimi 2.6's external reviews (see `forum/kimi/` and `forum/claude/saturation-reframe-*-2026-05-28.md`). MRH-relationship tagging replaces priority tagging: `[ACTIVE-MRH]` = current research focus; `[PARALLEL-PATHS]` = held in parallel hypothesis space.
 
@@ -44,7 +44,7 @@ Held in `[PARALLEL-PATHS]` because the predictions cannot be made before OQ-fN i
 
 ---
 
-**Legacy categorical question lists**
+**Legacy categorical question lists**
 
 Below: the prior `6.4` content. Lists kept as historical record; MRH-relationship tagging supersedes the priority/phase framing where it conflicts. The post-Kimi consolidated set above is the active inventory.
 

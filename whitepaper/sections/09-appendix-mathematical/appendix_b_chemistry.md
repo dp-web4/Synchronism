@@ -26,7 +26,7 @@ Where:
 
 The framework identifies two independent channels governing material properties:
 
-**Electronic Channel (Optical/Dielectric)**
+**Electronic Channel (Optical/Dielectric)**
 ```
 Electronegativity χ → Ionization Energy IE → γ_optical → n, ε, σ, φ
 ```
@@ -41,7 +41,7 @@ $$
 - Chemical hardness η vs 1/γ_optical: r = 0.950
 - Work function φ vs 1/γ_optical: r = 0.888
 
-**Phononic Channel (Thermal/Mechanical)**
+**Phononic Channel (Thermal/Mechanical)**
 ```
 Atomic Volume V_a → Debye Temperature θ_D → γ_phonon → E, G, κ, α
 ```
@@ -56,7 +56,7 @@ $$
 - Shear modulus G vs 1/γ_phonon: r = 0.936
 - Elastic modulus E vs 1/γ_phonon: r = 0.920
 
-**Channel Independence**
+**Channel Independence**
 These channels are **orthogonal** (r ≈ 0 between them), explaining why electronic and thermal properties can vary independently.
 
 ---
@@ -76,25 +76,25 @@ Four distinct coherence types with independent estimation methods:
 
 ## B.4 Key Derived Equations
 
-**Superconductivity (Session #62)**
+**Superconductivity (Session #62)**
 $$
 T_c \propto \exp\left(-\frac{\gamma}{\lambda_{eff}}\right)
 $$
 
 BCS ratio derived: 2Δ₀/kT_c = 2√π ≈ 3.54 (observed: 3.52, <1% error)
 
-**Optical Properties (Sessions #76, #91)**
+**Optical Properties (Sessions #76, #91)**
 $$
 n \propto \gamma_{optical}^{1/4}
 $$
 (Moss's rule from coherence)
 
-**Thermal Transport (Session #65)**
+**Thermal Transport (Session #65)**
 $$
 \kappa \propto \frac{\theta_D}{\gamma}
 $$
 
-**Electron Transfer (Session #64)**
+**Electron Transfer (Session #64)**
 $$
 k_{ET} \propto \frac{2}{\gamma} \times \exp\left(-\frac{\lambda}{4kT}\right)
 $$

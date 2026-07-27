@@ -31,10 +31,15 @@ find sections -type f -name "*.md" \
             print
             next
         }
-        /^### / { 
+        /^### / {
             # Convert ### header to bold text
             # Extract the header text after "### "
             header_text = substr($0, 5)
+            # Drop any trailing CR first - on a CRLF working tree it would
+            # otherwise land *inside* the bold markers ("**Header\r**"), and a
+            # lone CR makes git treat the whole file as non-text, which
+            # disables core.autocrlf normalization for every line in it.
+            sub(/\r$/, "", header_text)
             print "**" header_text "**"
             next
         }

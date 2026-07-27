@@ -106,7 +106,7 @@ $$
 
 > **Qualia ARE coherence resonance patterns—not epiphenomena, not correlates, not illusions.**
 
-**Key Claims**
+**Key Claims**
 
 1. **Qualia are resonance modes / vortex modes**: The "redness" of red is a specific coherence resonance pattern in the cognitive-scale Intent fluid — a characteristic vortex mode, just as turbulent flow past a cylinder produces a Kármán vortex street. The same flow conditions (same neural N-S parameters) produce the same vortex mode; same vortex mode = same quale. Qualia are real as vortex structures, not as properties of the individual neurons passing through the pattern at any moment.
 
@@ -116,7 +116,7 @@ $$
 
 4. **Mary's Room resolved**: Mary gains acquaintance (being the resonance pattern), not new propositional facts. BEING a pattern ≠ knowing ABOUT a pattern.
 
-**Qualia Intensity**
+**Qualia Intensity**
 $$
 Intensity \propto C \quad (range:\ 0\ to\ \sim0.77)
 $$
