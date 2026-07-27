@@ -551,7 +551,8 @@ These terms are canonical and must NEVER be redefined:
 | **V3** | - | Value Tensor (6 dimensions) |
 | **ATP** | - | Allocation Transfer Packet |
 | **ADP** | - | Allocation Discharge Packet |
-| **R6** | - | Rules/Role/Request/Reference/Resource/Result |
+| **R6** | - | Rules/Role/Request/Reference/Resource → Result (the action grammar) |
+| **R7** | - | R6 with **R**eputation as a first-class *output*: the Request↔Result delta feeds back into the actor's T3/V3 tensors. Trust computed, not declared. |
 | **C(ξ)** | Coherence function | - |
 | **γ** | Coherence scaling exponent | - |
 | **Intent** | Computational reification | - |
