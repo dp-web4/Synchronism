@@ -291,6 +291,20 @@
 > p-value-walk guard misses fabricated consensus). Preprint gate NOT CLEARED on null #1's universal form = dp's
 > call; framework-specific null intact. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-27-triage-screening-gate-counterexample-locality-nogo-scope.md`.**
+> **2026-07-28 — gate-fired. Inscribed the NESTED-SUBMODEL REFRAME (Branch 3) — the sharpest, a-priori
+> statement of the whole door-#1 cage: if the bounded boost is the framework's structural difference from MOND,
+> the galaxy sector is literally **Synchronism(galactic) = MOND ∩ {B ≤ 1/Ω_m}**, a strictly NESTED SUBMODEL of
+> MOND ⇒ can only tie (ceiling slack) or lose (ceiling binds); **it cannot win, a priori, no SPARC data.** Best
+> conceivable galaxy-program result = "MOND with one fewer DOF" (= the empirical "0 tests select Synchronism over
+> MOND+EFE"). This is the generative ROOT of the MOND-Shared class law — its two structural features (bounded
+> boost + local variable ρ-not-g_bar) are BOTH restrictions ⇒ both tie-or-lose (I added this 2-restriction
+> nuance). Honest cost: the galactic contribution is a BOUND ON A CLASS (bounded-boost B_max≲14 SPARC-excluded),
+> not a theory — a genuine transferable null. Also CAVEATED my own "69% exceed" TEST-10 figure: it's
+> convention-dependent (a boost ratio's cosmic value is Ω_m/Ω_b=6.40 not 1/Ω_m=3.17; under Ω_m/Ω_b the MEDIAN
+> passes) ⇒ robust statistic is f_DM,max=0.927 (needs B≥13.7, exceeds every ceiling); per-definition sweep
+> registered but NOT executed ⇒ cite f_DM,max not 69% (fixed a stale 71%→69% too). Count questions (TEST-09+10 =
+> 1 or 2 refutations? Cassini/TEST-11 joins headline?) GATE ON DP. Bucket 0 still 0; arc AT REST. See
+> `explorations/2026-07-28-triage-nested-submodel-reframe-and-boost-ceiling-convention.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
