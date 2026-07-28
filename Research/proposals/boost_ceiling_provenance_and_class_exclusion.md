@@ -95,6 +95,39 @@ screening-literature prior-art exposure (see
 `locality_nogo_screening_literature_gate.md`, filed same day), one dataset, one figure.
 If the preprint track opens, this is the cheapest item to ship.
 
+## Branch 3 — the nested-submodel argument (added 2026-07-28, site maintainer, from visitor Pass 4)
+
+A cleaner and cheaper version of Branch 2's point, stated structurally rather than empirically.
+`/honest-assessment` calls B_max = 1/Ω_m "the framework's only structural difference from MOND."
+Take that literally: a ceiling is a *restriction*, so the galaxy sector is
+
+> Synchronism (galactic) = MOND ∩ {B ≤ 3.17}
+
+a strictly nested submodel of a theory it does not otherwise modify. A nested submodel has exactly
+two possible outcomes against its parent: statistically indistinguishable, or refuted (where the
+ceiling binds and MOND has no ceiling to bind on). **It cannot win.** The best conceivable result
+of the entire galaxy program was "identical to MOND with one fewer degree of freedom." This is
+available *a priori*, from the model's structure alone, with no SPARC data required — the program
+reached the same place (`/for-researchers`: "0 tests could select Synchronism over MOND+EFE+ΛCDM")
+empirically, at the cost of the full BTFR/RAR/dwarf-DM analysis.
+
+This does not change any bucket or count — it is a reading of *why* the empirical result had to
+come out this way, not a new refutation. It has been added to `/for-researchers` (2026-07-28,
+opening section) and item 8 on `/parameter-derivations` as a structural framing, without touching
+the site's refutation count. **Whether it should change how the count itself is presented is a
+distinct, still-open question** — see "Open questions" below.
+
+## Status update (2026-07-28) — Branch 1 arithmetic is illustrative, not executed
+
+The Branch 1 table above (median f_DM = 0.755 passes under Ω_m/Ω_b; kill survives at the tail,
+f_DM,max = 0.927 ⇒ B ≥ 13.7) is back-of-envelope arithmetic on already-published SPARC summary
+statistics, not the registered per-galaxy re-run this proposal calls for ("Registered protocol,"
+above). **The full sweep — recomputing TEST-09's slope and TEST-10's exceedance fraction per
+galaxy under each candidate ceiling definition, with the pre-fixed verdict rule — has not been
+run.** Until it is, do not cite "median passes" as an executed result; cite it as the proposal's
+own preliminary arithmetic, clearly labeled as such. This status note exists because that
+distinction has already blurred once in session memory shorthand.
+
 ## Open questions for the explorer track
 
 1. Does any archive document derive B_max = 1/Ω_m, or is it assumed throughout? If assumed,
@@ -104,3 +137,20 @@ If the preprint track opens, this is the cheapest item to ship.
 3. Does the B_max ≲ 14 exclusion already exist in the literature under another name?
    Run the vocabulary-asymmetry translation on it before claiming novelty — the program's
    own detector has a 4/4 catch rate on prior-art rediscovery and has never been pointed here.
+4. **(Added 2026-07-28.)** Should TEST-09 and TEST-10 be counted as one refutation or two in the
+   site's "4 refutations executed on external data" headline? Both are corollaries of B_max on
+   *different* observables (BTFR slope vs. dwarf DM fraction) — not the same measurement twice —
+   but they share one structural root and the Branch-3 nesting argument means neither result was
+   ever in doubt once the ceiling was accepted. This is a real methodological question (how much
+   independent empirical content does a corollary carry?), not a typo to silently fix. Requires
+   the same registration discipline as the refutation count itself received on 2026-07-17 — a
+   named criterion for what counts as "one" vs. "two," decided before re-deriving the count, not
+   after. Gates on dp.
+5. **(Added 2026-07-28.)** TEST-11 (the SPARC×Cassini joint squeeze, executed 2026-07-23,
+   propagated to the site 2026-07-28) is a fifth galactic-sector result but a *different kind* —
+   an internal-consistency kill (empty intersection under one realization) rather than a
+   Synchronism-vs-MOND discrimination. Should it be added to the "4 refutations" headline count,
+   kept separate as its own category, or left where it is (documented on Tier 1 but not counted
+   in the footer)? The 4-count's own commit history (2026-07-17) suggests this kind of change
+   needs the same deliberate, reviewed recount it received then — not a same-session bundling
+   with the site edit that added the test itself. Left open pending that review.
