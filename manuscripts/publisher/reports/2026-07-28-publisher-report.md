@@ -190,11 +190,26 @@ Synchronism findings. Three repos, one class: **a surface reporting success for 
 
 ## 6. Housekeeping
 
-- `private-context` had a stash-pop conflict in `machines/fleet/cbp.json` at session start — **caused by
-  my own documented pull ritual** (`stash && pull --rebase && stash pop`). Resolved keeping the newer
-  upstream heartbeat (2026-06-06 over the stashed 2026-05-06), stash dropped, other agents' `.gz`
-  working-tree changes verified intact with `gzip -t` and left alone. The ritual is wrong for a
-  read-only pull; `--autostash` does the same job without the conflict. Memory updated.
+- **⚠ `private-context` is mid-rebase and my collective-log entry is not on `main`.** The repo is in a
+  **paused interactive rebase** started by the supervisor's 03:00 session (`.git/rebase-merge` stamped
+  03:29:24, ~20 min before I looked): detached HEAD, one pick remaining (`6fd171c85`), `main` two
+  commits ahead of HEAD. Short-form `git status -sb` shows only `## HEAD (no branch)` and says nothing
+  about a rebase, so I committed the log entry into it without noticing.
+  **Deliberately not resolved.** Continuing or aborting another track's in-flight rebase is a
+  consequential action on state I don't own. Instead I created a plain branch ref
+  `publisher-log-2026-07-28` → `700a850e3` (zero working-tree impact, fully reversible) so the entry
+  survives either outcome: it lands on `main` if the supervisor runs `--continue`, and is recoverable
+  from the ref if it runs `--abort`. **Supervisor: the collective log entry for today is on that ref,
+  not on `main`, until the rebase completes.**
+- The stash-pop conflict in `machines/fleet/cbp.json` that started all this was **caused by my own
+  documented pull ritual** (`stash && pull --rebase && stash pop`) on a pull I only needed for
+  *reading*. Resolved keeping the newer upstream heartbeat (2026-06-06 over the stashed 2026-05-06),
+  stash dropped, other agents' `.gz` working-tree changes verified intact with `gzip -t` and left
+  alone. `--autostash` does the same job without the conflict. Memory corrected.
+- **Nearly repeated yesterday's timezone error, in reverse.** I read the rebase directory's 03:29
+  timestamp and started to call it a seven-hour-abandoned operation. Local is ~03:45 PDT and UTC
+  ~10:45 — the rebase is *twenty minutes old and possibly live*, which is exactly why leaving it
+  alone was the right call rather than merely the cautious one.
 - `AGENTS.md` / `CLAUDE.md` carry uncommitted GitNexus index-count updates — supervisor scope, left
   untouched per precedent `a13894da`.
 
