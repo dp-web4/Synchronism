@@ -28,6 +28,8 @@ The framework is cleanly in the "partial model among partial models" category th
 The Researcher identifies three results that survive the framework's refutation and are **independently publishable**:
 
 ### 1. Local-Density No-Go / Locality Triage
+**⚠ This headline claim is under active correction as of 2026-07-27/28 — read the Gate Update at the foot of this file before acting on §1.** The universal-quantifier form below has a published counterexample; whether that counterexample survives an operational definition of "local" is an open question filed as `locality_operational_definition_algebraic_vs_field_sourced.md`.
+
 Any gravity modification keyed on a local intensive density variable ρ(r) cannot reproduce an acceleration-keyed (non-local) RAR across systems with different mass geometries except by per-system calibration.
 
 - **Quantified:** ΔBIC=+184 (SPARC, γ=2); ~1.7 dex cross-system ρ↔g_bar offset; ρ_crit,cluster off by 10⁴–10⁶.
@@ -103,3 +105,68 @@ submission: manual read of the 1983b scan (image-only, unverified primary), and 
 chameleon/symmetron screening vein if diagnosis-priority (not just quantification-priority) is
 claimed. Full walk: `explorations/2026-07-23-locality-nogo-prior-art-audit.md`. Preprint decision
 still gates on dp; this clears the prior-art precondition on the Milgrom axis.
+
+---
+
+## Gate Update — 2026-07-28 (Publisher)
+
+**Transferable null #1: the residual hole the 07-23 audit named was walked on 2026-07-27, and it produced a
+counterexample against us. §1 above, as written, is falsified in its universal form — and this document did not
+know it.**
+
+The 07-23 update (immediately above) closed with two named residual holes, one of them "the chameleon/symmetron
+screening vein." A pre-registered screening-literature gate walked that vein on 2026-07-27 and found **Burrage,
+Copeland & Millington (PRD 95, 064050, 2017)** reproducing the RAR on SPARC-153 with a scalar keyed on local
+volumetric ρ(r) **under universal Lagrangian parameters** — which also defeats §1's escape clause, since the fit
+is not by per-system calibration. The same walk refuted a *fabricated consensus* the project had inscribed on
+2026-07-10 ("screening fails to reproduce MOND on the ρ-vs-g_bar mismatch"): unsourced, and backwards. Both were
+corrected at source in `PREDICTIONS.md` the same day. Full record:
+`explorations/2026-07-27-triage-screening-gate-counterexample-locality-nogo-scope.md`.
+
+**Why the Publisher is annotating this document rather than only noting it.** The corrections landed in the
+ledger and did not reach the two surfaces that carry the claim to a reader: the whitepaper (fixed this pass,
+`[SCOPED 2026-07-27]` markers in 00-executive-summary and 07-conclusion) and **this file, which is the document
+awaiting dp's decision.** A reader of §1 on 2026-07-28 would have read a falsified universal claim with no
+marker on it. That is a propagation defect, not a research one, and it is squarely the Publisher's lane.
+
+### The fork that decides how much of §1 survives — open, not resolved
+
+The triage treats Burrage as a counterexample. It may not be one, under the classification table's *own*
+criterion. A screened scalar's static field equation is `∇²φ = V_eff,φ(φ; ρ(r))` — elliptic, sourced by ρ — so
+φ(r), and hence the force `∝ ∇φ`, is a **non-local functional of the baryon distribution** even though the
+potential is keyed on local ρ. That is the same structural reason AQUAL is classed non-local in the table.
+
+- **Reading B (field-sourced):** Burrage is non-local, no counterexample, **§1 survives intact** and gains a
+  one-sentence definition. The 07-27 retraction was itself an over-correction.
+- **Reading A (algebraic-pointwise):** the retraction stands; §1 narrows to ρ(r)-**threshold** mimics that tie a
+  critical density to a₀, with Burrage a required citation and a named occupied escape class.
+
+Filed as `Research/proposals/locality_operational_definition_algebraic_vs_field_sourced.md` with a
+pre-registered falsifier. **Stated as a question, not a finding:** the Publisher has not read Burrage, and the
+field equation above is the standard screened-scalar form, not a reading of that paper.
+
+### Publication consequences either way
+
+1. **§1 is not dead under either reading.** Synchronism's own C(ρ) is algebraic-pointwise under both, so the
+   framework-specific kills (TEST-09 BTFR bounded-boost; ρ_crit ∝ V⁺² sign inversion) are untouched. Bucket 0
+   is not in play.
+2. **Novelty-to-audience is what moves.** Reading B keeps a general constraint on a model class — the version
+   worth an arXiv preprint. Reading A leaves a construction-scoped negative about one framework, which is
+   honest, citable, and a much narrower readership.
+3. **Burrage becomes a required citation regardless.** Submitting §1 in any form without it now invites exactly
+   the referee objection the gate just raised internally.
+4. **Advisory: resolve the fork before drafting §1, not during.** It is a single literature question with a
+   pre-registered answer format, and it determines the paper's headline sentence.
+5. **A framing option the corrections surfaced, worth dp's attention:** the triage records that the symmetron is
+   *the same mathematical object* as C(ρ) with the three ingredients C(ρ) lacks — an action, a derived ρ_*, a Z₂
+   order parameter and mean-field β=½. "A framework independently reconstructed the symmetron minus its action,
+   and the missing ingredients are exactly what killed it" is a more legible story to an external audience than
+   either version of the no-go, and it uses material the project already owns.
+
+### Revised advisory order (supersedes the 2026-07-27 report's)
+
+**REC-2026-038 (drafted, reproducibility-verified, cs.AI) → #2 DESI mechanism-class → #1 Locality No-Go
+(blocked on the operational-definition fork) → #3 A2ACW** — with the standing 07-27 note that if the strategy is
+approved, REC-038 should *be* the cs.AI vehicle and #3 folded into it rather than drafted from scratch.
+Null #1 drops below DESI in order only because it now has an open blocking question, not because it weakened.
+
