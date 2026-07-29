@@ -25,6 +25,11 @@ The framework is cleanly in the "partial model among partial models" category th
 
 ## The Three Transferable Nulls
 
+**⚠ There is now a fourth, and on time-to-postable it is ahead of all three — see the Gate Update
+2026-07-29 at the foot of this file. The bounded-boost class exclusion needs no A2ACW dependency, no
+screening-literature prior-art exposure, one dataset and one figure, and its headline statistic was
+computed on 2026-07-29 from data already in hand.**
+
 The Researcher identifies three results that survive the framework's refutation and are **independently publishable**:
 
 ### 1. Local-Density No-Go / Locality Triage
@@ -169,4 +174,72 @@ field equation above is the standard screened-scalar form, not a reading of that
 (blocked on the operational-definition fork) → #3 A2ACW** — with the standing 07-27 note that if the strategy is
 approved, REC-038 should *be* the cs.AI vehicle and #3 folded into it rather than drafted from scratch.
 Null #1 drops below DESI in order only because it now has an open blocking question, not because it weakened.
+
+---
+
+## Gate Update — 2026-07-29 (Publisher)
+
+**A fourth transferable null, and it is the readiest physics item in the file.** On 2026-07-28 the
+research lane inscribed the **nested-submodel reframe**: if the bounded boost B_max = 1/Ω_m is the
+framework's structural difference from MOND, then Synchronism (galactic) = MOND ∩ {B ≤ 1/Ω_m}, a
+restriction of the parent family. The citable output is a constraint on a *model class* — one another
+author can apply to a bounded-boost model that is not Synchronism. `boost_ceiling_provenance_and_
+class_exclusion.md` calls it "the cheapest item to ship: no A2ACW dependency, no screening-literature
+prior-art exposure, one dataset, one figure." That assessment holds and is now backed by numbers.
+
+### Its headline statistic — settled, and stronger than either version previously proposed
+
+Two figures were in circulation, and neither should be the headline:
+
+- **"69% of SPARC exceed the 68.5% ceiling"** — convention-dependent, as the 07-28 triage correctly
+  caught. A boost is a dynamical/baryonic ratio; substitute the baryon-budget ratio Ω_m/Ω_b = 6.39
+  and the median passes.
+- **"f_DM,max = 0.927 ⇒ B ≥ 13.7"**, the triage's prescribed definition-free replacement — **excluded
+  by exactly one galaxy, by construction.** Nothing exceeds a sample maximum. (A guess that it would
+  also be a *fragile* outlier was tested and refuted — drop-the-max moves the bound only 4%. The
+  defect is support count, not fragility.)
+
+Executed 2026-07-29 (`simulations/test10_ceiling_exceedance_curve.py`, importing the executed TEST-10
+loader and cuts verbatim; reproduction check passed — 106/153, f_DM,max = 0.927):
+
+| ceiling | B_max | exceeding |
+|---|---|---|
+| 1/Ω_m | 3.17 | 106/153 = 69% |
+| (Ω_m−Ω_b)/Ω_b | 5.39 | 44/153 = 29% |
+| Ω_m/Ω_b (most permissive) | 6.39 | **28/153 = 18%** |
+
+> **Recommended headline: a bounded-boost modified-gravity class with ceiling B_max ≤ 6.4 is excluded
+> by 28 SPARC galaxies; with B_max ≤ 8.4, by 10. The exclusion holds under every candidate
+> normalisation of the ceiling, being evaluated at the most permissive one.**
+
+Definition-free (worst-case over conventions), robust (N = 28, not 1), and computable today. The
+registered per-definition sweep remains unrun and is still worth running for TEST-09's BTFR slope,
+which this does not touch.
+
+### One correction to the reframe, before it becomes the paper's opening sentence
+
+The reframe concludes that a nested submodel "**cannot win** — a priori, no SPARC data required."
+That conflates fit with selection. A nested submodel cannot *fit* better; it can be *selected* — and
+B_max = 1/Ω_m is fixed by cosmology, so it adds no free parameter. ΛCDM vs wCDM is the identical
+structure, and ΛCDM wins. What nesting buys a priori is a **dichotomy** (tie-on-fit-and-win-on-
+parsimony where the ceiling is slack; refuted where it binds), not a verdict. Which branch obtains is
+empirical — so the SPARC runs were the decision procedure between two genuinely different outcomes,
+one of them favourable, rather than corollaries of a foregone conclusion.
+
+**The verdict does not move** (the ceiling binds, hard). What moves is the paper's first move: "a
+nested submodel cannot win" draws a referee objection from anyone who does model comparison, in the
+opening paragraph. The defensible form costs nothing and is what §4 should say. Full argument, the
+φ-provenance dependency that cuts both ways, and a pre-registered falsifier:
+`Research/proposals/nested_submodel_fit_versus_selection.md`.
+
+### Revised advisory order (supersedes 2026-07-28's)
+
+**#4 Bounded-Boost Class Exclusion (headline computed, one dataset, one figure — REC-2026-039) →
+REC-2026-038 (drafted, reproducibility-verified, cs.AI) → #2 DESI mechanism-class → #1 Locality No-Go
+(still blocked on the operational-definition fork) → #3 A2ACW.**
+
+The new #4 goes to the top of the *physics* items because it is the only one whose headline number is
+executed, definition-robust, and free of an open blocking question. REC-038 remains the shortest path
+to something posted overall. Null #1's fork (Reading A vs Reading B, filed 07-28) is **still open** —
+no new evidence today, and it still decides §1's headline sentence.
 

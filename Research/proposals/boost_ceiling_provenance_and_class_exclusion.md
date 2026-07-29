@@ -154,3 +154,65 @@ distinction has already blurred once in session memory shorthand.
    in the footer)? The 4-count's own commit history (2026-07-17) suggests this kind of change
    needs the same deliberate, reviewed recount it received then — not a same-session bundling
    with the site edit that added the test itself. Left open pending that review.
+
+---
+
+## Executed partial — the exceedance curve (2026-07-29, Publisher)
+
+**Scope, stated first: this is NOT the registered sweep.** The "Registered protocol" above requires
+recomputing TEST-09's BTFR slope *and* TEST-10's exceedance fraction per galaxy under each candidate
+ceiling, adjudicated by the pre-fixed verdict rule. **That remains unrun.** What was run is narrower
+and needs none of it: the exceedance curve over the *existing* TEST-10 sample, which settles which
+statistic this proposal should nominate as its headline. Script
+`simulations/test10_ceiling_exceedance_curve.py`; imports the executed TEST-10 loader and cuts
+verbatim, so the sample is identical. Reproduction check passed first: 106/153 = 69%, f_DM,max = 0.927.
+
+**Branch 1's arithmetic is confirmed as arithmetic** — median f_DM = 0.755 does pass under
+Ω_m/Ω_b = 6.39. But the table above stops at the median and the max, and the interesting content is
+between them:
+
+| ceiling definition | B_max | f_DM cap | galaxies exceeding |
+|---|---|---|---|
+| 1/Ω_m (site's choice) | 3.17 | 0.685 | **106/153 = 69%** |
+| (Ω_m−Ω_b)/Ω_b | 5.39 | 0.814 | **44/153 = 29%** |
+| Ω_m/Ω_b (baryon budget, most permissive) | 6.39 | 0.843 | **28/153 = 18%** |
+| f_DM,max (this proposal's nominated cite) | 13.75 | 0.927 | **0/153 = 0%** |
+
+**Two corrections to this proposal's own recommendation follow.**
+
+1. **f_DM,max is excluded by exactly one galaxy, by construction** — nothing can exceed a sample
+   maximum. "Cite f_DM,max, not 69%" swaps a convention-dependence for a K=1 support, which is the
+   weakest-supported point on the whole curve. (A guess that f_DM,max would *also* be a fragile
+   outlier was tested and **refuted**: drop-the-max moves the bound 13.75 → 13.14, so only 4% of it
+   rests on one galaxy. The tail is smooth. The problem is support count, not fragility.)
+
+2. **"The kill stands on the tail, not the median" undersells the result.** Evaluated at the *most
+   permissive* candidate ceiling — which is the definition-free way to state it — **28 galaxies
+   still exceed.** Not a tail of one; 18% of the sample, surviving every convention on the table
+   because it is adjudicated at the most generous one.
+
+**Nominated headline, replacing both "69%" and f_DM,max:**
+
+> A bounded-boost modified-gravity class with ceiling B_max ≤ 6.4 is excluded by 28 SPARC galaxies;
+> with B_max ≤ 8.4, by 10. The exclusion holds under every candidate normalisation of the ceiling,
+> being evaluated at the most permissive.
+
+Support-vs-bound trade, for whoever drafts this (K = number of galaxies exceeding):
+K=1 → B_max ≤ 13.75 · K=5 → 9.46 · K=10 → 8.39 · K=20 → 7.08 · K=40 → 5.69 · K=76 → 4.13.
+Required-boost quantiles, bootstrap 95% CI (10k resamples, seed 20260729): p50 = 4.08 [3.83, 4.56],
+p90 = 7.59 [6.74, 8.39], p95 = 8.84 [7.62, 9.51].
+
+This makes the class-exclusion null shippable on data already in hand, without waiting for the
+registered sweep — the sweep remains worth running for TEST-09's slope, which this does not touch.
+
+## Branch 3 — correction filed (2026-07-29, Publisher)
+
+The nested-submodel argument's conclusion — "**it cannot win**, a priori" — conflates fit with
+selection. A nested submodel cannot *fit* better; it can be *selected*, and a ceiling fixed by
+cosmology adds no free parameter (ΛCDM vs wCDM is the same structure and wins). What nesting buys
+a priori is a **dichotomy** — tie-on-fit-and-win-on-parsimony where the ceiling is slack, refuted
+where it binds — not a verdict. Which branch obtains is empirical, so the SPARC runs were the
+decision procedure between two genuinely different outcomes, not corollaries of a foregone
+conclusion. The verdict is unaffected (the ceiling binds). Full argument, the φ-provenance
+dependency that cuts both ways, and a pre-registered falsifier:
+`Research/proposals/nested_submodel_fit_versus_selection.md`.
