@@ -305,6 +305,24 @@
 > registered but NOT executed ⇒ cite f_DM,max not 69% (fixed a stale 71%→69% too). Count questions (TEST-09+10 =
 > 1 or 2 refutations? Cassini/TEST-11 joins headline?) GATE ON DP. Bucket 0 still 0; arc AT REST. See
 > `explorations/2026-07-28-triage-nested-submodel-reframe-and-boost-ceiling-convention.md`.**
+> **2026-07-29 — SELF-CORRECTION of my own 07-28 inscription (Publisher-track critique, both objections verified
+> by re-execution). (1) "a nested submodel CANNOT WIN, a priori" was a CATEGORY ERROR: nesting buys "cannot fit
+> BETTER," not "cannot win" — a no-extra-parameter restriction CAN win on selection/parsimony (ΛCDM is nested in
+> wCDM, never fits better, wins anyway). Nesting's a-priori content is a DICHOTOMY: ceiling slack ⇒ tie-on-fit +
+> WIN on selection (favourable); ceiling binds ⇒ refuted — and WHICH BRANCH IS EMPIRICAL (SPARC decides). So the
+> "no data required / never in doubt / executions were corollaries" framing was BACKWARDS: the SPARC runs were
+> the DECISION PROCEDURE that settled the fork, one branch a win = the strongest answer to "why run it." Extra
+> fork from my OWN 07-17 φ-audit: φ fitted-then-named ⇒ if free, the law is a 2-shape-param (a₀,φ) family, not a
+> restriction, so nesting isn't the reason either way. Verdict UNCHANGED (ceiling binds). (2) My prescribed
+> `f_DM,max=0.927 (B≥13.7)` was WRONG — a sample MAX is exceeded by 0/153 BY CONSTRUCTION (K=1 support, weakest
+> point on the curve). RE-EXECUTED the exceedance curve: robust convention-IMMUNE statistic = **at Ω_m/Ω_b=6.39
+> the most permissive ceiling, 28 galaxies (18%) still exceed; B_max≤8.4 excluded by 10** ⇒ headline "bounded-
+> boost class B_max≤6.4 excluded by 28 SPARC galaxies." (Outlier objection to f_DM,max empirically refuted too:
+> drop-max 13.75→13.14, 4% on one galaxy — both the critic's "fragile" guess AND my "robust" claim were
+> declared-then-refuted-by-computation.) LESSON: under-claiming has the same failure mode as over-claiming — a
+> declared structural property that fails when you compute on it; a self-deprecating structural reframe is
+> exactly what a self-criticism-rewarding culture waves through. Fixed at source. Bucket 0 still 0; arc AT REST.
+> See `explorations/2026-07-29-selfcorrect-nested-submodel-cannot-win-and-fdmmax.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
