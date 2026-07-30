@@ -25,7 +25,7 @@ The framework is cleanly in the "partial model among partial models" category th
 
 ## The Three Transferable Nulls
 
-**⚠ There is now a fourth, and on time-to-postable it is ahead of all three — see the Gate Update
+**⚠ A fourth was proposed 2026-07-29 and DOWNGRADED 2026-07-30 — it restates an in-repo result from 2026-06-03 and is a robustness section, not a paper. Read the 07-30 Gate Update at the foot of this file. Earlier text kept below for the record. See the Gate Update
 2026-07-29 at the foot of this file. The bounded-boost class exclusion needs no A2ACW dependency, no
 screening-literature prior-art exposure, one dataset and one figure, and its headline statistic was
 computed on 2026-07-29 from data already in hand.**
@@ -243,3 +243,67 @@ executed, definition-robust, and free of an open blocking question. REC-038 rema
 to something posted overall. Null #1's fork (Reading A vs Reading B, filed 07-28) is **still open** —
 no new evidence today, and it still decides §1's headline sentence.
 
+
+---
+
+## Gate Update — 2026-07-30 (Publisher): yesterday's #4 was a weaker restatement of an in-repo result from June. The advisory order reverts.
+
+**Read this before §26's "there is now a fourth" pointer or yesterday's advisory order.** Both are
+superseded.
+
+### The prior art was ours, and it is eight weeks old
+
+`synchronism-site/explorer/findings/efe-boost-ceiling-closure.md` (**2026-06-03**) already executed
+the bounded-boost exclusion, on the same dataset, in a **stronger** form: it parametrized the ceiling
+`B_max` as a continuous knob and **fit it to the RAR** — joint best fit **B_max = 20.7**, with the
+framework's own 3.17 giving RMS 0.227 dex against McGaugh's 0.146 (53% worse, structured). It also
+already reports the demand-side statistic: *"42% of SPARC points need a boost larger than 3.17"* and
+*"boosts up to 34× in the deep regime."*
+
+Both reproduced **exactly** today under the TEST-10 loader with its stated 10% velocity-error cut:
+**41.5%** and **34.0**. So yesterday's headline (28 galaxies at `B_max = 6.4`) is a weaker,
+lower-support restatement of a result this program already had — and the stated ground for ranking it
+first, *"the only one whose headline number is executed,"* was false. No document in the
+07-27 → 07-29 chain that produced REC-2026-039 cites the 06-03 finding.
+
+### The M/L gate, which yesterday's entry named as unrun, also fires
+
+At `Υ*_disk = 0.7` — inside the defensible range for a 0.5 ± 0.1 dex population-synthesis prior — the
+28 galaxies become **15**. "28" was M/L-conditional in exactly the way "69%" was convention-conditional.
+
+**What survives, and it is worth keeping.** Worst-cased jointly over ceiling normalisation *and* over
+`Υ*_disk ∈ [0.3, 0.7]`, counting a galaxy excluded when **any** radius demands more than the ceiling:
+
+> **34 of 153 SPARC galaxies (22%) demand an acceleration boost above `Ω_m/Ω_b = 6.39` at some
+> radius, for every stellar M/L in the defensible range and under every candidate ceiling
+> normalisation.** NGC 3741 and ESO 444-G084 hold at every `Υ*` out to 3.0 — no stellar mass-to-light
+> ratio whatsoever undoes their exclusion.
+
+The per-galaxy-max estimator also shows the outer-3 average used on 07-29 is conservative by ~2×
+(54/153 vs 28/153 at nominal M/L).
+
+### Revised advisory order (supersedes 2026-07-29's)
+
+**#1 REC-2026-038 (drafted, reproducibility-verified, cs.AI — the shortest path to anything posted) →
+#2 DESI mechanism-class → REC-2026-039 as a *robustness section*, not a paper → #1-null Locality No-Go
+(still blocked on the operational-definition fork) → #3 A2ACW.**
+
+REC-039 is **not a standalone submission**. If the class-exclusion null is written up, the 06-03
+RAR-fit result is the headline and today's worst-cased demand statistic is the assumption-light
+corroboration beside it — one is a likelihood statement over 2,807 points, the other needs no fit at
+all, and the pair is stronger than either alone.
+
+**Before any draft**: reconcile the program's four numbers for the same quantity — 34× (max point,
+06-03), 13.75× (`f_DM,max`, 07-15/07-29), 42% of points > 3.17 (06-03), 69% of galaxies > 3.17
+(07-15). All four are reproduced; they are mutually consistent under different cuts; no document says
+so. And credit **Hees et al. 2016** explicitly as constraining the *Newtonian-return* limb of the
+interpolating function, not the deep-MOND end where the ceiling binds — it is this archive's
+most-cited external paper, and a referee who knows it will assume it already covers this.
+
+Full argument, reproduction checks and a pre-registered falsifier:
+`Research/proposals/boost_ceiling_exclusion_already_in_repo_and_ml_robustness_20260730.md`.
+Script: `simulations/test10_upsilon_star_sensitivity.py`.
+
+**Null #1's fork (Reading A vs Reading B, filed 07-28) is still open** — no new evidence today, third
+consecutive day. It still decides §1's headline sentence. dp's preprint decision is now **32 days**
+open and has materially changed four times.

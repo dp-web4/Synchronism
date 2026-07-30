@@ -65,6 +65,26 @@ cat publisher/state/published.json
 cat ../Research/SESSION_MAP.yaml
 ```
 
+### 1b. Scan Surfaces (the scan has been blind twice — keep this list current)
+
+Publication-relevant work does not only arrive as numbered sessions, and it does not only arrive
+in this repo. Scan **all** of these every run:
+
+| Surface | Why it is on this list |
+|---|---|
+| `../Research/SESSION_MAP.yaml` | numbered sessions (the original scan) |
+| `../Research/papers/` | **added 2026-07-27** — a finished 4,307-word manuscript sat unseen for 4 days because the scan was shaped for session arcs (→ REC-2026-038) |
+| `../Research/proposals/` | where the research lane files framing changes and registrations |
+| `../Research/preregistrations/` | pre-registered protocols; tells you what is *about* to be executed |
+| `../explorations/` | same-day triage notes; often the first place a self-correction lands |
+| **`synchronism-site/explorer/findings/`** | **added 2026-07-30** — a *sibling repo*. The boost-ceiling class exclusion was executed here on 2026-06-03, and on 2026-07-29 the Publisher spent a pass re-deriving a weaker version of it and recommended that as the queue's lead physics item. Executed results with real computation live here, and nothing in the Synchronism repo indexes them. |
+| `synchronism-site/explorer/topics/` | seeded-but-unrun executions — the pipeline of what is coming |
+
+**The failure class both additions belong to**: the scan was shaped for the form the *last* finding
+arrived in. Before opening or promoting a recommendation, grep the sibling repos for the claim's own
+keywords — the program's own prior art is cheaper to find than the literature's and is more often
+the thing that moves the verdict.
+
 ### 2. Identify Candidates
 
 Scan for session blocks that are:

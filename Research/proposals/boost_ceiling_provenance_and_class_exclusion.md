@@ -105,7 +105,11 @@ Take that literally: a ceiling is a *restriction*, so the galaxy sector is
 
 a strictly nested submodel of a theory it does not otherwise modify. A nested submodel has exactly
 two possible outcomes against its parent: statistically indistinguishable, or refuted (where the
-ceiling binds and MOND has no ceiling to bind on). **It cannot win.** The best conceivable result
+ceiling binds and MOND has no ceiling to bind on). **It cannot win.** [**⚠ CORRECTED 2026-07-29 —
+see "Branch 3 — correction filed" below before citing this paragraph: "cannot win" should read
+"cannot *fit* better." A no-extra-parameter restriction can be *selected* on parsimony (ΛCDM is
+nested in wCDM and wins), so nesting buys a dichotomy, not a verdict, and which branch obtains is
+empirical.**] The best conceivable result
 of the entire galaxy program was "identical to MOND with one fewer degree of freedom." This is
 available *a priori*, from the model's structure alone, with no SPARC data required — the program
 reached the same place (`/for-researchers`: "0 tests could select Synchronism over MOND+EFE+ΛCDM")
