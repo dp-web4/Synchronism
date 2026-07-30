@@ -108,6 +108,41 @@ compander, system-dependent or multi-scale functions, dark-matter/hybrid
 models, or the umbrella ontology. Escaping the result requires changing the
 realization rather than retuning `gamma` inside the registered family.
 
+### Why the intersection is empty: a tail-shape mismatch, not a tuning failure
+
+Back-annotated 2026-07-30 from the synchronism-site visitor/maintainer feedback
+loop (independent physics-persona pass): the compander and McGaugh's simple-nu
+approach the Newtonian limit along different functional tails, and the gap
+between them widens without bound as `x = g_bar/a0` grows, so no fitted
+`gamma` can close it.
+
+The compander saturates as a **power law**: `1 - C = 2(1+x)^-2*gamma`. McGaugh's
+nu deviates from Newtonian as an **exponential**: `nu - 1 ~ e^-sqrt(x)`. At
+Saturn, `x = g_Saturn / a0 ~= 6.5e-5 / 1.2e-10 ~= 5e5`. At the SPARC-preferred
+`gamma ~= 0.489` (`2*gamma ~= 0.978`):
+
+- compander fractional anomaly: `2 * (5e5)^-0.978 ~= 5e-6`
+- McGaugh-nu fractional anomaly: `e^-sqrt(5e5) = e^-707 ~= 0` (identically zero
+  in any floating-point sense)
+
+Both numbers are consistent with the profiled likelihoods in
+`sparc_profile.json` and `joint_result.json`; this section names the mechanism
+rather than re-deriving the verdict. The practical content: over the SPARC
+range (`1e-2 < x < 1e2`) a power-law tail and an exponential tail are
+numerically indistinguishable at current precision, which is why "curve-
+equivalent to MOND" reads as true there — but a power-law tail is bounded
+below by an inverse-power decay while the exponential tail is not, so *any*
+sufficiently strong-field regime separates them, and the Solar System is far
+enough into that regime that the gap is over 5 orders of magnitude rather than
+a fitting margin. This reframes TEST-11 from "a parameter choice that happened
+to fail" to "a structural consequence of choosing a power-law compander for
+the deep-field limit" — the same choice that gives the compander a finite
+(non-MOND) boost ceiling in the bounded-C formulation is, in the interpolating-
+function formulation, what produces this tail mismatch. Both formulations
+trace to the same underlying decision, which is worth stating explicitly if
+this closure is cited as evidence against tanh-log companders generally
+rather than against this one registered realization.
+
 The SPARC likelihood also inherits the limitations of the source analysis:
 fixed stellar mass-to-light ratios, an error cut, and unweighted log-space
 residuals. The closure is nevertheless insensitive to the three BIC
