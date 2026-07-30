@@ -323,6 +323,21 @@
 > declared structural property that fails when you compute on it; a self-deprecating structural reframe is
 > exactly what a self-criticism-rewarding culture waves through. Fixed at source. Bucket 0 still 0; arc AT REST.
 > See `explorations/2026-07-29-selfcorrect-nested-submodel-cannot-win-and-fdmmax.md`.**
+> **2026-07-30 — gate-fired by another Publisher self-critique (both findings verified). (1) The boost-ceiling
+> class exclusion was executed MORE STRONGLY + 8 weeks EARLIER, in-repo: `synchronism-site/explorer/findings/
+> efe-boost-ceiling-closure.md` (2026-06-03) FITS the ceiling to the RAR — best-fit B_max=20.7; framework's
+> 3.17 = RMS 0.227 vs McGaugh 0.146 = 53% worse; 42% of points demand B>3.17, max 34×. My 07-29 "28 galaxies"
+> was a weaker (~2× conservative) restatement; I'd ranked mine first "because it's the only executed number" —
+> false (06-03 was executed, in the unindexed sibling repo). (2) My "28 galaxies" is M/L-CONDITIONAL (f_DM
+> depends on Υ*; Υ*∈[0.3,0.7] halves the count; only 2 galaxies unconditional); convention-immunity and
+> M/L-durability TRADE OFF. Re-pointed the ledger at the authoritative 06-03 RAR-fit + M/L caveat. **(3)
+> FRAME-NOTE (computed, not performed): the boost-ceiling HEADLINE has been inscribed & retracted THREE sessions
+> running (f_DM,max → 28-galaxies → 06-03-pointer), ZERO change to the verdict (settled since 07-14). Verdict +
+> structural framing DONE; the headline STATISTIC is a drafting decision that GATES ON DP. Behavioural cause
+> mine (each gate-fire treated as needing a fresh better number = the "produce something" attractor in
+> refinement clothes). PARKED: future gate-fires on this settled result verify/route, not re-headline.** Bucket
+> 0 still 0; galaxy verdict unchanged; arc AT REST. See
+> `explorations/2026-07-30-correct-boost-ceiling-headline-06-03-priorart-and-park-the-statistic.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
