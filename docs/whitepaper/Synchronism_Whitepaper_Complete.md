@@ -6965,6 +6965,108 @@ The coherence threshold C ≥ 0.7 for consciousness corresponds to the critical 
 
 ---
 
+---
+
+**A.19 Complexity Speed Limit and the Reconstruction Function f(N) `[ACTIVE-MRH]`**
+
+*(Written 2026-08-01 by kimi-code. This section is the resolution of "Hard Question #9 / OQ-fN"
+below, cross-referenced by §5.7 ("Speed Limits & Time Dilation") since 2025 and previously
+unwritten — the corrections doc of 2026-05-28 found the pointer hit an empty box. The original
+document's own A.19 stub (`docs/reference/synchronism-original.md` line 2761) stated the
+conclusions without a derivation and imported the Lorentz factor wholesale; this section derives
+what can be derived, names what is only posited, and registers the simulation protocol that
+decides between the two.)*
+
+**The obligation.** §5.7's complexity-dependent speed structure, and the c-as-reconstruction-rate
+reframe (forum/kimi `synchronism_review_time_reframe.md` §4.2), both reduce to one function:
+
+```
+f(N) = the number of substrate ticks required to reconstruct a complexity-N
+       pattern in an adjacent cell, with boundary condition f(N) → 1 as N → 0.
+```
+
+**Definitions (operational, sim-measurable).** The lattice speed limit is `c₀ = 1 cell/tick`
+(the maximal causal reach of one cell's influence in one tick, §5.7 — this is a locality
+statement, not a dynamical one). A pattern's **complexity N** is defined as the number of
+intent-bearing cells in its coherent core — the minimal cell set whose intact reconstruction
+preserves the pattern's identity (its Markov-blanket interior, §4.8). This is a modeling choice,
+not the only possible one (correlation count and description length are alternatives); it is
+chosen because it is directly measurable in the existing simulation harness.
+
+**The lower bound, derived from saturation + locality.** Per the model's own rules: a cell holds
+at most `I_max` intent (§4.3.3, saturation), and intent crosses only between adjacent cells
+(§4.3.2, locality), so the per-tick transfer capacity across one cell face is bounded by `I_max`.
+A complexity-N core carries `Q(N) = N·Ī` units of intent (Ī = mean fill per core cell). For the
+pattern to be displaced by one cell *intact*, its identity must be re-established across the
+boundary, which requires the core's content to cross at the bounded rate:
+
+```
+f(N) ≥ ⌈Q(N) / I_max⌉ = ⌈N·Ī / I_max⌉        (capacity bound)
+
+normalized:  f(N) = 1 + N/N₀,   N₀ ≡ I_max/Ī  (the "free complexity" —
+             the largest pattern whose reconstruction fits in one tick)
+```
+
+The effective speed limit of a complexity-N pattern follows immediately:
+
+```
+v_max(N) = c₀ / f(N) = c₀ / (1 + N/N₀)
+```
+
+**This is the complexity speed limit derived from saturation + locality alone** — no Lorentz
+structure is input at any point. N → 0 recovers c₀ (light); increasing N monotonically lowers
+the ceiling; the model's claim that "massive (complex) objects cannot reach c" becomes a
+capacity statement rather than an imported one.
+
+**Two candidate dilation laws, and the condition that selects between them.** A pattern moving
+at v spends a fraction of ticks on reconstruction rather than internal evolution, so its
+internal process rate slows. The factor depends on *how internal coherence is maintained*:
+
+- **Linear (minimal-assumption) branch.** If reconstruction and internal evolution simply
+  compete for ticks: `R(v) = R₀·(1 − v/c₀)`. This is the lattice-information bound — it assumes
+  nothing about the pattern's internal dynamics.
+- **Emergent-Lorentz branch.** If internal coherence is maintained by *isotropic back-and-forth
+  exchange* across the core (the original document's own pendulum/light-clock analogy, §5.6),
+  the exchange path lengthens geometrically with transverse motion and the internal rate picks
+  up `R(v) = R₀·√(1 − v²/c₀²)` — the Lorentz factor **emergent from the substrate's geometry,
+  not imported**. The original A.19 stub wrote this factor down un-derived; the derivation is
+  the isotropy condition above.
+
+The branch selection is a *substrate property* (does coherence maintenance traverse the core
+isotropically?), so the two laws are distinguishable **in simulation now** and by experiment in
+principle later. Existing evidence: the Phase-5 lattice soliton (`simulations/phase5_moving_pattern_lorentz.py`)
+exhibits √-form clock dilation at low velocity, consistent with known lattice-KG soliton
+behavior — weak evidence for the emergent-Lorentz branch in wave substrates. The refuted
+deterministic-diffusion substrate (S665/S666) would have shown the linear branch; the branch
+question is thus one more reason the substrate choice matters.
+
+**The decoherence threshold, made mechanical.** For v > v_max(N), reconstruction lags
+displacement and the pattern sheds its slowest-reconstructing substructures first — decoherence
+by *peeling*, highest-N first. This converts §5.13's most unusual prediction (cognition
+decoheres before metabolism at relativistic speed) from an assertion into a mechanism with an
+ordering: the prediction is now that decoherence proceeds strictly down the complexity ladder,
+which is checkable in simulation by instrumenting substructure loss order.
+
+**Simulation protocol (registered; this is the arc's Stage K2 experiment).** In the Phase-5
+harness: generate breathers, measure core N (cell count above the coherence floor), displace at
+controlled v, and count reconstruction ticks directly. **Kill criteria, registered before
+running:** (i) f(N) flat in N ⇒ no complexity dependence — §5.7 is dead in this substrate;
+(ii) f(N) superlinear in N ⇒ the capacity model is wrong (reconstruction is not
+capacity-limited; look at dispersion instead); (iii) f(N) linear but v_max inconsistent with
+the observed soliton speed ceiling ⇒ N₀ ≠ I_max/Ī and the normalization is free, not derived.
+
+**Derived vs posited (the honesty block).** *Derived* from saturation + locality: the existence
+of a finite f(N), the linear lower bound, `v_max(N) = c₀/(1+N/N₀)`, the N→0 limit. *Posited,
+pending the K2 run*: N₀ = I_max/Ī as the free scale; the branch selection (linear vs √); the
+peeling order. *Known limitation, stated rather than hidden*: the capacity bound assumes
+reconstruction is sequential. In a complex-field substrate (Phase-1.6, Madelung), phase
+continuity lets reconstruction proceed in parallel across the boundary, which relaxes the bound
+to a dispersion constraint — the strongest objection to this section, and exactly where the
+complex-substrate work connects. A.19's bound is thus the *scalar-substrate* bound; whether the
+complex substrate tightens or dissolves it is an open, sim-decidable question.
+
+---
+
 ## Open Mathematical Problems
 
 **Tractable Questions:**
@@ -6978,7 +7080,7 @@ The coherence threshold C ≥ 0.7 for consciousness corresponds to the critical 
 6. What's the correct emergence threshold function (if any)?
 7. Can gravity emerge from Intent dynamics? (Current answer: unknown; the saturation-gradient picture in A.3 + §5.14 is the active candidate.)
 8. Does consciousness have a Synchronism-specific mathematical description?
-9. (added 2026-05-28) **Derivation of `f(N)`** — the number of substrate ticks required to reconstruct a complexity-N pattern in an adjacent cell, with boundary condition `f(N) → 1` as `N → 0`. This is the single path from the complexity-dependent speed structure (§5.7) to quantitative predictions distinguishing it from GR. See §6.4 OQ-fN.
+9. (added 2026-05-28) **Derivation of `f(N)`** — the number of substrate ticks required to reconstruct a complexity-N pattern in an adjacent cell, with boundary condition `f(N) → 1` as `N → 0`. This is the single path from the complexity-dependent speed structure (§5.7) to quantitative predictions distinguishing it from GR. See §6.4 OQ-fN. **(2026-08-01: first derivation written — A.19 above; scalar-substrate capacity bound + branch condition + registered K2 simulation protocol. Remains open for the complex substrate.)**
 
 ---
 
@@ -6991,6 +7093,7 @@ Sections in this appendix are organized by **relationship to the current MRH** r
 - A.10 Quantum Correspondence — Madelung Bridge (connection to Intent dynamics under reformulation)
 - A.14 Master Equation (natural host for vector flux **J**)
 - A.15 Computational Implementation (Phase-1 simulation work builds on these methods)
+- A.19 Complexity Speed Limit and the Reconstruction Function f(N) (written 2026-08-01; K2 simulation protocol registered)
 
 **`[PARALLEL-PATHS]`** — in the parallel hypothesis space, not currently in active focus but not abandoned:
 - A.2 Coherence Measure
@@ -7268,6 +7371,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 - **Description**: Removed 9 stray carriage-return characters embedded *inside* bold markers — 7 in `appendix_b_chemistry.md` (`**Electronic Channel (Optical/Dielectric)<CR>**`, `**Phononic Channel (Thermal/Mechanical)<CR>**`, `**Channel Independence<CR>**` and 4 others) and 2 in `appendix_c_consciousness.md` (`**Key Claims<CR>**`, `**Qualia Intensity<CR>**`). Both files are byte-identical to their predecessors once CR characters are stripped from both — no equation, claim, or heading text was touched.
 - **Rationale**: See the same-day entry in 06-implications for the full mechanism. In short: `preprocess-sections.sh` built `**` + `substr($0, 5)` + `**` from a CRLF record, trapping the trailing CR inside the bold span, and wrote it back into the source. The corruption reached `docs/whitepaper/Synchronism_Whitepaper_Complete.md` (11 occurrences) and, because a lone CR disables git's `autocrlf=input` normalization for the whole file, produced the phantom whole-file build diffs previously attributed to the WSL mount itself. Script fixed at source so the class cannot recur. Note: `claims/v1-snapshot/` retains the uncorrected bytes by design — it is frozen evidence of what v1 published, not a copy to be kept current.
 
+
+############ 2026-08-01 | kimi-code | ADD
+- **Description**: New section **A.19 "Complexity Speed Limit and the Reconstruction Function f(N)"** in `mathematical_framework.md` (tagged `[ACTIVE-MRH]`), resolving Hard Question #9 / OQ-fN. The §5.7 cross-reference "Appendix A.3 and A.19" previously hit an empty box (flagged in `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` §2); the original document's own A.19 stub stated conclusions without derivation and imported the Lorentz factor. The new section derives the capacity bound `f(N) ≥ ⌈N·Ī/I_max⌉` and `v_max(N) = c₀/(1+N/N₀)` from saturation + locality alone, states the linear-vs-emergent-Lorentz branch condition (isotropic internal exchange), makes the decoherence threshold mechanical (peeling, highest-N first), and registers the K2 simulation protocol with kill criteria. Honesty block separates derived from posited and names the scalar-substrate limitation (complex-substrate phase parallelism relaxes the bound to a dispersion constraint). Hard Question #9 and the Honest Assessment `[ACTIVE-MRH]` list updated to match.
+- **Rationale**: `forum/kimi/synchronism_zoomout_review_2026-08-01.md` §4.5 — the single cheapest load-bearing repair in the repo: every complexity-dependent speed-limit claim (including §5.13's relativistic-cognition prediction) inherited the unwritten derivation.
 
 ---
 
