@@ -1161,6 +1161,117 @@ analogies). Full prior derivation:
 <code>Research/CFD_Reframing_NS_Scale_Invariance.md</code>; tension
 inventory: A.3 inline note + §6.4 OQ-A3-Tension.</p>
 <hr />
+<hr />
+<p><strong>A.19 Complexity Speed Limit and the Reconstruction Function
+f(N) <code>[ACTIVE-MRH]</code></strong></p>
+<p><em>(Written 2026-08-01 by kimi-code. This section is the resolution
+of “Hard Question #9 / OQ-fN” below, cross-referenced by §5.7 (“Speed
+Limits &amp; Time Dilation”) since 2025 and previously unwritten — the
+corrections doc of 2026-05-28 found the pointer hit an empty box. The
+original document’s own A.19 stub
+(<code>docs/reference/synchronism-original.md</code> line 2761) stated
+the conclusions without a derivation and imported the Lorentz factor
+wholesale; this section derives what can be derived, names what is only
+posited, and registers the simulation protocol that decides between the
+two.)</em></p>
+<p><strong>The obligation.</strong> §5.7’s complexity-dependent speed
+structure, and the c-as-reconstruction-rate reframe (forum/kimi
+<code>synchronism_review_time_reframe.md</code> §4.2), both reduce to
+one function:</p>
+<pre><code>f(N) = the number of substrate ticks required to reconstruct a complexity-N
+       pattern in an adjacent cell, with boundary condition f(N) → 1 as N → 0.</code></pre>
+<p><strong>Definitions (operational, sim-measurable).</strong> The
+lattice speed limit is <code>c₀ = 1 cell/tick</code> (the maximal causal
+reach of one cell’s influence in one tick, §5.7 — this is a locality
+statement, not a dynamical one). A pattern’s <strong>complexity
+N</strong> is defined as the number of intent-bearing cells in its
+coherent core — the minimal cell set whose intact reconstruction
+preserves the pattern’s identity (its Markov-blanket interior, §4.8).
+This is a modeling choice, not the only possible one (correlation count
+and description length are alternatives); it is chosen because it is
+directly measurable in the existing simulation harness.</p>
+<p><strong>The lower bound, derived from saturation + locality.</strong>
+Per the model’s own rules: a cell holds at most <code>I_max</code>
+intent (§4.3.3, saturation), and intent crosses only between adjacent
+cells (§4.3.2, locality), so the per-tick transfer capacity across one
+cell face is bounded by <code>I_max</code>. A complexity-N core carries
+<code>Q(N) = N·Ī</code> units of intent (Ī = mean fill per core cell).
+For the pattern to be displaced by one cell <em>intact</em>, its
+identity must be re-established across the boundary, which requires the
+core’s content to cross at the bounded rate:</p>
+<pre><code>f(N) ≥ ⌈Q(N) / I_max⌉ = ⌈N·Ī / I_max⌉        (capacity bound)
+
+normalized:  f(N) = 1 + N/N₀,   N₀ ≡ I_max/Ī  (the &quot;free complexity&quot; —
+             the largest pattern whose reconstruction fits in one tick)</code></pre>
+<p>The effective speed limit of a complexity-N pattern follows
+immediately:</p>
+<pre><code>v_max(N) = c₀ / f(N) = c₀ / (1 + N/N₀)</code></pre>
+<p><strong>This is the complexity speed limit derived from saturation +
+locality alone</strong> — no Lorentz structure is input at any point. N
+→ 0 recovers c₀ (light); increasing N monotonically lowers the ceiling;
+the model’s claim that “massive (complex) objects cannot reach c”
+becomes a capacity statement rather than an imported one.</p>
+<p><strong>Two candidate dilation laws, and the condition that selects
+between them.</strong> A pattern moving at v spends a fraction of ticks
+on reconstruction rather than internal evolution, so its internal
+process rate slows. The factor depends on <em>how internal coherence is
+maintained</em>:</p>
+<ul>
+<li><strong>Linear (minimal-assumption) branch.</strong> If
+reconstruction and internal evolution simply compete for ticks:
+<code>R(v) = R₀·(1 − v/c₀)</code>. This is the lattice-information bound
+— it assumes nothing about the pattern’s internal dynamics.</li>
+<li><strong>Emergent-Lorentz branch.</strong> If internal coherence is
+maintained by <em>isotropic back-and-forth exchange</em> across the core
+(the original document’s own pendulum/light-clock analogy, §5.6), the
+exchange path lengthens geometrically with transverse motion and the
+internal rate picks up <code>R(v) = R₀·√(1 − v²/c₀²)</code> — the
+Lorentz factor <strong>emergent from the substrate’s geometry, not
+imported</strong>. The original A.19 stub wrote this factor down
+un-derived; the derivation is the isotropy condition above.</li>
+</ul>
+<p>The branch selection is a <em>substrate property</em> (does coherence
+maintenance traverse the core isotropically?), so the two laws are
+distinguishable <strong>in simulation now</strong> and by experiment in
+principle later. Existing evidence: the Phase-5 lattice soliton
+(<code>simulations/phase5_moving_pattern_lorentz.py</code>) exhibits
+√-form clock dilation at low velocity, consistent with known lattice-KG
+soliton behavior — weak evidence for the emergent-Lorentz branch in wave
+substrates. The refuted deterministic-diffusion substrate (S665/S666)
+would have shown the linear branch; the branch question is thus one more
+reason the substrate choice matters.</p>
+<p><strong>The decoherence threshold, made mechanical.</strong> For v
+&gt; v_max(N), reconstruction lags displacement and the pattern sheds
+its slowest-reconstructing substructures first — decoherence by
+<em>peeling</em>, highest-N first. This converts §5.13’s most unusual
+prediction (cognition decoheres before metabolism at relativistic speed)
+from an assertion into a mechanism with an ordering: the prediction is
+now that decoherence proceeds strictly down the complexity ladder, which
+is checkable in simulation by instrumenting substructure loss order.</p>
+<p><strong>Simulation protocol (registered; this is the arc’s Stage K2
+experiment).</strong> In the Phase-5 harness: generate breathers,
+measure core N (cell count above the coherence floor), displace at
+controlled v, and count reconstruction ticks directly. <strong>Kill
+criteria, registered before running:</strong> (i) f(N) flat in N ⇒ no
+complexity dependence — §5.7 is dead in this substrate; (ii) f(N)
+superlinear in N ⇒ the capacity model is wrong (reconstruction is not
+capacity-limited; look at dispersion instead); (iii) f(N) linear but
+v_max inconsistent with the observed soliton speed ceiling ⇒ N₀ ≠
+I_max/Ī and the normalization is free, not derived.</p>
+<p><strong>Derived vs posited (the honesty block).</strong>
+<em>Derived</em> from saturation + locality: the existence of a finite
+f(N), the linear lower bound, <code>v_max(N) = c₀/(1+N/N₀)</code>, the
+N→0 limit. <em>Posited, pending the K2 run</em>: N₀ = I_max/Ī as the
+free scale; the branch selection (linear vs √); the peeling order.
+<em>Known limitation, stated rather than hidden</em>: the capacity bound
+assumes reconstruction is sequential. In a complex-field substrate
+(Phase-1.6, Madelung), phase continuity lets reconstruction proceed in
+parallel across the boundary, which relaxes the bound to a dispersion
+constraint — the strongest objection to this section, and exactly where
+the complex-substrate work connects. A.19’s bound is thus the
+<em>scalar-substrate</em> bound; whether the complex substrate tightens
+or dissolves it is an open, sim-decidable question.</p>
+<hr />
 <h2 id="open-mathematical-problems">Open Mathematical Problems</h2>
 <p><strong>Tractable Questions:</strong> 1. <strong>What transfer rules
 generate stable patterns?</strong> This is the same question the
@@ -1183,7 +1294,11 @@ mathematical description? 9. (added 2026-05-28) <strong>Derivation of
 reconstruct a complexity-N pattern in an adjacent cell, with boundary
 condition <code>f(N) → 1</code> as <code>N → 0</code>. This is the
 single path from the complexity-dependent speed structure (§5.7) to
-quantitative predictions distinguishing it from GR. See §6.4 OQ-fN.</p>
+quantitative predictions distinguishing it from GR. See §6.4 OQ-fN.
+<strong>(2026-08-01: first derivation written — A.19 above;
+scalar-substrate capacity bound + branch condition + registered K2
+simulation protocol. Remains open for the complex
+substrate.)</strong></p>
 <hr />
 <h2 id="honest-assessment-under-stewardship">Honest Assessment (under
 stewardship)</h2>
@@ -1197,7 +1312,8 @@ Dynamics (saturation reframe with independent vector flux
 (connection to Intent dynamics under reformulation) - A.14 Master
 Equation (natural host for vector flux <strong>J</strong>) - A.15
 Computational Implementation (Phase-1 simulation work builds on these
-methods)</p>
+methods) - A.19 Complexity Speed Limit and the Reconstruction Function
+f(N) (written 2026-08-01; K2 simulation protocol registered)</p>
 <p><strong><code>[PARALLEL-PATHS]</code></strong> — in the parallel
 hypothesis space, not currently in active focus but not abandoned: - A.2
 Coherence Measure - A.4 Pattern Period Detection - A.5 Field Gradient -
