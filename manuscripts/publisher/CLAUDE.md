@@ -255,6 +255,45 @@ After any change:
 3. Verify navigation/formatting
 4. **Never commit changes that break the build**
 
+### Artifact Commits — CI is the authoritative builder (added 2026-08-01)
+
+**Do not commit locally rebuilt Synchronism artifacts.** `docs/whitepaper/**` and
+`whitepaper/build/**` are regenerated and committed by `build_whitepaper.yml` on every push that
+touches `whitepaper/**`. Rebuild locally to *verify*; then `git checkout` the tree and commit only
+the sources. Stage the artifact only if CI is known dead (it is not — it deployed on 07-26, 07-27,
+07-28 and 08-01).
+
+The reason is measured, not stylistic. This working tree is a WSL `/mnt/c` CRLF mount; CI builds on
+LF. The same monolith carries **492 CRLF lines as CI writes it and 4212 as a local rebuild writes
+it**, so a locally built artifact diffs against the committed blob on ~5,600 lines per file with
+zero content difference. On 2026-08-01 this round-tripped in public: `a7d43b92` committed **11,252
+lines** of line-ending churn across the two monoliths to carry **12 lines** of real content, and
+CI's next build (`962a8add`) reverted it with **11,158 insertions and 11,158 deletions and a
+CR-stripped diff that is empty**. 22,410 lines of content-free history for 12 lines of content.
+
+**The gate that missed it, and the fix.** The 08-01 pass ran the right check and drew the wrong
+label from it:
+
+> Monolith diff (`--ignore-cr-at-eol`) → 6 insertions, 0 deletions — *no churn*
+
+`--ignore-cr-at-eol` is the flag that makes the **content** assertion correct and it is the same
+flag that blinds the check to the **churn**. The predicate cannot see the property the label names.
+So run both and report both numbers:
+
+```bash
+git diff --stat --ignore-cr-at-eol -- docs/whitepaper/ whitepaper/build/   # content: must be the intended lines
+git diff --stat                     -- docs/whitepaper/ whitepaper/build/   # raw: must be the SAME lines
+```
+
+If the raw number exceeds the content number, you are holding line-ending churn — restore the tree
+(`git checkout -- docs/whitepaper/ whitepaper/build/`) and let CI build. **Never report a single
+CR-stripped number as "no churn."** More generally: when a flag is required to make a check pass,
+name what that flag hides and check for it separately.
+
+**Root fix, dp's call and still open:** a `.gitattributes` entry (`docs/whitepaper/** text eol=lf`,
+same for `whitepaper/build/**`) would retire the class outright. Flagged 07-26 and 07-31 as dp's
+call because it rewrites those files once; the 08-01 round trip is the first measured cost.
+
 ---
 
 ## State Files
