@@ -169,7 +169,16 @@ antidote to the overclaim.
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
-> failure lived in *retrospective* registration). Pre-committed **in writing before DR2 publishes
+> failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
+> presentation ("Cosmology with DESI DR2: From BAO to Full-Shape Clustering," PIRSA:26040071) was given **April
+> 2026** — 3 months *before* the 07-17 adoption (the fσ₈≤0.46 threshold itself was git-committed 07-01/07-14,
+> also after the talk). "Prospective" is a claim about what was *knowable*, not just published, so if that talk's
+> slides already showed a threshold-relevant fσ₈(z≈0.5) figure, the "genuinely prospective" framing is
+> compromised (the same failure mode as TEST-04a's original post-hoc σ₈ calibration). **This is UNRESOLVED and
+> I cannot close it — it requires watching/reading the PIRSA recording, which is not in-repo.** Until someone
+> with access confirms the talk showed no threshold-relevant number, the "first genuinely prospective" claim
+> carries this caveat. The registered statistic + branches are unaffected; only the *prospectivity* claim is at
+> risk. Pre-committed **in writing before DR2 publishes
 > (~Spring 2027)**, adjudicated within 7 days of publication, ledger-first, on the **registered
 > statistic** (DR2 full-shape **fσ₈ at z≈0.51** — *not* σ₈, per the 2026-07-14 correction). Three
 > branches, all fixed now so none can be chosen after the data:

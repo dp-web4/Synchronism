@@ -432,6 +432,26 @@ These experiments can be run now with publicly available datasets and modest com
 
 ---
 
+### TEST-25: a₀ Redshift Evolution (Tier 1 — Existing Data)
+
+**Prediction**: a₀ is cosmologically determined, not arbitrary — it tracks the expansion rate: **a₀(z)/a₀(0) = E(z) = H(z)/H(0)**, zero free parameters (whitepaper §5.15). Low-z slope da₀/dz|₀ = a₀(0)·(3Ω_m/2) = **0.49 × 10⁻¹⁰ m s⁻²** at Ω_m = 0.315 (verified 2026-08-01).
+
+**Data**: a₀ fitted per redshift bin from the RAR (or high-z BTFR). Engaged by **Ciocan et al. 2026 (MUSE-DARK III, A&A 709, L16, arXiv:2604.22613)**: N = 79, 0.33 < z < 1.44, RAR-route, a₀(z) = a₀(0) + a₁z, **a₁ = 1.59 ± 0.1 × 10⁻¹⁰**.
+
+**Status**: **ENGAGED — DISFAVOURED (2026-08-01), single-source.** Measured slope is **3.2× steeper** than the H(z)-tracking prediction (framework evolves a₀ *too slowly*); ≈5σ low at z~1 on the point comparison (the slope comparison is more robust, being normalisation-free). Arithmetic re-verified in-repo; the Ciocan measurement itself is external and not re-executable here.
+
+**Falsification (⚠ POST-HOC — the measurement predates any pre-commitment; NOT counted toward the "criteria fired and honored" tally)**: refuted if a robust *multi-source* a₀(z) slope excludes the H(z)-tracking value (0.49 × 10⁻¹⁰) at high significance. Not yet met — see caveats.
+
+**Caveats travelling with the disfavouring**: (i) single-source; (ii) the literature is mutually inconsistent — Gueorguiev 2024 (arXiv:2409.11425) finds a slope consistent with zero, Milgrom 2017 (arXiv:1703.06110) disfavours *faster* evolution, so a₀(z)∝H(z) is squeezed from both sides by measurements that disagree with each other; (iii) Ciocan's systematics are large (~0.2 dex gas, ~1.5× SPARC scatter).
+
+**Does NOT change the refutation count (stays 6): this is a disfavouring, not a refutation.** Note: the result is *worse* for the alternative anchor 2πa₀ ≈ c²(Λ/3)^{1/2} (which predicts no evolution) — **what is embarrassed is the general programme of deriving a₀ from cosmology, not Synchronism specifically.** This is the dynamical extension of the a₀ = cH₀/2π reparametrization (Bucket 3), now engaged-and-disfavoured.
+
+**Distinguishing power**: MEDIUM — a₀(z) evolution is a generic prediction of any cosmologically-anchored acceleration scale, not unique to Synchronism.
+
+**Registry note (2026-08-01)**: this row closes a gap — the whitepaper stated the prediction (§5.15) but the catalog never listed it, so the catalog's "no registered test remains runnable-and-unrun / complete inventory" reading was misleading. ⚠ **Class flag: the catalog appears to have been assembled from arc outputs, not swept from the whitepaper's own testable claims** — a one-pass whitepaper-vs-catalog diff (to find other missing predictions) is recommended and unrun.
+
+---
+
 ## Theoretical Tests (No Experiment — Mathematical)
 
 ### TEST-T1: Born Rule from Sync-Point Geometry

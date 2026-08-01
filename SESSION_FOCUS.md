@@ -338,6 +338,22 @@
 > refinement clothes). PARKED: future gate-fires on this settled result verify/route, not re-headline.** Bucket
 > 0 still 0; galaxy verdict unchanged; arc AT REST. See
 > `explorations/2026-07-30-correct-boost-ceiling-headline-06-03-priorart-and-park-the-statistic.md`.**
+> **2026-08-01 — gate-fired (a genuinely NEW prediction engaged by NEW data — not boost-ceiling churn). (1)
+> **a₀(z)∝H(z)** (whitepaper §5.15, zero free params) engaged by outside data for the FIRST time: **Ciocan et al.
+> 2026 (MUSE-DARK III, A&A 709 L16)** fit a₀ from the RAR in z-bins (N=79, 0.33<z<1.44), a₁=1.59±0.1×10⁻¹⁰ vs the
+> H(z)-tracking slope a₀(0)·(3Ω_m/2)=0.49×10⁻¹⁰ ⇒ **3.2× too STEEP (framework evolves a₀ too slowly), ≈5σ low at
+> z~1**. Verified in-repo: prediction real (§5.15), arithmetic checks (3.24×); Ciocan measurement external ⇒
+> caveated. **ENGAGED — DISFAVOURED, NOT refuted** (single-source; literature mutually inconsistent — Gueorguiev
+> 2024 zero slope, Milgrom 2017 disfavours faster; large systematics). Added **TEST-25** to the catalog (Tier 1,
+> post-hoc kill VISIBLY marked, NOT counted toward criteria-honored, **refutation count unchanged at 6**). Deeper
+> point: *worse* for the Λ-anchor (no evolution) ⇒ what's embarrassed is deriving a₀ from cosmology GENERALLY,
+> not Synchronism specifically = the dynamical extension of the a₀=cH₀/2π Bucket-3 reparam. **Class flag**: the
+> catalog was assembled from arc outputs, not swept from the whitepaper's claims ⇒ a whitepaper-vs-catalog diff
+> is recommended + unrun (flagged, not executed — its own gate-fire). (2) DESI DR2 prospectivity TIMING RISK: a
+> DR2 talk (PIRSA:26040071) was April 2026, 3mo BEFORE the 07-17 registration; if it showed a threshold-relevant
+> fσ₈ figure the "genuinely prospective" claim is compromised. **Can't close it (needs the PIRSA recording, not
+> in-repo)** ⇒ flagged the ledger entry as an OPEN timing-verification item, caveated not retracted. Bucket 0
+> still 0; arc AT REST. See `explorations/2026-08-01-triage-a0z-catalog-gap-and-desi-timing-check.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
