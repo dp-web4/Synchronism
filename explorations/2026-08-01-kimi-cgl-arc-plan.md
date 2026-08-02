@@ -87,6 +87,15 @@ stage — that is the discipline that keeps a win honest).
 5. The tracker (below) is updated every wake: newest first, one line per step, with the
    next unblocked action. If the arc is killed, the tracker says so and why — it does not
    go quiet.
+6. **The zoom-out rung (dp, 2026-08-01: "the details only have meaning in context").**
+   Every 3 stages or 7 days, whichever comes first, the wake spends its step on the
+   frame, not the details: re-read the bet against the results so far, ask (a) is the arc
+   still answering the question it was chartered for, (b) is that still the right
+   question, (c) what does this look like from one level up — same genus as the
+   dual-grain rule (a pooled number and its per-level truth can disagree) and the
+   distinct-count keeper (a count and its information content can disagree). Record the
+   zoom-out in the tracker as its own dated entry. An arc that never re-reads its
+   charter is just momentum with a backlog.
 
 ## Tracker (newest first)
 
