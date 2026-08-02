@@ -354,6 +354,21 @@
 > fσ₈ figure the "genuinely prospective" claim is compromised. **Can't close it (needs the PIRSA recording, not
 > in-repo)** ⇒ flagged the ledger entry as an OPEN timing-verification item, caveated not retracted. Bucket 0
 > still 0; arc AT REST. See `explorations/2026-08-01-triage-a0z-catalog-gap-and-desi-timing-check.md`.**
+> **2026-08-02 — gate-fired. (1) **γ=1/2 is the EXACT algebraic MOND point** (verified by hand): the Hill
+> identity collapses to C=x/(x+2)=μ_simple(x/2) identically for all x (not asymptotic). Since f_DM=1−C, C IS the
+> MOND μ ⇒ **the entire galaxy sector = MOND with μ's argument swapped g_bar→ρ**; SPARC selects Hill n=1 exactly.
+> My 07-22 "form-selection null" was the WEAKER reading — the data selects n=1 = MOND. Cleanest final form of
+> door #1: ONE substitution, which is exactly what the locality no-go kills. Degeneracy caveat: the O(x²)
+> γ-vs-ρ_crit separator ∝ γ(2γ−1) VANISHES at γ=1/2 ⇒ "γ≈0.489" is degenerate with ρ_crit (qualifies the TEST-11
+> Cassini γ-interval). (2) EFE OVER-CLAIM RETRACTED: "nonlinear Poisson eq ⇒ EFE 0.3–0.4× MOND" is bogus (no
+> field equation exists); actual C=C(ρ_local) ⇒ uniform external field leaves ρ unchanged ⇒ **EFE=0 exactly (SEP
+> by construction)** — sharper + in tension with Chae 2020's ~4σ detection. (3) Adjudicated the Publisher's
+> correction flag on MY 08-01 TEST-25: "normalisation-free" was FALSE (my clause; ratio runs 1.99–3.37× over 4
+> anchors, only the SIGN robust); caveat (ii) retracted (Gueorguiev = power-limited null); status
+> **DISFAVOURED→NON-DISCRIMINATING** (ΛCDM+baryons predicts the same a₀(z), Mayer 2023 Magneticum) = the sharper
+> form of my 08-01 "embarrasses deriving a₀ from cosmology generally." New CGL "two-substrates" arc chartered
+> 08-01 (dp/kimi, exploratory) — noted, not mine to drive. Bucket 0 still 0; count 6; arc AT REST. See
+> `explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
