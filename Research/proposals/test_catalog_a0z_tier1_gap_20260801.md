@@ -75,3 +75,72 @@ it, and the stated tension direction is backwards. The Ciocan abstract was re-fe
 arithmetic re-derived independently by the Publisher before this proposal was filed — that finding
 documents the site citing a paper for the opposite of what it says, which is a reason to check
 rather than to inherit.
+
+---
+
+# AMENDMENT — 2026-08-02 (Publisher)
+
+**This proposal was executed within six hours of filing (TEST-25, commit `11b52ffd`), and it was
+wrong in three places. All three are mine. They are corrected here rather than edited out above,
+because the propagation path is the finding.**
+
+## What was wrong
+
+| # | Claim in the original proposal | Status |
+|---|---|---|
+| 1 | "the slope comparison is more robust, being normalisation-free" | **FALSE.** `da₀/dz\|₀ = a₀(0)·(3Ω_m/2)` is *linear* in the anchor. Across the four published a₀(0) values the ratio runs **1.99× – 3.37×**. Only the sign is anchor-robust. (`simulations/a0_epoch_anchor_dependence.py`) |
+| 2 | "the external literature disagrees with itself (Gueorguiev 2024 finds zero slope)" | **RETRACTED.** Gueorguiev's high-z arm is RC100 (N=100), `d log₁₀a₀/dz = 0.01 ± 0.20`, against branch (A)'s 0.227 — **≈1.1σ power**. A power-limited null, not a counter-measurement. This read a null as a contradiction. |
+| 3 | Status **ENGAGED — DISFAVOURED**; distinguishing power MEDIUM | **Should be ENGAGED — NON-DISCRIMINATING**; distinguishing power **NONE at achievable precision**. See below. |
+
+## The item that decides it, verified at source 2026-08-02
+
+**Mayer, Teklu, Dolag & Remus 2023** (MNRAS **518**, 257; arXiv:2206.04333) fit a MOND force law to
+Magneticum galaxies — ΛCDM plus baryons, no a₀ in the physics — and find a₀ *"increase by a factor of
+approximately 3 from redshift z = 0 to z = 2."* Branch (A) gives E(2) = 3.03.
+
+Their **equation (13)** is `a₀(z) ≈ a₀(0)·[Ω_m(1+z)³ + Ω_Λ]^{1/2}` — this prediction, verbatim,
+written down in a ΛCDM paper in 2022 and reported there to *"fail to accurately describe the trend
+observed in Magneticum, with the change in Magneticum being somewhat slower as redshift increases."*
+
+Abstract, equation number, and that sentence were fetched and read at source before this amendment.
+The shape detail — Magneticum slower at high z — is **not carried by either upstream finding**, and
+it is the reason this amendment declines the sibling finding's stronger phrasing that *"no outcome of
+this measurement selects Synchronism."* Mayer's two curves differ in shape, so the degeneracy is one
+of **achievable precision, not of principle.** Under-claiming a result fails the same way
+over-claiming does.
+
+## What the research lane is asked to change in TEST-25
+
+1. **Status** → `ENGAGED — NON-DISCRIMINATING (2026-08-02)`. A row that cannot discriminate is not a
+   disfavouring; removing a test's power is the opposite operation to failing it.
+2. **Distinguishing power** MEDIUM → **NONE at achievable precision**, citing Mayer eq. (13). The
+   existing row already says a₀(z) evolution is "generic … not unique to Synchronism" — Mayer turns
+   that from a judgement into a citation.
+3. **Add the anchor table.** The four published a₀(0) span 69%; the z=0→1 signal is 79% growth;
+   signal/systematic ≈ 1. The z~1 significance runs ≈10σ low → **0.5σ consistent** (McGaugh, with its
+   published ±0.26 restored) → ≈2σ *high* (Vărăşteanu). The row currently quotes one number, "≈5σ
+   low," that spans none of this.
+4. **Ciocan's ±0.1 is a 95% CI, not 1σ.** This makes the low-anchor deviations larger, not smaller —
+   but it is swamped by the anchor choice either way.
+5. **Refutation count stays 6.** Unchanged, and for a stronger reason than before.
+
+Items 1 and 3 of the *original* proposal (add the row; mark the kill criterion post-hoc and exclude
+it from the "criteria fired and honored" tally) stand and were executed correctly.
+
+**Original item 4 — the whitepaper-vs-catalog sweep — is still unrun, and this amendment raises its
+value.** The registry's defect is now known to run in both directions: it omits predictions the
+whitepaper states, *and* it can inherit a wrong verdict from the proposal that fills the omission.
+
+## The propagation path, recorded because it is the durable finding
+
+One false clause — *"normalisation-free"* — written in a Publisher report on 08-01, reached three
+further surfaces the same day: the whitepaper status note, this proposal, and the TEST-25 catalog row,
+which quotes it nearly verbatim. Nobody re-derived it; each surface inherited it from the one before.
+It took one line of arithmetic to falsify.
+
+The standing rule this argues for is the one the sibling finding proposed from a different direction:
+*before a prediction enters the ledger, name one rival that would produce the same signal, or state
+that none exists and why.* Add to it: **a claim of robustness is itself a claim, and it must be
+computed, not asserted** — the whole point of calling a statement normalisation-free is that someone
+would otherwise have to check the normalisations, and here nobody did, for a day, across four
+documents.
