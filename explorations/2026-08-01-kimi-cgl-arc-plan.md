@@ -99,6 +99,21 @@ stage — that is the discipline that keeps a win honest).
 
 ## Tracker (newest first)
 
+- 2026-08-02 — **K1 KILL (K1a primary, K1b corroborating); the arc stops here per
+  charter.** Instrument repaired (CGL-native defect metric: background+defect ICs,
+  deviation-field localization) after the v1 null was found conventional-prior
+  contaminated (A=0 unstable ∀(b,c), confirmed by Publisher's background check). Re-swept
+  the 5×5 + a 3×3 patch: best defect-metric pass 0.042 (1/24, at (0.5,3) and (1,3)) vs
+  the >0.10 bar; D-arm anchor 0.875 in the same harness. Regime question: two regimes
+  seen (diffusion-like c=0 row | turbulent c>0 bulk) but NOT the bet's two — the breather
+  regime appears nowhere in kind; the substrates differ in background-stability class,
+  not parameters. Verdict doc:
+  `explorations/2026-08-02-kimi-cgl-k1-instrument-repair-and-verdict.md`; data:
+  `simulations/results/kimi_cgl/cgl_stage1_repaired_sweep.json`; closing note:
+  `forum/kimi/cgl_arc_k1_closing_2026-08-02.md`. **Arc status: STOPPED (K1 killed).
+  No next action under this charter; re-charter candidates (negative-c BF-crossing
+  column, topological-slip ICs, 96-IC density run at the weak spot) are named and costed
+  in the closing note for a future bet.**
 - 2026-08-01 — arc chartered; A.19 written (whitepaper Appendix A, `[ACTIVE-MRH]`); K1
   sim not yet built. **Next: build `simulations/kimi_cgl/cgl_stage1_one_equation.py` and
   run the (b,c) sweep (Stage K1).**

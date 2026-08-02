@@ -45,8 +45,15 @@ Runs that still go non-finite are flagged "blew_up" and logged as such (numerica
 not a physical regime) rather than silently absorbed.
 
 numpy + stdlib only; seeded (seed=1); headless. Writes simulations/results/kimi_cgl/
-cgl_stage1_sweep.json. Full run is the default; --n-runs / --b-grid / --c-grid / --steps
+cgl_stage1_sweep.json (v1) or cgl_stage1_repaired_sweep.json (--repaired).
+Full run is the default; --n-runs / --b-grid / --c-grid / --steps
 allow a reduced run (state the reduction in the JSON's "run_note").
+
+2026-08-02 (K1 wake): --repaired mode adds the CGL-native defect instrument (background+
+defect ICs, deviation-field localization) alongside the v1 pulse channel — see the
+"repaired instrument" section below. Motivation: the A=0 background is linearly unstable
+for all (b,c), so v1's pulse-on-quiet-background localization is structurally unavailable;
+scoring CGL by it is conventional-prior contamination (charter house rule 4).
 """
 import argparse
 import json
@@ -236,6 +243,222 @@ def regime_tag(pass_frac, mean_amp_retained, mean_width, frac_osc, frac_blew_up=
     return "diffusion-like"
 
 
+# -------------------------------------- repaired instrument: CGL-native defect channel
+# Rationale (K1 wake, 2026-08-02): the A=0 background is linearly unstable for ALL (b,c)
+# (every mode |k|<1 grows; confirmed independently by cgl_background_stability_check.py),
+# so a "pulse on a quiet background" CANNOT persist in this equation — the phase-1
+# width-on-|A| localization metric presumes a vacuum-background ontology imported from the
+# wave-substrate arm, and grading CGL by it is conventional-prior contamination (charter
+# house rule 4). CGL's native localized objects are coherent defects on the FINITE-amplitude
+# background |A|=1 (amplitude holes/dips, fronts, phase-winding structures). The repaired
+# instrument therefore seeds the finite-amplitude background with a localized defect and
+# measures localization on the DEVIATION field.
+
+DEFECT_DEPTH_CRITERION = 0.15     # min depression depth (bg-|A|)/bg to count as a defect
+DEFECT_WIDTH_CRITERION = 0.20     # depressed-region participation width, fraction of L
+DEFECT_SPREAD_TOL = 1.5           # final-third width <= this x first-third width
+DEFECT_DEPTH_RETAINED = 0.5       # final-third depth >= this x late-pre depth
+DEFECT_PRESENCE_FRAC = 0.5        # required presence fraction in late-pre / final-post thirds
+
+
+def seed_defect_complex(rng):
+    """IC for the repaired instrument: the k=0 uniform background (|A|=1; it phase-rotates
+    as exp(-i c t), which the integrator reproduces) carrying ONE localized defect:
+    a Gaussian amplitude dip of random depth/width/position plus a Gaussian phase bump
+    (random signed amplitude) at the same site, plus small complex noise. Documented
+    choice: the dip+phase-bump family spans CGL's two native defect ingredients
+    (amplitude hole <-> phase winding) without committing to either."""
+    x = np.arange(L)
+    pos = rng.integers(L // 4, 3 * L // 4)
+    width = rng.uniform(3, 10)
+    depth = rng.uniform(0.3, 0.9)
+    phase_bump = rng.uniform(-np.pi, np.pi)
+    env = np.exp(-0.5 * ((x - pos) / width) ** 2)
+    A = (1.0 - depth * env) * np.exp(1j * phase_bump * env)
+    A = A + 0.01 * (rng.standard_normal(L) + 1j * rng.standard_normal(L))
+    return A.astype(complex)
+
+
+def defect_observables(A):
+    """Deviation-field observables at one instant:
+    bg           background amplitude = median |A| (robust to a localized defect)
+    depth        max depression (bg-|A|)/bg
+    core         site of max depression
+    dep_width    participation width of the positive depression field (small = localized)
+    pg_width     participation width of the bond phase-gradient energy |dphi|^2
+                 (localized => phase structure concentrated at the defect, spread => turbulent)"""
+    a = np.abs(A)
+    bg = float(np.median(a))
+    dep = np.clip(bg - a, 0.0, None) / (bg + 1e-12)
+    depth = float(np.max(dep))
+    core = int(np.argmax(dep))
+    if depth > 0.05:
+        s1 = np.sum(dep)
+        s2 = np.sum(dep * dep)
+        dep_width = float(s1 * s1 / (s2 + 1e-12))
+    else:
+        dep_width = float(L)
+    dphi = np.angle(A * np.conj(np.roll(A, -1)))   # wrap-safe bond phase differences
+    g2 = dphi * dphi
+    t1 = np.sum(g2)
+    t2 = np.sum(g2 * g2)
+    pg_width = float(t1 * t1 / (t2 + 1e-12)) if t1 > 1e-12 else float(L)
+    return bg, depth, core, dep_width, pg_width
+
+
+def run_cgl_defect_single(rng, rhs, dt, t_pre, t_post):
+    """One repaired-instrument run: background+defect IC, midpoint kick, defect observables."""
+    A = seed_defect_complex(rng)
+    depths, dep_widths, pg_widths = [], [], []
+    core_phases, bg_phases = [], []
+    blew_up = False
+    for t in range(t_pre + t_post):
+        if t == t_pre:
+            A = A + 0.05 * (rng.standard_normal(L) + 1j * rng.standard_normal(L))  # kick
+        A = rk4_step(A, dt, rhs)
+        if not np.all(np.isfinite(A)):
+            blew_up = True
+            break
+        if t % SAMPLE_EVERY == 0:
+            bg, depth, core, dep_width, pg_width = defect_observables(A)
+            depths.append(depth)
+            dep_widths.append(dep_width)
+            pg_widths.append(pg_width)
+            bg_site = (core + L // 2) % L   # antipodal reference site for excess phase
+            core_phases.append(float(np.angle(A[core])))
+            bg_phases.append(float(np.angle(A[bg_site])))
+    res = classify_defect(depths, dep_widths, pg_widths, core_phases, bg_phases)
+    res["blew_up"] = blew_up
+    return res
+
+
+def classify_defect(depths, dep_widths, pg_widths, core_phases, bg_phases):
+    """CGL-native classifier. A run PASSES if a coherent defect (a) persists: present
+    (depth >= 0.15, depressed width <= 0.2L) in >= 50% of samples of both the late-pre
+    and final-post thirds, not spreading (final-third width <= 1.5x first-third-post
+    width), depth retained >= 0.5x across the kick; (b) oscillates: LAB-FRAME core phase
+    travel >= 4pi over the post window OR core-depth breathing (>= 4 direction reversals).
+    Documented choice: lab-frame phase travel counts the background rotation omega = c,
+    because a defect riding the rotating background IS a localized oscillating structure
+    at a fixed lattice site (the same sense in which arm D's breather oscillates); the
+    background-subtracted (excess) travel and the depth-breathing channel are logged so
+    the internal-dynamics-only reading stays auditable, and at c=0 the lab-frame channel
+    reduces to internal dynamics alone (honest at the diffusion end)."""
+    depths = np.array(depths)
+    dep_widths = np.array(dep_widths)
+    n = len(depths)
+    if n < 8:
+        return {"pass": False, "localized": False, "survived_kick": False,
+                "oscillating": False, "osc_phase_lab": False, "osc_breath": False,
+                "presence_pre": 0.0, "presence_post_final": 0.0, "depth_final": 0.0,
+                "depth_retained": 0.0, "dep_width_final": float(L),
+                "dep_spread_ratio": 0.0, "phase_travel_lab_rad": 0.0,
+                "phase_travel_excess_rad": 0.0, "pg_width_final": float(L),
+                "breath_reversals": 0}
+    present = (depths >= DEFECT_DEPTH_CRITERION) & (dep_widths <= DEFECT_WIDTH_CRITERION * L)
+    post = slice(n // 2, None)
+    pre_late = slice(max(0, n // 2 - max(4, n // 6)), n // 2)     # last third of pre window
+    post_first = slice(n // 2, n // 2 + max(4, n // 6))           # first third of post
+    post_final = slice(-max(4, n // 6), None)                     # final third of post
+    presence_pre = float(np.mean(present[pre_late]))
+    presence_post_final = float(np.mean(present[post_final]))
+    w_first = float(np.mean(dep_widths[post_first]))
+    w_final = float(np.mean(dep_widths[post_final]))
+    d_late_pre = float(np.mean(depths[pre_late]))
+    d_final = float(np.mean(depths[post_final]))
+    localized = (presence_post_final >= DEFECT_PRESENCE_FRAC) and \
+                (w_final <= DEFECT_SPREAD_TOL * w_first)
+    survived = (presence_pre >= DEFECT_PRESENCE_FRAC) and \
+               (presence_post_final >= DEFECT_PRESENCE_FRAC) and \
+               (d_final >= DEFECT_DEPTH_RETAINED * d_late_pre)
+    # oscillation channels (post window)
+    cp = np.unwrap(np.array(core_phases[post])) if n - n // 2 > 1 else np.array([0.0])
+    bp = np.unwrap(np.array(bg_phases[post])) if n - n // 2 > 1 else np.array([0.0])
+    travel_lab = float(np.abs(cp[-1] - cp[0]))
+    travel_excess = float(np.abs((cp[-1] - bp[-1]) - (cp[0] - bp[0])))
+    dpost = depths[post]
+    dd = np.diff(dpost)
+    s = np.sign(dd)
+    s = s[s != 0]
+    breath_rev = int(np.sum(s[1:] != s[:-1])) if len(s) > 1 else 0
+    osc_phase_lab = travel_lab >= PHASE_TRAVEL_CRITERION
+    osc_breath = breath_rev >= 4
+    oscillating = bool(osc_phase_lab or osc_breath)
+    passed = bool(localized and survived and oscillating)
+    return {
+        "pass": passed,
+        "localized": bool(localized),
+        "survived_kick": bool(survived),
+        "oscillating": oscillating,
+        "osc_phase_lab": bool(osc_phase_lab),
+        "osc_breath": bool(osc_breath),
+        "presence_pre": round(presence_pre, 2),
+        "presence_post_final": round(presence_post_final, 2),
+        "depth_final": round(d_final, 3),
+        "depth_retained": round(d_final / (d_late_pre + 1e-9), 3),
+        "dep_width_final": round(w_final, 1),
+        "dep_spread_ratio": round(w_final / (w_first + 1e-9), 2),
+        "phase_travel_lab_rad": round(travel_lab, 1),
+        "phase_travel_excess_rad": round(travel_excess, 1),
+        "pg_width_final": round(float(np.mean(np.array(pg_widths)[post_final])), 1),
+        "breath_reversals": breath_rev,
+    }
+
+
+def summarize_defect_runs(runs):
+    n = len(runs)
+    n_pass = sum(r["pass"] for r in runs)
+    frac = n_pass / n
+    return {
+        "pass_fraction": round(frac, 3), "n_pass": n_pass, "n_runs": n,
+        "stage1_pass": bool(frac > PASS_FRACTION_CRITERION),
+        "frac_localized": round(sum(r["localized"] for r in runs) / n, 3),
+        "frac_survived": round(sum(r["survived_kick"] for r in runs) / n, 3),
+        "frac_oscillating": round(sum(r["oscillating"] for r in runs) / n, 3),
+        "n_blew_up": sum(r.get("blew_up", False) for r in runs),
+        "mean_depth_final": round(float(np.mean([r["depth_final"] for r in runs])), 3),
+        "mean_dep_width_final": round(float(np.mean([r["dep_width_final"] for r in runs])), 1),
+        "mean_pg_width_final": round(float(np.mean([r["pg_width_final"] for r in runs])), 1),
+        "mean_phase_travel_excess_rad": round(
+            float(np.mean([r["phase_travel_excess_rad"] for r in runs])), 1),
+        "example": runs[0],
+    }
+
+
+def run_cgl_point_v2(rng, b, c, n_runs, t_pre, t_post, channels=("pulse", "defect")):
+    """Repaired-instrument point: BOTH IC families at one (b,c), same dt rule as v1.
+    pulse  = v1 instrument (pulse-on-vacuum IC, phase-1 width-on-|A| metric) — kept so the
+             two instruments' verdicts can be compared point by point (the comparison is
+             itself the finding);
+    defect = repaired instrument (background+defect IC, deviation-field metric)."""
+    dt = 2.4 / (4.0 * np.hypot(1.0, b) + 12.0 * np.hypot(1.0, c))
+    rhs = make_rhs(b, c)
+    out = {"b": b, "c": c, "dt": round(dt, 4)}
+    if "pulse" in channels:
+        pulse_runs = [run_cgl_single(rng, rhs, dt, t_pre, t_post) for _ in range(n_runs)]
+        out["pulse"] = summarize_runs(b, c, dt, pulse_runs)
+    if "defect" in channels:
+        defect_runs = [run_cgl_defect_single(rng, rhs, dt, t_pre, t_post) for _ in range(n_runs)]
+        ds = summarize_defect_runs(defect_runs)
+        out["defect"] = ds
+        out["regime"] = regime_tag_v2(out.get("pulse"), ds)
+    elif "pulse" in out:
+        out["regime"] = out["pulse"]["regime"]
+    return out
+
+
+def regime_tag_v2(pulse_summary, defect_summary):
+    """Combined tag for the regime question: coherent-structure region (defect channel
+    passes the bar), defect-bearing below the bar, else the pulse channel's v1 tag."""
+    if defect_summary["pass_fraction"] > PASS_FRACTION_CRITERION:
+        return "coherent-structure"
+    if defect_summary["frac_localized"] > 0.3:
+        return "defect-bearing-subthreshold"
+    if pulse_summary is not None:
+        return pulse_summary["regime"]
+    return "defect-free"
+
+
 # ------------------------------------------------- phase-1 anchors (ported verbatim)
 
 DT_ANCHOR = 0.05
@@ -373,6 +596,122 @@ def run_anchor(name, fn, rng, n_runs):
 
 # ------------------------------------------------------------------ sweep + path
 
+def main_v2(args):
+    """Repaired-instrument sweep (K1 wake 2026-08-02): both IC families per (b,c),
+    old-vs-new metric reported side by side, plus a finer 3x3 patch around any point
+    showing promise on the defect channel."""
+    t0 = time.time()
+    rng = np.random.default_rng(SEED)
+
+    anchors = [
+        run_anchor("A: 1st-order diffusion + monotonic R", run_arm_A, rng, args.n_runs),
+        run_anchor("D: 2nd-order wave + focusing-saturating on-site", run_arm_D, rng, args.n_runs),
+    ]
+
+    grid = []
+    for b in args.b_grid:
+        for c in args.c_grid:
+            pt = run_cgl_point_v2(rng, b, c, args.n_runs, args.steps, args.steps)
+            grid.append(pt)
+            print(f"[grid] b={b:4.1f} c={c:4.1f} pulse={pt['pulse']['pass_fraction']:.3f} "
+                  f"defect={pt['defect']['pass_fraction']:.3f} {pt['regime']}", flush=True)
+
+    # finer 3x3 patch (b+-0.5, c+-0.5) around the most promising defect-channel point
+    PROMISE_LOC = 0.3
+    promising = [g for g in grid if g["defect"]["pass_fraction"] > 0
+                 or g["defect"]["frac_localized"] > PROMISE_LOC]
+    patch = []
+    patch_center = None
+    if promising:
+        patch_center = max(promising, key=lambda g: (g["defect"]["pass_fraction"],
+                                                     g["defect"]["frac_localized"]))
+        for db in (-0.5, 0.0, 0.5):
+            for dc in (-0.5, 0.0, 0.5):
+                b = round(patch_center["b"] + db, 3)
+                c = round(patch_center["c"] + dc, 3)
+                pt = run_cgl_point_v2(rng, b, c, args.n_runs, args.steps, args.steps,
+                                      channels=("pulse", "defect"))
+                patch.append(pt)
+                print(f"[patch] b={b:5.2f} c={c:5.2f} pulse={pt['pulse']['pass_fraction']:.3f} "
+                      f"defect={pt['defect']['pass_fraction']:.3f} {pt['regime']}", flush=True)
+    else:
+        print("[patch] no grid point showed promise on the defect channel; patch skipped",
+              flush=True)
+
+    all_points = grid + patch
+    best_defect = max(p["defect"]["pass_fraction"] for p in all_points)
+    best_pulse = max(p["pulse"]["pass_fraction"] for p in all_points)
+    anchor_d = anchors[1]["pass_fraction"]
+    k1a_kill = best_defect <= PASS_FRACTION_CRITERION
+    k1b_kill = best_defect < 0.5 * anchor_d
+    regimes_seen = sorted(set(p["regime"] for p in all_points))
+    out = {
+        "stage": "K1 wake — repaired instrument (CGL-native defect metric) vs v1 metric",
+        "charter": "explorations/2026-08-01-kimi-cgl-arc-plan.md",
+        "instrument_repair": (
+            "A=0 background linearly unstable for ALL (b,c) (modes |k|<1 grow; confirmed by "
+            "cgl_background_stability_check.py), so pulse-on-vacuum localization is structurally "
+            "unavailable in this equation. v1 metric = phase-1 width-on-|A| (pulse channel, kept "
+            "for comparison); repaired metric = deviation-field defect channel: background+defect "
+            f"IC (dip depth 0.3-0.9, width 3-10, phase bump +-pi), localization = depth >= "
+            f"{DEFECT_DEPTH_CRITERION} AND depressed width <= {DEFECT_WIDTH_CRITERION}*L, "
+            f"persistence >= {DEFECT_PRESENCE_FRAC} presence in late-pre and final-post thirds, "
+            f"spread tol {DEFECT_SPREAD_TOL}x, depth retained >= {DEFECT_DEPTH_RETAINED}x; "
+            "oscillation = lab-frame core phase travel >= 4pi (counts background rotation omega=c; "
+            "excess-over-background travel and depth-breathing logged alongside) OR >= 4 depth "
+            "reversals. Bar unchanged: >10% of 24 ICs."
+        ),
+        "lattice": L, "n_runs": args.n_runs, "seed": SEED,
+        "t_pre_steps": args.steps, "t_post_steps": args.steps,
+        "sample_every": SAMPLE_EVERY,
+        "dt_rule": "dt = 2.4/(4*|1+ib| + 12*|1+ic|)  (unchanged from v1)",
+        "pass_fraction_criterion": PASS_FRACTION_CRITERION,
+        "b_grid": list(args.b_grid), "c_grid": list(args.c_grid),
+        "run_note": args.note,
+        "anchors": anchors,
+        "grid": grid,
+        "patch": {
+            "center": None if patch_center is None else
+                      {"b": patch_center["b"], "c": patch_center["c"]},
+            "points": patch,
+            "note": "3x3, +-0.5 in b and c around the most promising defect point; "
+                    "skipped if no promise."},
+        "regimes_seen": regimes_seen,
+        "kill_criteria_eval_repaired": {
+            "K1a_no_point_above_bar": bool(k1a_kill),
+            "K1b_best_far_below_D_anchor": bool(k1b_kill),
+            "best_defect_pass_fraction": best_defect,
+            "best_pulse_pass_fraction": best_pulse,
+            "anchor_A_pass_fraction": anchors[0]["pass_fraction"],
+            "anchor_D_pass_fraction": anchor_d,
+        },
+        "runtime_seconds": round(time.time() - t0, 1),
+    }
+    outdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                          "results", "kimi_cgl")
+    os.makedirs(outdir, exist_ok=True)
+    path_out = os.path.join(outdir, "cgl_stage1_repaired_sweep.json")
+    with open(path_out, "w") as f:
+        json.dump(out, f, indent=2)
+
+    print("\n=== anchors (this harness) ===")
+    for a in anchors:
+        print(f"  {a['arm'][:52]:52} pass={a['pass_fraction']:.3f}")
+    print("\n=== (b,c) grid: defect-metric pass / pulse-metric pass ===")
+    print("  b \\ c | " + "  ".join(f"{c:>11.1f}" for c in args.c_grid))
+    for b in args.b_grid:
+        row = [g for g in grid if g["b"] == b]
+        print(f"  {b:5.1f} | " + "  ".join(
+            f"{g['defect']['pass_fraction']:5.3f}/{g['pulse']['pass_fraction']:5.3f}"
+            for g in row))
+    print(f"\nregimes seen: {regimes_seen}")
+    print(f"K1a kill (repaired): {k1a_kill}   K1b kill (repaired): {k1b_kill}")
+    print(f"best defect pass: {best_defect:.3f}  best pulse pass: {best_pulse:.3f}  "
+          f"anchor A: {anchors[0]['pass_fraction']:.3f}  anchor D: {anchor_d:.3f}")
+    print(f"runtime: {out['runtime_seconds']}s")
+    print(f"wrote {path_out}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--n-runs", type=int, default=N_RUNS)
@@ -382,7 +721,13 @@ def main():
                     help="steps pre AND post kick (total = 2x)")
     ap.add_argument("--path-steps", type=int, default=8)
     ap.add_argument("--note", type=str, default="full run (defaults)")
+    ap.add_argument("--repaired", action="store_true",
+                    help="run the repaired-instrument (defect channel) sweep -> "
+                         "cgl_stage1_repaired_sweep.json")
     args = ap.parse_args()
+    if args.repaired:
+        main_v2(args)
+        return
 
     t0 = time.time()
     rng = np.random.default_rng(SEED)
