@@ -1,0 +1,1070 @@
+{
+  "stage": "Q1 \u2014 alignment Bell model on a common substrate: first C(Delta,tau) map",
+  "charter": "explorations/2026-08-02-kimi-alignment-arc-plan.md",
+  "params": {
+    "N": 512,
+    "X_SRC": 256,
+    "X_A": 64,
+    "X_B": 448,
+    "DT": 0.2,
+    "K_SUB": 0.15,
+    "NOISE_SUB": 0.01,
+    "WPK": 16,
+    "TRAVEL_ticks": 184,
+    "M_DET": 8,
+    "J_DET": 1.0,
+    "KAPPA": 0.2,
+    "WGATE": 14,
+    "PAIRS": 600,
+    "SEED": 1,
+    "stability": "DT*4*K_SUB = 0.12 << 2 (Euler, path-graph Laplacian bound); KAPPA*DT = 0.04; J_DET*DT = 0.2 [comment corrected post-run; numeric params unchanged]"
+  },
+  "abstraction_debts": [
+    "1D, not the frame's 3D grid",
+    "continuous phase per cell, not quantized intent",
+    "ballistic packet transport imposed as local shift, not derived from a wave equation on the substrate",
+    "co-rotating frame: substrate phase coherence source-to-detectors asserted, not derived (the shared reference's existence is assumed)",
+    "detector isolation between measurements idealized (holding dynamics not modeled); gate selectivity for the deviation field idealized",
+    "open boundaries by fiat"
+  ],
+  "settings_are_physical": "theta_A/theta_B are phases of reference oscillators AT each detector, relative to the shared substrate phase (common clock); drawn LATE from a separate rng stream after emission+travel (order asserted); used only in the local readout sign(sin(phi_bar_det - theta_det)).",
+  "map": {
+    "d0.0000_t0": {
+      "delta": 0.0,
+      "tau": 0,
+      "C": 0.0,
+      "C_err": 0.0408,
+      "lock_factor": 0.0392
+    },
+    "d0.0000_t4": {
+      "delta": 0.0,
+      "tau": 4,
+      "C": 0.0333,
+      "C_err": 0.0408,
+      "lock_factor": 0.0853
+    },
+    "d0.0000_t8": {
+      "delta": 0.0,
+      "tau": 8,
+      "C": -0.0167,
+      "C_err": 0.0408,
+      "lock_factor": 0.1006
+    },
+    "d0.0000_t16": {
+      "delta": 0.0,
+      "tau": 16,
+      "C": 0.06,
+      "C_err": 0.0408,
+      "lock_factor": 0.25
+    },
+    "d0.0000_t32": {
+      "delta": 0.0,
+      "tau": 32,
+      "C": 0.2367,
+      "C_err": 0.0397,
+      "lock_factor": 0.5265
+    },
+    "d0.0000_t64": {
+      "delta": 0.0,
+      "tau": 64,
+      "C": 0.5033,
+      "C_err": 0.0353,
+      "lock_factor": 0.7545
+    },
+    "d0.3927_t0": {
+      "delta": 0.3927,
+      "tau": 0,
+      "C": -0.0233,
+      "C_err": 0.0408,
+      "lock_factor": 0.0427
+    },
+    "d0.3927_t4": {
+      "delta": 0.3927,
+      "tau": 4,
+      "C": 0.0267,
+      "C_err": 0.0408,
+      "lock_factor": 0.088
+    },
+    "d0.3927_t8": {
+      "delta": 0.3927,
+      "tau": 8,
+      "C": 0.0067,
+      "C_err": 0.0408,
+      "lock_factor": 0.1381
+    },
+    "d0.3927_t16": {
+      "delta": 0.3927,
+      "tau": 16,
+      "C": 0.08,
+      "C_err": 0.0407,
+      "lock_factor": 0.2453
+    },
+    "d0.3927_t32": {
+      "delta": 0.3927,
+      "tau": 32,
+      "C": 0.2067,
+      "C_err": 0.0399,
+      "lock_factor": 0.4708
+    },
+    "d0.3927_t64": {
+      "delta": 0.3927,
+      "tau": 64,
+      "C": 0.5067,
+      "C_err": 0.0352,
+      "lock_factor": 0.7811
+    },
+    "d0.7854_t0": {
+      "delta": 0.7854,
+      "tau": 0,
+      "C": 0.0667,
+      "C_err": 0.0407,
+      "lock_factor": 0.0394
+    },
+    "d0.7854_t4": {
+      "delta": 0.7854,
+      "tau": 4,
+      "C": -0.0033,
+      "C_err": 0.0408,
+      "lock_factor": 0.0505
+    },
+    "d0.7854_t8": {
+      "delta": 0.7854,
+      "tau": 8,
+      "C": 0.0133,
+      "C_err": 0.0408,
+      "lock_factor": 0.1173
+    },
+    "d0.7854_t16": {
+      "delta": 0.7854,
+      "tau": 16,
+      "C": 0.0667,
+      "C_err": 0.0407,
+      "lock_factor": 0.2614
+    },
+    "d0.7854_t32": {
+      "delta": 0.7854,
+      "tau": 32,
+      "C": 0.2633,
+      "C_err": 0.0394,
+      "lock_factor": 0.5084
+    },
+    "d0.7854_t64": {
+      "delta": 0.7854,
+      "tau": 64,
+      "C": 0.3533,
+      "C_err": 0.0382,
+      "lock_factor": 0.7607
+    },
+    "d1.1781_t0": {
+      "delta": 1.1781,
+      "tau": 0,
+      "C": -0.0367,
+      "C_err": 0.0408,
+      "lock_factor": 0.0233
+    },
+    "d1.1781_t4": {
+      "delta": 1.1781,
+      "tau": 4,
+      "C": -0.0467,
+      "C_err": 0.0408,
+      "lock_factor": 0.0785
+    },
+    "d1.1781_t8": {
+      "delta": 1.1781,
+      "tau": 8,
+      "C": -0.0233,
+      "C_err": 0.0408,
+      "lock_factor": 0.1323
+    },
+    "d1.1781_t16": {
+      "delta": 1.1781,
+      "tau": 16,
+      "C": 0.0367,
+      "C_err": 0.0408,
+      "lock_factor": 0.2894
+    },
+    "d1.1781_t32": {
+      "delta": 1.1781,
+      "tau": 32,
+      "C": 0.1267,
+      "C_err": 0.0405,
+      "lock_factor": 0.4748
+    },
+    "d1.1781_t64": {
+      "delta": 1.1781,
+      "tau": 64,
+      "C": 0.27,
+      "C_err": 0.0393,
+      "lock_factor": 0.7643
+    },
+    "d1.5708_t0": {
+      "delta": 1.5708,
+      "tau": 0,
+      "C": 0.0033,
+      "C_err": 0.0408,
+      "lock_factor": 0.0431
+    },
+    "d1.5708_t4": {
+      "delta": 1.5708,
+      "tau": 4,
+      "C": -0.0433,
+      "C_err": 0.0408,
+      "lock_factor": 0.0298
+    },
+    "d1.5708_t8": {
+      "delta": 1.5708,
+      "tau": 8,
+      "C": -0.0233,
+      "C_err": 0.0408,
+      "lock_factor": 0.1137
+    },
+    "d1.5708_t16": {
+      "delta": 1.5708,
+      "tau": 16,
+      "C": 0.01,
+      "C_err": 0.0408,
+      "lock_factor": 0.2693
+    },
+    "d1.5708_t32": {
+      "delta": 1.5708,
+      "tau": 32,
+      "C": 0.0867,
+      "C_err": 0.0407,
+      "lock_factor": 0.5116
+    },
+    "d1.5708_t64": {
+      "delta": 1.5708,
+      "tau": 64,
+      "C": 0.0867,
+      "C_err": 0.0407,
+      "lock_factor": 0.7388
+    },
+    "d1.9635_t0": {
+      "delta": 1.9635,
+      "tau": 0,
+      "C": 0.02,
+      "C_err": 0.0408,
+      "lock_factor": 0.0201
+    },
+    "d1.9635_t4": {
+      "delta": 1.9635,
+      "tau": 4,
+      "C": 0.0667,
+      "C_err": 0.0407,
+      "lock_factor": 0.0834
+    },
+    "d1.9635_t8": {
+      "delta": 1.9635,
+      "tau": 8,
+      "C": 0.0267,
+      "C_err": 0.0408,
+      "lock_factor": 0.111
+    },
+    "d1.9635_t16": {
+      "delta": 1.9635,
+      "tau": 16,
+      "C": -0.0367,
+      "C_err": 0.0408,
+      "lock_factor": 0.255
+    },
+    "d1.9635_t32": {
+      "delta": 1.9635,
+      "tau": 32,
+      "C": -0.08,
+      "C_err": 0.0407,
+      "lock_factor": 0.4892
+    },
+    "d1.9635_t64": {
+      "delta": 1.9635,
+      "tau": 64,
+      "C": -0.0533,
+      "C_err": 0.0408,
+      "lock_factor": 0.7526
+    },
+    "d2.3562_t0": {
+      "delta": 2.3562,
+      "tau": 0,
+      "C": 0.0133,
+      "C_err": 0.0408,
+      "lock_factor": 0.0349
+    },
+    "d2.3562_t4": {
+      "delta": 2.3562,
+      "tau": 4,
+      "C": 0.05,
+      "C_err": 0.0408,
+      "lock_factor": 0.0832
+    },
+    "d2.3562_t8": {
+      "delta": 2.3562,
+      "tau": 8,
+      "C": 0.0067,
+      "C_err": 0.0408,
+      "lock_factor": 0.1645
+    },
+    "d2.3562_t16": {
+      "delta": 2.3562,
+      "tau": 16,
+      "C": -0.0433,
+      "C_err": 0.0408,
+      "lock_factor": 0.2904
+    },
+    "d2.3562_t32": {
+      "delta": 2.3562,
+      "tau": 32,
+      "C": -0.1033,
+      "C_err": 0.0406,
+      "lock_factor": 0.4642
+    },
+    "d2.3562_t64": {
+      "delta": 2.3562,
+      "tau": 64,
+      "C": -0.2267,
+      "C_err": 0.0398,
+      "lock_factor": 0.7643
+    },
+    "d2.7489_t0": {
+      "delta": 2.7489,
+      "tau": 0,
+      "C": -0.02,
+      "C_err": 0.0408,
+      "lock_factor": 0.0424
+    },
+    "d2.7489_t4": {
+      "delta": 2.7489,
+      "tau": 4,
+      "C": -0.0433,
+      "C_err": 0.0408,
+      "lock_factor": 0.0732
+    },
+    "d2.7489_t8": {
+      "delta": 2.7489,
+      "tau": 8,
+      "C": 0.0033,
+      "C_err": 0.0408,
+      "lock_factor": 0.1382
+    },
+    "d2.7489_t16": {
+      "delta": 2.7489,
+      "tau": 16,
+      "C": -0.02,
+      "C_err": 0.0408,
+      "lock_factor": 0.2835
+    },
+    "d2.7489_t32": {
+      "delta": 2.7489,
+      "tau": 32,
+      "C": -0.1467,
+      "C_err": 0.0404,
+      "lock_factor": 0.4986
+    },
+    "d2.7489_t64": {
+      "delta": 2.7489,
+      "tau": 64,
+      "C": -0.35,
+      "C_err": 0.0382,
+      "lock_factor": 0.7366
+    },
+    "d3.1416_t0": {
+      "delta": 3.1416,
+      "tau": 0,
+      "C": -0.07,
+      "C_err": 0.0407,
+      "lock_factor": 0.0564
+    },
+    "d3.1416_t4": {
+      "delta": 3.1416,
+      "tau": 4,
+      "C": 0.0267,
+      "C_err": 0.0408,
+      "lock_factor": 0.0744
+    },
+    "d3.1416_t8": {
+      "delta": 3.1416,
+      "tau": 8,
+      "C": 0.11,
+      "C_err": 0.0406,
+      "lock_factor": 0.1541
+    },
+    "d3.1416_t16": {
+      "delta": 3.1416,
+      "tau": 16,
+      "C": -0.07,
+      "C_err": 0.0407,
+      "lock_factor": 0.2621
+    },
+    "d3.1416_t32": {
+      "delta": 3.1416,
+      "tau": 32,
+      "C": -0.18,
+      "C_err": 0.0402,
+      "lock_factor": 0.4878
+    },
+    "d3.1416_t64": {
+      "delta": 3.1416,
+      "tau": 64,
+      "C": -0.5067,
+      "C_err": 0.0352,
+      "lock_factor": 0.7162
+    }
+  },
+  "controls": {
+    "no_source_null": {
+      "d0.0000_t0": {
+        "delta": 0.0,
+        "tau": 0,
+        "C": 0.0333,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.0000_t32": {
+        "delta": 0.0,
+        "tau": 32,
+        "C": 0.0133,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.0000_t64": {
+        "delta": 0.0,
+        "tau": 64,
+        "C": -0.0467,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.3927_t0": {
+        "delta": 0.3927,
+        "tau": 0,
+        "C": 0.0,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.3927_t32": {
+        "delta": 0.3927,
+        "tau": 32,
+        "C": 0.02,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.3927_t64": {
+        "delta": 0.3927,
+        "tau": 64,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.7854_t0": {
+        "delta": 0.7854,
+        "tau": 0,
+        "C": 0.0033,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.7854_t32": {
+        "delta": 0.7854,
+        "tau": 32,
+        "C": -0.0467,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d0.7854_t64": {
+        "delta": 0.7854,
+        "tau": 64,
+        "C": 0.0967,
+        "C_err": 0.0406,
+        "lock_factor": null
+      },
+      "d1.1781_t0": {
+        "delta": 1.1781,
+        "tau": 0,
+        "C": 0.12,
+        "C_err": 0.0405,
+        "lock_factor": null
+      },
+      "d1.1781_t32": {
+        "delta": 1.1781,
+        "tau": 32,
+        "C": -0.0667,
+        "C_err": 0.0407,
+        "lock_factor": null
+      },
+      "d1.1781_t64": {
+        "delta": 1.1781,
+        "tau": 64,
+        "C": -0.0267,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d1.5708_t0": {
+        "delta": 1.5708,
+        "tau": 0,
+        "C": 0.0667,
+        "C_err": 0.0407,
+        "lock_factor": null
+      },
+      "d1.5708_t32": {
+        "delta": 1.5708,
+        "tau": 32,
+        "C": 0.0,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d1.5708_t64": {
+        "delta": 1.5708,
+        "tau": 64,
+        "C": 0.0133,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d1.9635_t0": {
+        "delta": 1.9635,
+        "tau": 0,
+        "C": 0.0433,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d1.9635_t32": {
+        "delta": 1.9635,
+        "tau": 32,
+        "C": 0.0567,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d1.9635_t64": {
+        "delta": 1.9635,
+        "tau": 64,
+        "C": 0.0533,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.3562_t0": {
+        "delta": 2.3562,
+        "tau": 0,
+        "C": -0.03,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.3562_t32": {
+        "delta": 2.3562,
+        "tau": 32,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.3562_t64": {
+        "delta": 2.3562,
+        "tau": 64,
+        "C": -0.0233,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.7489_t0": {
+        "delta": 2.7489,
+        "tau": 0,
+        "C": 0.0367,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.7489_t32": {
+        "delta": 2.7489,
+        "tau": 32,
+        "C": 0.0533,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d2.7489_t64": {
+        "delta": 2.7489,
+        "tau": 64,
+        "C": -0.0167,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d3.1416_t0": {
+        "delta": 3.1416,
+        "tau": 0,
+        "C": 0.0433,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d3.1416_t32": {
+        "delta": 3.1416,
+        "tau": 32,
+        "C": -0.0533,
+        "C_err": 0.0408,
+        "lock_factor": null
+      },
+      "d3.1416_t64": {
+        "delta": 3.1416,
+        "tau": 64,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": null
+      }
+    },
+    "no_lock": {
+      "d0.0000_t0": {
+        "delta": 0.0,
+        "tau": 0,
+        "C": 0.1,
+        "C_err": 0.0406,
+        "lock_factor": 0.018
+      },
+      "d0.0000_t4": {
+        "delta": 0.0,
+        "tau": 4,
+        "C": 0.01,
+        "C_err": 0.0408,
+        "lock_factor": 0.0807
+      },
+      "d0.0000_t8": {
+        "delta": 0.0,
+        "tau": 8,
+        "C": 0.0567,
+        "C_err": 0.0408,
+        "lock_factor": 0.1257
+      },
+      "d0.0000_t16": {
+        "delta": 0.0,
+        "tau": 16,
+        "C": 0.0533,
+        "C_err": 0.0408,
+        "lock_factor": 0.2639
+      },
+      "d0.0000_t32": {
+        "delta": 0.0,
+        "tau": 32,
+        "C": 0.11,
+        "C_err": 0.0406,
+        "lock_factor": 0.5161
+      },
+      "d0.0000_t64": {
+        "delta": 0.0,
+        "tau": 64,
+        "C": 0.0033,
+        "C_err": 0.0408,
+        "lock_factor": 0.7404
+      },
+      "d0.3927_t0": {
+        "delta": 0.3927,
+        "tau": 0,
+        "C": 0.0633,
+        "C_err": 0.0407,
+        "lock_factor": 0.0124
+      },
+      "d0.3927_t4": {
+        "delta": 0.3927,
+        "tau": 4,
+        "C": 0.0633,
+        "C_err": 0.0407,
+        "lock_factor": 0.0877
+      },
+      "d0.3927_t8": {
+        "delta": 0.3927,
+        "tau": 8,
+        "C": 0.0033,
+        "C_err": 0.0408,
+        "lock_factor": 0.1142
+      },
+      "d0.3927_t16": {
+        "delta": 0.3927,
+        "tau": 16,
+        "C": 0.03,
+        "C_err": 0.0408,
+        "lock_factor": 0.2688
+      },
+      "d0.3927_t32": {
+        "delta": 0.3927,
+        "tau": 32,
+        "C": 0.0133,
+        "C_err": 0.0408,
+        "lock_factor": 0.5034
+      },
+      "d0.3927_t64": {
+        "delta": 0.3927,
+        "tau": 64,
+        "C": 0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.7385
+      },
+      "d0.7854_t0": {
+        "delta": 0.7854,
+        "tau": 0,
+        "C": -0.03,
+        "C_err": 0.0408,
+        "lock_factor": 0.0246
+      },
+      "d0.7854_t4": {
+        "delta": 0.7854,
+        "tau": 4,
+        "C": -0.05,
+        "C_err": 0.0408,
+        "lock_factor": 0.0595
+      },
+      "d0.7854_t8": {
+        "delta": 0.7854,
+        "tau": 8,
+        "C": -0.01,
+        "C_err": 0.0408,
+        "lock_factor": 0.1317
+      },
+      "d0.7854_t16": {
+        "delta": 0.7854,
+        "tau": 16,
+        "C": 0.0667,
+        "C_err": 0.0407,
+        "lock_factor": 0.2989
+      },
+      "d0.7854_t32": {
+        "delta": 0.7854,
+        "tau": 32,
+        "C": 0.03,
+        "C_err": 0.0408,
+        "lock_factor": 0.5113
+      },
+      "d0.7854_t64": {
+        "delta": 0.7854,
+        "tau": 64,
+        "C": 0.04,
+        "C_err": 0.0408,
+        "lock_factor": 0.7494
+      },
+      "d1.1781_t0": {
+        "delta": 1.1781,
+        "tau": 0,
+        "C": -0.0233,
+        "C_err": 0.0408,
+        "lock_factor": 0.0758
+      },
+      "d1.1781_t4": {
+        "delta": 1.1781,
+        "tau": 4,
+        "C": 0.0033,
+        "C_err": 0.0408,
+        "lock_factor": 0.1215
+      },
+      "d1.1781_t8": {
+        "delta": 1.1781,
+        "tau": 8,
+        "C": -0.0567,
+        "C_err": 0.0408,
+        "lock_factor": 0.1406
+      },
+      "d1.1781_t16": {
+        "delta": 1.1781,
+        "tau": 16,
+        "C": -0.0267,
+        "C_err": 0.0408,
+        "lock_factor": 0.2331
+      },
+      "d1.1781_t32": {
+        "delta": 1.1781,
+        "tau": 32,
+        "C": 0.0367,
+        "C_err": 0.0408,
+        "lock_factor": 0.4893
+      },
+      "d1.1781_t64": {
+        "delta": 1.1781,
+        "tau": 64,
+        "C": 0.0233,
+        "C_err": 0.0408,
+        "lock_factor": 0.7566
+      },
+      "d1.5708_t0": {
+        "delta": 1.5708,
+        "tau": 0,
+        "C": -0.0367,
+        "C_err": 0.0408,
+        "lock_factor": 0.0408
+      },
+      "d1.5708_t4": {
+        "delta": 1.5708,
+        "tau": 4,
+        "C": -0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.085
+      },
+      "d1.5708_t8": {
+        "delta": 1.5708,
+        "tau": 8,
+        "C": 0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.1725
+      },
+      "d1.5708_t16": {
+        "delta": 1.5708,
+        "tau": 16,
+        "C": -0.02,
+        "C_err": 0.0408,
+        "lock_factor": 0.2869
+      },
+      "d1.5708_t32": {
+        "delta": 1.5708,
+        "tau": 32,
+        "C": -0.04,
+        "C_err": 0.0408,
+        "lock_factor": 0.4634
+      },
+      "d1.5708_t64": {
+        "delta": 1.5708,
+        "tau": 64,
+        "C": 0.03,
+        "C_err": 0.0408,
+        "lock_factor": 0.7613
+      },
+      "d1.9635_t0": {
+        "delta": 1.9635,
+        "tau": 0,
+        "C": 0.0467,
+        "C_err": 0.0408,
+        "lock_factor": 0.0453
+      },
+      "d1.9635_t4": {
+        "delta": 1.9635,
+        "tau": 4,
+        "C": 0.0733,
+        "C_err": 0.0407,
+        "lock_factor": 0.0868
+      },
+      "d1.9635_t8": {
+        "delta": 1.9635,
+        "tau": 8,
+        "C": -0.02,
+        "C_err": 0.0408,
+        "lock_factor": 0.1786
+      },
+      "d1.9635_t16": {
+        "delta": 1.9635,
+        "tau": 16,
+        "C": 0.0033,
+        "C_err": 0.0408,
+        "lock_factor": 0.2659
+      },
+      "d1.9635_t32": {
+        "delta": 1.9635,
+        "tau": 32,
+        "C": 0.04,
+        "C_err": 0.0408,
+        "lock_factor": 0.4764
+      },
+      "d1.9635_t64": {
+        "delta": 1.9635,
+        "tau": 64,
+        "C": 0.0,
+        "C_err": 0.0408,
+        "lock_factor": 0.7355
+      },
+      "d2.3562_t0": {
+        "delta": 2.3562,
+        "tau": 0,
+        "C": -0.0367,
+        "C_err": 0.0408,
+        "lock_factor": 0.0354
+      },
+      "d2.3562_t4": {
+        "delta": 2.3562,
+        "tau": 4,
+        "C": -0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.0902
+      },
+      "d2.3562_t8": {
+        "delta": 2.3562,
+        "tau": 8,
+        "C": -0.11,
+        "C_err": 0.0406,
+        "lock_factor": 0.1761
+      },
+      "d2.3562_t16": {
+        "delta": 2.3562,
+        "tau": 16,
+        "C": 0.0367,
+        "C_err": 0.0408,
+        "lock_factor": 0.2576
+      },
+      "d2.3562_t32": {
+        "delta": 2.3562,
+        "tau": 32,
+        "C": 0.02,
+        "C_err": 0.0408,
+        "lock_factor": 0.4907
+      },
+      "d2.3562_t64": {
+        "delta": 2.3562,
+        "tau": 64,
+        "C": -0.04,
+        "C_err": 0.0408,
+        "lock_factor": 0.7268
+      },
+      "d2.7489_t0": {
+        "delta": 2.7489,
+        "tau": 0,
+        "C": 0.0267,
+        "C_err": 0.0408,
+        "lock_factor": 0.0444
+      },
+      "d2.7489_t4": {
+        "delta": 2.7489,
+        "tau": 4,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": 0.0628
+      },
+      "d2.7489_t8": {
+        "delta": 2.7489,
+        "tau": 8,
+        "C": -0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.1539
+      },
+      "d2.7489_t16": {
+        "delta": 2.7489,
+        "tau": 16,
+        "C": -0.01,
+        "C_err": 0.0408,
+        "lock_factor": 0.2645
+      },
+      "d2.7489_t32": {
+        "delta": 2.7489,
+        "tau": 32,
+        "C": -0.04,
+        "C_err": 0.0408,
+        "lock_factor": 0.5132
+      },
+      "d2.7489_t64": {
+        "delta": 2.7489,
+        "tau": 64,
+        "C": -0.0733,
+        "C_err": 0.0407,
+        "lock_factor": 0.7424
+      },
+      "d3.1416_t0": {
+        "delta": 3.1416,
+        "tau": 0,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": 0.034
+      },
+      "d3.1416_t4": {
+        "delta": 3.1416,
+        "tau": 4,
+        "C": 0.0833,
+        "C_err": 0.0407,
+        "lock_factor": 0.0917
+      },
+      "d3.1416_t8": {
+        "delta": 3.1416,
+        "tau": 8,
+        "C": -0.0033,
+        "C_err": 0.0408,
+        "lock_factor": 0.1333
+      },
+      "d3.1416_t16": {
+        "delta": 3.1416,
+        "tau": 16,
+        "C": -0.0133,
+        "C_err": 0.0408,
+        "lock_factor": 0.2974
+      },
+      "d3.1416_t32": {
+        "delta": 3.1416,
+        "tau": 32,
+        "C": 0.0367,
+        "C_err": 0.0408,
+        "lock_factor": 0.4943
+      },
+      "d3.1416_t64": {
+        "delta": 3.1416,
+        "tau": 64,
+        "C": -0.0067,
+        "C_err": 0.0408,
+        "lock_factor": 0.7407
+      }
+    }
+  },
+  "audits": {
+    "relabeling": {
+      "static": "outcomes via read_outcome(phi_bar, theta) \u2014 local scalars only; C via correlate(outcomes_A, outcomes_B) \u2014 outcome arrays only; no expression takes theta_A and theta_B jointly (checked in code).",
+      "dynamic": {
+        "n_runs": 200,
+        "outcome_A_identical_under_theta_B_change": 200,
+        "outcome_B_changed_by_its_own_setting": 95,
+        "pass": true
+      }
+    },
+    "conspiracy": {
+      "settings_drawn_after_emission": true,
+      "settings_stream": "separate rng, drawn post-travel (late choice)",
+      "detector_init_phases": "randomized per run per detector, U(0,2pi)",
+      "per_cell_tuning": "none \u2014 K_SUB/KAPPA/geometry global",
+      "robustness": {
+        "K_SUB_half": {
+          "K_SUB": 0.075,
+          "C(d=pi/4,tau=32)": {
+            "C": 0.16,
+            "C_err": 0.057,
+            "lock_factor": 0.468
+          }
+        },
+        "K_SUB_double": {
+          "K_SUB": 0.3,
+          "C(d=pi/4,tau=32)": {
+            "C": 0.1667,
+            "C_err": 0.0569,
+            "lock_factor": 0.5208
+          }
+        }
+      }
+    }
+  },
+  "full_lock_fits": {
+    "tau": 64,
+    "triangle": {
+      "amplitude": 0.5396,
+      "rmse": 0.0796
+    },
+    "cosine": {
+      "amplitude": 0.4671,
+      "rmse": 0.0803
+    },
+    "closer": "triangle"
+  },
+  "tau_curve": [
+    {
+      "tau": 0,
+      "triangle_amplitude": 0.0213,
+      "CHSH_S": 0.1868,
+      "lock_factor": 0.0392
+    },
+    {
+      "tau": 4,
+      "triangle_amplitude": 0.0011,
+      "CHSH_S": 0.0599,
+      "lock_factor": 0.0853
+    },
+    {
+      "tau": 8,
+      "triangle_amplitude": -0.0356,
+      "CHSH_S": 0.0332,
+      "lock_factor": 0.1006
+    },
+    {
+      "tau": 16,
+      "triangle_amplitude": 0.0742,
+      "CHSH_S": 0.2434,
+      "lock_factor": 0.25
+    },
+    {
+      "tau": 32,
+      "triangle_amplitude": 0.2445,
+      "CHSH_S": 0.8932,
+      "lock_factor": 0.5265
+    },
+    {
+      "tau": 64,
+      "triangle_amplitude": 0.5396,
+      "CHSH_S": 1.2866,
+      "lock_factor": 0.7545
+    }
+  ],
+  "runtime_seconds": 982.6
+}

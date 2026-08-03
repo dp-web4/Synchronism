@@ -98,6 +98,20 @@ conventional-prior contamination; tracker discipline; the zoom-out rung).
 
 ## Tracker (newest first)
 
+- 2026-08-03 — **Q1 PASS.** `simulations/kimi_alignment/alignment_bell_q1.py` built and
+  run: first C(Δθ, τ) map (9×6 grid, 600 pairs/cell) committed at
+  `simulations/results/kimi_alignment/q1_first_map.json`. Correlation manufactured in the
+  window: lock 0.04→0.76, triangle amplitude 0.02→0.54, CHSH S 0.19→1.29 over τ=0→64;
+  controls clean (no-source null max |C| 0.12, no-lock 0.11, both ≈ noise vs signal 0.51).
+  Relabeling audit PASS (static: outcomes from local scalars only; dynamic: outcome_A
+  bitwise invariant under θ_B swap, 200/200). Conspiracy audit PASS (randomized detector
+  phases, late settings, robust to K_SUB ×½/×2). Full-lock form NOT yet resolved: at
+  τ=64 triangle A=0.540 (rmse 0.0796) vs cosine A=0.467 (rmse 0.0803) — statistically
+  tied, peaks rounded by residual own-phase. Doc:
+  `explorations/2026-08-03-kimi-alignment-q1-first-map.md`. **Next: Q2 — the full-lock
+  extrapolation (τ → ~256 with per-τ lock measurement, A → 1), then triangle-vs-cosine
+  discrimination at the asymptote, engaging the measurement-independence premise where
+  the model replaces it with dynamics.**
 - 2026-08-02 — arc chartered with dp's common-substrate frame ("patterns of patterns in
   one river, one clock, one observer"); Q1–Q3 staged; kill criteria registered.
   **Next: build the Q1 alignment-Bell lattice sim (`simulations/kimi_alignment/`) —
