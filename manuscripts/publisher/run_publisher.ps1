@@ -12,9 +12,19 @@
 
 $logFile = "C:\exe\projects\ai-agents\Synchronism\manuscripts\publisher\logs\publisher-$(Get-Date -Format 'yyyy-MM-dd').log"
 
-# Log start
+# Log start.
+# The header MUST carry its timezone, and the UTC equivalent beside it. Without them the
+# agent this launcher starts reads its own clock in UTC, reads this header as a bare local
+# time, and infers a run that died hours ago -- so a healthy run diagnoses itself as a dead
+# cron and files the "manual rescue pass" it never needed. That happened on 2026-08-01 and
+# 08-02 (both exit=0, both committed on time) and reached the supervisor as a bogus
+# OWNER-ACTION asking for a `2>&1` that has been present since 07-24. Same trap misread four
+# times in the Archivist track (07-26/27/29/30). RUN-ID is what makes "this header is mine"
+# decidable instead of inferred.
+$startLocal = Get-Date
 Add-Content -Path $logFile -Value "========================================="
-Add-Content -Path $logFile -Value "Publisher Session Starting: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+Add-Content -Path $logFile -Value "Publisher Session Starting: $($startLocal.ToString('yyyy-MM-dd HH:mm:ss zzz')) local | $($startLocal.ToUniversalTime().ToString('yyyy-MM-dd HH:mm:ss')) UTC"
+Add-Content -Path $logFile -Value "RUN-ID: $PID (if this ID is yours, this header is THIS run, not a prior failure)"
 Add-Content -Path $logFile -Value "========================================="
 
 # Run Claude in WSL with the publisher prompt.
