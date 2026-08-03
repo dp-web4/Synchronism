@@ -120,7 +120,28 @@ jobs:
             echo "Changes detected in docs/ or whitepaper/build/, committing..."
             git add docs/ whitepaper/build/
             git commit -m "Deploy whitepaper builds to GitHub Pages [skip ci]"
-            git push
+
+            # Retry with rebase. A bare `git push` here is rejected whenever any
+            # other commit lands on main between this run's checkout and this
+            # step (2026-08-03, run 30810820984: a Publisher content commit built
+            # fine, then lost the push race to its own follow-up log commit).
+            # That failure is UNRECOVERABLE without this loop: the artifacts-only
+            # rebuild never re-fires, `workflow_dispatch` cannot deploy (the `if:`
+            # above requires event_name == 'push'), and PUBLISHER_CONTEXT.md is
+            # excluded from the trigger paths -- so the published surfaces stay
+            # stale until someone pushes unrelated whitepaper content. The whole
+            # rebase is artifact-only; any source commit that beat us here fired
+            # its own build.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Deploy pushed on attempt $attempt"
+                exit 0
+              fi
+              echo "Push rejected (attempt $attempt) -- rebasing onto origin/main"
+              git pull --rebase origin main || exit 1
+            done
+            echo "::error::Deploy push failed after 3 attempts"
+            exit 1
           else
             echo "No changes in docs/ or whitepaper/build/, skipping commit"
           fi
