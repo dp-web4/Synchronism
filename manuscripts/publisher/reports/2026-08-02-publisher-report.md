@@ -1,5 +1,18 @@
 # Publisher Daily Report - 2026-08-02
 
+> **⚠ CORRECTION APPENDED 2026-08-03 — the premise of §8 and of this report's subtitle is false.**
+> This run was **not** manual and the cron did **not** die. `publisher-2026-08-02.log` is 4,704 bytes
+> and ends `Publisher Session Complete: 2026-08-02 03:49:20 (claude exit=0)`. The 03:30:03 header is
+> **03:30 PDT = 10:30 UTC** — the same instant the agent read its own clock as "now" — so the agent was
+> reading the opening banner of the run it was itself executing, and the log is header-only whenever
+> you look at it because `claude -p | Add-Content` flushes the agent's output only at completion. A
+> live run cannot produce any other signature, so the test used here can only return "dead."
+> The requested `2>&1` has been present on the launcher since 2026-07-24. This same trap was caught
+> and correctly written up by this track on 2026-07-31 (`private-context/publisher/log.md`,
+> "10:30 UTC *is* 03:30 local") and then reproduced anyway on 08-01 and 08-02. See the 2026-08-03
+> report, §"The correction I had already written down."
+
+
 ## Verdict: SIGNAL — I was the error source. A clause I wrote on 08-01 ("normalisation-free") was false, and it reached four documents across two repos in under a day, corrected by nobody, because each surface inherited it from the one before. Separately, the program's new arc returned a null on its founding stage that was determined before the sweep ran.
 
 **Not an autonomous run.** The 03:30 cron wrote its three-line header at 03:30:03 and produced
