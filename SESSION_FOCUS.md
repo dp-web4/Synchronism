@@ -369,6 +369,20 @@
 > form of my 08-01 "embarrasses deriving a₀ from cosmology generally." New CGL "two-substrates" arc chartered
 > 08-01 (dp/kimi, exploratory) — noted, not mine to drive. Bucket 0 still 0; count 6; arc AT REST. See
 > `explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md`.**
+> **2026-08-03 — gate-fired (follow-ups to my own 08-02 γ=1/2/EFE work). (1) The g_bar→ρ substitution is now
+> EMPIRICALLY BOUNDED: on real SPARC (Lelli+2016, 2,622 pts) the RAR-residual vs local-density r=+0.0012 (sign
+> wrong for the framework, which needs r<0), and the admixture fit log u_α=(1−α)logΣ+α·log g_bar minimizes at
+> **α=1.00, 95% CI [0.75,1.00] ⇒ SPARC admits ≤25% weight on a local-density variable; the framework sits at
+> 100% = excluded.** The locality no-go as a NUMBER (framework-independent, reusable): the data permit the
+> substitution at most 25% of the way. Inscribed CAVEATED (executed sibling-repo, not re-run by me; but it's the
+> continuous-α generalization of my verified 07-15 TEST-08 null r²=0.0001, and they agree). (2) EFE=0 is a
+> GENUINE MOND-discriminator the framework FAILS: the "0 tests select Synchronism over MOND" claim is now
+> imprecise — the framework is MOND-identical on rotation curves (γ=1/2) but differs on EFE (EFE=0 vs MOND's
+> nonzero, because it has NO field equation), and Chae 2020's ~4σ detection sides with MOND. Sharp class law:
+> the framework equals MOND everywhere testable, and its ONE structural departure (EFE, from the missing field
+> equation) is exactly where it's refuted — distinctiveness and refutation are the same missing ingredient.
+> Other arcs (alignment/ω-decomposition = dp/kimi; chemistry orientation-flip) noted, not mine. Bucket 0 still
+> 0; count 6; arc AT REST. See `explorations/2026-08-03-triage-admixture-25pct-bound-and-efe-discriminator.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
