@@ -81,6 +81,13 @@ gap, not filled with assumption.
 
 ## Tracker (newest first)
 
+- 2026-08-02 — **COMPLETE.** All three medians reproduced exactly; the sign reversal is
+  a **formula artifact** (corpus READMEs print a mis-parenthesized variant and the
+  stored high-z omegas use it; under one uniform formula all epochs are positive:
+  +7.0/+29.7/+12.3). Deeper: KROSS omega is template-derived with zero independent
+  kinematic information. Graduation rule not met; no frame test; KS-1..3 discharged as
+  moot (the artifact is upstream). Full result:
+  `explorations/2026-08-02-kimi-omega-decomposition-result.md`.
 - 2026-08-02 — plan registered; kill suspects KS-1..KS-3 + tautology budget + shams
   pre-committed; reproduction targets fixed (7.06±3.26 / −9.087 / −13.05).
   **Next: P0/P1 — fetch corpora, reproduce the three medians at per-survey grain.**
