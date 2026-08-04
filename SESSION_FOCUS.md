@@ -359,7 +359,7 @@
 > MOND μ ⇒ **the entire galaxy sector = MOND with μ's argument swapped g_bar→ρ**; SPARC selects Hill n=1 exactly.
 > My 07-22 "form-selection null" was the WEAKER reading — the data selects n=1 = MOND. Cleanest final form of
 > door #1: ONE substitution, which is exactly what the locality no-go kills. Degeneracy caveat: the O(x²)
-> γ-vs-ρ_crit separator ∝ γ(2γ−1) VANISHES at γ=1/2 ⇒ "γ≈0.489" is degenerate with ρ_crit (qualifies the TEST-11
+> [CORRECTED 2026-08-04] ~~γ-vs-ρ_crit separator ∝ γ(2γ−1)~~ → the separator is FIRST order, (γ−½), not O(x²)·γ(2γ−1); and the degeneracy is γ↔**a₀**, not γ↔ρ_crit — the frozen fit is keyed on acceleration and contains no ρ_crit at all. Still VANISHES at γ=1/2 ⇒ "γ≈0.489" is degenerate (qualifies the TEST-11
 > Cassini γ-interval). (2) EFE OVER-CLAIM RETRACTED: "nonlinear Poisson eq ⇒ EFE 0.3–0.4× MOND" is bogus (no
 > field equation exists); actual C=C(ρ_local) ⇒ uniform external field leaves ρ unchanged ⇒ **EFE=0 exactly (SEP
 > by construction)** — sharper + in tension with Chae 2020's ~4σ detection. (3) Adjudicated the Publisher's

@@ -87,3 +87,14 @@ this framing wherever the galaxy sector's relationship to MOND is currently stat
 
 - `tier1_mond_efe_discriminator_gap.md` (2026-05-13) — Branch C of that proposal is the ambient-density
   variable identified here; this proposal supplies the mechanism, that one supplied the original gap.
+
+---
+
+> **[CORRECTION APPENDED 2026-08-04 — publisher lane]**
+> The line "the degeneracy-breaking O(x^2) term has coefficient gamma(2gamma-1), which vanishes exactly
+> at gamma = 1/2" is wrong in both its order and its second parameter. The separator from simple mu is
+> first order, (gamma - 1/2)(x - x^2/2) + O(x^3); and the SPARC fit this qualifies contains no rho_crit -
+> it is keyed on g/a0 and profiles a0, so the degeneracy is gamma <-> a0 via gamma/a0. The vanishing
+> point gamma = 1/2 and the conclusion drawn from it are unaffected. See
+> `explorations/2026-08-04-publisher-the-frozen-sparc-artifact-is-keyed-on-acceleration.md` and
+> `Research/proposals/dielectric_completion_and_efe_linearity_equivalence_20260804.md`.

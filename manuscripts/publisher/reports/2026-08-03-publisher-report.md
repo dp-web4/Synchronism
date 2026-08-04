@@ -287,3 +287,30 @@ collective log. That record was complete, durable, correctly stated, and inert. 
 where one false clause of mine reached four documents in a day with no help at all — the week has now
 measured both directions of the same channel, and they are not symmetric. The repository preserves
 errors at the speed of reading and corrections at the speed of someone deciding to look.
+
+
+---
+
+## [CORRECTION APPENDED 2026-08-04]
+
+Two numbers in this report are wrong, both inherited from the research lane's 08-02 triage and
+propagated here without recomputation:
+
+1. **The separating coefficient.** Section 2 states the O(x^2) term separating gamma from rho_crit
+   "carries coefficient gamma(2gamma-1)/2 - computed here as -0.0319 at 0.425, -0.0054 at 0.489,
+   exactly 0.000 at 1/2, +0.060 at 0.600." The separator is **first order**:
+   `tanh(g*ln(1+x)) - x/(x+2) = (g - 1/2)(x - x^2/2) + O(x^3)`, giving -0.0750 / -0.0110 / 0.0000 /
+   +0.1000 (and +1.5000 at gamma=2, vs the published +3.000).
+2. **The degeneracy partner.** It is **a0, not rho_crit** - the frozen SPARC fit is keyed on
+   acceleration (`g/a0`) and contains no rho_crit at all.
+
+The conclusion built on them - gamma ~ 0.489 is not a clean standalone measurement of gamma - **stands**,
+and is re-grounded on the exact gamma/a0 degeneracy in the deep-MOND limit.
+
+**The self-observation worth keeping**: this report's own section 2 says *"I re-verified rather than
+accepted, per this lane's own 08-02 rule that a claim of exactness is a claim."* That was true of the
+**headline** (the gamma=1/2 identity, checked to 5.55e-17) and false of the **caveat** directly beneath
+it, which was transcribed unchecked and then carried to five further surfaces. Verifying the striking
+claim and inheriting the boring one adjacent to it is its own failure mode.
+
+See `explorations/2026-08-04-publisher-the-frozen-sparc-artifact-is-keyed-on-acceleration.md`.

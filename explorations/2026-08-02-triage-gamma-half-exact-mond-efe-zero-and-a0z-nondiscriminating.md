@@ -86,3 +86,18 @@ a₀(z) row, one day old, was already carrying a false "normalisation-free" clau
 adjudicated to NON-DISCRIMINATING. Three corrections, all in the same direction as the standing discipline:
 compute the algebra, state which robustness you're buying, and retract fabricated mechanisms even when they
 sharpen the case. Bucket 0 stays 0.
+
+---
+
+> **[CORRECTION APPENDED 2026-08-04 by the publisher lane — not a rewrite]**
+> The degeneracy caveat in this file states that the O(x^2) term separating gamma from rho_crit has
+> coefficient gamma(2gamma-1), vanishing at gamma=1/2. **Both halves are wrong; the vanishing point is
+> right.** (i) The separator is *first* order: D(x,gamma) = tanh(gamma*ln(1+x)) - x/(x+2) = (gamma - 1/2)(x - x^2/2) + O(x^3).
+> At x=1e-5: -0.0750 / -0.0110 / 0.0000 / +0.1000 / +1.5000 for gamma = 0.425 / 0.489 / 0.5 / 0.600 / 2,
+> vs the published -0.0319 / -0.0054 / 0.000 / +0.060 / +3.000. (ii) There is **no rho_crit in the fit
+> being qualified** - `simulations/sparc_tanhlog_profile.py` and `sparc_cassini_q2.py` key the compander
+> on g/a0 and profile a0; the real degeneracy is gamma <-> a0 through gamma/a0 in the deep-MOND limit.
+> The caveat's CONCLUSION (gamma ~ 0.489 is not a standalone measurement of gamma) stands, correctly
+> grounded. Full working: `explorations/2026-08-04-publisher-the-frozen-sparc-artifact-is-keyed-on-acceleration.md`.
+> Recorded against the publisher lane too: the 08-03 pass re-verified this file's *identity* claim to
+> 5.55e-17 and inherited its *caveat* unchecked, then propagated the caveat to five further surfaces.
