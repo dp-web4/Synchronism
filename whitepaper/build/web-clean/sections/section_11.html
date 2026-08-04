@@ -694,6 +694,35 @@ self-correcting style (annotate the superseded entry in place + add the
 correcting entry, as S648 corrected S645) — historical entries preserved
 with markers, not deleted.</li>
 </ul>
+<p class="heading"
+id="publisher-autonomous-run-id-23124-modify">2026-08-04 | Publisher
+(autonomous, RUN-ID 23124) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Added a
+<code>[SCOPED 2026-08-04]</code> marker to the sentence “the C(rho)
+prediction of it is refuted (S661, dBIC=+184)”. That sentence carries
+the discrepancy inside itself: it calls C measurable as
+<code>C = g_bar/g_obs</code>, an <strong>acceleration</strong> ratio,
+while section 5.15 defines C as a function of <strong>density</strong>.
+S661 and the frozen SPARC x Cassini instrument compute
+<code>tanh(gamma*ln(1 + g/a0))</code> and fit an <code>a0</code>;
+<code>rho_crit</code> appears nowhere in them. So dBIC=+184 refutes the
+compander at gamma=2 as a MOND interpolating function in acceleration,
+and gamma~0.49 / dBIC=+7.1 establishes indistinguishability from McGaugh
+for that same acceleration-keyed family - neither tests the stated
+<code>C(rho)</code>. Nothing deleted.</li>
+<li><strong>Rationale</strong>: Two-signed and stated as such: it
+loosens a recorded refutation but equally voids the sector’s only
+quantitative support, and the stated density law when actually evaluated
+fails by 2-5 orders of magnitude by functional form. Net effect is
+unfavourable to the framework. “The galactic sector closed by execution”
+stands; the execution that closed it is not the one cited. Refutation
+count unchanged at 6. Exec&lt;-&gt;conclusion parity preserved -
+identical marker added to both surfaces in the same pass. Checked at the
+matches, not the file list: <code>0.489</code> occurs <strong>0</strong>
+times in both files, so the gamma figure itself carried no propagation
+obligation; <code>dBIC</code> did.</li>
+</ul>
 <hr>
 <h2>01-introduction</h2>
 <h4>
@@ -943,6 +972,62 @@ already published. Sourced from
 (sibling repo, not previously back-annotated here); the back-annotation
 and the scoping correction are filed at
 <code>explorations/2026-08-03-publisher-one-substitution-and-its-exclusion.md</code>.</li>
+</ul>
+<p class="heading"
+id="publisher-autonomous-run-id-23124-modify">2026-08-04 | Publisher
+(autonomous, RUN-ID 23124) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Three amendments to the 2026-08-03
+MOND-Synchronism status note in
+<code>15-dark-matter/dark_matter.md</code>. (1)
+<strong>Provenance</strong>: the frozen pre-registered SPARC x Cassini
+instrument that produced every number the note quotes is keyed on
+<strong>acceleration, not density</strong> -
+<code>sparc_tanhlog_profile.py</code> inverts
+<code>g_bar = g_obs*tanh(gamma*ln(1 + g_obs/a0))</code>,
+<code>sparc_cassini_q2.py</code> docstrings its family as “the mu
+convention”, and <code>sparc_profile.json</code> profiles
+<code>a0</code> over log10 a0 in [-11,-9]. <code>rho_crit</code> appears
+in none of them. So gamma ~ 0.489, dBIC +7.1/+184 and the Cassini +17.95
+sigma are properties of a MOND interpolating function in acceleration
+space, not measurements of the stated <code>C(rho)</code>. (2)
+<strong>Coefficient correction, against this lane’s own 08-03
+text</strong>: the departure from simple mu is
+<code>D(x,gamma) = (gamma - 1/2)(x - x^2/2) + O(x^3)</code>, first order
+in (gamma - 1/2), not the published second-order
+<code>gamma(2gamma-1)</code>; numeric check at x=1e-5 gives
+-0.0750/-0.0110/0.0000/+0.1000/+1.5000 at gamma =
+0.425/0.489/0.5/0.600/2 vs published
+-0.0319/-0.0054/0.000/+0.060/+3.000. The vanishing point gamma=1/2 is
+correct so the conclusion stands. (3) <strong>Degeneracy
+re-grounded</strong>: it is gamma &lt;-&gt; a0, not gamma &lt;-&gt;
+rho_crit (there is no rho_crit in that fit) - the family depends on
+gamma and a0 only through gamma/a0 in the deep-MOND limit (verified:
+three pairs at gamma/a0 = 9.17e9 agree in mu to &lt;1% over a 4x span in
+gamma), and the artifact’s profiled a0 = 5.33e-11 sits 2.11x below its
+own reference McGaugh a0 = 1.128e-10, which is the required
+compensation. Plus a <strong>dielectric-completion amendment</strong>: a
+momentum-conserving field equation
+<code>div[C(rho) grad Phi] = 4 pi G rho</code> does exist (so the 08-03
+premise “the galaxy sector has no field equation” is withdrawn), it is
+<strong>linear in Phi</strong>, EFE = 0 is the signature of that
+linearity rather than an absence, and the same linearity forces
+<code>C(0) = 0</code> exactly - a divergent exterior field. The sector’s
+one surviving structural prediction and its worst pathology are one
+property.</li>
+<li><strong>Rationale</strong>: The whitepaper stated a density law
+above numbers computed from an acceleration law, and had done so for
+roughly a year because both are written
+<code>tanh(gamma*ln(1 + .))</code>. Not a new refutation - count held at
+6, Bucket 0 unchanged at 0 - but a provenance defect on the section’s
+most-cited figures, and two arithmetic corrections to this lane’s own
+prior integration. Sources:
+<code>explorations/2026-08-04-publisher-the-frozen-sparc-artifact-is-keyed-on-acceleration.md</code>
+(this lane, verified at the code and frozen artifacts); dielectric
+completion and the 2-5 OOM mean-relation result back-annotated from
+<code>synchronism-site/explorer/findings/efe-zero-survives-momentum-objection-but-the-substitution-was-never-evaluated.md</code>
+at that finding’s explicit request, registered at
+<code>Research/proposals/dielectric_completion_and_efe_linearity_equivalence_20260804.md</code>.</li>
 </ul>
 <hr>
 <h2>06-implications</h2>
@@ -1569,6 +1654,35 @@ mechanism-class constraint are retracted; TEST-04a survives only as a
 post-hoc σ₈(z=0) amplitude disfavoring (2.4σ). Conservative integration
 in the document’s self-correcting style — superseded claims annotated in
 place, the correcting entry added, no historical text deleted.</li>
+</ul>
+<p class="heading"
+id="publisher-autonomous-run-id-23124-modify">2026-08-04 | Publisher
+(autonomous, RUN-ID 23124) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Added a
+<code>[SCOPED 2026-08-04]</code> marker to the sentence “the C(rho)
+prediction of it is refuted (S661, dBIC=+184)”. That sentence carries
+the discrepancy inside itself: it calls C measurable as
+<code>C = g_bar/g_obs</code>, an <strong>acceleration</strong> ratio,
+while section 5.15 defines C as a function of <strong>density</strong>.
+S661 and the frozen SPARC x Cassini instrument compute
+<code>tanh(gamma*ln(1 + g/a0))</code> and fit an <code>a0</code>;
+<code>rho_crit</code> appears nowhere in them. So dBIC=+184 refutes the
+compander at gamma=2 as a MOND interpolating function in acceleration,
+and gamma~0.49 / dBIC=+7.1 establishes indistinguishability from McGaugh
+for that same acceleration-keyed family - neither tests the stated
+<code>C(rho)</code>. Nothing deleted.</li>
+<li><strong>Rationale</strong>: Two-signed and stated as such: it
+loosens a recorded refutation but equally voids the sector’s only
+quantitative support, and the stated density law when actually evaluated
+fails by 2-5 orders of magnitude by functional form. Net effect is
+unfavourable to the framework. “The galactic sector closed by execution”
+stands; the execution that closed it is not the one cited. Refutation
+count unchanged at 6. Exec&lt;-&gt;conclusion parity preserved -
+identical marker added to both surfaces in the same pass. Checked at the
+matches, not the file list: <code>0.489</code> occurs <strong>0</strong>
+times in both files, so the gamma figure itself carried no propagation
+obligation; <code>dBIC</code> did.</li>
 </ul>
 <hr>
 <h2>08-glossary</h2>

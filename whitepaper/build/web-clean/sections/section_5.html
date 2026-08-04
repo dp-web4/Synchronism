@@ -2775,6 +2775,42 @@ ceiling, RAR shape) is downstream of whether that substitution holds.
 And the SPARC form-selection table’s preferred form is Hill n = 1
 <em>exactly</em>, i.e. γ = 1/2 — so the data select the MOND point
 rather than merely tolerating it.</p>
+<p><strong>[AMENDED 2026-08-04] Where the substitution actually sits —
+and it is not between Synchronism and MOND.</strong> The frozen,
+pre-registered instrument that produced <em>every</em> number quoted in
+this note is keyed on <strong>acceleration, not density</strong>.
+<code>simulations/sparc_tanhlog_profile.py</code> inverts
+<code>g_bar = g_obs·tanh(γ·ln(1 + g_obs/a₀))</code>;
+<code>simulations/sparc_cassini_q2.py</code> defines
+<code>mu_tanh_log(x, γ) = tanh(γ·log1p(x))</code> and its own docstring
+calls it <em>“the registered tanh-log family in the mu convention”</em>;
+the registered likelihood in
+<code>Research/preregistrations/sparc_cassini_tanhlog/sparc_profile.json</code>
+profiles <strong>a₀</strong> over <code>log₁₀ a₀ ∈ [−11, −9]</code>. The
+token <code>rho_crit</code> appears in none of them. So <strong>γ ≈
+0.489, ΔBIC +7.1/+184, the grid interval γ ∈ [0.425, 0.600] and the
+Cassini +17.95σ are properties of a MOND-family interpolating function
+in acceleration space, and are not measurements of the <code>C(ρ)</code>
+defined at the top of this section.</strong> The density form
+<em>has</em> been implemented here
+(<code>session128_dark_matter_derivation.py:54</code>;
+<code>compare_empirical_vs_derived.py:32</code>), so the accurate
+statement is not “never evaluated” but: the sector ran on density in the
+Session-100s era and on acceleration in the frozen era, and the equation
+it states is the first while the numbers it quotes are the second. The
+gap is between this framework’s prose and its own instrument — not
+between this framework and MOND. And the two variables are not
+interchangeable: they were separated on this very dataset (0.118 dex vs
+0.161 dex; ≤25% admixture; the 1/r² of enclosed mass that no convolution
+of Σ generates). Evaluating the stated density law directly moves
+predicted rotation velocities by <strong>2–5 orders of
+magnitude</strong> and fails by <em>functional form</em> — a flat curve
+needs boost growing ~linearly in r, while ρ falls exponentially in a
+disk so <code>1/C</code> grows exponentially, and no (γ, ρ_crit)
+reconciles the two. <strong>Refutation count still unchanged at
+6</strong>: this is the mean-relation face of the same substitution the
+scatter no-go already covers, plus a provenance defect — not an
+independent empirical failure.</p>
 <p><strong>The substitution is what the data exclude.</strong> Executed
 2026-08-02 on 2,622 SPARC rotation-curve points (149 galaxies, Q ≤ 2)
 with no functional form assumed, no γ, no ρ_crit, and no fitting:
@@ -2811,22 +2847,76 @@ same underlying failure (local coupling) executed form-free, not an
 independent refutation, and inflating the tally would be the mirror of
 the scope error already on record. Bucket 0 is unchanged (0). Two
 related corrections belong here: the “γ ≈ 0.489 preferred by SPARC”
-figure is <strong>not</strong> a clean standalone measurement of γ — the
-O(x²) term separating γ from ρ_crit carries the coefficient γ(2γ−1),
-which vanishes exactly at γ = 1/2 (verified: 0.000 at 1/2, −0.005 at
-0.489), so γ is degenerate with the ρ_crit prior there, and this
-qualifies the TEST-11/Cassini γ-interval 0.425-0.600 wherever it is
-quoted as a number. And a claim that “the nonlinear Poisson equation
-implementing C(ρ) produces an external field effect at 0.3-0.4× MOND’s”
-is <strong>retracted</strong>: the galaxy sector has no field equation,
-so no such Poisson equation exists and the figure was never derived from
-one. The framework’s actual structure — <code>C = C(ρ_local)</code>,
-with a uniform external field leaving local ρ unchanged — satisfies the
-Strong Equivalence Principle by construction and predicts <strong>EFE =
-0 exactly</strong>. That is sharper and more falsifiable than “weaker
-EFE,” and it stands in tension with the ~4σ EFE detection reported in
-SPARC by Chae et al. 2020. Retracting a fabricated mechanism tightened
-the prediction rather than loosening it.</p>
+figure is <strong>not</strong> a clean standalone measurement of γ
+<em>(the grounds for this were re-derived and corrected on 2026-08-04 —
+see the amendment two paragraphs below; the conclusion stands, the
+stated coefficient did not)</em>. And a claim that “the nonlinear
+Poisson equation implementing C(ρ) produces an external field effect at
+0.3-0.4× MOND’s” is <strong>retracted</strong>: the figure was never
+derived from any such equation <em>(and the accompanying premise “the
+galaxy sector has no field equation” is itself amended below — one
+exists, and it is linear rather than nonlinear, which strengthens rather
+than weakens the retraction’s conclusion)</em>. The framework’s actual
+structure — <code>C = C(ρ_local)</code>, with a uniform external field
+leaving local ρ unchanged — satisfies the Strong Equivalence Principle
+by construction and predicts <strong>EFE = 0 exactly</strong>. That is
+sharper and more falsifiable than “weaker EFE,” and it stands in tension
+with the ~4σ EFE detection reported in SPARC by Chae et al. 2020.
+Retracting a fabricated mechanism tightened the prediction rather than
+loosening it.</p>
+<p><strong>[AMENDED 2026-08-04] The degeneracy is γ ↔︎ a₀, and the
+separating coefficient stated above was wrong.</strong> Two corrections
+to the 2026-08-03 text, both found by recomputation in this lane, both
+against itself. <em>(i)</em> Expanding
+<code>D(x,γ) = tanh(γ·ln(1+x)) − x/(x+2)</code> gives
+<code>D = (γ − ½)·(x − x²/2) + O(x³)</code> — the departure from simple
+μ is <strong>first order in (γ − ½)</strong>, not a second-order term
+with coefficient γ(2γ−1). Verified at x = 10⁻⁵: −0.0750 at γ = 0.425,
+−0.0110 at 0.489, 0.0000 at ½, +0.1000 at 0.600, +1.5000 at γ = 2,
+against the published −0.0319 / −0.0054 / 0.000 / +0.060 / +3.000. The
+published figures are ~2× low near ½ and 2× high at γ = 2. <strong>The
+vanishing point γ = ½ is correct</strong>, so the identity and the
+conclusion built on it stand — but a first-order departure is
+<em>easier</em> for data to resolve than the phrase “the O(x²) term”
+implied, which cuts against the degeneracy argument rather than for it.
+<em>(ii)</em> The degeneracy is <strong>not</strong> with a ρ_crit prior
+— there is no ρ_crit in that fit. In the deep-MOND limit
+<code>tanh(γ·ln(1 + g/a₀)) → γ·g/a₀</code>, so the registered family
+depends on γ and a₀ <strong>only through the ratio γ/a₀</strong>.
+Verified: (γ, a₀) = (0.2445, 2.67×10⁻¹¹), (0.489, 5.33×10⁻¹¹) and
+(0.978, 1.07×10⁻¹⁰) all hold γ/a₀ = 9.17×10⁹ and agree in μ to &lt;1%
+over g ∈ [10⁻¹³, 10⁻¹¹] m s⁻², a 4× span in γ. The fingerprint is in the
+registered artifact itself: its profiled <strong>a₀ = 5.33×10⁻¹¹ m s⁻²
+is 2.11× below the reference McGaugh a₀ = 1.128×10⁻¹⁰</strong> in the
+same file — exactly the compensation γ ≈ ½ requires. So “γ ≈ 0.489 is
+not a standalone measurement of γ” is <strong>correct and now correctly
+grounded</strong>, and the qualification on the TEST-11/Cassini interval
+0.425–0.600 stands unchanged.</p>
+<p><strong>[AMENDED 2026-08-04] A field equation does exist, it is
+linear in Φ, and EFE = 0 is its signature rather than an
+absence.</strong> The 08-03 retraction above rests on “the galaxy sector
+has no field equation.” A momentum-conserving completion exists and is
+the natural one — <code>S = ∫d³x[−(1/8πG)·C(ρ)|∇Φ|² − ρΦ]</code>, giving
+<code>∇·[C(ρ)∇Φ] = 4πGρ</code>. It answers the Felten (1984) third-law
+objection by Noether, and reproduces <code>g = g_N/C(ρ)</code> under
+Gauss in spherical symmetry. It is <strong>linear in Φ</strong> (C
+depends on ρ, not ∇Φ), so superposition holds and <strong>EFE = 0
+exactly</strong> — not an artifact of missing dynamics but the signature
+of that linearity, where AQUAL’s EFE comes from its nonlinearity. The
+polarization force this adds, <code>C′(ρ)|∇Φ|²/8πG</code>, is ≤ 2×10⁻⁵
+of g across five SPARC galaxies: observationally free. The retraction’s
+<em>conclusion</em> is therefore strengthened, not weakened — EFE = 0
+now stands constructively, and its tension with Chae et al. 2020’s ~4σ
+SPARC detection is sharper. <strong>The same linearity is also the
+sector’s worst pathology</strong>: <code>C(0) = tanh(γ·ln 1) = 0</code>
+exactly for every γ and ρ_crit, so under the dielectric reading every
+isolated body has a vacuum of zero permittivity and a divergent exterior
+field. <em>“A uniform external field does not change ρ”</em> and
+<em>“empty space has C = 0 however strong the field”</em> are the same
+statement — C’s argument cannot see the field. <strong>The sector’s one
+surviving structural prediction and its worst pathology are one
+property.</strong> Registered at
+<code>Research/proposals/dielectric_completion_and_efe_linearity_equivalence_20260804.md</code>.</p>
 <p><em>Provenance: γ = 1/2 identity and EFE retraction from
 <code>explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md</code>
 (research lane), inscribed in <code>PREDICTIONS.md</code> B2; identity
@@ -2836,7 +2926,16 @@ re-verified numerically here before propagation. Scatter no-go from
 <code>explorer/scripts/rar_scatter_nogo_real_sparc.py</code>. The
 prior-art scoping in the paragraph above is this lane’s, not that
 finding’s — see
-<code>explorations/2026-08-03-publisher-one-substitution-and-its-exclusion.md</code>.</em></p>
+<code>explorations/2026-08-03-publisher-one-substitution-and-its-exclusion.md</code>.
+The 2026-08-04 amendments: the acceleration-vs-density provenance defect
+and both coefficient corrections are this lane’s, verified at the code
+and the frozen artifacts
+(<code>explorations/2026-08-04-publisher-the-frozen-sparc-artifact-is-keyed-on-acceleration.md</code>);
+the dielectric completion, the mean-relation 2–5 OOM result and the
+EFE⇔linearity⇔vacuum-singularity equivalence are from
+<code>synchronism-site/explorer/findings/efe-zero-survives-momentum-objection-but-the-substitution-was-never-evaluated.md</code>
+(2026-08-03), back-annotated here at that finding’s explicit
+request.</em></p>
 </blockquote>
 <p><strong>The MOND Acceleration Scale:</strong></p>
 <pre><code>a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²</code></pre>
