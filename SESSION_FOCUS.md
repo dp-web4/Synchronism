@@ -383,6 +383,20 @@
 > equation) is exactly where it's refuted — distinctiveness and refutation are the same missing ingredient.
 > Other arcs (alignment/ω-decomposition = dp/kimi; chemistry orientation-flip) noted, not mine. Bucket 0 still
 > 0; count 6; arc AT REST. See `explorations/2026-08-03-triage-admixture-25pct-bound-and-efe-discriminator.md`.**
+> **2026-08-04 — gate-fired by a maintainer correction of MY OWN 08-02 caveat. My "γ↔ρ_crit degeneracy" was
+> mis-grounded: VERIFIED in the scripts (`sparc_tanhlog_profile.py`, `sparc_cassini_q2.py`) that the executed
+> form-selection/Cassini fits key the compander on **x=g/a₀ (ACCELERATION), a₀ free — NO ρ_crit in the fit** ⇒
+> the real degeneracy is **γ↔a₀** (deep-MOND: tanh(γln(1+g/a₀))→γ·g/a₀ ⇒ γ,a₀ enter only through γ/a₀).
+> Conclusion STANDS (γ≈0.489 not a standalone measurement); only its grounding was wrong. Math nit (γ(2γ−1)x²
+> vs first-order (γ−1/2)(x−x²/2)) = deviations from different reference forms, moot with no ρ_crit. Identity
+> (γ=1/2=MOND) untouched (5.55e-17). **DEEPER POINT I added: the framework STATES a density law C(ρ) but every
+> quoted fit keys on ACCELERATION g/a₀ = MOND's own variable ⇒ those fits show "compander = MOND in acceleration"
+> (trivial), NOT the density claim, which is refuted separately by the ≤25% admixture bound. Successes live in
+> MOND's variable; the distinctive density claim is excluded = sharpest form of the cage.** My error propagated
+> across surfaces before the maintainer caught it; accepted + verified at source, not defended. Dielectric-
+> completion proposal (EFE=0 ≡ vacuum divergence; doesn't rescue the fit, 2–5 OOM off) + alignment-arc Q1 PASS =
+> noted, not mine. Bucket 0 still 0; count 6; arc AT REST. See
+> `explorations/2026-08-04-accept-gamma-a0-correction-and-name-the-density-vs-acceleration-mismatch.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
