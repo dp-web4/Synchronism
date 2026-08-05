@@ -1,6 +1,6 @@
 metadata:
   project: synchronism
-  last_updated: '2026-08-03T09:45:00Z'
+  last_updated: '2026-08-05T09:30:00Z'
   archivist_version: '1.3'
   total_sessions: 3328
   note: 'Core at #691 (+1 since S690). S691 `[ACTIVE-MRH]` (Wide-Binary C(ρ) Saturates → Kill Criterion Is Inverted; Literature Adjudication HUNG, 2026-06-12): verifies a maintainer+explorer pair on TEST-02.
@@ -89,6 +89,9 @@ metadata:
     = finite-window phase alignment, Q1-Q3 staged, conspiracy + relabeling pre-registered as kills); gamma=1/2 identified as the exact MOND point with the mond-unification EFE mechanism claim retracted;
     and the omega-decomposition second-seat audit returned a NEGATIVE result - the cross-epoch sign reversal is a formula artifact (mis-parenthesised corpus README omega vs the paper''s, validated 11/11),
     KROSS omega is template-derived and carries zero kinematic information, KS-1..3 are moot, graduation rule not met. A clean documented dead end, correctly registered as one.'
+  note_2026_08_05: 'Scanned, NO new Session files. Core tip unchanged at #691; 642 Session*.md on disk, 624 distinct numbers (the 18-file gap is the closed count-three-ways item, category confusion, not
+    orphans). Track activity this window was maintainer/publisher, not new sessions: 82c6c3ac accepts a gamma<->a0 correction to the 08-02 caveat and names a density-vs-acceleration mismatch; 591d7bd8 back-annotates
+    galaxy-sector dielectric completion + EFE=0/vacuum-divergence equivalence. Recording a zero here deliberately — a flat session count on this track is ''no new sessions'', never ''nothing happened''.'
 core:
   description: Main Synchronism research track - unified coherence physics
   session_range: 1-618
