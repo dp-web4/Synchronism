@@ -2860,10 +2860,12 @@ than weakens the retraction’s conclusion)</em>. The framework’s actual
 structure — <code>C = C(ρ_local)</code>, with a uniform external field
 leaving local ρ unchanged — satisfies the Strong Equivalence Principle
 by construction and predicts <strong>EFE = 0 exactly</strong>. That is
-sharper and more falsifiable than “weaker EFE,” and it stands in tension
-with the ~4σ EFE detection reported in SPARC by Chae et al. 2020.
-Retracting a fabricated mechanism tightened the prediction rather than
-loosening it.</p>
+sharper and more falsifiable than “weaker EFE.” Retracting a fabricated
+mechanism tightened the prediction rather than loosening it. <em>(The
+further claim that this “stands in tension with the ~4σ EFE detection
+reported in SPARC by Chae et al. 2020” is <strong>withdrawn
+2026-08-05</strong> — the prediction is not evaluable against that
+dataset. See the amendment at the end of this note.)</em></p>
 <p><strong>[AMENDED 2026-08-04] The degeneracy is γ ↔︎ a₀, and the
 separating coefficient stated above was wrong.</strong> Two corrections
 to the 2026-08-03 text, both found by recomputation in this lane, both
@@ -2906,17 +2908,103 @@ of that linearity, where AQUAL’s EFE comes from its nonlinearity. The
 polarization force this adds, <code>C′(ρ)|∇Φ|²/8πG</code>, is ≤ 2×10⁻⁵
 of g across five SPARC galaxies: observationally free. The retraction’s
 <em>conclusion</em> is therefore strengthened, not weakened — EFE = 0
-now stands constructively, and its tension with Chae et al. 2020’s ~4σ
-SPARC detection is sharper. <strong>The same linearity is also the
-sector’s worst pathology</strong>: <code>C(0) = tanh(γ·ln 1) = 0</code>
-exactly for every γ and ρ_crit, so under the dielectric reading every
-isolated body has a vacuum of zero permittivity and a divergent exterior
-field. <em>“A uniform external field does not change ρ”</em> and
-<em>“empty space has C = 0 however strong the field”</em> are the same
-statement — C’s argument cannot see the field. <strong>The sector’s one
-surviving structural prediction and its worst pathology are one
-property.</strong> Registered at
+now stands constructively. <em>(This paragraph originally continued “and
+its tension with Chae et al. 2020’s ~4σ SPARC detection is sharper.”
+That clause is <strong>withdrawn 2026-08-05</strong> — see the amendment
+below. EFE = 0 standing constructively is unaffected; only its claimed
+empirical tension was wrong.)</em> <strong>The same linearity is also
+the sector’s worst pathology</strong>:
+<code>C(0) = tanh(γ·ln 1) = 0</code> exactly for every γ and ρ_crit, so
+under the dielectric reading every isolated body has a vacuum of zero
+permittivity and a divergent exterior field. <em>“A uniform external
+field does not change ρ”</em> and <em>“empty space has C = 0 however
+strong the field”</em> are the same statement — C’s argument cannot see
+the field. <strong>The sector’s one surviving structural prediction and
+its worst pathology are one property.</strong> Registered at
 <code>Research/proposals/dielectric_completion_and_efe_linearity_equivalence_20260804.md</code>.</p>
+<p><strong>[AMENDED 2026-08-05] EFE = 0 is <em>not evaluable</em>
+against Chae et al. 2020, and the “tension” claimed for it above is
+withdrawn.</strong> Two paragraphs above assert that EFE = 0 “stands in
+tension with the ~4σ EFE detection” of Chae et al. 2020, and the 08-04
+amendment then called that tension “sharper.” Both are withdrawn. The
+reason is a number this note already contains and never applied:
+<strong>the stated density law misses the rotation curve itself by 2–5
+orders of magnitude</strong>, and the EFE is a <em>residual</em> on that
+same curve. Chae’s detection is a velocity deficit of <strong>0.046 dex
+(NGC5055, 11σ) to 0.083 dex (NGC5033, 8σ)</strong> — a 10–17% effect. A
+model that is 2–5 dex from the observable cannot be in tension with a
+0.05–0.08 dex feature of it.</p>
+<p>Re-derived independently in this lane rather than accepted (SPARC
+Lelli et al. 2016 mass models, in-repo at
+<code>simulations/sparc_real_data/MassModels_Lelli2016c.mrt</code>),
+evaluating <code>C(ρ) = tanh(γ·ln(ρ/ρ_crit + 1))</code> with
+<code>ρ = Σ/2h</code>, <code>ρ_crit = 0.029·V_flat²</code> M☉/pc³,
+ledger convention <code>V = V_bar/√C</code>, at the outermost radius
+with positive reconstructed density — Chae’s own measurement region:</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>galaxy</th>
+<th>Chae <code>e</code></th>
+<th>baseline error</th>
+<th>EFE signal</th>
+<th>baseline / signal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>NGC5033</td>
+<td>0.104 (8σ)</td>
+<td>+3.14 to +3.71 dex</td>
+<td>0.083 dex</td>
+<td><strong>38× – 45×</strong></td>
+</tr>
+<tr class="even">
+<td>NGC5055</td>
+<td>0.054 (11σ)</td>
+<td>+3.62 to +4.18 dex</td>
+<td>0.046 dex</td>
+<td><strong>80× – 92×</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Across the full grid (γ ∈ {2, 0.489} × h ∈ {0.3, 1.0} kpc) the
+framework’s baseline error exceeds the entire effect being measured by
+<strong>38×–92×</strong>; the most favourable configuration anywhere on
+the grid still gives 37.8×. MOND on the same points and the same
+pipeline sits at +0.002 to +0.084 dex, i.e. <em>inside</em> the signal.
+<strong>The correct badge for EFE = 0 against this dataset is
+<code>not-evaluable</code> — neither confirmed nor refuted.</strong></p>
+<p><strong>This cuts both ways, and both directions were live in this
+repo.</strong> The 08-03/08-04 text overclaimed <em>testability</em>
+(“sharper,” “in tension with”); a same-day research-lane note in the
+other direction — that EFE = 0 is “a genuine MOND-discriminator that the
+framework <strong>fails</strong>” — overclaims <em>refutation</em>. Both
+die on the same ratio. <strong>Refutation count stays at 6; no 7th is
+added, and Bucket 0 stays 0.</strong> The executive-summary claim that
+“zero remaining active discriminators” no longer holds unqualified
+because “the EFE magnitude is one, in the refuting direction” is
+likewise withdrawn: <strong>zero remaining active discriminators
+stands.</strong></p>
+<p><strong>The mechanism worth keeping.</strong> The exec-summary
+propagation carried its own warning label — <em>“Magnitude not
+independently re-derived here”</em> — and the magnitude was the entire
+load-bearing content of the claim. A claim can be propagated across four
+surfaces in two days <em>with an accurate note saying the decisive
+quantity was never computed</em>, and the note does not stop it.
+Generalized and registered as a gate: <strong>a structural prediction is
+testable against a measurement only if the measurement’s signal exceeds
+the model’s own baseline error on the same observable at the same radii
+— compute that ratio before badging any published result as confirming
+or refuting.</strong> Here it reversed a proposed 11σ refutation into a
+not-evaluable.</p>
 <p><em>Provenance: γ = 1/2 identity and EFE retraction from
 <code>explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md</code>
 (research lane), inscribed in <code>PREDICTIONS.md</code> B2; identity
@@ -2934,8 +3022,19 @@ and the frozen artifacts
 the dielectric completion, the mean-relation 2–5 OOM result and the
 EFE⇔linearity⇔vacuum-singularity equivalence are from
 <code>synchronism-site/explorer/findings/efe-zero-survives-momentum-objection-but-the-substitution-was-never-evaluated.md</code>
-(2026-08-03), back-annotated here at that finding’s explicit
-request.</em></p>
+(2026-08-03), back-annotated here at that finding’s explicit request.
+The 2026-08-05 amendment: the not-evaluable verdict and the per-galaxy
+baseline/signal ratios originate in
+<code>synchronism-site/explorer/findings/efe-zero-is-not-refutable-by-chae2020-the-baseline-is-off-by-3-dex.md</code>
+(script
+<code>explorer/scripts/efe_required_ambient_density_vs_chae2020.py</code>),
+and were <strong>reproduced independently in this lane</strong> on the
+in-repo SPARC mass models before propagation — this lane’s grid gives
+38×–92× against that finding’s 37×–53×, agreeing at the minimum and
+running higher elsewhere, so the conclusion is not sensitive to the
+difference. The two-directional framing (testability overclaim </em>and*
+refutation overclaim dying on the same ratio) and the baseline/signal
+gate are this lane’s.*</p>
 </blockquote>
 <p><strong>The MOND Acceleration Scale:</strong></p>
 <pre><code>a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²</code></pre>
