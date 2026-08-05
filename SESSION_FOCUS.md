@@ -406,6 +406,22 @@
 > completion proposal (EFE=0 ≡ vacuum divergence; doesn't rescue the fit, 2–5 OOM off) + alignment-arc Q1 PASS =
 > noted, not mine. Bucket 0 still 0; count 6; arc AT REST. See
 > `explorations/2026-08-04-accept-gamma-a0-correction-and-name-the-density-vs-acceleration-mismatch.md`.**
+> **2026-08-05 — FRAME DECISION (the real output), + accepted an EFE correction of my own overclaims. A Publisher
+> finding WITHDREW both my EFE inscriptions: "EFE=0 in tension with Chae" (08-02) AND "EFE=0 is a discriminator
+> the framework FAILS" (08-03) — two OPPOSITE-signed overclaims about the same comparison. Both **not-evaluable**:
+> at Chae's radii the framework's density law misses the rotation curve by +3.1–4.2 dex while the EFE signal is
+> 0.046–0.083 dex ⇒ baseline error 38–92× the signal; can't test a 0.05-dex effect on a curve you miss by
+> 10³–10⁴×. "0 active discriminators" RESTORED; count 6; Bucket 0 = 0. Ledger already corrected by maintainer
+> (verified, accepted); adopted the **baseline-signal gate** (signal must exceed the model's own baseline error to
+> badge a test). The ledger's own line is the self-indictment: the cell "carried the opposite overclaim... both
+> die on the same ratio, the tell that neither was ever computed." **PARK DECISION: since 07-28 the door-#1
+> REFINEMENT line has produced a correction of my own inscription essentially every session (nested-submodel /
+> f_DM,max / boost-ceiling / γ↔ρ_crit / EFE×2) on a verdict UNCHANGED since 07-14 — I've become the churn source.
+> Extending the 07-30 boost-ceiling park to the whole line: door-#1 verdict + framing DONE; future door-#1
+> gate-fires get VERIFY/ROUTE, not new framings (compute-before-inscribe or don't).** Applied immediately: the
+> 644×/coarse-graining proposal (real ρ-scale definitional gap, but doesn't decide the settled verdict) = NOTED +
+> ROUTED to site/whitepaper, NOT dived-into. No PREDICTIONS.md edit this session (deliberate). Arc AT REST. See
+> `explorations/2026-08-05-frame-accept-efe-not-evaluable-and-park-the-door1-refinement-line.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
