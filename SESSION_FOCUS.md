@@ -362,7 +362,10 @@
 > [CORRECTED 2026-08-04] ~~γ-vs-ρ_crit separator ∝ γ(2γ−1)~~ → the separator is FIRST order, (γ−½), not O(x²)·γ(2γ−1); and the degeneracy is γ↔**a₀**, not γ↔ρ_crit — the frozen fit is keyed on acceleration and contains no ρ_crit at all. Still VANISHES at γ=1/2 ⇒ "γ≈0.489" is degenerate (qualifies the TEST-11
 > Cassini γ-interval). (2) EFE OVER-CLAIM RETRACTED: "nonlinear Poisson eq ⇒ EFE 0.3–0.4× MOND" is bogus (no
 > field equation exists); actual C=C(ρ_local) ⇒ uniform external field leaves ρ unchanged ⇒ **EFE=0 exactly (SEP
-> by construction)** — sharper + in tension with Chae 2020's ~4σ detection. (3) Adjudicated the Publisher's
+> by construction)** — sharper ~~+ in tension with Chae 2020's ~4σ detection~~ **[WITHDRAWN 2026-08-05: EFE=0 is
+> `not-evaluable` against Chae — the framework misses the rotation curve by +3.1–4.2 dex at Chae's own radii while
+> the signal is 0.046–0.083 dex, a 38×–92× baseline/signal ratio, re-derived in-lane on the in-repo SPARC mass
+> models. Count stays 6; "zero active discriminators" stands]**. (3) Adjudicated the Publisher's
 > correction flag on MY 08-01 TEST-25: "normalisation-free" was FALSE (my clause; ratio runs 1.99–3.37× over 4
 > anchors, only the SIGN robust); caveat (ii) retracted (Gueorguiev = power-limited null); status
 > **DISFAVOURED→NON-DISCRIMINATING** (ΛCDM+baryons predicts the same a₀(z), Mayer 2023 Magneticum) = the sharper
@@ -375,12 +378,18 @@
 > **α=1.00, 95% CI [0.75,1.00] ⇒ SPARC admits ≤25% weight on a local-density variable; the framework sits at
 > 100% = excluded.** The locality no-go as a NUMBER (framework-independent, reusable): the data permit the
 > substitution at most 25% of the way. Inscribed CAVEATED (executed sibling-repo, not re-run by me; but it's the
-> continuous-α generalization of my verified 07-15 TEST-08 null r²=0.0001, and they agree). (2) EFE=0 is a
+> continuous-α generalization of my verified 07-15 TEST-08 null r²=0.0001, and they agree). (2) ~~EFE=0 is a
 > GENUINE MOND-discriminator the framework FAILS: the "0 tests select Synchronism over MOND" claim is now
 > imprecise — the framework is MOND-identical on rotation curves (γ=1/2) but differs on EFE (EFE=0 vs MOND's
-> nonzero, because it has NO field equation), and Chae 2020's ~4σ detection sides with MOND. Sharp class law:
-> the framework equals MOND everywhere testable, and its ONE structural departure (EFE, from the missing field
-> equation) is exactly where it's refuted — distinctiveness and refutation are the same missing ingredient.
+> nonzero, because it has NO field equation), and Chae 2020's ~4σ detection sides with MOND.~~
+> **[RETRACTED 2026-08-05 — EFE=0 is `not-evaluable`, NOT refuted; "0 tests select Synchronism over MOND" was
+> never imprecise and stands.** At Chae's own measurement radii the stated density law misses the rotation curve
+> by +3.1–4.2 dex while the EFE signal is 0.046–0.083 dex — baseline/signal **38×–92×** across γ ∈ {2, 0.489} ×
+> h ∈ {0.3, 1.0} kpc; MOND on the same points sits at +0.002–0.084 dex, *inside* the signal. Executed in the
+> sibling repo, re-derived independently here on the in-repo Lelli+2016 mass models. Count stays 6, Bucket 0
+> stays 0.] Sharp class law, corrected: the framework equals MOND everywhere testable, and its ONE structural
+> departure (EFE) is **out of reach of the data** rather than sided against — distinctiveness is unreachable,
+> not refuted.
 > Other arcs (alignment/ω-decomposition = dp/kimi; chemistry orientation-flip) noted, not mine. Bucket 0 still
 > 0; count 6; arc AT REST. See `explorations/2026-08-03-triage-admixture-25pct-bound-and-efe-discriminator.md`.**
 > **2026-08-04 — gate-fired by a maintainer correction of MY OWN 08-02 caveat. My "γ↔ρ_crit degeneracy" was
