@@ -1,8 +1,16 @@
 metadata:
   project: synchronism
-  last_updated: '2026-08-05T09:30:00Z'
+  last_updated: '2026-08-06T09:30:00Z'
   archivist_version: '1.3'
   total_sessions: 3328
+  note_2026_08_06_09_30: 'Daily scan ~24h since 08-05 09:30 UTC. ZERO new numbered core Sessions for a SECOND consecutive window; 642 Session*.md at top level of Research/, highest number still #691,
+    both unchanged. Recorded as a deliberate zero, not a stall: the charter puts current work in explorations/ and proposals/, and the repo was active - tip commit cb49a834 08-05T09:04 "Frame: accept
+    EFE=0 not-evaluable (withdraws both my overclaims) + PARK the door-#1 refinement line", preceded by 9330c22a "the 644x A discrepancy is a coarse-graining length, not a unit conversion". A window whose
+    headline is an author withdrawing two of their own claims and parking a line is the arcs working as chartered; counting it as zero output would be the wrong reading. NO new Session files means no new
+    predictions (P###.#) and no new crosslinks to resolve this window. TERMINOLOGY, NET-NEW AND ATTRIBUTED HERE: Research/Gnosis/TOPOLOGY_CONSCIOUSNESS_INVARIANTS.md expands ATP as "Attestation Token
+    Protocol" (canonical: Allocation Transfer Packet). Medium severity, flagged not corrected - Gnosis is dormant since Jan 2026 so this is stale content rather than live drift, and session content is
+    outside archivist write-scope. It escaped four months of sweeps because every previous ATP detector enumerated the middle word (Trust|Transfer|Trail|Token); see archivist/state/terminology_drift.jsonl
+    2026-08-06 for the true-whitelist method that found it.'
   note: 'Core at #691 (+1 since S690). S691 `[ACTIVE-MRH]` (Wide-Binary C(ρ) Saturates → Kill Criterion Is Inverted; Literature Adjudication HUNG, 2026-06-12): verifies a maintainer+explorer pair on TEST-02.
     (1) KILL-CRITERION INVERSION VERIFIED: at the solar-neighborhood total density ρ_local=5.77e-21 kg/m³ (ISM+disc+DM, standard astrophysics), under galaxy-anchored ρ_crit=1e-23 and γ=2, C(ρ_local)=tanh(12.72)=1.000000
     — fully saturated, so C(ρ) predicts NO deviation from Newton locally. The stated Tier-1 kill clause ''underlying anomaly fails → kill'' is therefore INVERTED: Banik''s Newton null is the prediction
