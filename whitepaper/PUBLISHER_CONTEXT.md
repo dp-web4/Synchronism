@@ -178,6 +178,68 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 2026-08-06 (AUTONOMOUS): A proposal to soften an audit verdict is DECLINED on re-execution — and the half of it that survives is the better finding, so §6.4 gains an open question the framework has never had
+
+**Trigger.** `Research/proposals/A_calibration_is_a_coarse_graining_scale_644x_resolved_20260805.md` (site
+maintainer track, 2026-08-05) argues the archive's 644× A-calibration gap is not an arithmetic failure but
+a *coarse-graining length*: A ∝ 1/ℓ², √644 ≈ 25.4, 8 kpc/25.4 ≈ 315 pc ≈ the disk scale height the site's own
+plotter already uses. If accepted, the whitepaper's S687 sentence — *"the framework's last surviving
+first-principles derivation fails arithmetically"* — would need softening.
+
+**Declined, by re-executing the generating code rather than re-reading it.** `simulations/session66_A_gap_investigation.py`
+returns A = 0.02944 from **α = 4.5** and **R₀ = 0.07 kpc/(km/s)^0.75** — the fitted coefficient of
+R_half = R₀·V^0.75, which is not a length. Against the *stated* formula's inputs (β_J = 1, R₀ = 8 kpc,
+A = 4.5646×10⁻⁵) the gap has the exact closed form **(8/0.07)²/4.5² = 645.0** — *two* substitutions, one of
+them a units mismatch. The single-length reading requires setting β_J = 1 where the code used α = 4.5; at the
+code's own α the implied length is **70.5 pc**, 4.25× from the 300 pc it is claimed to be, and S53 records α
+varying 1.3–4.5 by galaxy type, so the implied length is not even single-valued. **The 317 pc match is
+manufactured by setting a free parameter to 1.** This reproduces the 2026-06-07 chain-of-custody closure,
+which reached the same place from the same code 59 days earlier.
+
+**No body change to the S687 sentence — it was already right.** Its second clause names the operative
+mechanism (*"the 5% agreement came from a different calculation that derives ρ_crit ∝ V^0.5"*), which
+re-execution confirms. Added only a parenthetical reconciling the three figures circulating for one gap:
+**614×** (vs empirical 0.028), **644×** (vs derived 0.0294), **645.0** (exact). All three are correct against
+different denominators and none said so; a later pass would have "corrected" one of two right numbers.
+
+**The half that survives is stronger than the half that failed → new `[ACTIVE-MRH]` open question OQ-Coarsening (§6.4).**
+The proposal's other source (an external reviewer pass) raised something real and independent: `C(ρ)` takes a
+density and **no section here, and no session in the archive, specifies the coarse-graining length ℓ**.
+Registered with three computed consequences rather than as an assertion:
+
+- **The bias is one-signed.** S659A's exact `d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] < 0` re-verified
+  symbolically ⇒ C strictly concave ⇒ Jensen gives `⟨C(ρ)⟩ < C(⟨ρ⟩)` **strictly**. Smoothing always
+  *over*estimates coherence and, via `f_DM = 1 − C`, always *under*estimates the dark-matter fraction.
+- **Largest at the knee.** Lognormal ρ at fixed mean, γ=2: at x=1, within-beam scatter 0.3/0.6/1.0 dex gives
+  C(⟨ρ⟩)=0.882 vs ⟨C(ρ)⟩=0.778/0.565/0.301 → **12%/36%/66%** overestimate.
+- **ℓ sets the verdict.** `x ∝ ℓ²`, so NGC 3198 runs C = 0.0003 (ℓ=100 pc) → **0.86** (ℓ=8 kpc). §5.15's
+  decisive local-density null is itself stated *"at constant scale height"* and does not say what fixes it.
+
+Discharge: one ℓ must serve SPARC disks, Cassini/TEST-11, wide binaries and clusters. An order-of-magnitude
+mismatch between sectors is a **parameter-free obstruction on the coarse-graining axis**, estimator-independent
+unlike the amplitude and functional-form obstructions already banked. Unrun, unowned, cheap.
+
+**Refutation count HELD at 6. Bucket 0 = 0.** Nothing here refutes or rescues; a definitional gap is not a kill.
+
+**Direction, stated because it is the opposite of yesterday's.** 08-05 withdrew two overclaims *against* the
+framework. Today declines a proposal that would have softened an audit verdict *for* it. Same gate — re-execute
+the primary source — pointed both ways in two days. The ledger is not a ratchet in either direction.
+
+**Gates**: claims freeze exit 0 (10 claims, v1 verified); build exit 0 (7,496 lines, +20); churn **content 42 /
+raw 23,360 → FIRED**, artifacts restored, CI builds (7th consecutive correct firing); lone-CR 1 path (frozen v1
+snapshot, unchanged); recommendations.json 7/5 raw==content. **Self-caught**: my first write to
+recommendations.json invented `strength`/`last_reviewed` fields against the file's actual `readiness_score`/
+`date_updated` schema — repaired before commit; the instance now lives in `strengths` where a later pass will
+find it. Also self-caught: a `np.gradient`-on-logspace concavity check returned d²C/dρ² > 0 and appeared to
+refute S659A; it was roundoff, and sympy confirms the archive's form exactly.
+
+**Flagged, not edited (out of scope, containment verified)**: `/key-claims` asserts no galaxy crosses the knee
+*"for any value of the calibration constant"* — **false**, `x ∝ 1/A` exactly, and the site's own audited A
+crosses it (C = 0.86 for NGC 3198, reproduced here). Absent from this whitepaper — verified, so no propagation
+to correct. Site-lane scope. Separately, `Research/Gnosis/TOPOLOGY_CONSCIOUSNESS_INVARIANTS.md:91` expands
+**ATP as "Attestation Token Protocol"**; canonical is *Allocation Transfer Packet* (§7). One occurrence
+repo-wide, **0 published surfaces** (whitepaper and docs/ both clean) — contained, so flagging is not gating here.
+
 ### 2026-08-05 (second pass, manual, dp-requested): Today's autonomous edit verified sound at every published surface — and the *fourth* log surface this lane counts has never existed in git, so the 08-02 entry that caught a missing surface was itself off by one, in the same direction, for the same reason
 
 - **Today's edit verified end-to-end at CI's committed artifacts rather than at its own report.** Both monoliths (`docs/whitepaper/` and `whitepaper/build/`) carry `not-evaluable` **×8**, `RE-AMENDED 2026-08-05` **×3**, `AMENDED 2026-08-05` **×5** — exact parity, so the two published copies cannot have drifted. The **PDF text layer** (856,414 bytes, 649,622 extracted) carries **8** `AMENDED` occurrences and they reconcile to located sources rather than being waved at: 3 × `RE-AMENDED 2026-08-05` (`:569`, `:6686`, `:8872`), 3 × `AMENDED 2026-08-04` (`:4871`, `:4944`, `:4962`), 2 × `AMENDED 2026-08-05` (`:4985` the §5.15 marker, `:9064` the CHANGELOG's prose reference to it). Instrument checked before being quoted, per the 08-01 blind-scanner rule: the same `pdftotext` run returns `MOND` ×153 and `Chae` ×24, so a zero would have meant absence rather than blindness.

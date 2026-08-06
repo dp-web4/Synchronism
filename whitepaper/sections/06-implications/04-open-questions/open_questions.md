@@ -32,6 +32,18 @@ A.3's "exact NS identification" claim was **already retracted by the audit arcs*
 
 The substantively active question is therefore not "reconcile A.3 with S617/S665/S666" — that's done — but rather: **what substrate reformulation actually escapes S665 + S666?** The Kimi saturation reframe (real-valued I + independent vector **J**) escapes S665 partially (J can have curl) but does NOT escape S666 (still dissipative). Substantive escape requires either dropping the entity ontology, going complex-valued (essentially standard QM with new vocabulary), or naming the substrate/ontology split as an irreducible foundational tension (FUNDAMENTALS Foundation 4 epicycle warning, named openly). See `forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md` for the deeper-reading analysis.
 
+**OQ-Coarsening — The smoothing scale of ρ is never specified `[ACTIVE-MRH]`** (added 2026-08-06)
+
+`C(ρ) = tanh(γ·ln(ρ/ρ_crit + 1))` takes a *density* as its argument, and a density is not defined until a coarse-graining length ℓ is named. No section of this whitepaper, and no session in the archive, specifies ℓ. Three consequences, each computed rather than asserted:
+
+1. **The bias has a known sign.** S659A's exact result — `d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] < 0` for all ρ>0, γ>0, re-verified symbolically 2026-08-06 — makes C *strictly* concave. Jensen's inequality then gives `⟨C(ρ)⟩ < C(⟨ρ⟩)` **strictly**: smoothing systematically **over**estimates coherence, and since `f_DM = 1 − C`, systematically **under**estimates the inferred dark-matter fraction. This is not a random error that averages out.
+2. **The magnitude is large near the knee.** For a lognormal ρ within the smoothing beam at fixed mean (γ=2, 4×10⁵ samples): at x ≡ ⟨ρ⟩/ρ_crit = 1, within-beam scatter of 0.3/0.6/1.0 dex gives C(⟨ρ⟩) = 0.882 against ⟨C(ρ)⟩ = 0.778/0.565/0.301 — a **12%/36%/66% overestimate**. The error is worst exactly where the framework locates its transition.
+3. **The galaxy-sector verdict is set by ℓ, not by the data.** Under the Jeans normalization route A ∝ 1/ℓ², and x ∝ 1/A, so `x ∝ ℓ²`. For NGC 3198 under the framework's own disk model (V=150 km/s, R_d=2.6 kpc): ℓ = 100 pc → C = 0.0003 (knee never approached); ℓ = 8 kpc → C = 0.86 (knee crossed). An unstated parameter spans the entire range of the conclusion. §5.15's decisive local-density null is itself stated *"at constant scale height"* — it depends on ℓ being fixed and does not say what fixes it.
+
+**Discharge condition.** ℓ is not free once consistency across sectors is demanded: one ℓ must serve SPARC disks, the Cassini/Solar-System bound (TEST-11, +17.95σ), wide binaries (TEST-02), and clusters. Run it. If the required ℓ differs by orders of magnitude between sectors, that is a **parameter-free obstruction on the coarse-graining axis**, and a stronger one than the amplitude and functional-form obstructions already banked, because it depends on no estimator choice. Until then, every knee statement in this document should be read as ℓ-conditional.
+
+**What this is not.** A 2026-08-05 proposal reads the archive's 644× A-calibration gap as this same coarse-graining length (ℓ ≈ 317 pc ≈ the disk scale height). That reading does not survive re-execution of the generating code and is **not** the basis of this entry — see the executive summary's S687 note. The obligation above stands on its own and is unaffected either way.
+
 **OQ-Discriminators — Quantitative deviations from GR/QM `[PARALLEL-PATHS]` (gated on OQ-fN)**
 
 Once `f(N)` is derived, quantify the predicted deviation from GR/QM for each of:
