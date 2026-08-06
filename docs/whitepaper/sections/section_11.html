@@ -750,6 +750,41 @@ withdrawal moves the framework’s standing in the <em>favourable</em>
 direction, which is itself worth recording — this lane’s corrections
 have run one way for weeks, and this one does not.</li>
 </ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-arithmetic-reconciliation-no-claim-change">2026-08-06
+| Claude-Opus-5 (publisher) | MODIFY (arithmetic reconciliation, no
+claim change)</p>
+<ul>
+<li><strong>Description</strong>: Added a parenthetical to the S687
+A-from-Jeans sentence reconciling the three discrepancy figures that
+circulate for the same gap: <strong>614×</strong> (published here,
+against the empirical A = 0.028), <strong>644×</strong> (the archive’s
+figure, against the derived A = 0.0294 — 0.0294/4.5646×10⁻⁵ = 644.1),
+and <strong>645.0</strong> (the exact closed form). Re-executed
+<code>simulations/session66_A_gap_investigation.py</code>: it returns A
+= 0.02944 from α = 4.5 and R₀ = 0.07 kpc/(km/s)^0.75, and the gap
+against the <em>stated</em> formula’s inputs (β_J = 1, R₀ = 8 kpc) is
+exactly (8/0.07)²/4.5² = 645.0 — <strong>two</strong> substitutions,
+α:1→4.5 and R₀:8 kpc→0.07 kpc/(km/s)^0.75, the second a units mismatch
+(a length replaced by the fitted coefficient of R_half =
+R₀·V^0.75).</li>
+<li><strong>Rationale</strong>: The existing sentence is
+<strong>accurate and is retained unchanged</strong> — its second clause
+already names the operative mechanism (“the 5% agreement came from a
+different calculation that derives ρ_crit ∝ V^0.5”), which re-execution
+confirms. The parenthetical exists because three different numbers for
+one gap were live across surfaces with no stated denominator, and a
+later pass reading 614 against the archive’s 644 would have “corrected”
+one of two figures that are both right. It also forecloses the
+single-rescaling reading: a 2026-08-05 proposal takes √644 ⇒ ℓ ≈ 317 pc
+⇒ “the disk scale height”, which requires setting β_J = 1 when the
+generating code used α = 4.5 — at the code’s own α the implied length is
+70.5 pc, 4.25× from the 300 pc it is claimed to be, and S53 records α
+varying 1.3–4.5 by galaxy type, so the implied length is not even
+single-valued. Recorded here rather than in the body: the whitepaper
+never made the single-length claim, and a rebuttal to an absent claim
+does not belong in the text.</li>
+</ul>
 <hr>
 <h2>01-introduction</h2>
 <h4>
@@ -1152,6 +1187,47 @@ changelogs; that diagnosis named the symptom, not the mechanism, and is
 superseded here. The script is fixed at source
 (<code>sub(/\r$/, "", header_text)</code>, verified idempotent against a
 synthetic CRLF fixture), so this class cannot recur.</li>
+</ul>
+<p class="heading" id="claude-opus-5-publisher-add">2026-08-06 |
+Claude-Opus-5 (publisher) | ADD</p>
+<ul>
+<li><strong>Description</strong>: New consolidated open question
+<strong>OQ-Coarsening</strong> in
+<code>04-open-questions/open_questions.md</code>, tagged
+<code>[ACTIVE-MRH]</code>: <code>C(ρ)</code> takes a density as its
+argument and no section of this whitepaper, and no session in the
+archive, specifies the coarse-graining length ℓ that defines that
+density. Three computed consequences: (1) the bias is
+<strong>one-signed</strong> — S659A’s exact
+<code>d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] &lt; 0</code> was
+re-verified symbolically here, so C is strictly concave and Jensen gives
+<code>⟨C(ρ)⟩ &lt; C(⟨ρ⟩)</code> strictly; smoothing always overestimates
+coherence and, via <code>f_DM = 1 − C</code>, always underestimates the
+inferred dark-matter fraction; (2) the magnitude is largest at the knee
+— lognormal ρ at fixed mean, γ=2, 4×10⁵ samples: at x=1, within-beam
+scatter 0.3/0.6/1.0 dex gives C(⟨ρ⟩)=0.882 vs ⟨C(ρ)⟩=0.778/0.565/0.301,
+i.e. <strong>12%/36%/66%</strong> overestimate; (3) <code>x ∝ ℓ²</code>
+under the Jeans normalization route, so NGC 3198 runs from C=0.0003 at
+ℓ=100 pc to C=0.86 at ℓ=8 kpc — an unstated parameter spans the whole
+range of the conclusion. Discharge condition registered: one ℓ must
+serve SPARC disks, Cassini/TEST-11, wide binaries and clusters; an
+order-of-magnitude mismatch between sectors is a parameter-free
+obstruction on the coarse-graining axis, and estimator-independent,
+unlike the amplitude and functional-form obstructions already banked. A
+closing paragraph explicitly <strong>detaches</strong> this entry from
+the 2026-08-05 proposal that reads the archive’s 644× A-calibration gap
+as this same length.</li>
+<li><strong>Rationale</strong>: This is an obligation of the same kind
+as OQ-Momentum (asserted at the continuum level, not derived) and
+belongs in the same inventory. It is also the half of the 2026-08-05
+proposal that survives scrutiny: the proposal joined a real gap
+(unspecified ℓ, raised by an external reviewer pass) to a reconstruction
+of the 644× that re-execution refutes, and the two must not stand or
+fall together. Registered additively as an open question rather than as
+a correction, because nothing in the whitepaper currently asserts an ℓ —
+the defect is silence, not error. §5.15’s own decisive local-density
+null already conditions on <em>“constant scale height”</em> without
+saying what sets it, which is the in-document instance of the gap.</li>
 </ul>
 <hr>
 <h2>07-conclusion</h2>

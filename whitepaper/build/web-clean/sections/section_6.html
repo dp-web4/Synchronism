@@ -422,6 +422,53 @@ foundational tension (FUNDAMENTALS Foundation 4 epicycle warning, named
 openly). See
 <code>forum/claude/saturation-reframe-corrections-and-deeper-readings-2026-05-28.md</code>
 for the deeper-reading analysis.</p>
+<p><strong>OQ-Coarsening — The smoothing scale of ρ is never specified
+<code>[ACTIVE-MRH]</code></strong> (added 2026-08-06)</p>
+<p><code>C(ρ) = tanh(γ·ln(ρ/ρ_crit + 1))</code> takes a <em>density</em>
+as its argument, and a density is not defined until a coarse-graining
+length ℓ is named. No section of this whitepaper, and no session in the
+archive, specifies ℓ. Three consequences, each computed rather than
+asserted:</p>
+<ol type="1">
+<li><strong>The bias has a known sign.</strong> S659A’s exact result —
+<code>d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] &lt; 0</code> for
+all ρ&gt;0, γ&gt;0, re-verified symbolically 2026-08-06 — makes C
+<em>strictly</em> concave. Jensen’s inequality then gives
+<code>⟨C(ρ)⟩ &lt; C(⟨ρ⟩)</code> <strong>strictly</strong>: smoothing
+systematically <strong>over</strong>estimates coherence, and since
+<code>f_DM = 1 − C</code>, systematically
+<strong>under</strong>estimates the inferred dark-matter fraction. This
+is not a random error that averages out.</li>
+<li><strong>The magnitude is large near the knee.</strong> For a
+lognormal ρ within the smoothing beam at fixed mean (γ=2, 4×10⁵
+samples): at x ≡ ⟨ρ⟩/ρ_crit = 1, within-beam scatter of 0.3/0.6/1.0 dex
+gives C(⟨ρ⟩) = 0.882 against ⟨C(ρ)⟩ = 0.778/0.565/0.301 — a
+<strong>12%/36%/66% overestimate</strong>. The error is worst exactly
+where the framework locates its transition.</li>
+<li><strong>The galaxy-sector verdict is set by ℓ, not by the
+data.</strong> Under the Jeans normalization route A ∝ 1/ℓ², and x ∝
+1/A, so <code>x ∝ ℓ²</code>. For NGC 3198 under the framework’s own disk
+model (V=150 km/s, R_d=2.6 kpc): ℓ = 100 pc → C = 0.0003 (knee never
+approached); ℓ = 8 kpc → C = 0.86 (knee crossed). An unstated parameter
+spans the entire range of the conclusion. §5.15’s decisive local-density
+null is itself stated <em>“at constant scale height”</em> — it depends
+on ℓ being fixed and does not say what fixes it.</li>
+</ol>
+<p><strong>Discharge condition.</strong> ℓ is not free once consistency
+across sectors is demanded: one ℓ must serve SPARC disks, the
+Cassini/Solar-System bound (TEST-11, +17.95σ), wide binaries (TEST-02),
+and clusters. Run it. If the required ℓ differs by orders of magnitude
+between sectors, that is a <strong>parameter-free obstruction on the
+coarse-graining axis</strong>, and a stronger one than the amplitude and
+functional-form obstructions already banked, because it depends on no
+estimator choice. Until then, every knee statement in this document
+should be read as ℓ-conditional.</p>
+<p><strong>What this is not.</strong> A 2026-08-05 proposal reads the
+archive’s 644× A-calibration gap as this same coarse-graining length (ℓ
+≈ 317 pc ≈ the disk scale height). That reading does not survive
+re-execution of the generating code and is <strong>not</strong> the
+basis of this entry — see the executive summary’s S687 note. The
+obligation above stands on its own and is unaffected either way.</p>
 <p><strong>OQ-Discriminators — Quantitative deviations from GR/QM
 <code>[PARALLEL-PATHS]</code> (gated on OQ-fN)</strong></p>
 <p>Once <code>f(N)</code> is derived, quantify the predicted deviation

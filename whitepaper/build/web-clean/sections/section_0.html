@@ -1345,6 +1345,13 @@ arithmetically:</strong> A = 4π/(β_J²·G·R₀²) with the stated inputs
 (β_J=1, R₀=8 kpc) yields 4.56×10⁻⁵, not the published 0.028 — a
 <strong>614× discrepancy</strong> — and the “5% agreement” came from a
 different calculation that derives ρ_crit ∝ V^0.5, not the published V².
+<em>(614× is measured against the empirical 0.028; the archive’s “644×”
+is the same gap measured against the derived 0.0294 — 0.0294/4.5646×10⁻⁵
+= 644.1. Verified 2026-08-06 by re-executing
+<code>simulations/session66_A_gap_investigation.py</code>, which returns
+A = 0.02944 from α=4.5 and R₀=0.07 kpc/(km/s)^0.75. The gap has the
+exact closed form (8 kpc / 0.07)²/4.5² = 645.0 — <strong>two</strong>
+substitutions, one of them a units mismatch, not one rescaling.)</em>
 This extends the S672 “re-execute, don’t re-read” epistemic-regression
 mode into a new sector and removes the last first-principles claim (the
 error propagated ~600 sessions and onto the public site via the
