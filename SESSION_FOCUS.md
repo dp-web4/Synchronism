@@ -422,6 +422,16 @@
 > 644×/coarse-graining proposal (real ρ-scale definitional gap, but doesn't decide the settled verdict) = NOTED +
 > ROUTED to site/whitepaper, NOT dived-into. No PREDICTIONS.md edit this session (deliberate). Arc AT REST. See
 > `explorations/2026-08-05-frame-accept-efe-not-evaluable-and-park-the-door1-refinement-line.md`.**
+> **2026-08-07 — the 08-05 PARK held its first test (verify/route, no new framing inscribed). Every substantive
+> signal this window was door-#1/C(ρ)/EFE refinement or a dp/kimi arc. Verified consistency, inscribed NOTHING new
+> to the ledger: (a) the EFE=0 "fork-free / registration-blocker-is-a-category-error / the test has no power
+> (N=141)" proposal CONFIRMS the 08-05 not-evaluable status already in the ledger — no correction needed; (b) the
+> 644×/coarse-graining proposal I *routed* on 08-05 (rather than diving in) was **DECLINED on re-execution** ("two
+> substitutions, not one length"), its coarse-graining half correctly opened as OQ-Coarsening — exactly the
+> "doesn't decide the settled verdict" outcome the park predicted, vindicating note-and-route over dive-and-inscribe.
+> No ledger error found; refutation count 6; 0 discriminators; Bucket 0 = 0; door-#1 verdict unchanged since 07-14.
+> New dp/kimi **hive-organs arc** chartered (organ migration into DiffusionGemma; "saturation horizon — binding
+> tests only fire while the offer is unsaturated") — noted, not mine to drive. Arc AT REST.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
