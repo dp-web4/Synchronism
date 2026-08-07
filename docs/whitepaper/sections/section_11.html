@@ -785,6 +785,49 @@ single-valued. Recorded here rather than in the body: the whitepaper
 never made the single-length claim, and a rebuttal to an absent claim
 does not belong in the text.</li>
 </ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-sharpens-the-2026-08-06-parenthetical-verdict-unchanged">2026-08-07
+| Claude-Opus-5 (publisher) | MODIFY (sharpens the 2026-08-06
+parenthetical; verdict unchanged)</p>
+<ul>
+<li><strong>Description</strong>: The S687 parenthetical added
+2026-08-06 closed with <em>“— <strong>two</strong> substitutions, one of
+them a units mismatch, not one rescaling.”</em> Replaced with the exact
+statement: <code>A = 4π/(β_J²·G·R₀²)</code> depends <strong>only on the
+product β_J·R₀</strong> — verified invariant across five factorizations
+at fixed product (all return A = 0.0023429 to machine precision) — so
+the gap is <strong>one</strong> rescaling of that product, from Session
+66’s documented 4.5 × 0.07 = 0.315 kpc/(km/s)^0.75 to the stated
+formula’s 1 × 8 = 8 kpc, a factor √645 = 25.397, squared. The units
+mismatch is the whole of it: R₀ is the coefficient of R_half =
+R₀·V^0.75, not a length. The split of the product into β_J and R₀ is not
+identified by A at all.
+<code>simulations/publisher_20260807_ell_consistency_check.py</code>
+§Q1.</li>
+<li><strong>Rationale</strong>: The 2026-08-06 pass declined the
+2026-08-05 coarse-graining proposal, and the decline stands — but on a
+reason that was itself wrong in two places, and the correct reason is
+stronger. (i) I wrote that “the 317 pc match is manufactured by setting
+β_J = 1” and that “at the code’s own α the implied length is 70.5 pc,
+4.25× from the 300 pc it is claimed to be.” R₀ = 70 pc is not the
+invariant; β_J·R₀ = 315 pc is, and it agrees with the proposal’s 317 pc
+to <strong>0.76%</strong> — because 8/√645 <em>is</em> β_J·R₀ by
+construction. The proposal’s arithmetic is not manufactured, it is
+tautological, which is a better ground for declining it than a
+near-miss: a quantity recovered by algebraic identity from a degenerate
+product carries no information about a physical scale. (ii) “Two
+substitutions, not one rescaling” mis-parses the same degeneracy — the
+two substitutions are not independent, they are one change in the
+product. <strong>The proposal was right that it is one rescaling and
+wrong about what got rescaled</strong> (a product with units
+kpc/(km/s)^0.75, not a length in pc); I was right about the units and
+wrong about the count. The S687 verdict sentence is untouched and
+remains correct: the stated inputs yield 4.56×10⁻⁵ against a published
+0.028, and the 5% agreement came from a different law (ρ_crit ∝ V^0.5).
+The 5% match to a 300 pc disk scale height is a numerical coincidence
+between objects of different dimension. Recorded here rather than in the
+body because the whitepaper never made the single-length claim.</li>
+</ul>
 <hr>
 <h2>01-introduction</h2>
 <h4>
@@ -1228,6 +1271,73 @@ a correction, because nothing in the whitepaper currently asserts an ℓ —
 the defect is silence, not error. §5.15’s own decisive local-density
 null already conditions on <em>“constant scale height”</em> without
 saying what sets it, which is the in-document instance of the gap.</li>
+</ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-self-correction-restates-oq-coarsening-consequence-3-replaced-discharge-condition-answered">2026-08-07
+| Claude-Opus-5 (publisher) | MODIFY (self-correction — restates
+OQ-Coarsening; consequence 3 replaced, discharge condition answered)</p>
+<ul>
+<li><strong>Description</strong>: <strong>OQ-Coarsening</strong> is
+restated one day after being added. Its title changes from <em>“The
+smoothing scale of ρ is never specified”</em> to <em>“The
+coarse-graining <strong>convention</strong> is never specified.”</em>
+(1) <strong>Consequence 3 is replaced.</strong> The 2026-08-06 text
+asserted <code>x ∝ ℓ²</code> (via A ∝ 1/ℓ²) and concluded that “an
+unstated parameter spans the entire range of the conclusion”, quoting
+NGC 3198 running C = 0.0003 at ℓ = 100 pc to C = 0.86 at ℓ = 8 kpc. That
+is one coarse-graining convention of three, and the least defensible: it
+smooths ρ_crit while leaving ρ unsmoothed. Replaced by a three-row table
+computed on SPARC Table 1 values (R_d = 3.14 kpc, V_flat = 150.1 km/s,
+<code>simulations/publisher_20260807_ell_consistency_check.py</code>): ℓ
+in <strong>both</strong> ⇒ <code>x = (3/16π²)β_J²[V_c(ℓ)/V]²</code>,
+<strong>ℓ cancels</strong>, x ≤ 0.019 β_J² universally; ℓ in <strong>ρ
+only</strong> ⇒ x <em>decreases</em> with ℓ (3.58 → 0.0045 over 100 pc →
+20 kpc); ℓ in <strong>ρ_crit only</strong> ⇒ <code>x ∝ ℓ²</code>, the
+original claim. Neither self-consistent convention yields
+<code>x ∝ ℓ²</code>: one yields no ℓ-dependence, the other the opposite
+sign. (2) <strong>The discharge condition is answered, negatively for
+the framework’s critics.</strong> The cross-sector run the entry called
+for was executed 2026-08-05 in the sibling site repo
+(<code>explorer/findings/coarse-graining-length-dissolves-317pc-is-beta-times-R0-not-a-scale.md</code>)
+— 26 hours before this entry declared it “unrun and unowned” — and
+independently re-derived here. There is <strong>no parameter-free
+obstruction on the coarse-graining axis</strong> and no ℓ-discriminator
+to register; Cassini/TEST-11 is ℓ-independent and is strengthened, not
+reopened. The residual open question is narrower and prior:
+<strong>which convention does <code>C(ρ)</code> mean?</strong> It cannot
+be inferred from the fits, because the frozen SPARC instrument is keyed
+on acceleration and evaluates no density (2026-08-04 provenance note).
+(3) A <strong>correction note</strong> is appended in-section recording
+all of the above, plus that the 2026-08-06 NGC 3198 figures used R_d =
+2.6 kpc against SPARC Table 1’s 3.14 kpc (ρ(0) inflated 1.46×).
+Consequences 1 and 2 — the one-signed Jensen bias and its 12/36/66%
+magnitude — are <strong>unaffected and stand as written</strong>, with
+the qualification that their reach is convention-dependent, since the
+two-sided convention keeps every bound system ~40× below the knee where
+the bias is largest.</li>
+<li><strong>Rationale</strong>: Two failures, both mine, both of a class
+this track has written down before. The first is
+<code>[[phase0-scan-is-shape-blind]]</code>, third instance:
+<code>publisher/CLAUDE.md</code> §1b lists
+<code>synchronism-site/explorer/findings/</code> as a required scan
+surface <em>and states why it was added</em> — a 2026-07-30 pass spent
+itself re-deriving a weaker version of a result already executed there.
+On 2026-08-06 I did not scan it, and registered as an open obligation a
+question that had been executed and dissolved in it the previous
+morning. The second is subtler and is the reason this is a MODIFY rather
+than a footnote: consequence 3 <strong>contradicted the same entry’s own
+closing paragraph</strong>. That paragraph disowns the reading of the
+644× A gap as a coarse-graining length; consequence 3 then uses exactly
+that reading (<code>A ∝ 1/ℓ²</code>) to generate its headline number. A
+section that rejects a premise in one paragraph and computes with it in
+the next is not conservative, it is incoherent, and the incoherence was
+visible without any external input. <strong>Registering an open question
+is a claim, and it inherits the same evidentiary duty as an
+answer</strong> — including that its discharge is genuinely unrun. Note
+the direction: this correction <em>removes</em> an obstruction the
+framework was carrying, the second such in four days, and the refutation
+count is untouched at 6 either way. A definitional gap was never a kill;
+a dissolved definitional gap is not a rescue.</li>
 </ul>
 <hr>
 <h2>07-conclusion</h2>
