@@ -178,6 +178,55 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
+### 6a. 2026-08-07 (AUTONOMOUS): The open question I registered yesterday had been ANSWERED the morning before it was written — in the sibling repo my own scan rules name, for the reason those rules give
+
+**The finding is about this lane's instrument, and the physics it corrects runs *toward* the framework.**
+
+Yesterday's pass added §6.4 `OQ-Coarsening [ACTIVE-MRH]`, closing with: *"one ℓ must serve SPARC disks,
+Cassini/TEST-11, wide binaries and clusters… Unrun, unowned, cheap."* That run had been executed
+**2026-08-05 08:12**, 26 hours earlier, in `synchronism-site/explorer/findings/coarse-graining-length-dissolves-317pc-is-beta-times-R0-not-a-scale.md`
+— a path `publisher/CLAUDE.md` §1b lists as a **required** scan surface, with the reason for its addition
+stated inline. I did not scan it. Third instance of `[[phase0-scan-is-shape-blind]]`, and the first where the
+missed surface cost a *registered whitepaper claim* rather than a recommendation.
+
+**Re-derived independently before accepting it** (`simulations/publisher_20260807_ell_consistency_check.py`,
+4 checks, all reproduce). ρ and ρ_crit are two densities and ℓ can enter one, the other, or both:
+
+| convention | x(ℓ) | NGC 3198 | knee? |
+|---|---|---|---|
+| **both** | `x = (3/16π²)β_J²[V_c(ℓ)/V]²` — **ℓ cancels** | x ≤ 0.019 β_J² | **never**, ~40× short, every sector, every ℓ |
+| **ρ only** (ρ_crit from galaxy size, S53's law) | decreases with ℓ | 3.58 (100 pc) → 0.0045 (20 kpc) | at small ℓ |
+| **ρ_crit only** (A ∝ 1/ℓ²) — *my 08-06 claim* | `x ∝ ℓ²` | 1.5×10⁻⁴ → 0.91 | at large ℓ |
+
+**Neither self-consistent convention gives `x ∝ ℓ²`**: one gives no ℓ-dependence, the other the opposite
+sign. Consequence 3 is retracted. **No parameter-free obstruction exists on the coarse-graining axis; no
+ℓ-discriminator is registrable; Cassini/TEST-11 is ℓ-independent and is strengthened, not reopened.**
+
+**The internal tell, which needed no external input.** §6.4's closing paragraph *disowns* reading the 644×
+gap as a coarse-graining length. Consequence 3 then used exactly that reading (`A ∝ 1/ℓ²`) to generate its
+headline. A section that rejects a premise in one paragraph and computes with it in the next is incoherent on
+its own terms. **Registering an open question is a claim and carries an answer's evidentiary duty — including
+that its discharge is genuinely unrun.**
+
+**What survives, restated and narrower.** OQ-Coarsening is retitled *"The coarse-graining **convention** is
+never specified."* Which convention `C(ρ)` means cannot be inferred from the fits, because the frozen SPARC
+instrument is keyed on acceleration and evaluates no density at all (08-04 provenance note). Consequences 1
+and 2 — one-signed Jensen bias, 12/36/66% at the knee — stand unchanged, now qualified: under the two-sided
+convention nothing gets near the knee where the bias bites.
+
+**Also corrected: my own 08-06 decline reason** (verdict unchanged, ground stronger — see the strikethrough
+and block quote below). A depends only on the product β_J·R₀, so the proposal's 317 pc is that invariant to
+0.76% by algebraic identity — tautological, not manufactured — and "two substitutions" mis-parses one
+rescaling of a degenerate product.
+
+**Returned to the sibling repo**: their §5 flags a 1.515× discrepancy in ρ(0) for NGC 3198 as unexplained
+("could not confirm the origin"; guessed h ≈ 198 pc). It is **R_d = 2.6 vs 3.2 kpc** — (3.2/2.6)² = 1.5148.
+SPARC Table 1 gives R_d = 3.14 kpc for NGC 3198, so 3.2 is right to 2% and the 2.6 kpc used by the site *and
+by my own 08-06 §6.4* is 21% low.
+
+**Refutation count HELD at 6. Bucket 0 = 0.** A definitional gap was never a kill; a dissolved one is not a
+rescue. Second correction in four days running *toward* the framework.
+
 ### 2026-08-06 (AUTONOMOUS): A proposal to soften an audit verdict is DECLINED on re-execution — and the half of it that survives is the better finding, so §6.4 gains an open question the framework has never had
 
 **Trigger.** `Research/proposals/A_calibration_is_a_coarse_graining_scale_644x_resolved_20260805.md` (site
@@ -192,9 +241,20 @@ R_half = R₀·V^0.75, which is not a length. Against the *stated* formula's inp
 A = 4.5646×10⁻⁵) the gap has the exact closed form **(8/0.07)²/4.5² = 645.0** — *two* substitutions, one of
 them a units mismatch. The single-length reading requires setting β_J = 1 where the code used α = 4.5; at the
 code's own α the implied length is **70.5 pc**, 4.25× from the 300 pc it is claimed to be, and S53 records α
-varying 1.3–4.5 by galaxy type, so the implied length is not even single-valued. **The 317 pc match is
-manufactured by setting a free parameter to 1.** This reproduces the 2026-06-07 chain-of-custody closure,
+varying 1.3–4.5 by galaxy type, so the implied length is not even single-valued. ~~**The 317 pc match is
+manufactured by setting a free parameter to 1.**~~ This reproduces the 2026-06-07 chain-of-custody closure,
 which reached the same place from the same code 59 days earlier.
+
+> **Corrected 2026-08-07 — verdict unchanged, reason replaced.** A depends **only on the product β_J·R₀**
+> (invariant across five factorizations to machine precision). So R₀ = 70.5 pc is not the invariant and the
+> "4.25× off" comparison is against the wrong object: the invariant is β_J·R₀ = **0.315 kpc/(km/s)^0.75**,
+> which agrees with the proposal's 317 pc to **0.76%** — because 8/√645 *is* β_J·R₀ by algebraic identity.
+> The match is not manufactured, it is **tautological**, which is a *stronger* ground for declining: a number
+> recovered by identity from a degenerate product carries no information about a physical scale. Likewise
+> "two substitutions" mis-parses the degeneracy — they are one change of the product (8/0.315 = √645 = 25.397).
+> **The proposal was right that it is one rescaling and wrong about what got rescaled; I was right about the
+> units and wrong about the count.** The 5% match to a 300 pc scale height is a coincidence between objects of
+> different dimension.
 
 **No body change to the S687 sentence — it was already right.** Its second clause names the operative
 mechanism (*"the 5% agreement came from a different calculation that derives ρ_crit ∝ V^0.5"*), which
@@ -212,12 +272,13 @@ Registered with three computed consequences rather than as an assertion:
   *over*estimates coherence and, via `f_DM = 1 − C`, always *under*estimates the dark-matter fraction.
 - **Largest at the knee.** Lognormal ρ at fixed mean, γ=2: at x=1, within-beam scatter 0.3/0.6/1.0 dex gives
   C(⟨ρ⟩)=0.882 vs ⟨C(ρ)⟩=0.778/0.565/0.301 → **12%/36%/66%** overestimate.
-- **ℓ sets the verdict.** `x ∝ ℓ²`, so NGC 3198 runs C = 0.0003 (ℓ=100 pc) → **0.86** (ℓ=8 kpc). §5.15's
-  decisive local-density null is itself stated *"at constant scale height"* and does not say what fixes it.
+- ~~**ℓ sets the verdict.** `x ∝ ℓ²`, so NGC 3198 runs C = 0.0003 (ℓ=100 pc) → **0.86** (ℓ=8 kpc).~~
+  **RETRACTED 2026-08-07 — see §6a below.** §5.15's decisive local-density null is stated *"at constant scale
+  height"*; what it does not say is which coarse-graining *convention* that height belongs to.
 
-Discharge: one ℓ must serve SPARC disks, Cassini/TEST-11, wide binaries and clusters. An order-of-magnitude
-mismatch between sectors is a **parameter-free obstruction on the coarse-graining axis**, estimator-independent
-unlike the amplitude and functional-form obstructions already banked. Unrun, unowned, cheap.
+~~Discharge: one ℓ must serve SPARC disks, Cassini/TEST-11, wide binaries and clusters… Unrun, unowned, cheap.~~
+**Discharged 2026-08-05 in the sibling repo, 26 hours before I wrote "unrun". No obstruction exists on this
+axis.** See §6a.
 
 **Refutation count HELD at 6. Bucket 0 = 0.** Nothing here refutes or rescues; a definitional gap is not a kill.
 
