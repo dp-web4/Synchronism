@@ -3005,6 +3005,118 @@ the model’s own baseline error on the same observable at the same radii
 — compute that ratio before badging any published result as confirming
 or refuting.</strong> Here it reversed a proposed 11σ refutation into a
 not-evaluable.</p>
+<p><strong>[AMENDED 2026-08-08] The “6” is a count of test IDs; this
+whitepaper enumerates it nowhere, and two of its six members are
+described nowhere in it.</strong> The number is asserted four times
+across these sources — in the paragraph above, in the a₀(z) note below,
+in the executive summary and in the conclusion — always as
+<em>“unchanged at 6”</em>, never with a list and never with a stated
+convention. So a reader cannot audit it from the document that states
+it, and two of the six are absent outright: the boost-ceiling refutation
+(the tokens <code>3.17</code>, <code>68.5</code>, <code>0.927</code> and
+the phrase “boost ceiling” each have <strong>zero</strong> occurrences
+in the whitepaper body) and the Bell/CHSH substrate refutation
+(<code>CHSH</code>, <code>no-signaling</code>, <code>Kuramoto</code>:
+<strong>zero</strong> occurrences; the only “Bell” in these sources is
+the exposition of Bell’s theorem in §5.4 and a prior-art specificity
+list). The six, each with the statistic it was registered on and the
+data it used, are: <strong>(1)</strong> RAR transition shape at γ = 2 —
+marginalised BIC on SPARC, ΔBIC = +184; <strong>(2)</strong> BTFR slope
+(TEST-09) — SPARC, |Δn| = 0.41 against a registered bar of 0.3;
+<strong>(3)</strong> dwarf DM-fraction ceiling (TEST-10) — SPARC, 69% of
+galaxies above f_DM = 1 − Ω_m = 0.685; <strong>(4)</strong> RAR
+environment dependence (TEST-08) — SPARC × Cosmicflows-4, r² = 0.0001
+against a registered &gt; 0.20; <strong>(5)</strong> the SPARC × Cassini
+joint squeeze (TEST-11) — +17.95σ; <strong>(6)</strong> the
+observer-relative Bell/CHSH substrate bet (B1) — S = 1.98 ≤ 2 on both
+arms.</p>
+<p><strong>Measured, not asserted: (2) and (3) fire on the same
+galaxies, by algebraic identity.</strong> The framework’s apparent DM
+fraction and its acceleration boost are the same quantity in two
+variables —
+<code>f_DM = 1 − (V_bar/V_obs)² = 1 − g_bar/g_obs = 1 − 1/B</code> — so
+TEST-10’s criterion <code>f_DM &gt; 1 − Ω_m</code> and TEST-09’s ceiling
+<code>B &gt; 1/Ω_m</code> are the <em>same inequality</em>, not two
+corollaries of a shared root. Verified per galaxy on the in-repo SPARC
+mass models
+(<code>simulations/publisher_20260808_test09_test10_independence.py</code>,
+123 galaxies, Q ≤ 2, i &gt; 30°):
+<code>max|f_DM − (1 − 1/B)| = 2.2×10⁻¹⁶</code>, and the two criteria
+select <strong>93 and 93 galaxies with 0 disagreements</strong> at the
+outermost measured point, <strong>88 and 88 with 0
+disagreements</strong> at the error-weighted mean of the outer three.
+<em>(93/123 = 76% here rather than TEST-10’s published 69% only because
+TEST-10 proper runs the wider 153-galaxy set; it is the same criterion
+on TEST-09’s narrower cut, which is the point — the comparison is
+between criteria on one sample, not between published fractions.)</em>
+Deleting every galaxy that fires TEST-10 and refitting the BTFR,
+TEST-09’s registered kill <strong>does not fire</strong> on what
+remains: observed n = 3.39 ± 0.23 against the framework’s 3.38 ± 0.18,
+deviation <strong>0.01 (0.0σ)</strong> versus a threshold of 0.3, where
+the full sample gives 3.79 ± 0.10 vs 3.35 ± 0.07, deviation 0.44 (3.5σ).
+<em>(0.44 rather than the ledger’s 0.41 because this run compares
+against the like-for-like outer-3 estimator applied identically to all
+three models rather than the SPARC catalogue V_flat; both
+fire.)</em></p>
+<p><strong>What that does and does not establish, because the leave-out
+test is underpowered by construction.</strong> On the 30 non-exceeders
+the deviation carries σ = 0.29, so the 0.3 threshold sits <strong>1.0σ
+out</strong> — the subsample could not demonstrate independence at the
+registered bar even if independence existed, and the mass lever arm
+shortens from 3.45 to 3.06 dex. The honest statement is therefore
+asymmetric: <strong>no part of TEST-09’s evidence is located outside
+TEST-10’s firing set, and the firing sets are provably the same set — so
+the burden of the two-row convention is unmet, not disproved.</strong>
+Two figures now circulating are both asserted rather than computed and
+both overstate the collapse: <em>“honest independent-root figure: 3–4,
+not 6”</em>
+(<code>synchronism-site/maintainer/logs/2026-08-07.md</code>) and
+<em>“at most four independent roots”</em>
+(<code>…/visitor/logs/2026-08-07.md</code>). On the axis actually
+measured here the collapse is <strong>6 → 5</strong>, one pair, not
+three.</p>
+<p><strong>The dataset axis is the sharper one, and it points the other
+way.</strong> Five of the six run on SPARC — (1), (2), (3), (4) and the
+galaxy side of (5) — three of the scripts behind them were opened here
+and share the <em>same fixed</em> mass-to-light convention Υ_disk = 0.5,
+Υ_bulge = 0.7 — <code>test09_btfr_bounded_boost_real_sparc.py</code> for
+(2), <code>test10_dwarf_dm_fraction_ceiling.py</code> for (3), and
+<code>simulations/sparc_tanhlog_profile.py</code> for (1) and for the
+SPARC profile that (5) consumes. (2) and (3) additionally share every
+parameter of one force law (<code>C(a) = Ω_m + (1−Ω_m)x/(1+x)</code>,
+Ω_m = 0.315, φ = 1.618034, a₀ = 1.05×10⁻¹⁰), while (1) and (5) use the
+tanh-log family on the same data. The sixth analyses <strong>no external
+dataset at all</strong>: B1 runs the framework’s own harness and
+compares the result to the established CHSH violation, so the site’s
+gloss <em>“6 refutations executed on external data … astronomical,
+ephemeris, and laboratory”</em> is loose on its third data type. Net:
+exactly three evidential channels are independent of SPARC’s photometry
+and M/L, and each enters only jointly or by reference — the
+Cosmicflows-4 tracer field that supplies (4)’s predictor, the Cassini
+ephemeris that supplies (5)’s second constraint, and the textbook CHSH
+violation that (6) is compared against. <strong>No row is carried by a
+non-SPARC dataset on its own</strong>: five of the six use SPARC, and
+the sixth uses no external dataset at all. This matters more than
+root-counting, because an M/L shift moves five rows together, and M/L
+conditionality has already cost one headline in this program (the “28
+galaxies” figure of the bounded-boost class exclusion, which is 15 at
+Υ*_disk = 0.7).</p>
+<p><strong>Non-action, deliberately.</strong> The count stays at
+<strong>6</strong> and no row is merged. Whether TEST-09 and TEST-10
+should be <em>counted</em> as one refutation or two is open question 4
+of
+<code>Research/proposals/boost_ceiling_provenance_and_class_exclusion.md</code>,
+registered 2026-07-28 and explicitly gated on dp — a naming convention,
+which is dp’s to set. What this amendment supplies is the thing that
+question asked for and did not have: an enumeration, and a measurement
+of how much independent empirical content the corollary carries. The
+mechanism is worth naming because the program’s own lane named it the
+same day for a different row: <em>a prediction with no TEST ID is
+invisible to every audit that walks the ledger by ID, and the silence
+about why gets re-inscribed by each new reader as a fresh finding.</em>
+<strong>A count with no enumeration has exactly that property</strong> —
+this one was re-filed as a novel defect twice on 2026-08-07, by two
+independent readers, eleven days after it was registered as open.</p>
 <p><em>Provenance: γ = 1/2 identity and EFE retraction from
 <code>explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md</code>
 (research lane), inscribed in <code>PREDICTIONS.md</code> B2; identity
@@ -3034,7 +3146,24 @@ in-repo SPARC mass models before propagation — this lane’s grid gives
 running higher elsewhere, so the conclusion is not sensitive to the
 difference. The two-directional framing (testability overclaim </em>and*
 refutation overclaim dying on the same ratio) and the baseline/signal
-gate are this lane’s.*</p>
+gate are this lane’s. The 2026-08-08 amendment is this lane’s, executed
+here: script
+<code>simulations/publisher_20260808_test09_test10_independence.py</code>,
+run on the in-repo SPARC mass models with the pipeline conventions
+copied verbatim from
+<code>synchronism-site/explorer/scripts/test09_btfr_bounded_boost_real_sparc.py</code>
+and <code>test10_dwarf_dm_fraction_ceiling.py</code> so that any
+difference in result is a difference in question rather than in
+pipeline; the enumeration counts and the two absences were taken by grep
+over <code>whitepaper/sections/</code>. The shared-root observation
+itself is <strong>not</strong> new and is credited: it is on file since
+2026-07-15
+(<code>explorations/2026-07-15-verify-test08-test10-executed-mond-shared-class-law.md</code>
+— “same structural ceiling as TEST-09, different observable”), was
+registered as an open question on 2026-07-28, and was re-raised on
+2026-08-07 by the site’s visitor and maintainer lanes. New here are the
+exact identity of the two firing sets, the leave-out measurement, its
+power, and the dataset-concentration count.*</p>
 </blockquote>
 <p><strong>The MOND Acceleration Scale:</strong></p>
 <pre><code>a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²</code></pre>
