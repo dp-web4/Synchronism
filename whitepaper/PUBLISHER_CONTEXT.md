@@ -178,7 +178,66 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
-### 6a. 2026-08-07 (AUTONOMOUS): The open question I registered yesterday had been ANSWERED the morning before it was written — in the sibling repo my own scan rules name, for the reason those rules give
+### 6a. 2026-08-08 (AUTONOMOUS): The refutation count of 6 is asserted four times in this whitepaper and was enumerated nowhere in it — and when I measured the collapse everyone is asserting, it is 6 → 5, not 6 → 3
+
+**The defect is a missing list, not a wrong number, and it is mine.**
+
+`Refutation count unchanged at 6` appears four times across these sources — §5.15 twice, the executive
+summary, the conclusion — always in that bookkeeping form, never with a list and never with a stated
+counting convention. So the number cannot be audited from the document that states it. Worse, two of the
+six are **described nowhere in the whitepaper body**: the boost-ceiling refutation (`3.17`, `68.5`,
+`0.927`, "boost ceiling" — zero occurrences each) and the Bell/CHSH substrate refutation (`CHSH`,
+`no-signaling`, `Kuramoto` — zero occurrences; the only "Bell" here is §5.4's exposition of Bell's
+theorem and a prior-art specificity list). The site *does* enumerate its six; this whitepaper never has.
+
+**The measurement, because three different collapse figures were circulating and none had been computed.**
+`Research/proposals/…force_law_fork…20260807.md` and `synchronism-site/maintainer/logs/2026-08-07.md` say
+*"3–4, not 6"*; `…/visitor/logs/2026-08-07.md` says *"at most four independent roots"*. Both are
+assertions. Executed here (`simulations/publisher_20260808_test09_test10_independence.py`, in-repo SPARC
+mass models, 123 galaxies, Q ≤ 2, i > 30°, pipeline conventions copied verbatim from the two site scripts
+so a difference in result is a difference in question):
+
+- **TEST-09 and TEST-10 are the same inequality, not two corollaries of a shared root.**
+  `f_DM = 1 − (V_bar/V_obs)² = 1 − g_bar/g_obs = 1 − 1/B`, so `f_DM > 1 − Ω_m` ⟺ `B > 1/Ω_m`.
+  `max|f_DM − (1 − 1/B)| = 2.2×10⁻¹⁶`; the two criteria select **93 and 93** galaxies with **0
+  disagreements** (88/88, 0 disagreements, on the error-weighted outer-3 point).
+- **TEST-09's registered kill does not fire where the ceiling is not binding.** Delete every TEST-10
+  firing galaxy: observed n = 3.39 ± 0.23 vs the framework's 3.38 ± 0.18, deviation **0.01 (0.0σ)**
+  against a 0.3 bar. Full sample: 3.79 ± 0.10 vs 3.35 ± 0.07, deviation 0.44 (3.5σ).
+- **And the leave-out test is underpowered, stated so the null is not over-read.** σ on the non-exceeder
+  deviation is 0.29, so the 0.3 threshold sits **1.0σ** out, and the mass lever arm shortens 3.45 → 3.06
+  dex. It could not have shown independence had independence existed. Hence: **the burden of the two-row
+  convention is unmet, not disproved** — and the collapse is **6 → 5**, one pair. The circulating "3–4"
+  overstates it.
+
+**The sharper axis is the dataset, and nobody was counting it.** Five of the six run on SPARC — the RAR
+shape, TEST-09, TEST-10, TEST-08 and the galaxy side of TEST-11 — and three of the scripts behind them were
+opened here and share a fixed Υ_disk = 0.5, Υ_bulge = 0.7. Every non-SPARC channel enters only jointly or
+by reference: Cosmicflows-4 as TEST-08's predictor, Cassini as TEST-11's second constraint, the textbook
+CHSH violation as B1's comparison. The sixth analyses **no external dataset at all** — B1 runs the
+framework's own harness — so the site's *"6 refutations executed on external data… astronomical,
+ephemeris, and laboratory"* is loose on its third data type. An M/L shift moves five rows **together**, and
+M/L conditionality has already cost one headline in this program (REC-2026-039's "28 galaxies" is 15 at
+Υ*_disk = 0.7). That is more decision-relevant than root-counting.
+
+**Non-action, deliberately.** Count **HELD at 6**; no row merged. Whether TEST-09/TEST-10 are *counted* as
+one or two is open question 4 of `Research/proposals/boost_ceiling_provenance_and_class_exclusion.md`,
+registered **2026-07-28 and gated on dp** — a naming convention, dp's to set. This edit supplies only what
+that question asked for and lacked: an enumeration and a measurement. **Bucket 0 = 0.**
+
+**The class, which is why this is a §6 entry and not a footnote.** The shared root is not new. It is on
+file since **2026-07-15** ("same structural ceiling as TEST-09, different observable"), was **registered as
+open on 07-28**, and was then re-filed as a novel P0 **twice on 2026-08-07 by two independent non-author
+readers**, eleven days later, neither citing the registration. One of those same lanes named the mechanism
+that same day, for a different row: *a prediction with no TEST ID is invisible to every audit that walks
+the ledger by ID, and the silence about why gets re-inscribed by each new reader as a fresh finding.* **A
+count with no enumeration has exactly that property.** New rule: *a bare tally is a claim about
+independence; publish the list or drop the number.* Note the direction of the base-rate evidence — the
+previous nine instances of this class in REC-2026-038 were 4-of-9 self-sourced and the standing worry was
+observer artifact. Today's is externally sourced, doubled, and against an item that was **already
+adjudicated open** — so re-discovery tracks whether a claim can be *walked*, not whether it is remembered.
+
+### 2026-08-07 (AUTONOMOUS): The open question I registered yesterday had been ANSWERED the morning before it was written — in the sibling repo my own scan rules name, for the reason those rules give
 
 **The finding is about this lane's instrument, and the physics it corrects runs *toward* the framework.**
 
