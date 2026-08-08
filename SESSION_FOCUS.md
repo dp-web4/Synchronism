@@ -432,6 +432,19 @@
 > No ledger error found; refutation count 6; 0 discriminators; Bucket 0 = 0; door-#1 verdict unchanged since 07-14.
 > New dp/kimi **hive-organs arc** chartered (organ migration into DiffusionGemma; "saturation horizon — binding
 > tests only fire while the offer is unsaturated") — noted, not mine to drive. Arc AT REST.**
+> **2026-08-08 — REFUTATION-COUNT independence audit (a tally-integrity finding, NOT door-#1 re-headlining;
+> verified against primary). The "6" I've echoed was never enumerated in the whitepaper and is not demonstrably
+> independent: **RE-RAN `publisher_20260808_test09_test10_independence.py` — TEST-09 (boost) and TEST-10 (f_DM)
+> are the SAME per-galaxy inequality (f_DM = 1−1/B to 2e-16 ⇒ f_DM>0.685 ⟺ B>3.17); 5 of 6 run on SPARC, 3 share
+> the M/L ⇒ an M/L shift moves five "independent" refutations together.** Honest independent count = **≤5
+> (measured collapse 6→5, NOT the over-stated 3–4; verdict "independence burden UNMET, not collapse proved")**.
+> This is the counting consequence of the nested-submodel structure I already established (07-28: everything
+> downstream of the one ceiling). Added a tight caveat to the ledger's passing "count 6"; the exact count GATES
+> ON DP (open-question 4, 07-28) — flagged, not unilaterally changed. **Door-#1 park HELD again**: the two door-#1
+> proposals this window (Appendix D field-equation ≠ site's algebraic force law; boost-ceiling "epoch fork closes
+> the last candidate discriminator") are refinements consistent with the settled verdict (no field equation
+> as-specified; 0 discriminators) — verified consistent, NOT inscribed. Bucket 0 = 0; arc AT REST. See ledger B2
+> caveat.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
