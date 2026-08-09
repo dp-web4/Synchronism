@@ -85,6 +85,24 @@ arrived in. Before opening or promoting a recommendation, grep the sibling repos
 keywords — the program's own prior art is cheaper to find than the literature's and is more often
 the thing that moves the verdict.
 
+**Scan sibling repos at `origin/<default>`, never at HEAD (added 2026-08-09).** These checkouts are
+shared with other agents and are routinely parked on a feature branch. On 2026-08-09 the `web4`
+working tree sat on `kimi/purpose-is-relational` at **2026-08-03**, so a bare `git log --since` read
+**0 commits** for the window while `origin/main` carried **~20 commits dated 2026-08-08**. The
+verdict happened to survive (all 20 were hub/docs/audit; exactly one touched `whitepaper/`, and it
+was the Publisher's own log) — *the instrument was wrong and the answer was right by luck*, which is
+the failure mode that persists longest because nothing contradicts it. Web4's own lane fixed the
+identical bug in its CI the same day (`55c0ed7`, "publish the merged ref, not whatever branch the
+shared checkout is parked on"). So:
+
+```bash
+git -C <repo> log origin/main --since=<window> --name-only -- whitepaper/   # scope
+git -C <repo> rev-parse --abbrev-ref HEAD                                    # and SAY where HEAD was
+```
+
+Report the branch you scanned. A commit count with no ref named is a claim about a checkout you did
+not inspect. Same rule for `synchronism-site`.
+
 ### 2. Identify Candidates
 
 Scan for session blocks that are:

@@ -63,6 +63,26 @@ In this limit:
 
 This is the non-relativistic behavior that any relativistic Synchronism–GR formulation must reproduce in the weak-field, slow-motion limit.
 
+> **[CORRECTION 2026-08-09] The two equations above are not the same law, and only the second one carries any of this program's evidence.**
+>
+> §D.2 presents \(\nabla^2\Phi = 4\pi G\,\rho/C\) (call it **L1**) and \(g_{\mathrm{obs}} = g_{\mathrm{bar}}/C\) (**L3**) as one statement, the second following "in this limit" from the first. It does not follow. \(g = g_{\mathrm{bar}}/C\) is the spherical Gauss solution of a *different* field equation,
+> \[
+> \nabla\cdot\!\left[C(\rho)\,\nabla\Phi\right] = 4\pi G\rho \qquad (\textbf{L2}),
+> \]
+> since integrating L2 over a ball gives \(C\,g\,r^2 = G M_{\mathrm{bar}}(<r)\) directly. L1 instead makes \(\rho/C\) the *source*, so \(g(r) = (G/r^2)\!\int_0^r 4\pi r'^2 \rho/C\,dr'\). The two coincide **iff \(C\) is spatially constant** — and \(C\) is this framework's entire content, so no choice of \(\gamma\) or \(\rho_{\mathrm{crit}}\) reconciles them.
+>
+> **Measured** (`simulations/publisher_20260809_appendixD_coupling_fork.py`, in-repo SPARC mass models, Lelli et al. 2016, 113 galaxies at Q ≤ 2 and \(i>30°\), self-consistent spherical construction \(\rho_{\mathrm{sph}} = (4\pi r^2)^{-1}\,d[V_{\mathrm{bar}}^2 r/G]/dr\) so that no scale-height convention enters): at the outermost measured point \(\log_{10}(g_{L3}/g_{L1})\) has **median +0.821 dex**, IQR [+0.515, +1.416], range [+0.023, +3.203]; **105/113 galaxies exceed 0.3 dex and 47/113 exceed 1 dex**. The constant-\(C\) control returns \(2.6\times10^{-15}\) dex, confirming the fork *is* the spatial variation of \(C\).
+>
+> The gap is **\(\gamma\)-invariant to 0.0000 dex** between \(\gamma = 2\) and \(\gamma = 0.489\) — but the reason bounds how far that fact travels. Every SPARC point sits at \(\rho/\rho_{\mathrm{crit}} \le 0.045\) (median \(6.1\times10^{-6}\)), deep in \(C\)'s linear regime where \(C \to \gamma\rho/\rho_{\mathrm{crit}}\) to within 2.4%; there \(1/C \propto 1/\gamma\) in *both* laws and \(\gamma\) cancels identically. The invariance holds **at this \(\rho_{\mathrm{crit}}\)** and is a consequence of the calibration being far enough off that no galaxy reaches \(C\)'s knee — the same fact as the already-recorded 2–5 dex miss of the density law against rotation curves.
+>
+> **Provenance.** L1 has exactly one implementation in this repository — `simulations/session72_spherical_toy_model.py`, written 2025-12-01 to complete §D.6 — and **zero citations in the whitepaper**. L3 appears in 26 simulation scripts and carries every number the whitepaper quotes. L2 has **zero implementations**; it was written down as prose in whitepaper §5.15 on 2026-08-04, by an author who did not know §D.2 existed. So the framework's only *stated* field equation has never been evaluated against data, and the force law that carries all of its evidence had no field equation implemented for it.
+>
+> **The eliminated reading is the better-fitting one.** Against the observed accelerations at the same radii, **L1 is closer than L2 = L3 in 113/113 galaxies** at both \(\gamma = 2\) and \(\gamma = 0.489\) (median offsets +4.64 vs +5.65 dex, and +5.25 vs +6.26 dex). Both are catastrophically wrong; the elimination below is **structural, not a goodness-of-fit verdict**. *(These absolute offsets use the spherical \(\rho_{\mathrm{sph}}\) construction and are not comparable to the whitepaper's "2–5 orders of magnitude", which uses \(\rho = \Sigma/2h\).)*
+>
+> **L1 is eliminated a priori, and the reason generalizes past it.** As \(\rho \to 0\), \(C \to \gamma\rho/\rho_{\mathrm{crit}}\), so \(\rho_{\mathrm{eff}} = \rho/C \to \rho_{\mathrm{crit}}/\gamma\), a **constant** (verified to \(<10^{-4}\) relative for \(\gamma \in [0.25, 5]\) down to \(\rho/\rho_{\mathrm{crit}} = 10^{-10}\)). L1's source never vanishes in vacuum; \(M_{\mathrm{eff}}(<r)\) diverges as \(r^3\). The sharper objection, which the divergence obscures: \(\rho_{\mathrm{crit}} = A V_{\mathrm{flat}}^B\) is a **per-galaxy** constant, so L1 assigns the same point of empty space a different source density for every galaxy one asks about — the equation has no single-valued source. That is ill-posedness, not divergence, and **it survives into L2 = L3**, which the divergence argument does not. Contracting the same limit with \(u_\mu u_\nu\) for dust carries it into §D.3: \(\mathcal{T}_{\mu\nu} \to (\rho_{\mathrm{crit}}/\gamma)\,u_\mu u_\nu\) in vacuum, a nonzero stress–energy filling all space whose direction requires a preferred vacuum 4-velocity.
+>
+> **Recommended resolution, stated but not applied here** (this is a physics decision, not an editorial one): §D.2 and §D.6.1 should adopt L2, whose spherical solution is *already* §D.2's own second line, and drop \(\rho/C\) as a Poisson source. Nothing downstream in this program depends on L1. Registered at `Research/proposals/appendix_D_states_two_force_laws_and_only_one_carries_evidence_20260809.md`.
+
 ---
 
 ### D.3 Emergent Einstein-Like Equations

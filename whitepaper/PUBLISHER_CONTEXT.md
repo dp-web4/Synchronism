@@ -178,7 +178,51 @@ After any change:
 
 ## 6. Recent Changes (Last 5 Integrations)
 
-### 6a. 2026-08-08 (AUTONOMOUS): The refutation count of 6 is asserted four times in this whitepaper and was enumerated nowhere in it — and when I measured the collapse everyone is asserting, it is 6 → 5, not 6 → 3
+### 6a. 2026-08-09 (AUTONOMOUS): This whitepaper says the galaxy sector has no field equation; one has been in `manuscripts/` — this lane's own working root — since 2025-12-01, and it is not the law any of the evidence uses
+
+**The existence claim I wrote on 08-04 was wrong in the direction that matters, and the search that would have caught it was one `grep` in the directory the run launches from.**
+
+§5.15's 2026-08-04 amendment reads *"A field equation does exist… A momentum-conserving completion exists and is the natural one"* and, in the 08-03 retraction it repairs, *"one exists, and it is linear rather than nonlinear."* **Two exist.** `manuscripts/Appendix_D_Synchronism_in_General_Relativistic_Form.md` §D.2 and §D.6.1, committed **2025-12-01** (`4400d54f`), state `∇²Φ = 4πGρ/C` — **L1**, nonlinear in the *source* — seven months before this whitepaper began asserting the sector had none.
+
+**And §D.2 is internally inconsistent, which is the sharper finding.** It states L1 and then reports, *"in this limit"*, `g_obs = g_bar/C` (**L3**). L3 does not follow from L1. L3 is the spherical Gauss solution of `∇·[C∇Φ] = 4πGρ` (**L2**) — the equation §5.15 wrote on 08-04. So **the 08-04 amendment is not a rival to the archive; it is the archive's repair**, reconstructed by an author who did not know the broken original was on file. L1 ≡ L3 **iff C is spatially constant**, and C is the sector's entire content.
+
+**Measured, not accepted** — `simulations/publisher_20260809_appendixD_coupling_fork.py`, in-repo SPARC mass models, 113 galaxies (Q ≤ 2, i > 30°), self-consistent spherical density `ρ_sph = (4πr²)⁻¹d[V_bar²r/G]/dr` so no scale-height convention enters and both laws see the same ρ:
+
+| check | result |
+|---|---|
+| L2 ⇒ L3 in spherical symmetry | exact, 0.000e+00 |
+| L1 ≡ L3 iff C constant | constant-C control 2.6×10⁻¹⁵ dex; C(ρ) at γ=2, 0.92 dex |
+| fork amplitude, outermost point | **median +0.821 dex**, IQR [+0.515, +1.416], range [+0.023, +3.203]; **105/113 > 0.3 dex, 47/113 > 1 dex** |
+| γ-dependence | **0.0000 dex** between γ = 2 and γ = 0.489 |
+| provenance | L1: **1** script (`session72_spherical_toy_model.py`, 2025-12-01), **0** whitepaper citations. L3: **26** scripts, every quoted number. L2: **0** implementations |
+
+**Independent reproduction, and two corrections running back at the source.** The sibling explorer lane reached median 0.81 dex on five galaxies the same morning (`synchronism-site/explorer/findings/the-archive-has-a-field-equation-and-it-is-not-the-one-the-site-uses.md`); this is 113 galaxies with a different density construction, agreeing to 0.011 dex. **(i)** That lane reports the γ-invariance as a bare fact. It is a **linear-regime artifact**: every SPARC point sits at ρ/ρ_crit ≤ 0.045 (median 6.1×10⁻⁶), where `C → γρ/ρ_crit` to 2.4% and `1/C ∝ 1/γ` in *both* laws, so γ cancels identically. Correct scope: *survives every γ **at this ρ_crit***; a recalibration reaching C's knee must be re-run. **(ii)** That lane's flat verdict *"Appendix D contains all three"* (field equation, action, covariant formulation) **over-corrects**. §D.5's `S_eff` is a **worldline** action for a test particle, not a field action, and **no action generates L1**.
+
+**So the S642 GW170817 clause splits into three conjuncts of different truth value**, and only one of them was ever load-bearing:
+
+| conjunct | verdict |
+|---|---|
+| "no field equation" | **FALSE** — §D.2/§D.6.1/§D.7 state one |
+| "no action principle" | **defensible only as scoped** — §D.5's is a worldline action; §5.15's L2 is the one action-derived object here |
+| "no equation of motion for C(ρ)" | **TRUE — carries the conclusion.** C is algebraic in local ρ; no kinetic term anywhere in Appendix D |
+
+GW170817 remains unconstraining **on the third conjunct alone** — no propagating scalar mode exists to modify tensor dispersion — so the accurate phrasing is *"C has no kinetic term,"* not *"the framework has no action principle."* Back-annotated to the executive summary **and** conclusion in the same pass, because this lane has now measured twice (08-02, 08-07) that corrections do not propagate on their own while errors do.
+
+**Direction stated so it cannot be misread**: the reading eliminated a priori is the **better-fitting** one — L1 is closer to the observed accelerations than L2 = L3 in **113/113** galaxies at both γ. Both are catastrophically wrong; the elimination is **structural, not goodness-of-fit**. And the elimination's sharper form does not stop at L1: `ρ_crit = A·V_flat^B` is a **per-galaxy** constant, so L1 assigns the same point of empty space a different source density per galaxy — ill-posedness, not divergence — and **that objection survives into L2 = L3**, the reading that carries all the evidence.
+
+**Count HELD at 6. Bucket 0 = 0.** A reading was eliminated; nothing was refuted.
+
+**Gates.** Build green (`make-md.sh` exit 0); content diff **56 lines**, raw diff **23,460** — churn gate fired (**10th**), artifacts restored, CI builds. Marker parity across both monoliths: `AMENDED 2026-08-09` ×2, `SCOPED 2026-08-09` ×4. Lone-CR: exactly one path, the frozen v1 snapshot.
+
+**Scan defect found and fixed at the class.** The `web4` working tree was parked on `kimi/purpose-is-relational` at **2026-08-03**, so a bare `git log --since` read **0 commits** while `origin/main` carried ~20 dated 2026-08-08. The verdict survived (all hub/docs/audit; exactly one touched `whitepaper/`, and it was the Publisher's own log) — *the instrument was wrong and the answer was right by luck*, the failure mode that persists longest. `publisher/CLAUDE.md` §1b now requires scanning sibling repos at `origin/<default>` and **naming the ref scanned**. Web4's own lane fixed the identical bug in its CI the same day (`55c0ed7`).
+
+**Registered**: `Research/proposals/appendix_D_states_two_force_laws_and_only_one_carries_evidence_20260809.md`. **Gated on dp**: adopting L2 in §D.2/§D.6.1 is a physics decision; only the correction block is applied.
+
+**The transferable rule**: *an existence claim is a search claim.* "No X exists" and "one X exists" both assert the completeness of a search that is almost never stated. Name the surfaces searched, or write the sentence without the quantifier.
+
+---
+
+### 6b. 2026-08-08 (AUTONOMOUS): The refutation count of 6 is asserted four times in this whitepaper and was enumerated nowhere in it — and when I measured the collapse everyone is asserting, it is 6 → 5, not 6 → 3
 
 **The defect is a missing list, not a wrong number, and it is mine.**
 
