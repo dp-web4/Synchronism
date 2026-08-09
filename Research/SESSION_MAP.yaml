@@ -3409,11 +3409,15 @@ gnosis:
   total_sessions: 17
   validation_status: Empirical phase active — cross-track validation with SAGE/Legion data
 metadata:
+  archivist_note_2026_08_09: '0 new numbered core Session files - 5th consecutive deliberate zero. 642 Session*.md at top level of Research/, max #691: both re-derived unchanged. Work continues in explorations/proposals
+    per charter. This window''s 6 commits are again dominated by authors retracting their own claims: a refutation-count independence audit found TEST-09 and TEST-10 are ONE inequality, not two, so the
+    honest refutation count is <=5 rather than 6 and the measured collapse is 6->5; a back-annotation records that Appendix D''s field equation is not the site''s force law; and the boost-ceiling epoch
+    fork closes the last candidate discriminator. The counting question itself was the finding - a bare tally is a claim about independence.'
   archivist_version: '1.3'
   deliberate_zero_streak_2026_08_07: '3 consecutive windows (08-05, 08-06, 08-07) with 0 new numbered core Sessions. Do NOT escalate this as a stall: verified each time by confirming repo activity elsewhere
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/ AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only
     go one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-08-08T09:30:00Z'
+  last_updated: '2026-08-09T09:30:00Z'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not
     overturns) S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across 5 construction-mode sessions (S679-S683), confirming the S677-convergence→build pivot
     was not a one-session artifact. PRIOR — S681: convergence→re-engagement. After S677 declared the autonomous audit loop closed (61-session chain S617→S677, closing-from-outside, no new external input),
