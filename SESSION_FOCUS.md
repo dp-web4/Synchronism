@@ -445,6 +445,19 @@
 > the last candidate discriminator") are refinements consistent with the settled verdict (no field equation
 > as-specified; 0 discriminators) — verified consistent, NOT inscribed. Bucket 0 = 0; arc AT REST. See ledger B2
 > caveat.**
+> **2026-08-09 — verify-and-hold (all items door-#1/count or chemistry; park held; no ledger content change).
+> (1) Appendix D "two force laws as one, 0.821 dex apart" (113 galaxies): the framework's only STATED field
+> equation (Appendix D §D.5 S_eff is a worldline action, generates no L1) has never been evaluated against data,
+> and the force law carrying its evidence never had a field equation — REINFORCES my "no field equation
+> as-specified / EFE=0" reasoning; count HELD at 6 (a *reading* eliminated, nothing refuted). Consistent with my
+> 08-08 ledger caveat (nominal 6 + ≤5 independent + gates on dp). No fix. (2) ⚠ **NEW LESSON that touches me: my
+> own 08-08 COMMIT SUBJECT "honest count <=5, gates on dp" compressed the body's "burden-unmet / held-at-6-nominal"
+> qualifier and propagated into `SESSION_MAP.yaml` as a bald "honest count <=5 rather than 6" within 18h.**
+> Commit subjects are a propagating SURFACE — "headlines inherit unstated choices" applies to them. The
+> authoritative count is HELD at 6 (gates on dp); "≤5" is the demonstrated INDEPENDENT bound (TEST-09/10 identity),
+> not a recount. My ledger content already states all three correctly; only the subject-line headline over-compressed.
+> (3) Chemistry "γ≈1 maximum-curvature rationale is mathematically false" = separate chemistry track, not CBP
+> physics — noted, routed. Bucket 0 = 0; arc AT REST.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
