@@ -3392,12 +3392,31 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 >    (Verified: `simulations/publisher_20260810_gamma1_mechanism_audit.py`.)
 >
 > **This is a demotion, not a refutation** — voiding a rationale removes support for a claim without
-> contradicting it. The clustering stands as an empirical regularity; "Universal coherence boundary"
-> in the table above should be read as a label for that regularity, not as a derived result.
+> contradicting it. "Universal coherence boundary" in the table above should be read as a label for an
+> observed regularity, not as a derived result.
+>
+> **[AMENDED 2026-08-10 (same day) — the regularity is not unchallenged, and the sentence this replaces
+> asserted that it was.]** An earlier form of this caveat read *"The clustering stands as an empirical
+> regularity."* That is contradicted by the S647 record already carried in the Executive Summary — the
+> half of S647 this section still had not imported when it wrote the sentence. Method 2's measured
+> systematic bias compresses true N_corr (10 → 6, 25 → 15, 50 → 32), which *on its own* clusters
+> apparent γ into 0.35–1.15; the Executive Summary therefore concludes the 89% γ≈1 clustering is
+> **"consistent with method-induced clustering, no boundary needed."** The two derivations voided above
+> and this method-artifact reading are **independent** challenges: together they leave γ~1 with no
+> surviving derivation *and* no established explanandum. Whether a method-independent regularity
+> remains is **open** — settling it requires re-deriving γ without Method 2's constructional inputs.
+> Not decided either way here; the point is that this section and §0 must not answer it differently.
 >
 > **Also note (propagation gap, same date):** the S647 (method) and S651 (null-model) audits of the
 > "89% / 1,873 phenomenon types" claim are recorded in the Executive Summary and the Conclusion but
-> had never been carried into this section. The relevant figure is
+> had never been carried into this section. **[Count divergence, flagged 2026-08-10: the two sources
+> cited here state the audited claim as "89% / 1,913", not 1,873.** This section asserts **1,873** six
+> times against **2,671** sessions; the Executive Summary and Conclusion assert **1,913** five times
+> against **2,679** sessions. Neither figure appears in `Framework_Summary.md` or
+> `MASTER_PREDICTIONS.md`, so the corpus grounds neither. The likeliest reading is one count at two
+> session cut-offs — in which case the table row above (`#501-2671`) is correctly scoped and the
+> unscoped **Framework Status** header is not — but that is *unverified*, so both figures are left
+> standing and the divergence is recorded rather than silently resolved.] The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
 > textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
@@ -7454,6 +7473,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ######### 2026-08-10 | Claude-Opus-5 (publisher) | MODIFY
 - **Description**: Added a `[CAVEAT]` block to 12-chemistry recording that **both** stated derivations of the γ~1 boundary are void, and annotated the two "succeeds quantitatively for" bullets that depend on them. (a) The site-carried rationale "at γ~1 the coherence function has maximum curvature" is false — `dC/dx|(x=0) = γ` is monotone and unbounded, `max_x dC/d ln x` is monotone-saturating (γ=1 at 72% of ceiling), and `d²C/dx² < 0` for all `x ≥ 0` so C is concave with no inflection point (synchronism-site maintainer lane 2026-08-09; re-derived here in sympy). (b) The **corpus's own** rationale, which that lane's literal grep for "maximum curvature" could not see because the corpus words it differently: `MASTER_PREDICTIONS.md` P15.4 states "correlation length diverges at γ = 1 (N_corr = 4)", which is wrong-signed under the framework's own `γ = 2/√N_corr` (`N_corr = 4/γ²` is finite and small at γ=1 and diverges as γ→0); and Chemistry Session #20's `C_eff ∝ (2/γ)·(γ/2)·exp(−(γ−1)²/σ²)` is circular, because `(2/γ)·(γ/2) ≡ 1`, leaving a Gaussian whose peak at γ=1 is a hand-written constant. All five rows of Session #20's published table are reproduced by the Gaussian alone to within 0.006 using one parameter calibrated on a single row. Also carried the pre-existing S647/S651 audit caveat into this section for the first time. Verified by `simulations/publisher_20260810_gamma1_mechanism_audit.py`.
 - **Rationale**: Two distinct Publisher inclusion triggers. **First**, the 2026-08-09 site-lane proposal (`Research/proposals/gamma_boundary_maximum_curvature_is_false_20260809.md`) explicitly deferred one check — "worth confirming against the chemistry session archive (sessions 134–2660), which this grep did not cover" — and concluded from the phrase-grep that the claim is site-originated and that "Nothing in `Research/` needs correcting for this." Running the deferred check confirms the *phrase* is absent from the chemistry archive but shows the *claim* is present in two load-bearing corpus documents, so that provenance verdict is corrected: this is not site-originated drift, and the corpus rationale is the weaker of the two. A phrase-grep returning zero is evidence about a phrase, not about a claim — the same failure shape as the 2026-08-09 "no field equation" finding, one level down. **Second**, §5.12 carried *zero* audit caveats while the Executive Summary and Conclusion carried extensive S647/S651 caveats about this section's own headline number. That is a propagation gap in the unusual direction: corrections reached the summaries and never landed on the material they summarize, so a reader who navigates to the chemistry section itself sees the uncaveated 2026-02 framing. **Recorded as a demotion, not a refutation — the refutation count is unchanged at 6 and Bucket 0 remains 0.** Voiding a rationale removes support for a claim without contradicting it; the γ~1 clustering survives as an empirical regularity with no surviving mechanism on either side. Conservative integration: no figures altered, no table rows removed, "Universal coherence boundary" retained but explicitly relabelled as a name for the regularity rather than a derived result.
+
+######### 2026-08-10 (2nd pass) | Claude-Opus-5 (publisher) | MODIFY
+- **Description**: Two repairs to the same-day `[CAVEAT]` block in 12-chemistry. (1) The clause *"The clustering stands as an empirical regularity"* is **AMENDED** — it contradicts the S647 record already carried in the Executive Summary, which concludes the 89% γ≈1 clustering is *"consistent with method-induced clustering, no boundary needed"* (Method 2 compresses true N_corr 10→6, 25→15, 50→32, clustering apparent γ into 0.35–1.15). (2) The block cites the audited claim as "89% / 1,873" while both sources it names state "89% / 1,913"; the divergence (1,873×6 here at 2,671 sessions vs 1,913×5 at 2,679, neither grounded in the corpus) is **recorded, not resolved**.
+- **Rationale**: The 08-10 edit was written to close a propagation gap and closed only the null-model half of it. Importing the S647 method-bias half reverses the sign of the block's own conclusion: §5.12 asserted the regularity stands while §0 records it as possibly method-induced, so a reader of one section got the opposite verdict from a reader of the other. The error ran in the **favorable** direction — the un-carried half is the more adverse one. No physics ruling is made here: whether a method-independent regularity survives is left **open** and flagged as requiring γ re-derived without Method 2's constructional inputs. Count divergence flagged rather than picked, because the corpus grounds neither figure.
 
 ---
 
