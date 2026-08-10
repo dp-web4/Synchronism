@@ -35,6 +35,21 @@ C_eff ∝ (Order term) × (Disorder term)
 
 Peaks at γ = 1.0 where N_corr = 4.
 
+> **[CORRECTION 2026-08-10 | Publisher] This derivation is circular.** `(2/γ) × (γ/2) = 1` identically
+> — the "order term" and "disorder term" are exact reciprocals, so the stated *balance between order
+> and disorder* contributes nothing at any γ. The expression reduces to `exp(−(γ−1)²/σ²)`, a Gaussian
+> centred at γ=1 **by construction**: the peak is the hand-written constant `1` in `(γ−1)²`, not a
+> consequence of any balance. The §1.3 table below is reproduced by the Gaussian factor alone to a
+> worst deviation of **0.006** across all five rows, with the single parameter σ² ≈ 0.794 calibrated
+> on the γ=0.5 row only. The table's own symmetry is the tell — `C_eff(0.5) = C_eff(1.5) = 0.73`
+> exactly, which a genuine `(2/γ)·(γ/2)` modulation could preserve only by being identically 1.
+> Part 4.1's "γ = 1 as critical point" inherits this and gains no independent support; see also the
+> voided mechanism at `MASTER_PREDICTIONS.md` P15.4.
+> Verified: `simulations/publisher_20260810_gamma1_mechanism_audit.py`.
+>
+> **Demotion, not refutation.** The γ~1 clustering remains an empirical regularity; what is void is
+> its derivation. Refutation count unchanged at 6.
+
 ### 1.3 Quantitative Results
 
 | γ | N_corr | C_eff (normalized) | State |

@@ -571,9 +571,28 @@ Tc ~ θ_D × (2/γ) × f(coupling)
 
 ### P15.4: Critical Point at γ = 1
 **Prediction**: Phase transitions and critical phenomena occur at γ_c ≈ 1.0
-**Mechanism**: Correlation length diverges at γ = 1 (N_corr = 4)
+**Mechanism**: ~~Correlation length diverges at γ = 1 (N_corr = 4)~~ **[MECHANISM VOIDED 2026-08-10 — Publisher]**
 **Test**: Look for scale-free behavior and power laws at γ = 1
 **Falsified if**: Critical behavior at different γ
+
+> **[CORRECTION 2026-08-10 | Publisher]** The stated mechanism is wrong-signed under the framework's
+> own `γ = 2/√N_corr`. Inverting gives `N_corr = 4/γ²`, so at γ=1 `N_corr = 4` — finite and small.
+> Correlation length is monotone in N_corr under any reading, so it diverges as **γ → 0**, which is
+> this framework's *"fully correlated / rigid order"* limit — not at γ=1. Session #20 Part 4.1 states
+> the weaker *"correlation length comparable to system size"* at γ=1; "diverges" and "comparable to
+> system size" are different claims and `N_corr = 4` supports neither.
+> The companion Session #20 derivation is separately circular: in
+> `C_eff ∝ (2/γ)·(γ/2)·exp(−(γ−1)²/σ²)` the "balance of order and disorder" factor `(2/γ)·(γ/2)` is
+> **identically 1**, so the peak at γ=1 is the hand-written constant in `(γ−1)²`, not a derived result.
+> Verified: `simulations/publisher_20260810_gamma1_mechanism_audit.py`.
+>
+> **The prediction itself is NOT withdrawn.** Voiding a mechanism removes support for a claim without
+> refuting it; P15.4's "Falsified if" clause is untouched and the γ~1 clustering stands as an
+> empirical regularity. Refutation count unchanged at 6. This correction complements the
+> synchronism-site lane's 2026-08-09 finding that the *site's* different rationale ("maximum
+> curvature at γ~1") is also false — there is now no surviving derivation of the γ~1 boundary on
+> either side. See `Research/proposals/gamma_boundary_maximum_curvature_is_false_20260809.md`, whose
+> conclusion that "Nothing in `Research/` needs correcting for this" this entry corrects.
 
 ### P15.5: Energy-Complexity Relation
 **Prediction**: Higher energy input → Lower maintainable γ → Higher complexity
