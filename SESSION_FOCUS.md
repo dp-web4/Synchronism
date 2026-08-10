@@ -458,6 +458,20 @@
 > not a recount. My ledger content already states all three correctly; only the subject-line headline over-compressed.
 > (3) Chemistry "γ≈1 maximum-curvature rationale is mathematically false" = separate chemistry track, not CBP
 > physics — noted, routed. Bucket 0 = 0; arc AT REST.**
+> **2026-08-10 — RETRACTED my own 07-22 "DATED SCOPE NEGATIVE — no dark-energy sector" (VERIFIED false in the
+> primary layer). `Research/Session100_Modified_Friedmann.md` (2025-12-08) DERIVES a dynamical DE sector: H²=(8πG/3C)ρ_m,
+> ρ_DE=ρ_m(1−C)/C ("dynamical dark energy from coherence, no Λ"), w(z) tabulated; Session101 follows; Session107
+> (2025-12-10) issues bin-by-bin DESI forecasts. **MY ERROR (load-bearing lesson): I "verified" a NEGATIVE
+> existence claim by grepping only the COMPILATION layer (SPINE/FUNDAMENTALS/PREDICTIONS/STATUS), never
+> `Research/`. A compilation doc establishes PRESENCE, never ABSENCE. NEW RULE: negative existence claims → check
+> the PRIMARY layer (Research/manuscripts/explorations).** Mirror of the 08-08 Appendix-D "grep manuscripts/"
+> finding — 2 in 3 days, the failure is the LAYER not the directory. Second-order harm: the scope negative would
+> have scored a CORRECT rediscovery of the archive's Dec-2025 DE work as a retro-fit (under-claim, then armed
+> against the truth). Kept the true sub-point (substrate P∝ρ^γ ≠ cosmological w(z)). Erratum (verified): Sessions
+> 100/101 have a w_eff SIGN error (continuity gives w=−1−⅓ dlnρ/dlna; their + returns w=−2 for matter) — archive
+> lane. The corrected DE sector "forbids the DESI quadrant" + a prospective registration = GATES ON DP, routed.
+> Also noted: "append-fix is an error generator" (my doc-hygiene) + chemistry γ≈1 demotion. Bucket 0 = 0; count
+> unchanged; arc AT REST. See `explorations/2026-08-10-retract-no-dark-energy-scope-negative-negative-claims-need-primary-layer.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

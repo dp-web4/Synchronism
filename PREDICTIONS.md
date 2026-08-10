@@ -149,23 +149,28 @@ antidote to the overclaim.
 > falsifiable content (testable against existing tight clock-universality bounds). Operator call
 > on whether to re-list it as a discreteness-conditional bet.
 
-> **📌 DATED SCOPE NEGATIVE — the framework has NO dark-energy sector (registered 2026-07-22).** DESI DR2's
-> BAO preference for evolving dark energy (w₀wₐCDM over ΛCDM at ~2.8–4.2σ depending on SNe compilation) is the
-> live cosmological anomaly, and **Synchronism is silent on it.** C(ρ) modulates the effective gravitational
-> response to *matter* density; nothing in the framework sources, modifies, or couples to the expansion history,
-> so there is no mechanism producing w ≠ −1 or w(z) evolution. **Verified before registering** (grep of
-> SPINE/FUNDAMENTALS/PREDICTIONS/STATUS): no DE machinery exists. ⚠ **Disambiguation that makes this
-> registration load-bearing:** the repo *does* contain an "equation of state" — but it is the **substrate's
-> internal** `P ∝ ρ^γ` (open question OQ-EOS, replacing the broken `P = I_max − I` whose `c_s² < 0`), a
-> different object entirely from a cosmological w(z). A future reader grepping "equation of state" must not
-> mistake the substrate EOS for dark-energy machinery. **Consequence:** if DR2+ confirms evolving DE, the
-> framework inherits it passively — it neither predicted nor forbids it. This is a **scope negative**: the
-> advertised density→coherence→cosmology machinery touches only the *growth* side, and its one growth number
-> (σ₈≈0.76) is post-hoc (S102) and underpowered on the registered fσ₈ statistic (2026-07-14). Registered
-> **now, dated**, as cheap insurance against the retro-fit pattern the archive has already exhibited three times
-> (S193's BTFR rescue, TEST-03's late threshold, TEST-04a's statistic swap): any later claim that coherence
-> "explains" w₀wₐ is to be judged against this statement that no such coupling exists in the framework as
-> specified. Same discipline as the DR2 three-branch pre-commitment below.
+> **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
+> it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
+> (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
+> **`ρ_DE = ρ_m·(1−C)/C`** ("dynamical dark energy emerging from coherence, no cosmological constant needed"),
+> tabulates w(z); `Session101_Cosmic_Coherence.md` follows; **`Session107_DESI_Forecasts.md` (2025-12-10) issues
+> bin-by-bin DESI predictions.** The framework is *not* silent on evolving DE — it has a whole sector. **⚠ MY ERROR
+> (the load-bearing methodology lesson): I "verified" a NEGATIVE existence claim by grepping only the COMPILATION
+> layer (SPINE/FUNDAMENTALS/PREDICTIONS/STATUS) and never touched `Research/`. A compilation doc can establish that
+> something IS present; it can NEVER establish absence.** New standing rule: *negative existence claims must be
+> verified against the PRIMARY derivation layer (`Research/`, `manuscripts/`, `explorations/`).* This is the mirror
+> of the 08-08 Appendix-D "grep `manuscripts/`, not just `Research/`" finding — two in three days; the failure is
+> the *layer*, not the directory. **Second-order harm:** the scope negative was written as anti-retro-fit
+> insurance, but since the DE sector already existed (Dec 2025), it would have caused a *correct* rediscovery of
+> the archive's own work to be scored as a retro-fit — the anti-overclaiming machinery produced an under-claim and
+> then protected it (under-claiming is not safer than over-claiming, again). **Erratum (verified by me, NOT yet
+> fixed in-archive — maintainer lane):** Sessions 100/101 state `w_eff = −1 + ⅓ d(ln ρ_DE)/d(ln a)`, but continuity
+> gives `w = −1 − ⅓ d(ln ρ_DE)/d(ln a)` (their form returns w=−2 for matter, −7/3 for radiation; correct is 0, ⅓ —
+> verified). So the DE sector EXISTS but has a sign error, and the tabulated w_galactic column follows neither
+> formula. **The corrected DE sector reportedly "forbids the DESI quadrant" and the proposal adds a prospective
+> registration — that inscription GATES ON DP (like the DR2 pre-commitment); routed, not inscribed here.** The
+> w(z)/OQ-EOS substrate-vs-cosmological disambiguation I made 07-22 still stands as a *separate* true point (the
+> substrate `P∝ρ^γ` ≠ the cosmological w(z)); what was false was "no DE sector at all."
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
