@@ -51,12 +51,31 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 >    (Verified: `simulations/publisher_20260810_gamma1_mechanism_audit.py`.)
 >
 > **This is a demotion, not a refutation** — voiding a rationale removes support for a claim without
-> contradicting it. The clustering stands as an empirical regularity; "Universal coherence boundary"
-> in the table above should be read as a label for that regularity, not as a derived result.
+> contradicting it. "Universal coherence boundary" in the table above should be read as a label for an
+> observed regularity, not as a derived result.
+>
+> **[AMENDED 2026-08-10 (same day) — the regularity is not unchallenged, and the sentence this replaces
+> asserted that it was.]** An earlier form of this caveat read *"The clustering stands as an empirical
+> regularity."* That is contradicted by the S647 record already carried in the Executive Summary — the
+> half of S647 this section still had not imported when it wrote the sentence. Method 2's measured
+> systematic bias compresses true N_corr (10 → 6, 25 → 15, 50 → 32), which *on its own* clusters
+> apparent γ into 0.35–1.15; the Executive Summary therefore concludes the 89% γ≈1 clustering is
+> **"consistent with method-induced clustering, no boundary needed."** The two derivations voided above
+> and this method-artifact reading are **independent** challenges: together they leave γ~1 with no
+> surviving derivation *and* no established explanandum. Whether a method-independent regularity
+> remains is **open** — settling it requires re-deriving γ without Method 2's constructional inputs.
+> Not decided either way here; the point is that this section and §0 must not answer it differently.
 >
 > **Also note (propagation gap, same date):** the S647 (method) and S651 (null-model) audits of the
 > "89% / 1,873 phenomenon types" claim are recorded in the Executive Summary and the Conclusion but
-> had never been carried into this section. The relevant figure is
+> had never been carried into this section. **[Count divergence, flagged 2026-08-10: the two sources
+> cited here state the audited claim as "89% / 1,913", not 1,873.** This section asserts **1,873** six
+> times against **2,671** sessions; the Executive Summary and Conclusion assert **1,913** five times
+> against **2,679** sessions. Neither figure appears in `Framework_Summary.md` or
+> `MASTER_PREDICTIONS.md`, so the corpus grounds neither. The likeliest reading is one count at two
+> session cut-offs — in which case the table row above (`#501-2671`) is correctly scoped and the
+> unscoped **Framework Status** header is not — but that is *unverified*, so both figures are left
+> standing and the divergence is recorded rather than silently resolved.] The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
 > textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
