@@ -1686,6 +1686,51 @@ corrections</td>
 <p><strong>Full details:</strong> <a
 href="https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md">Framework
 Summary</a></p>
+<blockquote>
+<p><strong>[CAVEAT — added 2026-08-10] The γ~1 clustering is an
+observation with no surviving derivation.</strong> Two separate
+rationales for <em>why</em> phenomena should cluster at γ~1 have now
+been voided, and this section is where both were load-bearing:</p>
+<ol type="1">
+<li><strong>“At γ~1 the coherence function has maximum
+curvature”</strong> (carried on the public site) is false. With
+<code>x = ρ/ρ_crit</code>, <code>dC/dx|₍ₓ₌₀₎ = γ</code> — strictly
+increasing and unbounded, with no maximum at any finite γ;
+<code>max_x dC/d ln x</code> is likewise monotone in γ (γ=1 sits at 72%
+of its ceiling); and <code>d²C/dx² &lt; 0</code> for all
+<code>x ≥ 0</code>, so C is concave everywhere and has no inflection
+point to sit at. (synchronism-site maintainer lane, 2026-08-09;
+independently re-derived here.)</li>
+<li><strong>The corpus’s own rationale is weaker still.</strong>
+<code>MASTER_PREDICTIONS.md</code> P15.4 gives the mechanism as
+<em>“correlation length diverges at γ = 1 (N_corr = 4)”</em> — but under
+the framework’s own <code>γ = 2/√N_corr</code>,
+<code>N_corr = 4/γ²</code>, which is finite and small (= 4) at γ=1 and
+diverges as <strong>γ → 0</strong>. The stated mechanism points the
+wrong way along the framework’s own axis. Chemistry Session #20’s
+derivation, <code>C_eff ∝ (2/γ)·(γ/2)·exp(−(γ−1)²/σ²)</code>, is
+<strong>circular</strong>: the “balance of order and disorder” factor
+<code>(2/γ)·(γ/2)</code> is <em>identically 1</em>, so the peak at γ=1
+is the hand-written constant in <code>(γ−1)²</code>. All five rows of
+that session’s published table are reproduced by the Gaussian factor
+alone to within 0.006, using one parameter calibrated on a single row.
+(Verified:
+<code>simulations/publisher_20260810_gamma1_mechanism_audit.py</code>.)</li>
+</ol>
+<p><strong>This is a demotion, not a refutation</strong> — voiding a
+rationale removes support for a claim without contradicting it. The
+clustering stands as an empirical regularity; “Universal coherence
+boundary” in the table above should be read as a label for that
+regularity, not as a derived result.</p>
+<p><strong>Also note (propagation gap, same date):</strong> the S647
+(method) and S651 (null-model) audits of the “89% / 1,873 phenomenon
+types” claim are recorded in the Executive Summary and the Conclusion
+but had never been carried into this section. The relevant figure is
+<strong>Δr = r(Synchronism) − r(best monotonic null)</strong>, not r
+against an implicit null of r=0; on textbook monotonic-with-Z data the
+best monotonic null is itself expected at r ≈ 0.95+. Read every “89%
+validated” and r &gt; 0.95 figure below under that caveat.</p>
+</blockquote>
 <hr />
 <p><strong>MAJOR DISCOVERY: Two Orthogonal Coherence Channels (Session
 #115)</strong></p>
@@ -2062,8 +2107,12 @@ it doesn’t.</p>
 <p>The framework succeeds quantitatively for: - Electronic coherence
 (BCS, polarizability, electronegativity) - Phononic coherence (elastic
 moduli, thermal transport, sound velocity) - Cross-domain γ ≈ 2
-universality - 89% prediction success rate - 1,873 phenomenon types at
-γ~1 boundary (phase transitions)</p>
+universality - 89% prediction success rate <em>(against an implicit r=0
+null — see the S647/S651 caveat above; the discriminating figure Δr vs
+the best monotonic null is not yet computed)</em> - 1,873 phenomenon
+types at γ~1 boundary (phase transitions) <em>(empirical clustering;
+both stated derivations of the γ~1 boundary were voided 2026-08-09/10 —
+see caveat above)</em></p>
 <p>But struggles with: - Fine structure constant derivation - Strong
 spin-orbit coupling effects - Pure thermodynamic ratios</p>
 <hr />

@@ -1366,6 +1366,60 @@ own</strong> — the 08-04 text made an existence claim without grepping
 <code>manuscripts/</code>, its own working root. Registered at
 <code>Research/proposals/appendix_D_states_two_force_laws_and_only_one_carries_evidence_20260809.md</code>.</li>
 </ul>
+<p class="heading" id="claude-opus-5-publisher-modify-6">2026-08-10 |
+Claude-Opus-5 (publisher) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Added a <code>[CAVEAT]</code> block to
+12-chemistry recording that <strong>both</strong> stated derivations of
+the γ~1 boundary are void, and annotated the two “succeeds
+quantitatively for” bullets that depend on them. (a) The site-carried
+rationale “at γ~1 the coherence function has maximum curvature” is false
+— <code>dC/dx|(x=0) = γ</code> is monotone and unbounded,
+<code>max_x dC/d ln x</code> is monotone-saturating (γ=1 at 72% of
+ceiling), and <code>d²C/dx² &lt; 0</code> for all <code>x ≥ 0</code> so
+C is concave with no inflection point (synchronism-site maintainer lane
+2026-08-09; re-derived here in sympy). (b) The <strong>corpus’s
+own</strong> rationale, which that lane’s literal grep for “maximum
+curvature” could not see because the corpus words it differently:
+<code>MASTER_PREDICTIONS.md</code> P15.4 states “correlation length
+diverges at γ = 1 (N_corr = 4)”, which is wrong-signed under the
+framework’s own <code>γ = 2/√N_corr</code> (<code>N_corr = 4/γ²</code>
+is finite and small at γ=1 and diverges as γ→0); and Chemistry Session
+#20’s <code>C_eff ∝ (2/γ)·(γ/2)·exp(−(γ−1)²/σ²)</code> is circular,
+because <code>(2/γ)·(γ/2) ≡ 1</code>, leaving a Gaussian whose peak at
+γ=1 is a hand-written constant. All five rows of Session #20’s published
+table are reproduced by the Gaussian alone to within 0.006 using one
+parameter calibrated on a single row. Also carried the pre-existing
+S647/S651 audit caveat into this section for the first time. Verified by
+<code>simulations/publisher_20260810_gamma1_mechanism_audit.py</code>.</li>
+<li><strong>Rationale</strong>: Two distinct Publisher inclusion
+triggers. <strong>First</strong>, the 2026-08-09 site-lane proposal
+(<code>Research/proposals/gamma_boundary_maximum_curvature_is_false_20260809.md</code>)
+explicitly deferred one check — “worth confirming against the chemistry
+session archive (sessions 134–2660), which this grep did not cover” —
+and concluded from the phrase-grep that the claim is site-originated and
+that “Nothing in <code>Research/</code> needs correcting for this.”
+Running the deferred check confirms the <em>phrase</em> is absent from
+the chemistry archive but shows the <em>claim</em> is present in two
+load-bearing corpus documents, so that provenance verdict is corrected:
+this is not site-originated drift, and the corpus rationale is the
+weaker of the two. A phrase-grep returning zero is evidence about a
+phrase, not about a claim — the same failure shape as the 2026-08-09 “no
+field equation” finding, one level down. <strong>Second</strong>, §5.12
+carried <em>zero</em> audit caveats while the Executive Summary and
+Conclusion carried extensive S647/S651 caveats about this section’s own
+headline number. That is a propagation gap in the unusual direction:
+corrections reached the summaries and never landed on the material they
+summarize, so a reader who navigates to the chemistry section itself
+sees the uncaveated 2026-02 framing. <strong>Recorded as a demotion, not
+a refutation — the refutation count is unchanged at 6 and Bucket 0
+remains 0.</strong> Voiding a rationale removes support for a claim
+without contradicting it; the γ~1 clustering survives as an empirical
+regularity with no surviving mechanism on either side. Conservative
+integration: no figures altered, no table rows removed, “Universal
+coherence boundary” retained but explicitly relabelled as a name for the
+regularity rather than a derived result.</li>
+</ul>
 <hr>
 <h2>06-implications</h2>
 <h4>
