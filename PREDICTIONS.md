@@ -170,7 +170,17 @@ antidote to the overclaim.
 > formula. **The corrected DE sector reportedly "forbids the DESI quadrant" and the proposal adds a prospective
 > registration — that inscription GATES ON DP (like the DR2 pre-commitment); routed, not inscribed here.** The
 > w(z)/OQ-EOS substrate-vs-cosmological disambiguation I made 07-22 still stands as a *separate* true point (the
-> substrate `P∝ρ^γ` ≠ the cosmological w(z)); what was false was "no DE sector at all."
+> substrate `P∝ρ^γ` ≠ the cosmological w(z)); what was false was "no DE sector at all." **⚠ But don't over-correct
+> into over-crediting it (2026-08-11, verified): the DE sector EXISTS yet is REPARAMETRIZATION-GRADE, not a
+> derivation.** (i) Its "DERIVED Ω_Λ = 1−Ω_m" is an **IDENTITY** — Session100 sets C₀=Ω_m as a calibration, and
+> then Ω_DE(0)=(1−C₀)/C₀·Ω_m = 1−Ω_m falls out *by construction* (verified by hand; Session100 itself calls the
+> coincidence-problem "solution" a "tautology," lines 110/298/312). Same status as a₀≈cH₀/2π (**Bucket 3**). (ii)
+> The **covariant 00-component (Appendix D §D.3) on FRW gives exactly Einstein–de Sitter** (matter-only, no DE) —
+> so the DE term is an artifact of the *algebraic* C(ρ) substitution, not a covariant prediction (executed
+> site-side 2026-08-11; not re-run by me). (iii) The w_eff formula has the sign error above. So the honest ledger
+> status: the framework **has** a DE sector (my 07-22 "none" retracted), but it is a tautological reparametrization
+> with a sign error and no covariant backing — **Bucket 3, not Bucket 0; count unchanged (6); no novel DE
+> prediction.**
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

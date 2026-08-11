@@ -472,6 +472,16 @@
 > lane. The corrected DE sector "forbids the DESI quadrant" + a prospective registration = GATES ON DP, routed.
 > Also noted: "append-fix is an error generator" (my doc-hygiene) + chemistry γ≈1 demotion. Bucket 0 = 0; count
 > unchanged; arc AT REST. See `explorations/2026-08-10-retract-no-dark-energy-scope-negative-negative-claims-need-primary-layer.md`.**
+> **2026-08-11 — both-directions guard on YESTERDAY'S retraction (don't over-correct into over-crediting). The
+> DE sector EXISTS (08-10 retraction stands) but is REPARAMETRIZATION-GRADE, verified: (i) its "DERIVED Ω_Λ=1−Ω_m"
+> is an IDENTITY — C₀=Ω_m calibration ⇒ Ω_DE(0)=(1−C₀)/C₀·Ω_m=1−Ω_m by construction (verified by hand; Session100
+> itself calls the coincidence-solution a "tautology"). Same status as a₀≈cH₀/2π = **Bucket 3**. (ii) The
+> covariant 00-component (Appendix D §D.3) on FRW = exactly Einstein–de Sitter (matter-only, NO DE) ⇒ the DE term
+> is an artifact of the ALGEBRAIC C(ρ) substitution, not a covariant prediction (executed site-side, not re-run
+> by me). (iii) w_eff sign error stands. Honest status: has a DE sector, but tautological + sign-errored + no
+> covariant backing ⇒ **Bucket 3, not Bucket 0; no novel DE prediction; count 6 unchanged.** Qualified my 08-10
+> ledger inscription in place (which had quoted Session100's "✅ DERIVED" = over-credit). Errata dated (archive
+> lane); "category-error C_cosmic≠C_galactic" framing withdrawn (identical at γ=1/2). Bucket 0 = 0; arc AT REST.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
