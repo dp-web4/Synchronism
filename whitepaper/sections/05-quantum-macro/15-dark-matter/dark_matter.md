@@ -207,7 +207,7 @@ Applying G_eff = G/C to cosmology yields emergent dark energy:
 
 No cosmological constant Λ required.
 
-**Cosmic Coherence Form (NOW DERIVED - Session #241):**
+**Cosmic Coherence Form (Session #241 — "DERIVED" corrected below, 2026-08-11):**
 
 The cosmic coherence function has a natural form:
 
@@ -219,17 +219,17 @@ As acceleration a → 0 (deep MOND regime):
 - C → Ω_m = 0.315 (coherence floor)
 - (1-C) → Ω_Λ = 0.685 (appears as "dark energy")
 
-**The Key Result:**
+**The Key Result [lead corrected 2026-08-11]:**
 ```
-Ω_Λ = (1 - Ω_m) emerges from coherence floor
+Ω_Λ = (1 - Ω_m) — an identity of the calibration, not an emergence
 ```
 
-**Flat universe (Ω_total = 1) is DERIVED, not assumed.**
-
-This upgrades the cosmic coherence form from CONSTRAINED to DERIVED. The cosmological constant is not a free parameter—it's determined by the coherence floor in the deep MOND limit.
+Ω_m ≡ 8πGρ_m,0/(3H₀²) by definition, and the modified Friedmann H₀² = 8πGρ_m,0/(3C₀) forces **C₀ = Ω_m identically, for any coherence form** — Session #100 itself calls this calibration "a tautology." So Ω_Λ = 1 − Ω_m and flatness are built into the ρ_DE = ρ_m(1−C)/C split, not derived from it; the earlier "upgraded from CONSTRAINED to DERIVED" framing overclaimed. γ is the cosmic sector's only free parameter. (Sharpens the standing "internal-consistency reproduction" caveat; source: 2026-08-10 site-lane finding, `Research/proposals/dark_energy_sector_exists_and_forbids_desi_quadrant_20260810.md`; verified `simulations/publisher_20260811_w_eff_erratum_check.py`.)
 
 **Physical Interpretation:**
 Dark matter AND dark energy are both coherence effects—unified through C(a). At galactic scales, low coherence enhances gravity ("dark matter"). At cosmic scales, the coherence floor creates an effective vacuum energy ("dark energy").
+
+**Erratum on the source sessions (2026-08-10; independently verified 2026-08-11):** Sessions #100/#101 state `w_eff = −1 + (1/3)·d(ln ρ_DE)/d(ln a)`; the continuity equation gives `w = −1 − (1/3)·d(ln ρ_DE)/d(ln a)` (the published form returns w = −2 for matter), and the tabulated w(z) column follows neither formula — it drops the leading −1. Corrected values: w(0) = −1.24 at γ = 2 (not > 0 as Session #100 reports), monotone with w → −1 as a → ∞ and w → −2γ as z → ∞. Session #101's "category error" conclusion (that the galactic C form cannot serve at cosmic scales) is an artifact of this sign error: at γ = 1/2 the galactic form with C₀ = Ω_m is *identically* Ω_m(z) — the exact ΛCDM background, w ≡ −1. Structural consequence, holding for every γ and calibration but conditional on Session #100's `G_eff = G/C` substitution (no covariant derivation of the 00-component exists): **sign(w₀ + 1) = sign(wₐ)** — the model cannot produce a phantom crossing, which is the quadrant DESI DR2 prefers in all four of its dataset combinations (0 of 16 γ values reach it). The γ = 1/2 branch is not thereby refuted: it *is* ΛCDM in the background and inherits ΛCDM's 2.8–4.2σ DESI tension, no more. A prospective registration of the no-go (DESI DR3 timeline, ~2027–2028) is filed in the proposal above, gated on dp. All statements verified in `simulations/publisher_20260811_w_eff_erratum_check.py`.
 
 ---
 

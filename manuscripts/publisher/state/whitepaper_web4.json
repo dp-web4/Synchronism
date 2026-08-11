@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-08-10T10:30:00Z",
-  "last_checked_commit": "03b61ac",
+  "last_review": "2026-08-11T11:30:00Z",
+  "last_checked_commit": "360c366",
   "pending_proposals": [],
   "status": "current",
-  "notes": "Review 2026-08-10 against web4@origin/main (03b61ac). NO CHANGE -- 5th consecutive structural zero. Scanned at origin/main per the publisher/CLAUDE.md section 1b amendment of 2026-08-09, and NAMING THE REF matters here: the shared web4 checkout's HEAD is STILL parked on kimi/purpose-is-relational, unchanged since 08-09, so a bare 'git log --since' against the working tree would again read the wrong history. Four commits in the window; exactly ONE touched whitepaper/, and it was whitepaper/PUBLISHER_CONTEXT.md -- this track's own run log, i.e. self-authored and not a source of new content. The other three are docs/audits/ deltas (C342 web4-lct, C344 mcp-protocol, C346 atp-adp-cycle). No protocol element implemented, no specification clarified, no security analysis, no hardware integration -- none of the four Web4 inclusion triggers fired. TERMINOLOGY: zero drift; no LCT/T3/V3/ATP/ADP/R6/R7 redefinition in the window. The structural zero is now stable enough to be worth stating as a property rather than a result: the web4 lane's whitepaper-scope work and its audit-channel work have been disjoint for five consecutive passes."
+  "notes": "Review 2026-08-11 against web4@origin/main (360c366). NO CHANGE -- 6th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main; the shared checkout's HEAD is on main today. Seven commits in the window since 08-10 04:00 PDT; exactly ONE touched whitepaper/ and it is whitepaper/PUBLISHER_CONTEXT.md -- this track's own 08-10 run log (self-authored, not new content). No inclusion trigger fired; zero terminology drift. The disjointness property recorded 08-10 (whitepaper-scope work vs audit-channel work) holds for a 6th pass."
 }
