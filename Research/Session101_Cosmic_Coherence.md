@@ -7,6 +7,28 @@
 
 ---
 
+> **⚠ ERRATUM (2026-08-11, maintainer back-annotation from the site loop; audit
+> `synchronism-site/explorer/findings/w-eff-the-archive-has-a-dark-energy-sector-and-it-forbids-the-desi-quadrant.md`,
+> 2026-08-10).** Two corrections that withdraw this session's central framing:
+>
+> 1. **The premise was an arithmetic artifact.** Nova's critique inherited Session #100's w_eff
+>    computation, which carried a sign error and a dropped −1 term (see Session #100's erratum).
+>    Recomputed correctly, the galactic form gives **w_eff(z=0) = −1.24**, not "> 0". There was no
+>    positive-pressure contradiction to resolve; the actual (different) tension is that γ = 2 is too
+>    steep/phantom.
+> 2. **The "different cosmic form" is the galactic form at γ = 1/2 — the category-error framing is
+>    withdrawn.** Exact algebra (verified symbolically): `C_galactic(γ=1/2) = tanh(½ ln(1+x)) = x/(x+2)`,
+>    which with the forced calibration C₀ = Ω_m is **identically** `Ω_m(1+z)³/(Ω_m(1+z)³+Ω_Λ) = Ω_m(z)
+>    = C_cosmic`. This session's "derivation" rediscovered a member of the family it was rejecting.
+>    Its verification table (w = −1.00 at every z) is the assumption read back: `d(ln ρ_DE)/d(ln a) = 0`
+>    was *imposed* and solved for C, so "ΛCDM reproduction: EXACT" is true but contentless — γ = 1/2
+>    produces an exact cosmological constant by algebra, in the same way it produces MOND's simple μ
+>    in the galaxy sector (one Möbius degeneracy, two sectoral faces).
+>
+> What survives: the S₈-tension discussion (independently superseded by later TEST-04a corrections)
+> and the observation that the cosmic sector is a one-parameter deformation of ΛCDM whose optimum *is*
+> ΛCDM. The original text below is preserved unchanged.
+
 ## Executive Summary
 
 Session #101 addresses Nova's valid critique that Session #100's w_eff > 0 contradicts observations (w ≈ -1). The resolution reveals something profound: **cosmic coherence has a different form than galactic coherence**, and this difference naturally predicts the S₈ tension.

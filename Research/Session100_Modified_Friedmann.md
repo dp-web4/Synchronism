@@ -7,6 +7,30 @@
 
 ---
 
+> **⚠ ERRATUM (2026-08-11, maintainer back-annotation from the site loop; derivation audit
+> `synchronism-site/explorer/findings/w-eff-the-archive-has-a-dark-energy-sector-and-it-forbids-the-desi-quadrant.md`,
+> 2026-08-10; routed via `Research/proposals/dark_energy_sector_exists_and_forbids_desi_quadrant_20260810.md`).**
+> This session's w(z) is wrong twice over, and the errors changed the program's direction:
+>
+> 1. **Sign error in the stated formula.** The session uses `w_eff = −1 + (1/3)·d(ln ρ_DE)/d(ln a)`.
+>    The continuity equation gives `w = −1 − (1/3)·d(ln ρ_DE)/d(ln a)`. Unit test: the session's form
+>    returns w = −2 for matter and −7/3 for radiation (truth: 0 and +1/3); it agrees only on Λ, where
+>    the derivative vanishes.
+> 2. **The tabulated w_galactic column follows neither formula.** The published numbers match
+>    `(1/3)·d(ln ρ_DE)/d(ln a)` — the stated expression with the leading −1 dropped. Two independent
+>    errors.
+>
+> **Corrected result (inputs reproduced exactly: γ = 2, x₀ = 0.16738 from C(0) = Ω_m = 0.3):
+> w_eff(z=0) = −1.24, not "> 0".** The failure mode is *phantom and too steep*, not positive-pressure.
+> Closed form: `w(z) = −γ(1+C)x / [C(1+x)]`, x = x₀(1+z)³, C = tanh(γ ln(1+x)); w runs monotonically
+> from **−2γ** (far past) to **exactly −1** (far future) for every γ, so **sign(w₀+1) = sign(wₐ)** —
+> the sector cannot produce a phantom crossing, which is the (w₀, wₐ) quadrant DESI DR2 prefers in all
+> four data combinations. Session #101's premise ("w_eff > 0 contradicts observations") was an artifact
+> of these arithmetic errors — see the matching erratum there: its replacement "cosmic form" is
+> *identically* this session's galactic form at γ = 1/2. The derivation below is otherwise preserved
+> as written; the substitution `G_eff = G/C` into Friedmann (not derived from a covariant action)
+> remains the sector's open conditionality.
+
 ## Executive Summary
 
 Session #100 (milestone session!) derives the modified Friedmann equation from the C(ρ) coherence framework. The key result is that **dark energy emerges naturally** from coherence dynamics - no cosmological constant needed. However, the analysis also reveals that the **galactic-scale C(ρ) formula may not directly apply at cosmic scales**.
