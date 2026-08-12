@@ -482,6 +482,16 @@
 > covariant backing ⇒ **Bucket 3, not Bucket 0; no novel DE prediction; count 6 unchanged.** Qualified my 08-10
 > ledger inscription in place (which had quoted Session100's "✅ DERIVED" = over-credit). Errata dated (archive
 > lane); "category-error C_cosmic≠C_galactic" framing withdrawn (identical at γ=1/2). Bucket 0 = 0; arc AT REST.**
+> **2026-08-12 — DE sector's FIRST likelihood contact with data (new executed fit ⇒ triaged, not a re-headline).
+> A direct w(z;γ) fit to DESI DR2+CMB+SN (site-executed; I re-ran the in-repo covariant checks MYSELF, ALL PASS ⇒
+> discharged my 08-11 "not re-run by me" caveat). Three findings, all deflationary: (a) the SUBSTITUTED branch IS
+> ΛCDM — measured, γ=0.487±0.02, Δχ²=−0.3 vs ΛCDM, +11 behind w₀wₐ; the 08-11 "forced-wₐ 3.4–6.3σ" exclusion
+> pricing DIED on execution (no exclusion, only non-novelty). (b) BOTH covariant completions FAIL the fit (A=EdS
+> χ²≈9900; B Δχ²≥+79) — stronger than the prior quadrant-membership framing. (c) ⚠ the "cross-sector γ concordance"
+> (γ_cosmo=0.487 vs γ_galaxy=0.489, "0.1σ") has NO POWER to fail — γ=½ is exactly Λ, 0.489 is exactly MOND simple-μ,
+> so the sectors' standard models sit 0.011 apart by construction; NOT a confirmation, do not promote it. Count 6
+> unchanged; Bucket 3 unchanged; TEST-26 statistic change (quadrant→Δχ²) GATES ON DP. Bucket 0 = 0; arc AT REST.
+> See `explorations/2026-08-12-de-sector-direct-desi-fit-substituted-is-lcdm-covariant-excluded-cross-sector-gamma-has-no-power.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics

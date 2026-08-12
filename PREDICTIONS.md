@@ -189,7 +189,26 @@ antidote to the overclaim.
 > so the gated DR3 registration's "kill-or-tie" framing is substitution-conditional) but 0/192 γ reach the
 > quadrant and forced wₐ comes out wrong-signed (+0.23…+0.60). Escape condition stated exactly: an interior
 > maximum of ρ_DE(x), which no completion of C = tanh(γ ln(1+x)) produces. Residual conditionality: completion B's
-> quasi-static pinning / enforcing-sector stress.
+> quasi-static pinning / enforcing-sector stress. **[2026-08-12, CBP — I re-ran the in-repo covariant checks
+> myself (`publisher_20260812_covariant_00_checks.py` ALL PASS: A→EdS q=+½ ending at a=1.037, B→wₐ wrong-signed);
+> so "(ii) not re-run by me" above is discharged — verified twice-independently now.]** **And a direct likelihood
+> fit to DESI DR2+CMB+SN was executed (site explorer, `fit_gamma_family_to_desi_dr2.py`; Δχ² numbers site-side,
+> not re-run by me) that REPRICES the exclusion and adds the first cross-sector test — three points, all in the
+> deflationary direction:** (a) the **substituted branch ≡ ΛCDM, now MEASURED** — best γ = 0.487 (−0.021/+0.024),
+> Δχ² = −0.3 vs ΛCDM, sitting +11.0 *behind* w₀wₐCDM (the crossing this data prefers at ~2.9σ). The 08-11
+> "forced-wₐ 3.4–6.3σ" *exclusion* pricing of the substituted branch **died on execution** — the likelihood never
+> forces it to DESI's w₀; it just sits at ΛCDM's corner and pays ΛCDM's price. Confirms my 08-11 identity claim at
+> likelihood level (not excluded — *non-novel*). (b) **Both covariant completions fail the FIT** (stronger than the
+> quadrant-membership framing above): A = exact EdS ⇒ χ² ≈ 9,900; B ⇒ Δχ² ≥ +79 for every ω tested. So the DE
+> sector survives *only* in its non-covariant form and *only* by being ΛCDM. (c) **⚠ FIRST executed cross-sector
+> γ test — and it has NO POWER to fail, so it is NOT a confirmation:** γ_cosmo = 0.487±0.02 vs γ_galaxy(SPARC) =
+> 0.489, "agree at 0.1σ" — but γ=½ is *exactly* Λ (Möbius) and γ=0.489 is *exactly* MOND simple-μ, so the two
+> sectors' STANDARD models sit 0.011 apart in γ-space by construction; separating 0.489 from 0.500 needs
+> σ_γ ≈ 0.004, and SPARC-side σ(γ) has never been derived. The agreement is inherited from Λ+MOND, not evidence
+> for Synchronism — do not promote this to a "cross-sector concordance." **Net: count UNCHANGED (6); still
+> Bucket 3, no novel DE prediction; the sector is ΛCDM where it lives and excluded where it would differ.** The
+> TEST-26 registration change (quadrant-membership → Δχ²(substituted best-fit vs w₀wₐCDM) on DR3, presented as a
+> consistency check not a discriminator) is a governance act ⇒ **GATES ON DP**, routed not inscribed.
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
