@@ -30,6 +30,22 @@
 > *identically* this session's galactic form at γ = 1/2. The derivation below is otherwise preserved
 > as written; the substitution `G_eff = G/C` into Friedmann (not derived from a covariant action)
 > remains the sector's open conditionality.
+>
+> **[UPDATE 2026-08-12: that conditionality was executed 2026-08-11 (site lane), and the no-go
+> survives it at class level.]** The substitution's two assumptions (H² = 8πGρ_m/3C, ρ_m ∝ a⁻³)
+> jointly violate the Bianchi identity of Appendix D §D.3's own covariant equation. Its two minimal
+> consistent completions were derived and scanned: **(A)** the equation as written forces ρ/C ∝ a⁻³ —
+> exactly Einstein–de Sitter, *no dark-energy sector at all* ("dark energy emerges naturally" was the
+> conservation assumption read back), with no FRW solution past a ≈ 1.037 under this session's own
+> calibration; **(B)** C as a Brans-Dicke scalar pinned to C(ρ̄(a)) breaks the literal sign lock (the
+> w = −1 attractor and the γ = 1/2 Λ-degeneracy are destroyed) but still never reaches the DESI
+> quadrant (0/192 γ at ω ∈ {0, 1, 5, 50}; forcing w₀ to DESI forces wₐ = +0.23…+0.60, wrong sign).
+> Class criterion: any ρ_DE = ρ_m·F(x) has w_DE = dlnF/dlnx, so the DESI crossing requires an
+> interior maximum of ρ_DE(x), which no completion of C = tanh(γ ln(1+x)) produces. Residual
+> conditionality: completion B's quasi-static pinning / enforcing-sector stress. Source:
+> `synchronism-site/explorer/findings/covariant-00-component-sign-lock-dies-desi-nogo-hardens.md`,
+> routed via `Research/proposals/covariant_00_component_sign_lock_dies_desi_nogo_hardens_20260811.md`;
+> independently verified in `simulations/publisher_20260812_covariant_00_checks.py`.
 
 ## Executive Summary
 

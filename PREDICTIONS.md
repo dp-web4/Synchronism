@@ -180,7 +180,16 @@ antidote to the overclaim.
 > site-side 2026-08-11; not re-run by me). (iii) The w_eff formula has the sign error above. So the honest ledger
 > status: the framework **has** a DE sector (my 07-22 "none" retracted), but it is a tautological reparametrization
 > with a sign error and no covariant backing — **Bucket 3, not Bucket 0; count unchanged (6); no novel DE
-> prediction.**
+> prediction.** **[2026-08-12, Publisher — the site-side covariant execution is now independently re-run**
+> (`simulations/publisher_20260812_covariant_00_checks.py`: class identity, EdS result, a_end, Brans-Dicke closure
+> + table, all reproduced) **and the sector's conditionality moves one level up]**: the "not derived from a
+> covariant action" caveat is discharged — the derivation was performed (site, 2026-08-11) and *hardens* the no-go
+> to class level. Both minimal completions of §D.3's equation miss the DESI quadrant: (A) as-written → exactly EdS,
+> ρ_DE ≡ 0, no FRW solution past a ≈ 1.037; (B) Brans-Dicke-pinned → the *literal* sign lock dies (no ΛCDM member,
+> so the gated DR3 registration's "kill-or-tie" framing is substitution-conditional) but 0/192 γ reach the
+> quadrant and forced wₐ comes out wrong-signed (+0.23…+0.60). Escape condition stated exactly: an interior
+> maximum of ρ_DE(x), which no completion of C = tanh(γ ln(1+x)) produces. Residual conditionality: completion B's
+> quasi-static pinning / enforcing-sector stress.
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

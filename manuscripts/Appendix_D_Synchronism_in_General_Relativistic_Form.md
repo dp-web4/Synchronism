@@ -100,6 +100,12 @@ where \(G_{\mu\nu}\) is the Einstein tensor derived from an effective metric \(g
 \]
 with \(T_{\mu\nu}\) the usual baryonic stress–energy tensor and \(\rho\) the local baryonic density measured in an appropriate frame.
 
+> **[NOTE 2026-08-12, back-annotating a 2026-08-11 result: on FRW this equation is exactly Einstein–de Sitter — it has no dark-energy sector.]**
+>
+> The Bianchi identity \(\nabla^\mu G_{\mu\nu} \equiv 0\) forces \(\nabla^\mu(T_{\mu\nu}/C) = 0\). For dust, \(\mathcal{T}_{\mu\nu} = (\rho/C)u_\mu u_\nu\) is itself a dust tensor, so its conservation gives \(\rho/C \propto a^{-3}\) and hence \(H^2 \propto a^{-3}\) **exactly** — Einstein–de Sitter for every \(\gamma\) and \(\rho_{\mathrm{crit}}\), deceleration \(q_0 = +1/2\), no acceleration (verified numerically to \(3.5\times10^{-13}\), site lane; algebra re-verified in `simulations/publisher_20260812_covariant_00_checks.py`). Session #100's modified Friedmann equation — \(H^2 = 8\pi G\rho_m/(3C)\) *with* \(\rho_m \propto a^{-3}\) — is therefore **not a solution of this equation**: its two assumptions jointly violate the Bianchi identity, and its dark-energy term is the conservation assumption read back. As written, this equation can produce dark-*matter*-like phenomenology but never dark energy; saying anything else about cosmology requires the "additional internal fields" of §D.7 (task 2), e.g. the Brans-Dicke-type completion scanned in the 2026-08-11 site finding (which crosses the phantom divide in the *anti*-DESI direction; `synchronism-site/explorer/findings/covariant-00-component-sign-lock-dies-desi-nogo-hardens.md`).
+>
+> The vacuum floor of the 2026-08-09 correction above (\(\rho/C \geq \rho_{\mathrm{crit}}/\gamma\)) also closes the FRW constraint at finite scale factor: \(\rho/C = Ka^{-3}\) becomes unsolvable at \(a_{\mathrm{end}} = (\gamma x_0/\Omega_m)^{1/3} = 1.0372\) under Session #100's own calibration (\(\gamma = 2\), \(C_0 = \Omega_m = 0.3\)). **The L1 lift is thus closed a priori in both sectors** — galaxy (the vacuum-source correction above) and cosmology (this note) — by different faces of the same floor.
+
 This can be interpreted in two equivalent ways:
 
 1. **Density-dependent coupling**

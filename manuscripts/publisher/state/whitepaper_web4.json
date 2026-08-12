@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-08-11T11:30:00Z",
-  "last_checked_commit": "360c366",
+  "last_review": "2026-08-12T11:30:00Z",
+  "last_checked_commit": "472d877",
   "pending_proposals": [],
   "status": "current",
-  "notes": "Review 2026-08-11 against web4@origin/main (360c366). NO CHANGE -- 6th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main; the shared checkout's HEAD is on main today. Seven commits in the window since 08-10 04:00 PDT; exactly ONE touched whitepaper/ and it is whitepaper/PUBLISHER_CONTEXT.md -- this track's own 08-10 run log (self-authored, not new content). No inclusion trigger fired; zero terminology drift. The disjointness property recorded 08-10 (whitepaper-scope work vs audit-channel work) holds for a 6th pass."
+  "notes": "Review 2026-08-12 against web4@origin/main (472d877). NO CHANGE -- 7th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main after fetch; the shared checkout's HEAD is on main today. Since 08-11 03:30 PDT exactly ONE commit touched whitepaper/ and it is the web4-side Publisher's own pass log (4284774, 'No change to the paper'); the other window commits are C-series audits (C358/C360/C362/C364, ninth-delta) outside whitepaper scope. No inclusion trigger fired; zero terminology drift. The whitepaper-scope vs audit-channel disjointness holds for a 7th pass."
 }
