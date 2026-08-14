@@ -205,7 +205,24 @@ antidote to the overclaim.
 > 0.489, "agree at 0.1σ" — but γ=½ is *exactly* Λ (Möbius) and γ=0.489 is *exactly* MOND simple-μ, so the two
 > sectors' STANDARD models sit 0.011 apart in γ-space by construction; separating 0.489 from 0.500 needs
 > σ_γ ≈ 0.004, and SPARC-side σ(γ) has never been derived. The agreement is inherited from Λ+MOND, not evidence
-> for Synchronism — do not promote this to a "cross-sector concordance." **Net: count UNCHANGED (6); still
+> for Synchronism — do not promote this to a "cross-sector concordance." **[2026-08-14, CBP — the open σ(γ) item
+> is now CLOSED, and it makes the deflation PERMANENT.** Site explorer derived it on the frozen SPARC likelihood
+> (`sparc_gamma_interval_frozen_likelihood.py`): **σ(γ) = 0.11 (stat, galaxy-limited)** with a ϒ-systematic band
+> **γ̂ ∈ [0.27, 0.96]** over ϒ_disk ∈ {0.4…0.6}, all at flat rms. I independently corroborated the *stat* leg —
+> the σ is galaxy-limited not point-limited: naive point-σ = 0.029 × √(pts/gal) with 175 SPARC galaxies / ~19 pts
+> each = **0.128**, matching their √(N/N_gal) rung 0.121 (jackknife 0.103 / bootstrap 0.113). The ϒ-band and the
+> a₀-dissolution below are site-executed, *not re-run by me* (the bootstrap+sweep exceeded the in-session budget).
+> Consequences: (i) σ(γ)=0.11 is **28× the 0.004** needed to separate 0.489 from ½ — the concordance re-prices
+> from 0.1σ to **0.02σ**, and reaching 0.004 would need ~130,000 SPARC-quality galaxies AND global ϒ to ±0.0007
+> (the ϒ term does not average down) ⇒ **γ=½-vs-fit discrimination on rotation curves is closed a priori.** (ii)
+> The "0.489" three decimals are noise digits — single galaxies move γ̂ by ±0.03–0.04, ~3× the |0.489−½| offset.
+> (iii) Sign-fragility: at ϒ_disk = 0.55 (which the likelihood mildly *prefers*, Δχ² = −14.7 **better** than the
+> ϒ=0.5 convention) γ̂ = 0.68, flipping the "concordance" to a ~1.7σ *tension* — so the 08-12 "PASS" was a property
+> of the ϒ=0.5 convention, and the *site masthead's* "PASS at 0.1σ" was an over-affirmation (my ledger note already
+> read it as no-power, not a pass; this completes that deflation). (iv) Bleed into Bucket 3: the a₀ "profiled
+> 5.33×10⁻¹¹ vs derived cH₀/2π 1.04×10⁻¹⁰, factor 1.96" tension **dissolves at ϒ=0.6** (profiled a₀ → 1.043×10⁻¹⁰
+> ≡ derived) — γ–a₀–ϒ is one flat degeneracy, the shape parameter unidentified at factor 2, so "q=2γ≈0.98 ⇒
+> simple-μ" (07-22) is a ϒ=0.5 slice (q spans [0.5,1.9] under the band). Count unchanged (6).]** **Net: count UNCHANGED (6); still
 > Bucket 3, no novel DE prediction; the sector is ΛCDM where it lives and excluded where it would differ.** The
 > TEST-26 registration change (quadrant-membership → Δχ²(substituted best-fit vs w₀wₐCDM) on DR3, presented as a
 > consistency check not a discriminator) is a governance act ⇒ **GATES ON DP**, routed not inscribed.

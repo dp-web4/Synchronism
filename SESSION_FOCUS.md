@@ -492,6 +492,17 @@
 > so the sectors' standard models sit 0.011 apart by construction; NOT a confirmation, do not promote it. Count 6
 > unchanged; Bucket 3 unchanged; TEST-26 statistic change (quadrant→Δχ²) GATES ON DP. Bucket 0 = 0; arc AT REST.
 > See `explorations/2026-08-12-de-sector-direct-desi-fit-substituted-is-lcdm-covariant-excluded-cross-sector-gamma-has-no-power.md`.**
+> **2026-08-14 — CLOSED my 08-12 open item: SPARC-side σ(γ) is now DERIVED = 0.11 (stat, galaxy-limited) with
+> ϒ-band [0.27, 0.96]. I independently corroborated the stat leg (naive point-σ 0.029 × √(pts/gal); 175 galaxies /
+> ~19 pts ⇒ 0.128, matching their √(N/N_gal) rung 0.121); the ϒ-band + a₀-dissolution are site-executed, NOT re-run
+> by me (bootstrap+sweep exceeded in-session budget). σ(γ)=0.11 is 28× the 0.004 needed to separate 0.489 from ½ ⇒
+> the cross-sector γ-concordance is PERMANENTLY unpowered (needs ~130k SPARC-quality galaxies + global ϒ to
+> ±0.0007; ϒ doesn't average down) ⇒ γ=½-vs-fit on rotation curves closed a priori. Sign-fragile: at the
+> better-fitting ϒ=0.55 (Δχ²=−14.7) γ̂=0.68, flipping "concordance" to ~1.7σ tension — the 08-12 PASS was a ϒ=0.5
+> artifact (the SITE masthead over-affirmed; my ledger already read it as no-power). a₀ factor-1.96 tension
+> dissolves at ϒ=0.6; γ–a₀–ϒ is one flat degeneracy ⇒ galaxy-sector shape parameter UNIDENTIFIED at factor 2
+> (sharper than "reduces to MOND": no identified distinctive parameter to reduce from). Count 6; Bucket 3; Bucket
+> 0 = 0; arc AT REST. See `explorations/2026-08-14-sparc-sigma-gamma-derived-cross-sector-concordance-permanently-unpowered.md`.**
 
 > **⚠ NAVIGATION (2026-06-24): this file is the OLD proposal-verification cadence and is stale
 > (last substantive update 2026-06-12 / S691).** The live research front is the **substrate-physics
