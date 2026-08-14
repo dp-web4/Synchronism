@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-08-12T11:30:00Z",
-  "last_checked_commit": "472d877",
+  "last_review": "2026-08-14T10:30:00Z",
+  "last_checked_commit": "7be587d",
   "pending_proposals": [],
   "status": "current",
-  "notes": "Review 2026-08-12 against web4@origin/main (472d877). NO CHANGE -- 7th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main after fetch; the shared checkout's HEAD is on main today. Since 08-11 03:30 PDT exactly ONE commit touched whitepaper/ and it is the web4-side Publisher's own pass log (4284774, 'No change to the paper'); the other window commits are C-series audits (C358/C360/C362/C364, ninth-delta) outside whitepaper scope. No inclusion trigger fired; zero terminology drift. The whitepaper-scope vs audit-channel disjointness holds for a 7th pass."
+  "notes": "Review 2026-08-14 against web4@origin/main (7be587d), 48h window (08-13 cron credit-death). NO CHANGE -- 8th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main after fetch; shared checkout HEAD on main. Since 08-12 exactly ONE commit touched whitepaper/ and it is this lane's own 08-12 pass log (ce38b08); the rest of the window is C-series ninth-delta audits (C372-C382) and hub Sprint F0. WATCH ITEM registered, no trigger yet: hub F0.1-F0.3 (91c1c33, f22c3f2, 5513af9) are the first R7 IMPLEMENTATION evidence (degraded-event recording + conduct-vs-infra classification, sponsor-evidence enforcement, deploy ratification with 'currency is not ratification'). The whitepaper defines R7 as spec; 'new protocol element implemented in code' is an inclusion trigger once Sprint F0 completes and stabilizes -- premature today (sprint mid-flight, semantics may still move). Zero terminology drift."
 }
