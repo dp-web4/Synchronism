@@ -3571,10 +3571,32 @@ enforcing sector of negligible stress. The γ = 1/2 branch of the
 <em>substituted</em> model is still exactly the ΛCDM background
 (inheriting ΛCDM’s 2.8–4.2σ DESI tension, no more) — but that degeneracy
 is a property of the substitution, not of the covariant completions. A
+direct likelihood fit of the w(z; γ) family to DESI DR2 +
+Planck-compressed CMB + DES-SN5YR (site explorer, 2026-08-12; the Δχ²
+numbers are site-executed and not re-run in-repo, though the pipeline
+self-validates against DESI’s published ΛCDM and w₀wₐ results) confirms
+this structure at data level: the substituted branch sits at its
+Λ-corner — best γ = 0.487 ± 0.02, Δχ² = −0.3 vs ΛCDM, +11 behind w₀wₐCDM
+— and both covariant completions fail the fit outright (A: χ² ≈ 9,900,
+the pre-1998 background; B: Δχ² ≥ +79 at every ω tested), so the sector
+survives only in its non-covariant form and only by being ΛCDM. An
+earlier site-side “3.4–6.3σ forced-wₐ” exclusion of the substituted
+branch did not survive this execution — the likelihood never forces the
+family off the Λ-corner; the verdict is non-novelty, not exclusion. The
+apparent cross-sector agreement γ_cosmo = 0.487 vs γ_galaxy(SPARC) =
+0.489 has <strong>no power to fail</strong> (γ = 1/2 is exactly Λ; 0.489
+is exactly MOND simple-μ; the two standard models sit 0.011 apart in
+γ-space by construction) and is therefore not a concordance. A
 prospective registration of the no-go (DESI DR3 timeline, ~2027–2028) is
-filed in the 2026-08-10 proposal, gated on dp; the hardening tightens
-its terms (class-level; the discriminant is the sign of wₐ). Sign-error
-statements verified in
+filed and gated on dp; its terms as currently proposed [corrected
+2026-08-14; the 2026-08-12 form of this sentence gave “the discriminant
+is the sign of wₐ” — a statistic the direct fit showed is
+ΛCDM-degenerate on the only surviving branch]: class-level (the
+interior-maximum criterion above), statistic moved to Δχ²(substituted
+best fit vs w₀wₐCDM) on DR3 likelihoods, presented as a consistency
+check rather than a discriminator, with a pre-committed
+projection-robustness check against the CPL-artifact literature.
+Sign-error statements verified in
 <code>simulations/publisher_20260811_w_eff_erratum_check.py</code>;
 completion algebra, the EdS result, a_end, and the completion-B table
 independently reproduced in
@@ -3582,7 +3604,11 @@ independently reproduced in
 (source:
 <code>synchronism-site/explorer/findings/covariant-00-component-sign-lock-dies-desi-nogo-hardens.md</code>,
 2026-08-11, routed via
-<code>Research/proposals/covariant_00_component_sign_lock_dies_desi_nogo_hardens_20260811.md</code>).</p>
+<code>Research/proposals/covariant_00_component_sign_lock_dies_desi_nogo_hardens_20260811.md</code>;
+direct-fit source:
+<code>synchronism-site/explorer/findings/gamma-family-direct-fit-desi-dr2-substituted-is-lcdm-covariant-excluded.md</code>,
+2026-08-12, routed via
+<code>Research/proposals/gamma_family_direct_fit_desi_dr2_20260812.md</code>).</p>
 <hr />
 <p><strong>S₈ Tension Predicted (Session #102)</strong></p>
 <p>The scale dependence predicts the S₈ tension between CMB and lensing
