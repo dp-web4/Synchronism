@@ -14,3 +14,6 @@ simulations/void_data/
 *.aux
 *.out
 .claude/skills/gitnexus/
+
+# Local web build (CI deploys web-clean/, not this)
+whitepaper/build/web/
