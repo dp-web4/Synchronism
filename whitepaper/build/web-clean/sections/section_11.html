@@ -1616,6 +1616,80 @@ registration-terms source:
 <code>Research/proposals/test26_registration_projection_robustness_20260812.md</code>
 (dp-gated).</li>
 </ul>
+<p class="heading" id="claude-opus-5-publisher-modify-7">2026-08-15 |
+Claude-Opus-5 (publisher) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Added a
+<code>[SCOPED 2026-08-15]</code> amendment to the cross-sector γ
+sentence in <code>15-dark-matter/dark_matter.md</code>. The standing
+text deflated the γ_cosmo = 0.487 vs γ_SPARC = 0.489 agreement as having
+<strong>no power to fail</strong>, but did so on a purely
+<em>structural</em> argument (γ = 1/2 is exactly Λ, 0.489 is exactly
+MOND simple-μ, the two sit 0.011 apart by construction) because the
+SPARC-side uncertainty had never been derived. It has now been derived,
+and the amendment records three things the structural argument could
+not: (a) <strong>σ(γ) = 0.11 (stat)</strong> — galaxy-limited, not the
+naive point-level 0.029, because rotation-curve points within a galaxy
+are coherently correlated (jackknife 0.103 / bootstrap(400) 0.113 /
+√(N/N_gal) 0.121), so the comparison is |0.487 − 0.4892| = 0.002 =
+<strong>0.02σ</strong>; (b) <strong>permanence</strong> — reaching the
+σ_γ ≈ 0.004 needed to separate 0.489 from 1/2 requires ~130,000
+SPARC-quality galaxies <em>and</em> global ϒ to ±0.0007, and the ϒ term
+does not average down, so γ = 1/2-vs-fit discrimination on rotation
+curves is <strong>closed a priori</strong>; (c) <strong>the sign is
+convention-dependent</strong> — γ̂ spans <strong>[0.27, 0.96]</strong>
+across ϒ_disk ∈ {0.4, 0.5, 0.55, 0.6} at flat rms, and at the
+<em>better-fitting</em> ϒ = 0.55 (Δχ²_naive = −14.7) γ̂ = 0.68, turning
+the “agreement” into a ~1.7σ <strong>tension</strong> with lower χ².
+Also scopes this section’s own supporting clause: “0.489 is exactly MOND
+simple-μ” is an ϒ = 0.5 <em>slice</em> statement (q = 2γ spans [0.5,
+1.9]), and γ–a₀–ϒ is one flat degeneracy (the a₀ factor-1.96 tension
+dissolves at ϒ = 0.6), so the galaxy sector’s shape parameter is
+<strong>unidentified at factor 2</strong>. Door-#1 verdict untouched —
+its load-bearing kills are the ≤25% admixture bound and the g_bar→ρ
+locality no-go, not the exact γ value. <strong>Refutation count HELD at
+6; Bucket 0 unchanged at 0</strong> — this prices a comparison and
+refutes nothing.</li>
+<li><strong>Rationale</strong>: Publisher inclusion trigger — an
+executed sibling-repo result closes an open item that this section’s own
+text left standing, and the correction had reached the <em>author</em>
+surfaces without reaching the <em>artifact</em>.
+<code>PREDICTIONS.md</code> and <code>SESSION_FOCUS.md</code> were
+updated on 2026-08-14 (<code>4cddf3e1</code>) and the whitepaper carried
+none of it: no σ(γ), no ϒ band, no pricing — the same “corrections reach
+authors, not artifacts” split the 08-14 pass named in its own commit
+subject, observed here one day later on the very finding that pass had
+left open. Verification scope stated in the text rather than implied,
+per this lane’s standing rule after 08-02: the <strong>stat term is
+corroborated in-repo</strong> against
+<code>simulations/sparc_real_data/MassModels_Lelli2016c.mrt</code> (175
+galaxies, 3391 points ⇒ 0.029 × √19.4 = 0.128, matching the galaxy-level
+rungs), while the <strong>ϒ sweep, the ϒ = 0.55 flip and the a₀
+dissolution are site-executed and explicitly not reproduced
+here</strong> (<code>sparc_gamma_interval_frozen_likelihood.py</code>
+exceeded the in-session compute budget, terminated at exit 143 before
+output). The direction is worth naming because it is the opposite of the
+usual one: this is the arc’s <strong>first over-affirmation</strong>
+catch of the unpropagated-nuisance class — the prior five instances were
+over-refutations — and the tempting reading (“two sectors agree on γ to
+0.1σ!”) is not merely unpowered but sign-fragile under the
+better-fitting convention. Propagation checked and found
+<strong>contained</strong>: <code>cross-sector</code>,
+<code>γ_cosmo</code>, <code>0.489</code>/<code>0.487</code> and
+<code>simple-μ</code> occur outside <code>15-dark-matter</code> only in
+CHANGELOGs and in one <code>06-implications</code> line about the
+unrelated coarse-graining-length run, so no executive-summary or
+conclusion edit is owed — the matches were opened rather than counted,
+per the 08-05 lesson that a file list can manufacture an obligation that
+does not exist. Source:
+<code>Research/proposals/sparc_gamma_interval_upsilon_degeneracy_20260814.md</code>,
+routed from the site explorer back-annotation <code>c2b78336</code>
+(2026-08-14) and triaged in
+<code>explorations/2026-08-14-sparc-sigma-gamma-derived-cross-sector-concordance-permanently-unpowered.md</code>.
+Open thread carried as the source states it: a hierarchical refit with
+per-galaxy ϒ priors (Li et al. 2018 RAR methodology) is the defensible
+next rung before any external citation of the interval.</li>
+</ul>
 <hr>
 <h2>06-implications</h2>
 <h4>

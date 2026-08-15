@@ -3586,11 +3586,61 @@ family off the Λ-corner; the verdict is non-novelty, not exclusion. The
 apparent cross-sector agreement γ_cosmo = 0.487 vs γ_galaxy(SPARC) =
 0.489 has <strong>no power to fail</strong> (γ = 1/2 is exactly Λ; 0.489
 is exactly MOND simple-μ; the two standard models sit 0.011 apart in
-γ-space by construction) and is therefore not a concordance. A
-prospective registration of the no-go (DESI DR3 timeline, ~2027–2028) is
-filed and gated on dp; its terms as currently proposed [corrected
-2026-08-14; the 2026-08-12 form of this sentence gave “the discriminant
-is the sign of wₐ” — a statistic the direct fit showed is
+γ-space by construction) and is therefore not a concordance.
+<strong>[SCOPED 2026-08-15]</strong> That deflation was
+<em>structural</em> when written — the SPARC-side uncertainty had never
+been derived, so the pricing was incomplete. It has now been derived,
+and it makes the closure <strong>permanent</strong> and the sign of the
+comparison <strong>convention-dependent</strong>. σ(γ) =
+<strong>0.11</strong> (stat) — the galaxy-limited value, not the naive
+point-level 0.029, because rotation-curve points within a galaxy are
+coherently correlated so the effective N is the number of
+<em>galaxies</em> (jackknife 0.103 / bootstrap(400) 0.113 / √(N/N_gal)
+0.121; corroborated in-repo against
+<code>simulations/sparc_real_data/MassModels_Lelli2016c.mrt</code> — 175
+galaxies, 3391 points, 0.029 × √19.4 = 0.128). Against the continuous
+free minimum γ̂ = 0.4892 the comparison is |0.487 − 0.4892| = 0.002,
+i.e. <strong>0.02σ</strong>; separating 0.489 from 1/2 would need σ_γ ≈
+0.004, which requires ~130,000 SPARC-quality galaxies <em>and</em> a
+global ϒ known to ±0.0007. <strong>The ϒ term does not average down, so
+γ = 1/2-vs-fit discrimination on rotation curves is closed a
+priori</strong> — no SPARC-class dataset rescues it. Sharper still, the
+agreement is an artifact of the ϒ_disk = 0.5 convention: refitting at
+ϒ_disk ∈ {0.4, 0.5, 0.55, 0.6} moves γ̂ across <strong>[0.27,
+0.96]</strong> at flat rms (0.1433–0.1458 dex), and at the
+<em>better-fitting</em> ϒ = 0.55 (Δχ²_naive = −14.7) γ̂ = 0.68 — the
+“agreement” becomes a ~1.7σ <strong>tension</strong> with lower χ².
+Single galaxies (UGC11914, UGC03580, NGC5985) each move γ̂ by ±0.03–0.04,
+~3× the entire |0.489 − 1/2| offset: the three decimals of “0.489” are
+noise digits. <strong>Consequence for the parenthetical above</strong>,
+stated because it qualifies this section’s own supporting clause: “0.489
+is exactly MOND simple-μ” is an ϒ = 0.5 <em>slice</em> statement — q =
+2γ spans [0.5, 1.9] across the band — so every “γ ≈ 0.5 from galaxies”
+statement carries factor-2 slack. γ, a₀ and ϒ are one flat degeneracy
+(the “profiled a₀ = 5.33×10⁻¹¹ vs derived cH₀/2π = 1.04×10⁻¹⁰, factor
+1.96” tension dissolves at ϒ = 0.6, where the profiled a₀ → 1.043×10⁻¹⁰
+≡ the derived value at indistinguishable rms), so <strong>the galaxy
+sector’s shape parameter is unidentified at factor 2</strong> — a
+sharper statement than “it reduces to MOND,” since an unidentified
+parameter cannot carry a novel prediction. This does not disturb the
+door-#1 verdict, whose load-bearing kills are the ≤25% admixture bound
+and the g_bar→ρ locality no-go rather than the exact γ value.
+<strong>Provenance and what was not re-run</strong>: the stat term is
+corroborated in-repo as above; the ϒ sweep, the ϒ = 0.55 flip and the a₀
+dissolution are <strong>site-executed and not reproduced here</strong>
+(<code>synchronism-site/explorer/findings/scripts/sparc_gamma_interval_frozen_likelihood.py</code>
+exceeded the in-session compute budget and was terminated at exit 143
+before output). Open thread, carried as the source states it: a
+hierarchical refit with per-galaxy ϒ priors (Li et al. 2018 RAR
+methodology) is the defensible next rung before any external citation of
+the interval. Refutation count <strong>HELD at 6</strong>, Bucket 0 = 0
+— this prices a comparison and refutes nothing (source:
+<code>Research/proposals/sparc_gamma_interval_upsilon_degeneracy_20260814.md</code>,
+routed from the site explorer back-annotation <code>c2b78336</code>,
+2026-08-14). A prospective registration of the no-go (DESI DR3 timeline,
+~2027–2028) is filed and gated on dp; its terms as currently proposed
+[corrected 2026-08-14; the 2026-08-12 form of this sentence gave “the
+discriminant is the sign of wₐ” — a statistic the direct fit showed is
 ΛCDM-degenerate on the only surviving branch]: class-level (the
 interior-maximum criterion above), statistic moved to Δχ²(substituted
 best fit vs w₀wₐCDM) on DR3 likelihoods, presented as a consistency
