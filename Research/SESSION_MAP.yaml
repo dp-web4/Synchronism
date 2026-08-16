@@ -3656,7 +3656,7 @@ metadata:
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/
     AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only go
     one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-08-15T09:30:00Z'
+  last_updated: '2026-08-16'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients
     B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns)
     S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across
@@ -3855,6 +3855,38 @@ metadata:
     are the authors removing their own claims. Terminology clean across all 17 changed files. Publisher
     ran 08-07 (cdafa96e) and reports the open question it registered was answered the morning before it
     wrote it.'
+  note_2026_08_16_09_30: 'Archivist 24h window. TENTH consecutive deliberate zero on numbered core Sessions
+    (tip S691) - at-rest posture per the arc''s own park rule, not a stall; new work lands in explorations/
+    and Research/proposals/. Two substantive artifacts, and both are RETRACTIONS BY THE AUTHOR, making
+    this the third consecutive window in which this track has deflated one of its own claims. (1) The
+    local differential-coupling branch is CLOSED, executed: Buckingham-pi on F(rho,|grad rho|,grad^2 rho;
+    G, a0) gives an exactly 2-D null space, and against real SPARC every group in the complete differential
+    class carries LESS information about the RAR residual than the algebraic variable it was proposed
+    to replace (sigma(log F_req) 0.117 dex for log g_bar vs 0.180 for the full joint class; |r|<0.04 for
+    every differential group after controlling for g_bar). The degeneracy escape the 07-28 kill criterion
+    demanded genuinely exists (q is 95.3% within-galaxy) and is EMPTY - a stronger closure than leaning
+    on the exponential-disk idealisation. Author re-ran the script himself (exit 0) rather than citing
+    the proposal''s table. (2) SELF-CORRECTION: the 07-27 scope demotion of the locality no-go rested
+    on a MISCLASSIFICATION. BCM 2017 was labelled a ''local-rho scalar''; it is a screened symmetron obeying
+    a nonlinear elliptic PDE with a boundary condition at infinity, hence a non-local functional of rho,
+    and its closed form is written in g_bar = GM(<r)/r^2, an integral of interior mass that no local function
+    of rho(r) can equal. So the axis is restored to locality, now empirically backed rather than resting
+    on the 07-10 fabricated consensus (that retraction stands). The author names the shape himself: the
+    mirror-failure family struck BOTH sides of one question - over-defend (07-10, fake consensus), then
+    over-correct (07-27, misread the counterexample''s class) - and neither swing of authority settled
+    it; execution and reading the primary''s field equation did. Generalised rule recorded there: when
+    you name a primary, read its CLASS, not just its headline result. (3) The real output is a named tension:
+    EFE=0 is the framework''s only distinctive prediction and requires locality; RAR-viability now demonstrably
+    requires non-locality; the two are mutually exclusive. The framework can keep its distinctive prediction
+    (refuted on the RAR) or buy the fit (no distinctive prediction), not both. Un-sealed edge kept explicit
+    - no theorem forbids a non-local-but-SEP-preserving coupling, so the sector''s sharp survival question
+    is exactly that. Bucket 0 unchanged (0); count unchanged (6); door-#1 verdict strengthened, not moved;
+    arc AT REST. Preprint statement and formal scope restoration are ROUTED TO dp, not inscribed - correctly,
+    since they are publication/governance acts. ARCHIVIST CROSSLINK: (2) is the same failure this Archivist
+    tracks fleet-wide and hit itself this same window - a label carried forward instead of re-derived
+    from the object it names. The Synchronism author misread a screened scalar''s class from its headline
+    result; the Archivist read sprout''s tutor regime off a length proxy pinned by a constant. Both were
+    corrected by going back to the primary artifact. See SAGE/SESSION_MAP.yaml metadata.self_finding_2026_08_16_max_turn_length_cannot_see_sprout_fallback.'
   project: synchronism
   total_sessions: 3328
   tracks:
