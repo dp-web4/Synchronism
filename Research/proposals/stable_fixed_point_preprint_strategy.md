@@ -307,3 +307,25 @@ Script: `simulations/test10_upsilon_star_sensitivity.py`.
 **Null #1's fork (Reading A vs Reading B, filed 07-28) is still open** — no new evidence today, third
 consecutive day. It still decides §1's headline sentence. dp's preprint decision is now **32 days**
 open and has materially changed four times.
+
+---
+
+## Gate Update — 2026-08-16 (Publisher): null #1's fork is RESOLVED, in the favourable direction. The strongest null is unblocked and is broader than §1 states it.
+
+**The fork I filed on 2026-07-28 is answered: Reading B.** `Research/proposals/locality_operational_definition_algebraic_vs_field_sourced.md` asked whether Burrage, Copeland & Millington (PRD 95, 064050, 2017) modifies gravity by a function of ρ at the field point (A — the retraction stands, §1 narrows to a construction-scoped result) or by a functional of the ρ distribution obtained from a field equation (B — the retraction reduces to a definitional clarification and §1 keeps its general claim). **B.** A symmetron obeys `∇²φ = (ρ/M² − μ²)φ + λφ³`, a nonlinear elliptic PDE, so φ(x) — and the force ∝ φ∇φ — solves a global boundary-value problem and is a non-local functional of ρ; and BCM's own closed form `g_sym = g_bar/(exp√(g_bar/g†) − 1)` is written in `g_bar = GM(<r)/r²`, an integral of ρ interior to r, which no local function of ρ(r) can equal. BCM lives in the non-local branch with AeST and MOND, and never populated the local class. **The proposal's pre-registered falsifier (answer = A ⇒ it was wrong to raise the possibility of over-correction) does not fire.**
+
+**Per the fork's own decision table, that is the strongest branch:** §1 keeps its general claim, gains a stated operational definition of "local" (**algebraic-pointwise**), and cites Burrage as a *scope-setting example* rather than a refutation.
+
+**And §1 is now broader than the text above states it, because the consensus it lost has been replaced by execution.** The remaining local escape was the *differential* branch, and it is enumerated and closed on real SPARC (site explorer, 2026-08-15; re-run in this lane at exit 0, π-groups and both null-space dimensions re-derived symbolically here):
+
+- Buckingham-π on `F(ρ, |∇ρ|, ∇²ρ; G, a₀)` ⇒ rank-3 matrix on 5 quantities ⇒ null space **exactly 2** (`x_diff = Gρ²/(a₀|∇ρ|)`, `q = ρ∇²ρ/|∇ρ|²`); `∇³ρ` adds exactly one more. "Which differential `F`?" is a **closed** question, not an open search.
+- On 2,614 SPARC points / 145 galaxies, with `F_req = g_bar/g_obs` (no form, no γ, no ρ_crit, no fitting): σ = 0.117 dex on `g_bar`, 0.161 on ρ, 0.195 on `x_diff`, 0.299 on `q`, 0.180 on the joint 2-D class, against a 0.309 no-information ceiling. Controlling for `g_bar`, **every group explains ≤ 0.16% of the RAR residual**; `q` adds nothing to MOND.
+- **ϒ-flat**, which matters given 08-14: where ϒ_disk sweeps γ̂ across [0.27, 0.96], the best differential group never comes within 1.34× of `g_bar` over ϒ ∈ [0.30, 0.80]. A conditional comparison does not inherit the degeneracy an estimated shape parameter does.
+
+**So §1's publishable headline should be restated, and it is stronger than the sentence currently in this document:** *no local density-keyed coupling — algebraic or differential, at any derivative order — reproduces the RAR; only non-local survives.* That is a form-free, executed, ϒ-robust class exclusion, and it subsumes REC-2026-040's ≤25% admixture bound as the algebraic half of the same statement.
+
+**What still gates, and it is not this fork.** (i) The **external prior-art walk is still unrun** — the same gate that produced the 07-27 misclassification in the first place. §1's novelty relative to Milgrom's non-locality theorem, and the required Burrage citation, both need it, and REC-038's entire ledger says this is where this program bleeds. (ii) The preprint statement and the formal scope-restoration are **dp's call**, routed not inscribed. (iii) The four-number reconciliation flagged on 07-30 is unchanged.
+
+**Advisory order, updated.** Null #1 was demoted to third on 07-30 *because it was blocked on this fork*. The block is gone and the null came back broader. New order: **#1 Locality No-Go (executed, class-closed, ϒ-robust; needs only the prior-art walk) → #2 DESI mechanism-class → REC-039 as a robustness section → #3 A2ACW.**
+
+**One process fact belongs in this file, because it is the reason the null sat blocked for 19 days.** The fork was posed here correctly on 2026-07-28, *with Reading B sketched in it* and a pre-registered falsifier attached — and then referred out rather than settled. Settling it cost reading BCM's field equation. It was answered on 2026-08-15 by a track that never saw the referral, and re-derived the reasoning from scratch. The daily gate updates of 07-29 and 07-30 both recorded the fork as "still open" and neither tried to close it. **Flagging is not gating**: a correctly-posed question that names its own decision procedure is not a deferral, it is an unexecuted task. dp's preprint decision is now **49 days** open.

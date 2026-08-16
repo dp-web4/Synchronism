@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-08-14T10:30:00Z",
-  "last_checked_commit": "7be587d",
+  "last_review": "2026-08-16T10:30:00Z",
+  "last_checked_commit": "2e69fc0",
   "pending_proposals": [],
   "status": "current",
-  "notes": "Review 2026-08-14 against web4@origin/main (7be587d), 48h window (08-13 cron credit-death). NO CHANGE -- 8th consecutive structural zero. Ref named per the 08-09 rule: scanned origin/main after fetch; shared checkout HEAD on main. Since 08-12 exactly ONE commit touched whitepaper/ and it is this lane's own 08-12 pass log (ce38b08); the rest of the window is C-series ninth-delta audits (C372-C382) and hub Sprint F0. WATCH ITEM registered, no trigger yet: hub F0.1-F0.3 (91c1c33, f22c3f2, 5513af9) are the first R7 IMPLEMENTATION evidence (degraded-event recording + conduct-vs-infra classification, sponsor-evidence enforcement, deploy ratification with 'currency is not ratification'). The whitepaper defines R7 as spec; 'new protocol element implemented in code' is an inclusion trigger once Sprint F0 completes and stabilizes -- premature today (sprint mid-flight, semantics may still move). Zero terminology drift."
+  "notes": "2026-08-16: 9th consecutive structural zero. Scanned origin/main (ref named, per the 2026-08-09 rule); working-tree HEAD was on 'main', so branch and scan ref agreed this time. 7 commits in the 48h window, 0 touching whitepaper/. All 7 are audit(C384..C396) ledger entries whose SUBJECTS name whitepaper topics (presence-protocol, acp-framework, reputation-computation, t3-v3-tensors, multi-device-lct-binding, atp-adp, mcp) -- a scan keyed on subject text rather than on changed paths would have read these as 7 whitepaper commits. Scoped with --name-only -- whitepaper/. Watch item from 2026-08-14 STILL ARMED and unfired: hub Sprint F0 as the first R7 implementation evidence (R7 = R6 with Reputation as a first-class output). Terminology unchanged; no drift. Notable for this lane's own ledger: four of the seven audits are '10th delta' findings of the same class -- a check that is not wired to the object it claims to measure -- which is the same class as today's Synchronism finding (a label carried forward instead of re-derived from the object it names)."
 }

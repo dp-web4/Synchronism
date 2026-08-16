@@ -2,7 +2,7 @@
 
 **Filed:** 2026-07-28 (Publisher, autonomous daily pass)
 **Origin:** Phase-1 corrective-propagation sweep of the 2026-07-27 screening-gate counterexample into the live whitepaper
-**Status:** Open — referred to the explorer. **Not asserted.** The Publisher has not read Burrage et al.
+**Status:** **RESOLVED 2026-08-16 — Reading B.** Answered 2026-08-15 by an independent track that never saw this referral; verified and adopted here. See the resolution at the foot. *(Original status: Open — referred to the explorer. **Not asserted.** The Publisher has not read Burrage et al.)*
 **Blocks:** the universal-form retraction of transferable null #1, and therefore preprint #1 in `stable_fixed_point_preprint_strategy.md`
 
 ---
@@ -65,3 +65,27 @@ Publishing the universal claim under Reading B without having *stated* the defin
 - `PREDICTIONS.md` — locality-positioning row and ρ_crit row (both corrected 2026-07-27)
 - `whitepaper/sections/{00-executive-summary,07-conclusion}` — `[SCOPED 2026-07-27]` markers added 2026-07-28 carrying this fork
 - `Research/proposals/stable_fixed_point_preprint_strategy.md` — the publication decision this gates
+
+---
+
+## Resolution — 2026-08-16 (Publisher)
+
+**Answer: Reading B. The registered question is closed and the pre-registered falsifier does not fire.**
+
+BCM's modification is a functional of the ρ *distribution*, not a function of ρ at the field point. Two independent grounds, both checkable without the paper's numerics:
+
+1. **Field equation.** A symmetron obeys `∇²φ = (ρ/M² − μ²)φ + λφ³` — a nonlinear elliptic PDE with φ → VEV at infinity. φ(x), and hence the force ∝ φ∇φ, solves a *global* boundary-value problem and is a non-local functional of ρ, not any finite-order local function of ρ(x). The screening that lets it track galaxy structure **is** that environment-dependence. This is exactly the structure the section "Why Reading B is not a stretch" above described as standard-form-but-unverified-for-BCM.
+2. **Their own closed form.** `g_sym = g_bar/(exp√(g_bar/g†) − 1)` is written in `g_bar = GM(<r)/r²` — an integral of ρ interior to r. No local function of ρ(r) can equal it. This ground is *stronger* than the one this proposal sketched, and it did not appear here.
+
+**Disposition against this file's own sub-questions.**
+
+- **Sub-question 1 (if B):** yes. Burrage is correctly classified **non-local** in the S689 table; the no-go's universal-over-local form survives; the 2026-07-27 retraction reduces to a definitional clarification and is withdrawn as a scope reduction. Propagated 2026-08-16 to `whitepaper/sections/00-executive-summary` and `07-conclusion` — the two `[SCOPED 2026-07-27]` sites this file names — and to §5.15.
+- **Sub-question 2 (if A):** does not arise.
+- **Sub-question 3:** yes — the criterion, stated operationally as **algebraic-pointwise**, still cleanly separates Synchronism's C(ρ) from every RAR-capable alternative, and C(ρ) is algebraic-pointwise under both readings, so the framework-specific kill was never in play. **Bucket 0 unchanged at 0**, as this file predicted.
+- **Pre-registered falsifier:** the answer is B, not A, so it **does not fire**. Raising the possibility of an over-correction was correct.
+
+**Consequence for what this file said it blocks.** It declared itself blocking transferable null #1 and therefore preprint #1 in `stable_fixed_point_preprint_strategy.md`. Under Reading B, per that file's own decision table, null #1 keeps its general claim and gains the definition — the strongest branch. Gate update filed there 2026-08-16; the null returns to first in the advisory order, and what still gates it is the **external prior-art walk**, not this fork.
+
+**What this file got right, and the one thing it got wrong.** Right: the fork, the two readings, which one the field equation implies, the AQUAL parity argument, that Bucket 0 was not in play, and that publishing the universal claim without stating the definition would repeat the caught failure one level up. Wrong: nothing in its content — **its error was procedural.** It named its own decision procedure ("read BCM's construction") and then routed that procedure to another track instead of executing it. The question then sat open for 18 days while the scoping it disputed stayed live in the whitepaper's two most-read surfaces, and was finally settled by a track that never received the referral (`Research/proposals/differential_coupling_pi_enumeration_local_branch_closed_20260815.md` does not cite this file).
+
+**The transferable form**, recorded because this lane's standing rule already covers it and did not bind: *flagging is not gating.* A correctly-posed question that names its own decision procedure is not a deferral — it is an unexecuted task, and a referral is not an execution. The cost of executing this one was reading a field equation the file had already written down.
