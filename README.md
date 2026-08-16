@@ -8,10 +8,24 @@ stable entities (*recurring patterns*) hold, and what physics calls "measurement
 collapse. Saturation also makes emergence a **step function** (flat floor → step →
 ceiling-that-becomes-the-next-floor), so a flat result isn't automatically a refutation.
 **The wager:** the paradoxes of observer-centric physics may be **epicycles** — artifacts of
-placing the observer at the center, the way Ptolemy placed the Earth there. Remove that
-assumption and the paradoxes may simplify. **This is exploratory work, not engineering**; it
-tests that wager rigorously and publishes what fails. (The two load-bearing pieces — Intent
-as reification, saturation as wall-former and step-maker — are in [SPINE.md](SPINE.md).)
+placing the observer at the center, the way Ptolemy placed the Earth there. This analogy is
+stronger than it sounds, so take the opposition seriously: Ptolemaic astronomy was not
+*wrong*. It predicted what the heavens would look like when viewed from Earth, accurately —
+and for decades after Copernicus it remained at least as accurate as the heliocentric
+alternative. Epicycles were a **viewport instrument**: a calculus for what an observer at
+the center would see. What they never did was *describe* the universe. The same tell
+applies at every scale: quantum mechanics, Newtonian gravity, and general relativity each
+predict, with extraordinary accuracy, what an observer will observe through the available
+viewport — and each breaks the others at the boundaries, so they cannot all be descriptions
+of what is happening. They can all be calibrations of what is visible. Even the calibration
+data is a stack of sequential still frames: photons decades to billions of years old,
+recording processes that unfold over timescales orders of magnitude beyond the observer's
+own. The wager is that observer-centric physics is epicycles **on all scales** — quantum,
+Newtonian, galactic, cosmological — and that removing the observer-centric premise
+simplifies the paradoxes the way heliocentrism simplified the heavens. **This is
+exploratory work, not engineering**; it tests that wager rigorously and publishes what
+fails. (The two load-bearing pieces — Intent as reification, saturation as wall-former and
+step-maker — are in [SPINE.md](SPINE.md).)
 
 *Caveat on saturation (load-bearing **and** partially refuted): it remains the
 phase-transition / boundary mechanism, but **monotonic** saturation alone is *not sufficient*
