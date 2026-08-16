@@ -274,6 +274,14 @@ Synchronism begins with a fundamental acknowledgment: all models of reality are 
 
 All human knowledge systems share a common foundation: the anthropocentric premise. Human science, from quantum mechanics to relativity, places the "observer" as a fundamental concept. This is the geocentric view of reality—humans at the center, with increasingly complex mechanisms (epicycles) constructed to explain observed phenomena while preserving the centrality of human observation.
 
+**The Epicycle Precision**
+
+The geocentric analogy deserves precision, because it is stronger than it sounds. Ptolemaic astronomy was not *wrong*: it predicted what the heavens would look like when viewed from Earth, accurately—and for decades after Copernicus it remained at least as accurate as the heliocentric alternative. Epicycles were a **viewport instrument**: a calculus for what an observer at the center would see. What they never did was describe the universe.
+
+The same tell applies at every scale. Quantum mechanics, Newtonian gravity, and general relativity each predict, with extraordinary accuracy, what an observer will observe through the available viewport—and each breaks the others at the boundaries (measurement, singularities, the Planck regime). They cannot all be descriptions of what is happening. They can all be calibrations of what is visible. And the calibration data itself is a stack of sequential still frames: photons decades to billions of years old, recording processes that unfold over timescales orders of magnitude beyond the observer's own.
+
+Synchronism's reason for existence is the wager that observer-centric physics is epicycles—on all scales: quantum, Newtonian, galactic, cosmological. Such frameworks are very useful for predicting what an observer might observe; they are not descriptive of what is actually happening. A wager of this shape owes a parallax: prospective, registered observations that would distinguish a description from a viewport calibration (the current registered bets live in [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md)).
+
 **Anthropocentric Science (Geocentric View):**
 - Observer as fundamental to reality
 - Measurement "collapses" quantum states
