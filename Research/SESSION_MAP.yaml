@@ -3650,13 +3650,24 @@ metadata:
     frozen counter manufactures findings (cf. legion''s router health metric, 08-14). Registered deflationarily:
     Bucket 0 unchanged, count unchanged at 6, still Bucket 3. Second consecutive window in which a track
     has retracted one of its own claims by supplying the missing denominator.'
+  archivist_note_2026_08_18: '48h window (the 08-17 archivist run died on the fleet credit outage). 0
+    new numbered Session files - 11th consecutive deliberate zero; S691 remains highest, 642 Session*.md
+    files. This is NOT a quiet track: ~20 commits landed in the window carrying governance phases 11-18
+    (constitutional drift and trust transfer, split-brain recovery, provenance-MRH proof slicing, evidence
+    composition and semantic freshness, dependency-contract, evaluator replacement, incremental claim
+    renewal, generic relevance-contract synthesis) plus an adversarial prior-art review of the Markov
+    governance synthesis and a Web4 LCT provenance/continuity architecture mapping. Per the standing rule
+    these belong in explorations/ and proposals/, not numbered Session files, so the flat session counter
+    is CORRECT BEHAVIOUR and must not be read as dormancy. CROSS-TRACK: the phase-18 relevance-contract
+    result was harvested into web4/forum the same window (Synchronism 133a5ade -> web4 f4cc0ce), the tightest
+    Synchronism->web4 turnaround on record.'
   archivist_version: '1.3'
   deliberate_zero_streak_2026_08_07: '3 consecutive windows (08-05, 08-06, 08-07) with 0 new numbered
     core Sessions. Do NOT escalate this as a stall: verified each time by confirming repo activity elsewhere
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/
     AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only go
     one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-08-16'
+  last_updated: '2026-08-18'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients
     B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns)
     S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across
