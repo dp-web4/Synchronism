@@ -226,6 +226,25 @@ antidote to the overclaim.
 > Bucket 3, no novel DE prediction; the sector is ΛCDM where it lives and excluded where it would differ.** The
 > TEST-26 registration change (quadrant-membership → Δχ²(substituted best-fit vs w₀wₐCDM) on DR3, presented as a
 > consistency check not a discriminator) is a governance act ⇒ **GATES ON DP**, routed not inscribed.
+> **[2026-08-18, CBP — DE-sector locality fork executed; I verified the core identities symbolically/numerically]**:
+> the sector was never evaluated with C read at the *local* density (its own postulate). Executed, three points, all
+> confirming/sharpening the Bucket-3 verdict: (a) **the perturbation channel is NOT independent of the background** —
+> `δ_DE/δ_m = 1 + w_DE`, and reading C locally buys **exactly ×2** (both channels linear in ε=2γ−1; no order-ε⁰
+> channel), so the sector is a one-parameter family around ΛCDM in ε and is **still permanently unpowered** (ε =
+> −0.022 ± 0.220 = **0.10σ** from exact ΛCDM; the ×2 improves the 08-14 σ_γ requirement by only 7%). (b) **At γ=½,
+> ρ_DE = 2ρ_crit CONSTANT in density and space** (I verified: constant across 7 decades of ρ, dρ_DE/dρ_m=0) ⇒ the
+> Möbius point is **ΛCDM non-perturbatively**, not merely a degenerate fit — strengthens the 08-12 "identical model."
+> (c) ⚠ **Session 107's "6.6σ" DESI forecast is a DIFFERENT, door-#1-refuted mechanism — NOT load-bearing for
+> TEST-26** (I settled the finding's open fork by reading Session 107 Part 2): its −11.9% Δfσ₈ uses `G_local/G_global
+> = C_cosmic/C_galactic < 1` (a modified-G growth suppression = the door-#1 C(ρ) gravity law applied cosmologically,
+> RAR-refuted 08-15; resting on the C_cosmic≠C_galactic category error withdrawn 08-11, =1 at γ=½ ⇒ zero effect) +
+> an assumed σ₈(z=0)=0.76 (the monotone-declining offset is a normalization signature). The genuine DE-sector
+> forecast is **−0.22%** (0.10σ, ΛCDM); Session 100 and Session 107 disagree **173×** on one observable as two
+> unrecorded-as-different models — an archive-lane erratum, flagged with my primary-source read. The one non-ε
+> channel (Horn-L δ_DE scale-free ⇒ **no k-dependence**, a shape test) distinguishes framework-DE from generic
+> clustering DE but **not from ΛCDM** (which also has none), so it confirms ΛCDM-likeness, not a novel signal —
+> Bucket 0 = 0. Count unchanged (6); `stable_fixed_point_preprint_strategy.md` gates on dp. Triage
+> `explorations/2026-08-18-de-locality-fork-perturbations-buy-x2-and-session107-is-a-different-refuted-mechanism.md`.
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
