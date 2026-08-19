@@ -3664,10 +3664,46 @@ monotone; completion A: ρ_DE ≡ 0; completion B: interior
 <em>minimum</em>, crossing in the anti-DESI direction). Residual
 conditionality: completion B’s quasi-static pinning presumes an
 enforcing sector of negligible stress. The γ = 1/2 branch of the
-<em>substituted</em> model is still exactly the ΛCDM background
-(inheriting ΛCDM’s 2.8–4.2σ DESI tension, no more) — but that degeneracy
-is a property of the substitution, not of the covariant completions. A
-direct likelihood fit of the w(z; γ) family to DESI DR2 +
+<em>substituted</em> model is exactly ΛCDM (inheriting ΛCDM’s 2.8–4.2σ
+DESI tension, no more) — but that degeneracy is a property of the
+substitution, not of the covariant completions. <strong>[STRENGTHENED
+2026-08-19 — the qualifier “background” is removed because it was
+load-bearing in the wrong direction, and the identities below were
+re-derived here in SymPy, exactly, for all x and γ]:</strong> the γ =
+1/2 branch is ΛCDM <strong>non-perturbatively</strong>, not merely
+degenerate with it in a background fit.
+<code>ρ_DE/ρ_crit = 2x/((1+x)^{2γ} − 1)</code> equals <strong>exactly 2
+at γ = 1/2, with dρ_DE/dρ_m ≡ 0</strong> — ρ_DE is constant in
+<em>space</em> as well as in time, the same inside a void, a cluster and
+a disk — and the induced contrast
+<code>δ_DE/δ_m = 1 + w_DE = ε·(ln(1+x)/x − 1) + O(ε²)</code>,
+<code>ε ≡ 2γ − 1</code>, vanishes identically at every scale and every
+order. Same background, same linear perturbations, same nonlinear field
+configuration. This <strong>retires the standing “background-only, no
+perturbation sector” caveat</strong>, which had twice been read as an
+unexplored channel that might convert the dp-gated DR3 registration into
+a near-term test: the <em>locality</em> fork — evaluating C at the local
+rather than the mean density, which the framework’s one-equation
+postulate actually requires — was executed 2026-08-18 and adds
+<strong>no independent channel</strong>, because both the
+expansion-history and clustering terms are linear in the same single ε
+(no order-ε⁰ term exists). What locality buys is exactly a factor 2 in
+the observable: required precision σ(fσ₈) relaxes 0.074% → 0.15%. It
+buys <strong>nothing</strong> in σ_γ, which is <code>(1/2 − γ̂)/3</code>
+in both horns by construction — the same γ-space separation this
+paragraph already prices at σ_γ ≈ 0.004 (the source finding’s “7%
+improvement” is a central-value artifact, 0.004 at γ̂ = 0.487 vs 0.0037
+at γ̂ = 0.489; corrected here). Against DESI DR2’s ~1–3% per bin the
+channel is ~10× underpowered, and the parameter it would measure sits at
+<strong>ε = −0.022 ± 0.220 = 0.10σ from exact ΛCDM</strong>. Bucket 0
+unchanged (0); refutation count HELD at 6 — this closes a fork and
+refutes nothing. Sources:
+<code>synchronism-site/explorer/findings/de-locality-fork-executed-perturbation-channel-buys-exactly-a-factor-of-two.md</code>
+(2026-08-18), routed via
+<code>Research/proposals/de_locality_fork_perturbation_channel_factor_two_20260818.md</code>
+and triaged in
+<code>explorations/2026-08-18-de-locality-fork-perturbations-buy-x2-and-session107-is-a-different-refuted-mechanism.md</code>.
+A direct likelihood fit of the w(z; γ) family to DESI DR2 +
 Planck-compressed CMB + DES-SN5YR (site explorer, 2026-08-12; the Δχ²
 numbers are site-executed and not re-run in-repo, though the pipeline
 self-validates against DESI’s published ΛCDM and w₀wₐ results) confirms
