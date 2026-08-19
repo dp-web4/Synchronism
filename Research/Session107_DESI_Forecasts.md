@@ -3,7 +3,45 @@
 **Author**: CBP Autonomous Synchronism Research
 **Date**: December 10, 2025
 **Type**: Observational Predictions
-**Status**: COMPLETE
+**Status**: COMPLETE — **see ERRATUM below before citing any number in this file**
+
+---
+
+> ## ⚠ ERRATUM (Publisher, 2026-08-19) — this session's "6.6σ" is not a live framework forecast
+>
+> Three independent corrections have been recorded against this session since 2026-05 and **none of
+> them had reached this document.** Recorded here so the primary carries them, not only the summaries.
+>
+> **1 — Refuted on data (2026-05-05).** DESI DR1 full-shape (Adame et al., arXiv:2411.12021) sits
+> above this session's fσ₈ prediction at every LRG bin, and by this session's own falsification ladder
+> (`fσ₈(z=0.5) > 0.45 → ΛCDM favored`) ΛCDM is favored at every bin and at the combined fit. See
+> `Research/proposals/session107_disfavored_by_desi_dr1.md`.
+>
+> **2 — Underpowered as registered (2026-07-14).** The registered criterion (fσ₈(z=0.51) > 0.46 at
+> >3σ) was met at only ~1.5σ; the frequently-quoted 2.4σ is a GR-conditioned σ₈-amplitude statistic,
+> and DESI's own modified-gravity analysis (arXiv:2411.12026) puts μ₀ within 1σ of zero. TEST-04a is
+> carried in `PREDICTIONS.md` Bucket 2 (refuted), *not* as a decisive negative.
+>
+> **3 — The mechanism is the door-#1 C(ρ) gravity law, refuted elsewhere (2026-08-18).** The −11.9%
+> suppression here is driven by `G_local/G_global = C_cosmic/C_galactic < 1` plus an **assumed**
+> σ₈(z=0) = 0.76. That is the local-density gravity law applied to growth — the same construction
+> refuted on the SPARC RAR (2026-08-15, differential-local branch closed) — and it rests on the
+> `C_cosmic ≠ C_galactic` distinction withdrawn 2026-08-11. It is **not** the framework's dark-energy
+> sector. Source: `explorations/2026-08-18-de-locality-fork-perturbations-buy-x2-and-session107-is-a-different-refuted-mechanism.md`.
+>
+> **What the dark-energy sector actually forecasts: −0.22% in fσ₈ — 0.10σ from ΛCDM.** The two numbers
+> differ by **173×** and sat in this archive as two unrecorded-as-different models. Verified independently
+> for this erratum (SymPy, exact, all x and γ): with `C = tanh(γ ln(1+x))` and `ρ_DE = ρ_m(1−C)/C`,
+> `ρ_DE/ρ_crit = 2x/((1+x)^{2γ} − 1)`; at **γ = ½ this is exactly 2, with dρ_DE/dρ_m ≡ 0**, so the sector
+> is ΛCDM *non-perturbatively*; and `δ_DE/δ_m = 1 + w_DE = ε(ln(1+x)/x − 1) + O(ε²)` with `ε ≡ 2γ − 1`,
+> which vanishes identically at γ = ½.
+>
+> **The BAO row below is likewise load-bearing in the opposite direction from how it has been cited:**
+> this session predicts BAO matching ΛCDM at exactly 0%, which is what withdrew TEST-04 (BAO Coherence
+> Modulation) on 2026-05-04.
+>
+> Nothing in the forecast tables below has been edited — they stand as the December 2025 record.
+> **Do not cite "3.1σ / 3.2σ per bin" or "6.6σ combined" as a current Synchronism prediction.**
 
 ---
 

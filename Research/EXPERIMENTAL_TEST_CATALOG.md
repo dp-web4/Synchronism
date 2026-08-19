@@ -496,17 +496,37 @@ These experiments can be run now with publicly available datasets and modest com
 
 ## Summary: The Decisive Tests
 
+> **⚠ STATUS PROPAGATION FIX (Publisher, 2026-08-19).** This section predates the S674/S675 census
+> that now heads this document and was never updated against it. Read together, the two contradict:
+> **none of the five tests below survives the header's own criteria** — three are recorded there as
+> *executed → collapsed* (TEST-04/14/15) and the other two fall under "of the 9 untested, **0** have a
+> verified first-principles-derived amplitude" (TEST-07's 500 Mpc scale is dimensionally inconsistent,
+> S632; TEST-11 has no derived amplitude). The same holds for the four tests named under *What "Positive"
+> Would Mean* below: **4 of 4** are disqualified by the header (TEST-04/14 collapsed; TEST-07/17 no derived
+> amplitude, TEST-17 additionally excluded by Lorentz tests at ~11 orders of magnitude, S675).
+>
+> The list is retained as the historical record of what the program expected to be decisive. Each entry
+> now carries its census verdict inline, because a reader acts on this section, not on the banner.
+> **The operative statement is that the program's forward-looking decisive-test list is empty — it needs
+> regeneration, not repair.** A correction that reaches a document's header and not its recommendation
+> section has not propagated (`private-context` Publisher log, 2026-08-14 propagation split).
+
 If forced to pick the 5 experiments most likely to **decisively** validate or falsify Synchronism within the next 5 years:
 
 1. **TEST-04: BAO Coherence Modulation** — existing data, unique prediction (no other theory predicts density-dependent BAO shift), high distinguishing power.
+   — **DEAD: executed → collapsed (S674).** Session #107, this test's own source, predicts BAO matching ΛCDM at *exactly 0%* in all five redshift bins; the 10⁻⁴ amplitude has no session-level derivation; and the 10⁻⁵ falsification threshold sits ~3,000× below DESI's best precision (~0.3%), so it is unfalsifiable as written. Withdrawn 2026-05-04 (`synchronism-site/explorer/findings/test04-bao-contradicted-by-session107.md`).
 
 2. **TEST-14: Wide Binary Density Dependence** — existing data (Gaia DR3), directly distinguishes Synchronism from MOND, testable now.
+   — **DEAD: executed → collapsed (S674).**
 
 3. **TEST-11: EEG Anesthesia Phase Transition** — modest cost, very high impact, universal Φ_crit would be transformative for consciousness science regardless of Synchronism.
+   — **NOT DECISIVE: "genuinely untested" (S674), but among the 9 untested of which **0** have a verified first-principles-derived amplitude.** Undecided, not decisive: without a derived Φ_crit a null is uninformative and a hit is unattributable.
 
 4. **TEST-15: GW Speed–DM Column Correlation** — data accumulating now (LIGO O4), GR predicts exactly zero, any signal is revolutionary.
+   — **DEAD: executed → collapsed (S674).** Its only GW parameter α is *read off* GW170817 rather than derived (S673, 2026-05-27), so it carries no discriminating amplitude; carried in `PREDICTIONS.md` Bucket 2.
 
 5. **TEST-07: Cosmic Interference Patterns** — existing survey data, unique to Synchronism's scale inversion symmetry, falsifiable with current datasets.
+   — **DEAD: no derived amplitude.** The 500 Mpc scale is dimensionally inconsistent (units m² not m, S632), a defect the S674 census initially mis-marked "unverified" and S675 corrected. ⚠ The two ledgers still disagree on the *label*: this header files TEST-07 under "genuinely untested," `PREDICTIONS.md` Bucket 2 files it under **refuted**. Refuted is the stronger and better-sourced reading — a dimensionally inconsistent scale is not awaiting data.
 
 These five span quantum (consciousness), astrophysical (binaries, BAO), and cosmological (GW, interference) scales. If all five come back negative, Synchronism's predictive power is seriously in question. If even one comes back positive, it's worth a decade of follow-up.
 
@@ -528,7 +548,13 @@ This would NOT invalidate:
 
 ## What "Positive" Would Mean
 
-Even a single confirmed unique prediction (especially TEST-04, TEST-07, TEST-14, TEST-17) would:
+Even a single confirmed unique prediction would:
+
+> **⚠ The four originally named here — TEST-04, TEST-07, TEST-14, TEST-17 — are all disqualified by this
+> document's own header (04/14 executed → collapsed; 07/17 no derived amplitude, 17 excluded by Lorentz
+> tests at ~11 orders of magnitude). Names removed 2026-08-19 rather than reranked: there is no surviving
+> candidate in this catalog to promote in their place.**
+
 - Establish Synchronism as a predictive framework, not just descriptive
 - Open massive new research programs at those scales
 - Justify the claim that C(ρ) encodes real physics across scales

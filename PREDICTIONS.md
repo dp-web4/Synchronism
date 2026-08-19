@@ -231,7 +231,7 @@ antidote to the overclaim.
 > confirming/sharpening the Bucket-3 verdict: (a) **the perturbation channel is NOT independent of the background** —
 > `δ_DE/δ_m = 1 + w_DE`, and reading C locally buys **exactly ×2** (both channels linear in ε=2γ−1; no order-ε⁰
 > channel), so the sector is a one-parameter family around ΛCDM in ε and is **still permanently unpowered** (ε =
-> −0.022 ± 0.220 = **0.10σ** from exact ΛCDM; the ×2 improves the 08-14 σ_γ requirement by only 7%). (b) **At γ=½,
+> −0.022 ± 0.220 = **0.10σ** from exact ΛCDM; the ×2 lands entirely in the *observable* precision, not in σ_γ — **corrected by the Publisher 2026-08-19**: the source finding's "the locality horn improves the required precision by 7%" is an artifact of the central value, not a gain from locality. The σ_γ requirement is `(½ − γ̂)/3` in **both** horns — it is a statement about the γ-space separation between the Λ-point and the MOND-point, identical by construction — so 0.004 (γ̂=0.487) and 0.0037 (γ̂=0.489) are the same quantity rounded differently and **locality buys 0% there**; this whitepaper's own §5.15 already derives σ_γ≈0.004 that way. What the ×2 does buy, exactly, is the required fσ₈ precision: 0.074% → 0.15%. Verdict untouched — DESI DR2 delivers ~1–3%/bin, so still ~10× underpowered). (b) **At γ=½,
 > ρ_DE = 2ρ_crit CONSTANT in density and space** (I verified: constant across 7 decades of ρ, dρ_DE/dρ_m=0) ⇒ the
 > Möbius point is **ΛCDM non-perturbatively**, not merely a degenerate fit — strengthens the 08-12 "identical model."
 > (c) ⚠ **Session 107's "6.6σ" DESI forecast is a DIFFERENT, door-#1-refuted mechanism — NOT load-bearing for
