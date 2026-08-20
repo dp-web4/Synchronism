@@ -2,7 +2,7 @@
 
 **RUN-ID**: publisher-20260820-1030
 **Window**: 2026-08-19 03:48 → 2026-08-20 10:30 (24h; previous pass `4b53a289`)
-**Status at write time**: OPEN — see CLOSING BANNER at the foot of this file.
+**Status at write time**: **CLOSED** — see CLOSING BANNER at the foot of this file.
 
 ---
 
@@ -295,6 +295,14 @@ two of them disagreed. That belongs in the REC-038 manuscript.
 ## CLOSING BANNER
 
 **RUN-ID**: publisher-20260820-1030 — **COMPLETE**
-**Source-side churn gate**: staged RAW == CONTENT (see commit); artifacts not staged.
-**Commit**: see `git log` for 2026-08-20 Publisher.
+**Source-side churn gate**: fired on `05-quantum-macro/meta/CHANGELOG.md` and was caught. The cause
+was *not* my edit and not the one 08-19 diagnosed: the **worktree copy had already lost the blob's 36
+CRLF lines** before I opened it (blob 36 CRLF / worktree 0), so an `autocrlf=false` add — the 08-19
+remedy — would have staged a 36-line ending rewrite anyway. Fixed by rebuilding the file from **blob
+bytes** plus the new entry. Final staged **RAW == CONTENT == 583 ins / 22 del across 13 files, zero
+churn**; artifacts not staged. *Amendment to the 08-19 note: the source-side hazard is not only
+"mixed blob + autocrlf=input at add time" — a worktree that has silently diverged from the blob's
+endings produces the same churn under the remedy, so the raw-vs-content gate must be run **after**
+staging, never assumed from the staging flag.*
+**Commit**: `9f82487b` (pushed to `origin/main`); collective log `e8d77cb61` in `private-context`.
 **Count**: 6 HELD · **Bucket 0**: 0 · **Web4**: 12th structural zero.
