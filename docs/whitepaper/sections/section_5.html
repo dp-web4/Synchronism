@@ -2974,8 +2974,61 @@ algebraic-vs-differential, not locality” reframe are withdrawn.
 <strong>So no local density coupling — algebraic or differential at any
 derivative order — reproduces the RAR; only non-local survives</strong>
 (Milgrom’s non-locality theorem), now backed by execution rather than by
-the consensus that was correctly retracted. <strong>(3) ⚠ The real
-output is a named tension: <code>{EFE = 0} ⟺ locality</code> and
+the consensus that was correctly retracted. <strong>[SHARPENED
+2026-08-19/20 — “non-local” was the right verdict at the wrong
+resolution, and the sharper statement cuts harder against the
+framework.]</strong> The surviving branch is not non-locality in general
+but specifically <strong>directional / inward-cumulative</strong>
+non-locality — enclosed mass, which is <code>g_bar</code>, which is
+MOND’s own variable. Executed on real SPARC (2,604 points, 139
+galaxies): a <strong>symmetric</strong> kernel <code>f(|r−r′|)</code>
+fails at <strong>any</strong> range — σ = 0.193 dex at λ = ∞, which is
+<em>worse</em> than reading ρ pointwise (0.161) — while the
+<strong>causal</strong> kernel <code>W(r,r′)·Θ(r−r′)</code> at the same
+infinite range reaches σ = 0.119 against <code>g_bar</code>’s own 0.116,
+i.e. 1.02×, recovering <code>g_bar</code> to 0.003 dex; and the radial
+weight <code>p</code> minimises <strong>exactly at Newton’s p =
+1</strong>. Same range, opposite outcome, so the discriminating axis is
+<strong>symmetry, not range</strong> — and the mechanism is the one this
+section already stated on 2026-08-02 (<code>g_bar = GM(&lt;r)/r²</code>
+carries a 1/r² a convolution of Σ cannot generate): a two-sided kernel
+at λ = ∞ integrates over <code>r′ &gt; r</code> too and approaches the
+<em>total</em> mass, a constant, so it structurally cannot track an
+enclosed-mass profile. The consequence for the framework is sharper than
+the unqualified version: the repairs that are natural for a pointwise
+multiplier — smear it, add gradients, give it a range — are <strong>all
+in the dead (symmetric) branch</strong>, and the live branch
+reconstructs precisely the variable <code>C(ρ)</code> was introduced to
+replace. It also explains <em>why</em> BCM 2017 escapes: its screened
+nonlinear PDE makes the <strong>enclosed</strong> mass the effective
+source, which is why its closed form is written in <code>g_bar</code>.
+<strong>Two limits kept explicit, because this result is not yet
+citable.</strong> (a) It is a <strong>2-parameter scan</strong> (memory
+length × radial weight), not a Buckingham-π enumeration like leg (1)
+above — “the causal class is closed” would be one class wider than the
+test. (b) The kernels are <strong>1-D radial kernels on Σ(r)</strong>,
+so the symmetric-vs-cumulative sorting rule is <em>measured for radial
+kernels and conjectured for 3-D ones</em>; its own cheapest falsifier —
+project a genuine 3-D Yukawa <code>e^(−mr)/r</code> through an
+exponential disk onto a radial kernel and re-run — is
+<strong>unexecuted</strong>, and if a screened <em>linear</em> scalar
+lands in the live branch the sorting rule is wrong and the escape
+taxonomy reopens. <strong>And an over-refutation guard in the other
+direction, adopted from the same execution:</strong> the “≤ 0.16%” and
+“≤ 0.7%” figures above are shares of the <strong>residual after
+conditioning on <code>g_bar</code></strong>, which is the correct
+comparison and is how they are stated — but read <em>raw</em>, local Σ
+explains <strong>73.0%</strong> of the variance of log B against
+<code>g_bar</code>’s 85.9%. Local density is a poor organising variable,
+not noise, and the conditional figures should not be quoted as though it
+were. Refutation count unchanged (6) — this sharpens a closure, it does
+not add one. <em>(Source:
+<code>synchronism-site/explorer/findings/causal-kernel-scan-the-required-nonlocality-is-a-direction-not-a-length.md</code>,
+2026-08-19, routed via
+<code>Research/proposals/causal_kernel_required_nonlocality_is_directional_20260819.md</code>;
+the SPARC scan is source-executed and re-run in the research lane at
+exit 0, not re-run again here.)</em> <strong>(3) ⚠ The real output is a
+named tension: <code>{EFE = 0} ⟺ locality</code> and
 <code>{RAR-viable} ⟹ non-locality</code> are MUTUALLY
 EXCLUSIVE.</strong> Everything above about EFE = 0 — that it holds
 exactly, that it is the signature of the field equation’s linearity,
@@ -3653,25 +3706,73 @@ B</strong> (C as a Brans-Dicke scalar pinned to C(ρ̄(a))): the literal
 sign lock <em>dies</em> — the w = −1 attractor is destroyed, the γ = 1/2
 Λ-degeneracy is broken (no member of the completed family is ΛCDM), and
 w₀ &lt; −1 with wₐ &gt; 0 members exist — but the DESI quadrant (w₀ &gt;
-−1, wₐ &lt; 0) stays empty: 0 of 192 γ values at every Brans-Dicke ω
-tested, and forcing w₀ to DESI’s value forces wₐ = +0.23…+0.60, the
-wrong sign in all four combinations. The class criterion is one line:
-for any dark energy slaved to matter density, ρ_DE = ρ_m·F(x),
-continuity gives w_DE = d ln F/d ln x, so DESI’s phantom→quintessence
-crossing requires an interior <em>maximum</em> of ρ_DE(x) — and no
-completion of C = tanh(γ ln(1+x)) produces one (substituted form:
-monotone; completion A: ρ_DE ≡ 0; completion B: interior
-<em>minimum</em>, crossing in the anti-DESI direction). Residual
-conditionality: completion B’s quasi-static pinning presumes an
-enforcing sector of negligible stress. The γ = 1/2 branch of the
-<em>substituted</em> model is exactly ΛCDM (inheriting ΛCDM’s 2.8–4.2σ
-DESI tension, no more) — but that degeneracy is a property of the
-substitution, not of the covariant completions. <strong>[STRENGTHENED
-2026-08-19 — the qualifier “background” is removed because it was
-load-bearing in the wrong direction, and the identities below were
-re-derived here in SymPy, exactly, for all x and γ]:</strong> the γ =
-1/2 branch is ΛCDM <strong>non-perturbatively</strong>, not merely
-degenerate with it in a background fit.
+−1, wₐ &lt; 0) stays empty: 0 of 192 γ values. <strong>[CORRECTED
+2026-08-19/20 — the earlier form of this clause read “0 of 192 γ values
+<em>at every Brans-Dicke ω tested</em>,” which was an
+<strong>under</strong>-refutation in two independent ways, and the
+corrected statement is strictly stronger.]</strong> <em>(i) The tested
+grid was excluded before it was scanned.</em> Brans-Dicke gives
+<code>γ_PPN − 1 = −1/(2+ω)</code>; Cassini (Bertotti, Iess &amp; Tortora
+2003) measures <code>(2.1 ± 2.3)×10⁻⁵</code>, whose 2σ lower edge
+<code>−2.5×10⁻⁵</code> forces <strong>ω ≥ 4.0×10⁴</strong> for an
+unscreened massless scalar — so the published grid
+<code>ω ∈ {0, 1, 5, 50}</code> topped out <strong>800× inside the
+excluded region</strong>, and no solar-system bound appeared anywhere in
+this sector although the same spacecraft is cited for TEST-25. <em>(ii)
+ω was never a free dimension of the scan.</em> The pinning
+<code>C_eff(x₀) = Ω_m</code> is maintained by sliding <code>x₀</code>
+(0.95 → 3.6×10⁴), not by ω doing physical work: ω enters the background
+only through <code>B = 1 − 3ε − 1.5ωε²</code>, and the pinned point is
+that factor’s positive root
+<code>ε_crit(ω) = (−3 + √(9+6ω))/(3ω)</code>. <strong>Verified here
+symbolically</strong>
+(<code>simulations/publisher_20260820_completion_b_omega_absorption.py</code>,
+11/11): at that root <code>1.5·ω·ε_crit² = 1 − 3ε_crit</code>
+<em>exactly</em>, so <strong>the closure pins the product
+<code>ω·ε_crit²</code>, which → 2/3, rather than ω itself</strong> —
+<code>ε_crit ~ √(2/(3ω))</code> and the construction has one physical
+point, not a family. “192 × 4 ω-values” is <strong>192 × 1</strong>; the
+scan advertised a dimension the construction does not have. (This
+closure identity is the reason behind the source’s numerical observation
+that trajectories at ω = 4×10⁴ and 10⁶ agree to &lt;2% — the departures
+are 1.22% and 0.24%.) <em>(iii) At the allowed ω the no-go hardens
+rather than loosening:</em> <code>w₀</code> moves −1.58 (ω = 0) →
+<strong>−3.18</strong> (ω = 4×10⁴) at γ = 0.489, deeper into the wrong
+quadrant, with ρ_DE at 2% of its present value by z = 2. <em>(iv) The
+screening escape is self-inconsistent rather than a rescue:</em> giving
+the scalar a mass via <code>V(C)</code> to evade PPN would contribute to
+<code>B(x)</code>, which is the <strong>massless</strong> BD energy
+density and omits V — the published scan cannot be simultaneously
+PPN-safe and self-consistent. <strong>The one remaining unexecuted
+covariant branch</strong> is therefore a density-pinned
+<strong>massive</strong> scalar (add <code>V(C)</code> to
+<code>B(x)</code> and integrate): it evades Cassini by construction, and
+a potential is exactly the ingredient that could supply the interior
+maximum of ρ_DE(x) the DESI quadrant requires. Routed, not driven.
+Refutation count unchanged (6); the completion-B exclusion stands and is
+stronger. <em>(Source:
+<code>synchronism-site/explorer/findings/completion-b-at-cassini-allowed-omega-the-no-go-hardens-and-omega-was-never-free.md</code>,
+2026-08-19, routed via
+<code>Research/proposals/completion_b_cassini_omega_absorbed_by_closure_20260819.md</code>;
+the w₀ = −3.18 trajectory value is source-executed and not re-integrated
+here.)</em> Continuing the original clause: , and forcing w₀ to DESI’s
+value forces wₐ = +0.23…+0.60, the wrong sign in all four combinations.
+The class criterion is one line: for any dark energy slaved to matter
+density, ρ_DE = ρ_m·F(x), continuity gives w_DE = d ln F/d ln x, so
+DESI’s phantom→quintessence crossing requires an interior
+<em>maximum</em> of ρ_DE(x) — and no completion of C = tanh(γ ln(1+x))
+produces one (substituted form: monotone; completion A: ρ_DE ≡ 0;
+completion B: interior <em>minimum</em>, crossing in the anti-DESI
+direction). Residual conditionality: completion B’s quasi-static pinning
+presumes an enforcing sector of negligible stress. The γ = 1/2 branch of
+the <em>substituted</em> model is exactly ΛCDM (inheriting ΛCDM’s
+2.8–4.2σ DESI tension, no more) — but that degeneracy is a property of
+the substitution, not of the covariant completions.
+<strong>[STRENGTHENED 2026-08-19 — the qualifier “background” is removed
+because it was load-bearing in the wrong direction, and the identities
+below were re-derived here in SymPy, exactly, for all x and γ]:</strong>
+the γ = 1/2 branch is ΛCDM <strong>non-perturbatively</strong>, not
+merely degenerate with it in a background fit.
 <code>ρ_DE/ρ_crit = 2x/((1+x)^{2γ} − 1)</code> equals <strong>exactly 2
 at γ = 1/2, with dρ_DE/dρ_m ≡ 0</strong> — ρ_DE is constant in
 <em>space</em> as well as in time, the same inside a void, a cluster and
@@ -3710,16 +3811,17 @@ self-validates against DESI’s published ΛCDM and w₀wₐ results) confirms
 this structure at data level: the substituted branch sits at its
 Λ-corner — best γ = 0.487 ± 0.02, Δχ² = −0.3 vs ΛCDM, +11 behind w₀wₐCDM
 — and both covariant completions fail the fit outright (A: χ² ≈ 9,900,
-the pre-1998 background; B: Δχ² ≥ +79 at every ω tested), so the sector
-survives only in its non-covariant form and only by being ΛCDM. An
-earlier site-side “3.4–6.3σ forced-wₐ” exclusion of the substituted
-branch did not survive this execution — the likelihood never forces the
-family off the Λ-corner; the verdict is non-novelty, not exclusion. The
-apparent cross-sector agreement γ_cosmo = 0.487 vs γ_galaxy(SPARC) =
-0.489 has <strong>no power to fail</strong> (γ = 1/2 is exactly Λ; 0.489
-is exactly MOND simple-μ; the two standard models sit 0.011 apart in
-γ-space by construction) and is therefore not a concordance.
-<strong>[SCOPED 2026-08-15]</strong> That deflation was
+the pre-1998 background; B: Δχ² ≥ +79 at every ω on that same
+PPN-excluded grid — and per the ω correction above, one physical point
+rather than four), so the sector survives only in its non-covariant form
+and only by being ΛCDM. An earlier site-side “3.4–6.3σ forced-wₐ”
+exclusion of the substituted branch did not survive this execution — the
+likelihood never forces the family off the Λ-corner; the verdict is
+non-novelty, not exclusion. The apparent cross-sector agreement γ_cosmo
+= 0.487 vs γ_galaxy(SPARC) = 0.489 has <strong>no power to fail</strong>
+(γ = 1/2 is exactly Λ; 0.489 is exactly MOND simple-μ; the two standard
+models sit 0.011 apart in γ-space by construction) and is therefore not
+a concordance. <strong>[SCOPED 2026-08-15]</strong> That deflation was
 <em>structural</em> when written — the SPARC-side uncertainty had never
 been derived, so the pricing was incomplete. It has now been derived,
 and it makes the closure <strong>permanent</strong> and the sign of the
