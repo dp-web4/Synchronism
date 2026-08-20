@@ -3613,13 +3613,22 @@ metadata:
     #107. Confirmed by diff --diff-filter=A: zero added paths match a numbered-Session pattern. Same class as the menu-echo
     substring parse: a mention is not an instance. Also this window: the hive-organs arc re-verified its boundary and recorded
     no reply on day two (hub dark - consistent with SAGE-side hub silence, 21 days, logged there).'
+  archivist_note_2026_08_20: '0 new numbered core Session files - 13th consecutive deliberate zero, settled with git diff
+    --diff-filter=A rather than by comparing counts (see statistics.core_recount_2026_08_20 for why that distinction mattered
+    this run). NOT dormancy: the window''s 6 commits are substantive - two under-refutation corrections landed as proposals
+    (RAR non-locality is directional/enclosed-mass; completion-B''s omega is absorbed by its closure), two back-annotations
+    from the synchronism-site explorer, the hive-organs arc wake-8 log, and a Publisher report whose own finding is a good
+    one: a correction reached a banner and never reached the body, leaving a withdrawn test in the catalog''s #1 decisive
+    slot for 15 months underneath its own collapse notice. That is the same shape as this map''s counting problem - the authoritative
+    statement existed and the consuming surface never read it. TERMINOLOGY: window-changed files clean; the standing Research/Gnosis/TOPOLOGY_CONSCIOUSNESS_INVARIANTS.md:91
+    ''ATP (Attestation Token Protocol)'' re-verified by opening the file, still wrong.'
   archivist_version: '1.3'
   deliberate_zero_streak_2026_08_07: '3 consecutive windows (08-05, 08-06, 08-07) with 0 new numbered core Sessions. Do NOT
     escalate this as a stall: verified each time by confirming repo activity elsewhere (explorations/, proposals/, publisher/,
     maintainer/). The escalation trigger should be ''explorations/ AND proposals/ AND publisher logs all also flat'', not
     ''no Session*.md''. A count that can only go one direction on a track whose charter moved the work elsewhere is not a
     health metric.'
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-20'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients B, D, and C
     (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns) S678''s cluster-bridge impossibility
     into a wrong-variable framing. The re-engagement is holding across 5 construction-mode sessions (S679-S683), confirming
@@ -3889,8 +3898,13 @@ statistics:
   core_distinct_numbers: 624
   core_files_on_disk: 642
   core_max_session: 691
-  core_recount_2026_08_19: 642 files_on_disk / 624 distinct_numbers / 691 max - all three re-executed this run from the artifacts,
-    all three unchanged since 08-03. Rule and numbers stated together per counting_rule_CANONICAL.
+  core_recount_2026_08_20: '642 files_on_disk / 624 distinct_numbers / 691 max - all three re-executed from the artifacts,
+    all three unchanged since 2026-08-03. Window delta settled independently by git diff --diff-filter=A between the TZ=UTC-resolved
+    pre-window ref 9f714b4be and origin/main: ZERO added numbered Session paths. PROCEDURE NOTE FOR THE NEXT RUN, worth more
+    than the numbers: this run recounted with the loose pattern, got 649, and briefly treated it as +7 new sessions. core_counting_rule_2026_08_03
+    had already resolved exactly that - 649 = every Research/ entry starting with ''Session'', which adds 7 .png files to
+    the 642 top-level Session*.md. READ core_counting_rule_2026_08_03 BEFORE RECOUNTING. The rule was right, in the right
+    file, and was not consulted; only the tree-diff kept the phantom delta out of the record.'
   cosmology_2_milestone: 'Session #335 - Cosmology Arc 2.0 COMPLETE: 32/32 verified. Horizons, inflation, dark energy, multiverse!'
   disambiguation_milestone: 'Session #572 - γ ≡ R given V. R²=0.9999 is identity/tautology, not predictive power. Self-correction.'
   emergence_milestone: 'Session #339 - Emergence Arc COMPLETE: 32/32 verified. Life, complexity, evolution, consciousness!
