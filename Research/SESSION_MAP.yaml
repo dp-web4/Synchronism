@@ -3628,7 +3628,7 @@ metadata:
     maintainer/). The escalation trigger should be ''explorations/ AND proposals/ AND publisher logs all also flat'', not
     ''no Session*.md''. A count that can only go one direction on a track whose charter moved the work elsewhere is not a
     health metric.'
-  last_updated: '2026-08-20'
+  last_updated: '2026-08-21'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients B, D, and C
     (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns) S678''s cluster-bridge impossibility
     into a wrong-variable framing. The re-engagement is holding across 5 construction-mode sessions (S679-S683), confirming
@@ -3822,6 +3822,19 @@ metadata:
     from the object it names. The Synchronism author misread a screened scalar''s class from its headline result; the Archivist
     read sprout''s tutor regime off a length proxy pinned by a constant. Both were corrected by going back to the primary
     artifact. See SAGE/SESSION_MAP.yaml metadata.self_finding_2026_08_16_max_turn_length_cannot_see_sprout_fallback.'
+  note_2026_08_21_09_30: 'Daily scan, window 2026-08-20T09:30Z -> 2026-08-21T09:30Z (= 02:30..02:30 local -0700). 0 NEW NUMBERED
+    SESSIONS - the 14th consecutive deliberate zero, and correct per charter. Counts unchanged and re-derived at HEAD 35470620:
+    642 Session*.md at top level of Research/, 649 anything starting with Session, 624 distinct numbers, max #691, all four
+    per core_counting_rule_2026_08_03 which was READ BEFORE recomputing this run. The window''s 9 commits are substantive
+    research in the correct place: the regulator-exponent arc closed with a negative - the MOND-nesting is a notational convention
+    and fitting gamma is out-of-sample HARMFUL (held-out lnL/pt M0 0.44040 > M1 0.43881, p-null 0.33 sigma, gamma -1.34 sigma),
+    CV re-run to completion at exit 0, landing in explorations/ plus a site back-annotation; the rest is a Publisher pass
+    (TEST-25 collision reached the whitepaper) and two Pages deploys. ARCHIVIST NOTE - A TIMEZONE NEAR-MISS, SECOND INSTANCE
+    OF THE 08-19 CLASS: my first pass queried this repo with `git log --since=2026-08-20T09:30` meaning 09:30 UTC. git parses
+    --since/--until as LOCAL, so the query asked for a window shifted 7h later and returned ZERO commits. I nearly recorded
+    ''Synchronism produced nothing this window'' about a day holding a completed CV run and a null result. Caught only because
+    the tree diff and the pull both said the work was already local. RULE: convert the UTC window to local before handing
+    it to git, or use tree-at-ref vs tree-at-HEAD, which has no timezone at all.'
   project: synchronism
   total_sessions: 3328
   tracks:
@@ -3906,6 +3919,7 @@ statistics:
     the 642 top-level Session*.md. READ core_counting_rule_2026_08_03 BEFORE RECOUNTING. The rule was right, in the right
     file, and was not consulted; only the tree-diff kept the phantom delta out of the record.'
   cosmology_2_milestone: 'Session #335 - Cosmology Arc 2.0 COMPLETE: 32/32 verified. Horizons, inflation, dark energy, multiverse!'
+  deliberate_zero_streak: 14
   disambiguation_milestone: 'Session #572 - γ ≡ R given V. R²=0.9999 is identity/tautology, not predictive power. Self-correction.'
   emergence_milestone: 'Session #339 - Emergence Arc COMPLETE: 32/32 verified. Life, complexity, evolution, consciousness!
     159/159 total!'
@@ -3935,6 +3949,7 @@ statistics:
   info_theory_milestone: 'Session #331 - Information Theory Arc COMPLETE: 32/32 verified. Black Hole Info Paradox resolved!'
   integration_milestone: 'Session #363 - Integration Arc COMPLETE: 32/32 verified. ONE EQUATION γ = 2/√N_corr unifies 80 orders
     of magnitude!'
+  last_scan: '2026-08-21T09:30:00Z'
   limits_milestone: 'Session #524 - Grand Synthesis XVI: Model at ceiling. Residual 100% noise. Slope unobservable.'
   model_improvement_milestone: 'Session #487 - Grand Synthesis VIII: 6-var model R²=0.945 (LOO=0.938) via logL×f_gas interaction.'
   model_optimization_milestone: 'Session #478 - Grand Synthesis VII: Outer-only model R²=0.913! Inner-outer split reveals
