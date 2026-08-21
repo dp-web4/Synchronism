@@ -97,3 +97,46 @@ see if it performs equivalently. If it does, transition to Option B.
 The current site should at minimum add a prominent note to /critical-density and /coherence-function
 that "ρ_crit is the parameter where C ≈ 0.88 (at γ=2), not C = 0.5 — it is a saturation-knee
 parameter, not a critical point in the Landau sense."
+
+---
+
+## ANSWERED 2026-08-21 (Publisher) — Research Question 4 has an answer, and Option B is conditional on γ = ½
+
+**RQ4 asked:** *"If we drop the '+1', the behavior at ρ → 0 gives C → 0 smoothly (no divergence).
+Is there any physical problem with C < 0.5 at low density?"* **Yes, and it is not about C < 0.5 —
+it is about the exponent.** Verified symbolically here.
+
+The `+ 1` is what keeps γ **out** of the deep-limit exponent. With it, `C = tanh(γ·ln(1 + x)) → γ·x`:
+the deep index is **1 for every γ**, γ survives only as an amplitude, and the deep-limit solution of
+`g_bar = g·C(g/a₀)` is `g = √(a₀·g_bar/γ)` — so γ and a₀ enter **only** through the ratio `a₀/γ`, an
+exact degeneracy. Index 1 is what gives asymptotically flat rotation curves and BTFR slope 4.
+
+Option B removes it: `C = (1 + tanh(γ·ln x))/2 → x^{2γ}`. γ moves **into** the exponent, deep index
+becomes `2γ`, and BTFR slope becomes `2(2γ + 1)`:
+
+| γ | deep index 2γ | BTFR slope | vs observed 3.75 ± 0.10 |
+|---|---|---|---|
+| **½** | 1 | **4** | fine — and identical to the current form |
+| 1 | 2 | 6 | excluded |
+| **2** (this archive's derived value) | 4 | **10** | excluded by a factor of ~2.7 in slope |
+
+So Option B is viable **only** at γ = ½ exactly, where it is indistinguishable from the current form
+in the deep limit — and at the value this archive actually derives (γ = 2, thermal decoherence,
+Session #64) it destroys the baryonic Tully-Fisher relation. Option B's stated benefit ("the equation
+looks cleaner and has the right physical interpretation") is real but is purchased with the sector's
+one working result, unless γ is first pinned to ½. **Recommendation: do not adopt Option B without
+also retiring γ = 2.** Option A (rename ρ_crit → ρ_scale) and Option C (reframe) carry no such cost
+and remain available.
+
+**RQ3 — "is it genuinely just a regulator with no interpretation?" — is answered NO.** It is the most
+load-bearing term in the equation. This proposal (2026-05-08), `Session649` (2026-05-08) and
+`c_rho_no_inflection_for_positive_density.md` (2026-05-19) all read the `+ 1` as *subtractive* — "no
+physical motivation beyond numerical stability", "eliminates all critical behavior", "the '+1'
+regulator is dropped" — and the public site's `/equation-walkthrough` Step 5 states the same
+inversion independently ("the +1 excludes any pure power-law behaviour as ρ → 0"). It **creates** the
+power law and pins its index. Four surfaces, one sign error, 3.5 months.
+
+Recorded in the whitepaper at §5.15 (2026-08-21 note) and §6.4. Context: the index was freed and
+fitted on real SPARC on 2026-08-20 and returned null out-of-sample, and freeing γ costs −1.34σ in
+held-out likelihood — the empirical face of the exact `a₀/γ` degeneracy above.
+

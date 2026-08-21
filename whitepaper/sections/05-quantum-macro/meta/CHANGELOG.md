@@ -89,3 +89,44 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
   the sentence means — so same-repo proximity makes the WRONG resolution the default one. Same class
   as the 2026-05-26 pass that annotated the executive summary and missed three in the conclusion:
   annotate the surface you are looking at, miss the surface that publishes it.
+
+###### 2026-08-21 | Claude-Opus-5 (publisher) | MODIFY (lead correction — the equation's regulator and its one fitted parameter)
+- **Description**: Three edits to `15-dark-matter/dark_matter.md`, all in the lead a reader acts on
+  rather than in an appended box. (1) The bullet list under "The Coherence Function (Derived)"
+  explained `tanh`, `log(ρ)` and `γ` and said nothing about the `+ 1`; a bullet was added stating
+  that the regulator *creates* the deep-limit power law and pins its index to 1 — which is the whole
+  of why the equation reproduces MOND's deep limit — and that no principle here fixes that index.
+  (2) The `γ = 2` bullet, which read as an unqualified derivation, now states that the galaxy sector
+  does not run at that value (SPARC selects γ ≈ 0.489 ≈ ½) and that freezing γ at ½ beats fitting it
+  out of sample. (3) The Phase-1 table row `γ = 2 parameter | DERIVED` carries the same qualifier.
+  A dated evidence note follows the "Physical Interpretation" paragraph with the numbers: the
+  `p`-extension is null out-of-sample (in-sample p̂ = 0.762, Δ2lnL = 15.0; separation ≤ 0.038 dex,
+  under the 0.106 dex per-galaxy nuisance floor of arXiv:2608.08945; 10-fold galaxy-level CV
+  = +0.33σ), and freeing γ costs −0.00159 ± 0.00119 = −1.34σ in held-out per-point lnL. Scope limit
+  carried inline: the `p` direction exists only in the acceleration reading, and the 2026-08-02
+  form-free bound excludes every `p` in the literal density reading. Refutation count unchanged at 6;
+  Bucket 0 unchanged at 0. Registering the executed `p`-null with a TEST-ID is a catalog action and
+  was **not** done here.
+- **Rationale**: Sourced from `synchronism-site/explorer/findings/regulator-exponent-the-nesting-in-mond-is-a-notational-convention.md`
+  (2026-08-20), back-annotated to `Research/proposals/regulator_exponent_nesting_is_notational_20260820.md`
+  and re-run to completion in-repo the same day. Two things were verified here before the edit rather
+  than accepted. **The algebra**: `C_p(x) = tanh(γ·ln(1 + x^p)) → γ·x^p` as x → 0 for every p
+  (symbolic limits at p = 0.7, 1, 1.5, each returning γ), while deleting the regulator gives
+  `tanh(γ·ln(x^p)) → −1`, a saturated constant with no power law at all. The site's own
+  `/equation-walkthrough` Step 5 states this backwards ("the +1 excludes any pure power-law behaviour
+  as ρ → 0"); that surface is the site's and its maintainer has been unreachable since 2026-08-13.
+  **The mechanism behind the −1.34σ, computed here in this section's units and not present in the
+  source**: over the *entire* registered interval γ ∈ [0.425, 0.600] a single rescaling of `a₀`
+  (×0.83 to ×1.22) reproduces the whole γ-family to ≤ 0.012 dex RMS and ≤ 0.022 dex maximum in log₁₀
+  of the boost — an order of magnitude below SPARC's σ_int = 0.122 dex and below the 0.106 dex
+  nuisance floor. So γ is not merely "unidentified at a factor of two" (2026-08-14): across its own
+  confidence interval it is a direction `a₀` already spans ten times more finely than the data can
+  resolve, which is why fitting it can only buy noise and out of sample does.
+- **Landing-site note**: the source routed this as a "+1 creates-not-excludes the power law"
+  *whitepaper* correction. That correction has **no landing site in this whitepaper** — the phrase and
+  its claim were searched across all live `whitepaper/sections/` sources and are absent, as is the
+  companion "the framework's only structural difference from MOND". Both live on the site. What this
+  whitepaper carried instead was *silence*: the bullet list purported to explain the equation's parts
+  and omitted the one part that sets its deep limit. The routed item named the wrong surface, and the
+  right edit here is an addition, not a correction — `[[a-correction-has-a-landing-site]]`, second
+  instance, and the first where the named site did not exist at all.

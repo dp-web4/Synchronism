@@ -50,7 +50,7 @@ C(ρ_crit, γ=2) = tanh(2 · ln(ρ_crit/ρ_crit + 1))
 
 This is correct and was confirmed by S638's verification (which evaluated C(ρ_crit) at multiple γ values: γ=0.5→0.333, γ=1→0.600, γ=2→0.882). S638 already concluded "ρ_crit is field-zero offset, not critical density" — the framework's "critical" naming inherits phase-transition vocabulary the math doesn't support.
 
-The proposal's contribution is the "+1" regulator analysis: it identifies *why* the asymmetry exists. The "+1" prevents `ln(0)` divergence as ρ→0 but has no physical motivation beyond numerical stability. It asymmetrizes the sigmoid such that ρ_crit is at C ≈ 0.88 rather than at the half-maximum.
+The proposal's contribution is the "+1" regulator analysis: it identifies *why* the asymmetry exists. The "+1" prevents `ln(0)` divergence as ρ→0 but has no physical motivation beyond numerical stability. **[CORRECTED 2026-08-21, Publisher — this clause is the wrong way round.]** The `+1` also determines the deep-limit exponent: `tanh(γ·ln(1+x)) → γ·x`, index 1 for every γ, which is exactly asymptotically-flat rotation curves and BTFR slope 4. Remove it and γ enters the exponent (`(1+tanh(γ ln x))/2 → x^{2γ}`, BTFR slope `2(2γ+1)` — slope 10 at this archive's γ = 2). Its physical motivation is the sector's only working result; see `Research/proposals/rho_crit_asymmetry_saturation_knee.md` (answered 2026-08-21) and whitepaper §5.15. It asymmetrizes the sigmoid such that ρ_crit is at C ≈ 0.88 rather than at the half-maximum.
 
 The half-maximum would actually be at:
 ```
