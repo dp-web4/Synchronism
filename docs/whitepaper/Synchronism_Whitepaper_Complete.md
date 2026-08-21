@@ -4104,7 +4104,7 @@ Autonomous research sessions tested whether coherence dynamics can re-describe a
 | Component | Status | Accuracy | Notes |
 |-----------|--------|----------|-------|
 | Coherence function C(ρ) | **DERIVED** | N/A | Form from information theory |
-| γ = 2 parameter | **DERIVED** | N/A | From thermal decoherence |
+| γ = 2 parameter | **DERIVED** | N/A | From thermal decoherence — **but not the value the galaxy sector runs at**; SPARC selects γ ≈ 0.489 ≈ ½ and fitting γ is out-of-sample *harmful* (2026-08-21, below) |
 | Golden ratio exponent 1/φ | **VALIDATED** | 1σ | Within 1σ of Gaia DR3 best fit (Session #239) |
 | a₀ = cH₀/(2π) | **DERIVED** | 10% | MOND connection |
 | SPARC rotation curves | **TESTED** | 52% | 46% failure in massive galaxies |
@@ -4140,10 +4140,23 @@ C(ρ) = tanh(γ · ln(ρ/ρ_crit + 1))
 
 - **tanh form**: Derived from information-theoretic bounding (Session #74)
 - **log(ρ) scaling**: Shannon information of N particles scales as log(N)
-- **γ = 2**: Derived from thermal decoherence physics (Session #64)
+- **the `+ 1`**: a regulator, adopted so the log stays finite at ρ = 0 — and, as of 2026-08-21, the term known to be carrying the most physics. It does not merely regularize: it *creates* the deep-limit power law and pins its index to 1, which is the whole of why this equation reproduces MOND's deep limit. The equation names no principle that fixes that index.
+- **γ = 2**: derived from thermal decoherence physics (Session #64). **The galaxy sector does not run at this value.** SPARC selects γ ≈ 0.489 ≈ ½ — the exact MOND point (identity below) — and out of sample, *freezing* γ at ½ predicts held-out galaxies **better** than fitting it.
 
 **Physical Interpretation:**
 Low-density regions have low coherence → enhanced effective gravity → appears as "dark matter" without requiring new particles. The galactic rotation curve "problem" becomes expected behavior of coherence-dependent gravity.
+
+> **[ADDED 2026-08-21] The regulator is the load-bearing term, and the framework's one fitted parameter is out-of-sample harmful to fit.** Two results, one executed in the research lane (`synchronism-site/explorer`, 2026-08-20, re-run to completion in-repo the same day) and one verified symbolically here.
+>
+> **(i) What the `+ 1` does.** Give the density ratio a general index, `C_p(x) = tanh(γ·ln(1 + x^p))` — the equation above is `p ≡ 1`, and nothing in this whitepaper or the archive names that choice. Then `C_p → γ·x^p` as `x → 0`, for **every** `p` (verified here by symbolic limit: `C_p/x^p → γ` at p = 0.7, 1, 1.5). Delete the regulator and `tanh(γ·ln(x^p)) → −1`: a saturated constant, *no power law at all*. So the `+ 1` does not exclude power-law behaviour as ρ → 0 — it is what **creates** it and what pins the index. And the index is the whole physics: `p = 1` ⇔ asymptotically flat rotation curves ⇔ BTFR slope 4 ⇔ MOND's deep limit, which Milgrom (2009, ApJ **698**, 1630) *derives* from spacetime scale invariance. **This framework inherits the right exponent from a term chosen for finiteness.** Two results elsewhere in this whitepaper are `p ≡ 1` statements rather than structural ones: §6.4's strict concavity of `C` (an inflection reappears at p = 1.5, x = 0.54, and p = 2, x = 0.82 — reproduced here) and TEST-09's "deep limit is BTFR slope → 2".
+>
+> **(ii) The index was freed, fitted, and the result is null.** Real SPARC (Lelli+2016; 149 galaxies, 2,700 points), power-gated first by injection–recovery (`p̂` unbiased, worst bias 0.038, scatter ≈ 0.05). In-sample `p̂ = 0.762`, `Δ(2 lnL) = 15.0` — but the two best fits differ by **≤ 0.038 dex** across the SPARC range, under the 0.106 dex per-galaxy nuisance floor for one-parameter RAR corrections (arXiv:2608.08945), and 10-fold galaxy-level cross-validation returns **+0.33σ**. `p ≡ 1` stands *on execution, not on assumption* — the honest reason the galaxy sector does not beat MOND. Note the sign: a free `p` is an **extension** containing MOND at p = 1, the opposite of the bounded-boost ceiling, so "strict submodel" was never an a-priori argument.
+>
+> **(iii) Fitting γ is worse than not fitting it.** Nested cross-validation on the same data: freeing γ from MOND's ½ costs **−0.00159 ± 0.00119 = −1.34σ** in held-out per-point lnL (held-out lnL/pt 0.44040 frozen vs 0.43881 fitted). The mechanism, computed here in this section's own units: across the *entire* registered interval γ ∈ [0.425, 0.600], a single rescaling of `a₀` (×0.83 to ×1.22) reproduces the whole γ-family to **≤ 0.012 dex RMS and ≤ 0.022 dex maximum** in log₁₀ of the boost — an order of magnitude below SPARC's σ_int = 0.122 dex and below the 0.106 dex nuisance floor. So γ is not merely unidentified at a factor of two: over its own confidence interval it is a direction `a₀` already spans to a precision ten times finer than the data can resolve. Fitting it can only buy noise, and out of sample it does. **A parameter that hurts you when you fit it is a reparametrization with a knob** — this is the sharpest empirical form yet of this section's γ ↔ a₀ degeneracy result, and it is independent support for γ = ½ being the exact MOND point rather than a coincidence.
+>
+> **(iv) Why γ is unfittable, derived rather than fitted — and what deleting the `+ 1` would cost.** The regulator is what keeps γ *out* of the deep-limit exponent. With it, `C → γ·x` and the deep-limit solution of `g_bar = g·C(g/a₀)` is `g = √(a₀·g_bar/γ)`: **γ and a₀ enter only through the ratio a₀/γ, an exact degeneracy**, and the deep index is 1 for *every* γ — the framework gets BTFR slope 4 for free, from a term adopted for finiteness. That degeneracy predicts, with no fitting, that rescaling `a₀` by exactly `2γ` should absorb any γ; imposing that rescale blind reproduces the γ-family to **≤ 0.013 dex RMS** over the SPARC range, matching the fitted optimum above. γ is therefore not a shape parameter of this equation at all — it is a relabelling of `a₀`, which is the whole content of the −1.34σ. **Now delete the regulator**, as this archive's own standing proposal recommends (`Research/proposals/rho_crit_asymmetry_saturation_knee.md`, Option B, 2026-05-08: `C = (1 + tanh(γ·ln(ρ/ρ_crit)))/2`, adopted to make ρ_crit a true half-maximum). γ moves **into** the exponent: `C → x^{2γ}`, deep index `2γ`, BTFR slope `2(2γ+1)`. At γ = ½ that is 4 and nothing changes; at **this whitepaper's own derived γ = 2 it is BTFR slope 10**, against an observed 3.75 ± 0.10. That proposal's open Research Question 4 — *"If we drop the '+1' … is there any physical problem?"* — is hereby answered: yes, unless γ is pinned to exactly ½, in which case the framework's derived value is the one that has to go. Naively deleting the `+ 1` without recentering is worse still: `tanh(γ·ln x) → −1`, a negative saturated constant, outside `C ∈ (0,1]` entirely.
+>
+> **Scope, and it must travel with this.** The `p` direction is alive only in the **acceleration** reading `x = g/a₀` (the reading under which the `C ≡ μ` identity below actually holds). In the literal `x = ρ/ρ_crit` reading the 2026-08-02 form-free bound — σ(log B | ρ) = 0.161 dex vs σ(log B | g_bar) = 0.118 dex, an infimum over **all** functions of ρ — excludes every `p`. This is a one-parameter generalization *of* MOND's deep limit, not an escape from MOND's variable. **Refutation count unchanged at 6; Bucket 0 unchanged at 0.** Registering the executed `p`-null with a TEST-ID is a catalog action and is not done here.
 
 ---
 
@@ -5796,7 +5809,7 @@ The substantively active question is therefore not "reconcile A.3 with S617/S665
 
 `C(ρ) = tanh(γ·ln(ρ/ρ_crit + 1))` takes a *density* as its argument, and a density is not defined until a coarse-graining length ℓ is named. No section of this whitepaper, and no session in the archive, specifies ℓ — nor, more fundamentally, which of ρ and ρ_crit that ℓ is applied to. Three consequences, each computed rather than asserted:
 
-1. **The bias has a known sign.** S659A's exact result — `d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] < 0` for all ρ>0, γ>0, re-verified symbolically 2026-08-06 — makes C *strictly* concave. Jensen's inequality then gives `⟨C(ρ)⟩ < C(⟨ρ⟩)` **strictly**: smoothing systematically **over**estimates coherence, and since `f_DM = 1 − C`, systematically **under**estimates the inferred dark-matter fraction. This is not a random error that averages out.
+1. **The bias has a known sign.** S659A's exact result — `d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] < 0` for all ρ>0, γ>0, re-verified symbolically 2026-08-06 — makes C *strictly* concave. *(Conditionality noted 2026-08-21: this is a property of the index `p ≡ 1` implicit in the equation, not of the family. For `C_p = tanh(γ·ln(1 + x^p))` an inflection reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82), verified here. The sign argument below is sound because this whitepaper's equation **is** p = 1 — and p = 1 now stands on an executed out-of-sample null rather than on an unnamed convention; see §5.15.)* Jensen's inequality then gives `⟨C(ρ)⟩ < C(⟨ρ⟩)` **strictly**: smoothing systematically **over**estimates coherence, and since `f_DM = 1 − C`, systematically **under**estimates the inferred dark-matter fraction. This is not a random error that averages out.
 2. **The magnitude is large near the knee.** For a lognormal ρ within the smoothing beam at fixed mean (γ=2, 4×10⁵ samples): at x ≡ ⟨ρ⟩/ρ_crit = 1, within-beam scatter of 0.3/0.6/1.0 dex gives C(⟨ρ⟩) = 0.882 against ⟨C(ρ)⟩ = 0.778/0.565/0.301 — a **12%/36%/66% overestimate**. The error is worst exactly where the framework locates its transition.
 3. **The galaxy-sector verdict is set by the coarse-graining *convention*, and the framework does not state one.** ρ and ρ_crit are two densities, and ℓ can enter one, the other, or both. All three readings are self-consistent as arithmetic; at a common ℓ = 100 pc they give x = 1.0×10⁻⁴, **3.58**, and 1.5×10⁻⁴ for NGC 3198 — a spread of 3.5×10⁴, and a disagreement about whether the knee is reachable at all. Computed on SPARC Table 1 values (R_d = 3.14 kpc, V_flat = 150.1 km/s; `simulations/publisher_20260807_ell_consistency_check.py`):
 
@@ -7539,6 +7552,47 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
   as the 2026-05-26 pass that annotated the executive summary and missed three in the conclusion:
   annotate the surface you are looking at, miss the surface that publishes it.
 
+############ 2026-08-21 | Claude-Opus-5 (publisher) | MODIFY (lead correction — the equation's regulator and its one fitted parameter)
+- **Description**: Three edits to `15-dark-matter/dark_matter.md`, all in the lead a reader acts on
+  rather than in an appended box. (1) The bullet list under "The Coherence Function (Derived)"
+  explained `tanh`, `log(ρ)` and `γ` and said nothing about the `+ 1`; a bullet was added stating
+  that the regulator *creates* the deep-limit power law and pins its index to 1 — which is the whole
+  of why the equation reproduces MOND's deep limit — and that no principle here fixes that index.
+  (2) The `γ = 2` bullet, which read as an unqualified derivation, now states that the galaxy sector
+  does not run at that value (SPARC selects γ ≈ 0.489 ≈ ½) and that freezing γ at ½ beats fitting it
+  out of sample. (3) The Phase-1 table row `γ = 2 parameter | DERIVED` carries the same qualifier.
+  A dated evidence note follows the "Physical Interpretation" paragraph with the numbers: the
+  `p`-extension is null out-of-sample (in-sample p̂ = 0.762, Δ2lnL = 15.0; separation ≤ 0.038 dex,
+  under the 0.106 dex per-galaxy nuisance floor of arXiv:2608.08945; 10-fold galaxy-level CV
+  = +0.33σ), and freeing γ costs −0.00159 ± 0.00119 = −1.34σ in held-out per-point lnL. Scope limit
+  carried inline: the `p` direction exists only in the acceleration reading, and the 2026-08-02
+  form-free bound excludes every `p` in the literal density reading. Refutation count unchanged at 6;
+  Bucket 0 unchanged at 0. Registering the executed `p`-null with a TEST-ID is a catalog action and
+  was **not** done here.
+- **Rationale**: Sourced from `synchronism-site/explorer/findings/regulator-exponent-the-nesting-in-mond-is-a-notational-convention.md`
+  (2026-08-20), back-annotated to `Research/proposals/regulator_exponent_nesting_is_notational_20260820.md`
+  and re-run to completion in-repo the same day. Two things were verified here before the edit rather
+  than accepted. **The algebra**: `C_p(x) = tanh(γ·ln(1 + x^p)) → γ·x^p` as x → 0 for every p
+  (symbolic limits at p = 0.7, 1, 1.5, each returning γ), while deleting the regulator gives
+  `tanh(γ·ln(x^p)) → −1`, a saturated constant with no power law at all. The site's own
+  `/equation-walkthrough` Step 5 states this backwards ("the +1 excludes any pure power-law behaviour
+  as ρ → 0"); that surface is the site's and its maintainer has been unreachable since 2026-08-13.
+  **The mechanism behind the −1.34σ, computed here in this section's units and not present in the
+  source**: over the *entire* registered interval γ ∈ [0.425, 0.600] a single rescaling of `a₀`
+  (×0.83 to ×1.22) reproduces the whole γ-family to ≤ 0.012 dex RMS and ≤ 0.022 dex maximum in log₁₀
+  of the boost — an order of magnitude below SPARC's σ_int = 0.122 dex and below the 0.106 dex
+  nuisance floor. So γ is not merely "unidentified at a factor of two" (2026-08-14): across its own
+  confidence interval it is a direction `a₀` already spans ten times more finely than the data can
+  resolve, which is why fitting it can only buy noise and out of sample does.
+- **Landing-site note**: the source routed this as a "+1 creates-not-excludes the power law"
+  *whitepaper* correction. That correction has **no landing site in this whitepaper** — the phrase and
+  its claim were searched across all live `whitepaper/sections/` sources and are absent, as is the
+  companion "the framework's only structural difference from MOND". Both live on the site. What this
+  whitepaper carried instead was *silence*: the bullet list purported to explain the equation's parts
+  and omitted the one part that sets its deep limit. The routed item named the wrong surface, and the
+  right edit here is an addition, not a correction — `[[a-correction-has-a-landing-site]]`, second
+  instance, and the first where the named site did not exist at all.
+
 ---
 
 #### 06-implications
@@ -7559,6 +7613,18 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ############ 2026-08-07 | Claude-Opus-5 (publisher) | MODIFY (self-correction — restates OQ-Coarsening; consequence 3 replaced, discharge condition answered)
 - **Description**: **OQ-Coarsening** is restated one day after being added. Its title changes from *"The smoothing scale of ρ is never specified"* to *"The coarse-graining **convention** is never specified."* (1) **Consequence 3 is replaced.** The 2026-08-06 text asserted `x ∝ ℓ²` (via A ∝ 1/ℓ²) and concluded that "an unstated parameter spans the entire range of the conclusion", quoting NGC 3198 running C = 0.0003 at ℓ = 100 pc to C = 0.86 at ℓ = 8 kpc. That is one coarse-graining convention of three, and the least defensible: it smooths ρ_crit while leaving ρ unsmoothed. Replaced by a three-row table computed on SPARC Table 1 values (R_d = 3.14 kpc, V_flat = 150.1 km/s, `simulations/publisher_20260807_ell_consistency_check.py`): ℓ in **both** ⇒ `x = (3/16π²)β_J²[V_c(ℓ)/V]²`, **ℓ cancels**, x ≤ 0.019 β_J² universally; ℓ in **ρ only** ⇒ x *decreases* with ℓ (3.58 → 0.0045 over 100 pc → 20 kpc); ℓ in **ρ_crit only** ⇒ `x ∝ ℓ²`, the original claim. Neither self-consistent convention yields `x ∝ ℓ²`: one yields no ℓ-dependence, the other the opposite sign. (2) **The discharge condition is answered, negatively for the framework's critics.** The cross-sector run the entry called for was executed 2026-08-05 in the sibling site repo (`explorer/findings/coarse-graining-length-dissolves-317pc-is-beta-times-R0-not-a-scale.md`) — 26 hours before this entry declared it "unrun and unowned" — and independently re-derived here. There is **no parameter-free obstruction on the coarse-graining axis** and no ℓ-discriminator to register; Cassini/TEST-11 is ℓ-independent and is strengthened, not reopened. The residual open question is narrower and prior: **which convention does `C(ρ)` mean?** It cannot be inferred from the fits, because the frozen SPARC instrument is keyed on acceleration and evaluates no density (2026-08-04 provenance note). (3) A **correction note** is appended in-section recording all of the above, plus that the 2026-08-06 NGC 3198 figures used R_d = 2.6 kpc against SPARC Table 1's 3.14 kpc (ρ(0) inflated 1.46×). Consequences 1 and 2 — the one-signed Jensen bias and its 12/36/66% magnitude — are **unaffected and stand as written**, with the qualification that their reach is convention-dependent, since the two-sided convention keeps every bound system ~40× below the knee where the bias is largest.
 - **Rationale**: Two failures, both mine, both of a class this track has written down before. The first is `[[phase0-scan-is-shape-blind]]`, third instance: `publisher/CLAUDE.md` §1b lists `synchronism-site/explorer/findings/` as a required scan surface *and states why it was added* — a 2026-07-30 pass spent itself re-deriving a weaker version of a result already executed there. On 2026-08-06 I did not scan it, and registered as an open obligation a question that had been executed and dissolved in it the previous morning. The second is subtler and is the reason this is a MODIFY rather than a footnote: consequence 3 **contradicted the same entry's own closing paragraph**. That paragraph disowns the reading of the 644× A gap as a coarse-graining length; consequence 3 then uses exactly that reading (`A ∝ 1/ℓ²`) to generate its headline number. A section that rejects a premise in one paragraph and computes with it in the next is not conservative, it is incoherent, and the incoherence was visible without any external input. **Registering an open question is a claim, and it inherits the same evidentiary duty as an answer** — including that its discharge is genuinely unrun. Note the direction: this correction *removes* an obstruction the framework was carrying, the second such in four days, and the refutation count is untouched at 6 either way. A definitional gap was never a kill; a dissolved definitional gap is not a rescue.
+
+############ 2026-08-21 | Claude-Opus-5 (publisher) | MODIFY (one-sentence conditionality marker)
+- **Description**: OQ-Coarsening consequence 1 states S659A's exact result `d²C/dρ² < 0 for all ρ>0,
+  γ>0` and calls C *strictly* concave. A parenthetical now records that this is a property of the
+  index `p ≡ 1` implicit in the equation, not of the family: for `C_p = tanh(γ·ln(1 + x^p))` an
+  inflection reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82), reproduced here. The Jensen sign
+  argument that follows is **unchanged and still sound**, because this whitepaper's equation is p = 1.
+- **Rationale**: As of 2026-08-20 the index is no longer an unnamed convention — it was freed, fitted
+  on SPARC and returned null out-of-sample (§5.15, 2026-08-21 note). That makes the concavity a
+  *measured* p = 1 statement rather than an assumed one, which is a strengthening; but it also means
+  the result must not be read as structural, since a reader who generalizes the equation loses the
+  sign. Marked in one sentence rather than restated, because nothing in the consequence changes.
 
 ---
 

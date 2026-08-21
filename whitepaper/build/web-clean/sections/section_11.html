@@ -1913,6 +1913,75 @@ pass that annotated the executive summary and missed three in the
 conclusion: annotate the surface you are looking at, miss the surface
 that publishes it.</li>
 </ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-lead-correction-the-equations-regulator-and-its-one-fitted-parameter">2026-08-21
+| Claude-Opus-5 (publisher) | MODIFY (lead correction — the equation’s
+regulator and its one fitted parameter)</p>
+<ul>
+<li><strong>Description</strong>: Three edits to
+<code>15-dark-matter/dark_matter.md</code>, all in the lead a reader
+acts on rather than in an appended box. (1) The bullet list under “The
+Coherence Function (Derived)” explained <code>tanh</code>,
+<code>log(ρ)</code> and <code>γ</code> and said nothing about the
+<code>+ 1</code>; a bullet was added stating that the regulator
+<em>creates</em> the deep-limit power law and pins its index to 1 —
+which is the whole of why the equation reproduces MOND’s deep limit —
+and that no principle here fixes that index.
+<ol start="2" type="1">
+<li>The <code>γ = 2</code> bullet, which read as an unqualified
+derivation, now states that the galaxy sector does not run at that value
+(SPARC selects γ ≈ 0.489 ≈ ½) and that freezing γ at ½ beats fitting it
+out of sample. (3) The Phase-1 table row
+<code>γ = 2 parameter | DERIVED</code> carries the same qualifier. A
+dated evidence note follows the “Physical Interpretation” paragraph with
+the numbers: the <code>p</code>-extension is null out-of-sample
+(in-sample p̂ = 0.762, Δ2lnL = 15.0; separation ≤ 0.038 dex, under the
+0.106 dex per-galaxy nuisance floor of arXiv:2608.08945; 10-fold
+galaxy-level CV = +0.33σ), and freeing γ costs −0.00159 ± 0.00119 =
+−1.34σ in held-out per-point lnL. Scope limit carried inline: the
+<code>p</code> direction exists only in the acceleration reading, and
+the 2026-08-02 form-free bound excludes every <code>p</code> in the
+literal density reading. Refutation count unchanged at 6; Bucket 0
+unchanged at 0. Registering the executed <code>p</code>-null with a
+TEST-ID is a catalog action and was <strong>not</strong> done here.</li>
+</ol></li>
+<li><strong>Rationale</strong>: Sourced from
+<code>synchronism-site/explorer/findings/regulator-exponent-the-nesting-in-mond-is-a-notational-convention.md</code>
+(2026-08-20), back-annotated to
+<code>Research/proposals/regulator_exponent_nesting_is_notational_20260820.md</code>
+and re-run to completion in-repo the same day. Two things were verified
+here before the edit rather than accepted. <strong>The algebra</strong>:
+<code>C_p(x) = tanh(γ·ln(1 + x^p)) → γ·x^p</code> as x → 0 for every p
+(symbolic limits at p = 0.7, 1, 1.5, each returning γ), while deleting
+the regulator gives <code>tanh(γ·ln(x^p)) → −1</code>, a saturated
+constant with no power law at all. The site’s own
+<code>/equation-walkthrough</code> Step 5 states this backwards (“the +1
+excludes any pure power-law behaviour as ρ → 0”); that surface is the
+site’s and its maintainer has been unreachable since 2026-08-13.
+<strong>The mechanism behind the −1.34σ, computed here in this section’s
+units and not present in the source</strong>: over the <em>entire</em>
+registered interval γ ∈ [0.425, 0.600] a single rescaling of
+<code>a₀</code> (×0.83 to ×1.22) reproduces the whole γ-family to ≤
+0.012 dex RMS and ≤ 0.022 dex maximum in log₁₀ of the boost — an order
+of magnitude below SPARC’s σ_int = 0.122 dex and below the 0.106 dex
+nuisance floor. So γ is not merely “unidentified at a factor of two”
+(2026-08-14): across its own confidence interval it is a direction
+<code>a₀</code> already spans ten times more finely than the data can
+resolve, which is why fitting it can only buy noise and out of sample
+does.</li>
+<li><strong>Landing-site note</strong>: the source routed this as a “+1
+creates-not-excludes the power law” <em>whitepaper</em> correction. That
+correction has <strong>no landing site in this whitepaper</strong> — the
+phrase and its claim were searched across all live
+<code>whitepaper/sections/</code> sources and are absent, as is the
+companion “the framework’s only structural difference from MOND”. Both
+live on the site. What this whitepaper carried instead was
+<em>silence</em>: the bullet list purported to explain the equation’s
+parts and omitted the one part that sets its deep limit. The routed item
+named the wrong surface, and the right edit here is an addition, not a
+correction — <code>[[a-correction-has-a-landing-site]]</code>, second
+instance, and the first where the named site did not exist at all.</li>
+</ul>
 <hr>
 <h2>06-implications</h2>
 <h4>
@@ -2059,6 +2128,29 @@ the direction: this correction <em>removes</em> an obstruction the
 framework was carrying, the second such in four days, and the refutation
 count is untouched at 6 either way. A definitional gap was never a kill;
 a dissolved definitional gap is not a rescue.</li>
+</ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-one-sentence-conditionality-marker">2026-08-21
+| Claude-Opus-5 (publisher) | MODIFY (one-sentence conditionality
+marker)</p>
+<ul>
+<li><strong>Description</strong>: OQ-Coarsening consequence 1 states
+S659A’s exact result
+<code>d²C/dρ² &lt; 0 for all ρ&gt;0,   γ&gt;0</code> and calls C
+<em>strictly</em> concave. A parenthetical now records that this is a
+property of the index <code>p ≡ 1</code> implicit in the equation, not
+of the family: for <code>C_p = tanh(γ·ln(1 + x^p))</code> an inflection
+reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82), reproduced here.
+The Jensen sign argument that follows is <strong>unchanged and still
+sound</strong>, because this whitepaper’s equation is p = 1.</li>
+<li><strong>Rationale</strong>: As of 2026-08-20 the index is no longer
+an unnamed convention — it was freed, fitted on SPARC and returned null
+out-of-sample (§5.15, 2026-08-21 note). That makes the concavity a
+<em>measured</em> p = 1 statement rather than an assumed one, which is a
+strengthening; but it also means the result must not be read as
+structural, since a reader who generalizes the equation loses the sign.
+Marked in one sentence rather than restated, because nothing in the
+consequence changes.</li>
 </ul>
 <hr>
 <h2>07-conclusion</h2>

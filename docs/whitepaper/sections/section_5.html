@@ -2726,7 +2726,9 @@ distinguishing it from MOND in the testable regime.</p>
 <td>γ = 2 parameter</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
-<td>From thermal decoherence</td>
+<td>From thermal decoherence — <strong>but not the value the galaxy
+sector runs at</strong>; SPARC selects γ ≈ 0.489 ≈ ½ and fitting γ is
+out-of-sample <em>harmful</em> (2026-08-21, below)</td>
 </tr>
 <tr class="odd">
 <td>Golden ratio exponent 1/φ</td>
@@ -2811,13 +2813,121 @@ local coherence C(ρ) ∈ (0,1]:</p>
 bounding (Session #74)</li>
 <li><strong>log(ρ) scaling</strong>: Shannon information of N particles
 scales as log(N)</li>
-<li><strong>γ = 2</strong>: Derived from thermal decoherence physics
-(Session #64)</li>
+<li><strong>the <code>+ 1</code></strong>: a regulator, adopted so the
+log stays finite at ρ = 0 — and, as of 2026-08-21, the term known to be
+carrying the most physics. It does not merely regularize: it
+<em>creates</em> the deep-limit power law and pins its index to 1, which
+is the whole of why this equation reproduces MOND’s deep limit. The
+equation names no principle that fixes that index.</li>
+<li><strong>γ = 2</strong>: derived from thermal decoherence physics
+(Session #64). <strong>The galaxy sector does not run at this
+value.</strong> SPARC selects γ ≈ 0.489 ≈ ½ — the exact MOND point
+(identity below) — and out of sample, <em>freezing</em> γ at ½ predicts
+held-out galaxies <strong>better</strong> than fitting it.</li>
 </ul>
 <p><strong>Physical Interpretation:</strong> Low-density regions have
 low coherence → enhanced effective gravity → appears as “dark matter”
 without requiring new particles. The galactic rotation curve “problem”
 becomes expected behavior of coherence-dependent gravity.</p>
+<blockquote>
+<p><strong>[ADDED 2026-08-21] The regulator is the load-bearing term,
+and the framework’s one fitted parameter is out-of-sample harmful to
+fit.</strong> Two results, one executed in the research lane
+(<code>synchronism-site/explorer</code>, 2026-08-20, re-run to
+completion in-repo the same day) and one verified symbolically here.</p>
+<p><strong>(i) What the <code>+ 1</code> does.</strong> Give the density
+ratio a general index, <code>C_p(x) = tanh(γ·ln(1 + x^p))</code> — the
+equation above is <code>p ≡ 1</code>, and nothing in this whitepaper or
+the archive names that choice. Then <code>C_p → γ·x^p</code> as
+<code>x → 0</code>, for <strong>every</strong> <code>p</code> (verified
+here by symbolic limit: <code>C_p/x^p → γ</code> at p = 0.7, 1, 1.5).
+Delete the regulator and <code>tanh(γ·ln(x^p)) → −1</code>: a saturated
+constant, <em>no power law at all</em>. So the <code>+ 1</code> does not
+exclude power-law behaviour as ρ → 0 — it is what
+<strong>creates</strong> it and what pins the index. And the index is
+the whole physics: <code>p = 1</code> ⇔ asymptotically flat rotation
+curves ⇔ BTFR slope 4 ⇔ MOND’s deep limit, which Milgrom (2009, ApJ
+<strong>698</strong>, 1630) <em>derives</em> from spacetime scale
+invariance. <strong>This framework inherits the right exponent from a
+term chosen for finiteness.</strong> Two results elsewhere in this
+whitepaper are <code>p ≡ 1</code> statements rather than structural
+ones: §6.4’s strict concavity of <code>C</code> (an inflection reappears
+at p = 1.5, x = 0.54, and p = 2, x = 0.82 — reproduced here) and
+TEST-09’s “deep limit is BTFR slope → 2”.</p>
+<p><strong>(ii) The index was freed, fitted, and the result is
+null.</strong> Real SPARC (Lelli+2016; 149 galaxies, 2,700 points),
+power-gated first by injection–recovery (<code>p̂</code> unbiased, worst
+bias 0.038, scatter ≈ 0.05). In-sample <code>p̂ = 0.762</code>,
+<code>Δ(2 lnL) = 15.0</code> — but the two best fits differ by <strong>≤
+0.038 dex</strong> across the SPARC range, under the 0.106 dex
+per-galaxy nuisance floor for one-parameter RAR corrections
+(arXiv:2608.08945), and 10-fold galaxy-level cross-validation returns
+<strong>+0.33σ</strong>. <code>p ≡ 1</code> stands <em>on execution, not
+on assumption</em> — the honest reason the galaxy sector does not beat
+MOND. Note the sign: a free <code>p</code> is an
+<strong>extension</strong> containing MOND at p = 1, the opposite of the
+bounded-boost ceiling, so “strict submodel” was never an a-priori
+argument.</p>
+<p><strong>(iii) Fitting γ is worse than not fitting it.</strong> Nested
+cross-validation on the same data: freeing γ from MOND’s ½ costs
+<strong>−0.00159 ± 0.00119 = −1.34σ</strong> in held-out per-point lnL
+(held-out lnL/pt 0.44040 frozen vs 0.43881 fitted). The mechanism,
+computed here in this section’s own units: across the <em>entire</em>
+registered interval γ ∈ [0.425, 0.600], a single rescaling of
+<code>a₀</code> (×0.83 to ×1.22) reproduces the whole γ-family to
+<strong>≤ 0.012 dex RMS and ≤ 0.022 dex maximum</strong> in log₁₀ of the
+boost — an order of magnitude below SPARC’s σ_int = 0.122 dex and below
+the 0.106 dex nuisance floor. So γ is not merely unidentified at a
+factor of two: over its own confidence interval it is a direction
+<code>a₀</code> already spans to a precision ten times finer than the
+data can resolve. Fitting it can only buy noise, and out of sample it
+does. <strong>A parameter that hurts you when you fit it is a
+reparametrization with a knob</strong> — this is the sharpest empirical
+form yet of this section’s γ ↔︎ a₀ degeneracy result, and it is
+independent support for γ = ½ being the exact MOND point rather than a
+coincidence.</p>
+<p><strong>(iv) Why γ is unfittable, derived rather than fitted — and
+what deleting the <code>+ 1</code> would cost.</strong> The regulator is
+what keeps γ <em>out</em> of the deep-limit exponent. With it,
+<code>C → γ·x</code> and the deep-limit solution of
+<code>g_bar = g·C(g/a₀)</code> is <code>g = √(a₀·g_bar/γ)</code>:
+<strong>γ and a₀ enter only through the ratio a₀/γ, an exact
+degeneracy</strong>, and the deep index is 1 for <em>every</em> γ — the
+framework gets BTFR slope 4 for free, from a term adopted for
+finiteness. That degeneracy predicts, with no fitting, that rescaling
+<code>a₀</code> by exactly <code>2γ</code> should absorb any γ; imposing
+that rescale blind reproduces the γ-family to <strong>≤ 0.013 dex
+RMS</strong> over the SPARC range, matching the fitted optimum above. γ
+is therefore not a shape parameter of this equation at all — it is a
+relabelling of <code>a₀</code>, which is the whole content of the
+−1.34σ. <strong>Now delete the regulator</strong>, as this archive’s own
+standing proposal recommends
+(<code>Research/proposals/rho_crit_asymmetry_saturation_knee.md</code>,
+Option B, 2026-05-08: <code>C = (1 + tanh(γ·ln(ρ/ρ_crit)))/2</code>,
+adopted to make ρ_crit a true half-maximum). γ moves
+<strong>into</strong> the exponent: <code>C → x^{2γ}</code>, deep index
+<code>2γ</code>, BTFR slope <code>2(2γ+1)</code>. At γ = ½ that is 4 and
+nothing changes; at <strong>this whitepaper’s own derived γ = 2 it is
+BTFR slope 10</strong>, against an observed 3.75 ± 0.10. That proposal’s
+open Research Question 4 — <em>“If we drop the ‘+1’ … is there any
+physical problem?”</em> — is hereby answered: yes, unless γ is pinned to
+exactly ½, in which case the framework’s derived value is the one that
+has to go. Naively deleting the <code>+ 1</code> without recentering is
+worse still: <code>tanh(γ·ln x) → −1</code>, a negative saturated
+constant, outside <code>C ∈ (0,1]</code> entirely.</p>
+<p><strong>Scope, and it must travel with this.</strong> The
+<code>p</code> direction is alive only in the
+<strong>acceleration</strong> reading <code>x = g/a₀</code> (the reading
+under which the <code>C ≡ μ</code> identity below actually holds). In
+the literal <code>x = ρ/ρ_crit</code> reading the 2026-08-02 form-free
+bound — σ(log B | ρ) = 0.161 dex vs σ(log B | g_bar) = 0.118 dex, an
+infimum over <strong>all</strong> functions of ρ — excludes every
+<code>p</code>. This is a one-parameter generalization <em>of</em>
+MOND’s deep limit, not an escape from MOND’s variable.
+<strong>Refutation count unchanged at 6; Bucket 0 unchanged at
+0.</strong> Registering the executed <code>p</code>-null with a TEST-ID
+is a catalog action and is not done here.</p>
+</blockquote>
 <hr />
 <p><strong>MOND-Synchronism Unification (Sessions #86-89)</strong></p>
 <p>A breakthrough discovery: MOND and Synchronism are the same physics

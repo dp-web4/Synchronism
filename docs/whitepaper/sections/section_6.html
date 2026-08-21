@@ -436,7 +436,14 @@ asserted:</p>
 <li><p><strong>The bias has a known sign.</strong> S659A’s exact result
 — <code>d²C/dρ² = −sech²(u)·γ/(ρ+ρ_crit)²·[2γ·tanh(u)+1] &lt; 0</code>
 for all ρ&gt;0, γ&gt;0, re-verified symbolically 2026-08-06 — makes C
-<em>strictly</em> concave. Jensen’s inequality then gives
+<em>strictly</em> concave. <em>(Conditionality noted 2026-08-21: this is
+a property of the index <code>p ≡ 1</code> implicit in the equation, not
+of the family. For <code>C_p = tanh(γ·ln(1 + x^p))</code> an inflection
+reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82), verified here. The
+sign argument below is sound because this whitepaper’s equation
+<strong>is</strong> p = 1 — and p = 1 now stands on an executed
+out-of-sample null rather than on an unnamed convention; see
+§5.15.)</em> Jensen’s inequality then gives
 <code>⟨C(ρ)⟩ &lt; C(⟨ρ⟩)</code> <strong>strictly</strong>: smoothing
 systematically <strong>over</strong>estimates coherence, and since
 <code>f_DM = 1 − C</code>, systematically
