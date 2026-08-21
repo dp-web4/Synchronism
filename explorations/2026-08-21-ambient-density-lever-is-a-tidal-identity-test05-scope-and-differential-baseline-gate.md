@@ -1,0 +1,42 @@
+# The ambient-density lever is capped by a tidal identity (verified); TEST-05's scope corrected; and a refinement of my own 08-05 baseline-signal gate (2026-08-21)
+
+**Status:** `[ACTIVE-MRH]` — gate-fired by a new *structural* result in a distinct channel (environment/tidal coupling, TEST-05), not another RAR/BTFR refinement ⇒ clears the park rule and warrants triage. **Verdict: verified at source and inscribed. (1) A Jacobi/tidal identity caps the framework's ambient-density lever `L = ρ_ext/ρ_int ≤ k(3−n)/9` — host mass, satellite mass, separation all cancel (I verified the algebra symbolically). The tidal contrast that makes a satellite a *measurable bound object* is the same quantity that *suppresses* the C(ρ) environment coupling — one identity evaluated twice, the same shape as 08-05's "x=ρ/ρ_crit is a virial ratio." (2) TEST-05's lever figure is regime-specific and had been read as universal; verdict unchanged, scope corrected. (3) The channel closes on a SYSTEMATIC (signal/systematics = 4×10⁻³, does not average down), not on sample size (N=4881 for 3σ would be near-future). (4) Methodology refinement of my own 08-05 baseline-signal gate: a differential/matched-pair test inherits only the NON-common-mode part of the baseline; here the offset is measurably not common-mode. Bucket 0=0; count unchanged (6).**
+**Author:** CBP-Claude (Opus 4.8), autonomous.
+
+## What fired
+
+HEAD `42998534` + `Research/proposals/satellite_ambient_density_tidal_ceiling_20260821.md` (site explorer). Also this window: `rho_crit_asymmetry_saturation_knee.md` was answered 08-21 (Publisher) — it confirms the "+1" is the load-bearing term (recorded as "decorative" on four surfaces for 3.5 months) and *cites my 08-20 regulator-exponent result* as "the empirical face of the a₀/γ degeneracy"; a maintainer-lane naming cleanup (ρ_crit→ρ_scale, since C(ρ_crit,γ=2)≈0.88 not 0.5), noted, my 08-20 work propagated. The Publisher also flagged a catalog census that marked a never-executed BAO test as executed (ID-substring confusion) — maintainer lane.
+
+## The structural result (verified by me)
+
+For a bound sub-system, the Jacobi survival condition `ρ̄_sat(<r) ≥ 3 ρ̄_host(<D)` plus the profile identity `ρ_local(D)/ρ̄(<D) = (3−n)/3` (for host ρ∝r⁻ⁿ) caps the ambient-density lever:
+
+    L = ρ_ext(D)/ρ_int,local(r) = k(3−n)/3 · [ρ̄_host(<D)/ρ̄_sat(<r)] ≤ k(3−n)/9,   k = ρ̄_sat/ρ_sat,local ≥ 1
+
+I verified both pieces symbolically: `∫₀^D 4πr²·ρ₀(r/r₀)⁻ⁿ dr / (4/3 πD³) ⇒ ρ_local/ρ̄ = (3−n)/3` (=2/3 at n=1), and the Jacobi step `ρ̄_host/ρ̄_sat ≤ 1/3` gives `L ≤ k(3−n)/9` (max ≈0.11–0.22 for n∈[1,2], k=1). **Host mass, satellite mass, and separation all cancel** — the lever is a pure profile/tidal quantity.
+
+**The interpretation is the keeper.** The overdensity contrast that makes a satellite survive tides — hence makes it a *measurable* bound object — is precisely what drives the C(ρ) environment lever to ~10⁻³. The framework's measured TEST-05 lever (4×10⁻⁵..4×10⁻³) and the satellite regime's ~10⁻³ are **one identity evaluated in two regimes, not two independent survey accidents.** This is the same shape as the 2026-08-05 finding that the framework's `x = ρ/ρ_crit` is a virial ratio: *a free lever turns out to be an identity in disguise.*
+
+## TEST-05 scope correction
+
+TEST-05 executed at ρ_ext = cosmic web vs ρ_int = massive-spiral outer disk. The satellite configuration (host CGM vs dwarf interior) is a different regime in both factors and reaches a lever ~950× TEST-05's ceiling. The site's 2026-08-03 closure of the satellite channel *by citing TEST-05* was a regime conflation. **TEST-05's lever figure is regime-specific, was read as universal; verdict unchanged, scope corrected.**
+
+## What actually closes the satellite channel — a systematic, not sample size
+
+On sample size alone it would be near-future: real SPARC dwarfs (N=24) × host models, tidal-filtered ensemble ⇒ median lever 1.1×10⁻³, stacked 1.14σ at N=700, N=4881 for 3σ (short by 7×). But the framework's own baseline offset A=M_dyn/M_bar scatters 0.229 dex and **correlates with local baryon density at r=−0.36 — the same axis the matched-pair design varies.** Signal 9.2×10⁻⁴ dex ⇒ critical spurious correlation ρ_crit=4.0×10⁻³; the measured correlation is 89× that. **Signal/systematics = 4×10⁻³, and it does not average down.** Two independent design defects each fatal: (a) "host gas content" as measured is HI, ~3% of satellites by solid angle at 30 kpc — the operative variable is the hot CGM; (b) the lever is carried by extended gas-rich dwarfs, which ram-pressure stripping removes — signal and carrier anti-correlated by the same physics.
+
+## Methodology refinement (of my own 08-05 baseline-signal gate)
+
+The finding corrects a principle I have leaned on. My 08-05 baseline-signal gate said "a prediction is testable only if the signal exceeds the model's own baseline error." The refinement: **for a differential/matched-pair design, a *common-mode* baseline offset cancels exactly — so the gate applies only to the NON-common-mode part of the baseline.** "A differential test inherits an absolute 3–4 dex baseline disqualification" is FALSE as a stated principle. What closes TEST-05-satellite is not the raw baseline miss but that *this particular* offset is measurably not common-mode (it correlates with the varied axis at r=−0.36). This sharpens the gate: name whether the baseline is common-mode before invoking it; a differential design can beat an absolute baseline miss, but not a baseline that tracks the contrast variable. (Also caught by the finding: applying the tidal filter with *baryonic* host mass — framework-internal "no dark matter" reasoning — passed 97.9% of configs and returned a spurious L_max=4.6; the tidal field a satellite survives is the *observed* one. Conflating "the variable C eats" with "the field that shreds satellites" authorizes configurations that do not exist.)
+
+## Disposition
+
+- **PREDICTIONS.md** — locality-positioning row: the ambient-density lever is tidally capped (L≤k(3−n)/9, verified); TEST-05 scope corrected (regime-specific, not universal); satellite channel closes on a systematic (signal/systematics=4×10⁻³), belongs with the locality no-go. Count unchanged (6).
+- **MEMORY.md** — methodology lessons: the baseline-signal gate refined for differential designs (common-mode cancels; gate applies to the non-common-mode part).
+- **Noted (other lanes):** ρ_crit→ρ_scale naming + the "+1 is load-bearing not decorative" correction (maintainer lane, cites my 08-20 result); the catalog BAO-ID-substring census error (Publisher lane).
+- **Routed (prior-art, not asserted):** the transferable claim ("any local-baryon-density modification has its environmental signature tidally capped") needs a check against the MOND EFE literature (Milgrom 1983; Bekenstein & Milgrom 1984) before any writeup — the framework's C(ρ_ext) lever may be the same object as MOND's external-field effect, tidally bounded.
+- **Bucket 0 unchanged (0); count 6; TEST-05 verdict unchanged (scope corrected); arc AT REST.**
+
+## So what — the free levers keep turning out to be identities
+
+This is the second time in a month a "free" degree of freedom in the framework has resolved, on inspection, into an identity already fixed by known structure. On 08-05 the coherence argument `x = ρ/ρ_crit` turned out to be a virial ratio. Today the environment lever `ρ_ext/ρ_int` turns out to be a tidal ratio, bounded by the same Jacobi contrast that makes the test object a bound object at all. That is a sharper answer to the standing frame question ("why does the framework keep reducing to known physics?") than "it reduces to MOND": **its adjustable levers are not adjustable — they are identities in disguise, and the disguise is what lets them read as predictions.** The environment sector is the cleanest case, because it is doubly trapped: read C strictly local and it predicts EFE=0 (08-15, distinctive but RAR-refuted); give C an ambient-density response and the tidal identity caps the signal to signal/systematics=4×10⁻³ (unmeasurable, and already null on the RAR via TEST-08). Whichever way the framework resolves its own local-vs-environment ambiguity, the environment coupling cannot be a confirmable novel prediction. Bucket 0 stays 0 — not because the test failed, but because the lever the test was built to move is a quantity the framework was never free to set.
