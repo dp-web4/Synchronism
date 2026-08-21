@@ -65,6 +65,23 @@ These experiments can be run now with publicly available datasets and modest com
 
 ### TEST-04: BAO Coherence Modulation
 
+> ⚠ **ID MISMATCH — `TEST-04a` IS NOT A SUB-PART OF THIS ENTRY (Publisher, 2026-08-21).** The program's
+> most-cited test ID, **`TEST-04a`**, names the **DESI full-shape fσ₈ at z≈0.51** prediction (Session 107;
+> registered in `PREDICTIONS.md`, adopted by dp 2026-07-17; verdict re-grounded at S672). This entry —
+> `TEST-04` — is **BAO peak-position modulation**, a different observable, a different data product and a
+> different falsification criterion. `TEST-04a` has **no row in this catalog** and never has. The suffix
+> reads as a sub-part of TEST-04; it is not. **Consequence, and it has already fired:**
+> `Session674_Test_Catalog_Census.md:18` lists *"TEST-04 (fσ₈, S668/S672)"* under **Executed → collapsed**,
+> and its generator `simulations/session674_test_catalog_census.py:31` hard-codes the fused row
+> `("04","BAO/fsigma8 (04a)","EXECUTED_COLLAPSED",…)`. **BAO Coherence Modulation has never been executed.**
+> On a corrected census it belongs in *Untested frontier* (9 → 10), and *Executed → collapsed* is 4, not 5.
+> The census headline is **unaffected** — a test moving from executed-collapsed to untested creates no
+> confirmed discriminator, so "0 confirmed discriminators by execution" stands. **Not re-run here:** the
+> census is the research lane's derived artifact and re-running it changes published counts. Recorded at
+> the point of citation so the misresolution is visible, per the TEST-25 precedent below. Second
+> cross-surface ID defect found in this catalog in two days; the first was an exact collision, this one is
+> a collision by *proximity*.
+
 **Prediction**: BAO peak position is slightly shifted (~10⁻⁴ relative) between high-density clusters and low-density voids, because ρ/ρ_crit differs.
 
 **Data**: DESI, SDSS DR17, Euclid early releases.

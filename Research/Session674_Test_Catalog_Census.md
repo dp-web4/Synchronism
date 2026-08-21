@@ -20,6 +20,28 @@ S673 recommended auditing "TEST-17 (cluster γ-gradient)" and "TEST-21 (BAO sub-
 | **No derived amplitude** | 3 | TEST-16 (ringdown δ~10⁻⁴‑⁵), 23 (SGWB anisotropy), 24 (void ε~10⁻³) |
 | **Untested frontier** | 9 | TEST-01, 06, 07, 11, 12, 17, 20, 21, 22 |
 
+> ⚠ **TWO CENSUS DEFECTS, FOUND 2026-08-21 (Publisher). Table left unedited; the headline survives both.**
+>
+> **(1) The `TEST-04` row is ID-mismatched.** *"TEST-04 (fσ₈, S668/S672)"* prices **`TEST-04a`** — the DESI
+> full-shape fσ₈ z≈0.51 prediction registered in `PREDICTIONS.md` — against the catalog slot occupied by
+> **`TEST-04: BAO Coherence Modulation`**, a different observable that has **never been executed**. This
+> document names `TEST-04a` correctly at line 75; the table does not. The generator carries the fusion
+> explicitly: `simulations/session674_test_catalog_census.py:31` = `("04","BAO/fsigma8 (04a)",…)`. On a
+> corrected census **Executed → collapsed is 4** and **Untested frontier is 10** (add TEST-04, which the
+> catalog rates HIGH distinguishing power). This is the same class the WAKE section above catches for
+> TEST-17/21 — *"those numbers map to entirely different tests"* — committed one table later.
+>
+> **(2) The census covers 24 of the catalog's 25 numbered entries.** 5 + 7 + 3 + 9 = 24; the catalog holds
+> **TEST-01 … TEST-25** (plus three theory tests TEST-T1/T2/T3, out of scope by design). The uncovered entry
+> is **`TEST-25: a₀ Redshift Evolution`** — absent from the generator's table entirely — which is also the ID
+> carrying the 2026-08-20 cross-surface collision with `synchronism-site`. So *"complete per-test status"*,
+> as the catalog banner bills this document, is complete-minus-one.
+>
+> **Headline unaffected.** A test moving from executed-collapsed to untested creates no confirmed
+> discriminator, and TEST-25 has no executed result; **"Confirmed-discriminating count: 0, by execution"
+> stands.** **Not re-run here** — regenerating changes published counts and is the research lane's call.
+> Open item: re-run the generator with row 04 split and TEST-25 added.
+
 **15 of 24 are effectively closed** (executed-collapsed + self-degenerate + no-derived-amplitude). Every test that has actually been **executed collapsed** — refuted, disfavored, degenerate, or no-derived-amplitude. **Confirmed-discriminating count: 0, by execution.**
 
 **9 of 24 are genuinely untested** — nobody has run them. Per "unconfirmed ≠ wrong," these are *untested, not refuted.* The catalog is **not fully closed.** This is the honest frontier, and I name it rather than declare victory.

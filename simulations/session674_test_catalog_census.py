@@ -28,6 +28,15 @@ tests = [
     "catalog: MEDIUM; LCDM also predicts high f_DM for low-mass"),
  ("03","compact-E min DM",      "SELF_DEGENERATE","no(self-admit)",
     "catalog: MEDIUM; tests C(rho)->1 saturation; LCDM also low f_DM dense"),
+ # WARNING (Publisher, 2026-08-21): this row FUSES TWO DIFFERENT TESTS and is left
+ # unedited only so the published census stays reproducible. Catalog TEST-04 is BAO
+ # Coherence Modulation (never executed); the fsigma8 verdict below belongs to TEST-04a
+ # (DESI full-shape fsigma8 z~0.51, registered in PREDICTIONS.md, no catalog row). A
+ # corrected run splits this into TEST-04 -> UNTESTED_FRONTIER and a new TEST-04a row,
+ # giving EXECUTED_COLLAPSED=4 / UNTESTED_FRONTIER=10. Also missing below: TEST-25
+ # (a0 redshift evolution) -- this table has 24 rows against the catalog's 25 entries.
+ # Headline unaffected: confirmed-discriminating count stays 0. See
+ # Research/Session674_Test_Catalog_Census.md for the full note.
  ("04","BAO/fsigma8 (04a)",     "EXECUTED_COLLAPSED","no(executed)",
     "S668/S672: disfavored ~2sigma, kill triggered, post-hoc"),
  ("05","CMB coldspot-density",  "SELF_DEGENERATE","no(self-admit)",
