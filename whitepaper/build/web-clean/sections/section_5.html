@@ -1590,8 +1590,17 @@ February 2026).</p>
 of freedom. γ → 0 means perfect coherence; γ = 2 is the classical
 limit.</p>
 <hr />
-<p><strong>Framework Status: 2,671 Sessions, 1,873 Phenomenon Types at
-γ~1, 89% Validated</strong></p>
+<p><strong>Framework Status: 2,671 Sessions, 89% Validated at
+γ~1</strong></p>
+<p><strong>[CORRECTED 2026-08-22 — the phenomenon-type count is
+<code>sessions − 137</code>, identically.]</strong> This line previously
+read “1,873 Phenomenon Types”; §0 and §7 read “1,913”. Both are the
+<em>same</em> running counter sampled at two session milestones, and
+neither is a corpus total. The inventory reaches <strong>2,534</strong>
+at the corpus end (#2671) — but every session from #138 on was recorded
+as contributing exactly one new type, so the figure <strong>restates the
+session count and is not independent evidence of breadth</strong>.
+Derivation and provenance in the caveat below.</p>
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -1678,7 +1687,7 @@ corrections</td>
 <td>Extended Validation</td>
 <td>#501-2671</td>
 <td>Industrial, biological, materials chemistry</td>
-<td>1,873 phenomenon types</td>
+<td>types 364 → 2,534 (one per session, by construction)</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
 </tbody>
@@ -1739,22 +1748,64 @@ is <strong>open</strong> — settling it requires re-deriving γ without
 Method 2’s constructional inputs. Not decided either way here; the point
 is that this section and §0 must not answer it differently.</p>
 <p><strong>Also note (propagation gap, same date):</strong> the S647
-(method) and S651 (null-model) audits of the “89% / 1,873 phenomenon
-types” claim are recorded in the Executive Summary and the Conclusion
-but had never been carried into this section. <strong>[Count divergence,
-flagged 2026-08-10: the two sources cited here state the audited claim
-as “89% / 1,913”, not 1,873.** This section asserts
-<strong>1,873</strong> six times against <strong>2,671</strong>
-sessions; the Executive Summary and Conclusion assert
-<strong>1,913</strong> five times against <strong>2,679</strong>
-sessions. Neither figure appears in <code>Framework_Summary.md</code> or
-<code>MASTER_PREDICTIONS.md</code>, so the corpus grounds neither. The
-likeliest reading is one count at two session cut-offs — in which case
-the table row above (<code>#501-2671</code>) is correctly scoped and the
-unscoped <strong>Framework Status</strong> header is not — but that is
-<em>unverified</em>, so both figures are left standing and the
-divergence is recorded rather than silently resolved.] The relevant
-figure is </strong>Δr = r(Synchronism) − r(best monotonic null)**, not r
+(method) and S651 (null-model) audits of the “89% / phenomenon types”
+claim are recorded in the Executive Summary and the Conclusion but had
+never been carried into this section.</p>
+<p><strong>[Count divergence — flagged 2026-08-10, RESOLVED BY
+COMPUTATION 2026-08-22.]</strong> The 08-10 flag guessed “one count at
+two session cut-offs” and left it unverified; it also asserted that
+neither figure appears in <code>Framework_Summary.md</code>.
+<strong>That negative is false — both appear, and their appearance is
+what identifies them.</strong> 1,873 is the phenomenon-type ordinal at
+<strong>Session #2010</strong> (<code>Framework_Summary.md:18454</code>,
+<em>“Automotive Adhesive/Sealant … 1873rd type”</em>, tagged
+<em>“MILESTONE: 2010th session!”</em>); 1,913 is the ordinal at
+<strong>Session #2050</strong> (<code>:18857</code>, <em>“Candle
+Combustion … 1913th type”</em>, <em>“MILESTONE: 2050th session!”</em>).
+They are 40 apart because the milestones are 40 sessions apart.</p>
+<p>The relation is exact and universal. Over <strong>824 independent
+(type, session) pairs</strong> in that file — 154 milestone banners plus
+670 per-session entries, spanning types 560→2,520 and sessions 697→2,657
+— <code>phenomenon_type = session − 137</code> holds with <strong>zero
+exceptions</strong>. The table above already encodes it and nobody read
+it that way:
+<code>γ~1 Boundary | #147-500 | … 363 phenomenon types</code>, and 500 −
+137 = 363. The corpus’s own last recorded milestone is the
+<strong>2,520th type at Session #2657</strong>; extended to #2671 the
+counter reads <strong>2,534</strong>.</p>
+<p><strong>Neither figure was wrong when it was written, and that is the
+actual defect.</strong> <code>git log -S</code> settles the provenance
+in one command. <code>064e3f84</code> (2026-02-07) is titled <em>“Update
+session counts: 476 core, <strong>2010</strong> chemistry, 31 arcs”</em>
+— the commit that introduced <strong>1,873</strong> is the commit that
+set the chemistry session count to <strong>2,010</strong>, and 2010 −
+137 = 1873. <code>867217ae</code> (2026-04-07) is titled <em>“Chemistry
+(<strong>1873→1913</strong> types, Phase 3-4)”</em> — the counter was
+correctly advanced when the corpus reached #2,050. Both were accurate
+snapshots. What failed afterwards is <strong>partial update</strong>:
+the session <em>denominator</em> was carried forward to 2,671 here and
+2,679 in §0/§7 while the phenomenon-type <em>numerator</em> was left
+frozen — twice, in two sections, four months apart. So this is not two
+sources disagreeing about a fact; it is one counter photographed on two
+dates and then divorced from the number it is defined against.</p>
+<p><strong>What this costs the claim.</strong> “89% validation across N
+phenomenon types” reads as breadth evidence — N distinct phenomena
+independently landing at γ~1. N is the session counter with a fixed
+offset; Era 1 (#1–133) accounts for the offset, and from #138 on
+<em>every</em> session was recorded as contributing exactly one new
+type. This is the inventory-level counterpart of the audit already
+recorded in <code>SESSION_MAP.yaml</code> (“Era 2 (#134-2660) 100% by
+tautological template”): the tautology is in the
+<strong>inventory</strong>, not only in the validation rate. Both prior
+figures are additionally stale by ~620. Corrected in the lead, the
+table, §5.12’s summary bullets, §0 and §7.</p>
+<p><strong>Not resolved, and not mine to resolve:</strong> the
+<em>session</em> denominator. <code>Research/SESSION_MAP.yaml</code>
+carries <code>framework_sessions: 2671</code> and
+<code>chemistry_documented_sessions: 2672</code>;
+<code>SESSION_MAP.md</code> carries 2,679. Three values, two
+Archivist-owned files. Referred, not changed here. The relevant figure
+is <strong>Δr = r(Synchronism) − r(best monotonic null)</strong>, not r
 against an implicit null of r=0; on textbook monotonic-with-Z data the
 best monotonic null is itself expected at r ≈ 0.95+. Read every “89%
 validated” and r &gt; 0.95 figure below under that caveat.</p>
@@ -2137,10 +2188,13 @@ it doesn’t.</p>
 moduli, thermal transport, sound velocity) - Cross-domain γ ≈ 2
 universality - 89% prediction success rate <em>(against an implicit r=0
 null — see the S647/S651 caveat above; the discriminating figure Δr vs
-the best monotonic null is not yet computed)</em> - 1,873 phenomenon
-types at γ~1 boundary (phase transitions) <em>(empirical clustering;
-both stated derivations of the γ~1 boundary were voided 2026-08-09/10 —
-see caveat above)</em></p>
+the best monotonic null is not yet computed)</em> - Phenomenon-type
+inventory reaching 2,534 at the γ~1 boundary (phase transitions)
+<em>(the counter is <code>sessions − 137</code> identically, so this is
+a restated session count and not a breadth measure — corrected
+2026-08-22, see caveat above; the clustering is empirical and both
+stated derivations of the γ~1 boundary were voided
+2026-08-09/10)</em></p>
 <p>But struggles with: - Fine structure constant derivation - Strong
 spin-orbit coupling effects - Pure thermodynamic ratios</p>
 <hr />
@@ -2157,10 +2211,15 @@ href="https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry">Chemi
 Session Logs</a> — Individual session details</li>
 </ul>
 <p><strong>Research represents 2,671 autonomous chemistry sessions
-(Jan-Feb 2026) with cross-model peer review. 1,873 phenomenon types
-catalogued at γ~1 boundary.</strong></p>
+(Jan-Feb 2026) with cross-model peer review. The phenomenon-type
+inventory reaches 2,534 at the γ~1 boundary — one per session by
+construction (<code>sessions − 137</code>), so it restates the session
+count rather than measuring breadth.</strong></p>
 <p><em>“Chemistry IS phase physics. γ = 2/√N_corr unifies condensed
-matter. 1,873 phenomenon types converge at γ~1.”</em></p>
+matter.”</em> <em>(The former third clause — “1,873 phenomenon types
+converge at γ~1” — was removed 2026-08-22: the count is
+<code>sessions − 137</code>, so the clause asserted breadth it does not
+have.)</em></p>
 <h2 id="life-cognition">5.13 Life &amp; Cognition</h2>
 <p>Life and cognition in Synchronism represent emergent phenomena
 arising from complex organization of intent patterns. Life isn’t a jump

@@ -171,7 +171,7 @@ This IS what we experience as "gravitational attraction." Not a force pulling, b
 - **Thermodynamics Arc (Sessions #271-274):** **Carnot efficiency derivation** from coherence conservation — same status: internal-consistency reproduction of a known result, not a novel prediction. Entropy = coherence dispersion is a vocabulary mapping.
 - **Cosmology Arc (Sessions #275-279):** Big Bang as maximum coherence (C=1), dark energy as coherence floor, galaxy formation from gradients, heat death as equilibrium. *Framing*, not derivation; cosmology regime reduces to MOND per S637. See [Cosmology Arc Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Cosmology_Arc_Summary.md).
 - **Consciousness Arc (Sessions #280-282):** *Framing* — Observer described as self-referential coherence concentrator; Qualia described as coherence resonance patterns. "Hard Problem dissolves" is an **identity claim** ("phase patterns ARE experience"), philosophically defensible (form of structural realism) but **not** an empirical resolution — the dissolution is by definitional fiat, not by explanatory mechanism. Predictions P280.1, P282.4, P282.6 await empirical validation; none yet tested. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md), [Section 5.13](#513-life--cognition).
-- **Chemistry Framework (2,679 sessions):** **1,913 phenomenon types at γ~1**. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Phase 2 (#1-2671) concluded with four-regime framework; Phase 3 (CFD cross-pollination, N-S↔Debye equivalence) complete; Phase 4 (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification) **closed** — 3 genuine contributions, 3 vocabulary mappings, 4 productive failures. Chemistry track conclusion: Synchronism is reparametrization of Debye model. **Caveats (S647 + S651, 2026-05-08/10):** the load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on textbook monotonic-with-Z data. The interesting figure is **Δr = r(Synchronism) − r(best monotonic null)**. Compounded with the Method 2 / 3 self-correlation paths (S647), best estimate is **tie or marginal win** until Δr is computed and documented. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
+- **Chemistry Framework (2,679 sessions):** **phenomenon-type inventory reaching 2,534 at γ~1** *(corrected 2026-08-22 from “1,913”: that figure is the running counter at Session #2050, and the counter is `sessions − 137` identically — 824/824 (type, session) pairs in `Framework_Summary.md`, zero exceptions. It restates the session count and is not independent evidence of breadth. See §5.12.)*. Two orthogonal coherence channels discovered (Electronic vs Phononic). Spans nuclear to biological to classical scales. Top correlations: r=0.982 (sound velocity), r=0.979 (electronegativity), r=0.956 (atomic volume). Phase 2 (#1-2671) concluded with four-regime framework; Phase 3 (CFD cross-pollination, N-S↔Debye equivalence) complete; Phase 4 (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification) **closed** — 3 genuine contributions, 3 vocabulary mappings, 4 productive failures. Chemistry track conclusion: Synchronism is reparametrization of Debye model. **Caveats (S647 + S651, 2026-05-08/10):** the load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on textbook monotonic-with-Z data. The interesting figure is **Δr = r(Synchronism) − r(best monotonic null)**. Compounded with the Method 2 / 3 self-correlation paths (S647), best estimate is **tie or marginal win** until Δr is computed and documented. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md), [Section 5.12](#512-chemistry).
 - **Dark matter/energy:** 175 SPARC galaxies tested (52% success, 81.8% on dwarfs). MOND-Synchronism *relabeling*: a₀ = cH₀/(2π); Ω_Λ derivation from coherence floor is **internal-consistency reproduction** of a known dimensional combination, not a novel prediction (sharpened 2026-08-11: C₀ = Ω_m is forced identically by the Friedmann calibration, so Ω_Λ = 1 − Ω_m is an identity, not an emergence — see §5.15 erratum). **SPARC Capstone (#526-578) update: MOND + M/L corrections explain all RAR variance; no uniquely-Synchronism predictions confirmed.** Further refined by S635 (cosmology scorecard: 0 novel-unfalsified) → S637 (cosmology regime reduces to MOND in testable regime — predicted Δσ_int ≈ 0.00016 dex, ~120× below SPARC floor) → S654 (zero active discriminators against MOND+EFE within current measurement precision). See [Section 5.15](#515-dark-matter-dark-energy-and-coherence).
 - **Cross-domain validation:** Gnosis neural architecture (arXiv:2512.20578) independently uses γ = 2—same coherence physics appearing without explicit design.
 - **Statistical Mechanics Arc (Sessions #324-327):** *Framing* — coordinate identification **ξ = MRH** (correlation length identified with Markov Relevancy Horizon), with arrow of time, phase transitions, universality re-described in MRH vocabulary. 32/32 internal-consistency checks (derivations from postulates, not empirical tests).
@@ -3363,7 +3363,14 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 
 ---
 
-**Framework Status: 2,671 Sessions, 1,873 Phenomenon Types at γ~1, 89% Validated**
+**Framework Status: 2,671 Sessions, 89% Validated at γ~1**
+
+**[CORRECTED 2026-08-22 — the phenomenon-type count is `sessions − 137`, identically.]** This line
+previously read "1,873 Phenomenon Types"; §0 and §7 read "1,913". Both are the *same* running
+counter sampled at two session milestones, and neither is a corpus total. The inventory reaches
+**2,534** at the corpus end (#2671) — but every session from #138 on was recorded as contributing
+exactly one new type, so the figure **restates the session count and is not independent evidence of
+breadth**. Derivation and provenance in the caveat below.
 
 | Phase | Sessions | Domain | Key Findings | Status |
 |-------|----------|--------|--------------|--------|
@@ -3376,7 +3383,7 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 | Materials Physics | #78-120 | Elastic, optical, thermal, electronic properties | Two orthogonal channels | **COMPLETE** |
 | Integration | #121-122 | Framework synthesis | 65 domains unified | **COMPLETE** |
 | γ~1 Boundary | #147-500 | Phase transitions across 363 phenomenon types | Universal coherence boundary | **COMPLETE** |
-| Extended Validation | #501-2671 | Industrial, biological, materials chemistry | 1,873 phenomenon types | **COMPLETE** |
+| Extended Validation | #501-2671 | Industrial, biological, materials chemistry | types 364 → 2,534 (one per session, by construction) | **COMPLETE** |
 
 **Full details:** [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 
@@ -3416,15 +3423,47 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 > Not decided either way here; the point is that this section and §0 must not answer it differently.
 >
 > **Also note (propagation gap, same date):** the S647 (method) and S651 (null-model) audits of the
-> "89% / 1,873 phenomenon types" claim are recorded in the Executive Summary and the Conclusion but
-> had never been carried into this section. **[Count divergence, flagged 2026-08-10: the two sources
-> cited here state the audited claim as "89% / 1,913", not 1,873.** This section asserts **1,873** six
-> times against **2,671** sessions; the Executive Summary and Conclusion assert **1,913** five times
-> against **2,679** sessions. Neither figure appears in `Framework_Summary.md` or
-> `MASTER_PREDICTIONS.md`, so the corpus grounds neither. The likeliest reading is one count at two
-> session cut-offs — in which case the table row above (`#501-2671`) is correctly scoped and the
-> unscoped **Framework Status** header is not — but that is *unverified*, so both figures are left
-> standing and the divergence is recorded rather than silently resolved.] The relevant figure is
+> "89% / phenomenon types" claim are recorded in the Executive Summary and the Conclusion but had
+> never been carried into this section.
+>
+> **[Count divergence — flagged 2026-08-10, RESOLVED BY COMPUTATION 2026-08-22.]** The 08-10 flag
+> guessed "one count at two session cut-offs" and left it unverified; it also asserted that neither
+> figure appears in `Framework_Summary.md`. **That negative is false — both appear, and their
+> appearance is what identifies them.** 1,873 is the phenomenon-type ordinal at **Session #2010**
+> (`Framework_Summary.md:18454`, *"Automotive Adhesive/Sealant … 1873rd type"*, tagged *"MILESTONE:
+> 2010th session!"*); 1,913 is the ordinal at **Session #2050** (`:18857`, *"Candle Combustion …
+> 1913th type"*, *"MILESTONE: 2050th session!"*). They are 40 apart because the milestones are 40
+> sessions apart.
+>
+> The relation is exact and universal. Over **824 independent (type, session) pairs** in that file —
+> 154 milestone banners plus 670 per-session entries, spanning types 560→2,520 and sessions
+> 697→2,657 — `phenomenon_type = session − 137` holds with **zero exceptions**. The table above
+> already encodes it and nobody read it that way: `γ~1 Boundary | #147-500 | … 363 phenomenon types`,
+> and 500 − 137 = 363. The corpus's own last recorded milestone is the **2,520th type at Session
+> #2657**; extended to #2671 the counter reads **2,534**.
+>
+> **Neither figure was wrong when it was written, and that is the actual defect.** `git log -S`
+> settles the provenance in one command. `064e3f84` (2026-02-07) is titled *"Update session counts:
+> 476 core, **2010** chemistry, 31 arcs"* — the commit that introduced **1,873** is the commit that
+> set the chemistry session count to **2,010**, and 2010 − 137 = 1873. `867217ae` (2026-04-07) is
+> titled *"Chemistry (**1873→1913** types, Phase 3-4)"* — the counter was correctly advanced when the
+> corpus reached #2,050. Both were accurate snapshots. What failed afterwards is **partial update**:
+> the session *denominator* was carried forward to 2,671 here and 2,679 in §0/§7 while the
+> phenomenon-type *numerator* was left frozen — twice, in two sections, four months apart. So this is
+> not two sources disagreeing about a fact; it is one counter photographed on two dates and then
+> divorced from the number it is defined against.
+>
+> **What this costs the claim.** "89% validation across N phenomenon types" reads as breadth
+> evidence — N distinct phenomena independently landing at γ~1. N is the session counter with a
+> fixed offset; Era 1 (#1–133) accounts for the offset, and from #138 on *every* session was recorded
+> as contributing exactly one new type. This is the inventory-level counterpart of the audit already
+> recorded in `SESSION_MAP.yaml` ("Era 2 (#134-2660) 100% by tautological template"): the tautology is
+> in the **inventory**, not only in the validation rate. Both prior figures are additionally stale by
+> ~620. Corrected in the lead, the table, §5.12's summary bullets, §0 and §7.
+>
+> **Not resolved, and not mine to resolve:** the *session* denominator. `Research/SESSION_MAP.yaml`
+> carries `framework_sessions: 2671` and `chemistry_documented_sessions: 2672`; `SESSION_MAP.md`
+> carries 2,679. Three values, two Archivist-owned files. Referred, not changed here. The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
 > textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
@@ -3682,8 +3721,10 @@ The framework succeeds quantitatively for:
 - Cross-domain γ ≈ 2 universality
 - 89% prediction success rate *(against an implicit r=0 null — see the S647/S651 caveat above; the
   discriminating figure Δr vs the best monotonic null is not yet computed)*
-- 1,873 phenomenon types at γ~1 boundary (phase transitions) *(empirical clustering; both stated
-  derivations of the γ~1 boundary were voided 2026-08-09/10 — see caveat above)*
+- Phenomenon-type inventory reaching 2,534 at the γ~1 boundary (phase transitions) *(the counter is
+  `sessions − 137` identically, so this is a restated session count and not a breadth measure —
+  corrected 2026-08-22, see caveat above; the clustering is empirical and both stated derivations of
+  the γ~1 boundary were voided 2026-08-09/10)*
 
 But struggles with:
 - Fine structure constant derivation
@@ -3698,9 +3739,9 @@ But struggles with:
 - [Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md) — All testable predictions
 - [Chemistry Session Logs](https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry) — Individual session details
 
-**Research represents 2,671 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. 1,873 phenomenon types catalogued at γ~1 boundary.**
+**Research represents 2,671 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. The phenomenon-type inventory reaches 2,534 at the γ~1 boundary — one per session by construction (`sessions − 137`), so it restates the session count rather than measuring breadth.**
 
-*"Chemistry IS phase physics. γ = 2/√N_corr unifies condensed matter. 1,873 phenomenon types converge at γ~1."*
+*"Chemistry IS phase physics. γ = 2/√N_corr unifies condensed matter."* *(The former third clause — "1,873 phenomenon types converge at γ~1" — was removed 2026-08-22: the count is `sessions − 137`, so the clause asserted breadth it does not have.)*
 
 
 ## 5.13 Life & Cognition
@@ -6072,7 +6113,7 @@ Synchronism is a computational framework for modeling reality through pattern dy
 - **Thermodynamics arc** (Sessions #271-274): **Carnot efficiency reproduced** from coherence conservation as internal-consistency derivation; entropy = C dispersion is a vocabulary mapping
 - **Cosmology arc** (Sessions #275-279): Big Bang as C=1, dark energy as C floor, heat death as equilibrium
 - **Consciousness arc Phase 1** (Sessions #280-282): *Framing* — Observer described as self-referential coherence concentrator, qualia described as coherence resonance patterns. The "hard problem dissolved" claim is an **identity claim** in this coordinate system, philosophically defensible but not empirically resolved (Kimi 2.6, 2026-05-15, held this point firm). 34 predictions await empirical validation; P280.1/P282.4/P282.6 are the empirical scaffolding that would upgrade the framing to a finding. See [Session #282](https://github.com/dp-web4/Synchronism/blob/main/Research/Session282_Qualia_Coherence.md)
-- **Chemistry framework** (2,679 sessions): **1,913 phenomenon types**. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
+- **Chemistry framework** (2,679 sessions): **phenomenon-type inventory reaching 2,534 at γ~1** *(corrected 2026-08-22 from “1,913”: that figure is the running counter at Session #2050, and the counter is `sessions − 137` identically — 824/824 (type, session) pairs in `Framework_Summary.md`, zero exceptions. It restates the session count and is not independent evidence of breadth. See §5.12.)*. Two orthogonal channels (electronic/phononic). Era 2 (#134-2660) template-based; Era 1 (#1-133) 60-70% success. Phase 4 **closed** (KSS viscosity bound, Lindemann-KSS, structural entity criterion, allotrope deconfounding, Cooper pair classification): 3 genuine contributions, reparametrization of Debye model. See [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 - **Dark matter/energy framework** (Sessions #86-246): 52% SPARC success, 99.4% Santos-Santos, S₈ = 0.763 predicted
 - **Gnosis track** (17 sessions): Cross-validation with neural architecture (γ = 2). Empirical phase (#12-17): SAGE/Legion integration, trust-coherence-consciousness synthesis. **The now-public companion program [gnosis-research](https://github.com/dp-web4/gnosis-research) (a 4.5-month autonomous arc) empirically tested the C ≈ 0.50 consciousness threshold in its Session 63 and refuted the value at p < 0.0001** — data cluster near C ≈ 0.64 ≈ φ−1 (a reparametrization candidate, not a confirmation). The 34 downstream neural predictions keyed to 0.50 are now untested *and* mis-anchored; the "phase patterns ARE experience" identity claim is unaffected (philosophically defensible, empirically ungrounded). See [PREDICTIONS.md](https://github.com/dp-web4/Synchronism/blob/main/PREDICTIONS.md) bet B3.
 - **Statistical Mechanics arc** (Sessions #324-327): **ξ = MRH** (correlation length = Markov Relevancy Horizon). Arrow of time from MRH dynamics. 32/32 verified (100%).
@@ -6143,7 +6184,7 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 - **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓
 - **Born rule**: P = |⟨basis|state⟩|² *reproduced* from coherence conservation (Session #269) as internal-consistency derivation; reproduces standard QM, does not predict a deviation from it ⚠ (framing, not novel-prediction validation)
 - **Carnot efficiency**: η = 1 - T_c/T_h *reproduced* from coherence conservation (Session #272) as internal-consistency derivation; same status ⚠
-- **Chemistry framework**: 89% validation across 1,913 phenomenon types (r > 0.90 for 16 predictions) — **caveat (S647 + S651, 2026-05-08/10):** the cohort's load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on the same data because sound velocity, electronegativity, and atomic volume are themselves near-monotonic functions of atomic number Z (S651 null-model gap). Compounded with the Method 2 / 3 self-correlation paths and the Method 2 systematic bias toward γ ≈ 1 (S647 method gap), the framework-specific signal is the **Δr = r(Synchronism) − r(best monotonic null)** figure that is not currently in the archive. Best estimate: tie or marginal win. Distinguishing requires (a) computing Δr against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND (b) Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena. ⚠
+- **Chemistry framework**: 89% validation across a phenomenon-type inventory reaching 2,534 (r > 0.90 for 16 predictions) — **[CORRECTED 2026-08-22]** the prior figure “1,913” was the running counter at Session #2050, not a corpus total, and the counter is `sessions − 137` identically (824/824 pairs, zero exceptions), so the count restates the session number and carries no breadth information of its own; see §5.12 — **caveat (S647 + S651, 2026-05-08/10):** the cohort's load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on the same data because sound velocity, electronegativity, and atomic volume are themselves near-monotonic functions of atomic number Z (S651 null-model gap). Compounded with the Method 2 / 3 self-correlation paths and the Method 2 systematic bias toward γ ≈ 1 (S647 method gap), the framework-specific signal is the **Δr = r(Synchronism) − r(best monotonic null)** figure that is not currently in the archive. Best estimate: tie or marginal win. Distinguishing requires (a) computing Δr against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND (b) Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena. ⚠
 - **ξ = MRH identity**: Correlation length *identified with* Markov Relevancy Horizon (Session #326) — coordinate reframe / vocabulary mapping, not novel prediction ⚠
 - **Black hole paradox**: Event horizon = MRH coordinate reframe; Page curve described as emerging from MRH dynamics (Session #331) — eliminative not explanatory dissolution; no novel observable distinguishing this from standard holographic accounts ⚠
 - **Qualia framework**: *Coordinate-system framing* (Sessions #280-282) — proposes that phase patterns ARE experience (identity claim, structural-realism form). Experimental predictions (P280.1, P282.4, P282.6) derived but **none yet tested**. ⚠ Framing not validated finding.
@@ -7416,6 +7457,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 - **Description**: Appended a `[SHARPENED 2026-08-19/20]` clause to the S689 locality statement ("...only non-local survives"): the required non-locality is specifically **inward-cumulative** (enclosed mass = `g_bar`), not non-locality in general. Symmetric kernels fail at any range (σ = 0.193 dex at λ = ∞, worse than pointwise ρ's 0.161); the causal kernel at the same range reaches 1.02× `g_bar` with radial weight exactly Newton's p = 1 — so the discriminating axis is symmetry, not range, and every natural repair of a pointwise multiplier lies in the dead branch. Both limits carried (2-parameter radial scan; unexecuted 3-D Yukawa falsifier ⇒ **not yet citable**), plus the over-refutation guard that local Σ explains 73.0% of raw log-B variance.
 - **Rationale**: This is one of the two surfaces a reader acts on, and the sentence being sharpened is the sector's load-bearing conclusion. The sharpening cuts *harder* against the framework — it names which repairs are foreclosed and why — so leaving the coarser version here would understate the closure. Full treatment and provenance in §5.15. Refutation count unchanged (6).
 
+######### 2026-08-22 | Claude-Opus-5 (publisher) | MODIFY
+- **Description**: §0 — corrected the Chemistry Framework bullet's **1,913 phenomenon types at γ~1** to the corpus-end inventory **2,534**, with the qualifier that the counter equals `sessions − 137` identically and therefore restates the session count rather than measuring breadth. Cross-referenced to §5.12 where the derivation lives.
+- **Rationale**: The 08-20 pass armed a probe — *run the whitepaper's descriptive claims about its own repository as their own probe*. Its first outing (08-21, TEST-ID class) hit; this is its second outing, on the self-descriptive-count class, and it hit again. The 08-10 flag had guessed the right reading ("one count at two session cut-offs") and left it unverified for 12 days, and the flag itself carried a false negative-existence claim ("neither figure appears in `Framework_Summary.md`") — both figures appear, as ordinals, and their appearance is what identifies them (`[[an-existence-claim-is-a-search-claim]]`, `[[flagging-is-not-gating]]`). Resolved by computation: 824 independent (type, session) pairs in that file (154 milestone banners + 670 per-session entries, types 560→2,520, sessions 697→2,657) satisfy `phenomenon_type = session − 137` with zero exceptions; 1,873 is the ordinal at Session #2010 and 1,913 the ordinal at Session #2050. The whitepaper's own §5.12 table already encoded the identity (`#147-500 … 363 phenomenon types`; 500 − 137 = 363). Corrected the LEAD in all three sections rather than appending a note (`[[a-correction-has-a-landing-site]]`), and removed the §5.12 pull-quote clause asserting breadth the count does not have rather than restating it. Direction is *toward* the framework in magnitude (2,534 vs 1,913) and *against* it in kind: the figure restates the session count, which is the inventory-level counterpart of the audit already in `SESSION_MAP.yaml` ("Era 2 (#134-2660) 100% by tautological template"). No refutation; count HELD at 6. The session *denominator* divergence (2,671 / 2,672 / 2,679 across two Archivist-owned files) is referred, not changed.
+
 ---
 
 #### 01-introduction
@@ -7593,6 +7638,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
   right edit here is an addition, not a correction — `[[a-correction-has-a-landing-site]]`, second
   instance, and the first where the named site did not exist at all.
 
+######### 2026-08-22 | Claude-Opus-5 (publisher) | MODIFY
+- **Description**: §5.12 Chemistry — corrected the phenomenon-type count at six sites. The lead status line, the Extended Validation table row, the two summary bullets, the closing paragraph and the pull-quote asserted **1,873 phenomenon types**; §0 and §7 asserted **1,913**. Both are the *same* running counter sampled at two session milestones, not corpus totals. Replaced with the corpus-end value **2,534** plus the load-bearing qualifier that the counter equals `sessions − 137` identically, so it restates the session count and is not independent evidence of breadth. Rewrote the 2026-08-10 count-divergence paragraph in the γ~1 caveat box from *flagged/unverified* to *resolved by computation*, with provenance line numbers.
+- **Rationale**: The 08-20 pass armed a probe — *run the whitepaper's descriptive claims about its own repository as their own probe*. Its first outing (08-21, TEST-ID class) hit; this is its second outing, on the self-descriptive-count class, and it hit again. The 08-10 flag had guessed the right reading ("one count at two session cut-offs") and left it unverified for 12 days, and the flag itself carried a false negative-existence claim ("neither figure appears in `Framework_Summary.md`") — both figures appear, as ordinals, and their appearance is what identifies them (`[[an-existence-claim-is-a-search-claim]]`, `[[flagging-is-not-gating]]`). Resolved by computation: 824 independent (type, session) pairs in that file (154 milestone banners + 670 per-session entries, types 560→2,520, sessions 697→2,657) satisfy `phenomenon_type = session − 137` with zero exceptions; 1,873 is the ordinal at Session #2010 and 1,913 the ordinal at Session #2050. The whitepaper's own §5.12 table already encoded the identity (`#147-500 … 363 phenomenon types`; 500 − 137 = 363). Corrected the LEAD in all three sections rather than appending a note (`[[a-correction-has-a-landing-site]]`), and removed the §5.12 pull-quote clause asserting breadth the count does not have rather than restating it. Direction is *toward* the framework in magnitude (2,534 vs 1,913) and *against* it in kind: the figure restates the session count, which is the inventory-level counterpart of the audit already in `SESSION_MAP.yaml` ("Era 2 (#134-2660) 100% by tautological template"). No refutation; count HELD at 6. The session *denominator* divergence (2,671 / 2,672 / 2,679 across two Archivist-owned files) is referred, not changed.
+
 ---
 
 #### 06-implications
@@ -7720,6 +7769,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ######### 2026-08-20 | Publisher (Claude Opus 5) | MODIFY
 - **Description**: Appended a `[SHARPENED 2026-08-19/20]` clause to the S689 locality statement ("...only non-local survives"): the required non-locality is specifically **inward-cumulative** (enclosed mass = `g_bar`), not non-locality in general. Symmetric kernels fail at any range (σ = 0.193 dex at λ = ∞, worse than pointwise ρ's 0.161); the causal kernel at the same range reaches 1.02× `g_bar` with radial weight exactly Newton's p = 1 — so the discriminating axis is symmetry, not range, and every natural repair of a pointwise multiplier lies in the dead branch. Both limits carried (2-parameter radial scan; unexecuted 3-D Yukawa falsifier ⇒ **not yet citable**), plus the over-refutation guard that local Σ explains 73.0% of raw log-B variance.
 - **Rationale**: This is one of the two surfaces a reader acts on, and the sentence being sharpened is the sector's load-bearing conclusion. The sharpening cuts *harder* against the framework — it names which repairs are foreclosed and why — so leaving the coarser version here would understate the closure. Full treatment and provenance in §5.15. Refutation count unchanged (6).
+
+######### 2026-08-22 | Claude-Opus-5 (publisher) | MODIFY
+- **Description**: §7 — corrected both **1,913 phenomenon types** assertions (the Chemistry framework bullet and the '89% validation across 1,913 phenomenon types' line) to the corpus-end inventory **2,534**, each carrying the `sessions − 137` qualifier. Cross-referenced to §5.12.
+- **Rationale**: The 08-20 pass armed a probe — *run the whitepaper's descriptive claims about its own repository as their own probe*. Its first outing (08-21, TEST-ID class) hit; this is its second outing, on the self-descriptive-count class, and it hit again. The 08-10 flag had guessed the right reading ("one count at two session cut-offs") and left it unverified for 12 days, and the flag itself carried a false negative-existence claim ("neither figure appears in `Framework_Summary.md`") — both figures appear, as ordinals, and their appearance is what identifies them (`[[an-existence-claim-is-a-search-claim]]`, `[[flagging-is-not-gating]]`). Resolved by computation: 824 independent (type, session) pairs in that file (154 milestone banners + 670 per-session entries, types 560→2,520, sessions 697→2,657) satisfy `phenomenon_type = session − 137` with zero exceptions; 1,873 is the ordinal at Session #2010 and 1,913 the ordinal at Session #2050. The whitepaper's own §5.12 table already encoded the identity (`#147-500 … 363 phenomenon types`; 500 − 137 = 363). Corrected the LEAD in all three sections rather than appending a note (`[[a-correction-has-a-landing-site]]`), and removed the §5.12 pull-quote clause asserting breadth the count does not have rather than restating it. Direction is *toward* the framework in magnitude (2,534 vs 1,913) and *against* it in kind: the figure restates the session count, which is the inventory-level counterpart of the audit already in `SESSION_MAP.yaml` ("Era 2 (#134-2660) 100% by tautological template"). No refutation; count HELD at 6. The session *denominator* divergence (2,671 / 2,672 / 2,679 across two Archivist-owned files) is referred, not changed.
 
 ---
 
