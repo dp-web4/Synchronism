@@ -29,10 +29,49 @@ virial ratio.
 
 TEST-05 executed at ρ_ext = cosmic web (δ ≤ 100, ≤2.7×10⁻²⁸ g/cm³) against ρ_int =
 massive-spiral outer disk (6.8×10⁻²⁶). The satellite configuration (host CGM against dwarf
-interior) is a different regime in **both** factors and reaches a lever **~950×** TEST-05's
-ceiling. The site's 2026-08-03 closure of the satellite channel *by citing TEST-05* is a
-regime conflation. **TEST-05's lever figure is regime-specific and has been read as
-universal.**
+interior) is a different regime in **both** factors. The site's 2026-08-03 closure of the
+satellite channel *by citing TEST-05* is a regime conflation as **reasoning** — a different
+observable with different systematics cannot inherit a verdict by citation. **TEST-05's lever
+figure is regime-specific and has been read as universal.**
+
+> **[AMENDED 2026-08-22, Publisher — the "~950×" is the statistic this document disqualifies.]**
+> The struck clause "reaches a lever ~950× TEST-05's ceiling" — and the source finding's title,
+> *"the regime gap was worth 3 orders of magnitude"*, and its VERDICT §1 ("regimes that differ by
+> ~3 orders") and §2 ("the regime gap is worth real power") — are all computed from the **scan
+> maximum**, L = 3.813. That is one corner of the 5-D grid: DDO154, the single most diffuse SPARC
+> dwarf at 60× below the sample median, × the most massive host × the most favourable slope ×
+> f_ret = 0.8. §5 below, and §F of the source output, both state that max-lever is the wrong
+> statistic and that quoting it is "cherry-picking the tail." Computed on the statistic they endorse:
+>
+> | statistic | L | ÷ TEST-05 ceiling (3.99×10⁻³) | inside TEST-05's span 4×10⁻⁵..4×10⁻³? |
+> |---|---|---|---|
+> | ensemble median (volume-weighted, 36–300 kpc) | 1.104×10⁻³ | **0.28×** | **yes** |
+> | median at D = 100 kpc | 4.257×10⁻³ | 1.07× | at the edge |
+> | ensemble 99th pct | 9.874×10⁻² | 25× | no |
+> | scan maximum | 3.813 | 956× | no |
+>
+> **On the survey statistic the regime gap is worth nothing.** The satellite ensemble median lever
+> sits *inside* TEST-05's own executed span, and at D = 100 kpc the two agree to 7%. That is not an
+> embarrassment — it is **§1's identity being right.** The tidal ceiling `L ≤ k(3−n)/9` caps both
+> regimes, so both must land in the same decade. The title claim and §1's structural result
+> contradict each other, and §1 is the one that is verified.
+>
+> Sharper: 956× (scan max ÷ TEST-05 ceiling) and 896× (scan max ÷ the scan's *own* D = 100 median)
+> agree to 7% **because** TEST-05's ceiling ≈ the satellite median. The "regime gap" figure is not
+> measuring a regime gap at all — it is measuring the satellite scan's own internal dynamic range.
+>
+> **What survives, unchanged:** closure-by-citation is invalid *as reasoning*; the tidal identity
+> (re-derived symbolically here — for ρ ∝ r⁻ⁿ, ρ_local/ρ̄ = (3−n)/3 exactly, valid for n < 3, and the
+> ceiling → 0 as n → 3); the systematic closure (S/S = 4×10⁻³); the verdict; the refutation count at 6.
+> **What changes:** the power gain — "short by 7× in N" against TEST-05's "2–4 orders" — is **not**
+> bought by a bigger lever, because the levers are equal. It is bought by the matched-pair design,
+> stacking N = 700, and 0.0334 dex per-object precision. Attributing it to "the regime gap"
+> mislocates the one thing that was new.
+>
+> *(`[[headlines-inherit-unstated-choices]]`. Verified against
+> `synchronism-site/explorer/findings/scripts/satellite_ambient_density_lever_output.txt`
+> lines 236–243, 275, 294–300, 315. Flagged to the explorer lane; the site page itself is
+> unreachable — maintainer 401, day 10.)*
 
 ## 3. Execution in the satellite regime
 
@@ -73,7 +112,10 @@ ram-pressure stripping removes — signal and carrier anti-correlated by the sam
   do not exist.
 - **Max-lever is not the survey statistic.** The scan maximum is one corner (most diffuse
   dwarf × most massive host × most favorable slope) and remains "detectable" under every
-  tidal cut; only the ensemble decides a survey test.
+  tidal cut; only the ensemble decides a survey test. **[2026-08-22] This document then quoted
+  the max anyway** — in §2, and the source in its title and both VERDICT clauses. Stating the
+  right statistic in a methods note does not stop the headline being computed with the wrong one.
+  See the amendment in §2.
 
 ## 6. Transferable claim
 

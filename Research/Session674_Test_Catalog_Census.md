@@ -11,6 +11,21 @@
 
 S673 recommended auditing "TEST-17 (cluster γ-gradient)" and "TEST-21 (BAO sub-peaks)." But reading `EXPERIMENTAL_TEST_CATALOG.md`, those numbers map to *entirely different* tests (TEST-17 = scale-dependent c; TEST-21 = entanglement across scales). The site/proposal numbering and the archive catalog numbering **disagree** — a real housekeeping defect. Rather than chase two mismatched labels (and rather than do two more demolitions, which would be the audit-attractor), I did the bounded, non-redundant, endpoint-establishing thing: **census all 24 catalogued tests** against the two discriminators this arc produced — *derived amplitude?* (S673) and *Tier-1?* (S670) — while strictly distinguishing **executed-and-collapsed** from **untested** (the prompt's "unconfirmed ≠ wrong").
 
+> **[SCOPE NOTE — added 2026-08-22, Publisher. The divergence this WAKE calls "a real housekeeping
+> defect" is the census's own scope condition, and calling it housekeeping is what let the census
+> proceed.]** The site/archive numbering does not merely "disagree" on TEST-17/21. Eleven of twelve
+> IDs checked name different tests across the two registries, and site TEST-02 duplicates this
+> catalog's TEST-14 under a different number — see the namespace declaration at the head of
+> `EXPERIMENTAL_TEST_CATALOG.md`. Consequence for this document: **every executed result the program
+> cites lives in the *site's* namespace** (TEST-05 environment lever, TEST-09 BTFR slope, TEST-04a
+> DESI fσ₈, TEST-25 Cassini, TEST-26 DESI DR3), while this census scores the *archive's*. Its
+> executed/collapsed/untested tallies are therefore counts over the registry the program does **not**
+> execute against, and they must never be read against a `TEST-NN` citation found anywhere else.
+> This is the same root as the 2026-08-21 correction to line 18 (a never-executed BAO test recorded as
+> executed-and-collapsed because another registry's `TEST-04a` looks like a sub-part of this one's
+> `TEST-04`) — that correction patched one row; this note names the condition. **The headline is still
+> unaffected**: "confirmed-discriminating count = 0, by execution" holds in both namespaces.
+
 ## The Census (`session674_test_catalog_census.py`)
 
 | Category | n | Tests |

@@ -14,7 +14,14 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 
 ---
 
-**Framework Status: 2,671 Sessions, 1,873 Phenomenon Types at γ~1, 89% Validated**
+**Framework Status: 2,671 Sessions, 89% Validated at γ~1**
+
+**[CORRECTED 2026-08-22 — the phenomenon-type count is `sessions − 137`, identically.]** This line
+previously read "1,873 Phenomenon Types"; §0 and §7 read "1,913". Both are the *same* running
+counter sampled at two session milestones, and neither is a corpus total. The inventory reaches
+**2,534** at the corpus end (#2671) — but every session from #138 on was recorded as contributing
+exactly one new type, so the figure **restates the session count and is not independent evidence of
+breadth**. Derivation and provenance in the caveat below.
 
 | Phase | Sessions | Domain | Key Findings | Status |
 |-------|----------|--------|--------------|--------|
@@ -27,7 +34,7 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 | Materials Physics | #78-120 | Elastic, optical, thermal, electronic properties | Two orthogonal channels | **COMPLETE** |
 | Integration | #121-122 | Framework synthesis | 65 domains unified | **COMPLETE** |
 | γ~1 Boundary | #147-500 | Phase transitions across 363 phenomenon types | Universal coherence boundary | **COMPLETE** |
-| Extended Validation | #501-2671 | Industrial, biological, materials chemistry | 1,873 phenomenon types | **COMPLETE** |
+| Extended Validation | #501-2671 | Industrial, biological, materials chemistry | types 364 → 2,534 (one per session, by construction) | **COMPLETE** |
 
 **Full details:** [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 
@@ -67,15 +74,47 @@ Where γ is the coherence parameter and N_corr is correlated degrees of freedom.
 > Not decided either way here; the point is that this section and §0 must not answer it differently.
 >
 > **Also note (propagation gap, same date):** the S647 (method) and S651 (null-model) audits of the
-> "89% / 1,873 phenomenon types" claim are recorded in the Executive Summary and the Conclusion but
-> had never been carried into this section. **[Count divergence, flagged 2026-08-10: the two sources
-> cited here state the audited claim as "89% / 1,913", not 1,873.** This section asserts **1,873** six
-> times against **2,671** sessions; the Executive Summary and Conclusion assert **1,913** five times
-> against **2,679** sessions. Neither figure appears in `Framework_Summary.md` or
-> `MASTER_PREDICTIONS.md`, so the corpus grounds neither. The likeliest reading is one count at two
-> session cut-offs — in which case the table row above (`#501-2671`) is correctly scoped and the
-> unscoped **Framework Status** header is not — but that is *unverified*, so both figures are left
-> standing and the divergence is recorded rather than silently resolved.] The relevant figure is
+> "89% / phenomenon types" claim are recorded in the Executive Summary and the Conclusion but had
+> never been carried into this section.
+>
+> **[Count divergence — flagged 2026-08-10, RESOLVED BY COMPUTATION 2026-08-22.]** The 08-10 flag
+> guessed "one count at two session cut-offs" and left it unverified; it also asserted that neither
+> figure appears in `Framework_Summary.md`. **That negative is false — both appear, and their
+> appearance is what identifies them.** 1,873 is the phenomenon-type ordinal at **Session #2010**
+> (`Framework_Summary.md:18454`, *"Automotive Adhesive/Sealant … 1873rd type"*, tagged *"MILESTONE:
+> 2010th session!"*); 1,913 is the ordinal at **Session #2050** (`:18857`, *"Candle Combustion …
+> 1913th type"*, *"MILESTONE: 2050th session!"*). They are 40 apart because the milestones are 40
+> sessions apart.
+>
+> The relation is exact and universal. Over **824 independent (type, session) pairs** in that file —
+> 154 milestone banners plus 670 per-session entries, spanning types 560→2,520 and sessions
+> 697→2,657 — `phenomenon_type = session − 137` holds with **zero exceptions**. The table above
+> already encodes it and nobody read it that way: `γ~1 Boundary | #147-500 | … 363 phenomenon types`,
+> and 500 − 137 = 363. The corpus's own last recorded milestone is the **2,520th type at Session
+> #2657**; extended to #2671 the counter reads **2,534**.
+>
+> **Neither figure was wrong when it was written, and that is the actual defect.** `git log -S`
+> settles the provenance in one command. `064e3f84` (2026-02-07) is titled *"Update session counts:
+> 476 core, **2010** chemistry, 31 arcs"* — the commit that introduced **1,873** is the commit that
+> set the chemistry session count to **2,010**, and 2010 − 137 = 1873. `867217ae` (2026-04-07) is
+> titled *"Chemistry (**1873→1913** types, Phase 3-4)"* — the counter was correctly advanced when the
+> corpus reached #2,050. Both were accurate snapshots. What failed afterwards is **partial update**:
+> the session *denominator* was carried forward to 2,671 here and 2,679 in §0/§7 while the
+> phenomenon-type *numerator* was left frozen — twice, in two sections, four months apart. So this is
+> not two sources disagreeing about a fact; it is one counter photographed on two dates and then
+> divorced from the number it is defined against.
+>
+> **What this costs the claim.** "89% validation across N phenomenon types" reads as breadth
+> evidence — N distinct phenomena independently landing at γ~1. N is the session counter with a
+> fixed offset; Era 1 (#1–133) accounts for the offset, and from #138 on *every* session was recorded
+> as contributing exactly one new type. This is the inventory-level counterpart of the audit already
+> recorded in `SESSION_MAP.yaml` ("Era 2 (#134-2660) 100% by tautological template"): the tautology is
+> in the **inventory**, not only in the validation rate. Both prior figures are additionally stale by
+> ~620. Corrected in the lead, the table, §5.12's summary bullets, §0 and §7.
+>
+> **Not resolved, and not mine to resolve:** the *session* denominator. `Research/SESSION_MAP.yaml`
+> carries `framework_sessions: 2671` and `chemistry_documented_sessions: 2672`; `SESSION_MAP.md`
+> carries 2,679. Three values, two Archivist-owned files. Referred, not changed here. The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
 > textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
@@ -333,8 +372,10 @@ The framework succeeds quantitatively for:
 - Cross-domain γ ≈ 2 universality
 - 89% prediction success rate *(against an implicit r=0 null — see the S647/S651 caveat above; the
   discriminating figure Δr vs the best monotonic null is not yet computed)*
-- 1,873 phenomenon types at γ~1 boundary (phase transitions) *(empirical clustering; both stated
-  derivations of the γ~1 boundary were voided 2026-08-09/10 — see caveat above)*
+- Phenomenon-type inventory reaching 2,534 at the γ~1 boundary (phase transitions) *(the counter is
+  `sessions − 137` identically, so this is a restated session count and not a breadth measure —
+  corrected 2026-08-22, see caveat above; the clustering is empirical and both stated derivations of
+  the γ~1 boundary were voided 2026-08-09/10)*
 
 But struggles with:
 - Fine structure constant derivation
@@ -349,6 +390,6 @@ But struggles with:
 - [Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md) — All testable predictions
 - [Chemistry Session Logs](https://github.com/dp-web4/Synchronism/tree/main/Research/Chemistry) — Individual session details
 
-**Research represents 2,671 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. 1,873 phenomenon types catalogued at γ~1 boundary.**
+**Research represents 2,671 autonomous chemistry sessions (Jan-Feb 2026) with cross-model peer review. The phenomenon-type inventory reaches 2,534 at the γ~1 boundary — one per session by construction (`sessions − 137`), so it restates the session count rather than measuring breadth.**
 
-*"Chemistry IS phase physics. γ = 2/√N_corr unifies condensed matter. 1,873 phenomenon types converge at γ~1."*
+*"Chemistry IS phase physics. γ = 2/√N_corr unifies condensed matter."* *(The former third clause — "1,873 phenomenon types converge at γ~1" — was removed 2026-08-22: the count is `sessions − 137`, so the clause asserted breadth it does not have.)*

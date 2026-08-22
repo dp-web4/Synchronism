@@ -1,4 +1,47 @@
-> **CENSUS (S674, 2026-05-27)**: Complete per-test status against the derived-amplitude (S673) and Tier-1 (S670) discriminators — see `Session674_Test_Catalog_Census.md`. Result: **5 executed → all collapsed** (TEST-04/08/14/15/18), **7 self-admitted degenerate** (02/03/05/09/10/13/19), **3 no-derived-amplitude** (16/23/24), **9 genuinely untested** (01/06/07/11/12/17/20/21/22). Confirmed-discriminating count = **0, by execution**. Of the 9 untested, **0 have a verified first-principles-derived amplitude**. Frontier provenance settled for 3 (all NOT derived): **TEST-07** (500 Mpc — dimensionally inconsistent, S632 — *the S674 census erroneously marked this "unverified"; corrected by S675*), **TEST-12** (C*≈0.79 — self-flagged in the OQ docs as an unexplained coincidence), **TEST-17** (scale-dependent c — numbers don't follow from the c_eff(κ) formula, not collinear in ln κ, 2×10⁻⁴ variation excluded by Lorentz tests ~11 OOM, contradicts S667/S641; S675). 6 of 9 (TEST-01/06/11/20/21/22) remain genuinely unverified. The catalog is **not fully closed** — 9 untested remain ("unconfirmed ≠ wrong") — but every executed test collapsed and no frontier test has a verified derived amplitude. **Numbering note**: site/proposal TEST-17/21 labels ("cluster γ-gradient", "BAO sub-peaks") do NOT match this archive's TEST-17 (scale-dependent c) / TEST-21 (entanglement across scales).
+> **CENSUS (S674, 2026-05-27)**: Complete per-test status against the derived-amplitude (S673) and Tier-1 (S670) discriminators — see `Session674_Test_Catalog_Census.md`. Result: **5 executed → all collapsed** (TEST-04/08/14/15/18), **7 self-admitted degenerate** (02/03/05/09/10/13/19), **3 no-derived-amplitude** (16/23/24), **9 genuinely untested** (01/06/07/11/12/17/20/21/22). Confirmed-discriminating count = **0, by execution**. Of the 9 untested, **0 have a verified first-principles-derived amplitude**. Frontier provenance settled for 3 (all NOT derived): **TEST-07** (500 Mpc — dimensionally inconsistent, S632 — *the S674 census erroneously marked this "unverified"; corrected by S675*), **TEST-12** (C*≈0.79 — self-flagged in the OQ docs as an unexplained coincidence), **TEST-17** (scale-dependent c — numbers don't follow from the c_eff(κ) formula, not collinear in ln κ, 2×10⁻⁴ variation excluded by Lorentz tests ~11 OOM, contradicts S667/S641; S675). 6 of 9 (TEST-01/06/11/20/21/22) remain genuinely unverified. The catalog is **not fully closed** — 9 untested remain ("unconfirmed ≠ wrong") — but every executed test collapsed and no frontier test has a verified derived amplitude. **Numbering note**: site/proposal TEST-17/21 labels ("cluster γ-gradient", "BAO sub-peaks") do NOT match this archive's TEST-17 (scale-dependent c) / TEST-21 (entanglement across scales). **[GENERALISED 2026-08-22 — see the namespace declaration immediately below: this is not a two-ID exception, it is the condition of the whole ID space.]**
+
+---
+
+> ## ⚠ NAMESPACE DECLARATION (added 2026-08-22, Publisher)
+>
+> **`TEST-NN` in this file is a different namespace from `TEST-NN` as the program cites it.** Two dense
+> registries exist. This one runs TEST-01…TEST-25 (`Research/EXPERIMENTAL_TEST_CATALOG.md`, dated
+> 2026-02-20). The other runs TEST-01…TEST-26 in four tiers (`synchronism-site`, `src/app/test-catalog`,
+> Tier 1 = 01–10, Tier 2 = 11–14, Tier 3+ = 15–24, plus 25 and 26). **They are not versions of each
+> other and no alias table has ever existed.** Verified divergences:
+>
+> | ID | this catalog | site registry |
+> |---|---|---|
+> | TEST-01 | Tidal Dwarf Galaxy Age–DM Correlation | SPARC residuals vs. density |
+> | TEST-02 | Ultra-Diffuse Galaxy Maximum DM | wide binaries, Gaia DR3 — **= this catalog's TEST-14** |
+> | TEST-03 | Compact Elliptical Minimum DM | TFR scatter |
+> | TEST-04 | BAO Coherence Modulation *(never executed)* | parent of TEST-04a, DESI full-shape fσ₈ *(recorded 2026-08-21)* |
+> | TEST-05 | CMB Cold Spot–Density Correlation | environment-dependent RAR scatter *(executed 2026-07-14)* |
+> | TEST-09 | Photosynthesis Coherence vs. Chromophore Density | BTFR slope *(executed 2026-07-14, 3.3σ)* |
+> | TEST-10 | Enzyme KIE–γ Correlation | dwarf DM fractions |
+> | TEST-11 | EEG Anesthesia Phase Transition | Cassini squeeze until the site's intra-site renumber of 2026-08-10 moved it to site TEST-25 |
+> | TEST-17 | Scale-Dependent Speed of Light | cluster γ-gradient *(noted above since S675)* |
+> | TEST-21 | Entanglement Across Emergent Scales | BAO sub-peaks *(noted above since S675)* |
+> | TEST-25 | a₀ Redshift Evolution *(no executed result)* | Cassini squeeze *(recorded 2026-08-20)* |
+> | TEST-26 | **absent** | DESI DR3 dark-energy class no-go |
+>
+> **Eleven of the twelve IDs checked name different tests, and site TEST-02 duplicates this catalog's
+> TEST-14 under a different number** — so this is a permutation with partial content overlap, not a
+> relabelling. The three "cross-surface ID collisions" recorded on 2026-08-20 (TEST-25), 2026-08-21
+> (TEST-04/04a) and 2026-08-22 (TEST-05) were treated as incidents; they are three draws from a
+> namespace that is disjoint by construction.
+>
+> **The consequence that matters.** Every executed result the program cites — TEST-05 environment
+> lever, TEST-09 BTFR slope, TEST-04a DESI fσ₈, TEST-25 Cassini, TEST-26 DESI DR3 — lives in the
+> *site's* namespace. This catalog's rows are, per its own S674 census, almost entirely unexecuted.
+> **`Session674_Test_Catalog_Census.md` scores this registry**, so its executed/collapsed tallies
+> are counts over the registry nobody executes against. Read every per-test status in that census as
+> scoped to this file's IDs, never to a citation found elsewhere in the program.
+>
+> **No renumber** (cross-repo; the site maintainer has been unreachable since 2026-08-13 on a dead
+> `CLAUDE_ADMIN_TOKEN`, owner action). The remedy is this declaration plus per-row aliases at points
+> of citation, per the 2026-08-20 precedent. The reconciliation table itself — not a longer catalog —
+> is the artifact worth producing; recorded against REC-2026-036.
 
 # Synchronism: Experimental Test Catalog
 
@@ -97,6 +140,8 @@ These experiments can be run now with publicly available datasets and modest com
 ---
 
 ### TEST-05: CMB Cold Spot–Density Correlation
+
+> **Alias warning (2026-08-22)**: the program's citations of "TEST-05" — including whitepaper §0/§7 (Δσ_int cluster−void, ~120× below the SPARC floor) and the 2026-08-21 satellite tidal-ceiling finding — refer to the **site's** TEST-05, *environment-dependent RAR scatter*, executed 2026-07-14 with r² = 0.0001. That is not this row. This row (CMB × galaxy-density cross-correlation) has never been executed. See the namespace declaration at the head of this file.
 
 **Prediction**: CMB temperature anomalies correlate with coherence transition regions (where ρ crosses ρ_crit).
 
