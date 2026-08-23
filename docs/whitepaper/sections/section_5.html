@@ -3144,60 +3144,123 @@ algebraic-vs-differential, not locality” reframe are withdrawn.
 derivative order — reproduces the RAR; only non-local survives</strong>
 (Milgrom’s non-locality theorem), now backed by execution rather than by
 the consensus that was correctly retracted. <strong>[SHARPENED
-2026-08-19/20 — “non-local” was the right verdict at the wrong
-resolution, and the sharper statement cuts harder against the
-framework.]</strong> The surviving branch is not non-locality in general
-but specifically <strong>directional / inward-cumulative</strong>
-non-locality — enclosed mass, which is <code>g_bar</code>, which is
-MOND’s own variable. Executed on real SPARC (2,604 points, 139
-galaxies): a <strong>symmetric</strong> kernel <code>f(|r−r′|)</code>
-fails at <strong>any</strong> range — σ = 0.193 dex at λ = ∞, which is
-<em>worse</em> than reading ρ pointwise (0.161) — while the
-<strong>causal</strong> kernel <code>W(r,r′)·Θ(r−r′)</code> at the same
-infinite range reaches σ = 0.119 against <code>g_bar</code>’s own 0.116,
-i.e. 1.02×, recovering <code>g_bar</code> to 0.003 dex; and the radial
-weight <code>p</code> minimises <strong>exactly at Newton’s p =
-1</strong>. Same range, opposite outcome, so the discriminating axis is
-<strong>symmetry, not range</strong> — and the mechanism is the one this
-section already stated on 2026-08-02 (<code>g_bar = GM(&lt;r)/r²</code>
-carries a 1/r² a convolution of Σ cannot generate): a two-sided kernel
-at λ = ∞ integrates over <code>r′ &gt; r</code> too and approaches the
-<em>total</em> mass, a constant, so it structurally cannot track an
-enclosed-mass profile. The consequence for the framework is sharper than
-the unqualified version: the repairs that are natural for a pointwise
-multiplier — smear it, add gradients, give it a range — are <strong>all
-in the dead (symmetric) branch</strong>, and the live branch
-reconstructs precisely the variable <code>C(ρ)</code> was introduced to
-replace. It also explains <em>why</em> BCM 2017 escapes: its screened
-nonlinear PDE makes the <strong>enclosed</strong> mass the effective
-source, which is why its closed form is written in <code>g_bar</code>.
-<strong>Two limits kept explicit, because this result is not yet
-citable.</strong> (a) It is a <strong>2-parameter scan</strong> (memory
-length × radial weight), not a Buckingham-π enumeration like leg (1)
-above — “the causal class is closed” would be one class wider than the
-test. (b) The kernels are <strong>1-D radial kernels on Σ(r)</strong>,
-so the symmetric-vs-cumulative sorting rule is <em>measured for radial
-kernels and conjectured for 3-D ones</em>; its own cheapest falsifier —
-project a genuine 3-D Yukawa <code>e^(−mr)/r</code> through an
-exponential disk onto a radial kernel and re-run — is
-<strong>unexecuted</strong>, and if a screened <em>linear</em> scalar
-lands in the live branch the sorting rule is wrong and the escape
-taxonomy reopens. <strong>And an over-refutation guard in the other
-direction, adopted from the same execution:</strong> the “≤ 0.16%” and
-“≤ 0.7%” figures above are shares of the <strong>residual after
-conditioning on <code>g_bar</code></strong>, which is the correct
+2026-08-19/20, THEN THE SHARPENING REFUTED 2026-08-22/23 — the base
+verdict (“only non-local survives”) is unchanged; the <em>stated
+mechanism</em> is now wrong for the second time in four days and is
+replaced by a weaker, range-conditional statement.]</strong> The
+08-19/20 reading recorded here was: the surviving branch is not
+non-locality in general but specifically <strong>directional /
+inward-cumulative</strong> non-locality, because on real SPARC a
+<em>symmetric</em> kernel <code>f(|r−r′|)</code> failed at any range (σ
+= 0.193 dex at λ = ∞, worse than pointwise ρ’s 0.161) while the
+<em>causal</em> kernel <code>W(r,r′)·Θ(r−r′)</code> at the same range
+reached 1.02× <code>g_bar</code> with radial weight at Newton’s
+<code>p = 1</code> — hence “the discriminating axis is <strong>symmetry,
+not range</strong>,” hence every natural repair of a pointwise
+multiplier lies in the dead branch. <strong>That rule is
+refuted.</strong> This paragraph named its own cheapest falsifier and
+marked the rule not-yet-citable; the falsifier was executed on
+2026-08-22 (site explorer,
+<code>yukawa_symmetric_kernel_self_check.py</code>) and it returned the
+branch the hedge said would break the rule. <strong>The refutation is
+analytic before it is empirical, and was re-derived in closed form in
+this lane:</strong> the screened linear scalar
+<code>(∇²−m²)h = 4πGρ</code> has Green’s function
+<code>e^(−mr)/r</code>, which is symmetric — two-sided and isotropic —
+at <em>every</em> screening length, and recovers Newton as
+<code>m → 0</code> (<code>F_Yukawa/F_Newton</code> = 0.736 / 0.995 /
+1.000 at <code>λ = 1 / 10 / 10³</code> in units of <code>r</code>). The
+symmetric branch therefore <em>contains</em> <code>g_bar</code>, and no
+SPARC number is needed to see it. On SPARC it also measures out: the
+unscreened member passes the validation gate (σ = 0.1080 dex vs
+<code>g_bar</code>’s 0.1107, reconstruction cost −0.0026 dex), the
+symmetric field <code>g_Y</code> overlaps <code>g_bar</code> under the
+galaxy-block bootstrap at <strong>every</strong>
+<code>λ_s ≥ 1 R_d</code>, and at matched range it beats the causal
+kernel on every row of the head-to-head. Re-verified in this lane: the
+addendum bootstrap script re-run at <strong>exit 0</strong> with its
+tables reproduced value-for-value, and the Yukawa→Newton limit
+re-derived symbolically. <strong>What this costs the section.</strong>
+(a) “Every natural repair of a pointwise multiplier is in the dead
+branch” and “the live branch reconstructs precisely the variable
+<code>C(ρ)</code> was introduced to replace” are
+<strong>withdrawn</strong>; the <strong>escape taxonomy
+reopens</strong>, which is verbatim what the hedge pre-registered. (b)
+The 08-19 claim that the bootstrap “separates every finite λ ≤ 4 R_d
+from <code>g_bar</code>” <strong>does not reproduce</strong> — its CI
+lower edge was +0.0003 dex, and independent re-implementation gives
++0.0075 [−0.0040, +0.0223] on the common-validity mask and +0.0096
+[−0.0046, +0.0215] on 08-19’s own unmasked point set,
+i.e. <strong>OVERLAPS</strong> both ways. (c) In exchange there is a
+genuine constructive result, and it is the one durable output of the
+execution: <strong>RAR scatter bounds any screened-scalar escape to
+<code>λ_s ≳ 1 R_d ≈ 2.4 kpc</code></strong> (separated for
+<code>λ_s ≤ 0.75 R_d</code>, overlapping from <code>1 R_d</code> up).
+Finite-range non-locality is a <em>measured, physically-motivated</em>
+escape with a lower bound on its range — not a closed branch.
+<strong>The replacement axis, and why this whitepaper carries it weaker
+than its source states it.</strong> The source replaces “symmetry” with
+<em>which derivative of Φ keys the modification</em> — prior art (Joyce,
+Jain, Khoury &amp; Trodden, Phys. Rep. <strong>568</strong>, 2015,
+already cited on the project site), with <code>∇Φ</code> (k-mouflage =
+MOND’s acceleration) viable, <code>Φ</code> (chameleon/symmetron)
+failing, and <code>∇²Φ ∝ ρ</code> (Vainshtein/Galileon — nominally
+<code>C(ρ)</code>’s own rung) failing. The <strong>measurement</strong>
+is the archive’s contribution and it is real; the
+<strong>ladder</strong> is not yet a ladder, and this was checked here
+against the source’s own printed bootstrap rather than taken on report.
+Two of the three rungs <em>swap verdict</em> between the only two ranges
+bootstrapped: <code>|Φ_Y|</code> <strong>overlaps</strong>
+<code>g_bar</code> at <code>λ_s = 4 R_d</code> (+0.0171 [−0.0023,
++0.0376]) and separates only at λ = ∞ (+0.0327 [+0.0118, +0.0578]),
+while the normalised <code>⟨Σ⟩_Y</code> <strong>separates</strong> at
+<code>4 R_d</code> (+0.0190 [+0.0046, +0.0330]) and
+<strong>overlaps</strong> at ∞ (+0.0123 [−0.0094, +0.0415]). Further,
+the <code>∇²Φ</code> rung’s 1.40× is scored at <code>λ_s = 0</code>
+(pointwise Σ) while the other two rungs are scored at
+<code>λ_s = ∞</code>, so the three rows are not a matched comparison.
+<strong>Only <code>∇Φ</code> is range-robust.</strong> The accompanying
+explanation — that the 08-19 symmetric family failed because it was a
+<em>normalised</em> (intensive) smoothing of Σ — is likewise <strong>not
+established</strong>, and the routed proposal says so in its own words
+(“my going-in hypothesis is NOT established”) because the normalised
+member at λ = ∞ is unresolved from <code>g_bar</code>; that caveat is
+present in the proposal and absent from the triage note this repository
+committed. So the honest statement of the mechanism, as of 2026-08-23,
+is narrower than any of its three predecessors: <strong>pointwise local
+density is separated from <code>g_bar</code> (1.40×, +0.0390 [+0.0179,
++0.0592]) and every extended symmetric functional tested overlaps
+<code>g_bar</code> somewhere in range; the only range-robust
+discriminator measured is <code>∇Φ</code> versus the rest.</strong>
+<strong>What is untouched.</strong> <code>C(ρ)</code> as Synchronism
+proposes it is <em>pointwise</em> — the separated case — so the
+section’s verdict does not move; the 2026-08-15/16 Buckingham-π closure
+of the local branch (leg 1 above) rests on its own enumeration and is
+unaffected; the mutual-exclusivity tension in leg (3) below is
+unaffected. <strong>And an over-refutation guard in the other direction,
+adopted from the 08-19 execution and still standing:</strong> the “≤
+0.16%” and “≤ 0.7%” figures above are shares of the <strong>residual
+after conditioning on <code>g_bar</code></strong>, which is the correct
 comparison and is how they are stated — but read <em>raw</em>, local Σ
 explains <strong>73.0%</strong> of the variance of log B against
 <code>g_bar</code>’s 85.9%. Local density is a poor organising variable,
-not noise, and the conditional figures should not be quoted as though it
-were. Refutation count unchanged (6) — this sharpens a closure, it does
-not add one. <em>(Source:
+not noise. <strong>Refutation count HELD at 6, Bucket 0 = 0</strong> — a
+stated mechanism was corrected, no closure was added or removed.
+<em>(Sources:
 <code>synchronism-site/explorer/findings/causal-kernel-scan-the-required-nonlocality-is-a-direction-not-a-length.md</code>,
 2026-08-19, routed via
-<code>Research/proposals/causal_kernel_required_nonlocality_is_directional_20260819.md</code>;
-the SPARC scan is source-executed and re-run in the research lane at
-exit 0, not re-run again here.)</em> <strong>(3) ⚠ The real output is a
-named tension: <code>{EFE = 0} ⟺ locality</code> and
+<code>Research/proposals/causal_kernel_required_nonlocality_is_directional_20260819.md</code>
+— <strong>superseded</strong>; and
+<code>synchronism-site/explorer/findings/yukawa-self-check-the-sorting-rule-is-refuted-the-axis-is-grad-phi.md</code>,
+2026-08-22, routed via
+<code>Research/proposals/yukawa_selfcheck_locality_axis_is_grad_phi_20260822.md</code>,
+with triage at
+<code>explorations/2026-08-22-yukawa-self-check-refutes-my-08-19-symmetry-rule-the-axis-is-grad-phi.md</code>.
+The Yukawa scan is source-executed;
+<code>yukawa_addendum_bootstraps.py</code> was re-run in this lane at
+exit 0 and the Yukawa→Newton limit re-derived symbolically here.)</em>
+<strong>(3) ⚠ The real output is a named tension:
+<code>{EFE = 0} ⟺ locality</code> and
 <code>{RAR-viable} ⟹ non-locality</code> are MUTUALLY
 EXCLUSIVE.</strong> Everything above about EFE = 0 — that it holds
 exactly, that it is the signature of the field equation’s linearity,
