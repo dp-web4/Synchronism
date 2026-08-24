@@ -3874,6 +3874,70 @@ deficient” ultra-diffuse galaxies appeared to contradict the model.
 Resolution: both are satellites of NGC 1052 (~80 kpc). Tidal stripping
 preferentially removes low-C envelope, leaving high-C core with G_eff ≈
 G. Consistent with model, not contradictory.</p>
+<blockquote>
+<p><strong>[AMENDED 2026-08-24] The “high-C core” above is not what this
+section’s own C(ρ) delivers at DF2’s measured density — and the
+framework’s two DF2 repairs both abandon <code>C = C(ρ)</code>. Neither
+of them, however, touches EFE = 0.</strong></p>
+<p><strong>The arithmetic.</strong> DF2 is ultra-diffuse; evaluating the
+constitutive law at its <em>measured present</em> density gives
+<code>C ≈ 0.04</code> — a <strong>low</strong>-C, boost-25 object, the
+opposite of the “high-C core” the resolution above asserts. That figure
+is the framework’s own:
+<code>manuscripts/arXiv_preprint_draft_v1.md</code> §5.1. Recomputed
+here from published baryons (Wolf et al. 2010 estimator, M⋆ = 2×10⁸ M☉,
+R_e = 2.2 kpc): σ_N = <strong>6.99 km/s</strong>, reproducing van Dokkum
+et al. 2018’s published “≈ 7 km/s from the stars alone.” Against σ_obs =
+8.5 km/s (Danieli et al. 2019) the required boost is B = 1.48,
+i.e. <strong>C_req = 0.68</strong>. So tidal stripping cannot be the
+mechanism <em>as stated</em>: the remnant’s density is measured, and the
+law evaluated on it returns 0.04, not 0.68.</p>
+<p><strong>Two corrections to the figures this repo circulated on
+2026-08-23.</strong> (i) Strict <code>C(ρ_local) = 0.04</code> predicts
+σ = <strong>35 km/s</strong>, not the 80 km/s the preprint states; 80
+km/s requires σ_N = 16 km/s, 2.3× the published baryonic value. The
+local law misses DF2 by <strong>~4×, not ~10×</strong> — the direction
+is unchanged and the failure is real, only its size was overstated. (ii)
+The <em>other</em> repair,
+<code>C_eff = max(C(ρ_local), C_formation)</code> with C_formation ≈
+0.5–0.7 (preprint §5.2, “Formation Coherence”), <strong>does</strong>
+reproduce DF2: σ = 8.4–9.9 km/s against 8.5 observed, and the C_req =
+0.68 derived independently above lands inside its stated band. The two
+repairs are therefore not equivalent — one is numerically successful and
+one contradicts the density it is invoked to explain.</p>
+<p><strong>What this costs, and what it does not.</strong> It costs the
+<em>constitutive equation</em>: both repairs make C something other than
+a function of present local density, which is this sector’s defining
+posit — §5.2’s own testable prediction is stated to hold “regardless of
+current density.” That is the defect, and it is larger than the one it
+was filed under. It does <strong>not</strong> cost EFE = 0. The
+derivation earlier in this section turns on C being independent of
+<strong>Φ</strong> — <em>“linear in Φ (C depends on ρ, not ∇Φ)”</em> —
+not on C being local. Verified by direct solution of
+<code>∇·[C∇Φ] = 4πGρ</code> on a 161² grid: with C a <strong>fully
+non-local</strong> fixed field (formation memory, carrying no dependence
+on present ρ), a dwarf’s internal relative field is unchanged by a host
+at 12 scale lengths to <strong>5.6×10⁻¹³</strong> — EFE = 0 exactly, as
+superposition requires of <em>any</em> Φ-independent C. Substituting a
+∇Φ-keyed C on the same grid gives EFE = <strong>4.6×10⁻²</strong>,
+eleven orders larger.</p>
+<p><strong>Consequence, stated narrowly.</strong> The claim inscribed
+2026-08-23 in <code>PREDICTIONS.md</code> — that “admitting ANY
+non-local C-contribution invalidates the <code>C local ⇒ EFE = 0</code>
+derivation <em>globally</em>” — is <strong>withdrawn</strong>: it is
+refuted by the computation above. What the DF2 repairs refute is the
+one-line gloss <em>“(C depends only on local ρ)”</em> carried on the
+site’s <code>/mond-unification</code> page, not the derivation, which
+this section states correctly and which the site’s own earlier findings
+also state correctly. <strong>EFE = 0 is therefore doubly, not triply,
+compromised</strong>: mutually exclusive with RAR-viability (2026-08-15
+— and that exclusivity holds precisely because the one viable coupling
+is ∇Φ-keyed, per 2026-08-22, which <em>is</em> Φ-dependence), and
+screened from clean test by the boost ceiling on pressure-supported
+dwarfs (2026-08-23). Refutation count <strong>unchanged at 6</strong>;
+Bucket 0 unchanged (0). Verification script
+<code>simulations/efe_locality_vs_phi_dependence.py</code>.</p>
+</blockquote>
 <p><strong>Honest Assessment:</strong> The 46% SPARC failure rate in
 massive galaxies is informative—the model has boundaries. We’re
 exploring whether coherence explains apparent dark matter, not claiming
