@@ -2872,6 +2872,15 @@ local coherence C(ρ) ∈ (0,1]:</p>
 bounding (Session #74)</li>
 <li><strong>log(ρ) scaling</strong>: Shannon information of N particles
 scales as log(N)</li>
+<li><strong>what <code>C</code> is a function of</strong> — <em>not</em>
+what the fitted numbers were computed from. Every fitted quantity quoted
+in this section (γ ≈ 0.489, a₀ = 5.33×10⁻¹¹, ΔBIC +7.1/+184, the Cassini
++17.95σ) comes from an instrument that evaluates <code>C</code> at
+<code>g_obs/a₀</code> — the <em>total</em> acceleration, solved
+implicitly — not at <code>ρ/ρ_crit</code>. The two readings are
+different physical theories and only the acceleration one produces a
+flat rotation curve. See the <strong>[AMENDED 2026-08-04]</strong> and
+<strong>[AMENDED 2026-08-25]</strong> notes below.</li>
 <li><strong>the <code>+ 1</code></strong>: a regulator, adopted so the
 log stays finite at ρ = 0 — and, as of 2026-08-21, the term known to be
 carrying the most physics. It does not merely regularize: it
@@ -3057,6 +3066,134 @@ reconciles the two. <strong>Refutation count still unchanged at
 6</strong>: this is the mean-relation face of the same substitution the
 scatter no-go already covers, plus a provenance defect — not an
 independent empirical failure.</p>
+<p><strong>[AMENDED 2026-08-25] Which acceleration — and that answer
+decides both the rotation curve and the external field effect.</strong>
+The 2026-08-04 amendment established that the frozen instrument is keyed
+on acceleration rather than density. It did not ask <em>which</em>
+acceleration, and that is where the sector’s remaining structure sits.
+All four legs below were executed independently in this lane before
+propagation, on the in-repo SPARC mass models
+(<code>simulations/argument_of_C_head_to_head_independent.py</code>; N =
+2,434 points, 144 galaxies, cuts Q &lt; 3, i &gt; 30°, e_V/V &lt; 0.10 —
+this lane’s cut, stated because the source’s differs).</p>
+<p><strong>(1) The keying is <em>implicit</em>, and only the implicit
+reading makes a galaxy rotate flat.</strong>
+<code>simulations/sparc_tanhlog_profile.py:84</code> solves
+<code>x·tanh(γ·ln(1+x)) = g_bar/a₀</code> for <code>x = g_obs/a₀</code>:
+<code>C</code> is evaluated at the <strong>total</strong> field,
+self-consistently. Measured deep-limit log–log slopes
+<code>d log g_obs / d log g_bar</code> over
+<code>g_bar ∈ [10⁻¹³, 10⁻¹²]</code> — explicit in <code>g_bar</code>:
+<strong>+0.0015</strong> (<code>g_obs → const</code>, so
+<code>v ∝ √r</code>, rising, <em>never flat</em>); implicit in
+<code>g_obs</code>: <strong>+0.5094</strong> at γ = ½ and
+<strong>+0.5056</strong> at γ = 2 (MOND’s √ law, flat). One formula, two
+arguments, two different physical theories. <strong>The self-consistency
+that produces the flat curve is field-dependence</strong> — and
+field-dependence is precisely what the EFE = 0 derivation excludes (see
+the 2026-08-24 amendment further below, which locates that derivation on
+Φ-independence rather than on locality). So the 2026-08-15 mutual
+exclusivity does not only hold between <em>classes</em> of coupling; it
+holds between the two readings of this section’s own one-line
+formula.</p>
+<p><strong>(2) At the fitted γ the instrument’s external field effect
+<em>is</em> MOND’s, identically.</strong> The γ = ½ ≡ MOND-simple
+identity recorded above is stated for the <em>fit</em>; it extends to
+the EFE. The algebraic-μ response factor
+<code>μ(x)·[1 + d lnμ/d ln x]</code> computed for
+<code>tanh(½·ln(1+x))</code> and for <code>μ_simple(x/2)</code> over six
+decades in <code>x</code> agrees to <strong>1.7×10⁻¹⁰</strong>, which is
+this lane’s finite-difference floor rather than a physical residual (the
+underlying μ identity is exact in SymPy and 2.2×10⁻¹⁶ numerically). The
+deformation is governed by <code>ε ≡ 2γ − 1</code> alone: the same
+maximum difference is 9.7×10⁻³ at γ = 0.5093, 0.116 at γ = 0.4, 0.678 at
+γ = 2. <strong>EFE = 0 is a property of the density-keyed function; the
+acceleration-keyed function that produced every number in this section
+carries MOND’s EFE, not zero.</strong> That is the 2026-08-15 tension
+<em>measured on the frozen instrument at its own fitted parameter</em>,
+rather than argued over classes of coupling — and it is why EFE = 0 has
+never been in a position to discriminate anything the archive actually
+fitted.</p>
+<p><strong>(3) The stated density equation has now been fitted
+head-to-head — and it is not a seventh refutation.</strong> Same points,
+same likelihood, three free parameters each, so the BIC penalties cancel
+and ΔBIC = Δ(−2 lnL). This lane’s independent implementation returns
+<strong>ΔBIC = +2,182 against the acceleration keying</strong>
+(<strong>+129</strong> after deflating N to the 144 galaxies), with
+<strong><code>γ_ρ → 0.046</code></strong> — the likelihood switching the
+density dependence <em>off</em>, forty times below the derived γ = 2 —
+and <code>σ_int = 0.200 dex</code> against the RAR’s 0.13 dex
+<em>total</em> observed scatter. Sign and magnitude survive the
+estimator sweep that this program has been burned by before
+(<code>ρ = Σ/2h</code>; h ∈ {0.3 kpc, R_d/5} × ϒ_disk ∈ {0.5, 0.7}):
+ΔBIC <strong>+2,170 … +2,433</strong> (deflated +128 … +144),
+<code>γ_ρ</code> ∈ [0.044, 0.062], all four rows. Holding γ at the
+derived value 2: <strong>ΔBIC = +5,957, σ_int = 0.442 dex.</strong>
+<em>(The source reports +2,843 / +142 on a 122-galaxy cut; the sign, the
+order and <code>γ_ρ = 0.046</code> reproduce, the third digit does not
+and should not be quoted.)</em> <strong>The count stays at 6 and no row
+is added.</strong> This is the likelihood-ratio face of the
+2026-08-16/19 conditional-scatter no-go already recorded below, not an
+independent empirical root — and in one respect it is the
+<em>weaker</em> statement, because the parametric family does not even
+reach the non-parametric ceiling for functions of local density (σ_int
+0.200 dex here against the 0.161 dex best-achievable conditional scatter
+on ρ). What it does supply is the answer to a fair standing challenge —
+<em>has the density-keyed equation, which is the actual novel claim,
+ever been <strong>fitted</strong>?</em> — previously answerable only as
+“evaluated at fixed γ, not fitted.” It has now been fitted, freely, and
+it loses.</p>
+<p><strong>(4) The six refutations are not a ledger over one model — and
+the recount is one smaller in one cell than its source states.</strong>
+The source assigns them to three different coherence functions:
+bounded-<code>C_Ω</code> (BTFR slope, dwarf <code>f_DM</code>),
+acceleration-keyed <code>C_g</code> (RAR shape at γ = 2, Cassini at γ ≈
+½), density-keyed <code>C_ρ</code> (environmental scatter), plus
+Bell/CHSH in the quantum sector — concluding <em>“the largest coherent
+sub-ledger is 2.”</em> <strong>The decomposition is right; its
+arithmetic is one too high in the <code>C_Ω</code> cell.</strong> Those
+two entries are the <em>same inequality</em>,
+<code>f_DM = 1 − 1/B</code>, verified in this lane on 2026-08-08 to
+2.2×10⁻¹⁶ over 123 galaxies, selecting 93 and 93 with zero disagreements
+(recorded in full further below). The honest decomposition is therefore
+<strong><code>C_Ω</code>: 1 · <code>C_g</code>: 2 · <code>C_ρ</code>: 1
+· quantum: 1</strong> — five distinct empirical roots across four
+models, <strong>no model carrying more than two, and the only pair
+belonging to <code>C_g</code>, which is the function this section does
+not state.</strong> This is the same 6 → 5 collapse registered open on
+2026-07-28 and gated on dp, now reached a second time by a wholly
+independent route; the count is <strong>HELD at 6</strong> here for the
+reason it was then — merging is a naming convention and dp’s to set —
+but it is no longer one lane’s observation. <strong>Bucket 0 unchanged
+(0).</strong> <strong>And the source under-states its own conclusion in
+the other direction, using half of its own sentence.</strong> It reports
+<code>ε = 2γ − 1 = +0.090 ± 0.258</code> from a galaxy-level bootstrap —
+reproduced independently here at <strong>ε = +0.061 ± 0.251,
+0.24σ</strong> (150 galaxy-level resamples) — and concludes “SPARC does
+not constrain ε.” That is the <em>statistical</em> interval at
+<code>ϒ_disk = 0.5</code>, and the source cites its own 2026-08-14
+finding for it. <strong>The title of that finding is</strong>
+<em>“γ_SPARC finally gets its error bar — 0.49 ± 0.11 (stat),
+<strong>with an ϒ-systematic band [0.27, 0.96]</strong>”</em>: the stat
+half is cited, the systematic half of the same sentence is dropped, ten
+days later, in the same track. Carried through,
+<code>γ̂ ∈ [0.27, 0.96]</code> at flat rms is
+<code>ε ∈ [−0.46, +0.92]</code> — roughly 2.7× the quoted 1σ, comparable
+to its 2σ, and from a nuisance that does not average down. The correct
+statement is stronger than the one offered: ε is not merely
+unconstrained, the parameter is <strong>unidentified at factor
+2</strong> — which is why no “ε consistent with zero” statement from
+rotation curves can be quoted as a measurement.</p>
+<p><em>Provenance: source
+<code>synchronism-site/explorer/findings/the-argument-of-C-three-functions-each-killed-by-its-own-distinguishing-feature.md</code>
+(2026-08-24), routed via
+<code>Research/proposals/argument_of_C_three_functions_ledger_not_commensurable_20260824.md</code>.
+The site’s scripts were <strong>not</strong> imported or read for
+numerics; legs (1)–(3) are a from-scratch re-implementation in this lane
+and the sample cut differs, which is why the ΔBIC differs in its third
+digit. Leg (4)’s <code>C_Ω</code> correction and the ϒ-systematic
+correction are this lane’s, from results already on file here. Triage:
+<code>explorations/2026-08-25-publisher-which-acceleration-the-implicit-keying-carries-the-efe.md</code>.</em></p>
 <p><strong>The substitution is what the data exclude.</strong> Executed
 2026-08-02 on 2,622 SPARC rotation-curve points (149 galaxies, Q ≤ 2)
 with no functional form assumed, no γ, no ρ_crit, and no fitting:
@@ -3574,7 +3711,18 @@ invisible to every audit that walks the ledger by ID, and the silence
 about why gets re-inscribed by each new reader as a fresh finding.</em>
 <strong>A count with no enumeration has exactly that property</strong> —
 this one was re-filed as a novel defect twice on 2026-08-07, by two
-independent readers, eleven days after it was registered as open.</p>
+independent readers, eleven days after it was registered as open.
+<strong>[SECOND ROUTE 2026-08-25]</strong> The same merge is now reached
+independently, from the opposite direction: the site explorer’s
+decomposition of the ledger by <em>which coherence function each entry
+tests</em> assigns both of these rows to the bounded form
+<code>C_Ω</code> and, not knowing they are one inequality, counts them
+as two. Applying the identity above collapses that cell to one and
+yields <code>C_Ω</code>: 1 · <code>C_g</code>: 2 · <code>C_ρ</code>: 1 ·
+quantum: 1 — see the <strong>[AMENDED 2026-08-25]</strong> note earlier
+in this section. The count is still <strong>HELD at 6</strong> and the
+naming convention is still dp’s, but the question is no longer supported
+by a single lane.</p>
 <p><strong>[AMENDED 2026-08-09] The 08-04 paragraph above says “a field
 equation does exist” and “one exists.” Two exist, they had been on file
 in this repository for seven months, and they disagree by a median 0.821
