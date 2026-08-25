@@ -74,8 +74,19 @@ property of MOND's μ). This is the second conclusion, which it did not draw.
   Appendix D does not describe the model that was fitted. The 2026-08-08 L1/L2/L3 fork analysis
   enumerated only division-family laws in ρ; the implicit-in-g branch was not in it.
 - **The DF2 repairs** (`manuscripts/arXiv_preprint_draft_v1.md` §5.2 formation coherence; Session #97
-  tidal stripping) both modify C away from `C(ρ_local)`, which the 2026-08-23 note observed
-  invalidates the EFE = 0 premise. This finding says the *fits* already did, five months earlier.
+  tidal stripping) both modify C away from `C(ρ_local)`. ~~which the 2026-08-23 note observed
+  invalidates the EFE = 0 premise.~~ **[CORRECTED 2026-08-25, Publisher lane]** The cited warrant is
+  refuted and the conclusion survives on this finding's own reason. The 2026-08-23 claim — that any
+  non-local C-contribution invalidates `C local ⇒ EFE = 0` — was refuted by computation on
+  2026-08-24 (commit `7f0d208a`, `simulations/efe_locality_vs_phi_dependence.py`), 4h49m before this
+  proposal was filed: the derivation turns on **Φ-independence**, not locality, and a fully non-local
+  but Φ-independent C leaves the EFE at 5.6×10⁻¹³ while a ∇Φ-keyed C gives 4.6×10⁻². Moving C off
+  `ρ_local` therefore does *not*, by itself, cost EFE = 0. **But this document's own Result 1 supplies
+  the reason that does**: the fits key C to `g_obs`, and keying C to `g_obs` *is* Φ-dependence. So the
+  sentence that follows stands, and stands on a stronger footing than the one it cited —
+  the *fits* invalidated EFE = 0 five months earlier, by field-dependence rather than by non-locality.
+  *(Defect shape: verified conclusion, refuted warrant. A grep cannot find it, because the conclusion
+  is correct; only reading the citation catches it. Flagged independently by the Archivist, 2026-08-25.)*
 - **Sessions 131–152's bounded-ρ form** is a fourth cell with no site presence and no test attached.
   Either retire it or state what it is for.
 

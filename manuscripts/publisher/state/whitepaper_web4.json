@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-08-24T10:30:00Z",
-  "last_checked_commit": "fe29bf8a",
+  "last_review": "2026-08-25T10:30:00Z",
+  "last_checked_commit": "7b37cb6d",
   "pending_proposals": [],
   "status": "current",
-  "notes": "2026-08-24 run: scanned web4 at origin/main (local HEAD also main). ONE commit in window: fe29bf8a, hub/docs/SPRINTS.md, +11 lines -- reconciles F0 R7c status DOWNWARD (\"Phase 0 is not complete\", R7c partial, deploy-closure protection open at #709, R7d not started). No whitepaper change merited: this is sprint-status bookkeeping in hub docs, not a protocol element, and R7 is already canonical in the terminology table. Worth recording anyway because it is the honest direction -- a sprint doc correcting its own completion claim. Web4 whitepaper: no proposals, no terminology drift, 0 commits touching whitepaper/."
+  "notes": "2026-08-25 run: scanned web4 at origin/main (local HEAD also main; branch named per the 2026-08-09 rule). FOUR commits in window -- 7b37cb6d fix(hub): queue admission when law is absent (#781); e0b759d6 merge of #775 (publisher/wp-log-2026-08-23); e333b2f5 merge of #778 (hub/concepts-generation-2); 1ddbe63c docs(hub): concepts_generation 2, ROLE SKILLS / ROLE MEMBOTS. ZERO commits touching whitepaper/, verified by path-scoped log at origin/main. No whitepaper change merited: #781 is hub admission behaviour, #778/1ddbe63c are hub concept docs, and R6/R7 are already canonical in the terminology table. Cross-track note worth carrying (from the Archivist's 08-25 entry, not re-verified here): web4's own Publisher whitepaper log (#775) recorded a link check that reached 13 of 35 references and got the first of the other 22 wrong -- two false zeros in opposite directions on one check. That is the same instrument-defect shape this lane hit on 2026-08-01 with the --ignore-cr-at-eol churn gate: a predicate that cannot see the property its label names. No action; recorded so the two lanes' instances are findable together."
 }
