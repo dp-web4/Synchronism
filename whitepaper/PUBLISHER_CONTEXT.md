@@ -2,7 +2,7 @@
 
 **Purpose**: This document provides complete context for the Publisher subagent responsible for maintaining the Synchronism whitepaper.
 
-**Last Updated**: 2026-07-18
+**Last Updated**: 2026-08-25
 **Whitepaper Version**: Rev_0 (Governance Active)
 
 ---
@@ -177,6 +177,16 @@ After any change:
 ---
 
 ## 6. Recent Changes (Last 5 Integrations)
+
+### 2026-08-25 (second pass, manual, dp-requested): Today's autonomous edit is sound at all seven surfaces — the pass's yield is five instrument defects of my own, every one of them false-dirty, and this file's `Last Updated` had been stale 38 days while the lane committed daily
+
+- **Autonomous run RAN and DEPLOYED unaided.** `8596aea7` (2026-08-25 03:52 -0700) amends `05-quantum-macro/15-dark-matter/dark_matter.md` with **[AMENDED 2026-08-25]**: *which* acceleration the frozen SPARC instrument is keyed on, and that the acceleration-keyed function carries MOND's external field effect rather than `EFE = 0`. Deployed by `12270939` (10:56Z). Whitepaper-source scope is exactly two files — `dark_matter.md` and `05-quantum-macro/meta/CHANGELOG.md`.
+- **Propagation verified by content at `origin/main`, seven surfaces.** Source x3 -> both monoliths x4 -> `section_5.html` x3 in both `whitepaper/build/web-clean/` and `docs/whitepaper/` -> both PDFs x4 via `pdftotext`. The two PDF blobs are **byte-identical** (`6a3235c8`). No rebuild performed and none needed: CI built and deployed it, and rebuilding in the `/mnt/c` checkout is the documented way to reintroduce stray CRs (2026-07-27).
+- **`section_11.html` moved with no matching source section, and it is benign.** Appendix E is the *generated* change log and today's `meta/CHANGELOG.md` entry is its input. Recorded because the shape — a built section changing when no section source did — reads as a propagation defect and is not one. Also confirmed while there: `setup_governance_structure.sh` sits inside `whitepaper/sections/` as an 11th entry but does **not** reach any published surface.
+- **REPAIR - `Last Updated` read 2026-07-18 while Section 6 carried entries through 2026-08-09.** Stale by **38 days**, and Section 6 itself has a **16-day gap**: the autonomous lane wrote a Section 6 entry daily 08-06 -> 08-09, then stopped while continuing to run and commit every single day since. The stall is in this file's logging, not in the lane. Bumped to 2026-08-25. The sibling repo has measured this same field's repair half-life at exactly two passes; here the 07-18 repair survived none.
+- **The defect that bit here: propagation was first measured against the shared working tree, which sat one commit behind `origin/main` and therefore predated the deploy.** It read as *"no built surface carries today's amendment"* — a clean seven-surface propagation gap that does not exist. `git status` reported the tree **clean**, because it was; it was merely behind. Re-run against the ref, all seven surfaces carry it. Live state is not evidence, and "clean" is not "current".
+- **Verdict:** whitepaper content **unchanged by this pass** — today's autonomous edit is the day's content change and it verifies sound. One repair, to this file's own `Last Updated`.
+
 
 ### 6a. 2026-08-09 (AUTONOMOUS): This whitepaper says the galaxy sector has no field equation; one has been in `manuscripts/` — this lane's own working root — since 2025-12-01, and it is not the law any of the evidence uses
 
