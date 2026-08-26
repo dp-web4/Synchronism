@@ -3494,18 +3494,24 @@ linear in Φ, and EFE = 0 is its signature rather than an
 absence.</strong> The 08-03 retraction above rests on “the galaxy sector
 has no field equation.” A momentum-conserving completion exists and is
 the natural one — <code>S = ∫d³x[−(1/8πG)·C(ρ)|∇Φ|² − ρΦ]</code>, giving
-<code>∇·[C(ρ)∇Φ] = 4πGρ</code>. It answers the Felten (1984) third-law
-objection by Noether, and reproduces <code>g = g_N/C(ρ)</code> under
-Gauss in spherical symmetry. It is <strong>linear in Φ</strong> (C
-depends on ρ, not ∇Φ), so superposition holds and <strong>EFE = 0
-exactly</strong> — not an artifact of missing dynamics but the signature
-of that linearity, where AQUAL’s EFE comes from its nonlinearity. The
-polarization force this adds, <code>C′(ρ)|∇Φ|²/8πG</code>, is ≤ 2×10⁻⁵
-of g across five SPARC galaxies: observationally free. The retraction’s
-<em>conclusion</em> is therefore strengthened, not weakened — EFE = 0
-now stands constructively. <em>(This paragraph originally continued “and
-its tension with Chae et al. 2020’s ~4σ SPARC detection is sharper.”
-That clause is <strong>withdrawn 2026-08-05</strong> — see the amendment
+<code>∇·[C(ρ)∇Φ] = 4πGρ</code>. <strong>[ATTRIBUTION 2026-08-26 — this
+equation is not new here: it is <em>Refracted Gravity</em>, Matsakos
+&amp; Diaferio 2016 (JCAP; arXiv:1603.04943), their Eq. 2.3, with
+<code>C</code> their <em>gravitational permittivity</em>. “The natural
+one” is right and is the point — it was found independently in 2016. See
+the 08-26 amendment closing this thread.]</strong> It answers the Felten
+(1984) third-law objection by Noether, and reproduces
+<code>g = g_N/C(ρ)</code> under Gauss in spherical symmetry. It is
+<strong>linear in Φ</strong> (C depends on ρ, not ∇Φ), so superposition
+holds and <strong>EFE = 0 exactly</strong> — not an artifact of missing
+dynamics but the signature of that linearity, where AQUAL’s EFE comes
+from its nonlinearity. The polarization force this adds,
+<code>C′(ρ)|∇Φ|²/8πG</code>, is ≤ 2×10⁻⁵ of g across five SPARC
+galaxies: observationally free. The retraction’s <em>conclusion</em> is
+therefore strengthened, not weakened — EFE = 0 now stands
+constructively. <em>(This paragraph originally continued “and its
+tension with Chae et al. 2020’s ~4σ SPARC detection is sharper.” That
+clause is <strong>withdrawn 2026-08-05</strong> — see the amendment
 below. EFE = 0 standing constructively is unaffected; only its claimed
 empirical tension was wrong.)</em> <strong>The same linearity is also
 the sector’s worst pathology</strong>:
@@ -3515,7 +3521,13 @@ permittivity and a divergent exterior field. <em>“A uniform external
 field does not change ρ”</em> and <em>“empty space has C = 0 however
 strong the field”</em> are the same statement — C’s argument cannot see
 the field. <strong>The sector’s one surviving structural prediction and
-its worst pathology are one property.</strong> Registered at
+its worst pathology are one property.</strong> <strong>[EXTENDED
+2026-08-26 — and both are the <em>floor</em>. A nonzero vacuum
+permittivity <code>ε₀</code> is the published cure (M&amp;D fit it at
+0.20–0.25), and this sector already carries one: <code>C_Ω</code>’s
+floor is <code>Ω_m</code>, and <code>1/Ω_m</code> is exactly the bounded
+boost. The pathology belongs to the <em>floorless</em> function, not to
+the sector.]</strong> Registered at
 <code>Research/proposals/dielectric_completion_and_efe_linearity_equivalence_20260804.md</code>.</p>
 <p><strong>[AMENDED 2026-08-05] EFE = 0 is <em>not evaluable</em>
 against Chae et al. 2020, and the “tension” claimed for it above is
@@ -3835,6 +3847,132 @@ framework has no action principle.”</em> Back-annotated to the executive
 summary and conclusion rather than left at the source, because this lane
 has now twice measured that corrections do not propagate on their
 own.</p>
+<p><strong>[AMENDED 2026-08-26] The field equation introduced above is
+published, and has been since 2016: it is Refracted Gravity. The
+sector’s bounded boost is that theory’s fitted floor parameter, its
+covariant completion is in A&amp;A, and its cosmological perturbation
+sector was integrated in January 2026.</strong> The 08-04 amendment
+introduces <code>∇·[C(ρ)∇Φ] = 4πGρ</code> as a completion constructed in
+this lane and calls it “the natural one.” It is Eq. 2.3 of
+<strong>Matsakos &amp; Diaferio 2016</strong> (JCAP; arXiv:1603.04943),
+<em>Dynamics of galaxies and clusters in refracted gravity</em>,
+verified at source here rather than relayed: the abstract states the
+theory “introduces a gravitational permittivity that depends on the
+local mass density and modifies the standard Poisson equation,” and
+reports fits to disk-galaxy rotation curves, the Tully–Fisher relation,
+and cluster X-ray temperature profiles. Their permittivity (their Eq.
+4.1) is <code>ε(ρ) = ε₀ + (1−ε₀)·½{tanh[log((ρ/ρ_c)^q)] + 1}</code>.</p>
+<p><strong>Three legs, computed in this lane before propagation</strong>
+—
+<code>simulations/publisher_20260826_refracted_gravity_identity.py</code>,
+sympy + numpy, exit 0, written from the published forms with no
+sibling-repo script read or imported:</p>
+<ul>
+<li><strong>The bounded-ceiling function is <code>ε</code> identically,
+not approximately.</strong> <code>C_Ω = Ω_m + (1−Ω_m)·x/(1+x)</code>
+with <code>x = (ρ/ρ_c)^p</code> and <code>p = 2q/ln(base)</code> gives
+<code>ε − C_Ω = 0</code> <strong>exactly in sympy</strong>, for both the
+base-10 and natural-log readings of M&amp;D’s <code>log</code>. The
+routing note reports 2.2×10⁻¹⁶ over 8 decades; the identity is
+closed-form and needs no numerical statement at all.</li>
+<li><strong><code>B ≤ 1/Ω_m = 3.17</code> is <code>1/ε₀</code>.</strong>
+<code>C_Ω(ρ→0) = Ω_m</code>, so the boost ceiling is the reciprocal of
+the vacuum floor — a structural property of the 2016 construction, whose
+<code>ε₀</code> M&amp;D <strong>fit</strong> at 0.20–0.25 (ceiling
+4.0–5.0). The bounded boost is therefore not this framework’s
+distinguishing feature, and TEST-09/TEST-10 refute a parameter of a
+published 2016 theory rather than a Synchronism novelty. <em>This does
+not move the refutation count</em> (6, unchanged; and per the 2026-08-08
+amendment those two IDs are one inequality) — it relabels what two of
+the six are <strong>about</strong>.</li>
+<li><strong><code>C_ρ</code> is <code>ε</code> at <code>ε₀ = 0</code>,
+and 20× more tightly than the routing note states.</strong> Least
+squares over 7 decades of <code>ρ/ρ_crit</code> with the regulator scale
+free: at the <strong>fitted</strong> γ = 0.489–0.498 the residual is rms
+<strong>7.1×10⁻⁴</strong>, max <strong>1.4×10⁻³</strong>, at
+<code>ρ_c/ρ_crit ≈ 2.0</code>. The note’s quoted “rms 0.014, max 0.032”
+is the residual at <strong>γ = 2</strong> — reproduced here exactly
+(0.0142 / 0.0340) — while its surrounding parameter discussion is at the
+fitted γ. An <strong>under</strong>-claim, corrected upward. The mapped
+<code>q</code> is criterion-dependent and does not reproduce: under this
+criterion <strong>1.14</strong> at the fitted γ and
+<strong>1.68</strong> at γ = 2, against the note’s “≈ 1.5”; RG’s
+disc-galaxy value is <code>q = 0.75</code>, so the framework’s
+transition is 1.5×–2.2× sharper, not “~2×” flat. That the “+1” regulator
+is absorbed by a ~2× shift of <code>ρ_c</code> — RG’s published form has
+<strong>no</strong> additive regulator — is an external corroboration of
+this repository’s own 2026-08-21 result that the regulator carries
+scale, not shape.</li>
+</ul>
+<p><strong>What survives the identification, and it is narrow and
+real.</strong> RG <strong>fits</strong> <code>ε₀</code>; this sector
+<strong>derives</strong> it as <code>Ω_m</code>. That is a
+parameter-economy claim, it is the only surviving novelty in the galaxy
+sector’s constitutive equation, and it is falsifiable now: the derived
+floor 0.315 sits <strong>outside</strong> M&amp;D’s fitted 0.20–0.25, so
+the two constructions disagree about the vacuum permittivity by ~30% and
+the discriminating data already exist — Cesare et al. 2020’s 30 DiskMass
+galaxies, whose vertical dispersions are RG’s own method for determining
+<code>ε</code>.</p>
+<p><strong>The covariant branch is published too, and the citation as
+routed is wrong.</strong> The covariant formulation is <strong>Sanna,
+Matsakos &amp; Diaferio 2023</strong> (A&amp;A <strong>674</strong>,
+A209; arXiv:2109.11217) — scalar–tensor, with <code>φ</code> twice the
+permittivity in the weak field, verified at source. The routing note
+gives “Sanna, Pipino, Diaferio et al.”; <strong>Pipino is not an author
+on that paper</strong> (he is on the 2022 E0-galaxy study), corrected
+here. And <strong>not in either source, surfaced by this lane’s own
+gate</strong>: Gervani, Diaferio, Pace &amp; Sanna 2026
+(arXiv:2601.22937) integrate the linear perturbations of a Brans–Dicke
+theory that “in the weak-field limit reduces to Refracted Gravity,” with
+baryons alone and neither dark matter nor dark energy, and find
+<strong>structure formation delayed to z &lt; 1, in disagreement with
+the observation of formed galaxies at much larger redshifts.</strong>
+That is a published cosmological verdict on the same covariant branch
+§5.15 below constructs as <strong>Completion B</strong> and
+independently excludes at Δχ² ≥ +79 against DESI DR2 + CMB + SN.</p>
+<p><strong>Stated as an open question rather than a corroboration,
+because it has not been checked.</strong> Whether §5.15’s Completion B
+and Gervani et al.’s theory are the <em>same</em> theory is <strong>not
+settled here</strong> — §5.15’s quasi-static pinning
+<code>C_eff(x₀) = Ω_m</code> has not been compared to their
+construction, and §5.15 separately names a “density-pinned
+<strong>massive</strong> scalar” as its one unexecuted covariant branch,
+while Sanna et al.’s potential <code>V(φ) = −Ξφ</code> is
+<em>linear</em>, which is not a mass term. Settling this is the first
+blocking action on the recommendation opened today. If they coincide,
+this section’s completion-B exclusion becomes an independently-routed
+corroboration of a published negative — background likelihood against
+linear growth, two different observables on one theory — which is a
+stronger and far more useful statement than an internal no-go.</p>
+<p><strong>How this was missed, and the cheapest gate that would have
+caught it.</strong> The 2026-08-03 prior-art screen searched MOND’s
+vocabulary — <em>“density-keyed interpolating function”</em> — one
+paragraph after this section had itself written <em>“the dielectric
+completion.”</em> A screen must enumerate synonyms of the
+<strong>construction</strong> (permittivity, dielectric, refractive,
+susceptibility, coupling function), not the house vocabulary. Sharper,
+and new to this failure class: <strong>the author’s name was already in
+this repository.</strong>
+<code>simulations/session200_caustic_mass.py:69</code> and
+<code>simulations/session199_mdyn_mlens_v2.py:130</code> cite Diaferio
+&amp; Geller 1997 and Rines &amp; Diaferio 2006 for the caustic mass
+method. A one-line author-key grep over this repository’s own
+<code>simulations/</code> would have surfaced the name at zero external
+cost. Every prior instance of this class concerned an unfound
+<em>document</em>; this one concerns an unfound <em>author key</em>, and
+the key was in-house.</p>
+<p><strong>Ledger.</strong> Refutation count <strong>HELD at 6</strong>;
+Bucket 0 = 0. Nothing here refutes anything: an attribution was
+corrected and a comparison class was named. What changes is the baseline
+against which this sector’s novelty is measured — <strong>it is
+Refracted Gravity, not MOND</strong> — and every novelty claim attached
+to the galaxy sector must be re-scored against a live 2016–2026 research
+programme rather than against Milgrom 1983. Registered at
+<code>Research/proposals/refracted_gravity_prior_art_and_density_lever_is_log_size_20260825.md</code>
+(routing note, site explorer 2026-08-25); the verification, the γ-keying
+correction, the author correction, the Gervani et al. 2026 finding and
+the <code>ε₀</code> falsifier above are this lane’s.</p>
 <p><em>Provenance: γ = 1/2 identity and EFE retraction from
 <code>explorations/2026-08-02-triage-gamma-half-exact-mond-efe-zero-and-a0z-nondiscriminating.md</code>
 (research lane), inscribed in <code>PREDICTIONS.md</code> B2; identity
@@ -4146,8 +4284,15 @@ background is <em>exactly Einstein–de Sitter</em> for every γ and
 calibration — the dark-energy sector vanishes identically, and the
 vacuum floor ρ/C ≥ ρ_crit/γ leaves the equation no FRW solution beyond a
 ≈ 1.037 under Session #100’s own calibration. <strong>Completion
-B</strong> (C as a Brans-Dicke scalar pinned to C(ρ̄(a))): the literal
-sign lock <em>dies</em> — the w = −1 attractor is destroyed, the γ = 1/2
+B</strong> (C as a Brans-Dicke scalar pinned to C(ρ̄(a))) <strong>[PRIOR
+ART 2026-08-26 — this branch is published: the covariant formulation of
+the weak-field law is Sanna, Matsakos &amp; Diaferio 2023 (A&amp;A
+<strong>674</strong>, A209), and Gervani, Diaferio, Pace &amp; Sanna
+2026 (arXiv:2601.22937) integrate its linear perturbations and find
+structure formation delayed to z &lt; 1, contradicting observed high-z
+galaxies. Whether their theory and this construction coincide is
+UNCHECKED — see the 08-26 amendment above.]</strong>: the literal sign
+lock <em>dies</em> — the w = −1 attractor is destroyed, the γ = 1/2
 Λ-degeneracy is broken (no member of the completed family is ΛCDM), and
 w₀ &lt; −1 with wₐ &gt; 0 members exist — but the DESI quadrant (w₀ &gt;
 −1, wₐ &lt; 0) stays empty: 0 of 192 γ values. <strong>[CORRECTED
@@ -4197,13 +4342,16 @@ the scalar a mass via <code>V(C)</code> to evade PPN would contribute to
 <code>B(x)</code>, which is the <strong>massless</strong> BD energy
 density and omits V — the published scan cannot be simultaneously
 PPN-safe and self-consistent. <strong>The one remaining unexecuted
-covariant branch</strong> is therefore a density-pinned
-<strong>massive</strong> scalar (add <code>V(C)</code> to
-<code>B(x)</code> and integrate): it evades Cassini by construction, and
-a potential is exactly the ingredient that could supply the interior
-maximum of ρ_DE(x) the DESI quadrant requires. Routed, not driven.
-Refutation count unchanged (6); the completion-B exclusion stands and is
-stronger. <em>(Source:
+covariant branch</strong> — unexecuted <em>here</em>; the literature’s
+covariant RG carries a <em>linear</em> potential
+<code>V(φ) = −Ξφ</code>, which is not a mass term, so the branch below
+is not obviously the published one <strong>[scoped 2026-08-26]</strong>
+— is therefore a density-pinned <strong>massive</strong> scalar (add
+<code>V(C)</code> to <code>B(x)</code> and integrate): it evades Cassini
+by construction, and a potential is exactly the ingredient that could
+supply the interior maximum of ρ_DE(x) the DESI quadrant requires.
+Routed, not driven. Refutation count unchanged (6); the completion-B
+exclusion stands and is stronger. <em>(Source:
 <code>synchronism-site/explorer/findings/completion-b-at-cassini-allowed-omega-the-no-go-hardens-and-omega-was-never-free.md</code>,
 2026-08-19, routed via
 <code>Research/proposals/completion_b_cassini_omega_absorbed_by_closure_20260819.md</code>;
