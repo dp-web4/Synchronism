@@ -21,29 +21,41 @@ if [ "$SECTION_COUNT" -eq 0 ]; then
 fi
 echo "Sections found: $SECTION_COUNT"
 
-# Pull latest changes before building to avoid conflicts
-echo "Checking for updates..."
-git fetch
+# Pull latest changes before building to avoid conflicts.
+#
+# Skipped when CI is set. A runner's checkout has no upstream tracking branch,
+# so `git rev-parse @{u}` cannot resolve and the divergence test below would be
+# comparing empty strings. The workflow used to strip this block by hardcoded
+# line number instead; that coupling broke silently on 2026-08-27 when a
+# coverage guard was added above it, and the build failed claiming the branch
+# had diverged when it had not. The contract is now the documented one:
+# CI=true skips the sync (.github/workflows/README.md, "Local Testing").
+if [ -z "${CI:-}" ]; then
+    echo "Checking for updates..."
+    git fetch
 
-# Check if we're behind the remote
-LOCAL=$(git rev-parse @)
-REMOTE=$(git rev-parse @{u})
-BASE=$(git merge-base @ @{u})
+    # Check if we're behind the remote
+    LOCAL=$(git rev-parse @)
+    REMOTE=$(git rev-parse @{u})
+    BASE=$(git merge-base @ @{u})
 
-if [ $LOCAL = $REMOTE ]; then
-    echo "Already up to date."
-elif [ $LOCAL = $BASE ]; then
-    echo "Pulling latest changes..."
-    git pull
+    if [ "$LOCAL" = "$REMOTE" ]; then
+        echo "Already up to date."
+    elif [ "$LOCAL" = "$BASE" ]; then
+        echo "Pulling latest changes..."
+        git pull
+    else
+        echo "❌ Error: Your branch has diverged from the remote branch."
+        echo "Please resolve conflicts manually before building:"
+        echo "  1. Review changes with: git status"
+        echo "  2. Either stash your changes: git stash"
+        echo "  3. Or commit them: git add . && git commit -m 'your message'"
+        echo "  4. Then pull: git pull"
+        echo "  5. Run this script again"
+        exit 1
+    fi
 else
-    echo "❌ Error: Your branch has diverged from the remote branch."
-    echo "Please resolve conflicts manually before building:"
-    echo "  1. Review changes with: git status"
-    echo "  2. Either stash your changes: git stash"
-    echo "  3. Or commit them: git add . && git commit -m 'your message'"
-    echo "  4. Then pull: git pull"
-    echo "  5. Run this script again"
-    exit 1
+    echo "CI detected: skipping git sync."
 fi
 
 # Preprocess proposals and sections to demote headers
