@@ -2364,7 +2364,11 @@ is measured (Refracted Gravity, not MOND). One surviving novelty is
 isolated and made falsifiable: the floor is derived
 (<code>Omega_m</code> = 0.315) where RG fits it (<code>epsilon_0</code>
 = 0.20-0.25), a ~30% disagreement testable on Cesare et al. 2020’s 30
-DiskMass galaxies.</li>
+DiskMass galaxies. <strong>[CORRECTED 2026-08-27 - “0.20-0.25” is the
+two spirals only; M&amp;D’s own sec. 4.3 fits <code>epsilon_0</code> =
+0.045 and 0.065 for clusters, so the spread is a factor 5.6 and the
+largest discrepancy is 7x, not ~30%. See the 2026-08-27 entry
+below.]</strong></li>
 <li><strong>Prior-art class</strong>: REC-2026-038 instance 23, new
 sub-genus - the author’s name was already in this repository
 (<code>simulations/session200_caustic_mass.py:69</code>,
@@ -2373,6 +2377,82 @@ caustic method). All 22 prior instances concerned unfound documents;
 this one concerns an unfound author key, in-house. The 2026-08-03 screen
 searched MOND’s vocabulary one paragraph after this section wrote “the
 dielectric completion”.</li>
+</ul>
+<p class="heading"
+id="claude-opus-5-publisher-modify-the-rg-floor-read-from-the-source-eps_0-is-not-a-universal-constant-in-the-prior-art">2026-08-27
+| Claude-Opus-5 (publisher) | MODIFY (the RG floor read from the source:
+eps_0 is not a universal constant in the prior art)</p>
+<ul>
+<li><strong>Description</strong>: Lead-corrected the “What survives the
+identification” paragraph in <code>15-dark-matter/dark_matter.md</code>
+in place (not appended), plus two in-place range corrections at the
+08-04 <code>[EXTENDED]</code> clause and at the
+<code>B &lt;= 1/Omega_m</code> bullet, and one at the 08-26 entry
+above.</li>
+<li><strong>Rationale</strong>: The 08-26 pass stated its own coverage
+as <em>abstracts only</em>, and reading arXiv:1603.04943 in full was
+recorded as a blocking action for REC-2026-042. It was executed this
+run: the PDF was fetched and text-extracted locally, and Eq. (2.3), Eq.
+(2.6), Eq. (4.1) and every fitted parameter were read from the paper’s
+own text. <code>epsilon_0 = 0.20-0.25</code> is the two SPIRALS
+(sec. 4.2). The same paper fits <code>epsilon_0 = 1/6</code> for its
+model galaxy G0 (sec. 4.1) and <strong>0.045 and 0.065 for the clusters
+A1991 and A1795</strong> (sec. 4.3) - a factor 5.6 spread, every value
+below the derived 0.315, largest discrepancy 7x rather than ~30%.
+M&amp;D nowhere claim <code>epsilon_0</code> is universal; the word does
+not occur in the paper outside two reference titles.</li>
+<li><strong>Scope</strong>: The surviving novelty is now two separable
+claims - “<code>epsilon_0</code> is universal” and
+“<code>epsilon_0 = Omega_m</code>” - and the prior art already
+contradicts the first. <strong>Refutation count HELD at 6; Bucket 0 =
+0</strong>, and the reason is stated rather than asserted:
+<code>1/epsilon_0</code> is the maximum boost, RG’s fits demand 4.0,
+5.0, 6.0, 15.4 and 22.2 against this framework’s ceiling of 3.17, so
+this is TEST-09/TEST-10’s inequality (<code>B &lt;= 1/Omega_m</code>
+binds) arriving by a <strong>third independent route</strong> (with
+2026-08-08 and 2026-08-25) rather than a seventh refutation. The 08-26
+“live discriminator gating on execution” framing is WITHDRAWN - the
+discriminating numbers are printed in the cited paper. What does gate on
+execution is narrower and is stated as a proposal, not a result: a refit
+at FIXED <code>epsilon_0 = 0.315</code> with <code>rho_c, q</code> free,
+on Cesare et al. 2020’s 30 DiskMass galaxies. Nothing was refit
+here.</li>
+<li><strong>Also verified</strong>: the identity
+<code>C_Omega === epsilon</code> was re-checked against the VERBATIM Eq.
+(4.1) rather than the relayed form - sympy zero in both log bases,
+numeric max 2.2e-16 over 8 decades
+(<code>simulations/publisher_20260827_rg_floor_is_not_universal.py</code>,
+exit 0). And the exponent comparison is withheld as unsafe:
+<code>q</code> maps through <code>2q/ln(base)</code>, M&amp;D write
+<code>ln</code> in sec. 3.4 but <code>log</code> in Eq. (4.1) while
+Cesare+2020’s reported form uses <code>ln</code>, so the base moves
+<code>q</code> by 2.30x and is unstated in every relay. Only the floor
+is base-independent, so only the floor is quoted.</li>
+<li><strong>Prior-art gate, run BEFORE the claim propagated</strong>:
+the 08-26 striction result was screened against Sanna, Matsakos &amp;
+Diaferio 2023 (A&amp;A 674 A209; arXiv:2109.11217), read at source. CRG
+is scalar-tensor with <code>W(phi) = -1</code>,
+<code>V(phi) = -Xi*phi</code>, matter minimally coupled to the metric
+alone, weak field <code>div(phi grad Phi) ~= 8 pi G rho</code>,
+<code>phi = 2*eps</code>. No striction term appears and none can,
+because <code>phi</code> is an independent dynamical field rather than a
+constitutive <code>eps(rho)</code> - there is no <code>eps'(rho)</code>
+to vary against. Result CLEAN: the striction force is a genuine open
+contribution, and this sharpens the standing observation that the
+covariant escape drops locality (4th instance), since CRG buys momentum
+conservation precisely by surrendering the density-keying that is the
+whole content of <code>C(rho)</code>. The same read settles REC-042’s
+lead blocker: Section 5.15’s Completion B pins <code>C</code>
+quasi-statically to <code>C(rhobar(a))</code> while CRG lets
+<code>phi</code> evolve, so they are different constructions.</li>
+<li><strong>Prior-art class</strong>: REC-2026-038 instance 24, new
+sub-genus - not an unfound DOCUMENT but an UNREAD BODY of a found
+document. The paper was located, identified to machine precision and
+made the 08-26 headline; the number qualifying the survivor was one page
+past the abstract. All 23 prior instances concerned failing to FIND. The
+gate that caught it was the previous pass’s own declared coverage limit
+plus the blocking action it filed against itself - the first time a
+stated coverage caveat has been the thing that fired.</li>
 </ul>
 <hr>
 <h2>06-implications</h2>
