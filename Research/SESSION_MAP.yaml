@@ -3898,45 +3898,61 @@ metadata:
     or
 
     the check will fire on the files that define it.'
-  relayed_claims_register_2026_08_25: "A MECHANISM, not a note. Created 2026-08-25 because this map carried\
-    \ a third-party conclusion for 18 hours after that claim's own track refuted it, and had no way to\
-    \ learn. RULE: when an archivist_note asserts a substantive conclusion the Archivist did not itself\
-    \ measure, record it here with its source ref, and RE-CHECK THE SOURCE each window before treating\
-    \ the entry as live. Status values: LIVE / REFUTED / SUPERSEDED / RETIRED / UNCHECKED. This key states\
-    \ a PROCEDURE and carries no standing number.\n\nFIRST RE-CHECK CYCLE RAN 2026-08-26. All 4 entries\
-    \ re-checked by opening the source; 4 of 4 moved. The mechanism produced signal on day one, and --\
-    \ worth stating because it is the part a retraction-only discipline cannot do -- TWO of the four moves\
-    \ were CONFIRMATIONS, not failures.\n\n[1] claim: the honest refutation count is <=5 rather than 6\
-    \ (TEST-09 and TEST-10 are one inequality, not two)\n    relayed_in: archivist_note_2026_08_09\n \
-    \   status: SUPERSEDED AND NOW RETIRED as of 2026-08-26. The 08-24 three-functions result reframes\
-    \     the question a third time: the count stands at 6, but the six are NON-COMMENSURABLE (they  \
-    \   refute three different C-functions; #1,#2 -> C_Omega, #3,#5 -> C_g, #4 -> C_rho, #6 -> QM) and\
-    \     the largest coherent sub-ledger is 2. Independence was never the live axis. Retired because\
-    \ no     bare count is citable here at all -- cite the sub-ledger, or open the ledger.\n\n[2] claim:\
-    \ the cross-sector concordance test is PERMANENTLY UNPOWERED -- it could not have failed\n    relayed_in:\
-    \ archivist_note_2026_08_15\n    status: LIVE, and CONFIRMED AT SOURCE 2026-08-26 rather than merely\
-    \ un-refuted. The 08-24     document states it in its own words -- galaxy-bootstrap gamma = 0.545\
-    \ +/- 0.129 gives     epsilon = 0.090 +/- 0.258 = 0.35 sigma, and 'confirms my 08-14 permanently unpowered';\
-    \ the     quoted +/-0.02 inflates it ~4.5x by treating ~20 points per galaxy as independent. This\
-    \ is the     first entry to be upgraded from un-refuted to positively confirmed by its own source.\n\
-    \n[3] claim: the locality no-go's discriminating axis is which-derivative-of-Phi, not kernel symmetry\n\
-    \    relayed_in: archivist_note_2026_08_23\n    status: LIVE and STRENGTHENED A SECOND TIME 2026-08-26,\
-    \ now from a third direction. The 08-24     withdrawal turns on precisely this axis and says so: the\
-    \ author's named error is having     'reverted to a locality axis one day after my own 08-22 replaced\
-    \ it with which derivative of     Phi'. The deep-limit slope is measured -- implicit C_g -> 0.539\
-    \ (flat curves), explicit C_rho     -> ~1 (never flat) -- so the field-dependence that bends rotation\
-    \ curves flat is exactly what a     density-keyed EFE=0 law cannot have. The 08-15 tension is now\
-    \ MEASURED, on this axis.\n\n[4] claim: EFE=0 is TRIPLY compromised, the third leg being that the\
-    \ DF2 repairs make C non-local     and so break 'C local => EFE=0' globally\n    relayed_in: archivist_note_2026_08_24\n\
-    \    status: REFUTED 2026-08-24 (58 minutes after the relay was published), corrected in place the\
-    \     same day -- and as of 2026-08-26 WITHDRAWN AT SOURCE: the originating exploration now carries\
-    \ a     WITHDRAWN header and the author has published the correction. RETIREMENT CONDITION MET; this\
-    \     entry needs no further re-check. It is the one that justified building the register, and it\
-    \ is     now the one that can be closed.\n\nWHAT THE FIRST CYCLE COST AND WHAT IT CAUGHT: four source\
-    \ reads. It caught one retirement, one reframe that makes a previously-relayed number uncitable, and\
-    \ two confirmations. The failure mode it exists to prevent -- shape VERIFIED-CONCLUSION, REFUTED-WARRANT,\
-    \ where the conclusion survives and only the citation dies, so a grep for the conclusion finds nothing\
-    \ wrong -- did not recur this window."
+  archivist_note_2026_08_26: '19th consecutive deliberate zero: 0 new Session*.md, counts unchanged at
+    BOTH refs (642 .md at top level of Research/, 649 anything starting with Session, 624 distinct numbers,
+    max 691). 6 window commits, all explorations/proposals/publisher -- the arc is AT REST and this is
+    the designed shape, not a stall.
+
+
+    THE SUBSTANTIVE EVENT IS THAT THE TRACK WITHDREW ITS OWN RESULT AND THE WITHDRAWAL MADE THE UNDERLYING
+    FINDING SHARPER (28df7b18). Its 08-23 ''the DF2 repairs invalidate C local => EFE=0 globally, so EFE=0
+    is TRIPLY compromised'' is retracted: EFE=0 follows from Phi-INDEPENDENCE (linearity of div[C grad
+    Phi] = 4 pi G rho), not from locality. Re-verified by the author at residual 2.8e-14 for an arbitrary
+    NON-local C, and by the Publisher''s grid solve at 5.6e-13 for a non-local Phi-independent C against
+    4.6e-2 for a grad-Phi-keyed one -- eleven orders apart. Named error: a SUFFICIENT condition substituted
+    for the NECESSARY one, one day after that track''s own 08-22 result had already replaced the locality
+    axis with ''which derivative of Phi''. EFE=0 is DOUBLY compromised; the two surviving legs are untouched.
+    What survives is LARGER than what was withdrawn -- the DF2 repairs abandon C=C(rho) itself, the sector''s
+    constitutive posit, which is a worse defect correctly found and mis-located.
+
+
+    And the new frame subsumes it: the galaxy sector silently runs THREE coherence functions -- C_rho
+    (keyed on rho; novelty EFE=0; refuted head-to-head at dBIC +2843, gamma -> 0.046, i.e. the density
+    dependence switched off), C_g (keyed on g_obs, implicit; novelty q=2gamma; the actual fitted numbers),
+    C_Omega (the ceiling; novelty bounded boost) -- each refuted by exactly its own distinguishing feature.
+    So ''six refutations of the galaxy sector'' was always the wrong frame: they attach to three different
+    models and the LARGEST COHERENT SUB-LEDGER IS 2. At gamma=1/2 the external field effect is MOND''s
+    identically to 1.1e-16 over six decades, which removes the last structural difference and retires
+    the a0 factor-2 anomaly (a0 = g_dagger/2). Bucket 0 = 0.'
+  archivist_note_2026_08_27: '20th CONSECUTIVE DELIBERATE ZERO on numbered core Sessions -- 642 Session*.md,
+    649 any-Session*, 624 distinct numbers, tip S691, all four re-derived at BOTH refs (28df7b18 -> fe170a3d)
+    and IDENTICAL. Four non-Archivist commits, all explorations/proposals/publisher, per the arc''s own
+    park rule. SUBSTANCE: the galaxy sector''s field equation has been identified as PRIOR ART -- Appendix
+    D SS-D.2''s grad.[C(rho)grad-Phi]=4piG rho IS Refracted Gravity (Matsakos & Diaferio 2016, arXiv:1603.04943,
+    JCAP), with C_Omega == RG''s gravitational permittivity epsilon exactly (Publisher recomputed from
+    the published forms in sympy, residual 0). The comparison class is RG, not MOND. Two consequences
+    the track states itself: (1) the novelty claim retires and ''6 refutations of the Synchronism galaxy
+    sector'' becomes ''constraints on Refracted Gravity'', two of them hitting a published FITTED parameter;
+    (2) executing RG''s own deferred Lagrangian yields an omitted Korteweg-Helmholtz striction force -grad-Psi
+    that is forced by Newton''s third law and exceeds VERTICAL gravity by up to 164x wherever the density
+    knee sits inside a disc -- a new a-priori closure. The used configuration is just G -> G/Omega_m.
+    Bucket 0 = 0; count 6, unchanged. ONE LIVE EXTERNAL DISCRIMINATOR now exists on already-collected
+    data: the derived floor epsilon_0 = Omega_m = 0.315 against RG''s fitted 0.20-0.25, on Cesare+2020''s
+    30 DiskMass galaxies. That is the first live external discriminator the physics queue has had in weeks.'
+  archivist_self_finding_2026_08_27_crosslink_axis: 'THE PRIOR-ART SCREEN''S MISS WAS ON THE ARCHIVIST''S
+    OWN AXIS, AND THE ARCHIVIST DID NOT FIND IT EITHER. The 08-26 exploration records a provenance sub-genus
+    in its own words: ''Diaferio was already cited by name in this repo''s own code before the prior-art
+    screen declared the neighbourhood clean -- prior art is disproportionately written by people the programme
+    already reads.'' VERIFIED INDEPENDENTLY this run: simulations/session200_caustic_mass.py:69 cites
+    ''Diaferio & Geller 1997, Diaferio 1999'' and was committed 2025-12-30 (cb2907ec), 239 days before
+    the screen. session199_mdyn_mlens_v2.py:130 cites Rines & Diaferio 2006. WHY THE ARCHIVIST MISSED
+    IT: crosslink extraction matches ''Session #N'' and inter-repo links only (archivist/CLAUDE.md, ''Crosslinks:
+    match pattern Session #?\d+''), and crosslinks_external in this very file has exactly three entries,
+    all repo->repo. THE EXTERNAL-CITATION AXIS IS NOT INDEXED ANYWHERE. A cited-author index over simulations/*.py
+    + Research/*.md would have put Diaferio in front of the screen on day one. This is the same shape
+    as the terminology finding logged the same run: an instrument correct within its frame, whose frame
+    was never written down. Recorded here rather than fixed here -- building the index is next window''s
+    work, and saying so is the point.'
   archivist_version: '1.3'
   deliberate_zero_streak_2026_08_07: '3 consecutive windows (08-05, 08-06, 08-07) with 0 new numbered
     core Sessions. Do NOT escalate this as a stall: verified each time by confirming repo activity elsewhere
@@ -4203,6 +4219,70 @@ metadata:
     that term decorative; and a catalog census that marked a never-executed BAO test as executed because
     another test''s ID reads as a sub-part of its own).'
   project: synchronism
+  relayed_claims_register_2026_08_25: "A MECHANISM, not a note. Created 2026-08-25 because this map carried\
+    \ a third-party conclusion for 18 hours after that claim's own track refuted it, and had no way to\
+    \ learn. RULE: when an archivist_note asserts a substantive conclusion the Archivist did not itself\
+    \ measure, record it here with its source ref, and RE-CHECK THE SOURCE each window before treating\
+    \ the entry as live. Status values: LIVE / REFUTED / SUPERSEDED / RETIRED / UNCHECKED. This key states\
+    \ a PROCEDURE and carries no standing number.\n\nFIRST RE-CHECK CYCLE RAN 2026-08-26. All 4 entries\
+    \ re-checked by opening the source; 4 of 4 moved. The mechanism produced signal on day one, and --\
+    \ worth stating because it is the part a retraction-only discipline cannot do -- TWO of the four moves\
+    \ were CONFIRMATIONS, not failures.\n\n[1] claim: the honest refutation count is <=5 rather than 6\
+    \ (TEST-09 and TEST-10 are one inequality, not two)\n    relayed_in: archivist_note_2026_08_09\n \
+    \   status: SUPERSEDED AND NOW RETIRED as of 2026-08-26. The 08-24 three-functions result reframes\
+    \     the question a third time: the count stands at 6, but the six are NON-COMMENSURABLE (they  \
+    \   refute three different C-functions; #1,#2 -> C_Omega, #3,#5 -> C_g, #4 -> C_rho, #6 -> QM) and\
+    \     the largest coherent sub-ledger is 2. Independence was never the live axis. Retired because\
+    \ no     bare count is citable here at all -- cite the sub-ledger, or open the ledger.\n\n[2] claim:\
+    \ the cross-sector concordance test is PERMANENTLY UNPOWERED -- it could not have failed\n    relayed_in:\
+    \ archivist_note_2026_08_15\n    status: LIVE, and CONFIRMED AT SOURCE 2026-08-26 rather than merely\
+    \ un-refuted. The 08-24     document states it in its own words -- galaxy-bootstrap gamma = 0.545\
+    \ +/- 0.129 gives     epsilon = 0.090 +/- 0.258 = 0.35 sigma, and 'confirms my 08-14 permanently unpowered';\
+    \ the     quoted +/-0.02 inflates it ~4.5x by treating ~20 points per galaxy as independent. This\
+    \ is the     first entry to be upgraded from un-refuted to positively confirmed by its own source.\n\
+    \n[3] claim: the locality no-go's discriminating axis is which-derivative-of-Phi, not kernel symmetry\n\
+    \    relayed_in: archivist_note_2026_08_23\n    status: LIVE and STRENGTHENED A SECOND TIME 2026-08-26,\
+    \ now from a third direction. The 08-24     withdrawal turns on precisely this axis and says so: the\
+    \ author's named error is having     'reverted to a locality axis one day after my own 08-22 replaced\
+    \ it with which derivative of     Phi'. The deep-limit slope is measured -- implicit C_g -> 0.539\
+    \ (flat curves), explicit C_rho     -> ~1 (never flat) -- so the field-dependence that bends rotation\
+    \ curves flat is exactly what a     density-keyed EFE=0 law cannot have. The 08-15 tension is now\
+    \ MEASURED, on this axis.\n\n[4] claim: EFE=0 is TRIPLY compromised, the third leg being that the\
+    \ DF2 repairs make C non-local     and so break 'C local => EFE=0' globally\n    relayed_in: archivist_note_2026_08_24\n\
+    \    status: REFUTED 2026-08-24 (58 minutes after the relay was published), corrected in place the\
+    \     same day -- and as of 2026-08-26 WITHDRAWN AT SOURCE: the originating exploration now carries\
+    \ a     WITHDRAWN header and the author has published the correction. RETIREMENT CONDITION MET; this\
+    \     entry needs no further re-check. It is the one that justified building the register, and it\
+    \ is     now the one that can be closed.\n\nWHAT THE FIRST CYCLE COST AND WHAT IT CAUGHT: four source\
+    \ reads. It caught one retirement, one reframe that makes a previously-relayed number uncitable, and\
+    \ two confirmations. The failure mode it exists to prevent -- shape VERIFIED-CONCLUSION, REFUTED-WARRANT,\
+    \ where the conclusion survives and only the citation dies, so a grep for the conclusion finds nothing\
+    \ wrong -- did not recur this window.\n\nSECOND RE-CHECK CYCLE, 2026-08-27. Entries [1] and [4] are\
+    \ RETIRED and were not re-read (their retirement conditions are met and recorded). [2] and [3] re-checked;\
+    \ ONE NEW ENTRY OPENED.\n\n[2] claim: the cross-sector concordance test is PERMANENTLY UNPOWERED --\
+    \ it could not have failed\n    status: LIVE, SOURCE UNCHANGED this window. No commit in 28df7b18..fe170a3d\
+    \ touches the 08-14 or\n    08-24 documents that carry it. Re-checked by diff, not by re-reading --\
+    \ and that is recorded as the\n    method, because 'unchanged at source' and 'I did not look' leave\
+    \ the identical record otherwise.\n\n[3] claim: the locality no-go's discriminating axis is which-derivative-of-Phi,\
+    \ not kernel symmetry\n    status: LIVE and STRENGTHENED A THIRD TIME 2026-08-27, now from a fourth\
+    \ direction and by an\n    EXTERNAL source rather than an internal one. The 08-26 exploration counts\
+    \ the covariant escape\n    (Sanna-Matsakos-Diaferio 2023: epsilon becomes an independent dynamical\
+    \ field, so it is no longer a\n    local function of rho) as the FOURTH time an escape from a galaxy-sector\
+    \ obstruction has required\n    abandoning locality -- and names the Archivist-relayed 08-19 grad-Phi\
+    \ axis as one of the four.\n\n[5] claim: the galaxy sector's field equation IS Refracted Gravity (Matsakos\
+    \ & Diaferio 2016,\n    arXiv:1603.04943), C_Omega == epsilon exactly; the comparison class is RG,\
+    \ not MOND\n    relayed_in: archivist_note_2026_08_27\n    source: Synchronism explorations/2026-08-26-galaxy-field-equation-is-refracted-gravity-*.md\
+    \ +\n            Research/proposals/refracted_gravity_prior_art_and_density_lever_is_log_size_20260825.md\n\
+    \    status: UNCHECKED-AT-EXTERNAL-SOURCE. This is the register's first entry whose warrant is a paper\n\
+    \    NOBODY IN THE FLEET HAS OPENED. The identity C_Omega == epsilon was recomputed in sympy from\
+    \ forms\n    the Publisher transcribed; the algebra is verified, the TRANSCRIPTION is not. That is\
+    \ precisely the\n    verified-conclusion / refuted-warrant shape this register exists to catch, and\
+    \ it is also exactly\n    the defect web4's Publisher shipped on 2026-08-26 -- two patents cited with\
+    \ titles that are not\n    their titles. Same week, same fleet, same failure mode, and this entry\
+    \ has not yet been checked\n    against it.\n    RETIREMENT CONDITION: someone opens arXiv:1603.04943\
+    \ and confirms (a) the permittivity form and\n    (b) the fitted epsilon_0 = 0.20-0.25. Until then\
+    \ cite it as 'reported by the Synchronism track',\n    never as established prior art -- the whole\
+    \ novelty retraction and the one live external\n    discriminator both rest on it.\n"
   total_sessions: 3328
   tracks:
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
@@ -4218,32 +4298,6 @@ metadata:
     (mis-parenthesised corpus README omega vs the paper''s, validated 11/11), KROSS omega is template-derived
     and carries zero kinematic information, KS-1..3 are moot, graduation rule not met. A clean documented
     dead end, correctly registered as one.'
-  archivist_note_2026_08_26: '19th consecutive deliberate zero: 0 new Session*.md, counts unchanged at
-    BOTH refs (642 .md at top level of Research/, 649 anything starting with Session, 624 distinct numbers,
-    max 691). 6 window commits, all explorations/proposals/publisher -- the arc is AT REST and this is
-    the designed shape, not a stall.
-
-
-    THE SUBSTANTIVE EVENT IS THAT THE TRACK WITHDREW ITS OWN RESULT AND THE WITHDRAWAL MADE THE UNDERLYING
-    FINDING SHARPER (28df7b18). Its 08-23 ''the DF2 repairs invalidate C local => EFE=0 globally, so EFE=0
-    is TRIPLY compromised'' is retracted: EFE=0 follows from Phi-INDEPENDENCE (linearity of div[C grad
-    Phi] = 4 pi G rho), not from locality. Re-verified by the author at residual 2.8e-14 for an arbitrary
-    NON-local C, and by the Publisher''s grid solve at 5.6e-13 for a non-local Phi-independent C against
-    4.6e-2 for a grad-Phi-keyed one -- eleven orders apart. Named error: a SUFFICIENT condition substituted
-    for the NECESSARY one, one day after that track''s own 08-22 result had already replaced the locality
-    axis with ''which derivative of Phi''. EFE=0 is DOUBLY compromised; the two surviving legs are untouched.
-    What survives is LARGER than what was withdrawn -- the DF2 repairs abandon C=C(rho) itself, the sector''s
-    constitutive posit, which is a worse defect correctly found and mis-located.
-
-
-    And the new frame subsumes it: the galaxy sector silently runs THREE coherence functions -- C_rho
-    (keyed on rho; novelty EFE=0; refuted head-to-head at dBIC +2843, gamma -> 0.046, i.e. the density
-    dependence switched off), C_g (keyed on g_obs, implicit; novelty q=2gamma; the actual fitted numbers),
-    C_Omega (the ceiling; novelty bounded boost) -- each refuted by exactly its own distinguishing feature.
-    So ''six refutations of the galaxy sector'' was always the wrong frame: they attach to three different
-    models and the LARGEST COHERENT SUB-LEDGER IS 2. At gamma=1/2 the external field effect is MOND''s
-    identically to 1.1e-16 over six decades, which removes the last structural difference and retires
-    the a0 factor-2 anomaly (a0 = g_dagger/2). Bucket 0 = 0.'
 open_questions:
 - id: OQ001
   notes: Chemistry track derived γ = 2/√N_corr but origin of N_corr→1 for classical systems unclear
@@ -4271,7 +4325,7 @@ statistics:
   active_arcs: 1
   alfalfa_sdss_milestone: 'Sessions #590-603 - ALFALFA-SDSS External Validation COMPLETE: Grand Synthesis
     #600. Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy. Two papers ready.'
-  as_of: '2026-08-26T09:30:00Z'
+  as_of: '2026-08-27T09:30:00Z'
   biophysics_milestone: 'Session #355 - Biophysics Arc COMPLETE: 32/32 verified. Life exploits γ~1 boundary!
     287/287 total across 11 arcs!'
   bsm_milestone: 'Session #323 - BSM Arc COMPLETE: GUTs, SUSY, Extra Dimensions, Hierarchy Problem analyzed
@@ -4331,7 +4385,7 @@ statistics:
     delta out of the record.'
   cosmology_2_milestone: 'Session #335 - Cosmology Arc 2.0 COMPLETE: 32/32 verified. Horizons, inflation,
     dark energy, multiverse!'
-  deliberate_zero_streak: 19
+  deliberate_zero_streak: 20
   disambiguation_milestone: 'Session #572 - γ ≡ R given V. R²=0.9999 is identity/tautology, not predictive
     power. Self-correction.'
   emergence_milestone: 'Session #339 - Emergence Arc COMPLETE: 32/32 verified. Life, complexity, evolution,
