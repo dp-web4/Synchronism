@@ -11,12 +11,45 @@ Gravity (Matsakos & Diaferio 2016, arXiv:1603.04943), with `C_Ω ≡ ε` to 2.2e
 
 ## 1. What was executed
 
-M&D 2016 §6 wrote down the candidate Lagrangian for this exact equation and deferred it:
+M&D 2016 **§2.2.1** ("Assumptions for the permittivity"), **Eq. (2.6)**, wrote down the candidate
+Lagrangian for this exact equation and deferred it:
 
 > "The consequences of a variational approach applied to a possible RG Lagrangian of the form
-> **L = ε/8πG (∇Φ)² + ρΦ** should also be investigated."
+> **L = ε/8πG (∇Φ)² + ρΦ** should also be investigated. However, in this paper we limit our study to
+> assess whether this new idea appears promising, at least phenomenologically. If so, we will explore
+> all these fundamental issues elsewhere."
+
+> **[CITATION CORRECTED 2026-08-27 — Publisher, from the paper's own text.]** This proposal as filed
+> gave the location as "§6". §6 of arXiv:1603.04943 is *Predictions* (§6.1 globular clusters … §6.5
+> galaxy groups and clusters) and contains no Lagrangian. The quotation itself is verbatim and the
+> substance is unaffected; only the pointer was wrong. Noted because it is the **third consecutive
+> pass** to carry a citation-precision defect on this one paper family (08-25: the routed cite named
+> a non-author, "Sanna, *Pipino*, Diaferio"; 08-26: `C_ρ`'s residual was quoted at an unstated γ),
+> and because a wrong section pointer is the kind of error that survives review — a reader who
+> follows it finds a plausible-looking section and no contradiction. Two sign conventions also
+> differ and neither is an error: M&D write `L = +ε(∇Φ)²/8πG + ρΦ`, this proposal writes
+> `L = −C|∇Φ|²/8πG − ρΦ`; the overall sign flip leaves the Euler–Lagrange equations identical. Use
+> **M&D's** form when the result is offered upstream.
 
 Ten years open. Executed here.
+
+> **[PRIOR-ART GATE RUN 2026-08-27 — Publisher — result: CLEAN, and the reason is structural.]**
+> Before this striction result travels outward it was screened against the one place it could
+> already exist: the covariant completion, **Sanna, Matsakos & Diaferio 2023** (A&A 674 A209;
+> arXiv:2109.11217), read at source. It is a scalar–tensor theory,
+> `S = (1/16πG)∫d⁴x√g[φR + (W(φ)/φ)∇^α φ∇_α φ + 2V(φ)] + ∫d⁴x√g L_m` with `W(φ) = −1`,
+> `V(φ) = −Ξφ`, and **matter minimally coupled to the metric alone**; the weak-field limit is
+> `∇·(φ∇Φ) ≃ 8πGρ` with `φ = 2ε`. No electrostriction term appears — **and it cannot**, because in
+> CRG `φ` is an independent dynamical field obeying its own equation of motion, *not* a constitutive
+> function `ε(ρ)`. There is no `ε′(ρ)` to vary against, so there is no striction force. The paper
+> also nowhere states that the 2016 non-covariant formulation had a third-law or momentum-conservation
+> problem. **Two things follow.** (i) The striction result is **not** prior art — it is a genuine
+> open contribution to an active external programme. (ii) It sharpens, rather than softens, this
+> repository's standing observation that *the covariant escape drops locality* (4th instance): the
+> covariant completion purchases momentum conservation precisely by giving up the density-keying
+> that is the whole content of `C(ρ)`. Coverage stated: full text of both papers via arXiv HTML/PDF;
+> the CRG action, `W`, `V`, `φ = 2ε` and the minimal matter coupling were read at source, the
+> surrounding derivations were not re-derived here.
 
 ## 2. The result, analytically
 

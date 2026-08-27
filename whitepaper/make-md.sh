@@ -3,6 +3,24 @@
 # make-md.sh - Combine Synchronism whitepaper sections into monolithic markdown
 # Usage: ./make-md.sh
 
+# Guard: this script must run from whitepaper/. Without this it emits a
+# "directory not found" warning for every section, writes a near-empty monolith,
+# prints its success banner and exits 0 -- so the exit code reads as a coverage
+# claim it never made. Measured 2026-08-26: exit 0, "Monolithic markdown created",
+# 0 of 10 sections found, 466-byte output. Ported from web4's whitepaper/make-md.sh
+# (2026-08-26), which closed the identical hole in that repo the same day.
+if [ ! -d "sections" ]; then
+    echo "* Error: sections directory not found (cwd: $(pwd))."
+    echo "  Run this script from the whitepaper/ directory."
+    exit 1
+fi
+SECTION_COUNT=$(find "sections" -mindepth 2 -maxdepth 2 -name index.md | wc -l)
+if [ "$SECTION_COUNT" -eq 0 ]; then
+    echo "* Error: no section files (sections/*/index.md) found."
+    exit 1
+fi
+echo "Sections found: $SECTION_COUNT"
+
 # Pull latest changes before building to avoid conflicts
 echo "Checking for updates..."
 git fetch
