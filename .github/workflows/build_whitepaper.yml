@@ -49,38 +49,21 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
           
-      - name: Create CI-safe build scripts
-        working-directory: ./whitepaper
-        run: |
-          # Create CI versions by copying real scripts and removing git operations
-          
-          # CI version of make-md.sh - remove git operations (lines 6-29)
-          sed '6,29d' make-md.sh > make-md-ci.sh
-          chmod +x make-md-ci.sh
-          
-          # CI version of make-pdf.sh - remove git operations (lines 6-29) and update TOC depth
-          sed '6,29d' make-pdf.sh | sed 's/--toc-depth=3/--toc-depth=2/' > make-pdf-ci.sh
-          chmod +x make-pdf-ci.sh
-          
-          # CI version of make-web-clean.sh - remove git operations (lines 7-29)
-          sed '7,29d' make-web-clean.sh > make-web-ci.sh
-          chmod +x make-web-ci.sh
-          
       - name: Build Markdown Version
         working-directory: ./whitepaper
-        run: bash make-md-ci.sh
+        run: bash make-md.sh
           
       - name: Build PDF Version
         working-directory: ./whitepaper
         run: |
           echo "Building PDF version..."
-          bash make-pdf-ci.sh || echo "PDF build had issues, continuing..."
+          bash make-pdf.sh || echo "PDF build had issues, continuing..."
           
       - name: Build Web Version
         working-directory: ./whitepaper
         run: |
           echo "Building Web version..."
-          bash make-web-ci.sh
+          bash make-web-clean.sh
           
       - name: Upload Markdown Artifact
         uses: actions/upload-artifact@v4
