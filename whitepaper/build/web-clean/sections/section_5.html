@@ -3589,7 +3589,22 @@ framework’s baseline error exceeds the entire effect being measured by
 the grid still gives 37.8×. MOND on the same points and the same
 pipeline sits at +0.002 to +0.084 dex, i.e. <em>inside</em> the signal.
 <strong>The correct badge for EFE = 0 against this dataset is
-<code>not-evaluable</code> — neither confirmed nor refuted.</strong></p>
+<code>not-evaluable</code> — neither confirmed nor refuted.</strong>
+<em>[Keying note, 2026-08-28: the table above uses
+<code>ρ_crit = 0.029·V_flat²</code>, which is the compilation-layer law;
+the primary, Session 53 (lines 55–62), derives <code>A = 0.028</code>
+for <code>ρ_crit = A·V^0.5</code>, and S687 (2026-06-07) already
+recorded that the coefficient “outlived its V^0.5 source computation”.
+Under the primary’s law <code>ρ_crit</code> falls by <code>V^1.5</code>
+≈ 2.4–2.8×10³ at these two galaxies, so <code>x</code> rises by the same
+factor while remaining ≪ 1, <code>C ∝ x</code> still holds, and the
+baseline falls by ~1.7 dex — to roughly +1.4 to +2.5 dex, still ≥ 17×
+the 0.046–0.083 dex signal. <strong>The <code>not-evaluable</code>
+verdict is convention-independent; the 38×–92× figures are
+convention-keyed.</strong> The velocity exponent itself was measured on
+SPARC on 2026-08-27 — <code>ρ_crit ∝ V^(−0.16 ± 0.19)</code>,
+i.e. neither law — see PREDICTIONS.md (ρ_crit(V) row, restated
+2026-08-28).]</em></p>
 <p><strong>This cuts both ways, and both directions were live in this
 repo.</strong> The 08-03/08-04 text overclaimed <em>testability</em>
 (“sharper,” “in tension with”); a same-day research-lane note in the
@@ -3938,16 +3953,40 @@ whatever its value. Deriving a universal <code>ε₀</code> would be a
 genuine parameter-economy gain over RG <em>if it fit</em>; on RG’s own
 published numbers it does not, and this was legible in the same paper
 whose identification was the 08-26 headline.</li>
-<li><strong>It is not a new refutation — it is the bounded-boost
-inequality again, by a third route.</strong> <code>1/ε₀</code> is the
-maximum boost. RG’s fits demand <code>4.0, 5.0, 6.0, 15.4, 22.2</code>
-where this framework’s ceiling is <code>1/Ω_m = 3.17</code>: the ceiling
-is below RG’s <strong>entire</strong> fitted range, spirals included.
-That is TEST-09/TEST-10’s inequality (<code>B ≤ 1/Ω_m</code> binds)
-sourced from published fits rather than SPARC — a <strong>third
-independent route</strong> to the standing 6→5 count collapse (with
-2026-08-08 and 2026-08-25), not a seventh refutation. Refutation count
-<strong>HELD at 6</strong>.</li>
+<li><strong>It is not a new refutation — and the “third route” claimed
+here on 08-27 is narrower than it was written.</strong>
+<code>1/ε₀</code> is the maximum boost. RG’s M&amp;D 2016 fits demand
+<code>4.0, 5.0, 6.0, 15.4, 22.2</code> where this framework’s ceiling is
+<code>1/Ω_m = 3.17</code>. <strong>[CORRECTED 2026-08-28 — the 08-27
+sentence “the ceiling is below RG’s <strong>entire</strong> fitted
+range, spirals included” was true of M&amp;D 2016 only, and it was
+written while the second RG-fit paper stood flagged UNREAD. Cesare,
+Diaferio, Matsakos &amp; Angus 2020 (A&amp;A 637 A70; arXiv:2003.07377),
+now read in full: 30 DiskMass galaxies fit per galaxy give
+<code>ε₀ = 0.56 ± 0.19</code> (Table 2; mean uncertainty 0.16), and the
+paper’s own universal combination (§5, MCMC over the sample at fixed Υ,
+h_z) gives <code>ε₀ = 0.661 ± 0.007</code>, <code>Q = 1.79</code>,
+<code>log₁₀(ρ_c/g cm⁻³) = −24.54</code> — demands of only
+<code>1.3–2.7</code>, all <em>below</em> 3.17. So RG’s fitted floor
+spans <strong>0.045–0.66 (16.7×) across its own literature and brackets
+0.315</strong>: five M&amp;D systems demand more boost than the ceiling
+allows, four DiskMass statistics demand less. The inequality
+<code>B ≤ 1/Ω_m</code> is therefore sourced here from M&amp;D’s four
+systems, not from “RG’s entire range”; as a route to the 6→5 collapse it
+survives only in that weaker form. What Cesare+2020 adds instead is a
+<strong>dilemma</strong> for the derived floor: if <code>ε₀</code> is
+universal, the DMS universal fit excludes 0.315 at 49σ formal
+(statistical only, fixed Υ/h_z); if it is not universal, a floor derived
+from <code>Ω_m</code> is not the object RG fits. And Cesare+2020 §6
+finds that RG with its own fitted floor <em>under</em>-predicts the RAR
+by 0.1–0.3 dex at low <code>g_bar</code> — the bounded-boost failure
+class, already in the prior art.
+<code>simulations/publisher_20260828_cesare2020_floor_brackets_and_rho_crit_exponent.py</code>,
+exit 0.]</strong> That is TEST-09/TEST-10’s inequality
+(<code>B ≤ 1/Ω_m</code> binds) sourced from published fits rather than
+SPARC — a route to the standing 6→5 count collapse (with 2026-08-08 and
+2026-08-25) on M&amp;D’s systems, not a seventh refutation. Refutation
+count <strong>HELD at 6</strong>.</li>
 </ul>
 <p><strong>What the discriminator actually is, restated.</strong> The
 08-26 form — “a live external discriminator gating on execution” — is
@@ -3959,7 +3998,12 @@ What genuinely gates on execution is narrower and worth doing: RG’s
 of whether the derived floor survives, and Cesare et al. 2020’s 30
 DiskMass galaxies are the right sample because vertical dispersions are
 RG’s own method. Stated as a proposal, not a result: nothing has been
-refit here. <em>(Verified:
+refit here. <em>[2026-08-28: the paper is now read and the prior
+expectation for that refit is known — Cesare+2020’s own joint fit
+prefers <code>ε₀ = 0.661 ± 0.007</code> on this sample with
+<code>ρ_c, q</code> free, so a refit pinned at 0.315 starts 49σ (formal)
+from their optimum; the honest statistic is the Δχ² of the pinned fit,
+and that is still unrun.]</em> <em>(Verified:
 <code>simulations/publisher_20260827_rg_floor_is_not_universal.py</code>,
 exit 0 — including the identity <code>C_Ω ≡ ε</code> re-checked against
 the <strong>verbatim</strong> Eq. (4.1) rather than the relayed form,

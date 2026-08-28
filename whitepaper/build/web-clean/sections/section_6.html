@@ -484,8 +484,14 @@ kpc, V_flat = 150.1 km/s;
 <td>ℓ in <strong>both</strong> ρ and ρ_crit</td>
 <td><code>x = (3/16π²)·β_J²·[V_c(ℓ)/V]²</code> — <strong>ℓ
 cancels</strong></td>
-<td>x ≤ 0.019 β_J² (0.023 at β_J = 1.1)</td>
-<td><strong>no</strong>, by ~40×, in every sector at every ℓ</td>
+<td>x ≤ 0.019 β_J² (0.023 at β_J = 1.1) — <strong>4π-form</strong>; the
+primary’s form (S53 line 62, <code>A = 1/(Gα²R₀²)</code>, no 4π) gives x
+≤ 0.24 β_J² (0.29 at 1.1) <em>[corrected 2026-08-28]</em></td>
+<td><strong>no</strong> by ~40× on the 4π form; <strong>only
+~3.5×</strong> on the primary’s form — and a real disc’s central
+midplane density exceeds its mean-in-R_half density by 21–47× (≈5× at
+R_half), so on the primary’s form the crossing is
+<strong>estimator-dependent, not settled by margin</strong></td>
 </tr>
 <tr class="even">
 <td>ℓ in <strong>ρ only</strong>, ρ_crit set by galaxy size (S53’s
@@ -517,8 +523,15 @@ site repo on 2026-08-05
 independently re-derived here 2026-08-07. Under the two-sided convention
 there is <strong>no ℓ-dependence to compare across sectors</strong>: x
 is a virial ratio, capped at ~0.02 for every gravitationally bound
-system, and the Cassini bound is ℓ-independent (TEST-11 is strengthened,
-not reopened). <strong>There is no parameter-free obstruction on the
+system <em>[qualified 2026-08-28: ~0.02 is the 4π form; on the primary’s
+form the cap is ~0.24–0.29, a 3.5× shortfall — the ℓ-independence is
+unaffected, the margin is. The 4π entered from the compilation chain
+(<code>A = 4π/(α²GR₀²)</code>, session67), not from Session 53, which
+computed <code>A = 0.028</code> without it; the site explorer flagged
+this 2026-08-27 and it is reproduced in
+<code>simulations/publisher_20260828_cesare2020_floor_brackets_and_rho_crit_exponent.py</code>]</em>,
+and the Cassini bound is ℓ-independent (TEST-11 is strengthened, not
+reopened). <strong>There is no parameter-free obstruction on the
 coarse-graining axis, and no ℓ-discriminator to register.</strong> What
 remains open is narrower and prior: <strong>the framework must state
 which of the three conventions <code>C(ρ)</code> means.</strong> It
