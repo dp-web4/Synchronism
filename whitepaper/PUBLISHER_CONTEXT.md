@@ -956,6 +956,8 @@ For minor changes (typos, statistics updates):
 
 ## 10. Current State Summary
 
+> **⚠ Staleness notice (added 2026-08-28, manual pass):** the table below is headed *as of 2026-05-24* and has not moved since, while the lane has committed daily. Its core count (663) is **27 sessions behind** the paper itself — the executive summary and conclusion both read **690 core** (`~3,386 sessions: 690 core + 2,679 chemistry + 17 gnosis`) and agree with each other. Until this section is rewritten, treat the paper's own status line and `manuscripts/publisher/state/whitepaper_sync.json` (`sessions_reviewed_through`, `last_integration`) as the authoritative current state, not this table. Left in place rather than rewritten because the table's narrative cells are integration history, not a count, and rewriting them here would be inventing; the counts are what is stale.
+
 ### Session Counts (as of 2026-05-24)
 
 | Track | Sessions | Latest |
