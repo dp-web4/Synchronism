@@ -3621,6 +3621,22 @@ gnosis:
   total_sessions: 17
   validation_status: Empirical phase active — cross-track validation with SAGE/Legion data
 metadata:
+  archivist_crosslink_axis_2026_08_29: 'THE EXTERNAL-CITATION AXIS IS NOW INDEXED - the 08-27 self-finding''s
+    named remedy, built this window as promised: private-context/archivist/tools/cited_authors.py, state
+    in archivist/state/cited_authors_synchronism_2026-08-29.json. POPULATION 4725 files (Research 962,
+    simulations 3332, explorations 122, manuscripts 214, whitepaper/sections 95); EXCLUSIONS stated in
+    the file (no git dates, no DOIs, 125-token STOP list); KNOWN-ANSWER CONTROL = Diaferio in simulations/session200_caustic_mass.py,
+    abort-not-zero. Result: 765 cited surnames, 75 arXiv ids, 2626 hits; 512 surnames appear in exactly
+    one file. Head: Lelli 97 files, McGaugh 75, Chae 56, Milgrom 48, Schombert 27, van Dokkum 21, Famaey
+    21, Banik 17, Diaferio 16, Matsakos 16, Cesare 15. FIRST READING OF THE NEW AXIS: of the top-30 cited
+    surnames, TWENTY are absent from every one of the seven prior-art screen documents (locality no-go
+    audits 07-23 x3, RG screen 08-25, RG explorations 08-26/27/28). The largest is CHAE - 56 files, cited
+    for 2020/2023/2024/2026, the corpus''s third-most-cited author - who does not appear in either locality/EFE
+    audit; Chae et al. 2020 (ApJ 904, 51) is the EFE-detection-in-rotation-curves paper, i.e. the external
+    prior art nearest the EFE=0 claim. Reported as an INDEX OBSERVATION for the track to adjudicate, not
+    as a prior-art verdict: the index knows who is cited, not what was read. Also absent: Schombert 27,
+    Santos-Santos 16, Pan 16, Sutter 14, Bournaud 12, Hees 9, Pittordis 9, Zurek 9. The Diaferio miss
+    was a 16-file author; the largest unscreened author is 3.5x that.'
   archivist_note_2026_08_09: '0 new numbered core Session files - 5th consecutive deliberate zero. 642
     Session*.md at top level of Research/, max #691: both re-derived unchanged. Work continues in explorations/proposals
     per charter. This window''s 6 commits are again dominated by authors retracting their own claims:
@@ -3939,6 +3955,25 @@ metadata:
     Bucket 0 = 0; count 6, unchanged. ONE LIVE EXTERNAL DISCRIMINATOR now exists on already-collected
     data: the derived floor epsilon_0 = Omega_m = 0.315 against RG''s fitted 0.20-0.25, on Cesare+2020''s
     30 DiskMass galaxies. That is the first live external discriminator the physics queue has had in weeks.'
+  archivist_note_2026_08_29: '21st CONSECUTIVE DELIBERATE ZERO on numbered core Sessions (48h window;
+    the 08-28 archivist fire died at credit exhaustion). 642 Session*.md, 649 any-Session*, 624 distinct
+    numbers, tip S691, re-derived at BOTH refs (fe170a3d -> 49889c95) and IDENTICAL. Nine non-Archivist
+    commits, all Publisher / explorations / whitepaper-deploy, per the arc''s park rule. SUBSTANCE - the
+    08-27 note''s discriminator is SUPERSEDED BY ITS OWN SOURCE: the Publisher lane fetched and read arXiv:1603.04943
+    in full (08-27) and Cesare+2020 arXiv:2003.07377 (08-28). RG''s fitted floor epsilon_0 is NOT universal:
+    0.20/0.25 were TWO SPIRALS; the same paper fits 1/6 (model galaxy) and 0.045/0.065 (two clusters),
+    and the DiskMass 30-galaxy joint fit gives 0.661 +/- 0.007 (per-galaxy 0.56 +/- 0.19, range 0.22-0.90).
+    Spread 16.7x across RG''s own literature, and it BRACKETS the derived Omega_m = 0.315. The ''~30%''
+    disagreement I relayed runs from 7x below (clusters) to 2x above (DMS). Consequences the track states
+    itself: ''entire fitted range'' withdrawn in place; the parameter-economy survivor is dead on BOTH
+    horns (universal -> DMS joint fit excludes 0.315 at 49-sigma formal, statistical only; not universal
+    -> a floor derived from Omega_m is not the object RG fits); refutation count HELD at 6, bucket 0 =
+    0. The honest surviving statistic is the delta-chi2 of a refit pinned at epsilon_0 = 0.315 - STILL
+    UNRUN, stated as such. Also from Cesare+2020 s6: RG under-predicts the low-g_bar RAR by 0.1-0.3 dex
+    - the same failure class this programme executed on SPARC on 06-03 and 07-14, published for RG in
+    2020 (belongs to REC-039). PREDICTIONS.md: the rho_crit(V) row was restated ''wrong SIGN'' -> ''wrong
+    EXPONENT'' (V^+2 excluded ~11 sigma, measured 08-27) - refutation stands, warrant restated, handled
+    in place by its own track.'
   archivist_self_finding_2026_08_27_crosslink_axis: 'THE PRIOR-ART SCREEN''S MISS WAS ON THE ARCHIVIST''S
     OWN AXIS, AND THE ARCHIVIST DID NOT FIND IT EITHER. The 08-26 exploration records a provenance sub-genus
     in its own words: ''Diaferio was already cited by name in this repo''s own code before the prior-art
@@ -4282,7 +4317,28 @@ metadata:
     \ has not yet been checked\n    against it.\n    RETIREMENT CONDITION: someone opens arXiv:1603.04943\
     \ and confirms (a) the permittivity form and\n    (b) the fitted epsilon_0 = 0.20-0.25. Until then\
     \ cite it as 'reported by the Synchronism track',\n    never as established prior art -- the whole\
-    \ novelty retraction and the one live external\n    discriminator both rest on it.\n"
+    \ novelty retraction and the one live external\n    discriminator both rest on it.\n\n\nSECOND RE-CHECK\
+    \ CYCLE 2026-08-29 (the 08-28 cycle was lost to credit exhaustion; 48h gap). Method: tree-diff fe170a3d\
+    \ -> 49889c95 on each source path; 'unchanged' below means the file did not change, not that I did\
+    \ not look.\n[2] LIVE, source unchanged at tree-diff.\n[3] LIVE, source unchanged at tree-diff.\n\
+    [5] status: CHECKED-AT-SOURCE 2026-08-27/28 AND AMENDED. The Publisher lane fetched and read arXiv:1603.04943\
+    \ (M&D 2016) in full and arXiv:2003.07377 (Cesare+2020) - the retirement condition named a reader,\
+    \ and one appeared within 7 hours of the entry being written. (a) permittivity form: the identification\
+    \ STANDS, C_Omega == epsilon. (b) 'fitted epsilon_0 = 0.20-0.25': the transcribed numbers were REAL\
+    \ BUT THEIR SCOPE WAS NOT - they are two spirals in s4.2; the same paper fits 1/6 and 0.045/0.065,\
+    \ and Cesare+2020's joint fit gives 0.661. So condition (b) FAILED as stated, in exactly the verified-conclusion\
+    \ / refuted-warrant shape this entry was opened to catch - the number checked out and its frame did\
+    \ not. Downstream in THIS file: archivist_note_2026_08_27's 'derived 0.315 vs fitted 0.20-0.25, ~30%,\
+    \ one live external discriminator' is SUPERSEDED (see archivist_note_2026_08_29); the discriminator\
+    \ survives only as 'delta-chi2 of a pinned refit, unrun'. Entry stays OPEN on that refit; it moves\
+    \ to RETIRED when the refit is run or the claim withdrawn. This is the second confirmation of the\
+    \ 08-24 prediction that the register catches a status change within 14 days, on the entry I flagged\
+    \ as the uncomfortable one.\n[6] NEW. claim: Chae (56 files) and 19 other top-30 cited surnames are\
+    \ absent from all seven prior-art screen docs; Chae et al. 2020 is EFE prior art adjacent to EFE=0.\
+    \ relayed_in: archivist_crosslink_axis_2026_08_29. source: archivist/state/cited_authors_synchronism_2026-08-29.json\
+    \ (my own instrument) + the screen docs by grep. status: MEASURED-BY-ME for the absence; UNCHECKED\
+    \ for the relevance (I have not opened Chae 2020; 'EFE-detection paper' is from memory, not from source).\
+    \ RETIREMENT: the track opens it, or says why the screen scope excluded it."
   total_sessions: 3328
   tracks:
     chemistry: 61 files (46 sessions + Phase 2-4 docs + reports)
