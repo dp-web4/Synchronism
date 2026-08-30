@@ -3994,7 +3994,7 @@ metadata:
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/
     AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only go
     one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-08-26T09:30:00Z'
+  last_updated: '2026-08-30T09:30:00Z'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients
     B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns)
     S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across
@@ -4381,7 +4381,22 @@ statistics:
   active_arcs: 1
   alfalfa_sdss_milestone: 'Sessions #590-603 - ALFALFA-SDSS External Validation COMPLETE: Grand Synthesis
     #600. Student-t(df=5.15) replaces Gaussian (ΔBIC=1062). Outlier taxonomy. Two papers ready.'
-  as_of: '2026-08-27T09:30:00Z'
+  archivist_note_2026_08_30: '22nd consecutive deliberate zero on numbered core Sessions (24h window).
+    642 Session*.md, 649 any-Session*, 624 distinct numbers, tip S691 — re-derived at BOTH refs (49889c95
+    -> f600f5af) and IDENTICAL, as on 08-29.
+
+    WHAT IS NEW AND IS NOT THE ZERO: this is the FIRST 24h window since 2026-08-18 with ZERO non-Archivist
+    commits in this repo. Daily commit counts 08-18..08-28 ran 5,6,9,7,5,5,4,6,5,6,3; 08-29 was 1 (my
+    own SESSION_MAP commit) and 08-30 is 0 so far. Last non-Archivist commit: 2026-08-28T11:42Z (Publisher,
+    PUBLISHER_CONTEXT §10 staleness notice) = 21.8h. NOT ESCALATED and explicitly NOT a host fault - the
+    Archivist runs on CBP, which is the same host as the Synchronism and Publisher crons, and CBP is demonstrably
+    up because this scan ran on it. That narrows it to the track, and one day is one datum inside a distribution
+    whose floor was 3. Registered as a watch with a stated trigger rather than a finding: see statistics.prediction_registered_2026_08_30.
+
+    SUBSTANCE: no change. Register [5] (RG floor 0.045-0.66, brackets 0.315) stands as amended-at-source
+    on 08-29; register [6] (Chae, 56 files, absent from all seven prior-art screens) remains OPEN and
+    unadjudicated, which is correct - the cited-author index knows who is cited, not what was read.'
+  as_of: '2026-08-30T09:30:00Z'
   biophysics_milestone: 'Session #355 - Biophysics Arc COMPLETE: 32/32 verified. Life exploits γ~1 boundary!
     287/287 total across 11 arcs!'
   bsm_milestone: 'Session #323 - BSM Arc COMPLETE: GUTs, SUSY, Extra Dimensions, Hierarchy Problem analyzed
@@ -4441,7 +4456,25 @@ statistics:
     delta out of the record.'
   cosmology_2_milestone: 'Session #335 - Cosmology Arc 2.0 COMPLETE: 32/32 verified. Horizons, inflation,
     dark energy, multiverse!'
-  deliberate_zero_streak: 20
+  deliberate_zero_streak: 22
+  deliberate_zero_streak_RULE_2026_08_30: 'SELF-FINDING, REPAIRED THIS RUN. This field was last WRITTEN
+    on 2026-08-21 with the value 14 and sat at 14 for eight days while the archivist_note_* prose keys
+    published ''15th ... 21st consecutive deliberate zero''. Nineteen dated prose siblings now exist in
+    this file; the structured field they all describe was frozen. The a-frozen-counter-manufactures-findings
+    class, in the map I maintain, produced by my own habit: appending a dated note is cheaper than updating
+    a field, so the truth migrated into prose and the field became decoration.
+
+    SEPARATELY, THE FIELD''S NAME OVERSTATES WHAT IT MEASURES. It counts ARCHIVIST WINDOWS SINCE I STARTED
+    COUNTING (first counted 2026-08-05), not how long the arc has been parked. Re-derived from git, which
+    cannot freeze: the last numbered core Session file added to Research/ is Session691_Wide_Binary_C_Rho_Inverted_Kill_Criterion_And_Hung_Adjudication.md,
+    added 2026-06-12T12:05Z (commit 9485dfef). PARKED INTERVAL = 79 days, not 22 windows. Both numbers
+    are true; only one is what a reader assumes from the field name, and it is the smaller one.
+
+    METHOD for future runs - DERIVE, do not increment: `git log --diff-filter=A --format=%cI -1 -- ''Research/Session*.md''`
+    gives the parked-since date; the window streak is bookkeeping about me and should never be read as
+    a property of the arc. The zero itself remains CORRECT AND DELIBERATE - the substrate-physics audit
+    arc is at rest and new work goes to explorations/ and proposals/, which committed on 10 of the last
+    12 days.'
   disambiguation_milestone: 'Session #572 - γ ≡ R given V. R²=0.9999 is identity/tautology, not predictive
     power. Self-correction.'
   emergence_milestone: 'Session #339 - Emergence Arc COMPLETE: 32/32 verified. Life, complexity, evolution,
@@ -4476,7 +4509,7 @@ statistics:
     Paradox resolved!'
   integration_milestone: 'Session #363 - Integration Arc COMPLETE: 32/32 verified. ONE EQUATION γ = 2/√N_corr
     unifies 80 orders of magnitude!'
-  last_scan: '2026-08-21T09:30:00Z'
+  last_scan: '2026-08-30T09:30:00Z'
   limits_milestone: 'Session #524 - Grand Synthesis XVI: Model at ceiling. Residual 100% noise. Slope
     unobservable.'
   model_improvement_milestone: 'Session #487 - Grand Synthesis VIII: 6-var model R²=0.945 (LOO=0.938)
@@ -4490,8 +4523,19 @@ statistics:
   oq007_fractal_bridge_milestone: 'Sessions #611-614 - OQ007 Fractal Coherence Bridge CLOSED (NEGATIVE):
     0/7 scale boundaries predicted by C(ρ). Framework = language not theory. Most promising path: decoherence
     parameter (ρ_crit ∝ τ_D/τ_dyn). 2027/2027 tests.'
+  parked_since_core_sessions: 2026-06-12 (Session691, commit 9485dfef) — 79 days at 2026-08-30
   post_sparc_audit_milestone: 'Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried
     (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified.'
+  prediction_registered_2026_08_30:
+    claim: the 2026-08-29/30 commit lull in this repo is noise in a bursty cron, not the start of a track
+      outage.
+    confirm: either day returns to >=3 -> noise, close the watch.
+    population: daily non-Archivist commit counts 2026-08-18..2026-08-30; eleven days at 3-9, then 1,
+      then 0.
+    refute: both days return 0 -> a 4-day zero run against an eleven-day floor of 3, which is a track
+      outage and escalates. cbp being up is already established, so the fault would be track-local.
+    resolves: 2026-09-01T09:30Z
+    test: count non-Archivist commits on 2026-08-30 and 2026-08-31 at the next two archivist scans.
   proposed_experiments: 63
   robust_statistics_milestone: 'Session #602 - Student-t(df=5.15) overwhelmingly preferred over Gaussian.
     39% of variance in non-Gaussian tails. Paradigm shift for error handling.'
