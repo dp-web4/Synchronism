@@ -3861,8 +3861,12 @@ propagating scalar mode exists to modify tensor dispersion — and the
 correct statement is <em>“C has no kinetic term,”</em> not <em>“the
 framework has no action principle.”</em> Back-annotated to the executive
 summary and conclusion rather than left at the source, because this lane
-has now twice measured that corrections do not propagate on their
-own.</p>
+has now twice measured that corrections do not propagate on their own.
+<strong>[2026-08-29: L2 has since been solved on 153 real SPARC discs
+(site explorer 2026-08-28; reproduced in this repository) — on discs L2
+≠ L3, <code>B_L2/B_L3</code> median 1.12–1.41 at the framework’s own
+parameters, and L2 fits <em>worse</em> than L3 (χ²/N 334 vs 166 at γ =
+0.489). See the 2026-08-29 amendment below.]</strong></p>
 <p><strong>[AMENDED 2026-08-26] The field equation introduced above is
 published, and has been since 2016: it is Refracted Gravity. The
 sector’s bounded boost is that theory’s fitted floor parameter, its
@@ -4007,24 +4011,35 @@ and that is still unrun.]</em> <em>(Verified:
 <code>simulations/publisher_20260827_rg_floor_is_not_universal.py</code>,
 exit 0 — including the identity <code>C_Ω ≡ ε</code> re-checked against
 the <strong>verbatim</strong> Eq. (4.1) rather than the relayed form,
-sympy zero in both log bases, numeric max 2.2×10⁻¹⁶.)</em></p>
+sympy zero in both log bases, numeric max 2.2×10⁻¹⁶.)</em>
+<em>[2026-08-29: the rotation-curve-only cousin of this refit has now
+been run — under L2 on 153 SPARC discs the free floor lands at
+0.20–0.25, 25–35% below the derived 0.315 and where M&amp;D’s two
+spirals put it; see the 2026-08-29 amendment below. The DiskMass refit
+itself, with vertical dispersions, is still unrun.]</em></p>
 <p><strong>The covariant branch is published too, and the citation as
 routed is wrong.</strong> The covariant formulation is <strong>Sanna,
 Matsakos &amp; Diaferio 2023</strong> (A&amp;A <strong>674</strong>,
 A209; arXiv:2109.11217) — scalar–tensor, with <code>φ</code> twice the
 permittivity in the weak field, verified at source. The routing note
 gives “Sanna, Pipino, Diaferio et al.”; <strong>Pipino is not an author
-on that paper</strong> (he is on the 2022 E0-galaxy study), corrected
-here. And <strong>not in either source, surfaced by this lane’s own
-gate</strong>: Gervani, Diaferio, Pace &amp; Sanna 2026
-(arXiv:2601.22937) integrate the linear perturbations of a Brans–Dicke
-theory that “in the weak-field limit reduces to Refracted Gravity,” with
-baryons alone and neither dark matter nor dark energy, and find
-<strong>structure formation delayed to z &lt; 1, in disagreement with
-the observation of formed galaxies at much larger redshifts.</strong>
-That is a published cosmological verdict on the same covariant branch
-§5.15 below constructs as <strong>Completion B</strong> and
-independently excludes at Δχ² ≥ +79 against DESI DR2 + CMB + SN.</p>
+on that paper</strong>, corrected here <strong>[and the parenthetical
+that stood here — “he is on the 2022 E0-galaxy study” — was itself
+written from memory and is WRONG: the E0 study (Cesare, Diaferio &amp;
+Matsakos, A&amp;A 657 A133, arXiv:2102.12499) has three authors and
+Pipino is on no refracted-gravity paper indexed by arXiv (author-list
+query 2026-08-29, 0 hits). A correction that mis-cites is the same
+defect it corrects; withdrawn 2026-08-29.]</strong> And <strong>not in
+either source, surfaced by this lane’s own gate</strong>: Gervani,
+Diaferio, Pace &amp; Sanna 2026 (arXiv:2601.22937) integrate the linear
+perturbations of a Brans–Dicke theory that “in the weak-field limit
+reduces to Refracted Gravity,” with baryons alone and neither dark
+matter nor dark energy, and find <strong>structure formation delayed to
+z &lt; 1, in disagreement with the observation of formed galaxies at
+much larger redshifts.</strong> That is a published cosmological verdict
+on the same covariant branch §5.15 below constructs as
+<strong>Completion B</strong> and independently excludes at Δχ² ≥ +79
+against DESI DR2 + CMB + SN.</p>
 <p><strong>Stated as an open question rather than a corroboration,
 because it has not been checked.</strong> Whether §5.15’s Completion B
 and Gervani et al.’s theory are the <em>same</em> theory is <strong>not
@@ -4114,6 +4129,131 @@ registered as an open question on 2026-07-28, and was re-raised on
 2026-08-07 by the site’s visitor and maintainer lanes. New here are the
 exact identity of the two firing sets, the leave-out measurement, its
 power, and the dataset-concentration count.*</p>
+<p><strong>[AMENDED 2026-08-29] The field equation has now been solved
+on real galaxies, and it loses to MOND at every parameter set —
+including its own and Refracted Gravity’s published ones. On rotation
+curves alone the free floor lands at 0.20–0.25, where M&amp;D’s two
+spirals put it, not at the derived 0.315.</strong> Every fit in this
+section until now — the 08-25 head-to-head, the scatter no-go,
+TEST-09/TEST-10, the 08-05 EFE table — evaluated the <em>division
+law</em> <code>g = g_bar/C</code> (L3), and the 08-09 amendment above
+showed L2 = L3 only in the spherical construction. The objection that
+the refutations were therefore aimed at a substitution rather than at
+the framework’s equation was stated by the site’s own explorer and by
+its 2026-08-28 visitor pass (“convicted itself of the wrong thing”), and
+it was live: the explorer’s registered falsifier for the day was <em>“L2
+with a density-keyed C fits SPARC as well as MOND.”</em> It was executed
+on 2026-08-28 (<code>synchronism-site</code> <code>4b9c681</code>,
+<code>explorer/findings/scripts/l2_field_equation_on_sparc.py</code> +
+<code>l2_sparc_core.py</code>: axisymmetric finite-volume solve of
+<code>∇·[C(ρ)∇Φ] = 4πGρ</code> on each of 153 SPARC discs, Q ≤ 2, i &gt;
+30°, Bershady scale heights, 3,035 scored points after a transfer guard,
+<code>Υ_disk</code> profiled over {0.3, 0.5, 0.7} with a 0.1-dex prior)
+— and <strong>the falsifier did not fire</strong>. Reproduced in this
+repository before inscription
+(<code>simulations/publisher_20260829_l2_pinned_floor_scan_on_sparc.py</code>
+imports the site’s committed solver and re-derives ten of its printed
+values to two decimals — <code>ALL WITHIN 2%: True</code>; the site’s
+own output file is <strong>uncommitted</strong> in the shared checkout
+and no finding write-up exists, which is why the numbers are re-derived
+here rather than cited):</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>model under L2 (<code>Υ_d</code> profiled; χ²/N is per point)</th>
+<th>χ²/N</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MOND simple μ, a₀ = 1.2×10⁻¹⁰ m s⁻² (reference)</td>
+<td><strong>21.25</strong></td>
+</tr>
+<tr class="even">
+<td>MOND RAR ν (McGaugh et al. 2016)</td>
+<td>21.55</td>
+</tr>
+<tr class="odd">
+<td>framework: γ = 0.489, ρ_c = 0.161 M☉ pc⁻³ (Jeans knee), floor
+Ω_m</td>
+<td>160.27</td>
+</tr>
+<tr class="even">
+<td>framework: γ = 2, same</td>
+<td>107.89</td>
+</tr>
+<tr class="odd">
+<td>RG at Cesare et al. 2020’s universal DiskMass fit (ε₀ = 0.661, Q =
+1.79)</td>
+<td>239.92</td>
+</tr>
+<tr class="even">
+<td>RG at the E0-elliptical fit (ε₀ = 0.089, Q = 0.47)</td>
+<td>911.46</td>
+</tr>
+<tr class="odd">
+<td>best of the site’s 5 × 7 (floor × ρ_c) grid: RG form, floor 0.315,
+ρ_c = 1.47×10⁻³</td>
+<td>68.44</td>
+</tr>
+<tr class="even">
+<td>Newton (C = 1)</td>
+<td>465.43</td>
+</tr>
+</tbody>
+</table>
+<p>The best density-keyed L2 model anywhere on that grid is <strong>3.2×
+MOND’s χ²/N</strong> and loses at galaxy level (site: Wilcoxon p =
+1.4×10⁻¹⁰, 25% of galaxies won). Companion result, reproduced row for
+row
+(<code>simulations/publisher_20260829_l2_vs_l3_reproduction_output.txt</code>):
+on real discs <strong>L2 ≠ L3, and L2 is the worse law</strong> at the
+framework’s parameters — χ²/N 333.8 (L2) vs 165.6 (L3) at γ = 0.489,
+boost ratio <code>B_L2/B_L3</code> median 1.12, max 1.83 — because the
+L2 boost reaches the ceiling <code>1/Ω_m</code> at smaller radius than
+<code>1/C(ρ_mid)</code> does. The L3 refutations were therefore
+<em>conservative</em>: the field equation fits worse than the
+substitution it was accused of hiding behind.</p>
+<p><strong>Extension run here — the rotation-curve cousin of the pinned
+refit proposed above.</strong> The site’s grid printed floor = 0.315 as
+“best in row”, but its floor grid was {0.05, 0.089, 0.15, 0.315, 0.661}:
+a claim about the grid’s spacing, not about the data. A finer scan
+(floors 0.15, 0.20, 0.25, 0.315, 0.40, 0.50, 0.661 at the three best
+ρ_c, both forms) finds the free floor at <strong>0.20 (RG form, χ²/N
+52.8; framework form 56.2, with 0.25 within 3%)</strong>. The derived
+0.315 costs <strong>+30% per point</strong> (68.4; Δχ² ≈ +4.7×10⁴ over
+3,035 points — the data are over-dispersed by 20× against MOND’s own
+errors, so this is a ratio, not a σ), and the DiskMass universal 0.661
+costs 3.5× (239.7). Three independent rotation-curve determinations of
+RG’s floor now agree: M&amp;D 2016’s two spirals (<strong>0.20,
+0.25</strong>), 153 SPARC discs under L2 (<strong>0.20–0.25</strong>),
+and the site’s own boost-demand median of 5.10 (<strong>1/5.1 =
+0.196</strong>). The DiskMass 0.661 is set by the vertical dispersions,
+and Cesare et al. 2020 say so. Consequences: (i) the 08-26 sentence that
+the derived floor and RG’s spiral fits “disagree by ~30%” was
+numerically right for the wrong reason and is now right for the right
+one — the derived Ω_m sits <strong>25–35% above</strong> the optimum on
+every rotation-curve-only determination; (ii) the parameter-economy
+claim stays dead on both horns, and the second horn is sharper — even
+granting non-universality, the value this framework <em>derives</em> is
+not the value rotation curves <em>pick</em>; (iii) the DiskMass pinned
+refit stays <strong>unrun</strong> (vertical dispersions are not in this
+repository), but its rotation-curve cousin now has a number.</p>
+<p><strong>Ledger. Refutation count HELD at 6; Bucket 0 = 0.</strong>
+Not a seventh refutation: this is the local-coupling failure closed by
+execution on 08-16, now executed under the field equation itself instead
+of the division law — it removes an objection, it does not add a row.
+Two citation-precision defects recorded, one per lane: the site’s
+committed script labels the E0-elliptical parameter set “Cesare+20” (it
+is Cesare, Diaferio &amp; Matsakos 2022, A&amp;A 657 A133,
+arXiv:2102.12499, whose abstract already reports ε₀ agreeing with the
+DiskMass value only “within 3σ” — the non-universal floor, in RG’s own
+words); and this lane’s 08-26 “Pipino is on the 2022 E0-galaxy study”
+was false, corrected in the covariant-branch paragraph above.</p>
 </blockquote>
 <p><strong>The MOND Acceleration Scale:</strong></p>
 <pre><code>a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²</code></pre>
