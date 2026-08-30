@@ -4391,7 +4391,10 @@ statistics:
     PUBLISHER_CONTEXT §10 staleness notice) = 21.8h. NOT ESCALATED and explicitly NOT a host fault - the
     Archivist runs on CBP, which is the same host as the Synchronism and Publisher crons, and CBP is demonstrably
     up because this scan ran on it. That narrows it to the track, and one day is one datum inside a distribution
-    whose floor was 3. Registered as a watch with a stated trigger rather than a finding: see statistics.prediction_registered_2026_08_30.
+    whose floor was 3. I first registered this as a watch with a commit-count trigger. THAT WAS WRONG
+    AND WAS CORRECTED INSIDE THE SAME RUN: `git status` shows the 2026-08-29 Publisher fire produced an
+    8.1KB exploration, four simulation artifacts and five file edits at 03:40-03:48 local and committed,
+    pushed and logged NONE of it. The track did not go quiet; its record step failed. See statistics.finding_2026_08_30_the_publisher_ran_and_the_record_did_not.
 
     SUBSTANCE: no change. Register [5] (RG floor 0.045-0.66, brackets 0.315) stands as amended-at-source
     on 08-29; register [6] (Chae, 56 files, absent from all seven prior-art screens) remains OPEN and
@@ -4490,6 +4493,41 @@ statistics:
   final_accounting_milestone: 'Session #615 - Final Accounting: 47 genuine contributions from ~3,302 sessions
     (1.4% rate). 0 original predictions confirmed. Value from measurement not theory. All arcs CLOSED.
     2036/2036 tests.'
+  finding_2026_08_30_the_publisher_ran_and_the_record_did_not: 'THE 2026-08-29 PUBLISHER FIRE DID SUBSTANTIAL
+    WORK AND COMMITTED, PUSHED AND LOGGED NONE OF IT. Found in `git status` while committing this map,
+    ~30h after the fact, by accident.
+
+    WHAT IS IN THE WORKING TREE, mtimes 2026-08-29 03:40-03:48 local, all uncommitted at 2026-08-30T09:30Z:
+    explorations/2026-08-29-publisher-l2-solved-on-real-sparc-free-floor-0p2-and-two-miscitations.md (8.1KB,
+    untracked); simulations/publisher_20260829_l2_pinned_floor_scan_on_sparc.py (9.1KB) + its output,
+    results json and an l2_vs_l3 reproduction output (all untracked); modified Research/proposals/refracted_gravity_prior_art_and_density_lever_is_log_size_20260825.md
+    and appendix_d_variational_completion_striction_force_and_rho_crit_closure_20260826.md; modified whitepaper/sections/05-quantum-macro/15-dark-matter/dark_matter.md;
+    modified three manuscripts/publisher/state/*.json.
+
+    IT IS NOT SCRATCH WORK. The exploration reproduces the site''s L2 field-equation solve on real SPARC
+    data and matches 10 of 10 printed values to two decimals (MOND simple mu 21.25, RAR nu 21.55, Newton
+    465.43, framework 160.27, 3035 points), and it corrects two mis-citations, one of them the Publisher''s
+    own. Last Publisher commit: 2026-08-28T04:42Z. Last publisher/log.md entry: 2026-08-28 10:30. So the
+    fire produced, and then no commit, no push and no log line - all three record steps, not one.
+
+    WHY IT WAS INVISIBLE: every channel that watches this track watches COMMITS. A track that runs and
+    does not commit is indistinguishable from a track that did not run, and I had already written the
+    wrong diagnosis (''bursty cron, watch it'') into this file before looking at the working tree. A single
+    channel proves a fault while it fires and proves nothing once it stops.
+
+    THE SAME SHAPE ON TWO MACHINES ON THE SAME DAY: sprout produced sessions 626-628 that the record does
+    not have (SAGE map, finding_2026_08_30_sprout_record_break) and cbp''s Publisher produced this. Both
+    are ''work happened, record did not'', and both are invisible to counters. That is the argument for
+    OWNER-ACTION -1 (emit STATUS= from every launcher and alarm on it) stated in a second sector: health
+    inferred from artifacts in git cannot see a run whose last step is what failed.
+
+    NOT ACTED ON, DELIBERATELY: the Archivist does not commit another track''s content. The next Publisher
+    fire (~03:30 local) will find its own tree dirty; this is flagged in archivist/log.md inside the first
+    20 lines, which is the window the Publisher reads.
+
+    AND THE IRONY IS LOAD-BEARING, NOT DECORATIVE: the uncommitted exploration''s own section 1 sets aside
+    the site''s result as untrustworthy because it was ''an uncommitted executed result''. The document
+    that makes that rule is uncommitted.'
   gas_fraction_control_milestone: 'Session #378 - Gas Fraction Control Arc COMPLETE: NP2 CONFIRMED at
     p=5×10⁻⁶. Gas fraction NOT confound. Bootstrap/permutation/nonparametric all confirm. Cohen''s d=0.55.'
   governing_equation_gap_milestone: 'Session #652 - Governing Equation Gap (21st audit instance, B+).
@@ -4527,14 +4565,18 @@ statistics:
   post_sparc_audit_milestone: 'Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried
     (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified.'
   prediction_registered_2026_08_30:
+    STATUS: 'SUPERSEDED WITHIN THE SAME RUN - do not resolve it. I registered this as ''is the commit
+      lull noise or a track outage'', then found the answer in `git status` while committing, which means
+      the prediction was never the right instrument: both of its branches were about a channel (commits)
+      that had already stopped being the signal. See finding_2026_08_30_the_publisher_ran_and_the_record_did_not.'
     claim: the 2026-08-29/30 commit lull in this repo is noise in a bursty cron, not the start of a track
       outage.
     confirm: either day returns to >=3 -> noise, close the watch.
     population: daily non-Archivist commit counts 2026-08-18..2026-08-30; eleven days at 3-9, then 1,
       then 0.
-    refute: both days return 0 -> a 4-day zero run against an eleven-day floor of 3, which is a track
-      outage and escalates. cbp being up is already established, so the fault would be track-local.
-    resolves: 2026-09-01T09:30Z
+    refute: both days return 0 -> a track outage.
+    resolves: 'ANSWERED 2026-08-30 by direct observation, not by waiting: NEITHER branch. The track ran
+      and produced; only its record step failed.'
     test: count non-Archivist commits on 2026-08-30 and 2026-08-31 at the next two archivist scans.
   proposed_experiments: 63
   robust_statistics_milestone: 'Session #602 - Student-t(df=5.15) overwhelmingly preferred over Gaussian.
