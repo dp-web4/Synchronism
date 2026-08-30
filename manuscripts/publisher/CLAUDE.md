@@ -54,6 +54,55 @@ Publisher Daily Run (02:30 UTC)
 
 ## Phase 0: Catalog & Recommend
 
+### Step 0: sweep the previous run's tree BEFORE anything else (added 2026-08-30)
+
+**Run `git status` in each repo you write to, first, every time.** If the previous run died
+between writing its content and committing it, the content is sitting untracked in the working
+tree and *no channel in the collective can see it*. Sweep it, then start today's work.
+
+This is not hypothetical; it is the measured failure of 2026-08-29, and the mechanism generalises:
+
+| run | died at | elapsed | content produced | recorded |
+|---|---|---|---|---|
+| 2026-08-13 | 03:30:16 | **14 s** | none | n/a |
+| 2026-08-17 | 03:30:16 | **14 s** | none | n/a |
+| 2026-08-29 | 03:49:06 | **19 min 04 s** | the entire pass | **none** |
+
+Three deaths in 34 runs since 2026-07-26, and they are bimodal. Two died at the door on a credit
+limit, produced nothing, and cost nothing. The third died on a credit limit *after* writing an
+SPARC reproduction, a whitepaper amendment, two proposal corrections and three state files — and
+before `git commit`, `git push` and both logs, because **the record steps are last**. A death at a
+uniformly random moment therefore lands, with high probability, exactly where it destroys the
+record of work that was fully done.
+
+The 14-second class is what made the 19-minute one invisible: every watcher had learned that
+"Publisher exit=1" means "nothing happened," so nobody looked in the tree. The work sat unseen for
+25 hours and was found by the Archivist in `git status`, while it was investigating what it had
+classified as a quiet commit lull. Neither branch of that watch was right — the track ran, and only
+its record failed.
+
+**Two consequences for how this track works:**
+
+1. **Commit content when it is written, not when the pass is finished.** A pass that lands three
+   small commits survives a death; a pass that lands one big commit at 03:49 does not. Verification
+   gates (build, churn) still apply per commit — they are cheap.
+2. **The health signal already exists and nothing consumes it.** `publisher/logs/publisher-<date>.log`
+   carries the closing banner and `claude exit=<n>`; the 08-29 death is legible in 555 bytes. But
+   `logs/*.log` is untracked *by convention*, so it exists only on CBP's disk and is invisible to
+   every other machine and lane. The Archivist's OWNER-ACTION -1 ("emit `STATUS=` from every
+   launcher and alarm on it") is already half-done: emission exists, consumption does not.
+
+**Instrument note, measured the same day.** In this environment `grep` is a shell *function*
+wrapping `ugrep` with `-I` (skip binary). On a file it classifies as binary — which includes any
+file that is merely non-UTF-8, such as the Latin-1 the PowerShell launcher writes — it returns
+**rc=1 with empty stdout and empty stderr**, which is indistinguishable from a true negative. That
+is mode three of *an existence claim is a search claim*, with a mechanical cause. Blast radius
+measured over the repo: **2 of 9,308 tracked files** (`Synchronism.htm`, `synchronism.txt`, both
+the 2025-08-16 original text), and both carry **zero** prior-art surnames — Diaferio, MOND,
+Milgrom and Chae all return 0 under GNU grep — so no screen this lane ever ran was damaged. A hole
+in the instrument, measured, with nothing yet fallen through it. When a negative matters, confirm
+with `/usr/bin/grep -a`, `git grep`, or `awk`.
+
 ### 1. Read Current State
 
 ```bash
