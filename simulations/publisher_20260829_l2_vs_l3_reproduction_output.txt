@@ -1,0 +1,42 @@
+# Publisher 2026-08-29 reproduction of synchronism-site explorer/findings/scripts/l2_vs_l3_on_real_sparc.py (committed 4b9c681; its OUTPUT file is uncommitted in the shared checkout). Run unmodified from /tmp; all six rows identical to the site tree's modified output of 2026-08-28 08:20 PDT.
+153 galaxies
+
+model                                         chi2/N L2  chi2/N L3 med rms L2 med rms L3 med B_L2/B_L3 max ratio wins vs MOND L2/L3
+site  gamma=2   rho_c=0.029V^2 floor=Om          476.92     476.07      0.118      0.118          1.00      1.26       24% /  24%
+Jeans gamma=.489 rho_c=0.161   floor=Om          333.77     165.61      0.111      0.099          1.12      1.83       24% /  28%
+Jeans gamma=2    rho_c=0.161   floor=Om          231.76     148.75      0.099      0.119          1.41      2.39       27% /  25%
+RG    E0-fit e0=.089 q=.47 rc=8.3e-3            1947.14     279.11      0.148      0.166          3.48     10.63       15% /  16%
+RG    DMS-unique e0=.666 Q=1.79 rc=4.3e-3        362.74     557.24      0.188      0.230          1.31      1.85       17% /  10%
+fw    gamma=.489 rho_c=0.01    floor=.089       2559.70     237.98      0.176      0.133          3.10      7.54       12% /  20%
+
+Profile of the gap, Jeans gamma=.489 rho_c=0.161 floor=Om:
+  NGC3198:  R(kpc)  rho_mid(Msun/pc3)  C_mid   B_L3=1/C   B_L2   B_required
+          0.32          0.6391   0.764      1.31    1.43      0.30
+          2.57          0.1283   0.506      1.98    2.76      1.91
+          4.82         0.09535   0.468      2.14    2.86      2.05
+          7.06          0.0413   0.391      2.56    3.08      2.11
+         16.07        0.008453   0.332      3.01    3.18      3.26
+         30.08        0.002368   0.320      3.13    3.18      4.31
+         44.08        0.001439   0.318      3.14    3.18      5.30
+  DDO154:  R(kpc)  rho_mid(Msun/pc3)  C_mid   B_L3=1/C   B_L2   B_required
+          0.49         0.07262   0.438      2.28    2.80      2.12
+          1.48         0.03894   0.387      2.58    3.09      4.13
+          2.47         0.03137   0.374      2.67    3.14      5.41
+          3.46         0.02462   0.363      2.76    3.10      5.77
+          4.44        0.006073   0.327      3.05    3.18      6.76
+          5.43        0.001094   0.317      3.15    3.19      7.84
+  NGC2841:  R(kpc)  rho_mid(Msun/pc3)  C_mid   B_L3=1/C   B_L2   B_required
+          6.16          0.1933   0.567      1.76    2.78      2.16
+          8.90          0.1159   0.492      2.03    2.93      2.21
+         12.31         0.06176   0.423      2.36    3.05      2.47
+         28.77       0.0006035   0.316      3.16    3.21      4.16
+         45.16       0.0001274   0.315      3.17    3.19      5.11
+         61.56        0.005266   0.326      3.07    3.17      6.96
+  UGC07524:  R(kpc)  rho_mid(Msun/pc3)  C_mid   B_L3=1/C   B_L2   B_required
+          2.07         0.01333   0.342      2.93    3.12      5.37
+          3.79         0.01791   0.350      2.85    3.08      5.36
+          5.51        0.007612   0.330      3.03    3.20      5.07
+          7.25         0.01424   0.343      2.91    3.25      4.70
+          8.97         0.01531   0.345      2.90    3.10      3.78
+         10.69        0.007778   0.331      3.02    3.14      3.24
+VSL3 EXIT 0

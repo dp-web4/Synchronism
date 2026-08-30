@@ -1,0 +1,2 @@
+built 153 galaxies x 4 Upsilon values in 40s; 3035 scored points (transfer-guard dropped 131)
+scoring 47 (form, exponent, rho_c, floor) points on 8 cpus

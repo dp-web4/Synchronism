@@ -21,7 +21,7 @@ Matsakos & Diaferio 2016 (arXiv:1603.04943), their Eqs. 2.3 and 4.1:
   Floor Ω_m = 0.315 vs RG's fitted ε₀ = 0.20–0.25.
 - **`B ≤ 1/Ω_m = 3.17` is `1/ε₀`** — a published property of the 2016 construction, not
   "the framework's only feature distinguishing it from MOND."
-- **A covariant completion exists**: Sanna, Pipino, Diaferio et al. 2023 (A&A), scalar–tensor,
+- **A covariant completion exists**: Sanna, Pipino, Diaferio et al. 2023 (A&A) *[Publisher 2026-08-29: the paper is Sanna, **Matsakos** & Diaferio 2023, A&A 674 A209, arXiv:2109.11217 — Pipino is on no refracted-gravity paper; left in the routed text, corrected here]*, scalar–tensor,
   `φ = 2ε` in the weak field. The site's "none exists" is false, and this is the referent for
   the DE sector's undisclosed Brans–Dicke.
 - **M&D 2016 §2.2.1 flags possible SEP violation as OPEN** for this equation, while the site

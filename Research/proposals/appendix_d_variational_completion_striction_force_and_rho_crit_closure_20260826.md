@@ -145,7 +145,7 @@ deferred question.
 
 ## 6. Open
 
-- **The covariant branch.** Sanna, Pipino & Diaferio 2023 (arXiv:2109.11217) complete this to a
+- **The covariant branch.** Sanna, Matsakos & Diaferio 2023 (A&A 674 A209; arXiv:2109.11217) *[author list corrected 2026-08-29 — "Pipino" was carried over from the routed note; he is on no RG paper]* complete this to a
   scalar–tensor theory with `φ = 2ε` in the weak-field limit. There `φ` is an *independent dynamical
   field*, so **ε is not a local function of ρ** — momentum is conserved and (★) dissolves, at the
   price of the locality that is the framework's advertised distinguishing feature. Fourth time an
