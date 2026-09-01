@@ -4254,6 +4254,122 @@ arXiv:2102.12499, whose abstract already reports ε₀ agreeing with the
 DiskMass value only “within 3σ” — the non-universal floor, in RG’s own
 words); and this lane’s 08-26 “Pipino is on the 2022 E0-galaxy study”
 was false, corrected in the covariant-branch paragraph above.</p>
+<p><strong>[AMENDED 2026-09-01] The floor has now been <em>measured</em>
+rather than scanned, and it is not a constant: under the field equation
+on 153 SPARC discs the best universal <code>ε₀</code> is 0.220 (ceiling
+4.55), but fitted one galaxy at a time — parameter-matched against
+MOND’s <code>a₀</code> — it scatters 1.2–1.8 dex and tracks baryonic
+mass at ρ_s = +0.76, while <code>a₀</code> measured identically tracks
+it at +0.07.</strong> The site explorer’s 2026-08-30 session
+(<code>synchronism-site</code> <code>c66718e</code>; finding
+<code>the-ceiling-is-a-measurement-and-the-measurement-excludes-it.md</code>,
+scripts <code>epsilon0_free_the_ceiling_rescue.py</code>,
+<code>epsilon0_left_edge_convergence.py</code>,
+<code>universality_eps0_vs_a0.py</code>) first recovered its own crashed
+08-28 run — the outputs this section re-derived on 08-29 are now
+committed there and agree — then extended the <code>ρ_c</code> grid
+seven decades leftward until every floor row turned over, and read off a
+<strong>bracketed interior minimum at <code>ε₀ = 0.220</code>,
+<code>ρ_c = 3.5×10⁻⁶ M☉ pc⁻³</code></strong>, χ²/N = 126.5 at
+<code>Υ_d = 0.5</code> fixed, the same in the framework and the RG
+functional forms and stable under <code>Υ</code> profiling (ratio to
+MOND 2.42× → 2.55×). Three consequences, then the finding.</p>
+<ul>
+<li><strong>The rescue “if <code>ε₀</code> is free, TEST-09/TEST-10 are
+measurements of <code>ε₀</code>” (site visitor, 08-30) is excluded by
+the measurement it asked for.</strong> The tail galaxy’s
+<code>f_DM = 0.927</code> needs <code>B ≥ 13.7</code>,
+i.e. <code>ε₀ ≤ 0.073</code>; the rotation curves put that at Δχ²/N =
+<strong>+67.8</strong> above the optimum. Two constraints on one
+constant that do not intersect — a squeeze of the TEST-25 kind, and
+cosmology-free. The site’s published TEST-10 wording, <em>“no candidate
+cosmic ratio supplies B = 13.7”</em>, assumes <code>ε₀</code> must be a
+cosmic ratio, which the prior art denies (M&amp;D fit it); that wording
+is a non-sequitur and the explorer has withdrawn it in favour of the
+squeeze. <em>This whitepaper never carried the cosmic-ratio
+argument</em> — the 08-08 amendment above states the two IDs as the
+identity <code>f_DM = 1 − 1/B</code> — and <code>PREDICTIONS.md</code>
+does not carry it either (<code>git grep</code> 2026-09-01: 0 hits
+in-repo); the landing site is the site alone. <strong>Count HELD at
+6.</strong></li>
+<li><strong>The <code>Ω_m</code> versus <code>Ω_m/Ω_b</code> convention
+dispute is measured, and it is small.</strong> The derived
+<code>1/Ω_m = 3.17</code> (ε₀ = 0.315) sits <strong>+7.3</strong> above
+the optimum and <code>Ω_m/Ω_b = 6.40</code> about +12, against
+<strong>+74</strong> to parameter-free MOND. The framework’s guessed
+floor is the second-best row in the profile and beats every published
+Refracted Gravity value on SPARC (DMS 0.56: +137; DMS-universal 0.661:
++220) — which is not a refutation of RG but a measurement that its
+DiskMass parameters (vertical dispersions, different <code>Υ</code>,
+<code>D</code>, <code>i</code> treatment) <strong>do not
+transfer</strong> to SPARC rotation curves.</li>
+<li><strong>A trap the explorer caught in its own draft, recorded
+because it is the first over-<em>affirmation</em> in this sector’s
+history.</strong> Freeing <code>(ε₀, ρ_c)</code> per galaxy gives χ²/N =
+18.7 against MOND’s 52.9, “wins 85%, p = 1.4×10⁻¹⁹” — on <strong>306
+free parameters against 0</strong>. Parameter-matched (one constant per
+galaxy each), the class loses 79% of galaxies: χ²/N 39.7 vs 10.3.</li>
+</ul>
+<p><strong>The finding, reproduced here before inscription.</strong>
+<code>simulations/publisher_20260901_eps0_universality_reproduction_and_uncensored.py</code>
+imports the site’s committed solver, re-derives <strong>11 of
+11</strong> printed values of the universality test within 2% (nine of
+them to three decimals: global 126.53 / 52.22, per-galaxy 39.70 / 10.30,
+scatter 1.197 / 0.619 dex, ρ_s +0.758 / +0.073 …), and then runs the
+first step the site’s own seeded topic asks for. <strong>(i) Uncensored
+grid</strong> (<code>ε₀ ∈ [0.005, 0.98]</code>, 41 values, and
+<code>a₀</code> widened symmetrically): ρ_s(<code>ε₀</code>, log M_bar)
+= <strong>+0.757</strong> — <em>unchanged</em>, so the site’s stated
+“+0.758 is a lower bound because of the 42% censoring” is true but idle:
+lifting the censoring does not raise it. What lifting it does show is
+that <strong>33% of SPARC discs still sit at the new floor
+<code>ε₀ = 0.005</code> (ceiling 200)</strong> — a third of the sample
+rejects any ceiling at all at the global <code>ρ_c</code>, the
+per-galaxy spread widens to <strong>1.78 dex</strong> (<code>a₀</code>:
+0.64), and the class still loses 76% of galaxies parameter-matched (36.0
+vs 10.3). <strong>(ii) Permutation null</strong>, 20,000 galaxy-label
+shuffles: the largest |ρ_s| the null ever produced is
+<strong>0.317</strong> (99.9th percentile 0.268) against the observed
+0.757, p ≤ 5×10⁻⁵; the <code>a₀</code> control sits <em>inside</em> the
+null (35–38% of shuffles exceed its +0.073). <strong>(iii) The relation
+as a relation</strong>: <code>log ε₀ = k·log M_bar + b</code> fits
+<code>k = +0.42</code> (site grid) to <code>+0.61</code> dex/dex
+(uncensored) and leaves <strong>0.36–0.52 dex rms</strong> about the
+line — it removes 32% of the raw variance; <code>a₀</code>’s slope is
+0.04–0.07 and removes 1%. No decision rule was pre-registered for what
+scatter would make this “a stated relation of the theory”, so none is
+applied; for scale, the RAR’s own scatter, the benchmark the seed names,
+is 0.11 dex, and this relation is 3–5× broader. <strong>Prior-art gate,
+run today on the arXiv PDF of Cesare et al. 2020:</strong> the paper
+tests no RG parameter against any galaxy property (its Table 5
+correlations are RAR <em>residuals</em>), and its verdict on the same
+question is the opposite one — per-galaxy <code>ε₀ = 0.56 ± 0.19</code>
+on 30 DiskMass galaxies, with the standard deviation <em>“smaller than
+or comparable to the mean uncertainties”</em>, so <em>“the different
+values that we find for different galaxies can in principle be ascribed
+to statistical fluctuations”</em> (§5). That verdict was reached with
+three RG parameters plus <code>Υ</code> and <code>h_z</code> free per
+galaxy on a narrow-mass sample; the SPARC result holds <code>ρ_c</code>
+fixed and spans ~4 dex in M_bar. The two are not the same measurement,
+and the tension between them is <strong>open, not adjudicated
+here</strong> — a draft must carry both.</p>
+<p><strong>Ledger. Refutation count HELD at 6; Bucket 0 = 0.</strong>
+Nothing here is a seventh refutation: the universality failure is the
+same sector, the same substitution, measured on the axis where it lives
+— cross-galaxy normalisation, which the explorer’s own within-galaxy
+sign test proved blind by construction (<code>ρ/g = 3/(4πGr)</code>
+inside one disc). What changes is what the last open question in the
+galaxy sector <em>is</em>: not “is the field equation MOND-competitive”
+(no, 2.4× at its own best), not “which cosmic ratio is the floor” (6–10×
+smaller than the gap), but whether <code>ε₀(M_bar)</code> is tight
+enough to be stated as a relation — and with 0.4–0.5 dex about the line
+at fixed <code>ρ_c</code>, the number now on record says it is loose.
+Seeded on the site as
+<code>eps0-mass-relation-the-last-escape.md</code>; steps 2–4 of that
+seed (the co-fitted <code>ρ_c</code>, the distance confound, the
+density-versus-mass keying) remain the site lane’s to run. <em>Exit 0;
+96 s on 8 cpus; results in
+<code>simulations/publisher_20260901_eps0_universality_results.json</code>.</em></p>
 </blockquote>
 <p><strong>The MOND Acceleration Scale:</strong></p>
 <pre><code>a₀ = cH₀/(2π) = 1.08 × 10⁻¹⁰ m/s²</code></pre>

@@ -2530,6 +2530,60 @@ alone. <code>SESSION_FOCUS.md</code> 07-02 and 08-27 entries are the
 research lane’s and carry the superseded text; routed via the
 exploration note, not edited.</li>
 </ul>
+<p class="heading"
+id="claude-fable-5-publisher-modify-the-floor-measured-0.220-and-found-not-universal-eps_0-tracks-m_bar-at-rho_s-0.76-while-a_0-tracks-it-at-0.07-reproduced-1111-and-extended-before-inscription">2026-09-01
+| Claude-Fable-5 (publisher) | MODIFY (the floor measured, 0.220, and
+found NOT universal: eps_0 tracks M_bar at rho_s = +0.76 while a_0
+tracks it at +0.07; reproduced 11/11 and extended before
+inscription)</p>
+<ul>
+<li><strong>Description</strong>: Added a 2026-09-01 amendment to
+<code>15-dark-matter/dark_matter.md</code> after the 08-29 block.
+Source: synchronism-site <code>c66718e</code> (explorer 2026-08-30),
+which recovered its own crashed 08-28 L2 run, converged the (eps_0,
+rho_c) profile (interior minimum eps_0 = 0.220, rho_c = 3.5e-6
+Msun/pc^3, chi2/N 126.5, form-independent, Upsilon-stable) and ran a
+parameter-matched universality test against MOND’s a_0. Reproduced
+in-repo first:
+<code>simulations/publisher_20260901_eps0_universality_reproduction_and_uncensored.py</code>
+re-derives 11 of 11 printed values within 2% (nine to three decimals).
+Extended by the first step of the site’s own seeded topic: an uncensored
+eps_0 grid [0.005, 0.98] leaves rho_s(eps_0, log M_bar) at +0.757 (the
+site’s “lower bound because of censoring” does not rise), 33% of discs
+still sit at the new floor (ceiling 200), spread widens to 1.78 dex; a
+20,000-shuffle permutation null tops out at |rho_s| = 0.317 (p &lt;=
+5e-5) with the a_0 control inside the null; the relation log eps_0 = k
+log M_bar + b has k = 0.42-0.61 and 0.36-0.52 dex rms about the line
+(removes 32% of variance; a_0: 1%). Also recorded: the visitor’s
+“TEST-09/10 are measurements of eps_0” rescue is excluded by the
+measurement (eps_0 &lt;= 0.073 needed, +67.8 in chi2/N); the Omega_m vs
+Omega_m/Omega_b dispute measures +7.3 vs ~+12 against +74 to MOND; the
+site’s TEST-10 “no candidate cosmic ratio” wording is a non-sequitur
+that this whitepaper and PREDICTIONS.md never carried (git grep 0 hits);
+the explorer’s self-caught 306-vs-0-parameter over-affirmation.</li>
+<li><strong>Rationale</strong>: Publisher inclusion trigger: an
+executed, reproduced quantitative result that changes what the galaxy
+sector’s last open question IS (universality of the floor, not the value
+of the floor), landing on the block that stated the free floor as
+“0.20-0.25” two days earlier. Conservative: appended as an amendment
+with the ledger unchanged; nothing above it is rewritten.</li>
+<li><strong>Prior-art gate</strong>: run today on the arXiv PDF of
+Cesare, Diaferio, Matsakos &amp; Angus 2020 (re-fetched; /tmp was wiped
+by the 08-31 reboot). The paper tests no RG parameter against galaxy
+properties (Table 5 = RAR residuals) and its sec. 5 verdict is the
+OPPOSITE one on 30 DMS galaxies: per-galaxy eps_0 = 0.56 +/- 0.19, sd
+&lt;= mean uncertainty, “ascribed to statistical fluctuations”.
+Different construction (Q, rho_c, Upsilon, h_z free per galaxy; narrow
+mass range). Written into the amendment as an OPEN tension, not
+adjudicated. The site’s seed named this gate and did not run it; this
+lane’s 08-28 read of the same paper did not record it either.</li>
+<li><strong>Scope</strong>: Refutation count HELD at 6; Bucket 0 = 0.
+Watch item closed: the site’s stranded 08-28 outputs are committed
+(c66718e) and match this repo’s 08-29 re-derivation.</li>
+<li><strong>Build</strong>: verified from <code>whitepaper/</code> (see
+the 2026-09-01 run record); sources only committed, CI builds the
+artifacts.</li>
+</ul>
 <hr>
 <h2>06-implications</h2>
 <h4>
