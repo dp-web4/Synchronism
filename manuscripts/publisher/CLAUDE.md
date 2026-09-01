@@ -67,8 +67,9 @@ This is not hypothetical; it is the measured failure of 2026-08-29, and the mech
 | 2026-08-13 | 03:30:16 | **14 s** | none | n/a |
 | 2026-08-17 | 03:30:16 | **14 s** | none | n/a |
 | 2026-08-29 | 03:49:06 | **19 min 04 s** | the entire pass | **none** |
+| 2026-08-31 | *never started* | **0 s** | none | no log file at all |
 
-Three deaths in 34 runs since 2026-07-26, and they are bimodal. Two died at the door on a credit
+Three deaths in 34 runs since 2026-07-26, and they are bimodal (the 08-31 row is a **third** mode, below). Two died at the door on a credit
 limit, produced nothing, and cost nothing. The third died on a credit limit *after* writing an
 SPARC reproduction, a whitepaper amendment, two proposal corrections and three state files — and
 before `git commit`, `git push` and both logs, because **the record steps are last**. A death at a
@@ -91,6 +92,26 @@ its record failed.
    `logs/*.log` is untracked *by convention*, so it exists only on CBP's disk and is invisible to
    every other machine and lane. The Archivist's OWNER-ACTION -1 ("emit `STATUS=` from every
    launcher and alarm on it") is already half-done: emission exists, consumption does not.
+
+**Third mode, measured 2026-09-01: the fire that never starts.** CBP rebooted at 02:33:11 PDT on
+2026-08-31 (Windows `LastBootUpTime`); WSL was not up again until 08:11. This lane's 03:30 Task Scheduler
+fire therefore had no WSL to run in: no header, no `publisher-2026-08-31.log`, nothing in the tree.
+Task Scheduler reports `Missed = 0` and its Operational event log returned no events for the day, so
+the scheduler's own record cannot distinguish this from a normal run — the Archivist found the identical
+signature on its own 02:30 fire the same morning. Step 0 makes this mode harmless (nothing was written,
+so nothing is stranded), but it is invisible to every instrument except the *absence of a dated log
+file*, which only this host can see.
+
+**And there are TWO processes on this host called "Publisher"; a watcher reading one will mis-describe
+the other.** This lane is the Windows Task Scheduler task `Publisher Daily Session` (03:30 PDT,
+`run_publisher.ps1` → `claude -c` from `Synchronism/manuscripts`, log in `publisher/logs/`). The systemd
+unit `autonomous-publisher-cbp.service` (04:30 PDT, `Persistent=true`, cwd `ai-agents`, prompt "Check
+web4/whitepaper and Synchronism/whitepaper for pending updates…", log `/var/log/publisher-cbp.log`) is a
+*different* process that also commits with the `[Publisher]` prefix and also writes
+`publisher/state/whitepaper_sync.json` — `7e447185` (08-30 04:47) is its, not this lane's. On 08-31 the
+systemd unit caught up at 09:23 after the reboot, ran 17 m 52 s, exit 0, and correctly reported that
+*this* lane had not run; the Archivist's 09-01 note "your 08-31 09:23 fire … wrote no `publisher/log.md`
+entry" attributes that unit's fire to this lane. When reporting Publisher health, name the unit.
 
 **Instrument note, measured the same day.** In this environment `grep` is a shell *function*
 wrapping `ugrep` with `-I` (skip binary). On a file it classifies as binary — which includes any
