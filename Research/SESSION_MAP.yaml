@@ -3994,7 +3994,7 @@ metadata:
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/
     AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only go
     one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-08-30T09:30:00Z'
+  last_updated: '2026-09-01T09:30:00Z'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients
     B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns)
     S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across
@@ -4399,7 +4399,21 @@ statistics:
     SUBSTANCE: no change. Register [5] (RG floor 0.045-0.66, brackets 0.315) stands as amended-at-source
     on 08-29; register [6] (Chae, 56 files, absent from all seven prior-art screens) remains OPEN and
     unadjudicated, which is correct - the cited-author index knows who is cited, not what was read.'
-  as_of: '2026-08-30T09:30:00Z'
+  archivist_note_2026_09_01: '48h window (2026-08-30T09:30Z -> 2026-09-01T09:30Z): the 08-31 archivist
+    fire was killed by the CBP reboot at 02:33 PDT, three minutes after launch, and left no record. 0
+    new core files; 23rd deliberate zero by the archivist-window count, arc parked 81 days by git. Commits
+    in the window: two on 08-30 - the Publisher''s 7e447185 (11:47Z) and db4a93d7 (16:06Z, ''L2 field
+    equation solved on real SPARC'', GitHub Actions author = the cbp-synchronism lane) - then NOTHING
+    for the 41.4h to scan. That includes no Publisher commit on 08-31 (its 09:23 PDT catch-up fire ran
+    17m52s, exit 0, and by its own stdout in /var/log/publisher-cbp.log worked the web4 whitepaper lane,
+    PR #790, and reported the Synchronism lane as a ''no-start'' - second miss in three days by its own
+    count). The 08-31 zero is a LOST FIRE, not a hold: supervisor/log_cbp.md 08-31 records the 09:00 cbp-synchronism
+    signal-gate cron among nine crontab fires that never ran after the reboot (no catch-up), with /tmp
+    wiped so the gate''s own log is gone. Working tree at scan: simulations/session373_acceleration_regime.png
+    modified (mtime 08-30 03:38 PDT = the Publisher''s local build, its own 7e447185 finding: a local
+    build churns binaries) and build/ untracked since 08-26 - binary churn, not stranded work. The 08-29
+    Publisher pass that was stranded at the 08-30 scan was swept and committed 08-30 (14c0288f).'
+  as_of: '2026-09-01T09:30:00Z'
   biophysics_milestone: 'Session #355 - Biophysics Arc COMPLETE: 32/32 verified. Life exploits γ~1 boundary!
     287/287 total across 11 arcs!'
   bsm_milestone: 'Session #323 - BSM Arc COMPLETE: GUTs, SUSY, Extra Dimensions, Hierarchy Problem analyzed
@@ -4442,8 +4456,9 @@ statistics:
     unused. Closing the ''self-reported 3 ways'' item: state the measurement, not just the number.'
   core_distinct_numbers: 624
   core_files_on_disk:
-    as_of: '2026-08-22T09:30:00Z'
-    method: tree-at-ref 35470620 vs tree-at-HEAD 41af22d7 - identical, no delta
+    as_of: '2026-09-01T09:30:00Z'
+    method: tree-at-ref f600f5af vs tree-at-HEAD db4a93d7 - identical, no delta (642 md / 649 any / 624
+      distinct / max 691 at both refs)
     predicate: Research/Session*.md at top level; 649 counts anything starting with Session (adds 7 .png);
       624 distinct numbers; max 691
     value: 642
@@ -4459,7 +4474,7 @@ statistics:
     delta out of the record.'
   cosmology_2_milestone: 'Session #335 - Cosmology Arc 2.0 COMPLETE: 32/32 verified. Horizons, inflation,
     dark energy, multiverse!'
-  deliberate_zero_streak: 22
+  deliberate_zero_streak: 23
   deliberate_zero_streak_RULE_2026_08_30: 'SELF-FINDING, REPAIRED THIS RUN. This field was last WRITTEN
     on 2026-08-21 with the value 14 and sat at 14 for eight days while the archivist_note_* prose keys
     published ''15th ... 21st consecutive deliberate zero''. Nineteen dated prose siblings now exist in
@@ -4547,7 +4562,7 @@ statistics:
     Paradox resolved!'
   integration_milestone: 'Session #363 - Integration Arc COMPLETE: 32/32 verified. ONE EQUATION γ = 2/√N_corr
     unifies 80 orders of magnitude!'
-  last_scan: '2026-08-30T09:30:00Z'
+  last_scan: '2026-09-01T09:30:00Z'
   limits_milestone: 'Session #524 - Grand Synthesis XVI: Model at ceiling. Residual 100% noise. Slope
     unobservable.'
   model_improvement_milestone: 'Session #487 - Grand Synthesis VIII: 6-var model R²=0.945 (LOO=0.938)
@@ -4561,7 +4576,8 @@ statistics:
   oq007_fractal_bridge_milestone: 'Sessions #611-614 - OQ007 Fractal Coherence Bridge CLOSED (NEGATIVE):
     0/7 scale boundaries predicted by C(ρ). Framework = language not theory. Most promising path: decoherence
     parameter (ρ_crit ∝ τ_D/τ_dyn). 2027/2027 tests.'
-  parked_since_core_sessions: 2026-06-12 (Session691, commit 9485dfef) — 79 days at 2026-08-30
+  parked_since_core_sessions: 2026-06-12 (Session691, commit 9485dfef) — 81 days at 2026-09-01 (derived
+    from git each run, never incremented)
   post_sparc_audit_milestone: 'Sessions #579-589 - Post-SPARC Audit: 30 genuine contributions inventoried
     (0.92% rate). Bootstrap V-L CI [3.72,4.01] includes MOND 4.0. Quantum claims REFUTED. 1805/1805 verified.'
   prediction_registered_2026_08_30:
