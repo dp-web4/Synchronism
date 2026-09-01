@@ -1,0 +1,71 @@
+built 153 galaxies in 8s;  N = 3035 points
+scored 41 eps0 x 153 L2 solves + 61 a0 values in 84s on 8 cpus
+
+==============================================================================
+A. REPRODUCTION on the site's own grids: eps0 grid [0.02, 0.8] x13   a0 grid [1.50e-11, 1.20e-09] x41
+==============================================================================
+   GLOBAL  class: eps0 = 0.220 (ceiling 4.55)  chi2/N =   126.53
+   GLOBAL  MOND : a0   = 1.202e-10                chi2/N =    52.22   (1.002x literature)
+   PER-GAL class: chi2/N =    39.70  median red =   9.64
+   PER-GAL MOND : chi2/N =    10.30  median red =   2.63   class wins 21%   Wilcoxon p = 3.83e-17
+   SCATTER eps0: median 0.0500  16-84 1.197 dex  sd 0.528  at-edge 42% (low 42% / high 0%)
+   SCATTER a0  : median 9.658e-11  16-84 0.619 dex  sd 0.333  at-edge 2%
+   dchi2 bought by non-universality: class 263527  MOND 127226  ratio 2.07x
+
+   observable    rho_s(eps0)          p  |   rho_s(a0)          p
+   log Vflat          +0.634   1.33e-18  |      +0.278   5.12e-04
+   log Rdisk          +0.559   6.24e-14  |      +0.018   8.29e-01
+   log Mbar           +0.758   7.22e-30  |      +0.073   3.69e-01
+   log rho_m          +0.162   4.59e-02  |      +0.033   6.89e-01
+   log Breq           -0.547   2.61e-13  |      +0.561   4.37e-14
+
+   vs the site's printed values:
+      global chi2/N class      here   126.532  site   126.530  ok
+      global chi2/N MOND       here    52.224  site    52.220  ok
+      per-gal chi2/N class     here    39.703  site    39.700  ok
+      per-gal chi2/N MOND      here    10.305  site    10.300  ok
+      class wins               here    20.915  site    21.000  ok
+      eps0 16-84 dex           here     1.197  site     1.197  ok
+      a0 16-84 dex             here     0.619  site     0.619  ok
+      eps0 at-edge %           here    42.484  site    42.000  ok
+      rho_s(eps0, logMbar)     here     0.758  site     0.758  ok
+      rho_s(a0, logMbar)       here     0.073  site     0.073  ok
+      rho_s(eps0, log rho_m)   here     0.162  site     0.162  ok
+   ALL WITHIN 2% (or 0.006 abs): True
+
+==============================================================================
+B. EXTENSION -- uncensored grids (the seed's step 1): eps0 grid [0.005, 0.98] x41   a0 grid [2.00e-12, 6.00e-09] x61
+==============================================================================
+   GLOBAL  class: eps0 = 0.220 (ceiling 4.55)  chi2/N =   126.53
+   GLOBAL  MOND : a0   = 1.252e-10                chi2/N =    52.64   (1.043x literature)
+   PER-GAL class: chi2/N =    35.99  median red =   7.83
+   PER-GAL MOND : chi2/N =    10.33  median red =   2.56   class wins 24%   Wilcoxon p = 1.18e-16
+   SCATTER eps0: median 0.0522  16-84 1.783 dex  sd 0.764  at-edge 33% (low 33% / high 0%)
+   SCATTER a0  : median 9.586e-11  16-84 0.637 dex  sd 0.381  at-edge 1%
+   dchi2 bought by non-universality: class 274788  MOND 128438  ratio 2.14x
+
+   observable    rho_s(eps0)          p  |   rho_s(a0)          p
+   log Vflat          +0.626   5.44e-18  |      +0.276   5.41e-04
+   log Rdisk          +0.550   1.74e-13  |      +0.019   8.15e-01
+   log Mbar           +0.757   9.80e-30  |      +0.073   3.72e-01
+   log rho_m          +0.150   6.51e-02  |      +0.030   7.11e-01
+   log Breq           -0.562   3.85e-14  |      +0.568   2.00e-14
+
+==============================================================================
+C. PERMUTATION NULL for rho_s(log eps0, log M_bar) -- galaxy labels shuffled (the seed: 'declare the null by permutation')
+==============================================================================
+   site grid   observed rho_s = +0.758   null |rho_s| 99.9th pct = 0.260   max |null| = 0.309   p_perm <= 5.0e-05  (20000 perms)
+               control a0: observed rho_s = +0.073   fraction of null >= |obs| = 0.35
+   uncensored  observed rho_s = +0.757   null |rho_s| 99.9th pct = 0.268   max |null| = 0.317   p_perm <= 5.0e-05  (20000 perms)
+               control a0: observed rho_s = +0.073   fraction of null >= |obs| = 0.38
+
+==============================================================================
+D. log eps0 = k*log M_bar + b, and the same for a0 -- scatter about the fit (seed steps 2+3; NO decision rule pre-registered here)
+==============================================================================
+   site grid   eps0  slope k = +0.420 dex/dex   intercept -5.34   scatter about fit: rms 0.361 dex, robust 0.417 dex   (raw sd 0.528; fraction removed 32%)
+   site grid   a0    slope k = +0.042 dex/dex   intercept -10.45   scatter about fit: rms 0.331 dex, robust 0.306 dex   (raw sd 0.333; fraction removed 1%)
+   uncensored  eps0  slope k = +0.613 dex/dex   intercept -7.47   scatter about fit: rms 0.517 dex, robust 0.550 dex   (raw sd 0.764; fraction removed 32%)
+   uncensored  a0    slope k = +0.070 dex/dex   intercept -10.74   scatter about fit: rms 0.375 dex, robust 0.319 dex   (raw sd 0.381; fraction removed 1%)
+   (MOND's own relation-scatter benchmark, quoted by the seed for comparison only: the RAR's 0.11 dex.)
+
+[results -> publisher_20260901_eps0_universality_results.json]   total 96s
