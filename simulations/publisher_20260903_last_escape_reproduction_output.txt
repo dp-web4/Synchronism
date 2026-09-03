@@ -1,0 +1,108 @@
+built 153 galaxies in 10s;  N = 3035 points
+
+==============================================================================
+0. SOLVES: eps0 grid, rho_c fixed; every solve scored against DATA and against MOND
+==============================================================================
+   eps0 = 0.0050  chi2/N vs data  1689.27   vs MOND-curve  1673.95   [18s]
+   eps0 = 0.0061  chi2/N vs data  1627.71   vs MOND-curve  1613.12   [27s]
+   eps0 = 0.0075  chi2/N vs data  1559.46   vs MOND-curve  1545.61   [36s]
+   eps0 = 0.0092  chi2/N vs data  1484.18   vs MOND-curve  1471.05   [45s]
+   eps0 = 0.0113  chi2/N vs data  1401.63   vs MOND-curve  1389.21   [54s]
+   eps0 = 0.0138  chi2/N vs data  1311.77   vs MOND-curve  1300.05   [63s]
+   eps0 = 0.0169  chi2/N vs data  1214.87   vs MOND-curve  1203.80   [72s]
+   eps0 = 0.0207  chi2/N vs data  1111.49   vs MOND-curve  1101.03   [81s]
+   eps0 = 0.0254  chi2/N vs data  1002.67   vs MOND-curve   992.73   [89s]
+   eps0 = 0.0311  chi2/N vs data   889.87   vs MOND-curve   880.35   [98s]
+   eps0 = 0.0381  chi2/N vs data   775.08   vs MOND-curve   765.86   [108s]
+   eps0 = 0.0466  chi2/N vs data   660.76   vs MOND-curve   651.69   [117s]
+   eps0 = 0.0571  chi2/N vs data   549.82   vs MOND-curve   540.69   [125s]
+   eps0 = 0.0700  chi2/N vs data   445.44   vs MOND-curve   436.03   [135s]
+   eps0 = 0.0858  chi2/N vs data   350.95   vs MOND-curve   341.01   [144s]
+   eps0 = 0.1051  chi2/N vs data   269.64   vs MOND-curve   258.90   [157s]
+   eps0 = 0.1287  chi2/N vs data   204.47   vs MOND-curve   192.65   [169s]
+   eps0 = 0.1577  chi2/N vs data   157.96   vs MOND-curve   144.79   [177s]
+   eps0 = 0.1932  chi2/N vs data   131.93   vs MOND-curve   117.14   [186s]
+   eps0 = 0.2366  chi2/N vs data   127.42   vs MOND-curve   110.79   [195s]
+   eps0 = 0.2899  chi2/N vs data   144.66   vs MOND-curve   125.98   [204s]
+   eps0 = 0.3551  chi2/N vs data   183.00   vs MOND-curve   162.12   [213s]
+   eps0 = 0.4351  chi2/N vs data   241.06   vs MOND-curve   217.89   [222s]
+   eps0 = 0.5330  chi2/N vs data   316.84   vs MOND-curve   291.31   [230s]
+   eps0 = 0.6530  chi2/N vs data   407.85   vs MOND-curve   379.94   [239s]
+   eps0 = 0.7999  chi2/N vs data   511.31   vs MOND-curve   481.04   [248s]
+   eps0 = 0.9800  chi2/N vs data   624.31   vs MOND-curve   591.74   [256s]
+
+==============================================================================
+R0. UNCENSORED PER-GALAXY CONSTANTS
+==============================================================================
+   grid: eps0 0.0050..0.980 (27 pts);  a0 3.00e-12..3.00e-09 (61 pts)
+   eps0 (data)        median 5.254e-02   16-84% 1.749 dex   std 0.764 dex   at edge   33%
+   eps0 (MOND-curve)  median 3.402e-02   16-84% 1.675 dex   std 0.744 dex   at edge   39%
+   a0                 median 9.179e-11   16-84% 0.638 dex   std 0.369 dex   at edge    1%
+   eps0 (co-fit B)    median 2.200e-01   16-84% 0.549 dex   std 0.317 dex   rho_c at top edge  59%
+
+   universal: class eps0 = 0.237 chi2/N = 127.42;  MOND a0 = 1.194e-10 chi2/N = 52.20
+   per-galaxy 1-param: class chi2/N = 35.97;  MOND 10.25
+   sanity: eps0 fitted to MOND's own curve, universal best = 0.237  (chi2/N 110.79: how well the class can imitate MOND at all)
+
+==============================================================================
+R1/R2. THE MASS RELATION -- eps0 vs a0, same galaxies, same pipeline
+==============================================================================
+   decision thresholds (pre-registered): 'relation' iff resid sigma < sigma(log a0) = 0.369 dex;  'tight' iff < 0.200 dex
+
+   constant            k (dex/dex)   a @1e10  resid sigma   robust  raw sigma   rho_s    perm p
+   eps0 (data)              +0.615 4.622e-02        0.518    0.551      0.764  +0.758  5.00e-05
+   eps0 (MOND-curve)        +0.675 3.672e-02        0.415    0.450      0.744  +0.846  5.00e-05
+   a0                       +0.063 9.044e-11        0.367    0.314      0.369  +0.071  3.84e-01
+   eps0 (co-fit B)          +0.170 1.906e-01        0.278    0.197      0.317  +0.512  5.00e-05
+
+   uncensored only (drop galaxies whose eps0 sits at a grid edge):
+   eps0 (data), n=102: k = +0.390, resid sigma = 0.391 dex, robust 0.358
+
+==============================================================================
+R4. IS eps0_data ANYTHING OTHER THAN WHAT MOND INDUCES?
+==============================================================================
+   log(eps0_data / eps0_MOND): median +0.000, sigma 0.427 dex, robust 0.198 dex
+   Spearman(eps0_data, eps0_MOND) = +0.825  (perm p = 5.00e-05)
+   OLS eps0_data on eps0_MOND: slope +0.862, resid sigma 0.418 dex  (vs 0.518 dex about M_bar)
+   Spearman(eps0_MOND, log M) = +0.846 (perm p = 5.00e-05)  <- the mass relation MOND *induces* in this pipeline
+
+   joint OLS  log eps0_data = a + b log eps0_MOND + c log M :
+      b = +0.750  [95% +0.571, +0.927]
+      c = +0.110  [95% -0.071, +0.277]   (M_bar's slope AFTER MOND's induced eps0 is removed)
+      resid sigma 0.415 dex   (M only: 0.518;  eps0_MOND only: 0.418)
+
+   analytic proxy mu_simple(g_bar,last/a0): Spearman with eps0_data +0.427, with eps0_MOND +0.441
+
+==============================================================================
+R5. WHAT THE RESIDUALS ABOUT eps0(M) STILL KNOW
+==============================================================================
+   observable        rho_s(res eps0|M)  rho_s(res a0|M)   rho_s(raw eps0) rho_s(raw a0)
+   log g_bar,last               +0.141           -0.079            +0.427        -0.010
+   log B_req,last               -0.382           +0.635            -0.476        +0.592
+   log R_last/R_d               +0.240           +0.182            +0.351        +0.238
+   log Sigma_eff                +0.347           +0.105            +0.622        +0.202
+   log rho_mid                  +0.175           +0.019            +0.148        +0.033
+   log V_flat                   +0.090           +0.144            +0.625        +0.277
+   log R_d                      -0.049           -0.113            +0.552        +0.015
+   log eps0_MOND                +0.408           +0.010            +0.825        +0.146
+
+==============================================================================
+R3. PARAMETER-MATCHED GLOBAL FIT: class with eps0 = A (M/1e10)^k  vs  MOND with a0 = A' (M/1e10)^k'
+==============================================================================
+   class eps0: best A = 1.187e-01, k = +0.325  ->  chi2/N =    91.20   (k = 0 universal:   127.68)
+   MOND a0   : best A = 1.156e-10, k = +0.025  ->  chi2/N =    52.09   (k = 0 universal:    52.56)
+
+   matched 2-parameter ratio class/MOND = 1.75x   (pre-registered pass: <= 1.20)
+   what the relation buys each side: class 1.40x,  MOND 1.01x
+
+   verification with real solves at the best class relation:
+   real-solve chi2/N =    89.77  (interpolated    91.20)
+   boost SHAPE at the relation: median log(B_last/B_mid) class +0.137 dex vs MOND nu +0.143 dex  -- with rho_c = 3.5e-06 the class's boost is radially varying in the disc
+   MOND at a0 = A' M^k' exact: chi2/N =    51.81  (interpolated    52.09)
+
+==============================================================================
+GALAXY-LEVEL (N_eff = number of galaxies) for the matched 2-parameter fits
+==============================================================================
+   median reduced chi2: class 19.76  MOND 10.57;  class wins 31%;  Wilcoxon p = 2.31e-07
+
+total 313s

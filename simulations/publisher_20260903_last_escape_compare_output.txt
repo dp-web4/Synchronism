@@ -1,0 +1,2 @@
+site lines 108  mine lines 108
+numeric lines compared 77: exact 77, within 2% 77, outside 0
