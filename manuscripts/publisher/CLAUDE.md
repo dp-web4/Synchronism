@@ -279,6 +279,18 @@ Each whitepaper is reviewed by an isolated subagent with full context:
 | Synchronism | `/Synchronism/whitepaper/PUBLISHER_CONTEXT.md` | Proposals/Reviews/Arbiter |
 | Web4 | `/web4/whitepaper/PUBLISHER_CONTEXT.md` | Direct Edit |
 
+**Run log (split out 2026-09-03).** Each pass's entry goes in the *run log*, not in
+`PUBLISHER_CONTEXT.md`. The context doc had become 89% (Synchronism) and 96% (Web4) run history,
+while its own Section 11 tells this subagent to read the whole file as its context -- so the history
+was crowding out the context it was filed under. Append newest-first to:
+
+| Whitepaper | Run log |
+|---|---|
+| Synchronism | `manuscripts/publisher/PUBLISHER_LOG_synchronism.md` (deliberately outside `whitepaper/**`: that path is the CI build trigger, and `build_whitepaper.yml` already excludes `PUBLISHER_CONTEXT.md` from it because log appends were firing rebuild+deploy churn) |
+| Web4 | `whitepaper/log/PUBLISHER_LOG.md` (alongside the existing `log/CHANGELOG.md`; web4 CI is `contents: read` parity-only and never writes back) |
+
+Edit `PUBLISHER_CONTEXT.md` only when the *standing* picture changes.
+
 ### Subagent Launch Protocol
 
 For each whitepaper, launch a Task subagent with this prompt structure:
@@ -290,7 +302,8 @@ Read and follow the complete context in:
 {path}/whitepaper/PUBLISHER_CONTEXT.md
 
 Your task:
-1. Check for new developments since last review (see PUBLISHER_CONTEXT.md Section 6)
+1. Check for new developments since last review (prior passes are in the run log
+   PUBLISHER_CONTEXT.md Section 6 points at, NOT in Section 6 itself -- see the "Run log" table above)
 2. Evaluate each against inclusion criteria (Section 3)
 3. For included items:
    - Identify target section(s)
@@ -312,7 +325,8 @@ Return your findings as:
 ### Synchronism Whitepaper Review
 
 **Inputs**:
-- `PUBLISHER_CONTEXT.md` (full context)
+- `PUBLISHER_CONTEXT.md` (standing context: structure, criteria, terminology, build, current state)
+- `manuscripts/publisher/PUBLISHER_LOG_synchronism.md` (run log -- prior pass entries, newest first)
 - Recent SESSION_MAP entries (sessions since 2026-01-16)
 - Current section CHANGELOGs
 
@@ -339,7 +353,8 @@ Return your findings as:
 ### Web4 Whitepaper Review
 
 **Inputs**:
-- `PUBLISHER_CONTEXT.md` (full context)
+- `PUBLISHER_CONTEXT.md` (standing context: structure, criteria, terminology, build, current state)
+- `whitepaper/log/PUBLISHER_LOG.md` (run log -- prior pass entries, newest first)
 - Recent hardbound-core, web4-core changes
 - ARCHITECTURE.md files
 - Protocol specifications
