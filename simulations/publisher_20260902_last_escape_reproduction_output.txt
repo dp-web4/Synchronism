@@ -1,0 +1,16 @@
+built 153 galaxies in 11s;  N = 3035 points
+
+==============================================================================
+0. SOLVES: eps0 grid, rho_c fixed; every solve scored against DATA and against MOND
+==============================================================================
+   eps0 = 0.0050  chi2/N vs data  1689.27   vs MOND-curve  1673.95   [19s]
+   eps0 = 0.0061  chi2/N vs data  1627.71   vs MOND-curve  1613.12   [29s]
+   eps0 = 0.0075  chi2/N vs data  1559.46   vs MOND-curve  1545.61   [39s]
+   eps0 = 0.0092  chi2/N vs data  1484.18   vs MOND-curve  1471.05   [46s]
+   eps0 = 0.0113  chi2/N vs data  1401.63   vs MOND-curve  1389.21   [57s]
+   eps0 = 0.0138  chi2/N vs data  1311.77   vs MOND-curve  1300.05   [67s]
+   eps0 = 0.0169  chi2/N vs data  1214.87   vs MOND-curve  1203.80   [76s]
+   eps0 = 0.0207  chi2/N vs data  1111.49   vs MOND-curve  1101.03   [89s]
+   eps0 = 0.0254  chi2/N vs data  1002.67   vs MOND-curve   992.73   [99s]
+   eps0 = 0.0311  chi2/N vs data   889.87   vs MOND-curve   880.35   [107s]
+   eps0 = 0.0381  chi2/N vs data   775.08   vs MOND-curve   765.86   [116s]

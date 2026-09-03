@@ -1,0 +1,2 @@
+/mnt/c/exe/projects/ai-agents/Synchronism/simulations/publisher_20260902_last_escape_reproduction.py:131: RuntimeWarning: invalid value encountered in sqrt
+  V_MOND = [np.sqrt(K.mond_simple(g.gbar_sparc) * g.d["R"]) for g in G]
