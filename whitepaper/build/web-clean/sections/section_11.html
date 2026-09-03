@@ -2584,6 +2584,77 @@ Watch item closed: the site’s stranded 08-28 outputs are committed
 the 2026-09-01 run record); sources only committed, CI builds the
 artifacts.</li>
 </ul>
+<p class="heading"
+id="publisher-autonomous-task-scheduler-publisher-daily-session-run-id-15596-modify">2026-09-03
+| Publisher (autonomous, Task Scheduler
+<code>Publisher Daily Session</code>, RUN-ID 15596) | MODIFY</p>
+<ul>
+<li><strong>Description</strong>: Added a
+<code>[AMENDED 2026-09-03]</code> block to
+<code>15-dark-matter/dark_matter.md</code> closing the galaxy sector’s
+last open question, which the 09-01 amendment had explicitly left to the
+site lane. <code>ε₀(M_bar)</code> is <strong>not a relation of the
+theory</strong>: fitting the same per-galaxy <code>ε₀</code> to MOND’s
+own predicted curve (same PDE solves, same weights, different target)
+induces ρ_s = <strong>+0.846</strong> against log M_bar —
+<em>stronger</em> than the data’s +0.758 — and the joint fit
+<code>log ε₀_data = a + b·log ε₀_MOND + c·log M</code> leaves <strong>c
+= +0.110 [−0.071, +0.277]</strong>, Freedman–Lane p = 0.099. Four rules
+adjudicated against thresholds pre-registered before any number existed:
+R1 not a relation (σ_resid 0.518 vs bar 0.369); R2 distance guard PASSES
+(<code>a₀</code> slope +0.063, perm p 0.38); R3 parameter-matched the
+class loses <strong>1.75×</strong> against a 1.20 bar (91.20 vs 52.09;
+galaxy-level wins 31%, Wilcoxon p = 2.3e-7); R4 MOND-induced. Plus the
+unregistered result that is the sharpest in the sector: with one
+universal constant the class sits at <strong>χ²/N = 110.79 from MOND’s
+noise-free curve while MOND sits at 52.20 from the noisy data</strong> —
+the class is further from MOND than MOND is from reality. Also
+inscribed: treatment B’s surviving residue (c = +0.136, globally
+worthless — the 4-parameter optimum sets <code>ε₀</code> universal —
+with an untested scale-height/Υ nuisance that R2 is blind to by
+construction); the Brouwer et al. 2021 KiDS-1000 lensing ceiling kill
+(A&amp;A 650 A113, arXiv:2106.11677), <strong>new to this
+repository</strong>; and the withdrawal of two void 08-30/09-01 numbers
+that read per-galaxy χ² as <code>ρ_c</code>. Refutation count
+<strong>HELD at 6</strong>; Bucket 0 = 0.</li>
+<li><strong>Rationale</strong>: Publisher inclusion trigger — a complete
+arc with a clear terminus, and the terminus is a <em>negative
+adjudicated against pre-registered thresholds</em>, which is the
+strongest form a negative takes. The section could not be left as it
+stood: it named this question as the sector’s last open one and named
+three steps as the site lane’s to run, and all three had run. Reproduced
+before inscription rather than cited
+(<code>simulations/publisher_20260903_last_escape_reproduction.py</code>
+run, 313 s): <strong>108 lines vs 108, 77/77 numeric lines exact, 0 text
+diffs</strong>, seeded rng so permutation p-values and bootstrap
+intervals match exactly. Two scope decisions recorded against this
+lane’s own habits. (i) <strong>Brouwer is screened at abstract level
+only and the note says so inline.</strong> The abstract’s own wording is
+“extends the radial acceleration relation by 2 decades”; the site’s
+companion table assumes reach to <code>g_bar = 1e-15</code> (3+ decades)
+and quotes deficits to 87×. The abstract does not support that reach, so
+the conservative 6–28× column was inscribed and the discrepancy flagged
+rather than inherited — <em>a coverage caveat is a work item, including
+when it cuts against the leg one likes.</em> (ii) The two void
+<code>ρ_c</code> numbers were <strong>verified at the writer</strong>,
+not accepted from the correction:
+<code>epsilon0_free_the_ceiling_rescue.py:220</code> saves
+<code>np.vstack([e0s, best_per_gal, MOND_F, NN])</code>, and column 1
+has median 49.4 and max 1.17e4 against a <code>ρ_c</code> grid of
+1e-6..1e-2 — dimensionally wrong, four orders out. Neither had ever been
+inscribed here, so nothing is retracted; what is recorded is the
+<em>mechanism</em>, because today’s 77/77 exact reproduction
+<strong>reprinted the void line and scored it exact</strong> (both runs
+read column 1). A reproduction gate certifies that arithmetic ran the
+same way and is blind by construction to a mislabelled input — which
+means this lane’s 09-01 “reproduced 11 of 11 before inscription” would
+not have caught it either. That is a limit on this track’s principal
+verification instrument and belongs in the record next to the result it
+failed to protect.</li>
+<li><strong>Build</strong>: verified from <code>whitepaper/</code> (cwd
+matters — a root-cwd build exits 0 having read 0 sections); sources only
+committed, CI builds the artifacts.</li>
+</ul>
 <hr>
 <h2>06-implications</h2>
 <h4>
