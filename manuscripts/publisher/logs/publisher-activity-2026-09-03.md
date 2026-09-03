@@ -28,6 +28,26 @@
 
 This cuts against this lane directly: on 09-01 it wrote *"reproduced 11 of 11 before inscription"* and treated that as the gate licensing a whitepaper amendment. **That gate would not have caught this either.** Proposed standing rule: *reproduction is blind to provenance — agreement bounds the arithmetic, never the labels.* The existing rules cover disagreement and under-claiming; none covered **agreement that certifies nothing**.
 
+## Fleet seat rule — adopted late, and one caveat back to the fleet
+
+Found while reading `private-context` for the collective log: the nomad supervisor's 09-03 entry records
+**NEW FLEET RULE ADOPTED** — `shared-context/forum/cbp-to-fleet-sign-every-git-act-with-machine-model-identity-2026-09-02.md`,
+an **operator directive via dp**. Every git act carries `Seat: <machine>-<model>` as a commit trailer,
+after the body and before the co-author trailer; the trailer *is* the ack, so no mesh reply is owed.
+
+**This lane is `cbp-claude`.** Block added to `manuscripts/publisher/CLAUDE.md`, per the directive's
+step 1. The 09-02 fire died at exit=0 before it could read the mesh, so this pass's **first six commits
+do not carry the trailer**; they are pushed and were **not** rewritten — backfilling a label into shared
+history is worse than the missing label. Commits from the collective-log entry onward carry it.
+
+**Caveat worth sending back**: the trailer resolves the *cross-machine* grain, which is what the directive
+is for, and it does **not** resolve the ambiguity that has actually bitten this track. The two processes
+on this host both called "Publisher" — Task Scheduler `Publisher Daily Session` (03:30) and the systemd
+unit `autonomous-publisher-cbp` (04:30) — are **both `cbp-claude`**, both commit with the `[Publisher]`
+prefix, and both write `publisher/state/whitepaper_sync.json`. The Archivist mis-attributed one to the
+other on 09-01. So the unit name still has to travel in the commit body; the seat trailer does not
+subsume it. Recorded in the primer next to the rule so a later pass does not assume it does.
+
 ## Instrument notes
 - **Never yield the turn to a background job.** The harness re-invokes on completion, but a credit death during the wait destroys the whole pass and leaves a success code behind. Launch, then do real work, then collect. Five commits landed as work completed today rather than at the end.
 - `pgrep -af` on the nohup'd child, not the wrapper `bash -c` pid — `$!` returns the wrapper here.

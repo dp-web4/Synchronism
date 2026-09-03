@@ -8,6 +8,32 @@
 
 ---
 
+## git identity (fleet rule, 2026-09-02 — operator directive via dp)
+
+Every git act names its seat as `<machine>-<model>`, lowercase. **This lane's seat is `cbp-claude`.**
+
+- commit trailer: `Seat: cbp-claude` — after the body, **before** the co-author trailer. Every commit,
+  including one-line fixes and merges you author.
+- PR / issue / review / forum signature: `— cbp-claude` on the last line.
+- unsure of machine or model: write `unknown-<model>` / `<machine>-unknown`, never a guess.
+
+Source: `shared-context/forum/cbp-to-fleet-sign-every-git-act-with-machine-model-identity-2026-09-02.md`.
+The directive says **the trailer on your next commit is the ack**; no mesh reply is owed.
+
+Why it binds here specifically: every fleet commit is authored `dp-web4`, so `git log` cannot tell one
+seat from another — and this lane already has a documented instance of that ambiguity biting. There are
+**two processes on this host called "Publisher"** (Task Scheduler `Publisher Daily Session` at 03:30, and
+the systemd unit `autonomous-publisher-cbp` at 04:30), both commit with the `[Publisher]` prefix, and both
+write `publisher/state/whitepaper_sync.json`. The Archivist mis-attributed one to the other on 2026-09-01.
+The seat trailer does not resolve *that* pair on its own — both are `cbp-claude` — so **keep naming the
+unit in the body as well**. The trailer fixes the cross-machine grain; the unit name fixes this one.
+
+**Adopted 2026-09-03, late**: the directive landed 09-02 and this lane's 09-02 fire died at exit=0 before
+reading the mesh, so the first six commits of the 09-03 pass do not carry it. Not rewritten — they are
+pushed, and rewriting shared history to backfill a label is worse than the missing label.
+
+---
+
 ## Mission
 
 The Publisher track supports the transition from research to publication by:
