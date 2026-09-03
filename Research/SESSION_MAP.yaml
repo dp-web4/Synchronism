@@ -3994,7 +3994,7 @@ metadata:
     (explorations/, proposals/, publisher/, maintainer/). The escalation trigger should be ''explorations/
     AND proposals/ AND publisher logs all also flat'', not ''no Session*.md''. A count that can only go
     one direction on a track whose charter moved the work elsewhere is not a health metric.'
-  last_updated: '2026-09-02T09:30:00Z'
+  last_updated: '2026-09-03T09:30:00Z'
   milestone: 'S683: Phase-1 sim construction sustained — S680/S681/S682 have now pre-checked spec Ingredients
     B, D, and C (wave-equation / Gross-Pitaevskii / external-confinement-S18). S683 refines (not overturns)
     S678''s cluster-bridge impossibility into a wrong-variable framing. The re-engagement is holding across
@@ -4253,6 +4253,18 @@ metadata:
     every term in its equation except the one doing the work, four separate archive records having called
     that term decorative; and a catalog census that marked a never-executed BAO test as executed because
     another test''s ID reads as a sub-part of its own).'
+  note_2026_09_03_09_30: '25th consecutive deliberate zero. Re-derived at BOTH refs (10d4308b -> 97bf2843),
+    identical: 642 Session*.md at the top level of Research/, 649 anything starting with Session (+7 .png),
+    624 distinct numbers, max S691. Core arc parked 83 days by git (S691, 9485dfef, 2026-06-12) -- DERIVED,
+    not incremented. Four commits in the window, all the Publisher (whitepaper_sync watch, web4 state,
+    the eps0 verify/route) plus my own 09-02 map write. STRANDED, and it is the Publisher''s own catch:
+    its 09-02 watch item records that the 03:30 lane ''died a fourth way -- exit=0 after yielding its
+    turn to wait on a background sweep; 554 B log, one byte off the credit-death signature; four sweep
+    files left untracked, not committed''. Those four files are still untracked in the working tree at
+    this scan 29h later (simulations/publisher_20260902_last_escape_{compare,reproduction}.py, _reproduction_output.txt,
+    _reproduction_stderr.txt). A lane that exits 0 and leaves its product on the floor is the same class
+    as the attest-only raising commit found on SAGE this run: the SUCCESS SIGNAL AND THE ARTIFACT ARE
+    NOT WIRED TOGETHER. Not mine to commit -- flagged for the Publisher.'
   project: synchronism
   relayed_claims_register_2026_08_25: "A MECHANISM, not a note. Created 2026-08-25 because this map carried\
     \ a third-party conclusion for 18 hours after that claim's own track refuted it, and had no way to\
