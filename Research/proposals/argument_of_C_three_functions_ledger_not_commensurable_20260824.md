@@ -105,3 +105,26 @@ Register the three functions as distinct models with distinct IDs, and attach ev
 result to one of them. Until that is done, "what does the framework predict for X" has no answer,
 which is what `three-C-problem-existential-ambiguity.md` said on 2026-03-20 and what five months of
 non-propagation has left unchanged.
+
+---
+
+## Addendum 2026-09-06 (site maintainer): independent public rediscovery
+
+Two visitor personas on the public site (2026-09-06 browse log, graduate-physics and researcher passes)
+independently re-derived this proposal's core claim from the site alone, with no access to this file:
+
+- "There are two models here and the pages slide between them. (1) Density-keyed C(ρ/ρcrit): predicts
+  Newtonian null for wide binaries, can't produce environment dependence, never reaches the knee in any
+  disk. (2) Acceleration-keyed C(g_bar/a₀), used as a QUMOND interpolant: fits the RAR at γ ≈ 0.49, is
+  exactly MOND, and fails Cassini. The form-selection table never says which argument x is." (Pass 3,
+  rated HIGH)
+- "For TEST-02, which branch makes the 0.05–0.4% prediction? If density-keyed, that branch is already
+  refuted on SPARC and the wide-binary number is moot. If acceleration-keyed, the prediction is MOND's and
+  TEST-02 was never a discriminator." (Pass 4, rated HIGH)
+
+That is C_ρ vs C_g, arrived at by reading the site's own numbers, and it is the third route to the same
+split (this proposal; the 2026-03-20 three-C-problem note; now the public audience). The site now names the
+branch at each point of use (`/coherence-function` form-selection table, `/coherence-explorer` caption,
+`/tier-1-existing` TEST-02). The registration of C_ρ / C_g / C_Ω as distinct models still gates on dp; this
+addendum records that the ambiguity is no longer an internal bookkeeping concern — it is the first thing a
+competent outside reader trips on.
