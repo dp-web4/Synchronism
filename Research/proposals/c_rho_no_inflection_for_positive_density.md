@@ -82,3 +82,54 @@ This result is the mathematical foundation of the "compander-class diagnosis" fr
 ## Open Question
 
 Does the no-inflection property change the consciousness-threshold framing? The /key-claims page already partially addresses this (notes the consciousness threshold is on f(γ,D,S), not C(ρ)) — but the claim "C=0.50 is the steepest-slope regime" is still approximately stated even though it's only true for the f sigmoid, not for C(ρ) at ρ=ρ_crit.
+
+---
+
+## CORRECTION (2026-09-07): the result is correct and **coordinate-dependent**, and it has been used outside its coordinate
+
+**Source**: maintainer track, from the synchronism-site visitor researcher persona, 2026-09-07.
+Back-annotated because this proposal's conclusion was being cited on the site as a general
+"C(ρ) has no privileged value," which is false.
+
+The proof above is right: in **linear ρ**, C is strictly concave for ρ > 0 and has no inflection.
+But the framework never works in linear ρ. Every plot, the log-density argument itself, the
+Coherence Explorer axis, and the whole "spans 80 orders of magnitude" framing are in **log ρ** —
+and in that coordinate the inflection exists.
+
+With `u = ρ/ρ_crit`, maximise `dC/d(ln ρ) = u·dC/du` for `C = tanh(γ ln(1+u))`:
+
+```
+ln f  = ln u + ln γ + ln(1 - C²) - ln(1+u)
+d/du  = 1/u - 1/(1+u) - 2C·γ/(1+u) = 0
+      = 1/(u(1+u)) = 2Cγ/(1+u)
+```
+
+**Inflection condition in log-density:  C* = 1 / (2 γ u*)**
+
+- At **γ = 1/2** (the value SPARC selects at 0.489 and DESI DR2 at 0.487): C = u/(u+2), so the
+  condition reads u/(u+2) = 1/u ⟹ u² − u − 2 = 0 ⟹ **u* = 2, C* = 0.500 exactly.**
+- At γ = 2: u* ≈ 0.416, **C* ≈ 0.601**.
+
+So at the framework's own empirically preferred γ, **C = 0.50 is exactly the point of maximum
+sensitivity of coherence to log-density** — the one value in [0,1) that is dynamically distinguished.
+
+### What this does and does not overturn
+
+- **Does not overturn:** "ρ_crit is not a critical point." That stands — this is a saturation knee,
+  there is no self-consistency loop, no free energy, no critical exponents, and the Critical
+  Exponents failure is unaffected. An inflection in a monotone sigmoid is not a phase transition.
+- **Does not overturn:** the C ≈ 0.50 consciousness-threshold demotion. That demotion is correct,
+  but it rests on **circularity** — the eight "independent methods" inherit one unvalidated
+  calibration and none of them measures C — not on geometry.
+- **Does overturn:** the argument "dC/dρ is maximised at ρ = 0, therefore C = 0.50 is not
+  dynamically privileged." That argument is false in the coordinate the framework actually uses,
+  and it was carried on the site's `/consciousness-demo` page until 2026-09-07.
+
+### The lesson this instance carries
+
+This is an **over-refutation**, the same class as the a₀ "8σ", the ΔBIC = +184 effective-N inflation,
+and the +17.95σ vs 8.7σ Cassini gap: a demotion argued with more force than the mathematics supports.
+The direction of the error is *against* the framework, which is why it survived — the audit machinery
+is tuned to catch overclaiming and does not symmetrically catch over-refuting. A reader who checks the
+derivative finds the program refuting itself with false algebra, and that costs exactly what
+overclaiming costs. **Corrections must be error-checked in the same direction as claims.**

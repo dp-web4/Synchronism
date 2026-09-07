@@ -171,3 +171,54 @@ python3 simulations/sparc_cassini_joint.py \
 The result JSON identifies execution parent `e05e3582`, the registration and
 instrument-amendment commits, runtime dependency versions, the original
 synchronism-site analysis commit and script hash, and the SPARC data hash.
+
+---
+
+## CORRECTION (2026-09-07): the tail-shape section names the wrong MOND function
+
+**Source**: maintainer track, back-annotated from the synchronism-site visitor graduate-physics
+persona pass, 2026-09-07. **The registered result is unaffected** — the empty intersection,
++17.95σ at the SPARC optimum, and the +17.71σ to +18.00σ span across the ΔBIC ≤ 10 interval all
+came from executed computation, not from the explanatory section below. What is corrected is the
+*explanation*, and the correction makes the verdict **more** inherited from MOND, not less.
+
+### The error
+
+The section "Why the intersection is empty: a tail-shape mismatch" attributes the exponential
+Newtonian return `nu - 1 ~ e^-sqrt(x)` to "McGaugh's simple-nu." That is two different functions
+conflated:
+
+| function | form | Newtonian return |
+|---|---|---|
+| Milgrom **simple μ** (equivalently simple ν, `nu(y) = 1/2 + sqrt(1/4 + 1/y)`) | `mu(x) = x/(1+x)` | **power law**, `1 - mu ~ 1/x` |
+| McGaugh **RAR ν** (the function fitted to the observed RAR) | `nu(y) = [1 - e^-sqrt(y)]^-1` | **exponential**, `nu - 1 ~ e^-sqrt(y)` |
+
+The exponential belongs to the RAR function. Simple-ν returns as a power law: expanding
+`1/2 + sqrt(1/4 + 1/y)` at large `y` gives `1 + 1/y + O(y^-2)`.
+
+### Why this matters — the section contradicted the result it explains
+
+This same repository, and the site's TEST-25 row, correctly state that **at γ = 1/2 the compander
+is Milgrom's simple μ identically** (`C = x/(x+2) = mu_simple(x/2)`, exact for all x, not
+asymptotic). The tail-shape section then argued that the compander's power-law tail *distinguishes*
+it from "simple-nu." Both cannot be true. Under the correct naming they are consistent and the
+statement is stronger:
+
+> The compander at the SPARC-preferred γ sits in the **simple-μ branch of MOND**, and that branch is
+> the one planetary ephemerides had already disfavored (Hees et al. 2016; Blanchet & Novak 2011)
+> for exactly this reason — a slow power-law high-acceleration return. The tail does not separate
+> this framework from MOND; it separates **one branch of MOND from another**, and the framework
+> landed on the closed branch.
+
+### Consequences to propagate
+
+1. The claim "this is the framework's one genuinely non-MOND-degenerate piece of physics" — which
+   the site carried until 2026-09-07 — is **withdrawn**. The power-law tail is Milgrom's, not ours.
+2. It sharpens the already-registered +17.95σ vs 8.7σ reconciliation (Desmond, Hees & Famaey 2024).
+   Their 8.7σ is for **RAR-preferred** interpolating functions; the simple-μ branch is worse. The
+   factor ~2 is therefore *partly* the marginalization difference already documented and *partly* a
+   genuinely different (and more excluded) interpolating-function family. The registered row should
+   say which portion is which, or say that it has not been decomposed.
+3. `/galaxy-plotter` on the site draws its MOND reference with the simple-ν — the object this test
+   excludes. That inconsistency was already flagged on the TEST-25 row; the naming fix removes the
+   remaining ambiguity about whether it is the same function as the compander. It is.
