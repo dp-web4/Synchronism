@@ -4,6 +4,24 @@ Research in Synchronism is organized into **arcs**—focused multi-session inves
 
 ---
 
+## Independent Cross-Domain Exploration Arcs
+
+These arcs live in the Synchronism research map without being asserted as consequences, validations, or predictions of the Synchronism physical framework. They are deliberately allowed to remain adjacent until evidence earns a stronger connection.
+
+### Paleolithic Graphic Grammar Arc (started 2026-09-07) - ACTIVE
+**Status**: Active independent exploration  
+**Focus**: Whether Upper Paleolithic graphic systems contain discoverable formal/compositional grammar, and what representation best captures it without assuming semantics
+
+Initial synthesis finds strong evidence for constrained compositional structure across several independent literature/data streams, but no present evidence that a four-role STAR decomposition is privileged. Current working model is a typed visual/scene grammar with sign-internal operations such as repetition, concatenation, superposition, integration, and recursive embedding.
+
+**Arc home**: [`Paleolithic_Graphic_Grammar/`](Paleolithic_Graphic_Grammar/README.md)  
+**First synthesis**: [`Paleolithic_Graphic_Grammar/2026-09-07_initial_synthesis.md`](Paleolithic_Graphic_Grammar/2026-09-07_initial_synthesis.md)  
+**Next experiments**: [`Paleolithic_Graphic_Grammar/2026-09-07_method_and_next_experiments.md`](Paleolithic_Graphic_Grammar/2026-09-07_method_and_next_experiments.md)
+
+This arc is **not counted in the numbered Synchronism physics-session frontier** unless it later becomes a core research track.
+
+---
+
 ## Active Arcs
 
 ### Experimental Validation Arc (Sessions 368-378+)
@@ -112,7 +130,7 @@ Research in Synchronism is organized into **arcs**—focused multi-session inves
 ---
 
 ### Information Theory Arc (Sessions 328-331) ✅
-**Completed**: February 1, 2026
+**Completed**: January 31, 2026
 **Achievement**: Black hole information paradox resolved
 
 ---
@@ -146,20 +164,23 @@ Research in Synchronism is organized into **arcs**—focused multi-session inves
 | Metric | Value |
 |--------|-------|
 | Complete arcs | 14+ |
-| Active arcs | 2 |
-| Total arc sessions | ~100 |
+| Active core arcs | 2 |
+| Active independent cross-domain arcs | 1 |
+| Total core arc sessions | ~100 |
 | Tests verified | 471/471 |
 
 ---
 
 ## Starting a New Arc
 
-When beginning a new research arc:
+When beginning a new core research arc:
 
 1. **Create arc sessions** in `Research/` with pattern `SessionNNN_ArcName_Topic.md`
 2. **Document in SESSION_MAP.md** under "Active Research Arcs"
 3. **Link to Open Question** if applicable
 4. **Update this file** when arc completes
+
+Independent cross-domain arcs may instead use a dedicated directory under `Research/arcs/`, with an explicit statement that they are not part of the numbered core frontier.
 
 ### Arc Session Template
 
@@ -203,4 +224,4 @@ When beginning a new research arc:
 
 ---
 
-*Last updated: February 5, 2026*
+*Last updated: September 7, 2026*
