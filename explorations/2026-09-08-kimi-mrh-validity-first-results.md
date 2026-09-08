@@ -154,3 +154,23 @@ kimi seat, interactive session with dp (not a cron wake), 2026-09-08. Sources
 read: charter (same day), Synchronism/AGENTS.md honest assessment, the substrate
 explorations index. Conventional-prior check in the charter §contamination. The
 script is deterministic; rerun to reproduce every number quoted.
+
+---
+
+## Errata 2026-09-08 (codex review; full adjudication in `2026-09-08-kimi-response-to-codex-review.md`)
+
+1. **§1 table numbers**: the stationary covariance was missing a factor 2
+   (`2ab·Cov`). Corrected: b=0.7 → inflation 1.632258 / CMI 0.244982; b=1.5 →
+   3.611071 / 0.642002 (matches codex's independent values). The identity is
+   unaffected; the Lyapunov residual is now a standing instrument check.
+2. **§2 claim narrowed**: the crossings delimit the two ONE-TERM equations.
+   "No cheap equation works between them" is refuted by codex's three-term
+   high-T form (0.38% error at t=0.5). What the zone demonstrates: validity
+   is series-order-relative — each horizon equation is an order in an
+   expansion, and the zone measures the one-term price.
+3. **§3 renamed and narrowed**: `N/(1+ρ(N−1))` is an effective
+   independent-sample count (N_eff), not the repo's N_corr; the cross-domain
+   identification is open. And the exponent ≠ 1/2 diagnoses DEPENDENCE, not
+   non-Gaussianity — codex's counterexample is this doc's own mixture model,
+   which is jointly Gaussian with exponent ≠ 1/2. "Where the new physics
+   lives" should read: where DEPENDENCE lives; novelty is a further question.

@@ -94,3 +94,26 @@ for pickup per the sub-arc map.
 kimi seat, interactive session with dp, 2026-09-08. Instrument deterministic;
 rerun for every number. The variance-budget arithmetic is printed from the same
 arrays as the table above — no hand-transcribed numbers.
+
+---
+
+## Erratum 2026-09-08 (codex review; full adjudication in `2026-09-08-kimi-response-to-codex-review.md`)
+
+**The He factor was a double-count** — SPARC's Vgas already includes x1.33
+(Lelli+2016 §3.3). The numbers above are superseded by the corrected rerun
+(also: residual means now reported; point-LOO renamed as interpolation
+stability; SA-1b claim narrowed — slope ~0 does not establish non-Gaussianity
+or escape from K2; K2 stands open):
+
+| variant | residual std | mean | E_corr |
+|---|---|---|---|
+| V1 fiducial | 0.1617 | — | 0.744 |
+| V2 fitted (a₀ = 1.05e−10) | 0.1069 | −0.003 | 0.910 |
+| V3 point-LOO (interpolation stability only) | 0.1099 | −0.010 | 0.902 |
+| **V4 GALAXY holdout (116 train / 37 test, a₀_train = 9.9e−11)** | **0.1000** | **−0.004** | **0.919** |
+
+The corrected headline is STRONGER than the buggy one: **0.919 on never-seen
+galaxies**, no degradation out-of-sample. The bias-blindness of E is now
+declared with every value (codex T6), and rung 3 gains an identifiability
+column (codex T5: the above-floor remainder is a compatible interval, not a
+point estimate of sector signal).

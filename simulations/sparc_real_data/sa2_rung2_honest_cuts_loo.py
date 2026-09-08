@@ -1,21 +1,35 @@
 #!/usr/bin/env python3
 """SA-2 rung 2 + SA-1b first cut — the epicycle index under honest cuts,
-per-galaxy Upsilon with LOO, and the residual-scatter scaling (kimi, 2026-09-08).
+per-galaxy Upsilon with LOO and GALAXY holdout, and the residual-scatter
+scaling (kimi, 2026-09-08; errata from codex review same day incorporated).
 
 RUNG 2 (honest E): quality cuts Q<=2 and Inc>=30 deg from SPARC_Lelli2016c.mrt,
-He x1.33 gas correction, point cut |Vobs|>3 sigma. Three variants:
+point cut |Vobs|>3 sigma. SPARC's tabulated Vgas ALREADY includes the x1.33 He
+factor (Lelli+2016 section 3.3) — no gas correction is applied anywhere in this
+file (the first commit multiplied by 1.33 again: a double-count, caught in
+codex's review 2026-09-08). Variants:
   V1 fiducial:   Upsilon_d=0.5, Upsilon_b=0.7, a0=1.2e-10 (literature)
   V2 fitted:     Upsilon_d per galaxy (grid, 0.05..1.5), Upsilon_b=0.7,
                  a0 global fit, two alternations — the standard practice
-  V3 LOO:        V2 but each point's residual uses Upsilon_d refit WITHOUT that
-                 point (a0 kept global; one global param over ~3000 pts)
-E_raw / E_corr as in day zero (instrument floor from errV).
+  V3 point-LOO:  V2 but each point's residual uses Upsilon_d refit WITHOUT that
+                 point. Measures within-galaxy interpolation stability with a
+                 shared global a0 — NOT new-galaxy prediction (codex review).
+  V4 GALAXY holdout: the named task — predict a NEW galaxy's rotation curve
+                 from its baryonic data + the global law. a0 fitted on 116
+                 train galaxies only; Upsilon_d of each of the 37 held-out
+                 galaxies fitted from that galaxy's own points (a legitimate
+                 per-galaxy baryonic property); E over held-out points.
+E_raw / E_corr as in day zero (instrument floor from errV), with residual
+means reported alongside (E is variance-only and bias-blind — codex T6).
 
 SA-1b FIRST CUT (the exponent question, galactic): after V2, per-galaxy
 residual std sigma_g vs the included-DOF proxy M_star = Upsilon_d * L[3.6].
-A -1/2 log-log slope = Gaussian counting of independent units; 0 = the residual
-is STRUCTURE (series terms or sector), not counting fluctuation. Registered
-expectation per the program: nearer 0 than -1/2 — but measured, not assumed.
+A -1/2 log-log slope = Gaussian counting of independent units; 0 = NOT counting
+of independent units. Codex's narrowing applies: slope ~0 does not by itself
+establish non-Gaussianity, causal structure, or escape from K2 — dependence,
+distribution shape, and physical novelty are distinct questions; the slope
+says only that the scatter does not behave like averaging of independent
+identical units of this proxy.
 """
 import glob
 import os
@@ -43,7 +57,7 @@ def parse_mrt(path):
 def nu(x):
     return 1.0 / (1.0 - np.exp(-np.sqrt(np.clip(x, 1e-12, None))))
 
-def load_points(meta, yd_map=None, yb=0.7, he=1.33):
+def load_points(meta, yd_map=None, yb=0.7, he=1.0):   # he: SPARC Vgas already includes the 1.33 He factor (Lelli+2016 §3.3 — erratum 2026-09-08, codex review; the x1.33 in the first commit of this script was a double-count)
     """yd_map: galaxy -> Upsilon_d; default 0.5. Returns per-point dict of arrays."""
     out = {k: [] for k in ("g_obs", "g_bar", "errV", "vobs", "gal")}
     for path in sorted(glob.glob(os.path.join(HERE, "galaxies", "*.dat"))):
@@ -109,7 +123,7 @@ a0_fid = 1.2e-10
 anom = np.log10(p["g_obs"]) - np.log10(p["g_bar"])
 res = resid(p["g_obs"], p["g_bar"], a0_fid)
 e1 = index_E(anom, res, p["errV"], p["vobs"])
-print(f"\nV1 fiducial (Ud=0.5, Ub=0.7, He x1.33, a0=1.2e-10): "
+print(f"\nV1 fiducial (Ud=0.5, Ub=0.7, Vgas as tabulated incl. He, a0=1.2e-10): "
       f"N={len(anom)} pts, {len(set(p['gal']))} galaxies")
 print(f"  anomaly std {np.std(anom):.4f} | residual std {np.std(res):.4f} "
       f"| instrument {e1[2]:.4f} | E_raw {e1[0]:.4f} | E_corr {e1[1]:.4f}")
@@ -129,7 +143,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "galaxies", "*.dat"))):
     if len(R) >= 3:
         raw[name] = dict(R=R, Vobs=Vobs, errV=errV, Vgas=Vgas, Vdisk=Vdisk, Vbul=Vbul)
 
-def parts(name, yb=0.7, he=1.33):
+def parts(name, yb=0.7, he=1.0):
     r = raw[name]
     return (he * np.abs(r["Vgas"]) * r["Vgas"] / r["R"] * KMS_KPC_TO_MS2,
             np.abs(r["Vdisk"]) * r["Vdisk"] / r["R"] * KMS_KPC_TO_MS2,
@@ -176,12 +190,55 @@ print(f"\nV2 fitted (Ud per galaxy, a0 global): a0 = {a0:.3e} m/s^2; "
       f"Ud median {np.median(yvals):.3f}, 16-84% [{np.percentile(yvals,16):.3f}, "
       f"{np.percentile(yvals,84):.3f}]")
 print(f"  anomaly std {np.std(anom2):.4f} | residual std {np.std(res2):.4f} "
-      f"| instrument {e2[2]:.4f} | E_raw {e2[0]:.4f} | E_corr {e2[1]:.4f}")
+      f"mean {np.mean(res2):+.4f} | instrument {e2[2]:.4f} "
+      f"| E_raw {e2[0]:.4f} | E_corr {e2[1]:.4f}")
 
-# ---------------- V3: LOO Upsilon (residuals built in the same pass above)
+# ---------------- V3: point-LOO Upsilon (residuals built in the same pass above)
 e3 = index_E(anom2, res3, err2, vob2)
-print(f"\nV3 LOO (Ud refit per held-out point):")
-print(f"  residual std {np.std(res3):.4f} | E_raw {e3[0]:.4f} | E_corr {e3[1]:.4f}")
+print(f"\nV3 point-LOO (Ud refit per held-out point; measures within-galaxy")
+print(f"  interpolation stability with shared global a0 — NOT new-galaxy prediction):")
+print(f"  residual std {np.std(res3):.4f} mean {np.mean(res3):+.4f} "
+      f"| E_raw {e3[0]:.4f} | E_corr {e3[1]:.4f}")
+
+# ---------------- V4: GALAXY holdout (the named task: predict a NEW galaxy's
+# rotation curve from its baryonic data + the global law). a0 and the nu form
+# are fitted on train galaxies only; Upsilon_d of a held-out galaxy is fitted
+# from THAT galaxy's own points (a legitimate per-galaxy baryonic property).
+import hashlib
+names = sorted(raw)
+train = {n for n in names if int(hashlib.md5(n.encode()).hexdigest(), 16) % 5 != 0}
+test = [n for n in names if n not in train]
+yd_tr = {n: fit_upsilon(raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2,
+                        parts(n), a0) for n in sorted(train)}
+best, a0_tr = np.inf, a0
+for cand in np.linspace(3e-11, 4e-10, 60):
+    tot = 0.0; cnt = 0
+    for n in sorted(train):
+        hp, dp, bp = parts(n)
+        gb = hp + yd_tr[n] * dp + bp
+        go = raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2
+        ok = gb > 0
+        tot += np.sum(resid(go[ok], gb[ok], cand) ** 2); cnt += ok.sum()
+    if tot / max(cnt, 1) < best:
+        best, a0_tr = tot / cnt, cand
+anom4, res4, err4, vob4 = [], [], [], []
+for n in test:
+    r = raw[n]
+    go_all = r["Vobs"] ** 2 / r["R"] * KMS_KPC_TO_MS2
+    hp, dp, bp = parts(n)
+    y_te = fit_upsilon(go_all, (hp, dp, bp), a0_tr)
+    gb_all = hp + y_te * dp + bp
+    ok = gb_all > 0
+    for j in np.where(ok)[0]:
+        anom4.append(np.log10(go_all[j]) - np.log10(gb_all[j]))
+        res4.append(np.log10(go_all[j]) - np.log10(gb_all[j] * nu(gb_all[j] / a0_tr)))
+        err4.append(r["errV"][j]); vob4.append(r["Vobs"][j])
+anom4, res4, err4, vob4 = map(np.array, (anom4, res4, err4, vob4))
+e4 = index_E(anom4, res4, err4, vob4)
+print(f"\nV4 GALAXY holdout ({len(train)} train / {len(test)} held-out galaxies; "
+      f"a0_train = {a0_tr:.3e}):")
+print(f"  residual std {np.std(res4):.4f} mean {np.mean(res4):+.4f} "
+      f"| E_raw {e4[0]:.4f} | E_corr {e4[1]:.4f}")
 
 # ---------------- SA-1b first cut: sigma_g vs M_star
 print("\nSA-1b first cut: per-galaxy residual std vs M_star = Ud * L[3.6]")

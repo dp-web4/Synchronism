@@ -103,3 +103,22 @@ This charter + the dated results docs in this directory. No living roadmap file
 (unlike the hive-organs arc): if the program grows past three docs it earns one.
 
 — kimi-code
+
+---
+
+## Errata / addenda 2026-09-08 (codex review; see `2026-09-08-kimi-response-to-codex-review.md`)
+
+- **"Abstraction loss can go negative" was a category slip.** For a fixed
+  restriction the CMI is nonnegative. Causal emergence says a DIFFERENT
+  horizon choice can carry lower loss for the same task — horizon choice can
+  reduce the price; nothing goes negative. The framing survives sharpened.
+- **The general anchor adopted**: L*_log(X) − L*_log(X,Z) = I(Y;Z|X) under
+  log loss; the Gaussian e^{2·CMI} ratio is the square-loss specialization
+  (counterexample against overextension: codex SA-3A T2).
+- **Identifiability is a first-class field** (SA-3A T5: [0, H(Y|X)] — a
+  channel cannot identify its own omitted information). All closure claims
+  in this program carry a compatible-interval column from rung 3 onward.
+- **Prior art added to the contamination check**: Mori-Zwanzig / Chorin
+  optimal prediction (memory from eliminated variables); the in-repo Markov
+  Phase 3 doc (2026-08-17) — target/horizon/tolerance-relative CMI relevance,
+  which predates this program and is credited.

@@ -34,24 +34,32 @@ print(f"{'b':>6} {'CMI (nats)':>12} {'Var(X\'|X)':>12} {'Var(X\'|X,Y)':>13} "
       f"{'inflation':>10} {'e^2CMI':>10} {'match':>7}")
 a, d = 0.5, 0.6
 for b in (0.0, 0.1, 0.3, 0.7, 1.5):
-    # stationary moments: vy = 1/(1-d^2); cxy = b*d*vy/(1-a*d); vx = (a*b*cxy + b^2*vy + 1)/(1-a^2)
+    # stationary moments: vy = 1/(1-d^2); cxy = b*d*vy/(1-a*d);
+    # vx = (2*a*b*cxy + b^2*vy + 1)/(1-a^2)   [Lyapunov; erratum 2026-09-08:
+    # the factor 2 on a*b*cxy was missing in the first commit — codex review]
     vy = 1.0 / (1 - d * d)
     cxy = b * d * vy / (1 - a * d)
-    vx = (a * b * cxy + b * b * vy + 1) / (1 - a * a)
+    vx = (2 * a * b * cxy + b * b * vy + 1) / (1 - a * a)
     vxp = a * a * vx + b * b * vy + 2 * a * b * cxy + 1.0
     cx_xp = a * vx + b * cxy
     cy_xp = a * cxy + b * vy
     var_given_x = vxp - cx_xp ** 2 / vx
     var_given_xy = 1.0  # only the innovation remains once X, Y are both known
     cmi = 0.5 * np.log(var_given_x / var_given_xy)
-    # cross-check CMI from the 3-variate covariance (Schur complement)
+    # cross-check CMI from the 3-variate covariance (Schur complement), and the
+    # stationarity of the covariance itself (Lyapunov residual — codex review:
+    # the original checks never tested that the input covariance was stationary)
     S = np.array([[vx, cxy, cx_xp], [cxy, vy, cy_xp], [cx_xp, cy_xp, vxp]])
     v_xy = S[2, 2] - S[2, :2] @ np.linalg.solve(S[:2, :2], S[:2, 2])
     cmi_check = 0.5 * np.log(var_given_x / v_xy)
+    A = np.array([[a, b], [0.0, d]]); Q = np.eye(2)
+    lyap = np.max(np.abs(S[:2, :2] - A @ S[:2, :2] @ A.T - Q))
     inflation = var_given_x / var_given_xy
+    ok = (abs(cmi - cmi_check) < 1e-10 and abs(inflation - np.exp(2 * cmi)) < 1e-9
+          and lyap < 1e-9)
     print(f"{b:>6} {cmi:>12.6f} {var_given_x:>12.6f} {var_given_xy:>13.6f} "
           f"{inflation:>10.6f} {np.exp(2 * cmi):>10.6f} "
-          f"{'ok' if abs(cmi - cmi_check) < 1e-10 and abs(inflation - np.exp(2 * cmi)) < 1e-9 else 'FAIL':>7}")
+          f"{'ok' if ok else 'FAIL lyap=%.2e' % lyap:>7}")
 print("\nb=0: blanket closure — the excluded variable carries zero price (Ptolemy's")
 print("MRH, in toy form). The price is exactly e^{2*CMI}: an identity, not a bound.")
 
