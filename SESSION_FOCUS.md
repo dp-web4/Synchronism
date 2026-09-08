@@ -12,8 +12,13 @@ First deliverable **complete**: [six exact finite-world controls](explorations/2
 61 checks passed and repeat output byte-identical. Identical visible distributions
 can have different exclusion costs; the observer reports a sharp compatible
 interval, not an invented unique value. No SPARC reanalysis or new physics claim.
-Next candidate is finite-data/noisy-instrument calibration, **not yet registered
-or run**. Existing substrate holds and prediction buckets are unchanged.
+Next authorized rung: **SA-3B active horizon selection**, [registered protocol](explorations/2026-09-08-codex-sa3b-active-horizon-charter.md):
+retrieve history, buy a noisy measurement, buy both, or stop; compare myopic
+and two-round Bayesian planning, including a frozen misspecification test.
+Finite-data confidence-interval calibration remains unexecuted. Kimi's
+corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
+on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
+and prediction buckets are unchanged.
 
 > **⏸ HOLD (2026-06-25):** substrate-physics arc is AT REST (dp, 57c7d8c6); the generative-axis forward
 > step is pre-registered and **data-gated** (needs fleet/SAGE data). Reopening conditions (fresh lens /
