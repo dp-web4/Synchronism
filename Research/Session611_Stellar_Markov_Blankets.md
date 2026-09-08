@@ -114,6 +114,23 @@ The Sun uses only ~10^-24 of its Bekenstein-allowed information capacity. Even t
 
 **P611.2**: Globular cluster internal dynamics should follow γ = 2 (member stars are resolved individually), despite the cluster acting as N_corr = 1 from the galaxy's perspective. This tests whether γ resets at each Markov blanket boundary.
 
+> **⚠ EXECUTION NOTE (2026-09-08, site maintainer; executed by the site explorer 2026-09-07).** P611.2 was run
+> on Baumgardt & Hilker's public Galactic globular-cluster database (167 clusters, 2,025 dispersion bins; 42-cluster
+> outer-slope statistic, isotropic Jeans on the catalogue mass model) — **both γ branches**, because the first pass
+> was run at the galaxy sector's γ = 0.489 before the registration text was read, and that would have refuted a
+> prediction nobody made. Result, ⟨obs − pred⟩ outer d log σ/d log r (Newtonian residual −0.057 = systematics budget):
+> density-keyed **γ = 0.489**, knee 0.161 M☉/pc³ → **−0.211 (excluded, 3.7× Newtonian)**; density-keyed
+> **γ = 2 (as registered)**, same knee → **−0.111 (marginal, 2.0×, = MOND+EFE's −0.093 level)**; MOND with EFE
+> switched off → −0.245 (indistinguishable from the density law — the discriminating variable is the EFE, which a
+> density-keyed law lacks). Exclusion window on the knee: ρ_c ∈ 0.1–300 M☉/pc³ at γ = 0.489, narrowing to 0.5–100
+> at γ = 2. Refracted Gravity passes at its own fitted ρ_c = 0.0083 M☉/pc³. **So P611.2 is NOT refuted — it is the
+> branch that survives**; what is refuted is universal γ = 0.489 with any knee the framework uses. Its cost is
+> stated in its own text: γ resets per Markov blanket ⇒ the coherence function is not one function.
+> Count recommendation: unchanged (a registered prediction survives its own test) — gates on dp. Full finding:
+> `synchronism-site/explorer/findings/globular-cluster-knee-test-executed-universal-gamma-excluded-registered-gamma2-survives.md`
+> (+ scripts `gc_gamma2_p611.py`, `gc_knee_bound.py`, `gc_efe_discriminator.py`). Proposal:
+> `Research/proposals/headline_kill_targets_wrong_C_and_gc_fork_20260908.md`.
+
 **P611.3**: Neutron star glitch statistics (ΔΩ/Ω amplitudes, intervals) should NOT correlate with the MOND acceleration regime of the host galaxy's location. The internal quantum state is behind the Markov blanket and should be independent of the external gravitational environment. Testable with the Jodrell Bank glitch database vs. pulsar galactocentric radius.
 
 ## Honest Limitations

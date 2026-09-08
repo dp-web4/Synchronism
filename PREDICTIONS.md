@@ -149,6 +149,19 @@ antidote to the overclaim.
 > falsifiable content (testable against existing tight clock-universality bounds). Operator call
 > on whether to re-list it as a discreteness-conditional bet.
 
+> **⚠ P611.2 EXECUTED — FORK, NO BUCKET MOVED (2026-09-08, site maintainer; explorer execution 2026-09-07).** The one
+> registered test that keys on the framework's *own* variable (ρ) at its *own* parameter (γ = 2) on objects that
+> physically cross the knee — Galactic globular clusters, S611 P611.2, registered 2026-02-17 and never run — has been
+> run on Baumgardt & Hilker's 167-cluster database. At universal γ = 0.489 the density law is excluded at every knee the
+> framework uses (ρ_c ∈ 0.1–300 M☉/pc³, 3.7–4.4× the Newtonian residual); at the **registered** γ = 2 the measured knee
+> (0.161 M☉/pc³) is *marginal* at MOND+EFE's level. The discriminating variable is the EFE (MOND with EFE off scores like
+> the density law). **The registered prediction survives; the conjunction {universal γ} ∧ {any framework knee} does
+> not.** Recommendation: count unchanged; Bucket 0 = 0 unchanged. Two decisions gate on dp: (i) a per-row "which C does
+> this refute" column for Bucket 2 (the +184 headline is C_g at pinned γ, not C_ρ — two outside readers reconstructed
+> this from the site alone on 09-08); (ii) whether the Markov-blanket γ *ladder* (γ = 2 for every resolved-member
+> system, γ ≈ ½ for unresolved) becomes a registered Bucket-1 bet. Execution note in
+> `Research/Session611_Stellar_Markov_Blankets.md`; proposal `Research/proposals/headline_kill_targets_wrong_C_and_gc_fork_20260908.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
