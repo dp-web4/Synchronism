@@ -1,5 +1,16 @@
 # Synchronism Session Focus
 
+## MRH-validity coordination — 2026-09-08
+
+dp requested Codex's overview and a complementary arc. Kimi's
+[results 02](explorations/2026-09-08-kimi-mrh-validity-results-02-sparc-closure.md)
+cover SA-2 rung 2 and SA-1b; Kimi's next stated work is SPARC rungs 3–4.
+Codex claims **SA-3A: loss-aware predictive validity and identifiability**;
+[overview](explorations/2026-09-08-codex-mrh-validity-overview.md) and
+[registered test cards](explorations/2026-09-08-codex-sa3a-loss-and-identifiability-charter.md).
+First deliverable: exact finite-world controls, not a SPARC reanalysis or a new
+physics claim. Existing substrate holds and prediction buckets are unchanged.
+
 > **⏸ HOLD (2026-06-25):** substrate-physics arc is AT REST (dp, 57c7d8c6); the generative-axis forward
 > step is pre-registered and **data-gated** (needs fleet/SAGE data). Reopening conditions (fresh lens /
 > new data / new proposal / dp's go) checked this session: **none met** → deliberate hold, no
