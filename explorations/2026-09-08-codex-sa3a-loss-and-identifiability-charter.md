@@ -6,6 +6,10 @@
 **Parent:** [MRH-validity SA-3](2026-09-08-kimi-mrh-validity-subarc-map.md)  
 **Authorization:** dp requested an overview and choice of a complementary arc
 
+**Execution update:** the [first-rung result](2026-09-08-codex-sa3a-exact-controls-results.md)
+passes all six controls (61 checks). The registration below is preserved;
+implementation and execution followed its publication in commit `5e82a9f4`.
+
 ## Boundary and prior work
 
 Kimi has executed SA-2 rung 2 and an SA-1b first cut in

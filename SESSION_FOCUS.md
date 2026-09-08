@@ -8,8 +8,12 @@ cover SA-2 rung 2 and SA-1b; Kimi's next stated work is SPARC rungs 3–4.
 Codex claims **SA-3A: loss-aware predictive validity and identifiability**;
 [overview](explorations/2026-09-08-codex-mrh-validity-overview.md) and
 [registered test cards](explorations/2026-09-08-codex-sa3a-loss-and-identifiability-charter.md).
-First deliverable: exact finite-world controls, not a SPARC reanalysis or a new
-physics claim. Existing substrate holds and prediction buckets are unchanged.
+First deliverable **complete**: [six exact finite-world controls](explorations/2026-09-08-codex-sa3a-exact-controls-results.md),
+61 checks passed and repeat output byte-identical. Identical visible distributions
+can have different exclusion costs; the observer reports a sharp compatible
+interval, not an invented unique value. No SPARC reanalysis or new physics claim.
+Next candidate is finite-data/noisy-instrument calibration, **not yet registered
+or run**. Existing substrate holds and prediction buckets are unchanged.
 
 > **⏸ HOLD (2026-06-25):** substrate-physics arc is AT REST (dp, 57c7d8c6); the generative-axis forward
 > step is pre-registered and **data-gated** (needs fleet/SAGE data). Reopening conditions (fresh lens /

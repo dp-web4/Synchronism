@@ -1,0 +1,193 @@
+{
+  "absolute_tolerance": 1e-12,
+  "cases": {
+    "T1_closed_but_noisy": {
+      "cmi_nats": 0.0,
+      "log_risk_extended": 0.3250829733914482,
+      "log_risk_restricted": 0.3250829733914482,
+      "square_risk_extended": 0.09000000000000001,
+      "square_risk_restricted": 0.09000000000000001
+    },
+    "T2_distribution_not_mean": {
+      "cmi_nats": 0.6931471805599453,
+      "gaussian_formula_if_misapplied": 4.0,
+      "log_risk_extended": 0.6931471805599453,
+      "log_risk_restricted": 1.3862943611198906,
+      "mse_ratio": 1.0,
+      "square_risk_extended": 2.5,
+      "square_risk_restricted": 2.5
+    },
+    "T3_mean_and_scale": {
+      "original": {
+        "cmi_nats": 0.3680642071684971,
+        "log_risk_extended": 0.3250829733914482,
+        "log_risk_restricted": 0.6931471805599453,
+        "square_risk_extended": 0.09000000000000001,
+        "square_risk_restricted": 0.25
+      },
+      "scaled_by_10": {
+        "cmi_nats": 0.3680642071684971,
+        "log_risk_extended": 0.3250829733914482,
+        "log_risk_restricted": 0.6931471805599453,
+        "square_risk_extended": 9.0,
+        "square_risk_restricted": 25.0
+      }
+    },
+    "T4_memory": {
+      "pair_transition_matrix": [
+        [
+          0.9,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9,
+          0.1
+        ],
+        [
+          0.1,
+          0.9,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.1,
+          0.9
+        ]
+      ],
+      "scores": {
+        "cmi_nats": 0.3680642071684971,
+        "log_risk_extended": 0.3250829733914482,
+        "log_risk_restricted": 0.6931471805599453,
+        "square_risk_extended": 0.09000000000000001,
+        "square_risk_restricted": 0.25
+      }
+    },
+    "T5_observational_equivalence": {
+      "direct_scores": {
+        "cmi_nats": 0.0,
+        "log_risk_extended": 0.3250829733914482,
+        "log_risk_restricted": 0.3250829733914482,
+        "square_risk_extended": 0.09000000000000001,
+        "square_risk_restricted": 0.09000000000000001
+      },
+      "hidden_scores": {
+        "cmi_nats": 0.32508297339144826,
+        "log_risk_extended": 0.0,
+        "log_risk_restricted": 0.3250829733914482,
+        "square_risk_extended": 0.0,
+        "square_risk_restricted": 0.09000000000000001
+      },
+      "observable_rows": [
+        {
+          "p": 0.45,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "p": 0.05,
+          "x": 0,
+          "y": 1
+        },
+        {
+          "p": 0.05,
+          "x": 1,
+          "y": 0
+        },
+        {
+          "p": 0.45,
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "observer": {
+        "condition": "known P(X,Y); unrestricted finite hidden extensions",
+        "exclusion_log_loss_interval_nats": [
+          0.0,
+          0.3250829733914482
+        ],
+        "status": "not_identifiable"
+      }
+    },
+    "T6_bias_blind_variance": {
+      "e_style_index": 1.0,
+      "mse": 100.0,
+      "residual_mean": -10.0,
+      "residual_variance": 0.0
+    }
+  },
+  "checks": [
+    "table rejects empty",
+    "table rejects unnormalized",
+    "table rejects negative",
+    "table rejects nonfinite",
+    "table rejects wrong_dimension",
+    "T1: log-loss gap equals CMI",
+    "T1: CMI nonnegative",
+    "T1: no exclusion information",
+    "T1: irreducible log risk",
+    "T1: restricted MSE",
+    "T1: extended MSE",
+    "T2: log-loss gap equals CMI",
+    "T2: CMI nonnegative",
+    "T2: magnitude reveals bit",
+    "T2: restricted MSE",
+    "T2: extended MSE",
+    "T2: MSE ratio one",
+    "T2: Gaussian ratio would be four",
+    "T3: log-loss gap equals CMI",
+    "T3: CMI nonnegative",
+    "T3 scaled: log-loss gap equals CMI",
+    "T3 scaled: CMI nonnegative",
+    "T3: CMI",
+    "T3: restricted MSE",
+    "T3: extended MSE",
+    "T3: scaled information invariant",
+    "T3: scaling square_risk_restricted",
+    "T3: scaling square_risk_extended",
+    "T4: transition row 0",
+    "T4: transition row 1",
+    "T4: transition row 2",
+    "T4: transition row 3",
+    "T4: stationary pair 0",
+    "T4: stationary pair 1",
+    "T4: stationary pair 2",
+    "T4: stationary pair 3",
+    "T4: log-loss gap equals CMI",
+    "T4: CMI nonnegative",
+    "T4: memory information",
+    "T4: present-only MSE",
+    "T4: history-aware MSE",
+    "T5 direct: log-loss gap equals CMI",
+    "T5 direct: CMI nonnegative",
+    "T5 hidden: log-loss gap equals CMI",
+    "T5 hidden: CMI nonnegative",
+    "T5: same observable support",
+    "T5: same observable probability (0, 0)",
+    "T5: same observable probability (0, 1)",
+    "T5: same observable probability (1, 1)",
+    "T5: same observable probability (1, 0)",
+    "T5: direct CMI zero",
+    "T5: hidden CMI endpoint",
+    "T5: observer refuses unique answer",
+    "T5: same observable-only interval",
+    "T5: same observable-only interval",
+    "T5: interval lower endpoint",
+    "T5: interval upper endpoint",
+    "observer identifies deterministic zero",
+    "T6: zero centered residual variance",
+    "T6: perfect variance index",
+    "T6: MSE remains 100"
+  ],
+  "checks_passed": 61,
+  "registration_commit": "5e82a9f4",
+  "schema": "mrh-sa3a-exact-controls-v1",
+  "scope": "finite population controls; no physical validation or fitted estimator",
+  "script_sha256": "586891ed25cae5db5d274d2fcb37584b80dd01e97afb0b5fcffd6579738548e2",
+  "status": "pass"
+}
