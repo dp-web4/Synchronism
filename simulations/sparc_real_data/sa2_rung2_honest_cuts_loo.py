@@ -200,45 +200,104 @@ print(f"  interpolation stability with shared global a0 — NOT new-galaxy predi
 print(f"  residual std {np.std(res3):.4f} mean {np.mean(res3):+.4f} "
       f"| E_raw {e3[0]:.4f} | E_corr {e3[1]:.4f}")
 
-# ---------------- V4: GALAXY holdout (the named task: predict a NEW galaxy's
-# rotation curve from its baryonic data + the global law). a0 and the nu form
-# are fitted on train galaxies only; Upsilon_d of a held-out galaxy is fitted
-# from THAT galaxy's own points (a legitimate per-galaxy baryonic property).
+# ---------------- V4 family: GALAXY-level holdout, four increasingly strict
+# variants (V4 relabeled + V4a/V4b/V4c added after codex's V4-leakage flag,
+# 2026-09-08). The named strict task: predict a NEW galaxy's rotation curve
+# using ONLY its baryonic/photometric data + the train-fitted law.
+# V4  (relabeled): test-galaxy rotation-curve calibration — Upsilon_d fitted
+#      from the held-out galaxy's OWN ROTATION CURVE (target-dependent; kept
+#      for comparison, no longer called prediction).
+# V4a (strict prior): Upsilon_d = 0.5 fixed for all test galaxies — no test
+#      information of any kind in the evaluation.
+# V4b (strict mapping): Upsilon_d = f(galaxy properties), f fitted on train
+#      only (Session-484 feature set, ridge), applied to test photometry.
+# V4c (few-shot, LABELED): first half of each test galaxy's points (by R)
+#      calibrates Upsilon_d, the OTHER half is evaluated — few-shot
+#      within-galaxy prediction, never substituted for V4a/V4b.
+# Upstream-dependence repair (codex point 2): the train-side Upsilon/a0
+# alternation restarts from the fiducial a0 STRICTLY within train galaxies.
 import hashlib
 names = sorted(raw)
 train = {n for n in names if int(hashlib.md5(n.encode()).hexdigest(), 16) % 5 != 0}
 test = [n for n in names if n not in train]
-yd_tr = {n: fit_upsilon(raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2,
-                        parts(n), a0) for n in sorted(train)}
-best, a0_tr = np.inf, a0
-for cand in np.linspace(3e-11, 4e-10, 60):
-    tot = 0.0; cnt = 0
-    for n in sorted(train):
+
+a0_tr = 1.2e-10
+for _ in range(2):
+    yd_tr = {n: fit_upsilon(raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2,
+                            parts(n), a0_tr) for n in sorted(train)}
+    best = np.inf
+    for cand in np.linspace(3e-11, 4e-10, 60):
+        tot = 0.0; cnt = 0
+        for n in sorted(train):
+            hp, dp, bp = parts(n)
+            gb = hp + yd_tr[n] * dp + bp
+            go = raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2
+            ok = gb > 0
+            tot += np.sum(resid(go[ok], gb[ok], cand) ** 2); cnt += ok.sum()
+        if tot / max(cnt, 1) < best:
+            best, a0_tr = tot / cnt, cand
+
+def galaxy_features(n, yd_val=None):
+    """PHOTOMETRIC + HI features only — nothing rotation-curve-derived
+    (Vflat, c_V are RC quantities and would leak the target)."""
+    m = meta[n]
+    mgas = 1.33 * m["MHI"]
+    fg = mgas / (mgas + 0.5 * m["L36"])   # reference Upsilon=0.5: photometric
+    ll = np.log10(max(m["L36"], 1e-6))
+    lsb = np.log10(max(m["SBeff"], 1e-6))
+    return np.array([1.0, ll, lsb, fg, ll * fg, m["T"] / 10.0])
+
+def eval_test(yd_of, split_half=False):
+    an, rs, er, vo = [], [], [], []
+    for n in test:
+        r = raw[n]
+        go_all = r["Vobs"] ** 2 / r["R"] * KMS_KPC_TO_MS2
         hp, dp, bp = parts(n)
-        gb = hp + yd_tr[n] * dp + bp
-        go = raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2
-        ok = gb > 0
-        tot += np.sum(resid(go[ok], gb[ok], cand) ** 2); cnt += ok.sum()
-    if tot / max(cnt, 1) < best:
-        best, a0_tr = tot / cnt, cand
-anom4, res4, err4, vob4 = [], [], [], []
-for n in test:
-    r = raw[n]
-    go_all = r["Vobs"] ** 2 / r["R"] * KMS_KPC_TO_MS2
-    hp, dp, bp = parts(n)
-    y_te = fit_upsilon(go_all, (hp, dp, bp), a0_tr)
-    gb_all = hp + y_te * dp + bp
-    ok = gb_all > 0
-    for j in np.where(ok)[0]:
-        anom4.append(np.log10(go_all[j]) - np.log10(gb_all[j]))
-        res4.append(np.log10(go_all[j]) - np.log10(gb_all[j] * nu(gb_all[j] / a0_tr)))
-        err4.append(r["errV"][j]); vob4.append(r["Vobs"][j])
-anom4, res4, err4, vob4 = map(np.array, (anom4, res4, err4, vob4))
-e4 = index_E(anom4, res4, err4, vob4)
-print(f"\nV4 GALAXY holdout ({len(train)} train / {len(test)} held-out galaxies; "
-      f"a0_train = {a0_tr:.3e}):")
-print(f"  residual std {np.std(res4):.4f} mean {np.mean(res4):+.4f} "
-      f"| E_raw {e4[0]:.4f} | E_corr {e4[1]:.4f}")
+        if split_half:
+            half = len(go_all) // 2
+            y_te = fit_upsilon(go_all[:half], (hp[:half], dp[:half], bp[:half]), a0_tr)
+            idxs = range(half, len(go_all))
+        else:
+            y_te = yd_of(n)
+            idxs = range(len(go_all))
+        gb_all = hp + y_te * dp + bp
+        for j in idxs:
+            if gb_all[j] <= 0:
+                continue
+            an.append(np.log10(go_all[j]) - np.log10(gb_all[j]))
+            rs.append(np.log10(go_all[j]) - np.log10(gb_all[j] * nu(gb_all[j] / a0_tr)))
+            er.append(r["errV"][j]); vo.append(r["Vobs"][j])
+    an, rs, er, vo = map(np.array, (an, rs, er, vo))
+    e = index_E(an, rs, er, vo)
+    return e, np.std(rs), np.mean(rs), len(rs)
+
+e4, s4, m4, n4 = eval_test(lambda n: fit_upsilon(
+    raw[n]["Vobs"] ** 2 / raw[n]["R"] * KMS_KPC_TO_MS2, parts(n), a0_tr))
+print(f"\nV4 RELABELED — test-galaxy ROTATION-CURVE CALIBRATION ({len(train)} train /"
+      f" {len(test)} test; a0_train {a0_tr:.3e}; NOT the strict prediction task):")
+print(f"  residual std {s4:.4f} mean {m4:+.4f} | E_raw {e4[0]:.4f} | E_corr {e4[1]:.4f}")
+
+e4a, s4a, m4a, n4a = eval_test(lambda n: 0.5)
+print(f"\nV4a STRICT PRIOR (Upsilon=0.5 fixed; zero test information):")
+print(f"  residual std {s4a:.4f} mean {m4a:+.4f} | E_raw {e4a[0]:.4f} | E_corr {e4a[1]:.4f}")
+
+Xtr = np.array([galaxy_features(n, yd_tr[n]) for n in sorted(train)])
+ytr = np.array([yd_tr[n] for n in sorted(train)])
+lam = 1e-3 * np.trace(Xtr.T @ Xtr) / Xtr.shape[1]
+beta_y = np.linalg.solve(Xtr.T @ Xtr + lam * np.eye(Xtr.shape[1]), Xtr.T @ ytr)
+yd_pred = {n: float(np.clip(galaxy_features(n, 0.5) @ beta_y, 0.05, 1.5)) for n in test}
+e4b, s4b, m4b, n4b = eval_test(lambda n: yd_pred[n])
+mapped = np.array(list(yd_pred.values()))
+print(f"\nV4b STRICT MAPPING (Upsilon = f(properties), f ridge on train only; "
+      f"mapped Upsilon median {np.median(mapped):.3f}):")
+print(f"  residual std {s4b:.4f} mean {m4b:+.4f} | E_raw {e4b[0]:.4f} | E_corr {e4b[1]:.4f}")
+print(f"  (mapping quality: train R2 for Upsilon = "
+      f"{1 - np.var(ytr - Xtr @ beta_y) / np.var(ytr):.3f})")
+
+e4c, s4c, m4c, n4c = eval_test(None, split_half=True)
+print(f"\nV4c FEW-SHOT (first half by R calibrates Upsilon, second half scored; "
+      f"{n4c} scored points; LABELED within-galaxy few-shot):")
+print(f"  residual std {s4c:.4f} mean {m4c:+.4f} | E_raw {e4c[0]:.4f} | E_corr {e4c[1]:.4f}")
 
 # ---------------- SA-1b first cut: sigma_g vs M_star
 print("\nSA-1b first cut: per-galaxy residual std vs M_star = Ud * L[3.6]")

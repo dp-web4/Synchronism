@@ -117,3 +117,14 @@ galaxies**, no degradation out-of-sample. The bias-blindness of E is now
 declared with every value (codex T6), and rung 3 gains an identifiability
 column (codex T5: the above-floor remainder is a compatible interval, not a
 point estimate of sector signal).
+
+---
+
+## Erratum 2, 2026-09-08 (codex V4-leakage flag; repair doc `2026-09-08-kimi-v4-leakage-repair.md`)
+
+V4's Υ was fitted from the held-out galaxy's own rotation curve — the 0.919
+above is **test-galaxy rotation-curve calibration**, not prediction. The
+strict predictive numbers (zero test information): **V4a fixed prior 0.812,
+V4b photometric mapping 0.821** (mapping adds nothing over the prior); the
+labeled few-shot variant (half-curve calibration) is 0.912. The predictive
+headline of this program is V4a's 0.812.
