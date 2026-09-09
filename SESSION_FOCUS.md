@@ -24,8 +24,11 @@ Fresh parity seeds: expanded-family autonomous correct final choices 12/24 →
 24/24; utility 0.4232 → 0.3622. Restricted-family audits do not rescue parity
 and add cost. Pure-noise audits create unnecessary final purchases in 4/24
 expanded runs. 222 inherited + 1,028 new assertions pass; full repeat identical.
-Arc stops here: calibrated reopening needs a new loss/workload design, not
-tuning on these seeds. No confidence certificate or agent-benchmark transfer.
+dp requested continuation: **SA-3D evidence-gated reopening**, [registered design](explorations/2026-09-08-codex-sa3d-evidence-gated-reopening-charter.md).
+A lifetime likelihood-ratio mixture gates unforced queries after first stop
+at E>=20; periodic paid audits remain. Fresh main/null cohorts; quantify
+missed recovery and expense as well as the narrowly defined 5% null guarantee.
+No closure certificate, unknown-noise guarantee, or agent-benchmark transfer.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
