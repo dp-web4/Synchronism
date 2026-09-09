@@ -18,7 +18,10 @@ and [results](explorations/2026-09-08-codex-sa3b-active-horizon-results.md).
 two-step planning improves parity utility 0.5162 → 0.3742 versus restricted,
 but 7/24 runs still stop early. Stopping can preserve the ignorance that caused
 it; extra planning does not uniformly help or replace a missing hypothesis.
-Next candidate: a separately registered low-rate audit after stopping.
+Next rung: **SA-3C periodic reopening audits**, [registered protocol](explorations/2026-09-08-codex-sa3c-reopening-charter.md).
+Fresh seeds; every eighth round can override stop with a paid paired-channel
+measurement. Restricted-family control retained; autonomous recovery measured
+separately from forced purchases. No audit interval tuning.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
