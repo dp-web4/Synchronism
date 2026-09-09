@@ -32,8 +32,11 @@ parity choices fall 22/24 → 15/24 versus periodic audits. The per-record 5%
 specified-null bound is valid; recovery power at this audit budget is poor.
 1,994 assertions pass; 2,624 runs repeat byte-identically. Analytic diagnosis:
 some starting evidence states cannot reach E=20 within eight audits even with
-best-possible outcomes. Next requires a registered evidence-feasibility budget,
-not threshold tuning. No closure certificate or agent-benchmark transfer.
+best-possible outcomes. **SA-3E exact evidence-budget feasibility registered**:
+[design](explorations/2026-09-08-codex-sa3e-evidence-budget-charter.md), known
+parity-versus-noise continuation, exact first-passage probabilities for caps
+0..32 and four inherited evidence states. No threshold or policy tuning;
+not a fitted replay of SA-3D's mixture. No agent-benchmark transfer.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
