@@ -131,6 +131,22 @@ The Sun uses only ~10^-24 of its Bekenstein-allowed information capacity. Even t
 > (+ scripts `gc_gamma2_p611.py`, `gc_knee_bound.py`, `gc_efe_discriminator.py`). Proposal:
 > `Research/proposals/headline_kill_targets_wrong_C_and_gc_fork_20260908.md`.
 
+> **⚠ FOLLOW-UP (2026-09-09, site maintainer).** Two things landed on this row since the note above.
+> **(1) A withdrawal that goes the framework's way.** The 09-07 finding also claimed the solar Oort-limit
+> window and the globular-cluster exclusion window do not overlap — a "third SPARC-free constraint" closing
+> the density-keyed sector locally. That was a γ mismatch (a γ = 2 window set against a γ = 0.489 exclusion
+> band) and is **withdrawn**. Computed at the same γ the two overlap at every γ from 0.3 to 3; the joint
+> local window is ρ_c ∈ 0.0039–0.0079 M☉/pc³ at γ = 0.489 and 0.0735–0.078 at γ = 2, sliding as e^{1/γ}.
+> **The Sun and the clusters do not close this sector.** The site published the no-go and has retracted it.
+> **(2) γ = 2 is also the better SPARC branch, which is new information on P611.2.** Running the framework's
+> own field equation on 153 SPARC discs at the Ω_m floor, γ = 2 beats γ = 0.489 at every knee ≥ 0.0039
+> M☉/pc³ and holds the run's global optimum (χ²/N 68.9 at ρ_c ≈ 0.004–0.008, against MOND simple μ's 21.2).
+> It is still 3.2× MOND, so this is **a second fork datum, not a rescue** — but the branch this session
+> registered on independent reasoning is now the better branch on two independent datasets. That is the
+> strongest thing P611.2 has going for it and it should be recorded as such.
+> Source: `synchronism-site/explorer/findings/joint-local-window-oort-gc-sparc-the-knee-is-not-the-problem-the-floor-is.md`
+> §7 (maintainer correction) + `scripts/sparc_pinned_at_rg_knee_l2_output.txt`.
+
 **P611.3**: Neutron star glitch statistics (ΔΩ/Ω amplitudes, intervals) should NOT correlate with the MOND acceleration regime of the host galaxy's location. The internal quantum state is behind the Markov blanket and should be independent of the external gravitational environment. Testable with the Jodrell Bank glitch database vs. pulsar galactocentric radius.
 
 ## Honest Limitations

@@ -162,6 +162,22 @@ antidote to the overclaim.
 > system, γ ≈ ½ for unresolved) becomes a registered Bucket-1 bet. Execution note in
 > `Research/Session611_Stellar_Markov_Blankets.md`; proposal `Research/proposals/headline_kill_targets_wrong_C_and_gc_fork_20260908.md`.
 
+> **📌 UPDATE 2026-09-09 (site maintainer) — one overclaim withdrawn, one refutation sharpened, on the same
+> density-keyed C row.** *Withdrawn:* the claim that the solar Oort-limit window and the globular-cluster
+> exclusion window are **disjoint** (published on the site 09-08 as a SPARC-free no-go). It was a γ mismatch.
+> At a common γ the two overlap everywhere from γ = 0.3 to 3 — joint window ρ_c ∈ 0.0039–0.0079 M☉/pc³ at
+> γ = 0.489, 0.0735–0.078 at γ = 2. **The Sun and the clusters do not close this sector.** *Sharpened:* what
+> does close it is SPARC, and **not on the boost ceiling as previously stated.** Executed on 153 discs with
+> the framework's own field equation: at the Ω_m floor 77–88 % of discs need more boost than 1/Ω_m delivers
+> (χ²/N 69–160 vs MOND simple μ's 21.2); at Refracted Gravity's E0 floor f = 0.089 the ceiling problem is
+> **solved** (need> falls to 10–23 %) and χ²/N rises to 195–2700 — **3 to 17× worse**. Amplitude and shape are
+> one failure pointing two ways. **Refutation target, precise form:** a floored tanh-in-log-ρ switch,
+> f ∈ {0.089, 0.315}, γ ∈ {0.489, 2}, ρ_c ∈ [3.2×10⁻⁴, 0.161] M☉/pc³ — killed on SPARC by **placement**, at
+> every point of that grid. **NOT killed:** a differently-argued C (Σ, MRH-smoothed ρ, acceleration) and the
+> compander form. Count unchanged; Bucket 0 = 0 unchanged. *Note for the "which C does this refute" column
+> (decision (i) above): this row's answer is "C(ρ), the density-keyed one" — distinct from the +184 headline's
+> C_g.* Proposal: `Research/proposals/sparc_objection_is_placement_not_the_ceiling_20260909.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
