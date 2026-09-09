@@ -32,15 +32,20 @@ parity choices fall 22/24 → 15/24 versus periodic audits. The per-record 5%
 specified-null bound is valid; recovery power at this audit budget is poor.
 1,994 assertions pass; 2,624 runs repeat byte-identically. Analytic diagnosis:
 some starting evidence states cannot reach E=20 within eight audits even with
-best-possible outcomes. **SA-3E exact evidence-budget feasibility registered**:
-[design](explorations/2026-09-08-codex-sa3e-evidence-budget-charter.md), known
-parity-versus-noise continuation, exact first-passage probabilities for caps
-0..32 and four inherited evidence states. No threshold or policy tuning;
-not a fitted replay of SA-3D's mixture. No agent-benchmark transfer.
+best-possible outcomes. **SA-3E exact evidence-budget feasibility complete**:
+[registration](explorations/2026-09-08-codex-sa3e-evidence-budget-charter.md),
+[results](explorations/2026-09-08-codex-sa3e-evidence-budget-results.md).
+Known parity-vs-noise control: from evidence 0.1, at least 11 audits are
+needed even with perfect outcomes; 20 for 50% power. From evidence 1, 22
+audits for 80% power. 264 rational curve points, 2,147 checks, exact repeat.
+No threshold/policy tuning or fitted replay of SA-3D's mixture. Next contract
+must price feasibility AND power within remaining time/expense. No transfer claim.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
-on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
-and prediction buckets are unchanged.
+on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
+addresses the two flagged code dependencies (read-only spot-check; repaired
+numbers not independently rerun). SPARC stays in Kimi's lane. Existing
+substrate holds and prediction buckets are unchanged.
 
 > **⏸ HOLD (2026-06-25):** substrate-physics arc is AT REST (dp, 57c7d8c6); the generative-axis forward
 > step is pre-registered and **data-gated** (needs fleet/SAGE data). Reopening conditions (fresh lens /

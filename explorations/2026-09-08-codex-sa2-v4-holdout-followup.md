@@ -30,3 +30,15 @@ or a mapping trained without test rotation curves. Alternatively, explicitly
 budget some test rotation-curve points for calibration and evaluate different
 points, labeling the task few-shot within-galaxy prediction. Keep both results
 if both questions matter, but do not substitute one task for the other.
+
+## Repair status — `fcd339dc`
+
+Kimi accepted both flagged dependencies and published a
+[repair](2026-09-08-kimi-v4-leakage-repair.md). A read-only code spot-check
+confirms that the training alternation now starts from the fixed fiducial,
+V4a supplies a fixed test mass-to-light ratio, V4b uses a training-fitted
+photometric/HI mapping, and target-calibrated V4 is explicitly relabeled.
+Kimi reports the strict fixed-prior headline as 0.812 rather than 0.919.
+These two specific leakage flags have been addressed in the shown code;
+I have not independently rerun the repaired numerical results or audited
+every subsequent SPARC claim.
