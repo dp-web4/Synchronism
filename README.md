@@ -204,7 +204,7 @@ alongside the charter: the Gaussian error identity is not a general loss law,
 the Debye boundary depends on approximation order, and the fluctuation
 exponent does not by itself diagnose non-Gaussian physics.
 
-Codex's complementary **SA-3A–G sequence is complete**, with registered
+Codex's complementary **SA-3A–H sequence is complete**, with registered
 designs, code, controls, and reproducible result records linked from each report:
 
 | Rung | Result | Limit / implication |
@@ -216,6 +216,7 @@ designs, code, controls, and reproducible result records linked from each report
 | [SA-3E: exact evidence budgets](explorations/2026-09-08-codex-sa3e-evidence-budget-results.md) | In a supplied parity-versus-noise test, evidence 0.1 needs at least 11 audits even with perfect outcomes, and 20 for 50% detection probability; neutral evidence needs 22 for 80%. | Reachability and useful detection probability are different requirements. An eight-audit recovery promise may be impossible. |
 | [SA-3F: feasibility-aware bursts](explorations/2026-09-08-codex-sa3f-feasible-bursts-results.md) | A bounded 24-audit burst improves expanded-model parity final choices from 13/24 to 16/24. Feasibility pruning preserves its reopening outcomes while cutting mean noise audits from 23.52 to 11.38. | Still more costly in noise than periodic auditing; cannot repair a missing hypothesis. Reports distinguish unreachable requirements from uncertified power, without claiming absent signal. |
 | [SA-3G: likelihood miscalibration](explorations/2026-09-08-codex-sa3g-calibration-results.md) | At 24 audits, nominal 85.28% power becomes 60.27% when true agreement is .75 instead of .82. A broader null guard restores safety within its declared class but further reduces recovery. | Wrong alternatives affect power; wrong nulls can invalidate false-alarm claims. Reachability is a separate pathwise property. Calibration bounds are supplied, not learned. |
+| [SA-3H: paid finite calibration](explorations/2026-09-08-codex-sa3h-paid-calibration-results.md) | At background .50 / signal .82 and cap 96, 512 samples per source turn 99.71% conditional detection into 37.74% end-to-end: calibration often cannot authorize deployment. | Labeled stationary sources are still assumed. Calibration dominates cost; boundary cases remain rarely certifiable. Conditional power is not workflow availability. |
 
 These are controlled synthetic results using supplied hypotheses, not
 demonstrated improvements on a real agent benchmark. The main design lesson:
@@ -228,9 +229,10 @@ exists. Choosing the recovery benefit versus total cost remains workload-depende
 A [checked JSON/Python interface](explorations/2026-09-08-codex-reopening-contract-interface.md)
 now validates report consistency and budget constraints; it does not authenticate
 supplied evidence or certify that the hypothesis set is complete.
-SA-3G tests the calibration boundary: null coverage and alternative-power
-coverage must be declared separately. Obtaining those bounds from a finite,
-paid calibration record remains unexecuted.
+SA-3G separates null coverage from alternative-power coverage; SA-3H adds
+finite, paid certification of predeclared bounds from labeled IID sources.
+The resulting cost and abstention motivate scoped calibration reuse, but
+amortization and repeated-deployment risk accounting remain untested.
 
 ### SPARC: distinguish prediction from rotation-curve calibration
 
@@ -418,4 +420,4 @@ CC0 - Public Domain
 
 ---
 
-*Last updated: 2026-09-08 | Exploration status refreshed through SA-3G, the corrected SPARC holdout tasks, and the independent Paleolithic grammar arc. Session counts elsewhere on this page are dated historical snapshots, not a current census. [PREDICTIONS.md](PREDICTIONS.md) remains the prediction ledger; zero confirmed novel physics predictions.*
+*Last updated: 2026-09-08 | Exploration status refreshed through SA-3H, the corrected SPARC holdout tasks, and the independent Paleolithic grammar arc. Session counts elsewhere on this page are dated historical snapshots, not a current census. [PREDICTIONS.md](PREDICTIONS.md) remains the prediction ledger; zero confirmed novel physics predictions.*
