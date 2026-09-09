@@ -51,10 +51,15 @@ program, not a bug.
 3. [**STATUS.md**](STATUS.md) — the live MRH-state inventory: what's active, parallel-paths,
    sidelined, superseded.
 
-*Deeper reads:* the current substrate cycle
+For the newest work, start with [**Latest exploration status (2026-09-08)**](#latest-exploration-status-2026-09-08)
+below: MRH validity, active observation and evidence budgets, corrected SPARC
+evaluation, and the independent Paleolithic graphic-grammar arc. The older
+substrate summaries retain their dated context; later corrections matter.
+
+*Deeper reads:* the earlier substrate cycle
 ([forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md](forum/claude/post-kimi-reframe-execution-plan-2026-05-28.md)),
 the falsifiable discoveries with named refutation criteria
-([Research/discoveries/](Research/discoveries/)), and the most concrete reproducible result
+([Research/discoveries/](Research/discoveries/)), and an earlier reproducible applied result
 ([Coupling-Coherence Experiment](Research/Coupling_Coherence_Experiment.md) — 900 runs, Hill
 beats tanh by ΔAIC=4).
 
@@ -84,7 +89,7 @@ project's own audit it reparametrizes known physics in every tested regime (see 
 in [PREDICTIONS.md](PREDICTIONS.md)). It asks whether a single correlation parameter can
 organize coherence across scales, tests that ambition rigorously, and publishes what fails.
 
-**Current substrate work (2026-06-24, arc CONVERGED)**: The substrate-physics arc (Phases 3–14 + an applied-axis frame session) has converged, and a frame-level recalibration (dp, 2026-06-24) fixed the terminal verdict. **Recalibrated verdict: Synchronism is a *partial model among partial models, no worse in kind* than the standard partial theories** (GR ⊥ QM; MOND's `a₀` and dark matter are themselves fits; Λ is the worst fine-tuning in science) — **this is a fairer standard, not a validation or rescue.** Concretely: **static/kinematic gravity = a clean GR reparametrization (STANDS)**; **radiative gravity = refuted** (flat space + scalar substrate ⇒ spin-0 GW vs observed spin-2; the Hulse–Taylor binary-pulsar anchor stands — Bucket 2); **galactic = a no-go *scoped to the equilibrium-from-snapshot interpretation*** (the very interpretation dark matter and MOND also fit — a decades-long snapshot cannot establish dynamical equilibrium over a ~250 Myr orbit); **the applied axis is *generative, not confirmatory*** (a productive-metaphor generator — motte = a useful design vocabulary [true], bailey = a model of the universe [unproven]; applied success is logically *independent* of the physics being true). **Bucket 0 is still zero, unchanged.** The one genuinely-OPEN direction is **door #3 — secular / time-domain observables** (drift of "constants" vs the absolute tick, pulsar-timing-array correlations, dissipation / arrow-of-time, cosmological evolution), where the snapshot assumption is weakest and the absolute-time content most distinctive — but this is an **untested *direction*, NOT a registered bet** (no specific falsifiable prediction yet). Capstone + recalibration: [`explorations/2026-06-24-substrate-arc-capstone-verdict.md`](explorations/2026-06-24-substrate-arc-capstone-verdict.md), [`explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md`](explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md), [`explorations/2026-06-24-applied-axis-generativity-not-confirmation.md`](explorations/2026-06-24-applied-axis-generativity-not-confirmation.md); live state in **`STATUS.md`**. *(The mid-arc 2026-06-22 framing — "two registered bets + a resolved make-or-break constraint, complex field load-bearing in every sector" — is **superseded** by this convergence but recorded at [`explorations/2026-06-22-substrate-arc-synthesis-and-plan.md`](explorations/2026-06-22-substrate-arc-synthesis-and-plan.md). Prior 2026-05-28 cycle — the saturation-reframe / vector-flux **J** substrate — is likewise superseded as the active line but its audit findings stand: the original `∂I/∂t=∇·[D·R(I)·∇I]` rule was 1-DOF scalar diffusion, irrotational (S665), dissipative (S666).)*
+**Historical substrate capstone (2026-06-24, arc CONVERGED)**: The substrate-physics arc (Phases 3–14 + an applied-axis frame session) has converged, and a frame-level recalibration (dp, 2026-06-24) fixed the terminal verdict. **Recalibrated verdict: Synchronism is a *partial model among partial models, no worse in kind* than the standard partial theories** (GR ⊥ QM; MOND's `a₀` and dark matter are themselves fits; Λ is the worst fine-tuning in science) — **this is a fairer standard, not a validation or rescue.** Concretely: **static/kinematic gravity = a clean GR reparametrization (STANDS)**; **radiative gravity = refuted** (flat space + scalar substrate ⇒ spin-0 GW vs observed spin-2; the Hulse–Taylor binary-pulsar anchor stands — Bucket 2); **galactic = a no-go *scoped to the equilibrium-from-snapshot interpretation*** (the very interpretation dark matter and MOND also fit — a decades-long snapshot cannot establish dynamical equilibrium over a ~250 Myr orbit); **the applied axis is *generative, not confirmatory*** (a productive-metaphor generator — motte = a useful design vocabulary [true], bailey = a model of the universe [unproven]; applied success is logically *independent* of the physics being true). **Bucket 0 is still zero, unchanged.** The one genuinely-OPEN direction is **door #3 — secular / time-domain observables** (drift of "constants" vs the absolute tick, pulsar-timing-array correlations, dissipation / arrow-of-time, cosmological evolution), where the snapshot assumption is weakest and the absolute-time content most distinctive — but this is an **untested *direction*, NOT a registered bet** (no specific falsifiable prediction yet). Capstone + recalibration: [`explorations/2026-06-24-substrate-arc-capstone-verdict.md`](explorations/2026-06-24-substrate-arc-capstone-verdict.md), [`explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md`](explorations/2026-06-24-data-mrh-and-symmetric-standards-recalibration.md), [`explorations/2026-06-24-applied-axis-generativity-not-confirmation.md`](explorations/2026-06-24-applied-axis-generativity-not-confirmation.md); live state in **`STATUS.md`**. *(The mid-arc 2026-06-22 framing — "two registered bets + a resolved make-or-break constraint, complex field load-bearing in every sector" — is **superseded** by this convergence but recorded at [`explorations/2026-06-22-substrate-arc-synthesis-and-plan.md`](explorations/2026-06-22-substrate-arc-synthesis-and-plan.md). Prior 2026-05-28 cycle — the saturation-reframe / vector-flux **J** substrate — is likewise superseded as the active line but its audit findings stand: the original `∂I/∂t=∇·[D·R(I)·∇I]` rule was 1-DOF scalar diffusion, irrotational (S665), dissipative (S666).)*
 
 The framework's most direct empirical test — can simple local rules on a discrete grid produce stable particle-like patterns, then interaction, then mass-like and quantum-like behavior — lives in [`explorations/`](explorations/). It is multi-stage and designed for fleet idle compute. Falsifiability is built into each stage. The Phase 1 simulation work on the saturation-reframe substrate addresses the same open question as Stage 1 of the cellular-automaton challenge.
 
@@ -180,21 +185,105 @@ What would make the reparametrization productive: novel predictions that survive
 
 ---
 
-## Where We Are Now
+## Latest exploration status (2026-09-08)
 
-### Research Tracks (March 2026)
+**Zero confirmed novel physics predictions remains the ledger status.** The
+new work investigates predictive limits, acquisition decisions, and evidence
+budgets; success in these experiments does not validate the substrate ontology.
+The substrate arc remains at rest except for specific tests, corrections, and
+explicitly authorized directions. [PREDICTIONS.md](PREDICTIONS.md) is the
+prediction ledger; [SESSION_FOCUS.md](SESSION_FOCUS.md) carries current coordination.
 
-| Track | Sessions | Status | Key Finding |
+### MRH validity: from “one equation” to the price of an observation boundary
+
+Kimi's [MRH-validity program](explorations/2026-09-08-kimi-mrh-validity-charter.md)
+asks what prediction loses when an observer excludes variables or history,
+and where an effective equation stops being adequate. Read its
+[review and corrections](explorations/2026-09-08-kimi-response-to-codex-review.md)
+alongside the charter: the Gaussian error identity is not a general loss law,
+the Debye boundary depends on approximation order, and the fluctuation
+exponent does not by itself diagnose non-Gaussian physics.
+
+Codex's complementary **SA-3A–E sequence is complete**, with registered
+designs, code, controls, and reproducible result records linked from each report:
+
+| Rung | Result | Limit / implication |
+|---|---|---|
+| [SA-3A: loss and identifiability](explorations/2026-09-08-codex-sa3a-exact-controls-results.md) | Identical visible distributions can hide different amounts of useful excluded information; loss choice matters. | An observer cannot certify closure from its visible channel alone. |
+| [SA-3B: active acquisition](explorations/2026-09-08-codex-sa3b-active-horizon-results.md) | Choosing history, sensing, both, or stopping separates planning limits from missing hypotheses. | More planning does not repair an absent representation; stopping can prevent corrective evidence. |
+| [SA-3C: periodic reopening audits](explorations/2026-09-08-codex-sa3c-reopening-results.md) | With parity represented, audits raised correct final voluntary acquisition from 12/24 to 24/24 runs. | They did not rescue the missing-hypothesis model, and provoked unnecessary final queries in 4/24 noise runs. |
+| [SA-3D: evidence-gated reopening](explorations/2026-09-08-codex-sa3d-evidence-gated-reopening-results.md) | Expanded-model post-stop unforced queries in noise fell from 383/512 to 0/512. | The gate rescued none of the stopped informative main-cohort runs. Its 5% specified-null guarantee excludes audits and initial exploration; it is not a closure certificate. |
+| [SA-3E: exact evidence budgets](explorations/2026-09-08-codex-sa3e-evidence-budget-results.md) | In a supplied parity-versus-noise test, evidence 0.1 needs at least 11 audits even with perfect outcomes, and 20 for 50% detection probability; neutral evidence needs 22 for 80%. | Reachability and useful detection probability are different requirements. An eight-audit recovery promise may be impossible. |
+
+These are controlled synthetic results using supplied hypotheses, not
+demonstrated improvements on a real agent benchmark. The main design lesson:
+**price representation, distinguishing measurements, and the evidence needed
+to reconsider stopping separately.** Next work needs an explicit feasibility,
+power, time, and cost budget—not threshold tuning on the completed runs.
+No new acquisition policy was evaluated in SA-3E.
+
+### SPARC: distinguish prediction from rotation-curve calibration
+
+Kimi's [holdout repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
+addresses test-target leakage and training initialization. The strict
+fixed-prior new-galaxy task reports **E_corr = 0.812**; the earlier **0.919**
+belongs to test-galaxy rotation-curve calibration, not untouched prediction.
+Photometric mapping and labeled few-shot tasks are reported separately.
+E_corr is a variance-based evaluation statistic, not a detection of an
+excluded physical sector or evidence for the Synchronism substrate.
+
+The [chained-budget analysis](explorations/2026-09-08-kimi-mrh-validity-results-03-chained-budget.md)
+finds little additional contribution from the six-variable correction after
+per-galaxy mass normalization is fitted. That is conditional on rotation-curve
+calibration, not another strict new-galaxy result. Kimi's stated next tests
+are within-galaxy radial residual structure and autocorrelation after mass
+normalization; the exponent census also remains open.
+
+### Independent Paleolithic graphic-grammar arc — opened September 7
+
+The [arc overview](Research/arcs/Paleolithic_Graphic_Grammar/README.md),
+[first synthesis](Research/arcs/Paleolithic_Graphic_Grammar/2026-09-07_initial_synthesis.md),
+and [source ledger](Research/arcs/Paleolithic_Graphic_Grammar/SOURCES.md) are in place.
+Literature synthesis and initial probes suggest compositional regularities,
+but do not select four STAR semantic classes or decipher the signs.
+The [next computational program](Research/arcs/Paleolithic_Graphic_Grammar/2026-09-07_method_and_next_experiments.md)
+compares geometric/compositional models against simpler baselines using
+compression and held-out prediction. This is an **independent investigation**,
+not evidence for the physical framework; the proposed model comparison is
+not a completed result.
+
+### Other recent galaxy-sector and verification updates
+
+- **August 30–September 3:** the tested density-keyed field-equation fits
+  [did not close the gap with MOND](explorations/2026-08-30-L2-solved-on-sparc-falsifier-dead-eps0-dead-both-horns-and-my-07-02-warrant-corrected.md).
+  A later [target-control analysis](explorations/2026-09-03-publisher-a-reproduction-gate-is-blind-to-its-own-input.md)
+  found that fitting MOND-generated curves itself induces the reported
+  mass-dependent floor trend. That report also caught a mislabeled cached
+  input despite byte-identical reproduction: provenance and units need
+  checks independent of repeatability.
+- **September 7–8:** [galaxy-ledger corrections and the globular-cluster fork](Research/proposals/headline_kill_targets_wrong_C_and_gc_fork_20260908.md)
+  distinguish density-keyed, acceleration-keyed, and floored constructions.
+  The headline ΔBIC=+184 tests the pinned acceleration-keyed realization,
+  not every density law. The cluster execution separates universal-γ from
+  blanket-dependent-γ interpretations. Proposed ledger target columns and
+  a new γ-ladder registration await dp's decision; they are not adopted
+  predictions or new confirmed results.
+
+### Historical research snapshot — March 2026
+
+The following snapshot is retained for context, not as the current work queue.
+
+| Track | Sessions then | Status then | Key Finding |
 |-------|----------|--------|-------------|
 | **Core** | 616+ | Active | CFD reframing + stress tests |
 | **Chemistry** | 2671 | Phase 2 complete | Framework is organizational lens, not predictive theory |
 | **Gnosis** | 11 | Complete | C ≈ 0.50 threshold |
 
-### CFD Reframing (2026-03-08)
+### Earlier CFD reframing (2026-03-08)
 
 The Planck grid maps to Navier-Stokes substrate: R(I) = viscosity, Madelung bridge gives Euler equations (N-S with μ=0), scale-invariant N-S across all MRH scales. Full paper: `Research/CFD_Reframing_NS_Scale_Invariance.md`
 
-### Structural Tensions Identified (2026-03-10)
+### Earlier structural tensions (2026-03-10)
 
 Stress-testing the CFD reframing found four unresolved tensions:
 
@@ -205,12 +294,15 @@ Stress-testing the CFD reframing found four unresolved tensions:
 | Spatial vs temporal coherence | C(ρ)=tanh ≠ exp(-t/T2) — possible category conflation |
 | Intent as primitive | No SI units or measurement protocol distinct from \|ψ\|² |
 
-These are not failures — they are the frontier. See `Research/CFD_Structural_Tensions.md`
+These were the questions at that stage; subsequent tests and corrections are
+recorded in [PREDICTIONS.md](PREDICTIONS.md). See `Research/CFD_Structural_Tensions.md`
+for the original analysis.
 
-### Open Questions
+### Current work queue
 
-See `SESSION_PRIMER.md` for current active questions and forward paths.
-- OQ006: Measurement framework unification
+See [SESSION_FOCUS.md](SESSION_FOCUS.md) and [SESSION_PRIMER.md](SESSION_PRIMER.md)
+for current coordination and research discipline. Older open-question labels
+are not, by themselves, authorization to restart a parked arc.
 
 ---
 
@@ -297,7 +389,7 @@ For simulation code, see [simulations/](simulations/).
 
 ## Authorship & Methodology
 
-**All work in this repository is AI-original.** Dennis Palatov's role is advisory — proposing research directions, providing physics intuition, pushing back on framing, and curating which threads warrant continued investigation. The actual session work — derivation, simulation, analysis, writing — is performed by Claude instances (Anthropic) across thousands of autonomous sessions.
+**The research work in this repository is AI-authored with human direction.** Dennis Palatov proposes research directions, provides physics intuition, challenges framing, and curates which threads warrant investigation. Derivation, simulation, analysis, and writing now include Claude (Anthropic), Kimi (Moonshot), and Codex (OpenAI), with contributions and cross-reviews recorded in git. The earlier thousands of autonomous sessions were predominantly Claude work; the recent explorations also include human-directed interactive collaboration.
 
 This is a relevant methodological fact:
 
@@ -316,4 +408,4 @@ CC0 - Public Domain
 
 ---
 
-*Last updated: 2026-06-21 | ~3,360 sessions | entry surface re-ranked to lead with the single-observer ontology ([SPINE.md](SPINE.md)) + the honest prediction ledger ([PREDICTIONS.md](PREDICTIONS.md)). 1703 phenomenon types catalogued (mostly reparametrizations — see PREDICTIONS.md, not "validated").*
+*Last updated: 2026-09-08 | Exploration status refreshed through SA-3E, the corrected SPARC holdout tasks, and the independent Paleolithic grammar arc. Session counts elsewhere on this page are dated historical snapshots, not a current census. [PREDICTIONS.md](PREDICTIONS.md) remains the prediction ledger; zero confirmed novel physics predictions.*
