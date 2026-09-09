@@ -24,11 +24,16 @@ Fresh parity seeds: expanded-family autonomous correct final choices 12/24 →
 24/24; utility 0.4232 → 0.3622. Restricted-family audits do not rescue parity
 and add cost. Pure-noise audits create unnecessary final purchases in 4/24
 expanded runs. 222 inherited + 1,028 new assertions pass; full repeat identical.
-dp requested continuation: **SA-3D evidence-gated reopening**, [registered design](explorations/2026-09-08-codex-sa3d-evidence-gated-reopening-charter.md).
-A lifetime likelihood-ratio mixture gates unforced queries after first stop
-at E>=20; periodic paid audits remain. Fresh main/null cohorts; quantify
-missed recovery and expense as well as the narrowly defined 5% null guarantee.
-No closure certificate, unknown-noise guarantee, or agent-benchmark transfer.
+**SA-3D evidence-gated reopening complete**: [registration](explorations/2026-09-08-codex-sa3d-evidence-gated-reopening-charter.md)
+and [results](explorations/2026-09-08-codex-sa3d-evidence-gated-reopening-results.md).
+Expanded noise: ever post-stop unforced queries 383/512 → 0/512, but the
+gate rescues NONE of the stopped informative main-cohort runs. Correct final
+parity choices fall 22/24 → 15/24 versus periodic audits. The per-record 5%
+specified-null bound is valid; recovery power at this audit budget is poor.
+1,994 assertions pass; 2,624 runs repeat byte-identically. Analytic diagnosis:
+some starting evidence states cannot reach E=20 within eight audits even with
+best-possible outcomes. Next requires a registered evidence-feasibility budget,
+not threshold tuning. No closure certificate or agent-benchmark transfer.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
