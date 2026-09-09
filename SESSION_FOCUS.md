@@ -40,11 +40,15 @@ needed even with perfect outcomes; 20 for 50% power. From evidence 1, 22
 audits for 80% power. 264 rational curve points, 2,147 checks, exact repeat.
 No threshold/policy tuning or fitted replay of SA-3D's mixture. Next contract
 must price feasibility AND power within remaining time/expense. No transfer claim.
-dp approved the next implementation: **SA-3F feasibility-aware bounded bursts**,
-[registered design](explorations/2026-09-08-codex-sa3f-feasible-bursts-charter.md).
-Compare periodic24, burst8, burst24, and feasibility-pruned burst24 on fresh
-main/noise cohorts. Observer reports exact reachability and named-model lower
-bounds on detection probability; neither is a claim of absent signal.
+**SA-3F feasibility-aware bounded bursts complete**: [registration](explorations/2026-09-08-codex-sa3f-feasible-bursts-charter.md),
+[results](explorations/2026-09-08-codex-sa3f-feasible-bursts-results.md).
+Expanded parity correct final choices 13/24 → 16/24 with 24-audit bursts;
+eight-audit bursts do not recover stopped main-cohort cases. Pruning retains
+all full-burst reopening/final-choice outcomes while reducing noise audits
+23.52 → 11.38 on average, but remains more costly than periodic auditing.
+Missing-hypothesis parity still fails. Exact conditional reports distinguish
+unreachable from uncertified power; no absence-of-signal claim. 2,870 checks,
+1,792 runs / 3,527 reports, byte-identical repeat. No policy tuning or transfer.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
