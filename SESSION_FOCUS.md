@@ -62,6 +62,11 @@ to 3.33%, but lowers p=.75 detection to 50.14%. Null coverage, power coverage,
 and pathwise feasibility need separate claims. 96 exact curves / 6,240 records,
 47,046 checks + four boundary/artifact test groups; byte-identical repeat.
 No changes to the frozen SA-3F observer, its interface, or Kimi's SPARC lane.
+**SA-3H paid calibration registered, not yet executed**:
+[protocol](explorations/2026-09-08-codex-sa3h-paid-calibration-charter.md).
+Separate paid background/signal batches must certify predeclared bounds;
+fresh evidence only, explicit calibration-error budget, abstention and total
+cost reported. Known stationary source identities remain an assumption.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
