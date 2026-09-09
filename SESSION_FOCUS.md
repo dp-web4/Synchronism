@@ -52,6 +52,11 @@ unreachable from uncertified power; no absence-of-signal claim. 2,870 checks,
 A [checked JSON/Python handoff](explorations/2026-09-08-codex-reopening-contract-interface.md)
 now validates report inputs and internal consistency (11 API tests); it does
 not attest evidence provenance. The frozen experiment is unchanged.
+**SA-3G calibration stress test registered, not yet executed**:
+[protocol](explorations/2026-09-08-codex-sa3g-calibration-charter.md).
+Codex separates wrong-alternative power claims from wrong-null false-alarm
+claims using exact audit streams and a predeclared composite-null guard.
+No changes to the frozen SA-3F observer or Kimi's SPARC lane.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
