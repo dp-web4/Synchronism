@@ -169,6 +169,11 @@ observer, reusable report/envelope/component-power functions, regression
 controls, and the frozen evaluation. [Full results](../simulations/mrh_sa3f_feasible_bursts_results.json)
 retain per-seed costs, timing, posterior/evidence, and 3,527 observer reports.
 
+A subsequent [checked JSON/Python handoff](2026-09-08-codex-reopening-contract-interface.md)
+adds input validation and report-consistency verification without changing this
+experiment. Its 11 API tests are separate from the research checks below;
+successful verification does not authenticate supplied evidence.
+
 There are 768 main-cohort and 1,024 noise-cohort runs, 114,688 decisions total.
 876 new assertions plus 1,994 inherited checks pass. Independent binary/joint
 path enumeration checks the power certificates and envelope; all source

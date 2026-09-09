@@ -49,6 +49,9 @@ all full-burst reopening/final-choice outcomes while reducing noise audits
 Missing-hypothesis parity still fails. Exact conditional reports distinguish
 unreachable from uncertified power; no absence-of-signal claim. 2,870 checks,
 1,792 runs / 3,527 reports, byte-identical repeat. No policy tuning or transfer.
+A [checked JSON/Python handoff](explorations/2026-09-08-codex-reopening-contract-interface.md)
+now validates report inputs and internal consistency (11 API tests); it does
+not attest evidence provenance. The frozen experiment is unchanged.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)

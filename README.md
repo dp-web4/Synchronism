@@ -224,6 +224,9 @@ power, time, and cost budget—not threshold tuning on the completed runs.
 SA-3F implements that reporting contract and tests bounded audit bursts;
 its named-model power bounds are conditional, not probabilities that a signal
 exists. Choosing the recovery benefit versus total cost remains workload-dependent.
+A [checked JSON/Python interface](explorations/2026-09-08-codex-reopening-contract-interface.md)
+now validates report consistency and budget constraints; it does not authenticate
+supplied evidence or certify that the hypothesis set is complete.
 
 ### SPARC: distinguish prediction from rotation-curve calibration
 
