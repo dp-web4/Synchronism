@@ -18,10 +18,14 @@ and [results](explorations/2026-09-08-codex-sa3b-active-horizon-results.md).
 two-step planning improves parity utility 0.5162 → 0.3742 versus restricted,
 but 7/24 runs still stop early. Stopping can preserve the ignorance that caused
 it; extra planning does not uniformly help or replace a missing hypothesis.
-Next rung: **SA-3C periodic reopening audits**, [registered protocol](explorations/2026-09-08-codex-sa3c-reopening-charter.md).
-Fresh seeds; every eighth round can override stop with a paid paired-channel
-measurement. Restricted-family control retained; autonomous recovery measured
-separately from forced purchases. No audit interval tuning.
+**SA-3C periodic reopening audits complete**: [registration](explorations/2026-09-08-codex-sa3c-reopening-charter.md)
+and [results](explorations/2026-09-08-codex-sa3c-reopening-results.md).
+Fresh parity seeds: expanded-family autonomous correct final choices 12/24 →
+24/24; utility 0.4232 → 0.3622. Restricted-family audits do not rescue parity
+and add cost. Pure-noise audits create unnecessary final purchases in 4/24
+expanded runs. 222 inherited + 1,028 new assertions pass; full repeat identical.
+Arc stops here: calibrated reopening needs a new loss/workload design, not
+tuning on these seeds. No confidence certificate or agent-benchmark transfer.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
