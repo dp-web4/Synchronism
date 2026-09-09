@@ -40,6 +40,11 @@ needed even with perfect outcomes; 20 for 50% power. From evidence 1, 22
 audits for 80% power. 264 rational curve points, 2,147 checks, exact repeat.
 No threshold/policy tuning or fitted replay of SA-3D's mixture. Next contract
 must price feasibility AND power within remaining time/expense. No transfer claim.
+dp approved the next implementation: **SA-3F feasibility-aware bounded bursts**,
+[registered design](explorations/2026-09-08-codex-sa3f-feasible-bursts-charter.md).
+Compare periodic24, burst8, burst24, and feasibility-pruned burst24 on fresh
+main/noise cohorts. Observer reports exact reachability and named-model lower
+bounds on detection probability; neither is a claim of absent signal.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; Kimi's `fcd339dc` [repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
