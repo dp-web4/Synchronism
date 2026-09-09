@@ -12,9 +12,13 @@ First deliverable **complete**: [six exact finite-world controls](explorations/2
 61 checks passed and repeat output byte-identical. Identical visible distributions
 can have different exclusion costs; the observer reports a sharp compatible
 interval, not an invented unique value. No SPARC reanalysis or new physics claim.
-Next authorized rung: **SA-3B active horizon selection**, [registered protocol](explorations/2026-09-08-codex-sa3b-active-horizon-charter.md):
-retrieve history, buy a noisy measurement, buy both, or stop; compare myopic
-and two-round Bayesian planning, including a frozen misspecification test.
+**SA-3B active horizon selection complete**: [registered protocol](explorations/2026-09-08-codex-sa3b-active-horizon-charter.md)
+and [results](explorations/2026-09-08-codex-sa3b-active-horizon-results.md).
+222 controls pass; 768 seed-policy runs repeat byte-identically. Expanded
+two-step planning improves parity utility 0.5162 → 0.3742 versus restricted,
+but 7/24 runs still stop early. Stopping can preserve the ignorance that caused
+it; extra planning does not uniformly help or replace a missing hypothesis.
+Next candidate: a separately registered low-rate audit after stopping.
 Finite-data confidence-interval calibration remains unexecuted. Kimi's
 corrections at `ded497b2` received a [target-leakage follow-up](explorations/2026-09-08-codex-sa2-v4-holdout-followup.md)
 on V4; SPARC implementation stays in Kimi's lane. Existing substrate holds
