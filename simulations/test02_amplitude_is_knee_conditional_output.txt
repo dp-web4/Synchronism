@@ -1,0 +1,46 @@
+TEST-02 local boost at rho_local = 0.090 M_sun/pc^3
+
+rho_crit     gamma   C(rho_local) accel excess % vel excess %    knee provenance
+1521         0.489   2.8938e-05   3.456e+06      1.849e+04       SPARC/V_flat calibration, Milky Way V_flat=229 km/s (/galaxy-plotter, /key-claims)
+1521         2.000   0.00011836   8.448e+05      9092            SPARC/V_flat calibration, Milky Way V_flat=229 km/s (/galaxy-plotter, /key-claims)
+64.06        0.489   0.00068652   1.456e+05      3717            SPARC/V_flat calibration, DDO 154 V_flat=47 km/s (/galaxy-plotter)
+64.06        2.000   0.0028078    3.551e+04      1787            SPARC/V_flat calibration, DDO 154 V_flat=47 km/s (/galaxy-plotter)
+0.161        0.489   0.21379      367.7          116.3           measured velocity-blind knee, 2026-08-27 (/key-claims, GC fork)
+0.161        2.000   0.71045      40.76          18.64           measured velocity-blind knee, 2026-08-27 (/key-claims, GC fork)
+0.0083       0.489   0.83629      19.58          9.351           Refracted Gravity E0 knee (explorer 2026-09-09)
+0.0083       2.000   0.9999       0.01017        0.005083        Refracted Gravity E0 knee (explorer 2026-09-09)
+0.00032      0.489   0.99201      0.8055         0.4019          low end of the refuted rho_c grid (PREDICTIONS.md 2026-09-09)
+0.00032      2.000   1            3.151e-08      1.576e-08       low end of the refuted rho_c grid (PREDICTIONS.md 2026-09-09)
+
+Knee window REQUIRED to produce Tier 1's quoted 0.05-0.4% VELOCITY band:
+  gamma = 0.489 :  rho_crit in [3.793e-05, 0.0003184] M_sun/pc^3
+  gamma = 2.000 :  rho_crit in [0.01582, 0.03022] M_sun/pc^3
+
+Same, read as an ACCELERATION band (if the 0.05-0.4% is 1/C - 1):
+  gamma = 0.489 :  rho_crit in [1.867e-05, 0.0001565] M_sun/pc^3
+  gamma = 2.000 :  rho_crit in [0.01294, 0.02412] M_sun/pc^3
+
+AS PUBLISHED (rounded for the site / proposal tables):
+  rho_crit=1521      gamma=0.489  C=2.9e-5     accel=3.5e6      % vel=1.8e4      %   SPARC/V_flat calibration, Milky Way V_flat=229 km/s (/galaxy-plotter, /key-claims)
+  rho_crit=1521      gamma=2.000  C=1.2e-4     accel=8.4e5      % vel=9092       %   SPARC/V_flat calibration, Milky Way V_flat=229 km/s (/galaxy-plotter, /key-claims)
+  rho_crit=64.06     gamma=0.489  C=6.9e-4     accel=1.5e5      % vel=3717       %   SPARC/V_flat calibration, DDO 154 V_flat=47 km/s (/galaxy-plotter)
+  rho_crit=64.06     gamma=2.000  C=2.8e-3     accel=3.6e4      % vel=1787       %   SPARC/V_flat calibration, DDO 154 V_flat=47 km/s (/galaxy-plotter)
+  rho_crit=0.161     gamma=0.489  C=0.2138     accel=367.7      % vel=116.3      %   measured velocity-blind knee, 2026-08-27 (/key-claims, GC fork)
+  rho_crit=0.161     gamma=2.000  C=0.7105     accel=40.76      % vel=18.64      %   measured velocity-blind knee, 2026-08-27 (/key-claims, GC fork)
+  rho_crit=0.0083    gamma=0.489  C=0.8363     accel=19.58      % vel=9.351      %   Refracted Gravity E0 knee (explorer 2026-09-09)
+  rho_crit=0.0083    gamma=2.000  C=0.9999     accel=1.0e-2     % vel=5.1e-3     %   Refracted Gravity E0 knee (explorer 2026-09-09)
+  rho_crit=0.00032   gamma=0.489  C=0.992      accel=0.8055     % vel=0.4019     %   low end of the refuted rho_c grid (PREDICTIONS.md 2026-09-09)
+  rho_crit=0.00032   gamma=2.000  C=1          accel=3.2e-8     % vel=1.6e-8     %   low end of the refuted rho_c grid (PREDICTIONS.md 2026-09-09)
+  (read 1.8e4 as 1.8x10^4; 2.9e-5 as 2.9x10^-5; 9.1e3 as 9.1x10^3)
+
+READING
+-------
+The quoted 0.05-0.4% band is reachable only inside a narrow knee window, and that window
+does not contain ANY knee the site uses in the galaxy sector. At the published
+rho_crit = 0.029*V_flat^2 calibration the Milky Way's local boost is ~3.5e6 percent in
+acceleration (a factor ~3.5e4), not 0.4%. So 'practically untestable / ~80x below Gaia
+reach' is a property of an otherwise-unused knee placement, not of the framework's
+published calibration. At the published calibration the density branch is excluded locally
+by Oort / Solar-System ephemerides by orders of magnitude -- which is the same statement
+/key-claims already makes as 'rotation curves do not fail to flatten, they blow up'.
+
