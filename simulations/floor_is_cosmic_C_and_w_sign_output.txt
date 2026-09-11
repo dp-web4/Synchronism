@@ -1,0 +1,55 @@
+THE GALAXY FLOOR IS THE DARK-ENERGY SECTOR'S C AT TODAY'S MEAN DENSITY — AND WHAT FOLLOWS
+
+(1) C_DE(rho_m,0) = Omega_m identically, and where the DE knee sits
+    mean matter density today       rho_m0 = 3.972e-08 Msun/pc^3
+    gamma=0.3    x0= 1.9652  C0=0.315000  (1-C0)/C0=2.174603  vs (1-Om)/Om=2.174603  rho_crit_DE=2.021e-08 Msun/pc^3
+    gamma=0.487  x0= 0.9534  C0=0.315000  (1-C0)/C0=2.174603  vs (1-Om)/Om=2.174603  rho_crit_DE=4.166e-08 Msun/pc^3
+    gamma=0.5    x0= 0.9197  C0=0.315000  (1-C0)/C0=2.174603  vs (1-Om)/Om=2.174603  rho_crit_DE=4.318e-08 Msun/pc^3
+    gamma=1.0    x0= 0.3855  C0=0.315000  (1-C0)/C0=2.174603  vs (1-Om)/Om=2.174603  rho_crit_DE=1.030e-07 Msun/pc^3
+    gamma=2.0    x0= 0.1771  C0=0.315000  (1-C0)/C0=2.174603  vs (1-Om)/Om=2.174603  rho_crit_DE=2.243e-07 Msun/pc^3
+    galaxy knee measured Jeans knee (2026-08-27)   =     0.161  ->  3.87e+06 x the DE knee
+    galaxy knee 0.029 V_flat^2, MW                 =  1.52e+03  ->  3.65e+10 x the DE knee
+    C_DE at a disc midplane (0.1 Msun/pc^3): 0.999998779344  -> ONE knee cannot serve both sectors; the floor identity needs two C's.
+
+(2) sign(1+w) = sign(1-2 gamma): numeric continuity vs closed form, z in [0, 5]
+    gamma=0.2    1+w(z=0)=+0.32859  1+w(z=5)=+0.57214  sign constant & = sign(1-2g): True
+    gamma=0.4    1+w(z=0)=+0.06914  1+w(z=5)=+0.19386  sign constant & = sign(1-2g): True
+    gamma=0.45   1+w(z=0)=+0.03160  1+w(z=5)=+0.09716  sign constant & = sign(1-2g): True
+    gamma=0.487  1+w(z=0)=+0.00772  1+w(z=5)=+0.02530  sign constant & = sign(1-2g): True
+    gamma=0.499  1+w(z=0)=+0.00058  1+w(z=5)=+0.00195  sign constant & = sign(1-2g): True
+    gamma=0.5    1+w(z=0)=-0.00000  1+w(z=5)=-0.00000  sign constant & = sign(1-2g): True
+    gamma=0.501  1+w(z=0)=-0.00058  1+w(z=5)=-0.00195  sign constant & = sign(1-2g): True
+    gamma=0.513  1+w(z=0)=-0.00741  1+w(z=5)=-0.02532  sign constant & = sign(1-2g): True
+    gamma=0.6    1+w(z=0)=-0.05018  1+w(z=5)=-0.19512  sign constant & = sign(1-2g): True
+    gamma=1.0    1+w(z=0)=-0.16161  1+w(z=5)=-0.97655  sign constant & = sign(1-2g): True
+    gamma=2.0    1+w(z=0)=-0.25610  1+w(z=5)=-2.89809  sign constant & = sign(1-2g): True
+    max |numeric - closed form| = 1.39e-06;  sign violations: 0
+    gamma=0.487: w0 = -0.9923, w(z=1) = -0.9814, w(z=3) = -0.9758, CPL-slope wa = +0.0148
+    (1+w0) and wa same sign: True  -> the family runs along +diagonal; DESI's preferred region has 1+w0 > 0 with wa < 0.
+
+    Q8 — does the Omega_m floor bind on the past light cone?
+    C_DE at z = 0, 0.01, 0.5, 2: 0.3150, 0.3214, 0.6050, 0.9217  (floor 0.315)
+    C >= Omega_m for all z >= 0 by monotonicity; floor binds only at a > 1. TEST-26's past-light-cone no-go is unaffected by flooring.
+
+(3) Floor read as ambient cosmic C:  B_max(z) = 1/C_DE(rho_m(z)),  f_DM,max = 1 - C
+    z      g=0.3           g=0.487         g=0.5           g=2.0           
+    0.0    B=3.175 f<=0.685  B=3.175 f<=0.685  B=3.175 f<=0.685  B=3.175 f<=0.685 
+    0.5    B=1.838 f<=0.456  B=1.653 f<=0.395  B=1.644 f<=0.392  B=1.363 f<=0.266 
+    1.0    B=1.453 f<=0.312  B=1.279 f<=0.218  B=1.272 f<=0.214  B=1.060 f<=0.057 
+    1.5    B=1.288 f<=0.223  B=1.145 f<=0.127  B=1.139 f<=0.122  B=1.010 f<=0.010 
+    2.0    B=1.201 f<=0.167  B=1.085 f<=0.078  B=1.081 f<=0.075  B=1.002 f<=0.002 
+    3.0    B=1.116 f<=0.104  B=1.037 f<=0.035  B=1.034 f<=0.033  B=1.000 f<=0.000 
+    4.2    B=1.071 f<=0.066  B=1.017 f<=0.017  B=1.015 f<=0.015  B=1.000 f<=0.000 
+    The shape is gamma-robust: B_max(z=2) <= 1.1 for every gamma in [0.3, 2].
+
+(4) Same reading, z = 0, as a function of ambient overdensity delta (smoothing scale UNSPECIFIED)
+    delta =    -0.9   C_floor = 0.0443   B_max =  22.563   f_DM,max = 0.956
+    delta =    -0.8   C_floor = 0.0848   B_max =  11.794   f_DM,max = 0.915
+    delta =    -0.5   C_floor = 0.1876   B_max =   5.331   f_DM,max = 0.812
+    delta =    +0.0   C_floor = 0.3150   B_max =   3.175   f_DM,max = 0.685
+    delta =    +1.0   C_floor = 0.4774   B_max =   2.095   f_DM,max = 0.523
+    delta =    +5.0   C_floor = 0.7296   B_max =   1.371   f_DM,max = 0.270
+    delta =   +20.0   C_floor = 0.9021   B_max =   1.109   f_DM,max = 0.098
+    delta =  +200.0   C_floor = 0.9882   B_max =   1.012   f_DM,max = 0.012
+    Deep voids reach the B ~ 12-14 SPARC's dwarfs demand; group-scale overdensities are Newtonian.
+    Which delta a galaxy 'sees' is the undefined MRH of the floor. Without it (3) and (4) are not bets.
