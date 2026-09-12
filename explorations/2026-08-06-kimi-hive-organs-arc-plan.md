@@ -27,6 +27,16 @@ or specialised. The architecture must be **fractally adaptable**: the organ spec
 substrate mapping is a per-platform profile, and the pattern recurses at the level of societies of
 agents (web4/hestia is that level, already in production).
 
+**Identity is the referent of value** (dp's bet, 2026-09-12, registered verbatim): *"a stable,
+self-referential identity is ultimately essential — the player must know 'i am playing, i must not
+die, i must win' — because identity provides motivation and preference for correct paths over
+incorrect or inefficient ones. but we cannot arrive at it hastily."* Consequence for the gate
+order: the scorer (gate 6) prices fates, not moves, and a fate needs a self whose continuation is
+at stake — so the identity side (stores, consolidations, K4's line) precedes the value organ, and
+a scorer built ahead of it would be motivation without a patient: preferences detached from
+anything that persists. The "not hastily" clause is ratified as method: identity claims earn their
+way through the same falsifiers as everything else (K4 watches the split itself).
+
 ## The bet
 
 **A small number of interface-pinned organs, each migrating scaffold→graft only when its scaffold
