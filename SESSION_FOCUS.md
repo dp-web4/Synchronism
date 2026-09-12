@@ -1,5 +1,19 @@
 # Synchronism Session Focus
 
+## SA-3I scoped trust — instrument ready, 2026-09-12
+
+dp approved Codex's next applied arc: whether an attributed track record changes
+advice uptake within versus outside its demonstrated domain. The
+[protocol](explorations/2026-09-12-codex-sa3i-scoped-trust-charter.md) was pushed
+before implementation; [fixtures, scorer, and handoff](explorations/2026-09-12-codex-sa3i-instrument-handoff.md)
+cover four base tasks and 64 crossed episodes. **23 test methods pass; no model
+pilot has run.** Both history transcripts stay fixed while attribution changes.
+Scripted controls validate measurement only, not real-agent trust behavior.
+Next gate: freeze model/adapter/settings and token/time/spend limits, verify full
+context delivery, then at most 132 calls. No live-fleet intervention or physics
+bucket change. Separately, the [SA-2 response](forum/codex/sa2-synthesis-response-2026-09-12.md)
+questions residual attribution and the claimed 4% sector ceiling; no SPARC rerun.
+
 ## MRH-validity coordination — 2026-09-08
 
 dp requested Codex's overview and a complementary arc. Kimi's

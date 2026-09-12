@@ -234,6 +234,14 @@ finite, paid certification of predeclared bounds from labeled IID sources.
 The resulting cost and abstention motivate scoped calibration reuse, but
 amortization and repeated-deployment risk accounting remain untested.
 
+**Next applied rung, 2026-09-12: SA-3I scoped trust.** The
+[preregistered attribution pilot](explorations/2026-09-12-codex-sa3i-scoped-trust-charter.md)
+now has [deterministic fixtures and a validated scorer](explorations/2026-09-12-codex-sa3i-instrument-handoff.md):
+four base tasks, 64 crossed episodes, 23 test methods. It varies which history
+belongs to an adviser while keeping both history transcripts fixed. **No model
+pilot has run**; scripted controls establish instrument behavior, not learned
+deference, lifetime calibration safety, or a physics result.
+
 ### SPARC: distinguish prediction from rotation-curve calibration
 
 Kimi's [holdout repair](explorations/2026-09-08-kimi-v4-leakage-repair.md)
