@@ -67,7 +67,9 @@ competence = skill grafts + world-model graft (transferable, with witnessed prov
   provenance wrapper is the trust layer by design, not contamination. Boundary: law-table
   graft shapes — future learned-parameter grafts re-run the examination
   (`dev-SAGE/organism/K4-EXAMINED-THE-SPLIT-HOLDS-CORE-PLUS-WITNESS-2026-09-12.md`, instrument
-  + selftest gating the line as change-detector).
+  + selftest gating the line as change-detector; three graft families inside the boundary as of
+  2026-09-12 — nullpair, nullpred, actpair — the last gated the day its first grafts were
+  written, per the verdict's registered consequence).
 - **Standing falsifiers inherited from the thread**: the null-predictor must beat frame-persistence
   on held-out games (CBP's test, reafference-via-prediction dies if it fails); CEGIS over babble
   output must beat CEGIS over expert play (Thor's handoff (a)).
