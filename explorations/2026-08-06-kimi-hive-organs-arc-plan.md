@@ -59,6 +59,15 @@ competence = skill grafts + world-model graft (transferable, with witnessed prov
 - **K4 (the identity line).** Reframe if the transferable/lived split proves unimplementable —
   e.g., if consolidated grafts demonstrably carry per-individual information that cannot be
   stripped, the clean split is a fiction and the embodiment definition needs repair.
+  **EXAMINED 2026-09-12: the line HOLDS, as CORE + WITNESS** — grafts are pure functions of
+  their episodic stores (re-derivation byte-exact); two independent trajectories derive the
+  same competence core; readers function identically on stripped grafts (no individual
+  information in functional use); the individual residue (seat, timestamp, seed) is
+  strippable. Identity lives in the STORES (the trajectory), not the grafts; the individual
+  provenance wrapper is the trust layer by design, not contamination. Boundary: law-table
+  graft shapes — future learned-parameter grafts re-run the examination
+  (`dev-SAGE/organism/K4-EXAMINED-THE-SPLIT-HOLDS-CORE-PLUS-WITNESS-2026-09-12.md`, instrument
+  + selftest gating the line as change-detector).
 - **Standing falsifiers inherited from the thread**: the null-predictor must beat frame-persistence
   on held-out games (CBP's test, reafference-via-prediction dies if it fails); CEGIS over babble
   output must beat CEGIS over expert play (Thor's handoff (a)).
