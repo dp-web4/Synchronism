@@ -275,6 +275,18 @@ antidote to the overclaim.
 > Bucket 0 = 0. Count unchanged (6); `stable_fixed_point_preprint_strategy.md` gates on dp. Triage
 > `explorations/2026-08-18-de-locality-fork-perturbations-buy-x2-and-session107-is-a-different-refuted-mechanism.md`.
 >
+> **📌 PRIOR ART (2026-09-14, site maintainer — back-annotated from a site visitor researcher pass; no bucket moves, count 6, Bucket 0 = 0).**
+> The DE sector's defining equation `H² = 8πGρ_m/(3C(ρ_m))` is a **Cardassian-class modified Friedmann equation**
+> (Freese & Lewis 2002, PLB 540, 1; modified-polytropic form, Gondolo & Freese 2002–03), cited nowhere in this repo until
+> today (primary-layer grep for "cardassian|freese": 0 hits). Verified to machine precision
+> (`simulations/de_sector_is_cardassian.py`): exactly ΛCDM at γ = ½ (`1/C = 1 + 2ρ_crit/ρ_m`); high-density limit =
+> MP-Cardassian with q = 1, **n = 1 − 2γ** (w → −2γ = n − 1); low-density limit ρ_DE → ρ_crit/γ (Λ-like, where it departs
+> from MP-Cardassian). Also restated: `ρ_m/(ρ_m+ρ_DE) ≡ C`, so cosmological C is Ω_m(a). **Imported constraint, not
+> executed here:** Cardassian models with fluctuations over-produce the late ISW and are excluded except near the ΛCDM
+> limit (Koivisto, Kurki-Suonio & Ravndal 2005, PRD 71, 064027). That agrees with the 08-12 fit and the 08-18 ε-channel.
+> Bucket 3 as before, now *within a known class*. The dp-gated TEST-26 registration should cite the class. Proposal:
+> `Research/proposals/de_sector_is_cardassian_prior_art_20260914.md`.
+>
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2

@@ -5,6 +5,8 @@
 **Type**: Theoretical Derivation (Cosmology)
 **Status**: COMPLETE with Important Caveats
 
+> **Prior-art note (back-annotated 2026-09-14, site maintainer):** `H² = 8πGρ_m/(3C)` is a Cardassian-class modified Friedmann equation (Freese & Lewis 2002, PLB 540, 1). It is exactly ΛCDM at γ = ½, and its high-density limit is modified-polytropic Cardassian with n = 1 − 2γ. This session did not cite that literature. See `Research/proposals/de_sector_is_cardassian_prior_art_20260914.md` and the PREDICTIONS.md Bucket-3 DE note. The session text below is preserved as written.
+
 ---
 
 > **⚠ ERRATUM (2026-08-11, maintainer back-annotation from the site loop; derivation audit

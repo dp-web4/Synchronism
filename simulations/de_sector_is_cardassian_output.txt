@@ -1,0 +1,32 @@
+1. identity rho_m/(rho_m+rho_DE) - C, max |diff| over x in [1e-3,1e4], gamma in {0.3,0.487,0.5,2}:
+   gamma=0.3    1.11e-16
+   gamma=0.487  1.11e-16
+   gamma=0.5    1.11e-16
+   gamma=2.0    1.11e-16
+2. gamma=1/2: max |1/C - (1+2/x)| = 2.27e-13
+3. high-density asymptote, relative error of 1+2x^(-2g) vs 1/C:
+   gamma=0.3   x=1      1/C=4.87810 asym=3.00000 rel.err=3.85e-01
+   gamma=0.3   x=10     1/C=1.62201 asym=1.50238 rel.err=7.38e-02
+   gamma=0.3   x=100    1/C=1.13383 asym=1.12619 rel.err=6.74e-03
+   gamma=0.3   x=1000   1/C=1.03219 asym=1.03170 rel.err=4.76e-04
+   gamma=0.487 x=1      1/C=3.07409 asym=3.00000 rel.err=2.41e-02
+   gamma=0.487 x=10     1/C=1.21424 asym=1.21234 rel.err=1.57e-03
+   gamma=0.487 x=100    1/C=1.02258 asym=1.02254 rel.err=3.39e-05
+   gamma=0.487 x=1000   1/C=1.00239 asym=1.00239 rel.err=5.32e-07
+   gamma=2.0   x=1      1/C=1.13333 asym=3.00000 rel.err=1.65e+00
+   gamma=2.0   x=10     1/C=1.00014 asym=1.00020 rel.err=6.34e-05
+   gamma=2.0   x=100    1/C=1.00000 asym=1.00000 rel.err=7.80e-10
+   gamma=2.0   x=1000   1/C=1.00000 asym=1.00000 rel.err=7.77e-15
+4. low-density limit rho_DE(x->0) * gamma (expect -> 1):
+   gamma=0.3   x=1e-4: 1.00002
+   gamma=0.487 x=1e-4: 1.00000
+   gamma=2.0   x=1e-4: 0.99985
+5. today's x0 (C(x0)=Omega_m) and w(x) = -1 + (dln rho_DE/dln x)   [rho_m ~ a^-3 => dln/dln a = -3 dln/dln x]
+   gamma=0.3   x0=1.965  w(x0)=-0.8300  w(x=1e4)=-0.6024 (asym -2g=-0.600)  w(x=1e-3)=-0.9998
+             w monotone in x: True, crosses -1: False
+   gamma=0.487 x0=0.953  w(x0)=-0.9923  w(x=1e4)=-0.9740 (asym -2g=-0.974)  w(x=1e-3)=-1.0000
+             w monotone in x: True, crosses -1: False
+   gamma=0.5   x0=0.920  w(x0)=-1.0000  w(x=1e4)=-1.0000 (asym -2g=-1.000)  w(x=1e-3)=-1.0000
+             w monotone in x: True, crosses -1: False
+   gamma=2.0   x0=0.177  w(x0)=-1.2562  w(x=1e4)=-3.9996 (asym -2g=-4.000)  w(x=1e-3)=-1.0015
+             w monotone in x: True, crosses -1: False

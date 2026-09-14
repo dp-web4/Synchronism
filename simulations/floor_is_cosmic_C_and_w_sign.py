@@ -132,7 +132,9 @@ def main():
             c = float(C(x0_for(g) * (1 + z) ** 3, g))
             row.append(f"B={1 / c:5.3f} f<={1 - c:5.3f} ")
         print(f"    {z:<5}  " + " ".join(row))
-    print("    The shape is gamma-robust: B_max(z=2) <= 1.1 for every gamma in [0.3, 2].")
+    # Corrected 2026-09-14 (explorer 09-11): the sentence below used to read "B_max(z=2) <= 1.1 for every gamma
+    # in [0.3, 2]", which this table contradicts (1.201 at gamma = 0.3).
+    print("    The shape is NOT gamma-robust at the low end: B_max(z=2) spans 1.002-1.201 over gamma in [0.3, 2] (~1.08 near 1/2).")
     print()
 
     # ---- (4) environment

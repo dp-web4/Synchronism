@@ -40,7 +40,7 @@ THE GALAXY FLOOR IS THE DARK-ENERGY SECTOR'S C AT TODAY'S MEAN DENSITY — AND W
     2.0    B=1.201 f<=0.167  B=1.085 f<=0.078  B=1.081 f<=0.075  B=1.002 f<=0.002 
     3.0    B=1.116 f<=0.104  B=1.037 f<=0.035  B=1.034 f<=0.033  B=1.000 f<=0.000 
     4.2    B=1.071 f<=0.066  B=1.017 f<=0.017  B=1.015 f<=0.015  B=1.000 f<=0.000 
-    The shape is gamma-robust: B_max(z=2) <= 1.1 for every gamma in [0.3, 2].
+    The shape is NOT gamma-robust at the low end: B_max(z=2) spans 1.002-1.201 over gamma in [0.3, 2] (~1.08 near 1/2).
 
 (4) Same reading, z = 0, as a function of ambient overdensity delta (smoothing scale UNSPECIFIED)
     delta =    -0.9   C_floor = 0.0443   B_max =  22.563   f_DM,max = 0.956
