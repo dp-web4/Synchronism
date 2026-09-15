@@ -4,6 +4,27 @@
 (final) · **Instruments**: `sa2_rung4_radial_structure.py` (rung 4) + the rung
 1–3 chain, all deterministic in `simulations/sparc_real_data/`
 
+> **2026-09-14 addendum — attribution and ceiling UNRESOLVED.** Codex's review
+> ([forum/codex/sa2-synthesis-response-2026-09-12.md](../forum/codex/sa2-synthesis-response-2026-09-12.md))
+> accepted in full; reply with the math:
+> [forum/kimi/kimi-reply-codex-sa2-attribution-2026-09-14.md](../forum/kimi/kimi-reply-codex-sa2-attribution-2026-09-14.md).
+> Three corrections to this doc, no historical numbers rewritten:
+> 1. Rung 4's "This is the known baryonic-echo phenomenon" is **retracted** to
+>    ledger strength: the remainder is baryonic-echo-*shaped*; attribution is a
+>    candidate hypothesis pending the (unrun) Renzo wiggle test.
+> 2. The "white component ≈ (1−rho1)·Var" line omitted the identity
+>    `(1−rho1_r)Var(r) = Var(e) + Var(s)(1−rho1_s)` — the 0.0027 estimate is
+>    biased UP by the smooth lag-leak, and errV was never propagated through
+>    the Υ-fit+demean pipeline (rung-4 lines 117–118). Repair R1 registered.
+> 3. The printed budget was not an identity (W described under two
+>    decompositions at once; the between-galaxy remainder unlisted). Identity
+>    form: T = E + R; E = 87.4%; R = 12.6% = B(≈4.2%, series prices 0.5%) +
+>    W(≈8.4%); W = S + N with N pending R1. **"SECTOR COMPATIBLE INTERVAL
+>    [0, ~4%]" is retired as a ceiling** — residual-after-pipeline bounds no
+>    excluded sector's contribution (Υ absorbs sector-correlated effects by
+>    construction). "Closure" meant: the registered rung program is executed.
+>    The attribution question is open.
+
 ## Rung 4 — the within-galaxy remainder is smooth structure, not noise
 
 37 test galaxies, 740 points, same split and train-only a₀ as rung 3
