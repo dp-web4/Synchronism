@@ -177,6 +177,20 @@ antidote to the overclaim.
 > compander form. Count unchanged; Bucket 0 = 0 unchanged. *Note for the "which C does this refute" column
 > (decision (i) above): this row's answer is "C(ρ), the density-keyed one" — distinct from the +184 headline's
 > C_g.* Proposal: `Research/proposals/sparc_objection_is_placement_not_the_ceiling_20260909.md`.
+>
+> **📌 SCOPE CONDITION ON THE LINE ABOVE (2026-09-15, site maintainer; no bucket moves, count 6).** "The Sun and the
+> clusters do not close this sector" holds only on a **smoothed**-density reading, which no archive document states. Read
+> pointwise, the Sun's neighbourhood is the solar wind (≈0.14 M☉/pc³ at 1 AU, ∝ r⁻²), which brackets every knee in the
+> joint window. Spherical flux conservation for ∇·[C∇Φ] = 4πGρ then makes GM☉ inferred from Earth and Saturn differ by
+> D = O(1): **192/192** framework grid points (f, γ, ρ_c as above, n_p ∈ {3,5,10}) and **48/48** RG Eq. 4.1 points exceed a
+> deliberately loose 10⁻⁶ (e.g. C = 0.93 at Earth vs 0.38 at Saturn at γ = 0.489, ρ_c = 0.0079); RG passes only for
+> Q ≲ 3.7×10⁻⁷. Pre-registered (site commit `0ad68f3`) and executed:
+> `synchronism-site/maintainer/scripts/density_keyed_law_vs_interplanetary_medium.py`. **Prior art:** Matsakos & Diaferio
+> 2016 §2.2.1 already say a density-keyed ε "unavoidably" needs a smoothing length D, "tens of astronomical units or
+> larger", postponed as a "crucial topic" — so this is a lower bound on their D (≳ outermost ranged orbit, ≳30 AU), not a
+> new no-go. The galaxy fits' smooth stellar profiles implicitly need D ≳ interstellar spacing (~1 pc). **Not a refutation**
+> (no document commits to pointwise ρ); a missing declared parameter, and the first place the MRH would have to carry a
+> number. Proposal: `Research/proposals/density_keyed_law_needs_a_smoothing_length_planets_bound_it_20260915.md`.
 
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
@@ -286,6 +300,22 @@ antidote to the overclaim.
 > limit (Koivisto, Kurki-Suonio & Ravndal 2005, PRD 71, 064027). That agrees with the 08-12 fit and the 08-18 ε-channel.
 > Bucket 3 as before, now *within a known class*. The dp-gated TEST-26 registration should cite the class. Proposal:
 > `Research/proposals/de_sector_is_cardassian_prior_art_20260914.md`.
+>
+> **📌 CORRECTION TO THE 08-18 BLOCK (2026-09-15, site maintainer — back-annotating explorer 2026-09-14; no bucket moves, count 6, Bucket 0 = 0).**
+> The 08-18 locality-fork execution's three structural claims — "no order-ε⁰ channel", "no instability", "no
+> k-dependence" — **hold only without the pressure term.** Read at local density with ρ_DE = f(ρ_m) comoving (the one
+> completion that keeps the postulate without new fields: Gondolo & Freese's fluid Cardassian), the sector is a barotropic
+> fluid with c_s² ≈ 0.223 ε today (ε = 2γ−1). The 08-18 growth ODE omitted the Jeans term c_s²(k/aH)², which dominates by
+> 10⁴–10⁵ on P(k) scales. Pre-registered and executed (site explorer, commit `7d8efbf` before computing;
+> `synchronism-site/explorer/findings/de-sector-local-horn-is-a-cardassian-fluid-and-pk-pins-gamma-to-half-within-1e-5.md`,
+> controls: GCG closed-form sound speed, convergence, γ = ½ ≡ 1): the fluid local horn is **excluded unless |ε| ≲ 10⁻⁵**
+> (γ = ½ ± 5×10⁻⁶, ~5000× narrower than the DESI 1σ); at γ = 0.487, R = P/P_ΛCDM = 9.7 at k = 0.01 h/Mpc. **Not re-run by
+> me.** This is published prior art: Amarzguioui, Elgarøy & Multamäki 2005 (JCAP 01, 008) and Sandvik+2004 (PRD 69, 123524).
+> Consequences: (i) "permanently unpowered / power, not data" is true **only on the mean-density (Horn N) reading**; on the
+> local fluid horn, existing P(k) already fixes γ = ½. (ii) Locality trilemma: local + fluid ⇒ γ = ½ to 10⁻⁵; local +
+> modified gravity ⇒ no covariant theory, and Koivisto's MG branch is also ISW-excessive (imported); mean-density only ⇒ γ
+> free, DESI fit valid, but coherence is no longer evaluated locally. (iii) The dp-gated TEST-26 registration must name its
+> horn. Method lesson (same as the explorer's): symbolic verification checks the terms written, not the terms omitted.
 >
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

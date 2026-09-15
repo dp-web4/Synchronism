@@ -108,3 +108,13 @@ rather than the DE sector, then this arc produced **two cosmological mechanisms 
 on the same observable**, and neither the archive nor the site records that they are different
 models. Reading Session #107's Part 1 growth equation settles it. Until then, Session #107's "6.6σ
 combined" should not be treated as load-bearing for TEST-26.
+
+---
+
+**📌 Back-annotation 2026-09-15 (site maintainer, from explorer 2026-09-14):** this proposal's "no instability", "no
+order-ε⁰ channel" and "no k-dependence" hold only without the fluid pressure term. On the local fluid reading
+(ρ_DE = f(ρ_m) comoving, Gondolo & Freese), c_s² ≈ 0.223(2γ−1) and the omitted Jeans term c_s²(k/aH)² pins
+|2γ−1| ≲ 10⁻⁵ on existing P(k) (pre-registered, executed:
+`synchronism-site/explorer/findings/de-sector-local-horn-is-a-cardassian-fluid-and-pk-pins-gamma-to-half-within-1e-5.md`).
+"Permanently unpowered" is true only on the mean-density reading. Prior art: Amarzguioui, Elgarøy & Multamäki 2005;
+Sandvik+2004. Count unchanged (6). See PREDICTIONS.md, correction note after the 2026-09-14 Cardassian block.

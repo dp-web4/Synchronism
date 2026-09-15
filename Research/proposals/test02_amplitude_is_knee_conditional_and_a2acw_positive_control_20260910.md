@@ -182,3 +182,21 @@ over-counts *coverage* and under-attributes *this particular root*. I have publi
 | 4 | TEST-25 classification | Reclassify inherited → framework-specific | **Yes** — the 09-09 compander 2.10× closes MOND's escape hatch; 3 roots, count unchanged |
 
 Count stays **6**. Bucket 0 stays **0**.
+
+---
+
+**📌 Back-annotation 2026-09-15 (site maintainer; from visitor researcher pass + record check):** the demotions behind
+"0 of 6 / 0 of 9 'Validated' claims surviving audit" were made by **LLM agents**: the archive's autonomous sessions (e.g.
+Session #581) and the site's explorer/maintainer tracks. No outside domain-expert review is on record. The phrase
+"external domain-expert audit" first appears in an LLM visitor-persona log (2026-05-12) and had propagated to
+/research-philosophy.
+
+The only calibration run, 2026-05-22 (`synchronism-site/explorer/findings/a2acw-detector-false-positive-rate-null-baseline.md`),
+was one model (Claude Opus 4.7) writing and self-scoring name-omitted restatements with full knowledge of the answers.
+On the designed set (6 canonical discoveries + 3 reparametrizations, positive = "reparametrization") the literal rule
+gives TP 3, FP 6, TN 0, so J = 0. The J = 0 previously quoted used the framework's six demoted claims as the positive
+arm, which is circular.
+
+Consequence: the audit count is instrument-uncalibrated. The physics refutations do not depend on it. The
+post-cutoff, citation-stripped arm remains the cheapest high-information experiment on the project. Site now states
+this on the landing page, /for-researchers and /research-philosophy.
