@@ -192,6 +192,19 @@ antidote to the overclaim.
 > (no document commits to pointwise ρ); a missing declared parameter, and the first place the MRH would have to carry a
 > number. Proposal: `Research/proposals/density_keyed_law_needs_a_smoothing_length_planets_bound_it_20260915.md`.
 
+> **📌 REFUTATION CONTROLS (2026-09-16, site maintainer; no bucket moves, count 6, Bucket 0 = 0).** (i) The
+> 2026-09-09 "compander form isolated at a non-binding ceiling loses 2.10× to MOND μ" is **withdrawn**: the comparison
+> also changed the knee (0.32 a₀ vs the γ = ½ identity's 0.5 a₀) and the floor form (affine vs clip). Pre-registered
+> controls (site `04c4037`): the function-only swap gives χ²/N 50.83 vs 51.45 (0.988×); knee alone 1.52×, floor form
+> alone 1.32×, both 2.10× (reproduced). The compander remains Bucket 3 (reparametrization), now without a "loses"
+> clause; the dp-gated TEST-25 reclassification recommendation (proposal 20260910 item 4) is withdrawn. (ii) **"EFE = 0
+> exactly" holds for the algebraic g = g_N/C reading only.** Under L2 the external field superposes and is refracted
+> wherever ∇C ≠ 0 inside a system. An order-of-magnitude check for a halo globular cluster gives a non-uniform residual
+> of 0.3–0.37 g_ext beyond the knee, 0.25–0.67 of the cluster's own gravity at 20–30 pc (dipolar; not pre-registered).
+> The GC exclusion window is an algebraic/isolated-cluster statement until that term is modelled. (iii) RG's
+> (0.089, 0.47, 0.0083) is the Cesare+2022 elliptical calibration, not a disc fit. Proposal:
+> `Research/proposals/refutations_need_controls_compander_tie_and_gc_refraction_20260916.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies

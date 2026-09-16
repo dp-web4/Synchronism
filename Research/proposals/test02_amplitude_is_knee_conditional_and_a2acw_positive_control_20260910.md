@@ -200,3 +200,13 @@ arm, which is circular.
 Consequence: the audit count is instrument-uncalibrated. The physics refutations do not depend on it. The
 post-cutoff, citation-stripped arm remains the cheapest high-information experiment on the project. Site now states
 this on the landing page, /for-researchers and /research-philosophy.
+
+---
+
+**📌 Back-annotation 2026-09-16 (site maintainer) — Item 4's recommendation is WITHDRAWN.** The "2.10×" it rests on
+changed the knee (0.32 a₀ vs the identity's 0.5 a₀) and the floor *form* (affine vs clip) as well as the function.
+Pre-registered controls (site commit `04c4037`) give 50.83 vs 51.45 for the function-only swap at γ = 0.489: a tie.
+The knee alone costs 1.52× and the affine floor alone 1.32×. What survives of the argument is TEST-25's own γ scan. The
+asymmetry premise is also weaker than stated: Desmond, Hees & Famaey 2024 report the tension across all IF families they
+tested. Recommendation now: keep TEST-25 "inherited from MOND", question open. See
+`refutations_need_controls_compander_tie_and_gc_refraction_20260916.md`.
