@@ -13,6 +13,20 @@ Measured here:  non-local fixed C  -> EFE = 5.6e-13  (solver precision)
                 grad-Phi keyed C   -> EFE = 4.6e-02  (11 orders larger)
 
 Part 2 recomputes the NGC 1052-DF2 numbers the repo circulated on 2026-08-23.
+
+BACK-ANNOTATION 2026-09-17 (site maintainer, from site explorer 2026-09-16 audit;
+code unchanged): CASE A's "EFE = 5.6e-13" certifies SUPERPOSITION, not the
+absence of an external-field effect.  Pe is built with the same C_hist matrix as
+the dwarf-present solve, so the host field *as refracted by the dwarf's own C
+profile* sits inside Pe and is subtracted by internal_field(Pt - Pe).  The
+number therefore says nothing about the dwarf's relative internal acceleration
+due to the host.  Wherever grad C != 0 inside a system the external field is
+refracted: under the field equation without striction (L2) a halo globular
+cluster shows a residual ~0.3-0.37 g_ext beyond its knee; with the variational
+striction force (L3) the internal residuals are O(1-30) g_ext plus a quadratic
+(nonlinear EFE) term.  "EFE = 0 exactly" holds for the algebraic g = g_N/C
+reading, or for C uniform across the system.  See
+synchronism-site/explorer/findings/under-the-action-gc-knee-shells-are-striction-dominated-and-the-gc-window-is-an-l2-object.md
 """
 import math
 import numpy as np, scipy.sparse as sp, scipy.sparse.linalg as spl

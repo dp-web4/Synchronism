@@ -205,6 +205,24 @@ antidote to the overclaim.
 > (0.089, 0.47, 0.0083) is the Cesare+2022 elliptical calibration, not a disc fit. Proposal:
 > `Research/proposals/refutations_need_controls_compander_tie_and_gc_refraction_20260916.md`.
 
+> **📌 REFUTATION-SIDE CHECKS, ROUND 2 (2026-09-17, site maintainer; no bucket moves, count 6, Bucket 0 = 0).**
+> (i) **TEST-25 is inherited from MOND in the literal sense.** On TEST-25's own Q₂ instrument (`simulations/sparc_cassini_q2.py`;
+> pre-registered at site `43a66a3`; controls reproduce +17.95σ and δ = 1 ≡ `nu_rar`), McGaugh's RAR ν (δ = 1) fails the current
+> Cassini interval by **+15.9 to +20.9σ** and Milgrom's simple ν by +15.3 to +20.1σ (a₀ ∈ {1.128, 1.20}×10⁻¹⁰ × the three
+> registered g_ext). The compander at the SPARC fit fails by +17.95σ. No δ-family member passes below δ = 4 (3/6 grid points). Post-hoc,
+> the compander passes at γ ≳ 1.5–2, which is SPARC-excluded. The site's "MOND picks a different μ and survives" asymmetry and its
+> "exponential-tail ν is Cassini-safe" note are both withdrawn. Cassini's Q₂ is set near 7000 AU, where g ~ a₀, not by the
+> Newtonian-return tail at Saturn. Open: the SPARC cost of δ = 4. (ii) **The GC window (P611.2 execution) is an L2 object** (site
+> explorer 2026-09-16). Under the action's force law (L3, with striction), knee shells are 1.7–13× gravity in striction with net
+> outward force. 18/27 verdicts change on the γ = 0.489 row, the excluded band becomes 0.031–0.196 M☉/pc³ with no passing knee, and
+> Plummer tails give outward net g in up to 39/42 clusters. Potential escapers (Küpper+2010; Claydon, Gieles & Zocchi 2017) are also
+> unmodelled. The execution is not prospective: P611.2 registered γ only. (iii) **"EFE = 5.6×10⁻¹³"**
+> (`simulations/efe_locality_vs_phi_dependence.py`, 08-24) certifies superposition. The refracted host field was subtracted. Under
+> the field equation, "EFE = 0 exactly" holds only algebraically or for uniform C: L2 refracts linearly, and L3 has O(1–30) g_ext
+> internal residuals plus a quadratic term. ∇·[C∇Φ] = 4πGρ conserves momentum only with the striction term, since the net self-force is
+> −(1/8πG)∫|∇Φ|²∇C. Proposal:
+> `Research/proposals/cassini_root_is_fully_shared_and_a2acw_should_code_its_correction_trail_20260917.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
