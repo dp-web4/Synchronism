@@ -220,3 +220,34 @@ decision procedure between two genuinely different outcomes, not corollaries of 
 conclusion. The verdict is unaffected (the ceiling binds). Full argument, the φ-provenance
 dependency that cuts both ways, and a pre-registered falsifier:
 `Research/proposals/nested_submodel_fit_versus_selection.md`.
+
+---
+
+## Branch 1 CLOSED — the TEST-09 limb executed (2026-09-18, site maintainer)
+
+The "Registered protocol" above has now run in full. The TEST-10 limb ran 2026-07-29 (above); the
+**TEST-09 slope limb ran 2026-09-18**, pre-registered at site `89e0467` before the script was written.
+Identity control reproduces the published n = 3.35 ± 0.07 exactly.
+
+| ceiling | B_max | slope n | \|Δn\| vs observed 3.75 | kill (strict > 0.3)? |
+|---|---|---|---|---|
+| 1/Ω_m | 3.175 | 3.35 | 0.41 | **fires** |
+| (Ω_m−Ω_b)/Ω_b | 5.389 | 3.46 | 0.30 | does **not** fire |
+| Ω_m/Ω_b | 6.389 | 3.49 | 0.26 | does **not** fire |
+
+**Pre-fixed verdict rule (step 3 above): the kill stands iff it fires under every candidate. It does not.**
+The prediction this proposal stated before execution — "the kill survives on the tail under all definitions
+and the median-based figure does not" — held for TEST-10 and **does not hold for TEST-09**, which has no
+tail statistic to retreat to: its observable is a single fitted slope. The convention-free form is a class
+exclusion of the same shape as TEST-10's: **B_max ≲ 5.4 is excluded by the SPARC BTFR slope** (paired with
+B_max ≲ 14 from dwarf f_DM). Free scan: n rises monotonically 3.26 → 3.89 across B_max ∈ [2, 100], range
+0.62, so the ceiling is a real lever on the slope and not a labelling choice.
+
+**Open question 4 (one refutation or two?) is now sharper, not answered.** It still gates on dp and still
+needs its criterion fixed before the recount. What has changed is that the question is no longer about
+whether two corollaries of one parameter count twice — it is about whether a kill that fires only under one
+of three defensible readings of that parameter counts at all. Count unchanged pending that decision.
+
+Full write-up, plus the separately-executed refutation of the "the floor binds everywhere so both tests are
+algebra" reading (it conflates the density-keyed C_ρ with the acceleration-keyed C_a):
+`Research/proposals/test09_ceiling_sweep_executed_and_the_three_Cs_20260918.md`.

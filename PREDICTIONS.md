@@ -223,6 +223,43 @@ antidote to the overclaim.
 > −(1/8πG)∫|∇Φ|²∇C. Proposal:
 > `Research/proposals/cassini_root_is_fully_shared_and_a2acw_should_code_its_correction_trail_20260917.md`.
 
+> **📌 THE TEST-09 CEILING SWEEP IS EXECUTED, AND BOTH GALAXY KILLS ARE CONVENTION-DEPENDENT (2026-09-18,
+> site maintainer; no bucket moves, count 6, Bucket 0 = 0).** Branch 1 of
+> `Research/proposals/boost_ceiling_provenance_and_class_exclusion.md` registered a sweep over the ceiling's
+> *definition* on 2026-07-27. The TEST-10 limb ran 2026-07-29 (106/153 discs exceed at B_max = 3.17, 28/153 at
+> 6.39). **The TEST-09 limb — the BTFR slope — had never run**, and the site carried "TEST-09 and TEST-10 are
+> convention-dependent" as an *assertion* from 2026-08-07. Executed now, with the ceiling entering as the floor of
+> `C(a) = C_min + (1−C_min)·x/(1+x)` and everything else held at TEST-09's own values (cuts, V_flat estimator,
+> bootstrap); the identity control reproduces the published **n = 3.35 ± 0.07** exactly before any new number is read:
+> B_max = 3.175 (1/Ω_m) → n = 3.35, |Δn| = **0.41, FIRES**; B_max = 5.389 ((Ω_m−Ω_b)/Ω_b) → n = 3.46, |Δn| =
+> **0.30, does NOT fire** (the registered threshold is a strict > 0.3, and this lands on it); B_max = 6.389
+> (Ω_m/Ω_b) → n = 3.49, |Δn| = **0.26, does NOT fire**. Pre-fixed rule: the kill stands iff it fires under every
+> candidate. **It does not.** A free scan gives n = 3.26 at B_max = 2 rising monotonically to 3.89 at B_max = 100
+> (range 0.62), so the ceiling is a genuine lever on this observable rather than a labelling choice. The
+> convention-free form is the slope analogue of TEST-10's class exclusion: **a bounded-boost law with B_max ≲ 5.4
+> is excluded by the SPARC BTFR slope.** Count unchanged — whether a convention-dependent kill still counts in the
+> "6 refutations" headline is the recount the proposal gates on dp (its open question 4); this run supplies the
+> number, not the decision. Pre-registered at site `89e0467` **before the script was written**;
+> `synchronism-site/maintainer/scripts/which_C_carries_the_floor.py` (+ `_PREREG.md`, `_output.txt`).
+>
+> **Same run, refutation-side control: the "floor binds everywhere, so TEST-09/10 are algebra" reading is REFUTED.**
+> A visitor researcher persona argued (2026-09-18) from the site plotter's "max C on this disk: 0.001" against the
+> floor of 0.315 that the floor binds at every radius on every disc, so the galaxy sector applies the *constant*
+> 3.17, the tanh does no work, and both kills were knowable before execution. It fails on its premise, which
+> conflates **two different functions both written "C"**: the plotter draws the *density*-keyed
+> `C_ρ = tanh(γ·ln(1+ρ/ρ_crit))`, which carries no floor, while TEST-09/TEST-10 evaluate the *acceleration*-keyed
+> `C_a`, whose floor is part of its functional form. On 123 real SPARC discs: C_ρ's per-disc maximum has median
+> **1.2×10⁻³** at γ = 2 (0/123 reach Ω_m anywhere — so the plotter's number *does* generalise off its five-galaxy
+> toy), while C_a runs **0.329–0.954** over the same 2,856 radii, with **0.00 %** within 1 % of the floor and an
+> applied boost of 1.05–3.04× that never reaches the ceiling. Both corollaries fall with the premise: predicted
+> f_DM has s.d. **0.062** about a median of 0.585 with *no* galaxy within 0.01 of the cap (not a delta at 0.685),
+> and the slope is not ceiling-independent (it moves 0.62 — which is exactly why the sweep above has a result).
+> **This is a third object behind the one symbol**, alongside the known C_ρ floored/unfloored pair and the
+> quadrature-vs-division wiring fork; only the wiring fork was labelled. Logged at the same prominence a confirmed
+> finding would get, per the 2026-09-17 finding that the over-refutation share of corrections rose 1/20 → 9/24
+> (May→Aug) — visitor-supplied refutations sit inside that denominator. Proposal:
+> `Research/proposals/test09_ceiling_sweep_executed_and_the_three_Cs_20260918.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
