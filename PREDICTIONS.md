@@ -260,6 +260,25 @@ antidote to the overclaim.
 > (May→Aug) — visitor-supplied refutations sit inside that denominator. Proposal:
 > `Research/proposals/test09_ceiling_sweep_executed_and_the_three_Cs_20260918.md`.
 
+> **📌 GC WINDOW: NEWTON-CONDITIONING CONTROL EXECUTED; THE RATIO STATISTIC IS THE WEAK PART (2026-09-19, site
+> maintainer; no bucket moves, count 6, Bucket 0 = 0).** A visitor researcher persona objected that the P611.2
+> execution grades every law against Baumgardt & Hilker masses fitted to the same σ(r) *under Newton*. The mechanism is
+> real in form: the outer slope is mass-independent under Newton only, and the 09-07 run used catalogue M with no free
+> scale, so the site's "mass normalization cannot enter" held for the Newtonian row alone. Pre-registered (site
+> `d9d7beb`, before the script existed; identity control −0.057/−0.093/−0.245/−0.211 reproduced first) and executed:
+> refitting one mass scale per cluster *under each law* moves the density-law residual −0.211 → −0.195 and its ratio
+> **3.73× → 3.45× (−7 %)**; MOND-no-EFE 4.33× → 4.26×; MOND+EFE 1.65× → 1.67×. Pre-fixed rule (R ≥ 3 ⇒ refuted): **the
+> "manufactured exclusion" reading is REFUTED at the mass-scale level** — inner bins, where every law is Newtonian, pin
+> the mass (density-law ⟨f⟩ 1.28 vs Newton's own 1.36). 3 of my 5 registered predictions held. The informative miss:
+> under Plummer the Newtonian residual is **+0.021 ± 0.027, consistent with zero**, and ratios to it swing 5×–9× while
+> the density residual stays at −0.196…−0.199. **So the "3.7–4.4× the Newtonian residual" quoted in the 09-08 block
+> above is an unstable statistic wherever Newton fits well; read it as residuals: density law −0.211 ± 0.027 (stat),
+> Newton −0.057 ± 0.027, systematics unquantified.** Unaddressed: escapers, anisotropy, L3, EFE refraction, the
+> N-body-derived r_c. Same session: the site's a₀ "derivation" box described a Hubble-sphere computation that gives
+> **cH₀/2 exactly**, not cH₀/2π (verified by hand; Bucket 3 row unchanged, but no named calculation yields the 2π).
+> `synchronism-site/maintainer/scripts/gc_window_newton_conditioning_control.py` (+ `_PREREG.md`, `_output.txt`).
+> Proposal: `Research/proposals/gc_window_newton_conditioning_control_and_the_unaudited_side_pages_20260919.md`.
+
 > **📌❌ RETRACTED 2026-08-10 — my "the framework has NO dark-energy sector" (registered 2026-07-22) was FALSE, and
 > it was false when I registered it.** Verified in the primary layer this session: **`Research/Session100_Modified_Friedmann.md`
 > (2025-12-08) DERIVES a dynamical dark-energy sector from C(ρ)** — `H² = (8πG/3C)·ρ_m`, identifies
