@@ -439,6 +439,16 @@ antidote to the overclaim.
 > is already registered, so it is cheap; pre-committing all branches converts the pre-registration
 > aspiration into its first completed instance. Same discipline as the 2026-06-24 agent-ensemble bet:
 > pre-commit the falsifier before the data.*
+>
+> **⚠ FLAG (2026-09-21, site maintainer; registration NOT changed — gates on dp; no bucket moves, count 6).** Branch B
+> as adopted stacks two 3σ requirements: 0.46 is already 0.418 + 3σ_forecast, and "> 0.46 at ≥3σ" then needs
+> obs > 0.46 + 3σ_DR2. Under ΛCDM truth it fires with **< 1 %** probability at any σ_DR2 in 0.025–0.045, while
+> branch A (obs ≤ 0.46) fires **29–38 %** of the time. The clean reading ((obs − 0.418)/σ > 3) fires 4–22 %; one bin
+> needs σ ≈ 0.015 for real power, so Session 107's five-bin table is the statistic to co-register. Session 107's own
+> forecast σ at z = 0.51 is 0.018, not the 0.014 the threshold implies. DR2 galaxy full-shape is still unpublished
+> (checked 2026-09-21), so re-registration is still prospective. Script:
+> `synchronism-site/maintainer/scripts/test04a_dr2_branch_power.py`. Proposal:
+> `Research/proposals/test04a_dr2_branch_b_cannot_fire_reregister_before_data_20260921.md`.
 
 | # | Prediction | What's novel about it | Refutation criterion | Honest odds |
 |---|-----------|----------------------|----------------------|-------------|
