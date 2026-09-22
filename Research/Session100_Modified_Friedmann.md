@@ -111,6 +111,8 @@ The "extra" density looks like dark energy:
 
 ## Part 2: Matching ΛCDM
 
+> **Note (back-annotated 2026-09-22, site maintainer):** C₀ = Ω_m here is the Planck Ω_m, which includes ≈0.27 of cold dark matter. With ρ_m = ρ_b only (C₀ = Ω_b), no γ gives both acceleration today and the recombination dark/baryon ratio of 5.36 (best 1.54; pre-registered, executed). The sector works only with CDM in ρ_m. See `Research/proposals/de_sector_cannot_carry_the_dark_matter_cosmology_needs_cdm_20260922.md`. The session text below is preserved as written.
+
 ### Calibration Condition
 
 At z = 0, setting C₀ = Ω_m = 0.3:

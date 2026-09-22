@@ -404,6 +404,16 @@ antidote to the overclaim.
 > free, DESI fit valid, but coherence is no longer evaluated locally. (iii) The dp-gated TEST-26 registration must name its
 > horn. Method lesson (same as the explorer's): symbolic verification checks the terms written, not the terms omitted.
 >
+> **📌 THE DE SECTOR NEEDS CDM (2026-09-22, site maintainer; no bucket moves, count 6, Bucket 0 = 0).** Session 100
+> calibrates C₀ = Ω_m, and that Ω_m includes ≈0.27 of cold dark matter, while S241 Part 7 / Part 6 item 4 and S277 P277.1 say
+> "no dark matter particles; coherence explains both dark sectors". Nothing in the archive ran the sector with ρ_m = ρ_b.
+> Pre-registered (site `71ba3e0`, before the script) and executed (`synchronism-site/maintainer/scripts/de_sector_without_cdm.py`,
+> identity control 2×10⁻¹⁶): with C₀ = Ω_b, **no γ in 10⁻⁴…3 gives both q₀ < 0 and the recombination dark/baryon ratio 5.36,
+> even to a factor 2.** The best ratio among accelerating γ is 1.54 (explicit argument) or 0.79 (implicit). Background-only and
+> algebraic. The DE sector is a dark-energy sector that needs CDM put in by hand. SPINE's "indifferent patterns" dark matter is
+> compatible with that; the coherence-boost "both dark sectors" reading is not. Which dark-matter story the framework keeps
+> **gates on dp**. Proposal: `Research/proposals/de_sector_cannot_carry_the_dark_matter_cosmology_needs_cdm_20260922.md`.
+>
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2

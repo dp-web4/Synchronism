@@ -175,6 +175,8 @@ This overshoots slightly, but captures the direction and order of magnitude.
 
 ## Part 7: The Unified Picture
 
+> **Note (back-annotated 2026-09-22, site maintainer):** "Coherence explains both dark sectors" does not hold at the background level. The DE sector (C₀ = Ω_m) is calibrated on a CDM-inclusive Ω_m, and with baryons only it cannot give both the recombination dark-matter share and acceleration today. Part 6 item 4 ("No Dark Matter Particles") is therefore inconsistent with the sector's own calibration; SPINE's "indifferent patterns" reading of dark matter is not. See `Research/proposals/de_sector_cannot_carry_the_dark_matter_cosmology_needs_cdm_20260922.md`. The session text below is preserved as written.
+
 ### Coherence Explains Both Dark Sectors
 
 | Phenomenon | Standard Name | Synchronism |

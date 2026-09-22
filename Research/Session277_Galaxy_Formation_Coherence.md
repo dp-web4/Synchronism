@@ -175,6 +175,8 @@ The gradient falls off slowly → rotation curves flatten naturally.
 
 ## Part 7: Predictions
 
+> **Note (back-annotated 2026-09-22, site maintainer):** "No dark matter particles needed" conflicts with the cosmology sector, which is calibrated on a CDM-inclusive Ω_m and cannot supply the dark matter itself (baryons-only check, 2026-09-22). See `Research/proposals/de_sector_cannot_carry_the_dark_matter_cosmology_needs_cdm_20260922.md`. The session text below is preserved as written.
+
 ### P277.1: Rotation Curves from Coherence
 
 **Prediction**: Flat rotation curves from coherence gradient enhancement.
