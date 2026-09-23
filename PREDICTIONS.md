@@ -334,7 +334,14 @@ antidote to the overclaim.
 > γ test — and it has NO POWER to fail, so it is NOT a confirmation:** γ_cosmo = 0.487±0.02 vs γ_galaxy(SPARC) =
 > 0.489, "agree at 0.1σ" — but γ=½ is *exactly* Λ (Möbius) and γ=0.489 is *exactly* MOND simple-μ, so the two
 > sectors' STANDARD models sit 0.011 apart in γ-space by construction; separating 0.489 from 0.500 needs
-> σ_γ ≈ 0.004, and SPARC-side σ(γ) has never been derived. The agreement is inherited from Λ+MOND, not evidence
+> σ_γ ≈ 0.004, and SPARC-side σ(γ) has never been derived. **[⚠ CORRECTED 2026-09-23, site maintainer, from a site
+> visitor researcher persona: "γ=0.489 is *exactly* MOND simple-μ" is wrong, and this ledger's own B2 row says so (2026-08-02:
+> "γ = 1/2 is the EXACT algebraic MOND point", C = x/(x+2)). Both standard models sit at the SAME point, γ = ½; they are 0
+> apart, not 0.011. The 0.011 is SPARC's fitted offset from ½ (consistent with 0 at σ_γ = 0.11, see below). So the
+> cross-sector "agreement" is the agreement of Λ with the simple μ, and it is zero-power by identity, a stronger deflation
+> than stated. The σ_γ ≈ 0.004 requirement answers a different question: can SPARC tell its fit from the simple μ exactly?
+> Not a cross-sector test. The same slip recurs in the 08-18 block's "γ-space separation between the Λ-point and the
+> MOND-point"; read both as "fit offset from the shared point". Verdict unchanged; count 6.]** The agreement is inherited from Λ+MOND, not evidence
 > for Synchronism — do not promote this to a "cross-sector concordance." **[2026-08-14, CBP — the open σ(γ) item
 > is now CLOSED, and it makes the deflation PERMANENT.** Site explorer derived it on the frozen SPARC likelihood
 > (`sparc_gamma_interval_frozen_likelihood.py`): **σ(γ) = 0.11 (stat, galaxy-limited)** with a ϒ-systematic band
@@ -414,6 +421,18 @@ antidote to the overclaim.
 > compatible with that; the coherence-boost "both dark sectors" reading is not. Which dark-matter story the framework keeps
 > **gates on dp**. Proposal: `Research/proposals/de_sector_cannot_carry_the_dark_matter_cosmology_needs_cdm_20260922.md`.
 >
+> **📌 THE SIGN LOCK EXCLUDES THAWING, NOT ONLY CROSSING (2026-09-23, site maintainer, from a site visitor researcher
+> persona; no bucket moves, count 6, Bucket 0 = 0).** The substituted background runs monotonically from w = −2γ to −1, so
+> sign(w₀+1) = sign(wₐ). The site (and the dp-gated TEST-26 framing) described the forbidden DESI region
+> (w₀ > −1, wₐ < 0) as "a crossing of w = −1". In CPL the early value is w₀ + wₐ, so a crossing needs w₀ + wₐ < −1; the rest
+> of that quadrant is thawing quintessence, which never crosses. In Caldwell & Linder (2005) terms the lock allows only
+> evolution *toward* −1: freezing from above (γ < ½) or its phantom mirror from below (γ > ½), and excludes thawing and
+> crossing in either direction. That is a stronger kill than "forbids crossing": it fires when the data prefer thawing over
+> freezing, crossing or not. The substituted family still pays exactly ΛCDM's price (Δχ² ≈ +11 vs w₀wₐCDM), so this changes
+> the *wording* of any TEST-26 registration, not a verdict. **For dp:** if TEST-26 is registered, state the kill in
+> thawing/freezing terms and name the horn (mean-density vs local fluid; the local-fluid P(k) pin assumes adiabatic
+> c_s² = dP/dρ and is evaded by c_s² = 0 or by an entropy-carrying second field, cf. silent quartessence, Reis+2003).
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
