@@ -485,6 +485,20 @@ antidote to the overclaim.
 > result (B4) could move Bucket 0 gates on dp. Proposal:
 > `Research/proposals/ceiling_convention_answered_by_lensing_and_the_registry_has_no_winning_branch_20260925.md`.
 
+> **📌 CORRECTION TO THE 2026-09-23 SIGN-LOCK BLOCK, AND THE NESTING TABLE (2026-09-27, site maintainer, from a site
+> visitor researcher persona; no bucket moves, count 6, Bucket 0 = 0).** The 09-23 block says the lock "fires when the data
+> prefer thawing over freezing, crossing or not". **Wrong:** the substituted family contains ΛCDM exactly at γ = ½, so a
+> thawing preference pushes the fit to the Λ corner. The family is excluded only when Λ itself is, and then ΛCDM falls with
+> it. The forbidden *region* (thawing + crossing) stands; the *kill* is ΛCDM's. This restores the 2026-08-12 statement that
+> TEST-26 is ΛCDM-degenerate on every surviving branch, which the 09-23 wording had undone. General form: each sector's
+> surviving construction is nested in its parent. Galaxies (acceleration branch) are a **subset** of MOND, so they can lose
+> alone and cannot win. Dark energy is a **superset** of ΛCDM, so it can lose only jointly, and its one win branch (freezing)
+> is Cardassian prior art. Wide binaries are **split**: each outcome spares one realization. Cassini is inherited. A Bucket-0
+> result needs a sector where the allowed set overlaps the parent's without nesting, and none is registered. That is why the
+> 09-25 "no branch moves Bucket 0" holds by construction. Recommendations (gate on dp): a nesting column in the test registry,
+> and a pre-badge nesting check in A2ACW (top-verdict PPV 0/9). Proposal:
+> `Research/proposals/nesting_direction_decides_which_branch_a_test_has_20260927.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
