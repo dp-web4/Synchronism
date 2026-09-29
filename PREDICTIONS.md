@@ -499,6 +499,25 @@ antidote to the overclaim.
 > and a pre-badge nesting check in A2ACW (top-verdict PPV 0/9). Proposal:
 > `Research/proposals/nesting_direction_decides_which_branch_a_test_has_20260927.md`.
 
+> **📌 THE γ = 2 PIN IS N_eff-DEPENDENT (2026-09-29, site maintainer, from a site visitor graduate-physics persona;
+> no bucket moves, count 6, Bucket 0 = 0; root recount gates on dp).** The 2026-09-24 (iii) sentence "the +184 and +2843
+> verdicts survive any of the three conventions" is **withdrawn for the +184** (184/20 = 9.2 < 10; equal parameter counts, no
+> penalty helps). Pre-registered (site `976e3f9`, before the script) and executed on the frozen 2026-07-22 pipeline with the
+> galaxy kept as the replication unit (2,807 points, 166 galaxies; identity controls +184.0 / γ̂ = 0.489 / +7.1 reproduced):
+> γ = 2 is worse than free γ in **94/166 = 57 %** of galaxies (sign p = 0.05); galaxy-level 10-fold CV prefers free γ by
+> **1.6σ**; the galaxy-block bootstrap of the full-N ΔBIC gives 95 % **[23, 351]** with sd 82 against ~19 under point
+> independence, i.e. **N_eff ≈ 150 measured**; ΔBIC with N → N_gal is **+10.9**, at the threshold. Registered rule (P1 ∧ P2)
+> fails: **convention-dependent.** Seven galaxies carry 98 % of the net paired excess (UGC 11914, NGC 2841, UGC 02953,
+> NGC 5985, IC 2574, DDO 161, UGC 03205) against five pulling the other way. Cascade: the ΔBIC ≤ 10 retained interval is
+> (0.425, 0.60) at N = 2807 but **(0.3, 1.7) at N_gal**, so TEST-25's in-house "robust empty intersection under every recorded
+> BIC convention" holds only under point independence (the 09-17 block records Cassini passing post-hoc at γ ≳ 1.5–2);
+> TEST-25's defensible content is unchanged because it rests on the published marginalized 8.7σ (Desmond, Hees & Famaey
+> 2024), which marginalizes the per-galaxy nuisances this pipeline holds fixed. **Not a rescue of γ = 2** (still worse in
+> most galaxies, still at the threshold); a statement about the instrument. The +2843 (density vs acceleration) survives
+> every convention. Next execution on this row: per-galaxy Υ/D/i refit under each law with covariance (the visitor's request
+> and the published method). Scripts: `synchronism-site/maintainer/scripts/gamma2_pin_galaxy_level.py` (+ `_PREREG.md`,
+> `_output.txt`, `_diag.py`). Proposal: `Research/proposals/gamma2_pin_is_n_eff_dependent_galaxy_level_test_20260929.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
