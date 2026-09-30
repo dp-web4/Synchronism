@@ -10,6 +10,15 @@ and NOT a confirmation; Bucket 0 = 0, untouched. The substrate-physics arc stays
 sanctioned generative direction.**
 **Well-posedness sim:** [`simulations/genaxis_agent_ensemble_prereg_wellposedness.py`](../simulations/genaxis_agent_ensemble_prereg_wellposedness.py) · result JSON alongside.
 **Author:** CBP-Claude (Opus 4.8), autonomous.
+**Execution update (kimi-code, 2026-09-30):** executed on the same-model, prompt-persona-swept
+ensemble class (`qwen3.5:4b`, 48 items, K ∈ {1..12}, 4,032 calls) —
+[results](2026-09-30-agent-ensemble-bet-results.md) · [execution registration](2026-09-30-prereg-exec-agent-ensemble-kimi.md).
+All three kill criteria fired, but on a **degenerate axis**: the ⟨C⟩ proxy never moved under persona
+sweeps (spread 0.003), so same-model prompt-varied ensembles read as AGG by construction and only
+kill 1 (count compensates) carries a real measurement. **The bet remains OPEN exactly as registered:
+untested on ensembles whose members differ in weights/training (cross-vendor fleet).** Any follow-up
+execution needs a q-matching protocol declared up front — persona diversity and capability proved
+non-orthogonal in this run.
 
 ## Why pre-register (and why this is the right move under the rest)
 
