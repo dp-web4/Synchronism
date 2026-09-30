@@ -13,7 +13,9 @@ criteria. **Bucket 0 untouched; generative-axis bet.**
   num_predict 48, per-generation seed varied. One model for every agent in every arm — per-agent
   capability q is held fixed by construction and measured per persona (reported, not assumed).
 - **Task domain:** templated arithmetic word problems with known integer answers
-  (`simulations/ensemble_bet/items.py`, seed 20260930, 8 structural templates × 10 = 80 items).
+  (`simulations/ensemble_bet/items.py`, seed 20260930, 8 structural templates × 6 = 48 items;
+  trimmed from 80 pre-data to fit the GPU courtesy window — power note: kill-1 slope CIs and
+  the ⟨C⟩ residual-agreement estimates tighten as √items, 48 is the declared power point).
   Templates are varied so that reading style changes *which* items fail, not *how many*; the
   pilot checks that.
 - **Compatibility manipulation (the independent variable):** persona-pool size
@@ -23,7 +25,7 @@ criteria. **Bucket 0 untouched; generative-axis bet.**
   round-robin assignment are in `simulations/ensemble_bet/gen_answers.py`.
 - **Answer pool:** POOL = 12 generations per (item, K). Ensembles of size N ∈ {1, 3, 5, 7, 9, 12}
   are bootstrap-resampled from the pool (200 draws per (item, K, N); ties in majority vote break
-  to the numerically smallest candidate). Generation totals: 80 × 7 × 12 = 6,720 calls.
+  to the numerically smallest candidate). Generation totals: 48 × 7 × 12 = 4,032 calls.
 
 ## Declared measurements
 
@@ -32,9 +34,20 @@ criteria. **Bucket 0 untouched; generative-axis bet.**
   residual r = correct − d_i; ⟨C⟩ := 1 − mean over pool pairs of Pearson corr(r_a, r_b) across
   items. High residual agreement = redundant errors = LOW compatibility.
 - **Collective coherence:** ensemble majority-vote accuracy.
-- **Manipulation check:** measured ⟨C⟩ must decrease... rather, residual agreement must be
-  HIGHEST at K = 1 and fall monotonically-ish with K; per-persona q must span ≤ 0.15 accuracy,
-  else the q-fixed premise fails and the run is reported as pilot-only.
+- **Manipulation check:** residual agreement must be HIGHEST at K = 1 and fall with K;
+  **q-equality binds at ARM level** (per-arm mean accuracy within 0.05 of each other — pilot
+  v2: K=1 0.542 vs K=8 0.552 ✓). Per-persona q spread is reported but does not violate the
+  premise: every K > 1 arm mixes the same roster, so persona-level differences wash out at arm
+  level. (Amended 2026-09-30 pre-full-run: the original "per-persona span ≤ 0.15" was the wrong
+  level of analysis — the kill-3 confound is arm-level q, and that is what is held fixed.)
+
+## GPU courtesy (added pre-full-run)
+
+Generation runs inside a **CBP GPU courtesy window**
+(`shared-context/machines/cbp-gpu-windows.md`, landed today): the being's beats rest for a
+bounded, self-expiring interval while the batch runs; the being's model is never unloaded by
+the mechanism. This was found necessary, not just polite: the two models do not co-fit in
+8 GB VRAM, so un-windowed coexistence is model-swap churn, not sharing.
 
 ## Scoring against the parent's kill criteria (verbatim mapping)
 

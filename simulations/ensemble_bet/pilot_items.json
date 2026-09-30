@@ -1,0 +1,98 @@
+[
+ {
+  "id": "item-0000",
+  "template": "cards",
+  "text": "Ana has 28 cards. Ben has 33 more than Ana. Cara has 18 fewer than Ben. Dara has 5 more than Cara. How many cards does Dara have? Answer with only the final integer.",
+  "answer": 48
+ },
+ {
+  "id": "item-0001",
+  "template": "packleft",
+  "text": "A warehouse has 157 lamps and packs them in crates of 11. It ships 9 full crates. How many lamps remain unshipped? Answer with only the final integer.",
+  "answer": 58
+ },
+ {
+  "id": "item-0002",
+  "template": "seating",
+  "text": "A hall puts 14 chairs per row. There are 293 guests. How many FULL rows can be seated? Answer with only the final integer.",
+  "answer": 20
+ },
+ {
+  "id": "item-0003",
+  "template": "tank",
+  "text": "A tank holds 421 liters. Workers use 43 liters, a delivery adds 44 liters, and then workers use 74 more liters. How many liters are in the tank now? Answer with only the final integer.",
+  "answer": 348
+ },
+ {
+  "id": "item-0004",
+  "template": "bake",
+  "text": "Each tray holds 20 rolls. A baker fills 14 trays, adds 37 loose rolls, and then sells 86 rolls. How many rolls remain? Answer with only the final integer.",
+  "answer": 231
+ },
+ {
+  "id": "item-0005",
+  "template": "seating",
+  "text": "A hall puts 17 chairs per row. There are 264 guests. How many FULL rows can be seated? Answer with only the final integer.",
+  "answer": 15
+ },
+ {
+  "id": "item-0006",
+  "template": "wallet",
+  "text": "Mara has $258. She spends $57 on lunch, $55 on a ticket, and $37 on books. How much money does she have left? Answer with only the final integer.",
+  "answer": 109
+ },
+ {
+  "id": "item-0007",
+  "template": "packleft",
+  "text": "A warehouse has 69 lamps and packs them in crates of 12. It ships 3 full crates. How many lamps remain unshipped? Answer with only the final integer.",
+  "answer": 33
+ },
+ {
+  "id": "item-0008",
+  "template": "wallet",
+  "text": "Mara has $402. She spends $49 on lunch, $73 on a ticket, and $45 on books. How much money does she have left? Answer with only the final integer.",
+  "answer": 235
+ },
+ {
+  "id": "item-0009",
+  "template": "drive",
+  "text": "A bus drives at 90 km/h for 2 hours, pauses 2 hours at a depot, then drives 4 more hours at 35 km/h. How many kilometers has it covered in total? Answer with only the final integer.",
+  "answer": 320
+ },
+ {
+  "id": "item-0010",
+  "template": "tank",
+  "text": "A tank holds 323 liters. Workers use 45 liters, a delivery adds 65 liters, and then workers use 19 more liters. How many liters are in the tank now? Answer with only the final integer.",
+  "answer": 324
+ },
+ {
+  "id": "item-0011",
+  "template": "cards",
+  "text": "Ana has 55 cards. Ben has 29 more than Ana. Cara has 26 fewer than Ben. Dara has 22 more than Cara. How many cards does Dara have? Answer with only the final integer.",
+  "answer": 80
+ },
+ {
+  "id": "item-0012",
+  "template": "boxes",
+  "text": "A shop sells pencils in boxes of 40. A school buys 19 boxes, then 53 pencils break and are thrown away. How many pencils remain? Answer with only the final integer.",
+  "answer": 707
+ },
+ {
+  "id": "item-0013",
+  "template": "drive",
+  "text": "A bus drives at 44 km/h for 3 hours, pauses 2 hours at a depot, then drives 3 more hours at 71 km/h. How many kilometers has it covered in total? Answer with only the final integer.",
+  "answer": 345
+ },
+ {
+  "id": "item-0014",
+  "template": "bake",
+  "text": "Each tray holds 22 rolls. A baker fills 6 trays, adds 13 loose rolls, and then sells 82 rolls. How many rolls remain? Answer with only the final integer.",
+  "answer": 63
+ },
+ {
+  "id": "item-0015",
+  "template": "boxes",
+  "text": "A shop sells pencils in boxes of 26. A school buys 7 boxes, then 45 pencils break and are thrown away. How many pencils remain? Answer with only the final integer.",
+  "answer": 137
+ }
+]
