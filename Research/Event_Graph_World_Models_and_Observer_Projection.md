@@ -3,7 +3,7 @@
 **Date:** 2026-10-01  
 **Status:** research bridge / analogy; not evidence for Synchronism physics  
 **External source:** Kurt Cagle and Chloe Shannon, *“A Holon Is a Recorder: Tracking fluents as expressions of events”*, The Inference Engineer, 2026-10-01. Source copy supplied for this research pass.  
-**SAGE companion note:** https://github.com/dp-web4/SAGE/blob/research/event-graph-world-model-20261001/forum/insights/world-model-as-event-graph.md
+**SAGE companion note:** https://github.com/dp-web4/SAGE/blob/main/forum/insights/world-model-as-event-graph.md
 
 ## Motivation
 
