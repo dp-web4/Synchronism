@@ -518,6 +518,23 @@ antidote to the overclaim.
 > and the published method). Scripts: `synchronism-site/maintainer/scripts/gamma2_pin_galaxy_level.py` (+ `_PREREG.md`,
 > `_output.txt`, `_diag.py`). Proposal: `Research/proposals/gamma2_pin_is_n_eff_dependent_galaxy_level_test_20260929.md`.
 
+> **📌 WHICH a₀, AND CLUSTERS (2026-10-04, site maintainer, from site visitor graduate-physics and researcher personas;
+> no bucket moves, count 6, Bucket 0 = 0).** (i) **Correction to the 2026-08-14 block, item (iv).** The SPARC fit's
+> Milgrom-equivalent scale is **a₀′/γ** (deep limit of g_bar = g_obs·tanh(γ ln(1+g_obs/a₀′)); = 2a₀′ at γ = ½). On the
+> explorer's Υ_disk sweep it is 1.074–1.092×10⁻¹⁰ across Υ = 0.4–0.6 (1.6%) while a₀′ moves 3.6×; the 09-29 velocity-χ²
+> fits give 1.16–1.18×10⁻¹⁰. So the "factor-1.96 a₀ tension" and its "dissolution at Υ = 0.6" both compared a₀′ with
+> Milgrom's a₀ (the 1.96 is the 1/γ conversion at γ ≈ ½; at Υ = 0.6, γ̂ ≈ 0.96 ≈ 1). The scale is identified; the
+> degeneracy is Υ ↔ γ (shape). cH₀/2π at H₀ = 67.4 sits 3–12% below the fit's own scale, against 13% below 1.2×10⁻¹⁰:
+> different, not sharper. Bucket 3 row unchanged. `synchronism-site/maintainer/scripts/a0_identified_scale_across_upsilon.py`.
+> (ii) **Clusters are inherited, not a new root (estimate, round literature inputs, not an execution).** At r500 of a
+> Coma-class cluster (B_req = 1/f_b ≈ 6.7–7.7, g_bar ≈ 1.1×10⁻¹¹), the registered TEST-09/10 C_a delivers 2.2 (1/Ω_m floor)
+> to 4.0–4.2 (no-CDM 1/Ω_b floor): short ×1.7–3.5, against MOND simple ν's ×1.8–2.0. Nesting requires this. It sits
+> inside the DM-fork decision. `synchronism-site/maintainer/scripts/cluster_r500_boost_vs_ceiling_estimate.py`. Explorer
+> topic seeded for the CLASH cluster RAR (Tian+2020). (iii) GW170817's c_T = c is recorded on the site as an unaddressed
+> constraint. Frame question (whether the registered physics program has met a stopping condition) and a recommended
+> split of the count's texture gate on dp. Proposal:
+> `Research/proposals/a0_identified_scale_clusters_inherited_and_the_stopping_question_20261004.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
