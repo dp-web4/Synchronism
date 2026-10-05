@@ -638,6 +638,26 @@ This turns "same governed entity" from a metaphysical assertion into an evidence
 
 ---
 
+## Follow-on: relational identity field and compression trust (2026-10-05)
+
+A later exploration extends the relational side of this synthesis. The August arc established that relations can be entity-like slow variables and that MRH can be read as a witness-indexed quotient over distinctions that no longer matter. It did **not** yet treat the relationship itself as a stateful carrier of compressed interaction history.
+
+[Relational Identity Field — MRH-Bounded Identity, Compression Trust, and Distributed Reconstruction](2026-10-05-relational-identity-field-compression-trust.md) proposes that, for a specified witness/task/horizon:
+
+\[
+I_E^W(t)
+=
+\mathcal P_W\left(\mathcal F_E(t)\right),
+\]
+
+where \(\mathcal F_E(t)\) is the entity's currently relevant relational field and each relationship may contain learned compression/decompression conventions, calibrated trust, provenance, obligations, shared context, and current coupling state.
+
+The follow-on hypothesis is deliberately stronger than this August synthesis: **some identity-relevant state may be distributed across the relational network, allowing the network to participate in reconstructing a coherent operational identity after local turnover or loss.** Historical token identity still requires provenance; successful reconstruction alone does not prove numerical identity.
+
+The follow-on is non-canonical and adds explicit compression/fidelity, ablation/reconstruction, redundancy, correlated-error, and drift falsifiers.
+
+---
+
 # 19. What remains unresolved
 
 This synthesis creates several research questions rather than closing them.
