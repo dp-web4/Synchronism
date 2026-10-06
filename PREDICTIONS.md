@@ -535,6 +535,32 @@ antidote to the overclaim.
 > split of the count's texture gate on dp. Proposal:
 > `Research/proposals/a0_identified_scale_clusters_inherited_and_the_stopping_question_20261004.md`.
 
+> **📌 WIDE BINARIES ARE A ONE-γ SQUEEZE, NOT A SPLIT; LENSING LEG CENSUS-CONDITIONAL; B6 RESTATED (2026-10-06, site
+> maintainer; no bucket moves, count 6, Bucket 0 = 0).** (i) **TEST-02 / Gaia DR4.** The 09-27 reading "each outcome spares
+> one realization" (carried into the explorer's 10-04 stopping table as row 6, "live but split") ignores TEST-25. A visitor
+> researcher persona pointed out that at the SPARC γ ≈ 0.489 the acceleration-keyed C_g is already counted failed via
+> Cassini, through the same ν, the same QUMOND equation and the same Galactic EFE that make the wide-binary boost. A
+> quasi-1D EFE-dominated bracket (estimate, not pre-registered;
+> `synchronism-site/maintainer/scripts/wb_boost_vs_gamma_efe_bracket.py`) gives a boost in g of 1.16–1.58 at γ = 0.489,
+> 0.97–1.30 at γ = 1 and 0.90–1.17 at γ = 2 (g_e = 1.9×10⁻¹⁰). So a Chae-type ≈1.4 boost pins γ ≲ 1, where Cassini
+> fails; a Newtonian null fails every γ ≲ 3; and only a precise ≈1.1–1.2 boost lands on the Cassini-passing γ ≈ 1.5–2,
+> which SPARC disfavours at ~2σ galaxy-level. The density branch is identically null in the ratio and already excluded
+> (SPARC ΔBIC +2843, LLR). DR4 is therefore a three-way squeeze on one parameter (SPARC shape × Cassini Q₂ × WB amplitude)
+> with one narrow MOND-class survival window. It cannot move Bucket 0. Recommendation: proper QUMOND WB computation across
+> γ, then register the DR4 reading as a γ interval per outcome **before** DR4 (Dec 2026). Proposal:
+> `Research/proposals/wide_binary_row_is_not_split_cassini_and_dr4_squeeze_one_gamma_20261006.md`. (ii) **TEST-10 / no-CDM
+> cap 1/Ω_b = 20.3** (explorer 2026-10-04, pre-registered site `e3461c1`): on the published KiDS-1000 bins the lensing
+> exclusion is **census-conditional**. It holds only if hidden baryons are < ~2–3× stars + cold gas, and the face-value
+> exclusion sits in bins Brouwer+2021 flag for satellite contamination. The gas-free classical dSphs (boosts 30–100) carry
+> the kill. The Ω_m-based caps fail on the bins in every baryon treatment. The class is still dead; no count change. The
+> site's "1.71× at 10⁻¹⁵" is retired (lint rule). (iii) **B6.** Refutation clause (a) is met *by theorem* for same-settings
+> sharing: CHSH monogamy follows from no-signaling alone (LP over tripartite NS boxes; Toner 2009). Read literally, B6 would
+> be refuted the moment B1 succeeds. It survives only in the dimension form: *a two-outcome, two-level A shares CHSH > 2
+> with two partners using disjoint measurement pairs.* No-signaling allows that, and QM forbids it for a qubit A. The B6 row
+> below should be read in that form (explorer finding
+> `synchronism-site/explorer/findings/the-stopping-table-is-empty-for-novelty-not-for-difference-...md`, script
+> `scripts/no_signaling_chsh_monogamy_lp.py`). It stays gated on B1's missing primitive.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
@@ -674,7 +700,7 @@ enables a prediction (it hasn't yet).
   ([SPINE.md](SPINE.md)) is the single-observer / CFD ontology. The quantitative tracks
   (Buckets 2–3) are *probes* that mostly taught us **boundaries** — where the frame does
   and doesn't buy anything. That is real knowledge, honestly negative.
-- **The live bets are Bucket 1.** Five untested, falsifiable, novel-in-structure
+- **The live bets are Bucket 1.** Seven rows (B1–B7; several gated or sharpened since first listed — B2 disfavoured at galaxy level, B6 now a dimension claim; corrected from "Five" 2026-10-06), untested, falsifiable, novel-in-structure
   predictions — the program's actual open frontier. The honest expectation is that most
   lose. Running them is how "zero confirmed" either changes or gets re-confirmed.
 - **This board is the anti-oscillation device.** If a doc says "we've unified physics,"
