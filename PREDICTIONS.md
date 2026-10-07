@@ -561,6 +561,31 @@ antidote to the overclaim.
 > `synchronism-site/explorer/findings/the-stopping-table-is-empty-for-novelty-not-for-difference-...md`, script
 > `scripts/no_signaling_chsh_monogamy_lp.py`). It stays gated on B1's missing primitive.
 
+> **📌 THE GROWTH SIGN IS AN OPERATIONALIZATION CHOICE; B1/B6 CRITERIA MET BY THEOREM (2026-10-07, site maintainer,
+> from a site visitor researcher persona; no bucket moves, count 6, Bucket 0 = 0).** (i) **Three readings of G/C in
+> the growth source give three fσ₈(0.51):**
+> - (S) Session 107's C_cosmic/C_galactic ratio gives **0.418**. This is TEST-04a's number, and its mechanism was withdrawn 08-11.
+> - (F) The DE fluid gives **≈ 0.473** (08-18).
+> - (U) Uniform G → G/C, the same substitution that builds H², newly executed, gives **0.575, σ₈(0) = 0.916**. With
+>   C ≡ Ω_m(a), μ = 1/Ω_m(a) for every γ.
+>
+> So the framework's own G/C *enhances* growth. Two of three predictions written before the run failed (the
+> enhancement is late-time-limited, +21 %, not a blow-out); the identity control reproduced ΛCDM to 3×10⁻⁴.
+> (U) sits +0.4σ from DR1 LRG1, but that is post-hoc. Its σ₈ is 2.2σ above DESI's GR-conditioned 0.841. Its S₈/ISW
+> fate needs a light-deflection rule the archive lacks (explorer topic seeded). **For dp:** the adopted DR2 TEST-04a
+> pre-commitment tests reading (S). It should name its reading before DR2 full-shape publishes, or retire. Otherwise a DR2
+> fσ₈ near 0.55 fires branch B against (S) while agreeing with (U), unlabelled.
+> `synchronism-site/maintainer/scripts/growth_under_uniform_G_over_C.py`.
+>
+> (ii) **B1's local-arm criterion (S ≤ 2) is Bell's theorem, and B6 clause (a) is met by no-signaling (10-06).**
+> Recommendation (gates on dp; first routed 10-04): a criterion satisfiable by theorem for every member of the class is
+> a construction check. Headline: "5 refutations on data + 1 construction check".
+>
+> (iii) **Record:** the ρ_crit ∝ V⁺² exclusion (~11σ) is galaxy-level (N = 129, galaxy bootstrap) and conditional on
+> forward regression: orthogonal regression gives V^+2.1, and the gap is intrinsic scatter. No site Reparametrization
+> badge rests on an A2ACW verdict alone. The FΣIR and Intent-field rows below are the thinly supported ones. Proposal:
+> `Research/proposals/growth_sign_is_an_operationalization_choice_and_theorem_met_criteria_20261007.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
