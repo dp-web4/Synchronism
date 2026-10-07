@@ -47,7 +47,9 @@ jobs:
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra fonts-freefont-otf
+          # fonts-freefont-otf: whitepaper/pdf-glyphs.tex draws Greek, sub/superscripts
+          # and math symbols from FreeSerif/FreeMono, which Latin Modern lacks
           
       - name: Build Markdown Version
         working-directory: ./whitepaper

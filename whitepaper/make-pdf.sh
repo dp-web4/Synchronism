@@ -133,6 +133,7 @@ PYTHON_SCRIPT
 echo "Generating PDF..."
 
 # Generate PDF with pandoc
+PANDOC_LOG=$(mktemp)
 # Using markdown-compact_definition_lists to ensure proper list spacing
 pandoc "$TEMP_MD" -o "$PDF_FILE" \
     --from markdown+raw_tex-compact_definition_lists \
@@ -147,9 +148,21 @@ pandoc "$TEMP_MD" -o "$PDF_FILE" \
     -V urlcolor=blue \
     -V toccolor=black \
     -V colorlinks=true \
-    2>/dev/null
+    -H pdf-glyphs.tex \
+    2> "$PANDOC_LOG"
+PANDOC_RC=$?
+# xelatex drops glyphs its font lacks and only says so on stderr — surface them
+if grep -q "Missing character" "$PANDOC_LOG"; then
+    echo "⚠️  Glyphs missing from the PDF font (add them to pdf-glyphs.tex):"
+    grep "Missing character" "$PANDOC_LOG" | sort | uniq -c
+fi
+if [ $PANDOC_RC -ne 0 ]; then
+    grep -A3 "^!" "$PANDOC_LOG" | head -20
+fi
 
-if [ -f "$PDF_FILE" ]; then
+# Test pandoc's exit status, not the file: a failed run leaves the previous
+# PDF in place, and an existence check reports it as freshly built.
+if [ $PANDOC_RC -eq 0 ] && [ -f "$PDF_FILE" ]; then
     echo "✅ PDF created with TOC after Executive Summary: $PDF_FILE"
     echo ""
     echo "📊 PDF Statistics:"
@@ -166,8 +179,9 @@ if [ -f "$PDF_FILE" ]; then
     cp "$PDF_FILE" "$DOCS_DIR/"
     echo "📄 Copied PDF to GitHub Pages location: $DOCS_DIR/Synchronism_Whitepaper.pdf"
 else
-    echo "❌ PDF generation failed"
+    echo "❌ PDF generation failed; $PDF_FILE is stale"
 fi
 
-# Always clean up temp file
-rm -f "$TEMP_MD"
+# Always clean up temp files
+rm -f "$TEMP_MD" "$PANDOC_LOG"
+[ $PANDOC_RC -eq 0 ] || exit 1
