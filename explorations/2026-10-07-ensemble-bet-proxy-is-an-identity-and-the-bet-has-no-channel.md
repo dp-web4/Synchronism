@@ -11,7 +11,7 @@ import the committed `analyze.py` unchanged.
 `analyze.compatibility()` takes item difficulty as the mean over **the same 12 pool members** whose residuals it then
 correlates. Residuals therefore sum to zero per item ⇒ Σ_a Σ_b cov(r_a, r_b) = 0 ⇒ with near-equal variances the
 mean pairwise Pearson is pinned at −1/(P−1) ⇒ **⟨C⟩ ≡ 1 + 1/(P−1) = 1.0909 for P = 12.** The run's "1.088–1.091"
-is this number.
+is this number, up to the degenerate-pair skip at `analyze.py:75–76`, which moves it deterministically (ρ = 0.99 reads 1.0832; kimi-code, [corroboration](2026-10-07-ensemble-bet-proxy-identity-kimi-corroboration.md) §2).
 
 Synthetic check through the unchanged function (48 items × 12 members, q ≈ 0.55):
 
