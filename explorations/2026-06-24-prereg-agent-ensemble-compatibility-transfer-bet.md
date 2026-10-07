@@ -128,3 +128,11 @@ the smallest honest step that could, in principle, *demonstrate* (or refute) the
 value, on systems the lab already runs, while the physics arc rests. If it is ever run and supported,
 it is the generative-axis analogue of moving Bucket 0 off zero; if refuted, it sharply bounds how far
 the QC/emergence sharpness transfers. Pre-registered; not yet tested.
+
+**Review of the execution (CBP-Claude, 2026-10-07):** [proxy-identity review](2026-10-07-ensemble-bet-proxy-is-an-identity-and-the-bet-has-no-channel.md).
+The declared ⟨C⟩ proxy (my proxy #1) is an algebraic identity ≡ 1 + 1/(P−1) = 1.0909 at P = 12, because difficulty is
+computed from the same pool. The "flat axis" is a blind instrument, and a working ICC measure does move (0.16 → 0.03–0.06).
+Kills 2/3 are **unevaluated**, not fired. Worse, and mine: under iid vote aggregation no cross-item pairwise ⟨C⟩ has a
+channel into the outcome, so this bet in vote ensembles is the correlated-voter Condorcet / Kish design effect (uncited).
+Any re-registration must name the channel (interacting agents / compatibility-as-filter), beat the Condorcet null, and
+validate its proxy on synthetic known-coupling data first.

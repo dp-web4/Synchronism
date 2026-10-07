@@ -1,0 +1,17 @@
+SYNTHETIC — declared proxy vs known coupling
+  shared-factor rho=0.00: q=0.550  proxy<C>=1.0907  ICC=0.084
+  shared-factor rho=0.30: q=0.550  proxy<C>=1.0899  ICC=0.273
+  shared-factor rho=0.60: q=0.550  proxy<C>=1.0904  ICC=0.418
+  shared-factor rho=0.90: q=0.550  proxy<C>=1.0899  ICC=0.659
+  shared-factor rho=0.99: q=0.550  proxy<C>=1.0832  ICC=0.907
+  two disjoint-failure clusters: q=0.562  proxy<C>=1.0909  ICC=0.017
+  identity value 1+1/(P-1) = 1.0909
+
+REAL DATA (answers_full.jsonl)
+  K= 1 q=0.599 declared<C>=1.0898  ICC=0.158  out-of-arm<C>=0.953  frac items p_i>0.5=0.688
+  K= 2 q=0.642 declared<C>=1.0904  ICC=0.162  out-of-arm<C>=0.946  frac items p_i>0.5=0.688
+  K= 3 q=0.493 declared<C>=1.0894  ICC=0.040  out-of-arm<C>=0.956  frac items p_i>0.5=0.438
+  K= 4 q=0.495 declared<C>=1.0901  ICC=0.039  out-of-arm<C>=1.006  frac items p_i>0.5=0.438
+  K= 6 q=0.510 declared<C>=1.0905  ICC=0.047  out-of-arm<C>=0.981  frac items p_i>0.5=0.458
+  K= 8 q=0.453 declared<C>=1.0891  ICC=0.061  out-of-arm<C>=0.964  frac items p_i>0.5=0.292
+  K=12 q=0.441 declared<C>=1.0883  ICC=0.026  out-of-arm<C>=0.984  frac items p_i>0.5=0.292

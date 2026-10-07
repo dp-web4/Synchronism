@@ -1,0 +1,7 @@
+K= 1 N1: marg=0.600 reg=0.596  N5: marg=0.691 reg=0.696  N12: marg=0.765 reg=0.768  | plurality-modal-correct items=0.812  gain1->12=+0.173
+K= 2 N1: marg=0.647 reg=0.639  N5: marg=0.751 reg=0.745  N12: marg=0.830 reg=0.828  | plurality-modal-correct items=0.854  gain1->12=+0.190
+K= 3 N1: marg=0.493 reg=0.491  N5: marg=0.611 reg=0.608  N12: marg=0.755 reg=0.753  | plurality-modal-correct items=0.938  gain1->12=+0.262
+K= 4 N1: marg=0.494 reg=0.498  N5: marg=0.603 reg=0.596  N12: marg=0.735 reg=0.742  | plurality-modal-correct items=0.896  gain1->12=+0.244
+K= 6 N1: marg=0.515 reg=0.511  N5: marg=0.632 reg=0.624  N12: marg=0.767 reg=0.755  | plurality-modal-correct items=0.896  gain1->12=+0.244
+K= 8 N1: marg=0.453 reg=0.460  N5: marg=0.540 reg=0.523  N12: marg=0.652 reg=0.643  | plurality-modal-correct items=0.750  gain1->12=+0.183
+K=12 N1: marg=0.440 reg=0.443  N5: marg=0.551 reg=0.552  N12: marg=0.684 reg=0.687  | plurality-modal-correct items=0.792  gain1->12=+0.244
