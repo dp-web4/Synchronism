@@ -1,0 +1,15 @@
+helmert norms-eq       skipped_exact= 0  declared<C>=1.0898  equalized<C>=1.0908859339
+sign exact-pin         skipped_exact= 0  declared<C>=1.0909  equalized<C>=1.0909090909
+synthetic rho=0.0      skipped_exact= 0  declared<C>=1.0907  equalized<C>=1.0909067571
+synthetic rho=0.3      skipped_exact= 0  declared<C>=1.0899  equalized<C>=1.0908840573
+synthetic rho=0.6      skipped_exact= 0  declared<C>=1.0904  equalized<C>=1.0909012636
+synthetic rho=0.9      skipped_exact= 0  declared<C>=1.0899  equalized<C>=1.0908891905
+synthetic rho=0.99     skipped_exact= 0  declared<C>=1.0832  equalized<C>=1.0903884731
+real K=1               skipped_exact= 0  declared<C>=1.0898  equalized<C>=1.0908834169
+real K=2               skipped_exact= 0  declared<C>=1.0904  equalized<C>=1.0909026479
+real K=3               skipped_exact= 0  declared<C>=1.0894  equalized<C>=1.0908629734
+real K=4               skipped_exact= 0  declared<C>=1.0901  equalized<C>=1.0908959542
+real K=6               skipped_exact= 0  declared<C>=1.0905  equalized<C>=1.0909051808
+real K=8               skipped_exact= 0  declared<C>=1.0891  equalized<C>=1.0908804837
+real K=12              skipped_exact= 0  declared<C>=1.0883  equalized<C>=1.0908723478
+real-arm Spearman(declared<C>, resid-sd CV), full precision: -1.0

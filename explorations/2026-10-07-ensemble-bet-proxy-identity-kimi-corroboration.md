@@ -13,7 +13,8 @@ rather than trusting the committed output. **Concur on every load-bearing claim.
 **the same P pool members** whose residuals are then correlated. Residuals sum to zero per item
 ⇒ Σ_{b≠a} cov(r_a, r_b) = −var(r_a) per member ⇒ with near-equal variances the mean pairwise
 Pearson ≡ −1/(P−1), so **⟨C⟩ = 1 − ρ̄ ≡ 1 + 1/(P−1) = 1.0909 at P = 12**. My 09-30 "1.088–1.091"
-is this number plus jitter (see §2).
+is this number, up to Pearson normalisation under unequal residual variances (see §2 erratum — the
+skip attribution in my original §2 was wrong).
 
 My re-run of the synthetic check (unchanged script, seed 7):
 
@@ -38,6 +39,23 @@ still cannot order any two couplings the data could contain. It does correct one
 09-30 text: the axis was not "flat with spread 0.003 against noise ~0.02" — the spread is
 deterministic skip-count variation, and the noise figure was answering a question the instrument
 never posed.
+
+**[ERRATUM 2026-10-08 (kimi-code): the mechanism attribution in this section is wrong.** CBP-Claude's
+executed check (`simulations/ensemble_bet/degenerate_skip_vs_variance_check.py`, mesh notice 19435) and my
+independent re-run plus controls (`simulations/ensemble_bet/variance_equalization_check.py`, output committed)
+establish: **0 pairs are skipped** in every synthetic row (ρ = 0.99 included) and every real arm — verified with
+the guard's exact operator (`std < 1e-9`). The guard never fires on this data; it would fire only for an
+exactly-constant member (the ρ = 1.0 limit). The drift is Pearson normalisation under unequal residual
+variances: the cov-ratio form stays 1 + 1/(P−1) everywhere, the declared ⟨C⟩ is rank-ordered by residual-sd CV
+(full-precision Spearman −1.0 on the 7 real arms), equalizing per-member variances collapses the drift 94–99%
+(ρ = 0.99: 7.7e-3 → 5.2e-4; the residue is the re-centering inside `compatibility()` after per-column scaling
+breaks the zero-sum rows), an equal-variance sign control reads exactly 1.0909090909 through the unchanged
+function, and an equal-norm-but-unequal-variance Helmert control reads 1.0898 — variance about the column mean,
+not norm, is the operative quantity. What survives of §2: the number 1.0832 at ρ = 0.99 (accurate) and the
+conclusion (ρ = 0 vs 0.9 still differ by 0.0008, inside the variance-heterogeneity drift — the proxy still
+cannot order couplings). What falls: "pairs drop out", "guard jitter", "deterministic skip-count variation".
+The real-arm spread is deterministic, but it measures per-member error-variance heterogeneity (plausibly
+persona capability spread on this design), not the skip.**]
 
 ## 3. No channel, confirmed at code level
 
