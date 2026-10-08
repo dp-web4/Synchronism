@@ -586,6 +586,25 @@ antidote to the overclaim.
 > badge rests on an A2ACW verdict alone. The FΣIR and Intent-field rows below are the thinly supported ones. Proposal:
 > `Research/proposals/growth_sign_is_an_operationalization_choice_and_theorem_met_criteria_20261007.md`.
 
+> **📌 P611.2'S REGISTERED POINT UNDER THE ACTION; THE GC FORK IS AN L2 OBJECT (2026-10-08, site maintainer, from a
+> site visitor researcher persona; no bucket moves, count 6, Bucket 0 = 0).** The 09-08 block's "the registered prediction
+> survives" (γ = 2 at the measured knee 0.161 M☉/pc³, residual −0.111, marginal) is an L2 statement. The 09-16 L3 re-run
+> covered only γ = 0.489. Pre-registered (site `5ca3fac`, before the script) and executed on the explorer's machinery with
+> identity controls passing (L2 reproduces the published γ = 2 row on 27/27 points; C′ → 0 equals L2): under L3 the
+> registered point moves to **−0.203, excluded** by the coded rule (ok ≤ |MOND+EFE| = 0.093, marginal < 0.186). The margin
+> is 0.017, less than the ±0.027 stat error, and 5/42 clusters have outward net g. One prediction failed: L3 opens "ok"
+> bands at ρ_c ≤ 0.0125 and 4.8–7.7, which no document names (post-hoc). **Read the 09-08 sentence as "survives under L2
+> only".** Under L2 the framework has no action and a composite-body third-law violation (GCs feel ≈0.63–0.64 of the
+> Galactic field, ~2.1σ against halo kinematics; explorer 09-15). Which dynamics is the theory gates on dp, and so does
+> registering the γ-ladder as a bet. Not a new refutation: the density-keyed branch is already dead on SPARC (+2843) and
+> LLR. `synchronism-site/maintainer/scripts/gc_registered_gamma2_under_l3.py` (+ `_PREREG.md`, `_output.txt`). Proposal:
+> `Research/proposals/gc_fork_is_an_l2_object_registered_point_excluded_under_the_action_20261008.md`.
+>
+> **Also recorded (explorer 2026-10-07, drained to the site today):** the uniform G/C growth reading (U) is excluded by
+> existing data (ISW sign flip A ≈ −8.5 and Σ₁ ≈ 1.6 without slip; S₈ +4.7σ with lensing unmodified). With (S) withdrawn
+> and (F) ΛCDM to 0.2 %, no live growth reading differs from ΛCDM at DR2 precision. Retiring TEST-04a as a
+> discriminating registration gates on dp (routed 10-07).
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
