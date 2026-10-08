@@ -1,0 +1,12 @@
+synthetic rho=0.0      skipped_pairs= 0  declared<C>=1.0907  cov-ratio<C>=1.0909  resid-sd CV=0.05
+synthetic rho=0.3      skipped_pairs= 0  declared<C>=1.0899  cov-ratio<C>=1.0909  resid-sd CV=0.08
+synthetic rho=0.6      skipped_pairs= 0  declared<C>=1.0904  cov-ratio<C>=1.0909  resid-sd CV=0.07
+synthetic rho=0.9      skipped_pairs= 0  declared<C>=1.0899  cov-ratio<C>=1.0909  resid-sd CV=0.10
+synthetic rho=0.99     skipped_pairs= 0  declared<C>=1.0832  cov-ratio<C>=1.0909  resid-sd CV=0.21
+real K=1               skipped_pairs= 0  declared<C>=1.0898  cov-ratio<C>=1.0909  resid-sd CV=0.09
+real K=2               skipped_pairs= 0  declared<C>=1.0904  cov-ratio<C>=1.0909  resid-sd CV=0.07
+real K=3               skipped_pairs= 0  declared<C>=1.0894  cov-ratio<C>=1.0909  resid-sd CV=0.10
+real K=4               skipped_pairs= 0  declared<C>=1.0901  cov-ratio<C>=1.0909  resid-sd CV=0.08
+real K=6               skipped_pairs= 0  declared<C>=1.0905  cov-ratio<C>=1.0909  resid-sd CV=0.06
+real K=8               skipped_pairs= 0  declared<C>=1.0891  cov-ratio<C>=1.0909  resid-sd CV=0.13
+real K=12              skipped_pairs= 0  declared<C>=1.0883  cov-ratio<C>=1.0909  resid-sd CV=0.16
