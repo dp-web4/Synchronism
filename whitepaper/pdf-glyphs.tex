@@ -1,0 +1,99 @@
+% Glyphs Latin Modern (the default xelatex font) does not carry. Without this
+% xelatex drops them SILENTLY: measured 2026-10-07, 3,725 missing-character
+% warnings over 75 code points: gamma, rho, sigma, the sub/superscripts, nabla,
+% approx and the rest of the physics. "freeing gamma from MOND's 1/2" printed
+% as "freeing   from MOND's 1/2".
+%
+% Each listed character is drawn from FreeSerif in text and FreeMono in code
+% (fonts-freefont-otf), by code point (\symbol), so the active character does
+% not re-expand. Latin Modern stays the face for everything it has. The
+% mappings are deferred to \begin{document} because unicode-math redefines
+% some of these characters there.
+%
+% make-pdf.sh prints any remaining "Missing character" warning. Add a line here
+% for each new one: \wpfallback in general, \wpfallbackserif if FreeMono (any weight) lacks it.
+\usepackage{newunicodechar}
+\newfontfamily\wpfbserif{FreeSerif}
+\newfontfamily\wpfbmono{FreeMono}
+\makeatletter
+\AtBeginDocument{\begingroup\ttfamily\xdef\wp@ttfamily{\f@family}\endgroup}
+\newcommand\wpfallback[1]{{\ifx\f@family\wp@ttfamily\wpfbmono\else\wpfbserif\fi\symbol{#1}}}
+\makeatother
+\newcommand\wpfallbackserif[1]{{\wpfbserif\symbol{#1}}}
+\AtBeginDocument{%
+  \newunicodechar{α}{\wpfallback{"03B1}}%
+  \newunicodechar{β}{\wpfallback{"03B2}}%
+  \newunicodechar{γ}{\wpfallback{"03B3}}%
+  \newunicodechar{δ}{\wpfallback{"03B4}}%
+  \newunicodechar{ε}{\wpfallback{"03B5}}%
+  \newunicodechar{η}{\wpfallback{"03B7}}%
+  \newunicodechar{θ}{\wpfallback{"03B8}}%
+  \newunicodechar{κ}{\wpfallback{"03BA}}%
+  \newunicodechar{λ}{\wpfallback{"03BB}}%
+  \newunicodechar{μ}{\wpfallback{"03BC}}%
+  \newunicodechar{ν}{\wpfallback{"03BD}}%
+  \newunicodechar{ξ}{\wpfallback{"03BE}}%
+  \newunicodechar{π}{\wpfallback{"03C0}}%
+  \newunicodechar{ρ}{\wpfallback{"03C1}}%
+  \newunicodechar{σ}{\wpfallback{"03C3}}%
+  \newunicodechar{τ}{\wpfallback{"03C4}}%
+  \newunicodechar{φ}{\wpfallback{"03C6}}%
+  \newunicodechar{χ}{\wpfallback{"03C7}}%
+  \newunicodechar{ψ}{\wpfallback{"03C8}}%
+  \newunicodechar{ω}{\wpfallback{"03C9}}%
+  \newunicodechar{ϒ}{\wpfallback{"03D2}}%
+  \newunicodechar{𝒯}{\wpfallbackserif{"1D4AF}}% not in FreeMono
+  \newunicodechar{′}{\wpfallback{"2032}}%
+  \newunicodechar{⁰}{\wpfallback{"2070}}%
+  \newunicodechar{⁴}{\wpfallback{"2074}}%
+  \newunicodechar{⁵}{\wpfallback{"2075}}%
+  \newunicodechar{⁶}{\wpfallback{"2076}}%
+  \newunicodechar{⁷}{\wpfallback{"2077}}%
+  \newunicodechar{⁸}{\wpfallback{"2078}}%
+  \newunicodechar{⁹}{\wpfallback{"2079}}%
+  \newunicodechar{⁺}{\wpfallback{"207A}}%
+  \newunicodechar{⁻}{\wpfallback{"207B}}%
+  \newunicodechar{₀}{\wpfallback{"2080}}%
+  \newunicodechar{₁}{\wpfallback{"2081}}%
+  \newunicodechar{₂}{\wpfallback{"2082}}%
+  \newunicodechar{₈}{\wpfallback{"2088}}%
+  \newunicodechar{₌}{\wpfallback{"208C}}%
+  \newunicodechar{₍}{\wpfallback{"208D}}%
+  \newunicodechar{₎}{\wpfallback{"208E}}%
+  \newunicodechar{ₐ}{\wpfallback{"2090}}%
+  \newunicodechar{ₓ}{\wpfallback{"2093}}%
+  \newunicodechar{ₙ}{\wpfallback{"2099}}%
+  \newunicodechar{ℏ}{\wpfallback{"210F}}%
+  \newunicodechar{ℓ}{\wpfallback{"2113}}%
+  \newunicodechar{↔}{\wpfallback{"2194}}%
+  \newunicodechar{⇒}{\wpfallback{"21D2}}%
+  \newunicodechar{⇔}{\wpfallback{"21D4}}%
+  \newunicodechar{∂}{\wpfallback{"2202}}%
+  \newunicodechar{∇}{\wpfallback{"2207}}%
+  \newunicodechar{∈}{\wpfallback{"2208}}%
+  \newunicodechar{∑}{\wpfallback{"2211}}%
+  \newunicodechar{∝}{\wpfallback{"221D}}%
+  \newunicodechar{∫}{\wpfallback{"222B}}%
+  \newunicodechar{∮}{\wpfallback{"222E}}%
+  \newunicodechar{≈}{\wpfallback{"2248}}%
+  \newunicodechar{≠}{\wpfallback{"2260}}%
+  \newunicodechar{≡}{\wpfallback{"2261}}%
+  \newunicodechar{≤}{\wpfallback{"2264}}%
+  \newunicodechar{≥}{\wpfallback{"2265}}%
+  \newunicodechar{≪}{\wpfallback{"226A}}%
+  \newunicodechar{≲}{\wpfallback{"2272}}%
+  \newunicodechar{≳}{\wpfallback{"2273}}%
+  \newunicodechar{⋆}{\wpfallback{"22C6}}%
+  \newunicodechar{⌈}{\wpfallback{"2308}}%
+  \newunicodechar{⌉}{\wpfallback{"2309}}%
+  \newunicodechar{☉}{\wpfallback{"2609}}%
+  \newunicodechar{⚠}{\wpfallback{"26A0}}%
+  \newunicodechar{✅}{\wpfallback{"2705}}%
+  \newunicodechar{✓}{\wpfallback{"2713}}%
+  \newunicodechar{✗}{\wpfallback{"2717}}%
+  \newunicodechar{⟨}{\wpfallbackserif{"27E8}}% not in FreeMono Bold
+  \newunicodechar{⟩}{\wpfallbackserif{"27E9}}% not in FreeMono Bold
+  \newunicodechar{⟹}{\wpfallbackserif{"27F9}}% not in FreeMono Bold
+  \newunicodechar{⟺}{\wpfallbackserif{"27FA}}% not in FreeMono Bold
+  \newunicodechar{️}{}% U+FE0F emoji variation selector: drop
+}
