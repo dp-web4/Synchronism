@@ -2295,7 +2295,7 @@ Same principles, different scales.
 
 Understanding entity interaction effects is crucial for comprehending how complex systems self-organize, evolve, and give rise to emergent properties that cannot be understood by studying individual components in isolation. The interplay between entities creates the generative-discriminative dynamics that drive pattern evolution and adaptation.
 
-A later non-canonical exploration extends this interaction view by asking whether persistent, stateful relationships can themselves become identity-bearing structure within an MRH, building on the Markov-arc result that relations and relations-among-relations can be slow invariants. See [Relational Identity Field — MRH-Bounded Identity, Compression Trust, and Distributed Reconstruction](../../../../explorations/2026-10-05-relational-identity-field-compression-trust.md).
+A later non-canonical exploration extends this interaction view by asking whether persistent, stateful relationships can themselves become identity-bearing structure within an MRH, building on the Markov-arc result that relations and relations-among-relations can be slow invariants. See [Relational Identity Field — MRH-Bounded Identity, Compression Trust, and Distributed Reconstruction](https://github.com/dp-web4/Synchronism/blob/main/explorations/2026-10-05-relational-identity-field-compression-trust.md).
 
 
 ## 4.15 Information System Dynamics
@@ -2323,7 +2323,7 @@ The specific implementation varies by MRH, but the underlying principle remains 
 
 Within the context of entity interactions (4.12), compression and validation serve as the primary mechanisms through which entities negotiate their boundaries and exchange intent across Markov blankets. Higher compression ratios indicate stronger coupling and greater shared context between entities.
 
-A later non-canonical exploration asks whether repeated successful compression/decompression should be modeled as **state accumulated in the relationship itself**, and whether that relationship-specific state contributes measurably to identity reconstruction at a given MRH. See [Relational Identity Field — MRH-Bounded Identity, Compression Trust, and Distributed Reconstruction](../../../../explorations/2026-10-05-relational-identity-field-compression-trust.md).
+A later non-canonical exploration asks whether repeated successful compression/decompression should be modeled as **state accumulated in the relationship itself**, and whether that relationship-specific state contributes measurably to identity reconstruction at a given MRH. See [Relational Identity Field — MRH-Bounded Identity, Compression Trust, and Distributed Reconstruction](https://github.com/dp-web4/Synchronism/blob/main/explorations/2026-10-05-relational-identity-field-compression-trust.md).
 
 *Note: Specific implementations of these principles within human-AI systems are documented in the Web4 engineering specifications.*
 
