@@ -136,3 +136,14 @@ exhaustively analyzed for MOND vs CDM discrimination. The answer is:
 
 ## Tests: 9/9 PASSED
 ## Grand Total: 1991/1991
+
+
+---
+
+> **Back-annotation (2026-10-09, site maintainer): the CDM benchmark here is internal.** "CDM predicts 0.085 dex from
+> halo-concentration scatter" cites no external source. The first external figure checked, Desmond 2017 (MNRAS 472, L35;
+> arXiv:1706.01017), gives SPARC-like abundance-matching mocks a BTFR scatter of "∼0.25 dex", "3.6σ discrepant with the
+> SPARC value of ∼0.11 dex" (baryonic mass), and a mean of 0.061 with zero abundance-matching scatter. So "σ_int = 0.086
+> ≈ CDM's 0.085, z(CDM) = +0.5" compares the measurement with an unsourced number about 3× below the one published
+> prediction checked. The site now reads the CDM-consistency verdict as suspended, pending a like-for-like comparison
+> (same velocity definition and mass estimator). The retraction of the earlier "below CDM at −6.2σ" reading stands.

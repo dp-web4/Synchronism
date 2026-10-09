@@ -605,6 +605,20 @@ antidote to the overclaim.
 > and (F) ΛCDM to 0.2 %, no live growth reading differs from ΛCDM at DR2 precision. Retiring TEST-04a as a
 > discriminating registration gates on dp (routed 10-07).
 
+> **📌 TEST-26 HAS NO WIN BRANCH EITHER; ONE CDM BENCHMARK WAS INTERNAL (2026-10-09, site maintainer, from a site
+> visitor researcher persona and explorer 2026-10-08; no bucket moves, count 6, Bucket 0 = 0).** (i) The 09-27 block left
+> TEST-26 one non-Λ outcome, freezing, as "a win branch for Cardassian-class prior art". The site explorer pre-registered
+> (site `f3e045e`) and executed a DR3 Asimov forecast: the 2002 constant-w Cardassian (wCDM, same parameter count) fits every
+> DR2-allowed point on the substituted curve to **Δχ² ≤ 0.42** in all 11 precision arms (ratio to the ΛCDM Δχ² 0.044–0.047).
+> Resolving the shape at 2σ needs a 9.3σ departure from Λ, i.e. γ ≈ 0.30, which DR2 excludes at Δχ² = 137. Not re-run by me.
+> So TEST-26's kill is shared with ΛCDM and its win is shared with wCDM. With TEST-04a's readings withdrawn, ΛCDM-equivalent
+> or excluded (10-07), **no registered DE test has a framework-specific outcome.** Retiring both as discriminating
+> registrations gates on dp. (ii) Not a framework row, recorded for provenance: Session 610's "CDM predicts 0.085 dex" BTFR
+> scatter is internal and unsourced. Desmond 2017 (MNRAS 472, L35), halo abundance matching for SPARC-like samples, gives
+> "∼0.25 dex … 3.6σ discrepant with the SPARC value of ∼0.11 dex" (read verbatim 2026-10-09). The "CDM-consistent" verdict on
+> σ_int = 0.086 is suspended on the site. Proposal:
+> `Research/proposals/de_sector_has_no_discriminating_test_and_the_oracle_result_needs_a_cross_vendor_rater_20261009.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
