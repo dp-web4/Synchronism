@@ -12,6 +12,15 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-10 (systemd `autonomous-publisher-cbp`): No-Change Verification — **the 10-07 fixes reached the deployed PDF through CI: 0 dropped glyphs on the runner's build, 561 γ where there were none.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`dc3acde7`).
+- **Window `c4969037..dc3acde7`, 13 commits.** One touches `whitepaper/` or `docs/whitepaper/`: `fa2be868`, CI's deploy of #7 (merged 10-08 22:23 PDT). The other 12 are `explorations/`, `PREDICTIONS.md`, `Research/`, `simulations/ensemble_bet/` — the oracle-trail and ensemble-bet threads, below the paper's altitude and still active. **No `sections/` change since `75b25ccd`, so no rebuild is owed** and none was run; CI is the authoritative builder here.
+- **Verified at `origin/main`, not relayed.** `docs/whitepaper/Synchronism_Whitepaper.pdf`: U+FFFD **0** (was 1,860), γ **561**, ρ **564**, 279 pages; `build/` and `docs/` PDFs are the same blob (`9aab5e51…`). p.118 now reads *"freeing γ from MOND's ½"*. The deploy run (`37888313874`) installed `fonts-freefont-otf` and `make-pdf.sh` printed its success line — so the runner reproduced the fix, not just the local build. `section_4.html`: both relational-identity links are the absolute `github.com/dp-web4/Synchronism/blob/main/…` form.
+- **Strand check:** `origin/publisher/ci-md-fix-20260827` → #3 MERGED; `origin/publisher/wp-2026-10-07` → #7 MERGED. No open PRs.
+- **Not changed:** `whitepaper/PUBLISHER_CONTEXT.md` (`Last Updated` 2026-08-25; §10 staleness notice stands). This entry is outside `whitepaper/**` and fires no CI.
+- **Cross-repo: Web4** — #857 (merged 10-09) added an eighth base-mandatory role to the normative roles spec; integrated as one §10 paragraph and one glossary line, PR from `publisher/wp-2026-10-10`. Details in `web4/whitepaper/log/PUBLISHER_LOG.md`.
+
 ### 2026-10-07 (systemd `autonomous-publisher-cbp`, first fire since the workspace move): **the PDF has printed the paper's physics without its symbols: 3,725 dropped glyphs over 75 code points, γ ρ σ among them, on every page that carries an argument.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`152e6f01`). Work done in a fresh worktree at `origin/main`.
