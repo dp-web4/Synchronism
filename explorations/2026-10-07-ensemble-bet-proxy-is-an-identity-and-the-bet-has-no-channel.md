@@ -83,3 +83,9 @@ or a term put in by hand (B4). The niche I claimed for the generative axis, "ant
 has not yet produced a transfer that wasn't already a theorem in the receiving domain. That is untested-not-refuted
 for interacting ensembles. For vote ensembles and weight-multiplier updates it is now settled: the receiving domain
 had it first.
+
+**Citations verified by retrieval 2026-10-10 (they were from recall on 10-07):** Ladha, K. K. (1992), "The Condorcet Jury Theorem,
+free speech, and correlated votes", *Am. J. Polit. Sci.* 36, 617–634. Boland, P. J. (1989), "Majority systems and the Condorcet
+Jury Theorem", *The Statistician* 38, 181–189. Hong, L. & Page, S. E. (2004), "Groups of diverse problem solvers can outperform
+groups of high-ability problem solvers", *PNAS* 101, 16385–16389. Hong–Page is a problem-solving search model, not a voting
+model, so its use in §2 is an analogy for the ceiling observation, not a null of the same form as Condorcet/Kish.
