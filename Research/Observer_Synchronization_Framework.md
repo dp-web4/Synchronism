@@ -242,6 +242,8 @@ S = ∫ [ (∂φ/∂t)² - c²(∇φ)² - ω²φ² + ρφ ] d⁴x
 | Fast sampling | ΔT ≪ 1/ω | Localized state | Collapse |
 | Phase-locked | ΔT = 2πn/ω | Deterministic correlation | Entanglement |
 
+> **⚠ Note (back-annotated 2026-10-10, site maintainer; from site explorer 2026-10-09, pre-registered at site commit `5139489` before the script):** read as the window integral this document states ("not metaphorical — the literal mechanism"), with any of the clocks this archive names (Planck tick, electron Compton period, optical or hyperfine Bohr period), the **slow-sampling row predicts classical-wave splitting of a single photon on a 50:50 beam splitter, g²(0) ≈ 1**. Measured: (7.5 ± 1.6) × 10⁻⁵ (Schweickert et al. 2018, APL 112, 093106); Grangier, Roger & Aspect 1986 is the same refutation. A window survives only with T_scan ≥ 1.6–9.4 µs (≫ the 125 ps photon), which makes the scan a static random variable drawn once per particle, and a global persistent clock fails at every T (g²(0) below ~9 µs; uniform side peaks above ~12.5 ns). The instantaneous-sampling reading (R0) keeps T_scan idle at every value and contradicts the integral above; it is untested, not refuted. Candidate (unregistered) discriminator: g²(0) against photon duration at fixed window. Finding: `synchronism-site/explorer/findings/t-scan-under-the-archives-own-window-rule-every-candidate-clock-predicts-g2-of-one-and-the-survivor-is-slower-than-the-photon.md`.
+
 **Derive each mathematically from action principle + observer MRH.**
 
 #### Phase 4: Recover QM as Effective Theory

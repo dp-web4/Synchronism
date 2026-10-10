@@ -325,3 +325,12 @@ The combination of lower fσ8 + unchanged BAO + shallower voids is unique to Syn
 ---
 
 **Session #107 Complete**: December 10, 2025
+
+
+---
+
+> **Erratum (back-annotated 2026-10-10, site maintainer):** the DESI DR1 LRG1 (z = 0.51) growth ratio quoted against this
+> session's forecast from 2026-05-26 to 2026-10-10, fσ₈/(fσ₈)_fid = 1.16 ± 0.13, was Table 9's QSO row (z = 1.49). The LRG1
+> row is 1.09 +0.12/−0.14 (arXiv:2411.12021, Table 9, both ShapeFit variants; Table 11 fiducial 0.4733), i.e.
+> fσ₈ = 0.516 +0.057/−0.066. The 0.418 forecast sits ~1.5σ below it; the registered 0.46 threshold is cleared by ~0.9σ.
+> Verdict on PREDICTIONS.md unchanged in kind (underpowered as registered, not counted).
