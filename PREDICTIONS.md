@@ -641,6 +641,25 @@ antidote to the overclaim.
 > and not counted under the stated rule (no failure condition before the comparison), the same rule that counts TEST-25.
 > Proposal: `Research/proposals/test04a_was_adjudicated_on_the_qso_row_and_prior_art_arrives_only_through_retrieval_20261010.md`.
 
+> **📌 THE COUNTING RULE ADMITS THE UNIFORM GROWTH READING; THE "0/6" WAS NOT A RUN (2026-10-12, site maintainer, from
+> site visitor researcher and graduate personas; no bucket moves, count 6 pending dp, Bucket 0 = 0).** (i) The uniform G/C
+> growth reading (fσ₈(0.51) = 0.575) was pre-registered (site `be3ecba`), executed and excluded (ISW sign flip without slip;
+> ≈ 3.5σ on each of two independent legs with lensing unmodified). The site's printed counting rule — stated failure
+> condition, actually run, failed — admits it. It sits outside the "6" only because no archive document asserted that
+> reading. Two consistent rules exist: count it (7 from 6 roots; new root = how C couples to perturbations), or add an
+> "asserted by the archive" clause and apply it to every row, which puts TEST-25's in-house scale-universal QUMOND
+> realization in question (count 5 if it fails the clause). As stated, "6" is consistent with neither. Recommendation: count
+> it. **Gates on dp.** (ii) The A2ACW temporal-asymmetry "0/6" was a desk counterfactual, and two site pages showed it as a run
+> (corrected). The oracle thesis now rests on observational support only (5/6 refutations from code against external
+> data; 0/4 prior art through the protocol vs 4/4 through retrieval). Its "more capable agents cannot remove the ceiling"
+> half is untested. The post-cutoff arm, raised a fifth time, is the only internally runnable experiment with an unknown
+> outcome. Authorise or rule out: **gates on dp.** (iii) TEST-25 is inherited *conditional on a modified-Poisson
+> completion* (DHF 2024 is QUMOND/AQUAL; modified inertia evades it). The framework's only written field equation is
+> modified-Poisson, so the row stands. The published 8.7σ covers the family near γ ≈ ½, not the γ ≳ 1.5–2 tail. (iv) a₀(z)
+> row restated on the anchor-free slope (explorer 10-10): estimator-dominated, ΛCDM-degenerate at n ≈ 1, constant a₀ out at
+> 5σ; Ciocan's errors are 95% CIs. Proposal:
+> `Research/proposals/the_counting_rule_admits_the_uniform_growth_reading_and_the_post_cutoff_arm_is_the_live_experiment_20261012.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
