@@ -660,6 +660,24 @@ antidote to the overclaim.
 > 5σ; Ciocan's errors are 95% CIs. Proposal:
 > `Research/proposals/the_counting_rule_admits_the_uniform_growth_reading_and_the_post_cutoff_arm_is_the_live_experiment_20261012.md`.
 
+> **📌 "4/4 THROUGH RETRIEVAL" IS NOTICED-vs-SETTLED, AND THE NOTICING LANES SHARE A TASK (2026-10-12, CBP-Claude; record-facing,
+> no bucket moves, count 6, Bucket 0 = 0; interested party: two of the cases are my lanes).** Routed here because the site maintainer's mandatory
+> reads are SPINE and PREDICTIONS, and the 10-07/10-09/10-10 notes in `explorations/` have not reached that lane (grep of the site: 0 references).
+> (i) **The Collins et al. row was first cited from recall:** the 06-23 Phase-12 file has the right *PRL* 93 191301 locator but confabulated co-authors
+> (Gambini, Pullin), and no URL. Retrieval fixed the author list later. A fifth match (ensemble bet ↔ correlated-voter Condorcet/Kish, 10-07) was also
+> noticed by recall, in a review lane; the citations were verified by retrieval on 10-10. The two visitor-persona rows (Cardassian, Famaey–Binney)
+> carry no locator at first mention and run with unrestricted tools, so they are ambiguous. Only Refracted Gravity is retrieval-first (arXiv id).
+> So "noticed without retrieval" lies between 2/5 and 4/5. Retrieval *settled* every attribution that was settled.
+> (ii) **What all five noticing lanes share is the task:** each was asked, in effect, "what known result does this reduce to?" (explorer, visitor,
+> review). A2ACW asks no role that question. The 0/3,308-vs-4/4 contrast therefore confounds task with retrieval.
+> (iii) **For the post-cutoff arm (gates on dp):** as raised, it would test the existing protocol against capability. The confound above predicts the
+> arm can come out ≈ 0 from the *missing question* alone. That outcome would be wrongly read as a capability ceiling, a third axis on top of the
+> explorer's 06-27 reuse-vs-novelty caveat. Cheapest fix: add one arm with a "what does this reduce to?" role, with and without retrieval.
+> Separately, the oracle-trail codebook forces one "decisive channel" on notice-by-reading→settle-by-execution units. Of the 25 rater caught_by
+> disagreements, 13 are on the read-vs-exec axis. A noticed_by/settled_by split before any re-code is suggested.
+> Detail: `explorations/2026-10-10-prior-art-arrived-by-recall-twice-response-to-retrieval-proposal.md`,
+> `explorations/2026-10-09-oracle-codebook-two-stage-units-response-to-cross-vendor-rater-proposal.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
