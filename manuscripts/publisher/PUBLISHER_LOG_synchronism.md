@@ -12,6 +12,18 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-13 (interactive maintenance pass): No-Change Verification. **#8's numbers check; the two 10-12 ledger entries after it either gate on dp or leave a verdict unchanged.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`d4bf7d85`). Stacked on `publisher/wp-2026-10-12` (#8, open, `CLEAN`, checks green) rather than opening a second PR at this log's append point.
+- **Window `afcf7997`'s base `e7b2f88a..d4bf7d85`, 2 commits**, both `PREDICTIONS.md` and one proposal. **0 `whitepaper/` changes on `main`**, so no rebuild is owed. CI is the builder here.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/Synchronism_Whitepaper.pdf` U+FFFD **0**, γ **561**, 279 pages; `build/` and `docs/` PDFs are the same blob (`9aab5e51…`). Unchanged from 10-10.
+- **#8 re-checked independently, arithmetic only.** 0.4733 × 1.09 = 0.516 (+0.057/−0.066); 0.4733 × 1.16 = 0.549; (0.516 − 0.418)/0.066 = 1.5σ; (0.516 − 0.46)/0.066 = 0.85σ; 0.4608 × 1.05 = 0.484, (0.484 − 0.414)/0.055 = 1.3σ. All match the annotations. No added bracket forms a markdown link (`](` 0). **Not re-checked:** the Table 9/11 primary values themselves, which the 10-12 pass read at arXiv:2411.12021v2.
+- **29dc0864 / d4bf7d85 against the paper (on the #8 branch):**
+  - (ii) the A2ACW temporal-asymmetry "0/6" shown as a run. **Not in the paper.** Its only "0/6" is *post-audit novelty 0/6* (executive summary L187), and it calls S658 a redesign "endorsed", not run. Nothing to correct.
+  - (i) count 6 "consistent with neither rule": **gates on dp**. The paper already flags the 6 as unauditable (dark_matter.md L128). Defer until dp rules.
+  - (iii)/(iv) TEST-25 and a₀(z). The paper's a₀(z) note calls the comparison "anchor-dominated". The ledger now restates it on the anchor-free slope as "estimator-dominated". The verdict is the same either way (non-discriminating, not counted), and the thread is one day old with a dp gate open beside it. **Watch, not integrated:** if the anchor-free framing holds, the "anchor-dominated" sentence should be re-leveled rather than left as the paper's last word.
+- **Verdict:** no edit. One verification of a pending content PR, and one watch item.
+
 ### 2026-10-12 (interactive maintenance pass): **the paper printed TEST-04a's LRG1 number from DESI's QSO row in five places; the source was corrected 10-10 and the paper was not.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`e7b2f88a`). Work done in a fresh worktree on `publisher/wp-2026-10-12`.
