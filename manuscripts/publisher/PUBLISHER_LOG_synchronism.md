@@ -12,6 +12,28 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-13 (interactive maintenance pass): No-Change Verification. **#8's numbers check; the two 10-12 ledger entries after it either gate on dp or leave a verdict unchanged.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`d4bf7d85`). Stacked on `publisher/wp-2026-10-12` (#8, open, `CLEAN`, checks green) rather than opening a second PR at this log's append point.
+- **Window `afcf7997`'s base `e7b2f88a..d4bf7d85`, 2 commits**, both `PREDICTIONS.md` and one proposal. **0 `whitepaper/` changes on `main`**, so no rebuild is owed. CI is the builder here.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/Synchronism_Whitepaper.pdf` U+FFFD **0**, γ **561**, 279 pages; `build/` and `docs/` PDFs are the same blob (`9aab5e51…`). Unchanged from 10-10.
+- **#8 re-checked independently, arithmetic only.** 0.4733 × 1.09 = 0.516 (+0.057/−0.066); 0.4733 × 1.16 = 0.549; (0.516 − 0.418)/0.066 = 1.5σ; (0.516 − 0.46)/0.066 = 0.85σ; 0.4608 × 1.05 = 0.484, (0.484 − 0.414)/0.055 = 1.3σ. All match the annotations. No added bracket forms a markdown link (`](` 0). **Not re-checked:** the Table 9/11 primary values themselves, which the 10-12 pass read at arXiv:2411.12021v2.
+- **29dc0864 / d4bf7d85 against the paper (on the #8 branch):**
+  - (ii) the A2ACW temporal-asymmetry "0/6" shown as a run. **Not in the paper.** Its only "0/6" is *post-audit novelty 0/6* (executive summary L187), and it calls S658 a redesign "endorsed", not run. Nothing to correct.
+  - (i) count 6 "consistent with neither rule": **gates on dp**. The paper already flags the 6 as unauditable (dark_matter.md L128). Defer until dp rules.
+  - (iii)/(iv) TEST-25 and a₀(z). The paper's a₀(z) note calls the comparison "anchor-dominated". The ledger now restates it on the anchor-free slope as "estimator-dominated". The verdict is the same either way (non-discriminating, not counted), and the thread is one day old with a dp gate open beside it. **Watch, not integrated:** if the anchor-free framing holds, the "anchor-dominated" sentence should be re-leveled rather than left as the paper's last word.
+- **Verdict:** no edit. One verification of a pending content PR, and one watch item.
+
+### 2026-10-12 (interactive maintenance pass): **the paper printed TEST-04a's LRG1 number from DESI's QSO row in five places; the source was corrected 10-10 and the paper was not.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`e7b2f88a`). Work done in a fresh worktree on `publisher/wp-2026-10-12`.
+- **Window `dc3acde7..e7b2f88a`, 3 commits, 0 touching `whitepaper/`.** But `ac142f75` (back-annotate from site, 10-10) corrects a datum the paper quotes: the LRG1 growth ratio `1.16 ± 0.13` carried since 2026-05-26 is DESI DR1 Table 9's **QSO** row. It fixed `PREDICTIONS.md` and Session 107 and stopped there. A no-`sections/`-change window is not a no-change window when the research lane corrects a number the paper prints. The check is: grep the paper for the corrected datum.
+- **Verified at the primary, not relayed.** Pulled `arxiv.org/html/2411.12021v2` and parsed Tables 9 and 11 myself (WebFetch truncated before Table 9 on both reads, so the HTML was parsed locally). LRG1 (z=0.510) = **1.09 +0.12/−0.14** in both ShapeFit variants, QSO (z=1.491) = 1.16 ± 0.12, LRG1 fiducial fσ₈ = 0.4733. So fσ₈(0.51) = 0.516 +0.057/−0.066: prediction ~1.5σ below (paper said 2.14σ), registered 0.46 criterion ~0.9σ (paper said ~1.5σ, from 0.4733 × 1.16). The same tables also give **LRG2** = 0.4608 × 1.05 = 0.484 ± 0.055, where the paper printed 0.50 ± 0.05 (~1.3σ, not 1.42σ). The site proposal did not cover LRG2.
+- **Edit: dated `[… 2026-10-12]` annotations only, nothing deleted.** 3 in exec summary + 5 in conclusion + 1 in 5.15 on the "~1.5σ" clause; the full VERIFIED note at both "exact LRG1 ratio remains UNVERIFIED" anchors (S672); the measured-value clause in both kill-criteria lists; and the S668 "copy-pasted from QSO" clause in both. Three section CHANGELOGs + top-level CHANGELOG.
+- **The finding the source does not state:** S668 (05-26) said the 1.16 was QSO's value, and on the datum **S668 was right**. S672 (05-27) faulted it for not checking the tables (a fair point on method) and then kept the QSO number. The re-grounding was the regression on this point. The program's "over-failing is as much an error as over-claiming" lesson came from the session that had the number right.
+- **Build (local, from `whitepaper/`, the CI scripts):** md/pdf/web-clean rc=0; `Missing character` **0**; U+FFFD **0**; PDF 279 → **282** pages; annotations present in the PDF text layer and in `section_0/5/7/11.html`. Artifacts restored; CI builds and deploys on merge.
+- **Cross-repo: Web4** — window `0c78197a..f6ed4948` (#902–#906, hub routing + PRDs), 0 `core-spec/` changes. Rebuild-and-diff in a fresh worktree: monoliths timestamp-only, `index.html`/`assets/` byte-identical, `pdftotext` 1 line (timestamp), 0 missing glyphs, 0 U+FFFD, 24 pages. No change. Note: the shared `web4` checkout's working tree is **stale** (64 modified files, mtimes 09-25, reverse-diffing `6e73dca0`'s glyph fix). It is behind `HEAD`, not work in progress. Building there would ship the pre-fix `make-pdf.sh`. Left untouched (shared tree).
+
 ### 2026-10-10 (systemd `autonomous-publisher-cbp`): No-Change Verification — **the 10-07 fixes reached the deployed PDF through CI: 0 dropped glyphs on the runner's build, 561 γ where there were none.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`dc3acde7`).
