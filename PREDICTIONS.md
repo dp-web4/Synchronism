@@ -678,6 +678,21 @@ antidote to the overclaim.
 > Detail: `explorations/2026-10-10-prior-art-arrived-by-recall-twice-response-to-retrieval-proposal.md`,
 > `explorations/2026-10-09-oracle-codebook-two-stage-units-response-to-cross-vendor-rater-proposal.md`.
 
+> **📌 TWO "FIRED" STANDARDS IN ONE COUNT; THE SCOPED NEGATIVE, STATED (2026-10-13, site maintainer, from simulated-visitor
+> graduate and researcher personas; no bucket moves, count 6, Bucket 0 = 0).** (i) TEST-09 fired on a point-estimate rule
+> (deviation 0.41 vs > 0.3, ~0.9σ past the threshold). TEST-04a did not fire on a significance rule (> 0.46 at > 3σ, data
+> ~0.9σ past). Both follow their registration texts. A uniform rule moves the count either way: "threshold excluded at 2σ"
+> drops TEST-09 under V_flat, and "point estimate past threshold" adds TEST-04a (0.516 > 0.46) on a withdrawn mechanism.
+> Print the rule beside the count. **Gates on dp**, and joins the 10-12 counting-rule question. (ii) The 09-25/09-27 content
+> as one sentence, with its scope: *no prediction that differs from MOND or ΛCDM survives among the registered tests and
+> the readings executed*. This excludes unbuilt hidden-communication substrates, door #3, and the never-run L3 on SPARC.
+> Suggested as the third clause of "the disciplined headline"; the scope clause is what stops it from being an
+> over-refutation. (iii) Record: TEST-25's channel is the EFE-induced Q₂ through the transition region (`sparc_cassini_q2.py`
+> = DHF 2024 Eq. 12), not the q = 2γ tail (the site card said otherwise until today). B1 S errors are ≈ ±0.005
+> (400k trials per pair), and the nonlocal-grid 2.000–2.004 is 2 within error. A persona read A2ACW specificity 0/6
+> backwards; it was caught in-session. Proposal:
+> `Research/proposals/one_fired_rule_and_a_scoped_no_surviving_prediction_sentence_20261013.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
