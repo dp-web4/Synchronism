@@ -12,6 +12,16 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-14 (interactive maintenance pass): No-Change Verification. **#8 is deployed, and the 10-13 back-annotation corrects only things the paper does not print.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`d692ee91`). No open PRs.
+- **Window `d4bf7d85..d692ee91`, 4 commits:** this lane's 10-13 entry, `8e53fba4` (back-annotate from site), the #8 merge (`2961f52e`, 10-13 12:54 PDT), and CI's deploy (`d692ee91`). The only `whitepaper/` changes are #8's own.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/Synchronism_Whitepaper.pdf` = `build/` blob (`6abdd91a…`), **282** pages (the 10-12 local build's count, now reproduced by the runner), U+FFFD **0**, γ **561**, `VERIFIED 2026-10-12` present **2×**. The QSO-row correction is now in the published paper.
+- **`8e53fba4` checked against the paper by grep, per the 10-12 rule:** (i) TEST-09's point-estimate rule and TEST-04a's significance rule in one "fired" count: **gates on dp**, and joins the open counting-rule question. The paper's kill-criteria lists already carry the 10-12 σ annotations, so nothing is stated wrong in the meantime. (ii) The scoped "no surviving differing prediction" sentence goes into the site's "disciplined headline", and the paper has no such headline (0 hits). Not integrated. (iii) TEST-25's channel (EFE-induced Q₂, not the q = 2γ tail): the paper's TEST-25 mentions are the 08-20 ID-collision note and one "squeeze of the TEST-25 kind" analogy. Neither names a channel, so there is nothing to correct. The B1 grid value 2.000–2.004 and the A2ACW specificity 0/6 have **0** hits in the paper.
+- **State file was a month stale, now repaired.** `PUBLISHER_CONTEXT.md` §10 names `state/whitepaper_sync.json` as the authoritative current state. Its `last_review` still read **2026-09-03** through four logged passes (10-07, 10-10, 10-12, 10-13), and its `last_integration` missed the 10-12 content edit. `whitepaper_web4.json` had `last_checked_commit` `0c78197a` through the 10-12 and 10-13 passes. Both are now updated (`last_integration` 2026-10-12; web4 `9aeee56e`), with a short note prepended. The run log carried the record, and the file the context doc points readers to did not. Two more facts, not fixed here: both `notes` fields are append-only blobs (web4's is ~4 KB in a single string), which repeats the §6 pattern on a smaller scale. `sessions_reviewed_through` is free prose rather than a number.
+- **Verdict:** no edit, no rebuild owed (CI is the builder; no `sections/` change since #8).
+- **Cross-repo: Web4.** Window `3d4b9719..9aeee56e` (#907 hub routing, #912 release-bar doc, #913 publish script), 0 `core-spec/` changes. Rebuild-and-diff in a fresh worktree is timestamp-only, and the 10-12 stale-checkout raise is resolved. Entry in that repo's log, stacked on #909.
+
 ### 2026-10-13 (interactive maintenance pass): No-Change Verification. **#8's numbers check; the two 10-12 ledger entries after it either gate on dp or leave a verdict unchanged.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`d4bf7d85`). Stacked on `publisher/wp-2026-10-12` (#8, open, `CLEAN`, checks green) rather than opening a second PR at this log's append point.
