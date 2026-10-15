@@ -12,6 +12,16 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-15 (maintenance pass): No-Change Verification. **The 10-14 back-annotation corrects three things, and the paper prints none of them.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`05ffd4b1`). No open PRs.
+- **Window `c7b38645..05ffd4b1`, 1 commit:** `05ffd4b1` (back-annotate from site, 10-14), which touches `PREDICTIONS.md` and one proposal. **0 `whitepaper/` changes.**
+- **Checked against the paper by grep, per the 10-12 rule:** (i) the ρ_crit(V) row's "MOND's V⁻² is excluded at ~10σ" (`10σ`, `−0.16 ± 0.19`): **0** hits. (ii) C_Ω ≡ RG's ε holds for the Hill form only. The paper's identity bullet (`dark_matter.md` L156) is written for `C_Ω = Ω_m + (1−Ω_m)·x/(1+x)`, the Hill form. L158 gives the headline tanh form's match to ε at fitted γ ≈ 0.49 with `ρ_c/ρ_crit ≈ 2.0`, which is the "γ = ½, knee doubled" case the correction describes. The GC-window "γ = 2 at RG's knee 0.0083 passes" claim: `0.0083` **0** hits. (iii) RG Eq. 4.1's two readings: `Eq. 4.1` **0** hits; RG-not-excluded is not contradicted anywhere. The RG-author contact gates on dp. Nothing to integrate.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/` PDF = `build/` blob (`6abdd91a…`), **282** pages, U+FFFD **0**. Unchanged from 10-14.
+- **State files:** `whitepaper_sync.json` `last_review` and `whitepaper_web4.json` (`last_checked_commit` `c6ad5758`) updated in this commit.
+- **Verdict:** no edit, no rebuild owed.
+- **Cross-repo: Web4. INTEGRATED.** `web4-policy` 0.1.0 reached crates.io on 10-15 (#915). §11 now names it as the SAL law engine that the Hub and Hestia both depend on. One sentence; all six artifacts rebuilt (24 pp, 0 missing glyphs). PR web4#917, stacked on #909. Entry in that repo's log.
+
 ### 2026-10-14 (interactive maintenance pass): No-Change Verification. **#8 is deployed, and the 10-13 back-annotation corrects only things the paper does not print.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`d692ee91`). No open PRs.
