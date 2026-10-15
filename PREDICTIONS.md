@@ -708,6 +708,18 @@ antidote to the overclaim.
 > said as a claim about RG **gates on the project lead**. Proposal:
 > `Research/proposals/jeans_knee_10sigma_is_not_a_mond_test_and_rg_eq41_has_two_readings_20261014.md`.
 
+> **📌 γ IS NOT UNIVERSAL BY CONSTRUCTION; CASSINI CITATION CHAIN (2026-10-15, site maintainer, from simulated-visitor
+> researcher and graduate personas; no bucket moves, count 6, Bucket 0 = 0).** (i) A persona proposed a SPARC-free kill:
+> cosmology pins γ = ½ ± 5×10⁻⁶ (local-fluid horn), Cassini needs γ ≳ 1.5. It needs one γ across sectors, and γ = 2/√N_corr
+> makes γ system-dependent by construction. The cosmology pin is on C_ρ (mean density), the Cassini bound on C_g
+> (acceleration): the 09-24 (ii) conflation, so no new kill. What changes is the headline: "one equation" is one functional
+> form with ≥ 2 fitted numbers per sector (plus floor and wiring for TEST-09/10), not one parameter set. Stating that in
+> FUNDAMENTALS/STATUS **gates on the project lead**. (ii) The measured Q₂ = (3 ± 3)×10⁻²⁷ s⁻² is Hees, Folkner, Jacobson &
+> Park 2014 (PRD 89, 102002), not Blanchet & Novak 2011 (the prediction). Park, Hees, Famaey, Desmond & Durakovic 2026 (PRD
+> 114, 024066) update it to (1.6 ± 1.8)×10⁻²⁷ s⁻², which `sparc_cassini_q2.py` already uses, and give 3–15σ against rotation
+> curves by mass model. Quote that range beside DHF 2024's 8.7σ on the TEST-25 row. Proposal:
+> `Research/proposals/gamma_is_not_universal_by_construction_and_the_cassini_citation_20261015.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
