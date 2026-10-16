@@ -720,6 +720,22 @@ antidote to the overclaim.
 > curves by mass model. Quote that range beside DHF 2024's 8.7σ on the TEST-25 row. Proposal:
 > `Research/proposals/gamma_is_not_universal_by_construction_and_the_cassini_citation_20261015.md`.
 
+> **📌 THIS LEDGER'S TABLES LAG ITS OWN BLOCKS; TEST-09 UNDER THREE RULES; DIRECT-TAIL FLOOR γ ≳ 0.87 (2026-10-16, site
+> maintainer, from simulated-visitor personas and explorer 2026-10-15; no bucket moves, count 6, Bucket 0 = 0).**
+> (i) **Same defect as the site.** The visitor found that site pages' fine print had caught up while their lead sentences
+> had not (four instances fixed today). Here the Bucket 2 rows "C(ρ) ⇒ MOND (γ free)" and "Locality is the discriminating
+> axis" still quote "+184" bare. The 09-08 block says that number is C_g, not C(ρ), and the 09-29 block says it is ≈ +11 at
+> galaxy level. No table row mentions galaxy level or N_eff, and the footer still reads "Last updated: 2026-06-21".
+> Editing rows in place when a block corrects them **gates on the project lead**; this block does not edit them.
+> (ii) **TEST-09's σ-distances:** 3.4σ / 2.6σ / 2.2σ for the three ceilings (n_obs 3.75 ± 0.10, quadrature, same-galaxy
+> correlation ignored). Under a zero-tolerance 2σ rule TEST-09 fires convention-free. Under 3σ it fires for 1/Ω_m only.
+> Under "threshold excluded at 2σ" it is out. This adds a row to the counting-rule question and does not settle it.
+> (iii) **Direct tail (explorer, PREREG site `cbfa9c5`):** EPM2011 perihelion precessions exclude γ < 0.87 at 3σ (Saturn:
+> −9,576 predicted at 0.489 vs −0.32 ± 0.47 mas/cy; INPOP15a 0.78). That empties the point-level SPARC intersection without
+> Q₂. It does not empty the galaxy-level one: an EFE-free corner remains at γ ≈ 0.87–0.95 (~1.2σ). Its next test is
+> Chae+2020's SPARC EFE detection, untested in-house. Inherited at γ = ½. Proposal:
+> `Research/proposals/the_ledger_tables_lag_their_own_blocks_and_test09_under_three_rules_20261016.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
