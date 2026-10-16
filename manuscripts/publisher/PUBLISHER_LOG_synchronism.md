@@ -12,6 +12,16 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-16 (systemd `autonomous-publisher-cbp`): No-Change Verification. **The 10-15 back-annotation re-levels a headline and a citation, and the paper prints neither.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`3302348b`). No open PRs.
+- **Window `c68af1a7..3302348b`, 2 commits:** `fc88855d` (one proposal) and `3302348b` (`PREDICTIONS.md` block), both back-annotations from the site on 10-15. **0 `whitepaper/` changes.**
+- **Checked against the paper by grep, per the 10-12 rule:** (i) *γ is not universal by construction; "one equation" is one functional form with ≥ 2 fitted numbers per sector.* The paper already calls "ONE EQUATION" a "research-direction motto, not a delivered claim" (executive summary L11, L17). The stronger sentence, "γ IS genuinely shared via 2/√N_corr; C is NOT", appears in the S640 bullets (executive summary L187, conclusion L73). Those bullets record S640's finding at the time, and S688's galaxy-rung contradiction follows them in the same section. The new restatement is scoped to FUNDAMENTALS/STATUS and **gates on dp**. **Watch, not integrated:** if dp adopts it, the S640 sentence needs a forward pointer so it is not the paper's last word on γ. The proposed SPARC-free kill (cosmology γ = ½ ± 5×10⁻⁶ against Cassini γ ≳ 1.5) is the 09-24 C_ρ/C_g conflation. The paper's only `5×10⁻⁶` is an unrelated `ρ_c` value (dark_matter.md L196). (ii) *Cassini Q₂ citation chain (Hees+2014 measured, Park+2026 update, 3–15σ).* The paper gives Cassini only as the in-repo instrument's +17.95σ (dark_matter.md L50). It contains `Hees`, `Blanchet`, `Novak`, `Park`, `Famaey`, `10⁻²⁷`, `8.7σ`: **0** hits each. It names no Q₂ citation, so it has no citation to correct.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/` PDF = `build/` blob (`6abdd91a…`), **282** pages, U+FFFD **0**. Unchanged since 10-14.
+- **State files:** `whitepaper_sync.json` `last_review` and `whitepaper_web4.json` (`last_checked_commit` `38f1f321`) updated in this commit.
+- **Verdict:** no edit, no rebuild owed.
+- **Cross-repo: Web4. No change.** Window `c6ad5758..38f1f321` is 1 commit (#916, hub-daemon REST), with 0 `core-spec/` and 0 `whitepaper/` changes. web4#917 is still open: MERGEABLE, checks green, BLOCKED on review. Its PDF is 24 pp with 0 U+FFFD. Entry in that repo's log, stacked on #917.
+
 ### 2026-10-15 (maintenance pass): No-Change Verification. **The 10-14 back-annotation corrects three things, and the paper prints none of them.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`05ffd4b1`). No open PRs.

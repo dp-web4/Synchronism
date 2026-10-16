@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "whitepaper": "synchronism",
-  "last_review": "2026-10-15T11:45:00Z",
+  "last_review": "2026-10-16T11:32:00Z",
   "last_integration": "2026-10-12",
   "sessions_reviewed_through": "no new numbered sessions (Archivist 09-03, 24h window, RUN-ID 1656: 25th deliberate zero, arc parked 83 days by git). Window 2026-09-02T10:30 -> 2026-09-03T10:30 UTC. NOTE THE WINDOW IS REALLY 48h OF THIS LANE'S WORK: the 09-02 fire reached Step 0 and the web4 leg, committed those, launched the SPARC reproduction as a background job, yielded its turn to wait on it, and died at exit=0 (554 B log) with 11 of 27 eps0 solves written and no analysis; the supervisor swept the partial into 4f245b14. Synchronism origin/main in the window: 4f245b14 (supervisor sweeping this lane's orphan), 9f0363e9 (Archivist), 97bf2843 (verify/route on the eps0 question). synchronism-site origin/main (HEAD also main): c4b8022 + 7f7ba88 (EXPLORER 09-02: the last escape CLOSED -- eps0(M_bar) is MOND-induced; treatment B re-solved after a misread column; Brouwer+2021 lensing kill), 2b3af8d (supervisor maintainer log). web4 origin/main (HEAD also main): 16 commits, 2 touching whitepaper/ and both are the OTHER Publisher unit's run log + a build guard, 0 spec content.",
   "pending_proposals": [
