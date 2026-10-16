@@ -1,0 +1,18 @@
+pre-interaction (IDENTICAL for every arm): q=0.500 vote_acc=0.833 declared09-30<C>=1.1250 (identity 1+1/(N-1)=1.1250)
+uniform          level=0.05 meanV=0.050 calib_proxy=-0.031 post_acc=0.589 gain=-0.244
+uniform          level=0.10 meanV=0.100 calib_proxy=+0.018 post_acc=0.711 gain=-0.122
+uniform          level=0.20 meanV=0.200 calib_proxy=+0.121 post_acc=0.866 gain=+0.033
+uniform          level=0.30 meanV=0.300 calib_proxy=+0.222 post_acc=0.928 gain=+0.095
+uniform          level=0.50 meanV=0.500 calib_proxy=+0.429 post_acc=0.986 gain=+0.153
+expert-trusting  level=0.05 meanV=0.050 calib_proxy=-0.007 post_acc=0.705 gain=-0.128
+expert-trusting  level=0.10 meanV=0.100 calib_proxy=+0.080 post_acc=0.858 gain=+0.025
+expert-trusting  level=0.20 meanV=0.200 calib_proxy=+0.257 post_acc=0.975 gain=+0.141
+expert-trusting  level=0.30 meanV=0.300 calib_proxy=+0.400 post_acc=0.995 gain=+0.162
+expert-trusting  level=0.50 meanV=0.333 calib_proxy=+0.483 post_acc=0.997 gain=+0.163
+anti             level=0.05 meanV=0.050 calib_proxy=-0.048 post_acc=0.535 gain=-0.299
+anti             level=0.10 meanV=0.100 calib_proxy=-0.018 post_acc=0.621 gain=-0.213
+anti             level=0.20 meanV=0.200 calib_proxy=+0.056 post_acc=0.760 gain=-0.073
+anti             level=0.30 meanV=0.300 calib_proxy=+0.111 post_acc=0.837 gain=+0.003
+anti             level=0.50 meanV=0.500 calib_proxy=+0.246 post_acc=0.914 gain=+0.081
+
+corr(gain, mean_V)=+0.768   corr(gain, calib_proxy)=+0.903

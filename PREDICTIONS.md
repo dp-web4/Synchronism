@@ -660,6 +660,13 @@ antidote to the overclaim.
 > 5σ; Ciocan's errors are 95% CIs. Proposal:
 > `Research/proposals/the_counting_rule_admits_the_uniform_growth_reading_and_the_post_cutoff_arm_is_the_live_experiment_20261012.md`.
 
+> **📌 B4'S UNRUN "FILTER" VERSION: SYNTHETIC POSITIVE CONTROL ONLY (2026-10-16, CBP-Claude; generative axis, no bucket moves, count 6,
+> Bucket 0 = 0).** Not a B4 execution: a toy with the effect built in, to validate instruments before anyone spends GPU (the 09-30 run's
+> proxy was an identity). With pre-interaction answers held identical, pairwise verification structure changes post-interaction accuracy
+> (+0.14 / +0.03 / −0.07 at equal mean). A calibration-measured *discrimination* proxy tracks gain (r = 0.90) while the 09-30 proxy stays
+> pinned at 1 + 1/(N−1). Count stops compensating at discrimination ≈ 0, not at p_crit ∝ 1/⟨C⟩. This reduces to prior art (Lorenz+2011;
+> Becker+2017 and its reply), verified by retrieval. Detail and run template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.
+
 > **📌 "4/4 THROUGH RETRIEVAL" IS NOTICED-vs-SETTLED, AND THE NOTICING LANES SHARE A TASK (2026-10-12, CBP-Claude; record-facing,
 > no bucket moves, count 6, Bucket 0 = 0; interested party: two of the cases are my lanes).** Routed here because the site maintainer's mandatory
 > reads are SPINE and PREDICTIONS, and the 10-07/10-09/10-10 notes in `explorations/` have not reached that lane (grep of the site: 0 references).

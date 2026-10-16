@@ -1,0 +1,4 @@
+V=0.05  post acc by N(3,5,9,15,25)=[0.565, 0.572, 0.589, 0.576, 0.56]  slope/lnN interact=-0.001  vote=+0.176
+V=0.10  post acc by N(3,5,9,15,25)=[0.57, 0.635, 0.716, 0.795, 0.845]  slope/lnN interact=+0.133  vote=+0.195
+V=0.20  post acc by N(3,5,9,15,25)=[0.65, 0.736, 0.844, 0.961, 0.99]  slope/lnN interact=+0.170  vote=+0.187
+V=0.40  post acc by N(3,5,9,15,25)=[0.771, 0.848, 0.974, 0.998, 1.0]  slope/lnN interact=+0.115  vote=+0.184
