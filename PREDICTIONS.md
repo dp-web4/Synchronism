@@ -764,6 +764,10 @@ antidote to the overclaim.
 > - the TEST-09 row's "floor Ω_m genuinely derived" is a calibration identity (09-11 proposal);
 > - the γ = 2/√N_corr row's "N_corr-as-a-variable survives" means "makes no claim yet" (zero anchored rungs).
 >
+> (v) **The +2843 (C_ρ vs C_g) survives galaxy-level scoring.** Pre-registered, 6/6 predictions held. The galaxy-block
+> bootstrap with both laws refit gives 95% [2178, 3590] and N_eff ≈ 140; C_ρ is worse in 105/122 galaxies. The
+> "~20× discount" in the 09-24 (iii) block was N/N_gal; the measured inflation is 17×. Contrast the +184 (09-29), whose
+> interval reached 23. `synchronism-site/maintainer/scripts/dbic2843_galaxy_level.py`.
 > Proposal: `Research/proposals/the_count_is_rule_dependent_and_the_tabletop_is_dominated_by_the_planets_20261018.md`.
 
 
