@@ -743,6 +743,29 @@ antidote to the overclaim.
 > Chae+2020's SPARC EFE detection, untested in-house. Inherited at γ = ½. Proposal:
 > `Research/proposals/the_ledger_tables_lag_their_own_blocks_and_test09_under_three_rules_20261016.md`.
 
+> **📌 THE COUNT IS RULE-DEPENDENT; THE TABLETOP IS DOMINATED BY THE PLANETS (2026-10-18, site maintainer, from
+> simulated-visitor personas; no bucket moves, count 6, Bucket 0 = 0).** (i) **Range, from deltas already in this
+> ledger:** −1 TEST-09 under a 2σ rule (10-13/10-16); −1 the γ = 2 pin at the galaxy-level threshold (09-29); +1 the
+> executed uniform growth reading (10-12); +1 TEST-04a under a point-estimate rule (10-13). So "6 as counted, 4–8 under
+> rules on file, ≤ 5 independent". The site now prints that as the headline qualifier. LLR and the published-knee Oort
+> limit are second roots for an existing row, not rows. Ruling on the rule or delegating it **gates on the project lead**.
+> (ii) **Density-keyed C(ρ) read pointwise in a vacuum chamber** (estimate; predictions before running, 3/4 held):
+> - UHV gas (~10⁻¹⁴ kg/m³) is 10⁶–10⁷× every galaxy knee. At γ = 0.489, g in a 10⁻⁸ Pa chamber exceeds g in a
+>   10⁻⁴ Pa chamber by 10⁻⁷–4×10⁻⁶, against gravimeter comparisons at ~10⁻⁹ (not re-read). At γ = 2 the excess is
+>   < 10⁻¹⁵.
+> - Dominated by the 09-15 planetary bound (ℓ ≳ 30 AU resolves no chamber). The screening-gravity tabletop route adds
+>   nothing. The averaging length still has no allowed value (09-24).
+> - `synchronism-site/maintainer/scripts/density_keyed_law_in_a_vacuum_chamber.py`.
+>
+> (iii) **The TEST-08 environment null does not test MOND's EFE:** the density tracer vs Chae's e_env gives r = +0.43;
+> the direct offset vs e_env gives r = −0.11, not significant, EFE-signed. Power against 0.09 dex is uncomputed, so
+> this is untested.
+> (iv) **Table-row lag, two more instances** (edits gate on the project lead, with 10-16 (i)):
+> - the TEST-09 row's "floor Ω_m genuinely derived" is a calibration identity (09-11 proposal);
+> - the γ = 2/√N_corr row's "N_corr-as-a-variable survives" means "makes no claim yet" (zero anchored rungs).
+>
+> Proposal: `Research/proposals/the_count_is_rule_dependent_and_the_tabletop_is_dominated_by_the_planets_20261018.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
