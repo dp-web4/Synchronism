@@ -145,7 +145,7 @@ def main():
     print(f"    SCALAR (spin-0, 'breathing') polarization and a different numerical coefficient — plus")
     print(f"    generic DIPOLE radiation if a star's intent-charge ≠ its mass (strongly excluded).")
     print(f"    The refutation is therefore WRONG POLARIZATION, not 'no decay':")
-    print(f"     • OBSERVED (PSR B1913+16): orbital-decay / GR-SPIN-2-quadrupole = 1.0013 ± 0.0021")
+    print(f"     • OBSERVED (PSR B1913+16): orbital-decay / GR-SPIN-2-quadrupole = 0.9983 ± 0.0016")  # corrected 2026-10-19 from 1.0013 ± 0.0021 (arXiv:1606.02744 abstract)
     print(f"       (Weisberg & Huang 2016): the observed rate matches the TENSOR coefficient to ~0.2%.")
     print(f"       Scalar quadrupole has a different coefficient ⇒ generically misses this match;")
     print(f"       any dipole channel misses it grossly.")
@@ -170,7 +170,7 @@ def main():
         tt_fraction_scalar_trace=f_trace, tt_fraction_scalar_long=f_long,
         tt_fraction_general_scalar=f_gen, tt_fraction_tensor_control=f_tensor,
         L_GR_fiducial_W=L_GR, L_inflow_tensor_W=0.0,
-        hulse_taylor_obs_over_GR="1.0013 ± 0.0021 (Weisberg & Huang 2016)",
+        hulse_taylor_obs_over_GR="0.9983 ± 0.0016 (Weisberg & Huang 2016, arXiv:1606.02744; corrected 2026-10-19)",
         radiation_note="scalar substrate radiates at quadrupole order but with SCALAR (spin-0, "
                    "breathing) polarization, not GR's tensor (spin-2); refutation is wrong "
                    "polarization + wrong coefficient, not 'no decay'.",

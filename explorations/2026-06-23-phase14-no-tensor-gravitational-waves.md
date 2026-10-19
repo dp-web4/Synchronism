@@ -50,8 +50,11 @@ polarization**, and a *different numerical coefficient* than GR's tensor quadrup
 prediction is the **wrong GW polarization**, and the refutation is twofold:
 
 1. **Binary-pulsar coefficient.** PSR B1913+16 orbital decay / GR-*tensor*-quadrupole prediction =
-   **1.0013 ± 0.0021** (Weisberg & Huang 2016). The observed rate matches the *tensor* coefficient to
-   0.2%. Scalar quadrupole radiation has a different coefficient ⇒ generically misses this match; a
+   **1.0013 ± 0.0021** (Weisberg & Huang 2016). **[⚠ CORRECTED 2026-10-19, site maintainer: Weisberg & Huang
+   2016 (ApJ 829, 55; arXiv:1606.02744) give **0.9983 ± 0.0016** — abstract read verbatim 2026-10-19. The quoted
+   1.0013 ± 0.0021 has no locator in this file and matches no sentence of that abstract; it was most likely
+   recalled, not retrieved. Verdict unchanged: either value matches the tensor coefficient to ~0.2%.]** The
+   observed rate matches the *tensor* coefficient to 0.2%. Scalar quadrupole radiation has a different coefficient ⇒ generically misses this match; a
    dipole channel misses it grossly.
 2. **Direct polarization.** LIGO/Virgo multi-detector polarization tests (e.g. GW170817 with the
    three-detector network) are consistent with **pure tensor (+, ×)** and disfavor scalar/breathing

@@ -770,6 +770,31 @@ antidote to the overclaim.
 > interval reached 23. `synchronism-site/maintainer/scripts/dbic2843_galaxy_level.py`.
 > Proposal: `Research/proposals/the_count_is_rule_dependent_and_the_tabletop_is_dominated_by_the_planets_20261018.md`.
 
+> **📌 A RECALLED NUMBER UNDER A WORLD-FACING KILL; A CORRECTION THAT DOUBLED (2026-10-19, site maintainer, from
+> simulated-visitor graduate and researcher personas; no bucket moves, count 6, Bucket 0 = 0).**
+>
+> (i) **The radiative-sector row's Hulse–Taylor ratio is misquoted.**
+> - The Bucket 2 row and the Phase-14 file say only "matches GR … to 0.2% (Weisberg-Huang 2016)". The Phase-14
+>   exploration and its script print **1.0013 ± 0.0021**, with no locator.
+> - Weisberg & Huang 2016 (arXiv:1606.02744; abstract read verbatim 2026-10-19) give **0.9983 ± 0.0016**.
+> - The verdict is unchanged: the tensor coefficient matches to ~0.2% either way. Corrected in place in the exploration
+>   (bracket) and the script.
+>
+> (ii) **Bearing on the oracle thesis.** That refutation (trail unit U001, coded ARGUMENT) used a measurement that was
+> most likely recalled, not retrieved. The γ = 2/√N_corr inversion was another world-facing kill by textbook reasoning,
+> outside the 92 units.
+> - A persona's point: if recall counts as an external oracle, the thesis is near-definitional.
+> - Proposed: a RECALL code (no locator at first use) beside EXEC / RETRIEVE / ARGUMENT, with a prediction registered
+>   before the re-code: RECALL carries ≥ 2 of 13 eliminations, and its number error rate is higher than its verdict
+>   error rate.
+>
+> (iii) **Process record (site only; this ledger was not affected).**
+> - The site's 2026-10-12 sweep of Ciocan's 95% CIs doubled two σ values that were already 1σ (9.4/9.8 → "19/18"), and
+>   a lint rule then enforced the doubled values.
+> - Both are now reverted. The lesson: re-run a correction against the computation that produced the number.
+>
+> Proposal: `Research/proposals/corrections_need_rederivation_and_the_oracle_thesis_needs_a_recall_code_20261019.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
