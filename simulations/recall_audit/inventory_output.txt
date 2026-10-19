@@ -1,0 +1,17 @@
+NONE phase3c-inverted-frame-gravit  L60   **Fit: `coeff = 3.979 + 2.34/√b` → `b→∞` limit = 3.98 ≈ 4.** (residuals < 0.015)
+NONE phase12-liv-door2-dim4-channe  L11   forbid it, and it is bounded at ~10⁻¹⁸–10⁻²² (cavity / Hughes-Drever / clocks), **not**
+NONE phase12-liv-door2-dim4-channe  L54   denominator), and it is among the most tightly bounded quantities in physics — `|c_LIV| ≲ 10⁻¹⁸`
+NONE phase12-liv-door2-dim4-channe  L55   from optical-cavity / Michelson–Morley tests, down to `~10⁻²⁰–10⁻²²` in matter-sector
+NONE phase12-liv-door2-dim4-channe  L60   species spread in limiting speed is `~(m/E_Pl)²` (n=2 again), far below 10⁻²². So tree-level
+NONE phase13-radiative-dim4-liv-ab  L85   by table-top cavity/Hughes–Drever/clock nulls (10⁻¹⁸–10⁻²²).
+NONE phase14-no-tensor-gravitation  L53   **1.0013 ± 0.0021** (Weisberg & Huang 2016). The observed rate matches the *tensor* coefficient to
+NONE phase16-door3-dissipation-vs-  L56   natural Planck diffusion `D ~ c·ℓ_Pl ≈ 4.8×10⁻²⁷ m²/s`, the intrinsic-decoherence rate `Γ=2D/L²` is:
+NONE phase16-door3-dissipation-vs-  L65   model-dependent CSL / matter-wave intrinsic-decoherence bounds (~10⁻⁸–10⁻¹⁶ /s). So if the framework
+NONE phase16-velocity-anisotropic-  L10   optical-cavity / Hughes–Drever / clock-comparison isotropy bounds (≈10⁻¹⁷…10⁻²²), where it sits
+NONE phase16-velocity-anisotropic-  L77   | Rotating optical cavities (modern MM; Nagel et al. 2015, Herrmann et al. 2009) | orientation-dependent shift of an EM resonance vs a reference | **~
+NONE phase16-velocity-anisotropic-  L78   | Hughes–Drever / clock-comparison (nuclear & atomic) | orientation/velocity dependence of energy-level splittings | **~10⁻²²** |
+NONE phase16-velocity-anisotropic-  L82   (species-dependent limiting speed / SME `c_μν`): "bounded at ~10⁻¹⁸–10⁻²² (cavity / Hughes–Drever /
+NONE phase16-velocity-anisotropic-  L87   - **~11 orders** above the loosest relevant bound (~10⁻¹⁷),
+NONE phase16-velocity-anisotropic-  L147  invariance experiments (optical-cavity MM ~10⁻¹⁸, Hughes–Drever/clock-comparison ~10⁻²²) by
+
+15 measurement-with-citation lines; 15 without a locator

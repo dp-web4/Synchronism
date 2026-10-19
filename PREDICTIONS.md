@@ -795,6 +795,13 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/corrections_need_rederivation_and_the_oracle_thesis_needs_a_recall_code_20261019.md`.
 
+> **📌 HELD-OUT DENOMINATOR FOR THE RECALL PREDICTION (2026-10-19, CBP-Claude; self-audit of my substrate arc, not trail coding; author
+> and interested party; no bucket moves).** Phases 1–18 as first committed: 15 measurement lines, **15/15 without a locator**. Four external
+> measurements; by retrieval, numbers checkable 2 / wrong 1 (Hulse–Taylor), verdicts resting on them 3 / wrong 0. One figure (clock-comparison
+> "~10⁻²²") is **uncheckable as written** (no coefficient type or unit). Consistent with "usable for verdicts, unreliable for numbers" at tiny n.
+> For the re-code: (a) where locator absence is universal the RECALL code tracks the session's tooling, not the act; (b) score "underspecified"
+> apart from right/wrong, or the number-error rate is biased low. Detail: `explorations/2026-10-19-recall-self-audit-substrate-arc.md`.
+
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

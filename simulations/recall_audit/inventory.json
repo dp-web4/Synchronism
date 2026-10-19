@@ -1,0 +1,107 @@
+[
+ {
+  "file": "2026-06-22-phase3c-inverted-frame-gravity-as-substrate-inflow.md",
+  "first_commit": "9d3d4af5",
+  "line": 60,
+  "locator": false,
+  "text": "**Fit: `coeff = 3.979 + 2.34/\u221ab` \u2192 `b\u2192\u221e` limit = 3.98 \u2248 4.** (residuals < 0.015)"
+ },
+ {
+  "file": "2026-06-23-phase12-liv-door2-dim4-channel.md",
+  "first_commit": "ee52e9f0",
+  "line": 11,
+  "locator": false,
+  "text": "forbid it, and it is bounded at ~10\u207b\u00b9\u2078\u201310\u207b\u00b2\u00b2 (cavity / Hughes-Drever / clocks), **not**"
+ },
+ {
+  "file": "2026-06-23-phase12-liv-door2-dim4-channel.md",
+  "first_commit": "ee52e9f0",
+  "line": 54,
+  "locator": false,
+  "text": "denominator), and it is among the most tightly bounded quantities in physics \u2014 `|c_LIV| \u2272 10\u207b\u00b9\u2078`"
+ },
+ {
+  "file": "2026-06-23-phase12-liv-door2-dim4-channel.md",
+  "first_commit": "ee52e9f0",
+  "line": 55,
+  "locator": false,
+  "text": "from optical-cavity / Michelson\u2013Morley tests, down to `~10\u207b\u00b2\u2070\u201310\u207b\u00b2\u00b2` in matter-sector"
+ },
+ {
+  "file": "2026-06-23-phase12-liv-door2-dim4-channel.md",
+  "first_commit": "ee52e9f0",
+  "line": 60,
+  "locator": false,
+  "text": "species spread in limiting speed is `~(m/E_Pl)\u00b2` (n=2 again), far below 10\u207b\u00b2\u00b2. So tree-level"
+ },
+ {
+  "file": "2026-06-23-phase13-radiative-dim4-liv-absolute-time-tension.md",
+  "first_commit": "8ad12e56",
+  "line": 85,
+  "locator": false,
+  "text": "by table-top cavity/Hughes\u2013Drever/clock nulls (10\u207b\u00b9\u2078\u201310\u207b\u00b2\u00b2)."
+ },
+ {
+  "file": "2026-06-23-phase14-no-tensor-gravitational-waves.md",
+  "first_commit": "13148dc7",
+  "line": 53,
+  "locator": false,
+  "text": "**1.0013 \u00b1 0.0021** (Weisberg & Huang 2016). The observed rate matches the *tensor* coefficient to"
+ },
+ {
+  "file": "2026-06-24-phase16-door3-dissipation-vs-oscillation.md",
+  "first_commit": "5f6bd468",
+  "line": 56,
+  "locator": false,
+  "text": "natural Planck diffusion `D ~ c\u00b7\u2113_Pl \u2248 4.8\u00d710\u207b\u00b2\u2077 m\u00b2/s`, the intrinsic-decoherence rate `\u0393=2D/L\u00b2` is:"
+ },
+ {
+  "file": "2026-06-24-phase16-door3-dissipation-vs-oscillation.md",
+  "first_commit": "5f6bd468",
+  "line": 65,
+  "locator": false,
+  "text": "model-dependent CSL / matter-wave intrinsic-decoherence bounds (~10\u207b\u2078\u201310\u207b\u00b9\u2076 /s). So if the framework"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 10,
+  "locator": false,
+  "text": "optical-cavity / Hughes\u2013Drever / clock-comparison isotropy bounds (\u224810\u207b\u00b9\u2077\u202610\u207b\u00b2\u00b2), where it sits"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 77,
+  "locator": false,
+  "text": "| Rotating optical cavities (modern MM; Nagel et al. 2015, Herrmann et al. 2009) | orientation-dependent shift of an EM resonance vs a reference | **~10\u207b\u00b9\u2078** (dim-4 SME `c_\u03bc\u03bd`) |"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 78,
+  "locator": false,
+  "text": "| Hughes\u2013Drever / clock-comparison (nuclear & atomic) | orientation/velocity dependence of energy-level splittings | **~10\u207b\u00b2\u00b2** |"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 82,
+  "locator": false,
+  "text": "(species-dependent limiting speed / SME `c_\u03bc\u03bd`): \"bounded at ~10\u207b\u00b9\u2078\u201310\u207b\u00b2\u00b2 (cavity / Hughes\u2013Drever /"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 87,
+  "locator": false,
+  "text": "- **~11 orders** above the loosest relevant bound (~10\u207b\u00b9\u2077),"
+ },
+ {
+  "file": "2026-06-24-phase16-velocity-anisotropic-phase-transition-vs-isotropy-bounds.md",
+  "first_commit": "c2f98be4",
+  "line": 147,
+  "locator": false,
+  "text": "invariance experiments (optical-cavity MM ~10\u207b\u00b9\u2078, Hughes\u2013Drever/clock-comparison ~10\u207b\u00b2\u00b2) by"
+ }
+]
