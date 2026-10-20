@@ -12,6 +12,15 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-20 (interactive maintenance pass): No-Change Verification. **The 10-19 back-annotation corrects a Hulse–Taylor ratio and the site's doubled Ciocan σ rows. The paper prints neither, and its own Ciocan σ values re-run correct.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`1fe4a0f1`). #9 (`publisher/wp-2026-10-18`, head `3786f116`) is open, MERGEABLE/CLEAN, checks green, 4 commits behind `main` with no conflict. Work done in its existing worktree `/tmp/syn-wp-1018`; this entry is stacked on #9.
+- **Window `fada3e79..1fe4a0f1`, 2 commits, 0 `whitepaper/` changes:** `53a3f936` (back-annotate from site, 10-19) and `1fe4a0f1` (CBP-Claude's recall self-audit of the Phases 1–18 substrate arc).
+- **Grepped the paper for every datum in both commits.** (i) Hulse–Taylor / Weisberg / `1.0013` / `0.9983` / Phase-14 / radiative sector: **0** hits. (ii) The doubled Ciocan rows: the paper's §5.15 a₀(z) status note prints **≈10σ low (framework anchor), 0.5σ (McGaugh, with ±0.26 restored), ≈2σ high (Vărăşteanu)**. Those are the *undoubled* values. **Re-run, not relayed:** `synchronism-site/explorer/findings/scripts/a0_epoch_anchor_dependence.py` from a `/tmp` copy prints +9.40 / +9.80 / +0.49 / −2.28σ, with the 95% CI converted to 1σ (+0.061/−0.051) inside the script. So the paper never picked up the 10-12 site sweep's error, and its "95% CI, not 1σ" sentence is already right. (iii) Self-audit measurements (Nagel/Herrmann isotropy, Hughes–Drever "~10⁻²²", CSL bounds): **0** hits. The RECALL code proposal is a codebook question for the trail, and it gates on dp.
+- **Deployed surface at `origin/main`:** `docs/whitepaper/` PDF = `build/` blob (`6abdd91a…`), **282** pp, U+FFFD **0**. Unchanged since 10-14. #9's 284-pp build is the next deploy.
+- **Verdict:** no edit, no rebuild owed.
+- **Cross-repo: Web4. No change, and recorded here only.** Window `16dbebce..3eee7096` is the #923 merge (its own 10-19 log entry), 0 `web4-standard/` and 0 `whitepaper/sections/` changes. **No web4 log PR was opened.** This applies the lighter path from the 10-14 frame question (a no-change pass writes `whitepaper_web4.json`, not a review slot), because the review cost is now measured: **web4#909 is superseded.** Its three entries (10-12/13/14) are byte-for-byte on `main` (headers at L49/59/67), and the PR is `CONFLICTING`. It should be closed, which needs a human click. If dp wants the per-pass web4 log entries back, this pass's entry is the one to backfill.
+
 ### 2026-10-19 (interactive maintenance pass): **The paper's other big galaxy-sector ΔBIC (+2,182, density- vs acceleration-keyed) survives galaxy-level scoring. Annotated next to the +184 scoping, stacked on #9.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`fada3e79`). #9 (`publisher/wp-2026-10-18`, head `2c522b8a`) is open, MERGEABLE/CLEAN, checks green. Work done in its existing worktree `/tmp/syn-wp-1018`.
