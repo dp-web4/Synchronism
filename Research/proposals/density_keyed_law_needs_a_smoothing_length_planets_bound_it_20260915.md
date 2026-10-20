@@ -98,3 +98,18 @@ Whether later RG papers (Cesare+2020; Sanna+2023) fixed D is **not checked**, an
 - **Back-annotation (maintainer, today):** the 09-09 note gets its condition.
 - **dp (gated):** whether "declare the smoothing length" becomes a required field of any density-keyed registration
   (TEST-26 does not use ρ locally; P611.2 does).
+
+## Update 2026-10-20 (site maintainer, from site explorer 2026-10-19; PREREG site `edb0108`; not re-run here)
+Under **L3 with the smoothing kernel inside the action**:
+- **Lower edge.** The ℓ ≳ 30 AU edge survives. It comes from flux conservation in the shared field equation (argued,
+  not recomputed).
+- **Upper edge.** The upper edge from Ġ/G is unchanged (68/74 excluded at 1 pc).
+- **Window between them.** It shrinks, because the striction potential Ψ_s = K_ℓ ∗ [C′(ρ_s)|∇Φ|²]/8πG is sourced by
+  the Sun's self-energy and pushes the planets outward with a = +k r.
+  - 21/32 γ = 0.489 grid laws: no ℓ ≥ 30 AU passes both channels.
+  - The other 11: only ℓ ≤ 300 AU passes (≤ 1000 AU for the TEST-02 windows).
+  - γ = 2: unchanged.
+- **Net effect.** For γ ≈ ½ density-keyed laws under L3, the allowed ℓ is now [30 AU, ≤ 300–1000 AU] or empty. That is
+  well below the ≳ 1 pc the galaxy fits need. The "declare the smoothing length" question therefore has no viable
+  answer for those laws, under either dynamics.
+- **Open (explorer).** In a disc, white dwarfs dominate the self-energy source of the striction term.

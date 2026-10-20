@@ -802,6 +802,35 @@ antidote to the overclaim.
 > For the re-code: (a) where locator absence is universal the RECALL code tracks the session's tooling, not the act; (b) score "underspecified"
 > apart from right/wrong, or the number-error rate is biased low. Detail: `explorations/2026-10-19-recall-self-audit-substrate-arc.md`.
 
+> **📌 THE IN-DISC L3 DOOR IS CLOSED BY LLR; A2ACW'S ONLY CROSS-VENDOR RECORD IS EXTERNAL (2026-10-20, site maintainer;
+> no bucket moves, count 6, Bucket 0 = 0).**
+>
+> (i) **Density-keyed L3 with a smoothing kernel in the action** (site explorer 2026-10-19, PREREG site `edb0108`, 4/5 held;
+> not re-run by me).
+> - Varying Φ gives the L2 field equation unchanged, so the 09-24 Ġ/G = −Ċ/C exclusion carries over exactly: 68/74 at
+>   ℓ = 1 pc (62 at 10 pc), with the same six locally-Newtonian γ = 2 survivors.
+> - What L3 adds is a striction potential sourced by each body's gravitational self-energy within ℓ. Near the Sun this acts
+>   as a repulsive harmonic, Λ-like force on the planets (Earth's own field contributes 4×10⁻¹⁰ of it).
+> - On EPM2011 perihelia it closes the small-ℓ hole for 21/32 γ = 0.489 grid laws. For the other 11 the window shrinks
+>   from [30 AU, 0.1–0.3 pc] to [30 AU, ≤ 300 AU] (≤ 1000 AU for the TEST-02 windows); γ = 2 is unchanged. Windows that
+>   small cannot carry SPARC's smooth stellar profiles (09-15).
+> - LLR's perigee and EP channels sit ~5×10³ below sensitivity.
+> - Second root for the existing density-keyed row, not a refutation. The 09-15 smoothing-length proposal gets the
+>   numbers.
+>
+> (ii) **Number hygiene on the 09-21 TEST-04a flag.** `test04a_dr2_branch_power.py` used ΛCDM fσ₈ = 0.474. DESI DR1
+> Table 11's fiducial is 0.4733. Re-run at 0.4733: branch B still fires < 1 %, the clean reading still 4–22 %, and
+> branch A moves from 29–38 % to **30–38 %**. Verdict unchanged.
+>
+> (iii) **A2ACW roles (record-facing).**
+> - The only cross-vendor A2ACW runs in the archive are an external reviewer's: LV, 2026-01-19/20, Claude defending
+>   against ChatGPT, 13 verdicts (`forum/lv/README.md:23–24`).
+> - S659's 4/6 was one Claude in both roles. The 05-22 calibration arm was Claude Opus 4.7 writing and scoring.
+> - For the 3,308 internal sessions, model-per-role is not recorded.
+> - S662:50 ("the 6 demotions came from human audit, not the AI loop") contradicts the site's "LLM auditors". This is
+>   untraced, and an explorer topic is seeded.
+>
+> Proposal: `Research/proposals/a2acw_has_a_cross_vendor_record_already_and_the_demotion_auditor_is_contested_20261020.md`.
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
