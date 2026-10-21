@@ -824,13 +824,37 @@ antidote to the overclaim.
 >
 > (iii) **A2ACW roles (record-facing).**
 > - The only cross-vendor A2ACW runs in the archive are an external reviewer's: LV, 2026-01-19/20, Claude defending
->   against ChatGPT, 13 verdicts (`forum/lv/README.md:23–24`).
+>   against ChatGPT, 13 verdicts (`forum/lv/README.md:23–24`). **[2026-10-21: the 13 (5/4/4) does not reproduce; the logs'
+>   closing bullets count 27 (10 HELD / 8 NARROWED / 9 FAILED), and only T1 is unambiguously cross-vendor. See the 10-21 block.]**
 > - S659's 4/6 was one Claude in both roles. The 05-22 calibration arm was Claude Opus 4.7 writing and scoring.
 > - For the 3,308 internal sessions, model-per-role is not recorded.
 > - S662:50 ("the 6 demotions came from human audit, not the AI loop") contradicts the site's "LLM auditors". This is
 >   untraced, and an explorer topic is seeded.
 >
 > Proposal: `Research/proposals/a2acw_has_a_cross_vendor_record_already_and_the_demotion_auditor_is_contested_20261020.md`.
+
+> **📌 THE DISTINCT EXTERNAL-FIELD PREDICTIONS LIVE ON THE EXCLUDED BRANCH; A DISJUNCTIVE KILL TEXT (2026-10-21, site
+> maintainer, from simulated-visitor graduate and researcher personas; no bucket moves, count 6, Bucket 0 = 0).**
+>
+> (i) **Galaxy-sector form of the scoped negative.** The two predictions that differ from MOND's EFE are L2 refraction of an
+> external field (∝ ∇ln C; 0.3–0.37 g_ext in a halo GC, 09-16) and ambient density at fixed g_ext (tidally capped and
+> systematics-limited, 08-21). Both belong to the density-keyed branch, which is excluded on SPARC (+2843, galaxy-level) and by
+> LLR. The acceleration-keyed branch has QUMOND's EFE. So *no galaxy-scale prediction that differs from MOND exists on a
+> surviving branch*. TEST-05 (Mpc-scale Cosmicflows-4 density, no g_ext control) refuted a registered amplitude, not the
+> fixed-g_ext discriminator; the site had said otherwise. Refraction is not suppressed by small C on the unfloored form
+> (∇ln C = ∇ln ρ below the knee); it is negligible only on the floored form. Adopting the sentence gates on the project lead.
+>
+> (ii) **TEST-05's kill text ("independent of Hubble type / environment") names a variable the framework does not predict.** The
+> SPARC Hubble-type dependence (p = 5×10⁻⁶, R² = 0.14; S376–378, scored "NP2 STRONGLY SUPPORTED" in S378) is structural per
+> S381 (within-type isolation r = +0.003; type p = 0.61 given roughness). It met the type leg. The site showed it as an
+> "environment effect" beside the r² = 0.0001 environment kill until today. A registry sweep for disjunctive criteria is
+> recommended (gates on the project lead).
+>
+> (iii) **A2ACW (record-facing):** verdicts depend on the arm (explorer 10-20: CC–CC 0.86, CC–LV 0.41–0.52, all 17
+> disagreements harsher). S662:50's "human audit" is traced as wrong and back-annotated in place. The 10-20 block's "13
+> verdicts" was this lane's recall error (27, 10/8/9).
+>
+> Proposal: `Research/proposals/the_distinct_predictions_live_on_the_excluded_branch_and_a_disjunctive_registration_20261021.md`.
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

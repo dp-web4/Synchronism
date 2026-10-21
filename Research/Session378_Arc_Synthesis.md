@@ -83,6 +83,8 @@ All three non-parametric tests independently confirm the type → scatter relati
 |----|-----------|--------|----------|
 | NP1 | a₀ = c H₀ Ω_m^φ | SUPPORTED (~10%) | Verified 10-13% |
 | **NP2** | **RAR scatter environment-dependent** | **STRONGLY SUPPORTED** | **p = 5×10⁻⁶, all validation tests pass** |
+
+> **[Back-annotated 2026-10-21 from the site: the p = 5×10⁻⁶ effect is Hubble type → RAR scatter. Session 381 found it structural (rotation-curve roughness), with no environment content, and the 2026-07-14 environment run gives r² = 0.0001 (TEST-08 row, PREDICTIONS Bucket 2). Read "NP2 STRONGLY SUPPORTED" as "a morphology dependence, not NP2". Original row kept above.]**
 | NP3 | a₀ evolves with redshift | UNTESTED | Needs JWST |
 | NP4 | Phase transition at g† | SUGGESTIVE | V-shape found |
 | NP5 | Wide binary density dependence | UNTESTED | Needs Gaia DR3 |

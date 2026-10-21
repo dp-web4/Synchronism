@@ -47,7 +47,7 @@ The proposal ran the missing control: 6 canonical genuine discoveries that must 
 
 Vocabulary translation contributes **retrieval** (puts the right prior art on the table — real, and the source of the 0/6→4/6 gain). It does **not** contribute **discrimination** (deciding the claim is *only* that prior art). Discrimination is a novelty judgment that is:
 1. genuinely hard (BCS-vs-Cooper, Higgs-vs-Anderson divided experts for years);
-2. exactly the step A2ACW failed — the temporal-asymmetry audit verified both agents *had* the prior art and didn't surface the reduction; the 6 demotions came from human audit, not the AI loop;
+2. exactly the step A2ACW failed — the temporal-asymmetry audit verified both agents *had* the prior art and didn't surface the reduction; the 6 demotions came from human audit, not the AI loop **[back-annotated 2026-10-21 from the site, explorer finding 2026-10-20 `a2acw-lv-rerun-and-the-demotion-auditor.md`: traced through git, all six demotion edits and decisions were made by AI tracks (simulated visitor personas and autonomous sessions); no human audit decision is on record. The "human audit" wording entered the record on 2026-05-18 via a site back-annotation (commit e8752205). Original text kept above]**;
 3. not automated by the protocol.
 
 So "A2ACW generalizes as a reparametrization detector" is **unsupported**. The honest claim is narrower.

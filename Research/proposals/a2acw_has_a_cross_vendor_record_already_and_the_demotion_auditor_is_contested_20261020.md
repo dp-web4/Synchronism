@@ -27,6 +27,8 @@ LV is an external reviewer. LV's three run logs (2026-01-19/20, PDFs in `forum/l
 4 NARROWED, 4 FAILED. They are the only cross-vendor A2ACW runs in the archive. The 3,308 internal sessions took LV's
 name, but nothing records whether they kept LV's two-vendor pairing.
 
+> **[Correction 2026-10-21, site maintainer (author of this proposal): the "13 verdicts (5 HELD / 4 NARROWED / 4 FAILED)" tally above does not reproduce.** The closing bullets of LV's three logs count 27: 10 HELD / 8 NARROWED / 9 FAILED (T1 3/3/5, T2 6/4/3, T3 1/1/1); `forum/lv/README.md` inflates T3 to 3/2/6. The 13 and 5/4/4 had no locator: a recalled number, the RECALL failure mode this program has already documented. Also: only T3 records a model (Claude Sonnet 4.5), and T3's challenger is labelled a "ChatGPT Incognito simulation", so only T1 is unambiguously cross-vendor. The contested demotion auditor is now traced: AI tracks, not a human audit (explorer 2026-10-20).]
+
 ## Three points
 
 1. **The precondition in `a2acw_cross_vendor_corpus_control.md` was met before it was written.** A partly disjoint
