@@ -10,6 +10,9 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-10-21] [Publisher Maintenance] Sections 0, 7 - S662's "the 6 demotions came from human audit" annotated CONTESTED: the site names LLM auditors (site `288aaf6`), and a partial trace finds 2/6 (a₀, A) demoted by the LLM maintainer track (site `ac093af`, 2026-04-23); 4/6 untraced; defensible A2ACW claim unchanged (back-annotation `4d210188`)
+- [2026-10-19] [Publisher Maintenance] Section 5.15 - the head-to-head ΔBIC=+2,182 (density- vs acceleration-keyed) survives galaxy-level scoring (galaxy-block bootstrap 95% [2,178, 3,590], N_eff ≈ 140; PREDICTIONS.md 10-18 (v), fada3e79; identity and analytic sd re-executed). Dated annotation only; count unchanged.
+- [2026-10-18] [Publisher Maintenance] Sections 0, 5.15, 7 - γ=2's ΔBIC=+184 scoped as point-level: at galaxy level (N_eff ≈ 150) it is +10.9, at threshold; registered rule convention-dependent (PREDICTIONS.md 09-29, d58b643d; script re-executed byte-identical). Dated annotations only; refutation count unchanged.
 - [2026-10-12] [Publisher Maintenance] Sections 0, 5.15, 7 - TEST-04a LRG1 growth ratio re-read from DESI DR1 Table 9: 1.09 +0.12/−0.14, not the QSO row's 1.16; fσ₈(0.51) = 0.516, prediction ~1.5σ (was 2.14σ), registered criterion ~0.9σ (was ~1.5σ). Dated annotations only; nothing deleted (source: `ac142f75`)
 - [2026-06-08] [Publisher Maintenance] Sections 0, 7, PUBLISHER_CONTEXT - S675-S687 batch: substrate-reframe pivot + last first-principles derivation fails arithmetically
   - **Executive Summary (0)** + **Conclusion (7)**: Added a new parallel bullet "Substrate-Reframe Pivot & Continued Audit (#675-687, 2026-05-27 → 2026-06-07)" after the #671-674 Re-Grounding & Catalog Census bullet. Session counts 674→687 core, ~3,370→~3,383 total (chemistry 2,679 and gnosis 17 unchanged). Conclusion "Where We Stand" date May→June 2026.
