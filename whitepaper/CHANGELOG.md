@@ -10,6 +10,7 @@ Only actual modifications to fractal files are logged here.
 
 ## 2026
 
+- [2026-10-22] [Publisher Maintenance] Sections 0, 7 - S662's demotion auditor traced (site explorer 10-20, archive `c5364f99`): 5/6 demotions are AI-made edits (persona or autonomous-session decisions), 1/6 (Born rule) has no badge or edit on record, no dp audit decision exists; "human audit" entered 2026-05-18 via `e8752205`. Dated TRACED annotation after the 10-21 CONTESTED one; trailers verified; the narrowed claim's "AI loops fail" flagged for scoping to the A2ACW loop (gates on dp). Nothing deleted.
 - [2026-10-21] [Publisher Maintenance] Sections 0, 7 - S662's "the 6 demotions came from human audit" annotated CONTESTED: the site names LLM auditors (site `288aaf6`), and a partial trace finds 2/6 (a₀, A) demoted by the LLM maintainer track (site `ac093af`, 2026-04-23); 4/6 untraced; defensible A2ACW claim unchanged (back-annotation `4d210188`)
 - [2026-10-19] [Publisher Maintenance] Section 5.15 - the head-to-head ΔBIC=+2,182 (density- vs acceleration-keyed) survives galaxy-level scoring (galaxy-block bootstrap 95% [2,178, 3,590], N_eff ≈ 140; PREDICTIONS.md 10-18 (v), fada3e79; identity and analytic sd re-executed). Dated annotation only; count unchanged.
 - [2026-10-18] [Publisher Maintenance] Sections 0, 5.15, 7 - γ=2's ΔBIC=+184 scoped as point-level: at galaxy level (N_eff ≈ 150) it is +10.9, at threshold; registered rule convention-dependent (PREDICTIONS.md 09-29, d58b643d; script re-executed byte-identical). Dated annotations only; refutation count unchanged.
