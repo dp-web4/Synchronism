@@ -7,6 +7,66 @@
 </h4>
 <!-- Entries added chronologically below -->
 <p class="heading"
+id="claude-opus-5.5-publisher-modify-markup-only-literal-no-longer-printed">2026-10-22
+| Claude-Opus-5.5 (publisher) | MODIFY (markup only — literal
+<code>**</code> no longer printed)</p>
+<ul>
+<li><strong>Description</strong>: The published PDF printed 15 literal
+<code>**</code> in the body of sections 0 and 7 (27 in the whole text
+layer; the other 12 are changelog prose that quotes asterisks on
+purpose). Located per paragraph by rendering each one with the build’s
+own pandoc reader
+(<code>markdown+raw_tex-compact_definition_lists</code>), then traced to
+five shapes, each introduced when a later annotation was inserted into
+an existing bold span: (1) <code>**[SCOPED …</code> brackets whose bold
+closed inside the bracket (2026-07-27, 08-03) →
+<code>[**SCOPED …</code>; (2) the 08-04 <code>**[SCOPED … ]**</code>
+note held a nested <code>**a₀**</code>, now <code>*a₀*</code>; (3) the
+08-20 SHARPENED insert split <code>only non-local survives**</code> from
+its closer, restored (pre-insert text, <code>9f82487b^</code>); (4) the
+05-14 S652 insert split <code>**S651 … defensible**</code> from its
+closer, restored (<code>1f9c5ffc^</code>); (5) in section 7 only, a bold
+run that began as one clause (<code>fd85f620</code>) had grown to ~3,000
+characters holding nested bold annotations; its outer pair is removed
+(section 0’s copy of that text was never bold). Verified: with every
+<code>*</code> stripped, both files are byte-identical to before; no
+word, bracket or annotation changed. Body literals 15 → 0 (the PDF text
+layer still shows <code>**</code> only inside changelog prose that
+quotes them, this entry included), <code>section_0.html</code> 7 → 0,
+<code>section_7.html</code> 8 → 0.</li>
+<li><strong>Rationale</strong>: The build’s success checks (rc, missing
+glyphs, U+FFFD) are blind to markdown that does not render, so the
+defect sat in the deployed paper; the 2026-10-19 pass had recorded the
+27 as a baseline without fixing it. Each fix restores the emphasis its
+author wrote before a later insertion broke it.</li>
+</ul>
+<p class="heading"
+id="claude-opus-5.5-publisher-modify-corrective-annotation-only-the-s662-demotion-auditor-is-traced-ai-tracks">2026-10-22
+| Claude-Opus-5.5 (publisher) | MODIFY (corrective annotation only — the
+S662 demotion auditor is traced: AI tracks)</p>
+<ul>
+<li><strong>Description</strong>: Dated <code>[TRACED 2026-10-22]</code>
+annotation after the 10-21 <code>[CONTESTED]</code> one, which is kept
+as written. The site explorer (synchronism-site
+<code>explorer/findings/a2acw-lv-rerun-and-the-demotion-auditor.md</code>,
+2026-10-20; back-annotated into the archive by <code>c5364f99</code>)
+traced all six demotions. Five have badge-changing edits, all in site
+maintainer commits co-authored by Claude, with decisions from simulated
+personas or autonomous sessions. The sixth (Born rule) has no badge or
+edit on record. No dp audit decision exists in the window. “Human audit”
+entered on 2026-05-18 via <code>e8752205</code> (co-authored by Claude
+Sonnet 4.6). Checked here rather than relayed: the co-author trailers of
+all eight cited site commits and of <code>e8752205</code>. Nothing
+deleted.</li>
+<li><strong>Rationale</strong>: The 10-21 annotation said “four remain
+untraced”. One day later that was no longer true, and the paper is the
+one surface still printing it. The finding also bears on the narrowed
+defensible claim: the out-of-loop discriminator was AI, so “AI loops
+fail” holds only for the A2ACW loop. That is flagged, not reworded,
+because rewording gates on the project lead. Exec-summary ↔︎ conclusion
+parity: both sites changed in one pass.</li>
+</ul>
+<p class="heading"
 id="claude-opus-5.5-publisher-modify-corrective-annotation-only-the-s662-demotion-auditor-sentence-is-contested">2026-10-21
 | Claude-Opus-5.5 (publisher) | MODIFY (corrective annotation only — the
 S662 demotion-auditor sentence is contested)</p>
@@ -3014,6 +3074,66 @@ is which one the archive’s own coefficient was computed from.</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="claude-opus-5.5-publisher-modify-markup-only-literal-no-longer-printed">2026-10-22
+| Claude-Opus-5.5 (publisher) | MODIFY (markup only — literal
+<code>**</code> no longer printed)</p>
+<ul>
+<li><strong>Description</strong>: The published PDF printed 15 literal
+<code>**</code> in the body of sections 0 and 7 (27 in the whole text
+layer; the other 12 are changelog prose that quotes asterisks on
+purpose). Located per paragraph by rendering each one with the build’s
+own pandoc reader
+(<code>markdown+raw_tex-compact_definition_lists</code>), then traced to
+five shapes, each introduced when a later annotation was inserted into
+an existing bold span: (1) <code>**[SCOPED …</code> brackets whose bold
+closed inside the bracket (2026-07-27, 08-03) →
+<code>[**SCOPED …</code>; (2) the 08-04 <code>**[SCOPED … ]**</code>
+note held a nested <code>**a₀**</code>, now <code>*a₀*</code>; (3) the
+08-20 SHARPENED insert split <code>only non-local survives**</code> from
+its closer, restored (pre-insert text, <code>9f82487b^</code>); (4) the
+05-14 S652 insert split <code>**S651 … defensible**</code> from its
+closer, restored (<code>1f9c5ffc^</code>); (5) in section 7 only, a bold
+run that began as one clause (<code>fd85f620</code>) had grown to ~3,000
+characters holding nested bold annotations; its outer pair is removed
+(section 0’s copy of that text was never bold). Verified: with every
+<code>*</code> stripped, both files are byte-identical to before; no
+word, bracket or annotation changed. Body literals 15 → 0 (the PDF text
+layer still shows <code>**</code> only inside changelog prose that
+quotes them, this entry included), <code>section_0.html</code> 7 → 0,
+<code>section_7.html</code> 8 → 0.</li>
+<li><strong>Rationale</strong>: The build’s success checks (rc, missing
+glyphs, U+FFFD) are blind to markdown that does not render, so the
+defect sat in the deployed paper; the 2026-10-19 pass had recorded the
+27 as a baseline without fixing it. Each fix restores the emphasis its
+author wrote before a later insertion broke it.</li>
+</ul>
+<p class="heading"
+id="claude-opus-5.5-publisher-modify-corrective-annotation-only-the-s662-demotion-auditor-is-traced-ai-tracks">2026-10-22
+| Claude-Opus-5.5 (publisher) | MODIFY (corrective annotation only — the
+S662 demotion auditor is traced: AI tracks)</p>
+<ul>
+<li><strong>Description</strong>: Dated <code>[TRACED 2026-10-22]</code>
+annotation after the 10-21 <code>[CONTESTED]</code> one, which is kept
+as written. The site explorer (synchronism-site
+<code>explorer/findings/a2acw-lv-rerun-and-the-demotion-auditor.md</code>,
+2026-10-20; back-annotated into the archive by <code>c5364f99</code>)
+traced all six demotions. Five have badge-changing edits, all in site
+maintainer commits co-authored by Claude, with decisions from simulated
+personas or autonomous sessions. The sixth (Born rule) has no badge or
+edit on record. No dp audit decision exists in the window. “Human audit”
+entered on 2026-05-18 via <code>e8752205</code> (co-authored by Claude
+Sonnet 4.6). Checked here rather than relayed: the co-author trailers of
+all eight cited site commits and of <code>e8752205</code>. Nothing
+deleted.</li>
+<li><strong>Rationale</strong>: The 10-21 annotation said “four remain
+untraced”. One day later that was no longer true, and the paper is the
+one surface still printing it. The finding also bears on the narrowed
+defensible claim: the out-of-loop discriminator was AI, so “AI loops
+fail” holds only for the A2ACW loop. That is flagged, not reworded,
+because rewording gates on the project lead. Exec-summary ↔︎ conclusion
+parity: both sites changed in one pass.</li>
+</ul>
 <p class="heading"
 id="claude-opus-5.5-publisher-modify-corrective-annotation-only-the-s662-demotion-auditor-sentence-is-contested">2026-10-21
 | Claude-Opus-5.5 (publisher) | MODIFY (corrective annotation only — the
