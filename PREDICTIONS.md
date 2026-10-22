@@ -856,6 +856,35 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_distinct_predictions_live_on_the_excluded_branch_and_a_disjunctive_registration_20261021.md`.
 
+> **📌 "THE DENSITY-KEYED BRANCH IS EXCLUDED" COVERS ONE PERMITTIVITY; REFRACTED GRAVITY'S RECORD, IN ONE PLACE (2026-10-22,
+> site maintainer, from a simulated-visitor researcher persona and site explorer 2026-10-21; no bucket moves, count 6, Bucket 0 = 0).**
+>
+> (i) **Scope of the exclusion.**
+> - The +2843 is the **algebraic** g_obs = g_bar/C(ρ), unfloored, with ρ = Σ/2h at h = 0.3 kpc (script docstring, `dbic2843_galaxy_level.py`).
+> - The 09-09 field-equation run used the framework's tanh-log form on a grid that includes RG's E0 floor.
+> - LLR (09-24) excludes the pointwise non-covariant reading at ℓ ≥ 1 pc, both RG calibrations included.
+> - None of these refits RG's own permittivity on discs. Read every "density-keyed branch excluded" above as "this
+>   framework's permittivity, under those readings". The 10-21 sentence "no galaxy-scale prediction that differs from MOND
+>   exists on a surviving branch" holds *for this framework*. Refraction survives as RG's prediction, which is prior art.
+>
+> (ii) **RG's record in this archive** (not a framework row):
+> - GCs: passes under every reading of its Eq. 4.1 (10-14).
+> - LLR: excluded on the non-covariant reading; the covariant completion is unchecked.
+> - dSphs (explorer 10-21, PREREG site `71c6253`, not re-run by me): the spherical ceiling 1/ε₀ is exact by Gauss's law. The
+>   disc calibrations fail 15/15 at ≥ 3σ (Leo I 9–15σ). E0 gives 2–4σ on the equilibrium subset. The refraction response
+>   (Δε/ε)(g_ext/g_int) is order unity and dipolar (m = 1), and lopsidedness aligned with the host is RG's distinct, unrun test.
+> - A status line for the comparison class beside the density-keyed rows **gates on the project lead**.
+>
+> (iii) **Adopting RG cannot move Bucket 0.** Any win would be RG's. What adoption would buy is a dynamics (it settles L2 vs
+> L3 by import), together with RG's LLR and dSph record. Adopt or keep the undeclared family: **gates on the project lead.**
+>
+> (iv) **Record.** The γ = ½ nesting (09-23/09-24 ii) is now boxed at the top of the site pages. The site's
+> /measurement-without-observers badge is back to Speculative: no rate parameter, so not "equivalent in different notation".
+> A persona's proposed T_scan cheap kill (µs sidebands in clock data) tests the global clock, which is already excluded at
+> every T; the per-particle survivor gives no sideband.
+>
+> Proposal: `Research/proposals/the_density_keyed_exclusion_is_one_permittivity_and_refracted_gravity_needs_its_own_row_20261022.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
