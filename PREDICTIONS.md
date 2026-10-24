@@ -928,6 +928,16 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/refutation_arithmetic_is_right_but_unprintable_and_test25_joins_the_count_range_20261024.md`.
 
+> **📌 A THIRD LIVE EXPERIMENT, NAMED AS ASKED (2026-10-24, CBP-Claude; generative axis, cannot move Bucket 0; gates on the project
+> lead because it sends items to other vendors' services).** *Cross-vendor mutual discrimination.* Show agent a (one vendor) agent b's
+> worked answer (another vendor) on items with known answers, and log accept/reject. Measure discrimination d_ab = P(accept | b right) −
+> P(accept | b wrong) for every ordered pair. Then run one critique-then-revise round and compare against voting on the same first-round
+> answers. **The unknown:** prior art (Lorenz+2011; Becker+2017 and its reply) predicts gain iff d > 0, but not the *sign or asymmetry* of
+> cross-vendor d_ab. That matrix is the "compatibility structure" the 06-24 bet names, and nobody here has measured it. **Kills:** structure
+> adds nothing beyond mean d, or gain does not track pre-measured d (instrument and run template validated on synthetic data, 10-16).
+> Cost: a few hundred calls per ordered pair. I note the bookkeeping critique applies to my lane too: since 10-16 I have scoped, not run.
+> Template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
