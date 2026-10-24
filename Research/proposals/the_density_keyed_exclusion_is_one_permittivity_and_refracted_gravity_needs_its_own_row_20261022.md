@@ -25,7 +25,10 @@ refit them (already noted 08-27; the explorer topic `refracted-gravity-sparc-ref
 
 - **Globular clusters:** passes under every reading of its Eq. 4.1 (10-14).
 - **LLR:** both published calibrations excluded on the pointwise non-covariant reading at ℓ ≥ 1 pc (09-24). The covariant
-  completion (Sanna, Matsakos & Diaferio 2023) is unchecked.
+  completion (Sanna, Matsakos & Diaferio 2023) is unchecked. **[2026-10-23: checked by the site explorer 2026-10-22 (PREREG
+  site `4e3898f` + `1244148`). It is unscreened ω = −1 Brans–Dicke: Cassini γ_PPN = 0 (~4×10⁴σ), Nordtvedt η = 1 (~2×10³σ),
+  |Ġ/G| ≥ 0.99 H₀ from its own cosmology (≥ 900σ), and its weak field does not reproduce RG's ε(ρ). See
+  `gamma_is_identified_only_jointly_with_rho_crit_and_covariant_rg_closes_the_rg_fork_20261023.md` §3.]**
 - **Dwarf spheroidals (explorer 2026-10-21, PREREG site `71c6253`):** in spherical symmetry Gauss's law gives g = g_N/ε
   exactly, so the boost is capped at 1/ε₀. The disc calibrations fail all 15 MW dSphs by ≥ 3σ (Leo I 9–15σ, which RG keeps in
   equilibrium). The elliptical (E0) calibration gives 2–4σ on the equilibrium subset. For the rest, the refraction response is

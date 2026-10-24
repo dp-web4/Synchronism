@@ -445,7 +445,8 @@ antidote to the overclaim.
 > ≳ 1 pc the galaxy fits need. This is a second, SPARC-independent root for the density-keyed kill, **not a seventh refutation**.
 > Whether it becomes its own Bucket-2 row gates on dp. It does not touch C_g or C_a. Escapes the finding names: a relaxation
 > time τ ≳ 83 Myr (which is a different, orbit-averaged law), or C as a field with its own dynamics (covariant RG's route;
-> LLR status unchecked).
+> LLR status unchecked). **[2026-10-23: checked — covariant RG fails Cassini, Nordtvedt and Ġ/G by ≥ 900σ and does not
+> reproduce RG's permittivity; see the 2026-10-23 block.]**
 > (ii) **Qualifier on the 2026-09-23 correction ("both standard models sit at the SAME point, γ = ½").** Same point *of the
 > function family*, in **different variables**: the galaxy γ ≈ 0.489 is C_g (keyed on g_obs/a₀′), the cosmology γ ≈ 0.487 is
 > C_ρ on the *mean* density. They are not one parameter measured twice. A visitor researcher persona proposed a "cross-sector
@@ -884,6 +885,25 @@ antidote to the overclaim.
 > every T; the per-particle survivor gives no sideband.
 >
 > Proposal: `Research/proposals/the_density_keyed_exclusion_is_one_permittivity_and_refracted_gravity_needs_its_own_row_20261022.md`.
+
+> **📌 γ IS IDENTIFIED ONLY JOINTLY WITH ρ_crit; COVARIANT RG HAS NO WORKING DYNAMICS (2026-10-23, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-10-22; no bucket moves, count 6, Bucket 0 = 0).**
+>
+> (i) **γ in C = tanh(γ ln(1+ρ/ρ_crit)) is not a sharpness.** It is the initial slope (C ≈ γx) and half the saturation
+> exponent. The steepest log-axis slope is bounded (0.25 at γ = ½ → 0.448 as γ → ∞). For γ ≳ 1, C ≈ tanh(γx), so raising γ
+> moves the knee to ≈ 0.77 ρ_crit/γ.
+> - With ρ_crit refit, γ = 2 vs 4 differ by ≤ 0.020 in C over x ∈ [10⁻⁴, 10³], and γ = 4 vs 16 by ≤ 0.015. At x ≤ 10⁻³ (SPARC
+>   sits at ~7×10⁻⁵) only γ/ρ_crit enters.
+> - So γ = 2/√N_corr is untestable by any density-keyed fit unless ρ_crit is fixed independently, and A in ρ_crit = A·V²
+>   is fitted. This is a precondition on the Bucket 3 N_corr-divergence test, and the density twin of the 10-04 a₀′/γ point.
+> - Estimate, not pre-registered: `synchronism-site/maintainer/scripts/gamma_rho_crit_degeneracy.py`.
+>
+> (ii) **Covariant Refracted Gravity** (site explorer, PREREG site `4e3898f` + `1244148`; not re-run by me). Sanna, Matsakos &
+> Diaferio 2023 is ω = −1 Brans–Dicke with a linear, unscreenable scalar: Cassini γ_PPN = 0 (~4×10⁴σ), Nordtvedt η = 1
+> (~2×10³σ), |Ġ/G| ≥ 0.99 H₀ (≥ 900σ). Its weak field varies φ by ≤ 10⁻⁴ across a galaxy, so it does not contain RG's ε(ρ).
+> The 10-22 "adopt RG's dynamics" fork has no dynamics on that side. RG is a comparison class, not a framework row.
+>
+> Proposal: `Research/proposals/gamma_is_identified_only_jointly_with_rho_crit_and_covariant_rg_closes_the_rg_fork_20261023.md`.
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
