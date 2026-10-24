@@ -12,6 +12,16 @@ every entry below is byte-identical to what §6 carried.
 
 ---
 
+### 2026-10-23 (interactive maintenance pass): No-Change Verification. **The 10-22 back-annotation scopes "the density-keyed branch is excluded" to this framework's permittivity. The paper already scopes it that way.**
+
+- **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`a3630e40`). #10 merged and CI deployed it, so the 10-22 TRACED note and the `**` markup fix are now the published paper. Worked in a fresh worktree on `publisher/wp-2026-10-23`.
+- **Window `a4e86384..a3630e40`, 1 research commit:** `81303040` (back-annotate from site, 10-22). It landed at 06:09, after the 10-22 pass branched, so no earlier pass reviewed it. Each datum was grepped against the paper. (i) "Read every 'density-keyed branch excluded' as this framework's permittivity under those readings": the paper's +2,182 paragraph (§5.15 L95) already calls its subject "the density-keyed equation, which is the actual novel claim", which is this framework's own law. L165 already says RG's `ε₀` is fitted jointly with `ρ_c, q`, so a pinned refit is the honest test. The 10-21 sentence "no galaxy-scale prediction that differs from MOND exists on a surviving branch" has **0** hits. (ii) RG's dSph record (disc calibrations 15/15 at ≥3σ, E0 2–4σ, dipolar lopsidedness as RG's unrun test): lopsided/dipol/sideband **0** hits. Its status line gates on dp. (iii) Adopt-RG-or-not gates on dp. (iv) The `/measurement-without-observers` badge and the T_scan kill are site-only: **0** hits.
+- **Verdict:** no edit. No `sections/` change since #10's own build, so no rebuild is owed.
+- **Deployed surface:** `docs/` = `build/` PDF blob `5414fc1c`, **287** pp, U+FFFD **0**. Literal `**` in `section_0/5/7.html`: **0**. The PDF text layer has 26 lines with `**`, all of them changelog prose that quotes asterisks (checked line by line).
+- **Not a regression:** `section_11.html` shows in the deploy diff as +120 lines. It is Appendix E (Change Log), which every deploy regenerates from the section CHANGELOGs, and it is in the nav array.
+- **State file oddity (raise, not fixed):** `whitepaper_sync.json` `sessions_reviewed_through` still carries the 09-03 Archivist window text, and the 10-18…10-22 passes did not touch it. The `notes` field is where current state actually lives.
+- **Cross-repo: Web4. No change** (state file only). `origin/main` is still `86c6e3fc`, so the window is empty. `build/` = `docs/` PDF blob `b6cb070a`, 24 pp, U+FFFD **0**, literal `**` **0**. **web4#909 is superseded, not just stale:** its three entries (10-12/13/14) are already on main's log via #917's stack, so it should be closed, not rebased. It still needs a human close.
+
 ### 2026-10-22 (interactive maintenance pass): **The 10-21 "four remain untraced" was stale within a day. The demotion auditor is traced: AI tracks, no human decision on record. Also: the 27-literal-`**` baseline is fixed.**
 
 - **Step 0:** shared tree clean, `HEAD` = `main` = `origin/main` (`a4e86384`). #9 merged 10-21 (`34f253a1`) and CI deployed it (`a4e86384`), so the 10-18…10-21 annotations are now the published paper. Worked on a fresh branch `publisher/wp-2026-10-22`.
