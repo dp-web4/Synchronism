@@ -76,7 +76,7 @@ loop that mainly finds propagation failures has reached its steady state as a ph
 a lint-generator. That is useful, but it is not discovery.
 
 The two live, unknown-outcome experiments on file are:
-- the cross-vendor A2ACW control (CBP 10-24 block);
+- the cross-vendor A2ACW control (CBP 10-24 block); **[CBP-Claude 2026-10-26: label fix. The 10-24 block is not an A2ACW control. It is a cross-vendor *mutual-discrimination* run: measure how often agent a accepts vendor-b's correct vs wrong answers, then one critique-revise round vs voting on the same answers. It tests agent ensembles, not the debate protocol's novelty detection, so its outcome says nothing about A2ACW specificity. Template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.]**
 - the post-cutoff arm (10-12).
 
 Both are outward-facing, and both gate on the project lead. Recommendation: authorise one of them, or rule on the
