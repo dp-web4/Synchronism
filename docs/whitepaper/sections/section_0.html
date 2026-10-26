@@ -502,7 +502,25 @@ Publishable core identified.</li>
 0.003 dex — exactly CDM prediction (z=+0.5). MOND rejected at 32σ in
 optimal subsample. Self-corrected from premature “below CDM” claim
 (S606→S609). INCONCLUSIVE overall — BIG-SPARC required. 41st complete
-arc.</li>
+arc. [<strong>CHECKED 2026-10-24:</strong> σ_int = 0.086 is not a BTFR
+scatter. It is the residual of log M_b regressed on five predictors,
+three of which are built from M_b’s own ingredients (i-band L, both
+stellar-mass estimates, f_gas). Shuffling or dropping log V gives 0.0870
+against 0.0864, so velocity contributes 0.0006 dex. Durbala’s Taylor
+masses are the Taylor+2011 colour formula, so the target is a
+closed-form function of four of the five predictors (rebuilt without a
+fit to 0.0037 dex on the 677), and 0.086 is the linearisation error of
+that identity. Both verdicts above (“exactly CDM”, “MOND rejected at
+32σ”) compare a photometric-estimator residual with a dynamical
+prediction and carry no content; the BIG-SPARC forecast inherits the
+same estimator. The like-for-like plain inverse BTFR on the same 677 is
+σ_int = 0.073 ± 0.002 dex in log V (an upper bound), against 0.064
+(abundance matching, Desmond 2017) and 0.029 (SPARC): not tighter than
+ΛCDM, and on W50 widths not discriminating in either direction. Both
+control scripts re-executed in this pass (synchronism-site PREREG
+<code>b134d0f</code>; archive back-annotation <code>379b3b7f</code>). A
+CDM-vs-MOND result, not this framework’s ledger: refutation count
+unchanged. Text above unchanged.]</li>
 <li><strong>OQ007 Fractal Coherence Bridge (#611-614):</strong> Tested
 whether C(ρ) constitutes predictive theory across scales.
 <strong>NEGATIVE verdict</strong>: 0/7 scale boundaries predicted, all
@@ -1025,37 +1043,39 @@ UPLIFTED 0.97 → 0.98):</strong> <strong>[SCOPED 2026-10-18: +184 counts
 every SPARC point as an independent draw (the frozen 2026-07-22 pipeline
 reproduces +184.0 at 2,807 points / 166 galaxies; S661 reported 2,693 /
 153). With the galaxy as the replication unit (measured N_eff ≈ 150) it
-is +10.9, at the ΔBIC = 10 threshold: γ=2 is still worse than free γ in
-94/166 galaxies and held-out CV prefers free γ by 1.6σ, so γ=2 remains
-disfavoured, but the registered rule returns
-<em>convention-dependent</em>, not decisive. Refutation count unchanged.
-See §5.15.]</strong> Explorer track ran the discriminator on real SPARC
-data (2,693 points, 153 galaxies, M/L + distance marginalized).
-Compander μ with <strong>γ=2 pinned</strong>: a₀ = 2.97×10⁻¹⁰ m/s², RMS
-0.1485 dex, <strong>ΔBIC = +184</strong> vs McGaugh ν (a₀ = 1.13×10⁻¹⁰,
-RMS 0.1437). Kill criterion (ΔBIC &gt; 10) decisively triggered; robust
-to intra-galaxy point-correlation correction (effective N ≈ 500–1000 →
-ΔBIC ≈ 33, still decisive). Compander μ with γ free: γ = 0.49, a₀ =
-5.3×10⁻¹¹, RMS = 0.1437 — indistinguishable from McGaugh (ΔBIC = +7.1).
-<strong>There is no γ for which the compander is both distinct from MOND
-and consistent with SPARC</strong>: pinned γ=2 → refuted (S660B’s
-“mildly disfavored” a-priori estimate sharpened — the +3.3% RMS penalty
-is a COHERENT S-shaped residual at g_bar ≈ a₀, ~8σ/bin, a
-population-wide shape term not absorbable by per-galaxy M/L
-marginalization); fitted γ → MOND. <strong>Galactic sector closed BY
-EXECUTION</strong>, matching the cosmological sector (S635/S645/S654).
-The framework’s distinct content was testable, was tested, and failed.
-Methodological point worth foregrounding in any methodology paper: a
-small <em>average</em> residual that is <strong>structured</strong>
-rather than random is strong evidence against a model — RMS view says
-“mildly disfavored” (+3.3%), BIC view says “decisively refuted”
-(ΔBIC=+184); the structured transition-shape deviation is exactly the
-predicted signature, concentrated where predicted. <strong>REC-2026-037
-readiness uplifted 0.97 → 0.98</strong> (the load-bearing trigger: γ=2
-was committed a priori by the N_corr=1 derivation BEFORE the test, on
-external published data, by an independent track — qualitatively
-stronger than the rolled-back S645 case where temporal independence
-failed). Arc status:
+is +10.9 (comparator, stated 2026-10-26: γ=2 against McGaugh’s ν, one
+fitted a₀ each, so Δk = 0 and no penalty term; 166 × ln(RSS ratio) = 166
+× 0.0656; the sign test and the CV compare γ=2 with free γ), at the ΔBIC
+= 10 threshold: γ=2 is still worse than free γ in 94/166 galaxies and
+held-out CV prefers free γ by 1.6σ, so γ=2 remains disfavoured, but the
+registered rule returns <em>convention-dependent</em>, not decisive.
+Refutation count unchanged. See §5.15.]</strong> Explorer track ran the
+discriminator on real SPARC data (2,693 points, 153 galaxies, M/L +
+distance marginalized). Compander μ with <strong>γ=2 pinned</strong>: a₀
+= 2.97×10⁻¹⁰ m/s², RMS 0.1485 dex, <strong>ΔBIC = +184</strong> vs
+McGaugh ν (a₀ = 1.13×10⁻¹⁰, RMS 0.1437). Kill criterion (ΔBIC &gt; 10)
+decisively triggered; robust to intra-galaxy point-correlation
+correction (effective N ≈ 500–1000 → ΔBIC ≈ 33, still decisive).
+Compander μ with γ free: γ = 0.49, a₀ = 5.3×10⁻¹¹, RMS = 0.1437 —
+indistinguishable from McGaugh (ΔBIC = +7.1). <strong>There is no γ for
+which the compander is both distinct from MOND and consistent with
+SPARC</strong>: pinned γ=2 → refuted (S660B’s “mildly disfavored”
+a-priori estimate sharpened — the +3.3% RMS penalty is a COHERENT
+S-shaped residual at g_bar ≈ a₀, ~8σ/bin, a population-wide shape term
+not absorbable by per-galaxy M/L marginalization); fitted γ → MOND.
+<strong>Galactic sector closed BY EXECUTION</strong>, matching the
+cosmological sector (S635/S645/S654). The framework’s distinct content
+was testable, was tested, and failed. Methodological point worth
+foregrounding in any methodology paper: a small <em>average</em>
+residual that is <strong>structured</strong> rather than random is
+strong evidence against a model — RMS view says “mildly disfavored”
+(+3.3%), BIC view says “decisively refuted” (ΔBIC=+184); the structured
+transition-shape deviation is exactly the predicted signature,
+concentrated where predicted. <strong>REC-2026-037 readiness uplifted
+0.97 → 0.98</strong> (the load-bearing trigger: γ=2 was committed a
+priori by the N_corr=1 derivation BEFORE the test, on external published
+data, by an independent track — qualitatively stronger than the
+rolled-back S645 case where temporal independence failed). Arc status:
 <code>complete_galactic_and_cosmological_sectors_closed_by_execution</code>.
 <strong>S662 (2026-05-22) — A2ACW SPECIFICITY SELF-CORRECTION (audit
 channel turns on its own product) + program-level galaxy
@@ -1835,39 +1855,42 @@ sector closed by execution at S661 — RAR γ=2 refuted on SPARC at
 ΔBIC=+184 </strong>[SCOPED 2026-10-18: +184 counts every SPARC point as
 an independent draw (the frozen 2026-07-22 pipeline reproduces +184.0 at
 2,807 points / 166 galaxies; S661 reported 2,693 / 153). With the galaxy
-as the replication unit (measured N_eff ≈ 150) it is +10.9, at the ΔBIC
-= 10 threshold: γ=2 is still worse than free γ in 94/166 galaxies and
-held-out CV prefers free γ by 1.6σ, so γ=2 remains disfavoured, but the
-registered rule returns <em>convention-dependent</em>, not decisive.
-Refutation count unchanged. See §5.15.]<strong>, free-γ collapses to
-MOND (γ=0.49); no γ makes the compander both distinct from MOND and
-consistent with SPARC. Framework has no microscopic basis in collective
-coherence; it is phenomenological saturation response.</strong>
-<strong>Three pre-committed Tier-1 predictions have now triggered kill
-criteria: TEST-09 BTFR (refuted by Lelli+2019, S631), TEST-04a fσ₈
-(post-hoc consistency failure with DESI DR1 sharpened to mechanism-class
-failure / sign-reversed across S645 → S648 → S650; magnitude-only
-revision cannot recover the structural error within the suppressor class
-[CORRECTED 2026-07-14 — criterion-verdict substitution; TEST-04a is
-withdrawn from the decisive negatives: see Self-Correction Cascade
-below]), and the RAR transition-shape discriminator (S660B → S661; γ=2
-committed a priori from the N_corr=1 derivation, refuted on SPARC at
-ΔBIC=+184 by an independent track — qualitatively stronger than S645’s
-post-hoc case because temporal independence and a priori parameter
-commitment were both satisfied).</strong> Novel-survivor count → 0 after
-3,308+ sessions (S660A; entity-criterion Γ&lt;m demoted to standard QFT
-narrow-width physics — last candidate novel prediction closed).
-Site-visitor audit methodology now itself a transferable contribution;
-S648 demonstrates the methodology turning inward — auditing the
-program’s own prior epistemic framing on the same day it was published.
-Verification track operational (S638 worker verifies site-explorer-track
-derivation via CAS). Operator response began 2026-04-29: two README
-reframings shift public-site framing from “unification claim” to
-“calibrated blue-sky exploration”; framing-level corrections delivered,
-item-level corrections still pending (operator queue growing — S640 adds
-dual-C symbol convention recommendation; S645/S648 adds DR1-disagreement
-header for Session 107 page with explicit post-hoc-consistency status;
-S647 adds Method 2 self-correlation caveat for chemistry 89% validation
+as the replication unit (measured N_eff ≈ 150) it is +10.9 (comparator,
+stated 2026-10-26: γ=2 against McGaugh’s ν, one fitted a₀ each, so Δk =
+0 and no penalty term; 166 × ln(RSS ratio) = 166 × 0.0656; the sign test
+and the CV compare γ=2 with free γ), at the ΔBIC = 10 threshold: γ=2 is
+still worse than free γ in 94/166 galaxies and held-out CV prefers free
+γ by 1.6σ, so γ=2 remains disfavoured, but the registered rule returns
+<em>convention-dependent</em>, not decisive. Refutation count unchanged.
+See §5.15.]<strong>, free-γ collapses to MOND (γ=0.49); no γ makes the
+compander both distinct from MOND and consistent with SPARC. Framework
+has no microscopic basis in collective coherence; it is phenomenological
+saturation response.</strong> <strong>Three pre-committed Tier-1
+predictions have now triggered kill criteria: TEST-09 BTFR (refuted by
+Lelli+2019, S631), TEST-04a fσ₈ (post-hoc consistency failure with DESI
+DR1 sharpened to mechanism-class failure / sign-reversed across S645 →
+S648 → S650; magnitude-only revision cannot recover the structural error
+within the suppressor class [CORRECTED 2026-07-14 — criterion-verdict
+substitution; TEST-04a is withdrawn from the decisive negatives: see
+Self-Correction Cascade below]), and the RAR transition-shape
+discriminator (S660B → S661; γ=2 committed a priori from the N_corr=1
+derivation, refuted on SPARC at ΔBIC=+184 by an independent track —
+qualitatively stronger than S645’s post-hoc case because temporal
+independence and a priori parameter commitment were both
+satisfied).</strong> Novel-survivor count → 0 after 3,308+ sessions
+(S660A; entity-criterion Γ&lt;m demoted to standard QFT narrow-width
+physics — last candidate novel prediction closed). Site-visitor audit
+methodology now itself a transferable contribution; S648 demonstrates
+the methodology turning inward — auditing the program’s own prior
+epistemic framing on the same day it was published. Verification track
+operational (S638 worker verifies site-explorer-track derivation via
+CAS). Operator response began 2026-04-29: two README reframings shift
+public-site framing from “unification claim” to “calibrated blue-sky
+exploration”; framing-level corrections delivered, item-level
+corrections still pending (operator queue growing — S640 adds dual-C
+symbol convention recommendation; S645/S648 adds DR1-disagreement header
+for Session 107 page with explicit post-hoc-consistency status; S647
+adds Method 2 self-correlation caveat for chemistry 89% validation
 pages; S648 adds /timestamps page classifying every Tier-1 prediction as
 prospective / post-hoc consistency / post-hoc fit; S649 adds Site Key
 Claim #1 QM kill criterion respec (currently unfalsifiable as written)

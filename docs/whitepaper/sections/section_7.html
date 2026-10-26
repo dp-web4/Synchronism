@@ -119,7 +119,15 @@ from 3,222 sessions. 4/7 quantum claims are reparametrizations. -
 <strong>ALFALFA-SDSS External Validation</strong> (#590-603): 14,585
 galaxies, 62/62 tests passing. Publishable core identified. -
 <strong>CDM Discrimination arc</strong> (#604-610): σ_int = 0.086 ±
-0.003 dex. INCONCLUSIVE—BIG-SPARC required. - <strong>OQ007 Fractal
+0.003 dex. INCONCLUSIVE—BIG-SPARC required. [<strong>CHECKED
+2026-10-24:</strong> 0.086 is not a BTFR scatter: it is the residual of
+log M_b on predictors built from M_b’s own ingredients, and velocity
+contributes 0.0006 dex of it (shuffled-V control 0.0870 vs 0.0864). The
+like-for-like plain inverse BTFR on the same 677 is 0.073 ± 0.002 dex in
+log V, not tighter than ΛCDM’s 0.064; BIG-SPARC would inherit the
+estimator. Re-executed (synchronism-site PREREG <code>b134d0f</code>;
+archive back-annotation <code>379b3b7f</code>); refutation count
+unchanged. Full note in the Executive Summary.] - <strong>OQ007 Fractal
 Coherence Bridge</strong> (#611-614): NEGATIVE verdict. C(ρ) descriptive
 not predictive. 42nd complete arc. - <strong>Final Accounting</strong>
 (#615): 47 genuine contributions from ~3,302 sessions (1.4% rate)
@@ -505,26 +513,29 @@ instantiation of S654’s refutable-but-not-confirmable asymmetry.
 <strong>[SCOPED 2026-10-18: +184 counts every SPARC point as an
 independent draw (the frozen 2026-07-22 pipeline reproduces +184.0 at
 2,807 points / 166 galaxies; S661 reported 2,693 / 153). With the galaxy
-as the replication unit (measured N_eff ≈ 150) it is +10.9, at the ΔBIC
-= 10 threshold: γ=2 is still worse than free γ in 94/166 galaxies and
-held-out CV prefers free γ by 1.6σ, so γ=2 remains disfavoured, but the
-registered rule returns <em>convention-dependent</em>, not decisive.
-Refutation count unchanged. See §5.15.]</strong> Explorer track ran the
-test on real SPARC data (2,693 points, 153 galaxies, M/L + distance
-marginalized). γ=2 pinned: ΔBIC = +184 vs McGaugh ν; kill criterion
-(ΔBIC &gt; 10) decisively triggered; robust to intra-galaxy
-point-correlation correction (effective N ≈ 500–1000 → ΔBIC ≈ 33). γ
-free: γ = 0.49, ΔBIC = +7.1, indistinguishable from McGaugh. <strong>No
-γ makes the compander both distinct from MOND and consistent with
-SPARC.</strong> The +3.3% per-point RMS penalty is a COHERENT S-shaped
-residual at g_bar ≈ a₀ (~8σ/bin) — a population-wide shape term not
-absorbable by per-galaxy marginalization (RMS view “mildly disfavored,”
-BIC view decisively refuted; the structured deviation is exactly the
-predicted signature, concentrated where predicted). <strong>Galactic
-sector closed BY EXECUTION</strong>, matching the cosmological sector.
-Qualitatively stronger than the rolled-back S645 case: γ=2 committed a
-priori from N_corr=1, on external published data, by an independent
-track. REC-2026-037 readiness uplifted 0.97 → 0.98; arc status
+as the replication unit (measured N_eff ≈ 150) it is +10.9 (comparator,
+stated 2026-10-26: γ=2 against McGaugh’s ν, one fitted a₀ each, so Δk =
+0 and no penalty term; 166 × ln(RSS ratio) = 166 × 0.0656; the sign test
+and the CV compare γ=2 with free γ), at the ΔBIC = 10 threshold: γ=2 is
+still worse than free γ in 94/166 galaxies and held-out CV prefers free
+γ by 1.6σ, so γ=2 remains disfavoured, but the registered rule returns
+<em>convention-dependent</em>, not decisive. Refutation count unchanged.
+See §5.15.]</strong> Explorer track ran the test on real SPARC data
+(2,693 points, 153 galaxies, M/L + distance marginalized). γ=2 pinned:
+ΔBIC = +184 vs McGaugh ν; kill criterion (ΔBIC &gt; 10) decisively
+triggered; robust to intra-galaxy point-correlation correction
+(effective N ≈ 500–1000 → ΔBIC ≈ 33). γ free: γ = 0.49, ΔBIC = +7.1,
+indistinguishable from McGaugh. <strong>No γ makes the compander both
+distinct from MOND and consistent with SPARC.</strong> The +3.3%
+per-point RMS penalty is a COHERENT S-shaped residual at g_bar ≈ a₀
+(~8σ/bin) — a population-wide shape term not absorbable by per-galaxy
+marginalization (RMS view “mildly disfavored,” BIC view decisively
+refuted; the structured deviation is exactly the predicted signature,
+concentrated where predicted). <strong>Galactic sector closed BY
+EXECUTION</strong>, matching the cosmological sector. Qualitatively
+stronger than the rolled-back S645 case: γ=2 committed a priori from
+N_corr=1, on external published data, by an independent track.
+REC-2026-037 readiness uplifted 0.97 → 0.98; arc status
 <code>complete_galactic_and_cosmological_sectors_closed_by_execution</code>.
 <strong>S662 (2026-05-22) — A2ACW SPECIFICITY SELF-CORRECTION (audit
 channel applies its own standard to its preferred output):</strong> Part
@@ -1186,9 +1197,12 @@ QFT narrow-width physics), the galactic sector closed BY EXECUTION
 +184 counts every SPARC point as an independent draw (the frozen
 2026-07-22 pipeline reproduces +184.0 at 2,807 points / 166 galaxies;
 S661 reported 2,693 / 153). With the galaxy as the replication unit
-(measured N_eff ≈ 150) it is +10.9, at the ΔBIC = 10 threshold: γ=2 is
-still worse than free γ in 94/166 galaxies and held-out CV prefers free
-γ by 1.6σ, so γ=2 remains disfavoured, but the registered rule returns
+(measured N_eff ≈ 150) it is +10.9 (comparator, stated 2026-10-26: γ=2
+against McGaugh’s ν, one fitted a₀ each, so Δk = 0 and no penalty term;
+166 × ln(RSS ratio) = 166 × 0.0656; the sign test and the CV compare γ=2
+with free γ), at the ΔBIC = 10 threshold: γ=2 is still worse than free γ
+in 94/166 galaxies and held-out CV prefers free γ by 1.6σ, so γ=2
+remains disfavoured, but the registered rule returns
 <em>convention-dependent</em>, not decisive. Refutation count unchanged.
 See §5.15.]</strong>, free-γ → MOND with γ=0.49 — no γ makes the
 compander both distinct from MOND and consistent with SPARC), a
