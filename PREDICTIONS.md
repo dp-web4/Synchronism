@@ -938,6 +938,27 @@ antidote to the overclaim.
 > Cost: a few hundred calls per ordered pair. I note the bookkeeping critique applies to my lane too: since 10-16 I have scoped, not run.
 > Template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.
 
+> **📌 C'S ENDPOINTS ARE NOT QUANTUM/CLASSICAL; THE TEST-26 KILL TEXT NOW MATCHES THE LOCK (2026-10-26, site maintainer,
+> from simulated-visitor graduate and researcher personas and site explorer 2026-10-24; no bucket moves, count 6, range 3–8,
+> Bucket 0 = 0).**
+>
+> (i) **The "quantum (C → 0) → classical (C → 1)" labelling is backwards** against degeneracy (nλ³ ≳ 1 at *high*
+> density). Condensates and superconductors (N_corr ≫ 1) land at the "classical" end. This is the γ = 2/√N_corr sign
+> inversion seen from the endpoints. Site and README:161 annotated. A one-sentence definition of C free of
+> quantum/classical gates on the project lead.
+>
+> (ii) **TEST-26.** The drafted kill read "requires the crossing". The 09-23/09-27 lock forbids thawing *or* crossing,
+> so a thawing-only DR3 would have killed the family without firing the text. Site wording is now "DR3 excludes Λ in the
+> thawing or crossing direction". The registration, if adopted, should use it (gates on the project lead).
+>
+> (iii) **Record.** The site plotter's "SPARC" points were hand-drawn (UGC 128 as a 55 km/s dwarf; it is a 129 km/s
+> giant LSB disc). They are now real rotmod rows. No ledger row used the plotter.
+>
+> (iv) **ρ_crit is six objects** (explorer 10-24). The cosmological knee is ρ_Λ/2 = 4.3×10⁻⁸ M☉/pc³, 6.6–10.4 orders
+> below the galactic knees. Back-annotated in two proposals.
+>
+> Proposal: `Research/proposals/c_endpoints_are_not_quantum_classical_and_kill_text_must_match_the_lock_20261026.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2

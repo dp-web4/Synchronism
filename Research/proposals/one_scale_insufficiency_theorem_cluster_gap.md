@@ -116,6 +116,17 @@ Specifically:
 
 ---
 
+## Cosmological-Sector Corollary (back-annotated 2026-10-26, site maintainer, from site explorer 2026-10-24)
+
+The theorem extends to the dark-energy sector, and the gap is larger. That sector is calibrated so that C₀ = Ω_m, which
+forces ρ_crit = ρ_Λ/2 = 4.3×10⁻⁸ M☉/pc³ (H₀ = 67.4, Ω_m = 0.315). The galactic knees sit 6.6 (measured Jeans knee,
+0.161) to 10.4 (A·V², A = 0.029, V = 200 km/s) orders above it. Both one-knee identifications fail by more than six
+orders. The cosmic knee in galaxies gives C = 1 − O(10⁻⁵) at every disc density (Newtonian). A galactic knee in Friedmann
+gives late-time ρ_DE/ρ_Λ = 3.7×10⁶ to 2.7×10¹⁰. The only cross-sector constant on file is a₀ ≈ cH₀/2π, which as a density
+is ∝ V⁻² (an acceleration identification). So "one equation" is one functional form with a sector-calibrated knee.
+Untested, not refuted: a rule that predicts each sector's knee without fitting. Script:
+`synchronism-site/explorer/findings/scripts/rho_crit_knee_inventory.py`.
+
 ## Open Questions
 
 **1. Does a coherence length scale escape the theorem?**

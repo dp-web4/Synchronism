@@ -92,6 +92,15 @@ dimensional structure (from Hubble flow), so a pure dimensional prediction would
 This is already implicit in the MOND coincidence a₀ ≈ cH₀/(2π) — which the framework 
 correctly classifies as dimensional analysis, not a derivation.
 
+> **[⚠ CORRECTION 2026-10-26, site maintainer, back-annotating site explorer 2026-10-24; conclusion unchanged, formula
+> corrected.]** The ratio above is **inverted**. If c_H is c or any Hubble-flow velocity ≫ V_flat, (V_flat/c_H)² puts the
+> galactic knee 10⁻⁶–10⁻¹² *below* the cosmological one. Substituting a₀ = cH₀/2π into the a₀-tracking knee
+> a₀²/(4πG V²) gives ρ_knee(V) = (c/2πV)²·H₀²/(4πG) = **(c/2πV)²·(2/3)·ρ_c0**, about 10⁵ *above* the cosmological knee
+> (4.8×10⁻³ M☉/pc³ at 200 km/s, vs the dark-energy sector's ρ_Λ/2 = 4.3×10⁻⁸). It scales as V⁻², so it is an
+> *acceleration* identification (Milgrom's), not a density one; the framework asserts V⁺² and the measured Jeans knee is
+> V-blind. The paragraph's conclusion (dimensional analysis, not a derivation) stands. Inventory of the six objects
+> called ρ_crit: `synchronism-site/explorer/findings/rho-crit-is-sector-specific-no-density-knee-spans-galaxy-and-cosmos-the-only-bridge-is-a0.md`.
+
 The honest conclusion: any derivation of ρ_crit from cosmological quantities will have V_flat²
 as a factor (from dimensional analysis: the only velocity scale is either c or V_flat), so
 a "pure cosmological" derivation is constrained by the same dimensional structure.

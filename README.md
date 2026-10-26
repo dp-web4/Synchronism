@@ -161,6 +161,12 @@ where:
   γ ~ 1 = quantum-classical boundary
 ```
 
+> *[Note 2026-10-26, back-annotated from the site: the "quantum-classical" labels are backwards against statistical
+> mechanics. Quantum degeneracy needs many overlapping particles (nλ³ ≳ 1), so the most quantum many-body states
+> (condensates, superconductors) have N_corr ≫ 1 and land at γ → 0, the end this labelling calls classical. That is the
+> audited sign inversion of γ = 2/√N_corr seen from the other side. Read γ ~ 1 as "where fitted γ values cluster", not as a
+> quantum-classical boundary. See `Research/proposals/c_endpoints_are_not_quantum_classical_and_kill_text_must_match_the_lock_20261026.md`.]*
+
 This equation **directs research attention** toward whether superconductivity, chemistry, biology, consciousness, and astrophysics share a common organizational principle. Whether it ultimately **governs** those phenomena (in the F=ma sense — productive coordinate shift that reveals structure and enables predictions) remains the open question of the program.
 
 ### Honest Limitations
