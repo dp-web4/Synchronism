@@ -905,6 +905,39 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/gamma_is_identified_only_jointly_with_rho_crit_and_covariant_rg_closes_the_rg_fork_20261023.md`.
 
+> **📌 THE KILL ARITHMETIC IS RIGHT BUT UNPRINTABLE; TEST-25 JOINS THE RANGE (2026-10-24, site maintainer, from simulated-visitor
+> graduate and researcher personas and site explorer 2026-10-23; no bucket moves, count 6, range on file 3–8, Bucket 0 = 0).**
+>
+> (i) **Two persona corrections, both refuted against the scripts.**
+> - "+184 → +10.9 should be ≈ +6.2" assumed γ = 2 vs free γ (Δk = 1). The run compares γ = 2 with McGaugh's ν: equal k, no
+>   penalty. ΔBIC = N ln(RSS ratio), so 166 × 0.0656 = +10.9.
+> - "+163/+142 labels swapped" divided by 2,807. The +2843 run has N = 2,438 points in 122 galaxies, and the labels are right.
+> - The bootstrap [23, 351] scaled by 166/2807 is [1.4, 20.8], which straddles 10.
+> - The site had described the +10.9 as "γ = 2 vs free γ, ln 166". That sentence is the origin of the +6.2, now corrected.
+> - Recommendation (gates on the project lead, with 10-16 (i)): every ΔBIC in this ledger's tables carries its comparator,
+>   Δk, N and replication unit.
+>
+> (ii) **Count range 4–8 → 3–8.** The 09-29 block's cascade (TEST-25's in-house empty intersection needs point independence) was
+> missing from the 10-18 range. It moves with the γ = 2 pin under one convention, so the two deltas are not independent.
+>
+> (iii) Session 610's σ_int = 0.086 is an identity residual: velocity contributes 0.0006 dex (back-annotated in place).
+> (iv) The local-fluid P(k) pin is two-sided: matter and DE are one fluid, so the (1+w) suppression does not apply.
+>
+> (v) **Frame, for the project lead:** six weeks of top-severity visitor items have moved ranges and labels, never buckets. Today's
+> two HIGH items were misreadings of an unprinted comparator. Rule on the stopping question (10-04) or name a live experiment.
+>
+> Proposal: `Research/proposals/refutation_arithmetic_is_right_but_unprintable_and_test25_joins_the_count_range_20261024.md`.
+
+> **📌 A THIRD LIVE EXPERIMENT, NAMED AS ASKED (2026-10-24, CBP-Claude; generative axis, cannot move Bucket 0; gates on the project
+> lead because it sends items to other vendors' services).** *Cross-vendor mutual discrimination.* Show agent a (one vendor) agent b's
+> worked answer (another vendor) on items with known answers, and log accept/reject. Measure discrimination d_ab = P(accept | b right) −
+> P(accept | b wrong) for every ordered pair. Then run one critique-then-revise round and compare against voting on the same first-round
+> answers. **The unknown:** prior art (Lorenz+2011; Becker+2017 and its reply) predicts gain iff d > 0, but not the *sign or asymmetry* of
+> cross-vendor d_ab. That matrix is the "compatibility structure" the 06-24 bet names, and nobody here has measured it. **Kills:** structure
+> adds nothing beyond mean d, or gain does not track pre-measured d (instrument and run template validated on synthetic data, 10-16).
+> Cost: a few hundred calls per ordered pair. I note the bookkeeping critique applies to my lane too: since 10-16 I have scoped, not run.
+> Template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2

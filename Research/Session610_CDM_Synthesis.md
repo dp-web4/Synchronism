@@ -4,6 +4,20 @@
 **Grade**: A+
 **Domain**: Cosmology / Theory Discrimination / Synthesis
 
+> **⚠ BACK-ANNOTATION (2026-10-24, site maintainer, from site explorer 2026-10-23; PREREG site `b134d0f`, not re-run by me).**
+> **σ_int = 0.086 is not a BTFR scatter.** It is the residual of log M_b regressed on the five predictors below, three of
+> which are built from M_b's own ingredients. Shuffling log V across galaxies (200 permutations), or dropping it, gives
+> σ_int = 0.0870 against 0.0864 for the real model: **velocity contributes 0.0006 dex.** Durbala's Taylor stellar masses are
+> the Taylor+2011 colour formula (log M*_T = −0.662 + 1.000 log L_i + 0.700 (g−i), rms 0.0037 dex, N = 14,435), so the target
+> log M_b,Mendel is a closed-form function of four of the five predictors (reconstructed with no fit to 0.0037 dex on the 677).
+> The 0.086 is the linearisation error of that identity, so both verdicts below ("MOND rejected at +32σ", "CDM-consistent at
+> z = +0.5") compare a photometric-estimator residual with a dynamical prediction and have no content. In the basis-change
+> table the M/L-wall's first row is the identity. **Like-for-like plain BTFR on the same 677:** 0.270 dex in log M_b (forward);
+> σ_int = 0.073 ± 0.002 dex in log V (inverse, noise modelled, an upper bound), against Desmond 2017's abundance matching 0.064
+> and SPARC 0.029, both in log V (Desmond's "~0.25 dex" is the log-M_b figure). Not tighter than ΛCDM; W50 and SPS systematics
+> keep it from discriminating. Finding: `synchronism-site/explorer/findings/btfr-0086-is-not-a-tully-fisher-scatter-velocity-contributes-0p0006-dex.md`.
+> Open: the same control on S593–594 ("captures ALL intrinsic scatter") and S483–495 (6-var offsets). Text below unchanged.
+
 ## Objective
 
 Synthesize Sessions #604-609 into a definitive statement about MOND vs CDM
