@@ -959,6 +959,46 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/c_endpoints_are_not_quantum_classical_and_kill_text_must_match_the_lock_20261026.md`.
 
+> **📌 THE CITABLE REGISTER RANKED BY FRAMEWORK, NOT TRANSFERABILITY; Ω_m PLAYS TWO ROLES IN THE CEILING FORK; DOOR #3 CLOSED BY
+> NUCLEI (2026-10-27, site maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-10-26; no bucket
+> moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **The LLR Ġ/G exclusion (09-24 block) is the program's most transferable negative and was not on the site's citable register.**
+> Written for any G_eff = G·f(ρ_s): Ġ/G = (d ln f/d ln ρ)·(v_⊙·∇ln ρ_s), with the second factor 2×10⁻⁶–2×10⁻⁵ yr⁻¹ for a density
+> e-fold over ℓ = 1–10 pc, against (7.1 ± 7.6)×10⁻¹⁴ yr⁻¹ (Hofmann & Müller 2018): **|d ln G_eff/d ln ρ_s| ≲ 4×10⁻⁹–4×10⁻⁸**.
+> Even the floored published knee (0.029 V², γ = 2) fails by 4–5 orders (d ln C_f/d ln ρ ≈ 7×10⁻⁴ at the solar x ≈ 1.5×10⁻⁴).
+> Assumptions that must travel with it: ℓ ∈ [1, 10] pc, and a gradient scale ~ℓ (the discrete stellar neighbourhood inside ρ_s; a
+> smooth ≥ 100 pc density weakens it by ~10², still six orders). The 09-24 verdict ("second root, not a seventh refutation") is about
+> this ledger's count and stands; the register question is what an outsider can cite. Now item 6 on `/for-researchers`. The
+> "secondary DESI growth-suppression negative" on the same list rested on Session 107's G_local/G_global mechanism, withdrawn
+> 2026-08-11 (the uniform G/C reading gives +21 %, 10-12): retitled not citable, kept as a power calculation. A ranking criterion
+> (framework-independence × margin × independence from the fitting data) is proposed and **gates on the project lead**; it decides a
+> preprint's first paragraph.
+>
+> (ii) **The three TEST-09 ceilings presuppose different frameworks** (a graduate persona reconstructed 09-22 from the site alone):
+> 1/Ω_m is the framework as written (C floored at the cosmic C₀ = Ω_m calibration identity, with CDM inside that Ω_m), so the kill
+> under it is the kill of the framework as written; Ω_m/Ω_b is a galaxy sector that replaces CDM, and the DE sector cannot run with
+> ρ_m = ρ_b (09-22). The branch on which TEST-09 does not fire belongs to a variant whose cosmology fails. This ranks the conventions
+> and does not settle the counting rule; the ruling (10-13/10-16/10-18) should read the table. Site prints the presupposition beside
+> the sweep. Explorer topic seeded to enumerate escapes (partial CDM; sector-dependent floors; z-dependent floor).
+>
+> (iii) **Door #3 (explorer 2026-10-26, PREREG on the site):** its diffusion is a random *displacement* (Lindblad L = k̂), not a random
+> potential, so the CSL (λ, r_C) plane (LISA Pathfinder, cantilevers, X-rays) measures the wrong channel. The binding instrument is
+> Borexino's ¹¹C rate: ¹²C → ¹¹C + n below 7×10⁻³⁵ /s per nucleus gives **D/D_Pl < 4×10⁻³⁹** (10⁻³⁸ to 2.5×10⁻³⁹ across neutron
+> branching), 5×10⁸ tighter than the 09-27 heat bound; "15–30 orders" → 15–38. With a correlation length ℓ, nuclei exclude ℓ < 17 km
+> and aLIGO O3 excludes ℓ < 3×10⁷ m at the natural D; the survivor is a global translation, which is Amelino-Camelia 1999 (Nature 398,
+> 216), excluded with the Caltech 40 m data (reproduced as L_QG ≤ 6×10⁻⁴¹ m). Every row of the (D, ℓ) plane can only lose. Door #3
+> was never registered; count unchanged. Finding:
+> `synchronism-site/explorer/findings/door3-is-not-on-the-csl-plane-its-own-plane-is-closed-by-nuclei-at-small-ell-and-ligo-at-large-ell.md`.
+>
+> (iv) **Record (site only).** The /for-researchers lead still carried "the BTFR-forced V⁻² is excluded at ~10σ by the same
+> measurement" after the 10-14 bracket (fixed, lint rule). Provenance sentence now on the site: the −0.16 ± 0.19 is Session 53's
+> Jeans knee ρ_crit ∝ V^(s−2), s = 1.84 ± 0.19 from the forward regression of SPARC Table 1 central disc surface density on V_flat
+> (N = 129); neither A nor γ fitted. And /honest-assessment had said "the footer now carries the qualifier" while the footer read a
+> bare "6" until today: the sentence was written instead of the edit (a REQUIRES lint rule now binds the footer string).
+>
+> Proposal: `Research/proposals/citable_register_ranks_by_framework_not_transferability_and_omega_m_plays_two_roles_20261027.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
