@@ -1587,8 +1587,14 @@ February 2026).</p>
 <p>The master equation governing all coherence phenomena:</p>
 <pre><code>γ = 2 / √N_corr</code></pre>
 <p>Where γ is the coherence parameter and N_corr is correlated degrees
-of freedom. γ → 0 means perfect coherence; γ = 2 is the classical
-limit.</p>
+of freedom. γ → 0 means perfect coherence; γ = 2 is the classical limit.
+<em>[NOTE 2026-10-27: “classical limit” here is the N_corr = 1
+uncorrelated end, not a quantum/classical gate. The back-annotation
+2026-10-26, <code>e03d771b</code> withdrew quantum/classical endpoint
+labels for C and γ: quantum degeneracy sets in at high phase-space
+density, so the most quantum many-body states (condensates,
+superconductors) have large N_corr and sit at γ → 0. Read the two limits
+as uncorrelated (γ = 2) and collective (γ → 0).]</em></p>
 <hr />
 <p><strong>Framework Status: 2,671 Sessions, 89% Validated at
 γ~1</strong></p>
@@ -1610,7 +1616,7 @@ Derivation and provenance in the caveat below.</p>
 <col style="width: 17%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Phase</th>
 <th>Sessions</th>
 <th>Domain</th>
@@ -1619,35 +1625,35 @@ Derivation and provenance in the caveat below.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Foundation</td>
 <td>#1-5</td>
 <td>BCS, catalysis, bonding, phase transitions</td>
 <td>γ ≈ 2 universal</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>High-Tc</td>
 <td>#6-9</td>
 <td>Cuprates, enzymes, photosynthesis</td>
 <td>γ ≈ 2 in biology</td>
 <td><strong>VALIDATED</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Hydrides</td>
 <td>#10-15</td>
 <td>Hydride superconductors, quantum computing</td>
 <td>Two-path model</td>
 <td><strong>DERIVED</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Life/Economics</td>
 <td>#16-23</td>
 <td>Life, information, consciousness, kinetics</td>
 <td>Catalysis = γ reduction</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Validation</td>
 <td>#24-45</td>
 <td>Testing predictions, α origin, Tc scaling, topological
@@ -1655,35 +1661,35 @@ corrections</td>
 <td>15 predictions tested</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Expansion</td>
 <td>#46-77</td>
 <td>Fluorescence, oscillations, band gaps, thermal conductivity</td>
 <td>30+ predictions validated</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Materials Physics</td>
 <td>#78-120</td>
 <td>Elastic, optical, thermal, electronic properties</td>
 <td>Two orthogonal channels</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Integration</td>
 <td>#121-122</td>
 <td>Framework synthesis</td>
 <td>65 domains unified</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>γ~1 Boundary</td>
 <td>#147-500</td>
 <td>Phase transitions across 363 phenomenon types</td>
 <td>Universal coherence boundary</td>
 <td><strong>COMPLETE</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Extended Validation</td>
 <td>#501-2671</td>
 <td>Industrial, biological, materials chemistry</td>
@@ -1692,6 +1698,10 @@ corrections</td>
 </tr>
 </tbody>
 </table>
+<p><em>[CHECKED 2026-10-27 — “γ ≈ 2 universal” and “γ ≈ 2 in biology”
+(rows 1–2) report a fitted exponent shared across fits, not a shared
+N_corr; see the note under “γ ≈ 2 in Biological Systems” below and the
+S616 η audit (γ/BCS is a reparametrization).]</em></p>
 <p><strong>Full details:</strong> <a
 href="https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md">Framework
 Summary</a></p>
@@ -1865,6 +1875,17 @@ isotope discrimination.</p>
 <p><strong>γ ≈ 2 in Biological Systems (Sessions #8-9)</strong></p>
 <p>The same γ ≈ 2 that appears in BCS superconductivity also appears in
 biology:</p>
+<p><em>[CHECKED 2026-10-27 — “the same γ ≈ 2” is the same fitted value,
+not the same N_corr. Under this section’s master equation, γ ≈ 2 means
+N_corr ≈ 1, a single uncorrelated particle, while a BCS condensate has
+N_corr far above 1 and sits at γ → 0 (the S676 placement in §0/§7:
+electron 0.9999 → BEC ~0 as N_corr rises). The back-annotation
+2026-10-26, <code>e03d771b</code> names this from the other side: under
+the quantum/classical endpoint labelling, condensates land at the end
+called “classical”, which is why those labels were withdrawn. The r
+values in the Validated Predictions table stand as fits; what does not
+stand is reading the shared exponent as a shared correlation count.
+Words added, none removed.]</em></p>
 <p><strong>Enzymes (Session #8):</strong> - Pre-organized active sites
 create coherence environments - Enzyme-substrate complex C ≈ 0.5-0.7 -
 Rate enhancement = exp(γ × ΔC) where γ ≈ 2 - Explains 10⁶-10¹⁷ rate
@@ -1889,29 +1910,29 @@ directly—they increase correlation (reduce γ_eff), making collective
 barrier crossing more probable:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Catalyst Type</th>
 <th>γ_eff</th>
 <th>Enhancement</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>None</td>
 <td>2.0</td>
 <td>1×</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Surface</td>
 <td>1.5</td>
 <td>2-4×</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Enzyme</td>
 <td>0.5</td>
 <td>10⁶-10¹⁷×</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Quantum coherent</td>
 <td>&lt;0.5</td>
 <td>Extreme</td>
@@ -1924,29 +1945,29 @@ barrier crossing more probable:</p>
 <p>Matter phases correspond to coherence regimes:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Phase</th>
 <th>Coherence Length ξ</th>
 <th>Order Type</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Crystal</td>
 <td>∞</td>
 <td>Long-range</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Liquid</td>
 <td>~10 Å</td>
 <td>Short-range</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Gas</td>
 <td>0</td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Glass</td>
 <td>∞ (disordered)</td>
 <td>Frustrated</td>
@@ -2060,7 +2081,7 @@ navigation, photosynthesis</li>
 &gt; 0.90)</strong></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Domain</th>
 <th>Prediction</th>
 <th>Correlation</th>
@@ -2068,97 +2089,97 @@ navigation, photosynthesis</li>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Sound velocity</td>
 <td>v_D vs θ_D</td>
 <td>r = 0.982</td>
 <td>#109</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Electronegativity</td>
 <td>S vs γ_optical</td>
 <td>r = 0.979</td>
 <td>#118</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Polarizability</td>
 <td>α ∝ γ^3.4</td>
 <td>r = 0.974</td>
 <td>#85</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Atomic volume</td>
 <td>V_a vs γ_phonon</td>
 <td>r = 0.956</td>
 <td>#114</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Bulk modulus</td>
 <td>B vs E_coh/V_a</td>
 <td>r = 0.951</td>
 <td>#120</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Chemical hardness</td>
 <td>η vs 1/γ_optical</td>
 <td>r = 0.950</td>
 <td>#118</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Superconductivity</td>
 <td>Tc ∝ exp(-γ/λ)</td>
 <td>r = 0.948</td>
 <td>#62</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Melting point</td>
 <td>T_m vs E_coh</td>
 <td>r = 0.948</td>
 <td>#77</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Viscosity</td>
 <td>η ∝ γ_flow</td>
 <td>r = 0.949</td>
 <td>#73</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Electronegativity</td>
 <td>χ vs 1/γ_optical</td>
 <td>r = 0.938</td>
 <td>#115</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Phonon linewidth</td>
 <td>Γ_ph ∝ γ_G² × γ_phonon</td>
 <td>r = 0.938</td>
 <td>#107</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Shear modulus</td>
 <td>G vs 1/γ_phonon</td>
 <td>r = 0.936</td>
 <td>#110</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Electron transfer</td>
 <td>k_ET coherence-enhanced</td>
 <td>r = 0.933</td>
 <td>#64</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Thermal diffusivity</td>
 <td>α vs 1/γ_electron</td>
 <td>r = 0.932</td>
 <td>#111</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Elastic modulus</td>
 <td>E vs 1/γ_phonon</td>
 <td>r = 0.920</td>
 <td>#110</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Compressibility</td>
 <td>κ_T vs γ_phonon</td>
 <td>r = 0.918</td>
@@ -2316,7 +2337,7 @@ consciousness via coherence dynamics:</p>
 <col style="width: 22%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Level</th>
 <th>Coherence</th>
 <th>Characteristics</th>
@@ -2324,25 +2345,25 @@ consciousness via coherence dynamics:</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Reactive</td>
 <td>C &lt; 0.3</td>
 <td>No self-reference</td>
 <td>Rocks, simple molecules</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Self-referential</td>
 <td>C ≥ 0.3</td>
 <td>Minimal self-model</td>
 <td>Bacteria, thermostats</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Aware</td>
 <td>C ≥ 0.5</td>
 <td>Models self + environment</td>
 <td>Simple animals</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Conscious</td>
 <td>C ≥ 0.7</td>
 <td>Recursive self-modeling</td>
@@ -2768,7 +2789,7 @@ distinguishing it from MOND in the testable regime.</p>
 <col style="width: 19%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Component</th>
 <th>Status</th>
 <th>Accuracy</th>
@@ -2776,13 +2797,13 @@ distinguishing it from MOND in the testable regime.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Coherence function C(ρ)</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
 <td>Form from information theory</td>
 </tr>
-<tr class="even">
+<tr>
 <td>γ = 2 parameter</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
@@ -2790,61 +2811,61 @@ distinguishing it from MOND in the testable regime.</p>
 sector runs at</strong>; SPARC selects γ ≈ 0.489 ≈ ½ and fitting γ is
 out-of-sample <em>harmful</em> (2026-08-21, below)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Golden ratio exponent 1/φ</td>
 <td><strong>VALIDATED</strong></td>
 <td>1σ</td>
 <td>Within 1σ of Gaia DR3 best fit (Session #239)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>a₀ = cH₀/(2π)</td>
 <td><strong>DERIVED</strong></td>
 <td>10%</td>
 <td>MOND connection</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPARC rotation curves</td>
 <td><strong>TESTED</strong></td>
 <td>52%</td>
 <td>46% failure in massive galaxies</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Santos-Santos DM fractions</td>
 <td><strong>TESTED</strong></td>
 <td>99.4%</td>
 <td>Different test than curves</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Ω_Λ = (1 - Ω_m)</td>
 <td><strong>DERIVED</strong></td>
 <td>Exact</td>
 <td>From coherence floor (Session #241)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>S₈ = 0.763</td>
 <td><strong>PREDICTED</strong></td>
 <td>Matches DES/KiDS</td>
 <td>Independent validation</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GW as coherence perturbations</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
 <td>Amplified in MOND regime (Session #246)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Matter = Topology</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
 <td>Solitons + winding (Session #261)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Gravity = Geometry</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
 <td>Metric coupling (Session #262)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Quantum = Dynamics</td>
 <td><strong>DERIVED</strong></td>
 <td>N/A</td>
@@ -3593,7 +3614,7 @@ with positive reconstructed density — Chae’s own measurement region:</p>
 <col style="width: 20%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>galaxy</th>
 <th>Chae <code>e</code></th>
 <th>baseline error</th>
@@ -3602,14 +3623,14 @@ with positive reconstructed density — Chae’s own measurement region:</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>NGC5033</td>
 <td>0.104 (8σ)</td>
 <td>+3.14 to +3.71 dex</td>
 <td>0.083 dex</td>
 <td><strong>38× – 45×</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>NGC5055</td>
 <td>0.054 (11σ)</td>
 <td>+3.62 to +4.18 dex</td>
@@ -4226,44 +4247,44 @@ here rather than cited):</p>
 <col style="width: 50%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>model under L2 (<code>Υ_d</code> profiled; χ²/N is per point)</th>
 <th>χ²/N</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>MOND simple μ, a₀ = 1.2×10⁻¹⁰ m s⁻² (reference)</td>
 <td><strong>21.25</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>MOND RAR ν (McGaugh et al. 2016)</td>
 <td>21.55</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>framework: γ = 0.489, ρ_c = 0.161 M☉ pc⁻³ (Jeans knee), floor
 Ω_m</td>
 <td>160.27</td>
 </tr>
-<tr class="even">
+<tr>
 <td>framework: γ = 2, same</td>
 <td>107.89</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>RG at Cesare et al. 2020’s universal DiskMass fit (ε₀ = 0.661, Q =
 1.79)</td>
 <td>239.92</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RG at the E0-elliptical fit (ε₀ = 0.089, Q = 0.47)</td>
 <td>911.46</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>best of the site’s 5 × 7 (floor × ρ_c) grid: RG form, floor 0.315,
 ρ_c = 1.47×10⁻³</td>
 <td>68.44</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Newton (C = 1)</td>
 <td>465.43</td>
 </tr>
@@ -4460,7 +4481,7 @@ the same correlation by itself. It does, and more strongly than the data
 do:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>per-galaxy constant</th>
 <th>k (dex/dex)</th>
 <th>σ_resid</th>
@@ -4468,19 +4489,19 @@ do:</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><code>ε₀</code> fitted to the <strong>data</strong></td>
 <td>+0.615</td>
 <td>0.518</td>
 <td><strong>+0.758</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><code>ε₀</code> fitted to <strong>MOND’s curve</strong></td>
 <td>+0.675</td>
 <td>0.415</td>
 <td><strong>+0.846</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><code>a₀</code> fitted identically (control)</td>
 <td>+0.063</td>
 <td>0.367</td>
@@ -5113,29 +5134,29 @@ surveys:</p>
 <pre><code>S₈^Sync = 0.763</code></pre>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Survey</th>
 <th>S₈</th>
 <th>Type</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Planck</td>
 <td>0.832 ± 0.013</td>
 <td>CMB</td>
 </tr>
-<tr class="even">
+<tr>
 <td>DES Y3</td>
 <td>0.776 ± 0.017</td>
 <td>Lensing</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>KiDS-1000</td>
 <td>0.759 ± 0.021</td>
 <td>Lensing</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Synchronism</strong></td>
 <td><strong>0.763</strong></td>
 <td><strong>Prediction</strong></td>
@@ -5160,25 +5181,25 @@ gravity, and quantum mechanics from coherence:</p>
 <col style="width: 32%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Pillar</th>
 <th>Session</th>
 <th>Result</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>TOPOLOGY</strong> (Matter)</td>
 <td>#261</td>
 <td>Matter = Soliton: C(x) = C₀ + A × exp(-x²/2σ²); Charge = Winding: Q
 = (1/2π) ∮ ∇S·dl</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>GEOMETRY</strong> (Gravity)</td>
 <td>#262</td>
 <td>T_μν = ∂_μC ∂_νC - g_μν[(1/2)(∂C)² + V(C)]; G_μν = 8πG T_μν</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>DYNAMICS</strong> (Quantum)</td>
 <td>#263</td>
 <td>ψ = √C × exp(iS/ℏ); Schrödinger emerges from C-phase dynamics</td>
@@ -5188,37 +5209,37 @@ gravity, and quantum mechanics from coherence:</p>
 <p><strong>Complete Ontological Map:</strong></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Concept</th>
 <th>= Coherence</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Existence</td>
 <td>C &gt; 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Matter</td>
 <td>Stable C pattern (soliton)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Charge</td>
 <td>C circulation (winding number)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Gravity</td>
 <td>C gradient geometry</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Quantum</td>
 <td>C-phase dynamics</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Consciousness</td>
 <td>C &gt; 0.5</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Information</td>
 <td>-log(1-C) bits</td>
 </tr>
@@ -5231,7 +5252,7 @@ testability, 3 already confirmed.</p>
 <p>The same G_eff = G/C principle operates at three scales:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Scale</th>
 <th>Coherence Variable</th>
 <th>Low C Effect</th>
@@ -5239,19 +5260,19 @@ testability, 3 already confirmed.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Quantum</td>
 <td>T (temperature)</td>
 <td>Classical</td>
 <td>Quantum</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Galactic</td>
 <td>ρ (density)</td>
 <td>“Dark matter”</td>
 <td>Normal gravity</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cosmic</td>
 <td>Ω_m (matter fraction)</td>
 <td>“Dark energy”</td>
@@ -5272,7 +5293,7 @@ wave.</p>
 <p><strong>Regime-Dependent Amplification:</strong></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Regime</th>
 <th>Acceleration</th>
 <th>C₀</th>
@@ -5280,19 +5301,19 @@ wave.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Newtonian</td>
 <td>a &gt; 10⁻⁸ m/s²</td>
 <td>~1</td>
 <td>~1×</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Transition</td>
 <td>a ~ a₀</td>
 <td>~0.6</td>
 <td>~1.6×</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MOND</td>
 <td>a &lt;&lt; a₀</td>
 <td>~0.35</td>
@@ -5528,24 +5549,24 @@ factor emerges from the phase space geometry</p>
 <p><strong>Connection to Gravitational Coherence:</strong></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>System</th>
 <th>Coherence Function</th>
 <th>γ</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Superconductor</td>
 <td>tanh(E/2kT)</td>
 <td>~2</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Galaxy rotation</td>
 <td>tanh(γ log(ρ/ρ_c + 1))</td>
 <td>2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Chemistry bonds</td>
 <td>tanh(1.5 Δχ)</td>
 <td>~1.5</td>

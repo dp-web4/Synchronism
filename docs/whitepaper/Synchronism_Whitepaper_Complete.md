@@ -3363,7 +3363,7 @@ The master equation governing all coherence phenomena:
 γ = 2 / √N_corr
 ```
 
-Where γ is the coherence parameter and N_corr is correlated degrees of freedom. γ → 0 means perfect coherence; γ = 2 is the classical limit.
+Where γ is the coherence parameter and N_corr is correlated degrees of freedom. γ → 0 means perfect coherence; γ = 2 is the classical limit. *[NOTE 2026-10-27: "classical limit" here is the N_corr = 1 uncorrelated end, not a quantum/classical gate. The back-annotation 2026-10-26, `e03d771b` withdrew quantum/classical endpoint labels for C and γ: quantum degeneracy sets in at high phase-space density, so the most quantum many-body states (condensates, superconductors) have large N_corr and sit at γ → 0. Read the two limits as uncorrelated (γ = 2) and collective (γ → 0).]*
 
 ---
 
@@ -3388,6 +3388,8 @@ breadth**. Derivation and provenance in the caveat below.
 | Integration | #121-122 | Framework synthesis | 65 domains unified | **COMPLETE** |
 | γ~1 Boundary | #147-500 | Phase transitions across 363 phenomenon types | Universal coherence boundary | **COMPLETE** |
 | Extended Validation | #501-2671 | Industrial, biological, materials chemistry | types 364 → 2,534 (one per session, by construction) | **COMPLETE** |
+
+*[CHECKED 2026-10-27 — "γ ≈ 2 universal" and "γ ≈ 2 in biology" (rows 1–2) report a fitted exponent shared across fits, not a shared N_corr; see the note under "γ ≈ 2 in Biological Systems" below and the S616 η audit (γ/BCS is a reparametrization).]*
 
 **Full details:** [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 
@@ -3546,6 +3548,8 @@ Enzymes achieve extraordinary rate enhancements (10⁶ - 10¹⁷) through:
 **γ ≈ 2 in Biological Systems (Sessions #8-9)**
 
 The same γ ≈ 2 that appears in BCS superconductivity also appears in biology:
+
+*[CHECKED 2026-10-27 — "the same γ ≈ 2" is the same fitted value, not the same N_corr. Under this section's master equation, γ ≈ 2 means N_corr ≈ 1, a single uncorrelated particle, while a BCS condensate has N_corr far above 1 and sits at γ → 0 (the S676 placement in §0/§7: electron 0.9999 → BEC ~0 as N_corr rises). The back-annotation 2026-10-26, `e03d771b` names this from the other side: under the quantum/classical endpoint labelling, condensates land at the end called "classical", which is why those labels were withdrawn. The r values in the Validated Predictions table stand as fits; what does not stand is reading the shared exponent as a shared correlation count. Words added, none removed.]*
 
 **Enzymes (Session #8):**
 - Pre-organized active sites create coherence environments
@@ -6284,7 +6288,7 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 - **Hückel rule**: 4n+2 derived from phase closure (exact) ✓
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
 - **S₈ tension**: Predicted 0.763, matches DES/KiDS lensing ✓
-- **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓
+- **γ ≈ 2 universality**: Same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓ *[CHECKED 2026-10-27: "same value" is a shared fitted exponent, not a shared N_corr. Under γ = 2/√N_corr, γ ≈ 2 is N_corr ≈ 1, and this section's own S676 bullet puts a BEC at large N_corr, γ → 0, so a BCS condensate cannot sit at γ ≈ 2 and be the same γ (back-annotation 2026-10-26, `e03d771b`: condensates land at the "classical" end of the withdrawn quantum/classical labelling). In gravity the γ = 2 pin is refuted (ΔBIC +184 point-level; +10.9 galaxy-level, at threshold; the 10-18 SCOPED note). The S616 η audit already classes γ/BCS as a reparametrization. Words added, none removed.]*
 - **Born rule**: P = |⟨basis|state⟩|² *reproduced* from coherence conservation (Session #269) as internal-consistency derivation; reproduces standard QM, does not predict a deviation from it ⚠ (framing, not novel-prediction validation)
 - **Carnot efficiency**: η = 1 - T_c/T_h *reproduced* from coherence conservation (Session #272) as internal-consistency derivation; same status ⚠
 - **Chemistry framework**: 89% validation across a phenomenon-type inventory reaching 2,534 (r > 0.90 for 16 predictions) — **[CORRECTED 2026-08-22]** the prior figure “1,913” was the running counter at Session #2050, not a corpus total, and the counter is `sessions − 137` identically (824/824 pairs, zero exceptions), so the count restates the session number and carries no breadth information of its own; see §5.12 — **caveat (S647 + S651, 2026-05-08/10):** the cohort's load-bearing r values are being compared against an *implicit* null of r=0 (random); the *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh), both expected at r ≈ 0.95+ on the same data because sound velocity, electronegativity, and atomic volume are themselves near-monotonic functions of atomic number Z (S651 null-model gap). Compounded with the Method 2 / 3 self-correlation paths and the Method 2 systematic bias toward γ ≈ 1 (S647 method gap), the framework-specific signal is the **Δr = r(Synchronism) − r(best monotonic null)** figure that is not currently in the archive. Best estimate: tie or marginal win. Distinguishing requires (a) computing Δr against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND (b) Method 1 applied uniformly OR pre-registered γ predictions for held-out phenomena. ⚠
@@ -6431,7 +6435,7 @@ Now comes the hard part: testing, measuring, validating or falsifying.
 
 **Gamma (γ)**
 
- The coherence scaling exponent, defined as γ = 2/√N_corr where N_corr is the number of correlated degrees of freedom. Cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis.
+ The coherence scaling exponent, defined as γ = 2/√N_corr where N_corr is the number of correlated degrees of freedom. Cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis. *[CHECKED 2026-10-27 — under this entry's own definition, γ ≈ 2 means N_corr ≈ 1, a single uncorrelated particle. A BCS condensate has N_corr far above 1 and sits at γ → 0 (the S676 placement §0 and §7 already print: C runs from 0.9999 for the electron to ~0 for a BEC as N_corr rises). The γ ≈ 2 reported for BCS, enzymes and photosynthesis is a fitted exponent (Appendix B.5, Tc ∝ exp(−γ/λ)), and the S616 η audit classes γ/BCS as a reparametrization; reading that shared exponent as a shared correlation count is the step the back-annotation 2026-10-26, `e03d771b` names from the other side: under the quantum/classical endpoint labelling, condensates land at the end called "classical", so the site withdrew those labels (C is not a degeneracy parameter). In gravity, the γ = 2 pin is the refuted claim §5.15 scores (ΔBIC +184 point-level; +10.9 galaxy-level, at threshold; the 10-18 SCOPED note). Words added, none removed.]*
 
 **Grid**
 
@@ -6541,7 +6545,7 @@ Where:
 
 **Limits:**
 - γ → 0: Perfect coherence (N_corr → ∞)
-- γ = 2: Classical limit (N_corr = 1, single particle)
+- γ = 2: Classical limit (N_corr = 1, single particle) *[NOTE 2026-10-27: "classical" here means uncorrelated (N_corr = 1), not non-quantum. The back-annotation 2026-10-26, `e03d771b` withdrew quantum/classical endpoint labels for C and γ, since condensates and superconductors (large N_corr) sit at γ → 0. See the notes in §5.12.]*
 
 ---
 
@@ -7648,6 +7652,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ############ Entries
 <!-- Entries added chronologically below -->
 
+############ 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotations in 12-chemistry; nothing deleted)
+- **Description**: Three notes in `12-chemistry/chemistry.md`. (1) After "γ = 2 is the classical limit": "classical" is the N_corr = 1 uncorrelated end, not a quantum/classical gate; read the limits as uncorrelated (γ = 2) and collective (γ → 0). (2) After the phase table, whose rows 1–2 read "γ ≈ 2 universal" / "γ ≈ 2 in biology": a fitted exponent shared across fits, not a shared N_corr. (3) After "The same γ ≈ 2 that appears in BCS superconductivity also appears in biology": same fitted value, not the same N_corr; a BCS condensate has N_corr far above 1 and sits at γ → 0 (S676 placement in §0/§7); the r values in the Validated Predictions table stand as fits.
+- **Rationale**: Back-annotation `e03d771b` (2026-10-26): quantum degeneracy sets in at high phase-space density, so the most quantum many-body states have large N_corr; the site's quantum/classical endpoint labels were backwards and were withdrawn, and C is stated not to be a degeneracy parameter. This section's direction (γ = 2 at N_corr = 1) is the statistical-mechanics one, so its labels are not reversed, only scoped; what the back-annotation exposes is that "γ ≈ 2 in BCS" asserts N_corr ≈ 1 for a condensate. Decidable from the section's own master equation. Words added, none removed.
+
 ######### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
 - **Description**: Multiple epistemic consistency corrections in 05-witness-effect and 13-life-cognition subsections
 - **Rationale**: Comprehensive review identified critical drift instances:
@@ -7887,6 +7895,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ############ Entries
 <!-- Entries added chronologically below -->
 
+############ 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotation; nothing deleted)
+- **Description**: The "γ ≈ 2 universality: same value in gravity, BCS, enzymes, photosynthesis, Gnosis ✓" progress bullet carries a dated CHECKED note: "same value" is a shared fitted exponent, not a shared N_corr. Under γ = 2/√N_corr, γ ≈ 2 is N_corr ≈ 1, and the section's own S676 bullet puts a BEC at large N_corr, γ → 0. The gravity instance is the refuted γ = 2 pin (+184 point-level; +10.9 galaxy-level, at threshold; 10-18 SCOPED note). The S616 η audit already classes γ/BCS as a reparametrization.
+- **Rationale**: Back-annotation `e03d771b` (2026-10-26) withdrew the quantum/classical endpoint labels for C and γ because condensates land at the end called "classical". The paper's progress list still printed the four-domain γ ≈ 2 as a checked result with no pointer to either the S676 placement two bullets above it or the §5.15 verdict. Checkmark kept; words added, none removed; refutation count unchanged (6).
+
 ############ 2026-10-26 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
 - **Description**: Annotated the CDM Discrimination Arc's σ_int = 0.086 ± 0.003 dex with a dated CHECKED note. The number is the residual of log M_b regressed on five predictors, three built from M_b's own ingredients; a shuffled-V (or no-V) control gives 0.0870 against 0.0864, so velocity contributes 0.0006 dex, and the target is a closed-form function of four predictors (Taylor+2011 colour formula; rebuilt to 0.0037 dex with no fit). "Exactly CDM" and "MOND rejected at 32σ" therefore have no content. Like-for-like plain inverse BTFR on the same 677: 0.073 ± 0.002 dex in log V against 0.064 (abundance matching) and 0.029 (SPARC). Source: archive back-annotation `379b3b7f` (Session610_CDM_Synthesis.md) and synchronism-site PREREG `b134d0f`; both control scripts re-executed by this pass (output byte-identical; the Taylor check differs only by the loader banner).
 - **Rationale**: The paper printed a verdict whose statistic does not depend on velocity. Annotated, not deleted: the arc's history stands and the result belongs to CDM vs MOND, not to this framework's refutation count (unchanged at 6). The same construction may sit under S593–594 ("TFR residual = complete M/L predictor"); that is untested, so it is not annotated.
@@ -8016,6 +8028,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 ############ Entries
 <!-- Entries added chronologically below -->
 
+############ 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotation; nothing deleted)
+- **Description**: The Gamma (γ) entry's "cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis" carries a dated CHECKED note. Under the entry's own definition γ ≈ 2 is N_corr ≈ 1; a BCS condensate has N_corr far above 1 and sits at γ → 0, which is where §0/§7's S676 bullet already places a BEC. The γ ≈ 2 shared across BCS, enzymes and photosynthesis is a fitted exponent (Appendix B.5), classed by the S616 η audit as a reparametrization; in gravity the γ = 2 pin is the refuted claim §5.15 scores (+184 point-level, +10.9 galaxy-level at threshold).
+- **Rationale**: Back-annotation `e03d771b` (2026-10-26, PREDICTIONS.md + README:161 + proposal `c_endpoints_are_not_quantum_classical_and_kill_text_must_match_the_lock_20261026.md`): condensates and superconductors have large N_corr and land at the end the quantum/classical labelling called "classical", so the site withdrew those labels. The glossary entry was the one place a reader would meet "γ ≈ 2 in BCS" as a definition. The contradiction is decidable from the paper's own equation and its own S676 sentence, so it is CHECKED, not relayed. Words added, none removed.
+
 
 ---
 
@@ -8023,6 +8039,10 @@ Sections marked `[ACTIVE-MRH]` are in current research focus and being revised t
 
 ############ Entries
 <!-- Entries added chronologically below -->
+
+############ 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotation in Appendix B; nothing deleted)
+- **Description**: B.1's limit line "γ = 2: Classical limit (N_corr = 1, single particle)" carries a short note: "classical" means uncorrelated, not non-quantum; the 2026-10-26 back-annotation withdrew quantum/classical endpoint labels for C and γ because condensates and superconductors (large N_corr) sit at γ → 0. Points to the §5.12 notes.
+- **Rationale**: Back-annotation `e03d771b`. B.1 is the definitional site the glossary and §5.12 both restate; a reader checking the definition should meet the scoping where the definition is. Words added, none removed.
 
 ############ 2026-07-27 | Publisher | MODIFY (formatting repair only — stray control characters, zero text change)
 - **Description**: Removed 9 stray carriage-return characters embedded *inside* bold markers — 7 in `appendix_b_chemistry.md` (`**Electronic Channel (Optical/Dielectric)<CR>**`, `**Phononic Channel (Thermal/Mechanical)<CR>**`, `**Channel Independence<CR>**` and 4 others) and 2 in `appendix_c_consciousness.md` (`**Key Claims<CR>**`, `**Qualia Intensity<CR>**`). Both files are byte-identical to their predecessors once CR characters are stripped from both — no equation, claim, or heading text was touched.

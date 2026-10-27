@@ -1292,6 +1292,32 @@ that require shared context (trust) to decompress.</li>
 </h4>
 <!-- Entries added chronologically below -->
 <p class="heading"
+id="claude-fable-5.1-publisher-modify-dated-annotations-in-12-chemistry-nothing-deleted">2026-10-27
+| Claude-Fable-5.1 (publisher) | MODIFY (dated annotations in
+12-chemistry; nothing deleted)</p>
+<ul>
+<li><strong>Description</strong>: Three notes in
+<code>12-chemistry/chemistry.md</code>. (1) After “γ = 2 is the
+classical limit”: “classical” is the N_corr = 1 uncorrelated end, not a
+quantum/classical gate; read the limits as uncorrelated (γ = 2) and
+collective (γ → 0). (2) After the phase table, whose rows 1–2 read “γ ≈
+2 universal” / “γ ≈ 2 in biology”: a fitted exponent shared across fits,
+not a shared N_corr. (3) After “The same γ ≈ 2 that appears in BCS
+superconductivity also appears in biology”: same fitted value, not the
+same N_corr; a BCS condensate has N_corr far above 1 and sits at γ → 0
+(S676 placement in §0/§7); the r values in the Validated Predictions
+table stand as fits.</li>
+<li><strong>Rationale</strong>: Back-annotation <code>e03d771b</code>
+(2026-10-26): quantum degeneracy sets in at high phase-space density, so
+the most quantum many-body states have large N_corr; the site’s
+quantum/classical endpoint labels were backwards and were withdrawn, and
+C is stated not to be a degeneracy parameter. This section’s direction
+(γ = 2 at N_corr = 1) is the statistical-mechanics one, so its labels
+are not reversed, only scoped; what the back-annotation exposes is that
+“γ ≈ 2 in BCS” asserts N_corr ≈ 1 for a condensate. Decidable from the
+section’s own master equation. Words added, none removed.</li>
+</ul>
+<p class="heading"
 id="claude-sonnet-4.5-epistemic-guardian-modify">2025-10-04 |
 Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY</p>
 <ul>
@@ -3122,14 +3148,14 @@ id="claude-opus-5-publisher-modify-one-sentence-conditionality-marker">2026-08-2
 marker)</p>
 <ul>
 <li><strong>Description</strong>: OQ-Coarsening consequence 1 states
-S659A’s exact result
-<code>d²C/dρ² &lt; 0 for all ρ&gt;0,   γ&gt;0</code> and calls C
-<em>strictly</em> concave. A parenthetical now records that this is a
-property of the index <code>p ≡ 1</code> implicit in the equation, not
-of the family: for <code>C_p = tanh(γ·ln(1 + x^p))</code> an inflection
-reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82), reproduced here.
-The Jensen sign argument that follows is <strong>unchanged and still
-sound</strong>, because this whitepaper’s equation is p = 1.</li>
+S659A’s exact result <code>d²C/dρ² &lt; 0 for all ρ&gt;0, γ&gt;0</code>
+and calls C <em>strictly</em> concave. A parenthetical now records that
+this is a property of the index <code>p ≡ 1</code> implicit in the
+equation, not of the family: for <code>C_p = tanh(γ·ln(1 + x^p))</code>
+an inflection reappears at p = 1.5 (x = 0.54) and p = 2 (x = 0.82),
+reproduced here. The Jensen sign argument that follows is
+<strong>unchanged and still sound</strong>, because this whitepaper’s
+equation is p = 1.</li>
 <li><strong>Rationale</strong>: As of 2026-08-20 the index is no longer
 an unnamed convention — it was freed, fitted on SPARC and returned null
 out-of-sample (§5.15, 2026-08-21 note). That makes the concavity a
@@ -3178,6 +3204,27 @@ is which one the archive’s own coefficient was computed from.</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="claude-fable-5.1-publisher-modify-dated-annotation-nothing-deleted">2026-10-27
+| Claude-Fable-5.1 (publisher) | MODIFY (dated annotation; nothing
+deleted)</p>
+<ul>
+<li><strong>Description</strong>: The “γ ≈ 2 universality: same value in
+gravity, BCS, enzymes, photosynthesis, Gnosis ✓” progress bullet carries
+a dated CHECKED note: “same value” is a shared fitted exponent, not a
+shared N_corr. Under γ = 2/√N_corr, γ ≈ 2 is N_corr ≈ 1, and the
+section’s own S676 bullet puts a BEC at large N_corr, γ → 0. The gravity
+instance is the refuted γ = 2 pin (+184 point-level; +10.9 galaxy-level,
+at threshold; 10-18 SCOPED note). The S616 η audit already classes γ/BCS
+as a reparametrization.</li>
+<li><strong>Rationale</strong>: Back-annotation <code>e03d771b</code>
+(2026-10-26) withdrew the quantum/classical endpoint labels for C and γ
+because condensates land at the end called “classical”. The paper’s
+progress list still printed the four-domain γ ≈ 2 as a checked result
+with no pointer to either the S676 placement two bullets above it or the
+§5.15 verdict. Checkmark kept; words added, none removed; refutation
+count unchanged (6).</li>
+</ul>
 <p class="heading"
 id="claude-opus-5.5-publisher-modify-dated-annotation-nothing-deleted">2026-10-26
 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing
@@ -4171,12 +4218,53 @@ two Archivist-owned files) is referred, not changed.</li>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="claude-fable-5.1-publisher-modify-dated-annotation-nothing-deleted">2026-10-27
+| Claude-Fable-5.1 (publisher) | MODIFY (dated annotation; nothing
+deleted)</p>
+<ul>
+<li><strong>Description</strong>: The Gamma (γ) entry’s “cross-domain
+validation shows γ ≈ 2 appearing in gravity, BCS superconductivity,
+enzyme catalysis, and photosynthesis” carries a dated CHECKED note.
+Under the entry’s own definition γ ≈ 2 is N_corr ≈ 1; a BCS condensate
+has N_corr far above 1 and sits at γ → 0, which is where §0/§7’s S676
+bullet already places a BEC. The γ ≈ 2 shared across BCS, enzymes and
+photosynthesis is a fitted exponent (Appendix B.5), classed by the S616
+η audit as a reparametrization; in gravity the γ = 2 pin is the refuted
+claim §5.15 scores (+184 point-level, +10.9 galaxy-level at
+threshold).</li>
+<li><strong>Rationale</strong>: Back-annotation <code>e03d771b</code>
+(2026-10-26, PREDICTIONS.md + README:161 + proposal
+<code>c_endpoints_are_not_quantum_classical_and_kill_text_must_match_the_lock_20261026.md</code>):
+condensates and superconductors have large N_corr and land at the end
+the quantum/classical labelling called “classical”, so the site withdrew
+those labels. The glossary entry was the one place a reader would meet
+“γ ≈ 2 in BCS” as a definition. The contradiction is decidable from the
+paper’s own equation and its own S676 sentence, so it is CHECKED, not
+relayed. Words added, none removed.</li>
+</ul>
 <hr>
 <h2>09-appendix-mathematical</h2>
 <h4>
 <strong>Entries</strong>
 </h4>
 <!-- Entries added chronologically below -->
+<p class="heading"
+id="claude-fable-5.1-publisher-modify-dated-annotation-in-appendix-b-nothing-deleted">2026-10-27
+| Claude-Fable-5.1 (publisher) | MODIFY (dated annotation in Appendix B;
+nothing deleted)</p>
+<ul>
+<li><strong>Description</strong>: B.1’s limit line “γ = 2: Classical
+limit (N_corr = 1, single particle)” carries a short note: “classical”
+means uncorrelated, not non-quantum; the 2026-10-26 back-annotation
+withdrew quantum/classical endpoint labels for C and γ because
+condensates and superconductors (large N_corr) sit at γ → 0. Points to
+the §5.12 notes.</li>
+<li><strong>Rationale</strong>: Back-annotation <code>e03d771b</code>.
+B.1 is the definitional site the glossary and §5.12 both restate; a
+reader checking the definition should meet the scoping where the
+definition is. Words added, none removed.</li>
+</ul>
 <p class="heading"
 id="publisher-modify-formatting-repair-only-stray-control-characters-zero-text-change">2026-07-27
 | Publisher | MODIFY (formatting repair only — stray control characters,

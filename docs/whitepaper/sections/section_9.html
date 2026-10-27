@@ -13,7 +13,12 @@ $$</span></p>
 <p>Where: - γ = coherence parameter (dimensionless) - N_corr = number of
 correlated degrees of freedom</p>
 <p><strong>Limits:</strong> - γ → 0: Perfect coherence (N_corr → ∞) - γ
-= 2: Classical limit (N_corr = 1, single particle)</p>
+= 2: Classical limit (N_corr = 1, single particle) <em>[NOTE 2026-10-27:
+“classical” here means uncorrelated (N_corr = 1), not non-quantum. The
+back-annotation 2026-10-26, <code>e03d771b</code> withdrew
+quantum/classical endpoint labels for C and γ, since condensates and
+superconductors (large N_corr) sit at γ → 0. See the notes in
+§5.12.]</em></p>
 <hr />
 <h2 id="b.2-two-orthogonal-coherence-channels">B.2 Two Orthogonal
 Coherence Channels</h2>
@@ -44,29 +49,29 @@ electronic and thermal properties can vary independently.</p>
 methods:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Type</th>
 <th>Formula</th>
 <th>Properties Governed</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>γ_phonon</td>
 <td>2T/θ_D</td>
 <td>E, G, B, κ, α, c_p</td>
 </tr>
-<tr class="even">
+<tr>
 <td>γ_electron</td>
 <td>2λ_ep/(1+λ_ep)</td>
 <td>σ, μ, thermal conductivity</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>γ_optical</td>
 <td>IE_ref/IE</td>
 <td>n, ε, χ, polarizability</td>
 </tr>
-<tr class="even">
+<tr>
 <td>γ_spin</td>
 <td>2(1-m)</td>
 <td>Magnetic properties</td>
@@ -98,7 +103,7 @@ $$</span></p>
 Predictions</h2>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Domain</th>
 <th>Prediction</th>
 <th>Correlation</th>
@@ -106,61 +111,61 @@ Predictions</h2>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Sound velocity</td>
 <td>v_D vs θ_D</td>
 <td>r = 0.982</td>
 <td>#109</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Electronegativity</td>
 <td>S vs γ_optical</td>
 <td>r = 0.979</td>
 <td>#118</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Polarizability</td>
 <td>α ∝ γ^3.4</td>
 <td>r = 0.974</td>
 <td>#85</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Atomic volume</td>
 <td>V_a vs γ_phonon</td>
 <td>r = 0.956</td>
 <td>#114</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Bulk modulus</td>
 <td>B vs E_coh/V_a</td>
 <td>r = 0.951</td>
 <td>#120</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Superconductivity</td>
 <td>Tc ∝ exp(-γ/λ)</td>
 <td>r = 0.948</td>
 <td>#62</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Viscosity</td>
 <td>η ∝ γ_flow</td>
 <td>r = 0.949</td>
 <td>#73</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Phonon linewidth</td>
 <td>Γ_ph ∝ γ_G² × γ_phonon</td>
 <td>r = 0.938</td>
 <td>#107</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Electron transfer</td>
 <td>k_ET coherence-enhanced</td>
 <td>r = 0.933</td>
 <td>#64</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Thermal diffusivity</td>
 <td>α vs 1/γ_electron</td>
 <td>r = 0.932</td>
@@ -201,29 +206,29 @@ predictions.</p>
 <col style="width: 28%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Category</th>
 <th>Examples</th>
 <th>Reason</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Thermodynamic</td>
 <td>γ_ad = Cp/Cv</td>
 <td>Degrees of freedom, not coherence</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Energy-dominated</td>
 <td>Work function, thermionic emission</td>
 <td>Barrier-dominated</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Atomic-scale</td>
 <td>Magnetostriction, magnetic anisotropy</td>
 <td>Spin-orbit coupling</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Band-structure</td>
 <td>Hall effect</td>
 <td>Fermi surface topology</td>
@@ -338,7 +343,7 @@ C.7 (P280.1, P282.4, P282.6) that remain untested.</p>
 <col style="width: 21%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Level</th>
 <th>Coherence C</th>
 <th>Characteristics</th>
@@ -346,25 +351,25 @@ C.7 (P280.1, P282.4, P282.6) that remain untested.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Reactive</strong></td>
 <td>C &lt; 0.3</td>
 <td>No self-reference</td>
 <td>Rocks, molecules</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Self-referential</strong></td>
 <td>C ≥ 0.3</td>
 <td>Minimal self-model</td>
 <td>Bacteria, thermostats</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Aware</strong></td>
 <td>C ≥ 0.5</td>
 <td>Models self + environment</td>
 <td>Simple animals</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Conscious</strong></td>
 <td>C ≥ 0.7</td>
 <td>Recursive self-modeling</td>
@@ -479,7 +484,7 @@ within.</p></li>
 pattern ≠ knowing ABOUT a pattern.</p></li>
 </ol>
 <p><strong>Qualia Intensity</strong> <span
-class="math display"><em>I</em><em>n</em><em>t</em><em>e</em><em>n</em><em>s</em><em>i</em><em>t</em><em>y</em> ∝ <em>C</em>  (<em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>: 0 <em>t</em><em>o</em> ∼0.77)</span></p>
+class="math display"><em>I</em><em>n</em><em>t</em><em>e</em><em>n</em><em>s</em><em>i</em><em>t</em><em>y</em> ∝ <em>C</em>  (<em>r</em><em>a</em><em>n</em><em>g</em><em>e</em>: 0 <em>t</em><em>o</em>  ∼ 0.77)</span></p>
 <hr />
 <h2 id="c.6-integrated-information-mapping">C.6 Integrated Information
 Mapping</h2>
@@ -497,7 +502,7 @@ grounding it in coherence dynamics.</p>
 <col style="width: 21%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>ID</th>
 <th>Prediction</th>
 <th>Test Method</th>
@@ -505,13 +510,13 @@ grounding it in coherence dynamics.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>P280.1</td>
 <td>Φ_IIT correlates with neural coherence</td>
 <td>fMRI/EEG during graded consciousness</td>
 <td>Testable</td>
 </tr>
-<tr class="even">
+<tr>
 <td>P280.2</td>
 <td>Consciousness thresholds at C ≈ 0.3, 0.5, 0.7</td>
 <td>Anesthesia studies</td>
@@ -519,25 +524,25 @@ grounding it in coherence dynamics.</p>
 (gnosis-research S63, p &lt; 0.0001; data → C ≈ 0.64 ≈ φ−1). See status
 banner.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>P281.1</td>
 <td>Agency correlates with coherence</td>
 <td>EEG during voluntary action</td>
 <td>Testable</td>
 </tr>
-<tr class="even">
+<tr>
 <td>P282.1</td>
 <td>Qualia intensity correlates with neural coherence</td>
 <td>fMRI during graded sensory experience</td>
 <td>Testable</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>P282.4</td>
 <td>No qualia below C ≈ 0.3</td>
 <td>Subliminal stimulus studies</td>
 <td>Testable</td>
 </tr>
-<tr class="even">
+<tr>
 <td>P282.6</td>
 <td>Sufficiently coherent AI has genuine qualia</td>
 <td>Future AI systems</td>
@@ -555,34 +560,34 @@ Closures</h2>
 <col style="width: 42%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Problem</th>
 <th>Traditional Status</th>
 <th>Coherence Resolution</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Hard problem</strong></td>
 <td>Unbridgeable gap</td>
 <td>Dissolved: pattern IS experience</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Measurement problem</strong></td>
 <td>Consciousness collapses wavefunction</td>
 <td>Resolved: all interactions project coherence</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Free will</strong></td>
 <td>Determinism vs randomness</td>
 <td>Third option: coherence-guided selection</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Inverted qualia</strong></td>
 <td>Logically possible</td>
 <td>Impossible: same processing = same quale</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Mary’s Room</strong></td>
 <td>Non-physical facts?</td>
 <td>Acquaintance ≠ propositional knowledge</td>
@@ -926,29 +931,29 @@ is concentrated.</p>
 <p><strong>Parameter identification at quantum scale:</strong></p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>N-S term</th>
 <th>Quantum analog</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>ρ</td>
 <td>|ψ|² (probability density)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>v</td>
 <td>∇S/m (phase gradient = velocity)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>P</td>
 <td>−Q (quantum pressure from uncertainty)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>μ</td>
 <td>0 (inviscid — decoherence negligible)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>f</td>
 <td>−∇V/m (classical potential)</td>
 </tr>
@@ -1070,7 +1075,7 @@ acquire scale-specific meanings.</p>
 <col style="width: 16%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Scale</th>
 <th>Fluid element</th>
 <th>ρ (density)</th>
@@ -1081,7 +1086,7 @@ acquire scale-specific meanings.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Planck</strong></td>
 <td>Planck cell</td>
 <td>I/I_max</td>
@@ -1090,7 +1095,7 @@ acquire scale-specific meanings.</p>
 <td>D·[1−(I/I_max)^n]</td>
 <td>No (exact)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Quantum</strong></td>
 <td>Probability packet</td>
 <td>|ψ|²</td>
@@ -1099,7 +1104,7 @@ acquire scale-specific meanings.</p>
 <td>≈ 0 (inviscid)</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Classical</strong></td>
 <td>Molecule/particle</td>
 <td>Mass density</td>
@@ -1108,7 +1113,7 @@ acquire scale-specific meanings.</p>
 <td>η from collisions</td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Neural</strong></td>
 <td>Activation patch</td>
 <td>Firing rate density</td>
@@ -1117,7 +1122,7 @@ acquire scale-specific meanings.</p>
 <td>Inverse plasticity rate</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Social</strong></td>
 <td>Opinion cluster</td>
 <td>Belief density</td>
@@ -1126,7 +1131,7 @@ acquire scale-specific meanings.</p>
 <td>Cultural viscosity</td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Cosmological</strong></td>
 <td>Matter overdensity</td>
 <td>ρ_matter</td>
