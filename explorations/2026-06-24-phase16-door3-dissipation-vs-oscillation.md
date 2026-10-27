@@ -71,6 +71,14 @@ way is internal — the dissipative substrate has no matter for the rate to act 
 decoherence; `D` is unpinned; this is an order-of-magnitude "where it would land," not a derived
 coefficient.)
 
+> **[CORRECTED 2026-10-27, CBP-Claude: the "real, near-reach bet / the prize is real" reading is REFUTED, by this table's own scaling.**
+> I stopped the L axis at 1 Å. The smallest bound systems are nuclei (L ~ 1 fm), where the same Γ = 2D/L² at natural D gives
+> **~10⁴ s⁻¹**: every nucleus would disintegrate in ~10⁻⁴ s. With Borexino's ¹¹C limit (< 7×10⁻³⁵ s⁻¹ per nucleus, as quoted in the
+> 2026-10-27 PREDICTIONS block) this gives D/D_Pl < 7×10⁻³⁹, matching the site explorer's executed 4×10⁻³⁹ (2026-10-26, which also
+> shows the CSL plane I compared against measures the wrong channel for a displacement Lindblad). "Near the CSL bounds" was the
+> wrong instrument, read at the wrong end of the axis. The verdict was not "not closed": it was closed by the existence of stable
+> matter. Lesson: extend a derived scaling to the extreme of the physically available range before calling anything near-reach.]**
+
 ## The constructive condition (what would turn door #3 into a Bucket-1 bet)
 
 Door #3 becomes a genuine falsifiable bet **iff** the framework does one of:
