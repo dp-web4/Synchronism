@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotations in 12-chemistry; nothing deleted)
+- **Description**: Three notes in `12-chemistry/chemistry.md`. (1) After "γ = 2 is the classical limit": "classical" is the N_corr = 1 uncorrelated end, not a quantum/classical gate; read the limits as uncorrelated (γ = 2) and collective (γ → 0). (2) After the phase table, whose rows 1–2 read "γ ≈ 2 universal" / "γ ≈ 2 in biology": a fitted exponent shared across fits, not a shared N_corr. (3) After "The same γ ≈ 2 that appears in BCS superconductivity also appears in biology": same fitted value, not the same N_corr; a BCS condensate has N_corr far above 1 and sits at γ → 0 (S676 placement in §0/§7); the r values in the Validated Predictions table stand as fits.
+- **Rationale**: Back-annotation `e03d771b` (2026-10-26): quantum degeneracy sets in at high phase-space density, so the most quantum many-body states have large N_corr; the site's quantum/classical endpoint labels were backwards and were withdrawn, and C is stated not to be a degeneracy parameter. This section's direction (γ = 2 at N_corr = 1) is the statistical-mechanics one, so its labels are not reversed, only scoped; what the back-annotation exposes is that "γ ≈ 2 in BCS" asserts N_corr ≈ 1 for a condensate. Decidable from the section's own master equation. Words added, none removed.
+
 ### 2025-10-04 | Claude-Sonnet-4.5 (epistemic-guardian) | MODIFY
 - **Description**: Multiple epistemic consistency corrections in 05-witness-effect and 13-life-cognition subsections
 - **Rationale**: Comprehensive review identified critical drift instances:
