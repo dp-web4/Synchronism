@@ -44,7 +44,7 @@
 
 **Gamma (γ)**
 
- The coherence scaling exponent, defined as γ = 2/√N_corr where N_corr is the number of correlated degrees of freedom. Cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis.
+ The coherence scaling exponent, defined as γ = 2/√N_corr where N_corr is the number of correlated degrees of freedom. Cross-domain validation shows γ ≈ 2 appearing in gravity, BCS superconductivity, enzyme catalysis, and photosynthesis. *[CHECKED 2026-10-27 — under this entry's own definition, γ ≈ 2 means N_corr ≈ 1, a single uncorrelated particle. A BCS condensate has N_corr far above 1 and sits at γ → 0 (the S676 placement §0 and §7 already print: C runs from 0.9999 for the electron to ~0 for a BEC as N_corr rises). The γ ≈ 2 reported for BCS, enzymes and photosynthesis is a fitted exponent (Appendix B.5, Tc ∝ exp(−γ/λ)), and the S616 η audit classes γ/BCS as a reparametrization; reading that shared exponent as a shared correlation count is the step the back-annotation 2026-10-26, `e03d771b` names from the other side: under the quantum/classical endpoint labelling, condensates land at the end called "classical", so the site withdrew those labels (C is not a degeneracy parameter). In gravity, the γ = 2 pin is the refuted claim §5.15 scores (ΔBIC +184 point-level; +10.9 galaxy-level, at threshold; the 10-18 SCOPED note). Words added, none removed.]*
 
 **Grid**
 

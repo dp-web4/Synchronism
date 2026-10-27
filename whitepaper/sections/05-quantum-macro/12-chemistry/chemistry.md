@@ -10,7 +10,7 @@ The master equation governing all coherence phenomena:
 γ = 2 / √N_corr
 ```
 
-Where γ is the coherence parameter and N_corr is correlated degrees of freedom. γ → 0 means perfect coherence; γ = 2 is the classical limit.
+Where γ is the coherence parameter and N_corr is correlated degrees of freedom. γ → 0 means perfect coherence; γ = 2 is the classical limit. *[NOTE 2026-10-27: "classical limit" here is the N_corr = 1 uncorrelated end, not a quantum/classical gate. The back-annotation 2026-10-26, `e03d771b` withdrew quantum/classical endpoint labels for C and γ: quantum degeneracy sets in at high phase-space density, so the most quantum many-body states (condensates, superconductors) have large N_corr and sit at γ → 0. Read the two limits as uncorrelated (γ = 2) and collective (γ → 0).]*
 
 ---
 
@@ -35,6 +35,8 @@ breadth**. Derivation and provenance in the caveat below.
 | Integration | #121-122 | Framework synthesis | 65 domains unified | **COMPLETE** |
 | γ~1 Boundary | #147-500 | Phase transitions across 363 phenomenon types | Universal coherence boundary | **COMPLETE** |
 | Extended Validation | #501-2671 | Industrial, biological, materials chemistry | types 364 → 2,534 (one per session, by construction) | **COMPLETE** |
+
+*[CHECKED 2026-10-27 — "γ ≈ 2 universal" and "γ ≈ 2 in biology" (rows 1–2) report a fitted exponent shared across fits, not a shared N_corr; see the note under "γ ≈ 2 in Biological Systems" below and the S616 η audit (γ/BCS is a reparametrization).]*
 
 **Full details:** [Framework Summary](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/Framework_Summary.md)
 
@@ -193,6 +195,8 @@ Enzymes achieve extraordinary rate enhancements (10⁶ - 10¹⁷) through:
 **γ ≈ 2 in Biological Systems (Sessions #8-9)**
 
 The same γ ≈ 2 that appears in BCS superconductivity also appears in biology:
+
+*[CHECKED 2026-10-27 — "the same γ ≈ 2" is the same fitted value, not the same N_corr. Under this section's master equation, γ ≈ 2 means N_corr ≈ 1, a single uncorrelated particle, while a BCS condensate has N_corr far above 1 and sits at γ → 0 (the S676 placement in §0/§7: electron 0.9999 → BEC ~0 as N_corr rises). The back-annotation 2026-10-26, `e03d771b` names this from the other side: under the quantum/classical endpoint labelling, condensates land at the end called "classical", which is why those labels were withdrawn. The r values in the Validated Predictions table stand as fits; what does not stand is reading the shared exponent as a shared correlation count. Words added, none removed.]*
 
 **Enzymes (Session #8):**
 - Pre-organized active sites create coherence environments

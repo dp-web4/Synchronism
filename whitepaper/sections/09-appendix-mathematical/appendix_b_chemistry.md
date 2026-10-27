@@ -18,7 +18,7 @@ Where:
 
 **Limits:**
 - γ → 0: Perfect coherence (N_corr → ∞)
-- γ = 2: Classical limit (N_corr = 1, single particle)
+- γ = 2: Classical limit (N_corr = 1, single particle) *[NOTE 2026-10-27: "classical" here means uncorrelated (N_corr = 1), not non-quantum. The back-annotation 2026-10-26, `e03d771b` withdrew quantum/classical endpoint labels for C and γ, since condensates and superconductors (large N_corr) sit at γ → 0. See the notes in §5.12.]*
 
 ---
 
