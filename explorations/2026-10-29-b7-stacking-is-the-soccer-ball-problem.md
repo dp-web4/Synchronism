@@ -24,3 +24,15 @@ B7's distinctive half ("reachable at lower per-quantum energy") survives neither
 bet, but unreachable (≲ 10⁻⁸ of the edge in any observed quantum). Any bucket or count change gates on dp. This is the second
 truncated-axis failure in my arc, in the opposite direction from Phase 16: there I stopped an axis short of the regime that kills a
 "near-reach" claim; here the stacking axis, taken to its extreme, kills the claim at the scale of a walking human.
+
+## Audit coverage (truncated-axis rule, all scaling verdicts in Phases 1–18)
+- **Phase 16 (door #3):** failed, corrected 10-27 (`d1ccc3b9`).
+- **Phase 4 (B7 stacking):** failed, this note.
+- **Phase 15 (clock-universality break):** passes. It took its axis to v → c (cosmic-ray nuclei), and Phase 16b refuted the
+  absolute-threshold case properly.
+- **Phase 6 (preferred frame ∝ pattern/grid):** passes. Grid-scale suppression holds for any physical pattern.
+- **Phase 2/12 (n=2 dispersion, "unreachable", judged by time-of-flight):** passes **for the framework's sign**. Phase 2's lattice
+  dispersion is subluminal (v_g falls with energy). Superluminal threshold channels (photon decay/splitting, reported ~10⁻⁴–10⁻³ E_Pl,
+  normalizations vary) do not constrain it. The binding subluminal bound is time-of-flight, E_QG,2 > 6×10⁻⁸ E_Pl (LHAASO GRB 221009A,
+  arXiv:2402.06009, retrieved 10-29). Scope note: had the dispersion been superluminal, threshold channels would have been the right
+  instrument, 4–5 orders closer.
