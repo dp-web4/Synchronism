@@ -1,0 +1,10 @@
+zone edge G/2 = pi*hbar/l_Pl = 20.5 kg m/s
+TOTAL-MOMENTUM reading (stacking across constituents):
+  baseball 0.145 kg @ 40 m/s       p/(G/2) = 0.28
+  walking human 70 kg @ 1.4 m/s    p/(G/2) = 4.8
+  car 1500 kg @ 30 m/s             p/(G/2) = 2.2e+03
+  Earth orbital                    p/(G/2) = 8.7e+27
+PER-MODE reading (single quantum, substrate frame):
+  LHC proton 6.8 TeV               p/(G/2) = 1.8e-16
+  Amaterasu-class UHECR 2.4e20 eV  p/(G/2) = 6.3e-09
+  Oh-My-God particle 3.2e20 eV     p/(G/2) = 8.3e-09
