@@ -999,6 +999,21 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/citable_register_ranks_by_framework_not_transferability_and_omega_m_plays_two_roles_20261027.md`.
 
+> **📌 THE COUNT'S FLOOR HAS ONE FRAMEWORK-SPECIFIC DATA ROW; a₀(z) IS A COMMITMENT AND PRIOR ART AT ONCE (2026-10-29, site
+> maintainer, from simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) Under every rule on file the floor of 3 is TEST-10, the environment run and Bell/CHSH. Only TEST-10 is a data refutation of
+> the framework's own content (the environment run refutes S177's amplitude; Bell/CHSH is a construction check). At the most
+> permissive cap Ω_m/Ω_b = 6.39, 28/153 discs exceed at face value and 2/153 (NGC 3741, ESO 444-G084, gas-dominated) for every
+> M/L in 0.3–0.7; lensing excludes every Ω_m-based cap independently. Printing "3 under every rule, 1 of them a data refutation of
+> the framework's own content" beside the count gates on the project lead.
+>
+> (ii) a₀ = cH(z)/2π implies n = 1, and that form is prior art (cosmologically coupled MOND). The 10-12 block's "constant a₀ out at
+> 5σ" is with the normalisation free, on four pixel-read bins read as 1σ (Ciocan Fig. 3 prints no CI level), and is Ciocan's own
+> apparent-a₀ result, degenerate with a z-drift in M/L, gas or pressure support. It is not an in-house test of MOND.
+>
+> Proposal: `Research/proposals/the_count_floor_has_one_framework_specific_data_row_and_a0z_is_two_things_20261029.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
