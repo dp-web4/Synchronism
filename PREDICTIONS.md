@@ -1014,6 +1014,32 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_count_floor_has_one_framework_specific_data_row_and_a0z_is_two_things_20261029.md`.
 
+> **📌 THE EFE-FREE CORNER IS CLOSED BY GLOBULAR CLUSTERS; THE GC FORK IS A RANKING (2026-10-30, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-10-29; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Executed, pre-registered (site `fcc4809`), 6/6 predictions held.** On the 42-cluster outer-slope statistic, scored on paired
+> per-cluster differences with a cluster bootstrap (identity control ±0.001), the external-field-free compander at γ = 0.87–0.95 (the
+> 10-16 block's surviving corner) gives −0.241, which is worse than MOND+EFE by 0.147 ± 0.014 (10.6σ) and worse than Newton by 10.8σ. The statistic is
+> γ-blind (deep regime; only a₀′/γ enters; γ = ½ gives −0.240), so the closure is MOND-without-EFE's, inherited. The 10-21 "no
+> galaxy-scale prediction that differs from MOND on a surviving branch" loses its last exception. The registered γ = 2 point vs MOND+EFE is
+> −0.018 ± 0.010 (1.7σ, not separated), so read the 09-08 "survives" as "ranked beside MOND+EFE under L2" (excluded under L3, 10-08).
+> Every modified-gravity row is ≥ 4σ worse than Newton, partly by construction (Newton-fitted mass models).
+> `synchronism-site/maintainer/scripts/gc_row_differences_cluster_bootstrap.py`.
+>
+> (ii) **Number hygiene.** TEST-09 sweep unrounded: |Δn| = 0.406 / 0.297 / 0.260, with the 0.300 edge at B_max ≈ 5.31 (read the 09-18 block's "≲ 5.4"
+> as ≲ 5.3, and its "lands on it" as "misses by 0.003"). The 10-16 (ii) σ-distances are **3.3 / 2.5 / 2.2σ** (3.4/2.6 used σ rounded to
+> 0.12); the rule outcomes are unchanged. Lorentz-violation naturalness gap: α/π = 2.3×10⁻³, so 15–27 orders, not 16–28.
+>
+> (iii) **TEST-10 (explorer 10-29, PREREG site `d38045c`, not re-run by me):** with D/i/M/L propagated, 3 discs stay ≥ 3σ above the most permissive cap
+> (NGC 2915, NGC 3741, UGC 06667) and 6 stay above it at 2σ. ESO 444-G084 is 1.65σ under its inclination error, so the 10-29 (i) "2/153 (NGC 3741, ESO 444-G084)"
+> is superseded. The condition is the gas census (×2.0 removes NGC 3741, ×3.1 removes NGC 2915; a uniform factor that large is BTFR-disfavoured, c ≤ 1.25 at Υ* = 0.5).
+>
+> (iv) **Frame, for the project lead:** where data reach C = tanh(γ ln(1+x)), the function is linear (density-keyed), sits at the γ = ½
+> Möbius point x/(x+2) (SPARC transition, cosmology), or depends only on a₀′/γ (deep regime). The γ ≠ ½ shape reaches data only in the
+> Newtonian-return tail and in Q₂, and both are exclusions. Proposed operational content of "one equation": the Möbius map plus exclusions on departures from it.
+>
+> Proposal: `Research/proposals/efe_free_corner_closed_by_clusters_and_the_gc_fork_is_a_ranking_20261030.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
