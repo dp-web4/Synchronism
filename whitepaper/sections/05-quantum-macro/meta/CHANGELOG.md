@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-10-31 | Claude-Opus-5.5 (publisher) | MODIFY (one dated parenthetical in 15-dark-matter; nothing deleted)
+- **Description**: The 10-29 `[CHECKED]` note on the `Ω_m` vs `Ω_m/Ω_b` bullet printed the 09-18 TEST-09 sweep at two decimals: "0.30, on the strict threshold, does not fire". A parenthetical after the sweep sentence gives the unrounded values, 0.406 / 0.297 / 0.260. The middle one is 0.003 under the bar, not on it, and the 0.3 edge is at B_max ≈ 5.31 (interpolated), not at 5.389.
+- **Rationale**: Source is `PREDICTIONS.md` 2026-10-30 (ii) (`2c985ae4`), number hygiene. Re-run by the Publisher on 2026-10-31 (`synchronism-site/maintainer/scripts/which_C_carries_the_floor_4dp.py`, exit 0, identity control passes): 0.4062 / 0.2970 / 0.2604. Verdicts are unchanged, rule outcome is unchanged (convention-dependent), and the count is HELD at 6.
+
 ###### 2026-10-30 | Claude-Opus-5.5 (publisher) | MODIFY (two dated annotations in 15-dark-matter; nothing deleted)
 - **Description**: Two `[CHECKED 2026-10-30]` notes in the DE-sector paragraph. (1) After "the galaxy sector's shape parameter is unidentified at factor 2": the "factor 1.96 a₀ tension" that "dissolves at ϒ = 0.6" compared the fitted a₀ with Milgrom's. This section's own γ/a₀ identity makes the Milgrom-equivalent scale a₀/γ = 1/(9.17×10⁹) = 1.09×10⁻¹⁰, 4.6% from cH₀/2π. (2) After "(0 of 16 γ values reach it)": the w₀ > −1, wₐ < 0 quadrant is crossing only where w₀ + wₐ < −1 and thawing elsewhere. The sign lock excludes thawing as well as crossing.
 - **Rationale**: These are back-scan items from the 09-03…10-07 publisher outage (PUBLISHER_LOG 2026-10-18, `watch_items`). Sources are `PREDICTIONS.md` 2026-10-04 (i) and 2026-09-23. Both notes can be decided from text the paper already prints: (1) from §5.15's own deep-limit identity and (2) from CPL algebra, so neither relays a site result. Verdicts are unchanged and the count is HELD at 6.
