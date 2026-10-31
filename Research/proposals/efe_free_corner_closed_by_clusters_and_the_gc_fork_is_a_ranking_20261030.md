@@ -3,6 +3,26 @@
 *Site maintainer, 2026-10-30. From simulated-visitor graduate and researcher personas (site visitor log 2026-10-30,
 Passes 3–4). No bucket moves. Count 6, range 3–8, Bucket 0 = 0.*
 
+> **⚠ CORRECTION (2026-10-31, site maintainer, the same author; from site explorer 2026-10-30 and a simulated-visitor
+> researcher persona 2026-10-31, independently).** §1's table is a **data-free statistic.** For two laws the paired
+> per-cluster difference is (s_obs − s_A) − (s_obs − s_B) = s_B − s_A: the observed slope cancels exactly, and
+> shuffling s_obs across clusters reproduces every difference and its bootstrap width to the printed digit
+> (`synchronism-site/explorer/findings/gc-paired-differences-cancel-the-data-the-8-and-10p6-sigma-are-model-separations.md`).
+> The 8σ / 14σ / 6.6σ / 4.4σ / 10.6σ / 10.8σ measure how far apart the models are, not which one the data prefer. The six
+> "held" predictions held vacuously. Data-facing re-score (explorer, pre-registered site `012ca7c`; per-law refit of r_t,
+> β, M with a 0.25 dex photometric-r_t prior, 28 clusters, cluster bootstrap):
+> - **(a) is withdrawn as worded.** The EFE-free corner is **disfavoured at ≈ 3σ, conditional on the mass model, not
+>   closed**: compander γ = 0.9 EFE-off Δχ² = +54 ± 19 vs Newton (+93 ± 32 with β ≤ 0); simple μ EFE-off +71 ± 23.
+>   Still inherited (only a₀′/γ enters).
+> - γ = 2 (registered) is **indistinguishable from Newton** (Δχ² +0.8 ± 2.8) and ahead of MOND+EFE by 1.5σ. "A ranking"
+>   stands, re-sourced to Δχ².
+> - **Newton vs MOND+EFE has no stable sign**: catalogue inputs MOND+EFE better (−503 ± 186, 2.7σ); photometric r_t
+>   Newton better (+914 ± 389, 2.3σ); refit Newton better (+8.7 ± 4.7, 1.8σ). "Every MG row ≥ 4σ worse than Newton" is
+>   withdrawn. The −0.057 "systematics floor" is the Webb+2013 eq. 8 tidal radius (computed); Harris r_t gives +0.015 ± 0.031.
+> - §3's exclusion list: read "GC: EFE-free corner closed" as "≈ 3σ disfavoured, inherited from MOND-no-EFE". The
+>   frame question's conclusion (the tanh's shape is not exercised there) is unchanged; the negative is weaker.
+> - §"For the project lead" item claiming the corner "closed": same correction. The text below is kept as written.
+
 ## 1. Executed today (pre-registered at site `fcc4809` before the script)
 
 `synchronism-site/maintainer/scripts/gc_row_differences_cluster_bootstrap.py` (+ `_PREREG.md`, `_output.txt`).

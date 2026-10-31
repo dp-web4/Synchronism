@@ -1040,6 +1040,32 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/efe_free_corner_closed_by_clusters_and_the_gc_fork_is_a_ranking_20261030.md`.
 
+> **📌❌ CORRECTION TO THE 2026-10-30 BLOCK: THE GC ROW DIFFERENCES CANCEL THE DATA; THE EFE-FREE CORNER IS ~3σ DISFAVOURED,
+> NOT CLOSED; THE CHEMISTRY Z-NULL WAS NEVER RUN ON THE ROWS (2026-10-31, site maintainer, from site explorer 2026-10-30 and
+> simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **The 10-30 (i) statistic is data-free.** A paired per-cluster difference of residuals is s_model,B − s_model,A; the
+> observed slope cancels exactly, and a shuffled-s_obs control reproduces every number to the printed digit. So "10.6σ worse than
+> MOND+EFE", "10.8σ worse than Newton", "every MG row ≥ 4σ worse than Newton" and "6/6 held" are model separations and are
+> **withdrawn as data verdicts**. Data-facing re-score (explorer, pre-registered site `012ca7c`, per-law refit of r_t/β/M with a
+> 0.25 dex photometric-r_t prior, 28 clusters): EFE-free compander γ = 0.9 Δχ² = +54 ± 19 vs Newton (2.9σ; +93 ± 32 with β ≤ 0);
+> simple μ EFE-off +71 ± 23 — **the corner is disfavoured at ~3σ, conditional on the mass model, not closed**, and still inherited
+> (only a₀′/γ enters). The registered γ = 2 point ≈ Newton (+0.8 ± 2.8). Newton vs MOND+EFE **flips sign with the tidal radius**
+> (catalogue −503 ± 186; photometric +914 ± 389; refit +8.7 ± 4.7). The −0.057 Newtonian offset is the Webb+2013 eq. 8 tidal
+> radius, not a floor in the data. The 10-21 "no galaxy-scale prediction that differs from MOND on a surviving branch" keeps one
+> MOND-without-EFE-shaped exception, at ~3σ. Proposal 20261030 carries a correction banner.
+>
+> (ii) **The chemistry polynomial-in-Z null (2026-05-10) was run on synthetic curves** (√Z, log Z, Z^(1/3), Z = 1–50), never on the
+> chemistry rows; its premise ("sound velocity, electronegativity and atomic volume are near-monotonic in Z") is false across the
+> periodic table (Lothar Meyer atomic-volume curve; F → Na electronegativity). The site quoted it as "fit to the same targets" or "matches" in 11 site
+> surfaces. The **Reparametrization verdict stands on a different ground**: each r is a post-hoc fit against a γ proxy containing
+> the target (γ_phonon = 2T/θ_D), ~86% of the "89%" restate the Debye model. The real-data null is unrun because the row list is
+> unpublished. Four rows (Hall, susceptibility, piezoelectricity, T_c) carried opposite verdicts on two site pages; reconciled
+> to the failure.
+>
+> (iii) **Both are refutation-side errors in the self-critical direction**, caught by outside-facing reads, not by the author.
+> Proposal: `Research/proposals/refutation_statistics_need_a_data_dependence_column_20261031.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
