@@ -149,6 +149,7 @@ pandoc "$TEMP_MD" -o "$PDF_FILE" \
     -V toccolor=black \
     -V colorlinks=true \
     -H pdf-glyphs.tex \
+    --lua-filter=pdf-breakable-code.lua \
     2> "$PANDOC_LOG"
 PANDOC_RC=$?
 # xelatex drops glyphs its font lacks and only says so on stderr — surface them
