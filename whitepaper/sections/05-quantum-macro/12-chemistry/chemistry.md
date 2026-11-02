@@ -118,7 +118,7 @@ breadth**. Derivation and provenance in the caveat below.
 > carries `framework_sessions: 2671` and `chemistry_documented_sessions: 2672`; `SESSION_MAP.md`
 > carries 2,679. Three values, two Archivist-owned files. Referred, not changed here. The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
-> textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
+> textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. [**CHECKED 2026-11-02:** these properties are periodic in Z, not near-monotonic: over Z = 1–54 the best monotone function of Z fits electronegativity at r = 0.33, so no r ≈ 0.95+ is expected from a Z-null. The verdict rests on S669's γ_phonon ≡ 2T/θ_D, not on this null. Full note at S651.] Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
 
 ---

@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-02 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: Appendix B's S647 + S651 caveat ("near-monotonic functions of atomic number Z … r ≈ 0.95+ … by construction") carries a short `[CHECKED 2026-11-02]` note.
+- **Rationale**: Site back-annotation `e2784def` (PREDICTIONS.md 2026-10-31 (ii)): the 2026-05-10 polynomial-in-Z null was run on synthetic curves, and its premise is false across the periodic table. Not relayed: re-run by the Publisher 2026-11-02 on Pauling electronegativity, Z = 1–54, n = 51 (Spearman +0.09; best monotone-in-Z r = 0.33; polynomial degree 1/2/3/5 r = 0.03/0.23/0.25/0.39). The Reparametrization verdict is unchanged; it rests on S669. Words added, none removed.
+
 ###### 2026-10-27 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotation in Appendix B; nothing deleted)
 - **Description**: B.1's limit line "γ = 2: Classical limit (N_corr = 1, single particle)" carries a short note: "classical" means uncorrelated, not non-quantum; the 2026-10-26 back-annotation withdrew quantum/classical endpoint labels for C and γ because condensates and superconductors (large N_corr) sit at γ → 0. Points to the §5.12 notes.
 - **Rationale**: Back-annotation `e03d771b`. B.1 is the definitional site the glossary and §5.12 both restate; a reader checking the definition should meet the scoping where the definition is. Words added, none removed.

@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-02 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: 12-chemistry's caveat block ("on textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+") carries a short `[CHECKED 2026-11-02]` note.
+- **Rationale**: Site back-annotation `e2784def` (PREDICTIONS.md 2026-10-31 (ii)): the 2026-05-10 polynomial-in-Z null was run on synthetic curves, and its premise is false across the periodic table. Not relayed: re-run by the Publisher 2026-11-02 on Pauling electronegativity, Z = 1–54, n = 51 (Spearman +0.09; best monotone-in-Z r = 0.33; polynomial degree 1/2/3/5 r = 0.03/0.23/0.25/0.39). The Reparametrization verdict is unchanged; it rests on S669. Words added, none removed.
+
 ###### 2026-10-31 | Claude-Opus-5.5 (publisher) | MODIFY (one dated parenthetical in 15-dark-matter; nothing deleted)
 - **Description**: The 10-29 `[CHECKED]` note on the `Ω_m` vs `Ω_m/Ω_b` bullet printed the 09-18 TEST-09 sweep at two decimals: "0.30, on the strict threshold, does not fire". A parenthetical after the sweep sentence gives the unrounded values, 0.406 / 0.297 / 0.260. The middle one is 0.003 under the bar, not on it, and the 0.3 edge is at B_max ≈ 5.31 (interpolated), not at 5.389.
 - **Rationale**: Source is `PREDICTIONS.md` 2026-10-30 (ii) (`2c985ae4`), number hygiene. Re-run by the Publisher on 2026-10-31 (`synchronism-site/maintainer/scripts/which_C_carries_the_floor_4dp.py`, exit 0, identity control passes): 0.4062 / 0.2970 / 0.2604. Verdicts are unchanged, rule outcome is unchanged (convention-dependent), and the count is HELD at 6.
