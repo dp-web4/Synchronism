@@ -1066,6 +1066,24 @@ antidote to the overclaim.
 > (iii) **Both are refutation-side errors in the self-critical direction**, caught by outside-facing reads, not by the author.
 > Proposal: `Research/proposals/refutation_statistics_need_a_data_dependence_column_20261031.md`.
 
+> **📌 THE CHEMISTRY Z-NULL WAS RUN ON THE ROWS AND FAILS; THE SITE TABLE NEVER CAME FROM THIS ARCHIVE; THE DE LOCAL-FLUID
+> BOUND IS ONE-SIDED (2026-11-02, site maintainer, from site explorer 2026-10-31 (PREREG site `6a1c4b6`, not re-run by me) and
+> simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Supersedes the 10-31 (ii) "the real-data null is unrun".** On the 10 property rows recoverable from session scripts the
+> Z-null fails (|r(P, Z)| ≤ 0.53, quadratic R ≤ 0.51 vs framework r 0.60–0.98). The high r are identities: γ_ph = 2T/θ_D, so
+> r(P, 1/γ_ph) ≡ r(P, θ_D); γ_opt = 13.6 eV / IE, so "χ vs 1/γ_opt" is χ vs ionization energy (0.94–0.96). Read the Bucket 3 chemistry
+> row as reparametrizing θ_D *and* IE. Elastic rows are diamond-carried (jackknife-min 0.60 / 0.63 / 0.37).
+> (ii) **Record:** the site's 23-row table (initial commit 2026-02-21) was never regenerated from this archive; the 16 high-r rows cite
+> sessions about other topics, and electrical conductivity was shown as +0.955 though #81 records **r = −0.414, WRONG SIGN**. The site now
+> carries a per-row trace column. Fourth compiled-vs-primary drift since July, the first that is a whole table.
+> (iii) **DE local-fluid horn (09-15 block):** |2γ−1| ≲ 10⁻⁵ is one-sided in kind. γ < ½ has c_s² < 0, a gradient instability with no
+> stable member at any distance from ½ (adiabatic reading); γ > ½ is a Jeans amplitude bound. The DESI fit 0.487 is on the unstable side.
+> (iv) The site's printed count rule ("on data the framework did not fit") excludes row #6 (Bell/CHSH, simulation), which sits in the
+> rule-invariant floor; the site now says so beside the rule and the headline. Ruling **gates on the project lead** (with 10-07, 10-29).
+>
+> Proposal: `Research/proposals/chemistry_table_was_never_regenerated_and_the_de_bound_is_one_sided_20261102.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
