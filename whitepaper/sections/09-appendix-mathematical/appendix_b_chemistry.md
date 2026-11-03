@@ -41,6 +41,8 @@ $$
 - Chemical hardness η vs 1/γ_optical: r = 0.950
 - Work function φ vs 1/γ_optical: r = 0.888
 
+[**CHECKED 2026-11-03:** by the estimation formula just above, 1/γ_optical = IE/IE_ref, so each correlation in this list is a correlation with ionization energy under a new name. χ against IE is a textbook relation that Mulliken's definition χ_M = (IE + EA)/2 builds in. A re-run of the session #115 script (n = 33, Z = 3–82) gives r(χ, 1/γ_optical) = 0.956 (0.938 above is the archive's recorded value), and the correlation is not a Z trend: r(χ, Z) = −0.03. Back-annotation `5709b579`.]
+
 **Phononic Channel (Thermal/Mechanical)**
 ```
 Atomic Volume V_a → Debye Temperature θ_D → γ_phonon → E, G, κ, α
@@ -55,6 +57,8 @@ $$
 - V_a vs γ_phonon: r = 0.956
 - Shear modulus G vs 1/γ_phonon: r = 0.936
 - Elastic modulus E vs 1/γ_phonon: r = 0.920
+
+[**CHECKED 2026-11-03:** at fixed T, γ_phonon = 2T/θ_D is a function of θ_D alone, so r(P, 1/γ_phonon) ≡ r(P, θ_D) exactly (S669; the re-run gives identical values on every row). The elastic correlations also rest on one material: removing diamond lowers the jackknife minimum to r = 0.63 for G and 0.60 for E (session #110, n = 24). Back-annotation `5709b579`.]
 
 **Channel Independence**
 These channels are **orthogonal** (r ≈ 0 between them), explaining why electronic and thermal properties can vary independently.
@@ -116,9 +120,11 @@ $$
 | Electron transfer | k_ET coherence-enhanced | r = 0.933 | #64 |
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 
+[**CHECKED 2026-11-03:** the "Electronegativity" row is chemical softness S = 1/(IE − EA) against γ_optical ∝ 1/IE (session #118; re-run r = 0.979). Because EA ≪ IE, that is close to 1/IE against 1/IE. Electronegativity itself is the B.2 row, r = 0.938. Back-annotation `5709b579`.]
+
 **Validation rate:** 89% *pattern-alignment* rate across 2,671 sessions.
 
-**Caveats (S647 method gap, S651 null-model gap, 2026-05-08/10):** the load-bearing r values above are being compared against an *implicit* null of r=0 (random). The *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh): sound velocity, electronegativity, atomic volume are themselves near-monotonic functions of atomic number Z; any smooth monotonic function will achieve r ≈ 0.95+ on the same 1,703 phenomena by construction. [**CHECKED 2026-11-02:** over the sampled Z = 1–54 values the best monotone function of Z fits electronegativity at r = 0.33, contradicting a universal r ≈ 0.95+ claim. The chemistry-row Z-null remains unmeasured; its row selection is unpublished. The verdict rests on S669's γ_phonon ≡ 2T/θ_D, not on this null. Full note at S651.] The framework-specific signal is **Δr = r(Synchronism) − r(best monotonic null)** — *not currently in the archive*. Compounded with the Method 2 / 3 self-correlation paths and Method 2's documented systematic bias toward γ ≈ 1 (Session #26 Part 3 simulation table), best estimate is **tie or marginal win** until Δr is computed against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND Method 1 (bias-free) is applied uniformly OR pre-registered γ predictions for held-out phenomena are produced. "89% validated" is **defensible only with the null model documented**; until then, treat the chemistry track as a substantial *pattern catalog* with productive boundaries (the γ ~ 1 motif organizes a lot of structure), not as 1,703 confirmed predictions.
+**Caveats (S647 method gap, S651 null-model gap, 2026-05-08/10):** the load-bearing r values above are being compared against an *implicit* null of r=0 (random). The *relevant* null is r(polynomial in Z) or r(generic 2-parameter tanh): sound velocity, electronegativity, atomic volume are themselves near-monotonic functions of atomic number Z; any smooth monotonic function will achieve r ≈ 0.95+ on the same 1,703 phenomena by construction. [**CHECKED 2026-11-02:** over the sampled Z = 1–54 values the best monotone function of Z fits electronegativity at r = 0.33, contradicting a universal r ≈ 0.95+ claim. The chemistry-row Z-null remains unmeasured; its row selection is unpublished. The verdict rests on S669's γ_phonon ≡ 2T/θ_D, not on this null. Full note at S651.] [**UPDATE 2026-11-03:** the real-row Z-null has since been run. On the 10 property rows recoverable from the session scripts (#80, #109, #110, #114, #115, #118; n = 19–33 per row, Z = 3–82) it fails: |r(P, Z)| ≤ 0.53 (linear, √Z and ln Z) and quadratic-in-Z R ≤ 0.51, against framework r = 0.60–0.98 (site explorer, pre-registered, back-annotation `5709b579`; re-run by the Publisher 2026-11-03, output identical). The high r values are identities, not a Z trend: r(P, 1/γ_phonon) ≡ r(P, θ_D), and γ_optical = IE_ref/IE, so the optical rows are correlations with ionization energy. See Appendix B.2.] The framework-specific signal is **Δr = r(Synchronism) − r(best monotonic null)** — *not currently in the archive*. Compounded with the Method 2 / 3 self-correlation paths and Method 2's documented systematic bias toward γ ≈ 1 (Session #26 Part 3 simulation table), best estimate is **tie or marginal win** until Δr is computed against the best-of-3 monotonic nulls (polynomial in Z, generic 2-parameter tanh, MOND-type interpolating function), AND Method 1 (bias-free) is applied uniformly OR pre-registered γ predictions for held-out phenomena are produced. "89% validated" is **defensible only with the null model documented**; until then, treat the chemistry track as a substantial *pattern catalog* with productive boundaries (the γ ~ 1 motif organizes a lot of structure), not as 1,703 confirmed predictions.
 
 ---
 

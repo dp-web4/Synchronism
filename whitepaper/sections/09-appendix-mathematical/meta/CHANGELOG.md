@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-03 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: Appendix B: the B.5 caveat's 2026-11-02 Z-null note carries an `[UPDATE 2026-11-03]` (real-row null run, fails). New `[CHECKED 2026-11-03]` notes: B.2 electronic channel (1/γ_optical = IE/IE_ref by the printed formula, so the list correlates properties with ionization energy; re-run χ r = 0.956, r(χ, Z) = −0.03); B.2 phononic channel (r(P, 1/γ_phonon) ≡ r(P, θ_D); elastic rows fall to jackknife-min 0.63 / 0.60 without diamond); B.5 (the "Electronegativity" r = 0.979 row is chemical softness against 1/IE).
+- **Rationale**: Site back-annotation `5709b579` (PREDICTIONS.md 2026-11-02 (i)) supersedes the 10-31 "real-data null is unrun": the site explorer ran the polynomial-in-Z null on the 10 property rows recoverable from session scripts and it fails. Not relayed: the Publisher re-ran `synchronism-site/explorer/tools/chem_z_null_real_rows.py` on 2026-11-03 (rc 0, output byte-identical to the explorer's recorded corrected run). Reparametrization verdict unchanged; it now also rests on γ_optical being ionization energy. Words added, none removed.
+
 ###### 2026-11-02 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: Appendix B's S647 + S651 caveat ("near-monotonic functions of atomic number Z … r ≈ 0.95+ … by construction") carries a short `[CHECKED 2026-11-02]` note.
 - **Rationale**: Site back-annotation `e2784def` (PREDICTIONS.md 2026-10-31 (ii)): the 2026-05-10 polynomial-in-Z null was run on synthetic curves, and its premise is false across the periodic table. Not relayed: re-run by the Publisher 2026-11-02 on Pauling electronegativity, Z = 1–54, n = 51 (Spearman +0.09; best monotone-in-Z r = 0.33; polynomial degree 1/2/3/5 r = 0.03/0.23/0.25/0.39). The Reparametrization verdict is unchanged; it rests on S669. Words added, none removed.

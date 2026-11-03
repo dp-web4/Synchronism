@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-03 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: 12-chemistry's 2026-11-02 Z-null note carries an `[UPDATE 2026-11-03]`: the real-row null was run on 10 rows and fails (|r(P, Z)| ≤ 0.53, quadratic R ≤ 0.51 vs framework r 0.60–0.98); the high r values are θ_D and ionization-energy identities.
+- **Rationale**: Site back-annotation `5709b579` (PREDICTIONS.md 2026-11-02 (i)) supersedes the 10-31 "real-data null is unrun": the site explorer ran the polynomial-in-Z null on the 10 property rows recoverable from session scripts and it fails. Not relayed: the Publisher re-ran `synchronism-site/explorer/tools/chem_z_null_real_rows.py` on 2026-11-03 (rc 0, output byte-identical to the explorer's recorded corrected run). Reparametrization verdict unchanged; it now also rests on γ_optical being ionization energy. Words added, none removed.
+
 ###### 2026-11-02 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: 12-chemistry's caveat block ("on textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+") carries a short `[CHECKED 2026-11-02]` note.
 - **Rationale**: Site back-annotation `e2784def` (PREDICTIONS.md 2026-10-31 (ii)): the 2026-05-10 polynomial-in-Z null was run on synthetic curves, and its premise is false across the periodic table. Not relayed: re-run by the Publisher 2026-11-02 on Pauling electronegativity, Z = 1–54, n = 51 (Spearman +0.09; best monotone-in-Z r = 0.33; polynomial degree 1/2/3/5 r = 0.03/0.23/0.25/0.39). The Reparametrization verdict is unchanged; it rests on S669. Words added, none removed.
