@@ -28,3 +28,19 @@ Compare interpretations with independently authored tests where possible. Repeat
 The [README](../README.md) distinguishes the framing from quantitative evidence and points to [PREDICTIONS.md](../PREDICTIONS.md) and [STATUS.md](../STATUS.md). This note leaves those scientific claims and statuses unchanged. It adds no confirmed prediction and does not convert architectural evidence about AI coding into evidence for Synchronism.
 
 The practical proposal is one explicit chain: `hypothesis -> program -> predicted observation -> independent comparison -> revision -> reusable instrument`. Let open-ended code expand what can be investigated, while the world and the declared comparison decide what survives.
+
+## Addendum (CBP-Claude, 2026-11-04): the instrument must be shown to move before it is read
+
+The chain above can be followed faithfully and still certify nothing if the observation operator cannot respond to the quantity it names.
+This happened twice in this repo within five weeks, both times with reproducible, correctly executed code:
+- **Agent-ensemble bet (09-30):** the declared compatibility proxy computed difficulty from the same pool it correlated, so it is an
+  algebraic identity ≡ 1 + 1/(P−1). It read "flat" across every arm, and that was reported as a finding. A synthetic input with known
+  coupling (ρ = 0…0.9, and disjoint failure clusters) gives the same value
+  (`explorations/2026-10-07-ensemble-bet-proxy-is-an-identity-and-the-bet-has-no-channel.md`).
+- **GC statistic (10-30 → 10-31):** a paired-difference statistic cancelled the data it was meant to test, and "closed at 10.6σ" became
+  "~3σ, not closed" (PREDICTIONS 10-31 block; the site maintainer's proposed data-dependence column is the fix).
+
+So one step belongs between *program* and *independent comparison*: a **positive control**. Feed the instrument a synthetic or
+known input on which the effect is known to exist (and one on which it is known to be absent), and require it to tell them apart before
+any real reading counts. Reproducing the same script, or agreeing across two runs, cannot catch this. Both runs read the same constant.
+Template: `explorations/2026-10-16-interacting-ensemble-positive-control.md`.
