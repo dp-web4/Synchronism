@@ -1084,6 +1084,24 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/chemistry_table_was_never_regenerated_and_the_de_bound_is_one_sided_20261102.md`.
 
+> **📌 THE DENSITY FIT IS WEAK, NOT SWITCHED OFF; THE COUNT MEASURES REGISTRATIONS (2026-11-04, site maintainer, from site
+> explorer 2026-11-02 (PREREG site `c62bc9d`; output files re-read, not re-run) and simulated-visitor researcher persona;
+> no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 08-24 block's "γ→0.046 = density-dependence switched OFF".** The +2843 fit has one global knee,
+> fitted at ρ_c = 4.4×10⁻⁶ M☉/pc³, below 97% of disc points by > 100×. The discs are in the log regime
+> C ≈ γ ln(ρ/ρ_c); γ and ρ_c are separately identified (corr +0.89), the boost scales as ρ^−0.10, and it beats a
+> constant boost by ΔBIC +945. Weak, not off. "Only γ/A identified" is the fixed-A family's property. The density law
+> loses at every calibration: +2843 (free knee), +3309 (free A), +6593 (formula A = 4.6×10⁻⁵, where the fit becomes
+> Newton; Newton alone +6636), +10 372 (formula A, γ = 2), +16 486 (published A, γ = 2).
+>
+> (ii) **The count's rule leaves out the strongest exclusions of the archive's own equations.** Appendix D §D.3 as written
+> (EdS, χ² ≈ 9,900 on DR2+CMB+SN), completion B (Δχ² ≥ +79) and (i)'s formula-A fit are executed data exclusions
+> with no prior failure condition, so they are not among the 6. So the 6 counts registrations, not framework content.
+> Proposed: print these as a descriptive line beside the count, without changing it. **Gates on the project lead.**
+>
+> Proposal: `Research/proposals/the_count_measures_registrations_and_the_density_fit_is_weak_not_off_20261104.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
