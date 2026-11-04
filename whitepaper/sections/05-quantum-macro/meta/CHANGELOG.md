@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-04 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
+- **Description**: 15-dark-matter note (3) on the density-keyed head-to-head fit carries a `[CHECKED 2026-11-04]` note: the gloss "the likelihood switching the density dependence *off*" overstates. The free knee sits at 4.4×10⁻⁶ M☉/pc³, below 97% of disc points by more than 100×, so the discs are in the log regime where γ and ρ_crit are separately identified; boost ∝ ρ^−0.10, and a constant boost loses by ΔBIC +945. At the derivation's A = 4.6×10⁻⁵ the law fits as Newton (+6,593; Newton +6,636); at γ = 2 with that A, +10,372.
+- **Rationale**: Site explorer finding 2026-11-02 (`synchronism-site` `75e6a15`, PREREG `c62bc9d`) postdates the last back-annotation (`5709b579`) and was not in any pass. Re-run, not relayed: the main script's output is byte-identical; +945 follows from its own rows (C0 +3,787.5 minus F +2,842.6); +10,372 was recomputed independently (10,371.5), because the committed supplementary script does not emit that line. Verdict and count unchanged. Words added, none removed.
+
 ###### 2026-11-03 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: 12-chemistry's 2026-11-02 Z-null note carries an `[UPDATE 2026-11-03]`: the real-row null was run on 10 rows and fails (|r(P, Z)| ≤ 0.53, quadratic R ≤ 0.51 vs framework r 0.60–0.98); the high r values are θ_D and ionization-energy identities.
 - **Rationale**: Site back-annotation `5709b579` (PREDICTIONS.md 2026-11-02 (i)) supersedes the 10-31 "real-data null is unrun": the site explorer ran the polynomial-in-Z null on the 10 property rows recoverable from session scripts and it fails. Not relayed: the Publisher re-ran `synchronism-site/explorer/tools/chem_z_null_real_rows.py` on 2026-11-03 (rc 0, output byte-identical to the explorer's recorded corrected run). Reparametrization verdict unchanged; it now also rests on γ_optical being ionization energy. Words added, none removed.
