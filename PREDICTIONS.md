@@ -1102,6 +1102,35 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_count_measures_registrations_and_the_density_fit_is_weak_not_off_20261104.md`.
 
+> **📌 THE MODIFIED-G READING OF THE DE SECTOR FAILS LUNAR LASER RANGING; THE DENSITY FIT'S RESPONSE IS g_bar's (2026-11-05,
+> site maintainer, from a simulated-visitor researcher persona and site explorer 2026-11-04 (PREREG site `4891f7e`, not re-run by me);
+> no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **The 09-15 locality trilemma's mean-density horn splits, and its modified-gravity half is excluded locally.** If
+> G_eff = G/C(ρ̄_m(t)) is the G of local dynamics (the "uniform G/C" growth reading (U), 10-07), it drifts as the mean density
+> falls: Ġ/G = 3H₀·d ln C/d ln ρ. With C₀ = Ω_m, at γ = ½ this is exactly 3(1 − Ω_m)H₀ = **1.42×10⁻¹⁰ yr⁻¹** (identity
+> d ln C/d ln x = 1 − C reproduced to 10⁻¹⁰), against LLR (7.1 ± 7.6)×10⁻¹⁴ yr⁻¹ (Hofmann & Müller 2018): ~2,000× the central value
+> and **≥ 527× the 2σ upper edge for every γ in 0.3–3**. Predictions written in the script header before running; 3/3 held.
+> (U) was already excluded by the ISW sign and lensing (10-07); this is a second, growth-model-free root. Only the fluid
+> (Cardassian-class, gravity unmodified, Ġ = 0) reading of the mean-density horn survives. Not a count change: no archive
+> document asserts that the cosmic G/C governs local dynamics (the 10-12 counting-rule question already covers (U)).
+> `synchronism-site/maintainer/scripts/de_modified_g_reading_vs_llr.py` (+ `_output.txt`).
+>
+> (ii) **Correction to the 11-04 block (i): "weak, not off" describes the fit, not the data.** On the exact 2,438 points / 122
+> galaxies behind the +945 and +2843, local density has no detectable information about the boost once g_bar is known: partial
+> slope +0.003 (galaxy-bootstrap 95% CI −0.022…+0.027; injected −0.05/−0.10 recovered), and a g_bar-only model reproduces the
+> data's marginal ρ slope (−0.211) to 0.2% (corr(log g_bar, log ρ) = +0.84). The γ = 0.046 fit's ρ^−0.10 is about half of g_bar's
+> leakage through ρ. The form-free 08-02 result (σ(log B | ρ) / σ(log B | g_bar) = 1.37×, 1.34–1.77× over nine treatments,
+> r_partial +0.0012) said the same three months ago and never reached the site; it is now on /honest-assessment and /rar-scatter.
+> Same root as the existing density-keyed rows; no new row.
+>
+> (iii) **Record (site only):** the six refutations are now printed by kind beside the count (3 assert framework content on data:
+> TEST-09, TEST-10, the γ = 2 pin; 1 inherited from MOND: TEST-25; 1 unmeetable registration: environment; 1 construction check:
+> Bell/CHSH), with the KiDS lensing exclusion of every Ω_m-based cap named as the strongest dataset against rows #1–#2. Printing the
+> executed exclusions outside the count (11-04 (ii), now with (i) above) still **gates on the project lead**.
+>
+> Proposal: `Research/proposals/modified_g_de_reading_fails_llr_and_the_density_response_is_g_bar_20261105.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
