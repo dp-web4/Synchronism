@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-06 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: 15-dark-matter gains two `[CHECKED 2026-11-06]` notes. (1) After "No cosmological constant Λ required.": the dark-energy split survives only as a fluid. Read as modified gravity, G_eff = G/C(ρ̄_m(t)) drifts as the mean density falls, Ġ/G = 3(1 − Ω_m)H₀ = 1.42×10⁻¹⁰ yr⁻¹ at γ = ½, at least 527× the LLR 2σ edge for every γ in 0.3–3. (2) Count item (2), TEST-09: a paired galaxy bootstrap gives σ(Δn) = 0.112, so |Δn| = 0.406 is 3.6σ from zero and 0.95σ above the 0.3 bar.
+- **Rationale**: Site back-annotation `a850db9e` (i) and site explorer `da1308c` (pre-registered `c9ff6ab`); both scripts re-run by the Publisher with byte-identical output. Count and verdicts unchanged.
+
 ###### 2026-11-05 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
 - **Description**: 15-dark-matter note (3): the `[CHECKED 2026-11-04]` note gains an `[UPDATE 2026-11-05]`. The weak density response (ρ^−0.10^, +945 over a constant boost) belongs to the fit, not the data. At fixed g_bar, log ρ takes slope −0.001 (acceleration law refit, ΔBIC +7.7 against adding it) or +0.003 against a cubic in log g_bar (galaxy-bootstrap 95% CI −0.022 to +0.027). Injected −0.05/−0.10 are recovered. corr(log g_bar, log ρ) = +0.84; the data's slope −0.211 is reproduced to 0.2% by a g_bar-only model. The note now points at the section's own 2026-08-02 form-free result.
 - **Rationale**: Site explorer 2026-11-04 (`synchronism-site` `2ba2480`, PREREG `4891f7e`) landed at 08:05, after the 11-04 pass and the 11-04 back-annotation, and it tests the regression-dilution question the 11-04 note left open. Re-run, not relayed: output byte-identical. The 11-04 note sat six lines above a paragraph that already said local density carries no information beyond g_bar; this pass's own previous note was the propagation failure. Verdict and count unchanged. Words added, none removed.
