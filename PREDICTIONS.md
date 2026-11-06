@@ -1131,6 +1131,40 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/modified_g_de_reading_fails_llr_and_the_density_response_is_g_bar_20261105.md`.
 
+> **📌 THE CASSINI-PASSING γ ≳ 1.5–2 HELD a₀ FIXED; WITH SPARC'S a₀ NO γ UP TO 3 PASSES. TEST-25 LEAVES THE RANGE (2026-11-06,
+> site maintainer, from a simulated-visitor researcher persona; no bucket moves, count 6, range on file 3–8 → 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 09-17 block's "the compander passes at γ ≳ 1.5–2" and to the 09-29 cascade.** That pass came from the
+> preparatory `target_scan` in `simulations/sparc_cassini_q2.py`. The scan holds a₀ = 1.03×10⁻¹⁰ for every γ, and its own docstring says
+> "not the registered joint test because a0 is not profiled from SPARC". The registered joint test evaluated Cassini only at γ ≲ 0.6. It
+> marked the rest "not_required", which was true at point level. Re-run with a₀ taken from `sparc_profile.json` at each γ, at all three
+> registered g_ext (predictions in the header before running, 3/3 held; identity control +17.96σ at γ = 0.489):
+> - Cassini fails at **14.5–19.3σ for every γ from 0.3 to 3**, nearly flat in γ. Q₂ is set in the transition region near 7000 AU, and
+>   SPARC pins that region.
+> - The fixed-a₀ pass at γ = 2 needed a₀/γ = 0.52×10⁻¹⁰, against SPARC's 1.48×10⁻¹⁰.
+> - So TEST-25's in-house empty intersection holds at galaxy level too, where SPARC allows γ 0.3–1.7. It does not move with the γ = 2 pin.
+>   The 10-24 range change (4–8 → 3–8) is reversed: the range on file is **4–8**, and the rule-invariant floor is 4 rows (TEST-10,
+>   environment, TEST-25, Bell/CHSH).
+> - Same reading as the 10-12 (iii) "row stands": inherited, conditional on a modified-Poisson completion.
+>
+> Script: `synchronism-site/maintainer/scripts/cassini_q2_at_sparc_profiled_a0_high_gamma.py` (+ `_output.txt`).
+>
+> (ii) **The 10-06 DR4 "one-γ squeeze" has no survival window.** The 10-06 bracket [ν_e(1+L_e), ν_e] is too wide to map an outcome to
+> a γ, and "a Newtonian null fails every γ ≲ 3" read its upper edge. The quasi-linear QUMOND point-mass solution
+> Φ = −(GMν_e/r)[1 + (L_e/2) sin²θ] gives an orientation-averaged boost **ν_e(1 + L_e/3)**:
+> - 1.38–1.53 at γ ≈ ½, which matches MOND's published range;
+> - 1.15–1.26 at γ = 1, 1.05–1.13 at γ = 2, and 1.03–1.09 at γ = 3 (g_e 1.6–2.2×10⁻¹⁰).
+>
+> A dated reading key (boost → γ) is committed before DR4 at `synchronism-site/maintainer/scripts/wb_dr4_reading_key_PREREG.md`. With
+> (i), every outcome lands on a member already excluded, so DR4 decides MOND's question (Banik vs Chae), not this family's. Adopting the
+> key **gates on the project lead**.
+>
+> (iii) **Record (site):** the paired galaxy bootstrap for TEST-09 is 3.6 / 2.8 / 2.5σ (explorer 11-05). The count's "2σ rule" is
+> "threshold excluded at 2σ" (margin 0.95σ, drops TEST-09). It is now named apart from Tier 1's zero-tolerance 2σ separation (fires at
+> all three). TEST-10 was listed as convention-dependent on two site surfaces, against its own row; corrected.
+>
+> Proposal: `Research/proposals/cassini_pass_held_a0_fixed_test25_leaves_the_range_and_dr4_has_no_window_20261106.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
