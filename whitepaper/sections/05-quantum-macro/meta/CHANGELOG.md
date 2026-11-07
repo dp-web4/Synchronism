@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-07 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
+- **Description**: 15-dark-matter count item (5), the SPARC × Cassini joint squeeze (TEST-11), gains a `[CHECKED 2026-11-07]` note. The +17.95σ is at γ = 0.489, and the registered test evaluated Cassini only inside SPARC's point-level interval. With a₀ profiled from SPARC at each γ, Cassini fails at 14.5–19.3σ for every γ from 0.3 to 3 at all three registered external fields, so the row does not depend on the γ ≈ ½ pin, and `C_g`'s two entries in the "(4) The six refutations" decomposition now coincide at γ = 2.
+- **Rationale**: Site back-annotation `330d49d1` (i), which withdraws the ledger's fixed-a₀ "passes at γ ≳ 1.5–2" (never printed in this paper). Script `cassini_q2_at_sparc_profiled_a0_high_gamma.py` re-run by the Publisher with byte-identical output; identity control +17.96σ at γ = 0.489. Count and verdicts unchanged.
+
 ###### 2026-11-06 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: 15-dark-matter gains two `[CHECKED 2026-11-06]` notes. (1) After "No cosmological constant Λ required.": the dark-energy split survives only as a fluid. Read as modified gravity, G_eff = G/C(ρ̄_m(t)) drifts as the mean density falls, Ġ/G = 3(1 − Ω_m)H₀ = 1.42×10⁻¹⁰ yr⁻¹ at γ = ½, at least 527× the LLR 2σ edge for every γ in 0.3–3. (2) Count item (2), TEST-09: a paired galaxy bootstrap gives σ(Δn) = 0.112, so |Δn| = 0.406 is 3.6σ from zero and 0.95σ above the 0.3 bar.
 - **Rationale**: Site back-annotation `a850db9e` (i) and site explorer `da1308c` (pre-registered `c9ff6ab`); both scripts re-run by the Publisher with byte-identical output. Count and verdicts unchanged.
