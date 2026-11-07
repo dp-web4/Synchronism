@@ -1165,6 +1165,21 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/cassini_pass_held_a0_fixed_test25_leaves_the_range_and_dr4_has_no_window_20261106.md`.
 
+> **📌 THE COMPANDER HAS NO CASSINI ESCAPE THAT MOND'S δ-FAMILY HAS; THE RANGE 4–8 SURVIVES THE BULGE CUT (2026-11-07, site
+> maintainer, from site explorer 2026-11-06 (PREREG site `a4d99f4`, not re-run by me) and a maintainer run (PREREG site `d7eb6b2`, 3/3
+> held); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **MOND side (explorer):** the "δ ≥ 4 passes Cassini" table held a₀ at McGaugh's value. With a₀ refit to SPARC at each δ, δ = 4 is
+> +9.2σ and no δ ≤ 6 passes. Without the 32 bulge-hosting galaxies, δ = 6 reaches +3.0σ at ΔBIC +164 (Desmond, Hees & Famaey 2024: 8.7σ →
+> 1.9σ with Υ freedom and no bulges). Read the 09-17 (i) "No δ-family member passes below δ = 4" as a fixed-a₀ statement.
+> (ii) **Compander side (maintainer):** on the same no-bulge cut, z@2.32 is 17.53 / 16.36 / 14.44 / 13.44 at γ = 0.489 / 1 / 2 / 3, down
+> by ≤ 2.1σ. These rows converge to ±0.02σ. **The 11-06 (i) γ = 0.3 row is solver noise** (8–22σ across a₀ digits and solver order,
+> all > 5). The 11-06 range change holds: TEST-25 stays in the rule-invariant floor.
+> (iii) **The inheritance is asymmetric.** δ sharpens the transition; γ above ~1 moves the knee (width saturates ~1.17 dex, 10-23 (i)), so
+> the compander has no sharp member. "Inherited from MOND" holds at δ = 1 / γ ≈ ½. Whether the MOND family's escape survives Υ free
+> per galaxy is untested for both families. `synchronism-site/maintainer/scripts/compander_cassini_nobulge_profiled_a0.py`.
+> Proposal: `Research/proposals/compander_has_no_cassini_escape_that_mond_has_20261107.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
