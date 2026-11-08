@@ -1180,6 +1180,35 @@ antidote to the overclaim.
 > per galaxy is untested for both families. `synchronism-site/maintainer/scripts/compander_cassini_nobulge_profiled_a0.py`.
 > Proposal: `Research/proposals/compander_has_no_cassini_escape_that_mond_has_20261107.md`.
 
+> **📌 THE a₀ PRIOR-ART CREDIT WAS WRONG; TEST-10's "≲ 14" WAS A SAMPLE MAXIMUM; TEST-25's HONEST FORM IS THE M/L EACH FAMILY NEEDS (2026-11-08, site
+> maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-07 (PREREG site `10d0bdf`, not re-run by me); no bucket moves, count 6,
+> range 4–8, Bucket 0 = 0).**
+>
+> (i) **Bucket 3 a₀ row.** "cf. McCulloch / Verlinde / Smolin" implied a shared factor, and the site said so outright ("same geometric factor"). Read 2026-11-08:
+> McCulloch 2007 Eq. 12 is 0.99×cH ("about six times larger" than MOND's); Verlinde 2016 is a_M = a₀/6 with a₀ ≡ cH₀; Smolin 2017 is a₀ ≈ a_Λ/8.3. They share a dimensional
+> origin, not a prefactor. **"Milgrom's … cH₀/6 (1983)" has no locator:** Sanders & McGaugh 2002 print ~cH₀/6 and say Milgrom noticed a₀≈cH₀ "to within a factor of 5 or 6", while Milgrom 2008 §VI says
+> "Milgrom (1983a) observed that 2πa₀≈cH₀". The 1983 paper itself was not read. So cH₀/2π is the form the MOND literature prints, which strengthens this row's Bucket 3 status. Row edit gates on the
+> project lead (10-16 (i)). The persona's own correction ("the only /6 I located is Verlinde's") was also incomplete.
+>
+> (ii) **TEST-10.** Pre-registered (site `0be9704`; 3/5 held; identity reproduces the 10-29 table exactly) on the explorer's Statistic B with D, i, M/L and gas profiled. All radii: UGC 06667 reaches
+> B_max = 14 at χ² ≥ 9, and 9 at a 153-disc family-wise χ² ≥ 18.4, but only through inner points where SPARC lists V_gas = 0.0, so the gas nuisance cannot act (the 10-29 "gas × ∞"). Outer half of each curve
+> (post-hoc): **B_max ≈ 7.5 at 3σ for one disc (NGC 2915), ≈ 5.7 after the correction.** Framework's 3.175: 28 discs ≥ 3σ, 10 after correction. Ω_m/Ω_b = 6.39: 2 ≥ 3σ (NGC 2915, NGC 3741), **0 after correction**. So the framework as
+> written fails overwhelmingly, while at the most permissive cap the rotation-curve case is per-disc and lensing is the independent leg. "Fires under every candidate cap" still holds under the registered rule, which has no significance term;
+> count and range unchanged. Read the 10-30 (iii) "3 discs ≥ 3σ" with this. The joint population statistic is unrun and could be much tighter (explorer topic).
+> `synchronism-site/maintainer/scripts/test10_bmax_3sigma_scan.py`, `test10_bmax_3sigma_diag_posthoc.py`.
+>
+> (iii) **TEST-25 (explorer 11-07).** Υ free per galaxy on the same instrument: MOND δ = 6 passes at Υ_d ≈ 0.54 (no bulges; 1.8σ on SPARC, matching Desmond+'s 1.9σ); the compander needs Υ_d ≈ 1.2–1.4 (36–42% of discs over-maximal; 2.9σ at γ = 3); γ ≤ 1 and δ = 1 pass at no Υ_d ≤ 1.5. The
+> 11-07 (iii) "untested" is answered, and the asymmetry stands for QUMOND. Read every in-house Cassini σ (14.5–19.3, 13.4) as M/L-pinned. Do not quote "stays above 10σ with Υ free" (it held by 0.03σ at one prior width). AQUAL is the open flip. Same run: the Desmond abstract says the quadrupole "implies, to high
+> precision, no deviation from Newtonian gravity in nearby wide binaries", and Park+ 2026 bound the boost at the Sun at 2%, which bears on reading DR4 (2 December 2026, ESA).
+>
+> (iv) **Record (site):** 08-14/10-23's "γ is not a sharpness" reached the teaching surfaces today (12 pages; width stops at 1.17 dex, so "sign-inverted" is not the deeper defect; the family has no sharp member). TEST-08's "~900× under the bar" was a ratio to a near-zero r²; the 95% upper limit is r² ≈ 0.03,
+> about 3× under the bar and 6× under the claim. ">20% of scatter" never named its denominator: read against intrinsic scatter the claim is ≈ 0.04 of total variance and the upper limit excludes it narrowly.
+>
+> (v) **Frame, for the project lead:** literature statements fail where computations hold, a pattern worth measuring. A random-sample error rate of verdict sentences is internally runnable, has an unknown outcome, and is citable (explorer topic). A correction-retirement rule is proposed, because the loop adds words to
+> the pages it repairs.
+>
+> Proposal: `Research/proposals/literature_statements_fail_where_computations_hold_and_test10_is_a_bound_20261108.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
