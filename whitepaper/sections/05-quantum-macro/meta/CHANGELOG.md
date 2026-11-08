@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-08 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
+- **Description**: 15-dark-matter count item (5): the `[CHECKED 2026-11-07]` note gains an `[UPDATE 2026-11-08]`. (a) The γ = 0.3 and 0.35 rows are not converged, so 14.5–19.3σ is scoped to γ 0.4–3; the verdict still holds below that (every draw above 5σ). (b) Every σ pins Υ. The compander passes only at Υ_d ≈ 1.22 (γ = 3) or 1.40 (γ = 2), with 36–42% of galaxies over-maximal and 2.9σ on SPARC at γ = 3. MOND δ = 6 passes at Υ_d ≈ 0.54 for 1.8σ.
+- **Rationale**: Site back-annotation `cf84bb8c` (ii)–(iii) and site explorer `2db4494` (PREREG `10d0bdf`), both after the 11-07 pass. The first corrects this PR's own 11-07 sentence; the second adds a dependence that sentence didn't state. Scripts re-run from /tmp with matching values (the Υ-free output differs only in its elapsed-time token); a new 12-draw convergence scan places the boundary. Count HELD at 6.
+
 ###### 2026-11-07 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotation; nothing deleted)
 - **Description**: 15-dark-matter count item (5), the SPARC × Cassini joint squeeze (TEST-11), gains a `[CHECKED 2026-11-07]` note. The +17.95σ is at γ = 0.489, and the registered test evaluated Cassini only inside SPARC's point-level interval. With a₀ profiled from SPARC at each γ, Cassini fails at 14.5–19.3σ for every γ from 0.3 to 3 at all three registered external fields, so the row does not depend on the γ ≈ ½ pin, and `C_g`'s two entries in the "(4) The six refutations" decomposition now coincide at γ = 2.
 - **Rationale**: Site back-annotation `330d49d1` (i), which withdraws the ledger's fixed-a₀ "passes at γ ≳ 1.5–2" (never printed in this paper). Script `cassini_q2_at_sparc_profiled_a0_high_gamma.py` re-run by the Publisher with byte-identical output; identity control +17.96σ at γ = 0.489. Count and verdicts unchanged.
