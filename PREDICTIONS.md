@@ -1209,6 +1209,34 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/literature_statements_fail_where_computations_hold_and_test10_is_a_bound_20261108.md`.
 
+> **📌 THE γ = 2 HEADLINE FREEZES THE NUISANCE THAT MATTERS MOST; a₀′/γ IS IDENTIFIED ONLY WITH γ FREE (2026-11-09, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-11-08 (PREREG site `704cd42`, not re-run by me); no bucket moves, count 6,
+> range 4–8, Bucket 0 = 0).**
+>
+> (i) **Row #3 / B2.** +184 and +10.9 both hold Υ_disk = 0.5 for both laws. Pre-registered (site `5a95614`), identity exact (+184.0, rms 0.1485 / 0.1437), with one global Υ per law on the same 2,807 rows:
+> - γ = 2 is best at Υ = 0.61, McGaugh at 0.54. Same parameter count, so the comparator is unchanged.
+> - ΔBIC **+46.2** by point; **+2.73** with N → N_gal. Galaxy-block bootstrap with Υ and a₀ refit per law per resample: median +46, 95 % **[−26, +132]**, P(≤ 0) = 0.12. Against the frozen 0.5 on the same resamples: [29, 347].
+> - At a common Υ the sign flips near 0.61: +184 at 0.50, +10 at 0.60, −65 at 0.65.
+> - Noise-free twin (post-hoc): a McGaugh world predicts +44, a γ = 2 world −43, so the data sit where a McGaugh world puts them, about 2.2σ from a γ = 2 world on the bootstrap sd of ≈ 40. That agrees with the explorer's 09-29 per-galaxy 1.9–2.3σ.
+>
+> The registered reading rule returned R1: **read the row as disfavoured at about 2σ, not as refuted at +184.** All 6 predictions held, but they were written from the persona's own table, so this confirms a number and is not a blind test. B2's registered text says "marginalized BIC", so the frozen-Υ number was never the registered statistic. Whether row #3 stays among the 6 joins the counting-rule question, gating on the project lead; it already carries −1 in the range. Coarse: one global Υ per law, vertical rms. `synchronism-site/maintainer/scripts/gamma2_global_upsilon_per_law.py`, `gamma2_global_upsilon_twin_power_posthoc.py`.
+>
+> (ii) **Every γ is a MOND μ.** C ≈ γx in the deep regime, so the compander has MOND's limits with a₀ = a₀′/γ, at every γ. So row #3 selects among MOND's functions. It does not test a rival to MOND, and "the γ = 2 law" is not a non-MOND law. Read the B2 column "a place the math is *forced* to differ from MOND" accordingly.
+>
+> (iii) **Correction to the 10-04 block's "the scale is identified; the degeneracy is Υ ↔ γ".** a₀′/γ stays at 1.04–1.09×10⁻¹⁰ across Υ = 0.4–0.7 only because γ̂ runs 0.28 → 2.14 along a valley. Pinned at γ = ½, the reading the ledger keeps, a₀ moves 1.44 → 1.10 → 0.87 and closing cH₀/2π needs **H₀ ≈ 93 / 71 / 57** at Υ = 0.4 / 0.5 / 0.6. So the Bucket 3 a₀ row's agreement with cH₀/2π holds at one M/L, which fits McGaugh's published ±0.24 systematic on g†. Read "identified" as identified jointly with γ. Same family as the 10-23 "γ is identified only jointly with ρ_crit".
+>
+> (iv) **Wide binaries (explorer 11-08).** The site and the 06-12 finding said Saad & Ting's flip lies in one deprojection choice. It does not. Their public code (`run_gamma_analysis.py` line 106 at `4333e9f`, read by me) sets r_err = max(5 % r, absolute line-of-sight distance error), median about 190 % of s against the paper's stated 0.1 %. In the explorer's mocks that returns about 0.65 γ_true, and free-a and geometric models agree at the physical error. This does not establish a boost: γ is 1.5–1.8 at contaminant fraction f ≤ 0.1 and 1.0–1.2 with f free. Chae+'s consolidated Γ = 0.102 was not reproduced (0.139). Status stays hung, crux restated. Telling S&T and Chae+ is outward-facing and **gates on the project lead**.
+>
+> (v) **DR4, 23 days out.** The reading key from 11-06 maps a boost to γ but fixes no way of measuring the boost. A draft analysis plan is dated before the data (`synchronism-site/maintainer/scripts/wb_dr4_analysis_plan_PREREG.md`). It cannot move Bucket 0 or the count. It would be the first prospective analysis. Adopting it and the key **gates on the project lead, before 2 December**.
+>
+> (vi) **Record.**
+> - TEST-08's null has no power against MOND+EFE: explorer 09-05 predicts r² ≈ 0.001 on its own estimator. This sat unused for two months while the site said "not contradicted" without the number, and a persona re-raised it today with a rougher estimate.
+> - Prior art: at γ = 1 the DE sector has GEDE's functional form (Li & Shafieloo 2020; algebra rechecked). The H₀ route is closed for this family by the fit.
+> - The site's "C ≈ 0" for superconductors comes from a hand-assigned N_corr. C(ρ) has no temperature, so it cannot see a transition at fixed density. The Bucket 3 row "η ≡ Abrikosov–Gor'kov" looks unverified: AG's relation is a digamma equation that lowers T_c. Row edit gates on the project lead (10-16 (i)).
+> - The EFE-free corner has one status sentence on the site, and "≈ 3σ above Chae" is withdrawn: the boost runs 1.49 → 2.70 across that bin (0 to +5.8σ).
+>
+> Proposal: `Research/proposals/frozen_upsilon_headlines_and_the_first_prospective_test_needs_a_decision_20261109.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
