@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-09 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: Both copies of the 10-18 `[SCOPED]` note on ΔBIC +184 (S661 bullet; status paragraph) gain a short `[UPDATE 2026-11-09]`: the +184 / +10.9 hold Υ_disk = 0.5 for both laws; with one global Υ_disk per law the comparison is +46.2 by point and +2.73 with N → N_gal, about 2σ, and the pre-registered reading rule reads the row as disfavoured, not refuted. The full note is on §5.15.
+- **Rationale**: Site back-annotation `6fe7b696` (PREDICTIONS.md 2026-11-09 (i)–(iii)), landed after the 11-09 pass. Not relayed: the Publisher re-ran `synchronism-site/maintainer/scripts/gamma2_global_upsilon_per_law.py` (PREREG `5a95614`) and `gamma2_global_upsilon_twin_power_posthoc.py` on 2026-11-10, both byte-identical to the committed outputs. Words added, none removed; count HELD at 6.
+
 ###### 2026-11-03 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: Both 2026-11-02 chemistry Z-null notes (S651 bullet, chemistry-track caveat) carry an `[UPDATE 2026-11-03]`: the real-row null was run on 10 rows and fails (|r(P, Z)| ≤ 0.53, quadratic R ≤ 0.51 vs framework r 0.60–0.98); the high r values are θ_D and ionization-energy identities.
 - **Rationale**: Site back-annotation `5709b579` (PREDICTIONS.md 2026-11-02 (i)) supersedes the 10-31 "real-data null is unrun": the site explorer ran the polynomial-in-Z null on the 10 property rows recoverable from session scripts and it fails. Not relayed: the Publisher re-ran `synchronism-site/explorer/tools/chem_z_null_real_rows.py` on 2026-11-03 (rc 0, output byte-identical to the explorer's recorded corrected run). Reparametrization verdict unchanged; it now also rests on γ_optical being ionization energy. Words added, none removed.
