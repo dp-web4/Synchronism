@@ -1237,6 +1237,45 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/frozen_upsilon_headlines_and_the_first_prospective_test_needs_a_decision_20261109.md`.
 
+> **📌 THE LENSING LEG CARRIES TWO CONDITIONS; THE DR4 PLAN FAILS ITS DRY RUN; BOUFOUROU IS WITHDRAWN (2026-11-10, site
+> maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-09 (PREREG site `c31d20e`, not re-run by
+> me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The KiDS lensing RAR, called "the strongest independent dataset against the boost cap" in the 11-05 block, is conditional on a
+> light-deflection rule the framework has not written.** Reading a lensing g_obs as a dynamical boost assumes light follows the effective
+> potential that moves stars (true by construction in AeST/TeVeS; undefined here, as `/for-researchers` already said). So the lensing leg
+> settles the TEST-09 ceiling-convention question only under that assumption; TEST-10's rotation-curve leg is unaffected. The "×5 on the
+> baryons" was the site's own allowance (09-25), not Brouwer et al.'s: their fiducial g_bar "only takes into account the stellar and cold
+> gas mass" (Sec. 1 fn. 3, read verbatim 2026-11-10), so a persona's double-count objection fails for the fiducial, but the same footnote
+> allows hot gas, dust and missing baryons to raise g_bar by about ×10 at the outer edge, at which the most permissive cap (6.39) passes at
+> 10⁻¹⁴ and fails only at 10⁻¹⁵. Same content as the 10-04 "census-conditional" verdict, now from the paper's side. Both conditions are
+> printed on the site. Whether the framework commits to light following the effective potential **gates on the project lead**.
+>
+> (ii) **DR4 plan (11-09 (v)).** The explorer dry-ran `wb_dr4_analysis_plan_PREREG.md` on DR3: the calibration bin (g_N > 3×10⁻¹⁰) is a
+> MOND regime (rule rejects 55–100 % of EFE-free mocks at N ≥ 150); the calibration rule cannot pass on large 2D samples (e-prior
+> systematic ±5 % ≫ statistical); the outcome table has no row for a boost above 1.5 (EFE-free predicts ≈ 2.6 on S1); the 3D instrument
+> cannot reach S2 (no DR3 pair has σ(ΔRV) < 0.1 km/s). Run as written it returns "no result" on both samples. **Do not adopt as written**;
+> revisions are in the plan's addendum. The reading key is unaffected. Physical hidden companions move the level, not the trend (P8 refuted):
+> at a per-star rate 0.3 only ≈ 7 % of S1 is contaminated, yet γ moves 1.87 → ≈ 1.2 [1.0, 1.6]; Newton needs a per-star rate 0.45–0.5 (the
+> field value, Moe & Di Stefano 2017) to explain the near-escape systems, 3–5× what the 2D parent implies under Chae's e prior. The crux is
+> that measurable rate.
+>
+> (iii) **Boufourou 2026 (arXiv:2608.24556) is withdrawn by its author** (`HBoufourou/paperI-wide-binaries` `CORRECTION.md`, 8 September
+> 2026, read 2026-11-10: "The affected observational measurements and the gravity-exclusion claims based on them are withdrawn"; its
+> 81,088-pair input was Chae's Newtonian mock, Zenodo 10652994; the explorer reproduced its 41,760-pair count on the mock). The arXiv
+> listing shows v1 with no notice. The site, the 11-09 proposal and the plan cited it as a DR3 result and a candidate protocol; all three
+> corrected. A persona asked for the erratum check one day after the explorer did it.
+>
+> (iv) **Record.** "Action-derived L3" and "no action has been written down" (both on `/galaxy-rotation`) are consistent only scoped:
+> L3 is from a non-relativistic Lagrangian in Φ; no covariant action exists. The published density law is handed V_flat twice (knee
+> 0.029·V_flat², amplitude V_flat·C) and so cannot predict a flat curve; stated in one place. The site plotter's "visible matter" line was
+> the BTFR (47·V_flat⁴, no gas) until today; rebuilt on SPARC's V_gas/V_disk/V_bul with a Υ slider. The `/for-researchers` knee-exponent
+> item now leads with "no velocity exponent (−0.16 ± 0.19)" rather than "V⁺² excluded at 11σ", since the same number excludes V⁻² at 10σ.
+> The chemistry T_c r = +0.948 is untraced (Session 62 has no superconductivity content) and blanked. Covariant RG "4×10⁴σ" is labelled a
+> site computation contradicting the authors.
+>
+> Proposal: `Research/proposals/lensing_leg_has_no_deflection_law_and_the_dr4_plan_fails_its_dry_run_20261110.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
