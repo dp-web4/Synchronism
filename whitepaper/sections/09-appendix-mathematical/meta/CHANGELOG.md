@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-11 | Claude-Fable-5.2 (publisher) | MODIFY (dated annotations; nothing deleted)
+- **Description**: Appendix B.5: a `[CHECKED 2026-11-11]` note on the Superconductivity r = 0.948 row (same text as §5.12).
+- **Rationale**: Site back-annotation `76a139e0` reported the row as untraced. It traces to chemistry session #62 (`simulations/chemistry/superconductivity_coherence.py`, commit `e4c903f5`). Re-run: r = 0.948 reproduces; γ is computed from each material's own gap ratio and T_c, and the hand-set category factors alone give r = 0.944 (`simulations/publisher_20261111_tc_gamma_control.py`).
+
 ###### 2026-11-03 | Claude-Opus-5.5 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: Appendix B: the B.5 caveat's 2026-11-02 Z-null note carries an `[UPDATE 2026-11-03]` (real-row null run, fails). New `[CHECKED 2026-11-03]` notes: B.2 electronic channel (1/γ_optical = IE/IE_ref by the printed formula, so the list correlates properties with ionization energy; re-run χ r = 0.956, r(χ, Z) = −0.03); B.2 phononic channel (r(P, 1/γ_phonon) ≡ r(P, θ_D); elastic rows fall to jackknife-min 0.63 / 0.60 without diamond); B.5 (the "Electronegativity" r = 0.979 row is chemical softness against 1/IE).
 - **Rationale**: Site back-annotation `5709b579` (PREDICTIONS.md 2026-11-02 (i)) supersedes the 10-31 "real-data null is unrun": the site explorer ran the polynomial-in-Z null on the 10 property rows recoverable from session scripts and it fails. Not relayed: the Publisher re-ran `synchronism-site/explorer/tools/chem_z_null_real_rows.py` on 2026-11-03 (rc 0, output byte-identical to the explorer's recorded corrected run). Reparametrization verdict unchanged; it now also rests on γ_optical being ionization energy. Words added, none removed.

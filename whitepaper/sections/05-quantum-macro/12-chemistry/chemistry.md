@@ -352,6 +352,8 @@ Living systems exploit coherence at multiple scales:
 | Elastic modulus | E vs 1/γ_phonon | r = 0.920 | #110 |
 | Compressibility | κ_T vs γ_phonon | r = 0.918 | #113 |
 
+[**CHECKED 2026-11-11:** the "Superconductivity" row's γ is not independent of T_c. In its source (chemistry session #62, `simulations/chemistry/superconductivity_coherence.py`, commit `e4c903f5`) each material's γ is computed from its own gap ratio, γ = 2 × 3.52 / (2Δ/k_B T_c), and then multiplied by a hand-set 0.8 for cuprates and 0.7 for high-pressure hydrides. The test is a linear correlation of T_c with 1/γ over 28 materials, not a fit of T_c ∝ exp(−γ/λ). Re-run: r = 0.948 reproduces. The category factor alone gives r = 0.944; with the factors removed r = 0.882, which is the known rise of the gap ratio with T_c. Script: `simulations/publisher_20261111_tc_gamma_control.py`. The site blanked this row as untraced on 2026-11-10; it is traced, and this is what the trace shows.]
+
 **Complete prediction list:** [Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md)
 
 ---
