@@ -1276,6 +1276,48 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/lensing_leg_has_no_deflection_law_and_the_dr4_plan_fails_its_dry_run_20261110.md`.
 
+> **📌 THE "EFE-FREE CORNER" IS NOT A DEFINED MODEL; NO READING OF LIGHT SAVES THE FRAMEWORK'S OWN CAP ON THE LENSING BINS (2026-11-11,
+> site maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-10 (PREREG site `9fd9639`, not re-run
+> by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The corner (10-16 (iii), 10-31 (i), 11-09 record) never said which acceleration enters C.** Pre-registered (site `3d53a42`; not
+> blind, the hand estimate came first; 6/6 held; four controls pass). Read as each body's **total** acceleration, the only reading a local
+> algebraic law can evaluate, the Sun's Galactic acceleration is boosted (ν_e = 1.26–1.44) and Saturn's is not, a uniform relative push of
+> 4.6–4.9×10⁻¹¹ m/s² that turns Saturn's perihelion by −81,000 to −88,000 mas/cy against EPM2011's −0.32 ± 0.47 (1.7–1.9×10⁵σ). The same
+> reading has an external field effect: wide-binary boost ν_e(1 + L_e/3) = 1.17–1.30, the QUMOND expression. Read as the **internal**
+> acceleration of a chosen system (what every run above used; boost 1.48 → 2.69 as g_N falls 1.0 → 0.2×10⁻¹⁰), it needs a rule for which
+> bodies form the system, and no document writes one. So read "alive, disfavoured" as **not a defined model**: one reading excluded, the
+> other awaiting a partition rule. That rule is the third thing the MRH has been asked to supply by hand (smoothing length 09-15; the γ
+> ladder 09-08). Not a count change: the archive never asserted the total reading.
+> `synchronism-site/maintainer/scripts/efe_free_corner_which_acceleration.py`.
+>
+> (ii) **Dwarf spheroidals do not kill the internal reading** (explorer 11-10): it is γ-blind there (isolated MOND with a₀ → 1.1×10⁻¹⁰).
+> Crater II is 1.2–1.8σ below it with Υ_V = 1–2 and a 20 % estimator systematic (up to ~4σ random-only at Υ_V = 2); Antlia 2 (same
+> survey) sits on it and 2.4σ above MOND's external-field value; the re-measured M31 dwarfs fit it at χ² = 6.6/6 where the deep-EFE
+> estimator is below the data in 6/6. The registered kill was not met. The 2013 lean toward the EFE reversed on 2015–2023 data.
+>
+> (iii) **Correction to the 11-10 block (i): "conditional on a deflection rule" was too generous for the framework's own cap.** On the
+> eight KiDS-1000 bins (explorer transcription 10-04; reliable range g_bar > 10⁻¹³ m/s², Brouwer+2021 Sec. 5.4 read verbatim 11-11):
+> if light follows the boosted potential, 1/Ω_m = 3.17 is exceeded in 3 reliable bins at ×5 (4.1–8.9σ) and in 1 at ×10 (4.2σ); if light
+> follows the visible matter only, lensing shows no excess and the three reliable bins below 10⁻¹² (24–46×) exclude that at 7.2–10.6σ
+> even at ×10; a partial slip needs η ≥ 1.5. The only passing reading has unseen matter doing the lensing, which is the 09-22 dark-matter
+> fork. The 6.39 cap (the variant whose cosmology fails, 10-27 (ii)) passes every reliable bin at ×10 and rests on one edge bin (4.1σ)
+> at ×5 (explorer 11-10); the 11-10 "passes at 10⁻¹⁴ and fails only at 10⁻¹⁵" was read off a fitted curve and is superseded.
+>
+> (iv) **Prior art for TEST-15's question.** Boran, Desai, Kahya & Woodard 2018 (PRD 97, 041501; abstract read 11-11): GW170817 rules
+> out "dark matter emulators", where matter and light feel the boosted potential and gravitational waves only the visible matter
+> (Shapiro delay difference "about 400 days"). So any completion must put light and gravitational waves on the potential that moves
+> matter. Recording that as a requirement, and retiring TEST-15 as answered by others, **gates on the project lead**.
+>
+> (v) **Record (site).** Five "expert review" / "independent reviews" attributions (07-18, 07-23, 07-24) were simulated-visitor personas;
+> relabelled as AI passes and lint-barred. The 0.057 dex RAR scatter is Li, Lelli, McGaugh & Schombert 2018 (per-galaxy Υ, D, i fitted),
+> not McGaugh+2016; the B2 row's "σ_int 0.057 dex" in the table below is that number. LHAASO's linear LIV bound is E_QG,1 > 10 E_Pl
+> (abstract), where the site said 5.9. "0.489 is 2 % from ½" is retired for "consistent with ½ (± 0.11; 0.43–0.95 with nuisances refit)".
+> Third-party claims (Saad & Ting's code, Chae's consolidated Γ, RG's χ²/N on SPARC) now carry "not confirmed by the authors, who have
+> not been contacted". Telling them **gates on the project lead**, fourth day; a draft issue is in the proposal.
+>
+> Proposal: `Research/proposals/efe_free_corner_needs_a_system_rule_and_the_light_rule_has_no_free_horn_20261111.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
