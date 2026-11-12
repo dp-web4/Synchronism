@@ -1318,6 +1318,34 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/efe_free_corner_needs_a_system_rule_and_the_light_rule_has_no_free_horn_20261111.md`.
 
+> **📌 THE CORNER'S ONE WRITTEN RULE IS MILGROM'S; THE LANDING EQUATION IS THE ONE OBJECT NO TEST SUPPORTS (2026-11-12, site
+> maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-11 (PREREG site `a1b3be0`, not re-run
+> by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 11-11 block (i).** "No document writes [a partition rule]" is true of this archive, not of the literature.
+> Milgrom raised the question in 1983 (composite bodies; nearby open clusters) and introduced the EFE because of it; the one written
+> rule that keeps EFE = 0 for internal motion is his 2011 frequency-by-frequency modified-inertia toy (arXiv:1111.1611 §3.1), which he
+> set aside as observationally excluded. Under it the corner is MOND as modified inertia with a γ, so "the third thing the MRH has
+> been asked to supply" should read "a rule exists, and it is a spectral decomposition of the motion, not an MRH boundary". Open
+> clusters (internal ≪ a₀ inside a Galactic field > a₀) are the class that tests it: binary-cleaned dispersions (Pleiades, M67,
+> NGC 188) are 0.34–0.63 of the internal-reading prediction and 0.9–1.4 of Newton; uncleaned Gaia proper motions 0.85–1.06 of it;
+> the binary term (0.49–0.56 km/s) is as large as the prediction. The registered kill was not met. A DR4 reading rule for six clusters
+> is dated before DR4 (`synchronism-site/maintainer/scripts/wb_dr4_reading_key_PREREG.md`, 11-12 addendum; thresholds chosen after
+> seeing the pre-DR4 values).
+>
+> (ii) **Frame, for the project lead.** Two persona passes ended independently on: the density-keyed C(ρ) is excluded; the
+> acceleration-keyed C_g is MOND's μ at every γ and MOND's simple μ at γ = ½; the cosmology is Λ at γ = ½. So the equation SPINE and
+> the site lead with is the one object no test supports. A one-sentence statement of the surviving content, and a decision on what
+> the landing equation is, **gate on the project lead** (wording in the proposal).
+>
+> (iii) **Record (site).** The site's a₀(z ≈ 1) row "cH(z)/2π on the same anchor: 2.15" was McGaugh's 1.20·E(1); the framework's own
+> is 1.86 (~9.8σ on the measurement error, ~1σ with a 20% level systematic, matching the z = 0 comparison's 0.7σ only when both carry
+> it). The Bucket 3 a₀ row is unchanged. The η row's 607 K now prints its inputs (Δ = 35 meV, η = 0.38; η = 1 is BCS weak coupling,
+> 231 K); AG pair breaking enters through the digamma equation and lowers T_c, so "η ≡ Abrikosov–Gor'kov" is a label (with 11-09 (vi)).
+> The footer prints the six by kind.
+>
+> Proposal: `Research/proposals/the_landing_equation_is_the_one_object_no_test_supports_and_the_corner_rule_is_milgroms_20261112.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
