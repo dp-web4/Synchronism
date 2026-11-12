@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-11-11T00:00:00Z",
-  "last_checked_commit": "d0b0dfda",
+  "last_review": "2026-11-12T00:00:00Z",
+  "last_checked_commit": "69a2337b",
   "pending_proposals": [],
   "status": "current",
-  "notes": "2026-11-11 (interactive maintenance pass): no edit, no rebuild owed. origin/main = d0b0dfda; window since the 11-06 entry (bbaf2673) = #971 hub release, #989 web4-policy matches operator, #990 first-user frontend PRD; web4-standard and whitepaper diff empty. Open PRs touching whitepaper/: 0 (#984 hub mesh draft only). Artifacts build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d); PDF 24 pp, U+FFFD 0, geometry 8 words max 596 pt (baseline). Pages status built. Shared web4 checkout still parked on kimi/open-issue-audit-20261103 with uncommitted hub edits; read at origin/main only."
+  "notes": "2026-11-12 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 69a2337b; window since d0b0dfda = #991 (hub PRD docs); web4-standard, whitepaper and docs/whitepaper-web diff empty. Open PRs touching whitepaper/ or web4-standard/: 0. build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d)."
 }
