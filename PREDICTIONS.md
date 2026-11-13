@@ -70,7 +70,7 @@ ledger is the correction.*
 >
 > **⚠ Phase-16 (2026-06-24) — door #3 has a specific internal gate.** Its most natural novel
 > prediction is **intrinsic decoherence ∝ D·k²** from the *dissipative* substrate (S666; standard
-> QM is unitary, so this is genuinely distinctive — and notably *near-reach*, τ~days–yr at
+> QM is unitary, so this is genuinely distinctive — and notably *near-reach* **[2026-11-13 pointer: the 2026-10-27 block (iii) closes this at the natural D — nuclei (Borexino ¹¹C) at small ℓ, LIGO at large ℓ; read "near-reach, not Planck-killed" as superseded]**, τ~days–yr at
 > atomic/nm scale for Planck diffusion, **not** Planck-killed). But the dissipative substrate
 > **cannot host matter** (S617/S665/S666: it disperses; that is why Phase-1 needed a *conservative*
 > wave+focusing substrate), and the conservative matter substrate carries **no** intrinsic
@@ -1345,6 +1345,37 @@ antidote to the overclaim.
 > The footer prints the six by kind.
 >
 > Proposal: `Research/proposals/the_landing_equation_is_the_one_object_no_test_supports_and_the_corner_rule_is_milgroms_20261112.md`.
+
+> **📌 THE FRAMEWORK BY PIECE; THE ARCHIVE'S OWN KNEE; WHICH ACTION IS L3; A DR4 DEFAULT (2026-11-13, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-11-12 (PREREG site `09bea5e`, `8d8070a`; not re-run by
+> me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The density law at the archive's own calibration had never been fitted.** Sessions 52/62/64/65 write ρ_crit = 0.028·V^0.5
+> (γ = 2); the Jeans derivation writes A·V² with A ≈ 4.6×10⁻⁵ (S687). Every site fit used one global knee or 0.029·V², which puts the
+> first's coefficient on the second's exponent. At 0.028·V^0.5: **ΔBIC +8,404** against the acceleration-keyed compander, worse in
+> **115/122** galaxies. The solar-neighbourhood boost quoted from the hybrid (≈ 3.5×10⁴ in g) is **2.7–10.5** at the archive's form
+> (γ = 2 → 0.489), still Oort-excluded. Read the Bucket 2 row "C(ρ) asserts ρ_crit ∝ V⁺²" as naming two archive forms: V^0.5 is 3.6σ
+> from the measured −0.16 ± 0.19, V⁺² ~11σ (row edit gates on the project lead, with 10-16 (i)).
+>
+> (ii) **Every executed loss, by equation** (explorer, 44 rows + 4 withdrawn): under the strictest rule (canonical/framework-paper
+> assertion, framework-specific, external data, standing) **9 rows / 8 roots, none of the six**; under "archive-asserted" 20 rows /
+> 14 roots, the six contributing one (the 1/Ω_m cap). The only archive equation that survives, differs from MOND and ΛCDM, and has
+> data on it is **a₀(z) = cH(z)/2π**, unresolved (Ciocan's estimators 0.71 ± 0.13 and 1.15 straddle n = 1) and prior art. The site
+> now prints a by-piece status table above the count; the count is unchanged.
+>
+> (iii) **Which action is "L3".** μ_eff = C + ½xC′ (10-13 "L3 at γ ≈ 0.44") comes from the acceleration-keyed, AQUAL-type action
+> C(|∇Φ|/a₀′)|∇Φ|²/8πG. The density-keyed action C(ρ)|∇Φ|²/8πG gives ∇·(C∇Φ) = 4πGρ plus striction; the GC (10-08), LLR (10-20) and
+> disc-equilibrium "under L3" statements use that one. Read each "L3" with its keying.
+>
+> (iv) **Open clusters.** Hyades binary-cleaned inner σ = 0.21 ± 0.05 km/s (Torres, Stefanik & Latham 2026, arXiv:2603.00229v2
+> §12) is 0.30 of the EFE-free corner's internal-reading prediction, 0.91 of Newton (3.3σ with a 20% systematic). 4/6 clusters in
+> the DR4 key's open-cluster rule are below its 0.65 kill line on pre-DR4 values. Retiring that row gates on the project lead.
+>
+> (v) **DR4 default (site-reporting rule, not a registration):** absent a recorded decision by 2 December, DR4 is read against the
+> committed key and labelled "dated before the data, not adopted". Confirm or override **before 2 December** (project lead).
+>
+> Also: FUNDAMENTALS "The Navier-Stokes Connection" now carries a refuted-as-stated banner; the Phase-16 door-#3 sentence above
+> points to 10-27 (iii). Proposal: `Research/proposals/the_framework_by_piece_and_a_dr4_default_20261113.md`.
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
