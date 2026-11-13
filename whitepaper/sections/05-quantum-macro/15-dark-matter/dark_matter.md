@@ -12,12 +12,12 @@ Autonomous research sessions tested whether coherence dynamics can re-describe a
 |-----------|--------|----------|-------|
 | Coherence function C(ρ) | **DERIVED** | N/A | Form from information theory |
 | γ = 2 parameter | **DERIVED** | N/A | From thermal decoherence — **but not the value the galaxy sector runs at**; SPARC selects γ ≈ 0.489 ≈ ½ and fitting γ is out-of-sample *harmful* (2026-08-21, below) |
-| Golden ratio exponent 1/φ | **VALIDATED** | 1σ | Within 1σ of Gaia DR3 best fit (Session #239) |
-| a₀ = cH₀/(2π) | **DERIVED** | 10% | MOND connection |
+| Golden ratio exponent 1/φ | **VALIDATED** — *checked 2026-11-11: not excluded, not validated (about 2σ preference; MOND's exponent also fits); see note below* | 1σ | Within 1σ of Gaia DR3 best fit (Session #239) |
+| a₀ = cH₀/(2π) | **DERIVED** — *checked 2026-11-11: reproduces Milgrom's known cH₀/6 coincidence, and matches at one mass-to-light ratio only; see note below* | 10% | MOND connection |
 | SPARC rotation curves | **TESTED** | 52% | 46% failure in massive galaxies |
 | Santos-Santos DM fractions | **TESTED** | 99.4% | Different test than curves |
 | Ω_Λ = (1 - Ω_m) | **DERIVED** | Exact | From coherence floor (Session #241) |
-| S₈ = 0.763 | **PREDICTED** | Matches DES/KiDS | Independent validation |
+| S₈ = 0.763 | **PREDICTED** — *checked 2026-11-11: a retrodiction; the DES/KiDS values it matches predate Session #102; see note below* | Matches DES/KiDS | Independent validation *(not independent: same σ₈ ≈ 0.76 sits 2.4σ from DESI; see note below)* |
 | GW as coherence perturbations | **DERIVED** | N/A | Amplified in MOND regime (Session #246) |
 | Matter = Topology | **DERIVED** | N/A | Solitons + winding (Session #261) |
 | Gravity = Geometry | **DERIVED** | N/A | Metric coupling (Session #262) |
@@ -25,7 +25,7 @@ Autonomous research sessions tested whether coherence dynamics can re-describe a
 
 **Key distinction**: DERIVED = follows from axioms. CONSTRAINED = form determined by observation, then used predictively. TESTED = validated against empirical data.
 
-**[CHECKED 2026-11-11] Three rows of the table above say more than their sources support.** The Status cells are left as first printed; changing them is the project lead's call. Each point below can be checked from numbers this paper or the cited session already prints.
+**[CHECKED 2026-11-11] Three rows of the table above say more than their sources support.** The Status cells are left as first printed; changing them is the project lead's call. *(2026-11-13: each of the three cells now carries a short dated qualifier beside its label, so a reader meets the qualification in the table itself and not only here; the labels are unchanged.)* Each point below can be checked from numbers this paper or the cited session already prints.
 
 - **a₀ = cH₀/(2π), "DERIVED".** The project's own ledger files this row as dimensional bookkeeping that reproduces Milgrom's 1983 coincidence a₀ ≈ cH₀/6, not as a derivation (1/2π = 0.159 against 1/6 = 0.167, 4.5% apart; `PREDICTIONS.md`, Bucket 3, since 2026-07-05). The 2026-11-09 update further down this section adds that the numerical match holds at one mass-to-light ratio only. With γ pinned at ½, the fitted scale moves 1.44 → 1.10 → 0.87×10⁻¹⁰ m s⁻² across Υ_disk = 0.4 / 0.5 / 0.6, and cH₀/2π equals it only for H₀ ≈ 93 / 71 / 57 km s⁻¹ Mpc⁻¹.
 - **Golden ratio exponent 1/φ, "VALIDATED", 1σ.** Session #239's own scan gives a best-fit exponent of 0.688 with a 1σ interval of 0.609–0.802. 1/φ = 0.618 lies 0.009 inside the lower edge, every exponent in that interval is "within 1σ" in the same sense, and 2/3 is closer to the best fit than 1/φ is. MOND's exponent of 1 scores χ² = 6.96 on the same nine degrees of freedom (reduced χ² 0.77), so these data do not reject it; the preference for 1/φ is Δχ² = 4.0, about 2σ. Session #218's own derivation route "gives exponent 1, not 1/φ" and leaves the origin of 1/φ as a list of possibilities. The row supports "not excluded", not "validated". Not re-checked here: the wide-binary points Session #239 fitted.

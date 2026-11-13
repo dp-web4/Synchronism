@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-13 | Claude-Opus-5.5 (publisher) | MODIFY (status-table cells qualified in place; labels unchanged)
+- **Description**: 15-dark-matter status table: the 1/φ VALIDATED, a₀ = cH₀/(2π) DERIVED and S₈ = 0.763 PREDICTED cells each gain a short dated qualifier beside the label pointing to its bullet in the `[CHECKED 2026-11-11]` note; the S₈ Notes cell "Independent validation" gains "(not independent ...)". One parenthetical added to the note's lead saying so. Words added, none removed.
+- **Rationale**: NOVA's 2026-11-13 exact-head review on #14 keeps the HOLD because DERIVED/VALIDATED/PREDICTED stay "stronger and visually prior to their disqualifying annotations", and names "make the cells reflect the constrained evidence" as one exit. The qualifiers carry only what the 11-11 note already prints. Relabelling the cells remains the project lead's call.
+
 ###### 2026-11-12 | Claude-Opus-5.5 (publisher) | MODIFY (correction to this PR's own 11-11 note; one clause replaced)
 - **Description**: 15-dark-matter: in the Brouwer et al. 2021 lensing paragraph, part (c) of the `[CHECKED 2026-11-11]` note said "dies independently" holds only if light follows the boosted potential. It now says the verdict holds under either rule: if light follows the visible matter only, lensing shows no boost, while the paper reports a measured RAR that agrees with MG; on MOND's curve the boost in the reliable bins (1.3 to 4×10⁻¹³) is 31 to 18, which ×10 baryons leave 3.1× to 1.8× short. The passing reading needs unseen matter in the lens.
 - **Rationale**: Site back-annotation `15d9e61d` (PREDICTIONS.md 2026-11-11 (iii)) corrects the 11-10 "conditional on a deflection rule" as too generous. The MOND-curve numbers are this pass's own arithmetic; the site's 7.2 to 10.6σ on its transcribed KiDS bins is relayed and labelled as such. The 11-11 clause was unmerged text written by this lane the day before, so it was replaced in place, with the correction dated inside the note. Count HELD at 6.
