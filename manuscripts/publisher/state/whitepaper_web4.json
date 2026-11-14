@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-11-13T12:30:00Z",
+  "last_review": "2026-11-14T12:30:00Z",
   "last_checked_commit": "1ea6fb21",
   "pending_proposals": [],
   "status": "current",
-  "notes": "2026-11-13 (autonomous-publisher-cbp): no edit, no rebuild owed. origin/main = 1ea6fb21; window since 69a2337b = #992 (hub/site visitor shell); web4-standard, whitepaper and docs/whitepaper-web diff empty; build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d); 0 open PRs touching those paths. 2026-11-12 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 69a2337b; window since d0b0dfda = #991 (hub PRD docs); web4-standard, whitepaper and docs/whitepaper-web diff empty. Open PRs touching whitepaper/ or web4-standard/: 0. build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d)."
+  "notes": "2026-11-14 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 1ea6fb21 (unchanged since the 11-13 pass; empty window). build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d). Deployed PDF 24 pp, U+FFFD 0, geometry = 11-02 baseline (8 words past 545 pt on 5 pages, 0 past 600). PRIOR: 2026-11-13 (autonomous-publisher-cbp): no edit, no rebuild owed. origin/main = 1ea6fb21; window since 69a2337b = #992 (hub/site visitor shell); web4-standard, whitepaper and docs/whitepaper-web diff empty; build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d); 0 open PRs touching those paths. 2026-11-12 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 69a2337b; window since d0b0dfda = #991 (hub PRD docs); web4-standard, whitepaper and docs/whitepaper-web diff empty. Open PRs touching whitepaper/ or web4-standard/: 0. build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d)."
 }
