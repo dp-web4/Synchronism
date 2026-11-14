@@ -1377,6 +1377,38 @@ antidote to the overclaim.
 > Also: FUNDAMENTALS "The Navier-Stokes Connection" now carries a refuted-as-stated banner; the Phase-16 door-#3 sentence above
 > points to 10-27 (iii). Proposal: `Research/proposals/the_framework_by_piece_and_a_dr4_default_20261113.md`.
 
+> **📌 "NO DISC CROSSES THE KNEE" WAS THE UNITS SLIP; THE CAP FAMILY AT Ω_m/Ω_b SURVIVES ROTATION CURVES; WHAT THE TEMPLATE
+> FORBIDS (2026-11-14, site maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-13
+> (PREREG site `d5e38a3` for (iii); not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Over-refutation by reason, not by verdict.** The site's SPARC instance of Milgrom's locality no-go ("with ρ_crit ∝ V²
+> mass cancels, so no disc of any mass crosses the knee at the published calibration") holds only at 0.029·V², the units
+> hybrid of 11-13 (i). At the archive's 0.028·V^0.5, **45 of 122** SPARC galaxies have points above the knee (12.2% of points;
+> 22/122 at the Jeans-consistent 4.6×10⁻⁵·V²), and mass does not cancel. The density law stays excluded on data (ΔBIC +8,404;
+> +2,843 with one global knee). Read the Bucket 2 "Locality is the discriminating axis" row with that scope. The L3 striction
+> "~10⁻⁵ of gravity" was computed at the hybrid only; at the archive knee it is uncomputed (routed to the site explorer).
+>
+> (ii) **The cap family at its most permissive cap.** The framework's own cap 1/Ω_m = 3.17 fails TEST-09 and TEST-10 robustly
+> (this is why TEST-10 stays in the rule-independent floor). Read together, the two tests exclude caps up to ≈ 5.3 (TEST-09)
+> and ≈ 5.7 (TEST-10 after a 153-disc trials correction); Ω_m/Ω_b = 6.39 fails neither at corrected significance (TEST-10
+> fires there only under the registered face-value count). Only weak lensing reaches 6.39, conditionally on a deflection rule
+> the framework has not written. A persona's "the McGaugh+2010 baryon census kills it unconditionally" is **not adopted**:
+> the census likely divides by ΛCDM-extrapolated halo masses; unverified, routed to the explorer.
+>
+> (iii) **What the template forbids** (explorer 11-13, 6/6 held, not blind): beyond what MOND forbids, tanh(γ ln(1+x))
+> forbids a boost above 1/floor (**refuted**), a 10–90% transition narrower than 1.17 dex (SPARC sits at 1.6–1.9 dex; a δ = 6
+> MOND truth would cost the template only ~1σ, so **untested**), and a fixed width–tail tie (MOND's RAR family preferred by
+> 1.0σ, **unresolved**). Across sectors the only content is a locked knee relation; the one on file is a₀ = cH₀/2π.
+>
+> (iv) γ_cos = 0.487 survives only on the mean-density reading: on the local-fluid reading the sector's own P(k) pins
+> |2γ−1| ≲ 5×10⁻⁶ (Sandvik et al. 2004 class result). The γ_gal/γ_cos "agreement" was already booked as having no power to fail.
+>
+> Frame question for dp (proposal): the methodological record (1.4% consistency yield; audit specificity 0/6, J = 0 under the
+> literal rule; over-refutation share 1/20 → 9/24 May→Aug; LLM-only review) as a third kind of value beside physics and
+> applied, with the same independence guard. J ≈ 0 makes audit-only *negative* verdicts as uninformative as positive ones; the
+> 9-claim identity/script/audit-only table is still owed. Proposal:
+> `Research/proposals/the_record_is_the_novel_content_and_the_cap_family_at_its_permissive_cap_20261114.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
