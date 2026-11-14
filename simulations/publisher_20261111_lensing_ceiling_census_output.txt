@@ -1,0 +1,11 @@
+ceilings B_max = 1/eps0: 1e9: 17.8, 1e10: 8.4, 1e11: 4.0
+framework cap 1/Omega_m = 3.175; most permissive cap quoted by the ledger = 6.39
+fiducial g_bar = 1e-14, baryons x1 : required boost =  110.0 | 1e9:  6.2x short  1e10: 13.1x short  1e11: 27.7x short | 6.39: 17.2x short
+fiducial g_bar = 1e-14, baryons x2 : required boost =   55.0 | 1e9:  3.1x short  1e10:  6.5x short  1e11: 13.8x short | 6.39:  8.6x short
+fiducial g_bar = 1e-14, baryons x5 : required boost =   22.0 | 1e9:  1.2x short  1e10:  2.6x short  1e11:  5.5x short | 6.39:  3.4x short
+fiducial g_bar = 1e-14, baryons x10: required boost =   11.0 | 1e9: pass  1e10:  1.3x short  1e11:  2.8x short | 6.39:  1.7x short
+fiducial g_bar = 1e-15, baryons x1 : required boost =  346.9 | 1e9: 19.5x short  1e10: 41.3x short  1e11: 87.2x short | 6.39: 54.3x short
+fiducial g_bar = 1e-15, baryons x2 : required boost =  173.5 | 1e9:  9.8x short  1e10: 20.6x short  1e11: 43.6x short | 6.39: 27.1x short
+fiducial g_bar = 1e-15, baryons x5 : required boost =   69.4 | 1e9:  3.9x short  1e10:  8.3x short  1e11: 17.4x short | 6.39: 10.9x short
+fiducial g_bar = 1e-15, baryons x10: required boost =   34.7 | 1e9:  2.0x short  1e10:  4.1x short  1e11:  8.7x short | 6.39:  5.4x short
+check on the printed sentence: nu(2e-14)/nu(1e-14) = 0.708 (= 1/sqrt 2: that is MOND's own nu moving, not the required boost, which moves by 1/2)

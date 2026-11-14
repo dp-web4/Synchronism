@@ -118,7 +118,7 @@ breadth**. Derivation and provenance in the caveat below.
 > carries `framework_sessions: 2671` and `chemistry_documented_sessions: 2672`; `SESSION_MAP.md`
 > carries 2,679. Three values, two Archivist-owned files. Referred, not changed here. The relevant figure is
 > **Δr = r(Synchronism) − r(best monotonic null)**, not r against an implicit null of r=0; on
-> textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. Read every
+> textbook monotonic-with-Z data the best monotonic null is itself expected at r ≈ 0.95+. [**CHECKED 2026-11-02:** over the sampled Z = 1–54 values the best monotone function of Z fits electronegativity at r = 0.33, contradicting a universal r ≈ 0.95+ claim. The chemistry-row Z-null remains unmeasured; its row selection is unpublished. The verdict rests on S669's γ_phonon ≡ 2T/θ_D, not on this null. Full note at S651.] [**UPDATE 2026-11-03:** the real-row Z-null has since been run. On the 10 property rows recoverable from the session scripts (#80, #109, #110, #114, #115, #118; n = 19–33 per row, Z = 3–82) it fails: |r(P, Z)| ≤ 0.53 (linear, √Z and ln Z) and quadratic-in-Z R ≤ 0.51, against framework r = 0.60–0.98 (site explorer, pre-registered, back-annotation `5709b579`; re-run by the Publisher 2026-11-03, output identical). The high r values are identities, not a Z trend: r(P, 1/γ_phonon) ≡ r(P, θ_D), and γ_optical = IE_ref/IE, so the optical rows are correlations with ionization energy. See Appendix B.2.] Read every
 > "89% validated" and r > 0.95 figure below under that caveat.
 
 ---
@@ -351,6 +351,8 @@ Living systems exploit coherence at multiple scales:
 | Thermal diffusivity | α vs 1/γ_electron | r = 0.932 | #111 |
 | Elastic modulus | E vs 1/γ_phonon | r = 0.920 | #110 |
 | Compressibility | κ_T vs γ_phonon | r = 0.918 | #113 |
+
+[**CHECKED 2026-11-11:** the "Superconductivity" row's γ is not independent of T_c. In its source (chemistry session #62, `simulations/chemistry/superconductivity_coherence.py`, commit `e4c903f5`) each material's γ is computed from its own gap ratio, γ = 2 × 3.52 / (2Δ/k_B T_c), and then multiplied by a hand-set 0.8 for cuprates and 0.7 for high-pressure hydrides. The test is a linear correlation of T_c with 1/γ over 28 materials, not a fit of T_c ∝ exp(−γ/λ). Re-run: r = 0.948 reproduces. The category factor alone gives r = 0.944; with the factors removed r = 0.882, which is the known rise of the gap ratio with T_c. Script: `simulations/publisher_20261111_tc_gamma_control.py`. The site blanked this row as untraced on 2026-11-10; it is traced, and this is what the trace shows.]
 
 **Complete prediction list:** [Master Predictions](https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md)
 
