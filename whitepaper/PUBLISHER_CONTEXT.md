@@ -171,6 +171,7 @@ After any change:
 2. Check for errors in output
 3. Verify PDF generates correctly
 4. Spot-check web navigation
+5. Check PDF geometry, not only glyphs: `pdftotext -bbox` and count words whose xMax exceeds page width − 36 pt (baseline 1 since 2026-10-31, a plain-text table cell on page 6). Long inline code breaks via `pdf-breakable-code.lua`; a rise means a new unbreakable construct.
 
 **Never commit changes that break the build.**
 
