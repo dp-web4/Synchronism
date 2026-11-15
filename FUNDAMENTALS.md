@@ -126,6 +126,12 @@ There is no continuous spacetime to "curve." What appears as curvature is phase/
 
 ## The Navier-Stokes Connection
 
+> **⚠ Refuted as stated (back-annotated from the site, 2026-11-13).** The equivalence below is the claim §"resistance" above
+> already records as refuted: the transfer rule is 1-DOF scalar diffusion (irrotational, dissipative, no inertia), so it
+> cannot produce Navier–Stokes (S617 / S665 / S666; PREDICTIONS Bucket 2, "Transfer rule ⇒ Navier-Stokes"). The section is
+> kept as written for the record. It was the only canonical-doc statement of a Bucket-2 equation without a caveat (site
+> explorer 2026-11-12, `exclusion_table_by_equation.py`).
+
 Intent conservation + saturation resistance = Navier-Stokes in the continuum limit.
 
 | Intent Dynamics | N-S Term |

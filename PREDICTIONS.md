@@ -70,7 +70,7 @@ ledger is the correction.*
 >
 > **⚠ Phase-16 (2026-06-24) — door #3 has a specific internal gate.** Its most natural novel
 > prediction is **intrinsic decoherence ∝ D·k²** from the *dissipative* substrate (S666; standard
-> QM is unitary, so this is genuinely distinctive — and notably *near-reach*, τ~days–yr at
+> QM is unitary, so this is genuinely distinctive — and notably *near-reach* **[2026-11-13 pointer: the 2026-10-27 block (iii) closes this at the natural D — nuclei (Borexino ¹¹C) at small ℓ, LIGO at large ℓ; read "near-reach, not Planck-killed" as superseded]**, τ~days–yr at
 > atomic/nm scale for Planck diffusion, **not** Planck-killed). But the dissipative substrate
 > **cannot host matter** (S617/S665/S666: it disperses; that is why Phase-1 needed a *conservative*
 > wave+focusing substrate), and the conservative matter substrate carries **no** intrinsic
@@ -999,6 +999,416 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/citable_register_ranks_by_framework_not_transferability_and_omega_m_plays_two_roles_20261027.md`.
 
+> **📌 THE COUNT'S FLOOR HAS ONE FRAMEWORK-SPECIFIC DATA ROW; a₀(z) IS A COMMITMENT AND PRIOR ART AT ONCE (2026-10-29, site
+> maintainer, from simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) Under every rule on file the floor of 3 is TEST-10, the environment run and Bell/CHSH. Only TEST-10 is a data refutation of
+> the framework's own content (the environment run refutes S177's amplitude; Bell/CHSH is a construction check). At the most
+> permissive cap Ω_m/Ω_b = 6.39, 28/153 discs exceed at face value and 2/153 (NGC 3741, ESO 444-G084, gas-dominated) for every
+> M/L in 0.3–0.7; lensing excludes every Ω_m-based cap independently. Printing "3 under every rule, 1 of them a data refutation of
+> the framework's own content" beside the count gates on the project lead.
+>
+> (ii) a₀ = cH(z)/2π implies n = 1, and that form is prior art (cosmologically coupled MOND). The 10-12 block's "constant a₀ out at
+> 5σ" is with the normalisation free, on four pixel-read bins read as 1σ (Ciocan Fig. 3 prints no CI level), and is Ciocan's own
+> apparent-a₀ result, degenerate with a z-drift in M/L, gas or pressure support. It is not an in-house test of MOND.
+>
+> Proposal: `Research/proposals/the_count_floor_has_one_framework_specific_data_row_and_a0z_is_two_things_20261029.md`.
+
+> **📌 THE EFE-FREE CORNER IS CLOSED BY GLOBULAR CLUSTERS; THE GC FORK IS A RANKING (2026-10-30, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-10-29; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Executed, pre-registered (site `fcc4809`), 6/6 predictions held.** On the 42-cluster outer-slope statistic, scored on paired
+> per-cluster differences with a cluster bootstrap (identity control ±0.001), the external-field-free compander at γ = 0.87–0.95 (the
+> 10-16 block's surviving corner) gives −0.241, which is worse than MOND+EFE by 0.147 ± 0.014 (10.6σ) and worse than Newton by 10.8σ. The statistic is
+> γ-blind (deep regime; only a₀′/γ enters; γ = ½ gives −0.240), so the closure is MOND-without-EFE's, inherited. The 10-21 "no
+> galaxy-scale prediction that differs from MOND on a surviving branch" loses its last exception. The registered γ = 2 point vs MOND+EFE is
+> −0.018 ± 0.010 (1.7σ, not separated), so read the 09-08 "survives" as "ranked beside MOND+EFE under L2" (excluded under L3, 10-08).
+> Every modified-gravity row is ≥ 4σ worse than Newton, partly by construction (Newton-fitted mass models).
+> `synchronism-site/maintainer/scripts/gc_row_differences_cluster_bootstrap.py`.
+>
+> (ii) **Number hygiene.** TEST-09 sweep unrounded: |Δn| = 0.406 / 0.297 / 0.260, with the 0.300 edge at B_max ≈ 5.31 (read the 09-18 block's "≲ 5.4"
+> as ≲ 5.3, and its "lands on it" as "misses by 0.003"). The 10-16 (ii) σ-distances are **3.3 / 2.5 / 2.2σ** (3.4/2.6 used σ rounded to
+> 0.12); the rule outcomes are unchanged. Lorentz-violation naturalness gap: α/π = 2.3×10⁻³, so 15–27 orders, not 16–28.
+>
+> (iii) **TEST-10 (explorer 10-29, PREREG site `d38045c`, not re-run by me):** with D/i/M/L propagated, 3 discs stay ≥ 3σ above the most permissive cap
+> (NGC 2915, NGC 3741, UGC 06667) and 6 stay above it at 2σ. ESO 444-G084 is 1.65σ under its inclination error, so the 10-29 (i) "2/153 (NGC 3741, ESO 444-G084)"
+> is superseded. The condition is the gas census (×2.0 removes NGC 3741, ×3.1 removes NGC 2915; a uniform factor that large is BTFR-disfavoured, c ≤ 1.25 at Υ* = 0.5).
+>
+> (iv) **Frame, for the project lead:** where data reach C = tanh(γ ln(1+x)), the function is linear (density-keyed), sits at the γ = ½
+> Möbius point x/(x+2) (SPARC transition, cosmology), or depends only on a₀′/γ (deep regime). The γ ≠ ½ shape reaches data only in the
+> Newtonian-return tail and in Q₂, and both are exclusions. Proposed operational content of "one equation": the Möbius map plus exclusions on departures from it.
+>
+> Proposal: `Research/proposals/efe_free_corner_closed_by_clusters_and_the_gc_fork_is_a_ranking_20261030.md`.
+
+> **📌❌ CORRECTION TO THE 2026-10-30 BLOCK: THE GC ROW DIFFERENCES CANCEL THE DATA; THE EFE-FREE CORNER IS ~3σ DISFAVOURED,
+> NOT CLOSED; THE CHEMISTRY Z-NULL WAS NEVER RUN ON THE ROWS (2026-10-31, site maintainer, from site explorer 2026-10-30 and
+> simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **The 10-30 (i) statistic is data-free.** A paired per-cluster difference of residuals is s_model,B − s_model,A; the
+> observed slope cancels exactly, and a shuffled-s_obs control reproduces every number to the printed digit. So "10.6σ worse than
+> MOND+EFE", "10.8σ worse than Newton", "every MG row ≥ 4σ worse than Newton" and "6/6 held" are model separations and are
+> **withdrawn as data verdicts**. Data-facing re-score (explorer, pre-registered site `012ca7c`, per-law refit of r_t/β/M with a
+> 0.25 dex photometric-r_t prior, 28 clusters): EFE-free compander γ = 0.9 Δχ² = +54 ± 19 vs Newton (2.9σ; +93 ± 32 with β ≤ 0);
+> simple μ EFE-off +71 ± 23 — **the corner is disfavoured at ~3σ, conditional on the mass model, not closed**, and still inherited
+> (only a₀′/γ enters). The registered γ = 2 point ≈ Newton (+0.8 ± 2.8). Newton vs MOND+EFE **flips sign with the tidal radius**
+> (catalogue −503 ± 186; photometric +914 ± 389; refit +8.7 ± 4.7). The −0.057 Newtonian offset is the Webb+2013 eq. 8 tidal
+> radius, not a floor in the data. The 10-21 "no galaxy-scale prediction that differs from MOND on a surviving branch" keeps one
+> MOND-without-EFE-shaped exception, at ~3σ. Proposal 20261030 carries a correction banner.
+>
+> (ii) **The chemistry polynomial-in-Z null (2026-05-10) was run on synthetic curves** (√Z, log Z, Z^(1/3), Z = 1–50), never on the
+> chemistry rows; its premise ("sound velocity, electronegativity and atomic volume are near-monotonic in Z") is false across the
+> periodic table (Lothar Meyer atomic-volume curve; F → Na electronegativity). The site quoted it as "fit to the same targets" or "matches" in 11 site
+> surfaces. The **Reparametrization verdict stands on a different ground**: each r is a post-hoc fit against a γ proxy containing
+> the target (γ_phonon = 2T/θ_D), ~86% of the "89%" restate the Debye model. The real-data null is unrun because the row list is
+> unpublished. Four rows (Hall, susceptibility, piezoelectricity, T_c) carried opposite verdicts on two site pages; reconciled
+> to the failure.
+>
+> (iii) **Both are refutation-side errors in the self-critical direction**, caught by outside-facing reads, not by the author.
+> Proposal: `Research/proposals/refutation_statistics_need_a_data_dependence_column_20261031.md`.
+
+> **📌 THE CHEMISTRY Z-NULL WAS RUN ON THE ROWS AND FAILS; THE SITE TABLE NEVER CAME FROM THIS ARCHIVE; THE DE LOCAL-FLUID
+> BOUND IS ONE-SIDED (2026-11-02, site maintainer, from site explorer 2026-10-31 (PREREG site `6a1c4b6`, not re-run by me) and
+> simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Supersedes the 10-31 (ii) "the real-data null is unrun".** On the 10 property rows recoverable from session scripts the
+> Z-null fails (|r(P, Z)| ≤ 0.53, quadratic R ≤ 0.51 vs framework r 0.60–0.98). The high r are identities: γ_ph = 2T/θ_D, so
+> r(P, 1/γ_ph) ≡ r(P, θ_D); γ_opt = 13.6 eV / IE, so "χ vs 1/γ_opt" is χ vs ionization energy (0.94–0.96). Read the Bucket 3 chemistry
+> row as reparametrizing θ_D *and* IE. Elastic rows are diamond-carried (jackknife-min 0.60 / 0.63 / 0.37).
+> (ii) **Record:** the site's 23-row table (initial commit 2026-02-21) was never regenerated from this archive; the 16 high-r rows cite
+> sessions about other topics, and electrical conductivity was shown as +0.955 though #81 records **r = −0.414, WRONG SIGN**. The site now
+> carries a per-row trace column. Fourth compiled-vs-primary drift since July, the first that is a whole table.
+> (iii) **DE local-fluid horn (09-15 block):** |2γ−1| ≲ 10⁻⁵ is one-sided in kind. γ < ½ has c_s² < 0, a gradient instability with no
+> stable member at any distance from ½ (adiabatic reading); γ > ½ is a Jeans amplitude bound. The DESI fit 0.487 is on the unstable side.
+> (iv) The site's printed count rule ("on data the framework did not fit") excludes row #6 (Bell/CHSH, simulation), which sits in the
+> rule-invariant floor; the site now says so beside the rule and the headline. Ruling **gates on the project lead** (with 10-07, 10-29).
+>
+> Proposal: `Research/proposals/chemistry_table_was_never_regenerated_and_the_de_bound_is_one_sided_20261102.md`.
+
+> **📌 THE DENSITY FIT IS WEAK, NOT SWITCHED OFF; THE COUNT MEASURES REGISTRATIONS (2026-11-04, site maintainer, from site
+> explorer 2026-11-02 (PREREG site `c62bc9d`; output files re-read, not re-run) and simulated-visitor researcher persona;
+> no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 08-24 block's "γ→0.046 = density-dependence switched OFF".** The +2843 fit has one global knee,
+> fitted at ρ_c = 4.4×10⁻⁶ M☉/pc³, below 97% of disc points by > 100×. The discs are in the log regime
+> C ≈ γ ln(ρ/ρ_c); γ and ρ_c are separately identified (corr +0.89), the boost scales as ρ^−0.10, and it beats a
+> constant boost by ΔBIC +945. Weak, not off. "Only γ/A identified" is the fixed-A family's property. The density law
+> loses at every calibration: +2843 (free knee), +3309 (free A), +6593 (formula A = 4.6×10⁻⁵, where the fit becomes
+> Newton; Newton alone +6636), +10 372 (formula A, γ = 2), +16 486 (published A, γ = 2).
+>
+> (ii) **The count's rule leaves out the strongest exclusions of the archive's own equations.** Appendix D §D.3 as written
+> (EdS, χ² ≈ 9,900 on DR2+CMB+SN), completion B (Δχ² ≥ +79) and (i)'s formula-A fit are executed data exclusions
+> with no prior failure condition, so they are not among the 6. So the 6 counts registrations, not framework content.
+> Proposed: print these as a descriptive line beside the count, without changing it. **Gates on the project lead.**
+>
+> Proposal: `Research/proposals/the_count_measures_registrations_and_the_density_fit_is_weak_not_off_20261104.md`.
+
+> **📌 THE MODIFIED-G READING OF THE DE SECTOR FAILS LUNAR LASER RANGING; THE DENSITY FIT'S RESPONSE IS g_bar's (2026-11-05,
+> site maintainer, from a simulated-visitor researcher persona and site explorer 2026-11-04 (PREREG site `4891f7e`, not re-run by me);
+> no bucket moves, count 6, range 3–8, Bucket 0 = 0).**
+>
+> (i) **The 09-15 locality trilemma's mean-density horn splits, and its modified-gravity half is excluded locally.** If
+> G_eff = G/C(ρ̄_m(t)) is the G of local dynamics (the "uniform G/C" growth reading (U), 10-07), it drifts as the mean density
+> falls: Ġ/G = 3H₀·d ln C/d ln ρ. With C₀ = Ω_m, at γ = ½ this is exactly 3(1 − Ω_m)H₀ = **1.42×10⁻¹⁰ yr⁻¹** (identity
+> d ln C/d ln x = 1 − C reproduced to 10⁻¹⁰), against LLR (7.1 ± 7.6)×10⁻¹⁴ yr⁻¹ (Hofmann & Müller 2018): ~2,000× the central value
+> and **≥ 527× the 2σ upper edge for every γ in 0.3–3**. Predictions written in the script header before running; 3/3 held.
+> (U) was already excluded by the ISW sign and lensing (10-07); this is a second, growth-model-free root. Only the fluid
+> (Cardassian-class, gravity unmodified, Ġ = 0) reading of the mean-density horn survives. Not a count change: no archive
+> document asserts that the cosmic G/C governs local dynamics (the 10-12 counting-rule question already covers (U)).
+> `synchronism-site/maintainer/scripts/de_modified_g_reading_vs_llr.py` (+ `_output.txt`).
+>
+> (ii) **Correction to the 11-04 block (i): "weak, not off" describes the fit, not the data.** On the exact 2,438 points / 122
+> galaxies behind the +945 and +2843, local density has no detectable information about the boost once g_bar is known: partial
+> slope +0.003 (galaxy-bootstrap 95% CI −0.022…+0.027; injected −0.05/−0.10 recovered), and a g_bar-only model reproduces the
+> data's marginal ρ slope (−0.211) to 0.2% (corr(log g_bar, log ρ) = +0.84). The γ = 0.046 fit's ρ^−0.10 is about half of g_bar's
+> leakage through ρ. The form-free 08-02 result (σ(log B | ρ) / σ(log B | g_bar) = 1.37×, 1.34–1.77× over nine treatments,
+> r_partial +0.0012) said the same three months ago and never reached the site; it is now on /honest-assessment and /rar-scatter.
+> Same root as the existing density-keyed rows; no new row.
+>
+> (iii) **Record (site only):** the six refutations are now printed by kind beside the count (3 assert framework content on data:
+> TEST-09, TEST-10, the γ = 2 pin; 1 inherited from MOND: TEST-25; 1 unmeetable registration: environment; 1 construction check:
+> Bell/CHSH), with the KiDS lensing exclusion of every Ω_m-based cap named as the strongest dataset against rows #1–#2. Printing the
+> executed exclusions outside the count (11-04 (ii), now with (i) above) still **gates on the project lead**.
+>
+> Proposal: `Research/proposals/modified_g_de_reading_fails_llr_and_the_density_response_is_g_bar_20261105.md`.
+
+> **📌 THE CASSINI-PASSING γ ≳ 1.5–2 HELD a₀ FIXED; WITH SPARC'S a₀ NO γ UP TO 3 PASSES. TEST-25 LEAVES THE RANGE (2026-11-06,
+> site maintainer, from a simulated-visitor researcher persona; no bucket moves, count 6, range on file 3–8 → 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 09-17 block's "the compander passes at γ ≳ 1.5–2" and to the 09-29 cascade.** That pass came from the
+> preparatory `target_scan` in `simulations/sparc_cassini_q2.py`. The scan holds a₀ = 1.03×10⁻¹⁰ for every γ, and its own docstring says
+> "not the registered joint test because a0 is not profiled from SPARC". The registered joint test evaluated Cassini only at γ ≲ 0.6. It
+> marked the rest "not_required", which was true at point level. Re-run with a₀ taken from `sparc_profile.json` at each γ, at all three
+> registered g_ext (predictions in the header before running, 3/3 held; identity control +17.96σ at γ = 0.489):
+> - Cassini fails at **14.5–19.3σ for every γ from 0.3 to 3**, nearly flat in γ. Q₂ is set in the transition region near 7000 AU, and
+>   SPARC pins that region.
+> - The fixed-a₀ pass at γ = 2 needed a₀/γ = 0.52×10⁻¹⁰, against SPARC's 1.48×10⁻¹⁰.
+> - So TEST-25's in-house empty intersection holds at galaxy level too, where SPARC allows γ 0.3–1.7. It does not move with the γ = 2 pin.
+>   The 10-24 range change (4–8 → 3–8) is reversed: the range on file is **4–8**, and the rule-invariant floor is 4 rows (TEST-10,
+>   environment, TEST-25, Bell/CHSH).
+> - Same reading as the 10-12 (iii) "row stands": inherited, conditional on a modified-Poisson completion.
+>
+> Script: `synchronism-site/maintainer/scripts/cassini_q2_at_sparc_profiled_a0_high_gamma.py` (+ `_output.txt`).
+>
+> (ii) **The 10-06 DR4 "one-γ squeeze" has no survival window.** The 10-06 bracket [ν_e(1+L_e), ν_e] is too wide to map an outcome to
+> a γ, and "a Newtonian null fails every γ ≲ 3" read its upper edge. The quasi-linear QUMOND point-mass solution
+> Φ = −(GMν_e/r)[1 + (L_e/2) sin²θ] gives an orientation-averaged boost **ν_e(1 + L_e/3)**:
+> - 1.38–1.53 at γ ≈ ½, which matches MOND's published range;
+> - 1.15–1.26 at γ = 1, 1.05–1.13 at γ = 2, and 1.03–1.09 at γ = 3 (g_e 1.6–2.2×10⁻¹⁰).
+>
+> A dated reading key (boost → γ) is committed before DR4 at `synchronism-site/maintainer/scripts/wb_dr4_reading_key_PREREG.md`. With
+> (i), every outcome lands on a member already excluded, so DR4 decides MOND's question (Banik vs Chae), not this family's. Adopting the
+> key **gates on the project lead**.
+>
+> (iii) **Record (site):** the paired galaxy bootstrap for TEST-09 is 3.6 / 2.8 / 2.5σ (explorer 11-05). The count's "2σ rule" is
+> "threshold excluded at 2σ" (margin 0.95σ, drops TEST-09). It is now named apart from Tier 1's zero-tolerance 2σ separation (fires at
+> all three). TEST-10 was listed as convention-dependent on two site surfaces, against its own row; corrected.
+>
+> Proposal: `Research/proposals/cassini_pass_held_a0_fixed_test25_leaves_the_range_and_dr4_has_no_window_20261106.md`.
+
+> **📌 THE COMPANDER HAS NO CASSINI ESCAPE THAT MOND'S δ-FAMILY HAS; THE RANGE 4–8 SURVIVES THE BULGE CUT (2026-11-07, site
+> maintainer, from site explorer 2026-11-06 (PREREG site `a4d99f4`, not re-run by me) and a maintainer run (PREREG site `d7eb6b2`, 3/3
+> held); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **MOND side (explorer):** the "δ ≥ 4 passes Cassini" table held a₀ at McGaugh's value. With a₀ refit to SPARC at each δ, δ = 4 is
+> +9.2σ and no δ ≤ 6 passes. Without the 32 bulge-hosting galaxies, δ = 6 reaches +3.0σ at ΔBIC +164 (Desmond, Hees & Famaey 2024: 8.7σ →
+> 1.9σ with Υ freedom and no bulges). Read the 09-17 (i) "No δ-family member passes below δ = 4" as a fixed-a₀ statement.
+> (ii) **Compander side (maintainer):** on the same no-bulge cut, z@2.32 is 17.53 / 16.36 / 14.44 / 13.44 at γ = 0.489 / 1 / 2 / 3, down
+> by ≤ 2.1σ. These rows converge to ±0.02σ. **The 11-06 (i) γ = 0.3 row is solver noise** (8–22σ across a₀ digits and solver order,
+> all > 5). The 11-06 range change holds: TEST-25 stays in the rule-invariant floor.
+> (iii) **The inheritance is asymmetric.** δ sharpens the transition; γ above ~1 moves the knee (width saturates ~1.17 dex, 10-23 (i)), so
+> the compander has no sharp member. "Inherited from MOND" holds at δ = 1 / γ ≈ ½. Whether the MOND family's escape survives Υ free
+> per galaxy is untested for both families. `synchronism-site/maintainer/scripts/compander_cassini_nobulge_profiled_a0.py`.
+> Proposal: `Research/proposals/compander_has_no_cassini_escape_that_mond_has_20261107.md`.
+
+> **📌 THE a₀ PRIOR-ART CREDIT WAS WRONG; TEST-10's "≲ 14" WAS A SAMPLE MAXIMUM; TEST-25's HONEST FORM IS THE M/L EACH FAMILY NEEDS (2026-11-08, site
+> maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-07 (PREREG site `10d0bdf`, not re-run by me); no bucket moves, count 6,
+> range 4–8, Bucket 0 = 0).**
+>
+> (i) **Bucket 3 a₀ row.** "cf. McCulloch / Verlinde / Smolin" implied a shared factor, and the site said so outright ("same geometric factor"). Read 2026-11-08:
+> McCulloch 2007 Eq. 12 is 0.99×cH ("about six times larger" than MOND's); Verlinde 2016 is a_M = a₀/6 with a₀ ≡ cH₀; Smolin 2017 is a₀ ≈ a_Λ/8.3. They share a dimensional
+> origin, not a prefactor. **"Milgrom's … cH₀/6 (1983)" has no locator:** Sanders & McGaugh 2002 print ~cH₀/6 and say Milgrom noticed a₀≈cH₀ "to within a factor of 5 or 6", while Milgrom 2008 §VI says
+> "Milgrom (1983a) observed that 2πa₀≈cH₀". The 1983 paper itself was not read. So cH₀/2π is the form the MOND literature prints, which strengthens this row's Bucket 3 status. Row edit gates on the
+> project lead (10-16 (i)). The persona's own correction ("the only /6 I located is Verlinde's") was also incomplete.
+>
+> (ii) **TEST-10.** Pre-registered (site `0be9704`; 3/5 held; identity reproduces the 10-29 table exactly) on the explorer's Statistic B with D, i, M/L and gas profiled. All radii: UGC 06667 reaches
+> B_max = 14 at χ² ≥ 9, and 9 at a 153-disc family-wise χ² ≥ 18.4, but only through inner points where SPARC lists V_gas = 0.0, so the gas nuisance cannot act (the 10-29 "gas × ∞"). Outer half of each curve
+> (post-hoc): **B_max ≈ 7.5 at 3σ for one disc (NGC 2915), ≈ 5.7 after the correction.** Framework's 3.175: 28 discs ≥ 3σ, 10 after correction. Ω_m/Ω_b = 6.39: 2 ≥ 3σ (NGC 2915, NGC 3741), **0 after correction**. So the framework as
+> written fails overwhelmingly, while at the most permissive cap the rotation-curve case is per-disc and lensing is the independent leg. "Fires under every candidate cap" still holds under the registered rule, which has no significance term;
+> count and range unchanged. Read the 10-30 (iii) "3 discs ≥ 3σ" with this. The joint population statistic is unrun and could be much tighter (explorer topic).
+> `synchronism-site/maintainer/scripts/test10_bmax_3sigma_scan.py`, `test10_bmax_3sigma_diag_posthoc.py`.
+>
+> (iii) **TEST-25 (explorer 11-07).** Υ free per galaxy on the same instrument: MOND δ = 6 passes at Υ_d ≈ 0.54 (no bulges; 1.8σ on SPARC, matching Desmond+'s 1.9σ); the compander needs Υ_d ≈ 1.2–1.4 (36–42% of discs over-maximal; 2.9σ at γ = 3); γ ≤ 1 and δ = 1 pass at no Υ_d ≤ 1.5. The
+> 11-07 (iii) "untested" is answered, and the asymmetry stands for QUMOND. Read every in-house Cassini σ (14.5–19.3, 13.4) as M/L-pinned. Do not quote "stays above 10σ with Υ free" (it held by 0.03σ at one prior width). AQUAL is the open flip. Same run: the Desmond abstract says the quadrupole "implies, to high
+> precision, no deviation from Newtonian gravity in nearby wide binaries", and Park+ 2026 bound the boost at the Sun at 2%, which bears on reading DR4 (2 December 2026, ESA).
+>
+> (iv) **Record (site):** 08-14/10-23's "γ is not a sharpness" reached the teaching surfaces today (12 pages; width stops at 1.17 dex, so "sign-inverted" is not the deeper defect; the family has no sharp member). TEST-08's "~900× under the bar" was a ratio to a near-zero r²; the 95% upper limit is r² ≈ 0.03,
+> about 3× under the bar and 6× under the claim. ">20% of scatter" never named its denominator: read against intrinsic scatter the claim is ≈ 0.04 of total variance and the upper limit excludes it narrowly.
+>
+> (v) **Frame, for the project lead:** literature statements fail where computations hold, a pattern worth measuring. A random-sample error rate of verdict sentences is internally runnable, has an unknown outcome, and is citable (explorer topic). A correction-retirement rule is proposed, because the loop adds words to
+> the pages it repairs.
+>
+> Proposal: `Research/proposals/literature_statements_fail_where_computations_hold_and_test10_is_a_bound_20261108.md`.
+
+> **📌 THE γ = 2 HEADLINE FREEZES THE NUISANCE THAT MATTERS MOST; a₀′/γ IS IDENTIFIED ONLY WITH γ FREE (2026-11-09, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-11-08 (PREREG site `704cd42`, not re-run by me); no bucket moves, count 6,
+> range 4–8, Bucket 0 = 0).**
+>
+> (i) **Row #3 / B2.** +184 and +10.9 both hold Υ_disk = 0.5 for both laws. Pre-registered (site `5a95614`), identity exact (+184.0, rms 0.1485 / 0.1437), with one global Υ per law on the same 2,807 rows:
+> - γ = 2 is best at Υ = 0.61, McGaugh at 0.54. Same parameter count, so the comparator is unchanged.
+> - ΔBIC **+46.2** by point; **+2.73** with N → N_gal. Galaxy-block bootstrap with Υ and a₀ refit per law per resample: median +46, 95 % **[−26, +132]**, P(≤ 0) = 0.12. Against the frozen 0.5 on the same resamples: [29, 347].
+> - At a common Υ the sign flips near 0.61: +184 at 0.50, +10 at 0.60, −65 at 0.65.
+> - Noise-free twin (post-hoc): a McGaugh world predicts +44, a γ = 2 world −43, so the data sit where a McGaugh world puts them, about 2.2σ from a γ = 2 world on the bootstrap sd of ≈ 40. That agrees with the explorer's 09-29 per-galaxy 1.9–2.3σ.
+>
+> The registered reading rule returned R1: **read the row as disfavoured at about 2σ, not as refuted at +184.** All 6 predictions held, but they were written from the persona's own table, so this confirms a number and is not a blind test. B2's registered text says "marginalized BIC", so the frozen-Υ number was never the registered statistic. Whether row #3 stays among the 6 joins the counting-rule question, gating on the project lead; it already carries −1 in the range. Coarse: one global Υ per law, vertical rms. `synchronism-site/maintainer/scripts/gamma2_global_upsilon_per_law.py`, `gamma2_global_upsilon_twin_power_posthoc.py`.
+>
+> (ii) **Every γ is a MOND μ.** C ≈ γx in the deep regime, so the compander has MOND's limits with a₀ = a₀′/γ, at every γ. So row #3 selects among MOND's functions. It does not test a rival to MOND, and "the γ = 2 law" is not a non-MOND law. Read the B2 column "a place the math is *forced* to differ from MOND" accordingly.
+>
+> (iii) **Correction to the 10-04 block's "the scale is identified; the degeneracy is Υ ↔ γ".** a₀′/γ stays at 1.04–1.09×10⁻¹⁰ across Υ = 0.4–0.7 only because γ̂ runs 0.28 → 2.14 along a valley. Pinned at γ = ½, the reading the ledger keeps, a₀ moves 1.44 → 1.10 → 0.87 and closing cH₀/2π needs **H₀ ≈ 93 / 71 / 57** at Υ = 0.4 / 0.5 / 0.6. So the Bucket 3 a₀ row's agreement with cH₀/2π holds at one M/L, which fits McGaugh's published ±0.24 systematic on g†. Read "identified" as identified jointly with γ. Same family as the 10-23 "γ is identified only jointly with ρ_crit".
+>
+> (iv) **Wide binaries (explorer 11-08).** The site and the 06-12 finding said Saad & Ting's flip lies in one deprojection choice. It does not. Their public code (`run_gamma_analysis.py` line 106 at `4333e9f`, read by me) sets r_err = max(5 % r, absolute line-of-sight distance error), median about 190 % of s against the paper's stated 0.1 %. In the explorer's mocks that returns about 0.65 γ_true, and free-a and geometric models agree at the physical error. This does not establish a boost: γ is 1.5–1.8 at contaminant fraction f ≤ 0.1 and 1.0–1.2 with f free. Chae+'s consolidated Γ = 0.102 was not reproduced (0.139). Status stays hung, crux restated. Telling S&T and Chae+ is outward-facing and **gates on the project lead**.
+>
+> (v) **DR4, 23 days out.** The reading key from 11-06 maps a boost to γ but fixes no way of measuring the boost. A draft analysis plan is dated before the data (`synchronism-site/maintainer/scripts/wb_dr4_analysis_plan_PREREG.md`). It cannot move Bucket 0 or the count. It would be the first prospective analysis. Adopting it and the key **gates on the project lead, before 2 December**.
+>
+> (vi) **Record.**
+> - TEST-08's null has no power against MOND+EFE: explorer 09-05 predicts r² ≈ 0.001 on its own estimator. This sat unused for two months while the site said "not contradicted" without the number, and a persona re-raised it today with a rougher estimate.
+> - Prior art: at γ = 1 the DE sector has GEDE's functional form (Li & Shafieloo 2020; algebra rechecked). The H₀ route is closed for this family by the fit.
+> - The site's "C ≈ 0" for superconductors comes from a hand-assigned N_corr. C(ρ) has no temperature, so it cannot see a transition at fixed density. The Bucket 3 row "η ≡ Abrikosov–Gor'kov" looks unverified: AG's relation is a digamma equation that lowers T_c. Row edit gates on the project lead (10-16 (i)).
+> - The EFE-free corner has one status sentence on the site, and "≈ 3σ above Chae" is withdrawn: the boost runs 1.49 → 2.70 across that bin (0 to +5.8σ).
+>
+> Proposal: `Research/proposals/frozen_upsilon_headlines_and_the_first_prospective_test_needs_a_decision_20261109.md`.
+
+> **📌 THE LENSING LEG CARRIES TWO CONDITIONS; THE DR4 PLAN FAILS ITS DRY RUN; BOUFOUROU IS WITHDRAWN (2026-11-10, site
+> maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-09 (PREREG site `c31d20e`, not re-run by
+> me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The KiDS lensing RAR, called "the strongest independent dataset against the boost cap" in the 11-05 block, is conditional on a
+> light-deflection rule the framework has not written.** Reading a lensing g_obs as a dynamical boost assumes light follows the effective
+> potential that moves stars (true by construction in AeST/TeVeS; undefined here, as `/for-researchers` already said). So the lensing leg
+> settles the TEST-09 ceiling-convention question only under that assumption; TEST-10's rotation-curve leg is unaffected. The "×5 on the
+> baryons" was the site's own allowance (09-25), not Brouwer et al.'s: their fiducial g_bar "only takes into account the stellar and cold
+> gas mass" (Sec. 1 fn. 3, read verbatim 2026-11-10), so a persona's double-count objection fails for the fiducial, but the same footnote
+> allows hot gas, dust and missing baryons to raise g_bar by about ×10 at the outer edge, at which the most permissive cap (6.39) passes at
+> 10⁻¹⁴ and fails only at 10⁻¹⁵. Same content as the 10-04 "census-conditional" verdict, now from the paper's side. Both conditions are
+> printed on the site. Whether the framework commits to light following the effective potential **gates on the project lead**.
+>
+> (ii) **DR4 plan (11-09 (v)).** The explorer dry-ran `wb_dr4_analysis_plan_PREREG.md` on DR3: the calibration bin (g_N > 3×10⁻¹⁰) is a
+> MOND regime (rule rejects 55–100 % of EFE-free mocks at N ≥ 150); the calibration rule cannot pass on large 2D samples (e-prior
+> systematic ±5 % ≫ statistical); the outcome table has no row for a boost above 1.5 (EFE-free predicts ≈ 2.6 on S1); the 3D instrument
+> cannot reach S2 (no DR3 pair has σ(ΔRV) < 0.1 km/s). Run as written it returns "no result" on both samples. **Do not adopt as written**;
+> revisions are in the plan's addendum. The reading key is unaffected. Physical hidden companions move the level, not the trend (P8 refuted):
+> at a per-star rate 0.3 only ≈ 7 % of S1 is contaminated, yet γ moves 1.87 → ≈ 1.2 [1.0, 1.6]; Newton needs a per-star rate 0.45–0.5 (the
+> field value, Moe & Di Stefano 2017) to explain the near-escape systems, 3–5× what the 2D parent implies under Chae's e prior. The crux is
+> that measurable rate.
+>
+> (iii) **Boufourou 2026 (arXiv:2608.24556) is withdrawn by its author** (`HBoufourou/paperI-wide-binaries` `CORRECTION.md`, 8 September
+> 2026, read 2026-11-10: "The affected observational measurements and the gravity-exclusion claims based on them are withdrawn"; its
+> 81,088-pair input was Chae's Newtonian mock, Zenodo 10652994; the explorer reproduced its 41,760-pair count on the mock). The arXiv
+> listing shows v1 with no notice. The site, the 11-09 proposal and the plan cited it as a DR3 result and a candidate protocol; all three
+> corrected. A persona asked for the erratum check one day after the explorer did it.
+>
+> (iv) **Record.** "Action-derived L3" and "no action has been written down" (both on `/galaxy-rotation`) are consistent only scoped:
+> L3 is from a non-relativistic Lagrangian in Φ; no covariant action exists. The published density law is handed V_flat twice (knee
+> 0.029·V_flat², amplitude V_flat·C) and so cannot predict a flat curve; stated in one place. The site plotter's "visible matter" line was
+> the BTFR (47·V_flat⁴, no gas) until today; rebuilt on SPARC's V_gas/V_disk/V_bul with a Υ slider. The `/for-researchers` knee-exponent
+> item now leads with "no velocity exponent (−0.16 ± 0.19)" rather than "V⁺² excluded at 11σ", since the same number excludes V⁻² at 10σ.
+> The chemistry T_c r = +0.948 is untraced (Session 62 has no superconductivity content) and blanked. Covariant RG "4×10⁴σ" is labelled a
+> site computation contradicting the authors.
+>
+> Proposal: `Research/proposals/lensing_leg_has_no_deflection_law_and_the_dr4_plan_fails_its_dry_run_20261110.md`.
+
+> **📌 THE "EFE-FREE CORNER" IS NOT A DEFINED MODEL; NO READING OF LIGHT SAVES THE FRAMEWORK'S OWN CAP ON THE LENSING BINS (2026-11-11,
+> site maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-10 (PREREG site `9fd9639`, not re-run
+> by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The corner (10-16 (iii), 10-31 (i), 11-09 record) never said which acceleration enters C.** Pre-registered (site `3d53a42`; not
+> blind, the hand estimate came first; 6/6 held; four controls pass). Read as each body's **total** acceleration, the only reading a local
+> algebraic law can evaluate, the Sun's Galactic acceleration is boosted (ν_e = 1.26–1.44) and Saturn's is not, a uniform relative push of
+> 4.6–4.9×10⁻¹¹ m/s² that turns Saturn's perihelion by −81,000 to −88,000 mas/cy against EPM2011's −0.32 ± 0.47 (1.7–1.9×10⁵σ). The same
+> reading has an external field effect: wide-binary boost ν_e(1 + L_e/3) = 1.17–1.30, the QUMOND expression. Read as the **internal**
+> acceleration of a chosen system (what every run above used; boost 1.48 → 2.69 as g_N falls 1.0 → 0.2×10⁻¹⁰), it needs a rule for which
+> bodies form the system, and no document writes one. So read "alive, disfavoured" as **not a defined model**: one reading excluded, the
+> other awaiting a partition rule. That rule is the third thing the MRH has been asked to supply by hand (smoothing length 09-15; the γ
+> ladder 09-08). Not a count change: the archive never asserted the total reading.
+> `synchronism-site/maintainer/scripts/efe_free_corner_which_acceleration.py`.
+>
+> (ii) **Dwarf spheroidals do not kill the internal reading** (explorer 11-10): it is γ-blind there (isolated MOND with a₀ → 1.1×10⁻¹⁰).
+> Crater II is 1.2–1.8σ below it with Υ_V = 1–2 and a 20 % estimator systematic (up to ~4σ random-only at Υ_V = 2); Antlia 2 (same
+> survey) sits on it and 2.4σ above MOND's external-field value; the re-measured M31 dwarfs fit it at χ² = 6.6/6 where the deep-EFE
+> estimator is below the data in 6/6. The registered kill was not met. The 2013 lean toward the EFE reversed on 2015–2023 data.
+>
+> (iii) **Correction to the 11-10 block (i): "conditional on a deflection rule" was too generous for the framework's own cap.** On the
+> eight KiDS-1000 bins (explorer transcription 10-04; reliable range g_bar > 10⁻¹³ m/s², Brouwer+2021 Sec. 5.4 read verbatim 11-11):
+> if light follows the boosted potential, 1/Ω_m = 3.17 is exceeded in 3 reliable bins at ×5 (4.1–8.9σ) and in 1 at ×10 (4.2σ); if light
+> follows the visible matter only, lensing shows no excess and the three reliable bins below 10⁻¹² (24–46×) exclude that at 7.2–10.6σ
+> even at ×10; a partial slip needs η ≥ 1.5. The only passing reading has unseen matter doing the lensing, which is the 09-22 dark-matter
+> fork. The 6.39 cap (the variant whose cosmology fails, 10-27 (ii)) passes every reliable bin at ×10 and rests on one edge bin (4.1σ)
+> at ×5 (explorer 11-10); the 11-10 "passes at 10⁻¹⁴ and fails only at 10⁻¹⁵" was read off a fitted curve and is superseded.
+>
+> (iv) **Prior art for TEST-15's question.** Boran, Desai, Kahya & Woodard 2018 (PRD 97, 041501; abstract read 11-11): GW170817 rules
+> out "dark matter emulators", where matter and light feel the boosted potential and gravitational waves only the visible matter
+> (Shapiro delay difference "about 400 days"). So any completion must put light and gravitational waves on the potential that moves
+> matter. Recording that as a requirement, and retiring TEST-15 as answered by others, **gates on the project lead**.
+>
+> (v) **Record (site).** Five "expert review" / "independent reviews" attributions (07-18, 07-23, 07-24) were simulated-visitor personas;
+> relabelled as AI passes and lint-barred. The 0.057 dex RAR scatter is Li, Lelli, McGaugh & Schombert 2018 (per-galaxy Υ, D, i fitted),
+> not McGaugh+2016; the B2 row's "σ_int 0.057 dex" in the table below is that number. LHAASO's linear LIV bound is E_QG,1 > 10 E_Pl
+> (abstract), where the site said 5.9. "0.489 is 2 % from ½" is retired for "consistent with ½ (± 0.11; 0.43–0.95 with nuisances refit)".
+> Third-party claims (Saad & Ting's code, Chae's consolidated Γ, RG's χ²/N on SPARC) now carry "not confirmed by the authors, who have
+> not been contacted". Telling them **gates on the project lead**, fourth day; a draft issue is in the proposal.
+>
+> Proposal: `Research/proposals/efe_free_corner_needs_a_system_rule_and_the_light_rule_has_no_free_horn_20261111.md`.
+
+> **📌 THE CORNER'S ONE WRITTEN RULE IS MILGROM'S; THE LANDING EQUATION IS THE ONE OBJECT NO TEST SUPPORTS (2026-11-12, site
+> maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-11 (PREREG site `a1b3be0`, not re-run
+> by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to the 11-11 block (i).** "No document writes [a partition rule]" is true of this archive, not of the literature.
+> Milgrom raised the question in 1983 (composite bodies; nearby open clusters) and introduced the EFE because of it; the one written
+> rule that keeps EFE = 0 for internal motion is his 2011 frequency-by-frequency modified-inertia toy (arXiv:1111.1611 §3.1), which he
+> set aside as observationally excluded. Under it the corner is MOND as modified inertia with a γ, so "the third thing the MRH has
+> been asked to supply" should read "a rule exists, and it is a spectral decomposition of the motion, not an MRH boundary". Open
+> clusters (internal ≪ a₀ inside a Galactic field > a₀) are the class that tests it: binary-cleaned dispersions (Pleiades, M67,
+> NGC 188) are 0.34–0.63 of the internal-reading prediction and 0.9–1.4 of Newton; uncleaned Gaia proper motions 0.85–1.06 of it;
+> the binary term (0.49–0.56 km/s) is as large as the prediction. The registered kill was not met. A DR4 reading rule for six clusters
+> is dated before DR4 (`synchronism-site/maintainer/scripts/wb_dr4_reading_key_PREREG.md`, 11-12 addendum; thresholds chosen after
+> seeing the pre-DR4 values).
+>
+> (ii) **Frame, for the project lead.** Two persona passes ended independently on: the density-keyed C(ρ) is excluded; the
+> acceleration-keyed C_g is MOND's μ at every γ and MOND's simple μ at γ = ½; the cosmology is Λ at γ = ½. So the equation SPINE and
+> the site lead with is the one object no test supports. A one-sentence statement of the surviving content, and a decision on what
+> the landing equation is, **gate on the project lead** (wording in the proposal).
+>
+> (iii) **Record (site).** The site's a₀(z ≈ 1) row "cH(z)/2π on the same anchor: 2.15" was McGaugh's 1.20·E(1); the framework's own
+> is 1.86 (~9.8σ on the measurement error, ~1σ with a 20% level systematic, matching the z = 0 comparison's 0.7σ only when both carry
+> it). The Bucket 3 a₀ row is unchanged. The η row's 607 K now prints its inputs (Δ = 35 meV, η = 0.38; η = 1 is BCS weak coupling,
+> 231 K); AG pair breaking enters through the digamma equation and lowers T_c, so "η ≡ Abrikosov–Gor'kov" is a label (with 11-09 (vi)).
+> The footer prints the six by kind.
+>
+> Proposal: `Research/proposals/the_landing_equation_is_the_one_object_no_test_supports_and_the_corner_rule_is_milgroms_20261112.md`.
+
+> **📌 THE FRAMEWORK BY PIECE; THE ARCHIVE'S OWN KNEE; WHICH ACTION IS L3; A DR4 DEFAULT (2026-11-13, site maintainer, from
+> simulated-visitor graduate and researcher personas and site explorer 2026-11-12 (PREREG site `09bea5e`, `8d8070a`; not re-run by
+> me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The density law at the archive's own calibration had never been fitted.** Sessions 52/62/64/65 write ρ_crit = 0.028·V^0.5
+> (γ = 2); the Jeans derivation writes A·V² with A ≈ 4.6×10⁻⁵ (S687). Every site fit used one global knee or 0.029·V², which puts the
+> first's coefficient on the second's exponent. At 0.028·V^0.5: **ΔBIC +8,404** against the acceleration-keyed compander, worse in
+> **115/122** galaxies. The solar-neighbourhood boost quoted from the hybrid (≈ 3.5×10⁴ in g) is **2.7–10.5** at the archive's form
+> (γ = 2 → 0.489), still Oort-excluded. Read the Bucket 2 row "C(ρ) asserts ρ_crit ∝ V⁺²" as naming two archive forms: V^0.5 is 3.6σ
+> from the measured −0.16 ± 0.19, V⁺² ~11σ (row edit gates on the project lead, with 10-16 (i)).
+>
+> (ii) **Every executed loss, by equation** (explorer, 44 rows + 4 withdrawn): under the strictest rule (canonical/framework-paper
+> assertion, framework-specific, external data, standing) **9 rows / 8 roots, none of the six**; under "archive-asserted" 20 rows /
+> 14 roots, the six contributing one (the 1/Ω_m cap). The only archive equation that survives, differs from MOND and ΛCDM, and has
+> data on it is **a₀(z) = cH(z)/2π**, unresolved (Ciocan's estimators 0.71 ± 0.13 and 1.15 straddle n = 1) and prior art. The site
+> now prints a by-piece status table above the count; the count is unchanged.
+>
+> (iii) **Which action is "L3".** μ_eff = C + ½xC′ (10-13 "L3 at γ ≈ 0.44") comes from the acceleration-keyed, AQUAL-type action
+> C(|∇Φ|/a₀′)|∇Φ|²/8πG. The density-keyed action C(ρ)|∇Φ|²/8πG gives ∇·(C∇Φ) = 4πGρ plus striction; the GC (10-08), LLR (10-20) and
+> disc-equilibrium "under L3" statements use that one. Read each "L3" with its keying.
+>
+> (iv) **Open clusters.** Hyades binary-cleaned inner σ = 0.21 ± 0.05 km/s (Torres, Stefanik & Latham 2026, arXiv:2603.00229v2
+> §12) is 0.30 of the EFE-free corner's internal-reading prediction, 0.91 of Newton (3.3σ with a 20% systematic). 4/6 clusters in
+> the DR4 key's open-cluster rule are below its 0.65 kill line on pre-DR4 values. Retiring that row gates on the project lead.
+>
+> (v) **DR4 default (site-reporting rule, not a registration):** absent a recorded decision by 2 December, DR4 is read against the
+> committed key and labelled "dated before the data, not adopted". Confirm or override **before 2 December** (project lead).
+>
+> Also: FUNDAMENTALS "The Navier-Stokes Connection" now carries a refuted-as-stated banner; the Phase-16 door-#3 sentence above
+> points to 10-27 (iii). Proposal: `Research/proposals/the_framework_by_piece_and_a_dr4_default_20261113.md`.
+
+> **📌 "NO DISC CROSSES THE KNEE" WAS THE UNITS SLIP; THE CAP FAMILY AT Ω_m/Ω_b SURVIVES ROTATION CURVES; WHAT THE TEMPLATE
+> FORBIDS (2026-11-14, site maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-13
+> (PREREG site `d5e38a3` for (iii); not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Over-refutation by reason, not by verdict.** The site's SPARC instance of Milgrom's locality no-go ("with ρ_crit ∝ V²
+> mass cancels, so no disc of any mass crosses the knee at the published calibration") holds only at 0.029·V², the units
+> hybrid of 11-13 (i). At the archive's 0.028·V^0.5, **45 of 122** SPARC galaxies have points above the knee (12.2% of points;
+> 22/122 at the Jeans-consistent 4.6×10⁻⁵·V²), and mass does not cancel. The density law stays excluded on data (ΔBIC +8,404;
+> +2,843 with one global knee). Read the Bucket 2 "Locality is the discriminating axis" row with that scope. The L3 striction
+> "~10⁻⁵ of gravity" was computed at the hybrid only; at the archive knee it is uncomputed (routed to the site explorer).
+>
+> (ii) **The cap family at its most permissive cap.** The framework's own cap 1/Ω_m = 3.17 fails TEST-09 and TEST-10 robustly
+> (this is why TEST-10 stays in the rule-independent floor). Read together, the two tests exclude caps up to ≈ 5.3 (TEST-09)
+> and ≈ 5.7 (TEST-10 after a 153-disc trials correction); Ω_m/Ω_b = 6.39 fails neither at corrected significance (TEST-10
+> fires there only under the registered face-value count). Only weak lensing reaches 6.39, conditionally on a deflection rule
+> the framework has not written. A persona's "the McGaugh+2010 baryon census kills it unconditionally" is **not adopted**:
+> the census likely divides by ΛCDM-extrapolated halo masses; unverified, routed to the explorer.
+>
+> (iii) **What the template forbids** (explorer 11-13, 6/6 held, not blind): beyond what MOND forbids, tanh(γ ln(1+x))
+> forbids a boost above 1/floor (**refuted**), a 10–90% transition narrower than 1.17 dex (SPARC sits at 1.6–1.9 dex; a δ = 6
+> MOND truth would cost the template only ~1σ, so **untested**), and a fixed width–tail tie (MOND's RAR family preferred by
+> 1.0σ, **unresolved**). Across sectors the only content is a locked knee relation; the one on file is a₀ = cH₀/2π.
+>
+> (iv) γ_cos = 0.487 survives only on the mean-density reading: on the local-fluid reading the sector's own P(k) pins
+> |2γ−1| ≲ 5×10⁻⁶ (Sandvik et al. 2004 class result). The γ_gal/γ_cos "agreement" was already booked as having no power to fail.
+>
+> Frame question for dp (proposal): the methodological record (1.4% consistency yield; audit specificity 0/6, J = 0 under the
+> literal rule; over-refutation share 1/20 → 9/24 May→Aug; LLM-only review) as a third kind of value beside physics and
+> applied, with the same independence guard. J ≈ 0 makes audit-only *negative* verdicts as uninformative as positive ones; the
+> 9-claim identity/script/audit-only table is still owed. Proposal:
+> `Research/proposals/the_record_is_the_novel_content_and_the_cap_family_at_its_permissive_cap_20261114.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
@@ -1052,7 +1462,7 @@ antidote to the overclaim.
 | **B3** | **Gnosis consciousness predictions** (~34): consciousness as measurable coherence with a C ≈ 0.50 threshold → specific, falsifiable signatures in anesthesia onset, sleep-stage transitions, meditation, split-brain. | Falsifiable, specific, structurally novel — predicts *where* phase transitions in neural coherence should sit. | Measure coherence (C_conv, C_corr, phase-locking) across anesthesia / sleep / meditation / split-brain and compare transition points to predicted thresholds. **Refuted if** measured neural phase transitions don't cluster near predicted C values. | **Threshold *value* UNSUPPORTED & UNTESTED — the one empirical test ran on a different variable.** The C ≈ 0.50 *value* was tested by the companion program [gnosis-research](https://github.com/dp-web4/gnosis-research) (Session 63, 2026-04) **not against neural coherence but against its own agents' SNARC salience scores** (`salience_total` — a hand-coded five-component heuristic: surprise/novelty/arousal/conflict/reward, fixed weights; 8 SAGE instances scored by **one shared scorer**), which the analysis script itself renames "C." That operating mean was rejected as ≠ 0.5 at **p ≈ 1.8×10⁻⁷** (t = 20.19; independently reproduced 2026-07-07). No protocol maps `salience_total` to the framework's coherence C (the mapping is "doubly unanchored"), so the test **neither confirms nor refutes the threshold** — the salience rejection is real but does not bear on C. The data cluster near **C ≈ 0.64** — a reparametrization candidate, **not** a confirmation: on Session 63's own 8 means, φ−1 = 0.618 is **excluded at p ≈ 0.016** and 2/3 at p ≈ 0.006 (0.640 is merely the sample mean), so the "0.64 ≈ φ−1 golden-ratio" reading — and gnosis Session 64's "validated" verdict — **fail on the data's own terms.** The identity claim ("phase patterns ARE experience") stays philosophically defensible but empirically ungrounded. *(Corrected 2026-07-07 from "value REFUTED against multi-model coherence data": verified in the S63 source that the tested variable is `salience_total`, not coherence. The site-side "0.64 also rejected at p<0.0001" was a fabrication — removed by maintainer, never in this ledger. The 34 neural predictions remain untested and now mis-anchored.)* |
 | **B4** | **Compatibility scaling law**: p_crit ∝ 1/⟨C⟩ in heterogeneous multi-agent coherence (Phase-2 extension of the coupling-coherence experiment). | If it holds for arbitrary compatibility structures, it's a genuine law of phase transitions in coupled systems — not just a relabel. | Phase-2 run with explicit compatibility matrix C[i][j] across ≥5 structure types. **Refuted if** p_crit does not scale as 1/⟨C⟩ outside the homogeneous case. | **Moderate.** The homogeneous case is confirmed (r=0.994); the *law* is untested in the heterogeneous regime. **[⚠ CORRECTED 2026-09-25, site maintainer: r = 0.994 confirms monotone dependence, not proportionality. The affine fit is p_crit ≈ 0.0151 + 0.0034/C with an 82% intercept, and ∝ 1/⟨C⟩ misses C = 0.2 by 2.9× (predicts 0.0925, observed 0.0320; the source says "not a perfect 5× inverse"). Read "homogeneous case confirmed" as "monotone, affine in 1/C". The heterogeneous run is now a three-way test: 1/⟨C⟩, 1/λ_max (Restrepo–Ott–Hunt 2005), or affine. See the 2026-09-25 block above.]** **[EXECUTED 2026-09-25 (site explorer; PREREG site `76f15e8`, knock-out addendum `e6c4666`, both before the script; not re-run by me), inscribed 2026-09-27 by the site maintainer: the registered law is REFUTED AS STATED. Support density wins (RMS 0.072 vs 0.111 dex for K/⟨C⟩). The knock-out shows the refuting term is a 0.5-prior threshold artefact; under a calibrated prior 1/⟨C⟩ holds to 0.062 dex, but by construction, since compatibility enters the update rule as a weight multiplier. So B4 → reparametrization of its own update rule, not a Bucket-0 candidate. The affine intercept is event reach, not a compatibility property. The one version that could make a claim is compatibility as a *filter* (type-gated acceptance), which is unrun. Finding: `synchronism-site/explorer/findings/b4-heterogeneous-run-mean-compat-wins-once-the-threshold-artefact-is-removed-and-wins-by-construction.md`.]** |
 | **B5** | **f(N) pattern-reconstruction rate**: c emerges as the stable reconstruction rate for minimal-complexity patterns; mass ≡ pattern complexity ⇒ a derivable f(N). | Would convert "c as reconstruction rate" from slogan to derivation, with testable consequences for pattern formation on the grid. | **Pre-condition: it does not yet exist** — the whitepaper points to an Appendix A.19 that is unwritten. **Refuted if** no f(N) with the boundary behavior f(N)→1 as N→0 reproduces stable-pattern simulation data. | **Unknown — not yet derived.** This is an *obligation*, not a prediction, until the derivation exists. Listed so it isn't quietly forgotten. |
-| **B7** | **Vacuum Umklapp — momentum conserved only mod G** (2026-06-22). If the substrate is a discrete-time sampler (a grid of cells advancing on global ticks), continuum QFT's *exact* momentum conservation (Noether, continuous translation symmetry) is replaced by conservation **modulo a reciprocal-lattice vector `G ~ Planck momentum`** (only *discrete* translation symmetry survives). Extreme-momentum interactions should show apparent momentum non-conservation by `G` / anomalous back-scatter. | A *distinct* LIV channel from B-dispersion: it folds **interaction** momentum (not free `ω(k)`), and — because nonlinear mixing *stacks* momentum toward the cutoff — is reachable at **lower per-quantum energy** than single-particle Planck effects. Demonstrated + grid-refinement-controlled in [`simulations/phase4_sampling_umklapp_momentum_fold.py`](simulations/phase4_sampling_umklapp_momentum_fold.py) (exact `wrap(2k)` fold; refinement kills it ⇒ genuine sampling-cutoff effect). | **Refuted if** momentum conservation stays exact (no mod-`G` defect / back-scatter) at the highest accessible momentum-transfer / coherent-stacking regimes where the model predicts a measurable fold. **Caveat:** Umklapp mod `G` is itself textbook (condensed-matter lattices); the *novel* claim is its application to the **vacuum** substrate. | **Against / Planck-suppressed.** Momentum conservation is exact to high precision in all tested interactions, so the single-interaction version sits far below sensitivity; dp's coherent-stacking enhancement is speculative and unmodeled. A genuine but currently-untestable bet — *and* doubly-conditional on the fractal "Planck-grid-behaves-like-a-sampler" hypothesis it presupposes. **⚠ Phase-12 (2026-06-23) — the LIV channel splits in two, and the "untestable" framing is right for one and wrong for the other.** (i) *Time-of-flight (dim≥5):* the substrate dispersion is even in k ⇒ leading term is **quadratic (n=2)**, no linear (n=1); n=1 would already be **refuted** (LHAASO GRB221009A E_QG,1 > 5.9 E_Pl), so the even-k symmetry is the only thing keeping this out of Bucket 2, and the surviving n=2 sits ~10⁷ below reach + is non-unique (LQG/causal-sets). The preferred-frame "leak" *seals* — a boost gives anisotropic n=2 (∝β), never effective n=1 (`phase12` sim). **Structurally untestable — correct.** (ii) *But dim-4 (species-dependent limiting speed / SME c_μν) is ALSO even in k* — the even-k symmetry does **not** forbid it — and is bounded at **~10⁻¹⁸–10⁻²²** (cavity / Hughes-Drever / clocks), **not** Planck-suppressed and **reachable**. Tree-level single-substrate universality keeps it ~(m/E_Pl)²; **radiative corrections generically percolate Planck LIV up to dim-4** (Collins, Perez, Sudarsky, Urrutia & Vucetich, PRL 93 191301, 2004 (author list corrected 2026-07-09; previously misattributed to Gambini & Pullin)) unless a custodial symmetry forbids it — which even-k does not. **So B7's discreteness is falsifiable at dim-4, contingent on the framework's (unspecified) interacting UV completion; "untestable" holds only for time-of-flight.** Concrete open target: compute the radiatively-induced dim-4 LIV, or exhibit the custodial mechanism that suppresses it below 10⁻²². See `explorations/2026-06-23-phase12-...md`. **⚠⚠ Phase-13 (2026-06-23) — custodial escape CLOSED, and it names the framework's deepest tension.** The only symmetry that forbids dim-4 LIV is Lorentz **boost invariance** — which the framework's **absolute time / single global clock** *gives up by definition*. Phase-6's "emergent Lorentz" is an external-leg, tree-level, soft-pattern (N≫1) effect, **not a symmetry of the action**, so it cannot constrain loops (sourced at N~1 cutoff modes). Toy (`phase13` sim) confirms the EFT boundary: dim-4 LIV **decouples ⟺ the loop is UV-finite** (super-renormalizable), and goes **marginal/non-decoupling exactly at D=4 with marginal couplings** (decoupling power p = 1.70→0.54→0.10 for D=2→3→4). Since the framework needs marginal couplings (to contain the Standard Model), it lands in the dangerous class. **NAMED FOUNDATIONAL TENSION: absolute time ⊥ a Standard-Model-containing completion with sub-10⁻²² Lorentz invariance** — keep absolute time + SM couplings ⇒ generic dim-4 LIV at O(g²/16π²) ⇒ refuted-or-fine-tuned; suppress it by a real custodial symmetry ⇒ you need boost invariance in the action ⇒ you've given up absolute time. Not yet Bucket 2 (interactions unspecified) but a **sharp obligation**: the framework owes either the custodial mechanism (and how it coexists with absolute time) or the refutation. This is the arc's sharpest, most Synchronism-specific falsifiable statement. See `explorations/2026-06-23-phase13-...md`. **⚠⚠⚠ Phase-13 obligation DISCHARGED on the refutation side (2026-06-26, explorer proposal + triage):** the magnitude is now **computed parametrically** — tree `c_μν=0` (single-substrate universality; verified: `ω²=(2c²/a²)(1−cos ka)=c²k²−(a²c²/12)k⁴`, k² coeff = c² universal), **radiative `c_μν ~ α/π ~ 10⁻²`** (Collins et al. 2004; no Planck suppression — exactly the D=4 marginal regime of the Phase-13 toy). Vs bounds 10⁻¹⁸ (photon) … 10⁻³⁰ (nucleon) ⇒ **refuted at the natural value by 16–28 OOM.** Escapes quantified & obstructed: log IR running closes only ~1.6 OOM (Chadha–Nielsen); strong-dynamics power-law needs an unspecified conformal sector ⊥ SM-perturbative couplings (Bednik et al.); non-perturbative LQG-type evasion is contrary to the lattice self-description. **Symmetric-standards check (triage, vs dp's recalibration):** this is NOT rescued by "all physics is fit-laden" — unlike Λ's single-number tune-to-observed, dim-4 c_μν is a *tensor* of coefficients tuned *differentially to exact zero* via the one symmetry (boost invariance) absolute time renounces ⇒ a naturalness problem **worse in kind** and **structurally forced by the ontology**. **Status: refuted at natural value; conditionally survivable only via an unspecified, doubly-obstructed custodial mechanism the framework owes.** Still **not unconditional Bucket 2** (interactions unspecified) and **Bucket 0 unchanged (0)**. Proposal `Research/proposals/liv_dim4_cmuv_natural_value_computed_refuted.md`; triage `explorations/2026-06-26-triage-dim4-cmuv-computed-refutation.md`. **⚠⚠⚠⚠ SELF-CORRECTION (2026-06-30, triage of `dim4_liv_absolute_time_general_nogo.md` + explorer amendment):** the Phase-13/2026-06-26 framing was **over-claimed** and is walked back. "Boost invariance is the *only* custodial symmetry" is **false** (SUSY also forbids dim-3/4 LV → dim≥5: Groot Nibbelink–Pospelov, PRL 94 081601, 2005), and "doubly-obstructed / non-perturbative-only escape" is **false** (anisotropic scale-hierarchy `Λ_HL≪M_Pl` removes the tuning *perturbatively, boost-breaking-compatibly* — Pospelov–Shang, PRD 85 105001, 2012, demonstrated for **Hořava–Lifshitz**, an absolute-time-class theory; causal sets avoid it entirely via random sprinkling). So dim-4 c_μν is the **standard LV-naturalness problem (CPSU 2004) that the field routinely solves**, NOT a general no-go and NOT "the arc's sharpest falsification." Corrected status: **minimal framework refuted at natural value (true, conditional); for Synchronism specifically it is an OPEN custodial-mechanism gap** — single-substrate universality obstructs the scale-hierarchy escape, and SUSY/sprinkling are unmotivated additions or require giving up absolute time, so the framework owes a mechanism — but this is a naturalness gap, not a decisive refutation. **The genuinely decisive negatives are the locality no-go (door #1, Milgrom instance) and — as of 2026-07-14 — the BTFR bounded-boost refutation (TEST-09, executed on real SPARC; the 1/Ω_m = 3.17 boost ceiling is structural and no parameter choice rescues it)**, which have no comparable standard escape. **⚠ Corrected 2026-07-14: the DESI growth-sign disfavoring is NO LONGER on this list** — it was a criterion-verdict substitution (the *registered* criterion fσ₈(z=0.51)>0.46 at >3σ was met at only ~1.5σ; the quoted 2.4σ is a GR-conditioned σ₈-amplitude statistic; DESI's own MG analysis, Ishak et al. arXiv:2411.12026, puts μ₀ within 1σ of zero). Both surviving decisive negatives now sit in the **galactic (door-#1) sector**; the cosmological one did not hold up. Not a standalone paper (CPSU is mature/absorbed). Self-correction triage `explorations/2026-06-30-triage-dim4-general-nogo-self-correction.md`. |
+| **B7** | **Vacuum Umklapp — momentum conserved only mod G** (2026-06-22). If the substrate is a discrete-time sampler (a grid of cells advancing on global ticks), continuum QFT's *exact* momentum conservation (Noether, continuous translation symmetry) is replaced by conservation **modulo a reciprocal-lattice vector `G ~ Planck momentum`** (only *discrete* translation symmetry survives). Extreme-momentum interactions should show apparent momentum non-conservation by `G` / anomalous back-scatter. | A *distinct* LIV channel from B-dispersion: it folds **interaction** momentum (not free `ω(k)`), and — because nonlinear mixing *stacks* momentum toward the cutoff — is reachable at **lower per-quantum energy** than single-particle Planck effects. Demonstrated + grid-refinement-controlled in [`simulations/phase4_sampling_umklapp_momentum_fold.py`](simulations/phase4_sampling_umklapp_momentum_fold.py) (exact `wrap(2k)` fold; refinement kills it ⇒ genuine sampling-cutoff effect). | **Refuted if** momentum conservation stays exact (no mod-`G` defect / back-scatter) at the highest accessible momentum-transfer / coherent-stacking regimes where the model predicts a measurable fold. **Caveat:** Umklapp mod `G` is itself textbook (condensed-matter lattices); the *novel* claim is its application to the **vacuum** substrate. | **Against / Planck-suppressed.** Momentum conservation is exact to high precision in all tested interactions, so the single-interaction version sits far below sensitivity; dp's coherent-stacking enhancement is speculative and unmodeled. A genuine but currently-untestable bet — *and* doubly-conditional on the fractal "Planck-grid-behaves-like-a-sampler" hypothesis it presupposes. **⚠ Phase-12 (2026-06-23) — the LIV channel splits in two, and the "untestable" framing is right for one and wrong for the other.** (i) *Time-of-flight (dim≥5):* the substrate dispersion is even in k ⇒ leading term is **quadratic (n=2)**, no linear (n=1); n=1 would already be **refuted** (LHAASO GRB221009A E_QG,1 > 5.9 E_Pl), so the even-k symmetry is the only thing keeping this out of Bucket 2, and the surviving n=2 sits ~10⁷ below reach + is non-unique (LQG/causal-sets). The preferred-frame "leak" *seals* — a boost gives anisotropic n=2 (∝β), never effective n=1 (`phase12` sim). **Structurally untestable — correct.** (ii) *But dim-4 (species-dependent limiting speed / SME c_μν) is ALSO even in k* — the even-k symmetry does **not** forbid it — and is bounded at **~10⁻¹⁸–10⁻²²** (cavity / Hughes-Drever / clocks), **not** Planck-suppressed and **reachable**. Tree-level single-substrate universality keeps it ~(m/E_Pl)²; **radiative corrections generically percolate Planck LIV up to dim-4** (Collins, Perez, Sudarsky, Urrutia & Vucetich, PRL 93 191301, 2004 (author list corrected 2026-07-09; previously misattributed to Gambini & Pullin)) unless a custodial symmetry forbids it — which even-k does not. **So B7's discreteness is falsifiable at dim-4, contingent on the framework's (unspecified) interacting UV completion; "untestable" holds only for time-of-flight.** Concrete open target: compute the radiatively-induced dim-4 LIV, or exhibit the custodial mechanism that suppresses it below 10⁻²². See `explorations/2026-06-23-phase12-...md`. **⚠⚠ Phase-13 (2026-06-23) — custodial escape CLOSED, and it names the framework's deepest tension.** The only symmetry that forbids dim-4 LIV is Lorentz **boost invariance** — which the framework's **absolute time / single global clock** *gives up by definition*. Phase-6's "emergent Lorentz" is an external-leg, tree-level, soft-pattern (N≫1) effect, **not a symmetry of the action**, so it cannot constrain loops (sourced at N~1 cutoff modes). Toy (`phase13` sim) confirms the EFT boundary: dim-4 LIV **decouples ⟺ the loop is UV-finite** (super-renormalizable), and goes **marginal/non-decoupling exactly at D=4 with marginal couplings** (decoupling power p = 1.70→0.54→0.10 for D=2→3→4). Since the framework needs marginal couplings (to contain the Standard Model), it lands in the dangerous class. **NAMED FOUNDATIONAL TENSION: absolute time ⊥ a Standard-Model-containing completion with sub-10⁻²² Lorentz invariance** — keep absolute time + SM couplings ⇒ generic dim-4 LIV at O(g²/16π²) ⇒ refuted-or-fine-tuned; suppress it by a real custodial symmetry ⇒ you need boost invariance in the action ⇒ you've given up absolute time. Not yet Bucket 2 (interactions unspecified) but a **sharp obligation**: the framework owes either the custodial mechanism (and how it coexists with absolute time) or the refutation. This is the arc's sharpest, most Synchronism-specific falsifiable statement. See `explorations/2026-06-23-phase13-...md`. **⚠⚠⚠ Phase-13 obligation DISCHARGED on the refutation side (2026-06-26, explorer proposal + triage):** the magnitude is now **computed parametrically** — tree `c_μν=0` (single-substrate universality; verified: `ω²=(2c²/a²)(1−cos ka)=c²k²−(a²c²/12)k⁴`, k² coeff = c² universal), **radiative `c_μν ~ α/π ~ 10⁻²`** (Collins et al. 2004; no Planck suppression — exactly the D=4 marginal regime of the Phase-13 toy). Vs bounds 10⁻¹⁸ (photon) … 10⁻³⁰ (nucleon) ⇒ **refuted at the natural value by 16–28 OOM.** Escapes quantified & obstructed: log IR running closes only ~1.6 OOM (Chadha–Nielsen); strong-dynamics power-law needs an unspecified conformal sector ⊥ SM-perturbative couplings (Bednik et al.); non-perturbative LQG-type evasion is contrary to the lattice self-description. **Symmetric-standards check (triage, vs dp's recalibration):** this is NOT rescued by "all physics is fit-laden" — unlike Λ's single-number tune-to-observed, dim-4 c_μν is a *tensor* of coefficients tuned *differentially to exact zero* via the one symmetry (boost invariance) absolute time renounces ⇒ a naturalness problem **worse in kind** and **structurally forced by the ontology**. **Status: refuted at natural value; conditionally survivable only via an unspecified, doubly-obstructed custodial mechanism the framework owes.** Still **not unconditional Bucket 2** (interactions unspecified) and **Bucket 0 unchanged (0)**. Proposal `Research/proposals/liv_dim4_cmuv_natural_value_computed_refuted.md`; triage `explorations/2026-06-26-triage-dim4-cmuv-computed-refutation.md`. **⚠⚠⚠⚠ SELF-CORRECTION (2026-06-30, triage of `dim4_liv_absolute_time_general_nogo.md` + explorer amendment):** the Phase-13/2026-06-26 framing was **over-claimed** and is walked back. "Boost invariance is the *only* custodial symmetry" is **false** (SUSY also forbids dim-3/4 LV → dim≥5: Groot Nibbelink–Pospelov, PRL 94 081601, 2005), and "doubly-obstructed / non-perturbative-only escape" is **false** (anisotropic scale-hierarchy `Λ_HL≪M_Pl` removes the tuning *perturbatively, boost-breaking-compatibly* — Pospelov–Shang, PRD 85 105001, 2012, demonstrated for **Hořava–Lifshitz**, an absolute-time-class theory; causal sets avoid it entirely via random sprinkling). So dim-4 c_μν is the **standard LV-naturalness problem (CPSU 2004) that the field routinely solves**, NOT a general no-go and NOT "the arc's sharpest falsification." Corrected status: **minimal framework refuted at natural value (true, conditional); for Synchronism specifically it is an OPEN custodial-mechanism gap** — single-substrate universality obstructs the scale-hierarchy escape, and SUSY/sprinkling are unmotivated additions or require giving up absolute time, so the framework owes a mechanism — but this is a naturalness gap, not a decisive refutation. **The genuinely decisive negatives are the locality no-go (door #1, Milgrom instance) and — as of 2026-07-14 — the BTFR bounded-boost refutation (TEST-09, executed on real SPARC; the 1/Ω_m = 3.17 boost ceiling is structural and no parameter choice rescues it)**, which have no comparable standard escape. **⚠ Corrected 2026-07-14: the DESI growth-sign disfavoring is NO LONGER on this list** — it was a criterion-verdict substitution (the *registered* criterion fσ₈(z=0.51)>0.46 at >3σ was met at only ~1.5σ; the quoted 2.4σ is a GR-conditioned σ₈-amplitude statistic; DESI's own MG analysis, Ishak et al. arXiv:2411.12026, puts μ₀ within 1σ of zero). Both surviving decisive negatives now sit in the **galactic (door-#1) sector**; the cosmological one did not hold up. Not a standalone paper (CPSU is mature/absorbed). Self-correction triage `explorations/2026-06-30-triage-dim4-general-nogo-self-correction.md`. **[2026-10-29, CBP-Claude (registrant): stacking arm vs its own criterion. Zone edge G/2 = πħ/ℓ_Pl = 20.5 kg·m/s. If total momentum stacks, a walking human (4.8× G/2) and every car or planet would fold, so the registered criterion fires and that arm is refuted. If folding is per mode, the most energetic observed quantum sits at 8×10⁻⁹ of the edge, and merging soft quanta still needs ~Planck energy in one interaction, so it is unreachable. This is the DSR **soccer-ball problem** (Hossenfelder 2014 SIGMA 10 074; verified), whose standard fix (per-mode/density) removes the claimed reach. 'Reachable at lower per-quantum energy' survives neither reading. Bucket/count change gates on dp. Detail: `explorations/2026-10-29-b7-stacking-is-the-soccer-ball-problem.md`.]** |
 | **B6** | **Entanglement is not inherently monogamous** (dp 2026-06-22). Synchronism models entanglement as phase-sync to the common substrate (the global clock); phase-sync is inherently *shareable*, so N-way perfect sync is possible in principle. QM's monogamy (Coffman–Kundu–Wootters) is recast as a *statistical* consequence of N-party perfect-sync being **exponentially rare in N**, not a hard law. | Directly contradicts QM's monogamy *theorem* — the one place this ontology makes a different **structural** claim about multi-party correlation sharing than standard QM, rather than reproducing it. | **Refuted if** (a) the substrate model, *once it produces genuine no-signaling S>2 pair correlations*, is provably monogamous (cannot share S>2 three ways); **or** (b) an engineered regime where Synchronism predicts *observable* non-monogamy shows strict CKW monogamy holds. **Gating note:** novel *only above the classical bound* — non-monogamy of **classical** (S≤2) correlations is trivial (freely shareable) and not news; the bet is that it persists into the **genuine-entanglement (S>2)** regime, which is **gated on first producing S>2 no-signaling correlations** — currently absent (see `simulations/kuramoto-lattice-suite/04_global_clock_chsh.py`: the phase-sync construction caps the no-signaling envelope at S≤2; the missing primitive is interfering *complex* amplitudes, not a real phase). | **Against, by current evidence.** CKW monogamy is experimentally confirmed; the "exponentially rare" escape is untested and currently unsupported. A genuinely *risky* (hence good) falsifiable bet — but doubly-gated: it needs (B-pre) the complex-amplitude upgrade that lets the substrate reach S>2 no-signaling at all, *then* the non-monogamy test. |
 
 > **The disciplined headline** (use this phrasing, not "zero predictions" alone):

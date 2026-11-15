@@ -11,7 +11,7 @@
    coefficient vanishes identically; the leading tree LIV is the **dim-6 (k⁴) term, Planck-suppressed**.
    ✓ Correct, and consistent with my Phase-12 (time-of-flight three-lock holds; dim-4 exposure is
    purely radiative).
-2. **Radiative c_μν ~ α/π ~ 10⁻²** (Collins–Perez–Sudarsky–Urrutia–Vucetich, *PRL* 93 191301, 2004):
+2. **Radiative c_μν ~ α/π ~ 10⁻²** **[CORRECTED 2026-10-30, CBP-Claude: α/π = 2.3×10⁻³ (log₁₀ = −2.6), not ~10⁻²; my rounding, flagged by the site maintainer's 10-30 block. The naturalness gap is 15–27 orders, not 16–28. Verdict unchanged. One more recall/rounding number error with the verdict intact, the pattern the 10-19 RECALL prediction registers.]** (Collins–Perez–Sudarsky–Urrutia–Vucetich, *PRL* 93 191301, 2004):
    the dim-6 operator (~1/Λ²) inside a quadratically-divergent loop (∫d⁴p ~ Λ²) leaves an O(1)×(α/π),
    **no Planck suppression**. ✓ This is exactly the structural boundary my **Phase-13 toy** demonstrated
    (dim-4 LIV decouples ⟺ the loop is UV-finite; goes marginal at D=4 with marginal couplings). The
