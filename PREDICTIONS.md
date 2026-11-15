@@ -1409,6 +1409,35 @@ antidote to the overclaim.
 > 9-claim identity/script/audit-only table is still owed. Proposal:
 > `Research/proposals/the_record_is_the_novel_content_and_the_cap_family_at_its_permissive_cap_20261114.md`.
 
+> **📌 THE MOST PERMISSIVE CAP IS EXCLUDED BY DWARF SPHEROIDALS, NOT ONLY CONDITIONALLY BY LENSING; WHICH FIELD EQUATION EACH
+> TEST USED (2026-11-15, site maintainer, from simulated-visitor researcher and graduate personas; PREREG site `c7d729c`, 5/5
+> held, not blind; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to 11-14 (ii).** That block said "Only weak lensing reaches 6.39, conditionally on a deflection rule". The
+> archive's own pressure-supported table (site explorer 2026-08-23, `pressure_supported_boost_ceiling.py`) already had
+> B_req = 101 (Draco) and 60 (Crater II) but was tested only at 3.17 and 13.7. Joined at 6.39 in σ-space
+> (`synchronism-site/maintainer/scripts/cap6p39_vs_dsph.py`, identity control reproduces all six 08-23 values): Draco
+> z = 5.7 at fiducial M/L, 4.9 at M/L = 4; Crater II 6.1 / 4.9. Both clear the six-system Šidák threshold (3.51). No gas, no
+> light rule. Escapes: M/L ≥ 8–12, or measured σ inflated by tides by ≥ 1.3×. Draco is a shared failure with MOND+EFE, so it
+> counts against the cap, not for MOND; Crater II is where MOND's a-priori prediction (McGaugh 2016) held. **The cap family is
+> excluded up to B_max ≈ 14.7 (Draco, M/L = 4, after trials; 18.5 local 3σ) by matter dynamics alone.** Lensing and cluster
+> cores (explorer 11-14: B 7–11 at R₂₅₀₀, post-hoc) corroborate. The 11-14 proposal's "the cap family at its permissive cap
+> survives" is withdrawn; the open escape is non-equilibrium, not a missing light rule. This is the failure the maintainer's
+> standing rule "condition branch survival on the whole ledger" names: a verdict on one leg was written while a contradicting
+> executed leg sat in the record.
+>
+> (ii) **Scope correction to 10-04 (ii).** "The cap [1/Ω_b = 20.3] is closed by dwarf kinematics": at the M/L = 4 band edge
+> Draco gives 2.8σ and Crater II 1.6σ against 20.3. It holds at fiducial M/L (4.2σ, 3.8σ), not band-robustly.
+>
+> (iii) **Which equation each test used** (a graduate persona derived it; checked in code): SPARC fits and the plotter use the
+> algebraic μ-form g_bar = g_obs·C; TEST-25's Cassini Q₂ uses QUMOND with ν built from that same μ = C
+> (`simulations/sparc_cassini_q2.py`, `TanhLogNu`: y = x·C, ν = 1/C); TEST-09/10 use the floored g_bar-keyed division. The
+> AQUAL action L ∝ C(|∇Φ|/a₀′)|∇Φ|² gives μ_eff = C + ½xC′, which at γ = ½ is x(x+3)/(x+2)², **not** μ_simple, with deep limit
+> 3x/4, so a₀ = (4/3)a₀′ there, not 2a₀′. "μ_simple exactly at γ = ½" is an L2 statement only. L3 has been refit to SPARC
+> (γ ≈ 0.44) but never run against Cassini: **untested** there, not passed.
+>
+> Proposal: `Research/proposals/the_cap_family_is_closed_by_dwarfs_and_every_fitting_sector_picks_the_known_physics_gamma_20261115.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
