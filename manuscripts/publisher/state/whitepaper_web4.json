@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "whitepaper": "web4",
-  "last_review": "2026-11-15T12:30:00Z",
+  "last_review": "2026-11-16T12:30:00Z",
   "last_checked_commit": "1ea6fb21",
   "pending_proposals": [],
   "status": "current",
-  "notes": "2026-11-15 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 1ea6fb21 (unchanged since 11-13; empty window). Since #978: #971, #988/#989, #990/#991, #992; 0 core-spec/ontology/whitepaper changes; section 11 Hub paragraph still matches hub/README. build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d). Deployed PDF 24 pp, U+FFFD 0, geometry = 11-02 baseline (8 words past 545 pt on pages 6/12/13/15/22, max 596.2, 0 past 600)."
+  "notes": "2026-11-16 (interactive maintenance pass): no edit, no rebuild owed. origin/main = 1ea6fb21 (unchanged since 11-13; empty window). build = docs by blob (PDF 50ba1b5c, monolith 05842421, index.html 798a0d8d). Deployed PDF 24 pp, U+FFFD 0, geometry = 11-02 baseline (8 words past 545 pt on pages 6/12/13/15/22, max 596.2, 0 past 600). Open PRs: #984 (draft hub mesh), not this lane's."
 }
