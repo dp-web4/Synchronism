@@ -1438,6 +1438,48 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_cap_family_is_closed_by_dwarfs_and_every_fitting_sector_picks_the_known_physics_gamma_20261115.md`.
 
+> **📌 EVERY FITTED γ IS THE INCUMBENT'S γ; THE N_corr-DIVERGENCE TEST HAS ITS ANSWER; THE 1/Ω_m FLOOR IS THE COSMIC C₀
+> (2026-11-16, site maintainer, from site explorer 2026-11-15 (not pre-registered, identity controls exact, not re-run by me)
+> and simulated-visitor graduate and researcher personas; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Fit the template to each sector's incumbent curve, with no data, and you get the γ the data fits returned.**
+> Simple μ → 0.500 (identity, a₀′ = a₀/2); McGaugh's RAR function (δ = 1) → **0.595**, against careful SPARC arms
+> 0.58–0.62 (95% ≈ 0.43–0.95); Λ → ½, against 0.487 ± 0.02; BCS at a pinned knee (β = 2) → **2.644**, against the
+> archive's 2.31–2.65 (hand-typed points; back-annotated in `Research/Chemistry/Session1_Superconductivity_Coherence.md`
+> §4.4); Newton → ∞, against the Solar-System floor γ ≥ 0.87. MOND's sharp functions (δ ≥ 4, n ≥ 3) have no matching γ:
+> the fit runs to the scan edge, which is the 11-07 (iii) width floor drawn as a map and the reason TEST-25 fails at every γ.
+> Consequences: the 11-15 proposal's candidate sentence fails its second clause ("the fitted γ lands on ½" quotes the
+> Υ-frozen 0.489; with nuisances refit SPARC sits at the RAR function's 0.595 and cannot tell it from ½, 0.1 apart against
+> σ_gal ≈ 0.11) and its third (the Solar System does measure γ away from ½, as a floor). Replacement wording is in the
+> proposal below. `synchronism-site/explorer/scripts/gamma_incumbent_map/`.
+>
+> (ii) **The Bucket 3 N_corr-divergence test (Kimi 2026-06-21) is answered "diverging", by construction.** If each sector's
+> γ is its incumbent's γ_eq, an N_corr(γ) map can only relabel incumbents; N_corr converges on one cross-scale definition only
+> if it predicts γ_eq *before* the fit. The explorer names the blind version (a sector with a known incumbent and no fitted γ
+> yet: BEC fraction vs T, Ising magnetisation): register γ_eq first, then fit data. Related, from a graduate persona: the
+> template is C = 2θ − 1 for Hill occupancy θ with coefficient n_H = 2γ and ligand 1 + x (the April Curie-paramagnet
+> reduction, `Research/proposals/coherence_function_curie_paramagnet_reduction.md`, in binding language). Cooperativity
+> raises n_H toward the number of sites, so the physics this form already has makes γ *grow* with correlation number, the
+> opposite exponent to 2/√N_corr, consistent with the audited sign inversion. Editing the Bucket 3 note gates on the
+> project lead (with 10-16 (i)).
+>
+> (iii) **The 1/Ω_m floor is motivated, and its motivation is the second-density-scale problem.** C read on the mean cosmic
+> density equals Ω_m(a) by construction (the C₀ = Ω_m calibration, 08-11), and with one rising C and one shared knee every
+> region denser than the mean has C > Ω_m, so the boost stays below 1/Ω_m. That needs the knee shared; the cosmological
+> knee (ρ_Λ/2 ≈ 4×10⁻⁸ M☉/pc³) sits 6.6–10.4 orders below the galactic ones (10-26 (iv)), and with it every galaxy has
+> C ≈ 1. So the ceiling's origin and the need for a separate galactic knee are one problem. Read the 07-17 TEST-09 row's
+> "floor Ω_m genuinely derived" and the site's former "asserted" with this.
+>
+> (iv) **Record (site, `5c0554f`).** The /wide-binaries description of an in-house reproduction of Saad & Ting's public
+> code is off the public page (authors not contacted after 8 days; their numbers are printed as published). The a₀(z) row
+> reads "survives; does not discriminate" everywhere (it differs from constant-a₀ MOND, not from ΛCDM + baryons). The
+> 9.8σ is (2.38 − 1.862)/√(0.051² + 0.014²): lower 95% half-width ÷ 1.96 with the anchor's Planck-H₀ error; 10.2σ on the
+> measurement alone. LLR's "≥ 527×" is the grid minimum at γ = 0.3 (635× at γ = ½). The sign lock holds on the substituted
+> background and is absent in the covariant completions; both statements were on the site without their objects. The
+> headline C(ρ) page's own badge was "Speculative" until today.
+>
+> Proposal: `Research/proposals/every_fitted_gamma_is_the_incumbents_and_a_code_claim_left_the_page_20261116.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
