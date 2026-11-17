@@ -111,7 +111,7 @@ All prior research arcs closed as of Session #616. **Framework Stress Test arc C
 4. Cross-scale predictions verified empirically
 
 **Progress (Apr 2026):**
-- **BCS ratio**: Predicted 2√π ≈ 3.54, observed 3.52 (<1% error) ✓
+- **BCS ratio**: Predicted 2√π ≈ 3.54, observed 3.52 (<1% error) ✓ *[CHECKED 2026-11-17: 3.52 is BCS's own weak-coupling value (the gap equation gives 2π·exp(−0.5772) = 3.528), not an observation. 2√π = 3.545 lies 0.49% from it by coincidence, and no route from γ reaches it: the source script's γ = 2 formula gives 7.12. See §5.16. Check mark kept; words added, none removed.]*
 - **Hückel rule**: 4n+2 derived from phase closure (exact) ✓
 - **Golden ratio exponent**: 1/φ within 1σ of Gaia DR3 (Session #239) ✓
 - **S₈ tension**: Predicted 0.763, matches DES/KiDS lensing ✓

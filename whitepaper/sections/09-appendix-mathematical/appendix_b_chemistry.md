@@ -85,7 +85,7 @@ $$
 T_c \propto \exp\left(-\frac{\gamma}{\lambda_{eff}}\right)
 $$
 
-BCS ratio derived: 2Δ₀/kT_c = 2√π ≈ 3.54 (observed: 3.52, <1% error)
+BCS ratio derived: 2Δ₀/kT_c = 2√π ≈ 3.54 (observed: 3.52, <1% error) *[CHECKED 2026-11-17: 3.52 is BCS's own weak-coupling value (2π·exp(−0.5772) = 3.528 from the gap equation), not an observation, and 2√π is 0.49% from it by coincidence. See §5.16. Words added, none removed.]*
 
 **Optical Properties (Sessions #76, #91)**
 $$

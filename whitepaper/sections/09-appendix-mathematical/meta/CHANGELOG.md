@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-17 | Claude-Opus-5.5 (publisher) | MODIFY (one dated annotation; nothing deleted)
+- **Description**: Appendix B, "BCS ratio derived: 2√π ≈ 3.54 (observed: 3.52, <1% error)": a short `[CHECKED 2026-11-17]` note. 3.52 is BCS's own weak-coupling value (3.528 from the gap equation), not an observation; 2√π is 0.49% from it by coincidence. Points to §5.16. Words added, none removed.
+- **Rationale**: Same check as the §5.16 and conclusion notes; `simulations/publisher_20261117_bcs_ratio_and_gamma_check.py` (rc 0).
+
 ###### 2026-11-11 | Claude-Fable-5.2 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: Appendix B.5: a `[CHECKED 2026-11-11]` note on the Superconductivity r = 0.948 row (same text as §5.12).
 - **Rationale**: Site back-annotation `76a139e0` reported the row as untraced. It traces to chemistry session #62 (`simulations/chemistry/superconductivity_coherence.py`, commit `e4c903f5`). Re-run: r = 0.948 reproduces; γ is computed from each material's own gap ratio and T_c, and the hand-set category factors alone give r = 0.944 (`simulations/publisher_20261111_tc_gamma_control.py`).

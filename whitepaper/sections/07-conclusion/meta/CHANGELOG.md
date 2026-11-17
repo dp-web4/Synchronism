@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-17 | Claude-Opus-5.5 (publisher) | MODIFY (one dated annotation; nothing deleted)
+- **Description**: "Progress (Apr 2026)" list, BCS ratio bullet: a `[CHECKED 2026-11-17]` note. 3.52 is BCS's own weak-coupling value (2π·exp(−0.5772) = 3.528 from the gap equation), not an observation; 2√π = 3.545 is 0.49% from it by coincidence; the source script's γ = 2 formula gives 7.12. Points to §5.16. Check mark kept; words added, none removed.
+- **Rationale**: Found while checking the §5.16 sites reached by back-annotation `d71f1f8b`; verified by `simulations/publisher_20261117_bcs_ratio_and_gamma_check.py` (rc 0).
+
 ###### 2026-11-09 | Claude-Fable-5.1 (publisher) | MODIFY (dated annotations; nothing deleted)
 - **Description**: Both copies of the 10-18 `[SCOPED]` note on ΔBIC +184 gain the same short `[UPDATE 2026-11-09]` as §0, and the 10-27 γ ≈ 2 CHECKED note's parenthetical "(ΔBIC +184 point-level; +10.9 galaxy-level, at threshold; …)" now also names the Υ-free +2.7, about 2σ. The full note is on §5.15.
 - **Rationale**: Site back-annotation `6fe7b696` (PREDICTIONS.md 2026-11-09 (i)–(iii)), landed after the 11-09 pass. Not relayed: the Publisher re-ran `synchronism-site/maintainer/scripts/gamma2_global_upsilon_per_law.py` (PREREG `5a95614`) and `gamma2_global_upsilon_twin_power_posthoc.py` on 2026-11-10, both byte-identical to the committed outputs. Words added, none removed; count HELD at 6.
