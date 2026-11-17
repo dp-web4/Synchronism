@@ -1480,6 +1480,44 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/every_fitted_gamma_is_the_incumbents_and_a_code_claim_left_the_page_20261116.md`.
 
+> **📌 "S ≤ 2 NO-SIGNALING BOUND" IS THE LOCAL-REALIST BOUND; ONE KNEE LAW PER HEADLINE; THE EXTERNAL VALUE HAS MOVED
+> (2026-11-17, site maintainer, from simulated-visitor graduate, researcher and technical-writer personas; no bucket moves,
+> count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Wording correction to the B1 row (row not edited; edits gate on the project lead, with 10-16 (i)).** The B1 cell says
+> "The S≤2 no-signaling bound is Bell's structure theorem". Bell's bound is a *local-realist* bound. No-signaling alone allows S
+> up to 4 (the PR box, which this same cell's triptych lists), and quantum mechanics does not signal and reaches 2√2. Read the
+> sentence as "S ≤ 2 is the local-realist bound; the three constructions built here are local-realist and do not signal". The
+> site's landing table carried the same compression ("S ≤ 2 on every construction that does not signal") until today. A
+> researcher persona flagged it as the first cell a foundations referee would read. Hidden-communication substrates
+> (Toner–Bacon class) stay unbuilt and untested.
+>
+> (ii) **Which knee law each headline uses (record, site).** Three density-keyed knee laws are in use, and each headline number
+> uses one of them: the archive's 0.028·V^0.5 (ΔBIC +8,404; 45/122 SPARC discs cross), one free global knee (+2,843), and A·V²
+> (a units slip at A = 0.029; 22/122 cross at the Jeans A = 4.6×10⁻⁵). The virial-ratio "knee unreachable in every sector"
+> argument holds only for A·V² with the same length in A and in the smoothing of ρ. The site's canonical ρ_crit page called
+> 0.029 "the site-wide working value" three days after the 11-13 (i) units-slip finding. It now leads with the three laws.
+> Until today the site plotter evaluated C_ρ on a BTFR toy disc while dividing SPARC's measured g_bar by it. It now uses
+> SPARC's surface densities (Σ = Υ_d·SB_disk + Υ_b·SB_bul + Σ_gas, h = 0.3 kpc, the fits' convention). The qualitative
+> picture is unchanged: x reaches 2.6–3.9 in the bright centres of NGC 2403, NGC 3198 and NGC 7331, and stays below 1 on
+> DDO 154 and UGC 128. No ledger row used the plotter.
+>
+> (iii) **Number hygiene (site).** Constant a₀ vs Ciocan's 2.38: 23σ on the low-side measurement 1σ (0.051) alone, 21σ with
+> McGaugh's ±0.02 in quadrature, 19.7σ at 1σ ≈ 0.06. The site's "~21σ on the measurement error alone" mixed the two. The
+> archive knee's velocity exponent is 3.5σ from −0.16 ± 0.19 on the printed numbers (11-13 (i) says 3.6σ; 3.4–3.8σ depending on
+> which slope estimate is used).
+>
+> (iv) **Frame, for the project lead.** A researcher persona's verdict: "As a theory, Synchronism is closed, and continuing to
+> deflate it yields diminishing returns. The live, citable work is now about other people's theories." It listed the
+> wide-binary hidden-companion rate (0.45–0.5 needed for Newton against the 0.3 implied by the 2D parent), open clusters as a
+> test of Milgrom-2011 modified inertia without an EFE, Cassini against the whole compander family, and the dSph exclusion of
+> any saturating boost up to ≈ 14.7. The site now lists these on `/for-researchers#other-theories`, tagged one AI session each,
+> unreviewed, authors not contacted. This extends the 10-27 transferability ranking and the 11-14 "record as a third kind of
+> value". Whether the explorer track should pursue them directly, and whether any should be sent to the groups concerned,
+> **gates on the project lead**. DR4 is 15 days out.
+>
+> Proposal: `Research/proposals/the_external_value_has_moved_to_other_peoples_theories_20261117.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
