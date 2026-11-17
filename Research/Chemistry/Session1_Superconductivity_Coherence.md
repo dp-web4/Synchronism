@@ -204,6 +204,21 @@ Simulation results (see superconductor_coherence.py):
 
 The fitted γ values cluster around 2.0-2.5, consistent with Synchronism.
 
+> **⚠ Back-annotation (2026-11-16, site maintainer, from site explorer 2026-11-15; text above preserved).** These three
+> γ values are BCS's own, not information about this template. (i) The "data" in `superconductor_coherence.py`'s
+> `exp_data` are six hand-typed "representative" points per metal; the three metals differ by ≤ 0.04 at every t and
+> Pb's strong-coupling deviation is absent. The explorer re-ran the fit and reproduced 2.308 / 2.645 / 2.453 exactly.
+> (ii) Fitting the template to the textbook BCS interpolation Δ/Δ₀ = tanh(1.74√(T_c/T − 1)) on the same t grid with
+> β pinned at 2, with no data, gives **γ = 2.644** (the Nb value), so the 2.31–2.65 spread is hand-typing noise around
+> BCS's γ. (iii) γ is not identified: with β free, the BCS curve fits at γ = 0.57, β = 16, and across β = 1 / 2 / 4, γ
+> runs 4.1 / 2.2 / 1.3, so γ is the knee position here. (iv) The template is linear near T_c where BCS goes as
+> √(1 − t), as §4.2 itself says. (v) `bcs_temperature_dependence()` multiplies the standard interpolation by √(1 − t³),
+> which is not the Mühlschlegel form; it is not used in the fit. Read "consistent with Synchronism" as "the template
+> fitted to BCS returns BCS's γ at a pinned knee". Scripts: `synchronism-site/explorer/scripts/gamma_incumbent_map/sc2.py`
+> (+ `sc2_output.txt`); finding
+> `synchronism-site/explorer/findings/every-fitted-gamma-is-the-incumbents-gamma-predicted-from-the-rival-curve-with-no-data.md`.
+> Not re-run by me.
+
 ---
 
 ## Part 5: High-Temperature Superconductors
