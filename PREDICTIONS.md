@@ -1518,6 +1518,49 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_external_value_has_moved_to_other_peoples_theories_20261117.md`.
 
+> **📌 DOOR #3 CANNOT BE A MEASUREMENT MECHANISM AT ANY RATE; THE LLR BOUND WAS QUOTED AT THE CENTRAL VALUE; THE WIDTH LIMIT
+> IS AN ASYMPTOTE (2026-11-18, site maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-17
+> (PREREG site `1a4d020`, not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Door #3's basis.** The 10-27 (iii) block established that door #3's diffusion is a random *displacement* (Lindblad L ∝ p̂),
+> which is why the CSL (λ, r_C) plane does not apply. The same fact settles its role. With L ∝ p̂ the master equation gives
+> dρ(p,p′)/dt = −D(p−p′)²ρ(p,p′): it damps superpositions of different momenta (Γ ∝ D·Δk², the 06-24 Phase-16 rate) and, in the
+> position representation, only diffuses the centre coordinate, leaving coherence between distinct positions untouched (checked by
+> hand). A measurement mechanism needs pointers localized in position. So door #3 is closed **as a measurement mechanism by its basis,
+> at any D**, independently of the 15–38-order magnitude bound. SPINE's "measurement is synchronization" reading therefore cannot borrow
+> door #3's decoherence for definite position outcomes; the preferred-basis question is open for the MRH-crossing reading, and its
+> nearest prior art is Rovelli's relational QM (not yet compared). Not a count change: door #3 was never registered.
+>
+> (ii) **Number hygiene on the citable register (10-27 (i)).** "|d ln G_eff/d ln ρ_s| ≲ 4×10⁻⁹–4×10⁻⁸" divided the LLR **central value**
+> (7.1×10⁻¹⁴ yr⁻¹) by the gradient factor. At the 2σ upper edge (2.2×10⁻¹³ yr⁻¹) it is **≲ 1×10⁻⁸–1×10⁻⁷**; the smooth-100-pc variant
+> becomes ≲ 1×10⁻⁶–1×10⁻⁵, and the floored published knee fails by about five orders, not five to six. The 09-24 "68/74" is unaffected:
+> its script cuts at 10⁻¹² yr⁻¹. A researcher persona inferred this from the printed numbers; recomputed here.
+>
+> (iii) **Precision on 10-23 (i), 11-07 (iii) and 11-14 (iii): "the width saturates ~1.17 dex" is the γ → ∞ limit.** The 10–90 % width
+> of tanh(γ ln(1+x)) is 1.908 / 1.503 / 1.325 / 1.270 / 1.197 dex at γ = ½ / 1 / 2 / 3 / 10, → log₁₀(artanh 0.9 / artanh 0.1) = 1.1665
+> (recomputed). It falls 0.33 dex above γ = 1, comparable to the 0.41 from ½ to 1, so "γ acts as a width only below about 1" was wrong.
+> The conclusions stand: no member is narrower than 1.17 dex, so the compander has no sharp member and MOND's δ = 6 is out of its reach.
+>
+> (iv) **a₀(z), one convention for both sides.** Ciocan's Fig. 3 bars print no CI level. The site had printed the 95 % reading only for
+> the rival (constant a₀ ≈ 10σ). Read the framework's slope the same way: n = 1 is 2.2σ from the bins (0.71 ± 0.13) at 1σ bars and
+> ≈ 4.4σ at 95 %. So the 11-13 (ii) "unresolved, straddled" holds only under the 1σ reading; the global-line estimator (1.15) is
+> unaffected. Still prior art (cosmologically coupled MOND) and ΛCDM-degenerate (Mayer+2023).
+>
+> (v) **Wide binaries (explorer 11-17).** DR4 cannot measure the hidden-companion rate in S1 (flags carry 0.17–0.27 nats against a
+> ~2-nat perfect-census ceiling, LR ≈ 7); it can in the 2D parent if the single-star false-flag rate is pinned to ±0.005 from DR4
+> itself. System #3 needs a companion under every reading, Chae's γ = 1.6 included. The reading (R-A non-decisive, R-B, R-C) is
+> appended to `synchronism-site/maintainer/scripts/wb_dr4_analysis_plan_PREREG.md`, dated before 2 December. It touches MOND's
+> question only.
+>
+> (vi) **Frame, for the project lead.** Two personas independently: no forward dataset on file can confirm a novel prediction (the
+> site now leads `/for-researchers` with that sentence), and the program's one internally runnable experiment with an unknown outcome,
+> the A2ACW post-cutoff arm, has waited on a decision since 2026-09-10 (69 days). The proposal below asks for a dated default for an
+> in-family version and keeps the cross-vendor scorer gated. Also printed on the site: as written, the framework is a MOND
+> interpolating function in galaxies and ΛCDM *with* CDM in cosmology (09-22); which dark-matter story it keeps still gates on the
+> project lead.
+>
+> Proposal: `Research/proposals/door3_closed_by_basis_and_the_post_cutoff_arm_needs_a_default_20261118.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
