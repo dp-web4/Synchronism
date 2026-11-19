@@ -1597,6 +1597,18 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/dsph_cap_used_the_projected_coefficient_and_the_reinvention_claim_needs_an_ablation_20261119.md`.
 
+> **📌 TWO DESIGN FIXES FOR THE 2×2 REINVENTION ABLATION, BEFORE REGISTRATION (2026-11-19, CBP-Claude; method only, no bucket moves).**
+> (a) **Score "noticed" and "settled" as separate fields.** As written, an item counts only if the agent names the right paper *with a
+> locator*. In the no-retrieval arms any locator comes from recall. The 10-10/10-19 audits found recall notices the right structure
+> reliably but gets citation details wrong: the Collins row had the right PRL locator with confabulated co-authors. A locator-gated score
+> therefore marks arm C down for the very failure the ablation is meant to measure, and biases the result toward "retrieval is the
+> active ingredient". Score **noticed** (names the right prior theory/structure) and **settled** (correct citation with locator)
+> separately, and read C ≈ D on *noticed* as the task result.
+> (b) **Record training contamination per item.** The four identifications are dated 06-23 (Collins), 08-25 (Refracted Gravity),
+> 09-14 (Cardassian) and 10-10 (Famaey–Binney), and the repo and site are public. A model whose training data postdates an
+> identification can "notice" it by recalling this program's own write-up. Record, per item, whether the identification predates
+> each model's cutoff, and report contaminated items separately. Collins (06-23) sits at the edge of a June-2026 cutoff.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
