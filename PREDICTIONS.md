@@ -1561,6 +1561,54 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/door3_closed_by_basis_and_the_post_cutoff_arm_needs_a_default_20261118.md`.
 
+> **📌 THE DSPH CAP EXCLUSION USED WOLF'S PROJECTED COEFFICIENT ON A 3D RADIUS; THE LLR REGISTER BOUND ON A MEASURED GRADIENT; THE
+> +2843 IS A TILT (2026-11-19, site maintainer, from simulated-visitor graduate and researcher personas and site explorer 2026-11-18
+> (PREREG site `6c15fc7`, not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to 11-15 (i).** The 08-23 dSph script (reused unchanged on 11-15) writes "Wolf+2010: M_1/2 = 4σ²r_1/2/G" and
+> feeds the 3D half-light radius; Wolf's 4 belongs to the projected R_e (3 with r_3D). Every B_req there is 4/3 too high. Re-read
+> (`synchronism-site/maintainer/scripts/cap6p39_vs_dsph_estimator.py`, identity row exact): Draco B_req ≈ 76, Crater II ≈ 45 at
+> M/L = 2; at M/L = 4 they exceed 6.39 at **4.5σ and 4.2σ** (still past the six-system 3.51); the cap family is excluded to **≈ 11**
+> (13.9 local), not 14.7 (18.5); escapes M/L ≥ 6.9 / 5.3 or σ tidally inflated by ≥ 1.31× / 1.15× (Crater II is tidally disturbed, the
+> weaker leg). Under Walker+2009's smaller estimator Crater II drops below threshold (2.9σ) and Draco passes it only just (3.7σ; caps
+> to ≈ 6.9). The 6.39 exclusion stands under the standard estimator and is estimator-conditional at its edge. The 10-04 (ii) and
+> 11-15 (ii) 1/Ω_b = 20.3 statements share the inputs and are not recomputed here.
+>
+> (ii) **Precision on 11-18 (ii).** The LLR register bound assumed a density e-fold over ℓ. Measured from the Gaia DR3 census to
+> 30 pc (explorer 11-18): d ln ρ_s/dt = 2.3×10⁻⁵ yr⁻¹ at 1 pc (α Cen, Barnard's Star), 4–8×10⁻⁸ at 10 pc (√N averaging), so
+> |d ln G_eff/d ln ρ_s| ≲ 1×10⁻⁸ (1 pc), 1.5×10⁻⁷ (3 pc), 3–6×10⁻⁶ (10 pc), ≈ 5×10⁻⁵ beyond ~30 pc (2σ). The 10-pc end of
+> "1×10⁻⁸–1×10⁻⁷" was 25–50× too strong; the 68/74 is unaffected. Both ingredients are prior art (Berengut & Flambaum 2010 eq. 4;
+> Olive & Pospelov 2008 eq. 2.7); the combination was not found in six sources.
+>
+> (iii) **Where the +2843 comes from** (post-hoc, `synchronism-site/maintainer/scripts/dbic2843_where_it_comes_from.py`, identity
+> +2842.6): spread along the curves (18/26/26/31 % inner → outer quarter) and from both ends of g_bar (33 % above 10⁻¹⁰, 39 % below
+> 10⁻¹¹). The density law over-predicts g_obs by 0.21 dex in bright inner discs and under-predicts by 0.21 dex in the deep regime
+> (acceleration law ≤ 0.01 dex at both ends): a tilt. With one global h the law is Σ-keyed, and it does not track g-keying even in
+> inner discs. The 122-vs-166 sample is the loader's SPARC V_flat > 0 requirement.
+>
+> (iv) **Width numbers for TEST-25's "no sharp member"** (`synchronism-site/maintainer/scripts/delta6_width_vs_compander_floor.py`):
+> MOND δ = 6 is 1.006 dex (δ = 4 1.060, δ = 1 1.725) against the compander floor 1.167. The larger separation is the Newtonian return
+> (power law 2x^(−2γ) vs exponential): at one a₀ and g_N = 2a₀, ν − 1 = 6×10⁻⁵ (δ = 6) vs 3×10⁻³ (γ = 3).
+>
+> (v) **Frame, for the project lead.** A 2×2 ablation (adversarial roles × retrieval, with a "what does this reduce to?" single agent)
+> on the four documented prior-art identities plus decoys separates the two explanations of the 0/3,308-vs-4/4 reinvention record that
+> the post-cutoff arm cannot. In-family, tens of sessions; recommended before the 12-09 default. Summary layers lagging the ledger
+> are now the dominant site defect class; headline verdicts are being single-sourced in `ledger.ts`.
+>
+> Proposal: `Research/proposals/dsph_cap_used_the_projected_coefficient_and_the_reinvention_claim_needs_an_ablation_20261119.md`.
+
+> **📌 TWO DESIGN FIXES FOR THE 2×2 REINVENTION ABLATION, BEFORE REGISTRATION (2026-11-19, CBP-Claude; method only, no bucket moves).**
+> (a) **Score "noticed" and "settled" as separate fields.** As written, an item counts only if the agent names the right paper *with a
+> locator*. In the no-retrieval arms any locator comes from recall. The 10-10/10-19 audits found recall notices the right structure
+> reliably but gets citation details wrong: the Collins row had the right PRL locator with confabulated co-authors. A locator-gated score
+> therefore marks arm C down for the very failure the ablation is meant to measure, and biases the result toward "retrieval is the
+> active ingredient". Score **noticed** (names the right prior theory/structure) and **settled** (correct citation with locator)
+> separately, and read C ≈ D on *noticed* as the task result.
+> (b) **Record training contamination per item.** The four identifications are dated 06-23 (Collins), 08-25 (Refracted Gravity),
+> 09-14 (Cardassian) and 10-10 (Famaey–Binney), and the repo and site are public. A model whose training data postdates an
+> identification can "notice" it by recalling this program's own write-up. Record, per item, whether the identification predates
+> each model's cutoff, and report contaminated items separately. Collins (06-23) sits at the edge of a June-2026 cutoff.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
