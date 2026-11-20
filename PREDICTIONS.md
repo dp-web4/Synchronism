@@ -1609,6 +1609,46 @@ antidote to the overclaim.
 > identification can "notice" it by recalling this program's own write-up. Record, per item, whether the identification predates
 > each model's cutoff, and report contaminated items separately. Collins (06-23) sits at the edge of a June-2026 cutoff.
 
+> **📌 THE LOCAL SUBSTRATE IS EXCLUDED BY BELL EXPERIMENTS, NOT ONLY BY BELL'S THEOREM; THE OORT AMPLITUDE CANCELS AGAINST
+> LABORATORY G (2026-11-20, site maintainer, from simulated-visitor researcher and graduate personas and site explorer 2026-11-19;
+> abstracts read verbatim 2026-11-20; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **B1 / row #6.** The row is booked as a construction check (S = 1.85–2.0 on the substrates built) and the
+> hidden-communication class as untested. Loophole-free experiments measure S > 2 (Hensen et al. 2015, Nature 526, 682: "S = 2.42
+> ± 0.20", p = 0.039 against local realism), so any substrate capped at S ≤ 2 is excluded **on data**, inherited from Bell's theorem
+> plus experiment, as row #5 is inherited from MOND. The hidden-communication class is constrained without being built: Bancal et al.
+> 2012 (Nature Physics 8, 867) exclude influences at "any finite speed v with c < v < ∞" (they would permit signalling); Salart et al.
+> 2008 (Nature 454, 861) put the speed ≥ 10⁴ c in any preferred frame in which Earth moves slower than 10⁻³ c. FUNDAMENTALS' update
+> rule ("all cells simultaneously evaluate neighbor tensions and step forward together") carries influence at most one cell per tick,
+> so the substrate *as defined* is local and excluded; the surviving escape is a global, instantaneous update in the absolute frame,
+> which is the Bohm class with a preferred foliation (prior art). SPINE's "distance is scan-delay" reads as a global scan; FUNDAMENTALS
+> says parallel. **Which update rule the framework has, a SPINE sentence, and relabelling row #6 gate on the project lead.** The site
+> now prints the data reading beside the count, not in it.
+>
+> (ii) **Oort.** Under the 1–10 pc smoothing the wide-binary null and the LLR item need, laboratory G is measured at the same ρ_s, so
+> G_lab = G/C(ρ_s) and the boost's amplitude cancels from a midplane Oort analysis (as in the wide-binary ratio and in ephemerides).
+> Only its change with height is visible. Slab estimate, no DM, baryon midplane 0.084 M☉/pc³ (McKee+2015), 38 shapes, against Bovy &
+> Rix 2013 Σ(|z| < 1.1 kpc) = 68 ± 4 M☉/pc² (predictions committed at site `21b842f` before running; 3/4 held; identity: midplane
+> density recovered exactly for every law): archive knee 0.028·V^0.5 unfloored, γ = 2 or 0.489, predicts 886–1858 (≈ 10σ, set by the
+> baryon census); the affine Ω_m floor at γ = 2 passes (69–81), at γ = 0.489 falls 2–3σ short; the one-global-knee +2843 fit passes
+> (61–67); Newton without DM falls 3.6–4.9σ short. So "excluded by the Oort limit" holds for the unfloored archive-knee law through the
+> gradient, not the amplitude, and not for the floored or global-knee forms (which die on SPARC and LLR). P3 ("floored 1–5σ high")
+> failed. `synchronism-site/maintainer/scripts/oort_vertical_gradient_density_keyed.py` (+ `_output.txt`).
+>
+> (iii) **dSph (explorer 2026-11-19, not re-run by me).** Crater II is observed disrupting (Limberg et al. 2025 as returned by search: a
+> ≈7σ velocity gradient along its debris track; central σ 2.51 km/s), so read the 11-15/11-19 dSph leg as resting on Draco alone
+> (≈ 7 under Walker, ≈ 11 under Wolf). Dwarfs do not close 1/Ω_b = 20.3 (2.5–2.8σ); read the 10-04 (ii) and 11-15 (ii) statements as
+> withdrawn.
+>
+> (iv) **Record (site).** Quadrature v² = v_b² + (V_flat·C)² bounds the added velocity, not the boost (B = 1 + (V_flat·C/v_b)² is
+> unbounded as v_b → 0); the 3.17 cap is floored division only. The 09-03 Fisher ρ(ln γ, ln A) = +1.000000 was measured at the units
+> slip A·V², A = 0.029, where every disc is linear and only γ/A enters; with a free global knee γ and ρ_c are separately identified
+> (+0.89, 11-04 (i)), so it is untested at 0.028·V^0.5. The LLR register item (10-27 (i)) tests a pc-smoothed algebraic G·f(ρ_s) at
+> Refracted Gravity's knee values, not RG as published (pointwise ε inside the divergence); the pointwise check on file is 09-15's.
+> C_a (TEST-09/10) is log-logistic in (g_bar/a₀)^0.618, not a tanh-log member at any γ.
+>
+> Proposal: `Research/proposals/oort_amplitude_cancels_and_the_cfd_substrate_meets_bell_experiments_20261120.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
