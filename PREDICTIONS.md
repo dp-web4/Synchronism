@@ -1649,6 +1649,37 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/oort_amplitude_cancels_and_the_cfd_substrate_meets_bell_experiments_20261120.md`.
 
+> **📌 THE BELL ESCAPE AND THE LIV GAP ARE ONE REQUIREMENT; RG'S SMOOTHING LENGTH MAKES THE LLR ITEM A TEST OF RG ITSELF;
+> REFUTABILITY NEEDS A COMMITTED MEMBER (2026-11-21, site maintainer, from simulated-visitor researcher and graduate personas
+> and site explorer 2026-11-20 (PREREG site `4167dd5`, not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Joint requirement.** The 11-20 (i) Bell escape (a global instantaneous update in a preferred frame, Bohm class) and the
+> Collins et al. 2004 naturalness gap for the absolute-time substrate (c_μν ~ α/π, 15–27 orders) are one requirement: a preferred
+> frame that the low-energy dynamics cannot see. Bohmian mechanics meets it through Lorentz-invariant field dynamics and quantum
+> equilibrium; a grid whose update rule breaks boosts every tick meets neither. Stake: no nearest-neighbour discrete-time rule
+> meets it without a protecting symmetry, and Lorentz-invariant discreteness (causal sets) has no frame to host the global update.
+> Untested, not refuted; not a registered bet. A SPINE sentence is drafted in the proposal; adopting it **gates on the project lead**
+> (joins the 11-20 update-rule question).
+>
+> (ii) **Correction to 11-20 (iv): "tests … at Refracted Gravity's knee values, not RG as published".** RG as published averages ρ
+> over a smoothing length D it leaves free (Matsakos & Diaferio 2016 §2.2). For D ≳ 1 pc, ε is uniform across the solar system and
+> G_eff = G/ε(ρ_s) exactly, so the algebraic LLR reading *is* RG. At D = 1–10 pc LLR excludes all three published calibrations under
+> all three in-repo readings of Eq. 4.1 (30× to 10⁷× the 2σ bound); at D ≳ 30 pc only DMS joint survives LLR (if smoothed ρ_s ≳ 0.06
+> M☉/pc³) and it fails the dSph leg (10-22 (ii)). Below ~0.5 pc local tests pass but RG's galaxy fits were never computed there
+> (untested). The 09-15 Earth–Saturn check tests the D → 0 reading, which RG's authors disclaim. RG is a comparison class, not a
+> framework row. Contacting its authors still **gates on the project lead**.
+>
+> (iii) **Refutability.** The site now prints one queue of the 12 forks gating on the project lead (oldest 2026-08-12). With that many
+> variants alive no dataset can refute "the framework", only a member. Recommendation: a dated committed configuration before
+> 2 December (honest candidate: C_g in galaxies, Λ + CDM in cosmology, i.e. a stated reparametrization of MOND + ΛCDM), or an
+> explicit statement that the framework is a family with no committed member. **Gates on the project lead.**
+>
+> (iv) **Record (site, `5f3f7ea`).** "Kill Criterion Triggered" was defined by a *pre-registered* threshold while no registry test was
+> pre-registered; now "registered (before the run)". The site's "three C's" list omitted C_f = Ω_m + (1 − Ω_m)·C_ρ (plotter, LLR item,
+> Key Claims' ceiling); now four. A wide-binary citation without locator ("Saurabh & Desmond 2024") was withdrawn pending one.
+>
+> Proposal: `Research/proposals/the_bell_escape_and_the_liv_gap_are_one_requirement_and_refutability_needs_a_committed_member_20261121.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
