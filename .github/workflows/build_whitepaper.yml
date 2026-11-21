@@ -21,6 +21,7 @@ on:
     paths:
       - 'whitepaper/**'
       - '!whitepaper/PUBLISHER_CONTEXT.md'
+      - '.github/workflows/build_whitepaper.yml'
   workflow_dispatch:  # Allow manual trigger
 
 env:
@@ -55,11 +56,16 @@ jobs:
         working-directory: ./whitepaper
         run: bash make-md.sh
           
+      - name: Verify PDF CI failure handling
+        run: python3 -m unittest discover -s whitepaper/tests -p test_pdf_ci_contract.py
+
       - name: Build PDF Version
         working-directory: ./whitepaper
         run: |
           echo "Building PDF version..."
-          bash make-pdf.sh || echo "PDF build had issues, continuing..."
+          rm -f build/Synchronism_Whitepaper.pdf
+          bash make-pdf.sh
+          test -s build/Synchronism_Whitepaper.pdf
           
       - name: Build Web Version
         working-directory: ./whitepaper
@@ -81,7 +87,7 @@ jobs:
         with:
           name: synchronism-pdf
           path: whitepaper/build/Synchronism_Whitepaper.pdf
-          if-no-files-found: warn
+          if-no-files-found: error
           
       - name: Upload Web Artifact
         uses: actions/upload-artifact@v4

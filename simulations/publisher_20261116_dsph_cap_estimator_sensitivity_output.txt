@@ -1,0 +1,21 @@
+IDENTITY CONTROL (k = 4 must reproduce cap6p39_vs_dsph_output.txt)
+  Draco      M/L fid z(6.39) =  5.7  ref  5.7
+  Draco      M/L hi  z(6.39) =  4.9  ref  4.9
+  Crater II  M/L fid z(6.39) =  6.1  ref  6.1
+  Crater II  M/L hi  z(6.39) =  4.9  ref  4.9
+  Draco      largest cap excluded at z = 3.51 (M/L hi) = 14.7  ref 14.7
+  Crater II  largest cap excluded at z = 3.51 (M/L hi) = 11.2  ref 11.2
+  identity control: PASS
+
+case                              system       z fid  z M/L=4   max cap (trials, M/L=4)
+k = 4 (as run)                    Crater II     6.07     4.85                      11.2
+k = 4 (as run)                    Draco         5.68     4.89                      14.7
+k = 3 (Wolf+2010, 3D r_1/2)       Crater II     5.61     4.21                       8.4
+k = 3 (Wolf+2010, 3D r_1/2)       Draco         5.39     4.48                      11.0
+k = 3 and L_V x 1.3 (stress)      Crater II     5.14     3.54                       6.5
+k = 3 and L_V x 1.3 (stress)      Draco         5.08     4.04                       8.5
+
+Sidak threshold z = 3.5087; 6.39 excluded band-robustly after trials iff z(M/L=4) > that.
+B_req at fiducial M/L, k = 3 (vs the 08-23 table's 101.5 / 60.2 at k = 4):
+  Crater II    45.1
+  Draco        76.1

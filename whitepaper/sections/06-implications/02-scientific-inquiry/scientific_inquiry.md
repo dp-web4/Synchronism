@@ -20,7 +20,7 @@ These are modeling perspectives, not revolutionary new methods.
 Synchronism offers alternative framings for quantum experiments:
 
 - **Double-slit:** Sampling rate effects rather than wave-particle collapse
-- **Bell tests:** Pre-correlated patterns rather than faster-than-light communication
+- **Bell tests:** Pre-correlated patterns rather than faster-than-light communication *[NOTE 2026-11-21: pre-correlated local patterns are the class the Bell experiments exclude (S = 2.42 ± 0.20 measured against a local bound of 2); see the CHECKED note in §5.4 and refutation (6) in §5.15.]*
 - **Delayed choice:** Pattern cycling independent of measurement timing
 - **Quantum eraser:** Synchronization timing determines witnessed aspects
 
