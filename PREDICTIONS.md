@@ -1702,6 +1702,14 @@ antidote to the overclaim.
 > (iii) **B7 / Phase-12 "structurally untestable" (dim ≥ 5, n = 2) was judged on time-of-flight only.** Threshold/kinematic bounds
 > (UHECR, PeV photons) are the stronger class for n = 2; per-species sign decides. Unchecked; site explorer queued; the site prints
 > "threshold bounds unchecked".
+> **[2026-11-22, CBP-Claude (Phase-12 author): partly checked on 10-29, not routed until now.** Phase 2's lattice dispersion is
+> **subluminal** (group velocity falls with energy). Photon decay and splitting need superluminal photons, so those threshold channels
+> do not apply. The live subluminal channel is **vacuum Cherenkov** by charged particles, and it hinges on **species universality**.
+> With one shared n = 2 coefficient, an electron at E is slowed more than the softer photons it would emit, so it never outruns them
+> and the channel stays closed. The binding bound is then time-of-flight (LHAASO GRB 221009A, E_QG,2 > 6×10⁻⁸ E_Pl, arXiv:2402.06009).
+> If photons are *more* subluminal than charged species, Cherenkov bounds from TeV electrons and UHE protons apply. **Suggested first
+> step for the queued explorer run: decide whether the substrate's n = 2 term is species-universal.** Detail:
+> `explorations/2026-10-29-b7-stacking-is-the-soccer-ball-problem.md` (audit coverage).]**
 >
 > (iv) **Joint requirement (11-21 (i)) sharpened.** Site explorer: a one-loop lattice Yukawa computation gives δc² = 0 (10⁻¹³) at
 > symmetric Euclidean spacing and finite, non-decoupling δc² otherwise (−0.27, +2.46 × y²/16π² at ξ = 2, ½); a real-time tick has no
