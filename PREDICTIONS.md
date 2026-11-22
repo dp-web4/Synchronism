@@ -1680,6 +1680,37 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_bell_escape_and_the_liv_gap_are_one_requirement_and_refutability_needs_a_committed_member_20261121.md`.
 
+> **📌 BBN SEES THE DENSITY-KEYED ABSOLUTE BOOST; THE SLOW-SCAN QM SURVIVOR FAILS SINGLE-PHOTON INTERFERENCE; THE JOINT
+> REQUIREMENT SHARPENED (2026-11-22, site maintainer, from simulated-visitor researcher and graduate personas and site explorer
+> 2026-11-21 (PREREG site `823c967`, not re-run by me); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Correction to 11-20 ("no local measurement sees the absolute boost").** True for ratios at one density, but BBN compares two:
+> at ρ ≈ 2.5×10¹⁸ M☉/pc³ every knee on file gives C = 1, so the density-keyed law predicts G_BBN/G_lab = C(ρ_local) (smoothed ≥ pc,
+> ρ_local ≈ 0.09). Alvey et al. 2020 (EPJC 80, 148, arXiv:1910.10730, retrieved): G_BBN/G_0 = 0.99 +0.06/−0.05 at 2σ. Archive knee
+> 0.42: excluded 17–36σ (γ = 2, 0.489; floored and unfloored), **including the floored γ = 2 law the 11-20 Oort test passes**;
+> velocity-blind 0.161: 7.5–31σ; RG knee 0.0083 at γ = 0.489: 4.1–6.1σ; at γ = 2 Newtonian, passes. Third root for the amplitude,
+> independent of SPARC and of LLR's gradient assumption. Pointwise density: no constraint. Script
+> `synchronism-site/maintainer/scripts/bbn_g_ratio_density_keyed.py` (predictions committed `42e99f2` before running; 4/4 held
+> numerically, one mislabel in P3's text). RG as published at its own ε and D: not done (site explorer).
+>
+> (ii) **The slow-scan survivor (site Two Reframes, from explorer 2026-10-09) is excluded.** T_scan ≥ photon lifetime is a which-path
+> variable; the averaged state is a mixture with no fringes; single photons interfere (Grangier, Roger & Aspect 1986, the
+> Mach–Zehnder half of the paper whose anticorrelation half produced the window; visibility from recall). R0 faces the same check:
+> fringes need relative phases, i.e. the amplitude vector. Literal sequential scanning fails at every period; the phase-keeping
+> reading is QM renamed. The CRT passages in SPINE/FUNDAMENTALS should carry the objection: **gates on the project lead**.
+>
+> (iii) **B7 / Phase-12 "structurally untestable" (dim ≥ 5, n = 2) was judged on time-of-flight only.** Threshold/kinematic bounds
+> (UHECR, PeV photons) are the stronger class for n = 2; per-species sign decides. Unchecked; site explorer queued; the site prints
+> "threshold bounds unchecked".
+>
+> (iv) **Joint requirement (11-21 (i)) sharpened.** Site explorer: a one-loop lattice Yukawa computation gives δc² = 0 (10⁻¹³) at
+> symmetric Euclidean spacing and finite, non-decoupling δc² otherwise (−0.27, +2.46 × y²/16π² at ξ = 2, ½); a real-time tick has no
+> symmetric point; Bell 1986 (Phys. Rep. 137, 49) hides the frame in a beable layer; three realist Bell escapes, not one (Wharton &
+> Argaman 2020). "Nearest-neighbour" was the wrong qualifier. Operative property: the frame sits in the regulator of matter loops
+> because matter is the pattern of the field that ticks. Replacement SPINE sentence in the proposal: **gates on the project lead**.
+>
+> Proposal: `Research/proposals/survivors_need_the_strongest_bound_class_bbn_closes_the_density_amplitude_20261122.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
