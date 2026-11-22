@@ -172,6 +172,7 @@ After any change:
 3. Verify PDF generates correctly
 4. Spot-check web navigation
 5. Check PDF geometry, not only glyphs: `pdftotext -bbox` and count words whose xMax exceeds page width − 36 pt (baseline 1 since 2026-10-31, a plain-text table cell on page 6). Long inline code breaks via `pdf-breakable-code.lua`; a rise means a new unbreakable construct.
+6. Lists without a blank line before them (`**Label:**` then `- item` on the next line, 224 sites in 23 files as of 2026-11-22) render as lists because make-pdf.sh and make-web-clean.sh read `+lists_without_preceding_blankline`. Before that flag both outputs printed them as run-on paragraphs ("1. Reads … 2. Evaluates …"). The flag's cost: a hard-wrapped paragraph line that happens to start with a marker (`- `, `1. `, and fancy forms such as `(ii) `) becomes a list item. When editing, keep a marker-like token off the start of a wrapped line. Check after a build: strip tags from `build/web-clean` against a no-flag build and word-diff; every removed token should be a bare list marker.
 
 **Never commit changes that break the build.**
 

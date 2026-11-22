@@ -503,8 +503,7 @@ which is checkable in simulation by instrumenting substructure loss order.
 **Simulation protocol (registered; this is the arc's Stage K2 experiment).** In the Phase-5
 harness: generate breathers, measure core N (cell count above the coherence floor), displace at
 controlled v, and count reconstruction ticks directly. **Kill criteria, registered before
-running:** (i) f(N) flat in N ⇒ no complexity dependence — §5.7 is dead in this substrate;
-(ii) f(N) superlinear in N ⇒ the capacity model is wrong (reconstruction is not
+running:** (i) f(N) flat in N ⇒ no complexity dependence — §5.7 is dead in this substrate; (ii) f(N) superlinear in N ⇒ the capacity model is wrong (reconstruction is not
 capacity-limited; look at dispersion instead); (iii) f(N) linear but v_max inconsistent with
 the observed soliton speed ceiling ⇒ N₀ ≠ I_max/Ī and the normalization is free, not derived.
 

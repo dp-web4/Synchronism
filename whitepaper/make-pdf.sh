@@ -136,7 +136,7 @@ echo "Generating PDF..."
 PANDOC_LOG=$(mktemp)
 # Using markdown-compact_definition_lists to ensure proper list spacing
 pandoc "$TEMP_MD" -o "$PDF_FILE" \
-    --from markdown+raw_tex-compact_definition_lists \
+    --from markdown+raw_tex+lists_without_preceding_blankline-compact_definition_lists \
     --to pdf \
     --pdf-engine=xelatex \
     --toc-depth=2 \
