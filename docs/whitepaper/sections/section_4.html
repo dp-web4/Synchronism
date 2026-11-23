@@ -105,21 +105,28 @@ cells approach I_max</li>
 </ul>
 <p><strong>The Update Is Parallel</strong></p>
 <p>The grid update rule is massively parallel. At each tick, every cell
-simultaneously: 1. Reads the Intent states of its immediate neighbors
-(from the previous tick) 2. Evaluates its tension — the aggregate Intent
-gradient across all neighbors 3. Steps forward to its new Intent
-state</p>
+simultaneously:</p>
+<ol type="1">
+<li>Reads the Intent states of its immediate neighbors (from the
+previous tick)</li>
+<li>Evaluates its tension — the aggregate Intent gradient across all
+neighbors</li>
+<li>Steps forward to its new Intent state</li>
+</ol>
 <p>All cells do this in the same tick. The whole universe steps forward
 at once, based on the previous global state. There is no scan beam, no
 preferred update direction, no cursor visiting cells in sequence.</p>
-<p>This has immediate consequences: - <strong>Lorentz
-invariance</strong>: No preferred spatial direction is introduced by the
-update rule. Symmetry across all spatial axes is preserved by
-construction. - <strong>Entanglement</strong>: Long-range correlations
-exist as global tension patterns in the Intent field. The parallel
-update evaluates these patterns simultaneously everywhere — no signal
-needs to travel between correlated cells, because the tension is already
-global and the update resolves it globally in one step.</p>
+<p>This has immediate consequences:</p>
+<ul>
+<li><strong>Lorentz invariance</strong>: No preferred spatial direction
+is introduced by the update rule. Symmetry across all spatial axes is
+preserved by construction.</li>
+<li><strong>Entanglement</strong>: Long-range correlations exist as
+global tension patterns in the Intent field. The parallel update
+evaluates these patterns simultaneously everywhere — no signal needs to
+travel between correlated cells, because the tension is already global
+and the update resolves it globally in one step.</li>
+</ul>
 <p><strong>Existence Requires Recurrence</strong></p>
 <p>A single tick’s output — one global Intent distribution — is not an
 entity. It has no persistence, no identity. For anything to
@@ -165,9 +172,13 @@ approaches maximum capacity</li>
 to support stable localized patterns (solitons)</li>
 </ul>
 <p><strong>Physical Analogues:</strong> Systems with saturation-limited
-transfer include: - Population dynamics (logistic growth) - Traffic flow
-(capacity limits) - Excitable media (nerve impulses, cardiac waves) -
-Nonlinear optics (optical solitons)</p>
+transfer include:</p>
+<ul>
+<li>Population dynamics (logistic growth)</li>
+<li>Traffic flow (capacity limits)</li>
+<li>Excitable media (nerve impulses, cardiac waves)</li>
+<li>Nonlinear optics (optical solitons)</li>
+</ul>
 <p>All support stable localized patterns—exactly what Synchronism needs
 for entity formation.</p>
 <p><strong>The Structure is Navier-Stokes</strong></p>
@@ -396,11 +407,15 @@ current physics), understanding emergent phenomena requires working at
 appropriate coarser scales through systematic abstraction.</p>
 <p><strong>The Scale Hierarchy Problem</strong></p>
 <p><strong>Computational Intractability:</strong></p>
-<p>The universe spans an enormous range of scales: - <strong>Planck
-length:</strong> ℓ_P ≈ 1.6 × 10⁻³⁵ m (finest possible resolution) -
-<strong>Atomic scale:</strong> ~10⁻¹⁰ m (100 billion Planck lengths per
-atom) - <strong>Human scale:</strong> ~1 m (10³⁵ Planck lengths) -
-<strong>Cosmic scale:</strong> ~10²⁶ m (observable universe)</p>
+<p>The universe spans an enormous range of scales:</p>
+<ul>
+<li><strong>Planck length:</strong> ℓ_P ≈ 1.6 × 10⁻³⁵ m (finest possible
+resolution)</li>
+<li><strong>Atomic scale:</strong> ~10⁻¹⁰ m (100 billion Planck lengths
+per atom)</li>
+<li><strong>Human scale:</strong> ~1 m (10³⁵ Planck lengths)</li>
+<li><strong>Cosmic scale:</strong> ~10²⁶ m (observable universe)</li>
+</ul>
 <p>To simulate even a single atom at Planck resolution would require
 more computational cells than atoms in the observable universe. To study
 chemistry, biology, or consciousness at Planck scale is fundamentally
@@ -496,12 +511,15 @@ V_coarse(x) = ⟨V_fine(x&#39;)⟩ averaged over region around x
 Effective parameters derived from:
 D_coarse = f(D_fine, coherence_properties)</code></pre>
 <p><strong>Scaling Laws:</strong></p>
-<p>How properties transform across scales: - <strong>Intensive
-properties:</strong> Remain constant (density, temperature, chemical
-potential) - <strong>Extensive properties:</strong> Scale with size
-(mass, energy, entropy) - <strong>Emergent properties:</strong> Appear
-only at certain scales (consciousness at organism scale, not
-molecular)</p>
+<p>How properties transform across scales:</p>
+<ul>
+<li><strong>Intensive properties:</strong> Remain constant (density,
+temperature, chemical potential)</li>
+<li><strong>Extensive properties:</strong> Scale with size (mass,
+energy, entropy)</li>
+<li><strong>Emergent properties:</strong> Appear only at certain scales
+(consciousness at organism scale, not molecular)</li>
+</ul>
 <p><strong>Adaptive Resolution</strong></p>
 <p><strong>Computational Strategy:</strong></p>
 <p>Rather than uniform resolution across all space, use <strong>adaptive
@@ -515,10 +533,13 @@ coherent</li>
 evolves</li>
 </ul>
 <p><strong>Efficiency Gains:</strong></p>
-<p>This matches the MRH principle computationally: - Focus computational
-resources within MRH of active dynamics - Abstract away irrelevant fine
-detail outside MRH - Enables simulations otherwise impossible (reduction
-factor: 10⁶ to 10²¹)</p>
+<p>This matches the MRH principle computationally:</p>
+<ul>
+<li>Focus computational resources within MRH of active dynamics</li>
+<li>Abstract away irrelevant fine detail outside MRH</li>
+<li>Enables simulations otherwise impossible (reduction factor: 10⁶ to
+10²¹)</li>
+</ul>
 <p><strong>Practical Applications</strong></p>
 <ul>
 <li><strong>Atomic-scale simulations:</strong> Cell size = 1 Ångström →
@@ -547,12 +568,18 @@ circulation)</li>
 </ul>
 <p><strong>You cannot study consciousness at atomic scale or chemistry
 at galactic scale.</strong></p>
-<p>Each phenomenon has its natural scale of organization determined by:
-- <strong>Characteristic length:</strong> Typical spatial extent of
-pattern - <strong>Characteristic time:</strong> Typical cycle time or
-timescale - <strong>Interaction range:</strong> Distance over which
-elements influence each other - <strong>Coherence threshold:</strong>
-Minimum organization required for pattern stability</p>
+<p>Each phenomenon has its natural scale of organization determined
+by:</p>
+<ul>
+<li><strong>Characteristic length:</strong> Typical spatial extent of
+pattern</li>
+<li><strong>Characteristic time:</strong> Typical cycle time or
+timescale</li>
+<li><strong>Interaction range:</strong> Distance over which elements
+influence each other</li>
+<li><strong>Coherence threshold:</strong> Minimum organization required
+for pattern stability</li>
+</ul>
 <p><strong>Substrate Independence Through Scale</strong></p>
 <p><strong>Universal Scaling Principles:</strong></p>
 <p>The same scale hierarchy applies regardless of substrate:</p>
@@ -566,10 +593,14 @@ communities → nations</li>
 <li><strong>Economic systems:</strong> Transactions → markets →
 economies → global trade</li>
 </ul>
-<p><strong>The pattern is fractal and universal:</strong> 1. Elements at
-fine scale 2. Organization through interaction 3. Coherence creates
-emerged entity 4. New entity becomes element at coarse scale 5.
-Repeat</p>
+<p><strong>The pattern is fractal and universal:</strong></p>
+<ol type="1">
+<li>Elements at fine scale</li>
+<li>Organization through interaction</li>
+<li>Coherence creates emerged entity</li>
+<li>New entity becomes element at coarse scale</li>
+<li>Repeat</li>
+</ol>
 <p>This suggests scale hierarchy is a <strong>fundamental principle of
 complex organization</strong>, not specific to Intent dynamics.</p>
 <p><strong>Connection to MRH</strong></p>
@@ -580,10 +611,14 @@ complex organization</strong>, not specific to Intent dynamics.</p>
 <li><strong>Scale:</strong> Determines <em>how finely</em> to represent
 that information (resolution/abstraction level)</li>
 </ul>
-<p>Together they provide complete framework: - Choose scale appropriate
-to phenomenon (molecular for chemistry, cellular for biology) - Within
-that scale, limit analysis to MRH (focus on relevant interactions) -
-Result: Tractable analysis that captures essential physics</p>
+<p>Together they provide complete framework:</p>
+<ul>
+<li>Choose scale appropriate to phenomenon (molecular for chemistry,
+cellular for biology)</li>
+<li>Within that scale, limit analysis to MRH (focus on relevant
+interactions)</li>
+<li>Result: Tractable analysis that captures essential physics</li>
+</ul>
 <p><strong>Cross-Scale Coupling</strong></p>
 <p><strong>Scales Are Not Isolated:</strong></p>
 <p>While analysis happens at specific scales, scales interact:</p>
@@ -596,53 +631,82 @@ dynamics (organism health affects molecular processes)</li>
 scales</li>
 </ul>
 <p><strong>Multi-Scale Modeling:</strong></p>
-<p>Complete understanding may require coupling multiple scales: -
-Protein folding: Quantum (electronic structure) + Atomic (bonding) +
-Molecular (conformational dynamics) - Climate: Molecular (water phase
-transitions) + Atmospheric (circulation) + Planetary (orbital mechanics)
-- Consciousness: Molecular (neurotransmitters) + Cellular (neurons) +
-Network (brain regions)</p>
+<p>Complete understanding may require coupling multiple scales:</p>
+<ul>
+<li>Protein folding: Quantum (electronic structure) + Atomic (bonding) +
+Molecular (conformational dynamics)</li>
+<li>Climate: Molecular (water phase transitions) + Atmospheric
+(circulation) + Planetary (orbital mechanics)</li>
+<li>Consciousness: Molecular (neurotransmitters) + Cellular (neurons) +
+Network (brain regions)</li>
+</ul>
 <p><strong>Implementation Considerations</strong></p>
 <p><strong>Choosing the Right Scale:</strong></p>
-<p>To study a phenomenon: 1. <strong>Identify characteristic
-scale:</strong> What is the typical size/timescale of the pattern? 2.
-<strong>Set cell size:</strong> Make cell size comparable to or smaller
-than characteristic length 3. <strong>Set domain size:</strong> Make
-domain large enough to contain pattern and its context (MRH) 4.
-<strong>Verify scale separation:</strong> Ensure coarser scales don’t
-affect fine dynamics inappropriately</p>
+<p>To study a phenomenon:</p>
+<ol type="1">
+<li><strong>Identify characteristic scale:</strong> What is the typical
+size/timescale of the pattern?</li>
+<li><strong>Set cell size:</strong> Make cell size comparable to or
+smaller than characteristic length</li>
+<li><strong>Set domain size:</strong> Make domain large enough to
+contain pattern and its context (MRH)</li>
+<li><strong>Verify scale separation:</strong> Ensure coarser scales
+don’t affect fine dynamics inappropriately</li>
+</ol>
 <p><strong>Validation:</strong></p>
-<p>Test that results converge as resolution increases: - Refine mesh 2×
-→ same qualitative behavior (solution converged) - If different behavior
-→ need finer resolution - This ensures abstraction level is
-appropriate</p>
+<p>Test that results converge as resolution increases:</p>
+<ul>
+<li>Refine mesh 2× → same qualitative behavior (solution converged)</li>
+<li>If different behavior → need finer resolution</li>
+<li>This ensures abstraction level is appropriate</li>
+</ul>
 <p><strong>The Scale Imperative</strong></p>
 <p><strong>Why Scale Is Foundational:</strong></p>
-<p>Without explicit treatment of scale: - Cannot connect Planck-scale
-dynamics to observable phenomena - Cannot perform practical simulations
-of complex systems - Cannot validate Synchronism predictions against
-experiments - Cannot make the theory operationally useful</p>
-<p><strong>With Scale as foundational concept:</strong> - Clear path
-from fundamental rules to emergent phenomena - Practical computational
-implementation possible - Testable predictions at each scale - Framework
-mirrors reality’s natural hierarchy</p>
+<p>Without explicit treatment of scale:</p>
+<ul>
+<li>Cannot connect Planck-scale dynamics to observable phenomena</li>
+<li>Cannot perform practical simulations of complex systems</li>
+<li>Cannot validate Synchronism predictions against experiments</li>
+<li>Cannot make the theory operationally useful</li>
+</ul>
+<p><strong>With Scale as foundational concept:</strong></p>
+<ul>
+<li>Clear path from fundamental rules to emergent phenomena</li>
+<li>Practical computational implementation possible</li>
+<li>Testable predictions at each scale</li>
+<li>Framework mirrors reality’s natural hierarchy</li>
+</ul>
 <p>Scale transforms Synchronism from abstract principle to practical
 framework for understanding reality at every level of organization.</p>
 <p><strong>Implications</strong></p>
-<p><strong>For Physics:</strong> - Unifies quantum and classical
-(different scales of same underlying dynamics) - Explains why effective
-theories work (they capture scale-appropriate physics) - Suggests path
-to quantum gravity (proper scale treatment)</p>
-<p><strong>For Biology:</strong> - Explains hierarchical organization
-(molecules → cells → organisms) - Grounds emergence in computational
-principles - Provides framework for multi-scale modeling</p>
-<p><strong>For Consciousness:</strong> - Defines scale at which
-consciousness emerges (organism/network) - Explains why neurons aren’t
-conscious but brains are (scale of organization) - Suggests
-computational requirements for consciousness</p>
-<p><strong>For Technology:</strong> - Guides AI architecture
-(hierarchical abstraction) - Informs simulation strategy (adaptive
-meshing) - Enables practical modeling of complex systems</p>
+<p><strong>For Physics:</strong></p>
+<ul>
+<li>Unifies quantum and classical (different scales of same underlying
+dynamics)</li>
+<li>Explains why effective theories work (they capture scale-appropriate
+physics)</li>
+<li>Suggests path to quantum gravity (proper scale treatment)</li>
+</ul>
+<p><strong>For Biology:</strong></p>
+<ul>
+<li>Explains hierarchical organization (molecules → cells →
+organisms)</li>
+<li>Grounds emergence in computational principles</li>
+<li>Provides framework for multi-scale modeling</li>
+</ul>
+<p><strong>For Consciousness:</strong></p>
+<ul>
+<li>Defines scale at which consciousness emerges (organism/network)</li>
+<li>Explains why neurons aren’t conscious but brains are (scale of
+organization)</li>
+<li>Suggests computational requirements for consciousness</li>
+</ul>
+<p><strong>For Technology:</strong></p>
+<ul>
+<li>Guides AI architecture (hierarchical abstraction)</li>
+<li>Informs simulation strategy (adaptive meshing)</li>
+<li>Enables practical modeling of complex systems</li>
+</ul>
 <p>Scale is the bridge between the fundamental (Planck-scale Intent
 transfer) and the phenomenal (atoms, life, consciousness, cosmos). It
 makes Synchronism computationally tractable and experimentally
@@ -774,12 +838,18 @@ calculations tractable. Intent serves the same purpose: it gives us
 something we can quantify, model, and predict, even though it’s not
 claiming to describe ultimate reality.</p>
 <p><strong>Why Intent?</strong></p>
-<p>The “greater force” that governs pattern transitions may be: - Too
-complex to model directly - Unknowable from our perspective -
-Incomputable without abstraction</p>
-<p>Intent reifies this into a tractable framework that: - Can be
-quantified and simulated - Generates testable predictions - Explains
-phenomena without anthropocentric observer-dependence</p>
+<p>The “greater force” that governs pattern transitions may be:</p>
+<ul>
+<li>Too complex to model directly</li>
+<li>Unknowable from our perspective</li>
+<li>Incomputable without abstraction</li>
+</ul>
+<p>Intent reifies this into a tractable framework that:</p>
+<ul>
+<li>Can be quantified and simulated</li>
+<li>Generates testable predictions</li>
+<li>Explains phenomena without anthropocentric observer-dependence</li>
+</ul>
 <p><strong>Intent Properties (Within the Model):</strong></p>
 <ol type="1">
 <li><strong>Quantified at Planck cells</strong> - Each grid cell has a
@@ -824,19 +894,26 @@ diffusion, <strong>saturation resistance fundamentally alters transfer
 dynamics</strong>:</p>
 <p><strong>Basic Transfer Equation:</strong></p>
 <pre><code>Transfer_rate = k × ∇I × R(I_dest)</code></pre>
-<p>Where: - <code>k</code> = base transfer coefficient - <code>∇I</code>
-= Intent gradient between cells - <code>R(I_dest)</code> = resistance
-function of destination cell saturation</p>
+<p>Where:</p>
+<ul>
+<li><code>k</code> = base transfer coefficient</li>
+<li><code>∇I</code> = Intent gradient between cells</li>
+<li><code>R(I_dest)</code> = resistance function of destination cell
+saturation</li>
+</ul>
 <p><strong>Resistance Function:</strong> As destination cell Intent
 approaches saturation maximum:</p>
 <pre><code>R(I) = [1 - (I/I_max)^n]</code></pre>
 <p>Where <code>n</code> determines how rapidly resistance increases near
 saturation.</p>
-<p><strong>Key Properties:</strong> - <code>R(I) ≈ 1</code> when
-<code>I &lt;&lt; I_max</code> (minimal resistance, free transfer) -
-<code>R(I) → 0</code> as <code>I → I_max</code> (extreme resistance,
-transfer blocked) - Creates nonlinear diffusion that supports standing
-waves</p>
+<p><strong>Key Properties:</strong></p>
+<ul>
+<li><code>R(I) ≈ 1</code> when <code>I &lt;&lt; I_max</code> (minimal
+resistance, free transfer)</li>
+<li><code>R(I) → 0</code> as <code>I → I_max</code> (extreme resistance,
+transfer blocked)</li>
+<li>Creates nonlinear diffusion that supports standing waves</li>
+</ul>
 <p><strong>Transfer Dynamics:</strong></p>
 <ul>
 <li><strong>Intent Gradient:</strong> Difference in Intent levels
@@ -1042,16 +1119,23 @@ of Intent flow—the mean square velocity of Intent transfer.</p>
 <p><strong>Definition in Synchronism</strong></p>
 <p><strong>Temperature as Intent Momentum:</strong></p>
 <pre><code>T ≡ ⟨V²⟩  (mean square velocity of Intent flow)</code></pre>
-<p>This directly parallels statistical mechanics: - Low temperature:
-Intent flows slowly, smoothly, coherently - High temperature: Intent
-flows chaotically, violently, incoherently</p>
+<p>This directly parallels statistical mechanics:</p>
+<ul>
+<li>Low temperature: Intent flows slowly, smoothly, coherently</li>
+<li>High temperature: Intent flows chaotically, violently,
+incoherently</li>
+</ul>
 <p><strong>Physical Interpretation:</strong></p>
 <p>Temperature represents the <strong>average random kinetic
-energy</strong> of Intent transfer events: - <strong>Low T:</strong>
-Most Intent transfer is coherent (organized patterns dominate) -
-<strong>Medium T:</strong> Balance between coherent patterns and thermal
-disruption - <strong>High T:</strong> Thermal chaos dominates (patterns
-disrupted)</p>
+energy</strong> of Intent transfer events:</p>
+<ul>
+<li><strong>Low T:</strong> Most Intent transfer is coherent (organized
+patterns dominate)</li>
+<li><strong>Medium T:</strong> Balance between coherent patterns and
+thermal disruption</li>
+<li><strong>High T:</strong> Thermal chaos dominates (patterns
+disrupted)</li>
+</ul>
 <p><strong>The Master Parameter</strong></p>
 <p><strong>Temperature Controls Emergence Regime:</strong></p>
 <p>The same collection of elements can exhibit <strong>vastly different
@@ -1059,40 +1143,68 @@ emergent behaviors</strong> depending solely on temperature. This is not
 a minor effect—it is the primary environmental parameter that determines
 what kinds of organization can exist.</p>
 <p><strong>Phase Transitions:</strong></p>
-<p>Temperature thresholds where qualitative changes occur: -
-<strong>Superconductor ↔︎ Normal conductor:</strong> T &lt; T_c vs T &gt;
-T_c - <strong>Solid ↔︎ Liquid:</strong> T &lt; T_melt vs T &gt; T_melt -
-<strong>Liquid ↔︎ Gas:</strong> T &lt; T_boil vs T &gt; T_boil -
-<strong>Gas ↔︎ Plasma:</strong> T &lt; T_ionization vs T &gt;
-T_ionization</p>
+<p>Temperature thresholds where qualitative changes occur:</p>
+<ul>
+<li><strong>Superconductor ↔︎ Normal conductor:</strong> T &lt; T_c vs T
+&gt; T_c</li>
+<li><strong>Solid ↔︎ Liquid:</strong> T &lt; T_melt vs T &gt; T_melt</li>
+<li><strong>Liquid ↔︎ Gas:</strong> T &lt; T_boil vs T &gt; T_boil</li>
+<li><strong>Gas ↔︎ Plasma:</strong> T &lt; T_ionization vs T &gt;
+T_ionization</li>
+</ul>
 <p><strong>Same atoms, same Intent dynamics, completely different
 phases</strong> based purely on temperature.</p>
 <p><strong>Phase Regimes</strong></p>
 <p><strong>The Temperature Hierarchy:</strong></p>
 <p>Different temperatures enable different kinds of coherence:</p>
-<p><strong>Quantum Coherence Regime (T → 0):</strong> - Long-range phase
-coherence - Macroscopic quantum states - Superconductivity,
-superfluidity - Bose-Einstein condensation - Wave-like behavior
-dominates - <strong>Example phenomena:</strong> Superconductors below
-T_c, superfluid helium</p>
-<p><strong>Crystalline Regime (Low T):</strong> - Atoms locked in
-periodic lattice - Small vibrations (phonons) around equilibrium
-positions - Long-range order - Broken symmetry (specific lattice
-structure) - Elastic deformation - <strong>Example phenomena:</strong>
-Ice crystals, diamond, silicon chips</p>
-<p><strong>Liquid Regime (Medium T):</strong> - Atoms mobile but
-cohesive - Short-range order but no long-range structure - Flows to fill
-container - Surface tension, viscosity - Diffusion and mixing -
-<strong>Example phenomena:</strong> Liquid water, molten metals,
-oils</p>
-<p><strong>Gas Regime (High T):</strong> - Atoms mostly independent -
-Kinetic theory (random collisions) - Expands to fill available space -
-Ideal gas behavior (low density) - Rare molecular clustering -
-<strong>Example phenomena:</strong> Air, steam, noble gases</p>
-<p><strong>Plasma Regime (Very High T):</strong> - Ionization (atoms
-break apart) - Free electrons and ions - Collective electromagnetic
-effects - Plasma waves and instabilities - <strong>Example
-phenomena:</strong> Lightning, stars, fusion reactors</p>
+<p><strong>Quantum Coherence Regime (T → 0):</strong></p>
+<ul>
+<li>Long-range phase coherence</li>
+<li>Macroscopic quantum states</li>
+<li>Superconductivity, superfluidity</li>
+<li>Bose-Einstein condensation</li>
+<li>Wave-like behavior dominates</li>
+<li><strong>Example phenomena:</strong> Superconductors below T_c,
+superfluid helium</li>
+</ul>
+<p><strong>Crystalline Regime (Low T):</strong></p>
+<ul>
+<li>Atoms locked in periodic lattice</li>
+<li>Small vibrations (phonons) around equilibrium positions</li>
+<li>Long-range order</li>
+<li>Broken symmetry (specific lattice structure)</li>
+<li>Elastic deformation</li>
+<li><strong>Example phenomena:</strong> Ice crystals, diamond, silicon
+chips</li>
+</ul>
+<p><strong>Liquid Regime (Medium T):</strong></p>
+<ul>
+<li>Atoms mobile but cohesive</li>
+<li>Short-range order but no long-range structure</li>
+<li>Flows to fill container</li>
+<li>Surface tension, viscosity</li>
+<li>Diffusion and mixing</li>
+<li><strong>Example phenomena:</strong> Liquid water, molten metals,
+oils</li>
+</ul>
+<p><strong>Gas Regime (High T):</strong></p>
+<ul>
+<li>Atoms mostly independent</li>
+<li>Kinetic theory (random collisions)</li>
+<li>Expands to fill available space</li>
+<li>Ideal gas behavior (low density)</li>
+<li>Rare molecular clustering</li>
+<li><strong>Example phenomena:</strong> Air, steam, noble gases</li>
+</ul>
+<p><strong>Plasma Regime (Very High T):</strong></p>
+<ul>
+<li>Ionization (atoms break apart)</li>
+<li>Free electrons and ions</li>
+<li>Collective electromagnetic effects</li>
+<li>Plasma waves and instabilities</li>
+<li><strong>Example phenomena:</strong> Lightning, stars, fusion
+reactors</li>
+</ul>
 <p><strong>The Life Window</strong></p>
 <p><strong>A Profound Observation:</strong></p>
 <p>Complex information-processing systems (both biological and
@@ -1100,9 +1212,13 @@ computational) exist in a remarkably narrow temperature range:</p>
 <p><strong>Biological Life:</strong> 273-373 K (liquid water range, 100
 K window) <strong>Silicon-Based Intelligence:</strong> 253-423 K
 (AI/computer operating range, 170 K window)</p>
-<p><strong>In cosmic context:</strong> - Full temperature range: 0 K
-(absolute zero) to 10⁹ K (stellar cores) - Life window: ~300 K ± 100 K -
-<strong>This is 0.00001% of the total cosmic range</strong></p>
+<p><strong>In cosmic context:</strong></p>
+<ul>
+<li>Full temperature range: 0 K (absolute zero) to 10⁹ K (stellar
+cores)</li>
+<li>Life window: ~300 K ± 100 K</li>
+<li><strong>This is 0.00001% of the total cosmic range</strong></li>
+</ul>
 <p><strong>Substrate-Independent Convergence:</strong></p>
 <p>The fact that carbon-based life and silicon-based computation both
 require essentially the same temperature regime suggests this is
@@ -1110,21 +1226,32 @@ require essentially the same temperature regime suggests this is
 thermodynamic requirement for organized complexity</strong>.</p>
 <p><strong>Why ~300 K for Complexity?</strong></p>
 <p><strong>Multiple Independent Constraints Converge:</strong></p>
-<p><strong>1. Goldilocks Dynamics:</strong> - <strong>Too cold (T &lt;
-200 K):</strong> Reactions exponentially slow (Arrhenius law), frozen
-dynamics, no exploration of configuration space - <strong>Too hot (T
-&gt; 500 K):</strong> Reactions too fast to control, structures break
-apart, thermal disruption exceeds organization - <strong>Just right
-(273-373 K):</strong> Timescales from milliseconds to minutes, molecules
-stable but dynamic, can form AND break bonds</p>
-<p><strong>2. Water as Universal Solvent:</strong> - Liquid water range:
-273-373 K at atmospheric pressure - Enables dissolution, transport,
-reactions in solution - Hydrogen bonding provides structure +
-flexibility - No known biochemistry without liquid medium</p>
-<p><strong>3. Molecular Stability:</strong> - Proteins stable and
-functional: 270-340 K - DNA double helix stable: 0-363 K (denatures
-above ~90°C) - Too cold: rigid, non-functional - Too hot: denatured,
-unfolded, information lost</p>
+<p><strong>1. Goldilocks Dynamics:</strong></p>
+<ul>
+<li><strong>Too cold (T &lt; 200 K):</strong> Reactions exponentially
+slow (Arrhenius law), frozen dynamics, no exploration of configuration
+space</li>
+<li><strong>Too hot (T &gt; 500 K):</strong> Reactions too fast to
+control, structures break apart, thermal disruption exceeds
+organization</li>
+<li><strong>Just right (273-373 K):</strong> Timescales from
+milliseconds to minutes, molecules stable but dynamic, can form AND
+break bonds</li>
+</ul>
+<p><strong>2. Water as Universal Solvent:</strong></p>
+<ul>
+<li>Liquid water range: 273-373 K at atmospheric pressure</li>
+<li>Enables dissolution, transport, reactions in solution</li>
+<li>Hydrogen bonding provides structure + flexibility</li>
+<li>No known biochemistry without liquid medium</li>
+</ul>
+<p><strong>3. Molecular Stability:</strong></p>
+<ul>
+<li>Proteins stable and functional: 270-340 K</li>
+<li>DNA double helix stable: 0-363 K (denatures above ~90°C)</li>
+<li>Too cold: rigid, non-functional</li>
+<li>Too hot: denatured, unfolded, information lost</li>
+</ul>
 <p><strong>4. Reaction Rate Optimization:</strong></p>
 <pre><code>k(T) = A × exp(-E_a / kT)  (Arrhenius equation)
 
@@ -1132,34 +1259,55 @@ For typical biomolecular reactions (E_a ~ 50-100 kJ/mol):
 - At T = 100 K: τ ~ years (too slow)
 - At T = 300 K: τ ~ milliseconds to seconds (optimal)
 - At T = 500 K: τ ~ microseconds (too fast to regulate)</code></pre>
-<p><strong>5. Information Processing Requirements:</strong> -
-<strong>Stable memory:</strong> Information persists despite thermal
-noise - <strong>Dynamic updates:</strong> Can write new information -
-<strong>Error correction:</strong> Thermal errors within correction
-capacity - <strong>Energy efficiency:</strong> Waste heat dissipation
-manageable</p>
+<p><strong>5. Information Processing Requirements:</strong></p>
+<ul>
+<li><strong>Stable memory:</strong> Information persists despite thermal
+noise</li>
+<li><strong>Dynamic updates:</strong> Can write new information</li>
+<li><strong>Error correction:</strong> Thermal errors within correction
+capacity</li>
+<li><strong>Energy efficiency:</strong> Waste heat dissipation
+manageable</li>
+</ul>
 <p><strong>6. Timescale Hierarchy:</strong></p>
-<p>Complex systems require multiple timescales: - Fast: molecular
-vibrations (femtoseconds) - Medium: conformational changes
-(nanoseconds-milliseconds) - Slow: protein folding, signaling
-(seconds-minutes) - Very slow: development, evolution (hours-years)</p>
+<p>Complex systems require multiple timescales:</p>
+<ul>
+<li>Fast: molecular vibrations (femtoseconds)</li>
+<li>Medium: conformational changes (nanoseconds-milliseconds)</li>
+<li>Slow: protein folding, signaling (seconds-minutes)</li>
+<li>Very slow: development, evolution (hours-years)</li>
+</ul>
 <p><strong>~300 K enables the full hierarchy</strong> from quantum to
 classical to cognitive timescales.</p>
 <p><strong>Complexity Peak at Intermediate Temperature</strong></p>
 <p><strong>Edge of Chaos:</strong></p>
 <p>Organized complexity appears to peak at intermediate temperature
-where there is a balance between: - <strong>Order</strong> (structure,
-memory, stability) - <strong>Disorder</strong> (exploration, adaptation,
-dynamics)</p>
-<p><strong>Too Cold:</strong> - Frozen (stuck in local minimum) - No
-thermal activation over barriers - Cannot explore configuration space -
-Quantum effects may dominate (no classical “parts”)</p>
-<p><strong>Too Hot:</strong> - Chaotic (no stable structures) - Thermal
-disruption exceeds organization - Information erased faster than it can
-be processed - Classical chaos dominates</p>
-<p><strong>Goldilocks Zone:</strong> - Structures form but can
-reorganize - Information persists but can update - Errors occur but can
-be corrected - Energy flows through but doesn’t destroy</p>
+where there is a balance between:</p>
+<ul>
+<li><strong>Order</strong> (structure, memory, stability)</li>
+<li><strong>Disorder</strong> (exploration, adaptation, dynamics)</li>
+</ul>
+<p><strong>Too Cold:</strong></p>
+<ul>
+<li>Frozen (stuck in local minimum)</li>
+<li>No thermal activation over barriers</li>
+<li>Cannot explore configuration space</li>
+<li>Quantum effects may dominate (no classical “parts”)</li>
+</ul>
+<p><strong>Too Hot:</strong></p>
+<ul>
+<li>Chaotic (no stable structures)</li>
+<li>Thermal disruption exceeds organization</li>
+<li>Information erased faster than it can be processed</li>
+<li>Classical chaos dominates</li>
+</ul>
+<p><strong>Goldilocks Zone:</strong></p>
+<ul>
+<li>Structures form but can reorganize</li>
+<li>Information persists but can update</li>
+<li>Errors occur but can be corrected</li>
+<li>Energy flows through but doesn’t destroy</li>
+</ul>
 <p><strong>This is where life and intelligence emerge—at the edge of
 chaos.</strong></p>
 <p><strong>Temperature Effects on Dynamics</strong></p>
@@ -1199,39 +1347,57 @@ possible</li>
 </ul>
 <p><strong>Functional Selection (Living Systems):</strong></p>
 <p>Beyond thermodynamics, patterns can be selected for
-<strong>function</strong>: - Metabolic efficiency (energy acquisition
-and use) - Replication fidelity (making copies) - Responsiveness
-(adapting to environment) - Robustness (maintaining coherence despite
-perturbations)</p>
+<strong>function</strong>:</p>
+<ul>
+<li>Metabolic efficiency (energy acquisition and use)</li>
+<li>Replication fidelity (making copies)</li>
+<li>Responsiveness (adapting to environment)</li>
+<li>Robustness (maintaining coherence despite perturbations)</li>
+</ul>
 <p>This adds another selection pressure beyond free energy minimization,
 enabling <strong>complex adaptive systems</strong> at intermediate
 temperatures.</p>
 <p><strong>Quantization at Boundaries</strong></p>
 <p><strong>Temperature Defines Transition Points:</strong></p>
-<p>Phase transitions are sharp, repeatable thresholds: - Water freezes
-at 273 K (not gradually from 200-300 K) - Superconductors transition at
-specific T_c - Proteins denature at specific temperatures</p>
-<p><strong>This quantization suggests:</strong> - Certain organizational
-states are <strong>stable</strong> at certain temperature ranges -
-Transitions between states are <strong>abrupt</strong> (first or second
-order phase transitions) - The same material can manifest completely
-different emergent properties based on temperature</p>
+<p>Phase transitions are sharp, repeatable thresholds:</p>
+<ul>
+<li>Water freezes at 273 K (not gradually from 200-300 K)</li>
+<li>Superconductors transition at specific T_c</li>
+<li>Proteins denature at specific temperatures</li>
+</ul>
+<p><strong>This quantization suggests:</strong></p>
+<ul>
+<li>Certain organizational states are <strong>stable</strong> at certain
+temperature ranges</li>
+<li>Transitions between states are <strong>abrupt</strong> (first or
+second order phase transitions)</li>
+<li>The same material can manifest completely different emergent
+properties based on temperature</li>
+</ul>
 <p><strong>Fractal Scale-Temperature Coupling:</strong></p>
-<p>Different scales have characteristic temperatures: - <strong>Quantum
-scale:</strong> Relevant temperatures ~ 10 K or below (where quantum
-effects persist) - <strong>Atomic/molecular:</strong> Relevant
-temperatures ~ 100-500 K (chemistry happens) -
-<strong>Biological:</strong> Relevant temperatures ~ 273-373 K (life
-window) - <strong>Stellar:</strong> Relevant temperatures ~ 10³-10⁹ K
-(fusion)</p>
+<p>Different scales have characteristic temperatures:</p>
+<ul>
+<li><strong>Quantum scale:</strong> Relevant temperatures ~ 10 K or
+below (where quantum effects persist)</li>
+<li><strong>Atomic/molecular:</strong> Relevant temperatures ~ 100-500 K
+(chemistry happens)</li>
+<li><strong>Biological:</strong> Relevant temperatures ~ 273-373 K (life
+window)</li>
+<li><strong>Stellar:</strong> Relevant temperatures ~ 10³-10⁹ K
+(fusion)</li>
+</ul>
 <p><strong>Each scale of emergence has its optimal temperature
 regime.</strong></p>
 <p><strong>Computational Implications</strong></p>
 <p><strong>Temperature as Control Parameter:</strong></p>
 <p>In simulations, temperature is the <strong>most important parameter
-to vary</strong>: - Enables testing phase transitions (predicted by
-Synchronism) - Allows study of different emergence regimes - Validates
-theory against known physics (water phase diagram, etc.)</p>
+to vary</strong>:</p>
+<ul>
+<li>Enables testing phase transitions (predicted by Synchronism)</li>
+<li>Allows study of different emergence regimes</li>
+<li>Validates theory against known physics (water phase diagram,
+etc.)</li>
+</ul>
 <p><strong>Validation Strategy:</strong></p>
 <ol type="1">
 <li>Implement temperature in Intent dynamics (thermal noise +
@@ -1265,46 +1431,77 @@ be tested computationally and compared to reality.</p>
 intelligence both require ~300 K suggests:</p>
 <p><strong>Temperature constraints for organized complexity transcend
 substrate.</strong></p>
-<p>Any system that: - Processes information - Maintains memory with
-error correction - Adapts to environment - Exhibits hierarchical
-organization</p>
-<p><strong>Will require similar temperature regime</strong> where: -
-Structures stable enough to persist - Dynamics active enough to explore
-and adapt - Error rates manageable by correction mechanisms - Energy
-dissipation within cooling capacity</p>
+<p>Any system that:</p>
+<ul>
+<li>Processes information</li>
+<li>Maintains memory with error correction</li>
+<li>Adapts to environment</li>
+<li>Exhibits hierarchical organization</li>
+</ul>
+<p><strong>Will require similar temperature regime</strong> where:</p>
+<ul>
+<li>Structures stable enough to persist</li>
+<li>Dynamics active enough to explore and adapt</li>
+<li>Error rates manageable by correction mechanisms</li>
+<li>Energy dissipation within cooling capacity</li>
+</ul>
 <p><strong>This may be a universal law of complex
 emergence.</strong></p>
 <p><strong>Connection to Other Concepts</strong></p>
-<p><strong>Temperature + Emergence:</strong> - Emergence describes HOW
-patterns form (coherent cycles) - Temperature describes WHICH patterns
-can exist (regime selection) - Together: complete theory of what exists
-and why</p>
-<p><strong>Temperature + Scale:</strong> - Different scales have
-characteristic temperatures - Each scale’s optimal temperature for
-emergence - Multi-scale systems must maintain compatible temperatures
-across scales</p>
-<p><strong>Temperature + MRH:</strong> - Temperature affects MRH size
-(high T → shorter coherence range → smaller MRH) - Different
-temperatures → different relevant interactions - MRH analysis must
-account for temperature effects</p>
-<p><strong>Temperature + Field Effects:</strong> - Fields represent
-gradients (including temperature gradients) - Temperature gradients
-drive flows (heat flow, convection) - Non-equilibrium temperature
-distributions enable dissipative structures</p>
+<p><strong>Temperature + Emergence:</strong></p>
+<ul>
+<li>Emergence describes HOW patterns form (coherent cycles)</li>
+<li>Temperature describes WHICH patterns can exist (regime
+selection)</li>
+<li>Together: complete theory of what exists and why</li>
+</ul>
+<p><strong>Temperature + Scale:</strong></p>
+<ul>
+<li>Different scales have characteristic temperatures</li>
+<li>Each scale’s optimal temperature for emergence</li>
+<li>Multi-scale systems must maintain compatible temperatures across
+scales</li>
+</ul>
+<p><strong>Temperature + MRH:</strong></p>
+<ul>
+<li>Temperature affects MRH size (high T → shorter coherence range →
+smaller MRH)</li>
+<li>Different temperatures → different relevant interactions</li>
+<li>MRH analysis must account for temperature effects</li>
+</ul>
+<p><strong>Temperature + Field Effects:</strong></p>
+<ul>
+<li>Fields represent gradients (including temperature gradients)</li>
+<li>Temperature gradients drive flows (heat flow, convection)</li>
+<li>Non-equilibrium temperature distributions enable dissipative
+structures</li>
+</ul>
 <p><strong>Practical Applications</strong></p>
-<p><strong>For Understanding Reality:</strong> - Why water is special
-(narrow liquid range at accessible T) - Why life emerged on Earth
-(correct temperature range) - Why consciousness requires ~300 K
-(information processing constraints) - Why stars behave differently than
-planets (different temperature regimes)</p>
-<p><strong>For Technology:</strong> - Optimal operating temperature for
-AI systems - Material phase selection (solid vs liquid vs gas for
-application) - Superconductor applications (need T &lt; T_c) - Chemical
-reaction control (temperature determines rate)</p>
-<p><strong>For Validation:</strong> - Test Synchronism by reproducing
-phase diagrams - Predict new phase transitions - Explain why certain
-phenomena only occur at specific temperatures - Demonstrate life window
-emergence from first principles</p>
+<p><strong>For Understanding Reality:</strong></p>
+<ul>
+<li>Why water is special (narrow liquid range at accessible T)</li>
+<li>Why life emerged on Earth (correct temperature range)</li>
+<li>Why consciousness requires ~300 K (information processing
+constraints)</li>
+<li>Why stars behave differently than planets (different temperature
+regimes)</li>
+</ul>
+<p><strong>For Technology:</strong></p>
+<ul>
+<li>Optimal operating temperature for AI systems</li>
+<li>Material phase selection (solid vs liquid vs gas for
+application)</li>
+<li>Superconductor applications (need T &lt; T_c)</li>
+<li>Chemical reaction control (temperature determines rate)</li>
+</ul>
+<p><strong>For Validation:</strong></p>
+<ul>
+<li>Test Synchronism by reproducing phase diagrams</li>
+<li>Predict new phase transitions</li>
+<li>Explain why certain phenomena only occur at specific
+temperatures</li>
+<li>Demonstrate life window emergence from first principles</li>
+</ul>
 <p><strong>Implications</strong></p>
 <p><strong>Temperature Elevates to Fundamental Status
 Because:</strong></p>
@@ -1324,12 +1521,17 @@ both biological and computational intelligence)</li>
 </ol>
 <p><strong>Temperature is not an implementation detail—it is a
 fundamental selector of which emergent patterns persist.</strong></p>
-<p>Without proper treatment of temperature, Synchronism cannot explain:
-- Why atoms don’t exist in stellar cores (too hot, ionized to plasma) -
-Why life doesn’t exist at 100 K (too cold, reactions frozen) - Why
-superconductivity exists only below T_c (quantum coherence requires low
-T) - Why the same water molecules can be ice, liquid, or steam
-(temperature determines phase)</p>
+<p>Without proper treatment of temperature, Synchronism cannot
+explain:</p>
+<ul>
+<li>Why atoms don’t exist in stellar cores (too hot, ionized to
+plasma)</li>
+<li>Why life doesn’t exist at 100 K (too cold, reactions frozen)</li>
+<li>Why superconductivity exists only below T_c (quantum coherence
+requires low T)</li>
+<li>Why the same water molecules can be ice, liquid, or steam
+(temperature determines phase)</li>
+</ul>
 <p><strong>Temperature makes Synchronism quantitative, testable, and
 connected to reality.</strong></p>
 <p>It transforms emergence from qualitative description to precise
@@ -1349,18 +1551,26 @@ electromagnetic, and nuclear fields.</p>
 in its core cells. Saturation resistance prevents dissipation—this IS
 why the pattern is stable.</p>
 <p><strong>Saturation Gradient = Field:</strong> The stable pattern is
-surrounded by subsaturated cells forming a gradient: -
-<strong>Core:</strong> High saturation (I ≈ I_max) - <strong>Near
-field:</strong> Moderate Intent concentration (declining with distance)
-- <strong>Far field:</strong> Baseline Intent (I ≈ I_baseline)</p>
+surrounded by subsaturated cells forming a gradient:</p>
+<ul>
+<li><strong>Core:</strong> High saturation (I ≈ I_max)</li>
+<li><strong>Near field:</strong> Moderate Intent concentration
+(declining with distance)</li>
+<li><strong>Far field:</strong> Baseline Intent (I ≈ I_baseline)</li>
+</ul>
 <p><strong>This gradient IS what we experience as a
 “field.”</strong></p>
 <p><strong>Field “Force” = Transfer Bias:</strong> Other patterns in the
-gradient region experience directional bias in Intent transfer: -
-Transfer toward saturated core encounters less resistance (down the
-gradient) - Transfer away from core encounters more resistance (up the
-gradient) - Net effect: pattern drifts toward the core - Appears as
-“attraction” but is actually statistical transfer asymmetry</p>
+gradient region experience directional bias in Intent transfer:</p>
+<ul>
+<li>Transfer toward saturated core encounters less resistance (down the
+gradient)</li>
+<li>Transfer away from core encounters more resistance (up the
+gradient)</li>
+<li>Net effect: pattern drifts toward the core</li>
+<li>Appears as “attraction” but is actually statistical transfer
+asymmetry</li>
+</ul>
 <p><strong>Mathematical Description</strong></p>
 <p><strong>Saturation Gradient Field:</strong></p>
 <pre><code>Φ(r) = I(r) - I_baseline</code></pre>
@@ -1380,13 +1590,21 @@ spreading:</p>
 <p><strong>Question:</strong> Why doesn’t Intent just equalize
 everywhere?</p>
 <p><strong>Answer:</strong> Saturation resistance!</p>
-<p>Without saturation: 1. Concentrations create gradients 2. Intent
-flows down gradients 3. Concentrations dissipate 4. No stable patterns,
-no persistent fields</p>
-<p>With saturation: 1. Concentrations approach saturation → transfer
-resistance increases 2. Equilibrium reached: inflow = outflow through
-resistance 3. Concentration persists despite gradient 4. Persistent
-gradient = persistent field</p>
+<p>Without saturation:</p>
+<ol type="1">
+<li>Concentrations create gradients</li>
+<li>Intent flows down gradients</li>
+<li>Concentrations dissipate</li>
+<li>No stable patterns, no persistent fields</li>
+</ol>
+<p>With saturation:</p>
+<ol type="1">
+<li>Concentrations approach saturation → transfer resistance
+increases</li>
+<li>Equilibrium reached: inflow = outflow through resistance</li>
+<li>Concentration persists despite gradient</li>
+<li>Persistent gradient = persistent field</li>
+</ol>
 <p><strong>Saturation Creates Both Pattern AND Field
 Simultaneously</strong></p>
 <p>The pattern exists BECAUSE of saturation resistance. The field exists
@@ -1395,10 +1613,13 @@ same phenomenon.</p>
 <p><strong>Different Field Types from Saturation Regimes</strong></p>
 <p><strong>Universal Fields: Gravity</strong></p>
 <p><strong>Gravitational Field = Bulk Saturation Gradient</strong></p>
-<p><strong>Mechanism:</strong> - All matter = Intent concentration
-maintained by saturation - All matter creates saturation gradient around
-itself - All Intent patterns experience transfer bias in any gradient -
-Therefore: all matter attracts all other matter</p>
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>All matter = Intent concentration maintained by saturation</li>
+<li>All matter creates saturation gradient around itself</li>
+<li>All Intent patterns experience transfer bias in any gradient</li>
+<li>Therefore: all matter attracts all other matter</li>
+</ul>
 <p><strong>Why Universal:</strong> Saturation is fundamental grid
 property. ALL Intent concentrations create gradients. ALL patterns
 experience transfer bias in gradients. No selectivity—works on
@@ -1418,11 +1639,14 @@ far field. Intent transfer timing affected by local saturation level.
 Appears as “gravitational time dilation.”</p>
 <p><strong>Selective Fields: Electromagnetism</strong></p>
 <p><strong>Electromagnetic Field = Oscillating Saturation</strong></p>
-<p><strong>Mechanism:</strong> - Certain patterns have internal
-oscillating Intent distributions - Create oscillating saturation
-gradients around themselves - Only patterns with matching oscillation
-frequencies couple strongly - Selective interaction based on resonance
-matching</p>
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Certain patterns have internal oscillating Intent distributions</li>
+<li>Create oscillating saturation gradients around themselves</li>
+<li>Only patterns with matching oscillation frequencies couple
+strongly</li>
+<li>Selective interaction based on resonance matching</li>
+</ul>
 <p><strong>Why Selective:</strong> Only patterns whose internal cycling
 matches field oscillation frequency experience strong transfer bias.
 Non-resonant patterns experience time-averaged field ≈ 0.</p>
@@ -1437,11 +1661,16 @@ saturation waves propagating through grid. Discrete quanta because only
 certain oscillation modes stable.</p>
 <p><strong>Extreme Short-Range: Nuclear Forces</strong></p>
 <p><strong>Nuclear Field = Saturation Locking</strong></p>
-<p><strong>Mechanism:</strong> - Patterns in direct cell-to-cell contact
-can achieve saturation locking - Transfer resistance of adjacent
-saturated cells creates binding - Only works when patterns share cell
-boundaries (extreme proximity) - Very strong because direct saturation
-coupling, no distance attenuation</p>
+<p><strong>Mechanism:</strong></p>
+<ul>
+<li>Patterns in direct cell-to-cell contact can achieve saturation
+locking</li>
+<li>Transfer resistance of adjacent saturated cells creates binding</li>
+<li>Only works when patterns share cell boundaries (extreme
+proximity)</li>
+<li>Very strong because direct saturation coupling, no distance
+attenuation</li>
+</ul>
 <p><strong>Why Extremely Short Range:</strong> Requires direct cell
 adjacency. Beyond one cell distance, saturation locking impossible.
 Effective range ~ Planck length.</p>
@@ -1524,36 +1753,52 @@ waves, electromagnetic radiation.</p>
 <p><strong>Note on Terminology:</strong> Earlier model described fields
 as “depletion patterns.” This was pointing toward saturation gradients
 but not explaining mechanism clearly.</p>
-<p><strong>More Precise Description:</strong> - <strong>Saturation
-core</strong> = high Intent density (near I_max) - <strong>Surrounding
-gradient</strong> = declining Intent toward baseline - <strong>Far
-field</strong> = baseline Intent (I_baseline)</p>
+<p><strong>More Precise Description:</strong></p>
+<ul>
+<li><strong>Saturation core</strong> = high Intent density (near
+I_max)</li>
+<li><strong>Surrounding gradient</strong> = declining Intent toward
+baseline</li>
+<li><strong>Far field</strong> = baseline Intent (I_baseline)</li>
+</ul>
 <p>The gradient IS the field. “Depletion” relative to saturation core,
 “excess” relative to far field—just gradient from different reference
 points.</p>
-<p><strong>Saturation framework provides:</strong> - Mechanism (transfer
-resistance) - Stability (why gradients persist) - Quantitative
-predictions (inverse-square, propagation speed) - Unification (all
-fields from saturation regimes)</p>
+<p><strong>Saturation framework provides:</strong></p>
+<ul>
+<li>Mechanism (transfer resistance)</li>
+<li>Stability (why gradients persist)</li>
+<li>Quantitative predictions (inverse-square, propagation speed)</li>
+<li>Unification (all fields from saturation regimes)</li>
+</ul>
 <p><strong>Current Limitations</strong></p>
-<p><strong>What This Explains:</strong> - Why fields exist at all
-(saturation gradients) - Why gravity is universal (bulk saturation
-affects everything) - Why EM is selective (resonance matching) - Why
-nuclear forces short-range (direct coupling only) - Field propagation
-mechanism (gradient waves)</p>
-<p><strong>What Needs Development:</strong> - Exact functional form of
-R(I) resistance function - Quantitative calculation of field strengths
-from I_max - Derivation of gravitational constant G - Electromagnetic
-coupling constant from oscillation modes - Nuclear force details from
-saturation locking geometry - Testable predictions distinct from current
-field theories</p>
+<p><strong>What This Explains:</strong></p>
+<ul>
+<li>Why fields exist at all (saturation gradients)</li>
+<li>Why gravity is universal (bulk saturation affects everything)</li>
+<li>Why EM is selective (resonance matching)</li>
+<li>Why nuclear forces short-range (direct coupling only)</li>
+<li>Field propagation mechanism (gradient waves)</li>
+</ul>
+<p><strong>What Needs Development:</strong></p>
+<ul>
+<li>Exact functional form of R(I) resistance function</li>
+<li>Quantitative calculation of field strengths from I_max</li>
+<li>Derivation of gravitational constant G</li>
+<li>Electromagnetic coupling constant from oscillation modes</li>
+<li>Nuclear force details from saturation locking geometry</li>
+<li>Testable predictions distinct from current field theories</li>
+</ul>
 <p><strong>Epistemic Status:</strong> This framework is
 <strong>mechanistically promising but mathematically
 incomplete</strong>. Saturation provides the missing ingredient (pattern
-stability), but rigorous derivation of all field phenomena requires: 1.
-Full stability analysis of saturation dynamics 2. Calculation of
-gradient strengths from grid parameters 3. Proof that inverse-square
-emerges rigorously 4. Numerical simulation validating field effects</p>
+stability), but rigorous derivation of all field phenomena requires:</p>
+<ol type="1">
+<li>Full stability analysis of saturation dynamics</li>
+<li>Calculation of gradient strengths from grid parameters</li>
+<li>Proof that inverse-square emerges rigorously</li>
+<li>Numerical simulation validating field effects</li>
+</ol>
 <p><strong>Not claiming “this IS how fields work”—claiming “saturation
 dynamics COULD explain fields, worth serious
 investigation.”</strong></p>
@@ -1574,10 +1819,14 @@ mathematical development.</strong></p>
 <p><strong>Summary</strong></p>
 <p>Fields emerge from saturation resistance creating persistent Intent
 gradients around stable patterns. Different field types arise from
-different saturation regimes: - Gravity = bulk saturation gradient
-(universal, weak, long-range) - EM = oscillating saturation (selective,
-stronger, long-range) - Nuclear = saturation locking (extremely
-selective, very strong, ultra-short-range)</p>
+different saturation regimes:</p>
+<ul>
+<li>Gravity = bulk saturation gradient (universal, weak,
+long-range)</li>
+<li>EM = oscillating saturation (selective, stronger, long-range)</li>
+<li>Nuclear = saturation locking (extremely selective, very strong,
+ultra-short-range)</li>
+</ul>
 <p>All fields unified as manifestations of same fundamental mechanism:
 saturation-limited Intent transfer.</p>
 <p>This elevates saturation from implementation detail to unifying
@@ -2131,10 +2380,14 @@ interaction.</p>
 <p>Examples: Most distant galaxies to each other, neutrinos through
 matter, orthogonal thought processes</p>
 <p><strong>Fractal Interactions</strong></p>
-<p>These three modes apply at ALL scales: - Quantum: particle
-interactions - Molecular: chemical reactions - Cellular: cell signaling
-- Organism: behavioral interactions - Cosmic: gravitational
-clustering</p>
+<p>These three modes apply at ALL scales:</p>
+<ul>
+<li>Quantum: particle interactions</li>
+<li>Molecular: chemical reactions</li>
+<li>Cellular: cell signaling</li>
+<li>Organism: behavioral interactions</li>
+<li>Cosmic: gravitational clustering</li>
+</ul>
 <p>Same principles, different scales.</p>
 <p><strong>Emergent Group Behaviors</strong></p>
 <p>When entities interact, new phenomena can emerge:</p>
@@ -2243,12 +2496,17 @@ information transfer</li>
 information preservation and resource constraints, manifesting
 differently within each Markov Relevancy Horizon.</p>
 <p><strong>Scale-Invariant Pattern</strong></p>
-<p>This pattern appears across all scales: - <strong>Quantum</strong>:
-Entanglement as ultimate compression (shared state) -
-<strong>Biological</strong>: DNA as compressed environmental history
-with error-checking - <strong>Cognitive</strong>: Language as compressed
-thought with social validation - <strong>Technological</strong>:
-Protocols as compressed interaction patterns with trust mechanisms</p>
+<p>This pattern appears across all scales:</p>
+<ul>
+<li><strong>Quantum</strong>: Entanglement as ultimate compression
+(shared state)</li>
+<li><strong>Biological</strong>: DNA as compressed environmental history
+with error-checking</li>
+<li><strong>Cognitive</strong>: Language as compressed thought with
+social validation</li>
+<li><strong>Technological</strong>: Protocols as compressed interaction
+patterns with trust mechanisms</li>
+</ul>
 <p>The specific implementation varies by MRH, but the underlying
 principle remains constant: systems that efficiently compress while
 maintaining trust propagate more successfully than those that don’t.</p>
