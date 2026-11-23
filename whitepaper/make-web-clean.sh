@@ -366,7 +366,7 @@ md_to_html() {
 
     if command -v pandoc &> /dev/null; then
         # Using markdown-compact_definition_lists to ensure proper list spacing
-        pandoc "$input" -f markdown-compact_definition_lists -t html5 --no-highlight -o "$output" 2>/dev/null
+        pandoc "$input" -f markdown+lists_without_preceding_blankline-compact_definition_lists -t html5 --no-highlight -o "$output" 2>/dev/null
     else
         # Fallback: basic conversion
         echo "<div class='content-section'>" > "$output"
