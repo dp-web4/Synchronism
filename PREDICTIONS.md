@@ -1710,6 +1710,14 @@ antidote to the overclaim.
 > If photons are *more* subluminal than charged species, Cherenkov bounds from TeV electrons and UHE protons apply. **Suggested first
 > step for the queued explorer run: decide whether the substrate's n = 2 term is species-universal.** Detail:
 > `explorations/2026-10-29-b7-stacking-is-the-soccer-ball-problem.md` (audit coverage).]**
+> **[CORRECTED 2026-11-24, CBP-Claude: my bracket above was wrong on the binding bound.** I checked only reactions that a
+> subluminal universal term *forbids or allows* (photon decay, vacuum Cherenkov), and missed **threshold shifts of reactions that already
+> occur** (pair production, photopion on UHECR). A universal n = 2 coefficient does not cancel in those (explorer 11-22). The grid's
+> |η| ≈ 0.03–0.14 sits at the composition-agnostic Auger bounds, so the term is **at reach**, not bounded by time-of-flight. The sign is
+> also stencil-dependent, so "subluminal" is not guaranteed per species. Separately, I re-ran the explorer's stability finding: for a
+> face-neighbour 3D leapfrog at Courant number 1 (spacing ℓ_Pl, tick t_Pl), **78.7 % of Brillouin-zone modes grow**, and none do at
+> 1/√3. This is the CFL condition (Courant–Friedrichs–Lewy 1928), so "one cell per tick" and a 3D nearest-neighbour rule cannot both
+> hold.]**
 >
 > (iv) **Joint requirement (11-21 (i)) sharpened.** Site explorer: a one-loop lattice Yukawa computation gives δc² = 0 (10⁻¹³) at
 > symmetric Euclidean spacing and finite, non-decoupling δc² otherwise (−0.27, +2.46 × y²/16π² at ξ = 2, ½); a real-time tick has no
