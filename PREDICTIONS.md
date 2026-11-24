@@ -1719,6 +1719,51 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/survivors_need_the_strongest_bound_class_bbn_closes_the_density_amplitude_20261122.md`.
 
+> **📌 THE 09-18 "0/123 REACH Ω_m" WAS THE UNITS-HYBRID KNEE; THE GRID'S QUADRATIC TERM IS AT THRESHOLD REACH; THE REVIEW
+> LOOP HAS NO CATCH RATE (2026-11-24, site maintainer, from simulated-visitor graduate, researcher, technical-writer and
+> casual personas and site explorer 2026-11-22 (PREREG site `4752de6`, not re-run by me); no bucket moves, count 6, range
+> 4–8, Bucket 0 = 0).**
+>
+> (i) **Scope on the 09-18 block.** "C_ρ's per-disc maximum has median 1.2×10⁻³ at γ = 2 (0/123 reach Ω_m anywhere)" was run at the
+> units-hybrid knee 0.029·V² (11-13 (i)). At the archive knee 0.028·V^0.5, on the same 123 discs, the median is **0.84 at γ = 2, and
+> 111/123 discs exceed Ω_m** somewhere. At γ = 0.489 the median is 0.29 and the count 57/123. Both Σ estimators agree. Predictions
+> were committed before running (site `9fe6951`); 2 of 4 held, and the two misses were both higher than predicted. The identity
+> control reproduces 1.20×10⁻³ and 0/123 exactly. Script: `synchronism-site/maintainer/scripts/plotter_survey_at_archive_knee.py`.
+> The 09-18 verdict is untouched: the floor lives on C_a, and the "floor binds everywhere" reading was about C_a. Read the
+> parenthetical as hybrid-only. Same class as the 11-14 (i) units-slip over-refutation: a number computed under one calibration
+> outlived the switch.
+>
+> (ii) **B7 (iii) / Phase-12 "below reach" (explorer 2026-11-22).** Time-of-flight cannot reach the grid's n = 2 term, but threshold
+> kinematics can.
+> - The grid's own coefficient is |η| ≈ 0.03–0.14 in E² = p² + m² + ηp⁴/M_Pl², depending on stencil, direction and species.
+> - The composition-agnostic Auger 2022 bounds sit at that level (photon ≳ −0.015; hadron < 0.15).
+> - Pure-proton bounds exclude it by 1.5–5 orders, but every excluding bound holds one sector Lorentz-invariant. A universal
+>   subluminal grid also switches off the cosmogenic photons the photon bounds assume.
+> - A universal n = 2 coefficient does not cancel in reactions; only n = 0 does. This corrects the site's "partly cancels".
+> - The sign depends on the time discretisation and each species' stencil. This qualifies the 11-22 (iii) "subluminal" bracket
+>   for Wilson-type species.
+> - **FUNDAMENTALS' tick = t_Pl with spacing = ℓ_Pl is unstable for a face-neighbour 3D update** (79 % of modes grow; a 26-neighbour
+>   rule runs). Choosing the neighbourhood is a FUNDAMENTALS §1 obligation and **gates on the project lead**.
+>
+> Status: at reach; the self-consistent universal-coefficient UHECR propagation is unrun (untested, not refuted). B7 was never
+> registered with a number, so the count is unchanged.
+>
+> (iii) **Record (site, `d3d9962`).** The wide-binary crux box said the dispute "depends on hidden companions, not on how the orbit
+> is deprojected". Both groups say the semi-major-axis model decides it (Saad & Ting v2 abstract; Chae, Park & Yoon 2610.40388). Chae
+> et al. v4 say companions are "well under control" (abstracts re-read 2026-11-24). The companion rate is now labelled an
+> in-house, uncontacted addition. Draco's σ input (9.1 ± 1.2 km/s, 2009-era) is now printed. Every 11-19 significance follows from
+> that error bar, so at ±0.4 km/s the 3σ reach would be a cap near 29 and would close 1/Ω_b = 20.3 (arithmetic only; rerun queued).
+> The "600×" A-from-Jeans gap is a ratio of coefficients in different units. At fixed V the Jeans formula and 0.028·V^0.5 cross at 72
+> km/s and differ by ×0.27–×8.5 over 30–300 km/s; if the S687 Bucket 2 row's "614×" is the same coefficient ratio (S687 is the A-from-Jeans session; not traced today), it describes the hybrid law only.
+>
+> (iv) **Frame, for the project lead.** Since July the persona loop has supplied most of the site's corrections: 34/22/21
+> attributions on HA/Tier 1/For Researchers, 320 "persona" mentions in `src/`. It has no measured catch rate. That is the A2ACW
+> same-corpus objection applied to the site's own review. Proposed: a planted-error test, with an offline arm the explorer can run
+> and a preview-deployment arm that gates on the project lead. Registered prediction: numeric planted errors are caught < ⅓ of the
+> time, wording overclaims > ⅔. Contacting Chae et al. and Saad & Ting before DR4 (8 days) still **gates on the project lead**.
+>
+> Proposal: `Research/proposals/the_persona_loop_is_the_review_instrument_and_needs_a_catch_rate_20261124.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
