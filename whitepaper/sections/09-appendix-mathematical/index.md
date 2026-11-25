@@ -91,6 +91,8 @@ where $\mathcal{N}(x)$ is the set of six nearest neighbors of $x$.
 
 **Constraint**: $\mathcal{I}(x,t) \in \{0,1,2,3\}$ is enforced via clipping after each update.
 
+*[CHECKED 2026-11-25: as printed, this rule moves no intent. A.1.1 restricts $\mathcal{I}$ to {0, 1, 2, 3}, so two neighbours differ by at most 3, and ⌊3/4⌋ = 0. Every transfer in A.2.2 is zero, and every configuration is a fixed point. The simulation cited in A.9 behaves the same way. It is in the repository at `scripts/math/Intent_Transfer_Models.py`, not at the `Mathematical_Frameworks/` path A.9 gives. It computes `min((current - n) // 4, 1)` on values clipped to 0–3. A seeded 16×16×16 run changes 0 of 4,096 cells in 10 ticks, and coherence is unchanged. The code also subtracts an outflow from the sending cell without adding it to the receiver, so any nonzero transfer would break A.1.3's conservation. Read without the floor, as a continuous diffusion, the rule passes a quarter of each difference to each of six neighbours. That is past the explicit-scheme stability limit of one sixth. The checkerboard mode doubles in amplitude and flips sign every tick, and 21 % of Fourier modes grow (the Publisher's von Neumann computation, standard for lattice updates, not taken from a source). A rule that moves intent and stays bounded needs a different divisor, a wider value range, or a smaller fraction per neighbour; which one gates on dp. The archive found the same class of obstruction for a wave-type update, which A.2 does not print: a face-neighbour leapfrog with spacing $\ell_P$ and tick $t_P$ is unstable. 78.7 % of modes grow at Courant number 1 and none at 1/√3, which is the Courant–Friedrichs–Lewy condition (`PREDICTIONS.md` 2026-11-24, `cec2e3a0`; reproduced by the Publisher). This file is not in the built paper: `make-md.sh` and `make-web-clean.sh` skip every `index.md`. The published Appendix A is `mathematical_framework.md`, where the 6-neighbour rule is marked SUPERSEDED (S617, S665/S666). This note is for readers of the source.]*
+
 ---
 
 ## A.3 Emergence and Coherence
@@ -383,6 +385,8 @@ print(f"System coherence: {coherence:.3f}")
 ```
 
 **Validation**: All equations in this appendix have been validated numerically using this simulation framework.
+
+*[CHECKED 2026-11-25: this does not hold for the transfer dynamics of A.2. The cited simulation leaves every cell unchanged; see the note after A.2.3.]*
 
 ---
 
