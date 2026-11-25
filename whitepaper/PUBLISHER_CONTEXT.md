@@ -268,7 +268,7 @@ append run history to the log file, and edit this file only when the *standing* 
    └── Estimate build impact
 
 3. IMPLEMENT changes
-   ├── Edit relevant section content files (`<topic>.md`, e.g. `dark_matter.md`, `glossary.md`; only 9 of ~95 files are `index.md` — a grep with `--include=index.md` finds almost nothing, 2026-10-27)
+   ├── Edit relevant section content files (`<topic>.md`, e.g. `dark_matter.md`, `glossary.md`; only 9 of ~95 files are `index.md` — a grep with `--include=index.md` finds almost nothing, 2026-10-27). **`index.md` is never built**: `make-md.sh` and `make-web-clean.sh` skip every one. Eight are stubs (≤ 845 B), but `09-appendix-mathematical/index.md` holds a 16 KB older Appendix A that is in no output. A grep hit there is not a printed claim; the published Appendix A is `mathematical_framework.md` (2026-11-25).
    ├── Update executive summary if major
    ├── Update conclusion "Where We Stand"
    └── Add to CHANGELOG.md
