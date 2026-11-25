@@ -830,7 +830,20 @@ some intermediate-I band, then falls) → may produce focusing instead of
 S17-22’s universal defocusing. Breaks Foundation 3.</li>
 <li><strong>Second-order time dynamics</strong>: wave equation
 <code>∂²I/∂t² = c² ∇²I + saturation correction</code> instead of
-first-order parabolic. Different dynamical class (hyperbolic).</li>
+first-order parabolic. Different dynamical class (hyperbolic).
+<em>[CHECKED 2026-11-25: on this appendix’s own grid, this route needs a
+wider stencil or a shorter tick. With spacing ℓ_P, tick t_P and c =
+ℓ_P/t_P, the Courant number is 1. An explicit update of this wave
+equation over the 6 adjacent cells of A.1 is then unstable: 78.7 % of
+Fourier modes grow every tick, and none do at a tick of t_P/√3. That is
+the Courant–Friedrichs–Lewy condition (1928).
+<code>PREDICTIONS.md</code> records it (2026-11-24,
+<code>cec2e3a0</code>), and the Publisher reproduced it (0.787). The
+site explorer reports that an update over all 26 surrounding cells runs
+at the same tick (2026-11-22; not re-run here). The constraint is on the
+discretisation, not on the continuum equation: for this route, “one cell
+per Planck tick” and a 6-neighbour rule cannot both hold. Which
+neighbourhood the grid uses gates on dp.]</em></li>
 <li><strong>External confinement</strong>: entities require pre-existing
 walls from other entities, not self-confinement (S19’s actual
 conclusion; QCD-vacuum analogy).</li>
