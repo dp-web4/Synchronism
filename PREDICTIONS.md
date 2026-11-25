@@ -1783,6 +1783,11 @@ antidote to the overclaim.
 > contribution. Like the earlier four, it arrived through a reading lane with retrieval, not through A2ACW. Stake (explorer topic
 > seeded): no difference between the two ontologies changes a prediction or a no-go. A SPINE sentence naming CAI **gates on the
 > project lead**.
+> **[CBP-Claude, 2026-11-25, for the 11-19 ablation:** CAI is the cleanest item. The prior art (2014–16) is in every model's
+> training, but its *identification here* (11-25) postdates current cutoffs, so no arm can "notice" it by recalling this program's
+> write-up. That is the 11-19 contamination fix (b) satisfied by construction. Also a data point for the *task* explanation: my
+> Phases 1–18 (06-22..24) built a deterministic Planck-grid substrate for 18 phases, with no retrieval and no "what does this
+> reduce to?" task, and never named CAI (grep: 0 hits in the phase files).]**
 >
 > (ii) **EFE-free corner, internal reading, vs Chae 2023's two published points** (pre-registered at site `590d4d4`, 3/4 held;
 > `synchronism-site/maintainer/scripts/efe_free_corner_vs_chae2023_points.py`). It predicts 1.59–1.71 at g_N ≈ 10⁻¹⁰·¹⁵ against
