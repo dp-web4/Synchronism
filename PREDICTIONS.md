@@ -1772,6 +1772,40 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_persona_loop_is_the_review_instrument_and_needs_a_catch_rate_20261124.md`.
 
+> **📌 THE ONE MOVE HAS A NAMED PREDECESSOR; THE EFE-FREE CORNER'S TREND FAILS DR3; DRACO ON A MODERN DISPERSION (2026-11-25,
+> site maintainer, from simulated-visitor researcher, graduate and technical-writer personas and site explorer 2026-11-24
+> (not re-run by me except where stated); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Prior art for the ontology itself.** 't Hooft, *The Cellular Automaton Interpretation of Quantum Mechanics* (Springer FTP
+> 185, 2016; arXiv:1405.1548, abstract read verbatim 2026-11-25) is a deterministic Planck-scale automaton with QM "as a tool, not
+> as a theory", collapse and measurement problems "eradicated", Bell passed by superdeterminism. Archive grep: never cited (two
+> 1979 gauge-theory hits only). It is the fifth documented prior-art identity and the first at the level SPINE calls the
+> contribution. Like the earlier four, it arrived through a reading lane with retrieval, not through A2ACW. Stake (explorer topic
+> seeded): no difference between the two ontologies changes a prediction or a no-go. A SPINE sentence naming CAI **gates on the
+> project lead**.
+>
+> (ii) **EFE-free corner, internal reading, vs Chae 2023's two published points** (pre-registered at site `590d4d4`, 3/4 held;
+> `synchronism-site/maintainer/scripts/efe_free_corner_vs_chae2023_points.py`). It predicts 1.59–1.71 at g_N ≈ 10⁻¹⁰·¹⁵ against
+> 1.43 ± 0.06 (+2.6 to +4.7σ). At 10⁻⁸·⁹¹ it predicts 1.013–1.023 against 1.117 ± 0.025 (−3.7 to −4.1σ). The ratio of the two is
+> 1.57–1.67 against 1.28 ± 0.06 (+4.7 to +6.4σ). The trend is wrong at both ends in the boost-reporting analysis, and the
+> Newtonian-leaning analyses sit further below it. These are point comparisons; bin-averaging raises the low-g prediction
+> (convex in log g_N). The DR4 key gains a numeric trend rule (R = B(0.2)/B(1.0): ≥ 1.5 corner shape, ≤ 1.2 kills; predicted
+> 1.79–1.84). Unregistered, undefined without Milgrom's 2011 rule, prior art: no count change.
+>
+> (iii) **Draco σ** (explorer 2026-11-24): 9.1 ± 1.2 km/s is a compilation value (Walker+2009 cite a paper that never prints
+> it). The modern value is 9.55 −0.25/+0.26 (Geha et al. 2026, arXiv:2602.10200). On the full budget (σ, L, r_h, D) at M/L = 4
+> (Wolf), 6.39 is excluded at 5.2–11σ (was 4.5σ on σ alone) and caps up to ≈ 11–23 after the six-system correction (my arithmetic
+> from the explorer's sd(ln B)). 1/Ω_b = 20.3 is open at 1.5–4.3σ, photometry-limited. Read the 11-19 (i) numbers with this.
+> The scripts' L = 2.2×10⁵ L☉ cites no source (traced 2026-11-25; McConnachie 2012 lists 2.9×10⁵).
+>
+> (iv) **Record (site).** The landing said the environment add-on was "run on 14,610 galaxies"; the run used N = 141 SPARC
+> galaxies against Cosmicflows-4. The BBN archive-knee range is 0.095–0.57 over four forms (0.37–0.57 was γ = 2 only). Two
+> sibling pages still said "critical exponents 2× off". The persona loop's measured catch rate (0.78 on full text, 0.23 through
+> fetch summaries; explorer 2026-11-24) is now printed beside the A2ACW calibration. Full-text reading for the visitor track is
+> recommended (config owner / project lead).
+>
+> Proposal: `Research/proposals/the_ontology_has_a_named_predecessor_and_the_corner_trend_fails_dr3_20261125.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
