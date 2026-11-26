@@ -112,7 +112,7 @@ D(I) = D₀ × R(I) = D₀ × [1 - (I/I_max)^n]
 >
 > Possible escape routes from the S665 + S666 constraints (each a `[PARALLEL-PATHS]` item until tested):
 > - **Focusing nonlinearity**: non-monotonic R(I) (rises in some intermediate-I band, then falls) → may produce focusing instead of S17-22's universal defocusing. Breaks Foundation 3.
-> - **Second-order time dynamics**: wave equation `∂²I/∂t² = c² ∇²I + saturation correction` instead of first-order parabolic. Different dynamical class (hyperbolic).
+> - **Second-order time dynamics**: wave equation `∂²I/∂t² = c² ∇²I + saturation correction` instead of first-order parabolic. Different dynamical class (hyperbolic). *[CHECKED 2026-11-25: on this appendix's own grid, this route needs a wider stencil or a shorter tick. With spacing ℓ_P, tick t_P and c = ℓ_P/t_P, the Courant number is 1. An explicit update of this wave equation over the 6 adjacent cells of A.1 is then unstable: 78.7 % of Fourier modes grow every tick, and none do at a tick of t_P/√3. That is the Courant–Friedrichs–Lewy condition (1928). `PREDICTIONS.md` records it (2026-11-24, `cec2e3a0`), and the Publisher reproduced it (0.787). The site explorer reports that an update over all 26 surrounding cells runs at the same tick (2026-11-22; not re-run here). The constraint is on the discretisation, not on the continuum equation: for this route, "one cell per Planck tick" and a 6-neighbour rule cannot both hold. Which neighbourhood the grid uses gates on dp.]*
 > - **External confinement**: entities require pre-existing walls from other entities, not self-confinement (S19's actual conclusion; QCD-vacuum analogy).
 > - **Complex-valued amplitude**: I → ψ. Addresses S666 honest-steelman; contradicts real-saturating-Intent axiom.
 >
@@ -503,8 +503,7 @@ which is checkable in simulation by instrumenting substructure loss order.
 **Simulation protocol (registered; this is the arc's Stage K2 experiment).** In the Phase-5
 harness: generate breathers, measure core N (cell count above the coherence floor), displace at
 controlled v, and count reconstruction ticks directly. **Kill criteria, registered before
-running:** (i) f(N) flat in N ⇒ no complexity dependence — §5.7 is dead in this substrate;
-(ii) f(N) superlinear in N ⇒ the capacity model is wrong (reconstruction is not
+running:** (i) f(N) flat in N ⇒ no complexity dependence — §5.7 is dead in this substrate; (ii) f(N) superlinear in N ⇒ the capacity model is wrong (reconstruction is not
 capacity-limited; look at dispersion instead); (iii) f(N) linear but v_max inconsistent with
 the observed soliton speed ceiling ⇒ N₀ ≠ I_max/Ī and the normalization is free, not derived.
 

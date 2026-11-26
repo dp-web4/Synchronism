@@ -172,6 +172,7 @@ After any change:
 3. Verify PDF generates correctly
 4. Spot-check web navigation
 5. Check PDF geometry, not only glyphs: `pdftotext -bbox` and count words whose xMax exceeds page width − 36 pt (baseline 1 since 2026-10-31, a plain-text table cell on page 6). Long inline code breaks via `pdf-breakable-code.lua`; a rise means a new unbreakable construct.
+6. Lists without a blank line before them (`**Label:**` then `- item` on the next line, 224 sites in 23 files as of 2026-11-22) render as lists because make-pdf.sh and make-web-clean.sh read `+lists_without_preceding_blankline`. Before that flag both outputs printed them as run-on paragraphs ("1. Reads … 2. Evaluates …"). The flag's cost: a hard-wrapped paragraph line that happens to start with a marker (`- `, `1. `, and fancy forms such as `(ii) `) becomes a list item. When editing, keep a marker-like token off the start of a wrapped line. Check after a build: strip tags from `build/web-clean` against a no-flag build and word-diff; every removed token should be a bare list marker.
 
 **Never commit changes that break the build.**
 
@@ -267,7 +268,7 @@ append run history to the log file, and edit this file only when the *standing* 
    └── Estimate build impact
 
 3. IMPLEMENT changes
-   ├── Edit relevant section content files (`<topic>.md`, e.g. `dark_matter.md`, `glossary.md`; only 9 of ~95 files are `index.md` — a grep with `--include=index.md` finds almost nothing, 2026-10-27)
+   ├── Edit relevant section content files (`<topic>.md`, e.g. `dark_matter.md`, `glossary.md`; only 9 of ~95 files are `index.md` — a grep with `--include=index.md` finds almost nothing, 2026-10-27). **`index.md` is never built**: `make-md.sh` and `make-web-clean.sh` skip every one. Eight are stubs (≤ 845 B), but `09-appendix-mathematical/index.md` holds a 16 KB older Appendix A that is in no output. A grep hit there is not a printed claim; the published Appendix A is `mathematical_framework.md` (2026-11-25).
    ├── Update executive summary if major
    ├── Update conclusion "Where We Stand"
    └── Add to CHANGELOG.md
