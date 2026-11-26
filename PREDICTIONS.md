@@ -1811,6 +1811,45 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/the_ontology_has_a_named_predecessor_and_the_corner_trend_fails_dr3_20261125.md`.
 
+> **📌 THE SUBSTRATE DIFFERS FROM CAI IN TWO PLACES, BOTH COSTS; AT ONE CELL PER TICK THE GRID'S p⁴ TERM MUST DEPEND ON
+> DIRECTION (2026-11-26, site maintainer, from site explorer 2026-11-25 (not re-run by me) and a simulated-visitor
+> researcher persona; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **CAI comparison executed** (explorer, PREREG site `ffac773`; 11-25 stake "no difference changes a prediction"
+> refuted as stated). *Dynamics:* the stated rule (FUNDAMENTALS §1/§3) is a contraction. ΣI² is a Lyapunov function,
+> so its only recurrent states are fixed points, plus a period-2 checkerboard at κ·z = 1, which gives no quantum
+> dynamics in CAI's sense. SPINE's phase-lock erases ≈ 7 bits per lock. So it is either fundamental and irreversible,
+> outside CAI, or decoherence, where QM and CAI already put measurement. Only the focusing Klein–Gordon lattice is
+> CAI-class, as an exact reversible integer automaton, and it keeps its breathers only at ≳ 2¹²–2¹⁴ levels.
+> *Particles:* SPINE's ontic lumps are the "gliders" 't Hooft calls hopeless (§5.7.6). Rb-87 fringes over 54 cm through
+> the lump's own tail need a binding below 10⁻³⁴ mc², so a guiding background field is required (walking-droplet
+> class). On the branch where the stake holds, the move is CAI with a specific lattice rule, and it inherits CAI's
+> open problems (Hamiltonian positivity, Lorentz invariance, the Standard Model). The Stage-1 file is back-annotated:
+> its 0.23 drift was an omitted term, Arm A's 0 % is a theorem, and the classifier has a second false positive.
+>
+> (ii) **Grid dispersion by stencil** (pre-registered at site `823387d` before the script; 4/5 held;
+> `synchronism-site/maintainer/scripts/grid_dispersion_anisotropy_by_stencil.py`). The setup is a massless scalar,
+> leapfrog with λ = c·tick/spacing, and any symmetric 27-point stencil. The O(p⁴/M_Pl²) term is η(n̂) = η₀ +
+> η₄(Σn_i⁴ − 3/5), a cubic ℓ = 4 pattern locked to the grid frame:
+> - the face-neighbour stencil gives η = −1/18 on an axis and 0 on a body diagonal at its stability limit;
+> - the isotropic-error family (w₁ = 4w₃ + 1/6, w₂ = 1/12 − 2w₃) has η ≡ (λ² − 1)/12 for every member, and none is
+>   stable above λ = √3/2;
+> - at FUNDAMENTALS' one cell per tick (λ = 1), all 651 stable stencils found are anisotropic, with |η₄| ≥ 1/24.
+>
+> So, in this class, the p⁴ term cannot vanish, and at the archive's own tick it cannot be isotropic. The miss was P4:
+> no stable stencil removes the term entirely. A visitor persona noted that isotropic quantum-gravity dispersion does
+> not carry this frame-locked ℓ = 4 pattern. It maps onto the anisotropic d = 6 SME coefficients (Kostelecký & Mewes
+> 2009, arXiv:0905.0031); bounds not compared. The site register also cited causal sets as prior art for the
+> dispersion, which was wrong: they are discreteness *without* Lorentz violation (Bombelli, Henson & Sorkin,
+> gr-qc/0605006). This is the one register row whose sign and pattern a commitment would fix. It is **not a bet until
+> a stencil per species is committed**, and that commitment **gates on the project lead**. Scalar field only.
+>
+> (iii) **Record (site).** /consciousness-demo defined u as the log argument in C* = 1/(2γu*); it is ρ/ρ_crit. The
+> landing's "0.88 there" was C at ρ_crit, while the γ = 2 bend sits at ≈ 0.42 ρ_crit with C ≈ 0.60. The DR4 key is now
+> labelled a reading aid, not a registration, 6 days out. The label map now leads with four verdict labels.
+>
+> Proposal: `Research/proposals/commit_a_stencil_the_grids_p4_term_is_the_one_register_row_a_commitment_would_fix_20261126.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
