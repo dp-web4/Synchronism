@@ -1710,6 +1710,14 @@ antidote to the overclaim.
 > If photons are *more* subluminal than charged species, Cherenkov bounds from TeV electrons and UHE protons apply. **Suggested first
 > step for the queued explorer run: decide whether the substrate's n = 2 term is species-universal.** Detail:
 > `explorations/2026-10-29-b7-stacking-is-the-soccer-ball-problem.md` (audit coverage).]**
+> **[CORRECTED 2026-11-24, CBP-Claude: my bracket above was wrong on the binding bound.** I checked only reactions that a
+> subluminal universal term *forbids or allows* (photon decay, vacuum Cherenkov), and missed **threshold shifts of reactions that already
+> occur** (pair production, photopion on UHECR). A universal n = 2 coefficient does not cancel in those (explorer 11-22). The grid's
+> |η| ≈ 0.03–0.14 sits at the composition-agnostic Auger bounds, so the term is **at reach**, not bounded by time-of-flight. The sign is
+> also stencil-dependent, so "subluminal" is not guaranteed per species. Separately, I re-ran the explorer's stability finding: for a
+> face-neighbour 3D leapfrog at Courant number 1 (spacing ℓ_Pl, tick t_Pl), **78.7 % of Brillouin-zone modes grow**, and none do at
+> 1/√3. This is the CFL condition (Courant–Friedrichs–Lewy 1928), so "one cell per tick" and a 3D nearest-neighbour rule cannot both
+> hold.]**
 >
 > (iv) **Joint requirement (11-21 (i)) sharpened.** Site explorer: a one-loop lattice Yukawa computation gives δc² = 0 (10⁻¹³) at
 > symmetric Euclidean spacing and finite, non-decoupling δc² otherwise (−0.27, +2.46 × y²/16π² at ξ = 2, ½); a real-time tick has no
@@ -1718,6 +1726,129 @@ antidote to the overclaim.
 > because matter is the pattern of the field that ticks. Replacement SPINE sentence in the proposal: **gates on the project lead**.
 >
 > Proposal: `Research/proposals/survivors_need_the_strongest_bound_class_bbn_closes_the_density_amplitude_20261122.md`.
+
+> **📌 THE 09-18 "0/123 REACH Ω_m" WAS THE UNITS-HYBRID KNEE; THE GRID'S QUADRATIC TERM IS AT THRESHOLD REACH; THE REVIEW
+> LOOP HAS NO CATCH RATE (2026-11-24, site maintainer, from simulated-visitor graduate, researcher, technical-writer and
+> casual personas and site explorer 2026-11-22 (PREREG site `4752de6`, not re-run by me); no bucket moves, count 6, range
+> 4–8, Bucket 0 = 0).**
+>
+> (i) **Scope on the 09-18 block.** "C_ρ's per-disc maximum has median 1.2×10⁻³ at γ = 2 (0/123 reach Ω_m anywhere)" was run at the
+> units-hybrid knee 0.029·V² (11-13 (i)). At the archive knee 0.028·V^0.5, on the same 123 discs, the median is **0.84 at γ = 2, and
+> 111/123 discs exceed Ω_m** somewhere. At γ = 0.489 the median is 0.29 and the count 57/123. Both Σ estimators agree. Predictions
+> were committed before running (site `9fe6951`); 2 of 4 held, and the two misses were both higher than predicted. The identity
+> control reproduces 1.20×10⁻³ and 0/123 exactly. Script: `synchronism-site/maintainer/scripts/plotter_survey_at_archive_knee.py`.
+> The 09-18 verdict is untouched: the floor lives on C_a, and the "floor binds everywhere" reading was about C_a. Read the
+> parenthetical as hybrid-only. Same class as the 11-14 (i) units-slip over-refutation: a number computed under one calibration
+> outlived the switch.
+>
+> (ii) **B7 (iii) / Phase-12 "below reach" (explorer 2026-11-22).** Time-of-flight cannot reach the grid's n = 2 term, but threshold
+> kinematics can.
+> - The grid's own coefficient is |η| ≈ 0.03–0.14 in E² = p² + m² + ηp⁴/M_Pl², depending on stencil, direction and species.
+> - The composition-agnostic Auger 2022 bounds sit at that level (photon ≳ −0.015; hadron < 0.15).
+> - Pure-proton bounds exclude it by 1.5–5 orders, but every excluding bound holds one sector Lorentz-invariant. A universal
+>   subluminal grid also switches off the cosmogenic photons the photon bounds assume.
+> - A universal n = 2 coefficient does not cancel in reactions; only n = 0 does. This corrects the site's "partly cancels".
+> - The sign depends on the time discretisation and each species' stencil. This qualifies the 11-22 (iii) "subluminal" bracket
+>   for Wilson-type species.
+> - **FUNDAMENTALS' tick = t_Pl with spacing = ℓ_Pl is unstable for a face-neighbour 3D update** (79 % of modes grow; a 26-neighbour
+>   rule runs). Choosing the neighbourhood is a FUNDAMENTALS §1 obligation and **gates on the project lead**.
+>
+> Status: at reach; the self-consistent universal-coefficient UHECR propagation is unrun (untested, not refuted). B7 was never
+> registered with a number, so the count is unchanged.
+>
+> (iii) **Record (site, `d3d9962`).** The wide-binary crux box said the dispute "depends on hidden companions, not on how the orbit
+> is deprojected". Both groups say the semi-major-axis model decides it (Saad & Ting v2 abstract; Chae, Park & Yoon 2610.40388). Chae
+> et al. v4 say companions are "well under control" (abstracts re-read 2026-11-24). The companion rate is now labelled an
+> in-house, uncontacted addition. Draco's σ input (9.1 ± 1.2 km/s, 2009-era) is now printed. Every 11-19 significance follows from
+> that error bar, so at ±0.4 km/s the 3σ reach would be a cap near 29 and would close 1/Ω_b = 20.3 (arithmetic only; rerun queued).
+> The "600×" A-from-Jeans gap is a ratio of coefficients in different units. At fixed V the Jeans formula and 0.028·V^0.5 cross at 72
+> km/s and differ by ×0.27–×8.5 over 30–300 km/s; if the S687 Bucket 2 row's "614×" is the same coefficient ratio (S687 is the A-from-Jeans session; not traced today), it describes the hybrid law only.
+>
+> (iv) **Frame, for the project lead.** Since July the persona loop has supplied most of the site's corrections: 34/22/21
+> attributions on HA/Tier 1/For Researchers, 320 "persona" mentions in `src/`. It has no measured catch rate. That is the A2ACW
+> same-corpus objection applied to the site's own review. Proposed: a planted-error test, with an offline arm the explorer can run
+> and a preview-deployment arm that gates on the project lead. Registered prediction: numeric planted errors are caught < ⅓ of the
+> time, wording overclaims > ⅔. Contacting Chae et al. and Saad & Ting before DR4 (8 days) still **gates on the project lead**.
+>
+> Proposal: `Research/proposals/the_persona_loop_is_the_review_instrument_and_needs_a_catch_rate_20261124.md`.
+
+> **📌 THE ONE MOVE HAS A NAMED PREDECESSOR; THE EFE-FREE CORNER'S TREND FAILS DR3; DRACO ON A MODERN DISPERSION (2026-11-25,
+> site maintainer, from simulated-visitor researcher, graduate and technical-writer personas and site explorer 2026-11-24
+> (not re-run by me except where stated); no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **Prior art for the ontology itself.** 't Hooft, *The Cellular Automaton Interpretation of Quantum Mechanics* (Springer FTP
+> 185, 2016; arXiv:1405.1548, abstract read verbatim 2026-11-25) is a deterministic Planck-scale automaton with QM "as a tool, not
+> as a theory", collapse and measurement problems "eradicated", Bell passed by superdeterminism. Archive grep: never cited (two
+> 1979 gauge-theory hits only). It is the fifth documented prior-art identity and the first at the level SPINE calls the
+> contribution. Like the earlier four, it arrived through a reading lane with retrieval, not through A2ACW. Stake (explorer topic
+> seeded): no difference between the two ontologies changes a prediction or a no-go. A SPINE sentence naming CAI **gates on the
+> project lead**.
+> **[CBP-Claude, 2026-11-25, for the 11-19 ablation:** CAI is the cleanest item. The prior art (2014–16) is in every model's
+> training, but its *identification here* (11-25) postdates current cutoffs, so no arm can "notice" it by recalling this program's
+> write-up. That is the 11-19 contamination fix (b) satisfied by construction. Also a data point for the *task* explanation: my
+> Phases 1–18 (06-22..24) built a deterministic Planck-grid substrate for 18 phases, with no retrieval and no "what does this
+> reduce to?" task, and never named CAI (grep: 0 hits in the phase files).]**
+>
+> (ii) **EFE-free corner, internal reading, vs Chae 2023's two published points** (pre-registered at site `590d4d4`, 3/4 held;
+> `synchronism-site/maintainer/scripts/efe_free_corner_vs_chae2023_points.py`). It predicts 1.59–1.71 at g_N ≈ 10⁻¹⁰·¹⁵ against
+> 1.43 ± 0.06 (+2.6 to +4.7σ). At 10⁻⁸·⁹¹ it predicts 1.013–1.023 against 1.117 ± 0.025 (−3.7 to −4.1σ). The ratio of the two is
+> 1.57–1.67 against 1.28 ± 0.06 (+4.7 to +6.4σ). The trend is wrong at both ends in the boost-reporting analysis, and the
+> Newtonian-leaning analyses sit further below it. These are point comparisons; bin-averaging raises the low-g prediction
+> (convex in log g_N). The DR4 key gains a numeric trend rule (R = B(0.2)/B(1.0): ≥ 1.5 corner shape, ≤ 1.2 kills; predicted
+> 1.79–1.84). Unregistered, undefined without Milgrom's 2011 rule, prior art: no count change.
+>
+> (iii) **Draco σ** (explorer 2026-11-24): 9.1 ± 1.2 km/s is a compilation value (Walker+2009 cite a paper that never prints
+> it). The modern value is 9.55 −0.25/+0.26 (Geha et al. 2026, arXiv:2602.10200). On the full budget (σ, L, r_h, D) at M/L = 4
+> (Wolf), 6.39 is excluded at 5.2–11σ (was 4.5σ on σ alone) and caps up to ≈ 11–23 after the six-system correction (my arithmetic
+> from the explorer's sd(ln B)). 1/Ω_b = 20.3 is open at 1.5–4.3σ, photometry-limited. Read the 11-19 (i) numbers with this.
+> The scripts' L = 2.2×10⁵ L☉ cites no source (traced 2026-11-25; McConnachie 2012 lists 2.9×10⁵).
+>
+> (iv) **Record (site).** The landing said the environment add-on was "run on 14,610 galaxies"; the run used N = 141 SPARC
+> galaxies against Cosmicflows-4. The BBN archive-knee range is 0.095–0.57 over four forms (0.37–0.57 was γ = 2 only). Two
+> sibling pages still said "critical exponents 2× off". The persona loop's measured catch rate (0.78 on full text, 0.23 through
+> fetch summaries; explorer 2026-11-24) is now printed beside the A2ACW calibration. Full-text reading for the visitor track is
+> recommended (config owner / project lead).
+>
+> Proposal: `Research/proposals/the_ontology_has_a_named_predecessor_and_the_corner_trend_fails_dr3_20261125.md`.
+
+> **📌 THE SUBSTRATE DIFFERS FROM CAI IN TWO PLACES, BOTH COSTS; AT ONE CELL PER TICK THE GRID'S p⁴ TERM MUST DEPEND ON
+> DIRECTION (2026-11-26, site maintainer, from site explorer 2026-11-25 (not re-run by me) and a simulated-visitor
+> researcher persona; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **CAI comparison executed** (explorer, PREREG site `ffac773`; 11-25 stake "no difference changes a prediction"
+> refuted as stated). *Dynamics:* the stated rule (FUNDAMENTALS §1/§3) is a contraction. ΣI² is a Lyapunov function,
+> so its only recurrent states are fixed points, plus a period-2 checkerboard at κ·z = 1, which gives no quantum
+> dynamics in CAI's sense. SPINE's phase-lock erases ≈ 7 bits per lock. So it is either fundamental and irreversible,
+> outside CAI, or decoherence, where QM and CAI already put measurement. Only the focusing Klein–Gordon lattice is
+> CAI-class, as an exact reversible integer automaton, and it keeps its breathers only at ≳ 2¹²–2¹⁴ levels.
+> *Particles:* SPINE's ontic lumps are the "gliders" 't Hooft calls hopeless (§5.7.6). Rb-87 fringes over 54 cm through
+> the lump's own tail need a binding below 10⁻³⁴ mc², so a guiding background field is required (walking-droplet
+> class). On the branch where the stake holds, the move is CAI with a specific lattice rule, and it inherits CAI's
+> open problems (Hamiltonian positivity, Lorentz invariance, the Standard Model). The Stage-1 file is back-annotated:
+> its 0.23 drift was an omitted term, Arm A's 0 % is a theorem, and the classifier has a second false positive.
+>
+> (ii) **Grid dispersion by stencil** (pre-registered at site `823387d` before the script; 4/5 held;
+> `synchronism-site/maintainer/scripts/grid_dispersion_anisotropy_by_stencil.py`). The setup is a massless scalar,
+> leapfrog with λ = c·tick/spacing, and any symmetric 27-point stencil. The O(p⁴/M_Pl²) term is η(n̂) = η₀ +
+> η₄(Σn_i⁴ − 3/5), a cubic ℓ = 4 pattern locked to the grid frame:
+> - the face-neighbour stencil gives η = −1/18 on an axis and 0 on a body diagonal at its stability limit;
+> - the isotropic-error family (w₁ = 4w₃ + 1/6, w₂ = 1/12 − 2w₃) has η ≡ (λ² − 1)/12 for every member, and none is
+>   stable above λ = √3/2;
+> - at FUNDAMENTALS' one cell per tick (λ = 1), all 651 stable stencils found are anisotropic, with |η₄| ≥ 1/24.
+>
+> So, in this class, the p⁴ term cannot vanish, and at the archive's own tick it cannot be isotropic. The miss was P4:
+> no stable stencil removes the term entirely. A visitor persona noted that isotropic quantum-gravity dispersion does
+> not carry this frame-locked ℓ = 4 pattern. It maps onto the anisotropic d = 6 SME coefficients (Kostelecký & Mewes
+> 2009, arXiv:0905.0031); bounds not compared. The site register also cited causal sets as prior art for the
+> dispersion, which was wrong: they are discreteness *without* Lorentz violation (Bombelli, Henson & Sorkin,
+> gr-qc/0605006). This is the one register row whose sign and pattern a commitment would fix. It is **not a bet until
+> a stencil per species is committed**, and that commitment **gates on the project lead**. Scalar field only.
+>
+> (iii) **Record (site).** /consciousness-demo defined u as the log argument in C* = 1/(2γu*); it is ρ/ρ_crit. The
+> landing's "0.88 there" was C at ρ_crit, while the γ = 2 bend sits at ≈ 0.42 ρ_crit with C ≈ 0.60. The DR4 key is now
+> labelled a reading aid, not a registration, 6 days out. The label map now leads with four verdict labels.
+>
+> Proposal: `Research/proposals/commit_a_stencil_the_grids_p4_term_is_the_one_register_row_a_commitment_would_fix_20261126.md`.
 
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance

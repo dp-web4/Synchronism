@@ -76,6 +76,22 @@ all" (no, for the framework's rule) to "what must the substrate give up to make 
   nonlinearity + the perturbation kick. The breather persists with width stable and amplitude
   retained ≈1.0, so it is a genuine bound state, not a numerical blow-up — but a finer-dt
   symplectic confirmation would firm it up.
+  **[Back-annotated 2026-11-26 from the site explorer, 2026-11-25 (pre-registered, site commit `ffac773`; not re-run
+  here). Script `synchronism-site/explorer/tools/substrate_cai_energy_diag.py`.]** Three corrections to this file:
+  (a) **The ~0.23 drift is an omitted-term artefact.** `energy()` leaves out the nonlinear on-site potential
+  V_nl(u) = −γ(u_s²/2)[u² − u_s² ln(1 + u²/u_s²)]. Before the kick the archive function deviates by 0.148, and the true
+  Hamiltonian by 6.2×10⁻⁴. The breather conserves energy as a bound state, so the finer-dt confirmation is not needed.
+  (b) **Arm A's 0 % is a theorem, not a sample result,** inside the time-step stability bound. For any conservative
+  first-order rule with downhill bond flux and R ≥ 0, dΣI²/dt = −2Σ D·R_e(ΔI_e)² ≤ 0. A strict Lyapunov function
+  forbids every periodic orbit except fixed points. One exception: on even rings exactly at κ·z = 1, a period-2
+  checkerboard ([2 0 2 0 …] ↔ [0 2 0 2 …]) recurs. This is the lattice doubler at the Planck frequency, not
+  low-energy dynamics.
+  (c) **A second classifier false positive.** At coarse integer resolution (≤ 2⁷ levels per unit amplitude) the
+  forces round to zero, and a frozen or ballistically drifting lattice passes the oscillation-and-localization test.
+  The diffusion false positive above was the first.
+  Read with the CAI comparison: the monotonic branch has no quantum dynamics in 't Hooft's sense (theorem (b)), and
+  the focusing branch is in CAI's class as an exact reversible integer automaton (Levesque–Verlet leapfrog, 18/18
+  bit-exact reversals). It keeps its breathers only at ≳ 2¹²–2¹⁴ levels and loses them at 2⁸–2¹¹.
 
 ## What it changes / next
 

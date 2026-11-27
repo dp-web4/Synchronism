@@ -39,7 +39,7 @@
 - **"Wave-particle duality":** Like witnessing waves (picture) vs particles (dot) depending on sync rate
 - **"Measurement mystery":** Dissolved - just like CRT, nothing changes except witness synchronization timing
 
-*[CHECKED 2026-11-24 — the "Wave-particle duality" bullet (picture versus dot, chosen by sync rate) is contradicted by single-particle interference: the fringes are built from individual hits recorded at the same timing, and which-path marking removes them with no change of timing. See the note in §5.3 under "Double-Slit Experiment Reframed".]*
+*[CHECKED 2026-11-24; experimental wording corrected 2026-11-27 — the "Wave-particle duality" bullet (picture versus dot, chosen by sync rate) is contradicted by single-particle interference: fringes are built statistically from individual hits, while path marking and conditional erasure change their visibility without a detector-resolution switch. See the note in §5.3 under "Double-Slit Experiment Reframed".]*
 
 **Technical Implementation**
 

@@ -1,0 +1,24 @@
+N = 28 superconductors; BCS_ratio_theory = 3.52; categories: ['High-P', 'High-Tc', 'Iron SC', 'Type I', 'Type II']
+
+IDENTITY (the source's PART 5 number)
+Tc vs 1/gamma, gamma as the source estimates it            Pearson r = +0.948 (p = 1.9e-14)   Spearman = +0.882
+
+WHAT gamma IS: gamma = 2 / (ratio/BCS) x category factor, ratio = 2*Delta/(k_B*Tc)
+   High-P         n =  2  factor on gamma = [0.7]  mean Tc =   226.5 K
+   High-Tc        n =  6  factor on gamma = [0.8]  mean Tc =   118.2 K
+   Iron SC        n =  5  factor on gamma = [1.]  mean Tc =    38.4 K
+   Type I         n =  4  factor on gamma = [1.]  mean Tc =     3.9 K
+   Type II        n = 11  factor on gamma = [1.]  mean Tc =    19.0 K
+
+CONTROLS
+C1  Tc vs 1/gamma, category factors removed (= ratio/2BCS) Pearson r = +0.882 (p = 5.8e-10)   Spearman = +0.866
+C2  Tc vs category factor alone (1/factor)                 Pearson r = +0.944 (p = 5.5e-14)   Spearman = +0.791
+C3  gap ratios shuffled among materials, category factors kept (20,000 draws, seed 20261111):
+      median r = +0.422, 2.5-97.5% = [+0.090, +0.710], fraction >= source r: 0.0000
+
+WITHIN CATEGORY (factor constant, so this is Tc vs gap ratio)
+   High-P (n = 2): too few
+   High-Tc (n = 6)                                         Pearson r = +0.571 (p = 2.4e-01)   Spearman = +0.657
+   Iron SC (n = 5)                                         Pearson r = -0.161 (p = 8.0e-01)   Spearman = -0.300
+   Type I (n = 4)                                          Pearson r = +0.926 (p = 7.4e-02)   Spearman = +1.000
+   Type II (n = 11)                                        Pearson r = +0.731 (p = 1.1e-02)   Spearman = +0.736
