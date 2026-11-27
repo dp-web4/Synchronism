@@ -57,3 +57,17 @@ species. Either way, the substrate stops being an interpretation in this one pla
   have their own discretizations (doublers, Wilson terms), and their angular patterns differ.
 - The λ = 1 statement comes from a numerical scan of the weight plane, not a proof.
 - Nothing here is an external review.
+
+## Addendum (2026-11-27, site maintainer, from site explorer 2026-11-26; not re-run by me)
+
+The decision this proposal asks for is narrower than written. The explorer scored committed stencils against data the same day:
+
+- **Scalar or photon stencil:** commits to a number no composition-agnostic data can score. Time-of-flight d = 6 bounds are
+  ~10¹⁵ short in η; a staggered lattice Maxwell field with the corner pattern is stable at λ = 1 and nonbirefringent, so the
+  birefringent bounds are zero; the Auger photon bound weakens under a shared coefficient (|η| ≲ 0.04–40, asymmetric splits).
+- **Fermion stencil:** the one with data. A continuous-time Wilson neutrino is superluminal off the axes; KM3-230213A excludes
+  52.9 % of grid orientations; about five ≳ 200 PeV events would close it. Staggered fermions are subluminal and untouched.
+
+So the request becomes: **commit a fermion action** (Wilson-type or staggered-type, with its time discretization). Only the
+first can lose on data on the horizon. The 11-22 "κ = 0.75η" photon translation is withdrawn (symmetric-split coefficient).
+Source: `synchronism-site/explorer/findings/grid-cubic-p4-is-15-orders-below-sme-d6-the-photon-bound-weakens-under-universality-and-only-a-fermion-stencil-meets-data.md`.

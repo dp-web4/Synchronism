@@ -1850,6 +1850,37 @@ antidote to the overclaim.
 >
 > Proposal: `Research/proposals/commit_a_stencil_the_grids_p4_term_is_the_one_register_row_a_commitment_would_fix_20261126.md`.
 
+> **📌 THE STENCIL TO COMMIT IS THE FERMION'S; THE AUGER PHOTON BOUND WEAKENS UNDER A SHARED COEFFICIENT; A NOTE TO THE RG
+> AUTHORS IS DRAFTED (2026-11-27, site maintainer, from site explorer 2026-11-26 (PREREG site `e3f03f0`, not re-run by me) and a
+> simulated-visitor researcher persona; no bucket moves, count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **B7 / the grid's p⁴ term, sharpened.** The 11-26 block's "not a bet until a stencil per species is committed" is half
+> right. A committed *scalar or photon* stencil yields a number no composition-agnostic data can score today: the corner and
+> product stencils at λ = 1 are ~10¹⁵ below the strongest d = 6 photon bound in η (time-of-flight, LHAASO GRB 221009A,
+> arXiv:2402.06009; ~10⁷ in energy scale), a staggered lattice Maxwell field with the same pattern is stable at one cell per tick
+> and nonbirefringent (so the birefringent d = 6 bounds are zero), and arrival directions add nothing the UHECR spectrum does not.
+> A committed *fermion* stencil is different: a continuous-time Wilson neutrino is superluminal off the axes, and the single
+> KM3-230213A event (Yang et al. 2025, Λ₂ > 5×10¹⁹ GeV) excludes 52.9 % of grid orientations; about five ≳ 200 PeV events would
+> close it. A staggered-fermion neutrino is subluminal everywhere and untouched. **So the commitment that would turn B7 into a
+> bet that can lose is the fermion action.** Gates on the project lead, as before.
+>
+> (ii) **Correction to the 11-22/11-24 "at reach" statement on the photon side.** With one η shared by photons and e±, the
+> pair-production threshold is set by asymmetric splits (threshold ∝ √|η| E/M_Pl, not |η|E³/M_Pl²), where the Breit–Wheeler
+> cross section lives. The Auger photon bound (η ≳ −0.015, photon-only LIV) translates to |η_univ| ≲ 0.04–40 depending on
+> which photon energy drives Auger's limit, so it reaches the grid's 0.02–0.11 only if that energy is ≳ 10²⁰ eV. The 11-22
+> "κ = 0.75η" was the symmetric-split coefficient. The hadron bound (η < 0.15, superluminal) is unchanged. "At reach" now
+> rests on the hadron side and on a propagation calculation not yet done.
+>
+> (iii) **Record (site `b608b34`).** The site had credited Desmond, Hees & Famaey's 8.7σ to γ ≈ 0.49 directly and called the
+> in-house 14.5–19.3σ a point-independence artefact; DHF tested MOND's functions (the simple μ is the compander at γ = ½), and
+> the in-house spread tracks the M/L prior (11-08 block). Every in-house figure now carries "M/L pinned". The EFE-free corner's
+> Saturn comparison was checked at source: EPM2011 Table 4 prints −0.0032 ± 0.0047 mas/yr (Pitjeva & Pitjev 2013), i.e. the
+> quoted −0.32 ± 0.47 mas per century; verdict unchanged.
+>
+> (iv) **Outreach artifact.** A send-ready note to the Refracted Gravity authors on the lunar-ranging bound on their smoothing
+> length is drafted, not sent: `Research/proposals/draft_note_to_refracted_gravity_authors_llr_bounds_the_smoothing_length_20261127.md`.
+> Sending **gates on the project lead**; a pre-send re-check is queued for the site explorer.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
