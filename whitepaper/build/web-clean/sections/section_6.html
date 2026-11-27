@@ -160,7 +160,10 @@ MRH contexts</li>
 <li><strong>Double-slit:</strong> Sampling rate effects rather than
 wave-particle collapse</li>
 <li><strong>Bell tests:</strong> Pre-correlated patterns rather than
-faster-than-light communication</li>
+faster-than-light communication <em>[NOTE 2026-11-21: pre-correlated
+local patterns are the class the Bell experiments exclude (S = 2.42 ±
+0.20 measured against a local bound of 2); see the CHECKED note in §5.4
+and refutation (6) in §5.15.]</em></li>
 <li><strong>Delayed choice:</strong> Pattern cycling independent of
 measurement timing</li>
 <li><strong>Quantum eraser:</strong> Synchronization timing determines
@@ -654,17 +657,34 @@ unaffected, the margin is. The 4π entered from the compilation chain
 (<code>A = 4π/(α²GR₀²)</code>, session67), not from Session 53, which
 computed <code>A = 0.028</code> without it; the site explorer flagged
 this 2026-08-27 and it is reproduced in
-<code>simulations/publisher_20260828_cesare2020_floor_brackets_and_rho_crit_exponent.py</code>]</em>,
-and the Cassini bound is ℓ-independent (TEST-11 is strengthened, not
-reopened). <strong>There is no parameter-free obstruction on the
-coarse-graining axis, and no ℓ-discriminator to register.</strong> What
-remains open is narrower and prior: <strong>the framework must state
-which of the three conventions <code>C(ρ)</code> means.</strong> It
-cannot be inferred from the fits, because the frozen SPARC instrument is
-keyed on acceleration and never evaluates a density at all (see the
-2026-08-04 provenance note). Until it is stated, every knee statement in
-this document is <em>convention</em>-conditional, not merely
-ℓ-conditional.</p>
+<code>simulations/publisher_20260828_cesare2020_floor_brackets_and_rho_crit_exponent.py</code>]</em>
+<em>[CHECKED 2026-11-18: the cap belongs to one pairing, not to the
+framework’s knee. It needs ρ_crit = A·V² with the same length in A as in
+the smoothing of ρ, the table’s first row. Session 53’s 0.028·V^0.5 is
+that law with R_half ∝ V^0.75 put into A, and the executed density fits
+in §5.15 set it against the midplane density Σ/2h at fixed h = 0.3 kpc,
+so the two lengths differ. There the knee is reached. On SPARC stellar
+surface density alone (Υ_d = 0.5, Υ_b = 0.7, gas left out, so x is a
+lower bound), the innermost point passes x = 1 in 62 of 175 discs: x =
+2.8, 2.6 and 3.9 in NGC 2403, NGC 3198 and NGC 7331, and 0.07 and 0.21
+in DDO 154 and UGC 128
+(<code>simulations/publisher_20261118_virial_cap_is_law_and_length_conditional.py</code>;
+its identity controls reproduce this table’s 0.019 and 0.24 and the
+4.56×10⁻⁵ Jeans A). This agrees with §5.15’s 2026-11-15 note (63 of 153
+discs on the solved midplane density) and with PREDICTIONS.md 2026-11-17
+(ii), which finds three different knee laws behind the headline numbers.
+So “~40× below the knee” is a statement about the two-sided convention.
+The archive’s fits have used a one-sided pairing without saying
+so.]</em>, and the Cassini bound is ℓ-independent (TEST-11 is
+strengthened, not reopened). <strong>There is no parameter-free
+obstruction on the coarse-graining axis, and no ℓ-discriminator to
+register.</strong> What remains open is narrower and prior: <strong>the
+framework must state which of the three conventions <code>C(ρ)</code>
+means.</strong> It cannot be inferred from the fits, because the frozen
+SPARC instrument is keyed on acceleration and never evaluates a density
+at all (see the 2026-08-04 provenance note). Until it is stated, every
+knee statement in this document is <em>convention</em>-conditional, not
+merely ℓ-conditional.</p>
 <p><strong>What this is not.</strong> A 2026-08-05 proposal reads the
 archive’s 644× A-calibration gap as this same coarse-graining length (ℓ
 ≈ 317 pc ≈ the disk scale height). The reading fails, but not for the
@@ -684,8 +704,11 @@ Consequences 1 and 2 (the one-signed Jensen bias and its magnitude) are
 unaffected and stand as written, with one qualification now visible:
 their practical reach depends on which convention holds, since the
 two-sided convention keeps every bound system ~40× below the knee where
-the bias is largest. The 2026-08-06 NGC 3198 figures also used R_d = 2.6
-kpc against SPARC Table 1’s 3.14 kpc, inflating ρ(0) by 1.46×.</p>
+the bias is largest <em>[CHECKED 2026-11-18: two-sided convention only;
+under the pairing the executed fits use, 62 of 175 SPARC discs reach the
+knee, see the 2026-11-18 note above]</em>. The 2026-08-06 NGC 3198
+figures also used R_d = 2.6 kpc against SPARC Table 1’s 3.14 kpc,
+inflating ρ(0) by 1.46×.</p>
 <p><strong>OQ-Discriminators — Quantitative deviations from GR/QM
 <code>[PARALLEL-PATHS]</code> (gated on OQ-fN)</strong></p>
 <p>Once <code>f(N)</code> is derived, quantify the predicted deviation

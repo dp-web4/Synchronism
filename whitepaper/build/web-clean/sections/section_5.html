@@ -452,6 +452,59 @@ patterns to create correlation</li>
 witnessing already-synchronized patterns, not from pattern
 interaction</li>
 </ul>
+<p><em>[CHECKED 2026-11-21: as written, this subsection describes the
+class that Bell’s theorem and the Bell experiments exclude. Patterns
+“synchronized from the start”, whose outcomes are “determined by pattern
+structure” (EPR bullets below), with nothing passing between them, are
+local hidden variables. That is the picture of Bell’s own “Bertlmann’s
+socks” (J. Phys. Colloq. 42, C2-41, 1981), and of the two CRT screens
+above. With free setting choice, every such model obeys CHSH S ≤ 2.
+Quantum mechanics reaches 2√2, and a loophole-free experiment measures S
+= 2.42 ± 0.20 (Hensen et al. 2015, Nature 526, 682). The framework’s own
+test agrees: the B1 harness, run on a local and on a nonlocal-grid
+construction of this substrate, gives S = 1.98 and 2.0 (§5.15,
+refutation (6)). So in the local reading these correlations are what the
+picture cannot produce, not what it explains. The analogy note above
+names the one route still open, “a global tension structure that the
+parallel update evaluates simultaneously everywhere”: a global,
+instantaneous update in a preferred frame. Global synchrony alone does
+not fix the dynamics. Bohm-type models with a preferred foliation are
+one worked-out example of such dynamics, and they are prior art. Hidden
+influences at a finite speed close only under an assumption. Bancal et
+al. 2012 (Nature Physics 8, 867) show that any such model reproducing
+the relevant quantum correlations would allow faster-than-light
+signalling, so if no such signalling is possible, every finite speed is
+excluded. Salart et al. 2008 (Nature 454, 861) give a lower bound, not
+an exclusion: at least 10⁴ c if Earth moves slower than 10⁻³ c in the
+preferred frame. A global update is not the neighbour update
+FUNDAMENTALS.md writes, and choosing between them gates on dp. One
+further point, the Publisher’s own reading rather than the source’s: the
+first bullet sets local realism beside “probabilistic collapse”, which
+is not part of it. Local realism is the assumption of pre-existing local
+values with no influence faster than light, and it is what the
+experiments refute. Source: <code>PREDICTIONS.md</code> back-annotation
+<code>3ad8c74b</code> (i); §5.15 refutation (6). [UPDATE 2026-11-26] Two
+further runs of the same suite
+(<code>simulations/kuramoto-lattice-suite/</code>) bear on this. On the
+framework’s own saturating Intent-density substrate, in place of
+borrowed phase oscillators, the harness gives S = 1.85 (script 05). The
+CRT scanning picture also gives every observable a definite value,
+whatever is measured beside it. Kochen–Specker excludes that for
+Hilbert-space dimension 3 and up: 0 of 512 such value assignments
+satisfy the Peres–Mermin square (script 06). The Publisher re-ran
+scripts 02, 05 and 06, and the outputs are byte-identical to the
+committed results. A second escape exists besides a global update:
+measurement settings correlated with the patterns (superdeterminism),
+which B1’s registration counts as a refutation. That route has a
+worked-out predecessor that this paper never cites: ’t Hooft, <em>The
+Cellular Automaton Interpretation of Quantum Mechanics</em> (Springer,
+2016; arXiv:1405.1548). It treats a classical, deterministic system at
+the smallest scales with quantum techniques, and argues it can be
+reconciled with Bell’s theorem through superdeterminism “at least in
+principle” (abstract read; <code>PREDICTIONS.md</code> 2026-11-25,
+<code>b5f8e45a</code>). Whether any difference between the two
+ontologies changes a prediction is untested. Restating the contribution
+against CAI gates on dp.]</em></p>
 <p><strong>Measuring “Entangled” Particles</strong></p>
 <p>When you measure one “entangled” particle:</p>
 <ul>
@@ -1817,8 +1870,22 @@ carries <code>framework_sessions: 2671</code> and
 Archivist-owned files. Referred, not changed here. The relevant figure
 is <strong>Δr = r(Synchronism) − r(best monotonic null)</strong>, not r
 against an implicit null of r=0; on textbook monotonic-with-Z data the
-best monotonic null is itself expected at r ≈ 0.95+. Read every “89%
-validated” and r &gt; 0.95 figure below under that caveat.</p>
+best monotonic null is itself expected at r ≈ 0.95+. [<strong>CHECKED
+2026-11-02:</strong> over the sampled Z = 1–54 values the best monotone
+function of Z fits electronegativity at r = 0.33, contradicting a
+universal r ≈ 0.95+ claim. The chemistry-row Z-null remains unmeasured;
+its row selection is unpublished. The verdict rests on S669’s γ_phonon ≡
+2T/θ_D, not on this null. Full note at S651.] [<strong>UPDATE
+2026-11-03:</strong> the real-row Z-null has since been run. On the 10
+property rows recoverable from the session scripts (#80, #109, #110,
+#114, #115, #118; n = 19–33 per row, Z = 3–82) it fails: |r(P, Z)| ≤
+0.53 (linear, √Z and ln Z) and quadratic-in-Z R ≤ 0.51, against
+framework r = 0.60–0.98 (site explorer, pre-registered, back-annotation
+<code>5709b579</code>; re-run by the Publisher 2026-11-03, output
+identical). The high r values are identities, not a Z trend: r(P,
+1/γ_phonon) ≡ r(P, θ_D), and γ_optical = IE_ref/IE, so the optical rows
+are correlations with ionization energy. See Appendix B.2.] Read every
+“89% validated” and r &gt; 0.95 figure below under that caveat.</p>
 </blockquote>
 <hr />
 <p><strong>MAJOR DISCOVERY: Two Orthogonal Coherence Channels (Session
@@ -2204,6 +2271,19 @@ navigation, photosynthesis</li>
 </tr>
 </tbody>
 </table>
+<p>[<strong>CHECKED 2026-11-11:</strong> the “Superconductivity” row’s γ
+is not independent of T_c. In its source (chemistry session #62,
+<code>simulations/chemistry/superconductivity_coherence.py</code>,
+commit <code>e4c903f5</code>) each material’s γ is computed from its own
+gap ratio, γ = 2 × 3.52 / (2Δ/k_B T_c), and then multiplied by a
+hand-set 0.8 for cuprates and 0.7 for high-pressure hydrides. The test
+is a linear correlation of T_c with 1/γ over 28 materials, not a fit of
+T_c ∝ exp(−γ/λ). Re-run: r = 0.948 reproduces. The category factor alone
+gives r = 0.944; with the factors removed r = 0.882, which is the known
+rise of the gap ratio with T_c. Script:
+<code>simulations/publisher_20261111_tc_gamma_control.py</code>. The
+site blanked this row as untraced on 2026-11-10; it is traced, and this
+is what the trace shows.]</p>
 <p><strong>Complete prediction list:</strong> <a
 href="https://github.com/dp-web4/Synchronism/blob/main/Research/Chemistry/MASTER_PREDICTIONS.md">Master
 Predictions</a></p>
@@ -2883,17 +2963,23 @@ distinguishing it from MOND in the testable regime.</p>
 <td>N/A</td>
 <td>From thermal decoherence — <strong>but not the value the galaxy
 sector runs at</strong>; SPARC selects γ ≈ 0.489 ≈ ½ and fitting γ is
-out-of-sample <em>harmful</em> (2026-08-21, below)</td>
+out-of-sample <em>harmful</em> (2026-08-21, below) <em>[at fixed Υ;
+SPARC cannot tell ½ from the RAR function’s 0.595, CHECKED 2026-11-17
+below]</em></td>
 </tr>
 <tr>
 <td>Golden ratio exponent 1/φ</td>
-<td><strong>VALIDATED</strong></td>
+<td><strong>VALIDATED</strong> — <em>checked 2026-11-11: not excluded,
+not validated (about 2σ preference; MOND’s exponent also fits); see note
+below</em></td>
 <td>1σ</td>
 <td>Within 1σ of Gaia DR3 best fit (Session #239)</td>
 </tr>
 <tr>
 <td>a₀ = cH₀/(2π)</td>
-<td><strong>DERIVED</strong></td>
+<td><strong>DERIVED</strong> — <em>checked 2026-11-11: reproduces
+Milgrom’s known cH₀/6 coincidence, and matches at one mass-to-light
+ratio only; see note below</em></td>
 <td>10%</td>
 <td>MOND connection</td>
 </tr>
@@ -2917,9 +3003,12 @@ out-of-sample <em>harmful</em> (2026-08-21, below)</td>
 </tr>
 <tr>
 <td>S₈ = 0.763</td>
-<td><strong>PREDICTED</strong></td>
+<td><strong>PREDICTED</strong> — <em>checked 2026-11-11: a retrodiction;
+the DES/KiDS values it matches predate Session #102; see note
+below</em></td>
 <td>Matches DES/KiDS</td>
-<td>Independent validation</td>
+<td>Independent validation <em>(not independent: same σ₈ ≈ 0.76 sits
+2.4σ from DESI; see note below)</em></td>
 </tr>
 <tr>
 <td>GW as coherence perturbations</td>
@@ -2950,6 +3039,44 @@ out-of-sample <em>harmful</em> (2026-08-21, below)</td>
 <p><strong>Key distinction</strong>: DERIVED = follows from axioms.
 CONSTRAINED = form determined by observation, then used predictively.
 TESTED = validated against empirical data.</p>
+<p><strong>[CHECKED 2026-11-11] Three rows of the table above say more
+than their sources support.</strong> The Status cells are left as first
+printed; changing them is the project lead’s call. <em>(2026-11-13: each
+of the three cells now carries a short dated qualifier beside its label,
+so a reader meets the qualification in the table itself and not only
+here; the labels are unchanged.)</em> Each point below can be checked
+from numbers this paper or the cited session already prints.</p>
+<ul>
+<li><strong>a₀ = cH₀/(2π), “DERIVED”.</strong> The project’s own ledger
+files this row as dimensional bookkeeping that reproduces Milgrom’s 1983
+coincidence a₀ ≈ cH₀/6, not as a derivation (1/2π = 0.159 against 1/6 =
+0.167, 4.5% apart; <code>PREDICTIONS.md</code>, Bucket 3, since
+2026-07-05). The 2026-11-09 update further down this section adds that
+the numerical match holds at one mass-to-light ratio only. With γ pinned
+at ½, the fitted scale moves 1.44 → 1.10 → 0.87×10⁻¹⁰ m s⁻² across
+Υ_disk = 0.4 / 0.5 / 0.6, and cH₀/2π equals it only for H₀ ≈ 93 / 71 /
+57 km s⁻¹ Mpc⁻¹.</li>
+<li><strong>Golden ratio exponent 1/φ, “VALIDATED”, 1σ.</strong> Session
+#239’s own scan gives a best-fit exponent of 0.688 with a 1σ interval of
+0.609–0.802. 1/φ = 0.618 lies 0.009 inside the lower edge, every
+exponent in that interval is “within 1σ” in the same sense, and 2/3 is
+closer to the best fit than 1/φ is. MOND’s exponent of 1 scores χ² =
+6.96 on the same nine degrees of freedom (reduced χ² 0.77), so these
+data do not reject it; the preference for 1/φ is Δχ² = 4.0, about 2σ.
+Session #218’s own derivation route “gives exponent 1, not 1/φ” and
+leaves the origin of 1/φ as a list of possibilities. The row supports
+“not excluded”, not “validated”. Not re-checked here: the wide-binary
+points Session #239 fitted.</li>
+<li><strong>S₈ = 0.763, “PREDICTED”, “Independent validation”.</strong>
+Session #102 is dated 9 December 2025. The DES Y3 and KiDS-1000 values
+it is compared with were published in 2020–2022, so the agreement is a
+retrodiction. The number is the growth-suppression factor 0.9425 (script
+re-run 2026-11-11) times Planck’s σ₈ = 0.81; that is a σ₈, and it equals
+S₈ only at the script’s Ω_m = 0.3. It is also the same σ₈ ≈ 0.76 that
+the status note above sets against DESI’s GR-conditioned 0.841 ± 0.034,
+2.4σ away. One number therefore agrees after the fact with two lensing
+surveys and sits 2.4σ from a third dataset.</li>
+</ul>
 <hr />
 <p><strong>The Coherence Model of Dark Matter</strong></p>
 <p><strong>Core Mechanism:</strong> Gravitational dynamics depends on
@@ -2998,8 +3125,38 @@ scope; the refutation count of 6 is not changed here (a recount gates on
 the project lead). Source: <code>PREDICTIONS.md</code> 2026-09-29 block;
 script
 <code>synchronism-site/maintainer/scripts/gamma2_pin_galaxy_level.py</code>,
-re-executed by the Publisher on 2026-10-18 with byte-identical
-output.</li>
+re-executed by the Publisher on 2026-10-18 with byte-identical output.
+<strong>[UPDATE 2026-11-09] Both figures hold Υ_disk = 0.5 (Υ_bulge =
+0.7) for both laws.</strong> With one global Υ_disk per law on the same
+2,807 points (site <code>5a95614</code>, predictions written before the
+script; identity +184.0 reproduced at Υ_disk = 0.5), γ = 2 fits best at
+Υ_disk = 0.61 and McGaugh’s ν at 0.54, same parameter count, and the
+ΔBIC is <strong>+46.2</strong> by point and <strong>+2.73</strong> with
+N → N_gal, under the ΔBIC &gt; 10 kill criterion. A galaxy-block
+bootstrap that refits Υ and a₀ per law in every resample gives median
++46, 95% [−26.1, +132.5], P(ΔBIC ≤ 0) = 0.12 (the same resamples at
+frozen 0.5: [29, 347]); γ = 2 is worse in 90/166 galaxies at its own Υ.
+At a common Υ the sign flips near 0.61: +184 at 0.50, +10 at 0.60, −65
+at 0.65. Noise-free twins put a McGaugh world at +44 and a γ = 2 world
+at −43, so the data sit where a McGaugh world puts them, about 2.2σ from
+a γ = 2 world on the bootstrap sd of about 40, which agrees with the
+explorer’s 09-29 per-galaxy 1.9–2.3σ. The reading rule fixed before the
+run returned R1: <strong>read the row as disfavoured at about 2σ, not
+refuted at +184.</strong> The registered B2 text says “marginalized
+BIC”, so the frozen-Υ number was never the registered statistic (count
+item (1) below is annotated to match). Whether the row stays among the
+six joins the counting-rule question, which gates on the project lead;
+the range already carries −1 for it. Count HELD at 6. Limits: one global
+Υ per law with Υ_bul = 1.4 Υ_disk (the explorer’s 09-29 run is the
+per-galaxy one); the six predictions were written from the persona’s own
+table, so the run confirms a number and is not a blind test; and every γ
+is a MOND μ in the deep regime (C ≈ γx, so a₀ = a₀′/γ), so the
+comparison selects among MOND’s interpolating functions, as the 08-04
+note already says. Source: <code>PREDICTIONS.md</code> back-annotation
+<code>6fe7b696</code> (i)–(ii);
+<code>synchronism-site/maintainer/scripts/gamma2_global_upsilon_per_law.py</code>
+and <code>gamma2_global_upsilon_twin_power_posthoc.py</code>, both
+re-run by the Publisher 2026-11-10 with byte-identical output.</li>
 <li><strong>the <code>+ 1</code></strong>: a regulator, adopted so the
 log stays finite at ρ = 0 — and, as of 2026-08-21, the term known to be
 carrying the most physics. It does not merely regularize: it
@@ -3010,7 +3167,23 @@ equation names no principle that fixes that index.</li>
 (Session #64). <strong>The galaxy sector does not run at this
 value.</strong> SPARC selects γ ≈ 0.489 ≈ ½ — the exact MOND point
 (identity below) — and out of sample, <em>freezing</em> γ at ½ predicts
-held-out galaxies <strong>better</strong> than fitting it.</li>
+held-out galaxies <strong>better</strong> than fitting it. <em>[CHECKED
+2026-11-17: “selects ½” holds at Υ_disk = 0.5, and SPARC cannot tell ½
+from the empirical RAR’s own value. Fitted with no data to each
+incumbent curve over SPARC’s g_bar range, the template returns 0.500 for
+MOND’s simple μ (identity, a₀′ = a₀/2) and 0.595 for McGaugh et al.’s
+RAR function (0.52–0.60 across five g_bar ranges). With nuisances refit,
+careful SPARC fits return 0.58–0.62, with 95% ranges reaching about
+0.43–0.95 (relayed from <code>PREDICTIONS.md</code>, 2026-11-16 block
+(i), not re-run here). That is the RAR’s value, about 0.1 from ½ against
+a per-galaxy σ of about 0.11. The fitted γ is the incumbent’s γ and can
+be predicted from the incumbent’s curve alone, so it does not pick
+simple μ over the RAR function. The 0.489 is the fixed-Υ slice that the
+DE-sector paragraph below already scopes (“q = 2γ spans [0.5, 1.9]
+across the band”). Source: back-annotation <code>d71f1f8b</code>; site
+explorer <code>gamma_incumbent_map/{nest,rng,dmap,dict}.py</code>,
+re-run by the Publisher 2026-11-17 with byte-identical output. Words
+added, none removed.]</em></li>
 </ul>
 <p><strong>Physical Interpretation:</strong> Low-density regions have
 low coherence → enhanced effective gravity → appears as “dark matter”
@@ -3148,7 +3321,10 @@ substitution. Every other galaxy-sector result (BTFR slope, DM-fraction
 ceiling, RAR shape) is downstream of whether that substitution holds.
 And the SPARC form-selection table’s preferred form is Hill n = 1
 <em>exactly</em>, i.e. γ = 1/2 — so the data select the MOND point
-rather than merely tolerating it.</p>
+rather than merely tolerating it. <em>[NOTE 2026-11-17: SPARC’s fitted γ
+moves with the Υ treatment and cannot separate ½ from the RAR function’s
+0.595; see the CHECKED 2026-11-17 note on the γ = 2 bullet
+above.]</em></p>
 <p><strong>[AMENDED 2026-08-04] Where the substitution actually sits —
 and it is not between Synchronism and MOND.</strong> The frozen,
 pre-registered instrument that produced <em>every</em> number quoted in
@@ -3271,8 +3447,56 @@ best-achievable conditional scatter on ρ). What it does supply is the
 answer to a fair standing challenge — <em>has the density-keyed
 equation, which is the actual novel claim, ever been
 <strong>fitted</strong>?</em> — previously answerable only as “evaluated
-at fixed γ, not fitted.” It has now been fitted, freely, and it
-loses.</p>
+at fixed γ, not fitted.” It has now been fitted, freely, and it loses.
+<strong>[CHECKED 2026-11-04] “Switching the density dependence
+<em>off</em>” overstates what the free fit did.</strong> γ_ρ = 0.046 is
+small only beside the knee the fit chose. A re-run of the site’s
+pre-registered knee-placement fit (<code>synchronism-site</code>
+<code>75e6a15</code>,
+<code>explorer/findings/scripts/density_law_knee_placement.py</code>,
+the source’s 122-galaxy cut, so the +2,843 row; output byte-identical to
+the recorded one) puts the single free ρ_crit at <strong>4.4×10⁻⁶
+M☉/pc³</strong>, more than 100× below 97.4% of the disc points. The
+discs therefore sit in the logarithmic regime, C ≈ γ·ln(ρ/ρ_crit), where
+γ and ρ_crit are separately identified (Hessian correlation +0.89). The
+density response that remains is weak but present: boost ∝
+ρ<sup>−0.10</sup> (5–95% of points: exponent 0.06–0.17), and a constant
+boost with no density dependence at all (C = 0.38, a uniform 2.6×
+stretch) is worse than the fit by <strong>ΔBIC +945</strong> (the source
+puts this at z ≈ 6 at galaxy level; that width was not re-derived here).
+Read the γ_ρ result as: <em>the fit keeps only a weak density response,
+close to a constant 2.6× stretch, and still loses.</em> The same run
+sizes the calibration this paragraph leaves unpriced. At the
+derivation’s own A = 4.6×10⁻⁵ in ρ_crit = A·V², the best γ turns the law
+into Newtonian gravity (ΔBIC <strong>+6,593</strong> against the
+acceleration keying; Newton alone, +6,636). Pinning γ = 2 as well gives
+<strong>+10,372</strong> (the +5,957 above frees the knee). That figure
+was recomputed here independently, because the committed supplementary
+script does not print it: its recorded output carries two lines (this
+one and the +945 width) that its code does not produce. The
+density-keyed law loses at every calibration tried. “It loses” and the
+count of 6 are unchanged. [<strong>UPDATE 2026-11-05:</strong> the weak
+response above belongs to the <em>fit</em>, not to the data. On the same
+2,438 points and 122 galaxies, the boost shows no detectable dependence
+on local density once <code>g_bar</code> is known (site
+<code>2ba2480</code>, pre-registered at <code>4891f7e</code>,
+<code>explorer/findings/scripts/density_partial_beyond_gbar.py</code>;
+re-run here, output byte-identical to the recorded one). Added to the
+acceleration-keyed law with every parameter refit, a log ρ term takes
+slope −0.001 and costs ΔBIC +7.7. Against a free cubic in log
+<code>g_bar</code> it takes +0.003, galaxy-bootstrap 95% CI −0.022 to
++0.027. The test can see a response of the size at issue: injected
+slopes of −0.05 and −0.10 are recovered at −0.047 and −0.097. log
+<code>g_bar</code> and log ρ correlate at +0.84 on these points. The
+data’s slope of log boost on log ρ is −0.211, and a model that never
+sees ρ reproduces it to 0.2%; the density law’s fitted values carry
+−0.12 of it, about half. So the ρ<sup>−0.10</sup> response and the ΔBIC
++945 over a constant boost are <code>g_bar</code>’s information reaching
+the fit through ρ. They are not evidence of density keying. This is what
+the form-free 2026-08-02 result below (<em>“The substitution is what the
+data exclude”</em>: at most 25% weight on a local-density variable)
+already said, and the 2026-11-04 note should have cited it. The verdict
+and the count of 6 are unchanged.]</p>
 <p><strong>(4) The six refutations are not a ledger over one model — and
 the recount is one smaller in one cell than its source states.</strong>
 The source assigns them to three different coherence functions:
@@ -3637,7 +3861,33 @@ holds and <strong>EFE = 0 exactly</strong> — not an artifact of missing
 dynamics but the signature of that linearity, where AQUAL’s EFE comes
 from its nonlinearity. The polarization force this adds,
 <code>C′(ρ)|∇Φ|²/8πG</code>, is ≤ 2×10⁻⁵ of g across five SPARC
-galaxies: observationally free. The retraction’s <em>conclusion</em> is
+galaxies: observationally free. <em>[CHECKED 2026-11-15:
+“observationally free” rests on ρ_crit sitting far above disc densities,
+which is the reason the 08-04 source gives. That holds only at the
+0.029·V² knee, which the 2026-11-14 back-annotation identifies as a
+units slip. At the archive’s own 0.028·V^0.5 knee, bulges and inner
+discs cross the knee (63 of 153 SPARC discs on the solved midplane
+density), and the striction is not 10⁻⁵ of gravity. Midplane radial
+striction is median 5.4×10⁻³ of gravity at γ = 0.489 and 1.6×10⁻² at γ =
+2, with maxima 0.26 and 0.51, and in 3,035 points it never pushes
+outward harder than gravity. Vertical striction (post-hoc) is median 9%
+and 27% of vertical gravity, and above half of it somewhere in 40 and
+110 of 153 discs, with maxima 1.9× and 13×. It points the same way as
+gravity in about 99% of the |ratio|-weighted cells, so it compresses the
+disc. The radial term is small but not free. The vertical term is of
+order gravity, so a statement that rotation-curve verdicts carry over
+under this action holds only at fixed disc thickness: a self-consistent
+vertical equilibrium has not been solved. This note scopes the striction
+magnitude only; the EFE statements in this paragraph are a separate open
+item. Count HELD at 6. Source: site explorer 2026-11-14
+(<code>6d97ef9</code>; pre-registered at <code>f9b5293</code> for the
+radial half, vertical half post-hoc), not yet back-annotated into
+<code>PREDICTIONS.md</code>; scripts
+<code>synchronism-site/explorer/scripts/l3_striction_archive_v05_knee.py</code>,
+<code>l3_vertical_striction_archive_v05_posthoc.py</code> and
+<code>l3_vertical_striction_sign_posthoc.py</code>, re-run by the
+Publisher 2026-11-15 (output identical to the committed files apart from
+elapsed-time lines).]</em> The retraction’s <em>conclusion</em> is
 therefore strengthened, not weakened — EFE = 0 now stands
 constructively. <em>(This paragraph originally continued “and its
 tension with Chae et al. 2020’s ~4σ SPARC detection is sharper.” That
@@ -3773,16 +4023,237 @@ in the whitepaper body) and the Bell/CHSH substrate refutation
 <strong>zero</strong> occurrences; the only “Bell” in these sources is
 the exposition of Bell’s theorem in §5.4 and a prior-art specificity
 list). The six, each with the statistic it was registered on and the
-data it used, are: <strong>(1)</strong> RAR transition shape at γ = 2 —
-marginalised BIC on SPARC, ΔBIC = +184; <strong>(2)</strong> BTFR slope
-(TEST-09) — SPARC, |Δn| = 0.41 against a registered bar of 0.3;
-<strong>(3)</strong> dwarf DM-fraction ceiling (TEST-10) — SPARC, 69% of
-galaxies above f_DM = 1 − Ω_m = 0.685; <strong>(4)</strong> RAR
-environment dependence (TEST-08) — SPARC × Cosmicflows-4, r² = 0.0001
-against a registered &gt; 0.20; <strong>(5)</strong> the SPARC × Cassini
-joint squeeze (TEST-11) — +17.95σ; <strong>(6)</strong> the
-observer-relative Bell/CHSH substrate bet (B1) — S = 1.98 ≤ 2 on both
-arms.</p>
+data it used, are:</p>
+<p><strong>(1)</strong> RAR transition shape at γ = 2 — marginalised BIC
+on SPARC, ΔBIC = +184 <em>[CHECKED 2026-11-09: the +184 is not a
+marginalised BIC. The frozen 2026-07-22 pipeline that reproduces +184.0
+holds Υ_disk = 0.5 (Υ_bulge = 0.7) for both laws, the same fixed
+convention the M/L paragraph below records for the SPARC rows; S661’s
+own description, “M/L + distance marginalized”, is not re-checked
+against S661’s code here. With one global Υ_disk per law the same
+comparison gives +46.2 by point and +2.73 with N → N_gal, about 2σ on a
+galaxy-block bootstrap (95% [−26.1, +132.5]), and the reading rule fixed
+before that run reads the row as disfavoured, not refuted. So the
+statistic this item names was never the number printed beside it.
+Whether the row stays among the six is the open counting-rule question
+(gates on the project lead); the range already carries −1 for it. Count
+HELD at 6. Source: <code>6fe7b696</code> (i); the 11-09 UPDATE on the
+10-18 SCOPED note above; <code>gamma2_global_upsilon_per_law.py</code>
+(PREREG <code>5a95614</code>), re-run by the Publisher 2026-11-10 with
+byte-identical output.]</em>;</p>
+<p><strong>(2)</strong> BTFR slope (TEST-09) — SPARC, |Δn| = 0.41
+against a registered bar of 0.3 <em>[CHECKED 2026-11-06: the registered
+rule compares the point estimate with 0.3, and on that rule TEST-09
+fires. A paired galaxy bootstrap (B = 4000, both slopes refit on each
+resample, error correlation ρ = +0.14) gives σ(Δn) = 0.112. So |Δn| =
+0.406 is 3.6σ from zero but only 0.95σ above the bar, and 16% of
+resamples fall at or under 0.3. A rule that required the bar itself to
+be excluded at 2σ would not fire. This is a second convention on which
+TEST-09 leaves the count, beside the floor convention in the
+<code>Ω_m</code> versus <code>Ω_m/Ω_b</code> paragraph below. Count HELD
+at 6. Source: site explorer <code>da1308c</code> (pre-registered at
+<code>c9ff6ab</code>), re-run by the Publisher 2026-11-06 with
+byte-identical output and its identity control passing.]</em>;</p>
+<p><strong>(3)</strong> dwarf DM-fraction ceiling (TEST-10) — SPARC, 69%
+of galaxies above f_DM = 1 − Ω_m = 0.685 <em>[CHECKED 2026-11-09: the
+registered rule has no significance term, so the row fires as registered
+and the count holds. As a bound on the boost cap it is weaker than the
+sample maximum suggests. With distance, inclination, Υ and gas profiled
+on the outer half of each curve (post-hoc), the framework’s B = 3.175 is
+excluded at χ² ≥ 9 by 28 of 153 discs and by 10 after a 153-disc
+correction (χ² ≥ 18.4). Ω_m/Ω_b = 6.39 is excluded by 2 discs at χ² ≥ 9
+and by none after the correction. The largest excluded cap is about 7.5
+at χ² ≥ 9 and about 5.7 after the correction, both set by one disc (NGC
+2915). The pre-registered all-radii scan reaches 14 and 9 instead, but
+only through UGC 06667’s inner points, where SPARC lists V_gas = 0.0 and
+the gas nuisance cannot act. Limits: no asymmetric drift, beam smearing
+or non-circular motions, and χ² is treated as χ²-distributed despite
+one-sided residuals. A joint population statistic is unrun and could be
+tighter. Source: <code>PREDICTIONS.md</code> back-annotation
+<code>82d9a3a8</code> (ii); scripts
+<code>synchronism-site/maintainer/scripts/test10_bmax_3sigma_scan.py</code>
+(pre-registered at <code>0be9704</code>) and
+<code>test10_bmax_3sigma_diag_posthoc.py</code>, both re-run by the
+Publisher 2026-11-09 with byte-identical output.]</em> <em>[CHECKED
+2026-11-16: “by none after the correction” is a result about discs. It
+does not mean the 6.39 cap survives the dynamics. The archive’s own
+pressure-supported table (site explorer 2026-08-23) gave the boost Draco
+and Crater II require as 101 and 60, but tested it only against caps of
+3.17 and 13.7. Tested at 6.39 in σ-space, with no gas term and no
+light-deflection rule: Draco z = 5.7 at fiducial M/L and 4.9 at M/L = 4;
+Crater II 6.1 and 4.9. Both clear the six-system Šidák threshold of z =
+3.51. The escapes are M/L ≥ 8.4 (Crater II) to 11.6 (Draco), where old
+metal-poor populations sit near 1–3, or a measured σ inflated by tides
+by 1.26–1.33×. Either way the open escape is non-equilibrium, not a
+missing light rule. Draco is also a failure for MOND+EFE, so it counts
+against the cap and not for MOND; Crater II is where McGaugh’s 2016
+a-priori MOND prediction held. One correction to the source, found on
+re-run: the 08-23 table and this test use σ_N² = G·M_1/2/(4·r_1/2) with
+r_1/2 labelled three-dimensional. Wolf et al. 2010 give the coefficient
+3 for the three-dimensional radius; 4 belongs with the projected R_e. So
+the archive’s required boosts are 4/3 too high (Draco 76, Crater II 45).
+At the coefficient 3 and M/L = 4 the exclusion still holds (Draco z =
+4.48, Crater II 4.21), the escape M/L values fall to 6.3 (Crater II) and
+8.7 (Draco), still above old populations, and the largest cap Draco
+excludes after trials falls from about 14.7 to about 11.0. With L_V also
+raised 30% as a stress test, Crater II sits at 3.54, on the threshold,
+and Draco at 4.04. Limits: quoted σ errors only, with no anisotropy,
+r_1/2 or distance uncertainty, and an equilibrium estimator. Count HELD
+at 6, because TEST-10 already fires as registered. Source:
+<code>PREDICTIONS.md</code> back-annotation <code>f971b1bc</code> (i);
+script
+<code>synchronism-site/maintainer/scripts/cap6p39_vs_dsph.py</code>
+(pre-registered at site <code>c7d729c</code>, not blind; its identity
+control reproduces all six 08-23 values), re-run by the Publisher
+2026-11-16 with byte-identical output; the coefficient and luminosity
+sensitivity is
+<code>simulations/publisher_20261116_dsph_cap_estimator_sensitivity.py</code>,
+whose k = 4 rows reproduce the source.]</em> <em>[CHECKED 2026-11-20:
+two points about the numbers in the 11-16 note. (a) Which threshold. The
+escapes it gives (M/L ≥ 8.4 and 11.6 at coefficient 4, 6.3 and 8.7 at
+coefficient 3; tidal inflation 1.26–1.33×) are the source script’s
+passes at a local 3σ, although the sentence before them names the trials
+threshold 3.51. At 3.51 the escapes are M/L ≥ 5.3 (Crater II) and 6.9
+(Draco) at coefficient 3 (7.0 and 9.2 at 4), and a σ inflation of 1.15×
+and 1.31× at M/L = 4, with the error scaled with σ. The site’s
+2026-11-19 figures are these. Both sets are right for their own bar, and
+old metal-poor populations (M/L near 1–3) sit below both. (b)
+Walker+2009. The site’s 11-19 re-read also calls the exclusion
+“estimator-conditional at its edge”: under Walker+2009, Crater II falls
+to z = 2.9 and Draco to 3.7 at M/L = 4. That row sets Walker’s mass,
+which is the mass inside a sphere of radius R_e (the projected
+half-light radius), equal to half the light. For a Plummer profile that
+sphere holds 0.354 of the light, not 0.5. With the light matched to the
+aperture, Walker becomes the half-light form with coefficient 2.71
+(Wolf’s is 3), and at M/L = 4 it gives Crater II z = 3.96 and Draco
+4.31, both past 3.51 (escape M/L at 3.51: 4.7 and 6.2). So the exclusion
+does not change between the two published estimators. It stays
+conditional on M/L, on equilibrium (the site reports Crater II as
+tidally disturbed) and on the inputs, and the L_V × 1.3 stress test
+above, which puts Crater II at 3.54, is still its edge. Limits: a
+Plummer profile for the aperture fraction; Walker’s estimator taken in
+its published form, not re-derived. Count HELD at 6. Source:
+<code>PREDICTIONS.md</code> back-annotation <code>b26f6fa9</code> (i);
+site script
+<code>synchronism-site/maintainer/scripts/cap6p39_vs_dsph_estimator.py</code>,
+whose rows
+<code>simulations/publisher_20261120_dsph_walker_aperture.py</code>
+reproduces as its identity control before adding the aperture-matched
+row.]</em> <em>[UPDATE 2026-11-21: Crater II is observed disrupting.
+Limberg et al. (arXiv:2512.02177, accepted in ApJ; abstract read by the
+Publisher) find “a ≈7σ velocity gradient consistent with its tidal
+debris track”, with a central dispersion of 2.51 km/s. The equilibrium
+condition the notes above carry therefore fails for Crater II, and the
+dSph leg rests on Draco alone. At M/L = 4 Draco gives z = 4.48 (Wolf,
+coefficient 3), 4.31 (Walker, aperture-matched), 3.7 (Walker as the site
+wrote it) and 4.04 under the L_V × 1.3 stress test, with escape M/L at
+3.51 of 6.9 (Wolf) or 6.2 (Walker, aperture-matched). Every Draco value
+clears 3.51, the six-system Šidák threshold kept as before, but the
+margin under the stress test is 0.5σ, and Draco is also a MOND+EFE
+failure (above). The site also withdraws its 10-04 and 11-15 statements
+that dwarf kinematics close the no-CDM cap 1/Ω_b = 20.3 (it now gives
+2.5–2.8σ against that cap); this paper never printed them. Count HELD at
+6. Source: <code>PREDICTIONS.md</code> back-annotation
+<code>3ad8c74b</code> (iii), relaying the site explorer’s 2026-11-19
+read, which neither the site maintainer nor this pass re-ran; every
+Draco figure is from the 11-16 and 11-20 notes above.]</em>;</p>
+<p><strong>(4)</strong> RAR environment dependence (TEST-08) — SPARC ×
+Cosmicflows-4, r² = 0.0001 against a registered &gt; 0.20 <em>[CHECKED
+2026-11-09: 0.0001 is a point estimate (r = +0.012, N = 141). The 95%
+upper limit is r² ≈ 0.03 (Fisher 0.031, bootstrap 0.030), which is 2.9×
+under the kill bar of r² &lt; 0.09 and 6.4× under the claimed 0.20. The
+margin is that, not the hundreds of times the point estimate suggests.
+The kill still fires. The registered sentence, “explains &gt; 20% of RAR
+scatter”, names no denominator. The same back-annotation reads it
+against intrinsic scatter as about 0.04 of total variance, which the
+upper limit would exclude only narrowly; that 0.04 is relayed, not
+re-derived here. Count HELD at 6. Source: <code>82d9a3a8</code> (iv);
+recomputed from the tracked per-galaxy table in
+<code>simulations/publisher_20261109_test08_upper_limit.py</code>.]</em>;</p>
+<p><strong>(5)</strong> the SPARC × Cassini joint squeeze (TEST-11) —
++17.95σ <em>[CHECKED 2026-11-07: the +17.95σ is at γ = 0.489, and the
+registered joint test evaluated Cassini only inside SPARC’s point-level
+interval (0.425–0.600), marking higher γ “not required”. Re-run with a₀
+profiled from SPARC at each γ, at all three registered external fields
+(2.00, 2.32, 2.48 ×10⁻¹⁰ m s⁻²), Cassini fails at <strong>14.5–19.3σ for
+every γ from 0.3 to 3</strong>, nearly flat in γ. So this row does not
+depend on the γ ≈ ½ pin, and in the decomposition at “(4) The six
+refutations” above, <code>C_g</code>’s two entries no longer sit at
+different γ: at γ = 2 the RAR shape (ΔBIC +184) and Cassini (14.9–16.8σ)
+both exclude it. An earlier ledger statement that the compander “passes
+at γ ≳ 1.5–2” held a₀ fixed at 1.03×10⁻¹⁰; this paper never printed it.
+The row stays conditional on a modified-Poisson (QUMOND) completion, as
+before, and the count is HELD at 6. Source: <code>PREDICTIONS.md</code>
+back-annotation <code>330d49d1</code> (i); script
+<code>synchronism-site/maintainer/scripts/cassini_q2_at_sparc_profiled_a0_high_gamma.py</code>,
+re-run by the Publisher 2026-11-07 with byte-identical output and its
+identity control (+17.96σ at γ = 0.489) reproducing. [UPDATE 2026-11-08:
+two limits on the sentence above. (a) “From 0.3” reaches too far. The γ
+= 0.3 and 0.35 rows are not converged: z changes with small shifts in a₀
+(up to 0.3%) and with the solver order, and a 12-draw scan spans 8–28σ
+at γ = 0.3 and 10–24σ at γ = 0.35. Every draw stays above 5σ, so the
+verdict holds there, but those rows carry no usable number. The
+14.5–19.3σ range stands for γ 0.4–3, where the same scan moves z by at
+most 0.6σ (single-draw spikes at the highest external field, γ = 0.4 and
+0.489) and by at most 0.1σ at γ ≥ 0.6. (b) Every σ here pins Υ at 0.5
+(disc) and 0.7 (bulge), and z depends strongly on that zero point
+through a₀. Scale both by one factor and re-profile a₀, on the 134
+bulge-free galaxies: γ = 0.489 and γ = 1 do not pass at any factor up to
+3; γ = 3 passes at Υ_d ≈ 1.22 and γ = 2 at Υ_d ≈ 1.40. That is 2.4–2.8
+times the stellar-population value, and 36–42% of galaxies then have
+<code>g_bar</code> above <code>g_obs</code> by more than 20% at some
+radius (6% at the pinned value), which a law with boost ≥ 1 cannot fit.
+γ = 3 at that scale costs +480 point-level against γ = 0.489, 2.9σ at
+galaxy level. So this row does not depend on the γ pin, but it does
+depend on Υ_d near 0.5. MOND’s own interpolating family behaves
+differently (δ sets how sharp the transition is; δ = 1 is McGaugh’s
+function): on the same sample, δ = 6 passes at Υ_d ≈ 0.54 for +128, 1.8σ
+(Desmond, Hees &amp; Famaey 2024 report 1.9σ with Υ freedom and no
+bulges, on a richer instrument). The row’s shared MOND root therefore
+holds at δ = 1 and γ ≈ ½ only. AQUAL is untested for both families.
+Count HELD at 6. Source: <code>PREDICTIONS.md</code> back-annotation
+<code>cf84bb8c</code> (ii)–(iii) and site explorer <code>2db4494</code>
+(pre-registered at <code>10d0bdf</code>; the Υ scan and over-maximal
+check are post-hoc); all re-run by the Publisher 2026-11-08 with
+matching values. The convergence scan is new in this pass and is in the
+2026-11-08 run log.]]</em>;</p>
+<p><strong>(6)</strong> the observer-relative Bell/CHSH substrate bet
+(B1) — S = 1.98 ≤ 2 on both arms. <em>[CHECKED 2026-11-21: the substrate
+in (6) is excluded by a measurement, not only by a theorem.
+Loophole-free experiments measure S above 2: Hensen et al. 2015 (Nature
+526, 682) report “S = 2.42 ± 0.20” over 245 trials, with p = 0.039 for a
+local-realist model (abstract read by the Publisher; the photonic
+loophole-free tests of the same year agree and were not re-read). B1’s
+registration assumes free setting choice and counts a violation that
+needs superdeterminism as a refutation, so any construction capped at S
+≤ 2 is excluded by that data. The class the ledger books as untested,
+hidden communication between the patterns, is constrained without being
+built. Bancal et al. 2012 (Nature Physics 8, 867) show that any model
+with hidden influences at a finite speed v, c &lt; v &lt; ∞, that
+reproduces the relevant quantum correlations would allow
+faster-than-light signalling. Assuming no such signalling is possible,
+they exclude every finite speed. Salart et al. 2008 (Nature 454, 861)
+give a lower bound, not an exclusion: if a preferred frame exists in
+which Earth moves slower than 10⁻³ c, any such influence is at least 10⁴
+times faster than light (both abstracts read). Under the no-signalling
+assumption, what is left is a global, instantaneous update in a
+preferred frame, or settings correlated with the hidden state
+(superdeterminism, which B1 counts as a refutation). Global synchrony
+alone does not fix the dynamics. Bohm-type models with a preferred
+foliation are one worked-out example of such dynamics, and they are
+prior art. FUNDAMENTALS.md’s update rule (“all cells simultaneously
+evaluate neighbor tensions and step forward together”) carries influence
+one cell per tick, so the substrate as written there is local and
+excluded. The analogy note in §5.4 instead has the update evaluate “a
+global tension structure that the parallel update evaluates
+simultaneously everywhere”, which is the global escape. Which rule the
+framework has, and whether the ledger relabels this row from a
+construction check to an exclusion on data, gate on dp. This also
+sharpens the dataset paragraph below: (6) analyses no external dataset,
+but its verdict rests on a laboratory measurement. Count HELD at 6.
+Source: <code>PREDICTIONS.md</code> back-annotation
+<code>3ad8c74b</code> (i) and
+<code>Research/proposals/oort_amplitude_cancels_and_the_cfd_substrate_meets_bell_experiments_20261120.md</code>.]</em></p>
 <p><strong>Measured, not asserted: (2) and (3) fire on the same
 galaxies, by algebraic identity.</strong> The framework’s apparent DM
 fraction and its acceleration boost are the same quantity in two
@@ -4168,12 +4639,15 @@ fit). Its near-source solution (their Eq. 26) varies φ by the Newtonian
 potential over c², ≲ 10⁻⁴ across a galaxy. RG needs an O(1) variation in
 permittivity, so the covariant theory’s galaxies are Newtonian with a
 renormalized G. <strong>Covariant RG is a comparison class without
-working dynamics, not a viable completion.</strong> Re-derived here: the
-PPN values from the standard Brans–Dicke formulas, today’s d ln φ/d ln a
-and Ġ/G at the best fit (Ω₀, Ω_Ξ0) = (0.31, 0.65) from the FLRW system
-as the finding quotes it, and the 2.2 Gpc range. Relayed, not re-run:
-the trace-equation derivation, the ≥ 900σ floor over the admissible
-range, and the galaxy-scale Yukawa solve. Source:
+working dynamics, not a viable completion.</strong> [NOTE 2026-11-11:
+the σ figures in this note are this program’s own unpublished
+computation (site explorer, 2026-10-22). The authors present the theory
+as viable, and no published analysis is cited here for the failure.]
+Re-derived here: the PPN values from the standard Brans–Dicke formulas,
+today’s d ln φ/d ln a and Ġ/G at the best fit (Ω₀, Ω_Ξ0) = (0.31, 0.65)
+from the FLRW system as the finding quotes it, and the 2.2 Gpc range.
+Relayed, not re-run: the trace-equation derivation, the ≥ 900σ floor
+over the admissible range, and the galaxy-scale Yukawa solve. Source:
 <code>synchronism-site/explorer/findings/covariant-refracted-gravity-is-omega-minus-one-brans-dicke-fails-cassini-llr-and-never-reproduces-rg.md</code>
 (PREREG site <code>4e3898f</code> + <code>1244148</code>), routed via
 <code>Research/proposals/gamma_is_identified_only_jointly_with_rho_crit_and_covariant_rg_closes_the_rg_fork_20261023.md</code>
@@ -4449,7 +4923,23 @@ argument</em> — the 08-08 amendment above states the two IDs as the
 identity <code>f_DM = 1 − 1/B</code> — and <code>PREDICTIONS.md</code>
 does not carry it either (<code>git grep</code> 2026-09-01: 0 hits
 in-repo); the landing site is the site alone. <strong>Count HELD at
-6.</strong></li>
+6.</strong> <em>[CHECKED 2026-11-09: <code>B ≥ 13.7</code> is one
+galaxy’s face value (NGC 2915, one of 153) with no significance
+attached, so “+67.8” and “do not intersect” hold at that face value
+only. Using the bound in count item (3) above, the tail needs B of about
+7.5 at χ² ≥ 9 (ε₀ ≤ 0.134), or about 5.7 after the 153-disc correction
+(ε₀ ≤ 0.175). The same ε₀ profile puts those between +12 and +30.8 (rows
+ε₀ = 0.156 and 0.120) and between 0 and +12 (rows 0.220 and 0.156). The
+framework’s own ε₀ = 0.315 costs +7.3 on that profile. So at the
+corrected bound the squeeze costs about what the derived value already
+costs. No σ is attached to any of these: the profile fixes Υ and does
+not marginalise distance or inclination, while the bound profiles all
+three. This narrows the case against this one rescue, not the case
+against the class: its best ε₀ scores χ²/N = 126.5 against MOND’s 52.2
+on the same points. Count HELD at 6. New in this pass: the brackets are
+read from the committed table in the site finding
+<code>the-ceiling-is-a-measurement-and-the-measurement-excludes-it.md</code>,
+and the profile was not re-solved at 0.134 or 0.175.]</em></li>
 <li><strong>The <code>Ω_m</code> versus <code>Ω_m/Ω_b</code> convention
 dispute is measured, and it is small.</strong> The derived
 <code>1/Ω_m = 3.17</code> (ε₀ = 0.315) sits <strong>+7.3</strong> above
@@ -4460,7 +4950,42 @@ Refracted Gravity value on SPARC (DMS 0.56: +137; DMS-universal 0.661:
 +220) — which is not a refutation of RG but a measurement that its
 DiskMass parameters (vertical dispersions, different <code>Υ</code>,
 <code>D</code>, <code>i</code> treatment) <strong>do not
-transfer</strong> to SPARC rotation curves.</li>
+transfer</strong> to SPARC rotation curves. <em>[CHECKED 2026-10-29:
+“small” describes rotation-curve fit quality, not what the two floors
+presuppose, and they presuppose different frameworks. <code>1/Ω_m</code>
+is the cosmology sector’s calibrated floor <code>C₀ = Ω_m</code>, and
+that <code>Ω_m</code> contains about 0.27 of cold dark matter.
+<code>Ω_m/Ω_b</code> is the floor of a galaxy sector that replaces CDM.
+The ledger’s 2026-09-22 block ran the dark-energy sector with ρ_m = ρ_b:
+in each of the two tested variants, none of 400 logarithmically sampled
+γ values in 10⁻⁴…3 gives both acceleration (q₀ &lt; 0) and the
+recombination dark/baryon ratio 5.36, even to a factor 2 (best among
+accelerating samples: 1.54). An independent rerun returned all 400
+samples per variant with no caught exceptions or non-finite result rows;
+this finite scan does not exclude unsampled γ or other model variants.
+The two floors also give opposite TEST-09 verdicts (2026-09-18 sweep,
+TEST-09’s own cuts and V_flat estimator): <code>1/Ω_m</code> gives n =
+3.35, |Δn| = 0.41, fires; <code>(Ω_m−Ω_b)/Ω_b</code> gives 0.30, on the
+strict threshold, does not fire; <code>Ω_m/Ω_b</code> gives 0.26, does
+not fire. (Unrounded, re-run 2026-10-31: |Δn| = 0.406 / 0.297 / 0.260.
+The middle value is 0.003 under the strict bar, not on it, and the 0.3
+edge sits at B_max ≈ 5.31 (interpolated from the free scan) rather than
+at 5.389; <code>PREDICTIONS.md</code> 2026-10-30 (ii). Verdicts
+unchanged.) So the branch on which TEST-09 does not fire belongs to a
+variant whose tested dark-energy samples did not meet both criteria, and
+the branch on which it fires is the framework as written. This ranks the
+conventions under the tested assumptions, not a continuous exclusion. It
+is not a new refutation, and it does not settle whether a
+convention-dependent kill counts in the headline, a recount that gates
+on the project lead. Count HELD at 6. Sources:
+<code>PREDICTIONS.md</code> 2026-09-18, 2026-09-22 and 2026-10-27 (ii)
+blocks;
+<code>Research/proposals/citable_register_ranks_by_framework_not_transferability_and_omega_m_plays_two_roles_20261027.md</code>.
+Both site scripts
+(<code>synchronism-site/maintainer/scripts/which_C_carries_the_floor.py</code>,
+<code>de_sector_without_cdm.py</code>) were re-run by the Publisher on
+2026-10-29 at exit 0, and their output matches the committed
+files.]</em></li>
 <li><strong>A trap the explorer caught in its own draft, recorded
 because it is the first over-<em>affirmation</em> in this sector’s
 history.</strong> Freeing <code>(ε₀, ρ_c)</code> per galaxy gives χ²/N =
@@ -4680,7 +5205,47 @@ companion table instead assumes reach to <code>g_bar = 10⁻¹⁵</code> and
 quotes deficits up to 87×; the abstract does not support that reach, so
 the conservative column is the one inscribed above.</em> The paper’s own
 caveat is circumgalactic gas, and it is not close to sufficient here: a
-factor-2 correction on <code>g_bar</code> moves ν by √2.</p>
+factor-2 correction on <code>g_bar</code> moves ν by √2. <em>[CHECKED
+2026-11-11 — the full text has now been read (ar5iv HTML, in fragments,
+by a fetch subagent), and three things in this paragraph change. (a)
+<strong>Reach.</strong> Sec. 1 puts the outermost radius at g_bar ≈
+10⁻¹⁵ m s⁻², and its footnote 3 says that value “only takes into account
+the stellar and cold gas mass of the galaxy”; hot gas, dust and missing
+baryons “could increase this value to g_bar ≈ 10⁻¹⁴”. The lensing bins
+run from 10⁻¹⁵ to 5×10⁻¹². So the site’s 10⁻¹⁵ reach is the paper’s own
+fiducial, and the coverage note above was wrong to call it unsupported.
+(b) <strong>Census.</strong> The paper’s baryon allowance at the outer
+edge is therefore about ×10, not ×2, and √2 is the wrong scaling.
+Lensing fixes g_obs, so the boost a ceiling must supply is g_obs/g_bar,
+which falls as 1/f when the baryons rise by f; √f is how MOND’s own ν
+moves. Recomputed with this paragraph’s ceilings (17.8, 8.4, 4.0) and
+g_obs on MOND’s curve: at a fiducial 10⁻¹⁵ the shortfalls are 19×, 41×
+and 87×, and ×10 baryons cuts them to 2.0×, 4.1× and 8.7×. At a fiducial
+10⁻¹⁴ the printed 6×, 13×, 28× become pass, 1.3× and 2.8× under the same
+×10. The mass-dependent ceiling still fails at 10¹⁰ and 10¹¹ solar
+masses, by a margin about ten times smaller than printed. Script:
+<code>simulations/publisher_20261111_lensing_ceiling_census.py</code>;
+no Brouwer data point was read, and the ×10 is the paper’s statement for
+its outer edge only. (c) <strong>Deflection.</strong> Reading a lensing
+g_obs as a dynamical boost assumes light follows the same effective
+potential that moves stars, and this framework has written no
+light-deflection rule. The other rule does not save the ceiling. If
+light follows the visible matter only, lensing shows no boost at all:
+g_obs = g_bar, raised by at most the ×10 baryon allowance. Brouwer et
+al. report the opposite, a measured RAR that “agrees well with the MG
+predictions”. On MOND’s curve the boost at g_bar = 1.3, 2.3 and 4×10⁻¹³
+m s⁻² is about 31, 23 and 18, all inside the range they treat as
+reliable (above 10⁻¹³, their Sec. 5.4 as quoted by the site), so ×10
+baryons still leave 3.1×, 2.3× and 1.8× unexplained. So “dies
+independently” holds under either rule. The only reading that passes
+puts unseen matter in the lens, and that is a dark-matter model rather
+than this framework. Corrected 2026-11-12: the 11-11 wording made the
+verdict conditional on the rule. The site’s 2026-11-11 block
+(<code>PREDICTIONS.md</code>) reaches the same verdict on the KiDS bins
+as the site transcribed them, at 7.2 to 10.6σ against the visible-only
+rule even at ×10; those σ values are relayed, not re-run here.
+Committing to a rule still gates on the project lead. The count of 6
+does not depend on this paragraph.]</em></p>
 <p><strong>Two numbers withdrawn from the 08-30/09-01 record — and the
 reason a reproduction did not catch them.</strong> The statements
 <em>“59% of galaxies put <code>ρ_c</code> at the top grid edge”</em> and
@@ -4947,6 +5512,22 @@ proof.</p>
 yields emergent dark energy:</p>
 <pre><code>ρ_DE = ρ_m · (1-C)/C</code></pre>
 <p>No cosmological constant Λ required.</p>
+<p><em>[CHECKED 2026-11-06: this split survives only when read as a
+fluid. Read as modified gravity, with G_eff = G/C(ρ̄_m(t)) the G of local
+dynamics, it drifts as the mean density falls: Ġ/G = 3H₀·d ln C/d ln ρ.
+At γ = ½ the identity d ln C/d ln x = 1 − C makes this exactly 3(1 −
+Ω_m)H₀ = 1.42×10⁻¹⁰ yr⁻¹. Lunar laser ranging gives (7.1 ± 7.6)×10⁻¹⁴
+yr⁻¹ (Hofmann &amp; Müller 2018, as quoted on the site, not re-read
+here). Every γ from 0.3 to 3 exceeds the 2σ upper edge by at least 527×.
+Only the fluid (Cardassian-class) reading survives: gravity unmodified,
+Ġ = 0. This is a different theory from the covariant completion whose
+LLR failure is in the covariant-branch paragraph above. The site
+explorer notes that Ġ/G ~ H₀ for an unscreened G_eff that drives
+acceleration is probably a known class result (locators not yet
+verified), so this is an application, not a new bound. Count unchanged.
+Source: <code>PREDICTIONS.md</code> 2026-11-05 (i);
+<code>synchronism-site/maintainer/scripts/de_modified_g_reading_vs_llr.py</code>,
+re-run by the Publisher 2026-11-06 with byte-identical output.]</em></p>
 <p><strong>Cosmic Coherence Form (Session #241 — “DERIVED” corrected
 below, 2026-08-11):</strong></p>
 <p>The cosmic coherence function has a natural form:</p>
@@ -4991,33 +5572,41 @@ derivation of the 00-component — that derivation was executed the same
 day, site lane, and <em>hardens</em> the conclusion]: the substituted
 model obeys <strong>sign(w₀ + 1) = sign(wₐ)</strong> — no phantom
 crossing, which is the quadrant DESI DR2 prefers in all four of its
-dataset combinations (0 of 16 γ values reach it) — and the two minimal
-covariant completions of Appendix D §D.3’s equation close the escape the
-substitution left open. <strong>Completion A</strong> (the equation as
-written, no new fields): the Bianchi identity forces ρ/C ∝ a⁻³, so the
-background is <em>exactly Einstein–de Sitter</em> for every γ and
-calibration — the dark-energy sector vanishes identically, and the
-vacuum floor ρ/C ≥ ρ_crit/γ leaves the equation no FRW solution beyond a
-≈ 1.037 under Session #100’s own calibration. <strong>Completion
-B</strong> (C as a Brans-Dicke scalar pinned to C(ρ̄(a))) <strong>[PRIOR
-ART 2026-08-26 — this branch is published: the covariant formulation of
-the weak-field law is Sanna, Matsakos &amp; Diaferio 2023 (A&amp;A
-<strong>674</strong>, A209), and Gervani, Diaferio, Pace &amp; Sanna
-2026 (arXiv:2601.22937) integrate its linear perturbations and find
-structure formation delayed to z &lt; 1, contradicting observed high-z
-galaxies. Whether their theory and this construction coincide is
-UNCHECKED — see the 08-26 amendment above.]</strong>: the literal sign
-lock <em>dies</em> — the w = −1 attractor is destroyed, the γ = 1/2
-Λ-degeneracy is broken (no member of the completed family is ΛCDM), and
-w₀ &lt; −1 with wₐ &gt; 0 members exist — but the DESI quadrant (w₀ &gt;
-−1, wₐ &lt; 0) stays empty: 0 of 192 γ values. <strong>[CORRECTED
-2026-08-19/20 — the earlier form of this clause read “0 of 192 γ values
-<em>at every Brans-Dicke ω tested</em>,” which was an
-<strong>under</strong>-refutation in two independent ways, and the
-corrected statement is strictly stronger.]</strong> <em>(i) The tested
-grid was excluded before it was scanned.</em> Brans-Dicke gives
-<code>γ_PPN − 1 = −1/(2+ω)</code>; Cassini (Bertotti, Iess &amp; Tortora
-2003) measures <code>(2.1 ± 2.3)×10⁻⁵</code>, whose 2σ lower edge
+dataset combinations (0 of 16 γ values reach it) <em>[CHECKED 2026-10-30
+— that quadrant (w₀ &gt; −1, wₐ &lt; 0) is not all crossing. In CPL,
+w(a) = w₀ + wₐ(1 − a), so the early value is w₀ + wₐ, and a crossing of
+w = −1 needs w₀ + wₐ &lt; −1; the rest of the quadrant is thawing, which
+never crosses. The sign lock excludes the whole quadrant, so it forbids
+thawing as well as crossing and allows only evolution toward −1. The
+exclusion is wider than “no phantom crossing” says; the verdict is
+unchanged. Source: PREDICTIONS.md 2026-09-23 block; the CPL algebra is
+checked here.]</em> — and the two minimal covariant completions of
+Appendix D §D.3’s equation close the escape the substitution left open.
+<strong>Completion A</strong> (the equation as written, no new fields):
+the Bianchi identity forces ρ/C ∝ a⁻³, so the background is <em>exactly
+Einstein–de Sitter</em> for every γ and calibration — the dark-energy
+sector vanishes identically, and the vacuum floor ρ/C ≥ ρ_crit/γ leaves
+the equation no FRW solution beyond a ≈ 1.037 under Session #100’s own
+calibration. <strong>Completion B</strong> (C as a Brans-Dicke scalar
+pinned to C(ρ̄(a))) <strong>[PRIOR ART 2026-08-26 — this branch is
+published: the covariant formulation of the weak-field law is Sanna,
+Matsakos &amp; Diaferio 2023 (A&amp;A <strong>674</strong>, A209), and
+Gervani, Diaferio, Pace &amp; Sanna 2026 (arXiv:2601.22937) integrate
+its linear perturbations and find structure formation delayed to z &lt;
+1, contradicting observed high-z galaxies. Whether their theory and this
+construction coincide is UNCHECKED — see the 08-26 amendment
+above.]</strong>: the literal sign lock <em>dies</em> — the w = −1
+attractor is destroyed, the γ = 1/2 Λ-degeneracy is broken (no member of
+the completed family is ΛCDM), and w₀ &lt; −1 with wₐ &gt; 0 members
+exist — but the DESI quadrant (w₀ &gt; −1, wₐ &lt; 0) stays empty: 0 of
+192 γ values. <strong>[CORRECTED 2026-08-19/20 — the earlier form of
+this clause read “0 of 192 γ values <em>at every Brans-Dicke ω
+tested</em>,” which was an <strong>under</strong>-refutation in two
+independent ways, and the corrected statement is strictly
+stronger.]</strong> <em>(i) The tested grid was excluded before it was
+scanned.</em> Brans-Dicke gives <code>γ_PPN − 1 = −1/(2+ω)</code>;
+Cassini (Bertotti, Iess &amp; Tortora 2003) measures
+<code>(2.1 ± 2.3)×10⁻⁵</code>, whose 2σ lower edge
 <code>−2.5×10⁻⁵</code> forces <strong>ω ≥ 4.0×10⁴</strong> for an
 unscreened massless scalar — so the published grid
 <code>ω ∈ {0, 1, 5, 50}</code> topped out <strong>800× inside the
@@ -5126,7 +5715,33 @@ refutes nothing. Sources:
 <code>Research/proposals/de_locality_fork_perturbation_channel_factor_two_20260818.md</code>
 and triaged in
 <code>explorations/2026-08-18-de-locality-fork-perturbations-buy-x2-and-session107-is-a-different-refuted-mechanism.md</code>.
-A direct likelihood fit of the w(z; γ) family to DESI DR2 +
+<em>[CHECKED 2026-11-15: the three claims above (no order-ε⁰ term, no
+independent channel, a channel ~10× underpowered) hold only without a
+pressure term. Read at local density with the dark energy comoving with
+the matter (Gondolo &amp; Freese’s fluid Cardassian, the one completion
+that keeps ρ_DE a function of local ρ_m without new fields), the sector
+is a barotropic fluid with sound speed c_s² ≈ 0.22 ε today. The 08-18
+growth equation has no Jeans term c_s²(k/aH)², and on the scales where
+P(k) is measured that term carries all of the effect. With it, existing
+P(k) already excludes the fluid local horn unless |ε| &lt; 9.1×10⁻⁶ (ε
+&lt; 0) or 9.9×10⁻⁶ (ε &gt; 0), i.e. γ = ½ ± 5×10⁻⁶, about 5,000×
+narrower than the DESI-fit 1σ. At γ = 0.487 the matter power ratio to
+ΛCDM is 9.7 at k = 0.01 h/Mpc. On this reading the channel is not
+underpowered: data already fix γ = ½. The γ = 0.487 ± 0.02 fit below
+therefore survives only on the mean-density (background-only) reading,
+which gives up the local evaluation this paragraph says the postulate
+requires. The mechanism is published prior art (generalized Chaplygin
+gas, Sandvik et al. 2004; fluid Cardassian, Amarzguioui, Elgarøy &amp;
+Multamäki 2005). Limits: a single adiabatic fluid; letting only the CDM
+carry the pressure loosens the galaxy-P(k) band about 10×, to |ε| ~
+10⁻⁴, and lensing, which sees the CDM, not at all. No registered
+prediction is refuted; count HELD at 6. Source:
+<code>PREDICTIONS.md</code> 2026-09-15 block and 2026-11-14 (iv);
+<code>synchronism-site/explorer/findings/scripts/de_horn_l_as_a_fluid_jeans_term.py</code>
+(pre-registered at site <code>7d8efbf</code>) and
+<code>de_horn_l_fluid_controls.py</code> (post-hoc controls), both
+re-run by the Publisher 2026-11-15 with byte-identical output.]</em> A
+direct likelihood fit of the w(z; γ) family to DESI DR2 +
 Planck-compressed CMB + DES-SN5YR (site explorer, 2026-08-12; the Δχ²
 numbers are site-executed and not re-run in-repo, though the pipeline
 self-validates against DESI’s published ΛCDM and w₀wₐ results) confirms
@@ -5178,12 +5793,40 @@ statement carries factor-2 slack. γ, a₀ and ϒ are one flat degeneracy
 ≡ the derived value at indistinguishable rms), so <strong>the galaxy
 sector’s shape parameter is unidentified at factor 2</strong> — a
 sharper statement than “it reduces to MOND,” since an unidentified
-parameter cannot carry a novel prediction. This does not disturb the
-door-#1 verdict, whose load-bearing kills are the ≤25% admixture bound
-and the g_bar→ρ locality no-go rather than the exact γ value.
-<strong>Provenance and what was not re-run</strong>: the stat term is
-corroborated in-repo as above; the ϒ sweep, the ϒ = 0.55 flip and the a₀
-dissolution are <strong>site-executed and not reproduced here</strong>
+parameter cannot carry a novel prediction. <em>[CHECKED 2026-10-30 — the
+“factor 1.96” tension compared the wrong a₀. This section’s own
+deep-limit identity (the paragraph showing the fit depends on γ and a₀
+“only through the ratio γ/a₀”) makes the fit’s Milgrom-equivalent scale
+the fitted a₀ divided by γ: 5.33×10⁻¹¹ / 0.489 = 1/(9.17×10⁹) =
+1.09×10⁻¹⁰, 4.6% above cH₀/2π = 1.04×10⁻¹⁰. There was no factor-1.96
+tension to dissolve: 1.96 is the 1/γ conversion at γ ≈ ½, and the ϒ =
+0.6 “dissolution” is that conversion going to ≈ 1 as the fitted γ
+approaches 1 (γ ≈ 0.96 there, per the source block). The scale is
+identified; what stays unidentified is the shape (the ϒ ↔︎ γ degeneracy),
+so the conclusion just stated stands. [UPDATE 2026-11-09: “identified”
+holds only with γ free. a₀′/γ stays at 1.04–1.09×10⁻¹⁰ across Υ_disk =
+0.4–0.7 because the fitted γ runs 0.28 → 2.14 along the valley (site
+<code>5a95614</code>, predictions before the script, same frozen
+pipeline). Pinned at γ = ½, the reading this section keeps, the
+Milgrom-equivalent a₀ = a₀′/γ moves 1.44 → 1.10 → 0.87×10⁻¹⁰ m s⁻² at
+Υ_disk = 0.4 / 0.5 / 0.6, and closing a₀ = cH₀/2π needs H₀ ≈ 93 / 71 /
+57 km s⁻¹ Mpc⁻¹. So the 4.6% agreement with cH₀/2π holds at one
+mass-to-light ratio, within the ±0.24×10⁻¹⁰ m s⁻² systematic that
+McGaugh, Lelli &amp; Schombert 2016 quote on g†. Read “the scale is
+identified” as identified jointly with γ, the same shape as the 10-23
+note on γ and ρ_crit. Source: <code>PREDICTIONS.md</code>
+back-annotation <code>6fe7b696</code> (iii), which names this as the
+ledger’s own 10-04 error; <code>gamma2_global_upsilon_per_law.py</code>
+P5/P6, re-run by the Publisher 2026-11-10 with byte-identical output.]
+Source: PREDICTIONS.md 2026-10-04 block (i), which reports a₀/γ =
+1.074–1.092×10⁻¹⁰ across ϒ = 0.4–0.6 (site script, not re-run here); the
+arithmetic in this note uses only numbers printed in this section.]</em>
+This does not disturb the door-#1 verdict, whose load-bearing kills are
+the ≤25% admixture bound and the g_bar→ρ locality no-go rather than the
+exact γ value. <strong>Provenance and what was not re-run</strong>: the
+stat term is corroborated in-repo as above; the ϒ sweep, the ϒ = 0.55
+flip and the a₀ dissolution are <strong>site-executed and not reproduced
+here</strong>
 (<code>synchronism-site/explorer/findings/scripts/sparc_gamma_interval_frozen_likelihood.py</code>
 exceeded the in-session compute budget and was terminated at exit 143
 before output). Open thread, carried as the source states it: a
@@ -5670,6 +6313,21 @@ Synchronism coherence function:</p>
 <pre><code>2Δ₀/(k_B T_c) = 2√π ≈ 3.54</code></pre>
 <p><strong>Observed</strong>: 3.52 for conventional superconductors
 (<strong>&lt;1% error</strong>)</p>
+<p><em>[CHECKED 2026-11-17: the 3.52 is BCS’s own weak-coupling
+prediction, not a measurement, and 2√π is not derived from it. Solving
+the gap equation above at couplings λ = 0.15–0.30 gives 2Δ₀/(k_B T_c) =
+3.528–3.532, against the closed form 2π·exp(−0.5772) = 3.5278 (0.5772 is
+Euler’s constant). 2√π = 3.5449 sits 0.49% above that, so “&lt;1% error”
+measures the distance between two numbers, one of which BCS already
+fixes. The source’s “2D phase space” route (Chemistry Session #1 §3.3)
+builds √π from Gaussian integrals and never uses the gap equation. The
+γ-dependent ratio in the same session’s script, 2π/tanh(γ·ln 2), gives
+7.12 at γ = 2, which the script’s own printout calls “too high”.
+Measured ratios for elemental superconductors fall on both sides of 3.53
+(roughly 3.2 to 4.6, with strong-coupling Pb and Hg highest; standard
+tables, not re-read in this pass). Script:
+<code>simulations/publisher_20261117_bcs_ratio_and_gamma_check.py</code>,
+rc 0. Words added, none removed.]</em></p>
 <p><strong>Physical Meaning:</strong></p>
 <ul>
 <li>Cooper pairs are phase-locked electron pairs (Δφ = 0)</li>
@@ -5704,6 +6362,20 @@ Synchronism coherence function:</p>
 </tr>
 </tbody>
 </table>
+<p><em>[CHECKED 2026-11-17: the superconductor “~2” is BCS’s γ, not a
+measurement of the template. (The text above reads the same tanh(E/2kT)
+as γ = 1.) The archive fits behind it (Chemistry Session #1 §4.4: Al
+2.31, Nb 2.65, Pb 2.45, knee pinned at β = 2) use six hand-typed
+“representative” points per metal. Fitting the template to the textbook
+BCS curve Δ/Δ₀ = tanh(1.74·√(T_c/T − 1)) on the same temperature grid,
+with no data, returns γ = 2.644. With the knee β free, the same curve
+fits at γ = 0.57, β = 16, and for β = 1, 2, 4 the fitted γ is 4.1, 2.2,
+1.3. Here γ sets the knee position and is not identified on its own. The
+galaxy row’s γ = 2 is also not the value galaxy fits return (§5.15).
+Source: back-annotation <code>d71f1f8b</code> (2026-11-16) and the site
+explorer’s <code>gamma_incumbent_map/sc2.py</code> (sha256
+<code>7fcb8ead…</code>), re-run by the Publisher 2026-11-17 from a /tmp
+copy with byte-identical output. Words added, none removed.]</em></p>
 <p>The same mathematical structure (tanh coherence) appears across
 scales—from Cooper pairs to galaxy rotation curves. This supports the
 view that coherence is a universal organizing principle.</p>
