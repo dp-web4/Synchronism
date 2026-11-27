@@ -1,5 +1,24 @@
 # Synchronism: A Blue-Sky Coherence Exploration
 
+## A note from the founder
+
+> We usually treat physics and mathematics as what reality *is*. Synchronism starts from a humbler position. We propose that there is no physics and no math, only magic. The models of reality we build are incomplete. They may simply be spells we have learned to cast reliably enough to be useful, with careful recipes and scripted rituals for practicing them.
+>
+> We still don't know how gravity actually works. We use it every day, and we have sophisticated mathematics that describes what it does, with great precision. Not how it does it.
+>
+> **Synchronism is an exploration of the spells, in the hope of better understanding the magic.**
+>
+> My hypothesis is that emergence is how everything comes to exist: atoms and galaxies, why water freezes and ice melts, why life organizes itself. Synchronism is an attempt to take that hypothesis seriously and see how far it goes.
+>
+> Everything else here is a lab notebook: what we have tried, what we have found, and what we want to try next. Many of our attempts have failed, and we publish the failures as carefully as the rest. An idea that didn't hold is not the end of the inquiry. It is a spell that didn't cast, and a clue about the magic.
+>
+> If this way of looking at things interests you, read on, and get in touch.
+>
+> — Dennis Palatov, founder
+
+---
+
+
 **Synchronism is a single-observer, CFD-like model of the physical universe.** Reality is
 modeled as a discrete Planck-grid computational-fluid substrate where a *reified* field
 ("Intent" — a useful fiction, not a force) flows, **saturation** forms the walls that let
