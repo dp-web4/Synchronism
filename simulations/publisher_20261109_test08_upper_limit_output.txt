@@ -1,0 +1,12 @@
+N = 141, r = +0.0118, r^2 = 0.00014   (identity: registered run printed r=+0.012, N=141, r^2=0.0001)
+Fisher 95% r in [-0.154, +0.177]; upper limit on r^2 = 0.0312
+bootstrap seed 1: 95% r in [-0.164, +0.179]; 97.5% quantile of r^2 = 0.0379; 95% quantile of r^2 = 0.0299
+bootstrap seed 2: 95% r in [-0.161, +0.182]; 97.5% quantile of r^2 = 0.0392; 95% quantile of r^2 = 0.0299
+bootstrap seed 3: 95% r in [-0.162, +0.181]; 97.5% quantile of r^2 = 0.0393; 95% quantile of r^2 = 0.0299
+kill bar 0.09: 2.9x the Fisher upper limit; 649x the point estimate
+registered claim 0.2: 6.4x the Fisher upper limit; 1442x the point estimate
+
+per-galaxy offset sd = 0.1244 dex (the variance r^2 is a share of)
+the registered sentence reads 'environment explains >20% of RAR scatter' and names no denominator;
+the pooled point scatter in the registered run is 0.133 dex, a different quantity from the per-galaxy offset sd.
+offset variance / pooled point variance = 0.875

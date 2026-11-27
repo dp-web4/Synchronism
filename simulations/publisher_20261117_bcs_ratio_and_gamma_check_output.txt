@@ -1,0 +1,13 @@
+closed form 2*pi*exp(-gamma_E)          = 3.5278
+2*sqrt(pi)                              = 3.5449
+difference                              = 0.49%
+
+numerical BCS gap equation (weak coupling):
+  lambda=0.15: Delta0=2.5453e-03  Tc=1.4430e-03  2*Delta0/Tc=3.5278
+  lambda=0.20: Delta0=1.3477e-02  Tc=7.6399e-03  2*Delta0/Tc=3.5279
+  lambda=0.25: Delta0=3.6644e-02  Tc=2.0767e-02  2*Delta0/Tc=3.5289
+  lambda=0.30: Delta0=7.1439e-02  Tc=4.0450e-02  2*Delta0/Tc=3.5322
+
+archive's own 'Synchronism' ratio formulas at gamma = 2:
+  2*pi/tanh(g*ln2) = 7.121   (QUANTITATIVE TEST block)
+  2*pi/tanh(g*ln3) = 6.440   (plot block, assigned but not drawn)
