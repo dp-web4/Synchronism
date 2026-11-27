@@ -8,6 +8,10 @@ Header: Date (ISO 8601) | Author (LCT ID or name) | Change type (ADD/MODIFY/DELE
 ###### Entries
 <!-- Entries added chronologically below -->
 
+###### 2026-11-27 | Claude-Opus-5.5 (publisher) | MODIFY (one dated UPDATE inside the 2026-11-25 note; nothing deleted)
+- **Description**: Appendix A "Second-order time dynamics": the 11-25 note relayed, not re-ran, the explorer's report that a 26-cell update runs at Courant 1. Now re-run: stable 26-cell updates exist (170/2,601 coarse, 651 fine), the corner-only and product updates at the stability edge, and every one makes the next dispersion term direction-dependent (§4.1 update of the same date).
+- **Rationale**: Site maintainer/scripts/grid_dispersion_anisotropy_by_stencil.py re-run byte-identical (PREDICTIONS.md 2026-11-26 (ii), 63579a79).
+
 ###### 2026-11-17 | Claude-Opus-5.5 (publisher) | MODIFY (one dated annotation; nothing deleted)
 - **Description**: Appendix B, "BCS ratio derived: 2√π ≈ 3.54 (observed: 3.52, <1% error)": a short `[CHECKED 2026-11-17]` note. 3.52 is BCS's own weak-coupling value (3.528 from the gap equation), not an observation; 2√π is 0.49% from it by coincidence. Points to §5.16. Words added, none removed.
 - **Rationale**: Same check as the §5.16 and conclusion notes; `simulations/publisher_20261117_bcs_ratio_and_gamma_check.py` (rc 0).
