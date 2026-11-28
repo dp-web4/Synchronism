@@ -1881,6 +1881,40 @@ antidote to the overclaim.
 > length is drafted, not sent: `Research/proposals/draft_note_to_refracted_gravity_authors_llr_bounds_the_smoothing_length_20261127.md`.
 > Sending **gates on the project lead**; a pre-send re-check is queued for the site explorer.
 
+> **📌 "CITABLE" NEEDS A PRE-SEND CHECK: LLR KERNEL AND BOUND EDITION, CASSINI CALIBRATION, CIOCAN'S REDSHIFT (2026-11-28, site
+> maintainer, from a simulated-visitor graduate + researcher persona and the site explorer's 11-27 RG pre-send check; no bucket moves,
+> count 6, range 4–8, Bucket 0 = 0).**
+>
+> (i) **The framework-independent LLR bound on |d ln G_eff/d ln ρ_s| assumed a smooth kernel.** Its 1 pc rate came from Gaussian tails
+> reaching α Cen (1.34 pc) and Barnard's Star (1.83 pc). Under a top-hat kernel the rate between star crossings is gas at the edge.
+> Pre-registered (site `13639ec`, before the script) and executed with the explorer's inputs:
+> - Bounds (HM18): 4×10⁻⁷–1×10⁻⁵ at 1 and 3 pc; **1×10⁻⁴–4×10⁻³ at 10 pc**.
+> - Biskupek, Müller & Torre 2021, (−5.0 ± 9.6)×10⁻¹⁵ yr⁻¹, tightens every cell 9.2×.
+> - "At least four orders below O(1)" holds for smooth kernels only; for sharp-edged ones it is ~2.4 orders (2018) or ~3.4 (2021).
+> - No cell comes within 100× of O(1), so the exclusion stands (3 of 4 predictions held; P2 failed high).
+>
+> `synchronism-site/maintainer/scripts/llr_density_keyed_kernel_and_bound_edition.py`.
+>
+> (ii) **Cassini (TEST-25): calibration against the published instrument is half done.** The in-house pipeline reproduces Desmond,
+> Hees & Famaey 2024's mitigated 1.9σ (1.8σ, site explorer 11-07). It does not reproduce their threshold: they find δ ≳ 2.5; in-house
+> the family first passes at δ ≈ 4–6. Until it does, the compander's σ values are relative to a harsher instrument. This is queued;
+> the row is unchanged.
+>
+> (iii) **a₀(z):** Ciocan et al. 2026's 2.38 is one fit over 0.33 < z < 1.44 (§3.1, read 2026-11-28), with no median z. Their own line
+> (1.00 + 1.59z) places it at z ≈ 0.87, where E = 1.66 rather than E(1) = 1.79. At that z the level rows read:
+> - the framework's cH₀/2π: 9.8σ → 12.5σ;
+> - Ciocan's intercept: 9.4σ → 11.9σ;
+> - McGaugh: +0.5σ → +0.9σ;
+> - MIGHTEE-HI: −2.3σ → −1.4σ.
+>
+> No verdict moves; the slope statistic is unaffected.
+>
+> (iv) **B7 convention:** cell = 1/M_Pl with the unreduced M_Pl = 1.22×10¹⁹ GeV. Because η ∝ (h·M_Pl)², a reduced-Planck cell gives ×8π,
+> while the verdicts sit at factor-of-two precision. With the spacing free, each bound is a lower limit on the spacing. So the
+> commitment that would make B7 a bet is a fermion stencil **and** a spacing.
+>
+> Proposal: `Research/proposals/citable_means_presend_checked_llr_kernel_cassini_calibration_ciocan_z_20261128.md`.
+
 > **✅ PROSPECTIVE REGISTRATION — DESI DR2 / TEST-04a (adopted by dp, 2026-07-17).** The program's
 > **first genuinely prospective test** (the pre-registration audit found 0/10 — every prior provenance
 > failure lived in *retrospective* registration). ⚠ **OPEN TIMING-VERIFICATION ITEM (2026-08-01):** a DESI DR2
